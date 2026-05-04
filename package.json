@@ -1,0 +1,11 @@
+{
+  "name": "shilika-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Shilika Jain — Web3 PR & Communications site",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  }
+}
