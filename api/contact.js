@@ -33,19 +33,19 @@ export default async function handler(req, res) {
     return;
   }
 
-  const subject = `New brief from ${name}${company ? ' — ' + company : ''}`;
+  const subject = `New brief from ${name}${company ? ' - ' + company : ''}`;
   const html = `
     <h2 style="font-family: Georgia, serif;">New inquiry via shilika.site</h2>
     <table style="font-family: Arial, sans-serif; font-size: 14px; line-height: 1.6;">
       <tr><td><b>Name:</b></td><td>${escapeHtml(name)}</td></tr>
       <tr><td><b>Email:</b></td><td>${escapeHtml(email)}</td></tr>
-      <tr><td><b>Company:</b></td><td>${escapeHtml(company || '—')}</td></tr>
+      <tr><td><b>Company:</b></td><td>${escapeHtml(company || '-')}</td></tr>
       <tr><td><b>Engagement:</b></td><td>${escapeHtml(budget)}</td></tr>
     </table>
     <h3 style="font-family: Georgia, serif; margin-top:20px;">Message</h3>
     <p style="font-family: Arial, sans-serif; font-size:14px; line-height:1.6; white-space:pre-wrap;">${escapeHtml(message)}</p>
   `;
-  const text = `New inquiry via shilika.site\n\nName: ${name}\nEmail: ${email}\nCompany: ${company || '—'}\nEngagement: ${budget}\n\nMessage:\n${message}`;
+  const text = `New inquiry via shilika.site\n\nName: ${name}\nEmail: ${email}\nCompany: ${company || '-'}\nEngagement: ${budget}\n\nMessage:\n${message}`;
 
   const payload = {
     personalizations: [{ to: [{ email: RECIPIENT_EMAIL }], subject }],
