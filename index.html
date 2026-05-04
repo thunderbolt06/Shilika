@@ -1009,8 +1009,9 @@ a.press-item { text-decoration: none; }
   align-items: start;
 }
 @media (max-width: 900px) {
-  .about-grid { grid-template-columns: 1fr; }
-  .about-photo { position: static; top: auto; }
+  .about-grid { grid-template-columns: 1fr; gap: 32px; }
+  .about-photo { position: static !important; top: auto !important; grid-row: 1; }
+  .about-content { grid-row: 2; }
   .photo-frame { aspect-ratio: 4/5; max-width: 480px; margin: 0 auto; }
 }
 
@@ -1136,7 +1137,11 @@ a.press-item { text-decoration: none; }
   border: 1px solid var(--line);
 }
 @media (max-width: 800px) { .process-grid { grid-template-columns: repeat(2, 1fr); } }
-@media (max-width: 500px) { .process-grid { grid-template-columns: 1fr; } }
+@media (max-width: 500px) {
+  .process-grid { grid-template-columns: 1fr; }
+  .process-step { min-height: 0; padding: 28px 24px; }
+  .process-step h4 { margin-top: 0; }
+}
 
 .process-step {
   background: var(--paper);
@@ -2146,8 +2151,6 @@ a.press-item { text-decoration: none; }
   </div>
   <div class="footer-row">
     <span class="mono">© SHILIKA JAIN - 2019-2026</span>
-    <span class="mono">DESIGNED IN BANGALORE · OPERATING WORLDWIDE</span>
-    <span class="mono">v.1.0 - <span id="clock">--:--:--</span> IST</span>
   </div>
 </footer>
 
