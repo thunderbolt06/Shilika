@@ -49,7 +49,7 @@ export default async function handler(req, res) {
 
   const payload = {
     personalizations: [{ to: [{ email: RECIPIENT_EMAIL }], subject }],
-    from: { email: SENDER_EMAIL, name: 'Shilika Site' },
+    from: { email: SENDER_EMAIL, name: 'Shilika' },
     reply_to: { email, name },
     content: [
       { type: 'text/plain', value: text },
