@@ -1008,7 +1008,11 @@ a.press-item { text-decoration: none; }
   gap: clamp(40px, 6vw, 100px);
   align-items: start;
 }
-@media (max-width: 900px) { .about-grid { grid-template-columns: 1fr; } }
+@media (max-width: 900px) {
+  .about-grid { grid-template-columns: 1fr; }
+  .about-photo { position: static; top: auto; }
+  .photo-frame { aspect-ratio: 4/5; max-width: 480px; margin: 0 auto; }
+}
 
 .about-photo { position: sticky; top: 100px; }
 .photo-frame {
