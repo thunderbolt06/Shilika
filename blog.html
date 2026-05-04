@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Field Notes — Shilika Jain</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23282520'/%3E%3Ctext x='50%25' y='52%25' font-family='Georgia,serif' font-size='38' font-style='italic' fill='%23d4ff32' text-anchor='middle' dominant-baseline='middle'%3ESJ%3C/text%3E%3Ccircle cx='50' cy='14' r='3' fill='%23d4ff32'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@300;400;500;600;700&family=Geist+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --ink: oklch(0.16 0.01 80);
+  --ink-2: oklch(0.22 0.01 80);
+  --paper: oklch(0.96 0.01 90);
+  --paper-2: oklch(0.92 0.015 85);
+  --cream: oklch(0.93 0.04 85);
+  --lime: oklch(0.92 0.18 115);
+  --muted: oklch(0.55 0.01 80);
+  --line: oklch(0.85 0.01 80);
+  --line-dark: oklch(0.30 0.01 80);
+  --font-display: 'Instrument Serif', 'Times New Roman', serif;
+  --font-body: 'Inter Tight', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'Geist Mono', 'JetBrains Mono', monospace;
+  --max: 1440px;
+  --pad: clamp(20px, 4vw, 64px);
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--font-body);
+  background: var(--paper);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+.mono { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; }
+
+/* Nav */
+.nav {
+  position: fixed; top: 0; left: 0; right: 0;
+  z-index: 100;
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 18px var(--pad);
+  background: rgba(247, 246, 241, 0.85);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--line);
+}
+.nav-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); }
+.nav-logo-text {
+  font-family: var(--font-display);
+  font-size: 22px; font-style: italic;
+  letter-spacing: -0.01em;
+}
+.nav-logo-dot { color: var(--lime); margin: 0 2px; }
+.nav-links {
+  display: flex; gap: 28px;
+  list-style: none;
+  font-family: var(--font-mono);
+  font-size: 12px; text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.nav-links a { position: relative; padding: 4px 0; color: var(--ink); text-decoration: none; }
+.nav-links a::after {
+  content: ''; position: absolute; left: 0; bottom: 0;
+  width: 0; height: 1px; background: var(--ink);
+  transition: width 0.4s var(--ease-out-quart);
+}
+.nav-links a:hover::after, .nav-links a.is-current::after { width: 100%; }
+.nav-cta {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 10px 18px;
+  background: var(--ink); color: var(--paper);
+  font-family: var(--font-mono); font-size: 11px;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 100px;
+  transition: background 0.3s, color 0.3s;
+}
+.nav-cta:hover { background: var(--lime); color: var(--ink); }
+@media (max-width: 800px) { .nav-links { display: none; } }
+
+/* Header */
+.blog-header {
+  padding: 160px var(--pad) 80px;
+  border-bottom: 1px solid var(--line);
+  background: var(--paper);
+  position: relative;
+  overflow: hidden;
+}
+.blog-header-grid {
+  max-width: var(--max);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 40px;
+  align-items: end;
+}
+.blog-kicker {
+  display: inline-flex; align-items: center; gap: 10px;
+  font-family: var(--font-mono); font-size: 11px;
+  letter-spacing: 0.18em; text-transform: uppercase;
+  margin-bottom: 24px;
+}
+.blog-kicker .num {
+  background: var(--lime); color: var(--ink);
+  padding: 3px 8px; border-radius: 3px;
+}
+.blog-title {
+  font-family: var(--font-display);
+  font-size: clamp(56px, 9vw, 144px);
+  line-height: 0.92;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+}
+.blog-title em {
+  font-style: italic;
+  background: linear-gradient(120deg, transparent 30%, var(--lime) 30%, var(--lime) 90%, transparent 90%);
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  padding: 0 0.1em;
+  animation: hl-sweep 1.6s 0.4s var(--ease-out-quart) forwards;
+}
+@keyframes hl-sweep { to { background-position: 0 0; } }
+.blog-sub {
+  font-family: var(--font-display);
+  font-size: clamp(18px, 1.5vw, 22px);
+  font-style: italic;
+  color: var(--muted);
+  max-width: 36ch;
+  text-align: right;
+}
+@media (max-width: 800px) {
+  .blog-header-grid { grid-template-columns: 1fr; }
+  .blog-sub { text-align: left; }
+}
+
+.blog-meta-row {
+  max-width: var(--max);
+  margin: 60px auto 0;
+  display: flex; justify-content: space-between;
+  font-family: var(--font-mono); font-size: 11px;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--muted);
+  border-top: 1px solid var(--line);
+  padding-top: 20px;
+}
+
+/* Articles list */
+.articles {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 80px var(--pad) 120px;
+}
+
+.article {
+  display: grid;
+  grid-template-columns: 80px 1fr 360px;
+  gap: 60px;
+  padding: 50px 0;
+  border-bottom: 1px solid var(--line);
+  align-items: start;
+  transition: padding 0.5s var(--ease-out-quart);
+  position: relative;
+}
+.article:hover { padding-left: 16px; }
+.article::before {
+  content: '';
+  position: absolute;
+  left: -16px; top: 50%;
+  width: 0; height: 1px;
+  background: var(--ink);
+  transition: width 0.5s var(--ease-out-quart);
+}
+.article:hover::before { width: 12px; }
+
+.article-num {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--muted);
+  padding-top: 6px;
+  letter-spacing: 0.1em;
+}
+
+.article-body { max-width: 60ch; }
+.article-meta {
+  display: flex; gap: 16px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 14px;
+  align-items: center;
+}
+.article-cat {
+  background: var(--ink); color: var(--paper);
+  padding: 4px 10px; border-radius: 3px;
+}
+.article h2 {
+  font-family: var(--font-display);
+  font-size: clamp(34px, 4vw, 52px);
+  line-height: 1.0;
+  letter-spacing: -0.015em;
+  font-weight: 400;
+  margin-bottom: 18px;
+  text-wrap: balance;
+}
+.article h2 a {
+  color: var(--ink);
+  text-decoration: none;
+  background-image: linear-gradient(var(--lime), var(--lime));
+  background-size: 0% 0.18em;
+  background-repeat: no-repeat;
+  background-position: 0 88%;
+  transition: background-size 0.5s var(--ease-out-quart);
+}
+.article:hover h2 a { background-size: 100% 0.18em; }
+.article-excerpt {
+  font-size: 17px;
+  line-height: 1.55;
+  color: oklch(0.35 0.01 80);
+  margin-bottom: 22px;
+}
+.article-cta {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1px solid var(--ink);
+  padding-bottom: 4px;
+}
+.article-cta svg { transition: transform 0.4s var(--ease-out-quart); }
+.article-cta:hover svg { transform: translate(4px, -4px); }
+
+/* Visual placeholder */
+.article-visual {
+  aspect-ratio: 4 / 3;
+  position: relative;
+  overflow: hidden;
+  background: var(--ink);
+  color: var(--paper);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.6s var(--ease-out-quart);
+}
+.article:hover .article-visual { transform: translateY(-4px); }
+.article-visual::after {
+  content: '';
+  position: absolute; inset: 0;
+  background: radial-gradient(circle at 30% 30%, rgba(212, 255, 50, 0.15), transparent 60%);
+}
+
+/* Specific visuals */
+.visual-01 { background: var(--ink); }
+.visual-01 .v-grid {
+  position: absolute; inset: 0;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.06) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+.visual-01 .v-num {
+  position: absolute; left: 24px; top: 22px;
+  font-family: var(--font-mono); font-size: 11px;
+  letter-spacing: 0.15em;
+  color: rgba(255,255,255,0.5);
+}
+.visual-01 .v-stamp {
+  position: absolute; right: 24px; bottom: 24px;
+  text-align: right;
+}
+.visual-01 .v-stamp em {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 56px; font-style: italic;
+  color: var(--lime);
+  line-height: 0.9;
+}
+.visual-01 .v-stamp span {
+  font-family: var(--font-mono); font-size: 10px;
+  color: rgba(255,255,255,0.6);
+  letter-spacing: 0.15em;
+}
+.visual-01 .v-headline {
+  position: absolute; left: 24px; top: 50%;
+  transform: translateY(-50%);
+  font-family: var(--font-display);
+  font-size: 30px; font-style: italic;
+  color: var(--paper);
+  line-height: 1;
+  max-width: 70%;
+}
+
+.visual-02 { background: var(--lime); color: var(--ink); }
+.visual-02 .v-bars {
+  position: absolute; inset: 24px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 6px;
+  align-items: end;
+}
+.visual-02 .v-bar { background: var(--ink); border-radius: 2px; animation: bar-pulse 2.4s ease-in-out infinite; }
+.visual-02 .v-bar:nth-child(1) { height: 20%; animation-delay: 0s; }
+.visual-02 .v-bar:nth-child(2) { height: 45%; animation-delay: 0.1s; }
+.visual-02 .v-bar:nth-child(3) { height: 30%; animation-delay: 0.2s; }
+.visual-02 .v-bar:nth-child(4) { height: 75%; animation-delay: 0.3s; }
+.visual-02 .v-bar:nth-child(5) { height: 60%; animation-delay: 0.4s; }
+.visual-02 .v-bar:nth-child(6) { height: 90%; animation-delay: 0.5s; }
+.visual-02 .v-bar:nth-child(7) { height: 50%; animation-delay: 0.6s; }
+@keyframes bar-pulse { 50% { opacity: 0.6; } }
+.visual-02 .v-label {
+  position: absolute; left: 24px; top: 22px;
+  font-family: var(--font-mono); font-size: 10px;
+  letter-spacing: 0.15em;
+}
+.visual-02 .v-fig {
+  position: absolute; right: 24px; top: 22px;
+  font-family: var(--font-display);
+  font-size: 32px; font-style: italic;
+}
+
+.visual-03 { background: oklch(0.30 0.04 50); color: var(--paper); }
+.visual-03 .v-rings {
+  position: absolute; inset: 0;
+  display: flex; align-items: center; justify-content: center;
+}
+.visual-03 .v-ring {
+  position: absolute;
+  border: 1px solid rgba(212, 255, 50, 0.5);
+  border-radius: 50%;
+  animation: ring-pulse 4s ease-out infinite;
+}
+.visual-03 .v-ring:nth-child(1) { width: 60%; height: 60%; }
+.visual-03 .v-ring:nth-child(2) { width: 80%; height: 80%; animation-delay: 0.6s; }
+.visual-03 .v-ring:nth-child(3) { width: 100%; height: 100%; animation-delay: 1.2s; }
+@keyframes ring-pulse {
+  0%, 100% { opacity: 0.2; transform: scale(0.95); }
+  50% { opacity: 0.7; transform: scale(1); }
+}
+.visual-03 .v-core {
+  width: 14px; height: 14px;
+  background: var(--lime);
+  border-radius: 50%;
+  z-index: 1;
+  box-shadow: 0 0 30px var(--lime);
+}
+.visual-03 .v-tag {
+  position: absolute; left: 24px; bottom: 22px;
+  font-family: var(--font-mono); font-size: 10px;
+  letter-spacing: 0.15em;
+  color: rgba(255,255,255,0.6);
+}
+
+@media (max-width: 900px) {
+  .article {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .article-num { font-size: 11px; }
+  .article-visual { order: -1; }
+}
+
+/* Footer */
+.footer {
+  background: var(--ink);
+  color: var(--paper);
+  padding: 40px var(--pad) 24px;
+  margin-top: 0;
+}
+.footer-row {
+  max-width: var(--max);
+  margin: 0 auto;
+  display: flex; justify-content: space-between;
+  font-family: var(--font-mono); font-size: 10px;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: rgba(255,255,255,0.5);
+  flex-wrap: wrap; gap: 12px;
+}
+
+/* CTA strip */
+.cta-strip {
+  background: var(--ink);
+  color: var(--paper);
+  padding: 100px var(--pad);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.cta-strip h3 {
+  font-family: var(--font-display);
+  font-size: clamp(40px, 6vw, 80px);
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -0.015em;
+  max-width: 18ch;
+  margin: 0 auto 32px;
+}
+.cta-strip h3 em { font-style: italic; color: var(--lime); }
+.cta-strip-btn {
+  display: inline-flex; align-items: center; gap: 10px;
+  background: var(--lime); color: var(--ink);
+  padding: 18px 32px;
+  font-family: var(--font-mono); font-size: 12px;
+  letter-spacing: 0.12em; text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 100px;
+  transition: transform 0.4s var(--ease-out-quart);
+}
+.cta-strip-btn:hover { transform: translateY(-2px); }
+
+/* Reveal */
+.reveal { opacity: 0; transform: translateY(20px); transition: all 0.9s var(--ease-out-quart); }
+.reveal.in { opacity: 1; transform: translateY(0); }
+
+/* Scroll progress */
+.scroll-progress {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  z-index: 200;
+  background: transparent;
+}
+.scroll-progress-bar {
+  height: 100%;
+  background: var(--lime);
+  width: 0%;
+  transition: width 0.1s linear;
+}
+</style>
+</head>
+<body>
+
+<div class="scroll-progress"><div class="scroll-progress-bar" id="progress-bar"></div></div>
+
+<!-- Nav -->
+<nav class="nav">
+  <a href="index.html" class="nav-logo">
+    <svg width="34" height="34" viewBox="0 0 34 34" fill="none">
+      <rect width="34" height="34" rx="8" fill="#282520"/>
+      <text x="50%" y="55%" text-anchor="middle" dominant-baseline="middle" font-family="Georgia, serif" font-size="18" font-style="italic" fill="#d4ff32">SJ</text>
+      <circle cx="27" cy="7" r="2" fill="#d4ff32"/>
+    </svg>
+    <span class="nav-logo-text">SHILIKA<span class="nav-logo-dot">·</span>JAIN</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="index.html#work">Work</a></li>
+    <li><a href="index.html#services">Services</a></li>
+    <li><a href="index.html#press">Press</a></li>
+    <li><a href="index.html#about">About</a></li>
+    <li><a href="blog.html" class="is-current">Blog</a></li>
+    <li><a href="index.html#contact">Contact</a></li>
+  </ul>
+  <a href="https://calendly.com/shilikajain/" target="_blank" rel="noopener" class="nav-cta">
+    <span>Book a call</span>
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.4"/></svg>
+  </a>
+</nav>
+
+<!-- Header -->
+<header class="blog-header">
+  <div class="blog-header-grid">
+    <div>
+      <span class="blog-kicker"><span class="num">/04</span> FIELD NOTES</span>
+      <h1 class="blog-title">Field <em>notes</em><br/>from the<br/>front lines.</h1>
+    </div>
+    <p class="blog-sub">Essays, frameworks &amp; honest takes on Web3 PR — written for founders who want to do this themselves before they hire someone like me.</p>
+  </div>
+  <div class="blog-meta-row">
+    <span>03 ARTICLES · UPDATED MAY 2026</span>
+    <span>SHILIKA JAIN · WEB3 PR</span>
+  </div>
+</header>
+
+<!-- Articles -->
+<main class="articles">
+
+  <!-- Article 1 -->
+  <article class="article reveal">
+    <div class="article-num">001 / 03</div>
+    <div class="article-body">
+      <div class="article-meta">
+        <span class="article-cat">PLAYBOOK</span>
+        <span>· 8 MIN READ</span>
+        <span>· APR 28, 2026</span>
+      </div>
+      <h2><a href="article-1.html">The Tier-1 trap: why most Web3 founders chase the wrong publications.</a></h2>
+      <p class="article-excerpt">Forbes is a vanity metric, not a growth lever. After 6 years of placing stories into top-tier crypto and tradfi outlets, here's the framework I use to decide which 3 publications actually matter for a launch — and the 50 you should ignore.</p>
+      <a href="article-1.html" class="article-cta">
+        Read the essay
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.4"/></svg>
+      </a>
+    </div>
+    <a href="article-1.html" class="article-visual visual-01">
+      <div class="v-grid"></div>
+      <span class="v-num">001 / TIER-1 TRAP</span>
+      <div class="v-headline">The publications<br/>that <em style="font-style:italic; color:var(--lime);">actually</em><br/>move markets.</div>
+      <div class="v-stamp">
+        <em>50→3</em>
+        <span>SHORTLIST FRAMEWORK</span>
+      </div>
+    </a>
+  </article>
+
+  <!-- Article 2 -->
+  <article class="article reveal">
+    <div class="article-num">002 / 03</div>
+    <div class="article-body">
+      <div class="article-meta">
+        <span class="article-cat">APAC</span>
+        <span>· 11 MIN READ</span>
+        <span>· MAR 14, 2026</span>
+      </div>
+      <h2><a href="article-2.html">Korea, Japan, Vietnam: the APAC PR playbook nobody hands you.</a></h2>
+      <p class="article-excerpt">A Cointelegraph headline doesn't translate to a Tokenpost headline. Localisation isn't translation — it's narrative re-architecture. A regional breakdown of which outlets you need, how journalists actually want to be pitched, and the cultural unlock for each market.</p>
+      <a href="article-2.html" class="article-cta">
+        Read the breakdown
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.4"/></svg>
+      </a>
+    </div>
+    <a href="article-2.html" class="article-visual visual-02">
+      <span class="v-label">VOL. SHARE BY MARKET</span>
+      <span class="v-fig">5×</span>
+      <div class="v-bars">
+        <div class="v-bar"></div><div class="v-bar"></div><div class="v-bar"></div>
+        <div class="v-bar"></div><div class="v-bar"></div><div class="v-bar"></div><div class="v-bar"></div>
+      </div>
+    </a>
+  </article>
+
+  <!-- Article 3 -->
+  <article class="article reveal">
+    <div class="article-num">003 / 03</div>
+    <div class="article-body">
+      <div class="article-meta">
+        <span class="article-cat">FOUNDER GUIDE</span>
+        <span>· 6 MIN READ</span>
+        <span>· FEB 02, 2026</span>
+      </div>
+      <h2><a href="article-3.html">From technical founder to category voice: a 90-day profiling sprint.</a></h2>
+      <p class="article-excerpt">Founders don't have a content problem — they have a positioning problem. Here's the exact 90-day playbook I run with new clients to take a CTO from "eng-twitter regular" to opinion piece in CoinDesk, Decrypt, and Cointelegraph.</p>
+      <a href="article-3.html" class="article-cta">
+        Read the sprint
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.4"/></svg>
+      </a>
+    </div>
+    <a href="article-3.html" class="article-visual visual-03">
+      <div class="v-rings">
+        <div class="v-ring"></div>
+        <div class="v-ring"></div>
+        <div class="v-ring"></div>
+        <div class="v-core"></div>
+      </div>
+      <span class="v-tag">90-DAY SPRINT · FOUNDER → VOICE</span>
+    </a>
+  </article>
+
+</main>
+
+<!-- CTA -->
+<section class="cta-strip">
+  <h3>Want to <em>skip</em> the playbook<br/>and just hire someone?</h3>
+  <a href="index.html#contact" class="cta-strip-btn">
+    Get in touch
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.4"/></svg>
+  </a>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-row">
+    <span>© SHILIKA JAIN — 2019—2026</span>
+    <span>FIELD NOTES · v.1.0</span>
+    <span><a href="index.html" style="color:inherit; text-decoration:none;">← BACK TO HOME</a></span>
+  </div>
+</footer>
+
+<script>
+// Reveal on scroll
+const io = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('in'); });
+}, { threshold: 0.12 });
+document.querySelectorAll('.reveal').forEach((el, i) => {
+  el.style.transitionDelay = (i * 0.08) + 's';
+  io.observe(el);
+});
+
+// Scroll progress
+const bar = document.getElementById('progress-bar');
+window.addEventListener('scroll', () => {
+  const h = document.documentElement;
+  const pct = (h.scrollTop / (h.scrollHeight - h.clientHeight)) * 100;
+  bar.style.width = pct + '%';
+}, { passive: true });
+</script>
+
+</body>
+</html>
