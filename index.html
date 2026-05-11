@@ -512,6 +512,173 @@ ul { list-style: none; }
 }
 
 /* =========================================================
+   INTRODUCTION VIDEO + BIO
+   ========================================================= */
+.intro-video {
+  background: var(--ink);
+  color: var(--paper);
+  padding: clamp(72px, 10vw, 160px) 0;
+  border-top: 1px solid rgba(255,255,255,0.08);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  position: relative;
+  overflow: hidden;
+}
+.intro-video::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(900px 500px at 10% 10%, rgba(212,255,50,0.07), transparent 60%),
+    radial-gradient(700px 400px at 90% 90%, rgba(212,255,50,0.05), transparent 60%);
+  pointer-events: none;
+}
+.intro-grid {
+  position: relative;
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0 var(--pad);
+  display: grid;
+  grid-template-columns: 1.05fr 1fr;
+  gap: clamp(40px, 5vw, 80px);
+  align-items: start;
+}
+@media (max-width: 980px) { .intro-grid { grid-template-columns: 1fr; } }
+
+.intro-video .kicker { color: var(--paper); }
+.intro-video .kicker-num { background: var(--lime); color: var(--ink); }
+
+.intro-title {
+  font-family: var(--font-display);
+  font-size: clamp(34px, 4.4vw, 64px);
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  margin: 18px 0 32px;
+  color: var(--paper);
+}
+.intro-title em {
+  font-style: italic;
+  color: var(--lime);
+}
+
+.intro-frame { position: relative; width: 100%; max-width: 640px; }
+.intro-frame-inner {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16/9;
+  background: #000;
+  overflow: hidden;
+  box-shadow:
+    0 1px 0 rgba(255,255,255,0.08),
+    0 30px 80px -30px rgba(0,0,0,0.7);
+}
+.intro-frame-inner iframe {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%; border: 0; display: block;
+}
+.intro-tag {
+  position: absolute;
+  top: -14px; left: 8px;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  background: var(--lime);
+  color: var(--ink);
+  padding: 6px 10px;
+  z-index: 2;
+}
+
+.intro-right { color: rgba(255,255,255,0.86); }
+.intro-lede {
+  font-family: var(--font-display);
+  font-size: clamp(20px, 1.7vw, 26px);
+  line-height: 1.35;
+  letter-spacing: -0.01em;
+  margin: 0 0 24px;
+  color: var(--paper);
+  position: relative;
+}
+.intro-lede strong { color: var(--lime); font-weight: 500; }
+.intro-pull {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 1.4em;
+  color: var(--lime);
+  margin-right: 4px;
+  line-height: 0;
+  vertical-align: -0.2em;
+}
+.intro-body {
+  font-size: clamp(14px, 1.05vw, 16px);
+  line-height: 1.65;
+  color: rgba(255,255,255,0.72);
+  margin: 0 0 36px;
+}
+.intro-body strong { color: var(--paper); font-weight: 500; }
+.intro-body em { font-style: italic; color: var(--lime); }
+
+.intro-divider {
+  display: flex; align-items: center; gap: 12px;
+  margin: 28px 0 18px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  color: rgba(255,255,255,0.55);
+}
+.intro-divider::before, .intro-divider::after {
+  content: ''; flex: 1; height: 1px;
+  background: rgba(255,255,255,0.15);
+}
+
+.intro-reasons {
+  list-style: none; padding: 0; margin: 0 0 32px;
+  display: flex; flex-direction: column;
+}
+.intro-reasons li {
+  display: grid;
+  grid-template-columns: 48px 1fr;
+  gap: 16px;
+  padding: 16px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+.intro-reason-num {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  color: var(--lime);
+  padding-top: 4px;
+}
+.intro-reasons h4 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(17px, 1.4vw, 22px);
+  letter-spacing: -0.01em;
+  margin: 0 0 4px;
+  color: var(--paper);
+}
+.intro-reasons p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: rgba(255,255,255,0.65);
+}
+
+.intro-closer {
+  font-family: var(--font-display);
+  font-size: clamp(22px, 2vw, 30px);
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: var(--paper);
+  margin: 0;
+}
+.intro-closer .lime-mark {
+  font-style: italic;
+  background: linear-gradient(180deg, transparent 62%, var(--lime) 62%, var(--lime) 92%, transparent 92%);
+  padding: 0 6px;
+  color: var(--ink);
+}
+
+/* =========================================================
    TICKER
    ========================================================= */
 .ticker {
@@ -2074,6 +2241,69 @@ a.press-item { text-decoration: none; }
     <p>
       <span class="quote-mark">"</span>I don't pitch products. I pitch <em>inevitabilities</em> - the kind of stories that connect and editors save for Monday morning.<span class="quote-mark">"</span>
     </p>
+  </div>
+</section>
+
+<!-- Introduction -->
+<section class="intro-video" id="intro">
+  <div class="intro-grid">
+    <div class="intro-left">
+      <span class="kicker"><span class="kicker-num">/03.5</span> INTRODUCTION</span>
+      <h2 class="intro-title">Six years putting Web3 &amp; AI founders <em>on the front page.</em></h2>
+      <div class="intro-frame">
+        <div class="intro-frame-inner">
+          <iframe
+            src="https://www.youtube-nocookie.com/embed/MX-vlxWFKgM?rel=0&modestbranding=1"
+            title="Introduction - Shilika Jain"
+            loading="lazy"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen></iframe>
+        </div>
+        <span class="intro-tag">INTRO - 02:14</span>
+      </div>
+    </div>
+
+    <div class="intro-right">
+      <p class="intro-lede">
+        <span class="intro-pull">"</span>My name is <strong>Shilika Jain</strong>. I've spent the last six years putting <strong>Web3</strong> and <strong>AI</strong> founders on the front page.
+      </p>
+
+      <p class="intro-body">
+        I built <strong>CoinMarketCap's</strong> regional comms function from the ground up. I currently lead PR at <strong>Myosin</strong>, a growth-marketing DAO. Across both, I've shaped narratives for <strong>50+ protocols</strong> - NEAR Foundation, Ripple, MANTRA Chain, RARI Foundation, Web3Auth, Fluence, Gaia AI, Stellar, Polygon, Solana Saga - and placed them in <em>Forbes</em>, <em>CoinDesk</em>, <em>Cointelegraph</em>, <em>Decrypt</em>, <em>The Block</em>, <em>Blockworks</em>, <em>AI Magazine</em>. Asia to the States.
+      </p>
+
+      <div class="intro-divider"><span>WHY MOST PR FAILS</span></div>
+
+      <ol class="intro-reasons">
+        <li>
+          <span class="intro-reason-num">01</span>
+          <div>
+            <h4>Cold press release distribution</h4>
+            <p>It gets ignored. Editors filter it before they read it.</p>
+          </div>
+        </li>
+        <li>
+          <span class="intro-reason-num">02</span>
+          <div>
+            <h4>Generic agencies</h4>
+            <p>Recycle the same playbook they use for fintech and ecommerce.</p>
+          </div>
+        </li>
+        <li>
+          <span class="intro-reason-num">03</span>
+          <div>
+            <h4>No track record</h4>
+            <p>The same teams that promise you Forbes have never placed a single token launch.</p>
+          </div>
+        </li>
+      </ol>
+
+      <p class="intro-closer">
+        That's why I built <span class="lime-mark">something different.</span>
+      </p>
+    </div>
   </div>
 </section>
 
