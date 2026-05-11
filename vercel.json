@@ -1,0 +1,16 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/ads/", "destination": "/ads", "permanent": true }
+  ],
+  "headers": [
+    {
+      "source": "/ads",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=300, s-maxage=300" },
+        { "key": "X-Robots-Tag", "value": "noindex, follow" }
+      ]
+    }
+  ]
+}

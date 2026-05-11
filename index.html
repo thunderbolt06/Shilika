@@ -4,6 +4,17 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Shilika Jain - Web3 PR & Communications</title>
+
+<!-- Google tag (gtag.js) - Google Ads conversion tracking -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-CONVERSION_ID"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-CONVERSION_ID', { allow_enhanced_conversions: true });
+</script>
+<!-- /Google tag -->
+
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23282520'/%3E%3Ctext x='50%25' y='52%25' font-family='Georgia,serif' font-size='38' font-style='italic' fill='%23d4ff32' text-anchor='middle' dominant-baseline='middle'%3ESJ%3C/text%3E%3Ccircle cx='50' cy='14' r='3' fill='%23d4ff32'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -2656,6 +2667,85 @@ if (form) {
     }
   });
 }
+
+// ---------- GOOGLE ADS TRACKING: UTM + GCLID + CALENDLY STITCHING ----------
+(function () {
+  // 1. Capture URL params (gclid, utm_*) once per session and stash them.
+  try {
+    var qs = new URLSearchParams(window.location.search);
+    var gclid = qs.get('gclid');
+    if (gclid) sessionStorage.setItem('sj_gclid', gclid);
+
+    ['utm_source','utm_medium','utm_campaign','utm_term','utm_content'].forEach(function (k) {
+      var v = qs.get(k);
+      if (v) sessionStorage.setItem('sj_' + k, v);
+    });
+  } catch (e) { /* no-op */ }
+
+  // 2. Build the param string to append to outbound Calendly links.
+  function buildCalendlyParams() {
+    var params = [];
+    var keys = ['utm_source','utm_medium','utm_campaign','utm_term','utm_content'];
+    keys.forEach(function (k) {
+      var v = sessionStorage.getItem('sj_' + k);
+      if (v) params.push(k + '=' + encodeURIComponent(v));
+    });
+    var gclid = sessionStorage.getItem('sj_gclid');
+    if (gclid) params.push('gclid=' + encodeURIComponent(gclid));
+    return params.join('&');
+  }
+
+  // 3. Rewrite all calendly links on the page so the tracking rides along.
+  function decorateCalendlyLinks() {
+    var extra = buildCalendlyParams();
+    document.querySelectorAll('a[href*="calendly.com"]').forEach(function (a) {
+      try {
+        var u = new URL(a.href);
+        if (extra) {
+          var sep = u.search ? '&' : '?';
+          a.href = u.href + sep + extra;
+        }
+        a.classList.add('cta-book-call');
+      } catch (e) { /* no-op */ }
+    });
+  }
+  decorateCalendlyLinks();
+
+  // 4. Fire gtag conversion event on any Book-a-Call click.
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('a[href*="calendly.com"], .cta-book-call');
+    if (!a) return;
+    if (typeof gtag === 'function') {
+      gtag('event', 'conversion', {
+        send_to: 'AW-CONVERSION_ID/BOOK_CALL_LABEL',
+        value: 40.0,
+        currency: 'USD',
+        transaction_id: ''
+      });
+    }
+  }, { passive: true });
+
+  // 5. Listen for Calendly's "event_scheduled" postMessage (fires on successful booking).
+  window.addEventListener('message', function (e) {
+    if (!e.data || typeof e.data !== 'object') return;
+    if (e.data.event && e.data.event.indexOf('calendly') === 0) {
+      if (e.data.event === 'calendly.event_scheduled' && typeof gtag === 'function') {
+        gtag('event', 'conversion', {
+          send_to: 'AW-CONVERSION_ID/CAL_BOOKED_LABEL',
+          value: 400.0,
+          currency: 'USD'
+        });
+      }
+      if (e.data.event === 'calendly.profile_page_viewed' && typeof gtag === 'function') {
+        gtag('event', 'conversion', {
+          send_to: 'AW-CONVERSION_ID/CAL_LOADED_LABEL',
+          value: 80.0,
+          currency: 'USD'
+        });
+      }
+    }
+  });
+})();
 
 </script>
 </body>
