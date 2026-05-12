@@ -21,3 +21,18 @@ vercel --prod
 - `SENDGRID_API_KEY` - SendGrid API key
 - `SENDER_EMAIL` - verified sender (default `shilika498@gmail.com`)
 - `RECIPIENT_EMAIL` - inbox to receive briefs (default `shilika498@gmail.com`)
+
+## Analytics (PostHog, EU region)
+PostHog is wired in via `assets/analytics.js` and loaded from every HTML page.
+
+To activate it:
+1. Create / open a project at https://eu.posthog.com.
+2. Copy the **Project API Key** (starts with `phc_`).
+3. Open `assets/analytics.js` and replace `phc_REPLACE_WITH_YOUR_POSTHOG_PROJECT_KEY` with that key.
+4. Commit + deploy. Events captured:
+   - Automatic pageviews + pageleaves + autocapture clicks
+   - `contact_form_submit` on the contact form
+   - `calendly_click` on Calendly links
+   - `resume_click` on the bit.ly/shilikajain link
+
+While the placeholder is still in place the snippet short-circuits and sends nothing.

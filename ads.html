@@ -7,6 +7,7 @@
 <meta name="description" content="Embedded fractional PR for newly-funded Web3 and AI founders. Forbes, CoinDesk, Cointelegraph, Decrypt placements. 50+ protocols shaped. Book a 30-min teardown call." />
 <meta name="robots" content="noindex,follow" />
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23282520'/%3E%3Ctext x='50%25' y='52%25' font-family='Georgia,serif' font-size='38' font-style='italic' fill='%23d4ff32' text-anchor='middle' dominant-baseline='middle'%3ESJ%3C/text%3E%3Ccircle cx='50' cy='14' r='3' fill='%23d4ff32'/%3E%3C/svg%3E">
+<!-- Analytics --><script src="assets/analytics.js" defer></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@300;400;500;600;700&family=Geist+Mono:wght@300;400;500&display=swap" rel="stylesheet">
@@ -102,6 +103,38 @@ button, input, textarea, select { font: inherit; color: inherit; }
   padding: clamp(48px, 8vw, 96px) var(--pad) clamp(40px, 6vw, 72px);
   max-width: var(--max);
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  gap: clamp(32px, 5vw, 64px);
+  align-items: center;
+}
+@media (max-width: 820px) {
+  .hero { grid-template-columns: 1fr; }
+  .hero-image { order: -1; }
+}
+.hero-image {
+  position: relative;
+  aspect-ratio: 4/5;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #d9362f;
+  box-shadow: 0 18px 48px -16px rgba(0,0,0,0.25);
+}
+.hero-image img {
+  width: 100%; height: 100%; object-fit: cover; display: block;
+}
+.hero-image::after {
+  content: 'AT THE PRESS LOUNGE · 2026';
+  position: absolute;
+  left: 16px; bottom: 14px;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  color: var(--paper);
+  background: rgba(0,0,0,0.4);
+  padding: 6px 10px;
+  border-radius: 999px;
+  backdrop-filter: blur(6px);
 }
 .kicker {
   font-family: var(--font-mono);
@@ -478,19 +511,24 @@ button, input, textarea, select { font: inherit; color: inherit; }
 
 <!-- HERO -->
 <section class="hero">
-  <span class="kicker">Fractional PR · Web3 · AI · DePIN</span>
-  <h1>
-    Just raised? Don't burn it on a <span class="lime-mark">generic agency.</span>
-  </h1>
-  <p class="hero-sub">
-    <strong>Embedded fractional PR for Web3, AI &amp; DePIN founders</strong> — placing 50+ protocols in <em>Forbes</em>, <em>CoinDesk</em>, <em>Cointelegraph</em>, <em>Decrypt</em>, <em>The Block</em>, <em>Blockworks</em>. Six years. APAC + global. No retainer until you see the press list.
-  </p>
-  <div class="cta-row">
-    <a href="https://calendly.com/shilikajain/" target="_blank" rel="noopener" class="cta-primary cta-book-call">
-      <span>Book a 30-min teardown call</span>
-      <svg viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.5"/></svg>
-    </a>
-    <span class="cta-meta">Shilika replies in <strong>&lt; 24h</strong></span>
+  <div class="hero-text">
+    <span class="kicker">Tier-1 PR · Web3 · AI · DePIN</span>
+    <h1>
+      Tier-1 PR for <em>Web3 &amp; AI</em> <span class="lime-mark">founders.</span>
+    </h1>
+    <p class="hero-sub">
+      <strong>Embedded fractional PR</strong> placing 50+ protocols in <em>Forbes</em>, <em>CoinDesk</em>, <em>Cointelegraph</em>, <em>Decrypt</em>. Six years. APAC + global. No retainer until you see the press list.
+    </p>
+    <div class="cta-row">
+      <a href="https://calendly.com/shilikajain/" target="_blank" rel="noopener" class="cta-primary cta-book-call">
+        <span>Book a 30-min call</span>
+        <svg viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.5"/></svg>
+      </a>
+      <span class="cta-meta">Replies in <strong>&lt; 24h</strong> · shilika498@gmail.com</span>
+    </div>
+  </div>
+  <div class="hero-image">
+    <img src="assets/shilika-press-portrait-960x1200.jpg" alt="Shilika Jain at the Press Lounge - Web3 & AI PR" />
   </div>
 </section>
 
