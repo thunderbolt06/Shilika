@@ -5,21 +5,27 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Shilika Jain - Web3 PR & Communications</title>
 
-<!-- Google tag (gtag.js) - Google Ads conversion tracking -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-CONVERSION_ID"></script>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23282520'/%3E%3Ctext x='50%25' y='52%25' font-family='Georgia,serif' font-size='38' font-style='italic' fill='%23d4ff32' text-anchor='middle' dominant-baseline='middle'%3ESJ%3C/text%3E%3Ccircle cx='50' cy='14' r='3' fill='%23d4ff32'/%3E%3C/svg%3E">
+
+<!-- Resource hints: warm the connections we'll definitely use, but only the ones we need above the fold. -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://i.ytimg.com" crossorigin>
+<link rel="dns-prefetch" href="https://www.youtube-nocookie.com">
+<link rel="dns-prefetch" href="https://eu.i.posthog.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@300;400;500;600;700&family=Geist+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+
+<!-- Analytics + Google Ads gtag: deferred so they don't compete with critical render path. -->
+<script src="assets/analytics.js" defer></script>
+<script defer src="https://www.googletagmanager.com/gtag/js?id=AW-CONVERSION_ID"></script>
 <script>
+  // Queue gtag commands now; they run once gtag.js loads via the deferred tag above.
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'AW-CONVERSION_ID', { allow_enhanced_conversions: true });
 </script>
-<!-- /Google tag -->
-
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23282520'/%3E%3Ctext x='50%25' y='52%25' font-family='Georgia,serif' font-size='38' font-style='italic' fill='%23d4ff32' text-anchor='middle' dominant-baseline='middle'%3ESJ%3C/text%3E%3Ccircle cx='50' cy='14' r='3' fill='%23d4ff32'/%3E%3C/svg%3E">
-<!-- Analytics --><script src="assets/analytics.js" defer></script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@300;400;500;600;700&family=Geist+Mono:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
 /* =========================================================
    SHILIKA JAIN - WEB3 PR
@@ -521,6 +527,47 @@ ul { list-style: none; }
 }
 @media (max-width: 600px) {
   .pitch-tag { right: 0; font-size: 9px; padding: 5px 8px; }
+}
+
+/* Lite YouTube — click-to-play poster (keeps the heavy iframe off
+   the initial page load; swapped in on click via JS). */
+.lite-yt { cursor: pointer; }
+.lite-yt picture, .lite-yt-poster {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+  display: block;
+  object-fit: cover;
+  background: #000;
+}
+.lite-yt-poster {
+  transition: filter .4s, transform .8s var(--ease-out-expo);
+  filter: contrast(1.05) saturate(0.95);
+}
+.lite-yt:hover .lite-yt-poster { filter: contrast(1.1) saturate(1); transform: scale(1.02); }
+.lite-yt-play {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: 88px; height: 62px;
+  border: 0;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  z-index: 2;
+  transition: transform .3s var(--ease-out-expo), filter .3s;
+  filter: drop-shadow(0 6px 14px rgba(0,0,0,0.4));
+}
+.lite-yt:hover .lite-yt-play { transform: translate(-50%, -50%) scale(1.08); }
+.lite-yt-play:focus-visible { outline: 2px solid var(--lime); outline-offset: 6px; }
+.lite-yt-play svg path:first-child { transition: fill .25s; }
+.lite-yt:hover .lite-yt-play svg path:first-child { fill: #d4ff32; }
+.lite-yt-play svg path:nth-child(2) { transition: fill .25s; }
+.lite-yt:hover .lite-yt-play svg path:nth-child(2) { fill: #16140f; }
+.lite-yt iframe {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+  border: 0; display: block;
+  z-index: 3;
 }
 
 /* =========================================================
@@ -1859,15 +1906,14 @@ a.press-item { text-decoration: none; }
       <p class="pitch-sub">A 2-minute breakdown of how she works with founders - what to expect, what gets shipped, what doesn't.</p>
     </div>
     <div class="pitch-frame">
-      <div class="pitch-frame-inner">
-        <iframe
-          src="https://www.youtube-nocookie.com/embed/beWNvo1l1aQ?rel=0&modestbranding=1&iv_load_policy=3&playsinline=1&color=white&cc_load_policy=0"
-          title="Shilika Jain - PR services pitch"
-          loading="lazy"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen></iframe>
+      <div class="pitch-frame-inner lite-yt" data-yt="beWNvo1l1aQ" data-title="Shilika Jain - PR services pitch">
+        <picture>
+          <source srcset="https://i.ytimg.com/vi_webp/beWNvo1l1aQ/maxresdefault.webp" type="image/webp">
+          <img class="lite-yt-poster" src="https://i.ytimg.com/vi/beWNvo1l1aQ/hqdefault.jpg" alt="Shilika Jain - PR services pitch thumbnail" loading="lazy" decoding="async" width="1280" height="720">
+        </picture>
+        <button class="lite-yt-play" type="button" aria-label="Play pitch video">
+          <svg viewBox="0 0 68 48" width="68" height="48" aria-hidden="true"><path d="M66.5 7.7c-.8-2.9-3-5.1-5.9-5.9C55.4.6 34 .6 34 .6S12.6.6 7.4 1.8C4.5 2.6 2.3 4.8 1.5 7.7 .3 12.9.3 24 .3 24s0 11.1 1.2 16.3c.8 2.9 3 5.1 5.9 5.9C12.6 47.4 34 47.4 34 47.4s21.4 0 26.6-1.2c2.9-.8 5.1-3 5.9-5.9C67.7 35.1 67.7 24 67.7 24s0-11.1-1.2-16.3z" fill="#212121" fill-opacity=".85"/><path d="M27 34l18-10-18-10v20z" fill="#fff"/></svg>
+        </button>
       </div>
       <span class="pitch-tag">REC - SHILIKA JAIN / 2025</span>
     </div>
@@ -2263,15 +2309,14 @@ a.press-item { text-decoration: none; }
       <span class="kicker"><span class="kicker-num">/03.5</span> INTRODUCTION</span>
       <h2 class="intro-title">Six years putting Web3 &amp; AI founders <em>on the front page.</em></h2>
       <div class="intro-frame">
-        <div class="intro-frame-inner">
-          <iframe
-            src="https://www.youtube-nocookie.com/embed/HuKCqoj6IvE?rel=0&modestbranding=1&iv_load_policy=3&playsinline=1&color=white&cc_load_policy=0"
-            title="Introduction - Shilika Jain"
-            loading="lazy"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen></iframe>
+        <div class="intro-frame-inner lite-yt" data-yt="HuKCqoj6IvE" data-title="Introduction - Shilika Jain">
+          <picture>
+            <source srcset="https://i.ytimg.com/vi_webp/HuKCqoj6IvE/maxresdefault.webp" type="image/webp">
+            <img class="lite-yt-poster" src="https://i.ytimg.com/vi/HuKCqoj6IvE/hqdefault.jpg" alt="Introduction - Shilika Jain thumbnail" loading="lazy" decoding="async" width="1280" height="720">
+          </picture>
+          <button class="lite-yt-play" type="button" aria-label="Play introduction video">
+            <svg viewBox="0 0 68 48" width="68" height="48" aria-hidden="true"><path d="M66.5 7.7c-.8-2.9-3-5.1-5.9-5.9C55.4.6 34 .6 34 .6S12.6.6 7.4 1.8C4.5 2.6 2.3 4.8 1.5 7.7 .3 12.9.3 24 .3 24s0 11.1 1.2 16.3c.8 2.9 3 5.1 5.9 5.9C12.6 47.4 34 47.4 34 47.4s21.4 0 26.6-1.2c2.9-.8 5.1-3 5.9-5.9C67.7 35.1 67.7 24 67.7 24s0-11.1-1.2-16.3z" fill="#212121" fill-opacity=".85"/><path d="M27 34l18-10-18-10v20z" fill="#fff"/></svg>
+          </button>
         </div>
         <span class="intro-tag">INTRO - 02:14</span>
       </div>
@@ -2324,7 +2369,9 @@ a.press-item { text-decoration: none; }
   <div class="about-grid">
     <div class="about-photo">
       <div class="photo-frame">
-        <img class="photo-img" src="assets/shilika-portrait.jpg" alt="Shilika Jain at the Press Lounge" loading="lazy" />
+        <picture>
+          <source srcset="assets/shilika-portrait-1080.webp" type="image/webp">
+          <img class="photo-img" src="assets/shilika-portrait-1080.jpg" alt="Shilika Jain at the Press Lounge" loading="lazy" decoding="async" width="864" height="1080" /></picture>
         <div class="photo-tag">SJ - '24</div>
       </div>
     </div>
@@ -2615,6 +2662,46 @@ function tick() {
   el.textContent = `${h}:${m}:${s}`;
 }
 setInterval(tick, 1000); tick();
+
+// ---------- LITE YOUTUBE (click-to-play) ----------
+// Warm up the YT origin on first hover/touch so playback starts faster.
+(function () {
+  let warmed = false;
+  function warmYT() {
+    if (warmed) return; warmed = true;
+    [
+      'https://www.youtube-nocookie.com',
+      'https://www.google.com',
+      'https://googleads.g.doubleclick.net',
+      'https://static.doubleclick.net'
+    ].forEach(href => {
+      const l = document.createElement('link');
+      l.rel = 'preconnect'; l.href = href; l.crossOrigin = '';
+      document.head.appendChild(l);
+    });
+  }
+  document.querySelectorAll('.lite-yt').forEach(el => {
+    el.addEventListener('pointerenter', warmYT, { once: true });
+    el.addEventListener('focusin', warmYT, { once: true });
+    el.addEventListener('click', function () {
+      if (el.dataset.activated === '1') return;
+      el.dataset.activated = '1';
+      const id = el.dataset.yt;
+      const title = el.dataset.title || 'YouTube video';
+      const iframe = document.createElement('iframe');
+      iframe.src = 'https://www.youtube-nocookie.com/embed/' + id +
+        '?autoplay=1&rel=0&modestbranding=1&iv_load_policy=3&playsinline=1&color=white&cc_load_policy=0';
+      iframe.title = title;
+      iframe.setAttribute('frameborder', '0');
+      iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');
+      iframe.setAttribute('referrerpolicy', 'strict-origin-when-cross-origin');
+      iframe.allowFullscreen = true;
+      el.innerHTML = '';
+      el.appendChild(iframe);
+      try { if (window.posthog) posthog.capture('video_play', { video_id: id, title }); } catch (e) {}
+    });
+  });
+})();
 
 // ---------- CONTACT FORM ----------
 const form = document.getElementById('contact-form');
