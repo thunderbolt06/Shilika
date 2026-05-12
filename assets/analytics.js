@@ -7,7 +7,7 @@
 // =====================================================================
 
 (function () {
-  var POSTHOG_KEY = 'phc_REPLACE_WITH_YOUR_POSTHOG_PROJECT_KEY';
+  var POSTHOG_KEY = 'phc_xRRqNvS3aMZ4atSebhV3cikL3MGN8oP4H6UFdsD6wj2M';
   var POSTHOG_HOST = 'https://eu.i.posthog.com';
 
   if (!POSTHOG_KEY || POSTHOG_KEY.indexOf('REPLACE_WITH') === 0) {
