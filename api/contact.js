@@ -1,3 +1,5 @@
+import { getLogger, flushLogs } from './_posthog-logs.js';
+
 const escapeHtml = (str) =>
   String(str)
     .replace(/&/g, '&amp;')
@@ -7,6 +9,9 @@ const escapeHtml = (str) =>
     .replace(/'/g, '&#39;');
 
 export default async function handler(req, res) {
+  const logger = getLogger('contact');
+  const t0 = Date.now();
+
   if (req.method !== 'POST') {
     res.status(405).json({ error: 'Method not allowed' });
     return;
@@ -17,6 +22,12 @@ export default async function handler(req, res) {
   const RECIPIENT_EMAIL = process.env.RECIPIENT_EMAIL || 'shilika498@gmail.com';
 
   if (!SENDGRID_API_KEY) {
+    logger.emit({
+      severityText: 'error',
+      body: 'Contact form misconfigured - SENDGRID_API_KEY missing',
+      attributes: { route: '/api/contact' }
+    });
+    await flushLogs();
     res.status(500).json({ error: 'Email service not configured' });
     return;
   }
@@ -25,13 +36,38 @@ export default async function handler(req, res) {
   const { name = '', email = '', company = '', budget = '', message = '' } = body || {};
 
   if (!name.trim() || !email.trim() || !message.trim()) {
+    logger.emit({
+      severityText: 'warn',
+      body: 'Contact form validation failed - missing required fields',
+      attributes: { route: '/api/contact', reason: 'missing_fields' }
+    });
+    await flushLogs();
     res.status(400).json({ error: 'Missing required fields' });
     return;
   }
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+    logger.emit({
+      severityText: 'warn',
+      body: 'Contact form validation failed - invalid email',
+      attributes: { route: '/api/contact', reason: 'invalid_email' }
+    });
+    await flushLogs();
     res.status(400).json({ error: 'Invalid email' });
     return;
   }
+
+  logger.emit({
+    severityText: 'info',
+    body: `Contact inquiry received from ${name}${company ? ' (' + company + ')' : ''}`,
+    attributes: {
+      route: '/api/contact',
+      name,
+      email,
+      company: company || null,
+      budget: budget || null,
+      message_length: message.length
+    }
+  });
 
   const subject = `New brief from ${name}${company ? ' - ' + company : ''}`;
   const html = `
@@ -68,14 +104,47 @@ export default async function handler(req, res) {
     });
 
     if (sg.status === 202 || sg.ok) {
+      logger.emit({
+        severityText: 'info',
+        body: 'Contact inquiry delivered via SendGrid',
+        attributes: {
+          route: '/api/contact',
+          sendgrid_status: sg.status,
+          duration_ms: Date.now() - t0,
+          name,
+          email
+        }
+      });
+      await flushLogs();
       res.status(200).json({ ok: true });
     } else {
       const errText = await sg.text();
       console.error('SendGrid error:', sg.status, errText);
+      logger.emit({
+        severityText: 'error',
+        body: 'SendGrid rejected the request',
+        attributes: {
+          route: '/api/contact',
+          sendgrid_status: sg.status,
+          sendgrid_error: errText.slice(0, 500),
+          duration_ms: Date.now() - t0
+        }
+      });
+      await flushLogs();
       res.status(502).json({ error: 'Email delivery failed' });
     }
   } catch (err) {
     console.error('SendGrid fetch error', err);
+    logger.emit({
+      severityText: 'error',
+      body: 'SendGrid request threw',
+      attributes: {
+        route: '/api/contact',
+        error: String(err && err.message || err),
+        duration_ms: Date.now() - t0
+      }
+    });
+    await flushLogs();
     res.status(500).json({ error: 'Server error' });
   }
 }

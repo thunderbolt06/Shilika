@@ -36,3 +36,17 @@ To activate it:
    - `resume_click` on the bit.ly/shilikajain link
 
 While the placeholder is still in place the snippet short-circuits and sends nothing.
+
+## Server logs (PostHog Logs via OpenTelemetry)
+Server-side logs from `/api/contact` ship to PostHog Logs (EU) through OTel.
+
+- `api/_posthog-logs.js` initializes the OTLP exporter once per warm Lambda.
+- `api/contact.js` emits structured log records for each inquiry: validation
+  failures (`warn`), inbound submissions (`info`), SendGrid success (`info`),
+  and any delivery / network errors (`error`).
+- Each log carries attributes (`route`, `duration_ms`, name/email/company,
+  `sendgrid_status`, etc.) and is force-flushed before the response returns,
+  since Vercel may freeze the process immediately after.
+
+Override the key at deploy time by setting `POSTHOG_PROJECT_KEY` in the
+Vercel dashboard; otherwise the key in `_posthog-logs.js` is used.
