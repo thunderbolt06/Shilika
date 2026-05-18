@@ -24,17 +24,50 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Shilika Jain",
-  "url": "https://www.shilikajain.com/",
-  "jobTitle": "Senior PR Strategist - Web3 & AI",
-  "sameAs": ["https://www.linkedin.com/in/shilika/", "https://twitter.com/Shilika_jain"],
-  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5", "reviewCount": "19", "bestRating": "5" },
-  "review": [
-    { "@type": "Review", "author": { "@type": "Person", "name": "Gafoor Khan" }, "datePublished": "2025-04-16", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "I highly recommend Shilika for anyone needing PR support in Web3. What sets her apart is a deep, genuine understanding of blockchain - not just the buzzwords." },
-    { "@type": "Review", "author": { "@type": "Person", "name": "Nicole Rochette" }, "datePublished": "2025-04-15", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "Shilika is one of the most impressive PR experts I've worked with. She deeply understands her clients and brings a rare mix of strategic thinking and relentless execution." },
-    { "@type": "Review", "author": { "@type": "Person", "name": "Simon Yi" }, "datePublished": "2025-04-11", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "When Shilika speaks, journalists listen. Her ability to translate client briefs into earned media is unmatched in our industry." },
-    { "@type": "Review", "author": { "@type": "Person", "name": "Alex Albano" }, "datePublished": "2025-04-07", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "Shilika is a rising star in PR and Media, particularly in Deep Tech and Web3, where her deep industry knowledge, strategic mindset, and no-nonsense approach set her apart." }
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.shilikajain.com/testimonials#webpage",
+      "url": "https://www.shilikajain.com/testimonials",
+      "name": "Testimonials — What Clients Say About Shilika Jain",
+      "description": "19 unedited LinkedIn recommendations from founders, CMOs and journalists who have worked with Shilika Jain on Web3 and AI PR engagements from 2021 to 2026.",
+      "isPartOf": { "@id": "https://www.shilikajain.com/#website" },
+      "about": { "@id": "https://www.shilikajain.com/#person" },
+      "datePublished": "2025-04-01",
+      "dateModified": "2026-05-17",
+      "inLanguage": "en",
+      "breadcrumb": { "@id": "https://www.shilikajain.com/testimonials#breadcrumb" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.shilikajain.com/testimonials#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Testimonials", "item": "https://www.shilikajain.com/testimonials" }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.shilikajain.com/#person",
+      "name": "Shilika Jain",
+      "url": "https://www.shilikajain.com/",
+      "jobTitle": "Senior PR Strategist - Web3 & AI",
+      "sameAs": ["https://www.linkedin.com/in/shilika/", "https://twitter.com/Shilika_jain"],
+      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5", "reviewCount": "19", "bestRating": "5" },
+      "review": [
+        { "@type": "Review", "author": { "@type": "Person", "name": "Gafoor Khan" }, "datePublished": "2025-04-16", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "I highly recommend Shilika for anyone needing PR support in Web3. What sets her apart is a deep, genuine understanding of blockchain - not just the buzzwords." },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Nicole Rochette" }, "datePublished": "2025-04-15", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "Shilika is one of the most impressive PR experts I've worked with. She deeply understands her clients and brings a rare mix of strategic thinking and relentless execution." },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Simon Yi" }, "datePublished": "2025-04-11", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "When Shilika speaks, journalists listen. Her ability to translate client briefs into earned media is unmatched in our industry." },
+        { "@type": "Review", "author": { "@type": "Person", "name": "Alex Albano" }, "datePublished": "2025-04-07", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "Shilika is a rising star in PR and Media, particularly in Deep Tech and Web3, where her deep industry knowledge, strategic mindset, and no-nonsense approach set her apart." }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.shilikajain.com/#website",
+      "url": "https://www.shilikajain.com/",
+      "name": "Shilika Jain — Fractional PR for Web3 & AI Founders",
+      "publisher": { "@id": "https://www.shilikajain.com/#person" }
+    }
   ]
 }
 </script>
@@ -174,6 +207,16 @@ body {
   gap: 12px;
 }
 .t-meta-row a { color: inherit; text-decoration: underline; }
+.t-intro {
+  max-width: var(--max);
+  margin: 36px auto 0;
+  font-size: 17px;
+  line-height: 1.6;
+  color: var(--ink-2);
+  display: flex; flex-direction: column; gap: 14px;
+  max-width: 880px;
+}
+.t-intro p { margin: 0; }
 
 /* Testimonial list */
 .t-list {
@@ -453,11 +496,15 @@ body {
       <span class="t-kicker"><span class="num">/T</span> TESTIMONIALS</span>
       <h1 class="t-title">What founders<br/><em>actually</em> say.</h1>
     </div>
-    <p class="t-sub">19 unedited LinkedIn recommendations from clients, founders, marketers and journalists I've worked with.</p>
+    <p class="t-sub">19 unedited LinkedIn recommendations from clients, founders, marketers and journalists I've worked with across Web3 and AI from 2021 to 2026.</p>
   </div>
   <div class="t-meta-row">
-    <span>19 RECOMMENDATIONS · UPDATED 2025</span>
+    <span>19 RECOMMENDATIONS · UPDATED MAY 2026</span>
     <span><a href="https://www.linkedin.com/in/shilika/details/recommendations/" target="_blank" rel="noopener">VIEW ON LINKEDIN ↗</a></span>
+  </div>
+  <div class="t-intro">
+    <p>The people quoted below are founders of funded Web3 protocols, CMOs of AI startups, exchange leads, and journalists at outlets like CoinDesk, Cointelegraph, Decrypt, The Block and Forbes. Most have worked with Shilika on a sustained 3 to 12 month engagement covering Tier-1 placement, founder profiling, KOL waves, APAC localisation and token launch comms.</p>
+    <p>Recommendations are pulled directly from LinkedIn with no edits. They reflect work across 50+ protocols spanning DeFi, infrastructure, agentic AI, NFTs, gaming, and DePIN, with on-the-ground access in Korea, Japan, Vietnam, Singapore, India and the UAE.</p>
   </div>
 </header>
 
