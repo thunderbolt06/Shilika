@@ -189,6 +189,32 @@
               "serviceType": "Token Launch Communications",
               "provider": { "@id": "https://www.shilikajain.com/#person" }
             }
+          },
+          {
+            "@type": "Offer",
+            "url": "https://www.shilikajain.com/services/ai-startup-pr",
+            "itemOffered": {
+              "@type": "Service",
+              "@id": "https://www.shilikajain.com/services/ai-startup-pr#service",
+              "name": "AI Startup PR",
+              "description": "Fractional, senior-operator PR for AI founders and CMOs. Forbes, AI Magazine, Decrypt, The Information. Category narrative, op-eds, podcast tour. Proof point: Gaia AI placed as 'the Stripe for AI agents' in Forbes.",
+              "serviceType": "Public Relations",
+              "url": "https://www.shilikajain.com/services/ai-startup-pr",
+              "provider": { "@id": "https://www.shilikajain.com/#person" }
+            }
+          },
+          {
+            "@type": "Offer",
+            "url": "https://www.shilikajain.com/services/content-writing",
+            "itemOffered": {
+              "@type": "Service",
+              "@id": "https://www.shilikajain.com/services/content-writing#service",
+              "name": "Content Writing for Web3 & AI Founders",
+              "description": "Ghostwritten op-eds, whitepapers, founder essays for Web3 and AI startups. Three productized offers: Founder Essay Package, Whitepaper Sprint, Op-Ed of the Month. Forbes-grade voice, technical accuracy, AI-search ready.",
+              "serviceType": "Content Writing",
+              "url": "https://www.shilikajain.com/services/content-writing",
+              "provider": { "@id": "https://www.shilikajain.com/#person" }
+            }
           }
         ]
       }
@@ -247,7 +273,7 @@
       "about": { "@id": "https://www.shilikajain.com/#person" },
       "primaryImageOfPage": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
       "datePublished": "2025-01-01",
-      "dateModified": "2026-05-17",
+      "dateModified": "2026-05-20",
       "inLanguage": "en",
       "breadcrumb": { "@id": "https://www.shilikajain.com/#breadcrumb" }
     },
@@ -330,6 +356,34 @@
             "@type": "Answer",
             "text": "Book a 30-minute teardown at https://calendly.com/shilikajain/. Bring your roadmap, your funding stage, and the one publication you want to be in. You will leave the call with a scoped plan and an honest read on whether fractional PR is the right call."
           }
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://www.shilikajain.com/#latest-playbook",
+      "name": "Latest Playbook — Field notes for 2026 founders",
+      "description": "Three latest playbooks: crypto PR pricing, CoinDesk pitching, fractional vs agency comparison. Updated 2026-05-19.",
+      "numberOfItems": 3,
+      "itemListOrder": "ItemListOrderAscending",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "url": "https://www.shilikajain.com/article-4",
+          "name": "How much does crypto PR cost in 2026? Honest pricing"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "url": "https://www.shilikajain.com/article-5",
+          "name": "How to get featured in CoinDesk in 2026: pitch guide"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "url": "https://www.shilikajain.com/article-6",
+          "name": "Fractional PR vs Web3 PR agency: how to choose in 2026"
         }
       ]
     }
@@ -1247,10 +1301,147 @@ ul { list-style: none; }
   transition: transform 0.5s var(--ease-out-expo), color 0.4s;
 }
 
+/* Clickable service cards (06, 07 — new service pages) */
+a.service.service-link {
+  text-decoration: none;
+  color: inherit;
+}
+a.service.service-link:hover { color: var(--paper); }
+.service-tag-new {
+  display: inline-block;
+  margin-left: 12px;
+  padding: 4px 10px;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  background: var(--lime);
+  color: var(--ink);
+  border-radius: 100px;
+  vertical-align: middle;
+  transform: translateY(-6px);
+}
+.service-cta {
+  display: inline-block;
+  margin-top: 18px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink);
+  border-bottom: 1px solid var(--ink);
+  padding-bottom: 4px;
+  transition: color 0.4s, border-color 0.4s;
+}
+.service:hover .service-cta { color: var(--lime); border-color: var(--lime); }
+
 @media (max-width: 700px) {
   .service { grid-template-columns: 60px 1fr; gap: 16px; }
   .service-arrow { display: none; }
   .service-body { padding-left: 0; }
+  .service-tag-new { display: inline-block; margin-left: 8px; transform: translateY(-2px); }
+}
+
+/* =========================================================
+   Latest Playbook — 3-card section
+   ========================================================= */
+.playbook {
+  background: var(--paper);
+  padding: 80px 0 100px;
+  border-top: 1px solid var(--line);
+}
+.playbook-grid {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0 var(--pad);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.playbook-card {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 32px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.4s var(--ease-out-quart), border-color 0.4s, box-shadow 0.4s, background 0.4s;
+}
+.playbook-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--ink);
+  box-shadow: 0 12px 32px -16px rgba(0,0,0,0.15);
+}
+.playbook-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+}
+.playbook-tag {
+  padding: 4px 10px;
+  background: var(--lime);
+  color: var(--ink);
+  border-radius: 100px;
+  text-transform: uppercase;
+}
+.playbook-date {
+  color: var(--muted);
+  text-transform: uppercase;
+}
+.playbook-title {
+  font-family: var(--font-display);
+  font-size: clamp(22px, 2vw, 28px);
+  font-weight: 400;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+.playbook-blurb {
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--ink-2);
+  margin: 0;
+}
+.playbook-cta {
+  margin-top: auto;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink);
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+  transition: color 0.4s, border-color 0.4s;
+}
+.playbook-card:hover .playbook-cta { color: var(--ink); border-color: var(--ink); }
+.playbook-footer {
+  max-width: var(--max);
+  margin: 40px auto 0;
+  padding: 0 var(--pad);
+  text-align: center;
+}
+.playbook-all {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink);
+  text-decoration: none;
+  padding: 14px 28px;
+  border: 1px solid var(--ink);
+  border-radius: 100px;
+  transition: background 0.4s, color 0.4s;
+}
+.playbook-all:hover { background: var(--ink); color: var(--paper); }
+@media (max-width: 900px) {
+  .playbook-grid { grid-template-columns: 1fr; gap: 16px; }
+  .playbook { padding: 60px 0 70px; }
 }
 
 /* =========================================================
@@ -1385,6 +1576,25 @@ ul { list-style: none; }
 .case-coverage li {
   padding: 0; border: 0;
 }
+.case-deep-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 18px;
+  padding: 8px 0 6px;
+  border-top: 1px solid rgba(255,255,255,0.15);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--lime);
+  text-decoration: none;
+  transition: color 0.3s, letter-spacing 0.3s;
+  cursor: none;
+}
+.case-deep-link span { transition: transform 0.3s; display: inline-block; }
+.case-deep-link:hover { color: oklch(0.95 0.18 115); letter-spacing: 0.13em; }
+.case-deep-link:hover span { transform: translateX(3px); }
 
 
 /* ====== CASE CARDS (branded compositions) ====== */
@@ -2422,6 +2632,7 @@ a.press-item { text-decoration: none; }
   <ul class="nav-links">
     <li><a href="#work" data-magnet>Work</a></li>
     <li><a href="#services" data-magnet>Services</a></li>
+    <li><a href="#playbook" data-magnet>Playbooks</a></li>
     <li><a href="#press" data-magnet>Press</a></li>
     <li><a href="#about" data-magnet>About</a></li>
     <li><a href="/testimonials" data-magnet>Testimonials</a></li>
@@ -2634,6 +2845,32 @@ a.press-item { text-decoration: none; }
       </div>
       <div class="service-arrow">→</div>
     </article>
+
+    <a class="service service-link" data-svc="06" href="/services/ai-startup-pr" data-analytics="service-card-ai-startup-pr">
+      <div class="service-num">06</div>
+      <div class="service-body">
+        <h3>AI Startup PR <span class="service-tag-new">NEW</span></h3>
+        <p>A fractional senior operator for AI founders and CMOs. Forbes, AI Magazine, Decrypt, The Information. Category narrative, op-ed ghostwriting, podcast tour, KOL coordination. The Gaia AI <em>Stripe for AI agents</em> Forbes feature is the proof point.</p>
+        <ul class="service-tags">
+          <li>AI founders</li><li>Category narrative</li><li>Op-eds</li><li>Podcast tour</li>
+        </ul>
+        <span class="service-cta">Read the AI Startup PR playbook →</span>
+      </div>
+      <div class="service-arrow">→</div>
+    </a>
+
+    <a class="service service-link" data-svc="07" href="/services/content-writing" data-analytics="service-card-content-writing">
+      <div class="service-num">07</div>
+      <div class="service-body">
+        <h3>Content Writing <span class="service-tag-new">NEW</span></h3>
+        <p>Ghostwritten op-eds, whitepapers, and founder essays for Web3 and AI startups. Three productized offers with visible pricing: Founder Essay Package, Whitepaper Sprint, Op-Ed of the Month. Forbes-grade voice, technical accuracy, AI-search ready.</p>
+        <ul class="service-tags">
+          <li>Op-eds</li><li>Whitepapers</li><li>Founder essays</li><li>GEO &amp; AEO ready</li>
+        </ul>
+        <span class="service-cta">See pricing &amp; offers →</span>
+      </div>
+      <div class="service-arrow">→</div>
+    </a>
   </div>
 </section>
 
@@ -2678,6 +2915,7 @@ a.press-item { text-decoration: none; }
           <li><a href="https://cryptodaily.co.uk/2025/03/interview-with-shashank-sripada-co-founder-and-coo-of-gaia-on-building-the-stripe-for-ai-agents-consensus-hong-kong-edition" target="_blank" rel="noopener">CryptoDaily UK</a></li>
           <li><a href="https://www.binance.com/en/square/post/23141693968322" target="_blank" rel="noopener">Binance Square</a></li>
         </ul>
+        <a class="case-deep-link" href="/work/gaia-ai">Read the full case study <span aria-hidden="true">&rarr;</span></a>
       </div>
     </article>
 
@@ -2708,6 +2946,7 @@ a.press-item { text-decoration: none; }
           <li><a href="https://cointelegraph.com/news/nft-creator-royalty-payment-blockchain-web3" target="_blank" rel="noopener">Cointelegraph</a></li>
           <li><a href="https://cryptonews.com/news/rari-foundation-launches-mainnet-for-rari-chain-on-arbitrum.htm" target="_blank" rel="noopener">CryptoNews</a></li>
         </ul>
+        <a class="case-deep-link" href="/work/rari-chain">Read the full case study <span aria-hidden="true">&rarr;</span></a>
       </div>
     </article>
 
@@ -2836,6 +3075,48 @@ a.press-item { text-decoration: none; }
         </ul>
       </div>
     </article>
+  </div>
+</section>
+
+<!-- Latest Playbook (Field Notes preview) -->
+<section class="playbook" id="playbook">
+  <div class="section-head">
+    <span class="kicker"><span class="kicker-num">/02.5</span> LATEST PLAYBOOK</span>
+    <h2 class="section-title">Field notes for <em>2026</em> founders.</h2>
+  </div>
+  <div class="playbook-grid">
+    <a class="playbook-card" href="/article-4" data-analytics="playbook-card-article-4">
+      <div class="playbook-meta">
+        <span class="playbook-tag">PRICING</span>
+        <span class="playbook-date">2026 · 12 min</span>
+      </div>
+      <h3 class="playbook-title">How much does crypto PR cost in 2026?</h3>
+      <p class="playbook-blurb">The honest pricing breakdown: agency retainers, fractional models, single-launch sprints, KOL waves, and the hidden line items most contracts bury.</p>
+      <span class="playbook-cta">Read the breakdown →</span>
+    </a>
+
+    <a class="playbook-card" href="/article-5" data-analytics="playbook-card-article-5">
+      <div class="playbook-meta">
+        <span class="playbook-tag">PITCH GUIDE</span>
+        <span class="playbook-date">2026 · 14 min</span>
+      </div>
+      <h3 class="playbook-title">How to get featured in CoinDesk in 2026</h3>
+      <p class="playbook-blurb">What CoinDesk editors filter for, pitch templates that land, embargo etiquette, and three worked examples from a senior operator's 2026 playbook.</p>
+      <span class="playbook-cta">Read the pitch guide →</span>
+    </a>
+
+    <a class="playbook-card" href="/article-6" data-analytics="playbook-card-article-6">
+      <div class="playbook-meta">
+        <span class="playbook-tag">DECISION TREE</span>
+        <span class="playbook-date">2026 · 11 min</span>
+      </div>
+      <h3 class="playbook-title">Fractional PR vs Web3 PR agency</h3>
+      <p class="playbook-blurb">Cost, speed, founder access, bandwidth, accountability. A decision tree for Web3 and AI founders weighing the two engagement models.</p>
+      <span class="playbook-cta">Pick your model →</span>
+    </a>
+  </div>
+  <div class="playbook-footer">
+    <a href="/blog" class="playbook-all">See all playbooks →</a>
   </div>
 </section>
 

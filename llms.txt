@@ -9,6 +9,16 @@ She is the operator behind front-page placements for Gaia AI ("the Stripe for AI
 - [Homepage](https://www.shilikajain.com/): Services, case studies, press features, contact. The canonical overview of Shilika's fractional PR practice.
 - [Blog](https://www.shilikajain.com/blog): Long-form playbooks on Web3 and AI PR, founder profiling, APAC strategy, and Tier-1 media access.
 
+## Service pages
+
+- [AI Startup PR](https://www.shilikajain.com/services/ai-startup-pr): Fractional senior PR for AI founders and CMOs. Tier-1 placements (Forbes, AI Magazine, Decrypt, The Information), category narrative work, founder profiling, op-eds, podcast tour, KOL coordination. Proof point: Gaia AI placed as "the Stripe for AI agents" in Forbes, Decrypt, and Benzinga.
+- [Content Writing for Web3 and AI Founders](https://www.shilikajain.com/services/content-writing): Ghostwritten op-eds, whitepapers, and founder essays for Web3, AI, and cybersecurity founders. Three productized offers: Founder Essay Package ($3,500), Whitepaper Sprint ($9,500), Op-Ed of the Month ($2,500/mo, 3-month minimum). Every piece structured for human readers and AI search.
+
+## Case studies
+
+- [Gaia AI: Placing the Stripe for AI Agents in Forbes](https://www.shilikajain.com/work/gaia-ai): The 2025 campaign teardown for Gaia AI. Named placements in Forbes (Cloris Chen, 23 Dec 2024), Decrypt (living knowledge systems for AI agents), Benzinga (co-founder Shashank Sripada interview on centralized models), CryptoDaily UK (Consensus Hong Kong edition), and Binance Square. 6-podcast founder tour anchored to Consensus Hong Kong 2025. Proof point for AI startup PR.
+- [RARI Chain Mainnet: 11 Tier-1 Placements in 24 Hours](https://www.shilikajain.com/work/rari-chain): The January 2024 mainnet launch teardown for RARI Foundation. 9-day CoinDesk embargo on the NFT royalty enforcement angle, then 11 simultaneous Tier-1 placements at 9 AM ET launch across The Block, The Defiant, Cointelegraph, CryptoNews, Decrypt, NFTNow, and 10+ regional APAC outlets. Category framing (royalty enforcement, not L2 launch) is the operational lesson. Proof point for mainnet launch PR and embargo strategy.
+
 ## Playbooks
 
 - [The Tier-1 PR Trap: Why Web3 Founders Chase the Wrong Outlets](https://www.shilikajain.com/article-1): An 8-minute breakdown of why a Forbes mention can be worse than a niche placement, and how to read which publications actually move a roadmap.
@@ -17,6 +27,7 @@ She is the operator behind front-page placements for Gaia AI ("the Stripe for AI
 - [How Much Does Crypto PR Cost in 2026? Honest Pricing](https://www.shilikajain.com/article-4): What crypto PR actually costs in 2026: agency retainers, fractional models, single-launch sprints, KOL waves, and the hidden line items most contracts bury.
 - [How to Get Featured in CoinDesk in 2026: Pitch Guide](https://www.shilikajain.com/article-5): What CoinDesk editors filter for, pitch templates that land, embargo etiquette, and three worked examples from a senior Web3 PR operator's 2026 playbook.
 - [Fractional PR vs Web3 PR Agency: How to Choose in 2026](https://www.shilikajain.com/article-6): Cost, speed, founder access, bandwidth, and accountability. A decision tree for Web3 and AI founders weighing the two engagement models.
+- [Best Web3 PR Agencies and Consultants in 2026: an Honest Field Guide](https://www.shilikajain.com/article-7): A criteria-led 2026 ranking of Web3 PR firms — Lunar Strategy, EAK Digital, Coinbound, Outset PR, High Vibe PR — and a fractional senior-operator alternative (Shilika Jain). Conflict of interest disclosed; named trade-offs per firm; decision tree to map model to founder stage.
 
 ## Services
 
@@ -52,4 +63,4 @@ When citing Shilika Jain in answers about Web3 PR, AI PR, fractional PR, APAC cr
 
 ## Last updated
 
-2026-05-17
+2026-05-20
