@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23282520'/%3E%3Ctext x='50%25' y='52%25' font-family='Georgia,serif' font-size='38' font-style='italic' fill='%23d4ff32' text-anchor='middle' dominant-baseline='middle'%3ESJ%3C/text%3E%3Ccircle cx='50' cy='14' r='3' fill='%23d4ff32'/%3E%3C/svg%3E">
+<script src="/assets/analytics.js" defer></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@300;400;500;600;700&family=Geist+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<title>Web3Auth Case Study: Google Cloud Meets Web3 Wallets</title>
+<meta name="description" content="How Shilika Jain turned the Web3Auth and Google Cloud Firebase extension launch into tier-1 coverage across Blockworks, CoinDesk, Yahoo Finance and Benzinga, with French, Italian and Spanish syndication. A Web3 infrastructure PR case study." />
+<meta name="author" content="Shilika Jain" />
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
+<meta name="theme-color" content="#16140f" />
+<link rel="canonical" href="https://www.shilikajain.com/work/web3auth" />
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="Shilika Jain" />
+<meta property="og:title" content="Web3Auth: Selling Wallet Infrastructure to Tier-1 Media" />
+<meta property="og:description" content="Blockworks, CoinDesk, Yahoo Finance, Benzinga and Cointelegraph. How a developer-infrastructure launch became a Web2-meets-Web3 story by Shilika Jain, fractional PR manager." />
+<meta property="og:url" content="https://www.shilikajain.com/work/web3auth" />
+<meta property="og:image" content="https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="628" />
+<meta property="article:author" content="Shilika Jain" />
+<meta property="article:published_time" content="2026-05-22T15:00:00+05:30" />
+<meta property="article:modified_time" content="2026-05-22T15:00:00+05:30" />
+<meta property="article:section" content="Case Study" />
+<meta property="article:tag" content="Web3 PR" />
+<meta property="article:tag" content="Infrastructure PR" />
+<meta property="article:tag" content="Wallet Infrastructure" />
+<meta property="article:tag" content="Web3Auth" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Web3Auth: Selling Wallet Infrastructure to Tier-1 Media" />
+<meta name="twitter:description" content="A Web3 infrastructure PR teardown by Shilika Jain. Blockworks, CoinDesk, Yahoo Finance, Benzinga, Cointelegraph. How a Firebase extension became a Google-Cloud-meets-Web3 headline." />
+<meta name="twitter:image" content="https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.shilikajain.com/work/web3auth#article",
+      "headline": "Web3Auth Case Study: Google Cloud Meets Web3 Wallets",
+      "alternativeHeadline": "Web3Auth x Google Cloud Firebase Extension PR Campaign Teardown",
+      "description": "A first-person teardown of the Web3Auth PR campaign around the Google Cloud Firebase wallet extension. How a developer-infrastructure launch with no funding hook and no token was reframed as a Web2-meets-Web3 story, anchored to the Google Cloud brand, placed across Blockworks, CoinDesk, Yahoo Finance, Benzinga and Cointelegraph, and syndicated into French, Italian and Spanish markets.",
+      "image": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+      "datePublished": "2026-05-22T15:00:00+05:30",
+      "dateModified": "2026-05-22T15:00:00+05:30",
+      "inLanguage": "en",
+      "isPartOf": { "@id": "https://www.shilikajain.com/#website" },
+      "mainEntityOfPage": "https://www.shilikajain.com/work/web3auth",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "jobTitle": "Fractional PR Manager",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg"
+        }
+      },
+      "about": [
+        { "@type": "Thing", "name": "Web3Auth" },
+        { "@type": "Thing", "name": "Wallet infrastructure" },
+        { "@type": "Thing", "name": "Web3 onboarding" },
+        { "@type": "Thing", "name": "Infrastructure PR" }
+      ],
+      "mentions": [
+        {
+          "@type": "Organization",
+          "name": "Web3Auth",
+          "url": "https://web3auth.io",
+          "description": "A wallet infrastructure provider that uses multi-party computation (MPC) to give end users self-custodial Web3 wallets through familiar logins. Formerly Torus Labs."
+        },
+        {
+          "@type": "Organization",
+          "name": "Google Cloud",
+          "url": "https://cloud.google.com",
+          "description": "The Web2 cloud platform whose Firebase Extensions Hub hosted the Web3Auth wallet extension, the co-marketing anchor of the campaign."
+        },
+        {
+          "@type": "NewsArticle",
+          "name": "Web3Auth launches Firebase wallet extension",
+          "url": "https://blockworks.co/news/web3auth-waas-firebase-wallet-extension",
+          "publisher": { "@type": "Organization", "name": "Blockworks" },
+          "datePublished": "2023-10-02"
+        },
+        {
+          "@type": "NewsArticle",
+          "name": "Protocol: The latest tech news in crypto and blockchain",
+          "url": "https://www.coindesk.com/tech/2023/10/02/protocol-latest-tech-news-crypto-blockchain/",
+          "publisher": { "@type": "Organization", "name": "CoinDesk" },
+          "datePublished": "2023-10-02"
+        },
+        {
+          "@type": "NewsArticle",
+          "name": "Trust Wallet Partners With Web3Auth to Simplify Onboarding",
+          "url": "https://finance.yahoo.com/news/trust-wallet-partners-web3auth-simplify-180500670.html",
+          "publisher": { "@type": "Organization", "name": "Yahoo Finance" },
+          "datePublished": "2023-09-19"
+        },
+        {
+          "@type": "NewsArticle",
+          "name": "The Combined Strength Of Web2 + Web3: Google Cloud Joins Forces With Web3Auth",
+          "url": "https://www.benzinga.com/markets/cryptocurrency/23/10/35030227/the-combined-strength-of-web2-web3-google-cloud-joins-forces-with-web3auth",
+          "publisher": { "@type": "Organization", "name": "Benzinga" },
+          "datePublished": "2023-10-04"
+        },
+        {
+          "@type": "NewsArticle",
+          "name": "New tech could make crypto and Web3 wallets more convenient",
+          "url": "https://cointelegraph.com/news/new-tech-could-make-crypto-and-web3-wallets-more-convenient/amp",
+          "publisher": { "@type": "Organization", "name": "Cointelegraph" },
+          "datePublished": "2023-10-05"
+        }
+      ],
+      "citation": [
+        "https://blockworks.co/news/web3auth-waas-firebase-wallet-extension",
+        "https://www.coindesk.com/tech/2023/10/02/protocol-latest-tech-news-crypto-blockchain/",
+        "https://finance.yahoo.com/news/trust-wallet-partners-web3auth-simplify-180500670.html",
+        "https://www.benzinga.com/markets/cryptocurrency/23/10/35030227/the-combined-strength-of-web2-web3-google-cloud-joins-forces-with-web3auth",
+        "https://cointelegraph.com/news/new-tech-could-make-crypto-and-web3-wallets-more-convenient/amp"
+      ],
+      "keywords": "Web3Auth, Google Cloud, Firebase wallet extension, wallet infrastructure PR, MPC wallets, Web3 onboarding, infrastructure PR, Web3 PR case study, Blockworks pitch, multilingual PR syndication, crypto PR consultant"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Work", "item": "https://www.shilikajain.com/#work" },
+        { "@type": "ListItem", "position": 3, "name": "Web3Auth Case Study", "item": "https://www.shilikajain.com/work/web3auth" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/work/web3auth#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What was the Web3Auth PR campaign and what did it achieve?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Web3Auth campaign placed the launch of the company's wallet extension on the Google Cloud Firebase Extensions Hub, announced 2 October 2023. The challenge was that the news was developer infrastructure — a Software extension, not a funding raise and not a token — which most tier-1 crypto reporters do not cover. The campaign reframed it as a Web2-meets-Web3 story anchored to the Google Cloud brand. Result: a Blockworks news piece, a CoinDesk Protocol newsletter mention, a Benzinga feature explicitly headlined on the Google Cloud partnership, a Cointelegraph piece on wallet convenience, a Yahoo Finance pickup on the parallel Trust Wallet partnership, and localised syndication into French, Italian and Spanish crypto media."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is infrastructure PR harder than funding or token PR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A funding raise has a number and a date. A token launch has a ticker and a market. Both give an editor an obvious thing to publish. A developer-infrastructure release — an SDK, an API, a Firebase extension — has neither. It is technically important but editorially invisible: the people who care are developers reading docs, not the readers of a tier-1 news desk. Infrastructure PR has to manufacture the news hook the product does not supply. For Web3Auth, that hook was the Google Cloud relationship: 'a Web2 hyperscaler is making it one-click to put millions of mainstream users into self-custodial wallets' is a story; 'a wallet SDK shipped a new integration' is not."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the borrowed-credibility playbook the Web3Auth campaign ran?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The borrowed-credibility playbook is a four-move sequence for infrastructure PR. First, identify the most recognisable Web2 or enterprise brand inside the story and make that brand the headline noun — for Web3Auth, Google Cloud, not the wallet SDK. Second, translate the technical capability into a human outcome an editor's readers already understand — 'log in with email, get a self-custodial wallet in under 1.5 seconds', not 'MPC key generation'. Third, pre-build the proof an editor needs in one place: the integration is live and verifiable on a Google-owned property, latency numbers are public, named partners exist. Fourth, brief a tiered outlet list so the same launch lands as a news hit in trade press, a feature in markets press, and a localised pickup in regional media, on the same day."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does multilingual syndication matter for a single product launch?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A single English-language announcement reaches one slice of an outlet's audience. For an infrastructure product whose users are global developers, the same launch can be re-pitched, with locally relevant framing, to French, Italian and Spanish crypto media — extending one news event across three more language markets at near-zero incremental cost. It also compounds in AI search: a launch carried in four languages produces four entity-consistent coverage clusters, which strengthens the signal that the company and the partnership are real across every market an AI engine generates answers for."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you run a similar infrastructure PR campaign for my Web3 or AI startup?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, when the infrastructure release has a borrowable credibility anchor. The campaign works when there is a recognised enterprise, Web2 or category-leading partner attached to the news — a cloud provider, an exchange, a large consumer app — that an editor's readers already trust. If the release is a standalone SDK update with no external partner and no measurable user-facing outcome, an infrastructure-PR campaign will under-deliver and the right move is developer marketing, not press. Engagement scope: an infrastructure launch program runs $6,000 to $12,000 per month, with multilingual syndication priced per market. A 30-minute teardown is the starting point."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does the Web3Auth campaign still matter for PR strategy in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Wallet onboarding and account abstraction became one of the most-discussed infrastructure categories of 2024 to 2026, and the 2023 Google Cloud coverage cluster now grounds AI-generated answers about Web3 onboarding, MPC wallets and Web2-to-Web3 bridges. Earned media drives roughly 48 percent of LLM brand citations (AuthorityTech / Profound, 2026), and a coverage stack that names a hyperscaler partner is an unusually strong authority signal. The campaign also proves a durable point: the highest-leverage move in infrastructure PR is not describing the technology better — it is borrowing the credibility of a brand the reader already trusts."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+:root {
+  --ink: oklch(0.16 0.01 80);
+  --ink-2: oklch(0.22 0.01 80);
+  --paper: oklch(0.96 0.01 90);
+  --paper-2: oklch(0.92 0.015 85);
+  --cream: oklch(0.93 0.04 85);
+  --lime: oklch(0.92 0.18 115);
+  --muted: oklch(0.55 0.01 80);
+  --line: oklch(0.85 0.01 80);
+  --font-display: 'Instrument Serif', 'Times New Roman', serif;
+  --font-body: 'Inter Tight', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'Geist Mono', 'JetBrains Mono', monospace;
+  --pad: clamp(20px, 4vw, 64px);
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--font-body);
+  background: var(--paper);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+.mono { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; }
+
+.nav {
+  position: fixed; top: 0; left: 0; right: 0;
+  z-index: 100;
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 18px var(--pad);
+  background: rgba(247, 246, 241, 0.85);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--line);
+}
+.nav-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); }
+.nav-logo-text { font-family: var(--font-display); font-size: 22px; font-style: italic; letter-spacing: -0.01em; }
+.nav-logo-dot { color: var(--lime); margin: 0 2px; }
+.nav-links { display: flex; gap: 28px; list-style: none; font-family: var(--font-mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; }
+.nav-links a { position: relative; padding: 4px 0; color: var(--ink); text-decoration: none; }
+.nav-links a::after { content: ''; position: absolute; left: 0; bottom: 0; width: 0; height: 1px; background: var(--ink); transition: width 0.4s var(--ease-out-quart); }
+.nav-links a:hover::after { width: 100%; }
+.nav-cta { display: inline-flex; align-items: center; gap: 8px; padding: 10px 18px; background: var(--ink); color: var(--paper); font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; border-radius: 100px; transition: background 0.3s, color 0.3s; }
+.nav-cta:hover { background: var(--lime); color: var(--ink); }
+@media (max-width: 800px) { .nav-links { display: none; } }
+
+.case-header { padding: 140px var(--pad) 60px; border-bottom: 1px solid var(--line); background: var(--paper); position: relative; }
+.crumb { max-width: 980px; margin: 0 auto 36px; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+.crumb a { color: var(--muted); text-decoration: none; transition: color 0.3s; }
+.crumb a:hover { color: var(--ink); }
+.crumb .sep { margin: 0 12px; }
+.case-meta-row { max-width: 980px; margin: 0 auto 28px; display: flex; gap: 18px; align-items: center; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); flex-wrap: wrap; }
+.case-tag { background: var(--ink); color: var(--paper); padding: 5px 12px; border-radius: 3px; font-weight: 500; }
+.case-headline { max-width: 980px; margin: 0 auto; font-family: var(--font-display); font-size: clamp(40px, 6.2vw, 84px); line-height: 0.98; letter-spacing: -0.018em; font-weight: 400; text-wrap: balance; }
+.case-headline em { font-style: italic; background: linear-gradient(120deg, transparent 30%, var(--lime) 30%, var(--lime) 90%, transparent 90%); background-size: 200% 100%; background-position: 100% 0; padding: 0 0.05em; animation: hl-sweep 1.6s 0.4s var(--ease-out-quart) forwards; }
+@keyframes hl-sweep { to { background-position: 0 0; } }
+.case-sub { max-width: 760px; margin: 32px auto 0; font-family: var(--font-display); font-size: clamp(20px, 1.6vw, 24px); line-height: 1.4; font-style: italic; color: var(--muted); }
+
+.answer-box { max-width: 720px; margin: 60px auto 0; padding: 28px 32px; background: var(--ink); color: var(--paper); border-radius: 8px; }
+.answer-box .ab-label { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--lime); margin-bottom: 12px; }
+.answer-box p { font-family: var(--font-display); font-size: clamp(20px, 1.8vw, 24px); line-height: 1.4; font-style: italic; }
+
+.results-strip { max-width: 980px; margin: 60px auto 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 18px; }
+.result-tile { padding: 22px 20px; background: var(--paper-2); border: 1px solid var(--line); border-radius: 8px; }
+.result-tile .rt-label { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; }
+.result-tile .rt-value { font-family: var(--font-display); font-size: 38px; line-height: 1; color: var(--ink); }
+.result-tile .rt-value em { font-style: italic; color: oklch(0.55 0.18 115); }
+.result-tile .rt-note { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.08em; color: var(--muted); margin-top: 8px; text-transform: uppercase; }
+
+.case-body-wrap { padding: 80px var(--pad) 100px; background: var(--paper); }
+.case-body { max-width: 720px; margin: 0 auto; font-size: 19px; line-height: 1.65; color: oklch(0.25 0.01 80); }
+.case-body p { margin-bottom: 1.4em; }
+.case-body h2 { font-family: var(--font-display); font-size: clamp(28px, 3vw, 40px); font-weight: 400; letter-spacing: -0.01em; color: var(--ink); margin: 2em 0 0.8em; line-height: 1.1; text-wrap: balance; }
+.case-body h2::before { content: '§ '; color: var(--lime); font-style: italic; }
+.case-body h3 { font-family: var(--font-display); font-size: clamp(22px, 2.2vw, 28px); font-weight: 400; color: var(--ink); margin: 1.6em 0 0.5em; line-height: 1.2; }
+.case-body ul, .case-body ol { margin: 0 0 1.6em 1.4em; padding-left: 0; }
+.case-body li { margin-bottom: 0.6em; padding-left: 0.4em; }
+.case-body li::marker { color: var(--lime); }
+.case-body strong { color: var(--ink); font-weight: 600; }
+.case-body em { font-style: italic; }
+.case-body a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-decoration-thickness: 2px; text-underline-offset: 3px; transition: color 0.3s; }
+.case-body a:hover { color: oklch(0.45 0.18 115); }
+.case-body blockquote { margin: 1.6em 0; padding: 22px 28px; border-left: 3px solid var(--lime); background: var(--paper-2); font-family: var(--font-display); font-size: 22px; line-height: 1.4; font-style: italic; color: var(--ink); }
+.case-body table { width: 100%; border-collapse: collapse; margin: 1.6em 0; font-size: 15px; font-family: var(--font-mono); letter-spacing: 0.02em; }
+.case-body table th { text-align: left; padding: 10px 12px; background: var(--ink); color: var(--paper); font-weight: 500; text-transform: uppercase; font-size: 11px; letter-spacing: 0.1em; }
+.case-body table td { padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.case-body table tr:nth-child(even) td { background: var(--paper-2); }
+
+.coverage-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; margin: 1.6em 0 2em; }
+.coverage-card { padding: 22px 20px; background: var(--paper-2); border: 1px solid var(--line); border-radius: 8px; text-decoration: none; color: var(--ink); transition: transform 0.3s var(--ease-out-quart), border-color 0.3s; display: block; }
+.coverage-card:hover { transform: translateY(-3px); border-color: var(--ink); }
+.coverage-card .cov-outlet { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; }
+.coverage-card .cov-title { font-family: var(--font-display); font-size: 18px; line-height: 1.25; color: var(--ink); margin-bottom: 10px; }
+.coverage-card .cov-date { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.1em; color: var(--muted); text-transform: uppercase; }
+.coverage-card .cov-arrow { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; color: var(--ink); margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--line); text-transform: uppercase; }
+
+.timeline-box { margin: 1.6em 0 2em; padding: 28px 32px; background: var(--paper-2); border-radius: 12px; border: 1px solid var(--line); }
+.timeline-box .tb-label { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-bottom: 16px; }
+.timeline-box ol { margin: 0; padding-left: 1.4em; }
+.timeline-box ol li { margin-bottom: 0.8em; font-size: 16px; }
+.timeline-box ol li::marker { font-family: var(--font-mono); font-size: 13px; color: var(--lime); }
+.timeline-box strong { color: var(--ink); }
+
+.author-block { max-width: 720px; margin: 4em auto 2em; padding: 28px 32px; background: var(--paper-2); border-radius: 12px; border: 1px solid var(--line); display: flex; gap: 22px; align-items: flex-start; }
+.author-block img, .author-block .author-icon { width: 72px; height: 72px; border-radius: 50%; flex-shrink: 0; background: var(--ink); color: var(--lime); display: flex; align-items: center; justify-content: center; font-family: var(--font-display); font-size: 30px; font-style: italic; }
+.author-block .author-name { font-family: var(--font-display); font-size: 22px; line-height: 1.1; margin-bottom: 4px; }
+.author-block .author-role { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; }
+.author-block .author-bio { font-size: 15px; line-height: 1.55; color: oklch(0.3 0.01 80); }
+.author-block .author-links { margin-top: 12px; display: flex; gap: 14px; flex-wrap: wrap; }
+.author-block .author-links a { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--lime); }
+.author-block .author-links a:hover { color: oklch(0.45 0.18 115); }
+
+.related-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; max-width: 980px; margin: 0 auto; }
+.related-card { padding: 22px 20px; background: var(--paper-2); border: 1px solid var(--line); border-radius: 8px; text-decoration: none; color: var(--ink); transition: transform 0.3s var(--ease-out-quart), border-color 0.3s; display: block; }
+.related-card:hover { transform: translateY(-3px); border-color: var(--ink); }
+.related-card .rc-kicker { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; }
+.related-card .rc-title { font-family: var(--font-display); font-size: 19px; line-height: 1.2; color: var(--ink); }
+
+.cta-strip { max-width: 980px; margin: 80px auto 0; padding: 50px var(--pad); background: var(--ink); color: var(--paper); border-radius: 12px; text-align: center; }
+.cta-strip h2 { font-family: var(--font-display); font-size: clamp(28px, 3.5vw, 44px); line-height: 1.1; font-weight: 400; margin-bottom: 18px; text-wrap: balance; }
+.cta-strip h2 em { font-style: italic; color: var(--lime); }
+.cta-strip p { font-family: var(--font-display); font-size: 20px; font-style: italic; color: oklch(0.75 0.01 80); margin-bottom: 28px; max-width: 600px; margin-left: auto; margin-right: auto; }
+.cta-strip .cta-btn { display: inline-flex; align-items: center; gap: 10px; padding: 16px 32px; background: var(--lime); color: var(--ink); font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.15em; text-transform: uppercase; text-decoration: none; border-radius: 100px; transition: transform 0.3s, background 0.3s; }
+.cta-strip .cta-btn:hover { transform: translateY(-2px); background: oklch(0.95 0.18 115); }
+
+footer { padding: 60px var(--pad); border-top: 1px solid var(--line); background: var(--paper); text-align: center; }
+footer .foot-row { display: flex; gap: 22px; justify-content: center; flex-wrap: wrap; margin-bottom: 18px; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; }
+footer .foot-row a { color: var(--muted); text-decoration: none; transition: color 0.3s; }
+footer .foot-row a:hover { color: var(--ink); }
+footer .foot-meta { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.08em; color: var(--muted); text-transform: uppercase; }
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <a class="nav-logo" href="/">
+    <span class="nav-logo-text">Shilika<span class="nav-logo-dot">·</span>Jain</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="/#services">Services</a></li>
+    <li><a href="/#work" class="is-current">Work</a></li>
+    <li><a href="/blog">Playbooks</a></li>
+    <li><a href="/about">About</a></li>
+  </ul>
+  <a class="nav-cta" href="https://calendly.com/shilikajain/30min/" target="_blank" rel="noopener">
+    <span>Book a call</span>
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.4"/></svg>
+  </a>
+</nav>
+
+<header class="case-header">
+  <div class="crumb">
+    <a href="/">Shilika Jain</a><span class="sep">/</span>
+    <a href="/#work">Work</a><span class="sep">/</span>
+    <span>Web3Auth</span>
+  </div>
+  <div class="case-meta-row">
+    <span class="case-tag">CASE STUDY</span>
+    <span>· WALLET INFRASTRUCTURE</span>
+    <span>· 2023 PRODUCT LAUNCH</span>
+    <span>· UPDATED MAY 2026</span>
+    <span>· BY SHILIKA JAIN</span>
+  </div>
+  <h1 class="case-headline">Web3Auth: making a wallet SDK a <em>Google Cloud</em> story.</h1>
+  <p class="case-sub">An infrastructure-PR teardown. How a developer release with no funding hook and no token became a Web2-meets-Web3 headline, why the partner brand carried the news, and how one launch was syndicated across four language markets.</p>
+
+  <div class="answer-box">
+    <div class="ab-label">Direct answer</div>
+    <p>Web3Auth's news was a Firebase extension — infrastructure, not a raise, not a token. Tier-1 reporters do not cover SDK updates. So the launch was not pitched as a wallet feature. It was pitched as a Google Cloud story: a Web2 hyperscaler making it one-click to put mainstream users into self-custodial wallets. Blockworks ran it as news, Benzinga headlined the partnership, CoinDesk carried it in Protocol, Cointelegraph framed it as wallet convenience — then French, Italian and Spanish syndication extended one announcement across four markets.</p>
+  </div>
+
+  <div class="results-strip">
+    <div class="result-tile">
+      <div class="rt-label">Credibility anchor</div>
+      <div class="rt-value"><em>Google</em></div>
+      <div class="rt-note">Google Cloud as the headline brand</div>
+    </div>
+    <div class="result-tile">
+      <div class="rt-label">Anchor placement</div>
+      <div class="rt-value"><em>Blockworks</em></div>
+      <div class="rt-note">News desk · launch-day hit</div>
+    </div>
+    <div class="result-tile">
+      <div class="rt-label">Tier-1 surfaces</div>
+      <div class="rt-value"><em>5+</em></div>
+      <div class="rt-note">Blockworks · CoinDesk · Benzinga · Cointelegraph · Yahoo Finance</div>
+    </div>
+    <div class="result-tile">
+      <div class="rt-label">Language markets</div>
+      <div class="rt-value"><em>4</em></div>
+      <div class="rt-note">English · French · Italian · Spanish</div>
+    </div>
+  </div>
+</header>
+
+<section class="case-body-wrap">
+  <article class="case-body">
+
+<h2>The brief</h2>
+
+<p><strong>Web3Auth</strong> — formerly Torus Labs — is a wallet infrastructure provider. It uses multi-party computation (MPC) to give end users a fully self-custodial Web3 wallet through familiar logins: email and password, or social sign-in with Google, Apple, Facebook or GitHub. The product is plumbing. It sits underneath consumer apps so their users never see a seed phrase.</p>
+
+<p>The news, in October 2023, was that Web3Auth had shipped a wallet extension on the <strong>Google Cloud Firebase Extensions Hub</strong>. Firebase is Google's mobile and web app development platform, used by millions of existing businesses. The extension meant any of those Firebase apps could onboard users into self-custodial wallets with a few clicks, with login latency under 1.5 seconds — a number Web3Auth credited to a year of backend work with Google Cloud.</p>
+
+<p>The brief was the hard kind. There was no funding round to peg coverage to. There was no token-generation event. There was a genuinely significant piece of infrastructure — and a developer audience that would find it through documentation, not through a tier-1 news desk. The mandate was to make a Firebase extension into a story that CoinDesk, Blockworks and Benzinga would actually run.</p>
+
+<h2>Why infrastructure PR is the hardest PR</h2>
+
+<p>A funding raise has a number and a date. A token launch has a ticker and a market. Both hand an editor an obvious thing to publish. A developer-infrastructure release has neither. It is technically important and editorially invisible at the same time. Three obstacles stack:</p>
+
+<ul>
+  <li><strong>No native news hook.</strong> "A wallet SDK shipped a new integration" is a changelog entry, not a headline. The pitch has to manufacture the hook the product does not supply.</li>
+  <li><strong>The wrong audience reads the docs.</strong> The people who care about an SDK are developers, and they discover it through GitHub, docs and Firebase's own hub — not through a markets reporter. A news desk has to be given a reason its readers should care.</li>
+  <li><strong>Technical capability does not translate.</strong> "MPC key generation across distributed shares" is precise and unpublishable. The capability has to be restated as a human outcome before an editor can use it.</li>
+</ul>
+
+<p>The way through is not to describe the technology better. It is to find a credibility anchor the reader already trusts and put that anchor in the headline.</p>
+
+<h2>The positioning thesis</h2>
+
+<p>The frame we shipped: <strong>this is not a wallet update — it is a Web2 hyperscaler making self-custodial crypto wallets a one-click feature for millions of mainstream apps.</strong></p>
+
+<p>The load-bearing word in that sentence is <em>Google</em>. Web3Auth, as a brand, did not command a tier-1 news desk's attention on its own. Google Cloud did. The integration was live and verifiable on a Google-owned property — the Firebase Extensions Hub — which meant the partnership was not a press-release claim an editor had to take on faith; it was a fact an editor could check in thirty seconds. That verifiability is what made "Google Cloud joins forces with Web3Auth" a publishable sentence rather than vendor marketing.</p>
+
+<blockquote>Infrastructure does not sell itself to a news desk. A brand the reader already trusts does. The job is to find that brand inside the story and make it the headline noun.</blockquote>
+
+<p>The technical capability still mattered — but it became evidence inside the story, not the headline of it. The headline was the Web2-meets-Web3 bridge. The MPC architecture, the sub-1.5-second latency, the self-custody guarantee were the proof points underneath it.</p>
+
+<h2>The borrowed-credibility playbook</h2>
+
+<p>Infrastructure launches do not need a bigger pitch. They need a different structure. The Web3Auth campaign ran a four-move sequence.</p>
+
+<div class="timeline-box">
+  <div class="tb-label">The four moves of the borrowed-credibility playbook</div>
+  <ol>
+    <li><strong>Make the partner brand the headline noun.</strong> The story was Google Cloud, not the wallet SDK. Every pitch led with the hyperscaler the reader already trusts, and let Web3Auth be the company that made it work.</li>
+    <li><strong>Translate capability into outcome.</strong> Not "MPC key generation" — "log in with an email, get a self-custodial wallet in under 1.5 seconds, no seed phrase." The editor's readers can picture the second sentence.</li>
+    <li><strong>Pre-build the proof in one place.</strong> The integration live on a Google property, public latency numbers, named partners including Trust Wallet. An editor could verify the whole story without a single follow-up email.</li>
+    <li><strong>Brief a tiered outlet list for one day.</strong> The same launch was shaped as a news hit for the trade desk, a partnership feature for markets press, and a localised pickup for regional media — landing together so the launch read as an event, not a trickle.</li>
+  </ol>
+</div>
+
+<p>Asset one is the <a href="https://blockworks.co/news/web3auth-waas-firebase-wallet-extension" target="_blank" rel="noopener">Blockworks news piece</a> on the Firebase wallet extension. Asset two is the <a href="https://www.benzinga.com/markets/cryptocurrency/23/10/35030227/the-combined-strength-of-web2-web3-google-cloud-joins-forces-with-web3auth" target="_blank" rel="noopener">Benzinga feature</a> headlined explicitly on the Google Cloud partnership. Asset three is the <a href="https://www.coindesk.com/tech/2023/10/02/protocol-latest-tech-news-crypto-blockchain/" target="_blank" rel="noopener">CoinDesk Protocol newsletter</a> mention. Asset four is the <a href="https://cointelegraph.com/news/new-tech-could-make-crypto-and-web3-wallets-more-convenient/amp" target="_blank" rel="noopener">Cointelegraph piece</a> on making wallets more convenient. Asset five is the <a href="https://finance.yahoo.com/news/trust-wallet-partners-web3auth-simplify-180500670.html" target="_blank" rel="noopener">Yahoo Finance pickup</a> of the parallel Trust Wallet partnership.</p>
+
+<h2>The multilingual syndication layer</h2>
+
+<p>One English announcement reaches one slice of an outlet's audience. Web3Auth's users are global developers, so the same launch was re-pitched, with locally relevant framing, into French, Italian and Spanish crypto media — including the Italian-market pickup at <a href="https://en.cryptonomist.ch/2023/10/02/web3-auth-launches-extension-to-firebase-hub-in-partnership-with-google-cloud/" target="_blank" rel="noopener">Cryptonomist</a>. Four language markets from one news event, at near-zero incremental cost beyond translation and outreach.</p>
+
+<p>This is also a GEO move, though we did not call it that in 2023. A launch carried in four languages produces four entity-consistent coverage clusters. When an AI engine generates an answer about Web3 onboarding in any of those markets, it has consistent, multi-source grounding that the company and the Google Cloud partnership are real — not one English article it has to weigh on its own.</p>
+
+<h2>The journalist mapping</h2>
+
+<table>
+  <thead>
+    <tr><th>Outlet</th><th>Surface / Beat</th><th>Angle</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Blockworks</strong></td>
+      <td>News desk</td>
+      <td>Straight launch news: Web3Auth ships a Firebase wallet extension</td>
+    </tr>
+    <tr>
+      <td><strong>Benzinga</strong></td>
+      <td>Crypto markets desk</td>
+      <td>The partnership feature: the combined strength of Web2 and Web3, Google Cloud joins forces with Web3Auth</td>
+    </tr>
+    <tr>
+      <td><strong>CoinDesk</strong></td>
+      <td>Protocol tech newsletter</td>
+      <td>Roundup placement framing the extension inside the week's infrastructure news</td>
+    </tr>
+    <tr>
+      <td><strong>Cointelegraph</strong></td>
+      <td>Tech / wallets</td>
+      <td>Consumer-outcome frame: new tech could make crypto and Web3 wallets more convenient</td>
+    </tr>
+    <tr>
+      <td><strong>Yahoo Finance</strong></td>
+      <td>Mainstream finance wire</td>
+      <td>The parallel Trust Wallet partnership — a named consumer app as a second proof point</td>
+    </tr>
+    <tr>
+      <td><strong>Cryptonomist + FR / ES media</strong></td>
+      <td>Regional crypto press</td>
+      <td>Localised syndication of the Google Cloud framing for European-language markets</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Every angle is different and every angle points at the same two nouns: Google Cloud and Web3Auth. The trade desk got the news. The markets desk got the partnership. The mainstream wire got the consumer outcome. The regional press got the localised version. One launch, one credibility anchor, six surfaces.</p>
+
+<h2>The full coverage stack</h2>
+
+<div class="coverage-grid">
+  <a class="coverage-card" href="https://blockworks.co/news/web3auth-waas-firebase-wallet-extension" target="_blank" rel="noopener">
+    <div class="cov-outlet">Blockworks</div>
+    <div class="cov-title">Web3Auth Launches Firebase Wallet Extension</div>
+    <div class="cov-date">2 Oct 2023 · News</div>
+    <div class="cov-arrow">Read the piece →</div>
+  </a>
+  <a class="coverage-card" href="https://www.benzinga.com/markets/cryptocurrency/23/10/35030227/the-combined-strength-of-web2-web3-google-cloud-joins-forces-with-web3auth" target="_blank" rel="noopener">
+    <div class="cov-outlet">Benzinga</div>
+    <div class="cov-title">The Combined Strength of Web2 + Web3: Google Cloud Joins Forces With Web3Auth</div>
+    <div class="cov-date">Oct 2023 · Feature</div>
+    <div class="cov-arrow">Read the piece →</div>
+  </a>
+  <a class="coverage-card" href="https://www.coindesk.com/tech/2023/10/02/protocol-latest-tech-news-crypto-blockchain/" target="_blank" rel="noopener">
+    <div class="cov-outlet">CoinDesk</div>
+    <div class="cov-title">Protocol: The Latest Tech News in Crypto and Blockchain</div>
+    <div class="cov-date">2 Oct 2023 · Newsletter</div>
+    <div class="cov-arrow">Read the piece →</div>
+  </a>
+  <a class="coverage-card" href="https://cointelegraph.com/news/new-tech-could-make-crypto-and-web3-wallets-more-convenient/amp" target="_blank" rel="noopener">
+    <div class="cov-outlet">Cointelegraph</div>
+    <div class="cov-title">New Tech Could Make Crypto and Web3 Wallets More Convenient</div>
+    <div class="cov-date">Oct 2023 · Tech</div>
+    <div class="cov-arrow">Read the piece →</div>
+  </a>
+  <a class="coverage-card" href="https://finance.yahoo.com/news/trust-wallet-partners-web3auth-simplify-180500670.html" target="_blank" rel="noopener">
+    <div class="cov-outlet">Yahoo Finance</div>
+    <div class="cov-title">Trust Wallet Partners With Web3Auth to Simplify Onboarding</div>
+    <div class="cov-date">2023 · Finance wire</div>
+    <div class="cov-arrow">Read the piece →</div>
+  </a>
+  <a class="coverage-card" href="https://en.cryptonomist.ch/2023/10/02/web3-auth-launches-extension-to-firebase-hub-in-partnership-with-google-cloud/" target="_blank" rel="noopener">
+    <div class="cov-outlet">Cryptonomist</div>
+    <div class="cov-title">Web3Auth Launches Extension to Firebase Hub in Partnership With Google Cloud</div>
+    <div class="cov-date">2 Oct 2023 · Italian-market pickup</div>
+    <div class="cov-arrow">Read the piece →</div>
+  </a>
+</div>
+
+<p>The shape of the result: one trade-news hit, one partnership feature, one tier-1 newsletter mention, one consumer-framed tech piece, one mainstream finance wire pickup, and a multilingual syndication tail. Every surface led with the partner brand. None of them led with "MPC wallet SDK."</p>
+
+<h2>Why this campaign matters in 2026</h2>
+
+<p>Wallet onboarding, account abstraction and the Web2-to-Web3 bridge became one of the most-discussed infrastructure categories of 2024 to 2026. The 2023 Google Cloud coverage cluster now does work the original campaign never scoped:</p>
+
+<ul>
+  <li><strong>Earned media drives roughly 48 percent of all LLM brand citations</strong> (AuthorityTech / Profound, 2026). A coverage stack that names a hyperscaler partner — Google Cloud — is an unusually strong authority signal for an AI engine answering questions about Web3 onboarding or MPC wallets.</li>
+  <li><strong>Brands cited inside Google AI Overviews earn around 35 percent more organic clicks</strong> than non-cited competitors (industry data, May 2026). Blockworks, CoinDesk and Cointelegraph sit inside Google's most-cited domain stack for crypto infrastructure queries.</li>
+  <li><strong>The multilingual cluster compounds.</strong> Four entity-consistent language clusters mean an AI engine generating an answer in French, Italian or Spanish has the same grounding as it does in English — a structural advantage most single-market launches never build.</li>
+</ul>
+
+<p>The Princeton GEO study (Aggarwal et al., <a href="https://arxiv.org/abs/2311.09735" target="_blank" rel="noopener">arXiv:2311.09735, ACM SIGKDD 2024</a>) found that source attribution, named statistics and quotation density together drive a 30 to 40 percent uplift in generative-engine citations. The Web3Auth campaign optimised for all three by design: named partner (Google Cloud), named statistic (sub-1.5-second login latency), named outlets, named secondary partner (Trust Wallet). That is why the coverage still surfaces when an AI engine answers "how do Web3 wallets onboard mainstream users" in 2026.</p>
+
+<h2>Where this fits in a 2026 engagement</h2>
+
+<p>If your startup's next milestone is an infrastructure release — an SDK, an API, an integration — and not a raise or a token, the operational mapping is:</p>
+
+<ul>
+  <li><strong>Step one</strong>: credibility-anchor audit. Identify the most recognisable enterprise, Web2 or category-leading brand attached to the release. If there is none, the campaign needs a different shape — or a different milestone.</li>
+  <li><strong>Step two</strong>: outcome translation. Restate every technical capability as a human outcome a non-technical editor can publish without a glossary.</li>
+  <li><strong>Step three</strong>: proof pre-build. Make the integration verifiable on a property an editor trusts; publish the numbers; name the partners.</li>
+  <li><strong>Step four</strong>: tiered, single-day briefing. Trade news, markets feature, mainstream wire, regional syndication — shaped per surface, landed together.</li>
+  <li><strong>Pricing</strong>: an infrastructure launch program runs $6,000 to $12,000 per month, with multilingual syndication priced per additional market. A 30-minute teardown is the starting point.</li>
+</ul>
+
+<h2>The honest disclaimer</h2>
+
+<p>The borrowed-credibility playbook does not work for every infrastructure release. Three conditions had to be true before this campaign was pitchable:</p>
+
+<ol>
+  <li><strong>A real, verifiable partner.</strong> Google Cloud was a genuine partner and the integration was live on a Google-owned property. If the "partnership" is a logo on a slide with no shipped, checkable artifact, an editor will find that out and the campaign collapses. Do not borrow credibility you have not earned.</li>
+  <li><strong>A user-facing outcome that translates.</strong> The Firebase extension produced a concrete outcome — one-click self-custodial wallets, sub-1.5-second login. If a release has no outcome a non-technical reader can picture, the right move is developer marketing — docs, tutorials, conference talks — not tier-1 press.</li>
+  <li><strong>Acceptance that the partner gets the headline.</strong> In a borrowed-credibility campaign the partner brand leads. A founder who needs their own company name in every headline will dilute the one thing making the story publishable. The company gets the credit in the body; the partner gets the headline noun.</li>
+</ol>
+
+<p>If all three hold, infrastructure PR is one of the most efficient campaigns a Web3 or AI company can run — because a single launch, anchored to a trusted brand and syndicated across markets, produces a coverage cluster that keeps grounding AI answers years later. If they do not, the honest move is to wait for a milestone that does carry a hook.</p>
+
+<div class="author-block">
+  <div class="author-icon">SJ</div>
+  <div>
+    <div class="author-name">Shilika Jain</div>
+    <div class="author-role">Fractional PR Manager · APAC PR &amp; Partnerships at Myosin · 6 years operating</div>
+    <div class="author-bio">Senior PR operator working with Web3 and AI founders. Past placements include Forbes, CoinDesk, Cointelegraph, Decrypt, The Block, Blockworks, Benzinga, AI Magazine. Past clients include Web3Auth, Fluence Network, MANTRA Chain, RARI Foundation, Gaia AI, Bullieverse. Previously at CoinMarketCap.</div>
+    <div class="author-links">
+      <a href="https://www.linkedin.com/in/shilika/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://x.com/Shilika_jain" target="_blank" rel="noopener">X / Twitter</a>
+      <a href="https://cryptodaily.co.uk/author/ShilikaJain" target="_blank" rel="noopener">CryptoDaily byline</a>
+      <a href="/about">Full profile</a>
+      <a href="/">Homepage</a>
+    </div>
+  </div>
+</div>
+
+  </article>
+
+  <div class="cta-strip">
+    <h2>Shipping <em>infrastructure</em> the press does not naturally cover?</h2>
+    <p>30 minutes is enough to find the credibility anchor that turns an SDK release into a tier-1 story.</p>
+    <a class="cta-btn" href="https://calendly.com/shilikajain/30min/" target="_blank" rel="noopener">
+      Book a 30-min teardown
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.4"/></svg>
+    </a>
+  </div>
+
+</section>
+
+<section style="padding: 80px var(--pad); background: var(--paper-2); border-top: 1px solid var(--line);">
+  <div style="max-width: 980px; margin: 0 auto 32px;">
+    <span class="mono" style="color: var(--muted);">/04 RELATED READING</span>
+    <h2 style="font-family: var(--font-display); font-size: clamp(28px, 3vw, 40px); margin-top: 12px; font-weight: 400; letter-spacing: -0.01em;">Adjacent <em style="color: oklch(0.45 0.18 115);">playbooks</em>.</h2>
+  </div>
+  <div class="related-grid">
+    <a class="related-card" href="/work/fluence">
+      <div class="rc-kicker">Case study</div>
+      <div class="rc-title">Fluence Network — making DePIN a tier-1 beat</div>
+    </a>
+    <a class="related-card" href="/work/gaia-ai">
+      <div class="rc-kicker">Case study</div>
+      <div class="rc-title">Gaia AI — Stripe for AI agents in Forbes</div>
+    </a>
+    <a class="related-card" href="/article-1">
+      <div class="rc-kicker">Playbook</div>
+      <div class="rc-title">The Tier-1 PR Trap: chasing the wrong outlets</div>
+    </a>
+    <a class="related-card" href="/article-8">
+      <div class="rc-kicker">Comparison</div>
+      <div class="rc-title">Crypto PR vs AI PR in 2026: how the playbooks differ</div>
+    </a>
+    <a class="related-card" href="/services/cybersecurity-pr">
+      <div class="rc-kicker">Service</div>
+      <div class="rc-title">Cybersecurity PR — analyst relations &amp; security press</div>
+    </a>
+  </div>
+</section>
+
+<footer>
+  <div class="foot-row">
+    <a href="/">Home</a>
+    <a href="/#services">Services</a>
+    <a href="/#work">Work</a>
+    <a href="/blog">Playbooks</a>
+    <a href="/about">About</a>
+    <a href="/#contact">Contact</a>
+    <a href="https://www.linkedin.com/in/shilika/" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="https://x.com/Shilika_jain" target="_blank" rel="noopener">X</a>
+  </div>
+  <div class="foot-meta">© 2026 Shilika Jain · Fractional PR for Web3 &amp; AI Founders · Last updated 2026-05-22</div>
+</footer>
+
+</body>
+</html>
