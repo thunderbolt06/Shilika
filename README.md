@@ -1,5 +1,8 @@
 # Shilika Jain - Web3 PR & Communications
 
+rm /Users/thunderbolt/Documents/projects/Shilika/.git/index.lock
+
+
 Editorial single-page site for Shilika Jain's fractional PR practice.
 
 ## Stack
