@@ -16,14 +16,23 @@ const nextConfig: NextConfig = {
     // Legacy /article-N URLs were renamed to /playbook/N in Phase 8.
     // 301s preserve any inbound link equity from before the move.
     return [
-      { source: '/article-1', destination: '/playbook/1', permanent: true },
-      { source: '/article-2', destination: '/playbook/2', permanent: true },
-      { source: '/article-3', destination: '/playbook/3', permanent: true },
-      { source: '/article-4', destination: '/playbook/4', permanent: true },
-      { source: '/article-5', destination: '/playbook/5', permanent: true },
-      { source: '/article-6', destination: '/playbook/6', permanent: true },
-      { source: '/article-7', destination: '/playbook/7', permanent: true },
-      { source: '/article-8', destination: '/playbook/8', permanent: true },
+      { source: '/article-1', destination: '/playbook/tier-1-pr-trap', permanent: true },
+      { source: '/article-2', destination: '/playbook/apac-pr-playbook-2026', permanent: true },
+      { source: '/article-3', destination: '/playbook/founder-profiling-sprint', permanent: true },
+      { source: '/article-4', destination: '/playbook/crypto-pr-cost-2026', permanent: true },
+      { source: '/article-5', destination: '/playbook/get-featured-coindesk-2026', permanent: true },
+      { source: '/article-6', destination: '/playbook/fractional-vs-agency', permanent: true },
+      { source: '/article-7', destination: '/playbook/best-web3-pr-agencies-2026', permanent: true },
+      { source: '/article-8', destination: '/playbook/crypto-pr-vs-ai-pr', permanent: true },
+      // Numeric playbook URLs redirect to SEO slugs (Phase 9).
+      { source: '/playbook/1', destination: '/playbook/tier-1-pr-trap', permanent: true },
+      { source: '/playbook/2', destination: '/playbook/apac-pr-playbook-2026', permanent: true },
+      { source: '/playbook/3', destination: '/playbook/founder-profiling-sprint', permanent: true },
+      { source: '/playbook/4', destination: '/playbook/crypto-pr-cost-2026', permanent: true },
+      { source: '/playbook/5', destination: '/playbook/get-featured-coindesk-2026', permanent: true },
+      { source: '/playbook/6', destination: '/playbook/fractional-vs-agency', permanent: true },
+      { source: '/playbook/7', destination: '/playbook/best-web3-pr-agencies-2026', permanent: true },
+      { source: '/playbook/8', destination: '/playbook/crypto-pr-vs-ai-pr', permanent: true },
     ];
   },
   async rewrites() {

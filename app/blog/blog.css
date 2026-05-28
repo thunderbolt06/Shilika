@@ -370,9 +370,11 @@
 }
 .post-cta h3 em {
   font-style: italic;
-  background: linear-gradient(180deg, transparent 62%, var(--lime) 62%, var(--lime) 92%, transparent 92%);
-  padding: 0 8px;
+  background-color: var(--lime);
+  box-shadow: 0 0 0 4px var(--lime);
+  padding: 0 6px;
   color: var(--ink);
+  border-radius: 2px;
 }
 .post-cta p {
   color: rgba(255,255,255,0.78);

@@ -36,7 +36,7 @@ export type GenerateOptions = {
   model?: string;
 };
 
-const DEFAULT_MODEL = 'gemini-2.5-flash-image-preview';
+const DEFAULT_MODEL = 'gemini-3.1-flash-image-preview';
 const IMAGEN_FALLBACK_MODEL = 'imagen-3.0-generate-002';
 
 export async function generateHeroImage(opts: GenerateOptions): Promise<ImageBytes> {

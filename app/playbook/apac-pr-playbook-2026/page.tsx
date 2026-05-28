@@ -9,11 +9,11 @@ export const metadata: Metadata = {
   title: 'APAC PR Playbook 2026: Korea, Japan, Vietnam, India',
   description: 'An 11-minute APAC PR breakdown for Korea, Japan, Vietnam and India: which outlets matter, how to pitch them, and what most agencies get wrong.',
   
-  alternates: { canonical: 'https://www.shilikajain.com/playbook/2' },
+  alternates: { canonical: 'https://www.shilikajain.com/playbook/apac-pr-playbook-2026' },
   openGraph: {
     title: 'APAC PR Playbook 2026: Korea, Japan, Vietnam, India',
     description: 'An 11-minute regional APAC PR breakdown for Web3 and AI founders: how it works in Korea, Japan, Vietnam and India.',
-    url: 'https://www.shilikajain.com/playbook/2',
+    url: 'https://www.shilikajain.com/playbook/apac-pr-playbook-2026',
     type: 'article',
     images: [{ url: 'https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg', width: 1200, height: 628 }],
   },

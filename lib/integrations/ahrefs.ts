@@ -53,8 +53,10 @@ export type AhrefsMatchingTerm = {
   parent_topic: string | null;
 };
 
+let unauthorized = false;
+
 export function ahrefsEnabled(): boolean {
-  return Boolean(process.env.AHREFS_API_KEY);
+  return Boolean(process.env.AHREFS_API_KEY) && !unauthorized;
 }
 
 function country(): string {
@@ -75,6 +77,11 @@ async function ahrefsGet<T>(path: string, params: Record<string, string>): Promi
   });
   if (!res.ok) {
     const text = await res.text();
+    if (res.status === 401 || res.status === 403) {
+      unauthorized = true;
+      console.warn(`[ahrefs] ${res.status} unauthorized — disabling Ahrefs for this process`);
+      throw new Error(`Ahrefs ${path} ${res.status}: unauthorized`);
+    }
     throw new Error(`Ahrefs ${path} ${res.status}: ${text.slice(0, 240)}`);
   }
   return (await res.json()) as T;

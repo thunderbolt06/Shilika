@@ -121,7 +121,7 @@ export default function PlaybookIndexPage() {
               {PLAYBOOKS.map((p) => (
                 <a
                   key={p.n}
-                  href={`/playbook/${p.n}`}
+                  href={`/playbook/${p.slug}`}
                   className="blog-card"
                   data-magnet
                   aria-label={`Read playbook ${p.n}: ${p.title}`}

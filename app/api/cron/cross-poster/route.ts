@@ -48,9 +48,17 @@ export async function GET(request: Request) {
       platforms: Awaited<ReturnType<typeof crossPostAll>>;
     }[] = [];
 
+    // Space posts apart so we don't trip dev.to's ~10 articles / 30s rate limit
+    // (and to be gentle on Hashnode/Medium).
+    const PACING_MS = 4000;
+    let postedThisRun = 0;
     for (const post of candidates) {
       if (alreadyCrossposted.has(post.slug)) continue;
+      if (postedThisRun > 0) {
+        await new Promise((r) => setTimeout(r, PACING_MS));
+      }
       const platforms = await crossPostAll(post);
+      postedThisRun++;
       results.push({ slug: post.slug, platforms });
 
       // Record the marker so future runs skip this post.

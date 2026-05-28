@@ -24,14 +24,14 @@ const STATIC_PAGES: { path: string; priority: number; changeFrequency: MetadataR
   { path: '/work/mantra-chain', priority: 0.7, changeFrequency: 'yearly' },
   { path: '/work/rari-chain', priority: 0.7, changeFrequency: 'yearly' },
   { path: '/work/web3auth', priority: 0.7, changeFrequency: 'yearly' },
-  { path: '/playbook/1', priority: 0.7, changeFrequency: 'monthly' },
-  { path: '/playbook/2', priority: 0.7, changeFrequency: 'monthly' },
-  { path: '/playbook/3', priority: 0.7, changeFrequency: 'monthly' },
-  { path: '/playbook/4', priority: 0.7, changeFrequency: 'monthly' },
-  { path: '/playbook/5', priority: 0.7, changeFrequency: 'monthly' },
-  { path: '/playbook/6', priority: 0.7, changeFrequency: 'monthly' },
-  { path: '/playbook/7', priority: 0.7, changeFrequency: 'monthly' },
-  { path: '/playbook/8', priority: 0.7, changeFrequency: 'monthly' },
+  { path: '/playbook/tier-1-pr-trap', priority: 0.7, changeFrequency: 'monthly' },
+  { path: '/playbook/apac-pr-playbook-2026', priority: 0.7, changeFrequency: 'monthly' },
+  { path: '/playbook/founder-profiling-sprint', priority: 0.7, changeFrequency: 'monthly' },
+  { path: '/playbook/crypto-pr-cost-2026', priority: 0.7, changeFrequency: 'monthly' },
+  { path: '/playbook/get-featured-coindesk-2026', priority: 0.7, changeFrequency: 'monthly' },
+  { path: '/playbook/fractional-vs-agency', priority: 0.7, changeFrequency: 'monthly' },
+  { path: '/playbook/best-web3-pr-agencies-2026', priority: 0.7, changeFrequency: 'monthly' },
+  { path: '/playbook/crypto-pr-vs-ai-pr', priority: 0.7, changeFrequency: 'monthly' },
 ];
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {

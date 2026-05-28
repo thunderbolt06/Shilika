@@ -1,3 +1,7 @@
+'use client';
+
+import { useEffect } from 'react';
+
 /**
  * Editorial site chrome. Renders the same loader, cursor, grain overlay,
  * nav, and footer the homepage uses. Drop this around any non-homepage
@@ -33,7 +37,63 @@ export function EditorialLoader() {
   );
 }
 
+const HOVER_SELECTOR = 'a, button, .service, .case, .press-item, input, textarea, select, [data-magnet]';
+
 export function EditorialCursor() {
+  useEffect(() => {
+    if (!window.matchMedia('(min-width: 901px)').matches) return;
+    const cursor = document.getElementById('cursor');
+    const dot = document.getElementById('cursor-dot');
+    if (!cursor) return;
+
+    let cx = 0, cy = 0, tx = 0, ty = 0;
+    let raf = 0;
+
+    const onMove = (e: MouseEvent) => {
+      tx = e.clientX; ty = e.clientY;
+      if (dot) dot.style.transform = `translate(${tx}px, ${ty}px) translate(-50%, -50%)`;
+    };
+    document.addEventListener('mousemove', onMove);
+
+    const loop = () => {
+      cx += (tx - cx) * 0.18;
+      cy += (ty - cy) * 0.18;
+      cursor.style.transform = `translate(${cx}px, ${cy}px) translate(-50%, -50%)`;
+      raf = requestAnimationFrame(loop);
+    };
+    raf = requestAnimationFrame(loop);
+
+    const onEnter = () => cursor.classList.add('is-hover');
+    const onLeave = () => cursor.classList.remove('is-hover');
+    const tracked = new WeakSet<Element>();
+    const bind = (el: Element) => {
+      if (tracked.has(el)) return;
+      tracked.add(el);
+      el.addEventListener('mouseenter', onEnter);
+      el.addEventListener('mouseleave', onLeave);
+    };
+    const scan = (root: ParentNode) => root.querySelectorAll(HOVER_SELECTOR).forEach(bind);
+    scan(document);
+
+    const mo = new MutationObserver((muts) => {
+      for (const m of muts) {
+        m.addedNodes.forEach((n) => {
+          if (n.nodeType !== 1) return;
+          const el = n as Element;
+          if (el.matches?.(HOVER_SELECTOR)) bind(el);
+          scan(el);
+        });
+      }
+    });
+    mo.observe(document.body, { childList: true, subtree: true });
+
+    return () => {
+      document.removeEventListener('mousemove', onMove);
+      cancelAnimationFrame(raf);
+      mo.disconnect();
+    };
+  }, []);
+
   return (
     <>
       <div className="cursor" id="cursor" />
@@ -76,13 +136,12 @@ export function EditorialNav({ active }: { active?: 'blog' | 'playbook' | 'about
           </a>
         </li>
         <li>
-          <a href="/playbook" data-magnet className={active === 'playbook' ? 'is-active' : undefined}>
-            Playbooks
-          </a>
-        </li>
-        <li>
-          <a href="/#press" data-magnet>
-            Press
+          <a
+            href="/blog"
+            data-magnet
+            className={active === 'blog' || active === 'playbook' ? 'is-active' : undefined}
+          >
+            Writing
           </a>
         </li>
         <li>
@@ -93,11 +152,6 @@ export function EditorialNav({ active }: { active?: 'blog' | 'playbook' | 'about
         <li>
           <a href="/testimonials" data-magnet className={active === 'testimonials' ? 'is-active' : undefined}>
             Testimonials
-          </a>
-        </li>
-        <li>
-          <a href="/blog" data-magnet className={active === 'blog' ? 'is-active' : undefined}>
-            Blog
           </a>
         </li>
         <li>

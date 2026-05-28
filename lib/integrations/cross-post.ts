@@ -2,6 +2,9 @@ import 'server-only';
 import type { BlogPost } from '@/lib/supabase/types';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
+const USER_AGENT = 'ShilikaBlogBot/1.0 (+https://www.shilikajain.com)';
+
+const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
 export type PlatformResult =
   | { platform: string; status: 'posted'; url: string }
@@ -10,6 +13,73 @@ export type PlatformResult =
 
 function canonicalFor(post: BlogPost): string {
   return `${SITE_URL}/blog/${post.slug}`;
+}
+
+/**
+ * Rewrite root-relative URLs in markdown (and embedded HTML) to absolute URLs
+ * pointing back to the canonical site. Otherwise dev.to / Hashnode render
+ * `/blog/foo` against their own host (e.g. https://dev.to/blog/foo), which
+ * breaks every internal backlink.
+ *
+ * Patterns handled:
+ *   [text](/path)          markdown link
+ *   ![alt](/path)          markdown image
+ *   <a href="/path">       raw HTML anchor
+ *   <img src="/path">      raw HTML image
+ *   [ref]: /path           reference-style link definition
+ *
+ * Protocol-relative URLs (`//cdn...`) and absolute URLs are left untouched.
+ * Anchor-only (`#section`) and mailto:/tel: links are left untouched.
+ */
+function absolutizeMarkdown(md: string): string {
+  const base = SITE_URL.replace(/\/$/, '');
+  const isRelative = (u: string) =>
+    u.startsWith('/') && !u.startsWith('//');
+  const fix = (u: string) => (isRelative(u) ? base + u : u);
+
+  return md
+    // ![alt](/path "title")  and  [text](/path "title")
+    .replace(
+      /(!?\[[^\]]*\])\((\/[^)\s]*)(\s+"[^"]*")?\)/g,
+      (_m, label, url, title) => `${label}(${fix(url)}${title ?? ''})`,
+    )
+    // <a href="/path">  /  <a href='/path'>
+    .replace(
+      /(<a\s[^>]*href=["'])(\/[^"']+)(["'])/gi,
+      (_m, pre, url, post) => `${pre}${fix(url)}${post}`,
+    )
+    // <img src="/path">
+    .replace(
+      /(<img\s[^>]*src=["'])(\/[^"']+)(["'])/gi,
+      (_m, pre, url, post) => `${pre}${fix(url)}${post}`,
+    )
+    // Reference-style:  [ref]: /path
+    .replace(
+      /^(\s*\[[^\]]+\]:\s+)(\/\S+)/gm,
+      (_m, pre, url) => `${pre}${fix(url)}`,
+    );
+}
+
+// dev.to tags: alphanumeric only, max 4, lowercase, <=30 chars each.
+function devToTags(tags: string[] | null | undefined): string[] {
+  return (tags ?? [])
+    .map((t) => t.toLowerCase().replace(/[^a-z0-9]/g, ''))
+    .filter((t) => t.length > 0 && t.length <= 30)
+    .slice(0, 4);
+}
+
+// Hashnode tag slugs: lowercase, hyphenated, alphanumeric.
+function hashnodeTags(tags: string[] | null | undefined): { slug: string; name: string }[] {
+  return (tags ?? [])
+    .map((t) => {
+      const slug = t
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/^-+|-+$/g, '');
+      return { slug, name: t };
+    })
+    .filter((t) => t.slug.length > 0)
+    .slice(0, 5);
 }
 
 /**
@@ -22,23 +92,40 @@ async function postDevTo(post: BlogPost): Promise<PlatformResult> {
   const key = process.env.DEVTO_API_KEY;
   if (!key) return { platform: 'dev.to', status: 'skipped', reason: 'DEVTO_API_KEY missing' };
 
-  const res = await fetch('https://dev.to/api/articles', {
-    method: 'POST',
-    headers: { 'api-key': key, 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      article: {
-        title: post.title,
-        body_markdown: post.body,
-        published: true,
-        tags: (post.tags ?? []).slice(0, 4),
-        canonical_url: canonicalFor(post),
-        description: post.description,
-        main_image: post.image ?? null,
-      },
-    }),
+  const body = JSON.stringify({
+    article: {
+      title: post.title,
+      body_markdown: absolutizeMarkdown(post.body),
+      published: true,
+      tags: devToTags(post.tags),
+      canonical_url: canonicalFor(post),
+      description: post.description,
+      main_image: post.image ?? null,
+    },
   });
+
+  // dev.to allows ~10 article creations / 30s. Retry once on 429 after the
+  // server-suggested cooldown (default 30s).
+  let res: Response | null = null;
+  let lastText = '';
+  for (let attempt = 0; attempt < 2; attempt++) {
+    res = await fetch('https://dev.to/api/articles', {
+      method: 'POST',
+      headers: {
+        'api-key': key,
+        'Content-Type': 'application/json',
+        'User-Agent': USER_AGENT,
+      },
+      body,
+    });
+    if (res.status !== 429) break;
+    lastText = await res.text();
+    const retryAfter = Number(res.headers.get('retry-after')) || 30;
+    await sleep((retryAfter + 1) * 1000);
+  }
+  if (!res) return { platform: 'dev.to', status: 'error', error: 'no response' };
   if (!res.ok) {
-    const text = await res.text();
+    const text = lastText || (await res.text());
     return { platform: 'dev.to', status: 'error', error: `${res.status} ${text.slice(0, 200)}` };
   }
   const data = (await res.json()) as { url?: string };
@@ -67,7 +154,12 @@ async function postHashnode(post: BlogPost): Promise<PlatformResult> {
   }`;
   const res = await fetch('https://gql.hashnode.com/', {
     method: 'POST',
-    headers: { Authorization: key, 'Content-Type': 'application/json' },
+    headers: {
+      Authorization: key,
+      'Content-Type': 'application/json',
+      Accept: 'application/json',
+      'User-Agent': USER_AGENT,
+    },
     body: JSON.stringify({
       query: mutation,
       variables: {
@@ -76,29 +168,38 @@ async function postHashnode(post: BlogPost): Promise<PlatformResult> {
           subtitle: post.description.slice(0, 150),
           contentMarkdown: post.body,
           publicationId: pub,
-          tags: (post.tags ?? []).slice(0, 5).map((t) => ({ slug: t, name: t })),
+          tags: hashnodeTags(post.tags),
           originalArticleURL: canonicalFor(post),
           coverImageOptions: post.image ? { coverImageURL: post.image } : undefined,
         },
       },
     }),
   });
+  const text = await res.text();
+  let data: { errors?: unknown; data?: { publishPost?: { post?: { url?: string } } } } | null = null;
+  try {
+    data = JSON.parse(text);
+  } catch {
+    return {
+      platform: 'hashnode',
+      status: 'error',
+      error: `${res.status} non-JSON response (content-type=${res.headers.get('content-type') ?? 'n/a'}): ${text.slice(0, 200)}`,
+    };
+  }
   if (!res.ok) {
-    const text = await res.text();
     return {
       platform: 'hashnode',
       status: 'error',
       error: `${res.status} ${text.slice(0, 200)}`,
     };
   }
-  const data = (await res.json()) as { errors?: unknown; data?: { publishPost?: { post?: { url?: string } } } };
-  if (data.errors) {
-    return { platform: 'hashnode', status: 'error', error: JSON.stringify(data.errors).slice(0, 200) };
+  if (data?.errors) {
+    return { platform: 'hashnode', status: 'error', error: JSON.stringify(data.errors).slice(0, 300) };
   }
   return {
     platform: 'hashnode',
     status: 'posted',
-    url: data.data?.publishPost?.post?.url ?? '',
+    url: data?.data?.publishPost?.post?.url ?? '',
   };
 }
 
@@ -119,7 +220,11 @@ async function postMedium(post: BlogPost): Promise<PlatformResult> {
   }
   const res = await fetch(`https://api.medium.com/v1/users/${userId}/posts`, {
     method: 'POST',
-    headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
+    headers: {
+      Authorization: `Bearer ${token}`,
+      'Content-Type': 'application/json',
+      'User-Agent': USER_AGENT,
+    },
     body: JSON.stringify({
       title: post.title,
       contentFormat: 'markdown',
@@ -138,10 +243,18 @@ async function postMedium(post: BlogPost): Promise<PlatformResult> {
 }
 
 export async function crossPostAll(post: BlogPost): Promise<PlatformResult[]> {
-  const results = await Promise.allSettled([postDevTo(post), postHashnode(post), postMedium(post)]);
-  return results.map((r, i) => {
-    const platform = ['dev.to', 'hashnode', 'medium'][i];
+  // Hashnode and Medium are disabled until their auth issues are resolved
+  // (Hashnode WAF returning HTML; Medium tokens deprecated). Keep the
+  // implementations above so they're easy to re-enable.
+  const results = await Promise.allSettled([postDevTo(post)]);
+  const platforms: PlatformResult[] = results.map((r, i) => {
+    const platform = ['dev.to'][i];
     if (r.status === 'fulfilled') return r.value;
     return { platform, status: 'error', error: r.reason?.message ?? String(r.reason) };
   });
+  platforms.push(
+    { platform: 'hashnode', status: 'skipped', reason: 'disabled: auth issue' },
+    { platform: 'medium', status: 'skipped', reason: 'disabled: auth issue' },
+  );
+  return platforms;
 }
