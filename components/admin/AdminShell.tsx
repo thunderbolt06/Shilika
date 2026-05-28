@@ -3,6 +3,9 @@ import { LogoutButton } from './LogoutButton';
 
 const NAV = [
   { href: '/admin', label: 'Overview', match: 'exact' as const },
+  { href: '/admin/blog/review', label: 'Review queue' },
+  { href: '/admin/content-ideas', label: 'Ideas' },
+  { href: '/admin/blog/posts', label: 'Posts' },
   { href: '/admin/blog/excel', label: 'Excel I/O' },
   { href: '/admin/knowledge-base', label: 'Knowledge base' },
   { href: '/blog', label: 'View blog →', external: true },

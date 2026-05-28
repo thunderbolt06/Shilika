@@ -9,7 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
-    "humanize:check": "node scripts/check-humanization.js"
+    "humanize:check": "node scripts/check-humanization.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.30.0",
@@ -19,6 +19,7 @@
     "next": "15.0.3",
     "react": "19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106",
+    "sharp": "^0.34.5",
     "shiki": "^1.22.0",
     "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz",
     "zod": "^3.23.8"
