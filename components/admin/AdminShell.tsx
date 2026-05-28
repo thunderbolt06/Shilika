@@ -8,6 +8,7 @@ const NAV = [
   { href: '/admin/blog/posts', label: 'Posts' },
   { href: '/admin/blog/excel', label: 'Excel I/O' },
   { href: '/admin/knowledge-base', label: 'Knowledge base' },
+  { href: '/admin/cron', label: 'Crons' },
   { href: '/blog', label: 'View blog →', external: true },
 ];
 

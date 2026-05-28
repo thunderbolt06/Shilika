@@ -1,0 +1,277 @@
+import 'server-only';
+import Anthropic from '@anthropic-ai/sdk';
+import { z } from 'zod';
+import { gscOpportunityQueries } from '@/lib/integrations/gsc';
+import { getAdminSupabase } from '@/lib/supabase/server';
+import type { ContentIdea, KnowledgeEntry } from '@/lib/supabase/types';
+import { loadAgentContext } from './context';
+
+const RESEARCH_MODEL = process.env.ANTHROPIC_RESEARCH_MODEL || 'claude-opus-4-7';
+
+const CandidateSchema = z.object({
+  title: z.string().min(8).max(240),
+  description: z.string().min(40).max(1200),
+  tags: z.array(z.string().min(1)).max(8),
+  priority: z.number().int().min(0).max(4),
+  source_signals: z.object({
+    seed_query: z.string().optional(),
+    gsc_query: z.string().optional(),
+    page_url: z.string().optional(),
+    impressions_28d: z.number().optional(),
+    avg_position: z.number().optional(),
+    competitor_evidence: z.array(z.string()).optional(),
+    community_evidence: z.array(z.string()).optional(),
+    rationale: z.string().min(20).max(800),
+    demand_score: z.number().min(0).max(10).optional(),
+    intent_score: z.number().min(0).max(10).optional(),
+    gap_score: z.number().min(0).max(10).optional(),
+  }),
+});
+
+type Candidate = z.infer<typeof CandidateSchema>;
+
+const ResponseSchema = z.object({ candidates: z.array(CandidateSchema).min(0).max(20) });
+
+export type ResearchSummary = {
+  candidates_proposed: number;
+  candidates_inserted: number;
+  candidates_skipped_duplicate: number;
+  gsc_opportunities: number;
+  seed_queries: number;
+  llm_used: boolean;
+};
+
+async function listLongTailSeeds(): Promise<KnowledgeEntry[]> {
+  const supabase = getAdminSupabase();
+  const { data } = await supabase
+    .from('knowledge_base')
+    .select('*')
+    .eq('kind', 'long_tail_seed');
+  return (data ?? []) as KnowledgeEntry[];
+}
+
+async function listKnownTitles(): Promise<Set<string>> {
+  const supabase = getAdminSupabase();
+  const [posts, ideas] = await Promise.all([
+    supabase.from('blog_posts').select('title, slug'),
+    supabase.from('content_ideas').select('title, slug').in('status', ['idea', 'draft', 'ready_for_review', 'approved', 'published']),
+  ]);
+  const known = new Set<string>();
+  for (const p of (posts.data ?? []) as { title: string; slug: string }[]) {
+    known.add(p.title.toLowerCase().trim());
+    known.add(p.slug.toLowerCase());
+  }
+  for (const i of (ideas.data ?? []) as { title: string; slug: string | null }[]) {
+    known.add(i.title.toLowerCase().trim());
+    if (i.slug) known.add(i.slug.toLowerCase());
+  }
+  return known;
+}
+
+function callClaudeForCandidates(opts: {
+  seeds: string[];
+  gscOpportunities: Awaited<ReturnType<typeof gscOpportunityQueries>>;
+  knownTitles: string[];
+  brandContext: string;
+}): Promise<Candidate[]> {
+  const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY! });
+  const system = `${opts.brandContext}
+
+You are a topic-research agent. Your job is to propose blog post ideas that
+have real search demand and conversion intent for a fractional PR consultant
+serving Web3 and AI founders. You do not invent topics. You discover them
+from signals, score them, and return them as JSON.
+
+Scoring rubric (each 0-10):
+- demand_score: Is this actually getting search volume? Use the web_search
+  tool to see if Reddit/Stack Overflow/X communities discuss the question.
+  GSC evidence (impressions) lifts this score.
+- intent_score: Would the searcher convert to a fractional PR retainer?
+  A founder typing "embargo strategy for token launch" scores high. A
+  student typing "what is PR" scores low.
+- gap_score: Is the existing top-3 on Google thin, generic, or out of date?
+  Use web_search to scan the SERP. A weak SERP = high gap score = high
+  priority.
+
+Priority output mapping:
+  9-10 average -> P0 (write next)
+  7-8 average  -> P1
+  5-6 average  -> P2
+  <5 average   -> P3
+
+Return JSON only: { "candidates": [ { ... } ] }. Five to ten candidates is
+the sweet spot. Each candidate must include source_signals.rationale (1-3
+sentences) explaining the case.`;
+
+  const userParts: string[] = [];
+
+  if (opts.seeds.length) {
+    userParts.push(
+      `## Long-tail seed queries (loaded from knowledge_base, kind='long_tail_seed')\n` +
+        opts.seeds.map((s) => `- ${s}`).join('\n'),
+    );
+  }
+
+  if (opts.gscOpportunities.length) {
+    userParts.push(
+      `## GSC opportunity queries (28 days, position 4-30, CTR < 2%)\nThese are queries Google already thinks the site is relevant for. Each row is an opportunity.\n` +
+        opts.gscOpportunities
+          .slice(0, 25)
+          .map(
+            (g) =>
+              `- "${g.query}" -> ${g.page ?? '(no page)'} | impressions: ${g.impressions} | position: ${g.position.toFixed(1)} | ctr: ${(g.ctr * 100).toFixed(2)}%`,
+          )
+          .join('\n'),
+    );
+  }
+
+  userParts.push(
+    `## Titles and slugs already in the pipeline (do NOT propose duplicates)\n` +
+      opts.knownTitles.slice(0, 80).map((t) => `- ${t}`).join('\n'),
+  );
+
+  userParts.push(`## Your task
+1. For each candidate idea you propose, use the web_search tool to:
+   a. Inspect what currently ranks on Google for the closest variant of the query
+   b. Find Reddit and Stack Overflow threads that show the actual phrasing real users use
+   c. Identify "people also ask" or related questions that surface in the SERP
+2. Score every candidate on demand_score, intent_score, gap_score.
+3. Map the average to priority (P0/P1/P2/P3) per the rubric.
+4. Return JSON only: { "candidates": [ ... ] }. Do NOT return commentary.`);
+
+  return (async () => {
+    const response = await client.messages.create({
+      model: RESEARCH_MODEL,
+      max_tokens: 6000,
+      system,
+      messages: [{ role: 'user', content: userParts.join('\n\n') }],
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      tools: [{ type: 'web_search_20250305', name: 'web_search' } as any],
+    });
+
+    const text = response.content
+      .filter((b) => b.type === 'text')
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      .map((b) => (b as any).text as string)
+      .join('\n');
+    const start = text.indexOf('{');
+    const end = text.lastIndexOf('}');
+    if (start < 0 || end <= start) throw new Error('research agent returned no JSON');
+    const parsed = ResponseSchema.parse(JSON.parse(text.slice(start, end + 1)));
+    return parsed.candidates;
+  })();
+}
+
+function fallbackFromSeeds(seeds: string[]): Candidate[] {
+  // If Claude isn't available, the seed queries themselves become P2 idea rows
+  // — at least the queue won't sit empty.
+  return seeds.slice(0, 10).map((s) => ({
+    title: s,
+    description: `Seeded from knowledge_base.long_tail_seed: "${s}".`,
+    tags: [],
+    priority: 2,
+    source_signals: {
+      seed_query: s,
+      rationale: 'No LLM available — using the raw seed query as the candidate.',
+    },
+  }));
+}
+
+/**
+ * Main entry point for the topic-research cron.
+ */
+export async function runTopicResearch(options?: { force?: boolean }): Promise<ResearchSummary> {
+  const supabase = getAdminSupabase();
+
+  // Skip the research run unless the queue is genuinely low or the caller
+  // explicitly forces a refresh.
+  if (!options?.force) {
+    const { count } = await supabase
+      .from('content_ideas')
+      .select('id', { count: 'exact', head: true })
+      .in('status', ['idea', 'ready_for_review']);
+    if ((count ?? 0) >= 5) {
+      return {
+        candidates_proposed: 0,
+        candidates_inserted: 0,
+        candidates_skipped_duplicate: 0,
+        gsc_opportunities: 0,
+        seed_queries: 0,
+        llm_used: false,
+      };
+    }
+  }
+
+  const [seedRows, gscOpportunities, knownTitles, brandCtx] = await Promise.all([
+    listLongTailSeeds(),
+    process.env.GSC_SERVICE_ACCOUNT_JSON ? gscOpportunityQueries().catch(() => []) : Promise.resolve([] as Awaited<ReturnType<typeof gscOpportunityQueries>>),
+    listKnownTitles(),
+    loadAgentContext(null).then((ctx) => `# Persona\n${ctx.persona}\n\n# Strategy\n${ctx.strategy}`),
+  ]);
+  const seedQueries = seedRows.flatMap((r) => [r.title, ...r.body.split('\n').filter((l) => l.trim() && !l.startsWith('#'))]).slice(0, 60);
+
+  let candidates: Candidate[] = [];
+  let llmUsed = false;
+
+  if (process.env.ANTHROPIC_API_KEY && (seedQueries.length || gscOpportunities.length)) {
+    try {
+      candidates = await callClaudeForCandidates({
+        seeds: seedQueries,
+        gscOpportunities,
+        knownTitles: [...knownTitles],
+        brandContext: brandCtx,
+      });
+      llmUsed = true;
+    } catch (err) {
+      console.warn('[topic-research] LLM call failed, falling back to seeds:', err);
+      candidates = fallbackFromSeeds(seedQueries);
+    }
+  } else {
+    candidates = fallbackFromSeeds(seedQueries);
+  }
+
+  // Deduplicate against known titles + against each other within this batch.
+  const seenTitles = new Set<string>(knownTitles);
+  const toInsert: Pick<ContentIdea, 'title' | 'description' | 'tags' | 'priority' | 'source_signals'>[] = [];
+  let skipped = 0;
+  for (const c of candidates) {
+    const key = c.title.toLowerCase().trim();
+    if (seenTitles.has(key)) {
+      skipped += 1;
+      continue;
+    }
+    seenTitles.add(key);
+    toInsert.push({
+      title: c.title,
+      description: c.description,
+      tags: c.tags,
+      priority: c.priority,
+      source_signals: c.source_signals,
+    });
+  }
+
+  let inserted = 0;
+  if (toInsert.length) {
+    const { data, error } = await supabase
+      .from('content_ideas')
+      .insert(
+        toInsert.map((r) => ({
+          ...r,
+          status: 'idea',
+          content_type: 'blog_post',
+        })),
+      )
+      .select('id');
+    if (error) throw new Error(`topic-research insert failed: ${error.message}`);
+    inserted = (data ?? []).length;
+  }
+
+  return {
+    candidates_proposed: candidates.length,
+    candidates_inserted: inserted,
+    candidates_skipped_duplicate: skipped,
+    gsc_opportunities: gscOpportunities.length,
+    seed_queries: seedQueries.length,
+    llm_used: llmUsed,
+  };
+}
