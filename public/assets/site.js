@@ -4,20 +4,34 @@
    ========================================================= */
 
 // ---------- LOADER ----------
-window.addEventListener('load', () => {
-  const loader = document.getElementById('loader');
-  const pct = document.querySelector('.loader-pct');
-  let p = 0;
-  const t = setInterval(() => {
-    p = Math.min(100, p + Math.ceil(Math.random() * 30));
-    if (pct) pct.textContent = String(p).padStart(3, '0');
-    if (p >= 100) {
-      clearInterval(t);
-      setTimeout(() => loader.classList.add('gone'), 80);
-      setTimeout(() => loader.style.display = 'none', 550);
-    }
-  }, 25);
-});
+// Fire on DOMContentLoaded (or immediately if already past it) with a hard
+// 1.5s cap so external scripts (Calendly, PostHog, gtag) cannot keep the
+// loader on screen. Original code waited on window.load which blocked on
+// every deferred third-party script.
+(function bootLoader() {
+  function runLoader() {
+    var loader = document.getElementById('loader');
+    if (!loader) return;
+    var pct = document.querySelector('.loader-pct');
+    var p = 0;
+    var start = Date.now();
+    var t = setInterval(function () {
+      p = Math.min(100, p + Math.ceil(Math.random() * 30));
+      if (pct) pct.textContent = String(p).padStart(3, '0');
+      if (p >= 100 || Date.now() - start > 1200) {
+        clearInterval(t);
+        if (pct) pct.textContent = '100';
+        setTimeout(function () { loader.classList.add('gone'); }, 80);
+        setTimeout(function () { loader.style.display = 'none'; }, 550);
+      }
+    }, 25);
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', runLoader, { once: true });
+  } else {
+    runLoader();
+  }
+})();
 
 // ---------- CUSTOM CURSOR ----------
 const cursor = document.getElementById('cursor');
@@ -339,4 +353,44 @@ if (form) {
   closeBtn.addEventListener('click', close);
   modal.addEventListener('click', function (e) { if (e.target === modal) close(); });
   document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && modal.classList.contains('is-open')) close(); });
+})();
+
+// ---------- BOOT HOOK (for Next.js SPA re-mounts) ----------
+// Expose a small no-op-safe re-boot function. The main script body above
+// runs at script load time. Most listeners are bound to `document` which
+// survives SPA navigation. The exceptions — cursor rAF and Calendly link
+// decoration — are stamped with data attributes so re-running them does
+// not double-bind. ClientReBoot in app/page.tsx calls this on mount.
+(function () {
+  function reboot() {
+    try {
+      // Re-stamp Calendly links if the page rerendered.
+      var keys = ['utm_source','utm_medium','utm_campaign','utm_term','utm_content'];
+      var params = [];
+      try {
+        keys.forEach(function (k) {
+          var v = sessionStorage.getItem('sj_' + k);
+          if (v) params.push(k + '=' + encodeURIComponent(v));
+        });
+        var g = sessionStorage.getItem('sj_gclid');
+        if (g) params.push('gclid=' + encodeURIComponent(g));
+      } catch (e) {}
+      var extra = params.join('&');
+      document.querySelectorAll('a[href*="calendly.com"]').forEach(function (a) {
+        if (a.dataset.sjDecorated === '1') return;
+        a.dataset.sjDecorated = '1';
+        try {
+          var u = new URL(a.href);
+          if (extra) {
+            var sep = u.search ? '&' : '?';
+            a.href = u.href + sep + extra;
+          }
+          a.classList.add('cta-book-call');
+        } catch (e) {}
+      });
+    } catch (e) { /* never throw from re-boot */ }
+  }
+  if (typeof window !== 'undefined') {
+    window.__shilikaBoot = reboot;
+  }
 })();

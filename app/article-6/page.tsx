@@ -38,7 +38,7 @@ export default function Page() {
   const jsonLd = loadJsonLd();
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd }} />
+      <Script id="article-6-jsonld" type="application/ld+json" strategy="beforeInteractive" dangerouslySetInnerHTML={{ __html: jsonLd }} />
       <div dangerouslySetInnerHTML={{ __html: body }} />
 
       <Script src="/assets/article-6.js" strategy="afterInteractive" />

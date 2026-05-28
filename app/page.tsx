@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import type { Metadata } from 'next';
 import Script from 'next/script';
+import { ClientReBoot } from '@/components/site/ClientReBoot';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
@@ -53,7 +54,8 @@ export default function HomePage() {
   const jsonLd = loadHomepageJsonLd();
   return (
     <>
-      <script
+      <Script
+        id="homepage-jsonld"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: jsonLd }}
       />
@@ -63,6 +65,7 @@ export default function HomePage() {
         src="https://assets.calendly.com/assets/external/widget.js"
         strategy="lazyOnload"
       />
+      <ClientReBoot />
     </>
   );
 }

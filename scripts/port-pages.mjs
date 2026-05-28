@@ -194,14 +194,14 @@ function pageTemplate({ route, slug, head, hasJsonLd, externalScripts, hasSiteJs
   const externalScriptLines = externalScripts
     .map(
       (s) =>
-        `      <Script src="${tsEscape(s.external)}" strategy="${s.async ? 'afterInteractive' : s.defer ? 'lazyOnload' : 'afterInteractive'}" />`,
+        `      <NextScript src="${tsEscape(s.external)}" strategy="${s.async ? 'afterInteractive' : s.defer ? 'lazyOnload' : 'afterInteractive'}" />`,
     )
     .join('\n');
 
   return `import fs from 'node:fs';
 import path from 'node:path';
 import type { Metadata } from 'next';
-import Script from 'next/script';
+import NextScript from 'next/script';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
@@ -246,10 +246,10 @@ ${
   ${hasJsonLd ? `const jsonLd = loadJsonLd();` : ''}
   return (
     <>
-      ${hasJsonLd ? '<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd }} />' : ''}
+      ${hasJsonLd ? `<NextScript id="${slug}-jsonld" type="application/ld+json" strategy="beforeInteractive" dangerouslySetInnerHTML={{ __html: jsonLd }} />` : ''}
       <div dangerouslySetInnerHTML={{ __html: body }} />
 ${externalScriptLines}
-${hasSiteJs ? `      <Script src="/assets/${slug}.js" strategy="afterInteractive" />` : ''}
+${hasSiteJs ? `      <NextScript id="${slug}-site-js" src="/assets/${slug}.js" strategy="afterInteractive" />` : ''}
     </>
   );
 }

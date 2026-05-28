@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import Script from 'next/script';
 import { notFound } from 'next/navigation';
 import { BookCallCTA } from '@/components/blog/CTA';
 import { PostBody } from '@/components/blog/PostBody';
@@ -103,8 +104,10 @@ export default async function BlogPostPage({ params }: { params: Params }) {
 
   return (
     <article className="bg-paper">
-      <script
+      <Script
+        id={`post-jsonld-${post.slug}`}
         type="application/ld+json"
+        strategy="beforeInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }}
       />
 

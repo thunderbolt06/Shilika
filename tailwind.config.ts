@@ -7,9 +7,14 @@ const config: Config = {
     './app/(admin)/**/*.{ts,tsx}',
     './app/admin/**/*.{ts,tsx}',
     './app/blog/**/*.{ts,tsx}',
+    './app/authors/**/*.{ts,tsx}',
     './components/admin/**/*.{ts,tsx}',
     './components/blog/**/*.{ts,tsx}',
   ],
+  // Disable preflight — its global resets fight the editorial CSS extracted
+  // from the original index.html. The admin + blog UIs use Tailwind
+  // utilities explicitly and don't need preflight.
+  corePlugins: { preflight: false },
   theme: {
     extend: {
       colors: {

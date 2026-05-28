@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import Script from 'next/script';
 import { notFound } from 'next/navigation';
 import { BlogFooter, BlogHeader } from '@/components/blog/BlogChrome';
 import { getAuthor } from '@/lib/blog';
@@ -90,8 +91,10 @@ export default async function AuthorPage({ params }: { params: Params }) {
     <div className="bg-paper text-ink">
       <BlogHeader />
       <main>
-        <script
+        <Script
+          id={`author-jsonld-${author.slug}`}
           type="application/ld+json"
+          strategy="beforeInteractive"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }}
         />
 

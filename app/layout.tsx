@@ -1,7 +1,9 @@
 import type { Metadata, Viewport } from 'next';
+import Script from 'next/script';
 import './globals.css';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
+const GTAG_ID = process.env.NEXT_PUBLIC_GTAG_ID;
 
 export const viewport: Viewport = {
   themeColor: '#16140f',
@@ -63,15 +65,26 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@300;400;500;600;700&family=Geist+Mono:wght@300;400;500&display=swap"
           rel="stylesheet"
         />
-        <script src="/assets/analytics.js" defer />
-        <script src="https://www.googletagmanager.com/gtag/js?id=AW-CONVERSION_ID" defer />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','AW-CONVERSION_ID',{allow_enhanced_conversions:true});`,
-          }}
-        />
       </head>
-      <body>{children}</body>
+      {/* suppressHydrationWarning — PostHog (analytics.js) injects script tags
+          into <body> before React hydrates, which trips React's reconciler.
+          We suppress the warning at the body root rather than letting React
+          discard and re-render the entire tree on mount. */}
+      <body suppressHydrationWarning>
+        <Script src="/assets/analytics.js" strategy="lazyOnload" />
+        {GTAG_ID && (
+          <>
+            <Script
+              src={`https://www.googletagmanager.com/gtag/js?id=${GTAG_ID}`}
+              strategy="lazyOnload"
+            />
+            <Script id="gtag-init" strategy="lazyOnload">
+              {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GTAG_ID}',{allow_enhanced_conversions:true});`}
+            </Script>
+          </>
+        )}
+        {children}
+      </body>
     </html>
   );
 }
