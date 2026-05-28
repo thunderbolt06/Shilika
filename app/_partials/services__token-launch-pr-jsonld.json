@@ -1,0 +1,121 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/services/token-launch-pr#service",
+      "name": "Token Launch PR & TGE Communications",
+      "alternateName": ["Token launch PR", "TGE communications", "Token generation event PR", "Pre-TGE comms", "Crypto token launch marketing"],
+      "serviceType": "Public Relations",
+      "category": "Token Launch Communications",
+      "description": "Fractional, senior-operator-led PR and communications for crypto token launches and TGE moments. Pre-launch narrative sequencing, embargo coordination across tier-1 trade press (CoinDesk, Cointelegraph, The Block, Decrypt, Blockworks), exchange communications with Binance, OKX, MEXC and Bybit listings desks, coordinated KOL waves across 200+ vetted creators, compliance-aware messaging, post-TGE sustained coverage, and sentiment plus AI-citation tracking. Built for founders running a single mainnet, TGE, or exchange-listing window where the next 30 days decide the next 12 months.",
+      "url": "https://www.shilikajain.com/services/token-launch-pr",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "jobTitle": "Fractional PR Manager",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": [
+        { "@type": "Place", "name": "Global" },
+        { "@type": "Country", "name": "United States" },
+        { "@type": "Country", "name": "India" },
+        { "@type": "Country", "name": "Singapore" },
+        { "@type": "Country", "name": "United Arab Emirates" },
+        { "@type": "Country", "name": "Republic of Korea" },
+        { "@type": "Country", "name": "Japan" },
+        { "@type": "Country", "name": "Vietnam" }
+      ],
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Pre-TGE token founders, Layer 1 and Layer 2 protocol teams pre-mainnet, recently funded Web3 startups planning a token, DePIN and DeFi teams pre-token, crypto CMOs preparing exchange listings, Web3 founders running their first TGE"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Token launch and TGE PR offerings",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pre-TGE positioning sprint" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "TGE launch-day embargo and tier-1 placement" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Exchange listing communications (Binance, OKX, MEXC, Bybit)" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "KOL wave coordination across 200+ vetted creators" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Mainnet launch communications" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Post-TGE sustained coverage and sentiment reporting" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Crisis and depeg holding-statement library" } }
+        ]
+      },
+      "potentialAction": {
+        "@type": "ReserveAction",
+        "target": "https://calendly.com/shilikajain/30min/",
+        "name": "Book a 30-min teardown"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.shilikajain.com/#services" },
+        { "@type": "ListItem", "position": 3, "name": "Token Launch PR", "item": "https://www.shilikajain.com/services/token-launch-pr" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/services/token-launch-pr#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does a token launch PR program actually cover?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A token launch PR program covers five sequential workstreams. One: pre-TGE positioning — a category word, a thesis the trade press can run with, and a three-sentence pitch that is not about price. Two: embargo coordination — a single tier-1 anchor (CoinDesk, The Block, Cointelegraph, Decrypt, Blockworks) plus four to eight secondary outlets aligned to one launch window. Three: exchange communications — coordinated announcements with Binance, OKX, MEXC, Bybit, KuCoin, Bitget and Gate listings desks where applicable. Four: KOL waves — segmented activation across 200+ vetted Twitter, YouTube and Telegram creators in the right order for news desks to amplify. Five: post-TGE sustained coverage — founder profile, op-ed cycle, regional re-syndication and sentiment plus AI-citation tracking for the 30 to 90 days after the token goes live."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When should a token founder hire a PR consultant before TGE?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Six to twelve weeks before TGE is the right window for a focused sprint. Eight weeks is the standard run-up published in 2026 launch playbooks — long enough to publish two to three substantive earned stories per week, build the journalist relationships that get an exclusive, and stage the embargo. Founders with a longer runway (four to six months) get the strongest result because pre-TGE PR is sequencing work — narrative research, community build, content and KOL activation each compound. Hiring inside three weeks of TGE still works for embargo coordination and KOL waves but cuts off positioning and journalist build, which is where most of the long-tail coverage comes from."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does token launch PR cost in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fractional pre-TGE retainer runs $6,000 to $14,000 per month over a three to six month engagement. A focused TGE launch sprint over six to ten weeks (positioning, embargo, launch day, immediate post-TGE coverage) runs $20,000 to $60,000 total. A full pre-TGE through post-listing program with exchange comms, multi-region KOL waves and a 90-day sustained coverage tail runs $45,000 to $120,000. Traditional Web3 PR agency retainers for the same scope are commonly $15,000 to $30,000 per month — funding a multi-person account team. The fractional model removes that layer; one senior operator works directly with the founder."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does token launch PR cover exchange listings?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Exchange listing communications is a core workstream and is timed against the TGE itself. The scope covers: pre-listing intro briefs to Binance, OKX, MEXC, Bybit, KuCoin, Bitget and Gate listings and content desks; coordinated announcement timing so the listing news lands inside the TGE window rather than fragmenting attention; sponsored content alignment with the exchange's research and education arms where appropriate; and post-listing sentiment monitoring across Twitter, Telegram and the major crypto news desks. Exchange listings without coordinated comms typically waste the launch news cycle; coordinated launches compound."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How are KOL waves coordinated during a token launch?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOL waves are run in three segmented passes timed against the launch day. Wave one (T-72 hours to T-0) is a small group of credibility-anchor creators — research-style Twitter accounts, founder voices, ecosystem analysts — who post substantive primers ahead of the news. Wave two (T+0 to T+8 hours) is the broad activation: 40 to 120 vetted creators reacting to the launch, segmented by region (US, KR, JP, VN, IN, MENA) and audience quality. Wave three (T+24 hours to T+7 days) is sustained: video creators on YouTube, podcast guest spots, deep-dive Twitter threads that keep the narrative alive past the news cycle. All three waves are coordinated against the tier-1 placements so news desks see KOL conversation building around the same story they are reading."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does compliance-aware token launch PR mean?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Compliance-aware token launch PR means the communications never lead with price, never project token value, never use language a regulator would read as solicitation, and never frame the token as an investment. The pitch leads with utility — what the network does, who it is for, why now. Founder quotes are reviewed against the same standard. Embargo emails to journalists do not include price or projections. KOL briefs are written so disclosure-compliant creators can run them without rewriting. This protects the founder, the project and the journalist relationship — and in 2026 it is also what tier-1 desks require before they will run an embargo at all."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfilePage",
+      "@id": "https://www.shilikajain.com/about#profilepage",
+      "url": "https://www.shilikajain.com/about",
+      "name": "About Shilika Jain",
+      "description": "The senior fractional PR operator behind Tier-1 placements for Web3, AI and cybersecurity founders. Six years, 50+ protocols, 100K+ media mentions per quarter, 200+ KOLs.",
+      "inLanguage": "en",
+      "datePublished": "2026-05-23",
+      "dateModified": "2026-05-23",
+      "mainEntity": { "@id": "https://www.shilikajain.com/#person" },
+      "about": { "@id": "https://www.shilikajain.com/#person" },
+      "isPartOf": { "@id": "https://www.shilikajain.com/#website" },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-portrait-1080.jpg",
+        "width": 1080,
+        "height": 1350
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.shilikajain.com/#person",
+      "name": "Shilika Jain",
+      "givenName": "Shilika",
+      "familyName": "Jain",
+      "alternateName": ["Shilika", "Shilika Jain PR"],
+      "url": "https://www.shilikajain.com/about",
+      "mainEntityOfPage": "https://www.shilikajain.com/about",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-portrait-1080.jpg",
+        "width": 1080,
+        "height": 1350,
+        "caption": "Shilika Jain, fractional PR manager for Web3 and AI founders"
+      },
+      "jobTitle": "Fractional PR Manager for Web3, AI &amp; Cybersecurity Founders",
+      "description": "Six years placing Web3, AI and cybersecurity founders into Tier-1 publications including Forbes, CoinDesk, Cointelegraph, Decrypt, The Block, Blockworks and AI Magazine. APAC operator across Korea, Japan, Vietnam, India and the Middle East. Currently leading PR &amp; partnerships at Myosin DAO; previously APAC PR at CoinMarketCap.",
+      "gender": "Female",
+      "nationality": { "@type": "Country", "name": "India" },
+      "knowsAbout": [
+        "Fractional PR",
+        "Web3 PR",
+        "Crypto PR",
+        "AI startup PR",
+        "Cybersecurity PR",
+        "DePIN PR",
+        "Token launch PR",
+        "TGE communications",
+        "Founder profiling",
+        "Op-ed ghostwriting",
+        "Whitepaper writing",
+        "KOL marketing",
+        "Influencer marketing",
+        "Narrative strategy",
+        "Category creation PR",
+        "Media relations",
+        "APAC tech PR",
+        "Korea crypto PR",
+        "Japan crypto PR",
+        "Vietnam crypto PR",
+        "India crypto PR",
+        "Middle East crypto PR",
+        "Analyst relations",
+        "Embargo strategy",
+        "Crisis communications"
+      ],
+      "knowsLanguage": ["English", "Hindi"],
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Myosin",
+        "url": "https://www.myosin.xyz/",
+        "description": "Growth-marketing DAO"
+      },
+      "alumniOf": [
+        { "@type": "Organization", "name": "CoinMarketCap", "url": "https://coinmarketcap.com/" },
+        { "@type": "Organization", "name": "Momentum6", "url": "https://momentum6.io/" }
+      ],
+      "memberOf": [
+        { "@type": "Organization", "name": "Myosin DAO" }
+      ],
+      "award": [
+        "Featured speaker at Binary Summit Bangkok",
+        "Featured speaker at India Blockchain Week 2024",
+        "Featured speaker at EpicWeb3 Summit",
+        "Featured speaker at Web3 Conf Goa Women in Web3 panel"
+      ],
+      "hasOccupation": {
+        "@type": "Occupation",
+        "name": "Public Relations Manager — Fractional",
+        "occupationLocation": [
+          { "@type": "Country", "name": "India" },
+          { "@type": "Country", "name": "Singapore" },
+          { "@type": "Country", "name": "United States" }
+        ],
+        "skills": "Tier-1 media placement, embargo strategy, founder profiling, op-ed ghostwriting, KOL coordination, APAC localisation, category-creation PR, TGE communications"
+      },
+      "subjectOf": [
+        { "@type": "Article", "name": "How much does crypto PR cost in 2026", "url": "https://www.shilikajain.com/article-4" },
+        { "@type": "Article", "name": "Best Web3 PR agencies and consultants in 2026", "url": "https://www.shilikajain.com/article-7" }
+      ],
+      "workExample": [
+        { "@type": "Article", "name": "Gaia AI case study: placing the Stripe for AI Agents in Forbes", "url": "https://www.shilikajain.com/work/gaia-ai" },
+        { "@type": "Article", "name": "RARI Chain: 11 Tier-1 placements in 24 hours", "url": "https://www.shilikajain.com/work/rari-chain" },
+        { "@type": "Article", "name": "MANTRA Chain: turning an $11M raise into a category story", "url": "https://www.shilikajain.com/work/mantra-chain" },
+        { "@type": "Article", "name": "Fluence Network: making DePIN a Tier-1 beat", "url": "https://www.shilikajain.com/work/fluence" },
+        { "@type": "Article", "name": "Web3Auth: Google Cloud meets Web3 wallets", "url": "https://www.shilikajain.com/work/web3auth" },
+        { "@type": "Article", "name": "Bullieverse: a $4M Web3 gaming raise in India", "url": "https://www.shilikajain.com/work/bullieverse" }
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/in/shilika/",
+        "https://x.com/Shilika_jain",
+        "https://cryptodaily.co.uk/author/ShilikaJain",
+        "https://calendly.com/shilikajain/30min/",
+        "https://t.me/shilika3",
+        "https://www.shilikajain.com/"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.shilikajain.com/about#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "About", "item": "https://www.shilikajain.com/about" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/about#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Who is Shilika Jain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Shilika Jain is a senior fractional PR operator for Web3, AI and cybersecurity founders. Six years of practice. 50+ protocols placed in Tier-1 outlets including Forbes, CoinDesk, Cointelegraph, Decrypt, The Block, Blockworks and AI Magazine. Currently leads PR &amp; partnerships at Myosin, a growth-marketing DAO. Previously built CoinMarketCap's APAC PR function from the ground up. Operates across India, Singapore, Korea, Japan, Vietnam and the United Arab Emirates. Direct line to 200+ vetted Web3 KOLs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does Shilika Jain do?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Shilika runs a fractional PR practice — a senior operator embedded inside a founder's team, with the bandwidth and accountability of a retainer agency but without the layered junior account-handler stack. Engagements typically cover Tier-1 placements, founder profiling and op-ed ghostwriting, KOL waves, APAC localisation, token launch and TGE communications, and category-creation narrative work for AI and DePIN founders."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which publications has Shilika Jain placed founders into?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Named outlets across the 50+ protocol portfolio include Forbes, CoinDesk, Cointelegraph, Decrypt, The Block, Blockworks, AI Magazine, Bitcoin Magazine, Benzinga, CryptoSlate, The Defiant, Yahoo Finance, CryptoDaily UK, CryptoNews, CryptoPotato, NFTNow, Inc42, YourStory, Business Today, Economic Times, e27, BloomingBit (Korea), CryptoTimes JP (Japan), ChainCatcher (China), Jinse (China), HackerNoon and Binance Square. Headline campaigns include Gaia AI in Forbes (Cloris Chen, Dec 2024), RARI Foundation across 11 Tier-1 placements at mainnet, MANTRA Chain in CoinDesk on the Middle East RWA angle, Fluence Network in CoinDesk Opinion on DePIN, and Web3Auth in Blockworks and CoinDesk Protocol via the Google Cloud Firebase story."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is Shilika Jain based and where does she operate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Based in India, operating across APAC (Korea, Japan, Vietnam, Singapore, India), the Middle East (Dubai and the broader UAE), and the United States. Campaigns are routinely run across multiple regional press tracks in parallel — a home-market exclusive plus a crypto-native track plus a Western tier-1 anchor. The APAC reach was built directly: CoinMarketCap's APAC PR function under Shilika's tenure shipped weekly launches across the region."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What companies has Shilika Jain worked with?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A non-exhaustive headline list: Gaia AI, RARI Foundation, MANTRA Chain, Fluence Network, Web3Auth (Torus Labs), Bullieverse, NEAR Foundation, Ripple, Stellar Foundation, Gnosis Guild, Liquity, Aragon, Zilliqa, Polygon, OKX, Animoca Brands, Solana Saga, ParaSwap, Rootstock, Stader Labs, WalletConnect, Reown, RabbitX, Magna, Elastos, Legion. The portfolio spans Layer 1s, RWA tokenization, DePIN, MPC wallet infrastructure, NFT royalty enforcement, Web3 gaming, AI agents, and DeFi."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Shilika Jain's background?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Six years across crypto, Web3 and AI communications. Currently Head of PR at Myosin, a growth-marketing DAO, since 2023. Previously APAC PR &amp; Partnerships at CoinMarketCap (2021 to 2023), where she built the regional comms function and shipped launches every week. Earlier marketing lead roles at Momentum6 and Bloom360. Ongoing freelance contributor at CryptoDaily UK with a verified byline page. Speaking history includes Binary Summit Bangkok, India Blockchain Week 2024, EpicWeb3 Summit, and the Web3 Conf Goa Women in Web3 panel."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you book Shilika Jain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Book a 30-minute teardown directly at https://calendly.com/shilikajain/30min/. The first call is a free positioning audit: what story you are sitting on, which outlets it actually fits, and which playbook (launch sprint, founder profiling, category creation, regional rollout) is the right fit. Engagements typically start at $5,000 to $12,000 per month for fractional retainers, with launch sprints stacked at $15,000 to $40,000. Productized content offers (Founder Essay Package $3,500, Whitepaper Sprint $9,500, Op-Ed of the Month $2,500/mo) are listed on the content writing service page."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/article-2#article",
+      "headline": "Korea, Japan, Vietnam: the APAC PR playbook nobody hands you",
+      "alternativeHeadline": "How crypto PR actually works in Korea, Japan and Vietnam",
+      "description": "An 11-minute regional breakdown of how PR actually works in Korea, Japan, and Vietnam — which outlets matter, how to pitch them, and what most agencies get wrong.",
+      "url": "https://www.shilikajain.com/article-2",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/article-2"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2400,
+      "timeRequired": "PT11M",
+      "articleSection": "APAC PR",
+      "keywords": ["APAC crypto PR", "Korea crypto PR", "Japan crypto PR", "Vietnam crypto PR", "BloomingBit", "CryptoTimes JP", "ChainCatcher", "Jinse"],
+      "inLanguage": "en",
+      "datePublished": "2026-05-04",
+      "dateModified": "2026-05-21",
+      "about": [
+        { "@type": "Place", "name": "South Korea" },
+        { "@type": "Place", "name": "Japan" },
+        { "@type": "Place", "name": "Vietnam" },
+        { "@type": "Thing", "name": "APAC crypto PR" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.shilikajain.com/blog" },
+        { "@type": "ListItem", "position": 3, "name": "APAC PR Playbook", "item": "https://www.shilikajain.com/article-2" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/article-2#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Which crypto outlets matter most for Web3 PR in APAC?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Korea: BloomingBit and CoinDesk Korea are the Tier-1 anchors; Token Post is the trader-facing follow-on. Japan: CryptoTimes JP and CoinPost are the working pair, with NeoCom for breaking news. Vietnam: Coin68 and Forbes Vietnam carry the most weight for institutional readers. China-language: ChainCatcher and Jinse Finance are the canonical desks; Foresight News and Odaily are strong supporting outlets. India: Inc42 and Forbes India for funding rounds; YourStory and Moneycontrol for mainstream crossover. APAC general: e27 for cross-region funding and product launches. Three regional placements done well outperform 20 generic English-language re-syndications."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is APAC crypto PR different from US Web3 PR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Three differences make APAC PR structurally distinct. First, the news cycle runs on local time — a 9 AM ET US embargo is 10 PM KST and lands in the dead zone of the Korean news day. Pre-translated assets timed to local morning are non-negotiable. Second, the journalist relationship economy is more closed than the US — outlets like BloomingBit and CryptoTimes JP expect direct introductions, not cold pitches via global email distros. Third, the buyer expectations are different: Korean retail traders care about exchange listings and KOL endorsement, Japanese institutional readers care about regulatory clarity, Indian builders care about funding and use cases. A single English-language press release covers none of these correctly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the right pitching cadence for Korean crypto outlets?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Korean outlets prefer warm introductions over cold pitches, with first contact ideally made through a known third-party (existing portfolio company, an exchange relations contact, or a fellow journalist). The realistic cadence: 7 to 10 business days from first introduction to a published feature for a category-fit story, longer for funding announcements that need translated press materials. Cold pitches sent at 9 AM ET (10 PM KST) are functionally invisible — pitches sent in the previous evening US (which is Korean morning) get roughly 4x the response rate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do APAC outlets show up in Google AI Overviews and Perplexity?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, increasingly so in 2026. Google AI Overviews now appear on roughly 48 percent of US queries (WordStream / Heroic Rankings, April 2026 sample) and AI Overviews ground on multi-language sources for any query with regional intent. A founder asking ChatGPT about Korean exchange listings, Japanese regulatory developments, or Vietnamese DeFi adoption will see citations from BloomingBit, CryptoTimes JP, ChainCatcher, and Coin68 alongside the English-language outlets. Multi-region earned media is one of the highest-leverage AEO inputs for any Web3 protocol with a global GTM thesis."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the budget for an APAC PR launch sprint?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A 3-region APAC launch sprint (Korea, Japan, plus one of Vietnam, India, or China-language) typically runs $12,000 to $25,000 across a 6 to 8 week window, depending on translation depth, KOL coordination, and number of named placements committed up front. A fractional APAC retainer afterward runs $4,000 to $9,000 per month for sustained outlet relationships and incremental coverage tied to roadmap moments. Traditional crypto PR agencies with APAC desks price the same scope at $20,000 to $45,000 per month with 3 to 6 month minimums. Pricing varies based on region count, language pairs, and whether the founder is available for on-ground media days."
+          }
+        }
+      ]
+    }
+  ]
+}

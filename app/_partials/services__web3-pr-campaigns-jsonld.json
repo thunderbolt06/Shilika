@@ -1,0 +1,120 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/services/web3-pr-campaigns#service",
+      "name": "Web3 PR Campaigns",
+      "alternateName": ["Web3 PR consultant", "Crypto PR campaigns", "Fractional Web3 PR", "Strategic PR for Web3 founders", "Blockchain PR services"],
+      "serviceType": "Public Relations",
+      "category": "Fractional PR",
+      "description": "Fractional, senior-operator-led strategic PR campaigns for Web3 and crypto founders. End-to-end narrative architecture, embargo strategy, tier-1 journalist outreach (Forbes, CoinDesk, Cointelegraph, Decrypt, The Block, Blockworks), crisis communications, sentiment reporting, and AI-search visibility work. 50+ protocols shaped across six years and six APAC markets.",
+      "url": "https://www.shilikajain.com/services/web3-pr-campaigns",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "jobTitle": "Fractional PR Manager",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": [
+        { "@type": "Place", "name": "Global" },
+        { "@type": "Country", "name": "United States" },
+        { "@type": "Country", "name": "India" },
+        { "@type": "Country", "name": "Singapore" },
+        { "@type": "Country", "name": "United Arab Emirates" },
+        { "@type": "Country", "name": "Republic of Korea" },
+        { "@type": "Country", "name": "Japan" },
+        { "@type": "Country", "name": "Vietnam" }
+      ],
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Web3 founders, crypto CMOs, protocol comms leads, token-launch operators, recently-funded crypto startups, DePIN and DeFi teams pre-mainnet"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Web3 PR campaign offerings",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Strategic PR retainer" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Mainnet or product launch sprint" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Funding announcement campaign" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Embargo and tier-1 placement" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Crisis and depeg communications" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Sentiment reporting and AI-citation tracking" } }
+        ]
+      },
+      "potentialAction": {
+        "@type": "ReserveAction",
+        "target": "https://calendly.com/shilikajain/30min/",
+        "name": "Book a 30-min teardown"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.shilikajain.com/#services" },
+        { "@type": "ListItem", "position": 3, "name": "Web3 PR Campaigns", "item": "https://www.shilikajain.com/services/web3-pr-campaigns" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/services/web3-pr-campaigns#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a Web3 PR campaign and what does it cover?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Web3 PR campaign is the full sequence from positioning thesis to post-launch sentiment for a single news moment in crypto: a mainnet launch, a funding round, an exchange listing, a token generation event, a major protocol upgrade, or a category-defining op-ed cycle. The work covers narrative architecture, journalist mapping to the right beats at Forbes, CoinDesk, Cointelegraph, Decrypt, The Block and Blockworks, embargo coordination across multiple outlets and regions, KOL wave timing, crisis-comms readiness for depegs or governance incidents, and weekly sentiment and AI-citation reporting. A fractional senior operator runs the whole sequence directly with the founder, in place of a multi-person agency account team."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When should a Web3 founder hire a PR consultant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Six to twelve weeks before any planned public moment. That covers mainnet launch, token generation event, exchange listing, funding announcement, major protocol upgrade, and the first conference where the founder needs a real stage. Hiring inside three weeks of the moment still works for a tight sprint but cuts off the highest-leverage work: positioning, journalist relationship build, embargo prep, and KOL coordination. Hiring after the moment is over wastes most of the news cycle and forces a slower category-narrative build."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does a Web3 PR campaign cost in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fractional Web3 PR retainer in 2026 runs $5,000 to $12,000 per month. A mainnet, product or funding launch sprint over four to eight weeks runs $15,000 to $40,000, scoped by the size of the moment and the number of regions in play. Traditional Web3 PR agency retainers are commonly $15,000 to $30,000 per month because that funds a multi-person account team. The fractional model removes the account-team layer: one senior operator works directly with the founder. Project-based pricing is usually the better fit for token launches and exchange listings where two to four weeks of concentrated work matters more than a year-long retainer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What outlets does a Web3 PR campaign target?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tier-1 crypto-native: CoinDesk, Cointelegraph, The Block, Decrypt, Blockworks, The Defiant. Tier-1 mainstream: Forbes, Bloomberg, Wall Street Journal, Reuters where the story has a funding or regulation angle. Vertical and regional: Bitcoin Magazine, NFTNow, CryptoSlate, CryptoNews, CryptoPotato, Yahoo Finance, Benzinga, plus BloomingBit in Korea, CryptoTimes JP and CoinPost in Japan, ChainCatcher and Jinse in China, Inc42 and YourStory in India, and e27 across Southeast Asia. The named beat reporter at each outlet matters more than the masthead — a real Web3 PR program is built around journalists, not press lists."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does AI search visibility matter for a Web3 PR campaign in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Crypto buyers, exchange business-development teams, and institutional allocators now research projects through ChatGPT, Perplexity, Claude and Google AI Overviews before any sales or partnership call. When a buyer asks an AI engine 'best L1s for real-world assets' or 'top DePIN projects 2026', the answer is assembled from earned editorial coverage, analyst-style write-ups, and structured author-attributed content, not from the project's own marketing pages. Independent 2026 research consistently finds earned coverage accounts for the large majority of links AI engines cite, while press releases account for roughly one percent. Every Web3 PR campaign is structured to produce the earned, named, schema-eligible content AI engines retrieve."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is a fractional Web3 PR consultant different from a crypto PR agency?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Three differences. One: the operator is in the room. A fractional consultant works directly with the founder, CMO and head of comms with no account-team layer routing every decision through a junior. Two: scope follows the news, not the retainer. A fractional engagement is sized to the moments ahead (mainnet, TGE, raise, listing) instead of a fixed monthly menu of deliverables. Three: cost is roughly half. A senior fractional retainer at $5K to $12K per month replaces a $15K to $30K per month agency retainer for the same senior-led scope, because the model removes the AE, account director and junior layer. Agencies still win for projects that genuinely need a multi-region, multi-language production team running in parallel. Most pre-Series B Web3 startups do not."
+          }
+        }
+      ]
+    }
+  ]
+}

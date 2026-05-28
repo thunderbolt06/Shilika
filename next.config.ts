@@ -12,47 +12,6 @@ const nextConfig: NextConfig = {
       { protocol: 'https', hostname: 'shilikajain.com' },
     ],
   },
-  async rewrites() {
-    // Phase 1: route the legacy static HTML pages through public/ with clean URLs.
-    // Phase 2 will replace these with native Next.js routes.
-    const pages = [
-      'about',
-      'ads',
-      'testimonials',
-      'article-1',
-      'article-2',
-      'article-3',
-      'article-4',
-      'article-5',
-      'article-6',
-      'article-7',
-      'article-8',
-    ];
-    const services = [
-      'ai-startup-pr',
-      'apac-pr',
-      'content-writing',
-      'cybersecurity-pr',
-      'founder-profiling',
-      'kol-marketing',
-      'token-launch-pr',
-      'web3-pr-campaigns',
-    ];
-    const work = [
-      'bullieverse',
-      'fluence',
-      'gaia-ai',
-      'mantra-chain',
-      'rari-chain',
-      'web3auth',
-    ];
-
-    return [
-      ...pages.map((p) => ({ source: `/${p}`, destination: `/${p}.html` })),
-      ...services.map((s) => ({ source: `/services/${s}`, destination: `/services/${s}.html` })),
-      ...work.map((w) => ({ source: `/work/${w}`, destination: `/work/${w}.html` })),
-    ];
-  },
   async headers() {
     return [
       {

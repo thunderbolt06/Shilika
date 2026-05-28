@@ -1,0 +1,155 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.shilikajain.com/work/gaia-ai#article",
+      "headline": "Gaia AI Case Study: How We Placed the Stripe for AI Agents in Forbes, Decrypt, and Benzinga",
+      "alternativeHeadline": "Gaia AI 2025 PR Campaign Teardown",
+      "description": "A first-person teardown of the 2025 PR campaign that placed Gaia AI as the Stripe for AI agents across Forbes, Decrypt, Benzinga, CryptoDaily UK, and Binance Square. Includes journalist mapping, embargo strategy, podcast tour, and measurable results.",
+      "image": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+      "datePublished": "2026-05-20T09:00:00+05:30",
+      "dateModified": "2026-05-20T09:00:00+05:30",
+      "inLanguage": "en",
+      "isPartOf": { "@id": "https://www.shilikajain.com/#website" },
+      "mainEntityOfPage": "https://www.shilikajain.com/work/gaia-ai",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "jobTitle": "Fractional PR Manager",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg"
+        }
+      },
+      "about": [
+        { "@type": "Thing", "name": "Gaia AI" },
+        { "@type": "Thing", "name": "Decentralized AI" },
+        { "@type": "Thing", "name": "AI agents" },
+        { "@type": "Thing", "name": "AI startup PR" }
+      ],
+      "mentions": [
+        {
+          "@type": "Organization",
+          "name": "Gaia AI",
+          "url": "https://www.gaianet.ai",
+          "description": "Decentralized AI infrastructure protocol building knowledge systems for AI agents. 400,000+ nodes."
+        },
+        {
+          "@type": "NewsArticle",
+          "name": "AI Agents 101: The Future of Agentic Web and Onchain AI",
+          "url": "https://www.forbes.com/sites/clorischen/2024/12/23/ai-agents-101-the-future-of-agentic-web-and-onchain-ai/",
+          "publisher": { "@type": "Organization", "name": "Forbes" },
+          "datePublished": "2024-12-23"
+        },
+        {
+          "@type": "NewsArticle",
+          "name": "Gaia is Building Living Knowledge Systems for AI Agents",
+          "url": "https://decrypt.co/297060/gaia-is-building-living-knowledge-systems-for-ai-agents",
+          "publisher": { "@type": "Organization", "name": "Decrypt" }
+        },
+        {
+          "@type": "NewsArticle",
+          "name": "Gaia Co-Founder Identifies Centralized Models, Data Access as Key Roadblocks to Decentralized AI Shift",
+          "url": "https://www.benzinga.com/markets/cryptocurrency/25/02/43919492/gaia-co-founder-identifies-centralized-models-data-access-as-key-roadblocks-to-decentralized-ai-shift",
+          "publisher": { "@type": "Organization", "name": "Benzinga" }
+        },
+        {
+          "@type": "NewsArticle",
+          "name": "Interview with Shashank Sripada, Co-founder and COO of Gaia",
+          "url": "https://cryptodaily.co.uk/2025/03/interview-with-shashank-sripada-co-founder-and-coo-of-gaia-on-building-the-stripe-for-ai-agents-consensus-hong-kong-edition",
+          "publisher": { "@type": "Organization", "name": "CryptoDaily UK" }
+        },
+        {
+          "@type": "Article",
+          "name": "Gaia AI on Binance Square",
+          "url": "https://www.binance.com/en/square/post/23141693968322",
+          "publisher": { "@type": "Organization", "name": "Binance Square" }
+        }
+      ],
+      "citation": [
+        "https://www.forbes.com/sites/clorischen/2024/12/23/ai-agents-101-the-future-of-agentic-web-and-onchain-ai/",
+        "https://decrypt.co/297060/gaia-is-building-living-knowledge-systems-for-ai-agents",
+        "https://www.benzinga.com/markets/cryptocurrency/25/02/43919492/gaia-co-founder-identifies-centralized-models-data-access-as-key-roadblocks-to-decentralized-ai-shift",
+        "https://cryptodaily.co.uk/2025/03/interview-with-shashank-sripada-co-founder-and-coo-of-gaia-on-building-the-stripe-for-ai-agents-consensus-hong-kong-edition",
+        "https://www.binance.com/en/square/post/23141693968322"
+      ],
+      "keywords": "Gaia AI, Stripe for AI agents, AI startup PR case study, decentralized AI PR, Forbes AI placement, Consensus Hong Kong, agentic web, Shashank Sripada"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Work", "item": "https://www.shilikajain.com/#work" },
+        { "@type": "ListItem", "position": 3, "name": "Gaia AI Case Study", "item": "https://www.shilikajain.com/work/gaia-ai" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/work/gaia-ai#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What was the Gaia AI PR campaign and what did it achieve?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Gaia AI PR campaign was a 2025 narrative-led press push positioning Gaia as the Stripe for AI agents. The campaign delivered named placements in Forbes (Cloris Chen, 23 December 2024), Decrypt (the living knowledge systems for AI agents feature), Benzinga (a co-founder interview on centralized models and data access), CryptoDaily UK (a Consensus Hong Kong edition interview with Shashank Sripada), and Binance Square. The campaign was timed to Consensus Hong Kong 2025 and included a 6-podcast founder tour. Forbes and Decrypt both used the Stripe for AI agents positioning, locking in the category narrative across two Tier-1 outlets in one cycle."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long did the Gaia AI campaign take to land Tier-1 placements?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The first Tier-1 placement (Forbes) landed in December 2024 within the first major news cycle of the engagement. The Decrypt deep-dive followed in the same quarter. The Benzinga co-founder interview and CryptoDaily UK Consensus Hong Kong interview ran in February and March 2025, anchored to the Consensus Hong Kong 2025 conference moment. End-to-end, the Tier-1 placement stack landed inside a 90-day window, with the podcast tour running across the same period."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why was the Stripe for AI agents positioning chosen for Gaia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Stripe for AI agents framing worked because it borrowed an instantly legible analogy (Stripe as the developer-first infrastructure layer for online payments) and applied it to a category — agentic AI infrastructure — that was on the verge of mass interest but still poorly understood by mainstream tech journalists. Forbes editors recognized the analogy as an immediate hook. Decrypt extended it into a deeper systems explainer. The framing also let Gaia avoid being categorized as just another AI model startup, which was the crowded box every generic press release was getting filed into."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who is Shashank Sripada and what was his role in the campaign?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Shashank Sripada is the co-founder and COO of Gaia. He served as the named operator-spokesperson for the campaign — quoted in the Benzinga piece on centralized models as a roadblock to decentralized AI, profiled in the CryptoDaily UK Consensus Hong Kong edition, and the primary voice across the podcast tour. Picking a single named operator with a clear technical point of view was load-bearing: it gave journalists one direct line and a coherent set of opinions, which is what produces sustained coverage rather than one-off mentions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you run a similar AI startup PR campaign for my company?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, when the underlying story is real. The Gaia campaign worked because the protocol had a sharp technical thesis (decentralized knowledge systems for AI agents), a named founder willing to defend specific positions, and a calendar moment to anchor the news cycle (Consensus Hong Kong). For new engagements, the first 14 days are a positioning audit and narrative thesis, the next 30 to 60 days are Tier-1 outreach and one anchor placement, and the remaining 30 to 60 days are sustaining placements plus founder profiling. Pricing for a fractional senior-operator campaign of this scope runs $5,000 to $12,000 per month, with launch sprints stacked at $15,000 to $40,000. Book a 30-minute teardown to see if the fit is real."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What outlets covered Gaia AI as part of this campaign?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The named-outlet stack: Forbes (Cloris Chen, AI Agents 101 feature, 23 December 2024), Decrypt (living knowledge systems for AI agents), Benzinga (co-founder interview on centralized models), CryptoDaily UK (Consensus Hong Kong edition interview with Shashank Sripada), and Binance Square (distribution across the largest crypto exchange audience). The Forbes placement is the highest-value of the stack because Forbes carries through into Google AI Overviews and Perplexity citations at a meaningfully higher rate than most other tech outlets."
+          }
+        }
+      ]
+    }
+  ]
+}

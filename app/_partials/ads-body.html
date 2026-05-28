@@ -1,0 +1,633 @@
+<style>
+:root {
+  --ink: oklch(0.16 0.01 80);
+  --ink-2: oklch(0.22 0.01 80);
+  --paper: oklch(0.96 0.01 90);
+  --paper-2: oklch(0.92 0.015 85);
+  --cream: oklch(0.93 0.04 85);
+  --lime: oklch(0.92 0.18 115);
+  --lime-2: oklch(0.85 0.2 115);
+  --muted: oklch(0.55 0.01 80);
+  --line: oklch(0.85 0.01 80);
+  --line-dark: oklch(0.30 0.01 80);
+
+  --font-display: 'Instrument Serif', 'Times New Roman', serif;
+  --font-body: 'Inter Tight', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'Geist Mono', 'JetBrains Mono', monospace;
+
+  --max: 1080px;
+  --pad: clamp(20px, 4vw, 56px);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; background: var(--paper); }
+body {
+  font-family: var(--font-body);
+  color: var(--ink);
+  background: var(--paper);
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+}
+a { color: inherit; text-decoration: none; }
+em { font-family: var(--font-display); font-style: italic; font-weight: 400; }
+ul { list-style: none; }
+button, input, textarea, select { font: inherit; color: inherit; }
+
+/* Grain texture */
+.grain {
+  position: fixed; inset: 0;
+  pointer-events: none;
+  z-index: 9990;
+  opacity: 0.05;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.6 0'/></filter><rect width='180' height='180' filter='url(%23n)'/></svg>");
+}
+
+/* Top bar - minimal nav (logo only) */
+.topbar {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 20px var(--pad);
+  border-bottom: 1px solid var(--line);
+}
+.topbar-logo {
+  display: flex; align-items: center; gap: 10px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  font-weight: 500;
+}
+.topbar-meta {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  display: flex; align-items: center; gap: 8px;
+}
+.topbar-meta .pulse {
+  width: 8px; height: 8px;
+  background: var(--lime-2);
+  border-radius: 50%;
+  animation: pulse 2s infinite;
+}
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+/* Hero */
+.hero {
+  padding: clamp(48px, 8vw, 96px) var(--pad) clamp(40px, 6vw, 72px);
+  max-width: var(--max);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  gap: clamp(32px, 5vw, 64px);
+  align-items: center;
+}
+@media (max-width: 820px) {
+  .hero { grid-template-columns: 1fr; }
+  .hero-image { order: -1; }
+}
+.hero-image {
+  position: relative;
+  aspect-ratio: 4/5;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #d9362f;
+  box-shadow: 0 18px 48px -16px rgba(0,0,0,0.25);
+}
+.hero-image img {
+  width: 100%; height: 100%; object-fit: cover; display: block;
+}
+.hero-image::after {
+  content: 'AT THE PRESS LOUNGE · 2026';
+  position: absolute;
+  left: 16px; bottom: 14px;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  color: var(--paper);
+  background: rgba(0,0,0,0.4);
+  padding: 6px 10px;
+  border-radius: 999px;
+  backdrop-filter: blur(6px);
+}
+.kicker {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 24px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.kicker::before {
+  content: '';
+  width: 32px; height: 1px;
+  background: var(--ink);
+}
+.hero h1 {
+  font-family: var(--font-display);
+  font-size: clamp(36px, 6vw, 68px);
+  line-height: 1.02;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+  margin-bottom: 28px;
+  max-width: 18ch;
+}
+.hero h1 em { color: var(--ink); }
+.hero h1 .lime-mark {
+  background: linear-gradient(transparent 64%, var(--lime) 64%);
+  padding: 0 0.08em;
+}
+.hero-sub {
+  font-size: clamp(17px, 1.6vw, 20px);
+  line-height: 1.55;
+  color: var(--ink-2);
+  max-width: 56ch;
+  margin-bottom: 36px;
+}
+.hero-sub strong { font-weight: 600; }
+
+.cta-row {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 16px;
+  margin-bottom: 32px;
+}
+.cta-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 18px 28px;
+  background: var(--ink);
+  color: var(--paper);
+  border-radius: 999px;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  transition: background 0.25s, transform 0.25s;
+  border: 1px solid var(--ink);
+}
+.cta-primary:hover {
+  background: var(--lime);
+  color: var(--ink);
+  border-color: var(--lime);
+  transform: translateY(-1px);
+}
+.cta-primary svg { width: 16px; height: 16px; }
+.cta-meta {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--muted);
+}
+.cta-meta strong { color: var(--ink); font-weight: 500; }
+
+/* Logo strip */
+.logos {
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  padding: 28px var(--pad);
+  background: var(--paper-2);
+}
+.logos-inner {
+  max-width: var(--max);
+  margin: 0 auto;
+}
+.logos-label {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 14px;
+}
+.logos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 18px;
+}
+.logo-cell {
+  font-family: var(--font-display);
+  font-size: 22px;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  text-align: center;
+  padding: 8px 4px;
+  opacity: 0.9;
+}
+
+/* Value props */
+.props {
+  padding: clamp(56px, 8vw, 96px) var(--pad);
+  max-width: var(--max);
+  margin: 0 auto;
+}
+.props h2 {
+  font-family: var(--font-display);
+  font-size: clamp(28px, 4vw, 44px);
+  line-height: 1.08;
+  letter-spacing: -0.01em;
+  font-weight: 400;
+  margin-bottom: 48px;
+  max-width: 22ch;
+}
+.props-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 28px;
+}
+.prop {
+  border-top: 1px solid var(--ink);
+  padding-top: 22px;
+}
+.prop-num {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--muted);
+  letter-spacing: 0.15em;
+  margin-bottom: 12px;
+}
+.prop h3 {
+  font-family: var(--font-display);
+  font-size: 26px;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  margin-bottom: 10px;
+  line-height: 1.15;
+}
+.prop p {
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--ink-2);
+}
+
+/* Video block */
+.video-block {
+  background: var(--ink);
+  color: var(--paper);
+  padding: clamp(56px, 8vw, 96px) var(--pad);
+}
+.video-inner {
+  max-width: var(--max);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 48px;
+  align-items: center;
+}
+@media (max-width: 800px) {
+  .video-inner { grid-template-columns: 1fr; }
+}
+.video-left .kicker {
+  color: rgba(255,255,255,0.55);
+}
+.video-left .kicker::before { background: var(--paper); }
+.video-left h2 {
+  font-family: var(--font-display);
+  font-size: clamp(28px, 4vw, 40px);
+  line-height: 1.1;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+.video-left p {
+  color: rgba(255,255,255,0.7);
+  font-size: 15px;
+  line-height: 1.55;
+  margin-bottom: 24px;
+}
+.video-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16/9;
+  background: #000;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.15);
+}
+.video-frame iframe {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+  border: 0;
+}
+
+/* Quote / story */
+.quote {
+  padding: clamp(56px, 8vw, 96px) var(--pad);
+  max-width: var(--max);
+  margin: 0 auto;
+  text-align: center;
+}
+.quote p {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: clamp(24px, 3.4vw, 40px);
+  line-height: 1.25;
+  color: var(--ink);
+  max-width: 22ch;
+  margin: 0 auto 16px;
+  letter-spacing: -0.01em;
+}
+.quote-cite {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  color: var(--muted);
+  text-transform: uppercase;
+}
+
+/* Stats / proof */
+.stats {
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  padding: 40px var(--pad);
+  background: var(--cream);
+}
+.stats-inner {
+  max-width: var(--max);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 24px;
+}
+.stat {
+  text-align: center;
+}
+.stat-num {
+  font-family: var(--font-display);
+  font-size: clamp(36px, 5vw, 56px);
+  line-height: 1;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+  margin-bottom: 6px;
+  display: block;
+}
+.stat-num sup {
+  font-size: 0.45em;
+  font-family: var(--font-body);
+  vertical-align: super;
+  margin-left: 2px;
+}
+.stat-label {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.15em;
+  color: var(--muted);
+  text-transform: uppercase;
+}
+
+/* Final CTA / Calendly */
+.final {
+  padding: clamp(56px, 8vw, 96px) var(--pad);
+  max-width: var(--max);
+  margin: 0 auto;
+  text-align: center;
+}
+.final h2 {
+  font-family: var(--font-display);
+  font-size: clamp(32px, 5vw, 56px);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+.final h2 em { font-family: var(--font-display); font-style: italic; }
+.final-sub {
+  font-size: 16px;
+  color: var(--ink-2);
+  line-height: 1.5;
+  max-width: 50ch;
+  margin: 0 auto 32px;
+}
+.final-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 32px;
+  background: var(--ink);
+  color: var(--paper);
+  border-radius: 999px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: background 0.25s, transform 0.25s;
+  border: 1px solid var(--ink);
+}
+.final-cta:hover {
+  background: var(--lime);
+  color: var(--ink);
+  border-color: var(--lime);
+  transform: translateY(-1px);
+}
+.final-meta {
+  margin-top: 18px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+  text-transform: uppercase;
+}
+
+/* Inline Calendly */
+.cal-embed {
+  margin-top: 56px;
+  border-top: 1px solid var(--line);
+  padding-top: 56px;
+}
+.cal-embed-title {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  color: var(--muted);
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.cal-frame {
+  min-height: 720px;
+  background: var(--paper-2);
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+}
+
+/* Footer */
+.foot {
+  border-top: 1px solid var(--line);
+  padding: 24px var(--pad);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--muted);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* Reveal */
+.reveal { opacity: 0; transform: translateY(20px); transition: opacity .7s ease, transform .7s ease; }
+.reveal.in { opacity: 1; transform: translateY(0); }
+</style>
+
+
+<div class="grain"></div>
+
+<header class="topbar">
+  <a href="https://shilikajain.com/" class="topbar-logo">
+    <svg width="28" height="28" viewBox="0 0 34 34" fill="none">
+      <circle cx="17" cy="17" r="16" stroke="currentColor" stroke-width="1"/>
+      <path d="M11 22 Q17 8 23 22" stroke="currentColor" stroke-width="1.2" fill="none"/>
+      <circle cx="17" cy="17" r="2.4" fill="currentColor"/>
+    </svg>
+    <span>SHILIKA·JAIN</span>
+  </a>
+  <div class="topbar-meta">
+    <span class="pulse"></span>
+    <span>AVAILABLE Q2 2026</span>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-text">
+    <span class="kicker">Tier-1 PR · Web3 · AI · DePIN</span>
+    <h1>
+      Tier-1 PR for <em>Web3 &amp; AI</em> <span class="lime-mark">founders.</span>
+    </h1>
+    <p class="hero-sub">
+      <strong>Embedded fractional PR</strong> placing 50+ protocols in <em>Forbes</em>, <em>CoinDesk</em>, <em>Cointelegraph</em>, <em>Decrypt</em>. Six years. APAC + global. No retainer until you see the press list.
+    </p>
+    <div class="cta-row">
+      <a href="https://calendly.com/shilikajain/30min/" target="_blank" rel="noopener" class="cta-primary cta-book-call">
+        <span>Book a 30-min call</span>
+        <svg viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.5"/></svg>
+      </a>
+      <span class="cta-meta">Replies in <strong>&lt; 24h</strong> · shilika498@gmail.com</span>
+    </div>
+  </div>
+  <div class="hero-image">
+    <img src="assets/shilika-press-portrait-960x1200.jpg" alt="Shilika Jain at the Press Lounge - Web3 & AI PR" />
+  </div>
+</section>
+
+<!-- LOGO STRIP -->
+<section class="logos">
+  <div class="logos-inner">
+    <div class="logos-label">As placed in</div>
+    <div class="logos-grid">
+      <div class="logo-cell"><em>Forbes</em></div>
+      <div class="logo-cell">CoinDesk</div>
+      <div class="logo-cell"><em>Cointelegraph</em></div>
+      <div class="logo-cell">Decrypt</div>
+      <div class="logo-cell">The Block</div>
+      <div class="logo-cell">Blockworks</div>
+      <div class="logo-cell">Benzinga</div>
+      <div class="logo-cell"><em>AI Magazine</em></div>
+    </div>
+  </div>
+</section>
+
+<!-- VALUE PROPS -->
+<section class="props" id="services">
+  <span class="kicker">/01 — What this looks like</span>
+  <h2>The PR your <em>raise</em> deserves, without the agency markup.</h2>
+
+  <div class="props-grid">
+    <div class="prop reveal">
+      <div class="prop-num">01 · The Founder Hook</div>
+      <h3>From <em>whitepaper</em> to front page.</h3>
+      <p>Two-week immersion in your tech, then a 90-day press calendar with measurable milestones. Op-eds, podcast tours, briefing docs — and journalists who already trust the byline.</p>
+    </div>
+    <div class="prop reveal">
+      <div class="prop-num">02 · No agency BS</div>
+      <h3>Embedded, not <em>outsourced</em>.</h3>
+      <p>I'm not a 6-person agency that bills you for "strategy sessions". I sit in your Slack. I read the whitepaper twice. No retainer until you see the press list.</p>
+    </div>
+    <div class="prop reveal">
+      <div class="prop-num">03 · APAC + Global</div>
+      <h3>Korea, Japan, Dubai, <em>front page.</em></h3>
+      <p>Native-language placements across BloomingBit, CryptoTimes JP, ChainCatcher, Jinse. 200+ vetted KOLs. 100+ tier-1 journalists. Six time zones, one operator.</p>
+    </div>
+  </div>
+</section>
+
+<!-- VIDEO -->
+<section class="video-block" id="pitch">
+  <div class="video-inner">
+    <div class="video-left">
+      <span class="kicker">/02 — The pitch</span>
+      <h2>Hear it <em>from Shilika.</em></h2>
+      <p>2-min breakdown of how she works with newly-funded founders. What gets shipped. What doesn't. And why "press release distribution" is a waste of your runway.</p>
+      <a href="https://calendly.com/shilikajain/30min/" target="_blank" rel="noopener" class="cta-primary cta-book-call" style="background:var(--lime);color:var(--ink);border-color:var(--lime);">
+        <span>Book a teardown</span>
+        <svg viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.5"/></svg>
+      </a>
+    </div>
+    <div class="video-frame">
+      <iframe
+        src="https://www.youtube-nocookie.com/embed/HLFcIOCEQvY?rel=0&modestbranding=1"
+        title="Shilika Jain - 2 minute pitch"
+        loading="lazy"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- QUOTE -->
+<section class="quote">
+  <p>"I don't pitch products. I pitch <em>inevitabilities</em> — the kind of stories editors save for Monday morning."</p>
+  <div class="quote-cite">— Shilika Jain</div>
+</section>
+
+<!-- STATS -->
+<section class="stats">
+  <div class="stats-inner">
+    <div class="stat">
+      <span class="stat-num">50<sup>+</sup></span>
+      <span class="stat-label">Protocols shaped</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">6</span>
+      <span class="stat-label">Years in Web3 / AI PR</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">100K<sup>+</sup></span>
+      <span class="stat-label">Media mentions / qtr</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">200<sup>+</sup></span>
+      <span class="stat-label">Vetted KOLs in network</span>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="final">
+  <span class="kicker">/03 — Book it</span>
+  <h2>Have a launch on the <em>horizon?</em></h2>
+  <p class="final-sub">30 minutes. No pitch deck. I'll come prepped with a teardown of your current press footprint and three angles a tier-1 reporter would care about.</p>
+  <a href="https://calendly.com/shilikajain/30min/" target="_blank" rel="noopener" class="final-cta cta-book-call">
+    <span>Book a 30-min teardown call</span>
+    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M4 14L14 4M14 4H7M14 4V12" stroke="currentColor" stroke-width="1.5"/></svg>
+  </a>
+  <div class="final-meta">Replies within 24h · shilika498@gmail.com</div>
+
+  <!-- Inline Calendly so high-intent visitors can book without leaving -->
+  <div class="cal-embed">
+    <div class="cal-embed-title">Or pick a time right now</div>
+    <div class="cal-frame" id="calendly-inline-widget"></div>
+  </div>
+</section>
+
+<footer class="foot">
+  © SHILIKA JAIN · 2019 – 2026 · <a href="https://shilikajain.com">Back to main site</a>
+</footer>
+
+<!-- Calendly inline embed loader -->
+<link rel="stylesheet" href="https://assets.calendly.com/assets/external/widget.css" />
+
+
+
+<!-- Reveal on scroll -->
+
+
+<!-- Tracking: capture gclid + utm + fire conversion events on Book a Call -->

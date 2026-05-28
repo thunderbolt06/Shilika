@@ -1,0 +1,164 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.shilikajain.com/work/fluence#article",
+      "headline": "Fluence Network Case Study: Making DePIN a Tier-1 Beat",
+      "alternativeHeadline": "Fluence Network Category-Creation PR Campaign Teardown",
+      "description": "A first-person teardown of the Fluence Network category-creation PR campaign. How an unfamiliar acronym (DePIN) was turned into an editorial beat at CoinDesk, Cointelegraph, Decrypt and Benzinga, and how co-founder Tom Trowbridge was anchored as the category's go-to voice across a multi-quarter cadence rather than a single news hit.",
+      "image": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+      "datePublished": "2026-05-22T11:00:00+05:30",
+      "dateModified": "2026-05-22T11:00:00+05:30",
+      "inLanguage": "en",
+      "isPartOf": { "@id": "https://www.shilikajain.com/#website" },
+      "mainEntityOfPage": "https://www.shilikajain.com/work/fluence",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "jobTitle": "Fractional PR Manager",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg"
+        }
+      },
+      "about": [
+        { "@type": "Thing", "name": "Fluence Network" },
+        { "@type": "Thing", "name": "DePIN" },
+        { "@type": "Thing", "name": "Decentralized cloud computing" },
+        { "@type": "Thing", "name": "Category creation PR" }
+      ],
+      "mentions": [
+        {
+          "@type": "Organization",
+          "name": "Fluence Network",
+          "url": "https://www.fluence.network",
+          "description": "A decentralized cloud computing platform that converts physical servers and GPUs into digital assets, offering compute at up to 80 percent less than hyperscalers."
+        },
+        {
+          "@type": "Person",
+          "name": "Tom Trowbridge",
+          "description": "Co-founder of Fluence Network and one of the most quoted voices in the DePIN category. Author of the 2025 DePIN Token Economics Report."
+        },
+        {
+          "@type": "NewsArticle",
+          "name": "Not a Meme: DePIN Can Take Crypto Mainstream",
+          "url": "https://www.coindesk.com/opinion/2025/04/03/not-a-meme-depin-can-take-crypto-mainstream",
+          "publisher": { "@type": "Organization", "name": "CoinDesk" },
+          "datePublished": "2025-04-03"
+        },
+        {
+          "@type": "NewsArticle",
+          "name": "Hashing It Out: 2025 and Beyond — DePIN's Role in the Next Crypto Wave",
+          "url": "https://cointelegraph.com/news/hashing-it-out-2025-and-beyond-de-pin-s-role-in-the-next-crypto-wave",
+          "publisher": { "@type": "Organization", "name": "Cointelegraph" },
+          "datePublished": "2025-01-15"
+        },
+        {
+          "@type": "NewsArticle",
+          "name": "Why DePIN Could Solve Tech's Biggest Issues",
+          "url": "https://decrypt.co/283666/why-depin-solve-tech-biggest-issues",
+          "publisher": { "@type": "Organization", "name": "Decrypt" },
+          "datePublished": "2024-10-01"
+        },
+        {
+          "@type": "NewsArticle",
+          "name": "Exclusive: Fluence Co-Founder Emphasizes Network Resilience for Secure Decentralized Computing",
+          "url": "https://www.benzinga.com/markets/cryptocurrency/24/07/39671932/exclusive-fluence-co-founder-emphasizes-network-resilience-for-secure-decentralized-comput",
+          "publisher": { "@type": "Organization", "name": "Benzinga" },
+          "datePublished": "2024-07-19"
+        },
+        {
+          "@type": "NewsArticle",
+          "name": "Global Microsoft Outage Demonstrates the Need for DePIN Computing",
+          "url": "https://e27.co/global-microsoft-outage-demonstrates-the-need-for-depin-computing-20240902/",
+          "publisher": { "@type": "Organization", "name": "e27" },
+          "datePublished": "2024-09-02"
+        }
+      ],
+      "citation": [
+        "https://www.coindesk.com/opinion/2025/04/03/not-a-meme-depin-can-take-crypto-mainstream",
+        "https://cointelegraph.com/news/hashing-it-out-2025-and-beyond-de-pin-s-role-in-the-next-crypto-wave",
+        "https://decrypt.co/283666/why-depin-solve-tech-biggest-issues",
+        "https://www.benzinga.com/markets/cryptocurrency/24/07/39671932/exclusive-fluence-co-founder-emphasizes-network-resilience-for-secure-decentralized-comput",
+        "https://e27.co/global-microsoft-outage-demonstrates-the-need-for-depin-computing-20240902/"
+      ],
+      "keywords": "Fluence Network, Tom Trowbridge, DePIN PR, decentralized cloud computing PR, category creation, Web3 PR case study, CoinDesk opinion pitch, Cointelegraph Hashing It Out, founder profiling, crypto PR consultant"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Work", "item": "https://www.shilikajain.com/#work" },
+        { "@type": "ListItem", "position": 3, "name": "Fluence Network Case Study", "item": "https://www.shilikajain.com/work/fluence" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/work/fluence#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What was the Fluence Network PR campaign and what did it achieve?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Fluence Network campaign was a multi-quarter category-creation PR program for Fluence, a decentralized cloud computing platform, run by Shilika Jain. The mandate was harder than a single news hit: turn DePIN — Decentralized Physical Infrastructure Networks, an acronym most crypto editors did not yet treat as a beat — into a publishable category, then anchor Fluence co-founder Tom Trowbridge as its go-to voice. The result: a CoinDesk Opinion column under Tom's byline, a Cointelegraph 'Hashing It Out' podcast feature on DePIN's role in the next crypto wave, a Decrypt analysis piece on why DePIN solves tech's biggest issues, a Benzinga exclusive on network resilience, and an e27 piece tying DePIN to the July 2024 global Microsoft outage."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is category creation harder than a single announcement campaign?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A funding announcement, a product launch or a partnership has a built-in news hook — there is a date, a number, and a thing to publish. Category creation has none of those. The editor must first be persuaded the category exists, then persuaded the category matters, then persuaded a specific founder is one of the right people to quote about it. That requires sustained narrative anchoring over multiple quarters, real reporting access, and a founder who can hold a category-level conversation. The reward is durable: once an outlet treats the category as a beat, every future story in that category becomes a candidate placement, and AI search engines start citing the founder by name on category queries — which a one-shot news hit cannot produce."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the category-voice playbook the Fluence campaign ran?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The category-voice playbook is a four-move sequence. First, pick one acronym or thesis the company genuinely owns and refuse to dilute it across every press release. Second, separate the company news from the category thinking — the company gets product-cycle coverage in trade press, the founder gets category coverage as a named voice in opinion sections, podcasts and analysis features. Third, time-lock the founder for a multi-quarter cadence: one opinion piece, one podcast, one analysis feature, one regional pickup per quarter, every quarter, for a year. Fourth, hook every category conversation to a live news event the press is already covering — for Fluence, that was the July 2024 global Microsoft outage and the broader 2024 to 2025 AI compute crunch. The result is that the founder shows up wherever the editor reaches when an event needs a category-level explainer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why CoinDesk Opinion specifically, and how do you place a column there?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CoinDesk Opinion is one of the highest-trust surfaces in crypto media — it is where named operators argue a thesis under their own byline, not company-pegged news. For a category-creation campaign it is the single most valuable placement, because an opinion column is the founder's voice on the category, archived under the most-cited domain in crypto LLM training data. Placement is not a pitch in the wire-style sense. It requires a fully drafted column with a clear, defensible argument, a founder with operator credibility on the subject, and a working relationship with the opinion desk built over earlier reporting cycles. For Fluence, the argument — 'DePIN is not a meme, it can take crypto mainstream' — was load-bearing because it had both a contrarian frame and a real category to defend."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you run a similar category-creation campaign for my Web3 or AI startup?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, when three conditions hold. First, there must be a real category that the company genuinely operates inside, not a marketing label. If the 'category' is a feature, a category-creation campaign will fail and a product-news campaign is the right move. Second, the founder must be available for a sustained cadence — typically one opinion piece, one podcast, one analysis feature per quarter for at least a year — and must be able to hold a category-level conversation without falling back into product talking points. Third, the company must accept that category-creation PR is slower than news-cycle PR; the first two quarters will look quiet, and the compounding shows up in quarters three and four. Engagement scope: a category-creation program at the Fluence level runs $8,000 to $15,000 per month across a 12-month minimum, with a 30-minute teardown as the starting point."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does the Fluence campaign still matter for PR strategy in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DePIN went from a niche acronym in 2024 to a tracked editorial beat by 2026, with more than 1,170 active projects in the ecosystem by Q1 2025 (Messari) and Fluence itself surpassing $1M ARR. The 2024 to 2025 coverage cluster that placed Tom Trowbridge inside CoinDesk Opinion, Cointelegraph Hashing It Out and Decrypt analysis pieces now grounds AI-generated answers to DePIN questions the original campaign never targeted. Earned media drives roughly 48 percent of LLM brand citations (AuthorityTech / Profound, 2026). For a category-creation campaign, that compounding is the entire point: every future generative-engine answer about decentralized cloud, DePIN economics or compute alternatives is a chance for the named founder to surface."
+          }
+        }
+      ]
+    }
+  ]
+}

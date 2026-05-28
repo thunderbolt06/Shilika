@@ -1,0 +1,159 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.shilikajain.com/work/rari-chain#article",
+      "headline": "RARI Chain Mainnet Case Study: 11 Tier-1 Placements in 24 Hours on Arbitrum",
+      "alternativeHeadline": "RARI Foundation 2024 Mainnet PR Campaign Teardown",
+      "description": "A first-person teardown of the 2024 RARI Chain mainnet launch on Arbitrum. CoinDesk exclusive embargoed 9 days out on the NFT royalty enforcement angle, then 11 simultaneous Tier-1 placements at the 9 AM ET launch moment across The Block, The Defiant, Cointelegraph, CryptoNews, Decrypt, NFTNow, and regional APAC translations.",
+      "image": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+      "datePublished": "2026-05-20T15:00:00+05:30",
+      "dateModified": "2026-05-20T15:00:00+05:30",
+      "inLanguage": "en",
+      "isPartOf": { "@id": "https://www.shilikajain.com/#website" },
+      "mainEntityOfPage": "https://www.shilikajain.com/work/rari-chain",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "jobTitle": "Fractional PR Manager",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg"
+        }
+      },
+      "about": [
+        { "@type": "Thing", "name": "RARI Chain" },
+        { "@type": "Thing", "name": "NFT royalty enforcement" },
+        { "@type": "Thing", "name": "Arbitrum L2" },
+        { "@type": "Thing", "name": "Mainnet launch PR" }
+      ],
+      "mentions": [
+        {
+          "@type": "Organization",
+          "name": "RARI Foundation",
+          "url": "https://rari.foundation",
+          "description": "Non-profit foundation behind RARI Chain, a royalty-enforcing Layer 2 built on Arbitrum Orbit for NFT creators."
+        },
+        {
+          "@type": "NewsArticle",
+          "name": "RARI Foundation Launches RARI Chain Mainnet on Arbitrum to Help Protect NFT Royalties",
+          "url": "https://www.theblock.co/post/273833/rari-foundation-launches-rari-chain-mainnet-on-arbitrum-to-help-protect-nft-royalties",
+          "publisher": { "@type": "Organization", "name": "The Block" },
+          "datePublished": "2024-01-18"
+        },
+        {
+          "@type": "NewsArticle",
+          "name": "RARI Chain Launches Mainnet",
+          "url": "https://thedefiant.io/rari-chain-launches-mainnet",
+          "publisher": { "@type": "Organization", "name": "The Defiant" },
+          "datePublished": "2024-01-18"
+        },
+        {
+          "@type": "NewsArticle",
+          "name": "NFT Creator Royalty Payment Blockchain Web3",
+          "url": "https://cointelegraph.com/news/nft-creator-royalty-payment-blockchain-web3",
+          "publisher": { "@type": "Organization", "name": "Cointelegraph" },
+          "datePublished": "2024-01-18"
+        },
+        {
+          "@type": "NewsArticle",
+          "name": "RARI Foundation Launches Mainnet for RARI Chain on Arbitrum",
+          "url": "https://cryptonews.com/news/rari-foundation-launches-mainnet-for-rari-chain-on-arbitrum.htm",
+          "publisher": { "@type": "Organization", "name": "CryptoNews" },
+          "datePublished": "2024-01-18"
+        },
+        {
+          "@type": "NewsArticle",
+          "name": "Protocol: Latest Tech News on Crypto, Blockchain — RARI Chain mainnet coverage",
+          "url": "https://www.coindesk.com/tech/2024/01/18/protocol-latest-tech-news-crypto-blockchain/",
+          "publisher": { "@type": "Organization", "name": "CoinDesk" },
+          "datePublished": "2024-01-18"
+        }
+      ],
+      "citation": [
+        "https://www.coindesk.com/tech/2024/01/18/protocol-latest-tech-news-crypto-blockchain/",
+        "https://www.theblock.co/post/273833/rari-foundation-launches-rari-chain-mainnet-on-arbitrum-to-help-protect-nft-royalties",
+        "https://thedefiant.io/rari-chain-launches-mainnet",
+        "https://cointelegraph.com/news/nft-creator-royalty-payment-blockchain-web3",
+        "https://cryptonews.com/news/rari-foundation-launches-mainnet-for-rari-chain-on-arbitrum.htm"
+      ],
+      "keywords": "RARI Chain, RARI Foundation, mainnet launch PR, Arbitrum Orbit, NFT royalty enforcement, Web3 PR case study, embargo strategy, Tier-1 placements, CoinDesk exclusive, crypto PR consultant"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Work", "item": "https://www.shilikajain.com/#work" },
+        { "@type": "ListItem", "position": 3, "name": "RARI Chain Case Study", "item": "https://www.shilikajain.com/work/rari-chain" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/work/rari-chain#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What was the RARI Chain mainnet PR campaign and what did it achieve?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The RARI Chain mainnet launch was a January 2024 PR campaign for the RARI Foundation, run by Shilika Jain. The campaign delivered 11 simultaneous Tier-1 placements at the 9 AM ET mainnet launch moment, including a CoinDesk exclusive embargoed 9 days out, plus same-day coverage across The Block, The Defiant, Cointelegraph, CryptoNews, Decrypt, NFTNow, and 10 regional APAC outlets. The category angle was NFT royalty enforcement on Arbitrum Orbit, not generic L2 launch. The CoinDesk exclusive set the canonical narrative, and the rest of the press re-reported it inside a 24-hour news cycle."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why was a 9-day embargo used for the RARI Chain mainnet?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A 9-day embargo gave CoinDesk's chosen reporter enough time to actually read the technical architecture of royalty enforcement at the protocol level, talk to named exchange partners, and ship a publish-ready feature timed to 9 AM ET on launch day. Shorter embargoes (24 to 72 hours) force reporters into shallow rewrites of the press release; longer embargoes (2+ weeks) leak. 9 days is the operational sweet spot for a Tier-1 exclusive on a category-defining launch where the reporter needs real source access and the operator needs a guaranteed publish window."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why was NFT royalty enforcement the category angle, not L2 launch?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In January 2024 there were roughly six new L2s launching every quarter. CoinDesk, The Block, and The Defiant had stopped publishing generic L2 launch announcements. Royalty enforcement was a contested topic in the NFT industry: OpenSea had recently made royalties optional, Blur had dropped them entirely, creators were losing tens of millions of dollars annually. Framing RARI Chain as protocol-enforced royalties — a structural fix, not a marketplace policy — gave the launch an editorial through-line that Tier-1 outlets were already covering. The story sold itself once the category was correct. A press release about another Arbitrum Orbit chain would not have."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How did 11 outlets all publish within 24 hours of the mainnet launch?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Three operational moves made the 24-hour stack possible. First, the CoinDesk exclusive locked the framing 9 days out, so every downstream pitch started from a shared narrative. Second, embargoed press kits were pre-distributed to 14 other Tier-1 outlets timed to lift the moment CoinDesk went live at 9 AM ET. Third, regional APAC translations (Korean, Japanese, Vietnamese) were pre-produced and synced to local launch times so the news cycle continued for another 18 hours after the US morning. Coverage broke across CoinDesk, The Block, The Defiant, Cointelegraph, CryptoNews, Decrypt, NFTNow, and 5+ regional outlets inside the first news cycle, with translated regional coverage extending into the following day."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you run a similar mainnet launch campaign for my Web3 protocol?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, when three conditions are true. First, the protocol must have a category angle that editors at CoinDesk, The Block, or The Defiant are already covering, not a generic launch announcement. Second, the launch needs a hard 9 AM ET (or local-time equivalent) anchor moment, with no last-minute slippage, so embargoes hold. Third, the founder or a named operator must be available for a 30 to 45 minute on-record interview with the exclusive partner before embargo lift. Engagement scope: a launch sprint at the RARI Chain level runs $15,000 to $40,000 across a 6 to 8 week window, with a 30-minute teardown as the starting point. Book a call to map the angle and the calendar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between a mainnet PR campaign and a generic crypto launch announcement?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A generic crypto launch announcement gets re-published as a press release on 2 to 5 syndicated wire-style outlets and dies inside 48 hours. A mainnet PR campaign produces an embargoed Tier-1 exclusive on the category angle, 8 to 12 same-day re-reports across crypto-native outlets, regional APAC and EU translations sync'd to local time, founder commentary across 2 to 4 podcasts in the same week, and a follow-up wave 14 to 30 days later anchored on real on-chain usage data. The first plays for clicks. The second plays for citation in AI search, search rank, and the next year of buyer conversations. RARI Chain ran the second."
+          }
+        }
+      ]
+    }
+  ]
+}

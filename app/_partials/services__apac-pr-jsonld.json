@@ -1,0 +1,125 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/services/apac-pr#service",
+      "name": "APAC Localisation & Access",
+      "alternateName": ["APAC crypto PR", "Asia Web3 PR", "Korea crypto PR", "Japan crypto PR", "India Web3 PR", "Southeast Asia crypto PR", "MENA Web3 PR"],
+      "serviceType": "Regional Public Relations",
+      "category": "APAC PR",
+      "description": "Fractional, senior-operator-led APAC PR for Web3, AI and cybersecurity founders. Native-language placements across BloomingBit, TokenPost, BlockMedia, Coinness, CoinReaders (Korea), CryptoTimes JP, Coinpost (Japan), ChainCatcher, Jinse, PANews (China and Greater China diaspora), Inc42, e27, YourStory, Economic Times (India and SEA), and Arabian Business, Gulf News, Cointelegraph Arabic (MENA). Regional KOL waves, on-ground event placements at Korea Blockchain Week, Token2049 Singapore, Token2049 Dubai, ETHIndia, Japan Blockchain Week, Consensus Hong Kong. Country-specific compliance for the Q2 2026 regulatory overhaul across South Korea, Japan, Hong Kong and Australia. APAC Quarterly Retainer $6K-$14K/mo, Single-Market Launch Sprint $12K-$35K, Always-On Market Coordinator $3K/mo.",
+      "url": "https://www.shilikajain.com/services/apac-pr",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "jobTitle": "Fractional PR Manager",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": [
+        { "@type": "Place", "name": "APAC" },
+        { "@type": "Country", "name": "Republic of Korea" },
+        { "@type": "Country", "name": "Japan" },
+        { "@type": "Country", "name": "Vietnam" },
+        { "@type": "Country", "name": "China" },
+        { "@type": "Country", "name": "Singapore" },
+        { "@type": "Country", "name": "India" },
+        { "@type": "Country", "name": "United Arab Emirates" },
+        { "@type": "Country", "name": "Hong Kong" },
+        { "@type": "Country", "name": "Australia" }
+      ],
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Web3 founders launching in APAC, AI startup CMOs with APAC expansion plans, recently funded crypto and AI startups without Asian press presence, L1 and L2 protocols seeking Korea / Japan / India market entry, RWA and DePIN teams entering MENA regulatory perimeters, cybersecurity vendors building APAC analyst credibility"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "APAC PR and regional access offerings",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Native-language placement in tier-1 Korean crypto outlets (BloomingBit, TokenPost, BlockMedia, Coinness, CoinReaders)" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Native-language placement in Japan trade press (CryptoTimes JP, Coinpost, Iolite)" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Greater-China and bilingual diaspora placement (ChainCatcher, Jinse, PANews, Foresight News)" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "India home-market PR across Inc42, YourStory, Economic Times, Business Today, Forbes India, Mint" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Southeast Asia coordination across e27, Tech in Asia, KrAsia, DealStreetAsia" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "MENA placement (Arabian Business, Gulf News, Cointelegraph Arabic) and Token2049 Dubai event leverage" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Regional KOL waves with native-language briefs and per-market disclosure compliance" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "On-ground event placements (Korea Blockchain Week, Token2049 Singapore, Token2049 Dubai, Japan Blockchain Week, ETHIndia, Consensus Hong Kong)" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Country-specific compliance navigation for the Q2 2026 regulatory overhaul (Korea FSC five-minute reconciliation, Japan FIEA migration, Hong Kong SFC, Australia Treasury)" } }
+        ]
+      },
+      "potentialAction": {
+        "@type": "ReserveAction",
+        "target": "https://calendly.com/shilikajain/30min/",
+        "name": "Book a 30-min teardown"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.shilikajain.com/#services" },
+        { "@type": "ListItem", "position": 3, "name": "APAC PR", "item": "https://www.shilikajain.com/services/apac-pr" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/services/apac-pr#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does an APAC crypto PR program actually cover?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An APAC crypto PR program covers nine workstreams. One: native-language placement in tier-1 Korean crypto outlets (BloomingBit, TokenPost, BlockMedia, Coinness, CoinReaders). Two: Japan trade press placement (CryptoTimes JP, Coinpost, Iolite). Three: Greater-China bilingual diaspora coverage through ChainCatcher, Jinse, PANews and Foresight News. Four: India home-market PR across Inc42, YourStory, Economic Times, Business Today, Forbes India, Mint. Five: Southeast Asia coordination via e27, Tech in Asia, KrAsia and DealStreetAsia. Six: MENA placement and Token2049 Dubai leverage through Arabian Business, Gulf News and Cointelegraph Arabic. Seven: regional KOL waves with native-language briefs and per-market disclosure compliance. Eight: on-ground event placements at Korea Blockchain Week, Token2049 Singapore, Token2049 Dubai, Japan Blockchain Week, ETHIndia and Consensus Hong Kong. Nine: country-specific compliance navigation for the Q2 2026 regulatory overhaul in South Korea (FSC five-minute reconciliation), Japan (Payment Services Act to FIEA migration), Hong Kong and Australia."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which APAC markets does the practice cover and why those specifically?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Six core APAC markets plus MENA. South Korea generates roughly half of all tracked crypto-native media traffic across Asia, so it is the single biggest unlock for any Web3 founder serious about the region. Japan is the second-largest, with regulatory weight rising as the JFSA migrates crypto oversight to the Financial Instruments and Exchange Act in 2026. Vietnam is the highest-growth retail market in SEA with Telegram-led adoption patterns. China and the Greater-China diaspora reach is run through bilingual outlets like ChainCatcher and Jinse rather than mainland-licensed press. Singapore is the regional event hub (Token2049) and a credibility anchor under MAS. India is the home market for the practice and a category-builder market for any AI startup serious about a real engineer audience. MENA, anchored on Dubai and Abu Dhabi, is the fastest-moving Web3 regulatory perimeter and the right market for RWA and tokenization plays after the MANTRA Middle East story showed how a category framing can be won out of the region."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does APAC crypto PR cost in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Three commercial models. APAC Quarterly Retainer runs $6,000 to $14,000 per month over a three to six month engagement and covers two to three named-market placements per quarter, plus always-on event-circuit coordination across Korea Blockchain Week, Token2049 Singapore, Token2049 Dubai, Japan Blockchain Week and Consensus Hong Kong. Single-Market Launch Sprint runs $12,000 to $35,000 total for one focused 14 to 21 day window — typical use case is a Korea-only or Japan-only push timed to a mainnet, a listing or a regional event. Always-On Market Coordinator runs $3,000 per month with a three-month minimum and books the senior-operator slot plus one curated market wave per quarter. Translation costs (native Korean, Japanese, Vietnamese, Mandarin and Arabic press copy) and regional KOL fees sit on top — published 2026 APAC KOL rates are nano $200-$1,500 per deliverable, micro $500-$5,000, mid $10,000-$30,000, macro $25,000-$100,000 plus, with a 15 to 25 percent premium in Korea and Japan over Western benchmarks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does APAC crypto PR handle the Q2 2026 regulatory deadlines?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Q2 2026 is the most-overlapping regulatory window APAC crypto has seen. South Korea's Financial Services Commission ordered all exchanges to implement five-minute automated balance reconciliation, automatic kill-switches and monthly external audits by end of May 2026, alongside a zero-threshold Crypto Travel Rule. Japan's JFSA is migrating crypto oversight from the Payment Services Act to the Financial Instruments and Exchange Act, with crypto assets reclassified closer to securities. Hong Kong's SFC is tightening VASP licensing and stablecoin frameworks. Australia's Treasury is finalising the digital-asset platform regime. Every APAC announcement Shilika ships in 2026 carries a per-market compliance note: what is sayable in Korea, what is not sayable in Japan post-FIEA, what gets a license-language footnote in Hong Kong, what cannot be framed as a securities offering in Australia. The compliance review is not optional and is not delegated to the founder."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is APAC PR different from running a single global press release?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A single global press release translated into Korean and Japanese fails in APAC because each market has its own news values, regulatory line, journalist roster and event calendar. Korean trade press wants exchange-listing detail and a regulatory-status quote. Japanese trade press wants a partner-name credibility anchor and a clean-data table. Indian press wants founder-country detail, raise lead investor and SEBI-adjacent regulatory framing. MENA press wants a UAE or Saudi regulatory tie-in and a named local partner. The Outset PR 2026 APAC traffic report (published January 2026) found audience consolidation around the top 20 outlets, which means a region-mapped pitch list of 20 to 35 named outlets across six markets outperforms a generic 200-outlet blast by an order of magnitude. Native translation alone is not a PR strategy. A market-by-market framing is."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does APAC PR earn AI-search citations in Korean, Japanese and Mandarin AI engines?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, increasingly so. Naver, Kakao and LINE in Korea and Japan respectively are building generative answer surfaces that lean heavily on native-language editorial. Baidu's Ernie and the bilingual surfaces of ChatGPT, Perplexity and Claude all cite native-language sources when the query is asked in the local language. A campaign that produces named-byline placements in BloomingBit, TokenPost, CryptoTimes JP, Coinpost, ChainCatcher and Jinse seeds those answer engines with the citations they rank against. The Princeton GEO study (Aggarwal et al., arXiv:2311.09735) found pages combining citations, statistics and named quotations get cited 30 to 40 percent more by generative engines. The same dynamic holds for region-native AI engines, and the moat is even sharper because most Western PR programs never produce native-language editorial in the first place."
+          }
+        }
+      ]
+    }
+  ]
+}

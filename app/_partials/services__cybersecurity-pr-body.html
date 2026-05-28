@@ -1,0 +1,323 @@
+<style>
+:root {
+  --ink: oklch(0.16 0.01 80);
+  --ink-2: oklch(0.22 0.01 80);
+  --paper: oklch(0.96 0.01 90);
+  --paper-2: oklch(0.92 0.015 85);
+  --cream: oklch(0.93 0.04 85);
+  --lime: oklch(0.92 0.18 115);
+  --muted: oklch(0.55 0.01 80);
+  --line: oklch(0.85 0.01 80);
+  --font-display: 'Instrument Serif', 'Times New Roman', serif;
+  --font-body: 'Inter Tight', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'Geist Mono', 'JetBrains Mono', monospace;
+  --pad: clamp(20px, 4vw, 64px);
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--font-body);
+  background: var(--paper);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+.mono { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; }
+
+.nav {
+  position: fixed; top: 0; left: 0; right: 0;
+  z-index: 100;
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 18px var(--pad);
+  background: rgba(247, 246, 241, 0.85);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--line);
+}
+.nav-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); }
+.nav-logo-text { font-family: var(--font-display); font-size: 22px; font-style: italic; letter-spacing: -0.01em; }
+.nav-logo-dot { color: var(--lime); margin: 0 2px; }
+.nav-links { display: flex; gap: 28px; list-style: none; font-family: var(--font-mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; }
+.nav-links a { position: relative; padding: 4px 0; color: var(--ink); text-decoration: none; }
+.nav-links a::after { content: ''; position: absolute; left: 0; bottom: 0; width: 0; height: 1px; background: var(--ink); transition: width 0.4s var(--ease-out-quart); }
+.nav-links a:hover::after, .nav-links a.is-current::after { width: 100%; }
+.nav-cta { display: inline-flex; align-items: center; gap: 8px; padding: 10px 18px; background: var(--ink); color: var(--paper); font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; border-radius: 100px; transition: background 0.3s, color 0.3s; }
+.nav-cta:hover { background: var(--lime); color: var(--ink); }
+@media (max-width: 800px) { .nav-links { display: none; } }
+
+.svc-header { padding: 140px var(--pad) 60px; border-bottom: 1px solid var(--line); background: var(--paper); position: relative; }
+.crumb { max-width: 980px; margin: 0 auto 36px; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+.crumb a { color: var(--muted); text-decoration: none; transition: color 0.3s; }
+.crumb a:hover { color: var(--ink); }
+.crumb .sep { margin: 0 12px; }
+.svc-meta-row { max-width: 980px; margin: 0 auto 28px; display: flex; gap: 18px; align-items: center; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); flex-wrap: wrap; }
+.svc-cat { background: var(--ink); color: var(--paper); padding: 5px 12px; border-radius: 3px; font-weight: 500; }
+.svc-headline { max-width: 980px; margin: 0 auto; font-family: var(--font-display); font-size: clamp(40px, 6.4vw, 88px); line-height: 0.97; letter-spacing: -0.018em; font-weight: 400; text-wrap: balance; }
+.svc-headline em { font-style: italic; background: linear-gradient(120deg, transparent 30%, var(--lime) 30%, var(--lime) 90%, transparent 90%); background-size: 200% 100%; background-position: 100% 0; padding: 0 0.05em; animation: hl-sweep 1.6s 0.4s var(--ease-out-quart) forwards; }
+@keyframes hl-sweep { to { background-position: 0 0; } }
+.svc-sub { max-width: 760px; margin: 32px auto 0; font-family: var(--font-display); font-size: clamp(20px, 1.6vw, 24px); line-height: 1.4; font-style: italic; color: var(--muted); }
+
+.answer-box { max-width: 720px; margin: 60px auto 0; padding: 28px 32px; background: var(--ink); color: var(--paper); border-radius: 8px; }
+.answer-box .ab-label { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--lime); margin-bottom: 12px; }
+.answer-box p { font-family: var(--font-display); font-size: clamp(20px, 1.8vw, 24px); line-height: 1.4; font-style: italic; }
+
+.svc-body-wrap { padding: 80px var(--pad) 100px; background: var(--paper); }
+.svc-body { max-width: 720px; margin: 0 auto; font-size: 19px; line-height: 1.65; color: oklch(0.25 0.01 80); }
+.svc-body p { margin-bottom: 1.4em; }
+.svc-body h2 { font-family: var(--font-display); font-size: clamp(28px, 3vw, 40px); font-weight: 400; letter-spacing: -0.01em; color: var(--ink); margin: 2em 0 0.8em; line-height: 1.1; text-wrap: balance; }
+.svc-body h2::before { content: '§ '; color: var(--lime); font-style: italic; }
+.svc-body h3 { font-family: var(--font-display); font-size: clamp(22px, 2.2vw, 28px); font-weight: 400; color: var(--ink); margin: 1.6em 0 0.5em; line-height: 1.2; }
+.svc-body ul, .svc-body ol { margin: 0 0 1.6em 1.4em; padding-left: 0; }
+.svc-body li { margin-bottom: 0.6em; padding-left: 0.4em; }
+.svc-body li::marker { color: var(--lime); }
+.svc-body strong { color: var(--ink); font-weight: 600; }
+.svc-body em { font-style: italic; }
+.svc-body a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px; }
+.svc-body table { width: 100%; border-collapse: collapse; margin: 1.6em 0; font-size: 15px; font-family: var(--font-mono); letter-spacing: 0.02em; }
+.svc-body table th { text-align: left; padding: 10px 12px; background: var(--ink); color: var(--paper); font-weight: 500; text-transform: uppercase; font-size: 11px; letter-spacing: 0.1em; }
+.svc-body table td { padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.svc-body table tr:nth-child(even) td { background: var(--paper-2); }
+.callout { background: var(--ink); color: var(--paper); padding: 28px 32px; border-radius: 8px; margin: 2em 0; font-family: var(--font-display); font-size: clamp(20px, 1.8vw, 24px); font-style: italic; line-height: 1.35; }
+.callout strong { color: var(--lime); font-weight: 400; font-style: normal; font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; display: block; margin-bottom: 10px; }
+.faq-block { max-width: 720px; margin: 60px auto 0; padding: 32px; background: var(--paper-2); border-radius: 8px; }
+.faq-block h2 { font-family: var(--font-display); font-size: clamp(28px, 3vw, 36px); margin-bottom: 24px; font-weight: 400; }
+.faq-q { font-family: var(--font-display); font-style: italic; font-size: 20px; color: var(--ink); margin: 22px 0 8px; }
+.faq-a { font-size: 16px; color: oklch(0.30 0.01 80); line-height: 1.6; }
+
+.author-block { max-width: 720px; margin: 80px auto 0; padding: 32px; background: var(--paper-2); border-radius: 8px; display: grid; grid-template-columns: 64px 1fr; gap: 20px; align-items: center; }
+.author-avatar { width: 64px; height: 64px; border-radius: 50%; background: var(--ink); color: var(--lime); display: flex; align-items: center; justify-content: center; font-family: var(--font-display); font-size: 24px; font-style: italic; font-weight: 400; }
+.author-name { font-family: var(--font-display); font-size: 24px; font-style: italic; line-height: 1; margin-bottom: 6px; }
+.author-bio { font-size: 14px; color: var(--muted); line-height: 1.4; }
+.author-bio a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px; }
+
+.related-block { max-width: 980px; margin: 80px auto 0; }
+.related-block h3 { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--muted); margin-bottom: 20px; }
+.related-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+.related-card { display: block; padding: 24px; background: var(--paper-2); border-radius: 8px; text-decoration: none; color: var(--ink); transition: transform 0.3s var(--ease-out-quart); }
+.related-card:hover { transform: translateY(-2px); }
+.related-kicker { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; }
+.related-title { font-family: var(--font-display); font-size: 20px; line-height: 1.2; font-style: italic; }
+
+.cta-strip { background: var(--ink); color: var(--paper); padding: 100px var(--pad); text-align: center; position: relative; overflow: hidden; }
+.cta-strip h3 { font-family: var(--font-display); font-size: clamp(40px, 6vw, 80px); font-weight: 400; line-height: 1; letter-spacing: -0.015em; max-width: 18ch; margin: 0 auto 32px; }
+.cta-strip h3 em { font-style: italic; color: var(--lime); }
+.cta-strip-btn { display: inline-flex; align-items: center; gap: 10px; background: var(--lime); color: var(--ink); padding: 18px 32px; font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; text-decoration: none; border-radius: 100px; transition: transform 0.4s var(--ease-out-quart); }
+.cta-strip-btn:hover { transform: translateY(-2px); }
+
+.footer { background: var(--ink); color: var(--paper); padding: 40px var(--pad) 24px; border-top: 1px solid rgba(255,255,255,0.08); }
+.footer-row { max-width: 1440px; margin: 0 auto; display: flex; justify-content: space-between; font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.5); flex-wrap: wrap; gap: 12px; }
+.footer-row a { color: inherit; text-decoration: none; }
+.footer-modified { color: rgba(255,255,255,0.4); }
+</style>
+
+
+<nav class="nav">
+  <a href="/" class="nav-logo">
+    <svg width="34" height="34" viewBox="0 0 34 34" fill="none">
+      <rect width="34" height="34" rx="8" fill="#282520"/>
+      <text x="50%" y="55%" text-anchor="middle" dominant-baseline="middle" font-family="Georgia, serif" font-size="18" font-style="italic" fill="#d4ff32">SJ</text>
+      <circle cx="27" cy="7" r="2" fill="#d4ff32"/>
+    </svg>
+    <span class="nav-logo-text">SHILIKA<span class="nav-logo-dot">·</span>JAIN</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="/#work">Work</a></li>
+    <li><a href="/#services" class="is-current">Services</a></li>
+    <li><a href="/#press">Press</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/blog">Blog</a></li>
+    <li><a href="/#contact">Contact</a></li>
+  </ul>
+  <a href="https://calendly.com/shilikajain/30min/" target="_blank" rel="noopener" class="nav-cta">
+    <span>Book a call</span>
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.4"/></svg>
+  </a>
+</nav>
+
+<header class="svc-header">
+  <div class="crumb">
+    <a href="/">Shilika Jain</a><span class="sep">/</span>
+    <a href="/#services">Services</a><span class="sep">/</span>
+    <span>Cybersecurity PR</span>
+  </div>
+  <div class="svc-meta-row">
+    <span class="svc-cat">SERVICE</span>
+    <span>· FRACTIONAL</span>
+    <span>· UPDATED MAY 2026</span>
+    <span>· BY SHILIKA JAIN</span>
+  </div>
+  <h1 class="svc-headline">Cybersecurity PR for vendors tired of being a <em>logo on a slide</em>.</h1>
+  <p class="svc-sub">A senior fractional operator running analyst relations, tier-1 security press, threat-research amplification, and disclosure comms — built so the next CISO researching your category in an AI engine actually finds you. No five-person account team. No agency markup.</p>
+
+  <div class="answer-box">
+    <div class="ab-label">Direct answer</div>
+    <p>Cybersecurity PR done well in 2026 is one senior operator running analyst relations, tier-1 security press, threat-research amplification, and disclosure comms for $5K to $12K per month. It is not a multi-person agency account team for $23K. The work is being quoted, ranked, and cited — by Gartner, by Dark Reading, and by the AI engines CISOs now research in.</p>
+  </div>
+</header>
+
+<section class="svc-body-wrap">
+  <article class="svc-body">
+
+<h2>Who this is for</h2>
+
+<p>Cybersecurity founders, CMOs, and CISOs who have a real product and real threat data, but whose category presence does not match it. Specifically:</p>
+
+<ul>
+  <li><strong>Pre-Series A security founders</strong> building in SASE, XDR, CTEM, identity, cloud security, application security, or AI security, who need analyst awareness and a tier-1 placement around a funding announcement or a flagship threat report.</li>
+  <li><strong>Series A and B security CMOs</strong> paying a traditional agency $20K to $35K per month — where the median Series B retainer now sits near $23,500 — who want senior-operator scope without the account-team markup.</li>
+  <li><strong>Recently funded cybersecurity companies</strong> with no in-house comms beyond the launch release, where the next two quarters decide whether analysts and journalists treat the company as a category contender.</li>
+  <li><strong>Threat-research teams</strong> sitting on genuinely novel data — a botnet teardown, a CVE, an incident-response dataset — that is being published as a blog post nobody outside the company reads.</li>
+  <li><strong>Security vendors that are invisible in AI search.</strong> When a buyer asks ChatGPT or Perplexity "best vendors for X", the company is not in the answer — and does not know why.</li>
+</ul>
+
+<h2>How the engagement runs</h2>
+
+<p>Three core models, picked based on stage and the news ahead:</p>
+
+<table>
+  <thead>
+    <tr><th>Model</th><th>Window</th><th>Cost</th><th>Best fit</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Fractional retainer</strong></td>
+      <td>3 to 12 months</td>
+      <td>$5K – $12K / month</td>
+      <td>Steady threat-research cadence, ongoing analyst relations, founder profiling, AI-search visibility work</td>
+    </tr>
+    <tr>
+      <td><strong>Analyst relations sprint</strong></td>
+      <td>8 to 12 weeks</td>
+      <td>$12K – $28K total</td>
+      <td>A Magic Quadrant or Forrester Wave briefing cycle, a category-entry push, or repairing a weak analyst position</td>
+    </tr>
+    <tr>
+      <td><strong>Launch / disclosure sprint</strong></td>
+      <td>4 to 8 weeks</td>
+      <td>$15K – $40K total</td>
+      <td>Funding round, a major CVE or coordinated disclosure, a flagship threat report, an RSA or Black Hat news moment</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>What is in scope</h2>
+
+<ul>
+  <li><strong>Analyst relations.</strong> Briefing calendar mapped to the Magic Quadrant and Forrester Wave cycles for your category; vendor briefing decks written to the questions analysts actually ask; inquiry sessions with Gartner, Forrester, IDC and KuppingerCole; an objection feedback loop into product and messaging.</li>
+  <li><strong>Tier-1 security press outreach.</strong> Dark Reading, SC Media, CyberScoop, The Record, SecurityWeek, BleepingComputer, Help Net Security, plus the security desks at Forbes, WSJ Pro Cybersecurity, Bloomberg, TechCrunch and Wired — and named beat reporters, not a blast list.</li>
+  <li><strong>Threat-research amplification.</strong> Turning your team's CVE work, botnet teardowns, and incident data into publishable, attributed stories that journalists run and analysts cite.</li>
+  <li><strong>Coordinated disclosure communications.</strong> A disclosure-timeline template aligned to coordinated-disclosure norms, holding statements, and an outlet map so a CVE release lands as a credibility moment, not a scramble.</li>
+  <li><strong>Breach and crisis comms.</strong> Pre-built holding-statement library, named-spokesperson and approval chain, and a journalist contact map — rehearsed before it is needed.</li>
+  <li><strong>Founder and CISO profiling.</strong> LinkedIn rebuild, op-ed ghostwriting, podcast and conference-stage placement at RSA Conference, Black Hat and BSides.</li>
+  <li><strong>AEO and AI-search visibility.</strong> Structuring earned coverage and on-site content so AI engines cite the vendor on category queries.</li>
+  <li><strong>Weekly asynchronous reporting.</strong> Placements landed, analyst briefings booked, journalists in motion, AI-citation share — not vanity metrics.</li>
+</ul>
+
+<h2>Analyst relations is the part most security PR skips</h2>
+
+<p>In most categories, PR is about journalists. In cybersecurity, the buyer's shortlist is shaped first by Gartner, Forrester, IDC and KuppingerCole. A security PR program that cannot name the analyst who covers SASE, the one who covers XDR, and the one who covers identity is not a real program — it is media relations wearing a security badge.</p>
+
+<p>Analyst relations is not a relationship monopoly; it is structured work. The deliverable is a briefing calendar built backwards from the Magic Quadrant and Wave research cycles for your category, a briefing deck written to the analyst's research agenda rather than your launch deck, inquiry sessions used to surface objections early, and a feedback loop that carries those objections back into product and messaging before the next briefing. A fractional operator runs that process directly, with the founder in the room. What an honest operator never promises is a guaranteed quadrant position — analysts score the product, not the pitch.</p>
+
+<div class="callout"><strong>Why it compounds</strong>Cybersecurity vendors that run active analyst relations and earned media are quoted in tier-1 business and security press several times more often than peers leaning on owned content alone. The analyst mention and the Dark Reading quote are also the exact sources AI engines reach for when a CISO asks them to compare your category.</div>
+
+<h2>Threat research is your news engine</h2>
+
+<p>Security journalists at Dark Reading, CyberScoop and The Record do not publish product announcements. They publish threat intelligence: a new malware family, a botnet teardown, a vulnerability class, incident-response data nobody else has. Most security startups are already sitting on this — and burying it in a blog post with no outreach behind it.</p>
+
+<p>The work is to treat the research team as the newsroom. Every quarter has a flagship research artifact. Every artifact gets a real embargo, a named researcher as the spokesperson, a tier-1 anchor outlet, and a syndication plan. That is how a vendor becomes a name a journalist calls for comment on the next big story in the category — which is worth far more than any single launch.</p>
+
+<h2>Proof: the closest case, told honestly</h2>
+
+<p>Cybersecurity PR is an expanding part of this practice, built on six years of infrastructure and security-narrative work in Web3 and AI — categories where the news is technical, the buyer is skeptical, and trust is the entire product. The most security-adjacent case study is <a href="/work/web3auth">Web3Auth</a>: an MPC wallet-infrastructure company whose news — key-management security delivered as a developer SDK — had no funding hook and no token, the kind of release tier-1 desks routinely ignore. It was reframed as a trusted-infrastructure story, anchored to the Google Cloud brand, and placed across Blockworks, CoinDesk, Benzinga, Cointelegraph and Yahoo Finance, then syndicated into three more language markets.</p>
+
+<p>That is the same muscle cybersecurity PR runs on: take a deeply technical security capability, translate it into an outcome a journalist and an analyst both understand, anchor it to verifiable proof, and place it with named reporters on a timed plan. The honest version of this page: if you need a decade of named Gartner Magic Quadrant wins on the table before you will hire, this is not your fit. If you want a senior operator who will build the analyst calendar, run the threat-research newsroom, and own AI-search visibility — without the agency markup — book the teardown.</p>
+
+<h2>What this is not</h2>
+
+<ul>
+  <li>It is not press-release distribution. Paid wire is a separate line item and rarely the right spend for a security startup.</li>
+  <li>It is not a multi-person account team. There is no AE, no account director, no junior between the founder and the operator.</li>
+  <li>It is not a guaranteed analyst rating. No honest operator promises a Magic Quadrant position; the program earns the briefing, the product earns the score.</li>
+  <li>It is not generic tech PR. Analyst relations, threat-research amplification, and disclosure comms are security-specific and in scope from day one.</li>
+</ul>
+
+<h2>The AI search layer for cybersecurity vendors</h2>
+
+<p>By mid-2026, Google's AI Mode passed one billion monthly users and AI Overviews appear on roughly half of all queries; on queries where an AI feature appears, the position-one organic click-through rate has fallen from around 27 percent to as low as 11 percent. Security buyers research the same way: CISOs, security engineers and GRC leads ask ChatGPT, Perplexity and Claude "best XDR vendors" or "who does CTEM well" before a sales call exists.</p>
+
+<p>Those answers are assembled from earned editorial coverage and analyst mentions, not from a vendor's marketing pages — independent 2026 research consistently finds earned coverage accounts for the large majority of links AI engines cite, while press releases account for roughly one percent. The Princeton GEO study (Aggarwal et al., <a href="https://arxiv.org/abs/2311.09735" rel="noopener" target="_blank">arXiv:2311.09735</a>) found pages combining citations, statistics and named quotations get cited 30 to 40 percent more by generative engines. And AI models reinforce the brands they already cite — the vendors that show up now compound; the ones that wait pay an entry tax later. Every cybersecurity engagement is structured to produce that earned, named, structured artifact — not just the placement.</p>
+
+<h2>How to start</h2>
+
+<p>Book a 30-minute teardown. We look at your current analyst position, your strongest piece of unpublished threat research, the next news hook, and where your category competitors are showing up in AI search that you are not. By the end of the call you will know whether fractional cybersecurity PR is the right model for your stage — or whether the budget belongs somewhere else this quarter.</p>
+
+  </article>
+
+  <aside class="faq-block">
+    <h2>Frequently asked questions</h2>
+    <p class="faq-q">What is fractional PR for a cybersecurity company?</p>
+    <p class="faq-a">A senior PR operator working directly with the founder, CMO or CISO on a part-time retainer, in place of a full agency. Handles positioning, analyst relations (Gartner, Forrester, IDC, KuppingerCole), tier-1 security press, threat-research amplification, disclosure comms and founder profiling. For security startups pre-Series B this typically replaces a $20K to $35K per month agency retainer with $5K to $12K for the same scope.</p>
+    <p class="faq-q">How is cybersecurity PR different from generic tech PR?</p>
+    <p class="faq-a">Analyst relations is load-bearing — Gartner, Forrester, IDC and KuppingerCole shape buyer shortlists. The news engine is threat research, not product launches: CVEs, botnet teardowns and incident data are what Dark Reading and CyberScoop publish. And breach and disclosure comms must be in scope from day one, because in security the improvised response becomes the story.</p>
+    <p class="faq-q">How much does cybersecurity PR cost in 2026?</p>
+    <p class="faq-a">Fractional senior PR runs $5K to $12K per month. The median Series B retainer at a traditional senior-led agency is around $23,500. Analyst-relations sprints run $12K to $28K; launch or disclosure sprints $15K to $40K. Most security startups pre-Series B fit a 3 to 6 month fractional retainer with an analyst-relations sprint stacked on the briefing window.</p>
+    <p class="faq-q">Can a fractional operator run analyst relations with Gartner and Forrester?</p>
+    <p class="faq-a">Yes — analyst relations is structured work: a briefing calendar mapped to Magic Quadrant and Wave cycles, briefing decks written to the analyst's research agenda, booked inquiry sessions, and an objection feedback loop into product. A fractional operator runs that with the founder in the room. No honest operator promises a guaranteed quadrant position — analysts score the product, not the pitch.</p>
+    <p class="faq-q">Why does AI search visibility matter for cybersecurity vendors?</p>
+    <p class="faq-a">CISOs and security engineers research vendors through ChatGPT, Perplexity, Claude and AI Overviews before a sales call. Those answers are built from earned editorial coverage and analyst mentions — earned coverage accounts for the large majority of AI-cited links; press releases about one percent. A 2026 program produces the earned, named, schema-structured content AI engines retrieve.</p>
+    <p class="faq-q">Do you handle breach communications and incident response PR?</p>
+    <p class="faq-a">Yes, and it has to be in scope before it is needed — covering an incident at the vendor, a coordinated vulnerability disclosure, or a customer incident where the product is named. The work is a pre-built holding-statement library, a disclosure-timeline template, a named-spokesperson and approval chain, and a journalist contact map so the response goes out in hours.</p>
+  </aside>
+
+  <div class="author-block">
+    <div class="author-avatar">SJ</div>
+    <div>
+      <div class="author-name">Shilika Jain</div>
+      <p class="author-bio">Fractional PR Manager for Web3, AI and cybersecurity founders. 50+ protocols and infrastructure companies placed in Forbes, CoinDesk, Cointelegraph, Decrypt, The Block, Blockworks, AI Magazine. APAC PR &amp; Partnerships at Myosin (a growth-marketing DAO). Previously at CoinMarketCap. <a href="/about">View full profile →</a> · <a href="https://www.linkedin.com/in/shilika/" rel="noopener" target="_blank">LinkedIn</a> · <a href="https://x.com/Shilika_jain" rel="noopener" target="_blank">X</a></p>
+    </div>
+  </div>
+
+  <div class="related-block">
+    <h3>Related reading</h3>
+    <div class="related-grid">
+      <a href="/services/web3-pr-campaigns" class="related-card">
+        <div class="related-kicker">Service · related</div>
+        <div class="related-title">Web3 PR Campaigns: tier-1 placements end-to-end</div>
+      </a>
+      <a href="/services/ai-startup-pr" class="related-card">
+        <div class="related-kicker">Service · related</div>
+        <div class="related-title">AI Startup PR: fractional senior operator</div>
+      </a>
+      <a href="/work/web3auth" class="related-card">
+        <div class="related-kicker">Case study · 7 min</div>
+        <div class="related-title">Web3Auth: making infrastructure security a tier-1 story</div>
+      </a>
+      <a href="/article-8" class="related-card">
+        <div class="related-kicker">Comparison · 9 min</div>
+        <div class="related-title">Crypto PR vs AI PR in 2026: how the playbooks differ</div>
+      </a>
+      <a href="/article-4" class="related-card">
+        <div class="related-kicker">Pricing · 8 min</div>
+        <div class="related-title">How much does tech PR cost in 2026?</div>
+      </a>
+    </div>
+  </div>
+
+</section>
+
+<section class="cta-strip">
+  <h3>Book a 30-minute <em>teardown</em>.</h3>
+  <a href="https://calendly.com/shilikajain/30min/" target="_blank" rel="noopener" class="cta-strip-btn">
+    Book a call
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.4"/></svg>
+  </a>
+</section>
+
+<footer class="footer">
+  <div class="footer-row">
+    <span>© 2026 SHILIKA JAIN · FRACTIONAL PR</span>
+    <span class="footer-modified">UPDATED 2026-05-23</span>
+    <span><a href="/about">About</a> · <a href="/blog">Blog</a> · <a href="/#contact">Contact</a> · <a href="https://www.linkedin.com/in/shilika/" target="_blank" rel="noopener">LinkedIn</a></span>
+  </div>
+</footer>

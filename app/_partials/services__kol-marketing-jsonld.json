@@ -1,0 +1,121 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/services/kol-marketing#service",
+      "name": "KOL & Influencer Marketing",
+      "alternateName": ["Web3 KOL marketing", "Crypto influencer marketing", "Web3 creator marketing", "Token launch KOL waves", "Crypto influencer agency"],
+      "serviceType": "Influencer Marketing",
+      "category": "KOL Marketing",
+      "description": "Fractional, senior-operator-led KOL and influencer marketing for Web3, AI and cybersecurity founders. A direct line to 200+ vetted creators across X, YouTube, Telegram, Farcaster and Lens, segmented by region (Korea, Japan, Vietnam, China, India, Singapore, MENA, US, EU), vertical (DeFi, DePIN, gaming, AI agents, RWA, restaking, intents) and audience quality. Three-wave launch sequence: T-72h credibility anchors, T+0 broad activation across 40-120 creators, T+24h to T+7d sustained deep-dives. Independent fraud audit on every creator before contract. FTC and SEC-aware disclosure language baked in. KOL Wave Retainer $5K-$12K/mo, TGE KOL Sprint $15K-$45K total, Always-On Network $2,500/mo.",
+      "url": "https://www.shilikajain.com/services/kol-marketing",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "jobTitle": "Fractional PR Manager",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": [
+        { "@type": "Place", "name": "Global" },
+        { "@type": "Country", "name": "United States" },
+        { "@type": "Country", "name": "India" },
+        { "@type": "Country", "name": "Singapore" },
+        { "@type": "Country", "name": "United Arab Emirates" },
+        { "@type": "Country", "name": "Republic of Korea" },
+        { "@type": "Country", "name": "Japan" },
+        { "@type": "Country", "name": "Vietnam" }
+      ],
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Web3 founders pre-TGE or pre-mainnet, AI startup CMOs, recently funded crypto and AI startups, growth leads at L1 and L2 protocols, NFT and gaming founders launching mint cycles, RWA and DePIN teams ready to activate creator networks, cybersecurity vendors building developer credibility"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "KOL and influencer marketing offerings",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Creator vetting and fraud audit (engagement, bot share, audience geo, on-chain history)" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Campaign design and three-wave launch sequencing (T-72h, T+0, T+24h)" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Region-segmented KOL activation across Korea, Japan, Vietnam, China, India, Singapore, MENA, US and EU" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Brief writing, talking-point sheets and FTC and SEC-aware disclosure language" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Performance tracking with CPW (cost per wallet), on-chain attribution and sentiment monitoring" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Token-launch operations (exchange-coordinated KOL drops, AMA scheduling, Telegram and Discord seeding)" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Post-campaign report with placements landed, audience overlap, sentiment delta and renew or kill calls per creator" } }
+        ]
+      },
+      "potentialAction": {
+        "@type": "ReserveAction",
+        "target": "https://calendly.com/shilikajain/30min/",
+        "name": "Book a 30-min teardown"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.shilikajain.com/#services" },
+        { "@type": "ListItem", "position": 3, "name": "KOL Marketing", "item": "https://www.shilikajain.com/services/kol-marketing" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/services/kol-marketing#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does a Web3 KOL marketing program actually cover?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Web3 KOL marketing program covers seven workstreams. One: creator vetting and fraud audit on every named KOL before contract — engagement quality, bot share, audience geo, posting consistency through bear markets, and where verifiable on-chain holding history. Two: campaign design and the three-wave launch sequence (T-72h credibility anchors, T+0 broad activation across 40 to 120 creators, T+24h to T+7d sustained deep-dives). Three: region-segmented activation across Korea, Japan, Vietnam, China, India, Singapore, MENA, the US and the EU. Four: brief writing, talking-point sheets and FTC and SEC-aware disclosure language. Five: performance tracking with cost per wallet, on-chain attribution and sentiment monitoring. Six: token-launch operations — exchange-coordinated drops, AMA scheduling, Telegram and Discord seeding. Seven: post-campaign report with renew or kill calls per creator."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How big is the vetted creator network and how is it segmented?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The network sits at 200+ vetted Web3 creators across X, YouTube, Telegram, Farcaster and Lens. Every creator has been audited for audience quality, engagement integrity and on-chain track record before they enter the active roster. Segmentation runs across three axes: region (Korea, Japan, Vietnam, China, India, Singapore, MENA, the US and the EU), vertical (DeFi, DePIN, gaming, AI agents, RWA, restaking, intents, NFT and infra) and audience size (nano under 25K, micro 25K-100K, mid 100K-500K, macro 500K plus). Campaign briefs draw from that segmented roster — never a single all-purpose list, and never a creator selected on follower count alone."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does Web3 KOL marketing cost in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Three commercial models. A KOL Wave Retainer runs $5,000 to $12,000 per month over a three to six month engagement and covers a quarterly wave plus always-on creator monitoring. A TGE KOL Sprint runs $15,000 to $45,000 total for a single 7 to 14 day launch window with 40 to 120 creators activated across three waves. An Always-On Creator Network commitment is $2,500 per month with a three-month minimum and books the senior-operator slot plus one curated wave per quarter. Creator fees sit on top: 2026 published rates are nano $200-$1,500 per deliverable, micro $500-$5,000 per campaign, mid $10,000-$30,000 per campaign and macro $25,000-$100,000 plus. Plan a realistic all-in budget at 25 to 40 percent on top of quoted creator rates to cover operations, vetting and reporting."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How are creators vetted before they go live?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Every creator runs through a five-input audit before a contract is offered. One: engagement quality — comment-to-impression ratio, substantive replies versus emoji noise, views-to-engagement ratios that hold consistent across the last 90 days. Two: bot and inactive-follower share, cross-checked through HypeAuditor or Social Blade against the creator's claimed audience size. Three: audience geography and overlap — does the audience match the claimed market and how much overlaps with creators already on the brief. Four: on-chain track record where applicable — wallet activity, history of disclosed holdings, evidence of bag-pumping coverage. Five: previous brand-partner references for $500 plus contracts. Total vetting time runs 1 to 3 hours per creator. The output is a green-light / amber / red call per name on the brief."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do FTC and SEC disclosure rules apply to crypto KOL campaigns in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "FTC endorsement guidelines treat every paid post and every gifted-token allocation as a material connection that must be disclosed clearly and conspicuously — visible in the post itself, not buried in a profile bio. New 2025-2026 FTC guidance adds extra scrutiny to crypto and NFT claims and requires immediate compensation disclosure, with the 2025 civil penalty cap at $53,088 per violation. SEC enforcement (the 2022 Kardashian $1.26M fine remains the canonical precedent) requires disclosure of payment for promoting any security, including most token offerings. The campaign brief shipped to every creator on a Shilika engagement includes the exact disclosure tag, a do-not-say list (no projected returns, no investment framing, no price predictions), and a sign-off step before the post ships. Compliance review is not optional and is not outsourced to the creator."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does KOL marketing earn AI-search citations?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Indirectly, but the lift is real. AI engines (ChatGPT, Perplexity, Claude, Google AI Mode) cite named entities — people, products, projects — when answering category questions. A campaign that generates twelve named YouTube deep-dives, forty signed-attribution X threads, six podcast appearances and one named long-form Substack analysis seeds the open web with the citations AI engines rank against. The Princeton GEO study (Aggarwal et al., arXiv:2311.09735) found pages combining citations, statistics and named quotations get cited 30 to 40 percent more by generative engines. KOL deliverables that include named creator quotes, named numbers and links back to verifiable product pages produce exactly those artifacts. A campaign run on auto-generated copy and recycled hype threads does not."
+          }
+        }
+      ]
+    }
+  ]
+}

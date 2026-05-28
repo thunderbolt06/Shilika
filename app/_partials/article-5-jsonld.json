@@ -1,0 +1,147 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/article-5#article",
+      "headline": "How to get featured in CoinDesk in 2026: a practitioner's guide",
+      "alternativeHeadline": "How to pitch CoinDesk and actually land coverage in 2026",
+      "description": "A senior Web3 PR operator's guide to getting featured in CoinDesk in 2026. What editors filter for, how to write a pitch that lands, embargo etiquette, and worked examples from real campaigns.",
+      "url": "https://www.shilikajain.com/article-5",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/article-5"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 1700,
+      "timeRequired": "PT9M",
+      "articleSection": "PR Playbook",
+      "keywords": ["how to get featured in CoinDesk", "how to pitch CoinDesk", "CoinDesk PR 2026", "Web3 media relations", "crypto journalist outreach", "embargo etiquette", "Tier-1 crypto press"],
+      "inLanguage": "en",
+      "datePublished": "2026-05-15",
+      "dateModified": "2026-05-19",
+      "about": [
+        { "@type": "Thing", "name": "CoinDesk" },
+        { "@type": "Thing", "name": "Web3 media relations" },
+        { "@type": "Thing", "name": "Crypto press strategy" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://www.shilikajain.com/article-5#howto",
+      "name": "How to pitch and get featured in CoinDesk",
+      "description": "A 7-step practitioner's playbook for landing CoinDesk coverage, from picking the right reporter to handling embargo follow-up.",
+      "totalTime": "PT336H",
+      "tool": [
+        { "@type": "HowToTool", "name": "Journalist beat tracker (MuckRack or manual)" },
+        { "@type": "HowToTool", "name": "Embargo-ready press kit" },
+        { "@type": "HowToTool", "name": "One reusable data point or proprietary stat" }
+      ],
+      "step": [
+        { "@type": "HowToStep", "position": 1, "name": "Map the right reporter, not the masthead", "text": "Read 12 to 20 recent bylines, list each reporter by beat (DeFi, infra, regulation, stablecoins, gaming, AI x crypto, APAC, NFTs), and pick the one whose last three pieces overlap with your story angle. Cold-pitching the wrong beat is the #1 reason CoinDesk pitches die." },
+        { "@type": "HowToStep", "position": 2, "name": "Build a story angle, not an announcement", "text": "CoinDesk editors filter for category significance, not corporate news. Lead with what your launch tells readers about the market — a new pricing model, an industry-first integration, a category being defined — and put your funding or product line second." },
+        { "@type": "HowToStep", "position": 3, "name": "Write a pitch under 180 words", "text": "Three paragraphs. One on what's news. One on why it matters to the reporter's beat. One on what's exclusive (data, founder access, embargo). End with two sentences confirming you can ship assets within 24 hours." },
+        { "@type": "HowToStep", "position": 4, "name": "Offer a real embargo with a clear window", "text": "Pitch 7 to 10 days before launch. Offer a 48 to 72 hour embargo. Confirm in writing. Send the press kit only after the reporter agrees to terms. Never pitch the same embargo to a competing outlet unless you have told them in writing." },
+        { "@type": "HowToStep", "position": 5, "name": "Pre-brief, then send a tight package", "text": "Once the embargo is accepted, schedule a 30 to 45 minute founder briefing. Send a press kit with the key facts, two named customer quotes, three usable charts, founder bio, and high-resolution images." },
+        { "@type": "HowToStep", "position": 6, "name": "Manage the day-of-launch carefully", "text": "Confirm the publish window with the reporter the morning of launch. Have the founder on standby for last-minute questions for at least 90 minutes. Coordinate any partner or exchange announcement to lag CoinDesk's piece by 15 to 30 minutes." },
+        { "@type": "HowToStep", "position": 7, "name": "Follow up with the second story", "text": "Two weeks after launch, return to the same reporter with a tied second beat — usage data, partnership, customer story. Reporters who covered you once are 4 to 5 times more likely to cover you again than cold contacts. Build the relationship, don't burn it." }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.shilikajain.com/blog" },
+        { "@type": "ListItem", "position": 3, "name": "How to get featured in CoinDesk in 2026", "item": "https://www.shilikajain.com/article-5" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/article-5#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do you actually pitch CoinDesk and get a response?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Read the reporter's last 12 to 20 bylines, find the one whose beat matches your story (DeFi, infra, regulation, stablecoins, gaming, AI x crypto, APAC), and write a pitch under 180 words: one paragraph on what's news, one on why it matters to that beat specifically, one on what's exclusive. Confirm you can ship assets in 24 hours. Cold-pitching the wrong beat is the most common reason pitches die at CoinDesk."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does CoinDesk accept press releases?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CoinDesk publishes paid press release distribution via partners like Cointelegraph PR and AccessWire, but editorial coverage in the newsroom is earned through direct reporter outreach, not press release submissions. Editorial and the press partner side are two separate funnels — paying for one does not increase the odds of the other."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How far in advance should I pitch CoinDesk for a launch?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "7 to 10 days before launch is the sweet spot for an embargo. Earlier than 14 days and the reporter forgets; closer than 5 days and they may not have an editor slot. Offer a 48 to 72 hour embargo, confirm in writing, and send the press kit only after terms are agreed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What makes an embargo with CoinDesk credible?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Three things: a clearly specified publish window (date and hour), written confirmation from the reporter that the embargo is accepted, and a guarantee that competing outlets are either also under the same embargo or do not have the story. Breaking an embargo or pitching the same exclusive to two competing outlets ends the relationship with that reporter."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to land a CoinDesk feature?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Editorial coverage tied to a launch typically takes 2 to 4 weeks from first reporter contact to publish, assuming the story angle is strong and the embargo is offered correctly. Profile pieces or category-defining features that aren't tied to a launch can take 2 to 3 months because they require multiple briefings and editor sign-off."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What gets a pitch killed at CoinDesk in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Five things: pitching the wrong reporter, leading with a funding announcement instead of a category-level story, broken embargo behavior, no data or named customers behind the claims, and asking for editorial coverage in exchange for paid press release distribution. The newsroom and the press partner side are firewalled."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I get CoinDesk coverage without a PR agency?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — and many founders do, especially in the first 18 to 24 months. Direct founder-to-reporter relationships are valued by CoinDesk editors. What an experienced operator brings is the journalist map, the embargo etiquette, the pitch craft, and a 2-week-out launch timeline that doesn't burn the relationship. Useful for repeat campaigns, less essential for a first story if the founder has the time."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/services/ai-startup-pr#service",
+      "name": "AI Startup PR",
+      "alternateName": ["Fractional PR for AI founders", "AI PR consultant", "PR for AI startups"],
+      "serviceType": "Public Relations",
+      "category": "Fractional PR",
+      "description": "Fractional, senior-operator-led PR for AI founders and CMOs. Tier-1 placements (Forbes, AI Magazine, Decrypt, The Information), category narrative work, founder profiling, op-ed ghostwriting, podcast tour, KOL coordination. Proof point: Gaia AI placed as 'the Stripe for AI agents' in Forbes, Decrypt, and Benzinga.",
+      "url": "https://www.shilikajain.com/services/ai-startup-pr",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "jobTitle": "Fractional PR Manager",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": [
+        { "@type": "Place", "name": "Global" },
+        { "@type": "Country", "name": "United States" },
+        { "@type": "Country", "name": "India" },
+        { "@type": "Country", "name": "Singapore" },
+        { "@type": "Country", "name": "United Arab Emirates" },
+        { "@type": "Country", "name": "Republic of Korea" },
+        { "@type": "Country", "name": "Japan" }
+      ],
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "AI founders, AI startup CMOs, agentic AI builders, AI infrastructure teams"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "AI startup PR offerings",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Strategic PR retainer" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Founder profiling sprint" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Op-ed ghostwriting" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Podcast tour booking" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Launch sprint" } }
+        ]
+      },
+      "potentialAction": {
+        "@type": "ReserveAction",
+        "target": "https://calendly.com/shilikajain/30min/",
+        "name": "Book a 30-min teardown"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.shilikajain.com/#services" },
+        { "@type": "ListItem", "position": 3, "name": "AI Startup PR", "item": "https://www.shilikajain.com/services/ai-startup-pr" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/services/ai-startup-pr#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is fractional PR for an AI startup?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fractional PR for an AI startup is a senior PR operator working directly with the founder or CMO on a part-time retainer, in place of a full agency. The operator handles narrative direction, journalist outreach to Tier-1 outlets (Forbes, AI Magazine, Decrypt, The Information, TechCrunch), founder profiling, op-ed ghostwriting, and podcast bookings. For AI startups pre-Series B, this typically replaces a $25,000 to $50,000 per month agency retainer with $5,000 to $12,000 per month for the same scope, because there is no account-team layer to fund."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is PR for AI startups different from generic tech PR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Three differences. First, the journalist map is narrower and more specific: AI Magazine, The Information, Forbes AI, Decrypt AI, Bloomberg Tech, plus a handful of named beat reporters at TechCrunch and Wired. Second, the narrative cycle moves on category creation, not feature releases: an AI founder profiled as a category voice (the Stripe for AI agents, the Linear for AI workflows) compounds; a generic product announcement decays in 48 hours. Third, AI Overviews and Perplexity now cite AI-startup pages at a higher rate than generic tech pages because the topic is queried more often, which means schema, FAQ structure, and named-author bylines move citation share materially."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does an AI startup PR engagement look like in the first 90 days?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Days 1 to 14: positioning audit, narrative thesis, journalist mapping, embargo and announcement calendar. Days 15 to 45: founder profiling sprint (LinkedIn rebuild, X cadence, 2 op-ed drafts, 4 podcast bookings) and first Tier-1 placement around an existing news hook. Days 46 to 90: cadence of 2 to 4 Tier-1 placements per month at steady state, op-ed of the month, podcast tour, KOL coordination across X dev community and AI YouTube creators. Reporting is weekly, asynchronous, and uses real placement data, not vanity metrics."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does PR for an AI startup cost in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fractional senior PR for an AI startup in 2026 runs $5,000 to $12,000 per month. A traditional AI-PR agency (Mission North, Highwire, Method, Bospar) charges $20,000 to $50,000 per month for the same Tier-1 scope, because the retainer funds a 5-person account team. Single-launch sprints (4 to 6 weeks around a Series A, model release, or partnership announcement) range from $15,000 to $40,000. The pricing model that fits 80 percent of AI startups pre-Series B is a 3 to 6 month fractional retainer with a launch sprint stacked on top of the announcement window."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you place an AI startup in Forbes or The Information?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, when the story fits. The Gaia AI campaign in 2025 placed the protocol in Forbes (covered as 'the Stripe for AI agents'), Decrypt, and Benzinga in a single news cycle. Forbes responds to category-defining narratives, named founders with verifiable track records, and clear technical differentiation. The Information responds to deeply-reported angles with internal documents or first-mover positioning. Neither responds to generic press releases. The work is in the narrative thesis and the named anchor reporters, not in the pitch volume."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you work with seed-stage AI startups or only Series A and later?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Seed-stage AI startups get the most leverage from a focused 8 to 12 week fractional engagement rather than a 12-month retainer. The scope is narrower: positioning thesis, one Tier-1 placement around the funding announcement, founder LinkedIn and X build, and 3 podcast bookings. After Series A, the same operator transitions into an ongoing retainer with category-creation work as the core deliverable. Pre-seed and very early seed without a product or named pilot customer usually does not yet need PR; the budget is better spent on product."
+          }
+        }
+      ]
+    }
+  ]
+}

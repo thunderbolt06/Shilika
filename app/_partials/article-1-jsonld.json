@@ -1,0 +1,109 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/article-1#article",
+      "headline": "The Tier-1 trap: why most Web3 founders chase the wrong publications",
+      "alternativeHeadline": "Why Forbes can be worse than a niche placement for Web3 founders",
+      "description": "Why a Forbes mention can be worse than a niche placement, and how to read which publications actually move your roadmap.",
+      "url": "https://www.shilikajain.com/article-1",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/article-1"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 1800,
+      "timeRequired": "PT8M",
+      "articleSection": "PR Playbook",
+      "keywords": ["Web3 PR", "Tier-1 PR", "Forbes Web3", "CoinDesk PR", "publication strategy", "crypto PR strategy"],
+      "inLanguage": "en",
+      "datePublished": "2026-05-04",
+      "dateModified": "2026-05-21",
+      "about": [
+        { "@type": "Thing", "name": "Web3 PR" },
+        { "@type": "Thing", "name": "Tier-1 media strategy" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.shilikajain.com/blog" },
+        { "@type": "ListItem", "position": 3, "name": "The Tier-1 trap", "item": "https://www.shilikajain.com/article-1" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/article-1#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a Tier-1 publication in Web3 PR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Tier-1 publication is an outlet whose coverage actually moves a Web3 protocol's roadmap — driving partner conversations, investor inbound, token listings, or developer adoption. In 2026 the working shortlist for crypto and AI founders is typically CoinDesk, The Block, Forbes, Cointelegraph, Decrypt, Bloomberg, and The Wall Street Journal, with category-specific additions like Blockworks for institutional, AI Magazine for AI, and BloomingBit / ChainCatcher / Jinse for APAC. The list is shorter than most founders assume — three to seven outlets carry roughly 80 percent of the value."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why can a Forbes mention be worse than a niche placement?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A generic Forbes Contributor mention with no editorial fact-check and no named beat reporter typically delivers a brand backlink and not much else — no inbound investor conversations, no partner pings, no developer adoption. A niche placement in an outlet the actual buyer reads (for example, a DePIN protocol getting featured in Blockworks Research, or an AI startup getting profiled by Cloris Chen on the Forbes AI desk) moves real revenue. The Forbes byline matters far less than which Forbes desk and which Forbes reporter."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many publications should a Web3 founder actually target?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Three to seven. The 3-axis filter (audience overlap, narrative carry, citation surface) typically collapses the long list of 50 crypto outlets down to a shortlist of three Tier-1 publications that actually move the founder's specific roadmap. The remaining 40 to 47 outlets are syndication and SEO signal — useful, but not strategy. Pick the three, sequence them across a 90-day window, and only expand once those three are in hand."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the 3-axis filter for choosing Web3 PR outlets?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Three filters applied in order. Axis 1 — audience overlap: does the outlet's reader cohort include your specific buyer (investor, partner, developer, end user)? Axis 2 — narrative carry: will a feature here be re-reported by the other outlets that matter, or does the story die in one byline? Axis 3 — citation surface: does Google AI Overviews, Perplexity, ChatGPT, and Claude already cite this outlet for queries in your category? An outlet that fails any one of the three axes drops off the shortlist."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the role of AI search in Web3 PR strategy in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Roughly 48 percent of US Google queries now trigger an AI Overview (WordStream / Heroic Rankings, April 2026 sample), and earned media drives 48 percent of all LLM brand citations (AuthorityTech / Profound, May 2026). A Tier-1 placement is no longer just a referral source — it is a structural citation surface inside ChatGPT, Perplexity, Claude, and Google AI Mode. The right CoinDesk or Forbes feature compounds in AI-search visibility for 12 to 24 months after publish. Wrong-outlet placements do not."
+          }
+        }
+      ]
+    }
+  ]
+}

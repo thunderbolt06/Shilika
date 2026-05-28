@@ -1,0 +1,136 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/services/content-writing#service",
+      "name": "Content Writing for Web3 and AI Founders",
+      "alternateName": ["Ghostwriting for founders", "Op-ed writing service", "Whitepaper writing", "Founder essay package"],
+      "serviceType": "Content Writing",
+      "category": "Ghostwriting / Editorial",
+      "description": "Senior-operator ghostwriting for Web3 and AI founders. Op-eds for Forbes Council, Cointelegraph Innovation Circle, Entrepreneur. Whitepapers for technical protocols. Founder essays placed in Tier-1 outlets. Three productized offers with fixed pricing.",
+      "url": "https://www.shilikajain.com/services/content-writing",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "jobTitle": "Fractional PR Manager",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": [
+        { "@type": "Place", "name": "Global" }
+      ],
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Web3 founders, AI founders, AI CMOs, cybersecurity founders, technical builders who would rather be building than writing"
+      },
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Founder Essay Package",
+          "description": "One 1,200 to 1,800 word ghostwritten founder essay, edited to founder voice, placed in a Tier-1 contributor outlet (Forbes Council, Cointelegraph Innovation Circle, Entrepreneur, AI Magazine).",
+          "price": "3500",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "url": "https://calendly.com/shilikajain/30min/"
+        },
+        {
+          "@type": "Offer",
+          "name": "Whitepaper Sprint",
+          "description": "8,000 to 15,000 word whitepaper across 4 weeks. Includes positioning, technical interviews, design coordination, two rounds of revisions, and a launch comms plan for the whitepaper drop.",
+          "price": "9500",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "url": "https://calendly.com/shilikajain/30min/"
+        },
+        {
+          "@type": "Offer",
+          "name": "Op-Ed of the Month",
+          "description": "One ghostwritten op-ed per month, placed in a Tier-1 outlet (3-month minimum). Includes narrative direction, journalist outreach, and revisions.",
+          "price": "2500",
+          "priceCurrency": "USD",
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": "2500",
+            "priceCurrency": "USD",
+            "unitText": "MONTH"
+          },
+          "availability": "https://schema.org/InStock",
+          "url": "https://calendly.com/shilikajain/30min/"
+        }
+      ],
+      "potentialAction": {
+        "@type": "ReserveAction",
+        "target": "https://calendly.com/shilikajain/30min/",
+        "name": "Book a 30-min content audit"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.shilikajain.com/#services" },
+        { "@type": "ListItem", "position": 3, "name": "Content Writing", "item": "https://www.shilikajain.com/services/content-writing" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/services/content-writing#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does a founder essay package cost in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A ghostwritten founder essay placed in a Tier-1 contributor outlet (Forbes Council, Cointelegraph Innovation Circle, Entrepreneur, AI Magazine) costs $3,500 for a single piece. Scope: 1,200 to 1,800 words, two founder voice interviews, two rounds of revisions, placement coordination. The piece is ghostwritten in the founder's voice, not written in a generic content-marketing voice. Most founders sign a 3-month engagement (one essay per month) at $9,500 total."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does a Web3 or AI whitepaper cost to write?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A complete Web3 or AI whitepaper sprint runs $9,500 for 8,000 to 15,000 words across 4 weeks. Scope: positioning and thesis, two technical interviews with engineering, two rounds of revisions, glossary and citations, plus a launch comms plan for the whitepaper drop. Technical accuracy is verified line by line with the founding team. Design and illustration are coordinated but billed separately by the client's design partner or contracted vendor."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the Op-Ed of the Month engagement?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Op-Ed of the Month is a 3-month minimum retainer at $2,500 per month for one ghostwritten op-ed per month placed in a Tier-1 outlet (Forbes Council, Cointelegraph Innovation Circle, AI Magazine, Entrepreneur). Includes narrative direction, journalist outreach, embargo coordination, and revisions. The cadence is designed to compound: by month 3, the founder is a recognized category voice in two to three Tier-1 outlets, which materially moves AI-Overviews and Perplexity citation share."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you write content for AI search optimization (GEO/AEO)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every piece is structured for both human readers and generative engines. Front-loaded direct answers in the first 50 words, question-form H2s mirroring AI follow-ups, named entities (publications, clients, journalists, statistics), modified date in head and footer, FAQ block with schema, and outbound links to authoritative sources. The Princeton GEO study (Aggarwal et al., arXiv:2311.09735, ACM SIGKDD 2024) found this combination produces 30 to 40 percent more AI citations than generic content. The output is human-first content engineered for AI surfaces."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will Google penalize content written by a ghostwriter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Google's guidance on AI-assisted and ghostwritten content (May 2026 generative AI content guide) is explicit: the byline is what matters, not the keystrokes. A piece ghostwritten under the founder's byline, edited to the founder's voice, citing the founder's real experience and data, is fully compliant. What gets penalized is scaled boilerplate without expertise. Every founder essay we produce is grounded in two voice interviews with the founder and verified line by line for technical accuracy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you write for cybersecurity or DePIN founders, or only Web3 and AI?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Cybersecurity, DePIN, agentic AI, gaming, NFT, infra, and DeFi are all in scope. The categories overlap on technical narrative work, named-analyst engagement (Gartner, Forrester, IDC for cyber), and Tier-1 trade press (CSO Online, Dark Reading, SecurityWeek for cyber; AI Magazine, The Information for AI). What matters is whether the founder has real technical differentiation and is willing to spend two interviews per piece on voice and accuracy. If yes, the engagement works. If no, no amount of writing fixes a thin story."
+          }
+        }
+      ]
+    }
+  ]
+}

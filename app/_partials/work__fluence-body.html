@@ -1,0 +1,443 @@
+<style>
+:root {
+  --ink: oklch(0.16 0.01 80);
+  --ink-2: oklch(0.22 0.01 80);
+  --paper: oklch(0.96 0.01 90);
+  --paper-2: oklch(0.92 0.015 85);
+  --cream: oklch(0.93 0.04 85);
+  --lime: oklch(0.92 0.18 115);
+  --muted: oklch(0.55 0.01 80);
+  --line: oklch(0.85 0.01 80);
+  --font-display: 'Instrument Serif', 'Times New Roman', serif;
+  --font-body: 'Inter Tight', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'Geist Mono', 'JetBrains Mono', monospace;
+  --pad: clamp(20px, 4vw, 64px);
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--font-body);
+  background: var(--paper);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+.mono { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; }
+
+.nav {
+  position: fixed; top: 0; left: 0; right: 0;
+  z-index: 100;
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 18px var(--pad);
+  background: rgba(247, 246, 241, 0.85);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--line);
+}
+.nav-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); }
+.nav-logo-text { font-family: var(--font-display); font-size: 22px; font-style: italic; letter-spacing: -0.01em; }
+.nav-logo-dot { color: var(--lime); margin: 0 2px; }
+.nav-links { display: flex; gap: 28px; list-style: none; font-family: var(--font-mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; }
+.nav-links a { position: relative; padding: 4px 0; color: var(--ink); text-decoration: none; }
+.nav-links a::after { content: ''; position: absolute; left: 0; bottom: 0; width: 0; height: 1px; background: var(--ink); transition: width 0.4s var(--ease-out-quart); }
+.nav-links a:hover::after { width: 100%; }
+.nav-cta { display: inline-flex; align-items: center; gap: 8px; padding: 10px 18px; background: var(--ink); color: var(--paper); font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; border-radius: 100px; transition: background 0.3s, color 0.3s; }
+.nav-cta:hover { background: var(--lime); color: var(--ink); }
+@media (max-width: 800px) { .nav-links { display: none; } }
+
+.case-header { padding: 140px var(--pad) 60px; border-bottom: 1px solid var(--line); background: var(--paper); position: relative; }
+.crumb { max-width: 980px; margin: 0 auto 36px; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+.crumb a { color: var(--muted); text-decoration: none; transition: color 0.3s; }
+.crumb a:hover { color: var(--ink); }
+.crumb .sep { margin: 0 12px; }
+.case-meta-row { max-width: 980px; margin: 0 auto 28px; display: flex; gap: 18px; align-items: center; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); flex-wrap: wrap; }
+.case-tag { background: var(--ink); color: var(--paper); padding: 5px 12px; border-radius: 3px; font-weight: 500; }
+.case-headline { max-width: 980px; margin: 0 auto; font-family: var(--font-display); font-size: clamp(40px, 6.2vw, 84px); line-height: 0.98; letter-spacing: -0.018em; font-weight: 400; text-wrap: balance; }
+.case-headline em { font-style: italic; background: linear-gradient(120deg, transparent 30%, var(--lime) 30%, var(--lime) 90%, transparent 90%); background-size: 200% 100%; background-position: 100% 0; padding: 0 0.05em; animation: hl-sweep 1.6s 0.4s var(--ease-out-quart) forwards; }
+@keyframes hl-sweep { to { background-position: 0 0; } }
+.case-sub { max-width: 760px; margin: 32px auto 0; font-family: var(--font-display); font-size: clamp(20px, 1.6vw, 24px); line-height: 1.4; font-style: italic; color: var(--muted); }
+
+.answer-box { max-width: 720px; margin: 60px auto 0; padding: 28px 32px; background: var(--ink); color: var(--paper); border-radius: 8px; }
+.answer-box .ab-label { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--lime); margin-bottom: 12px; }
+.answer-box p { font-family: var(--font-display); font-size: clamp(20px, 1.8vw, 24px); line-height: 1.4; font-style: italic; }
+
+.results-strip { max-width: 980px; margin: 60px auto 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 18px; }
+.result-tile { padding: 22px 20px; background: var(--paper-2); border: 1px solid var(--line); border-radius: 8px; }
+.result-tile .rt-label { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; }
+.result-tile .rt-value { font-family: var(--font-display); font-size: 38px; line-height: 1; color: var(--ink); }
+.result-tile .rt-value em { font-style: italic; color: oklch(0.55 0.18 115); }
+.result-tile .rt-note { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.08em; color: var(--muted); margin-top: 8px; text-transform: uppercase; }
+
+.case-body-wrap { padding: 80px var(--pad) 100px; background: var(--paper); }
+.case-body { max-width: 720px; margin: 0 auto; font-size: 19px; line-height: 1.65; color: oklch(0.25 0.01 80); }
+.case-body p { margin-bottom: 1.4em; }
+.case-body h2 { font-family: var(--font-display); font-size: clamp(28px, 3vw, 40px); font-weight: 400; letter-spacing: -0.01em; color: var(--ink); margin: 2em 0 0.8em; line-height: 1.1; text-wrap: balance; }
+.case-body h2::before { content: '§ '; color: var(--lime); font-style: italic; }
+.case-body h3 { font-family: var(--font-display); font-size: clamp(22px, 2.2vw, 28px); font-weight: 400; color: var(--ink); margin: 1.6em 0 0.5em; line-height: 1.2; }
+.case-body ul, .case-body ol { margin: 0 0 1.6em 1.4em; padding-left: 0; }
+.case-body li { margin-bottom: 0.6em; padding-left: 0.4em; }
+.case-body li::marker { color: var(--lime); }
+.case-body strong { color: var(--ink); font-weight: 600; }
+.case-body em { font-style: italic; }
+.case-body a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-decoration-thickness: 2px; text-underline-offset: 3px; transition: color 0.3s; }
+.case-body a:hover { color: oklch(0.45 0.18 115); }
+.case-body blockquote { margin: 1.6em 0; padding: 22px 28px; border-left: 3px solid var(--lime); background: var(--paper-2); font-family: var(--font-display); font-size: 22px; line-height: 1.4; font-style: italic; color: var(--ink); }
+.case-body table { width: 100%; border-collapse: collapse; margin: 1.6em 0; font-size: 15px; font-family: var(--font-mono); letter-spacing: 0.02em; }
+.case-body table th { text-align: left; padding: 10px 12px; background: var(--ink); color: var(--paper); font-weight: 500; text-transform: uppercase; font-size: 11px; letter-spacing: 0.1em; }
+.case-body table td { padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.case-body table tr:nth-child(even) td { background: var(--paper-2); }
+
+.coverage-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; margin: 1.6em 0 2em; }
+.coverage-card { padding: 22px 20px; background: var(--paper-2); border: 1px solid var(--line); border-radius: 8px; text-decoration: none; color: var(--ink); transition: transform 0.3s var(--ease-out-quart), border-color 0.3s; display: block; }
+.coverage-card:hover { transform: translateY(-3px); border-color: var(--ink); }
+.coverage-card .cov-outlet { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; }
+.coverage-card .cov-title { font-family: var(--font-display); font-size: 18px; line-height: 1.25; color: var(--ink); margin-bottom: 10px; }
+.coverage-card .cov-date { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.1em; color: var(--muted); text-transform: uppercase; }
+.coverage-card .cov-arrow { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; color: var(--ink); margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--line); text-transform: uppercase; }
+
+.timeline-box { margin: 1.6em 0 2em; padding: 28px 32px; background: var(--paper-2); border-radius: 12px; border: 1px solid var(--line); }
+.timeline-box .tb-label { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-bottom: 16px; }
+.timeline-box ol { margin: 0; padding-left: 1.4em; }
+.timeline-box ol li { margin-bottom: 0.8em; font-size: 16px; }
+.timeline-box ol li::marker { font-family: var(--font-mono); font-size: 13px; color: var(--lime); }
+.timeline-box strong { color: var(--ink); }
+
+.author-block { max-width: 720px; margin: 4em auto 2em; padding: 28px 32px; background: var(--paper-2); border-radius: 12px; border: 1px solid var(--line); display: flex; gap: 22px; align-items: flex-start; }
+.author-block img, .author-block .author-icon { width: 72px; height: 72px; border-radius: 50%; flex-shrink: 0; background: var(--ink); color: var(--lime); display: flex; align-items: center; justify-content: center; font-family: var(--font-display); font-size: 30px; font-style: italic; }
+.author-block .author-name { font-family: var(--font-display); font-size: 22px; line-height: 1.1; margin-bottom: 4px; }
+.author-block .author-role { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; }
+.author-block .author-bio { font-size: 15px; line-height: 1.55; color: oklch(0.3 0.01 80); }
+.author-block .author-links { margin-top: 12px; display: flex; gap: 14px; flex-wrap: wrap; }
+.author-block .author-links a { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--lime); }
+.author-block .author-links a:hover { color: oklch(0.45 0.18 115); }
+
+.related-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; max-width: 980px; margin: 0 auto; }
+.related-card { padding: 22px 20px; background: var(--paper-2); border: 1px solid var(--line); border-radius: 8px; text-decoration: none; color: var(--ink); transition: transform 0.3s var(--ease-out-quart), border-color 0.3s; display: block; }
+.related-card:hover { transform: translateY(-3px); border-color: var(--ink); }
+.related-card .rc-kicker { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; }
+.related-card .rc-title { font-family: var(--font-display); font-size: 19px; line-height: 1.2; color: var(--ink); }
+
+.cta-strip { max-width: 980px; margin: 80px auto 0; padding: 50px var(--pad); background: var(--ink); color: var(--paper); border-radius: 12px; text-align: center; }
+.cta-strip h2 { font-family: var(--font-display); font-size: clamp(28px, 3.5vw, 44px); line-height: 1.1; font-weight: 400; margin-bottom: 18px; text-wrap: balance; }
+.cta-strip h2 em { font-style: italic; color: var(--lime); }
+.cta-strip p { font-family: var(--font-display); font-size: 20px; font-style: italic; color: oklch(0.75 0.01 80); margin-bottom: 28px; max-width: 600px; margin-left: auto; margin-right: auto; }
+.cta-strip .cta-btn { display: inline-flex; align-items: center; gap: 10px; padding: 16px 32px; background: var(--lime); color: var(--ink); font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.15em; text-transform: uppercase; text-decoration: none; border-radius: 100px; transition: transform 0.3s, background 0.3s; }
+.cta-strip .cta-btn:hover { transform: translateY(-2px); background: oklch(0.95 0.18 115); }
+
+footer { padding: 60px var(--pad); border-top: 1px solid var(--line); background: var(--paper); text-align: center; }
+footer .foot-row { display: flex; gap: 22px; justify-content: center; flex-wrap: wrap; margin-bottom: 18px; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; }
+footer .foot-row a { color: var(--muted); text-decoration: none; transition: color 0.3s; }
+footer .foot-row a:hover { color: var(--ink); }
+footer .foot-meta { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.08em; color: var(--muted); text-transform: uppercase; }
+</style>
+
+
+<nav class="nav">
+  <a class="nav-logo" href="/">
+    <span class="nav-logo-text">Shilika<span class="nav-logo-dot">·</span>Jain</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="/#services">Services</a></li>
+    <li><a href="/#work" class="is-current">Work</a></li>
+    <li><a href="/blog">Playbooks</a></li>
+    <li><a href="/about">About</a></li>
+  </ul>
+  <a class="nav-cta" href="https://calendly.com/shilikajain/30min/" target="_blank" rel="noopener">
+    <span>Book a call</span>
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.4"/></svg>
+  </a>
+</nav>
+
+<header class="case-header">
+  <div class="crumb">
+    <a href="/">Shilika Jain</a><span class="sep">/</span>
+    <a href="/#work">Work</a><span class="sep">/</span>
+    <span>Fluence Network</span>
+  </div>
+  <div class="case-meta-row">
+    <span class="case-tag">CASE STUDY</span>
+    <span>· DEPIN · DECENTRALIZED CLOUD</span>
+    <span>· 2024 — 2025 CATEGORY CREATION</span>
+    <span>· UPDATED MAY 2026</span>
+    <span>· BY SHILIKA JAIN</span>
+  </div>
+  <h1 class="case-headline">Fluence Network: making <em>DePIN</em> a tier-1 beat.</h1>
+  <p class="case-sub">A category-creation PR teardown. How an unfamiliar acronym became a publishable editorial beat, how Tom Trowbridge was anchored as the category voice, and why a sustained cadence beats a one-shot news hit when you are building a new market.</p>
+
+  <div class="answer-box">
+    <div class="ab-label">Direct answer</div>
+    <p>The Fluence campaign was not pitched as a company story. It was pitched as a category — DePIN, decentralized physical infrastructure — and Tom Trowbridge was anchored as one of the right people to quote on it. CoinDesk Opinion took an under-byline column. Cointelegraph booked him for "Hashing It Out." Decrypt ran a category analysis. Benzinga ran an exclusive. e27 carried the regional thesis pickup. One acronym, one founder voice, four tier-1 surfaces.</p>
+  </div>
+
+  <div class="results-strip">
+    <div class="result-tile">
+      <div class="rt-label">Category anchored</div>
+      <div class="rt-value"><em>DePIN</em></div>
+      <div class="rt-note">Decentralized physical infrastructure networks</div>
+    </div>
+    <div class="result-tile">
+      <div class="rt-label">Anchor placement</div>
+      <div class="rt-value"><em>CoinDesk</em></div>
+      <div class="rt-note">Opinion column · under founder byline</div>
+    </div>
+    <div class="result-tile">
+      <div class="rt-label">Tier-1 surfaces</div>
+      <div class="rt-value"><em>5+</em></div>
+      <div class="rt-note">CoinDesk · Cointelegraph · Decrypt · Benzinga · e27</div>
+    </div>
+    <div class="result-tile">
+      <div class="rt-label">Cadence</div>
+      <div class="rt-value"><em>4Q</em></div>
+      <div class="rt-note">Sustained category voice, not one-shot</div>
+    </div>
+  </div>
+</header>
+
+<section class="case-body-wrap">
+  <article class="case-body">
+
+<h2>The brief</h2>
+
+<p><strong>Fluence Network</strong> is a decentralized cloud computing platform. It converts physical servers and GPUs into digital assets and offers compute at a fraction of what AWS, Google Cloud or Microsoft Azure charge. By Fluence's own 2025 figures, that discount runs up to roughly 80 percent against the hyperscalers, and the network surpassed $1M in annual recurring revenue during the year.</p>
+
+<p>The brief, when we started, looked different from a funding announcement or a product launch. There was no Series A on the calendar to peg coverage to. There was no token-generation event with a hard date. There was a real category — decentralized physical infrastructure, increasingly abbreviated DePIN — but in 2024 most tier-1 crypto editors did not yet treat DePIN as a beat. The acronym surfaced in newsletters and panels; it had not yet earned its own desk.</p>
+
+<p>The mandate was harder than placing a news hit. It was: make DePIN a category the press files into, and put Tom Trowbridge, Fluence's co-founder, inside the editor's contact list as one of the first people called when a DePIN story needs a quote.</p>
+
+<h2>Why category creation is harder than announcement PR</h2>
+
+<p>A funding announcement, a product launch, a partnership, a token launch — each has a built-in news hook. There is a date. There is a number. There is a thing to publish. An editor either takes the story or does not, but the pitch has a clear shape. Category creation has none of those affordances. Three obstacles stack:</p>
+
+<ul>
+  <li><strong>The editor must first be persuaded the category exists.</strong> Until DePIN is something the desk publishes about, every individual pitch competes with already-named beats — DeFi, NFTs, L1 wars, regulation, the next funding cycle.</li>
+  <li><strong>Then persuaded it matters.</strong> Even if the desk accepts the term, they have to believe their readers care. That requires real demand signal — funded projects, revenue, users, comparisons against incumbents the readers already understand.</li>
+  <li><strong>Then persuaded a specific founder is one of the right people to quote.</strong> The hardest move. Categories have many practitioners; only a few become the editor's first call.</li>
+</ul>
+
+<p>The reward is durable. Once an outlet treats the category as a beat, every future story in that category becomes a candidate placement. AI search engines start citing the named founder on category-level queries. A one-shot news hit cannot produce that compounding.</p>
+
+<h2>The positioning thesis</h2>
+
+<p>The frame we shipped: <strong>DePIN is not a meme — it is a category that can take crypto mainstream by replacing rentable infrastructure with ownable infrastructure.</strong></p>
+
+<p>Three facts made the frame defensible. First, Fluence had revenue. A category-creation pitch built on a thesis nobody is paying for collapses the moment an editor checks usage; Fluence's $1M-ARR trajectory in 2025 was the floor under the argument. Second, the comparison was concrete: AWS, Google Cloud, Azure — incumbents readers already had opinions about — versus a decentralized alternative with a real cost delta. Third, the macro tailwind was live. The 2024 to 2025 AI compute crunch was a story every business desk was already covering; DePIN compute was a directly relevant supply-side response.</p>
+
+<blockquote>A category exists when an editor decides it does. The job is to give them the three things they need to make that call — a name, a thesis, and a founder they can phone.</blockquote>
+
+<p>So the pitches did not lead with Fluence's product features. They led with the category, with named hyperscaler incumbents as the comparison, and with the AI compute crunch as the news event. The product became evidence inside the story, not the headline of it.</p>
+
+<h2>The category-voice playbook</h2>
+
+<p>The structural decision was to stop pitching individual placements and start pitching a multi-quarter cadence. Most Web3 PR programs run quarter by quarter, pitch by pitch. A category-creation campaign needs a roadmap an editor can see, so the founder shows up in the right surface every time the editor needs a category-level quote.</p>
+
+<div class="timeline-box">
+  <div class="tb-label">The four moves of the category-voice playbook</div>
+  <ol>
+    <li><strong>Pick one acronym, refuse to dilute it.</strong> Fluence operates inside DePIN. Not "Web3 cloud", not "decentralized AI", not "compute marketplaces" — DePIN. Every founder placement points at the same category label so the term accrues equity with each citation.</li>
+    <li><strong>Separate company news from category thinking.</strong> Product updates go to trade press as product news. Category thinking goes under the founder's byline in opinion, podcast and analysis surfaces — not pegged to a product cycle.</li>
+    <li><strong>Time-lock the founder for a multi-quarter cadence.</strong> One opinion piece, one podcast, one analysis feature, one regional pickup per quarter, every quarter, for a year. The founder's calendar is the constraint, not the editor's.</li>
+    <li><strong>Hook every category conversation to a live news event.</strong> Centralised infrastructure failures, the AI compute crunch, regulatory hearings on cloud concentration — every category placement landed against something a desk was already covering, so the DePIN frame became the answer to a question editors had on the day.</li>
+  </ol>
+</div>
+
+<p>Asset one of this playbook is the <a href="https://www.coindesk.com/opinion/2025/04/03/not-a-meme-depin-can-take-crypto-mainstream" target="_blank" rel="noopener">CoinDesk Opinion column under Tom's byline</a>. Asset two is the <a href="https://cointelegraph.com/news/hashing-it-out-2025-and-beyond-de-pin-s-role-in-the-next-crypto-wave" target="_blank" rel="noopener">Cointelegraph "Hashing It Out" feature</a> on DePIN's role in the next crypto wave. Asset three is the <a href="https://decrypt.co/283666/why-depin-solve-tech-biggest-issues" target="_blank" rel="noopener">Decrypt analysis piece on why DePIN solves tech's biggest issues</a>. Asset four is the <a href="https://www.benzinga.com/markets/cryptocurrency/24/07/39671932/exclusive-fluence-co-founder-emphasizes-network-resilience-for-secure-decentralized-comput" target="_blank" rel="noopener">Benzinga exclusive on network resilience</a>. Asset five is the <a href="https://e27.co/global-microsoft-outage-demonstrates-the-need-for-depin-computing-20240902/" target="_blank" rel="noopener">e27 piece</a> tying DePIN to the July 2024 global Microsoft outage. Five surfaces, one category, one founder voice.</p>
+
+<h2>The CoinDesk Opinion column — and why it is load-bearing</h2>
+
+<p>CoinDesk Opinion is one of the highest-trust surfaces in crypto media. It is where named operators argue a thesis under their own byline, archived under the most-cited domain in crypto LLM training data. For a category-creation campaign, an opinion column is the single most valuable asset — it is the founder's voice on the category, written by the founder, in the editor's chosen format.</p>
+
+<p>Placement is not a wire-style pitch. Three things have to hold. The argument has to be defensible — not a sales pitch in opinion clothing. The founder has to have operator credibility in the space — not a paid contributor with no working knowledge. And the relationship with the desk has to be earned over earlier reporting cycles. For Fluence, the argument — "DePIN is not a meme, it can take crypto mainstream" — carried a contrarian frame against the meme-cycle dominance of 2024 to 2025 crypto coverage, and a real category to defend underneath it. The headline that ran kept both the contrarian frame ("not a meme") and the category name ("DePIN") in the same line — that is the editor adopting the framing.</p>
+
+<h2>The journalist mapping</h2>
+
+<table>
+  <thead>
+    <tr><th>Outlet</th><th>Surface / Beat</th><th>Angle</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>CoinDesk</strong></td>
+      <td>Opinion section</td>
+      <td>Founder-byline column: DePIN is not a meme, it is a path to mainstream crypto</td>
+    </tr>
+    <tr>
+      <td><strong>Cointelegraph</strong></td>
+      <td>Hashing It Out podcast</td>
+      <td>Long-form interview on DePIN's role in the next crypto wave (2025 and beyond)</td>
+    </tr>
+    <tr>
+      <td><strong>Decrypt</strong></td>
+      <td>Analysis desk</td>
+      <td>Why DePIN can solve some of tech's biggest issues — infrastructure resilience and cost</td>
+    </tr>
+    <tr>
+      <td><strong>Benzinga</strong></td>
+      <td>Crypto markets desk</td>
+      <td>Exclusive: Fluence co-founder on network resilience for decentralized computing</td>
+    </tr>
+    <tr>
+      <td><strong>e27</strong></td>
+      <td>APAC tech / news commentary</td>
+      <td>The July 2024 global Microsoft outage as a case for DePIN computing</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Note that no two placements got the same angle, but every angle pointed at the same category label and quoted the same founder. CoinDesk got the thesis argument. Cointelegraph got the long-form worldview. Decrypt got the infrastructure-engineering frame. Benzinga got the resilience-and-security frame. e27 got the regional-news-event hook. One acronym, one founder, five surfaces, five angles — that is what makes a category-creation stack read like a real movement instead of a press tour.</p>
+
+<h2>The full coverage stack</h2>
+
+<div class="coverage-grid">
+  <a class="coverage-card" href="https://www.coindesk.com/opinion/2025/04/03/not-a-meme-depin-can-take-crypto-mainstream" target="_blank" rel="noopener">
+    <div class="cov-outlet">CoinDesk Opinion</div>
+    <div class="cov-title">Not a Meme: DePIN Can Take Crypto Mainstream</div>
+    <div class="cov-date">3 Apr 2025 · Under founder byline</div>
+    <div class="cov-arrow">Read the piece →</div>
+  </a>
+  <a class="coverage-card" href="https://cointelegraph.com/news/hashing-it-out-2025-and-beyond-de-pin-s-role-in-the-next-crypto-wave" target="_blank" rel="noopener">
+    <div class="cov-outlet">Cointelegraph</div>
+    <div class="cov-title">Hashing It Out: 2025 and Beyond — DePIN's Role in the Next Crypto Wave</div>
+    <div class="cov-date">Jan 2025 · Podcast feature</div>
+    <div class="cov-arrow">Listen →</div>
+  </a>
+  <a class="coverage-card" href="https://decrypt.co/283666/why-depin-solve-tech-biggest-issues" target="_blank" rel="noopener">
+    <div class="cov-outlet">Decrypt</div>
+    <div class="cov-title">Why DePIN Could Solve Tech's Biggest Issues</div>
+    <div class="cov-date">2024 · Analysis</div>
+    <div class="cov-arrow">Read the piece →</div>
+  </a>
+  <a class="coverage-card" href="https://www.benzinga.com/markets/cryptocurrency/24/07/39671932/exclusive-fluence-co-founder-emphasizes-network-resilience-for-secure-decentralized-comput" target="_blank" rel="noopener">
+    <div class="cov-outlet">Benzinga</div>
+    <div class="cov-title">Exclusive: Fluence Co-Founder on Network Resilience for Secure Decentralized Computing</div>
+    <div class="cov-date">19 Jul 2024 · Exclusive</div>
+    <div class="cov-arrow">Read the piece →</div>
+  </a>
+  <a class="coverage-card" href="https://e27.co/global-microsoft-outage-demonstrates-the-need-for-depin-computing-20240902/" target="_blank" rel="noopener">
+    <div class="cov-outlet">e27</div>
+    <div class="cov-title">Global Microsoft Outage Demonstrates the Need for DePIN Computing</div>
+    <div class="cov-date">2 Sep 2024 · APAC commentary</div>
+    <div class="cov-arrow">Read the piece →</div>
+  </a>
+</div>
+
+<p>The shape of the result: one founder-byline opinion column, one long-form podcast, one analysis feature, one exclusive interview, and one regional news-hook piece — all naming DePIN, all quoting Tom Trowbridge, all over a sustained four-quarter window. By the time the CoinDesk column ran in April 2025, the DePIN frame was already inside the editor's lexicon. The column did not have to define the category; it argued a position inside one.</p>
+
+<h2>Why this campaign matters in 2026</h2>
+
+<p>DePIN went from a niche acronym in early 2024 to a tracked editorial beat by 2026. Three reinforcing data points:</p>
+
+<ul>
+  <li><strong>The DePIN ecosystem now includes more than 1,170 active projects</strong> as of Q1 2025 (Messari), up from roughly 650 two years earlier. The category did, in fact, exist; the question was whose name showed up first when an editor needed to quote it.</li>
+  <li><strong>Earned media drives roughly 48 percent of all LLM brand citations</strong> (AuthorityTech / Profound, 2026). A multi-outlet, multi-quarter earned-media cluster — CoinDesk Opinion, Cointelegraph podcast, Decrypt analysis — from a credible 2024 to 2025 news cycle is one of the strongest training signals an AI model has that an entity is a category authority, not a vendor self-claim.</li>
+  <li><strong>Brands cited inside Google AI Overviews earn around 35 percent more organic clicks</strong> than non-cited competitors (industry data, May 2026). CoinDesk and Cointelegraph sit inside Google's most-cited domain stack for crypto and infrastructure queries. The named-founder coverage cluster keeps surfacing inside AI Overview citation panels for DePIN questions years after publication.</li>
+</ul>
+
+<p>The Princeton GEO study (Aggarwal et al., <a href="https://arxiv.org/abs/2311.09735" target="_blank" rel="noopener">arXiv:2311.09735, ACM SIGKDD 2024</a>) found that source attribution, named statistics and quotation density together drive a 30 to 40 percent uplift in generative-engine citations. The Fluence campaign optimised for all three by design: named founder, named outlets, named comparison incumbents (AWS, Google Cloud, Azure), named cost delta, named category. That is why the coverage compounds when an AI engine answers "what is DePIN" or "alternatives to AWS for AI compute" in 2026.</p>
+
+<h2>Where this fits in a 2026 engagement</h2>
+
+<p>If your Web3 or AI startup is trying to define a category — not just place a single news hit — the operational mapping is:</p>
+
+<ul>
+  <li><strong>Quarter 1</strong>: category-frame audit. Name the acronym you operate inside; refuse the alternatives. Map the live news events the category will hook to over the next four quarters. Pick the two tier-1 surfaces (one opinion, one analysis) the founder must show up in first.</li>
+  <li><strong>Quarter 2</strong>: founder voice build. Ghostwritten or co-written opinion column placed in a tier-1 opinion section under the founder's byline. One long-form podcast booked. Both pieces archive-permanent and category-named.</li>
+  <li><strong>Quarter 3</strong>: cadence proof. The category is now part of editorial vocabulary; the founder is in three to five reporter contact lists. Second wave of placements lands without explaining the term.</li>
+  <li><strong>Quarter 4</strong>: compounding pickup. Regional outlets carry the category. AI engines begin citing the founder on category queries. New incoming pitches from journalists for quotes — that is the inflection.</li>
+  <li><strong>Pricing</strong>: a category-creation program at this scope runs $8,000 to $15,000 per month across a 12-month minimum. The minimum is not optional; the playbook does not compound under one year.</li>
+</ul>
+
+<h2>The honest disclaimer</h2>
+
+<p>The category-voice playbook does not work for every company. Three conditions had to be true before this campaign was pitchable:</p>
+
+<ol>
+  <li><strong>A real category, not a label.</strong> DePIN was — and is — a category. Real projects, real revenue, real comparison set against named incumbents. If the "category" the company invokes is in fact a single product feature, a category-creation campaign will fail and a product-news campaign is the right move. Do not invent a category to occupy.</li>
+  <li><strong>A founder who can hold a category-level conversation.</strong> Tom Trowbridge can talk about cloud economics, network resilience, DePIN token design and AI compute economics without falling back into Fluence product talking points. If a founder cannot hold a 45-minute editor or podcast conversation at the category level, the campaign will not produce the placements that compound — and that is a hard limit, not a coaching problem.</li>
+  <li><strong>Patience for a year-long compounding curve.</strong> Category creation is slower than news-cycle PR. Quarters one and two will look quiet by news-cycle metrics. The compounding shows up in quarters three and four. A founder, board or marketing team that wants visible weekly wins will pull the plug before the program works.</li>
+</ol>
+
+<p>If all three are true, category creation is one of the highest-leverage PR moves a startup can make — because the asset compounds in AI search and editorial mindshare long after the engagement ends. If they are not, the right move is to fix the underlying position — or run a news-cycle program instead.</p>
+
+<div class="author-block">
+  <div class="author-icon">SJ</div>
+  <div>
+    <div class="author-name">Shilika Jain</div>
+    <div class="author-role">Fractional PR Manager · APAC PR &amp; Partnerships at Myosin · 6 years operating</div>
+    <div class="author-bio">Senior PR operator working with Web3 and AI founders. Past placements include Forbes, CoinDesk, Cointelegraph, Decrypt, The Block, Blockworks, Benzinga, AI Magazine. Past clients include Fluence Network, MANTRA Chain, RARI Foundation, Gaia AI, Web3Auth, Bullieverse. Previously at CoinMarketCap.</div>
+    <div class="author-links">
+      <a href="https://www.linkedin.com/in/shilika/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://x.com/Shilika_jain" target="_blank" rel="noopener">X / Twitter</a>
+      <a href="https://cryptodaily.co.uk/author/ShilikaJain" target="_blank" rel="noopener">CryptoDaily byline</a>
+      <a href="/about">Full profile</a>
+      <a href="/">Homepage</a>
+    </div>
+  </div>
+</div>
+
+  </article>
+
+  <div class="cta-strip">
+    <h2>Building a <em>new category</em> and need a sustained voice, not a one-shot news hit?</h2>
+    <p>30 minutes is enough to find the acronym you actually own and the cadence the press will publish.</p>
+    <a class="cta-btn" href="https://calendly.com/shilikajain/30min/" target="_blank" rel="noopener">
+      Book a 30-min teardown
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.4"/></svg>
+    </a>
+  </div>
+
+</section>
+
+<section style="padding: 80px var(--pad); background: var(--paper-2); border-top: 1px solid var(--line);">
+  <div style="max-width: 980px; margin: 0 auto 32px;">
+    <span class="mono" style="color: var(--muted);">/04 RELATED READING</span>
+    <h2 style="font-family: var(--font-display); font-size: clamp(28px, 3vw, 40px); margin-top: 12px; font-weight: 400; letter-spacing: -0.01em;">Adjacent <em style="color: oklch(0.45 0.18 115);">playbooks</em>.</h2>
+  </div>
+  <div class="related-grid">
+    <a class="related-card" href="/services/founder-profiling">
+      <div class="rc-kicker">Service · new</div>
+      <div class="rc-title">Founder Profiling — the playbook that built Tom's DePIN voice</div>
+    </a>
+    <a class="related-card" href="/services/web3-pr-campaigns">
+      <div class="rc-kicker">Service · related</div>
+      <div class="rc-title">Web3 PR Campaigns — the playbook this case ran on</div>
+    </a>
+    <a class="related-card" href="/work/mantra-chain">
+      <div class="rc-kicker">Case study</div>
+      <div class="rc-title">MANTRA Chain — turning an $11M raise into a category story</div>
+    </a>
+    <a class="related-card" href="/work/gaia-ai">
+      <div class="rc-kicker">Case study</div>
+      <div class="rc-title">Gaia AI — Stripe for AI agents in Forbes</div>
+    </a>
+    <a class="related-card" href="/article-3">
+      <div class="rc-kicker">Founder profiling</div>
+      <div class="rc-title">Founder Profiling Sprint: 90 Days to Category Voice</div>
+    </a>
+    <a class="related-card" href="/article-8">
+      <div class="rc-kicker">Comparison</div>
+      <div class="rc-title">Crypto PR vs AI PR in 2026: how the playbooks differ</div>
+    </a>
+    <a class="related-card" href="/work/web3auth">
+      <div class="rc-kicker">Case study</div>
+      <div class="rc-title">Web3Auth — making a wallet SDK a Google Cloud story</div>
+    </a>
+    <a class="related-card" href="/work/bullieverse">
+      <div class="rc-kicker">Case study</div>
+      <div class="rc-title">Bullieverse — a $4M Web3 gaming raise in India</div>
+    </a>
+  </div>
+</section>
+
+<footer>
+  <div class="foot-row">
+    <a href="/">Home</a>
+    <a href="/#services">Services</a>
+    <a href="/#work">Work</a>
+    <a href="/blog">Playbooks</a>
+    <a href="/about">About</a>
+    <a href="/#contact">Contact</a>
+    <a href="https://www.linkedin.com/in/shilika/" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="https://x.com/Shilika_jain" target="_blank" rel="noopener">X</a>
+  </div>
+  <div class="foot-meta">© 2026 Shilika Jain · Fractional PR for Web3 &amp; AI Founders · Last updated 2026-05-22</div>
+</footer>

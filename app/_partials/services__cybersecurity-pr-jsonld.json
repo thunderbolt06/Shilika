@@ -1,0 +1,119 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/services/cybersecurity-pr#service",
+      "name": "Cybersecurity PR",
+      "alternateName": ["Fractional PR for cybersecurity founders", "Cybersecurity PR consultant", "PR for security vendors", "Cybersecurity analyst relations"],
+      "serviceType": "Public Relations",
+      "category": "Fractional PR",
+      "description": "Fractional, senior-operator-led PR for cybersecurity founders and CMOs. Analyst relations (Gartner, Forrester, IDC, KuppingerCole), tier-1 security press placement (Dark Reading, SC Media, CyberScoop, The Record, SecurityWeek), coordinated vulnerability disclosure communications, breach and crisis comms, threat-research amplification, founder profiling, and AEO so the vendor is cited by AI search engines on category queries.",
+      "url": "https://www.shilikajain.com/services/cybersecurity-pr",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "jobTitle": "Fractional PR Manager",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": [
+        { "@type": "Place", "name": "Global" },
+        { "@type": "Country", "name": "United States" },
+        { "@type": "Country", "name": "India" },
+        { "@type": "Country", "name": "Singapore" },
+        { "@type": "Country", "name": "United Arab Emirates" },
+        { "@type": "Country", "name": "Republic of Korea" },
+        { "@type": "Country", "name": "Japan" }
+      ],
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Cybersecurity founders, security startup CMOs, CISOs, threat-research leads, security infrastructure teams"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Cybersecurity PR offerings",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Strategic PR retainer" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Analyst relations sprint" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Coordinated disclosure communications" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Breach and crisis communications" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Threat-research amplification" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Founder profiling sprint" } }
+        ]
+      },
+      "potentialAction": {
+        "@type": "ReserveAction",
+        "target": "https://calendly.com/shilikajain/30min/",
+        "name": "Book a 30-min teardown"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.shilikajain.com/#services" },
+        { "@type": "ListItem", "position": 3, "name": "Cybersecurity PR", "item": "https://www.shilikajain.com/services/cybersecurity-pr" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/services/cybersecurity-pr#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is fractional PR for a cybersecurity company?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fractional PR for a cybersecurity company is a senior PR operator working directly with the founder, CMO, or CISO on a part-time retainer, in place of a full agency. The operator handles narrative positioning, analyst relations with Gartner, Forrester, IDC and KuppingerCole, tier-1 security press outreach (Dark Reading, SC Media, CyberScoop, The Record, SecurityWeek), threat-research amplification, coordinated vulnerability disclosure communications, and founder profiling. For security startups pre-Series B this typically replaces a $20,000 to $35,000 per month agency retainer with $5,000 to $12,000 per month for the same scope, because there is no account-team layer to fund."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is cybersecurity PR different from generic tech PR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Three differences. First, analyst relations is load-bearing, not optional: Gartner, Forrester, IDC and KuppingerCole shape buyer shortlists, so a security PR program that cannot name the analysts covering SASE, XDR, identity or cloud security is not a real program. Second, the news engine is threat research, not product launches: a vendor's own threat report, CVE disclosure, or incident-response data is what security journalists at Dark Reading, CyberScoop and The Record actually publish. Third, breach and disclosure comms must be in scope from day one — security companies operate in a category where a coordinated disclosure or a customer incident can land on any given week, and the communications response is part of the brand, not a separate emergency."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does cybersecurity PR cost in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fractional senior PR for a cybersecurity company in 2026 runs $5,000 to $12,000 per month. The median monthly retainer paid by Series B cybersecurity companies to a senior-led traditional PR agency in 2025-2026 is around $23,500, because that retainer funds a multi-person account team and a separate analyst-relations specialist. Analyst-relations sprints (8 to 12 weeks of structured Gartner, Forrester and IDC briefings around a launch or a Magic Quadrant or Wave cycle) range $12,000 to $28,000. Disclosure or launch sprints (4 to 8 weeks around a funding round, a major CVE, or a threat-report release) range $15,000 to $40,000. The model that fits most security startups pre-Series B is a 3 to 6 month fractional retainer with an analyst-relations sprint stacked on the briefing window."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a fractional operator run analyst relations with Gartner and Forrester?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — analyst relations is structured work, not a relationship monopoly. The deliverable is a briefing calendar mapped to the Magic Quadrant and Forrester Wave cycles for the vendor's category, a vendor briefing deck written to the questions analysts actually ask, inquiry sessions booked against the research agenda, and a feedback loop that feeds analyst objections back into product and messaging. A fractional operator runs that process directly with the founder in the room, instead of routing it through an account team. What a fractional model does not promise is a guaranteed Magic Quadrant position — no honest operator promises that, because analysts score the product, not the pitch."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does AI search visibility matter for cybersecurity vendors?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Security buyers — CISOs, security engineers, GRC leads — now run vendor research through ChatGPT, Perplexity, Claude and Google AI Overviews before they ever reach a sales call. When a buyer asks an AI engine 'best XDR vendors' or 'who does CTEM well', the answer is assembled from earned editorial coverage, analyst mentions, and structured content, not from the vendor's own marketing pages. Independent research in 2026 consistently finds that earned editorial coverage accounts for the large majority of links AI engines cite, while press releases account for roughly one percent. A cybersecurity PR program built for 2026 produces the earned coverage and the named-author, schema-structured content that AI engines retrieve — so the vendor appears in the answer, not just in the ten blue links nobody clicks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you handle breach communications and incident response PR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — and for a cybersecurity vendor it has to be in scope before it is needed. Breach and incident communications cover three scenarios: a security incident at the vendor itself, a coordinated vulnerability disclosure the vendor is releasing, and a customer incident where the vendor's product is named in coverage. The work is a pre-built holding-statement library, a disclosure-timeline template aligned to coordinated-disclosure norms, a named-spokesperson and approval chain, and a journalist contact map so the response goes out in hours, not days. The goal is that the communications response is rehearsed, not improvised, because in security the improvised response is the story."
+          }
+        }
+      ]
+    }
+  ]
+}

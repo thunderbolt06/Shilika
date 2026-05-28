@@ -1,0 +1,165 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.shilikajain.com/work/web3auth#article",
+      "headline": "Web3Auth Case Study: Google Cloud Meets Web3 Wallets",
+      "alternativeHeadline": "Web3Auth x Google Cloud Firebase Extension PR Campaign Teardown",
+      "description": "A first-person teardown of the Web3Auth PR campaign around the Google Cloud Firebase wallet extension. How a developer-infrastructure launch with no funding hook and no token was reframed as a Web2-meets-Web3 story, anchored to the Google Cloud brand, placed across Blockworks, CoinDesk, Yahoo Finance, Benzinga and Cointelegraph, and syndicated into French, Italian and Spanish markets.",
+      "image": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+      "datePublished": "2026-05-22T15:00:00+05:30",
+      "dateModified": "2026-05-22T15:00:00+05:30",
+      "inLanguage": "en",
+      "isPartOf": { "@id": "https://www.shilikajain.com/#website" },
+      "mainEntityOfPage": "https://www.shilikajain.com/work/web3auth",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "jobTitle": "Fractional PR Manager",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg"
+        }
+      },
+      "about": [
+        { "@type": "Thing", "name": "Web3Auth" },
+        { "@type": "Thing", "name": "Wallet infrastructure" },
+        { "@type": "Thing", "name": "Web3 onboarding" },
+        { "@type": "Thing", "name": "Infrastructure PR" }
+      ],
+      "mentions": [
+        {
+          "@type": "Organization",
+          "name": "Web3Auth",
+          "url": "https://web3auth.io",
+          "description": "A wallet infrastructure provider that uses multi-party computation (MPC) to give end users self-custodial Web3 wallets through familiar logins. Formerly Torus Labs."
+        },
+        {
+          "@type": "Organization",
+          "name": "Google Cloud",
+          "url": "https://cloud.google.com",
+          "description": "The Web2 cloud platform whose Firebase Extensions Hub hosted the Web3Auth wallet extension, the co-marketing anchor of the campaign."
+        },
+        {
+          "@type": "NewsArticle",
+          "name": "Web3Auth launches Firebase wallet extension",
+          "url": "https://blockworks.co/news/web3auth-waas-firebase-wallet-extension",
+          "publisher": { "@type": "Organization", "name": "Blockworks" },
+          "datePublished": "2023-10-02"
+        },
+        {
+          "@type": "NewsArticle",
+          "name": "Protocol: The latest tech news in crypto and blockchain",
+          "url": "https://www.coindesk.com/tech/2023/10/02/protocol-latest-tech-news-crypto-blockchain/",
+          "publisher": { "@type": "Organization", "name": "CoinDesk" },
+          "datePublished": "2023-10-02"
+        },
+        {
+          "@type": "NewsArticle",
+          "name": "Trust Wallet Partners With Web3Auth to Simplify Onboarding",
+          "url": "https://finance.yahoo.com/news/trust-wallet-partners-web3auth-simplify-180500670.html",
+          "publisher": { "@type": "Organization", "name": "Yahoo Finance" },
+          "datePublished": "2023-09-19"
+        },
+        {
+          "@type": "NewsArticle",
+          "name": "The Combined Strength Of Web2 + Web3: Google Cloud Joins Forces With Web3Auth",
+          "url": "https://www.benzinga.com/markets/cryptocurrency/23/10/35030227/the-combined-strength-of-web2-web3-google-cloud-joins-forces-with-web3auth",
+          "publisher": { "@type": "Organization", "name": "Benzinga" },
+          "datePublished": "2023-10-04"
+        },
+        {
+          "@type": "NewsArticle",
+          "name": "New tech could make crypto and Web3 wallets more convenient",
+          "url": "https://cointelegraph.com/news/new-tech-could-make-crypto-and-web3-wallets-more-convenient/amp",
+          "publisher": { "@type": "Organization", "name": "Cointelegraph" },
+          "datePublished": "2023-10-05"
+        }
+      ],
+      "citation": [
+        "https://blockworks.co/news/web3auth-waas-firebase-wallet-extension",
+        "https://www.coindesk.com/tech/2023/10/02/protocol-latest-tech-news-crypto-blockchain/",
+        "https://finance.yahoo.com/news/trust-wallet-partners-web3auth-simplify-180500670.html",
+        "https://www.benzinga.com/markets/cryptocurrency/23/10/35030227/the-combined-strength-of-web2-web3-google-cloud-joins-forces-with-web3auth",
+        "https://cointelegraph.com/news/new-tech-could-make-crypto-and-web3-wallets-more-convenient/amp"
+      ],
+      "keywords": "Web3Auth, Google Cloud, Firebase wallet extension, wallet infrastructure PR, MPC wallets, Web3 onboarding, infrastructure PR, Web3 PR case study, Blockworks pitch, multilingual PR syndication, crypto PR consultant"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Work", "item": "https://www.shilikajain.com/#work" },
+        { "@type": "ListItem", "position": 3, "name": "Web3Auth Case Study", "item": "https://www.shilikajain.com/work/web3auth" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/work/web3auth#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What was the Web3Auth PR campaign and what did it achieve?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Web3Auth campaign placed the launch of the company's wallet extension on the Google Cloud Firebase Extensions Hub, announced 2 October 2023. The challenge was that the news was developer infrastructure — a Software extension, not a funding raise and not a token — which most tier-1 crypto reporters do not cover. The campaign reframed it as a Web2-meets-Web3 story anchored to the Google Cloud brand. Result: a Blockworks news piece, a CoinDesk Protocol newsletter mention, a Benzinga feature explicitly headlined on the Google Cloud partnership, a Cointelegraph piece on wallet convenience, a Yahoo Finance pickup on the parallel Trust Wallet partnership, and localised syndication into French, Italian and Spanish crypto media."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is infrastructure PR harder than funding or token PR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A funding raise has a number and a date. A token launch has a ticker and a market. Both give an editor an obvious thing to publish. A developer-infrastructure release — an SDK, an API, a Firebase extension — has neither. It is technically important but editorially invisible: the people who care are developers reading docs, not the readers of a tier-1 news desk. Infrastructure PR has to manufacture the news hook the product does not supply. For Web3Auth, that hook was the Google Cloud relationship: 'a Web2 hyperscaler is making it one-click to put millions of mainstream users into self-custodial wallets' is a story; 'a wallet SDK shipped a new integration' is not."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the borrowed-credibility playbook the Web3Auth campaign ran?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The borrowed-credibility playbook is a four-move sequence for infrastructure PR. First, identify the most recognisable Web2 or enterprise brand inside the story and make that brand the headline noun — for Web3Auth, Google Cloud, not the wallet SDK. Second, translate the technical capability into a human outcome an editor's readers already understand — 'log in with email, get a self-custodial wallet in under 1.5 seconds', not 'MPC key generation'. Third, pre-build the proof an editor needs in one place: the integration is live and verifiable on a Google-owned property, latency numbers are public, named partners exist. Fourth, brief a tiered outlet list so the same launch lands as a news hit in trade press, a feature in markets press, and a localised pickup in regional media, on the same day."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does multilingual syndication matter for a single product launch?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A single English-language announcement reaches one slice of an outlet's audience. For an infrastructure product whose users are global developers, the same launch can be re-pitched, with locally relevant framing, to French, Italian and Spanish crypto media — extending one news event across three more language markets at near-zero incremental cost. It also compounds in AI search: a launch carried in four languages produces four entity-consistent coverage clusters, which strengthens the signal that the company and the partnership are real across every market an AI engine generates answers for."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you run a similar infrastructure PR campaign for my Web3 or AI startup?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, when the infrastructure release has a borrowable credibility anchor. The campaign works when there is a recognised enterprise, Web2 or category-leading partner attached to the news — a cloud provider, an exchange, a large consumer app — that an editor's readers already trust. If the release is a standalone SDK update with no external partner and no measurable user-facing outcome, an infrastructure-PR campaign will under-deliver and the right move is developer marketing, not press. Engagement scope: an infrastructure launch program runs $6,000 to $12,000 per month, with multilingual syndication priced per market. A 30-minute teardown is the starting point."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does the Web3Auth campaign still matter for PR strategy in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Wallet onboarding and account abstraction became one of the most-discussed infrastructure categories of 2024 to 2026, and the 2023 Google Cloud coverage cluster now grounds AI-generated answers about Web3 onboarding, MPC wallets and Web2-to-Web3 bridges. Earned media drives roughly 48 percent of LLM brand citations (AuthorityTech / Profound, 2026), and a coverage stack that names a hyperscaler partner is an unusually strong authority signal. The campaign also proves a durable point: the highest-leverage move in infrastructure PR is not describing the technology better — it is borrowing the credibility of a brand the reader already trusts."
+          }
+        }
+      ]
+    }
+  ]
+}
