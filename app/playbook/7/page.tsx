@@ -9,11 +9,11 @@ export const metadata: Metadata = {
   title: 'Best Web3 PR Agencies and Consultants in 2026: Honest Guide',
   description: 'An honest 2026 field guide to Web3 PR. Named agencies (Lunar, EAK, Coinbound, Outset, High Vibe) compared on cost, Tier-1 access, regional reach, and founder time. With a fractional senior-operator alternative.',
   
-  alternates: { canonical: 'https://www.shilikajain.com/article-7' },
+  alternates: { canonical: 'https://www.shilikajain.com/playbook/7' },
   openGraph: {
     title: 'Best Web3 PR Agencies and Consultants in 2026: Honest Field Guide',
     description: 'Lunar, EAK, Coinbound, Outset, High Vibe and Shilika Jain compared on cost, Tier-1 access, regional reach, founder time. A senior operator\'s honest take.',
-    url: 'https://www.shilikajain.com/article-7',
+    url: 'https://www.shilikajain.com/playbook/7',
     type: 'article',
     images: [{ url: 'https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg', width: 1200, height: 628 }],
   },
@@ -38,7 +38,7 @@ export default function Page() {
   const jsonLd = loadJsonLd();
   return (
     <>
-      <Script id="article-7-jsonld" type="application/ld+json" strategy="beforeInteractive" dangerouslySetInnerHTML={{ __html: jsonLd }} />
+      <Script id="playbook-7-jsonld" type="application/ld+json" strategy="beforeInteractive" dangerouslySetInnerHTML={{ __html: jsonLd }} />
       <div dangerouslySetInnerHTML={{ __html: body }} />
 
       <Script src="/assets/article-7.js" strategy="afterInteractive" />

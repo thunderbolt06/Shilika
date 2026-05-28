@@ -9,11 +9,11 @@ export const metadata: Metadata = {
   title: 'Crypto PR vs AI PR in 2026: How the Playbooks Differ',
   description: 'Crypto PR vs AI PR in 2026: different outlets, different journalists, different proof, different narrative arc. A side-by-side teardown of the two playbooks by a senior PR operator who runs both.',
   
-  alternates: { canonical: 'https://www.shilikajain.com/article-8' },
+  alternates: { canonical: 'https://www.shilikajain.com/playbook/8' },
   openGraph: {
     title: 'Crypto PR vs AI PR in 2026: How the Playbooks Differ',
     description: 'Different outlets, different journalists, different proof. A side-by-side teardown of the crypto and AI PR playbooks by a senior operator who runs both.',
-    url: 'https://www.shilikajain.com/article-8',
+    url: 'https://www.shilikajain.com/playbook/8',
     type: 'article',
     images: [{ url: 'https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg', width: 1200, height: 628 }],
   },
@@ -38,7 +38,7 @@ export default function Page() {
   const jsonLd = loadJsonLd();
   return (
     <>
-      <Script id="article-8-jsonld" type="application/ld+json" strategy="beforeInteractive" dangerouslySetInnerHTML={{ __html: jsonLd }} />
+      <Script id="playbook-8-jsonld" type="application/ld+json" strategy="beforeInteractive" dangerouslySetInnerHTML={{ __html: jsonLd }} />
       <div dangerouslySetInnerHTML={{ __html: body }} />
 
       <Script src="/assets/article-8.js" strategy="afterInteractive" />

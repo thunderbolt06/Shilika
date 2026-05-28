@@ -1,57 +1,96 @@
 import type { Metadata } from 'next';
 import { listPublishedPosts } from '@/lib/blog';
 import type { BlogPost } from '@/lib/supabase/types';
-import { PostCard } from '@/components/blog/PostCard';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const revalidate = 600;
 
 export const metadata: Metadata = {
-  title: 'Playbooks — field notes on Web3 PR, AI PR, and embargo strategy',
+  title: 'Blog — field notes on Web3 PR, AI PR, and embargo strategy',
   description:
-    'Field notes from inside Web3 and AI PR — embargo strategy, tier-1 placement playbooks, APAC localisation, crisis comms, and KOL wave design.',
+    'Field notes from inside Web3 and AI PR: embargo strategy, tier-1 placement, APAC localisation, crisis comms, and KOL waves.',
   alternates: { canonical: `${SITE_URL}/blog` },
   openGraph: {
-    title: 'Shilika Jain — Playbooks',
-    description:
-      'Field notes from inside Web3 and AI PR. Tier-1 placement, embargo strategy, KOL waves, APAC.',
+    title: 'Shilika Jain — Blog',
+    description: 'Field notes from inside Web3 and AI PR.',
     url: `${SITE_URL}/blog`,
     type: 'website',
   },
 };
+
+function formatDate(iso: string | null): string {
+  if (!iso) return '';
+  return new Date(iso).toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric',
+  });
+}
 
 export default async function BlogIndexPage() {
   let posts: BlogPost[] = [];
   try {
     posts = await listPublishedPosts();
   } catch {
-    // Supabase unreachable at build/runtime — render empty state.
+    posts = [];
   }
 
   return (
-    <div className="mx-auto max-w-4xl px-6 pb-20 pt-16">
-      <p className="font-mono text-xs uppercase tracking-widest text-ink/60">
-        <span className="mr-2 inline-block h-2 w-2 rounded-full bg-rust align-middle" />
-        Field notes
-      </p>
-      <h1 className="mt-4 font-serif text-5xl leading-none tracking-tight md:text-7xl">
-        Playbooks for founders building in <em>public</em>.
-      </h1>
-      <p className="mt-6 max-w-prose text-lg text-ink/70">
-        Embargo strategy, tier-1 placement playbooks, APAC localisation, crisis communications,
-        and KOL wave design — drawn from six years and 50+ launches.
-      </p>
+    <main className="blog-page">
+      <div className="blog-page-inner">
+        <section className="blog-index-hero">
+          <div>
+            <p className="blog-index-kicker">
+              <span className="dot" /> Blog · field notes
+            </p>
+            <h1 className="blog-index-title">
+              Playbooks <em>in</em> public.
+            </h1>
+          </div>
+          <div className="blog-index-blurb">
+            <p>
+              Embargo strategy, tier-1 placement, APAC localisation, crisis communications, and
+              KOL wave design. Drawn from six years and 50+ launches.
+            </p>
+          </div>
+        </section>
 
-      <div className="mt-16">
         {posts.length === 0 ? (
-          <p className="font-mono text-sm uppercase tracking-widest text-ink/50">
-            New playbooks are being prepped. Check back soon.
-          </p>
+          <p className="blog-empty">New playbooks are being prepped. Check back soon.</p>
         ) : (
-          posts.map((p) => <PostCard key={p.id} post={p} />)
+          <div className="blog-list">
+            {posts.map((p) => (
+              <a key={p.id} href={`/blog/${p.slug}`} className="blog-card" data-magnet>
+                {p.image ? (
+                  <div className="blog-card-media">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img src={p.image} alt={p.title} loading="lazy" />
+                  </div>
+                ) : (
+                  <div className="blog-card-media" aria-hidden />
+                )}
+                <div className="blog-card-meta">
+                  <span>{formatDate(p.published_at)}</span>
+                  {p.tags?.slice(0, 1).map((t) => (
+                    <span key={t} className="blog-card-tag">
+                      {t}
+                    </span>
+                  ))}
+                  {p.tags?.slice(1, 3).map((t) => (
+                    <span key={t} className="blog-card-tag subtle">
+                      {t}
+                    </span>
+                  ))}
+                </div>
+                <h2 className="blog-card-title">{p.title}</h2>
+                <p className="blog-card-blurb">{p.description}</p>
+                <span className="blog-card-cta">Read playbook →</span>
+              </a>
+            ))}
+          </div>
         )}
       </div>
-    </div>
+    </main>
   );
 }

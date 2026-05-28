@@ -9,11 +9,11 @@ export const metadata: Metadata = {
   title: 'How Much Does Crypto PR Cost in 2026? Honest Pricing',
   description: 'What crypto PR actually costs in 2026: agency retainers, fractional models, single-launch sprints, KOL waves and the hidden line items most contracts bury.',
   
-  alternates: { canonical: 'https://www.shilikajain.com/article-4' },
+  alternates: { canonical: 'https://www.shilikajain.com/playbook/4' },
   openGraph: {
     title: 'How Much Does Crypto PR Cost in 2026? Honest Pricing',
     description: 'Web3 PR pricing in 2026: agency retainers vs fractional, what each dollar gets you, and where the markup hides.',
-    url: 'https://www.shilikajain.com/article-4',
+    url: 'https://www.shilikajain.com/playbook/4',
     type: 'article',
     images: [{ url: 'https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg', width: 1200, height: 628 }],
   },
@@ -38,7 +38,7 @@ export default function Page() {
   const jsonLd = loadJsonLd();
   return (
     <>
-      <Script id="article-4-jsonld" type="application/ld+json" strategy="beforeInteractive" dangerouslySetInnerHTML={{ __html: jsonLd }} />
+      <Script id="playbook-4-jsonld" type="application/ld+json" strategy="beforeInteractive" dangerouslySetInnerHTML={{ __html: jsonLd }} />
       <div dangerouslySetInnerHTML={{ __html: body }} />
 
       <Script src="/assets/article-4.js" strategy="afterInteractive" />

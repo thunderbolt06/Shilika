@@ -9,11 +9,11 @@ export const metadata: Metadata = {
   title: 'The Tier-1 PR Trap: Why Web3 Founders Chase Wrong Outlets',
   description: 'Why a Forbes mention can be worse than a niche placement, and how to read which publications actually move your roadmap. An 8-minute Web3 PR playbook.',
   
-  alternates: { canonical: 'https://www.shilikajain.com/article-1' },
+  alternates: { canonical: 'https://www.shilikajain.com/playbook/1' },
   openGraph: {
     title: 'The Tier-1 PR Trap: Why Web3 Founders Chase Wrong Outlets',
     description: 'Why a Forbes mention can be worse than a niche placement, and how to read which publications actually move your roadmap.',
-    url: 'https://www.shilikajain.com/article-1',
+    url: 'https://www.shilikajain.com/playbook/1',
     type: 'article',
     images: [{ url: 'https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg', width: 1200, height: 628 }],
   },
@@ -38,7 +38,7 @@ export default function Page() {
   const jsonLd = loadJsonLd();
   return (
     <>
-      <Script id="article-1-jsonld" type="application/ld+json" strategy="beforeInteractive" dangerouslySetInnerHTML={{ __html: jsonLd }} />
+      <Script id="playbook-1-jsonld" type="application/ld+json" strategy="beforeInteractive" dangerouslySetInnerHTML={{ __html: jsonLd }} />
       <div dangerouslySetInnerHTML={{ __html: body }} />
 
       <Script src="/assets/article-1.js" strategy="afterInteractive" />

@@ -9,11 +9,11 @@ export const metadata: Metadata = {
   title: 'Fractional PR vs Web3 PR Agency: How to Choose in 2026',
   description: 'Fractional PR vs Web3 PR agency in 2026: cost, speed, founder access, bandwidth and accountability. A decision tree that tells you which model fits your stage.',
   
-  alternates: { canonical: 'https://www.shilikajain.com/article-6' },
+  alternates: { canonical: 'https://www.shilikajain.com/playbook/6' },
   openGraph: {
     title: 'Fractional PR vs Web3 PR Agency: How to Choose in 2026',
     description: 'Cost, speed, founder access, accountability: a decision guide for Web3 and AI founders by a senior PR operator.',
-    url: 'https://www.shilikajain.com/article-6',
+    url: 'https://www.shilikajain.com/playbook/6',
     type: 'article',
     images: [{ url: 'https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg', width: 1200, height: 628 }],
   },
@@ -38,7 +38,7 @@ export default function Page() {
   const jsonLd = loadJsonLd();
   return (
     <>
-      <Script id="article-6-jsonld" type="application/ld+json" strategy="beforeInteractive" dangerouslySetInnerHTML={{ __html: jsonLd }} />
+      <Script id="playbook-6-jsonld" type="application/ld+json" strategy="beforeInteractive" dangerouslySetInnerHTML={{ __html: jsonLd }} />
       <div dangerouslySetInnerHTML={{ __html: body }} />
 
       <Script src="/assets/article-6.js" strategy="afterInteractive" />
