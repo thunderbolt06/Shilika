@@ -1,7 +1,9 @@
 import 'server-only';
 import Anthropic from '@anthropic-ai/sdk';
 import { z } from 'zod';
+import { ahrefsEnabled, ahrefsMatchingTerms, ahrefsOverview, type AhrefsOverview } from '@/lib/integrations/ahrefs';
 import { gscOpportunityQueries } from '@/lib/integrations/gsc';
+import { perplexityBatch, perplexityEnabled, type PerplexitySignal } from '@/lib/integrations/perplexity';
 import { getAdminSupabase } from '@/lib/supabase/server';
 import type { ContentIdea, KnowledgeEntry } from '@/lib/supabase/types';
 import { loadAgentContext } from './context';
@@ -38,6 +40,8 @@ export type ResearchSummary = {
   candidates_skipped_duplicate: number;
   gsc_opportunities: number;
   seed_queries: number;
+  ahrefs_used: boolean;
+  perplexity_used: boolean;
   llm_used: boolean;
 };
 
@@ -71,6 +75,9 @@ async function listKnownTitles(): Promise<Set<string>> {
 function callClaudeForCandidates(opts: {
   seeds: string[];
   gscOpportunities: Awaited<ReturnType<typeof gscOpportunityQueries>>;
+  ahrefs: Record<string, AhrefsOverview>;
+  expansions: { seed: string; terms: { keyword: string; volume: number | null }[] }[];
+  perplexity: Record<string, PerplexitySignal>;
   knownTitles: string[];
   brandContext: string;
 }): Promise<Candidate[]> {
@@ -122,6 +129,46 @@ sentences) explaining the case.`;
               `- "${g.query}" -> ${g.page ?? '(no page)'} | impressions: ${g.impressions} | position: ${g.position.toFixed(1)} | ctr: ${(g.ctr * 100).toFixed(2)}%`,
           )
           .join('\n'),
+    );
+  }
+
+  const ahrefsRows = Object.values(opts.ahrefs);
+  if (ahrefsRows.length) {
+    userParts.push(
+      `## Ahrefs Keywords Explorer overview (volume, difficulty)\n` +
+        ahrefsRows
+          .map(
+            (a) =>
+              `- "${a.keyword}" — vol ${a.volume ?? '?'} | KD ${a.difficulty ?? '?'} | TP ${a.traffic_potential ?? '?'} | parent topic: ${a.parent_topic ?? '—'}`,
+          )
+          .join('\n'),
+    );
+  }
+
+  if (opts.expansions.length) {
+    userParts.push(
+      `## Ahrefs matching-terms expansions (top by volume per seed)\n` +
+        opts.expansions
+          .map(
+            (e) =>
+              `### From seed: ${e.seed}\n` +
+              e.terms.slice(0, 12).map((t) => `  - "${t.keyword}" (vol ${t.volume ?? '?'})`).join('\n'),
+          )
+          .join('\n\n'),
+    );
+  }
+
+  const perplexityEntries = Object.entries(opts.perplexity);
+  if (perplexityEntries.length) {
+    userParts.push(
+      `## Perplexity related questions (what real users ask next)\n` +
+        perplexityEntries
+          .map(([q, sig]) => {
+            const rels = sig.related_questions.slice(0, 5).map((r) => `  - ${r}`).join('\n');
+            const cites = sig.citations.slice(0, 3).map((c) => `  - ${c}`).join('\n');
+            return `### Seed: ${q}\nRelated:\n${rels}\nCited sources:\n${cites}`;
+          })
+          .join('\n\n'),
     );
   }
 
@@ -197,6 +244,8 @@ export async function runTopicResearch(options?: { force?: boolean }): Promise<R
         candidates_skipped_duplicate: 0,
         gsc_opportunities: 0,
         seed_queries: 0,
+        ahrefs_used: false,
+        perplexity_used: false,
         llm_used: false,
       };
     }
@@ -210,6 +259,40 @@ export async function runTopicResearch(options?: { force?: boolean }): Promise<R
   ]);
   const seedQueries = seedRows.flatMap((r) => [r.title, ...r.body.split('\n').filter((l) => l.trim() && !l.startsWith('#'))]).slice(0, 60);
 
+  // Enrichment from Ahrefs + Perplexity (both optional).
+  const enrichmentSeeds = [...seedQueries, ...gscOpportunities.slice(0, 10).map((g) => g.query)].slice(0, 25);
+  const [ahrefsResults, expansionResults, perplexityResults] = await Promise.all([
+    ahrefsEnabled()
+      ? ahrefsOverview(enrichmentSeeds).catch((err) => {
+          console.warn('[topic-research] Ahrefs overview failed:', err);
+          return [] as Awaited<ReturnType<typeof ahrefsOverview>>;
+        })
+      : Promise.resolve([] as Awaited<ReturnType<typeof ahrefsOverview>>),
+    ahrefsEnabled()
+      ? Promise.allSettled(enrichmentSeeds.slice(0, 8).map((s) => ahrefsMatchingTerms(s, 15))).then(
+          (settled) =>
+            settled
+              .map((s, i) =>
+                s.status === 'fulfilled' ? { seed: enrichmentSeeds[i], terms: s.value } : null,
+              )
+              .filter(Boolean) as { seed: string; terms: { keyword: string; volume: number | null }[] }[],
+        )
+      : Promise.resolve([] as { seed: string; terms: { keyword: string; volume: number | null }[] }[]),
+    perplexityEnabled()
+      ? perplexityBatch(enrichmentSeeds.slice(0, 12)).catch((err) => {
+          console.warn('[topic-research] Perplexity failed:', err);
+          return {} as Awaited<ReturnType<typeof perplexityBatch>>;
+        })
+      : Promise.resolve({} as Awaited<ReturnType<typeof perplexityBatch>>),
+  ]);
+
+  const ahrefsByKeyword = Object.fromEntries(ahrefsResults.map((a) => [a.keyword.toLowerCase(), a]));
+  const perplexityByQuery: Record<string, PerplexitySignal> = {};
+  for (const [q, v] of Object.entries(perplexityResults)) {
+    if ('error' in v) continue;
+    perplexityByQuery[q] = v;
+  }
+
   let candidates: Candidate[] = [];
   let llmUsed = false;
 
@@ -218,6 +301,9 @@ export async function runTopicResearch(options?: { force?: boolean }): Promise<R
       candidates = await callClaudeForCandidates({
         seeds: seedQueries,
         gscOpportunities,
+        ahrefs: ahrefsByKeyword,
+        expansions: expansionResults,
+        perplexity: perplexityByQuery,
         knownTitles: [...knownTitles],
         brandContext: brandCtx,
       });
@@ -272,6 +358,8 @@ export async function runTopicResearch(options?: { force?: boolean }): Promise<R
     candidates_skipped_duplicate: skipped,
     gsc_opportunities: gscOpportunities.length,
     seed_queries: seedQueries.length,
+    ahrefs_used: ahrefsResults.length > 0,
+    perplexity_used: Object.keys(perplexityByQuery).length > 0,
     llm_used: llmUsed,
   };
 }

@@ -8,6 +8,7 @@ const STATIC_PAGES: { path: string; priority: number; changeFrequency: MetadataR
   { path: '/about', priority: 0.8, changeFrequency: 'monthly' },
   { path: '/testimonials', priority: 0.7, changeFrequency: 'monthly' },
   { path: '/blog', priority: 0.9, changeFrequency: 'daily' },
+  { path: '/authors/shilika-jain', priority: 0.7, changeFrequency: 'monthly' },
   { path: '/services/web3-pr-campaigns', priority: 0.9, changeFrequency: 'monthly' },
   { path: '/services/token-launch-pr', priority: 0.9, changeFrequency: 'monthly' },
   { path: '/services/ai-startup-pr', priority: 0.9, changeFrequency: 'monthly' },
