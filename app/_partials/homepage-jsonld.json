@@ -1,0 +1,385 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.shilikajain.com/#person",
+      "name": "Shilika Jain",
+      "givenName": "Shilika",
+      "familyName": "Jain",
+      "url": "https://www.shilikajain.com/",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-portrait-1080.jpg",
+        "width": 1080,
+        "height": 1350
+      },
+      "jobTitle": "Fractional PR Manager for Web3 & AI Founders",
+      "description": "Six years placing Web3 and AI founders into Tier-1 publications including Forbes, CoinDesk, Cointelegraph, Decrypt, The Block, Blockworks and AI Magazine. Currently leading APAC PR & partnerships at Myosin, a growth-marketing DAO.",
+      "knowsAbout": [
+        "Web3 PR",
+        "AI startup PR",
+        "Crypto communications",
+        "APAC tech PR",
+        "Korea crypto PR",
+        "Japan crypto PR",
+        "Vietnam crypto PR",
+        "India crypto PR",
+        "Token launch PR",
+        "TGE communications",
+        "Founder profiling",
+        "Op-ed ghostwriting",
+        "KOL marketing",
+        "Influencer marketing",
+        "Narrative strategy",
+        "Media relations",
+        "Cybersecurity PR",
+        "DePIN PR"
+      ],
+      "knowsLanguage": ["English", "Hindi"],
+      "worksFor": { "@id": "https://www.shilikajain.com/#organization" },
+      "alumniOf": [
+        { "@type": "Organization", "name": "CoinMarketCap", "url": "https://coinmarketcap.com/" }
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/in/shilika/",
+        "https://x.com/Shilika_jain",
+        "https://cryptodaily.co.uk/author/ShilikaJain",
+        "https://calendly.com/shilikajain/30min/",
+        "https://t.me/shilika3"
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.shilikajain.com/#organization",
+      "name": "Shilika Jain — Fractional PR",
+      "alternateName": ["Shilika Jain PR", "Shilika PR"],
+      "url": "https://www.shilikajain.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      "image": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+      "description": "Fractional PR practice for Web3, AI, and cybersecurity founders. Tier-1 placements, APAC localisation, KOL waves, and TGE communications.",
+      "founder": { "@id": "https://www.shilikajain.com/#person" },
+      "foundingDate": "2019",
+      "areaServed": [
+        { "@type": "Place", "name": "Worldwide" },
+        { "@type": "Place", "name": "APAC" },
+        { "@type": "Country", "name": "South Korea" },
+        { "@type": "Country", "name": "Japan" },
+        { "@type": "Country", "name": "Vietnam" },
+        { "@type": "Country", "name": "Singapore" },
+        { "@type": "Country", "name": "India" },
+        { "@type": "Country", "name": "United Arab Emirates" },
+        { "@type": "Country", "name": "United States" }
+      ],
+      "knowsAbout": ["Web3 PR", "AI PR", "Cybersecurity PR", "APAC PR", "Token Launch PR"],
+      "sameAs": [
+        "https://www.linkedin.com/in/shilika/",
+        "https://x.com/Shilika_jain"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Sales",
+        "url": "https://calendly.com/shilikajain/",
+        "areaServed": "Worldwide",
+        "availableLanguage": ["en"]
+      }
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://www.shilikajain.com/#service",
+      "name": "Shilika Jain — Fractional PR for Web3 & AI Founders",
+      "url": "https://www.shilikajain.com/",
+      "image": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+      "priceRange": "$$$",
+      "areaServed": ["Worldwide", "APAC", "United States", "India", "Singapore", "South Korea", "Japan", "United Arab Emirates"],
+      "serviceType": "Public Relations for Web3, AI and cybersecurity companies",
+      "provider": { "@id": "https://www.shilikajain.com/#person" },
+      "founder": { "@id": "https://www.shilikajain.com/#person" },
+      "parentOrganization": { "@id": "https://www.shilikajain.com/#organization" },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Fractional PR Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "url": "https://www.shilikajain.com/services/web3-pr-campaigns",
+            "itemOffered": {
+              "@type": "Service",
+              "@id": "https://www.shilikajain.com/services/web3-pr-campaigns#service",
+              "name": "Web3 PR Campaigns",
+              "description": "Fractional, senior-operator-led strategic PR campaigns for Web3 and crypto founders. End-to-end narrative architecture, embargo strategy, tier-1 journalist outreach (Forbes, CoinDesk, Cointelegraph, Decrypt, The Block, Blockworks), KOL waves, crisis communications, sentiment reporting, and AI-search visibility. 50+ protocols shaped across six years and six APAC markets.",
+              "serviceType": "Public Relations",
+              "url": "https://www.shilikajain.com/services/web3-pr-campaigns",
+              "provider": { "@id": "https://www.shilikajain.com/#person" }
+            }
+          },
+          {
+            "@type": "Offer",
+            "url": "https://www.shilikajain.com/services/founder-profiling",
+            "itemOffered": {
+              "@type": "Service",
+              "@id": "https://www.shilikajain.com/services/founder-profiling#service",
+              "name": "Founder Profiling & Op-Eds",
+              "description": "Fractional, senior-operator-led founder profiling for Web3, AI and cybersecurity founders. Op-ed ghostwriting placed in tier-1 trade press (CoinDesk Opinion, Cointelegraph, Decrypt, Forbes Council, AI Magazine), curated podcast tours, LinkedIn and X content under the founder's own voice, speaker placement at category conferences (Consensus, Token2049, ETHDenver, Cybersecurity Summit, AI Summit), media training, and author-entity build for AI-search citations. Founder Voice retainer $4K-$10K/mo, 90-Day Founder Sprint $18K-$35K, Op-Ed of the Month $2,500/mo (3-month minimum).",
+              "serviceType": "Founder Profiling",
+              "url": "https://www.shilikajain.com/services/founder-profiling",
+              "provider": { "@id": "https://www.shilikajain.com/#person" }
+            }
+          },
+          {
+            "@type": "Offer",
+            "url": "https://www.shilikajain.com/services/kol-marketing",
+            "itemOffered": {
+              "@type": "Service",
+              "@id": "https://www.shilikajain.com/services/kol-marketing#service",
+              "name": "KOL & Influencer Marketing",
+              "description": "Fractional, senior-operator-led KOL and influencer marketing for Web3, AI and cybersecurity founders. 200+ vetted creators across X, YouTube, Telegram, Farcaster and Lens, segmented by region (Korea, Japan, Vietnam, China, India, Singapore, MENA, US, EU), vertical (DeFi, DePIN, gaming, AI agents, RWA, restaking, intents) and audience quality. Three-wave launch sequencing (T-72h credibility, T+0 broad activation, T+24h sustained), independent fraud audit, FTC and SEC-aware disclosure briefs, on-chain attribution, post-campaign report with renew-or-kill calls per creator. KOL Wave Retainer $5K-$12K/mo, TGE KOL Sprint $15K-$45K, Always-On Network $2,500/mo.",
+              "serviceType": "Influencer Marketing",
+              "url": "https://www.shilikajain.com/services/kol-marketing",
+              "provider": { "@id": "https://www.shilikajain.com/#person" }
+            }
+          },
+          {
+            "@type": "Offer",
+            "url": "https://www.shilikajain.com/services/apac-pr",
+            "itemOffered": {
+              "@type": "Service",
+              "@id": "https://www.shilikajain.com/services/apac-pr#service",
+              "name": "APAC Localisation & Access",
+              "description": "Fractional, senior-operator-led APAC PR for Web3, AI and cybersecurity founders. Native-language placements across BloomingBit, TokenPost, BlockMedia, Coinness, CoinReaders (Korea), CryptoTimes JP, Coinpost (Japan), ChainCatcher, Jinse, PANews (Greater China diaspora), Inc42, e27, YourStory, Economic Times (India and SEA), Arabian Business, Gulf News and Cointelegraph Arabic (MENA). Regional KOL waves, on-ground access at Korea Blockchain Week, Token2049 Singapore, Token2049 Dubai, Japan Blockchain Week, ETHIndia and Consensus Hong Kong. Per-market compliance for the Q2 2026 regulatory overhaul across South Korea (FSC), Japan (FIEA migration), Hong Kong (SFC) and Australia (Treasury). APAC Quarterly Retainer $6K-$14K/mo, Single-Market Launch Sprint $12K-$35K, Always-On Market Coordinator $3K/mo.",
+              "serviceType": "Regional Public Relations",
+              "url": "https://www.shilikajain.com/services/apac-pr",
+              "areaServed": ["South Korea", "Japan", "Vietnam", "China", "India", "Singapore", "United Arab Emirates", "Hong Kong", "Australia"],
+              "provider": { "@id": "https://www.shilikajain.com/#person" }
+            }
+          },
+          {
+            "@type": "Offer",
+            "url": "https://www.shilikajain.com/services/token-launch-pr",
+            "itemOffered": {
+              "@type": "Service",
+              "@id": "https://www.shilikajain.com/services/token-launch-pr#service",
+              "name": "Token Launch PR & TGE Communications",
+              "description": "Fractional, senior-operator-led PR for crypto token launches and TGE moments. Pre-TGE positioning, embargo coordination across tier-1 trade press (CoinDesk, Cointelegraph, The Block, Decrypt, Blockworks), exchange listing comms with Binance, OKX, MEXC, Bybit, segmented KOL waves across 200+ vetted creators, compliance-aware messaging, and 90-day post-TGE sustained coverage. Pre-TGE retainer $6K-$14K/mo, launch sprint $20K-$60K, full launch + 90-day tail $45K-$120K.",
+              "serviceType": "Token Launch Communications",
+              "url": "https://www.shilikajain.com/services/token-launch-pr",
+              "provider": { "@id": "https://www.shilikajain.com/#person" }
+            }
+          },
+          {
+            "@type": "Offer",
+            "url": "https://www.shilikajain.com/services/ai-startup-pr",
+            "itemOffered": {
+              "@type": "Service",
+              "@id": "https://www.shilikajain.com/services/ai-startup-pr#service",
+              "name": "AI Startup PR",
+              "description": "Fractional, senior-operator PR for AI founders and CMOs. Forbes, AI Magazine, Decrypt, The Information. Category narrative, op-eds, podcast tour. Proof point: Gaia AI placed as 'the Stripe for AI agents' in Forbes.",
+              "serviceType": "Public Relations",
+              "url": "https://www.shilikajain.com/services/ai-startup-pr",
+              "provider": { "@id": "https://www.shilikajain.com/#person" }
+            }
+          },
+          {
+            "@type": "Offer",
+            "url": "https://www.shilikajain.com/services/content-writing",
+            "itemOffered": {
+              "@type": "Service",
+              "@id": "https://www.shilikajain.com/services/content-writing#service",
+              "name": "Content Writing for Web3 & AI Founders",
+              "description": "Ghostwritten op-eds, whitepapers, founder essays for Web3 and AI startups. Three productized offers: Founder Essay Package, Whitepaper Sprint, Op-Ed of the Month. Forbes-grade voice, technical accuracy, AI-search ready.",
+              "serviceType": "Content Writing",
+              "url": "https://www.shilikajain.com/services/content-writing",
+              "provider": { "@id": "https://www.shilikajain.com/#person" }
+            }
+          },
+          {
+            "@type": "Offer",
+            "url": "https://www.shilikajain.com/services/cybersecurity-pr",
+            "itemOffered": {
+              "@type": "Service",
+              "@id": "https://www.shilikajain.com/services/cybersecurity-pr#service",
+              "name": "Cybersecurity PR",
+              "description": "Fractional, senior-operator PR for cybersecurity founders, CMOs and CISOs. Analyst relations (Gartner, Forrester, IDC, KuppingerCole), tier-1 security press (Dark Reading, SC Media, CyberScoop, The Record, SecurityWeek), threat-research amplification, coordinated disclosure and breach comms, founder profiling, and AEO for AI-search visibility.",
+              "serviceType": "Public Relations",
+              "url": "https://www.shilikajain.com/services/cybersecurity-pr",
+              "provider": { "@id": "https://www.shilikajain.com/#person" }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.shilikajain.com/#website",
+      "url": "https://www.shilikajain.com/",
+      "name": "Shilika Jain",
+      "description": "Fractional PR for Web3 and AI founders. Tier-1 placements, APAC access, founder profiling.",
+      "publisher": { "@id": "https://www.shilikajain.com/#person" },
+      "inLanguage": "en",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.google.com/search?q=site%3Ashilikajain.com+{search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://www.shilikajain.com/#pitch-video",
+      "name": "Shilika Jain — Fractional PR for Web3 & AI Founders: services pitch",
+      "description": "Shilika Jain explains the fractional PR model for Web3 and AI founders — Tier-1 placement strategy, APAC localisation, KOL waves, and founder profiling. A direct pitch to founders deciding between a fractional senior operator and a traditional PR agency.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/beWNvo1l1aQ/maxresdefault.jpg",
+      "uploadDate": "2026-04-15",
+      "contentUrl": "https://www.youtube.com/watch?v=beWNvo1l1aQ",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/beWNvo1l1aQ",
+      "publisher": { "@id": "https://www.shilikajain.com/#organization" },
+      "creator": { "@id": "https://www.shilikajain.com/#person" },
+      "inLanguage": "en",
+      "isAccessibleForFree": true
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://www.shilikajain.com/#intro-video",
+      "name": "Introduction — Shilika Jain, Web3 & AI PR consultant",
+      "description": "A bio narrative from Shilika Jain: six years placing 50+ Web3 and AI protocols in Forbes, CoinDesk, Cointelegraph, Decrypt, The Block, Blockworks and AI Magazine. APAC coverage across Korea, Japan, Vietnam, Singapore, India and the UAE.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HuKCqoj6IvE/maxresdefault.jpg",
+      "uploadDate": "2026-04-15",
+      "contentUrl": "https://www.youtube.com/watch?v=HuKCqoj6IvE",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/HuKCqoj6IvE",
+      "publisher": { "@id": "https://www.shilikajain.com/#organization" },
+      "creator": { "@id": "https://www.shilikajain.com/#person" },
+      "inLanguage": "en",
+      "isAccessibleForFree": true
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.shilikajain.com/#webpage",
+      "url": "https://www.shilikajain.com/",
+      "name": "Shilika Jain — Fractional PR for Web3 & AI Founders",
+      "isPartOf": { "@id": "https://www.shilikajain.com/#website" },
+      "about": { "@id": "https://www.shilikajain.com/#person" },
+      "primaryImageOfPage": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+      "datePublished": "2025-01-01",
+      "dateModified": "2026-05-28",
+      "inLanguage": "en",
+      "breadcrumb": { "@id": "https://www.shilikajain.com/#breadcrumb" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.shilikajain.com/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.shilikajain.com/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does a fractional PR manager do for a Web3 or AI startup?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fractional PR manager runs the full PR function — narrative, press, founder profiling, KOL waves, APAC localisation, and launch comms — on a part-time retainer instead of an agency contract. For Web3 and AI founders, that means dedicated senior attention, a direct line to Tier-1 journalists in Forbes, CoinDesk, Cointelegraph, Decrypt, The Block and Blockworks, and accountability tied to placements rather than hours."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does fractional PR for a Web3 or AI startup cost in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fractional PR retainers typically run a fraction of a traditional agency contract because there are no account-team layers. Pricing depends on scope — single-campaign launches, ongoing retainer with founder profiling, or full TGE communications — but fractional is generally chosen by founders who want senior-only attention, no agency markup, and clear deliverables. Book a 30-minute teardown for a scoped quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which Tier-1 publications has Shilika Jain placed clients in?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Forbes, CoinDesk, Cointelegraph, Decrypt, The Block, Blockworks, Bitcoin Magazine, Benzinga, Yahoo Finance, AI Magazine, The Defiant, CryptoSlate, CryptoNews, CryptoPotato, CryptoDaily, e27, and regional outlets including BloomingBit (Korea), CryptoTimes JP (Japan), ChainCatcher and Jinse (China), and Inc42 (India)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What regions does Shilika cover for APAC crypto PR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Korea, Japan, Vietnam, China, Singapore, and India — six markets across APAC plus global Tier-1 coverage. Each market gets native-language placements, regional KOL waves, on-ground events, and a local journalist database rather than translated press releases."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is fractional PR different from a Web3 PR agency?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Web3 PR agency typically assigns a junior account team, retainers start higher, and founder access is filtered through layers. Fractional PR with Shilika is one senior operator embedded with the founder, no markup on placements, and accountability tied to coverage in named outlets rather than billable hours."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What case studies show Shilika's Web3 PR work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gaia AI (positioned as 'the Stripe for AI agents' across Forbes, Decrypt and Benzinga), RARI Foundation (11 simultaneous Tier-1 placements at mainnet launch), MANTRA Chain (the $11M raise narrative with a Middle East angle), Fluence Network (DePIN category creation), Web3Auth (Google Cloud × Firebase story across Blockworks, CoinDesk, Yahoo Finance), and Bullieverse."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Shilika handle PR for AI startups outside of crypto?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The same playbook — narrative, founder profiling, journalist mapping, podcast tours, op-ed ghostwriting — applies to AI startups whether or not they are on-chain. Gaia AI is one example. AI Magazine, Forbes AI coverage, and category-defining op-eds are the typical surface area."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I work with Shilika?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Book a 30-minute teardown at https://calendly.com/shilikajain/. Bring your roadmap, your funding stage, and the one publication you want to be in. You will leave the call with a scoped plan and an honest read on whether fractional PR is the right call."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://www.shilikajain.com/#latest-playbook",
+      "name": "Latest Playbook — Field notes for 2026 founders",
+      "description": "Three latest playbooks: crypto PR vs AI PR, best Web3 PR agencies of 2026, fractional vs agency comparison. Updated 2026-05-22.",
+      "numberOfItems": 3,
+      "itemListOrder": "ItemListOrderAscending",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "url": "https://www.shilikajain.com/article-8",
+          "name": "Crypto PR vs AI PR in 2026: how the playbooks differ"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "url": "https://www.shilikajain.com/article-7",
+          "name": "Best Web3 PR agencies and consultants in 2026: an honest field guide"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "url": "https://www.shilikajain.com/article-6",
+          "name": "Fractional PR vs Web3 PR agency: how to choose in 2026"
+        }
+      ]
+    }
+  ]
+}

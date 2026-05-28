@@ -1,0 +1,97 @@
+/* Editorial typography for rendered post bodies.
+   Continues the look from globals.css: serif headings, paper background,
+   lime accent, ink prose, mono kicker. */
+
+.prose-shilika {
+  font-family: var(--font-body);
+  font-size: clamp(16px, 1.05vw, 18px);
+  line-height: 1.7;
+  color: var(--ink);
+}
+
+.prose-shilika > * + * { margin-top: 1.25em; }
+
+.prose-shilika h1,
+.prose-shilika h2,
+.prose-shilika h3,
+.prose-shilika h4 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  color: var(--ink);
+}
+
+.prose-shilika h1 { font-size: clamp(36px, 4.5vw, 56px); margin-top: 1.5em; }
+.prose-shilika h2 { font-size: clamp(28px, 3vw, 40px); margin-top: 2em; }
+.prose-shilika h3 { font-size: clamp(22px, 2.2vw, 30px); margin-top: 1.75em; }
+.prose-shilika h4 { font-size: clamp(18px, 1.5vw, 22px); margin-top: 1.5em; }
+
+.prose-shilika p { max-width: 70ch; }
+
+.prose-shilika a {
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-color: var(--lime);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+.prose-shilika a:hover { color: var(--lime-2); }
+
+.prose-shilika strong { font-weight: 600; }
+.prose-shilika em { font-family: var(--font-display); font-style: italic; }
+
+.prose-shilika ul,
+.prose-shilika ol {
+  max-width: 70ch;
+  padding-left: 1.4em;
+}
+.prose-shilika ul li { list-style: disc; }
+.prose-shilika ol li { list-style: decimal; }
+.prose-shilika li + li { margin-top: 0.4em; }
+
+.prose-shilika blockquote {
+  border-left: 3px solid var(--lime);
+  padding-left: 1em;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 1.1em;
+  color: var(--ink-2);
+  max-width: 60ch;
+}
+
+.prose-shilika code {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+  background: rgba(0,0,0,0.06);
+  padding: 0.15em 0.35em;
+  border-radius: 4px;
+}
+
+.prose-shilika pre {
+  overflow-x: auto;
+  padding: 1.25em;
+  border-radius: 12px;
+  font-size: 14px;
+  line-height: 1.55;
+  background: #15181f !important; /* Shiki theme has a paint; lock the wrapper too. */
+}
+.prose-shilika pre code {
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+}
+
+.prose-shilika img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin: 2em auto;
+  display: block;
+}
+
+.prose-shilika hr {
+  border: 0;
+  border-top: 1px solid var(--line);
+  margin: 3em 0;
+}
