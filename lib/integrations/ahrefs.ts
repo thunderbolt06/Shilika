@@ -56,7 +56,8 @@ export type AhrefsMatchingTerm = {
 let unauthorized = false;
 
 export function ahrefsEnabled(): boolean {
-  return Boolean(process.env.AHREFS_API_KEY) && !unauthorized;
+  // Ahrefs is disabled — no API access yet.
+  return false;
 }
 
 function country(): string {

@@ -4,6 +4,9 @@ import Script from 'next/script';
 import { notFound } from 'next/navigation';
 import { getAuthor, getPostBySlug, getRelatedPosts } from '@/lib/blog';
 import { readingTimeMinutes, renderMarkdown } from '@/lib/markdown';
+import { extractToc } from '@/lib/toc';
+import { TableOfContents } from '@/components/blog/TableOfContents';
+import { ReadingProgress } from '@/components/blog/ReadingProgress';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
@@ -72,6 +75,9 @@ export default async function BlogPostPage({ params }: { params: Params }) {
     getRelatedPosts(post.related_posts),
   ]);
 
+  const toc = extractToc(html);
+  const minutes = readingTimeMinutes(post.body);
+
   const url = `${SITE_URL}/blog/${post.slug}`;
   const ld = {
     '@context': 'https://schema.org',
@@ -103,7 +109,7 @@ export default async function BlogPostPage({ params }: { params: Params }) {
     keywords: post.tags.join(', '),
   };
 
-  const ctaLabel = post.cta_label ?? 'Book a 30-min teardown with Shilika';
+  const ctaLabel = post.cta_label ?? 'Book a 30-min teardown';
   const ctaUrl = post.cta_url ?? 'https://calendly.com/shilikajain/30min/';
 
   return (
@@ -114,6 +120,8 @@ export default async function BlogPostPage({ params }: { params: Params }) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }}
       />
 
+      <ReadingProgress />
+
       <header className="post-head">
         <p className="post-kicker">
           <span className="post-kicker-num">PLAYBOOK</span>
@@ -121,15 +129,34 @@ export default async function BlogPostPage({ params }: { params: Params }) {
         </p>
         <h1 className="post-title">{post.title}</h1>
         <p className="post-deck">{post.description}</p>
-        <div className="post-meta">
-          <span>{formatDate(post.published_at)}</span>
-          <span>{readingTimeMinutes(post.body)} min read</span>
-          <a href={`/blog/${post.slug}.md`}>Markdown</a>
-          {post.tags.map((t) => (
-            <span key={t} className="post-tag">
-              {t}
-            </span>
-          ))}
+
+        <div className="post-meta-row">
+          <div className="post-meta-author">
+            {author?.image_url ? (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img src={author.image_url} alt={author.name} />
+            ) : (
+              <div className="post-meta-author-placeholder" aria-hidden />
+            )}
+            <div>
+              <p className="post-meta-author-name">{post.author}</p>
+              <p className="post-meta-author-meta">
+                <span>{formatDate(post.published_at)}</span>
+                <span aria-hidden> · </span>
+                <span>{minutes} min read</span>
+              </p>
+            </div>
+          </div>
+          <div className="post-meta-tags">
+            {post.tags.slice(0, 4).map((t) => (
+              <span key={t} className="post-tag">
+                {t}
+              </span>
+            ))}
+            <a href={`/blog/${post.slug}.md`} className="post-meta-md">
+              .md
+            </a>
+          </div>
         </div>
       </header>
 
@@ -140,56 +167,169 @@ export default async function BlogPostPage({ params }: { params: Params }) {
         </div>
       )}
 
-      <section className="post-body-wrap">
-        <div
-          className="prose-shilika"
-          dangerouslySetInnerHTML={{ __html: html }}
-        />
+      <div className="post-body-grid">
+        <div className="post-rail post-rail-left">
+          <div className="post-rail-inner">
+            <TableOfContents items={toc} />
+          </div>
+        </div>
 
-        <aside className="post-cta">
-          <h3>
-            Want this <em>playbook</em> applied to your launch?
-          </h3>
-          <p>
-            Shilika has placed 50+ Web3 and AI founders in Forbes, CoinDesk, Cointelegraph,
-            Decrypt, The Block, Blockworks, and AI Magazine across six APAC markets.
-          </p>
-          <a href={ctaUrl} target="_blank" rel="noopener" data-magnet>
-            {ctaLabel}
-            <span aria-hidden>→</span>
-          </a>
-        </aside>
-      </section>
+        <div className="post-main">
+          {toc.length > 0 && (
+            <details className="post-toc-mobile">
+              <summary>
+                <span className="post-toc-mobile-label">On this page</span>
+                <span className="post-toc-mobile-count">{toc.length}</span>
+                <span className="post-toc-mobile-chev" aria-hidden>↓</span>
+              </summary>
+              <ol>
+                {toc.map((it) => (
+                  <li key={it.id} className={`lvl-${it.level}`}>
+                    <a href={`#${it.id}`}>{it.text}</a>
+                  </li>
+                ))}
+              </ol>
+            </details>
+          )}
+
+          <div
+            className="prose-shilika"
+            dangerouslySetInnerHTML={{ __html: html }}
+          />
+
+          <aside className="post-cta post-cta-sticky post-mobile-block">
+            <p className="post-cta-kicker">
+              <span className="post-cta-dot" aria-hidden />
+              Work with Shilika
+            </p>
+            <h3>
+              Apply this <em>playbook</em> to your launch
+            </h3>
+            <p>
+              50+ Web3 &amp; AI founders placed in Forbes, CoinDesk, Decrypt, The Block,
+              Blockworks &amp; AI Magazine — across six APAC markets.
+            </p>
+            <a href={ctaUrl} target="_blank" rel="noopener" data-magnet>
+              {ctaLabel}
+              <span aria-hidden>→</span>
+            </a>
+          </aside>
+
+          {author && (
+            <aside className="post-author-card post-mobile-block">
+              {author.image_url ? (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img src={author.image_url} alt={author.name} />
+              ) : (
+                <div className="post-author-card-placeholder" aria-hidden />
+              )}
+              <p className="post-author-card-kicker">Written by</p>
+              <p className="post-author-card-name">{author.name}</p>
+              <p className="post-author-card-role">{author.title}</p>
+              <p className="post-author-card-bio">{author.bio}</p>
+              {author.same_as && author.same_as.length > 0 && (
+                <div className="post-author-card-links">
+                  {author.same_as.slice(0, 4).map((s) => {
+                    let host = s;
+                    try {
+                      host = new URL(s).hostname.replace('www.', '').split('.')[0];
+                    } catch {}
+                    return (
+                      <a key={s} href={s} target="_blank" rel="noopener">
+                        {host}
+                      </a>
+                    );
+                  })}
+                </div>
+              )}
+            </aside>
+          )}
+        </div>
+
+        <div className="post-rail post-rail-right">
+          <div className="post-rail-inner">
+            <aside className="post-cta post-cta-sticky">
+              <p className="post-cta-kicker">
+                <span className="post-cta-dot" aria-hidden />
+                Work with Shilika
+              </p>
+              <h3>
+                Apply this <em>playbook</em> to your launch
+              </h3>
+              <p>
+                50+ Web3 &amp; AI founders placed in Forbes, CoinDesk, Decrypt, The Block,
+                Blockworks &amp; AI Magazine — across six APAC markets.
+              </p>
+              <a href={ctaUrl} target="_blank" rel="noopener" data-magnet>
+                {ctaLabel}
+                <span aria-hidden>→</span>
+              </a>
+              <div className="post-cta-stats">
+                <div>
+                  <span className="post-cta-stat-num">50+</span>
+                  <span className="post-cta-stat-label">Founders placed</span>
+                </div>
+                <div>
+                  <span className="post-cta-stat-num">6</span>
+                  <span className="post-cta-stat-label">APAC markets</span>
+                </div>
+              </div>
+            </aside>
+
+            {author && (
+              <aside className="post-author-card">
+                {author.image_url ? (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img src={author.image_url} alt={author.name} />
+                ) : (
+                  <div className="post-author-card-placeholder" aria-hidden />
+                )}
+                <p className="post-author-card-kicker">Written by</p>
+                <p className="post-author-card-name">{author.name}</p>
+                <p className="post-author-card-role">{author.title}</p>
+                <p className="post-author-card-bio">{author.bio}</p>
+                {author.same_as && author.same_as.length > 0 && (
+                  <div className="post-author-card-links">
+                    {author.same_as.slice(0, 4).map((s) => {
+                      let host = s;
+                      try {
+                        host = new URL(s).hostname.replace('www.', '').split('.')[0];
+                      } catch {}
+                      return (
+                        <a key={s} href={s} target="_blank" rel="noopener">
+                          {host}
+                        </a>
+                      );
+                    })}
+                  </div>
+                )}
+              </aside>
+            )}
+          </div>
+        </div>
+      </div>
 
       {related.length > 0 && (
         <section className="post-related">
-          <h2>Related playbooks</h2>
+          <div className="post-related-head">
+            <p className="post-related-kicker">
+              <span aria-hidden>—</span> Keep reading
+            </p>
+            <h2>Similar playbooks</h2>
+          </div>
           <div className="post-related-list">
-            {related.map((r) => (
+            {related.map((r, i) => (
               <a key={r.id} href={`/blog/${r.slug}`} className="post-related-card" data-magnet>
+                <span className="post-related-card-num">
+                  {String(i + 1).padStart(2, '0')}
+                </span>
                 <h3>{r.title}</h3>
                 <p>{r.description}</p>
+                <span className="post-related-card-cta">
+                  Read playbook <span aria-hidden>→</span>
+                </span>
               </a>
             ))}
-          </div>
-        </section>
-      )}
-
-      {author && (
-        <section className="post-body-wrap">
-          <div className="post-author">
-            {author.image_url ? (
-              // eslint-disable-next-line @next/next/no-img-element
-              <img src={author.image_url} alt={author.name} />
-            ) : (
-              <div />
-            )}
-            <div>
-              <p className="post-author-kicker">Written by</p>
-              <p className="post-author-name">{author.name}</p>
-              <p className="post-author-role">{author.title}</p>
-              <p className="post-author-bio">{author.bio}</p>
-            </div>
           </div>
         </section>
       )}

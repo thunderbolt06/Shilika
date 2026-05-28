@@ -7,6 +7,7 @@ import { perplexityBatch, perplexityEnabled, type PerplexitySignal } from '@/lib
 import { getAdminSupabase } from '@/lib/supabase/server';
 import type { ContentIdea, KnowledgeEntry } from '@/lib/supabase/types';
 import { loadAgentContext } from './context';
+import { withRetry } from '@/lib/retry';
 
 const RESEARCH_MODEL = process.env.ANTHROPIC_RESEARCH_MODEL || 'claude-opus-4-7';
 
@@ -33,6 +34,40 @@ const CandidateSchema = z.object({
 type Candidate = z.infer<typeof CandidateSchema>;
 
 const ResponseSchema = z.object({ candidates: z.array(CandidateSchema).min(0).max(20) });
+
+function coercePriority(value: unknown): number | unknown {
+  if (typeof value === 'number') return value;
+  if (typeof value === 'string') {
+    const m = value.trim().match(/^P?(\d)$/i);
+    if (m) return Number(m[1]);
+    const n = Number(value);
+    if (Number.isFinite(n)) return n;
+  }
+  return value;
+}
+
+function coerceLlmCandidates(raw: unknown): unknown {
+  if (!raw || typeof raw !== 'object' || !('candidates' in raw)) return raw;
+  const candidates = (raw as { candidates?: unknown }).candidates;
+  if (!Array.isArray(candidates)) return raw;
+  return {
+    ...raw,
+    candidates: candidates.map((c) => {
+      if (!c || typeof c !== 'object') return c;
+      const obj = c as Record<string, unknown>;
+      const title = typeof obj.title === 'string' ? obj.title : '';
+      const description = typeof obj.description === 'string' && obj.description.length >= 40
+        ? obj.description
+        : `${title}. ${typeof obj.description === 'string' ? obj.description : ''}`.slice(0, 1200).padEnd(40, '.');
+      return {
+        ...obj,
+        description,
+        tags: Array.isArray(obj.tags) ? obj.tags.filter((t) => typeof t === 'string' && t.length > 0) : [],
+        priority: coercePriority(obj.priority),
+      };
+    }),
+  };
+}
 
 export type ResearchSummary = {
   candidates_proposed: number;
@@ -100,15 +135,39 @@ Scoring rubric (each 0-10):
   Use web_search to scan the SERP. A weak SERP = high gap score = high
   priority.
 
-Priority output mapping:
-  9-10 average -> P0 (write next)
-  7-8 average  -> P1
-  5-6 average  -> P2
-  <5 average   -> P3
+Priority output mapping (return as INTEGER, not "P0"/"P1"):
+  9-10 average -> priority: 0   (write next)
+  7-8 average  -> priority: 1
+  5-6 average  -> priority: 2
+  <5 average   -> priority: 3
 
-Return JSON only: { "candidates": [ { ... } ] }. Five to ten candidates is
-the sweet spot. Each candidate must include source_signals.rationale (1-3
-sentences) explaining the case.`;
+Return JSON ONLY in this exact shape. No prose, no markdown fences.
+Every candidate MUST include every required field below.
+
+{
+  "candidates": [
+    {
+      "title": "string, 8-240 chars",
+      "description": "string, 40-1200 chars, 2-4 sentences explaining the angle",
+      "tags": ["string", "string"],
+      "priority": 0,
+      "source_signals": {
+        "rationale": "string, 20-800 chars, 1-3 sentences on why this scores well",
+        "seed_query": "optional string",
+        "gsc_query": "optional string",
+        "demand_score": 0,
+        "intent_score": 0,
+        "gap_score": 0
+      }
+    }
+  ]
+}
+
+Rules:
+- "tags" is REQUIRED. If you have no tags, return [].
+- "priority" is an INTEGER 0-4. Never "P1", never "high".
+- "description" is REQUIRED and at least 40 characters.
+- Five to ten candidates is the sweet spot.`;
 
   const userParts: string[] = [];
 
@@ -187,14 +246,18 @@ sentences) explaining the case.`;
 4. Return JSON only: { "candidates": [ ... ] }. Do NOT return commentary.`);
 
   return (async () => {
-    const response = await client.messages.create({
-      model: RESEARCH_MODEL,
-      max_tokens: 6000,
-      system,
-      messages: [{ role: 'user', content: userParts.join('\n\n') }],
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      tools: [{ type: 'web_search_20250305', name: 'web_search' } as any],
-    });
+    const response = await withRetry(
+      () =>
+        client.messages.create({
+          model: RESEARCH_MODEL,
+          max_tokens: 6000,
+          system,
+          messages: [{ role: 'user', content: userParts.join('\n\n') }],
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
+          tools: [{ type: 'web_search_20250305', name: 'web_search' } as any],
+        }),
+      { label: `anthropic:${RESEARCH_MODEL}` },
+    );
 
     const text = response.content
       .filter((b) => b.type === 'text')
@@ -204,7 +267,8 @@ sentences) explaining the case.`;
     const start = text.indexOf('{');
     const end = text.lastIndexOf('}');
     if (start < 0 || end <= start) throw new Error('research agent returned no JSON');
-    const parsed = ResponseSchema.parse(JSON.parse(text.slice(start, end + 1)));
+    const raw = JSON.parse(text.slice(start, end + 1));
+    const parsed = ResponseSchema.parse(coerceLlmCandidates(raw));
     return parsed.candidates;
   })();
 }
