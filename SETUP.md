@@ -33,9 +33,9 @@ Required (Phase 1 + 3 — the admin and blog read paths):
 - `ADMIN_SESSION_SECRET` — 32+ chars, random (used to HMAC-sign session cookies)
 
 Required for Phase 4 (writer + image gen):
-- `ANTHROPIC_API_KEY` — claude-opus-4-7 for the writer agent
+- `ANTHROPIC_API_KEY` — claude-sonnet-4-6 for the writer agent
 - `GOOGLE_GENAI_API_KEY` — Gemini "Nano Banana 2" / Imagen 3 for hero images
-- Optional: `ANTHROPIC_WRITER_MODEL`, `ANTHROPIC_RESEARCH_MODEL` (defaults to `claude-opus-4-8`)
+- Optional: `ANTHROPIC_WRITER_MODEL`, `ANTHROPIC_RESEARCH_MODEL` (defaults to `claude-sonnet-4-6`)
 - Optional: `IMAGE_GEN_MODEL` (defaults to `gemini-2.5-flash-image-preview`)
 - Optional: `IMAGE_GEN_PROVIDER=stub` to short-circuit the API and return a placeholder
 

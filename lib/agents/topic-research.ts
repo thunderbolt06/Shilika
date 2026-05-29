@@ -9,7 +9,7 @@ import type { ContentIdea, KnowledgeEntry } from '@/lib/supabase/types';
 import { loadAgentContext } from './context';
 import { withRetry } from '@/lib/retry';
 
-const RESEARCH_MODEL = process.env.ANTHROPIC_RESEARCH_MODEL || 'claude-opus-4-8';
+const RESEARCH_MODEL = process.env.ANTHROPIC_RESEARCH_MODEL || 'claude-sonnet-4-6';
 
 const CandidateSchema = z.object({
   title: z.string().min(8).max(240),

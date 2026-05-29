@@ -11,7 +11,7 @@ import {
 import { checkHumanization, formatViolations } from './humanize-loop';
 import { withRetry } from '@/lib/retry';
 
-const WRITER_MODEL = process.env.ANTHROPIC_WRITER_MODEL || 'claude-opus-4-8';
+const WRITER_MODEL = process.env.ANTHROPIC_WRITER_MODEL || 'claude-sonnet-4-6';
 const MAX_HUMANIZE_PASSES = 4;
 
 const DEFAULT_CTA_LABEL = 'Book a 30-min teardown with Shilika';
