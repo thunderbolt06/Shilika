@@ -179,7 +179,7 @@ export function ReviewClient({ idea }: { idea: Idea }) {
               : `HTTP ${res.status}`;
         throw new Error(msg);
       }
-      setDraft({ ...draft, image_url: data.url });
+      setDraft({ ...draft, image_url: data.url ?? null });
       setStatus(`Regenerated. ${data.sizeKb}kb`);
     } catch (e) {
       setStatus(e instanceof Error ? e.message : 'image failed');
