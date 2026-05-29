@@ -163,8 +163,22 @@ export function ReviewClient({ idea }: { idea: Idea }) {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ ideaId: idea.id }),
       });
-      const data = await res.json();
-      if (!res.ok) throw new Error(data.error ?? 'image failed');
+      const text = await res.text();
+      let data: { url?: string; sizeKb?: number; error?: unknown } = {};
+      try {
+        data = text ? JSON.parse(text) : {};
+      } catch {
+        throw new Error(`HTTP ${res.status}: ${text.slice(0, 200)}`);
+      }
+      if (!res.ok) {
+        const msg =
+          typeof data.error === 'string'
+            ? data.error
+            : data.error
+              ? JSON.stringify(data.error)
+              : `HTTP ${res.status}`;
+        throw new Error(msg);
+      }
       setDraft({ ...draft, image_url: data.url });
       setStatus(`Regenerated. ${data.sizeKb}kb`);
     } catch (e) {

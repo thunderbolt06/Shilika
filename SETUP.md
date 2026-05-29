@@ -35,7 +35,7 @@ Required (Phase 1 + 3 — the admin and blog read paths):
 Required for Phase 4 (writer + image gen):
 - `ANTHROPIC_API_KEY` — claude-opus-4-7 for the writer agent
 - `GOOGLE_GENAI_API_KEY` — Gemini "Nano Banana 2" / Imagen 3 for hero images
-- Optional: `ANTHROPIC_WRITER_MODEL`, `ANTHROPIC_RESEARCH_MODEL` (defaults to `claude-opus-4-7`)
+- Optional: `ANTHROPIC_WRITER_MODEL`, `ANTHROPIC_RESEARCH_MODEL` (defaults to `claude-opus-4-8`)
 - Optional: `IMAGE_GEN_MODEL` (defaults to `gemini-2.5-flash-image-preview`)
 - Optional: `IMAGE_GEN_PROVIDER=stub` to short-circuit the API and return a placeholder
 

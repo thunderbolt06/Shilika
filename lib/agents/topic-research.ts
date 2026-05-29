@@ -9,7 +9,7 @@ import type { ContentIdea, KnowledgeEntry } from '@/lib/supabase/types';
 import { loadAgentContext } from './context';
 import { withRetry } from '@/lib/retry';
 
-const RESEARCH_MODEL = process.env.ANTHROPIC_RESEARCH_MODEL || 'claude-opus-4-7';
+const RESEARCH_MODEL = process.env.ANTHROPIC_RESEARCH_MODEL || 'claude-opus-4-8';
 
 const CandidateSchema = z.object({
   title: z.string().min(8).max(240),
@@ -251,10 +251,15 @@ Rules:
         client.messages.create({
           model: RESEARCH_MODEL,
           max_tokens: 6000,
-          system,
+          system: [
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
+            { type: 'text', text: system, cache_control: { type: 'ephemeral', ttl: '1h' } } as any,
+          ],
           messages: [{ role: 'user', content: userParts.join('\n\n') }],
           // eslint-disable-next-line @typescript-eslint/no-explicit-any
           tools: [{ type: 'web_search_20250305', name: 'web_search' } as any],
+        }, {
+          headers: { 'anthropic-beta': 'extended-cache-ttl-2025-04-11' },
         }),
       { label: `anthropic:${RESEARCH_MODEL}` },
     );

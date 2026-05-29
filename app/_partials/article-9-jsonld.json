@@ -1,0 +1,188 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/ai-startup-pr-2026#article",
+      "headline": "PR strategy for AI startups in 2026: the playbook after capital stopped being the bottleneck",
+      "alternativeHeadline": "AI Startup PR 2026: positioning, narrative, journalist mapping, AI Overviews placement, measurement",
+      "description": "A 14-minute PR playbook for AI startups in the post-$965B-Anthropic 2026 funding environment. Three-phase arc (pre-fund, fund, post-fund), four-arc narrative architecture, named journalist mapping, AI Overviews citation tactics, KOL waves, and a Gaia AI worked example.",
+      "url": "https://www.shilikajain.com/playbook/ai-startup-pr-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/ai-startup-pr-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2700,
+      "timeRequired": "PT14M",
+      "articleSection": "AI Startup PR",
+      "keywords": [
+        "PR strategy for AI startups",
+        "AI startup PR 2026",
+        "AI startup PR playbook",
+        "AI Overviews citations",
+        "AI category positioning",
+        "fractional AI PR",
+        "AI founder profiling",
+        "Anthropic OpenAI Mistral 2026",
+        "Stripe for AI agents",
+        "Gaia AI Forbes"
+      ],
+      "inLanguage": "en",
+      "datePublished": "2026-05-29",
+      "dateModified": "2026-05-29",
+      "about": [
+        { "@type": "Thing", "name": "PR strategy for AI startups" },
+        { "@type": "Thing", "name": "Generative engine optimization" },
+        { "@type": "Thing", "name": "Answer engine optimization" },
+        { "@type": "Thing", "name": "AI Overviews" },
+        { "@type": "Organization", "name": "Anthropic" },
+        { "@type": "Organization", "name": "OpenAI" },
+        { "@type": "Organization", "name": "Mistral AI" },
+        { "@type": "Organization", "name": "Gaia AI" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "Forbes" },
+        { "@type": "Organization", "name": "The Information" },
+        { "@type": "Organization", "name": "TechCrunch" },
+        { "@type": "Organization", "name": "VentureBeat" },
+        { "@type": "Organization", "name": "AI Magazine" },
+        { "@type": "Organization", "name": "MIT Technology Review" },
+        { "@type": "Organization", "name": "Decrypt" },
+        { "@type": "Organization", "name": "Benzinga" },
+        { "@type": "Organization", "name": "Latent Space" },
+        { "@type": "Organization", "name": "Stratechery" }
+      ],
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "Google Search AI Optimization Guide",
+          "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Google Search guidance on AI-generated content",
+          "url": "https://developers.google.com/search/docs/fundamentals/using-gen-ai-content"
+        },
+        {
+          "@type": "NewsArticle",
+          "name": "Anthropic tops OpenAI as most valuable AI startup, nears $1 trillion valuation",
+          "url": "https://www.cnbc.com/2026/05/28/anthropic-open-ai-startup-value.html",
+          "publisher": { "@type": "Organization", "name": "CNBC" }
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Google AI Overviews Ranking Factors: 2026 Guide",
+          "url": "https://wellows.com/blog/google-ai-overviews-ranking-factors/"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Google May 2026 Core Update analysis",
+          "url": "https://www.plandigi.com/blog/google-may-2026-core-update/"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "AI Startup Fundraising Trends 2026",
+          "url": "https://eqvista.com/ai-startup-fundraising-trends/"
+        }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/about",
+        "jobTitle": "Fractional PR Manager",
+        "knowsAbout": [
+          "Public Relations",
+          "AI startup PR",
+          "Web3 PR",
+          "Founder profiling",
+          "Generative engine optimization",
+          "AI Overviews citation strategy"
+        ],
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "PR strategy for AI startups in 2026", "item": "https://www.shilikajain.com/playbook/ai-startup-pr-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/ai-startup-pr-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does PR for an AI startup actually cost in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fractional senior-operator PR for AI startups in 2026 runs $6,000 to $14,000 per month with a 3 to 6 month engagement. A full-service AI PR agency retainer typically runs $15,000 to $40,000 per month with 6 to 12 month minimums. A single funding-announcement launch sprint with one tier-1 exclusive, founder thread package and 8 to 12 weeks of pre-launch positioning runs $25,000 to $75,000 as a fixed-fee project. The price spread is driven by founder availability, geography (US vs APAC vs EU), the depth of the analyst-relations layer, and how many named publications are pre-committed in the scope."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When should an AI startup hire a PR partner?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Eight to twelve weeks before the round announce is the right window for a Series A; twelve to sixteen weeks for a Series B or C where the story has more components. Pre-seed startups should not hire a PR retainer; they should spend that money on positioning work and on building founder bylines in two or three credible outlets before the round even exists. Post-funding, the highest-leverage window is the 3 to 6 weeks after the announce, when journalists are actively interested and when AI engines are re-indexing the named-entity graph around the company."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which journalists cover AI startups in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Forbes (Rashi Shrivastava, Iain Martin, Kenrick Cai) for enterprise outcomes and founder stories; The Information (Stephanie Palazzolo, Cory Weinberg, Aaron Holmes) for category-shaping scoops and technical depth; TechCrunch (Kyle Wiggers, Marina Temkin, Connie Loizos) for funding and competitive framing; VentureBeat (Michael Nuñez, Sharon Goldman, Carl Franzen) for AI/ML category coverage; AI Magazine, MIT Technology Review and IEEE Spectrum for longer-form technical credibility. The non-obvious 2026 addition: Substack newsletters with 30K+ paid subscribers (Ben Thompson, Packy McCormick, Casey Newton, Latent Space) are now cited inside AI Overviews more reliably than many mid-tier trade outlets."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you get an AI startup cited inside Google AI Overviews and ChatGPT?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Six tactics, all on owned media. First, front-load every page with a direct 50-word answer to the title query. Second, structure long-form content into self-contained 134 to 167 word chunks scoring high on semantic completeness (the #1 ranking factor for AI Overview citations per a 15,847-result Wellows analysis). Third, ship every post with a named-author byline tied to a Person schema entity that resolves to the same node across LinkedIn, X, Crunchbase and Wikidata. Fourth, add Article and FAQPage schema with recent dateModified values. Fifth, cite 2 to 5 authoritative outbound sources by name. Sixth, publish in comparison and 'best of' formats — roughly 33% of AI citations are comparisons and 10% are opinion, so a 'X vs Y for use-case Z' page outperforms a generic launch post by 3 to 5x in citation share."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is PR for AI startups different from PR for Web3 or SaaS startups?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AI PR runs on credibility and category claim; Web3 PR runs on speed and crypto-native distribution; SaaS PR runs on customer logos and ARR proof. The AI press corps weights founder pedigree and technical depth more heavily than the crypto press, which weights launch momentum and KOL coverage. The AI buyer (CTO, head of AI, ML engineering lead) does 60% of their research inside AI chat windows in 2026 versus 30% on Google SERPs, which inverts the optimization stack: comparison content and structured FAQ chunks matter more than press release impressions. The journalist relationships also differ — Forbes Crypto and Decrypt overlap with AI desks but the playbooks are not interchangeable."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What metrics actually predict pipeline impact for AI PR in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Four metrics, in priority order. First, named-citation share inside AI Overviews, ChatGPT, Perplexity and Claude for a 25-prompt buyer panel run monthly. Second, branded search volume for the company name and founder name (Google Search Console plus Google Trends). Third, direct demo and sales-call inbound tagged by source (Calendly bookings, contact-form submissions, sales notes). Fourth, referring domains and backlinks from credible publications (Ahrefs or Semrush domain rating delta). Ignore press release impressions, media value estimates, and unfocused share-of-voice dashboards — they correlated with pipeline in 2019 and they do not correlate in 2026."
+          }
+        }
+      ]
+    }
+  ]
+}

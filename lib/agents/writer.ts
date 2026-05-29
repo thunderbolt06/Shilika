@@ -11,7 +11,7 @@ import {
 import { checkHumanization, formatViolations } from './humanize-loop';
 import { withRetry } from '@/lib/retry';
 
-const WRITER_MODEL = process.env.ANTHROPIC_WRITER_MODEL || 'claude-opus-4-7';
+const WRITER_MODEL = process.env.ANTHROPIC_WRITER_MODEL || 'claude-opus-4-8';
 const MAX_HUMANIZE_PASSES = 4;
 
 const DEFAULT_CTA_LABEL = 'Book a 30-min teardown with Shilika';
@@ -58,7 +58,7 @@ function coerceStringArray(v: unknown): unknown {
 const DraftSchema = z.object({
   slug: z.string().regex(/^[a-z0-9-]+$/),
   title: titleSchema,
-  description: z.string().min(80).max(180),
+  description: z.string().min(80).max(220),
   body: z.string().min(800),
   tags: z.preprocess(coerceStringArray, z.array(z.string()).min(1).max(8)),
   related_posts: z.preprocess(coerceStringArray, z.array(z.string()).max(5)).default([]),
@@ -81,7 +81,7 @@ const SUBMIT_DRAFT_TOOL = {
     properties: {
       slug: { type: 'string', pattern: '^[a-z0-9-]+$', description: 'URL slug, lowercase kebab-case' },
       title: { type: 'string', minLength: 8, maxLength: 80 },
-      description: { type: 'string', minLength: 80, maxLength: 180, description: 'Meta description / dek' },
+      description: { type: 'string', minLength: 80, maxLength: 220, description: 'Meta description / dek' },
       body: { type: 'string', minLength: 800, description: 'Markdown body, 1,500–2,500 words' },
       tags: {
         type: 'array',
@@ -187,16 +187,22 @@ async function callClaude(system: string, messages: Message[]): Promise<DraftCal
       client.messages.create({
         model: WRITER_MODEL,
         max_tokens: 8000,
-        system,
+        system: [
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
+          { type: 'text', text: system, cache_control: { type: 'ephemeral', ttl: '1h' } } as any,
+        ],
         messages,
         tools: [
           // Anthropic-hosted web search (server-side; no client loop needed).
           // eslint-disable-next-line @typescript-eslint/no-explicit-any
           { type: 'web_search_20250305', name: 'web_search' } as any,
           // Client tool used purely as a structured-output channel.
+          // Cache breakpoint on the last tool caches the full tools block.
           // eslint-disable-next-line @typescript-eslint/no-explicit-any
-          SUBMIT_DRAFT_TOOL as any,
+          { ...SUBMIT_DRAFT_TOOL, cache_control: { type: 'ephemeral', ttl: '1h' } } as any,
         ],
+      }, {
+        headers: { 'anthropic-beta': 'extended-cache-ttl-2025-04-11' },
       }),
     { label: `anthropic:${WRITER_MODEL}` },
   );
