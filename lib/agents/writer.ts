@@ -23,16 +23,25 @@ const DEFAULT_CTA_URL = 'https://calendly.com/shilikajain/30min/';
 const ctaLabelSchema = z.preprocess(() => DEFAULT_CTA_LABEL, z.string());
 const ctaUrlSchema = z.preprocess(() => DEFAULT_CTA_URL, z.string().url());
 
-// Title cap is 80 chars; if the model overshoots, trim on the last word
-// boundary rather than rejecting the entire draft.
-const titleSchema = z.preprocess((v) => {
+// Trim a string to `max` chars on a word boundary, falling back to a hard cut
+// if no space exists in the back half. Used for fields where the model
+// occasionally overshoots the schema cap.
+function trimToBoundary(v: unknown, max: number, minBoundary: number): unknown {
   if (typeof v !== 'string') return v;
   const t = v.trim();
-  if (t.length <= 80) return t;
-  const cut = t.slice(0, 80);
+  if (t.length <= max) return t;
+  const cut = t.slice(0, max);
   const lastSpace = cut.lastIndexOf(' ');
-  return (lastSpace > 40 ? cut.slice(0, lastSpace) : cut).trimEnd();
-}, z.string().min(8).max(80));
+  return (lastSpace > minBoundary ? cut.slice(0, lastSpace) : cut).trimEnd();
+}
+
+// Title cap is 80 chars; if the model overshoots, trim on the last word
+// boundary rather than rejecting the entire draft.
+const titleSchema = z.preprocess((v) => trimToBoundary(v, 80, 40), z.string().min(8).max(80));
+
+// Same trick for the meta description. Model is told 220, we accept up to 220
+// and trim anything longer.
+const descriptionSchema = z.preprocess((v) => trimToBoundary(v, 220, 140), z.string().min(80).max(220));
 
 // Claude occasionally returns array fields as comma-separated strings or as
 // a JSON-encoded string. Normalize to a string[] before validating.
@@ -58,7 +67,7 @@ function coerceStringArray(v: unknown): unknown {
 const DraftSchema = z.object({
   slug: z.string().regex(/^[a-z0-9-]+$/),
   title: titleSchema,
-  description: z.string().min(80).max(220),
+  description: descriptionSchema,
   body: z.string().min(800),
   tags: z.preprocess(coerceStringArray, z.array(z.string()).min(1).max(8)),
   related_posts: z.preprocess(coerceStringArray, z.array(z.string()).max(5)).default([]),
@@ -76,28 +85,33 @@ const SUBMIT_DRAFT_TOOL = {
   name: 'submit_draft',
   description:
     'Submit the final blog post draft. Call this exactly once when you are done researching and writing. Do not return prose alongside the call.',
+  // Strict mode: Anthropic grammar-constrains the tool input. Guarantees
+  // required fields, types, and additionalProperties:false. NOTE: it does
+  // NOT enforce min/maxLength — those are advisory hints to the model; the
+  // truncating Zod preprocesses (titleSchema, descriptionSchema) are the
+  // real safety net for length caps.
+  strict: true,
   input_schema: {
     type: 'object',
     properties: {
       slug: { type: 'string', pattern: '^[a-z0-9-]+$', description: 'URL slug, lowercase kebab-case' },
-      title: { type: 'string', minLength: 8, maxLength: 80 },
-      description: { type: 'string', minLength: 80, maxLength: 220, description: 'Meta description / dek' },
-      body: { type: 'string', minLength: 800, description: 'Markdown body, 1,500–2,500 words' },
+      title: { type: 'string', description: 'Headline, 8-80 chars.' },
+      description: { type: 'string', description: 'Meta description / dek, 80-220 chars. Hard cap 220.' },
+      body: { type: 'string', description: 'Markdown body, 1,500–2,500 words.' },
       tags: {
         type: 'array',
         items: { type: 'string' },
-        minItems: 1,
-        maxItems: 8,
+        description: '1-8 topic tags.',
       },
       related_posts: {
         type: 'array',
         items: { type: 'string' },
-        maxItems: 5,
-        description: 'Slugs from the published-posts list. Pick 2–3.',
+        description: 'Slugs from the published-posts list. Pick 2–3, max 5.',
       },
-      image_prompt: { type: 'string', minLength: 40, description: 'Hero image prompt: no people, 1200x630 OG composition, editorial palette.' },
+      image_prompt: { type: 'string', description: 'Hero image prompt: no people, 1200x630 OG composition, editorial palette. Min 40 chars.' },
     },
     required: ['slug', 'title', 'description', 'body', 'tags', 'related_posts', 'image_prompt'],
+    additionalProperties: false,
   },
 } as const;
 
