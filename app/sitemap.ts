@@ -33,6 +33,7 @@ const STATIC_PAGES: { path: string; priority: number; changeFrequency: MetadataR
   { path: '/playbook/best-web3-pr-agencies-2026', priority: 0.7, changeFrequency: 'monthly' },
   { path: '/playbook/crypto-pr-vs-ai-pr', priority: 0.7, changeFrequency: 'monthly' },
   { path: '/playbook/ai-startup-pr-2026', priority: 0.85, changeFrequency: 'monthly' },
+  { path: '/playbook/cybersecurity-pr-2026', priority: 0.85, changeFrequency: 'monthly' },
 ];
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {

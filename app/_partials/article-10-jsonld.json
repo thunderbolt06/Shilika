@@ -1,0 +1,207 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/cybersecurity-pr-2026#article",
+      "headline": "Cybersecurity PR in 2026: how vendors get cited by analysts and AI engines",
+      "alternativeHeadline": "Cybersecurity PR 2026: analyst relations, threat research, AI Overviews citations, measurement",
+      "description": "A 12-minute cybersecurity PR playbook for 2026. Analyst relations as the spine, threat research as the news engine, AI Mode and AI Overviews citations as the measurement layer. Named Gartner, Forrester, Dark Reading, SC Media, CyberScoop journalists and the Magic Quadrant / Wave briefing cadence that actually moves a vendor shortlist.",
+      "url": "https://www.shilikajain.com/playbook/cybersecurity-pr-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/cybersecurity-pr-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2400,
+      "timeRequired": "PT12M",
+      "articleSection": "Cybersecurity PR",
+      "keywords": [
+        "cybersecurity PR",
+        "cybersecurity PR 2026",
+        "cybersecurity PR services",
+        "analyst relations Gartner Forrester",
+        "Magic Quadrant briefing",
+        "Forrester Wave briefing",
+        "AI Mode cybersecurity",
+        "AI Overviews citations cybersecurity",
+        "threat research PR",
+        "fractional cybersecurity PR"
+      ],
+      "inLanguage": "en",
+      "datePublished": "2026-05-30",
+      "dateModified": "2026-05-30",
+      "about": [
+        { "@type": "Thing", "name": "Cybersecurity public relations" },
+        { "@type": "Thing", "name": "Analyst relations" },
+        { "@type": "Thing", "name": "Generative engine optimization" },
+        { "@type": "Thing", "name": "Answer engine optimization" },
+        { "@type": "Thing", "name": "Google AI Mode" },
+        { "@type": "Organization", "name": "Gartner" },
+        { "@type": "Organization", "name": "Forrester" },
+        { "@type": "Organization", "name": "IDC" },
+        { "@type": "Organization", "name": "KuppingerCole" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "Dark Reading" },
+        { "@type": "Organization", "name": "SC Media" },
+        { "@type": "Organization", "name": "CyberScoop" },
+        { "@type": "Organization", "name": "The Record" },
+        { "@type": "Organization", "name": "SecurityWeek" },
+        { "@type": "Organization", "name": "BleepingComputer" },
+        { "@type": "Organization", "name": "Help Net Security" },
+        { "@type": "Organization", "name": "Forbes Cyber" },
+        { "@type": "Organization", "name": "WSJ Pro Cybersecurity" },
+        { "@type": "Organization", "name": "TechCrunch" },
+        { "@type": "Organization", "name": "Wired" },
+        { "@type": "Organization", "name": "CISA" },
+        { "@type": "Organization", "name": "NIST" },
+        { "@type": "Organization", "name": "MITRE ATT&CK" },
+        { "@type": "Organization", "name": "Cloud Security Alliance" },
+        { "@type": "Organization", "name": "SANS Institute" },
+        { "@type": "Organization", "name": "OWASP" }
+      ],
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "Google Search AI Optimization Guide",
+          "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Google Search guidance on AI-generated content",
+          "url": "https://developers.google.com/search/docs/fundamentals/using-gen-ai-content"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Gartner Top Cybersecurity Trends 2026",
+          "url": "https://www.gartner.com/en/articles/top-cybersecurity-trends-2026"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Google Cloud Cybersecurity Forecast 2026",
+          "url": "https://cloud.google.com/blog/topics/threat-intelligence/cybersecurity-forecast-2026/"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Google AI Mode for Cybersecurity Companies: SEO Strategy for 2026",
+          "url": "https://www.ranktracker.com/blog/google-ai-mode-for-cybersecurity-companies/"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "From Search Rankings to AI Citations: A Cybersecurity CMO's Guide to GEO",
+          "url": "https://solutionsreview.com/security-information-event-management/from-search-rankings-to-ai-citations-a-cybersecurity-cmos-guide-to-geo/"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Google AI Overviews Ranking Factors: 2026 Guide",
+          "url": "https://wellows.com/blog/google-ai-overviews-ranking-factors/"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Top 5 Cybersecurity Investors ($14B Deployed) 2026",
+          "url": "https://www.peony.ink/blog/investors-cyber-security"
+        }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/about",
+        "jobTitle": "Fractional PR Manager",
+        "knowsAbout": [
+          "Public Relations",
+          "Cybersecurity PR",
+          "Analyst relations",
+          "Threat research amplification",
+          "AI startup PR",
+          "Web3 PR",
+          "Generative engine optimization",
+          "AI Overviews citation strategy"
+        ],
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "Cybersecurity PR in 2026", "item": "https://www.shilikajain.com/playbook/cybersecurity-pr-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/cybersecurity-pr-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does cybersecurity PR actually cost in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fractional senior-operator cybersecurity PR runs $5,000 to $12,000 per month on a 3 to 12 month engagement and covers analyst relations, threat-research amplification, founder profiling and AI-search visibility work. A specialist cybersecurity marketing or PR agency typically runs $10,000 to $50,000 per month for an integrated program. A fixed-fee analyst relations sprint (a Magic Quadrant or Forrester Wave briefing cycle, a category-entry push, or repair of a weak analyst position) runs $12,000 to $28,000 across 8 to 12 weeks. A launch or coordinated disclosure sprint runs $15,000 to $40,000 across 4 to 8 weeks. Price spread is driven by founder availability, geography, depth of the analyst relations layer, and how many named publications and analysts are pre-committed in scope."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is analyst relations the centre of cybersecurity PR in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Roughly 90% of enterprise cybersecurity buyers consult analyst reports before purchase, and AI engines (Google AI Mode, ChatGPT, Perplexity, Claude) now weight named analyst citations heavily when answering 'best vendor for X' category queries. The Gartner Magic Quadrant, Forrester Wave, IDC MarketScape and KuppingerCole Leadership Compass for the relevant category together do more pre-sales work than every press release in the category combined. A cybersecurity PR program without a structured analyst briefing calendar, a vendor briefing deck written to the analyst's research agenda, inquiry sessions that surface objections, and a feedback loop into product is media relations wearing a security badge, not analyst relations. The program does not promise a quadrant position; it builds the structured input that gives the analyst a real reason to move it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which journalists cover cybersecurity in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dark Reading for original data, novel attacker behaviour and named-source quotes; SC Media for compliance, risk and CISO-side stories; CyberScoop and The Record for nation-state, public-sector and threat-intelligence coverage; SecurityWeek for substantive technical reporting; BleepingComputer for malware, ransomware and incident response; Help Net Security for surveys and category benchmarks. Mainstream desks include Forbes Cyber, WSJ Pro Cybersecurity, Bloomberg, the TechCrunch security desk and Wired for enterprise impact and regulatory framing. The non-obvious 2026 addition: independent newsletters such as Risky Business News, CISO Series, Tl;dr sec and Return on Security are cited inside AI Overviews at a higher rate than many mid-tier trade outlets, especially for novel threat research."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do cybersecurity vendors get cited inside Google AI Mode and ChatGPT?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Six tactics, all on owned media. First, ship category and comparison pages ('CNAPP vendors in 2026', 'SASE vs SSE vs Zero Trust for distributed enterprises') because roughly 33% of AI citations are comparison content and 10% are opinion. Second, structure long-form content into self-contained 134 to 167 word chunks scoring high on semantic completeness (the leading ranking factor per a 15,847-result Wellows AI Overviews analysis). Third, ship every post under a named threat researcher byline tied to a Person schema entity that resolves to the same node across LinkedIn, X, the company blog and any conference bio. Fourth, add Article and FAQPage schema with recent dateModified values. Fifth, cite 2 to 5 authoritative outbound sources by name (CISA, NIST, MITRE ATT&CK, named CVEs, named analyst reports). Sixth, write substantive blog posts contextualising Gartner Magic Quadrant, Forrester Wave and IDC MarketScape results rather than press-releasing the placements. AI engines weight analytical framing more heavily than promotional announcements."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is cybersecurity PR different from AI startup PR or Web3 PR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cybersecurity PR runs on analyst relations and threat research; AI PR runs on category claim and founder credibility; Web3 PR runs on speed, KOL coverage and crypto-native distribution. Cybersecurity buyers are heavily analyst-led, so Gartner and Forrester briefing cadence sit at the centre of the program. AI buyers are heavily founder-led, so bylined Op-Eds and podcast tours drive the narrative. Web3 buyers are community-led, so KOL waves and Telegram channels drive the launch. The press corps differs accordingly: cyber journalists want original threat data and CVE detail, AI journalists want technical depth and category framing, Web3 journalists want speed and on-chain context. The owned-media stack also differs: cyber vendors should over-invest in comparison pages and category explainers because that is what AI Mode actually cites for shortlist queries."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What metrics actually predict pipeline impact for cybersecurity PR in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Four metrics, in priority order. First, named-citation share inside Google AI Mode, AI Overviews, ChatGPT, Perplexity and Claude for a 25-prompt buyer panel (best CNAPP vendors, best identity threat detection, best AI security posture management, best SASE) run monthly across all four engines. Second, analyst evaluation movement: Magic Quadrant position shifts, Forrester Wave ranking changes, IDC MarketScape leader-quadrant moves, KuppingerCole Leadership Compass deltas, which take 9 to 18 months but are the most durable predictor of enterprise pipeline. Third, branded search and inbound demo volume tagged by source (Google Search Console, Google Trends, Calendly or HubSpot demo requests). Fourth, referring domains and named-source backlinks (Ahrefs or Semrush domain rating delta), where one Dark Reading reference and one named analyst inquiry note matter more than 200 syndicated press release pickups combined. Ignore press release impressions, media value estimates and unfocused share-of-voice dashboards."
+          }
+        }
+      ]
+    }
+  ]
+}

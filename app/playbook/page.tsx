@@ -6,13 +6,13 @@ import '../blog/blog.css';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Playbooks — Field guides from inside Web3 & AI PR',
+  title: 'Playbooks — Field guides from inside Web3, AI & Cyber PR',
   description:
-    'Nine long-form playbooks: the tier-1 PR trap, APAC PR playbook 2026, founder profiling sprint, crypto PR pricing, CoinDesk pitch guide, fractional vs agency, best Web3 PR agencies, crypto PR vs AI PR, and the 2026 AI startup PR playbook.',
+    'Ten long-form playbooks: the tier-1 PR trap, APAC PR playbook 2026, founder profiling sprint, crypto PR pricing, CoinDesk pitch guide, fractional vs agency, best Web3 PR agencies, crypto PR vs AI PR, the 2026 AI startup PR playbook, and cybersecurity PR in 2026.',
   alternates: { canonical: `${SITE_URL}/playbook` },
   openGraph: {
     title: 'Shilika Jain — Playbooks',
-    description: 'Nine long-form playbooks from inside Web3 & AI PR.',
+    description: 'Ten long-form playbooks from inside Web3, AI & cybersecurity PR.',
     url: `${SITE_URL}/playbook`,
     type: 'website',
   },
@@ -100,6 +100,15 @@ const PLAYBOOKS = [
     tag: 'AI',
     time: 14,
   },
+  {
+    n: 10,
+    slug: 'cybersecurity-pr-2026',
+    title: 'Cybersecurity PR in 2026: How Vendors Get Cited by Analysts and AI Engines',
+    description:
+      'A 12-minute pillar on the analyst-first, threat-research-led PR program. Gartner, Forrester and IDC briefing cadence, named security desks (Dark Reading, SC Media, CyberScoop, SecurityWeek), and the AI Mode citation tactics that move a vendor shortlist.',
+    tag: 'Cyber',
+    time: 12,
+  },
 ];
 
 export default function PlaybookIndexPage() {
@@ -111,7 +120,7 @@ export default function PlaybookIndexPage() {
             <section className="blog-index-hero">
               <div>
                 <p className="blog-index-kicker">
-                  <span className="dot" /> Playbook · 09 field guides
+                  <span className="dot" /> Playbook · 10 field guides
                 </p>
                 <h1 className="blog-index-title">
                   Field <em>guides</em>.
