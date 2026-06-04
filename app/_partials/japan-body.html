@@ -1,0 +1,421 @@
+<style>
+:root {
+  --ink: oklch(0.16 0.01 80);
+  --ink-2: oklch(0.22 0.01 80);
+  --paper: oklch(0.96 0.01 90);
+  --paper-2: oklch(0.92 0.015 85);
+  --cream: oklch(0.93 0.04 85);
+  --lime: oklch(0.92 0.18 115);
+  --muted: oklch(0.55 0.01 80);
+  --line: oklch(0.85 0.01 80);
+  --font-display: 'Instrument Serif', 'Times New Roman', serif;
+  --font-body: 'Inter Tight', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'Geist Mono', 'JetBrains Mono', monospace;
+  --pad: clamp(20px, 4vw, 64px);
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--font-body);
+  background: var(--paper);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+.mono { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; }
+
+.nav {
+  position: fixed; top: 0; left: 0; right: 0;
+  z-index: 100;
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 18px var(--pad);
+  background: rgba(247, 246, 241, 0.85);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--line);
+}
+.nav-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); }
+.nav-logo-text { font-family: var(--font-display); font-size: 22px; font-style: italic; letter-spacing: -0.01em; }
+.nav-logo-dot { color: var(--lime); margin: 0 2px; }
+.nav-links { display: flex; gap: 28px; list-style: none; font-family: var(--font-mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; }
+.nav-links a { position: relative; padding: 4px 0; color: var(--ink); text-decoration: none; }
+.nav-links a::after { content: ''; position: absolute; left: 0; bottom: 0; width: 0; height: 1px; background: var(--ink); transition: width 0.4s var(--ease-out-quart); }
+.nav-links a:hover::after, .nav-links a.is-current::after { width: 100%; }
+.nav-cta { display: inline-flex; align-items: center; gap: 8px; padding: 10px 18px; background: var(--ink); color: var(--paper); font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; border-radius: 100px; transition: background 0.3s, color 0.3s; }
+.nav-cta:hover { background: var(--lime); color: var(--ink); }
+@media (max-width: 800px) { .nav-links { display: none; } }
+
+.svc-header { padding: 140px var(--pad) 60px; border-bottom: 1px solid var(--line); background: var(--paper); position: relative; }
+.crumb { max-width: 980px; margin: 0 auto 36px; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+.crumb a { color: var(--muted); text-decoration: none; transition: color 0.3s; }
+.crumb a:hover { color: var(--ink); }
+.crumb .sep { margin: 0 12px; }
+.svc-meta-row { max-width: 980px; margin: 0 auto 28px; display: flex; gap: 18px; align-items: center; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); flex-wrap: wrap; }
+.svc-cat { background: var(--ink); color: var(--paper); padding: 5px 12px; border-radius: 3px; font-weight: 500; }
+.svc-headline { max-width: 980px; margin: 0 auto; font-family: var(--font-display); font-size: clamp(40px, 6.4vw, 88px); line-height: 0.97; letter-spacing: -0.018em; font-weight: 400; text-wrap: balance; }
+.svc-headline em { font-style: italic; background: linear-gradient(120deg, transparent 30%, var(--lime) 30%, var(--lime) 90%, transparent 90%); background-size: 200% 100%; background-position: 100% 0; padding: 0 0.05em; animation: hl-sweep 1.6s 0.4s var(--ease-out-quart) forwards; }
+@keyframes hl-sweep { to { background-position: 0 0; } }
+.svc-sub { max-width: 760px; margin: 32px auto 0; font-family: var(--font-display); font-size: clamp(20px, 1.6vw, 24px); line-height: 1.4; font-style: italic; color: var(--muted); }
+
+.answer-box { max-width: 720px; margin: 60px auto 0; padding: 28px 32px; background: var(--ink); color: var(--paper); border-radius: 8px; }
+.answer-box .ab-label { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--lime); margin-bottom: 12px; }
+.answer-box p { font-family: var(--font-display); font-size: clamp(20px, 1.8vw, 24px); line-height: 1.4; font-style: italic; }
+
+.stat-strip { background: var(--paper-2); padding: 60px var(--pad); border-bottom: 1px solid var(--line); }
+.stat-grid { max-width: 980px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 28px; }
+.stat-card { padding: 24px; background: var(--paper); border-radius: 8px; border-left: 3px solid var(--lime); }
+.stat-num { font-family: var(--font-display); font-size: clamp(34px, 4vw, 48px); font-weight: 400; line-height: 1; margin-bottom: 8px; font-style: italic; }
+.stat-label { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; }
+.stat-src { font-size: 12px; color: var(--muted); line-height: 1.3; }
+.stat-src a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 2px; }
+
+.svc-body-wrap { padding: 80px var(--pad) 100px; background: var(--paper); }
+.svc-body { max-width: 720px; margin: 0 auto; font-size: 19px; line-height: 1.65; color: oklch(0.25 0.01 80); }
+.svc-body p { margin-bottom: 1.4em; }
+.svc-body h2 { font-family: var(--font-display); font-size: clamp(28px, 3vw, 40px); font-weight: 400; letter-spacing: -0.01em; color: var(--ink); margin: 2em 0 0.8em; line-height: 1.1; text-wrap: balance; }
+.svc-body h2::before { content: '§ '; color: var(--lime); font-style: italic; }
+.svc-body h3 { font-family: var(--font-display); font-size: clamp(22px, 2.2vw, 28px); font-weight: 400; color: var(--ink); margin: 1.6em 0 0.5em; line-height: 1.2; }
+.svc-body ul, .svc-body ol { margin: 0 0 1.6em 1.4em; padding-left: 0; }
+.svc-body li { margin-bottom: 0.6em; padding-left: 0.4em; }
+.svc-body li::marker { color: var(--lime); }
+.svc-body strong { color: var(--ink); font-weight: 600; }
+.svc-body em { font-style: italic; }
+.svc-body a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px; }
+.svc-body table { width: 100%; border-collapse: collapse; margin: 1.6em 0; font-size: 15px; font-family: var(--font-mono); letter-spacing: 0.02em; }
+.svc-body table th { text-align: left; padding: 10px 12px; background: var(--ink); color: var(--paper); font-weight: 500; text-transform: uppercase; font-size: 11px; letter-spacing: 0.1em; }
+.svc-body table td { padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.svc-body table tr:nth-child(even) td { background: var(--paper-2); }
+.callout { background: var(--ink); color: var(--paper); padding: 28px 32px; border-radius: 8px; margin: 2em 0; font-family: var(--font-display); font-size: clamp(20px, 1.8vw, 24px); font-style: italic; line-height: 1.35; }
+.callout strong { color: var(--lime); font-weight: 400; font-style: normal; font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; display: block; margin-bottom: 10px; }
+.faq-block { max-width: 720px; margin: 60px auto 0; padding: 32px; background: var(--paper-2); border-radius: 8px; }
+.faq-block h2 { font-family: var(--font-display); font-size: clamp(28px, 3vw, 36px); margin-bottom: 24px; font-weight: 400; }
+.faq-q { font-family: var(--font-display); font-style: italic; font-size: 20px; color: var(--ink); margin: 22px 0 8px; }
+.faq-a { font-size: 16px; color: oklch(0.30 0.01 80); line-height: 1.6; }
+
+.author-block { max-width: 720px; margin: 80px auto 0; padding: 32px; background: var(--paper-2); border-radius: 8px; display: grid; grid-template-columns: 64px 1fr; gap: 20px; align-items: center; }
+.author-avatar { width: 64px; height: 64px; border-radius: 50%; background: var(--ink); color: var(--lime); display: flex; align-items: center; justify-content: center; font-family: var(--font-display); font-size: 24px; font-style: italic; font-weight: 400; }
+.author-name { font-family: var(--font-display); font-size: 24px; font-style: italic; line-height: 1; margin-bottom: 6px; }
+.author-bio { font-size: 14px; color: var(--muted); line-height: 1.4; }
+.author-bio a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px; }
+
+.related-block { max-width: 980px; margin: 80px auto 0; }
+.related-block h3 { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--muted); margin-bottom: 20px; }
+.related-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+.related-card { display: block; padding: 24px; background: var(--paper-2); border-radius: 8px; text-decoration: none; color: var(--ink); transition: transform 0.3s var(--ease-out-quart); }
+.related-card:hover { transform: translateY(-2px); }
+.related-kicker { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; }
+.related-title { font-family: var(--font-display); font-size: 20px; line-height: 1.2; font-style: italic; }
+
+.cta-strip { background: var(--ink); color: var(--paper); padding: 100px var(--pad); text-align: center; position: relative; overflow: hidden; }
+.cta-strip h3 { font-family: var(--font-display); font-size: clamp(40px, 6vw, 80px); font-weight: 400; line-height: 1; letter-spacing: -0.015em; max-width: 18ch; margin: 0 auto 32px; }
+.cta-strip h3 em { font-style: italic; color: var(--lime); }
+.cta-strip-btn { display: inline-flex; align-items: center; gap: 10px; background: var(--lime); color: var(--ink); padding: 18px 32px; font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; text-decoration: none; border-radius: 100px; transition: transform 0.4s var(--ease-out-quart); }
+.cta-strip-btn:hover { transform: translateY(-2px); }
+
+.footer { background: var(--ink); color: var(--paper); padding: 40px var(--pad) 24px; border-top: 1px solid rgba(255,255,255,0.08); }
+.footer-row { max-width: 1440px; margin: 0 auto; display: flex; justify-content: space-between; font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.5); flex-wrap: wrap; gap: 12px; }
+.footer-row a { color: inherit; text-decoration: none; }
+.footer-modified { color: rgba(255,255,255,0.4); }
+</style>
+
+
+<nav class="nav">
+  <a href="/" class="nav-logo">
+    <svg width="34" height="34" viewBox="0 0 34 34" fill="none">
+      <rect width="34" height="34" rx="8" fill="#282520"/>
+      <text x="50%" y="55%" text-anchor="middle" dominant-baseline="middle" font-family="Georgia, serif" font-size="18" font-style="italic" fill="#d4ff32">SJ</text>
+      <circle cx="27" cy="7" r="2" fill="#d4ff32"/>
+    </svg>
+    <span class="nav-logo-text">SHILIKA<span class="nav-logo-dot">·</span>JAIN</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="/#work">Work</a></li>
+    <li><a href="/#services">Services</a></li>
+    <li><a href="/#press">Press</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/blog">Blog</a></li>
+    <li><a href="/#contact">Contact</a></li>
+  </ul>
+  <a href="https://calendly.com/shilikajain/30min/" target="_blank" rel="noopener" class="nav-cta">
+    <span>Book a call</span>
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.4"/></svg>
+  </a>
+</nav>
+
+<header class="svc-header">
+  <div class="crumb">
+    <a href="/">Shilika Jain</a><span class="sep">/</span>
+    <a href="/apac">APAC</a><span class="sep">/</span>
+    <span>Japan</span>
+  </div>
+  <div class="svc-meta-row">
+    <span class="svc-cat">COUNTRY</span>
+    <span>· JAPAN · FSA FRAME</span>
+    <span>· UPDATED JUNE 2026</span>
+    <span>· BY SHILIKA JAIN</span>
+  </div>
+  <h1 class="svc-headline">Japan PR for Web3 and AI founders who treat the FSA frame and the named partner as <em>paragraph one</em>, not a footnote.</h1>
+  <p class="svc-sub">CoinPost, CoinDesk Japan, Cointelegraph Japan, CryptoTimes JP, Iolite, Nikkei, Nikkei Cross Tech, Asahi Shimbun and The Bridge, plus the international tier-1 re-report. FSA-aware framing under the June 1 2026 Payment Services Act amendments for foreign trust-type stablecoins, the April 2026 Cabinet-approved FIEA reclassification track, the 20 percent flat capital-gains tax reform and the spot Bitcoin and Ethereum ETF approval pipeline through SBI and Nomura. WebX 2026 (The Prince Park Tower Tokyo, July 13 to 14, 2026) and Japan Blockchain Week event leverage, run from inside the region by one senior operator.</p>
+
+  <div class="answer-box">
+    <div class="ab-label">Direct answer</div>
+    <p>Japan PR for Web3 and AI in 2026 is a regulator-aware program with a named domestic-partner anchor. Lead with a Japanese tier-1 trade exclusive in CoinPost, CoinDesk Japan or Cointelegraph Japan for crypto-native stories, or Nikkei and Asahi Shimbun for AI and enterprise stories. Run the international tier-1 re-report 24 hours behind. FSA framing on every press copy under the June 1 2026 Payment Services Act amendments, the FIEA crypto reclassification track and the 20 percent flat capital-gains tax reform, WebX July 13 to 14 2026 and Japan Blockchain Week event leverage baked into the calendar, and a Japanese X plus LINE Open Chat plus note.com KOL wave timed to the embargo lift.</p>
+  </div>
+</header>
+
+<section class="stat-strip">
+  <div class="stat-grid">
+    <div class="stat-card">
+      <div class="stat-label">Foreign trust-type stablecoins legalized in Japan</div>
+      <div class="stat-num">Jun 1 2026</div>
+      <div class="stat-src">PSA amendments live · electronic payment instrument route open · <a href="https://cryptobriefing.com/japan-stablecoin-regulations-foreign-trust/" rel="noopener" target="_blank">Crypto Briefing</a></div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Crypto assets reclassified under FIEA</div>
+      <div class="stat-num">105</div>
+      <div class="stat-src">Including BTC and ETH · Cabinet approved April 2026 · 20% flat tax pushed · <a href="https://www.cryptotimes.io/2026/04/10/japan-reclassifies-crypto-assets-under-financial-instruments-act/" rel="noopener" target="_blank">Crypto Times</a></div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">WebX 2026 dates</div>
+      <div class="stat-num">Jul 13 - 14</div>
+      <div class="stat-src">The Prince Park Tower Tokyo · 13,160 attendees, 88 countries · CoinPost producer · <a href="https://webx-asia.com/" rel="noopener" target="_blank">WebX</a></div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Retail accounts unlocked by NISA-eligible crypto ETFs</div>
+      <div class="stat-num">12.5M</div>
+      <div class="stat-src">SBI + Nomura spot BTC/ETH ETF pipeline · NISA Growth tier · <a href="https://www.ainvest.com/news/japan-2026-crypto-integration-strategic-entry-point-global-investors-2601/" rel="noopener" target="_blank">AInvest</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="svc-body-wrap">
+  <article class="svc-body">
+
+<h2>Who this is for</h2>
+
+<ul>
+  <li><strong>Japan-headquartered Web3 founders</strong> with a bitFlyer, Coincheck, Bitbank or SBI VC Trade listing in motion, a JPY-stablecoin or trust-bank partner announcement, or an FSA-registered Crypto Asset Exchange Service Provider status confirmation in the press cycle. The brief's named ICP for the first push.</li>
+  <li><strong>Recently funded Japanese Web3 and AI startups</strong> with no Japanese press footprint yet beyond a Nikkei wire pickup. Series A and B teams entering the Japanese trade-press cycle for the first time.</li>
+  <li><strong>Global Web3 founders preparing a WebX 2026 keynote, side-event or token launch</strong> who need the six-week Japanese embargo cycle run before July 13 to 14.</li>
+  <li><strong>AI startup CMOs entering Japan from a global hub</strong> who need Nikkei, Nikkei Cross Tech, The Bridge and Impress Watch ahead of a country-team build or a NTT, SoftBank, Sony, Rakuten or Sumitomo Mitsui partnership announcement.</li>
+  <li><strong>JPY-stablecoin and trust-bank partner teams</strong> running issuance and intermediary pilots under the June 1 2026 Payment Services Act amendments, where the press cycle requires a named Japanese licensed financial institution and a named position on the FSA framework.</li>
+  <li><strong>Spot BTC and ETH ETF teams and NISA-channel partners</strong>, where SBI, Nomura, Mitsubishi UFJ Trust and the FSA approval pipeline are the named anchors and Nikkei and Iolite are the right press surface.</li>
+  <li><strong>Cybersecurity vendors</strong> targeting Japanese enterprise and METI-regulated buyers, where Nikkei Cross Tech, Impress Watch, Security NEXT and the JPCERT/CC advisories cycle are the right press surface.</li>
+</ul>
+
+<h2>Why Japan matters in 2026</h2>
+
+<ul>
+  <li><strong>The regulator just opened a clean legal path for foreign trust-type stablecoins</strong>. The <a href="https://cryptobriefing.com/japan-stablecoin-regulations-foreign-trust/" rel="noopener" target="_blank">FSA amendments to the Cabinet Office Ordinance take effect June 1, 2026</a> and recognize foreign trust beneficiary-rights stablecoins as electronic payment instruments handled by registered providers, with reserve assets permitted in demand deposits, government bonds and cancellable fixed-term deposits under defined conditions. Press copy that misses this frame in the first paragraph reads as not-Japan-ready.</li>
+  <li><strong>Crypto is now a financial instrument, not a payment tool</strong>. The Japanese Cabinet approved an <a href="https://www.cryptotimes.io/2026/04/10/japan-reclassifies-crypto-assets-under-financial-instruments-act/" rel="noopener" target="_blank">amendment to the Financial Instruments and Exchange Act on April 10, 2026 classifying crypto assets as financial instruments</a> on par with stocks and bonds. The bill reclassifies 105 crypto assets including BTC and ETH, bans insider trading on non-public information, requires mandatory annual disclosures by crypto issuers and raises unlicensed-operation penalties to up to ten years in prison and 10 million yen.</li>
+  <li><strong>The tax reform unlocks retail capital</strong>. The 2026 FSA reforms push for a <a href="https://www.financemagnates.com/cryptocurrency/regulation/japan-plans-20-crypto-tax-reclassifies-digital-assets-as-financial-products/" rel="noopener" target="_blank">flat 20 percent capital gains tax rate</a> on spot trading, derivatives and crypto ETFs replacing the progressive rate of up to 55 percent. A three-year loss-carryforward gets added. Japanese retail behavior changes inside this rule, not around it.</li>
+  <li><strong>Spot Bitcoin and Ethereum ETFs are entering the NISA channel</strong>. <a href="https://www.ainvest.com/news/japan-2026-crypto-integration-strategic-entry-point-global-investors-2601/" rel="noopener" target="_blank">SBI and Nomura are leading the first spot Bitcoin ETF pipeline, aiming to unlock 12.5 million retail accounts and roughly 5 trillion US dollars in household savings via NISA integration</a>. Eligibility for the Growth tier of NISA means qualifying spot BTC and ETH ETFs trade tax-free up to the NISA limit. Any Japanese press release on a tokenisation, custody or ETF-adjacent product reads inside this frame.</li>
+  <li><strong>The exchange landscape is consolidating</strong>. SBI Holdings is in talks to acquire Bitbank to create Japan's largest crypto exchange, layered on top of bitFlyer, Coincheck (Monex) and SBI VC Trade. Listing-pipeline framing in Japanese trade press is the highest-leverage single hook in 2026.</li>
+  <li><strong>WebX 2026 is the single biggest Japanese crypto-press cycle of the year</strong>. <a href="https://webx-asia.com/" rel="noopener" target="_blank">WebX 2026 runs July 13 to 14, 2026 at The Prince Park Tower Tokyo</a>, organized by CoinPost, with roughly 13,160 attendees from 88 countries, 296 speakers, 195 sponsors, 150 media partners and 155 side events under the theme Connecting the Nodes Beyond the Screen. Japan Blockchain Week runs July 1 to 14 around it. Press demand outstrips supply by 3 to 4x at the senior-reporter tier, which is why the briefings start in late May.</li>
+</ul>
+
+<h2>The Japanese outlet map for 2026</h2>
+
+<table>
+  <thead>
+    <tr><th>Outlet</th><th>Read by</th><th>What they ask first</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>CoinPost</strong></td>
+      <td>Japan's largest crypto-native trade and retail readership (SBI-acquired, WebX producer)</td>
+      <td>Token detail, FSA framing, named Japanese exchange or trust-bank partner, Japanese-language quote and headshot</td>
+    </tr>
+    <tr>
+      <td><strong>CoinDesk Japan</strong></td>
+      <td>Japanese crypto-native professional and institutional readership</td>
+      <td>FSA framing, FIEA-reclassification position, institutional partner anchor, founder credentials</td>
+    </tr>
+    <tr>
+      <td><strong>Cointelegraph Japan</strong></td>
+      <td>Japanese Web3 trade readership with global crossover</td>
+      <td>Tokenomics depth, regional regulatory position, named Japanese partner, Japanese-language quote</td>
+    </tr>
+    <tr>
+      <td><strong>CryptoTimes JP</strong></td>
+      <td>Japanese crypto-native research and analysis readership</td>
+      <td>Long-form research angle, tokenomics, exchange-listing pipeline, regulatory note</td>
+    </tr>
+    <tr>
+      <td><strong>Iolite</strong></td>
+      <td>Japanese Web3 and finance senior readership</td>
+      <td>Regulatory-and-policy depth, FSA approval pipeline, institutional capital angle</td>
+    </tr>
+    <tr>
+      <td><strong>Nikkei (Nihon Keizai Shimbun)</strong></td>
+      <td>Japanese mainstream business and capital-markets readership</td>
+      <td>Enterprise-customer-name framing, financial-services partner, institutional capital impact, ETF and NISA tie-in</td>
+    </tr>
+    <tr>
+      <td><strong>Nikkei Cross Tech</strong></td>
+      <td>Japanese enterprise tech, AI/SaaS and engineering readership</td>
+      <td>Category-context framing, named Japanese enterprise customer, technical depth</td>
+    </tr>
+    <tr>
+      <td><strong>Asahi Shimbun, Mainichi, Yomiuri</strong></td>
+      <td>Japanese national mainstream readership</td>
+      <td>Public-interest angle, consumer-protection note, regulator-and-policy frame</td>
+    </tr>
+    <tr>
+      <td><strong>The Bridge, TechCrunch Japan, Impress Watch</strong></td>
+      <td>Japanese startup, tech and cybersecurity beats</td>
+      <td>Funding lead, named Japanese partner, category-context framing, JPCERT/CC tie-in for cyber</td>
+    </tr>
+    <tr>
+      <td><strong>Security NEXT, ScanNetSecurity</strong></td>
+      <td>Japanese cybersecurity trade readership</td>
+      <td>METI guidance, JPCERT/CC advisory tie-in, named Japanese enterprise customer</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>The Japanese press sequence that actually works</h2>
+
+<p>Japanese press is a closed citation graph anchored on named domestic partners. Japanese trade outlets read each other, the wires read the trade, the mainstream reads the wires, and the FSA reads everything before it appears in the global trade press. A press copy that lands first in CoinPost, CoinDesk Japan or Cointelegraph Japan carries built-in credibility for the re-report wave that follows.</p>
+
+<p>A 14 to 21 day Single-Market Launch Sprint for a Japan-anchored announcement:</p>
+
+<ul>
+  <li><strong>Days 1 to 4</strong>. Pull the Japanese exchange-listing and trust-bank landscape; identify the Japanese lead-investor, exchange-listing-pipeline, trust-bank intermediary or enterprise-partner credibility anchor; choose 6 to 9 outlets to target (a tier-1 trade lead like CoinPost, CoinDesk Japan or Cointelegraph Japan, two re-report destinations like CryptoTimes JP and Iolite, two LINE-Open-Chat or note.com stops, two named Japanese X or YouTube KOL voices); draft the Japanese press kit with the FSA framing on the Payment Services Act stablecoin route, the FIEA reclassification position and the Japanese-language quote and headshot for the lead.</li>
+  <li><strong>Days 5 to 10</strong>. Brief the Japanese tier-1 trade lead under a 5-day embargo. Brief Japanese re-report destinations 48 hours behind. Brief the international tier-1 re-report (CoinDesk, Cointelegraph, The Block, AI Magazine, TechCrunch) 24 hours behind the Japanese lift. Brief 4 to 8 named Japanese KOL voices on Japanese X (Twitter), LINE Open Chat, YouTube and note.com for coordinated activation. Coordinate a Japanese-press founder headshot, a Japanese-language one-line quote and (if relevant) the FSA-status or exchange-listing confirmation.</li>
+  <li><strong>Days 11 to 16</strong>. Embargo lifts at 9 AM JST on a Tuesday or Wednesday. Tier-1 trade leads land at 9 AM, Japanese re-reports follow inside the same day, mainstream Japanese pickups (Nikkei, Asahi, Yomiuri) lift between 12 PM and 4 PM JST, international tier-1 re-report lifts at 9 PM ET the same evening (10 AM JST next day). KOL wave times to the Japanese lift. Founder LinkedIn post and X post timed to the Japanese exclusive, with a Japanese-language version pinned to the Japanese-audience handle.</li>
+  <li><strong>Days 17 to 21</strong>. Named placements landed, audience overlap report, Japanese and regional search-impressions delta, sentiment on the FSA framing, post-WebX or post-Japan-Blockchain-Week follow-on coverage where applicable, and a renew-or-kill call per KOL on the wave.</li>
+</ul>
+
+<h2>The Japanese events calendar Shilika maps to</h2>
+
+<ul>
+  <li><strong>WebX 2026 and Japan Blockchain Week (Tokyo, July 1 to 14, 2026)</strong>. The biggest single Japanese crypto-press cycle of the year. WebX 2026 runs July 13 to 14 at The Prince Park Tower Tokyo, organized by CoinPost, with roughly 13,160 attendees from 88 countries and 296 speakers. The two-day program covers AI, tokenization, DeFi, regulation and institutional adoption. Pre-event embargoed CoinPost, CoinDesk Japan or Cointelegraph Japan exclusive, founder on-stage moment, side-event press wave, post-event tier-1 international re-report on the Friday.</li>
+  <li><strong>IVS Crypto and IVS Launchpad (Kyoto, summer 2026)</strong>. The Japanese institutional-VC and founder-circuit moment that doubles as a Japanese press inflection point for raise announcements. The right cycle for Series A and B Japanese founders and for global Web3 startups closing a Japanese lead investor.</li>
+  <li><strong>Japan Fintech Week (FSA-aligned, late summer to early autumn 2026)</strong>. The most-watched FSA calendar moment of the year. The right cycle for JPY-stablecoin, trust-bank intermediary, payments and tokenisation announcements. Nikkei and Iolite exclusive lead, CoinPost and CoinDesk Japan re-reports for the crypto-native depth.</li>
+  <li><strong>bitFlyer, Coincheck and Bitbank ecosystem events</strong>. The single-exchange community moments that double as listing-pipeline signaling. The right cycle for token issuers in the listing-pipeline window.</li>
+  <li><strong>NFT Tokyo, BUIDL Asia Tokyo side-tracks, AI Expo Tokyo</strong>. The community, builder and AI-enterprise side-event circuit. The right cycle for retail-investor, developer-audience and enterprise-AI announcements that need a Japanese engineering or enterprise-customer headline rather than a regulator-and-exchange headline.</li>
+</ul>
+
+<h2>FSA, FIEA, the trust-type stablecoin route and the spot ETF channel</h2>
+
+<p>Every Japanese press announcement Shilika ships in 2026 carries an FSA-aware framing line. The relevant frames:</p>
+
+<ul>
+  <li><strong>The June 1 2026 Payment Services Act amendments for foreign trust-type stablecoins</strong>. The <a href="https://cryptobriefing.com/japan-stablecoin-regulations-foreign-trust/" rel="noopener" target="_blank">FSA amendments recognize foreign trust beneficiary-rights stablecoins as electronic payment instruments handled domestically by registered electronic payment service providers</a>, not securities under the Financial Instruments and Exchange Act. Foreign issuers must operate under foreign laws equivalent to Japan's banking or payment regulations and remain supervised by authorities capable of cooperating with the FSA. Reserve assets may sit in demand deposits, government bonds and cancellable fixed-term deposits under defined conditions. Only licensed Japanese financial institutions, registered fund-transfer providers and trust companies can issue stablecoins domestically.</li>
+  <li><strong>The April 10 2026 Cabinet-approved FIEA reclassification</strong>. <a href="https://www.cryptotimes.io/2026/04/10/japan-reclassifies-crypto-assets-under-financial-instruments-act/" rel="noopener" target="_blank">Cabinet approval to reclassify 105 crypto assets including BTC and ETH as financial instruments</a>, with full market conduct rules, disclosure obligations, insider-trading bans, mandatory annual disclosures by issuers and unlicensed-operation penalties of up to ten years in prison and 10 million yen fines. Press copy in 2026 has to confirm position vis-a-vis the reclassification, even though enactment is expected as early as 2027.</li>
+  <li><strong>The 20 percent flat capital-gains tax reform</strong>. The <a href="https://www.financemagnates.com/cryptocurrency/regulation/japan-plans-20-crypto-tax-reclassifies-digital-assets-as-financial-products/" rel="noopener" target="_blank">flat 20 percent tax rate replacing the progressive rate of up to 55 percent</a> and the three-year loss-carryforward. The single biggest change to Japanese retail crypto behavior in a decade.</li>
+  <li><strong>The spot Bitcoin and Ethereum ETF approval pipeline</strong>. <a href="https://www.ainvest.com/news/japan-2026-crypto-integration-strategic-entry-point-global-investors-2601/" rel="noopener" target="_blank">SBI and Nomura leading the first spot Bitcoin ETF pipeline, NISA Growth-tier eligibility unlocking 12.5 million retail accounts and roughly 5 trillion US dollars in household savings</a>. Any custody, market-maker, ETF-adjacent or tokenisation announcement reads against this precedent.</li>
+  <li><strong>The Tokyo Stock Exchange listing track</strong>. The FSA reportedly aims to enable crypto ETF trading on the Tokyo Stock Exchange by 2028. Press copy on a listing or partnership with Tokyo-Stock-Exchange-adjacent institutions reads inside this timeline.</li>
+  <li><strong>JPCERT/CC, METI and the cyber beat</strong>. Cybersecurity press copy has to name the METI guidance and any JPCERT/CC advisory the announcement intersects with. Security NEXT, Nikkei Cross Tech and Impress Watch are reading both beats weekly.</li>
+</ul>
+
+<callout>
+  <strong>Field note</strong>
+  Japanese press in 2026 wants to know the named domestic partner and the FSA position before they want to know the cap-table. The trust-bank intermediary line and the FSA-reclassification position are the first paragraph, not the disclosure footnote. A confirmed bitFlyer, Coincheck, Bitbank or SBI VC Trade listing date in the lead is worth two US tier-1 VCs further down. A confirmed Mitsubishi UFJ Trust or Sumitomo Mitsui Trust partnership for a stablecoin or tokenisation product reads twice as credibly as a generic Japan expansion line.
+</callout>
+
+<h2>The Japanese KOL layer that actually moves Japanese retail</h2>
+
+<p>Japanese crypto KOLs operate on four primary platforms in 2026, and the platform mix decides cost-effectiveness:</p>
+
+<ul>
+  <li><strong>Japanese X (Twitter)</strong>. The dominant Japanese crypto-community surface with the deepest founder and retail attention. Japanese-language threads from named anonymous and named-real-identity KOLs drive Tokyo retail allocation and exchange-listing reaction. The right deliverable for an embargo-lift wave timed to the Japanese trade exclusive.</li>
+  <li><strong>LINE Open Chat</strong>. The primary closed-community Japanese crypto discussion surface, outpacing Telegram and Discord in local engagement. Channel-manager deliverables are time-sensitive and ideal for AMA announcements, exchange listings, airdrop campaigns and Japanese retail-investor education sessions.</li>
+  <li><strong>note.com</strong>. The dominant Japanese long-form thought-leadership platform. Japanese long-form note.com pieces compound in Japanese-language AI search citations (LINE AI, Google AI Mode in Japanese, ChatGPT Japanese, Perplexity Japanese) and are the highest-leverage AI-search citation unlock per dollar in Japan.</li>
+  <li><strong>YouTube</strong>. The most visible Japanese crypto and AI KOL surface for technical reviews, market commentary and FSA-policy explainers. Highest-priced layer. The right deliverable for a flagship long-form launch.</li>
+</ul>
+
+<h2>The AI search layer for Japanese audiences</h2>
+
+<p>Japanese audiences searching in Japanese and English see a mix of LINE AI, SoftBank-aligned generative answer surfaces, Google AI Mode, ChatGPT, Perplexity, Claude and Microsoft Copilot responses on Web3, AI and fintech queries. Per <a href="https://developers.google.com/search/docs/fundamentals/ai-optimization-guide" rel="noopener" target="_blank">Google's AI optimization guide</a>, non-commodity content with named-expert bylines and strong E-E-A-T signals wins citations on these surfaces, and Japanese press placements in CoinPost, CoinDesk Japan, Cointelegraph Japan, CryptoTimes JP, Iolite, Nikkei and Nikkei Cross Tech carry exactly that signal. Per <a href="https://developers.google.com/search/docs/fundamentals/using-gen-ai-content" rel="noopener" target="_blank">Google's gen-AI content guidance</a>, originality, named expertise and substantive review are the bar regardless of language.</p>
+
+<p>The <a href="https://arxiv.org/abs/2311.09735" rel="noopener" target="_blank">Princeton GEO study (Aggarwal et al., arXiv:2311.09735)</a> found pages combining citations, statistics and named quotations get cited 30 to 40 percent more by generative engines, and the dynamic holds for Japanese-language AI search too. A campaign that earns a named-byline placement in CoinPost, CoinDesk Japan or Cointelegraph Japan and a note.com companion piece, then re-reports across CryptoTimes JP, Iolite and Nikkei, builds the citation graph that ChatGPT, Perplexity and LINE AI rank against on "best Web3 PR agency Japan", "JPY stablecoin licence", "bitFlyer listing", "WebX 2026 announcement" and "FIEA reclassification compliance" queries.</p>
+
+<h2>How to start</h2>
+
+<p>Book a 30-minute teardown. We look at whether Japan is the right first push for the next 90 days based on your actual fact set, which Japanese outlets map to your audience, the FSA framing your press copy will need under the June 1 2026 Payment Services Act amendments and the FIEA reclassification track, the WebX 2026 or Japan Fintech Week cycle that should anchor the launch, the named Japanese KOL voices that fit the brief, and which engagement shape (Quarterly Retainer, Single-Market Sprint or Always-On Coordinator) is the right one for your cycle. By the end of the call you will know whether the budget belongs in a Japan push this quarter or somewhere else entirely.</p>
+
+  </article>
+
+  <aside class="faq-block">
+    <h2>Frequently asked questions</h2>
+    <p class="faq-q">What does a Japan Web3 or AI PR program actually cover?</p>
+    <p class="faq-a">Seven workstreams. One: Japanese tier-1 trade exclusive with CoinPost, CoinDesk Japan, Cointelegraph Japan or CryptoTimes JP depending on the audience, or a mainstream lead with Nikkei, Asahi Shimbun, Mainichi or Yomiuri for a non-crypto-native story. Two: Japanese re-report wave across the remaining trade and mainstream outlets timed to lift inside the same day as the exclusive. Three: international tier-1 re-report through CoinDesk, Cointelegraph, The Block, Decrypt, AI Magazine or TechCrunch 24 hours behind the Japanese lift. Four: FSA-aware framing baked into every press copy under the June 1 2026 Payment Services Act amendments for foreign trust-type stablecoins, the April 2026 Cabinet-approved FIEA reclassification track and the 20 percent flat capital-gains tax reform. Five: Japanese KOL voices on Japanese X (Twitter), LINE Open Chat, YouTube and note.com with consumer-protection-aware briefs. Six: on-ground event leverage at WebX 2026 (The Prince Park Tower Tokyo, July 13 to 14 2026), Japan Blockchain Week and IVS Crypto. Seven: founder LinkedIn and X-Japan activation timed to the press cycle, plus a Japanese-language quote and headshot for the lead.</p>
+    <p class="faq-q">How much does Japan Web3 or AI PR cost in 2026?</p>
+    <p class="faq-a">Three commercial models. Japan Quarterly Retainer runs 5,500 to 12,500 US dollars per month over three to six months and covers one to two named-Japan placements per quarter plus the international re-report wave. Japan Single-Market Launch Sprint runs 11,000 to 32,000 US dollars total for one focused 14 to 21 day window timed to a bitFlyer, Coincheck or Bitbank listing, a JPY-stablecoin or trust-bank partner announcement, a WebX keynote, an FSA milestone or a Series A or B raise. Always-On Japan Coordinator runs 3,000 US dollars per month with a three-month minimum. Japanese-language translation and KOL fees sit on top. Published 2026 Japanese crypto KOL rates run nano 400 to 2,500 US dollars per deliverable, micro 1,500 to 9,000, mid 12,000 to 35,000, macro 30,000 to 100,000 plus, with a WebX event-week premium of 30 to 50 percent on every tier and a separate note.com long-form deliverable as the most cost-efficient AI-search-citation unlock.</p>
+    <p class="faq-q">Why does Japanese press want the FSA framing and a named partner anchor inside the first three paragraphs?</p>
+    <p class="faq-a">Because Japanese press treats both the regulator and the named domestic partner as paragraph-one credibility anchors. CoinPost, CoinDesk Japan, Cointelegraph Japan, CryptoTimes JP and Iolite read every Web3 announcement against the Payment Services Act amendments effective June 1 2026 that recognize foreign trust-type stablecoins as electronic payment instruments, the April 2026 Cabinet-approved FIEA reclassification reclassifying 105 crypto assets including BTC and ETH as financial instruments, the 20 percent flat capital-gains tax reform pushed for fiscal 2026, the spot Bitcoin and Ethereum ETF approval pipeline through SBI and Nomura with NISA eligibility, and the unfair-trading-and-insider-trading prohibitions that come with the FIEA reclassification. Press copy that buries the FSA frame or omits the named Japanese trust bank, exchange, payment-provider or enterprise partner reads as either uninformed of the Japanese investor-protection bar or evasive. Conversely, press copy that opens with the right FSA frame and confirms exchange-listing or partner status signals founder credibility before any product detail.</p>
+    <p class="faq-q">How does WebX 2026 and Japan Blockchain Week change the press calendar for a Web3 founder?</p>
+    <p class="faq-a">Japan Blockchain Week 2026 runs July 1 to July 14 2026, with WebX 2026 as the flagship event July 13 to 14 at The Prince Park Tower Tokyo. WebX 2026 is organized by CoinPost and is expected to host roughly 13,160 attendees from 88 countries, 296 speakers, 195 sponsors, 150 media partners and 155 side events, under the theme Connecting the Nodes Beyond the Screen. The press cycle starts six weeks out with embargo briefings to CoinPost, CoinDesk Japan and Cointelegraph Japan, lifts on the Monday before the event with a Japanese tier-1 trade exclusive, runs side-event coverage through the conference and closes with a post-event international re-report on the Friday. WebX press demand outstrips supply by 3 to 4x at the senior-reporter tier, which is why the briefings start in late May for a mid-July embargo lift.</p>
+    <p class="faq-q">Does Japan PR earn AI search citations in Japanese and English AI engines?</p>
+    <p class="faq-a">Yes. Japanese audiences searching in Japanese and English see a mix of LINE AI, SoftBank-aligned generative answer surfaces, Google AI Mode, ChatGPT, Perplexity, Claude and Microsoft Copilot responses on Web3, AI and fintech queries. Named-byline placements in CoinPost, CoinDesk Japan, Cointelegraph Japan, CryptoTimes JP, Iolite, Nikkei and Nikkei Cross Tech carry the named-expertise and E-E-A-T signal Google explicitly names in its AI optimization guide. The Princeton GEO study found pages combining citations, statistics and named quotations get cited 30 to 40 percent more by generative engines, and the dynamic holds for Japanese-language AI search queries on best Web3 PR agency Japan, JPY stablecoin licence and WebX 2026 announcement, where note.com long-form thought-leadership content compounds with the trade-press citation graph.</p>
+    <p class="faq-q">Which Japanese outlets are the right exclusives for an AI startup versus a Web3 startup?</p>
+    <p class="faq-a">For an AI startup with an enterprise customer announcement, Nikkei Cross Tech or Impress Watch for the customer-name framing in Japanese mainstream business tech press. For an AI startup raising a Series A or B, Nikkei or The Bridge for the funding lead with TechCrunch Japan for the international diaspora re-report. For a Web3 startup announcing a bitFlyer, Coincheck, Bitbank or SBI VC Trade listing, CoinPost or CoinDesk Japan for the trade lead with Cointelegraph and The Block re-reports 24 hours behind. For a Web3 startup launching a WebX keynote, an embargoed CoinPost exclusive five days ahead followed by an international tier-1 re-report timed to the keynote. For a JPY-stablecoin or trust-bank partner story, Nikkei or Asahi Shimbun for the institutional-partner-name lead with Iolite for the regulatory-and-policy depth and CryptoTimes JP for the crypto-native re-report.</p>
+    <p class="faq-q">How do the June 1 2026 Payment Services Act amendments and the FIEA reclassification change Japanese press copy in 2026?</p>
+    <p class="faq-a">They move the regulator paragraph from a footnote to the lead and add a named-partner credibility requirement. The Payment Services Act amendments effective June 1 2026 recognize certain foreign trust-type stablecoins issued by overseas trust banks as electronic payment instruments handled domestically by registered providers, with reserve assets permitted in demand deposits, government bonds and cancellable fixed-term deposits under defined conditions. Only licensed financial institutions can issue stablecoins in Japan: banks, registered fund-transfer service providers and trust companies. The April 2026 Cabinet-approved FIEA reclassification reclassifies 105 crypto assets including BTC and ETH as financial instruments, bans insider trading based on non-public information, requires mandatory annual disclosures by crypto issuers and raises unlicensed-operation penalties to up to ten years in prison and fines as high as 10 million yen. The 20 percent flat capital-gains tax reform replaces the progressive rate of up to 55 percent, and the spot Bitcoin and Ethereum ETF approval pipeline through SBI and Nomura adds a NISA-eligible institutional surface. Any Japanese press release in 2026 reads inside this stack, not next to it.</p>
+  </aside>
+
+  <div class="author-block">
+    <div class="author-avatar">SJ</div>
+    <div>
+      <div class="author-name">Shilika Jain</div>
+      <p class="author-bio">Fractional PR Manager for Web3, AI and cybersecurity founders. 50+ protocols placed across Forbes, CoinDesk, Cointelegraph, Decrypt, The Block, Blockworks, AI Magazine, plus APAC tier-1 placements across BloomingBit, TokenPost, BlockMedia, CoinPost, CoinDesk Japan, The Business Times, DealStreetAsia and Inc42. APAC PR &amp; Partnerships at Myosin (a growth-marketing DAO). Previously at CoinMarketCap. <a href="/about">View full profile →</a> · <a href="https://www.linkedin.com/in/shilika/" rel="noopener" target="_blank">LinkedIn</a> · <a href="https://x.com/Shilika_jain" rel="noopener" target="_blank">X</a></p>
+    </div>
+  </div>
+
+  <div class="related-block">
+    <h3>Related reading</h3>
+    <div class="related-grid">
+      <a href="/apac" class="related-card">
+        <div class="related-kicker">Region · 9 min</div>
+        <div class="related-title">APAC PR: six markets across Asia plus MENA</div>
+      </a>
+      <a href="/services/apac-pr" class="related-card">
+        <div class="related-kicker">Service · 10 min</div>
+        <div class="related-title">APAC PR service: all markets on one page</div>
+      </a>
+      <a href="/korea" class="related-card">
+        <div class="related-kicker">Country · 10 min</div>
+        <div class="related-title">Korea PR: FSC framing and KBW Walkerhill Sep-Oct 2026</div>
+      </a>
+      <a href="/singapore" class="related-card">
+        <div class="related-kicker">Country · 9 min</div>
+        <div class="related-title">Singapore PR: MAS framing and Token2049 calendar</div>
+      </a>
+      <a href="/india" class="related-card">
+        <div class="related-kicker">Country · 9 min</div>
+        <div class="related-title">India PR: home-market exclusive before the international re-report</div>
+      </a>
+      <a href="/dubai-mena" class="related-card">
+        <div class="related-kicker">Country · 10 min</div>
+        <div class="related-title">Dubai &amp; MENA PR: VARA, ADGM, RAK DAO framing</div>
+      </a>
+      <a href="/services/token-launch-pr" class="related-card">
+        <div class="related-kicker">Service · TGE</div>
+        <div class="related-title">Token Launch PR: bitFlyer and Coincheck listing-pipeline framing</div>
+      </a>
+      <a href="/playbook/apac-pr-playbook-2026" class="related-card">
+        <div class="related-kicker">Playbook · 11 min</div>
+        <div class="related-title">APAC PR Playbook 2026: Korea, Japan, Vietnam, India</div>
+      </a>
+    </div>
+  </div>
+
+</section>
+
+<section class="cta-strip">
+  <h3>Book a 30-minute <em>teardown</em>.</h3>
+  <a href="https://calendly.com/shilikajain/30min/" target="_blank" rel="noopener" class="cta-strip-btn">
+    Book a call
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.4"/></svg>
+  </a>
+</section>
+
+<footer class="footer">
+  <div class="footer-row">
+    <span>© 2026 SHILIKA JAIN · FRACTIONAL PR</span>
+    <span class="footer-modified">UPDATED 2026-06-03</span>
+    <span><a href="/about">About</a> · <a href="/blog">Blog</a> · <a href="/#contact">Contact</a> · <a href="https://www.linkedin.com/in/shilika/" target="_blank" rel="noopener">LinkedIn</a></span>
+  </div>
+</footer>

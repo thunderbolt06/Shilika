@@ -1,0 +1,152 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://www.shilikajain.com/dubai-mena#service",
+      "name": "Shilika Jain Dubai and MENA PR practice for Web3, AI and RWA founders",
+      "alternateName": [
+        "Dubai Web3 PR",
+        "Dubai crypto PR agency",
+        "MENA Web3 PR",
+        "UAE crypto PR",
+        "Abu Dhabi AI PR",
+        "VARA licensed PR",
+        "RAK DAO PR",
+        "MENA fintech PR",
+        "Dubai cybersecurity PR"
+      ],
+      "url": "https://www.shilikajain.com/dubai-mena",
+      "description": "Senior-operator-led Dubai and MENA PR for Web3, AI, RWA and cybersecurity founders. Named placements across Arabian Business, Gulf News, The National, Khaleej Times, AGBI, Wamda, MENAbytes, MAGNiTT and Cointelegraph Arabic, paired with the international tier-1 re-report. VARA, ADGM FSRA, RAK DAO and CBUAE-aware framing baked into press copy under the February 2026 Travel Rule implementation, the VARA token issuance and derivatives rulebooks, the ADGM January 2026 Product Intervention Powers and the DLT Foundations DAO regime. Event leverage at the Future Blockchain Summit, Dubai FinTech Summit, GITEX Global and Abu Dhabi Finance Week.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "jobTitle": "Fractional PR Manager",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": [
+        { "@type": "Place", "name": "MENA" },
+        { "@type": "Place", "name": "GCC" },
+        { "@type": "Country", "name": "United Arab Emirates" },
+        { "@type": "Country", "name": "Saudi Arabia" },
+        { "@type": "Country", "name": "Bahrain" },
+        { "@type": "Country", "name": "Qatar" },
+        { "@type": "Country", "name": "Kuwait" },
+        { "@type": "Country", "name": "Oman" },
+        { "@type": "City", "name": "Dubai" },
+        { "@type": "City", "name": "Abu Dhabi" },
+        { "@type": "City", "name": "Riyadh" },
+        { "@type": "City", "name": "Ras Al Khaimah" }
+      ],
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "UAE-domiciled Web3 and AI founders, VARA-licensed Virtual Asset Service Providers, ADGM FSRA-regulated digital-asset platforms, RAK DAO-domiciled DAO founders, global Web3 founders preparing a Dubai or Abu Dhabi launch, RWA and tokenisation teams entering the GCC regulatory perimeter, AI startup CMOs targeting Gulf enterprise buyers, cybersecurity vendors entering the UAE and Saudi enterprise market, family offices and sovereign-wealth-adjacent fundraises"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Dubai and MENA PR commercial models",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "Dubai/MENA Quarterly Retainer",
+            "description": "Three to six month engagement covering one to two named MENA placements per quarter plus Future Blockchain Summit, GITEX Global, Dubai FinTech Summit and Abu Dhabi Finance Week event-circuit coordination and the international tier-1 re-report wave.",
+            "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "USD", "minPrice": 6000, "maxPrice": 13000, "unitText": "MONTH" }
+          },
+          {
+            "@type": "Offer",
+            "name": "Dubai/MENA Single-Market Launch Sprint",
+            "description": "14 to 21 day focused MENA push timed to a VARA licence milestone, ADGM FSRA designation, RAK DAO domiciliation, GITEX or Dubai FinTech Summit keynote, family-office fundraise or RWA launch. Dubai exclusive, GCC re-report wave, international re-report 24 hours behind, KOL wave, post-launch report.",
+            "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "USD", "minPrice": 11000, "maxPrice": 32000, "unitText": "PROJECT" }
+          },
+          {
+            "@type": "Offer",
+            "name": "Always-On MENA Coordinator",
+            "description": "Three-month minimum. Senior-operator slot on stand-by plus one curated MENA wave per quarter and event-week activation at the Future Blockchain Summit, Dubai FinTech Summit, GITEX Global or Abu Dhabi Finance Week.",
+            "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "USD", "price": 3200, "unitText": "MONTH" }
+          }
+        ]
+      },
+      "potentialAction": {
+        "@type": "ReserveAction",
+        "target": "https://calendly.com/shilikajain/30min/",
+        "name": "Book a 30-min teardown"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "APAC", "item": "https://www.shilikajain.com/apac" },
+        { "@type": "ListItem", "position": 3, "name": "Dubai and MENA", "item": "https://www.shilikajain.com/dubai-mena" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/dubai-mena#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does a Dubai and MENA Web3 or AI PR program actually cover?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Seven workstreams. One: Dubai exclusive lead with Arabian Business, Gulf News, The National, Khaleej Times or AGBI depending on the audience. Two: GCC re-report wave across Cointelegraph Arabic, Wamda, MENAbytes, MAGNiTT and Gulf Business timed to lift inside the same day as the exclusive. Three: tier-1 international re-report through CoinDesk, Cointelegraph, The Block, Decrypt, AI Magazine or TechCrunch 24 hours behind the Dubai lift. Four: VARA, ADGM FSRA, RAK DAO and CBUAE regulatory framing baked into every press copy under the February 2026 Travel Rule implementation, the VARA token issuance and derivatives rulebooks and the ADGM DLT Foundations DAO regime. Five: named MENA KOL voices on X, YouTube, Telegram and Discord with FTC-aware briefs. Six: on-ground event leverage at the Future Blockchain Summit, Dubai FinTech Summit, GITEX Global, Abu Dhabi Finance Week and the Global Blockchain Congress. Seven: founder LinkedIn and X-MENA activation timed to the press cycle."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does Dubai and MENA Web3 or AI PR cost in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Three commercial models. Dubai/MENA Quarterly Retainer runs 6,000 to 13,000 US dollars per month over three to six months and covers one to two named-MENA placements per quarter plus the international re-report wave. Dubai/MENA Single-Market Launch Sprint runs 11,000 to 32,000 US dollars total for one focused 14 to 21 day window timed to a VARA milestone, ADGM FSRA designation, GITEX keynote or family-office fundraise. Always-On MENA Coordinator runs 3,200 US dollars per month with a three-month minimum. KOL fees sit on top. Published 2026 MENA KOL rates run nano 300 to 2,000 US dollars per deliverable, micro 800 to 7,000, mid 10,000 to 30,000, macro 25,000 to 90,000 plus, with a GITEX and Dubai FinTech Summit event-week premium of 25 to 40 percent on every tier."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does MENA press treat the VARA frame as a first-paragraph item?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Because Dubai's Virtual Assets Regulatory Authority is the world's first dedicated crypto regulator and the global benchmark every other digital-asset regulator now reads against. Arabian Business, Gulf News and The National read every Web3 announcement against the February 2026 Travel Rule implementation, the VARA token-issuance and derivatives rulebooks published in April 2026, the ADGM FSRA Product Intervention Powers effective January 2026 and the DLT Foundations DAO regime. Press copy that buries the VARA paragraph reads as either uninformed or evasive. Press copy that opens with the right VARA, ADGM or RAK DAO frame signals founder-credibility before any product detail."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which UAE jurisdiction is the right anchor: Dubai (VARA), Abu Dhabi (ADGM) or RAK DAO?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depends on the shape of the business. VARA in Dubai for any virtual asset service provider, exchange, custodian, derivatives platform or stablecoin issuer touching retail. Capital requirements range from AED 100,000 to AED 2,000,000 by licence type. ADGM FSRA in Abu Dhabi for institutional digital-asset platforms, RWA and tokenisation teams targeting wholesale and family-office capital, with the January 2026 Product Intervention Powers as the live regulatory frame. RAK DAO for DAO founders needing the fastest, lowest-cost domicile (trade licences in 48 hours, packages from AED 7,500) and the DLT Foundations regime for legal recognition. Press copy names the jurisdiction in the first paragraph and frames the licence status with it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does MENA PR earn AI search citations on Arabic and English queries?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. MENA audiences searching in English and Arabic see a mix of Google AI Mode, ChatGPT, Perplexity, Claude and (increasingly) regional AI surfaces on Web3, AI, RWA and fintech queries. Named-byline placements in Arabian Business, Gulf News, The National, AGBI, Wamda and Cointelegraph Arabic carry the named-expertise and E-E-A-T signal Google explicitly names in its AI optimization guide. The Princeton GEO study (Aggarwal et al., arXiv:2311.09735) found pages combining citations, statistics and named quotations get cited 30 to 40 percent more by generative engines, and the dynamic holds for Arabic-language AI search queries on best Web3 PR agency Dubai, VARA licence and RWA tokenisation UAE."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which MENA outlets are the right exclusives for an AI startup versus a Web3 or RWA startup?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For an AI startup with an enterprise customer or government tie-in, The National or Khaleej Times for the public-interest framing. For an AI startup raising a Series A or B in the GCC, MAGNiTT for the funding lead with Wamda and AGBI as same-day re-reports. For a Web3 startup announcing a VARA licence or in-principle approval, Arabian Business for the regulatory lead with Cointelegraph Arabic and The Block re-reports 24 hours behind. For a Web3 startup launching a Future Blockchain Summit or GITEX keynote, an embargoed Arabian Business or Gulf News exclusive five days ahead. For an RWA or tokenisation story, AGBI or Arabian Business for the institutional-capital framing with The National for the regulatory tie-in."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does Shilika handle the Token2049 Dubai postponement?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Token2049 Dubai was postponed from April 2026 to April 2027 in March 2026. The 2026 MENA press calendar reshapes around the Future Blockchain Summit and GITEX Global in October, the Dubai FinTech Summit, Abu Dhabi Finance Week in November and the Global Blockchain Congress cycle. Founders who had planned a Token2049 Dubai 2026 announcement should re-anchor the launch to one of those four windows, or pair the announcement with a London or Singapore press lift instead. The 30-minute teardown call picks the right replacement window off the actual fact set and audience map."
+          }
+        }
+      ]
+    }
+  ]
+}

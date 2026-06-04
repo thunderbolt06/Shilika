@@ -1,0 +1,144 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://www.shilikajain.com/apac#service",
+      "name": "Shilika Jain APAC + MENA PR practice",
+      "alternateName": [
+        "APAC PR agency",
+        "Asia Web3 PR",
+        "Asia AI PR",
+        "Korea crypto PR",
+        "Japan crypto PR",
+        "India Web3 PR",
+        "India AI PR",
+        "Singapore Web3 PR",
+        "Dubai crypto PR",
+        "MENA Web3 PR"
+      ],
+      "url": "https://www.shilikajain.com/apac",
+      "description": "Fractional, senior-operator-led PR for Web3, AI and cybersecurity founders across six APAC markets plus MENA: South Korea, Japan, India, Singapore, Vietnam, Greater China and the UAE. Native-language placements across BloomingBit, TokenPost, BlockMedia, Coinness (Korea); CryptoTimes JP, Coinpost (Japan); ChainCatcher, Jinse, PANews (China and Greater China diaspora); Inc42, YourStory, Economic Times, Forbes India, Mint, Moneycontrol (India); e27, DealStreetAsia, Tech in Asia (Southeast Asia); Arabian Business, Gulf News, Cointelegraph Arabic, The National (MENA). Regional KOL waves with native-language briefs, on-ground event placements at Korea Blockchain Week, Token2049 Singapore, Token2049 Dubai, ETHIndia, Japan Blockchain Week, Consensus Hong Kong. Country-specific compliance navigation across the Q2 2026 regulatory overhaul (Korea FSC, Japan FIEA, Hong Kong SFC, Australia Treasury, India MoF transaction-level reporting).",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "jobTitle": "Fractional PR Manager",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": [
+        { "@type": "Place", "name": "APAC" },
+        { "@type": "Place", "name": "MENA" },
+        { "@type": "Country", "name": "Republic of Korea" },
+        { "@type": "Country", "name": "Japan" },
+        { "@type": "Country", "name": "India" },
+        { "@type": "Country", "name": "Singapore" },
+        { "@type": "Country", "name": "Vietnam" },
+        { "@type": "Country", "name": "China" },
+        { "@type": "Country", "name": "Hong Kong" },
+        { "@type": "Country", "name": "Australia" },
+        { "@type": "Country", "name": "United Arab Emirates" },
+        { "@type": "Country", "name": "Saudi Arabia" }
+      ],
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Web3 founders launching in APAC, AI startup CMOs with APAC expansion plans, recently funded crypto and AI startups without Asian or MENA press presence, L1 and L2 protocols seeking Korea / Japan / India market entry, RWA and DePIN teams entering MENA regulatory perimeters, India-based founders needing home-market exclusives plus international tier-1 cover, cybersecurity vendors building APAC analyst credibility"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "APAC and MENA PR commercial models",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "APAC Quarterly Retainer",
+            "description": "Three to six month engagement covering two to three named-market placements per quarter plus always-on event-circuit coordination across Korea Blockchain Week, Token2049 Singapore, Token2049 Dubai, Japan Blockchain Week, ETHIndia and Consensus Hong Kong.",
+            "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "USD", "minPrice": 6000, "maxPrice": 14000, "unitText": "MONTH" }
+          },
+          {
+            "@type": "Offer",
+            "name": "Single-Market Launch Sprint",
+            "description": "14 to 21 day focused regional push timed to a mainnet, listing or regional event. Native-language press kit, KOL wave, on-ground event placement, post-launch report.",
+            "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "USD", "minPrice": 12000, "maxPrice": 35000, "unitText": "PROJECT" }
+          },
+          {
+            "@type": "Offer",
+            "name": "Always-On Market Coordinator",
+            "description": "Three-month minimum. Senior-operator slot on stand-by plus one curated market wave per quarter.",
+            "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "USD", "price": 3000, "unitText": "MONTH" }
+          }
+        ]
+      },
+      "potentialAction": {
+        "@type": "ReserveAction",
+        "target": "https://calendly.com/shilikajain/30min/",
+        "name": "Book a 30-min teardown"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "APAC", "item": "https://www.shilikajain.com/apac" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/apac#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Which APAC markets does Shilika cover and why those?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Six core APAC markets plus MENA. South Korea generates roughly half of all tracked crypto-native media traffic across Asia. Japan is second-largest with rising regulatory weight as the JFSA migrates oversight to the Financial Instruments and Exchange Act in 2026. Vietnam is the highest-growth retail Web3 market in SEA. Greater China is reached through bilingual diaspora outlets like ChainCatcher and Jinse rather than mainland-licensed press. Singapore is the regional event hub (Token2049) and a credibility anchor under MAS. India is the home market for the practice and a category-builder for AI. MENA, anchored on Dubai and Abu Dhabi, is the fastest-moving Web3 regulatory perimeter."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does APAC PR cost in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Three commercial models. APAC Quarterly Retainer runs 6,000 to 14,000 US dollars per month over three to six months and covers two to three named-market placements per quarter plus always-on event-circuit coordination. Single-Market Launch Sprint runs 12,000 to 35,000 US dollars total for one focused 14 to 21 day window. Always-On Market Coordinator runs 3,000 US dollars per month with a three-month minimum. Translation costs and regional KOL fees sit on top. Published 2026 APAC KOL rates run nano 200 to 1,500 US dollars per deliverable, micro 500 to 5,000, mid 10,000 to 30,000, macro 25,000 to 100,000 plus, with a 15 to 25 percent premium in Korea and Japan over Western benchmarks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is APAC PR different from running a single global press release?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A translated global release fails in APAC because each market has its own news values, regulatory line, journalist roster and event calendar. Korean trade press wants exchange-listing detail and a regulatory-status quote. Japanese trade press wants a partner-name credibility anchor and a clean-data table. Indian press wants founder-country detail, raise lead investor and SEBI-adjacent framing. MENA press wants a UAE or Saudi regulatory tie-in and a named local partner. The 2026 Outset PR APAC traffic report found audience consolidation around the top 20 outlets, which means a region-mapped pitch list of 20 to 35 named outlets across six markets outperforms a 200-outlet generic blast by an order of magnitude."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does APAC PR earn AI-search citations in Korean, Japanese and Mandarin AI engines?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, increasingly so. Naver and Kakao in Korea, LINE in Japan and Baidu's Ernie in mainland China are building generative answer surfaces that lean on native-language editorial. The bilingual surfaces of ChatGPT, Perplexity, Claude and Google AI Mode cite native-language sources when the query is asked in the local language. A campaign that produces named-byline placements in BloomingBit, TokenPost, CryptoTimes JP, Coinpost, ChainCatcher, Jinse, Inc42 and Cointelegraph Arabic seeds those answer engines with the citations they rank against. The Princeton GEO study (Aggarwal et al., arXiv:2311.09735) found pages combining citations, statistics and named quotations get cited 30 to 40 percent more by generative engines."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does APAC PR handle the Q2 2026 regulatory deadlines?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Every APAC announcement in 2026 carries a per-market compliance note. Korea FSC five-minute reconciliation and zero-threshold Travel Rule. Japan FIEA migration with no investment-framing language post-shift. Hong Kong SFC VASP licensing footnote. Australia Treasury digital-asset platform regime framing. India transaction-level crypto reporting obligations from April 2026 per the Union Budget. The compliance review is not optional and is not delegated to the founder."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which APAC region is the right first push for a recently funded Web3 startup?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For a Web3 startup with an exchange listing in the pipeline, Korea first. The audience weight, the trade-press depth and the Korean exchange listing cycle make Korea the highest-leverage single-market push. For an RWA or tokenisation story, MENA first. Dubai and Abu Dhabi are the regulatory perimeter setting the global tone, and the Cointelegraph and Arabian Business beats are reading it weekly. For an India-origin founder, India first as the home-market exclusive that anchors the international re-reports. For an AI startup serious about a real engineer audience, India first."
+          }
+        }
+      ]
+    }
+  ]
+}

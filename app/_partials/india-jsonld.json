@@ -1,0 +1,150 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://www.shilikajain.com/india#service",
+      "name": "Shilika Jain India PR practice for Web3 and AI founders",
+      "alternateName": [
+        "India Web3 PR",
+        "India AI PR",
+        "India crypto PR",
+        "India PR agency Web3",
+        "India PR agency AI startup",
+        "Bengaluru Web3 PR",
+        "Mumbai crypto PR",
+        "India cybersecurity PR"
+      ],
+      "url": "https://www.shilikajain.com/india",
+      "description": "Home-market-first India PR for Web3, AI and cybersecurity founders. Indian exclusives in Inc42, YourStory, Economic Times, Forbes India, Mint, Moneycontrol and Business Today, paired with international tier-1 re-reports across CoinDesk, Cointelegraph, The Block, AI Magazine and TechCrunch. SEBI, RBI and Ministry of Finance regulatory framing baked into press copy under the April 2026 transaction-level crypto reporting obligation. Named Indian KOL voices on X, YouTube and Telegram with FTC-and-DPDP-aware briefs. On-ground event leverage at ETHIndia, India Blockchain Week, IndiaAI Summit, Global Fintech Fest and Nasscom Technology and Leadership Forum.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "jobTitle": "Fractional PR Manager",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India",
+        "containsPlace": [
+          { "@type": "City", "name": "Bengaluru" },
+          { "@type": "City", "name": "Mumbai" },
+          { "@type": "City", "name": "Delhi" },
+          { "@type": "City", "name": "Hyderabad" },
+          { "@type": "City", "name": "Pune" },
+          { "@type": "City", "name": "Chennai" },
+          { "@type": "City", "name": "Gurugram" }
+        ]
+      },
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "India-based Web3 and AI founders, recently funded Indian startups, global Web3 and AI founders expanding into India, AI startup CMOs running India developer-relations, NRI and Indian-origin founders needing dual-track India plus international press, cybersecurity vendors entering the Indian market"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "India PR commercial models",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "India Quarterly Retainer",
+            "description": "Three to six month engagement covering one to two named Indian placements per quarter plus the international tier-1 re-report wave.",
+            "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "USD", "minPrice": 4000, "maxPrice": 9000, "unitText": "MONTH" }
+          },
+          {
+            "@type": "Offer",
+            "name": "India Single-Market Launch Sprint",
+            "description": "14 to 21 day focused India push timed to a launch, raise or event. Indian exclusive, Indian re-report wave, international re-report 24 hours behind, KOL wave, post-launch report.",
+            "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "USD", "minPrice": 8000, "maxPrice": 22000, "unitText": "PROJECT" }
+          },
+          {
+            "@type": "Offer",
+            "name": "Always-On India Coordinator",
+            "description": "Three-month minimum. Senior-operator slot on stand-by plus one curated India wave per quarter.",
+            "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "USD", "price": 2500, "unitText": "MONTH" }
+          }
+        ]
+      },
+      "potentialAction": {
+        "@type": "ReserveAction",
+        "target": "https://calendly.com/shilikajain/30min/",
+        "name": "Book a 30-min teardown"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "APAC", "item": "https://www.shilikajain.com/apac" },
+        { "@type": "ListItem", "position": 3, "name": "India", "item": "https://www.shilikajain.com/india" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/india#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does an India Web3 or AI PR program actually cover?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Seven workstreams. Home-market exclusive lead with Inc42, YourStory, Economic Times, Forbes India, Mint or Moneycontrol depending on the audience. Indian re-report wave across Business Today, Business Standard, The Hindu BusinessLine, NDTV Profit and CNBC TV18 timed to lift inside the same day as the exclusive. Tier-1 international re-report through CoinDesk, Cointelegraph, The Block, Decrypt, AI Magazine or TechCrunch 24 hours behind the Indian lift. Named Indian KOL voices on X, YouTube and Telegram with FTC-and-DPDP-aware briefs. SEBI, RBI and Ministry of Finance regulatory framing baked into every press copy under the April 2026 transaction-reporting obligation. On-ground event leverage at ETHIndia, India Blockchain Week, IndiaAI Summit and Global Fintech Fest. Founder LinkedIn and X-India activation timed to the press cycle."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does India Web3 or AI PR cost in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Three commercial models. India Quarterly Retainer runs 4,000 to 9,000 US dollars per month over three to six months and covers one to two named Indian placements per quarter plus the international re-report wave. India Single-Market Launch Sprint runs 8,000 to 22,000 US dollars total for one focused 14 to 21 day window timed to a launch, raise or event. Always-On India Coordinator runs 2,500 US dollars per month with a three-month minimum. Indian KOL fees sit on top. Published 2026 Indian KOL rates run nano 150 to 1,200 US dollars per deliverable, micro 400 to 4,000, mid 6,000 to 18,000, macro 12,000 to 40,000 plus."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does the Indian exclusive land before the international press?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Because the audience that converts on an Indian founding story is in India. The Indian business press treats a home-market exclusive as a signal that the founder understands the country, not a courtesy add-on. The international tier-1 cycle then re-reports on top of the Indian lift, which has the bonus effect that the international press is reading the Indian lead as third-party validation rather than the inverse. The Bullieverse 2022 seed, Web3Auth and CoinDCX cycles all worked off this sequencing pattern."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does the April 2026 crypto transaction-reporting obligation change Indian press copy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Every Web3 announcement now needs to confirm in the first three paragraphs that the announcing entity has factored the new reporting obligation into operations. Press copy that does not name the reporting obligation reads as either uninformed or evasive to Indian financial press. The compliance line moves from footnote to first paragraph. SEBI-adjacent framing remains the standard for any token-offering language, and the consultation paper from the Ministry of Finance is the open question Indian press is tracking weekly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does India PR earn AI search citations on Indian English and Hindi queries?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Indian audiences searching in English and Hindi see a mix of Google AI Mode, ChatGPT, Perplexity and Claude responses on Web3 and AI category queries. Named-byline placements in Inc42, ET Tech, Mint, Moneycontrol and Forbes India carry the named-expertise and E-E-A-T signal Google explicitly names in its AI optimization guide. The Princeton GEO study (Aggarwal et al., arXiv:2311.09735) found pages combining citations, statistics and named quotations get cited 30 to 40 percent more by generative engines, and the dynamic holds for India-English AI search too."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which Indian outlets are the right exclusives for an AI startup versus a Web3 startup?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For an AI startup with a developer-audience hook, Inc42, ET Tech or Forbes India for the founder profile and category narrative. For an AI startup with an enterprise-customer announcement, Economic Times and Business Today for the customer-name framing. For a Web3 startup launching a token or mainnet, Mint or Moneycontrol for the regulatory and market-impact framing. For a Web3 startup raising a Series A or B, Economic Times for the funding lead with Inc42 and YourStory as same-day re-reports. For a category-defining founder profile, Forbes India for the long-form arc."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Shilika work with NRI and Indian-origin founders based outside India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The NRI and Indian-origin founder track is one of the highest-leverage shapes the practice runs. The Indian home-market exclusive plus the US or UK tier-1 re-report sequence works whether the founder is in Bengaluru, Mountain View, Singapore or Dubai. The framing simply puts the founder country-of-origin and the Indian engineer-or-customer footprint at the top of the brief rather than burying it in the bio."
+          }
+        }
+      ]
+    }
+  ]
+}

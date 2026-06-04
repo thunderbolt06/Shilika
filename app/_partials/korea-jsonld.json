@@ -1,0 +1,149 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://www.shilikajain.com/korea#service",
+      "name": "Shilika Jain Korea PR practice for Web3 and AI founders",
+      "alternateName": [
+        "Korea Web3 PR",
+        "Korea AI PR",
+        "South Korea crypto PR agency",
+        "Korea Blockchain Week PR",
+        "Seoul fractional PR",
+        "Korea fintech PR",
+        "FSC regulatory PR",
+        "Korea cybersecurity PR",
+        "KRW stablecoin PR"
+      ],
+      "url": "https://www.shilikajain.com/korea",
+      "description": "Senior-operator-led Korea PR for Web3, AI and cybersecurity founders. Named placements across BloomingBit, TokenPost, BlockMedia, Coinness, CoinReaders, Yonhap, Chosun Biz, Maeil Business, Hankyung and Hankyoreh paired with the international tier-1 re-report. FSC-aware framing under the 2026 Digital Asset Basic Act track, the won-pegged stablecoin bill cycle and the post-Virtual-Asset-User-Protection-Act five-minute reconciliation regime. Korea Blockchain Week (Walkerhill, September 29 to October 1, 2026, Upbit Main Sponsor) and Korea Fintech Week event leverage. Upbit and Bithumb listing-pipeline framing for token-launch and exchange-status stories.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "jobTitle": "Fractional PR Manager",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "South Korea",
+        "containsPlace": [
+          { "@type": "City", "name": "Seoul" },
+          { "@type": "Place", "name": "Gangnam" },
+          { "@type": "Place", "name": "Yeouido" },
+          { "@type": "Place", "name": "Pangyo" },
+          { "@type": "City", "name": "Busan" }
+        ]
+      },
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Korea-headquartered Web3 and AI founders, recently funded Korean Web3 and AI startups, global Web3 founders preparing a Korea Blockchain Week 2026 launch, AI startup CMOs entering Korea from a global hub, FSC-tracked Virtual Asset Service Providers and KRW-stablecoin issuers, Upbit and Bithumb listing-pipeline teams, RWA and tokenisation teams targeting Korean institutional buyers, cybersecurity vendors targeting Korean enterprise and FSS-regulated buyers"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Korea PR commercial models",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "Korea Quarterly Retainer",
+            "description": "Three to six month engagement covering one to two named Korean placements per quarter plus always-on Korea Blockchain Week and Korea Fintech Week event-circuit coordination and the international tier-1 re-report wave.",
+            "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "USD", "minPrice": 5500, "maxPrice": 12000, "unitText": "MONTH" }
+          },
+          {
+            "@type": "Offer",
+            "name": "Korea Single-Market Launch Sprint",
+            "description": "14 to 21 day focused Korea push timed to an Upbit or Bithumb listing, a Korean exchange announcement, a Korea Blockchain Week keynote, an FSC milestone or a Series A or B raise. Korean tier-1 trade exclusive, regional re-report wave, international re-report 24 hours behind, KOL wave across KakaoTalk open chats, Naver Blogs, Telegram and YouTube, post-launch report.",
+            "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "USD", "minPrice": 11000, "maxPrice": 30000, "unitText": "PROJECT" }
+          },
+          {
+            "@type": "Offer",
+            "name": "Always-On Korea Coordinator",
+            "description": "Three-month minimum. Senior-operator slot on stand-by plus one curated Korean wave per quarter and event-week activation at Korea Blockchain Week or Korea Fintech Week.",
+            "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "USD", "price": 3000, "unitText": "MONTH" }
+          }
+        ]
+      },
+      "potentialAction": {
+        "@type": "ReserveAction",
+        "target": "https://calendly.com/shilikajain/30min/",
+        "name": "Book a 30-min teardown"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "APAC", "item": "https://www.shilikajain.com/apac" },
+        { "@type": "ListItem", "position": 3, "name": "South Korea", "item": "https://www.shilikajain.com/korea" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/korea#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does a Korea Web3 or AI PR program actually cover?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Seven workstreams. One: Korean tier-1 trade exclusive with BloomingBit, TokenPost, BlockMedia, Coinness or CoinReaders depending on the audience, or a mainstream lead with Yonhap, Chosun Biz, Maeil Business or Hankyung for a non-crypto-native story. Two: Korean re-report wave across the remaining trade and mainstream outlets timed to lift inside the same day as the exclusive. Three: international tier-1 re-report through CoinDesk, Cointelegraph, The Block, Decrypt, AI Magazine or TechCrunch 24 hours behind the Korean lift. Four: FSC-aware framing baked into every press copy under the 2026 Digital Asset Basic Act track, the Virtual Asset User Protection Act five-minute reconciliation regime and the won-pegged stablecoin bill cycle. Five: Korean KOL voices on KakaoTalk open chats, Naver Blogs, Telegram and YouTube with FTC-and-FSC-aware briefs. Six: on-ground event leverage at Korea Blockchain Week (Walkerhill, Sep 29 to Oct 1 2026) and Korea Fintech Week. Seven: founder LinkedIn and X-Korea activation timed to the press cycle, plus a Korean-language quote and headshot for the lead."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does Korea Web3 or AI PR cost in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Three commercial models. Korea Quarterly Retainer runs 5,500 to 12,000 US dollars per month over three to six months and covers one to two named-Korea placements per quarter plus the international re-report wave. Korea Single-Market Launch Sprint runs 11,000 to 30,000 US dollars total for one focused 14 to 21 day window timed to an Upbit or Bithumb listing, a KBW keynote, an FSC milestone or a Series A or B raise. Always-On Korea Coordinator runs 3,000 US dollars per month with a three-month minimum. KOL fees sit on top. Published 2026 Korean crypto KOL rates run nano 300 to 2,000 US dollars per deliverable, micro 1,000 to 8,000, mid 10,000 to 30,000, macro 25,000 to 100,000 plus, with a Korea Blockchain Week event-week premium of 30 to 50 percent on every tier and a separate KakaoTalk-channel deliverable as the most cost-efficient regional unlock."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does Korean press want the FSC framing inside the first three paragraphs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Because Korean press treats the regulator as a participant in the story, not a backdrop. BloomingBit, TokenPost, BlockMedia, Coinness and CoinReaders read every Web3 announcement against the Virtual Asset User Protection Act five-minute reconciliation regime, the 2026 Digital Asset Basic Act track, the won-pegged stablecoin bill cycle, the 20 percent ownership cap on crypto exchanges and the Travel Rule. Press copy that buries the regulator paragraph reads as either uninformed of the Korean retail-protection bar or evasive. Conversely, press copy that opens with the right FSC frame and confirms exchange-listing or partner status signals founder credibility before any product detail. The FSC versus Bank of Korea debate over stablecoin issuance is the single most-watched regulatory storyline in Korea in 2026."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does Korea Blockchain Week change the press calendar for a Web3 founder?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Korea Blockchain Week 2026 runs September 29 to October 1, 2026 at Walkerhill Hotels and Resorts in Seoul, with Upbit as the Main Sponsor and FACTBLOCK as the producer. The three-day format starts with a private institutional forum for policymakers, financial institutions and senior industry leaders before the open conference begins. The press cycle starts five weeks out with embargo briefings to BloomingBit, TokenPost and BlockMedia, lifts on the Monday before the event with a Korean tier-1 trade exclusive, runs side-event coverage through the conference and closes with a post-event international re-report on the Friday. KBW press demand outstrips supply by 3 to 4x, which is why the briefings start in mid-August."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Korea PR earn AI search citations in Korean and English AI engines?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Korean audiences searching in Korean and English see a mix of Naver, Kakao Brain, Google AI Mode, ChatGPT, Perplexity and Claude responses on Web3, AI and fintech queries. Named-byline placements in BloomingBit, TokenPost, BlockMedia, Coinness, CoinReaders, Yonhap, Chosun Biz and Maeil Business carry the named-expertise and E-E-A-T signal Google explicitly names in its AI optimization guide. The Princeton GEO study (Aggarwal et al., arXiv:2311.09735) found pages combining citations, statistics and named quotations get cited 30 to 40 percent more by generative engines, and the dynamic holds for Korean-language AI search queries on best Web3 PR agency Korea, KRW stablecoin licence and Korea Blockchain Week announcement, where Naver Blog thought-leadership content compounds with the trade-press citation graph."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which Korean outlets are the right exclusives for an AI startup versus a Web3 startup?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For an AI startup with an enterprise customer announcement, Maeil Business or Hankyung for the customer-name framing in Korean mainstream business press. For an AI startup raising a Series A or B, Chosun Biz or Hankyung Business for the funding lead with Yonhap as the wire and TechM as the trade re-report. For a Web3 startup announcing an Upbit, Bithumb or Coinone listing, BloomingBit or TokenPost for the trade lead with Cointelegraph and CoinDesk re-reports 24 hours behind. For a Web3 startup launching a KBW keynote, an embargoed BlockMedia exclusive five days ahead followed by an international tier-1 re-report timed to the keynote. For a KRW-stablecoin or Project Guardian-adjacent institutional partner story, Maeil Business or Yonhap for the institutional-partner-name lead, with Coinness for the crypto-native depth."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does the FSC versus Bank of Korea stablecoin debate change Korean press copy in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It moves the regulator paragraph from a footnote to the lead. The FSC has indicated support for allowing non-bank tech companies to issue won-pegged stablecoins, while the Bank of Korea has argued only banks with 51 percent ownership should be permitted. The ruling party committed to introducing a bill in early 2026 in line with the manifesto from President Lee Jae-myung, and the bill requires 100 percent reserves in safe assets such as bank deposits or government bonds with full custody by banks. Toss filed 24 KRW stablecoin trademarks including TOSSKRW in June 2025 and confirmed an L1 mainnet build in April 2026. Any KRW-stablecoin, payments or RWA announcement in 2026 reads inside this debate, not next to it. Press copy that names a position vis-a-vis the FSC bill, the BOK objection, the Toss precedent and the Kakao Bank or Kookmin Bank application is treated as informed, and press copy that does not is treated as not."
+          }
+        }
+      ]
+    }
+  ]
+}

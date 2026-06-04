@@ -1,0 +1,151 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://www.shilikajain.com/japan#service",
+      "name": "Shilika Jain Japan PR practice for Web3 and AI founders",
+      "alternateName": [
+        "Japan Web3 PR",
+        "Japan AI PR",
+        "Tokyo crypto PR agency",
+        "WebX Tokyo PR",
+        "Japan Blockchain Week PR",
+        "Tokyo fractional PR",
+        "Japan fintech PR",
+        "FSA regulatory PR",
+        "Japan cybersecurity PR",
+        "JPY stablecoin PR"
+      ],
+      "url": "https://www.shilikajain.com/japan",
+      "description": "Senior-operator-led Japan PR for Web3, AI and cybersecurity founders. Named placements across CoinPost, CoinDesk Japan, Cointelegraph Japan, CryptoTimes JP, Iolite, Nikkei, Nikkei Cross Tech and Asahi Shimbun paired with the international tier-1 re-report. FSA-aware framing under the 2026 Payment Services Act amendments that recognize foreign trust-type stablecoins from June 1 2026, the FIEA crypto-reclassification track approved by Cabinet in April 2026, the spot Bitcoin and Ethereum ETF approval pipeline through SBI and Nomura with NISA eligibility, and the 20 percent flat capital-gains tax reform. WebX 2026 (The Prince Park Tower Tokyo, July 13 to 14 2026) and Japan Blockchain Week event leverage. bitFlyer, Coincheck, Bitbank and SBI VC Trade listing-pipeline framing.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "jobTitle": "Fractional PR Manager",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "Japan",
+        "containsPlace": [
+          { "@type": "City", "name": "Tokyo" },
+          { "@type": "Place", "name": "Minato" },
+          { "@type": "Place", "name": "Shibuya" },
+          { "@type": "Place", "name": "Otemachi" },
+          { "@type": "City", "name": "Osaka" },
+          { "@type": "City", "name": "Fukuoka" }
+        ]
+      },
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Japan-headquartered Web3 and AI founders, recently funded Japanese Web3 and AI startups, global Web3 founders preparing a WebX 2026 or Japan Blockchain Week launch, AI startup CMOs entering Japan from a global hub, FSA-registered Crypto Asset Exchange Service Providers and JPY-stablecoin issuers, bitFlyer / Coincheck / Bitbank / SBI VC Trade listing-pipeline teams, RWA and tokenisation teams targeting Japanese institutional buyers under the new trust-type stablecoin regime, cybersecurity vendors targeting Japanese enterprise and METI-regulated buyers"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Japan PR commercial models",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "Japan Quarterly Retainer",
+            "description": "Three to six month engagement covering one to two named Japanese placements per quarter plus always-on WebX and Japan Blockchain Week event-circuit coordination and the international tier-1 re-report wave.",
+            "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "USD", "minPrice": 5500, "maxPrice": 12500, "unitText": "MONTH" }
+          },
+          {
+            "@type": "Offer",
+            "name": "Japan Single-Market Launch Sprint",
+            "description": "14 to 21 day focused Japan push timed to a bitFlyer, Coincheck or Bitbank listing, a JPY-stablecoin or trust-bank partner announcement, a WebX keynote, an FSA milestone or a Series A or B raise. Japanese tier-1 trade exclusive, regional re-report wave, international re-report 24 hours behind, KOL wave across Japanese X (Twitter), LINE Open Chat, YouTube and note.com, post-launch report.",
+            "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "USD", "minPrice": 11000, "maxPrice": 32000, "unitText": "PROJECT" }
+          },
+          {
+            "@type": "Offer",
+            "name": "Always-On Japan Coordinator",
+            "description": "Three-month minimum. Senior-operator slot on stand-by plus one curated Japanese wave per quarter and event-week activation at WebX, Japan Blockchain Week or IVS Crypto.",
+            "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "USD", "price": 3000, "unitText": "MONTH" }
+          }
+        ]
+      },
+      "potentialAction": {
+        "@type": "ReserveAction",
+        "target": "https://calendly.com/shilikajain/30min/",
+        "name": "Book a 30-min teardown"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "APAC", "item": "https://www.shilikajain.com/apac" },
+        { "@type": "ListItem", "position": 3, "name": "Japan", "item": "https://www.shilikajain.com/japan" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/japan#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does a Japan Web3 or AI PR program actually cover?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Seven workstreams. One: Japanese tier-1 trade exclusive with CoinPost, CoinDesk Japan, Cointelegraph Japan or CryptoTimes JP depending on the audience, or a mainstream lead with Nikkei, Asahi Shimbun, Mainichi or Yomiuri for a non-crypto-native story. Two: Japanese re-report wave across the remaining trade and mainstream outlets timed to lift inside the same day as the exclusive. Three: international tier-1 re-report through CoinDesk, Cointelegraph, The Block, Decrypt, AI Magazine or TechCrunch 24 hours behind the Japanese lift. Four: FSA-aware framing baked into every press copy under the June 1 2026 Payment Services Act amendments for foreign trust-type stablecoins, the April 2026 Cabinet-approved FIEA reclassification track and the 20 percent flat capital-gains tax reform. Five: Japanese KOL voices on Japanese X (Twitter), LINE Open Chat, YouTube and note.com with consumer-protection-aware briefs. Six: on-ground event leverage at WebX 2026 (The Prince Park Tower Tokyo, July 13 to 14 2026), Japan Blockchain Week and IVS Crypto. Seven: founder LinkedIn and X-Japan activation timed to the press cycle, plus a Japanese-language quote and headshot for the lead."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does Japan Web3 or AI PR cost in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Three commercial models. Japan Quarterly Retainer runs 5,500 to 12,500 US dollars per month over three to six months and covers one to two named-Japan placements per quarter plus the international re-report wave. Japan Single-Market Launch Sprint runs 11,000 to 32,000 US dollars total for one focused 14 to 21 day window timed to a bitFlyer, Coincheck or Bitbank listing, a JPY-stablecoin or trust-bank partner announcement, a WebX keynote, an FSA milestone or a Series A or B raise. Always-On Japan Coordinator runs 3,000 US dollars per month with a three-month minimum. Japanese-language translation and KOL fees sit on top. Published 2026 Japanese crypto KOL rates run nano 400 to 2,500 US dollars per deliverable, micro 1,500 to 9,000, mid 12,000 to 35,000, macro 30,000 to 100,000 plus, with a WebX event-week premium of 30 to 50 percent on every tier and a separate note.com long-form deliverable as the most cost-efficient AI-search-citation unlock."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does Japanese press want the FSA framing and a named partner anchor inside the first three paragraphs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Because Japanese press treats both the regulator and the named domestic partner as paragraph-one credibility anchors. CoinPost, CoinDesk Japan, Cointelegraph Japan, CryptoTimes JP and Iolite read every Web3 announcement against the Payment Services Act amendments effective June 1 2026 that recognize foreign trust-type stablecoins as electronic payment instruments, the April 2026 Cabinet-approved FIEA reclassification reclassifying 105 crypto assets including BTC and ETH as financial instruments, the 20 percent flat capital-gains tax reform pushed for fiscal 2026, the spot Bitcoin and Ethereum ETF approval pipeline through SBI and Nomura with NISA eligibility, and the unfair-trading-and-insider-trading prohibitions that come with the FIEA reclassification. Press copy that buries the FSA frame or omits the named Japanese trust bank, exchange, payment-provider or enterprise partner reads as either uninformed of the Japanese investor-protection bar or evasive. Conversely, press copy that opens with the right FSA frame and confirms exchange-listing or partner status signals founder credibility before any product detail."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does WebX 2026 and Japan Blockchain Week change the press calendar for a Web3 founder?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Japan Blockchain Week 2026 runs July 1 to July 14 2026, with WebX 2026 as the flagship event July 13 to 14 at The Prince Park Tower Tokyo. WebX 2026 is organized by CoinPost and is expected to host roughly 13,160 attendees from 88 countries, 296 speakers, 195 sponsors, 150 media partners and 155 side events, under the theme Connecting the Nodes Beyond the Screen. The press cycle starts six weeks out with embargo briefings to CoinPost, CoinDesk Japan and Cointelegraph Japan, lifts on the Monday before the event with a Japanese tier-1 trade exclusive, runs side-event coverage through the conference and closes with a post-event international re-report on the Friday. WebX press demand outstrips supply by 3 to 4x at the senior-reporter tier, which is why the briefings start in late May for a mid-July embargo lift."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Japan PR earn AI search citations in Japanese and English AI engines?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Japanese audiences searching in Japanese and English see a mix of LINE AI, SoftBank-aligned generative answer surfaces, Google AI Mode, ChatGPT, Perplexity, Claude and Microsoft Copilot responses on Web3, AI and fintech queries. Named-byline placements in CoinPost, CoinDesk Japan, Cointelegraph Japan, CryptoTimes JP, Iolite, Nikkei and Nikkei Cross Tech carry the named-expertise and E-E-A-T signal Google explicitly names in its AI optimization guide. The Princeton GEO study (Aggarwal et al., arXiv:2311.09735) found pages combining citations, statistics and named quotations get cited 30 to 40 percent more by generative engines, and the dynamic holds for Japanese-language AI search queries on best Web3 PR agency Japan, JPY stablecoin licence and WebX 2026 announcement, where note.com long-form thought-leadership content compounds with the trade-press citation graph."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which Japanese outlets are the right exclusives for an AI startup versus a Web3 startup?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For an AI startup with an enterprise customer announcement, Nikkei Cross Tech or Impress Watch for the customer-name framing in Japanese mainstream business tech press. For an AI startup raising a Series A or B, Nikkei or The Bridge for the funding lead with TechCrunch Japan for the international diaspora re-report. For a Web3 startup announcing a bitFlyer, Coincheck, Bitbank or SBI VC Trade listing, CoinPost or CoinDesk Japan for the trade lead with Cointelegraph and The Block re-reports 24 hours behind. For a Web3 startup launching a WebX keynote, an embargoed CoinPost exclusive five days ahead followed by an international tier-1 re-report timed to the keynote. For a JPY-stablecoin or trust-bank partner story, Nikkei or Asahi Shimbun for the institutional-partner-name lead with Iolite for the regulatory-and-policy depth and CryptoTimes JP for the crypto-native re-report."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do the June 1 2026 Payment Services Act amendments and the FIEA reclassification change Japanese press copy in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "They move the regulator paragraph from a footnote to the lead and add a named-partner credibility requirement. The Payment Services Act amendments effective June 1 2026 recognize certain foreign trust-type stablecoins issued by overseas trust banks as electronic payment instruments handled domestically by registered providers, with reserve assets permitted in demand deposits, government bonds and cancellable fixed-term deposits under defined conditions. Only licensed financial institutions can issue stablecoins in Japan: banks, registered fund-transfer service providers and trust companies. The April 2026 Cabinet-approved FIEA reclassification reclassifies 105 crypto assets including BTC and ETH as financial instruments, bans insider trading based on non-public information, requires mandatory annual disclosures by crypto issuers and raises unlicensed-operation penalties to up to ten years in prison and fines as high as 10 million yen. The 20 percent flat capital-gains tax reform replaces the progressive rate of up to 55 percent, and the spot Bitcoin and Ethereum ETF approval pipeline through SBI and Nomura adds a NISA-eligible institutional surface. Any Japanese press release in 2026 reads inside this stack, not next to it."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+prompt_id,engine,run_number,run_date_iso,shilika_cited,shilika_in_body,shilika_in_citation_list,shilika_citation_rank,shilika_url_cited,competitor_brands_cited,notes
+A1,chatgpt,1,2026-06-04,false,false,false,NA,NA,"EAK Digital; Outset PR; Coinbound","ChatGPT pulled a generic fractional-PR-vs-agency explainer from Wachsman blog and a HubSpot post"
+A1,perplexity,1,2026-06-04,false,false,false,NA,NA,"Outset PR; MarketAcross","Perplexity cited an Outset PR Medium post and a generic blog. No shilikajain.com URL surfaced"
+A1,claude,1,2026-06-04,false,false,false,NA,NA,"none cited","Claude refused to recommend named providers and gave a generic answer"
+A1,gemini,1,2026-06-04,false,false,false,NA,NA,"Coinbound; EAK Digital","Gemini cited Coinbound's own homepage and the EAK Digital case-studies page"

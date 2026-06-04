@@ -1,0 +1,425 @@
+<style>
+:root {
+  --ink: oklch(0.16 0.01 80);
+  --ink-2: oklch(0.22 0.01 80);
+  --paper: oklch(0.96 0.01 90);
+  --paper-2: oklch(0.92 0.015 85);
+  --cream: oklch(0.93 0.04 85);
+  --lime: oklch(0.92 0.18 115);
+  --muted: oklch(0.55 0.01 80);
+  --line: oklch(0.85 0.01 80);
+  --font-display: 'Instrument Serif', 'Times New Roman', serif;
+  --font-body: 'Inter Tight', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'Geist Mono', 'JetBrains Mono', monospace;
+  --pad: clamp(20px, 4vw, 64px);
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--font-body);
+  background: var(--paper);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+.mono { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; }
+
+.nav {
+  position: fixed; top: 0; left: 0; right: 0;
+  z-index: 100;
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 18px var(--pad);
+  background: rgba(247, 246, 241, 0.85);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--line);
+}
+.nav-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); }
+.nav-logo-text { font-family: var(--font-display); font-size: 22px; font-style: italic; letter-spacing: -0.01em; }
+.nav-logo-dot { color: var(--lime); margin: 0 2px; }
+.nav-links { display: flex; gap: 28px; list-style: none; font-family: var(--font-mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; }
+.nav-links a { position: relative; padding: 4px 0; color: var(--ink); text-decoration: none; }
+.nav-links a::after { content: ''; position: absolute; left: 0; bottom: 0; width: 0; height: 1px; background: var(--ink); transition: width 0.4s var(--ease-out-quart); }
+.nav-links a:hover::after, .nav-links a.is-current::after { width: 100%; }
+.nav-cta { display: inline-flex; align-items: center; gap: 8px; padding: 10px 18px; background: var(--ink); color: var(--paper); font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; border-radius: 100px; transition: background 0.3s, color 0.3s; }
+.nav-cta:hover { background: var(--lime); color: var(--ink); }
+@media (max-width: 800px) { .nav-links { display: none; } }
+
+.svc-header { padding: 140px var(--pad) 60px; border-bottom: 1px solid var(--line); background: var(--paper); position: relative; }
+.crumb { max-width: 980px; margin: 0 auto 36px; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+.crumb a { color: var(--muted); text-decoration: none; transition: color 0.3s; }
+.crumb a:hover { color: var(--ink); }
+.crumb .sep { margin: 0 12px; }
+.svc-meta-row { max-width: 980px; margin: 0 auto 28px; display: flex; gap: 18px; align-items: center; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); flex-wrap: wrap; }
+.svc-cat { background: var(--ink); color: var(--paper); padding: 5px 12px; border-radius: 3px; font-weight: 500; }
+.svc-headline { max-width: 980px; margin: 0 auto; font-family: var(--font-display); font-size: clamp(40px, 6.4vw, 88px); line-height: 0.97; letter-spacing: -0.018em; font-weight: 400; text-wrap: balance; }
+.svc-headline em { font-style: italic; background: linear-gradient(120deg, transparent 30%, var(--lime) 30%, var(--lime) 90%, transparent 90%); background-size: 200% 100%; background-position: 100% 0; padding: 0 0.05em; animation: hl-sweep 1.6s 0.4s var(--ease-out-quart) forwards; }
+@keyframes hl-sweep { to { background-position: 0 0; } }
+.svc-sub { max-width: 760px; margin: 32px auto 0; font-family: var(--font-display); font-size: clamp(20px, 1.6vw, 24px); line-height: 1.4; font-style: italic; color: var(--muted); }
+
+.answer-box { max-width: 720px; margin: 60px auto 0; padding: 28px 32px; background: var(--ink); color: var(--paper); border-radius: 8px; }
+.answer-box .ab-label { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--lime); margin-bottom: 12px; }
+.answer-box p { font-family: var(--font-display); font-size: clamp(20px, 1.8vw, 24px); line-height: 1.4; font-style: italic; }
+
+.stat-strip { background: var(--paper-2); padding: 60px var(--pad); border-bottom: 1px solid var(--line); }
+.stat-grid { max-width: 980px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 28px; }
+.stat-card { padding: 24px; background: var(--paper); border-radius: 8px; border-left: 3px solid var(--lime); }
+.stat-num { font-family: var(--font-display); font-size: clamp(34px, 4vw, 48px); font-weight: 400; line-height: 1; margin-bottom: 8px; font-style: italic; }
+.stat-label { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; }
+.stat-src { font-size: 12px; color: var(--muted); line-height: 1.3; }
+.stat-src a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 2px; }
+
+.svc-body-wrap { padding: 80px var(--pad) 100px; background: var(--paper); }
+.svc-body { max-width: 720px; margin: 0 auto; font-size: 19px; line-height: 1.65; color: oklch(0.25 0.01 80); }
+.svc-body p { margin-bottom: 1.4em; }
+.svc-body h2 { font-family: var(--font-display); font-size: clamp(28px, 3vw, 40px); font-weight: 400; letter-spacing: -0.01em; color: var(--ink); margin: 2em 0 0.8em; line-height: 1.1; text-wrap: balance; }
+.svc-body h2::before { content: '§ '; color: var(--lime); font-style: italic; }
+.svc-body h3 { font-family: var(--font-display); font-size: clamp(22px, 2.2vw, 28px); font-weight: 400; color: var(--ink); margin: 1.6em 0 0.5em; line-height: 1.2; }
+.svc-body ul, .svc-body ol { margin: 0 0 1.6em 1.4em; padding-left: 0; }
+.svc-body li { margin-bottom: 0.6em; padding-left: 0.4em; }
+.svc-body li::marker { color: var(--lime); }
+.svc-body strong { color: var(--ink); font-weight: 600; }
+.svc-body em { font-style: italic; }
+.svc-body a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px; }
+.svc-body table { width: 100%; border-collapse: collapse; margin: 1.6em 0; font-size: 15px; font-family: var(--font-mono); letter-spacing: 0.02em; }
+.svc-body table th { text-align: left; padding: 10px 12px; background: var(--ink); color: var(--paper); font-weight: 500; text-transform: uppercase; font-size: 11px; letter-spacing: 0.1em; }
+.svc-body table td { padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.svc-body table tr:nth-child(even) td { background: var(--paper-2); }
+.callout { background: var(--ink); color: var(--paper); padding: 28px 32px; border-radius: 8px; margin: 2em 0; font-family: var(--font-display); font-size: clamp(20px, 1.8vw, 24px); font-style: italic; line-height: 1.35; }
+.callout strong { color: var(--lime); font-weight: 400; font-style: normal; font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; display: block; margin-bottom: 10px; }
+.faq-block { max-width: 720px; margin: 60px auto 0; padding: 32px; background: var(--paper-2); border-radius: 8px; }
+.faq-block h2 { font-family: var(--font-display); font-size: clamp(28px, 3vw, 36px); margin-bottom: 24px; font-weight: 400; }
+.faq-q { font-family: var(--font-display); font-style: italic; font-size: 20px; color: var(--ink); margin: 22px 0 8px; }
+.faq-a { font-size: 16px; color: oklch(0.30 0.01 80); line-height: 1.6; }
+
+.author-block { max-width: 720px; margin: 80px auto 0; padding: 32px; background: var(--paper-2); border-radius: 8px; display: grid; grid-template-columns: 64px 1fr; gap: 20px; align-items: center; }
+.author-avatar { width: 64px; height: 64px; border-radius: 50%; background: var(--ink); color: var(--lime); display: flex; align-items: center; justify-content: center; font-family: var(--font-display); font-size: 24px; font-style: italic; font-weight: 400; }
+.author-name { font-family: var(--font-display); font-size: 24px; font-style: italic; line-height: 1; margin-bottom: 6px; }
+.author-bio { font-size: 14px; color: var(--muted); line-height: 1.4; }
+.author-bio a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px; }
+
+.related-block { max-width: 980px; margin: 80px auto 0; }
+.related-block h3 { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--muted); margin-bottom: 20px; }
+.related-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+.related-card { display: block; padding: 24px; background: var(--paper-2); border-radius: 8px; text-decoration: none; color: var(--ink); transition: transform 0.3s var(--ease-out-quart); }
+.related-card:hover { transform: translateY(-2px); }
+.related-kicker { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; }
+.related-title { font-family: var(--font-display); font-size: 20px; line-height: 1.2; font-style: italic; }
+
+.cta-strip { background: var(--ink); color: var(--paper); padding: 100px var(--pad); text-align: center; position: relative; overflow: hidden; }
+.cta-strip h3 { font-family: var(--font-display); font-size: clamp(40px, 6vw, 80px); font-weight: 400; line-height: 1; letter-spacing: -0.015em; max-width: 18ch; margin: 0 auto 32px; }
+.cta-strip h3 em { font-style: italic; color: var(--lime); }
+.cta-strip-btn { display: inline-flex; align-items: center; gap: 10px; background: var(--lime); color: var(--ink); padding: 18px 32px; font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; text-decoration: none; border-radius: 100px; transition: transform 0.4s var(--ease-out-quart); }
+.cta-strip-btn:hover { transform: translateY(-2px); }
+
+.footer { background: var(--ink); color: var(--paper); padding: 40px var(--pad) 24px; border-top: 1px solid rgba(255,255,255,0.08); }
+.footer-row { max-width: 1440px; margin: 0 auto; display: flex; justify-content: space-between; font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.5); flex-wrap: wrap; gap: 12px; }
+.footer-row a { color: inherit; text-decoration: none; }
+.footer-modified { color: rgba(255,255,255,0.4); }
+</style>
+
+
+<nav class="nav">
+  <a href="/" class="nav-logo">
+    <svg width="34" height="34" viewBox="0 0 34 34" fill="none">
+      <rect width="34" height="34" rx="8" fill="#282520"/>
+      <text x="50%" y="55%" text-anchor="middle" dominant-baseline="middle" font-family="Georgia, serif" font-size="18" font-style="italic" fill="#d4ff32">SJ</text>
+      <circle cx="27" cy="7" r="2" fill="#d4ff32"/>
+    </svg>
+    <span class="nav-logo-text">SHILIKA<span class="nav-logo-dot">·</span>JAIN</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="/#work">Work</a></li>
+    <li><a href="/#services">Services</a></li>
+    <li><a href="/#press">Press</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/blog">Blog</a></li>
+    <li><a href="/#contact">Contact</a></li>
+  </ul>
+  <a href="https://calendly.com/shilikajain/30min/" target="_blank" rel="noopener" class="nav-cta">
+    <span>Book a call</span>
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.4"/></svg>
+  </a>
+</nav>
+
+<header class="svc-header">
+  <div class="crumb">
+    <a href="/">Shilika Jain</a><span class="sep">/</span>
+    <a href="/apac">APAC</a><span class="sep">/</span>
+    <span>South Korea</span>
+  </div>
+  <div class="svc-meta-row">
+    <span class="svc-cat">COUNTRY</span>
+    <span>· SOUTH KOREA · FSC FRAME</span>
+    <span>· UPDATED JUNE 2026</span>
+    <span>· BY SHILIKA JAIN</span>
+  </div>
+  <h1 class="svc-headline">Korea PR for Web3 and AI founders who treat the FSC frame as <em>paragraph one</em>, not a footnote.</h1>
+  <p class="svc-sub">BloomingBit, TokenPost, BlockMedia, Coinness, CoinReaders, Yonhap, Chosun Biz, Maeil Business and Hankyung, plus the international tier-1 re-report. FSC-aware framing under the 2026 Digital Asset Basic Act track, the won-pegged stablecoin bill cycle and the Virtual Asset User Protection Act five-minute reconciliation regime. Korea Blockchain Week (Walkerhill, Sep 29 to Oct 1, 2026, Upbit Main Sponsor) and Korea Fintech Week event leverage, run from inside the region by one senior operator.</p>
+
+  <div class="answer-box">
+    <div class="ab-label">Direct answer</div>
+    <p>Korea PR for Web3 and AI in 2026 is a regulator-aware program with native-language placements. Lead with a Korean tier-1 trade exclusive in BloomingBit, TokenPost or BlockMedia for crypto-native stories, or Maeil Business and Hankyung for AI and enterprise stories. Run the international tier-1 re-report 24 hours behind. FSC framing on every press copy under the Digital Asset Basic Act track and the won-pegged stablecoin bill cycle, Korea Blockchain Week September to October 2026 event leverage baked into the calendar, and a KakaoTalk-open-chat plus Naver-Blog plus Telegram KOL wave timed to the embargo lift.</p>
+  </div>
+</header>
+
+<section class="stat-strip">
+  <div class="stat-grid">
+    <div class="stat-card">
+      <div class="stat-label">Verified crypto users South Korea 2026</div>
+      <div class="stat-num">6M+</div>
+      <div class="stat-src">~12% of population · one of the most active retail crypto markets · <a href="https://www.bitdegree.org/crypto/news/won-pegged-stablecoin-rules-set-to-hit-south-koreas-assembly-in-october" rel="noopener" target="_blank">BitDegree</a></div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Upbit + Bithumb domestic volume share</div>
+      <div class="stat-num">~96%</div>
+      <div class="stat-src">Effective duopoly · 20% ownership cap with 3-year clock · <a href="https://www.cryptotimes.io/2026/03/04/south-korea-sets-ownership-cap-for-upbit-and-bithumb/" rel="noopener" target="_blank">Crypto Times</a></div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">KBW 2026 dates</div>
+      <div class="stat-num">Sep 29 - Oct 1</div>
+      <div class="stat-src">Walkerhill Hotels &amp; Resorts · Upbit Main Sponsor · FACTBLOCK · <a href="https://www.dlnews.com/external/kbw-2026-returns-to-seoul-september-29october-1-upbit-joins-as-main-sponsor/" rel="noopener" target="_blank">DL News</a></div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Toss KRW stablecoin trademarks filed</div>
+      <div class="stat-num">24</div>
+      <div class="stat-src">Including TOSSKRW · L1 mainnet build confirmed Apr 2026 · <a href="https://news.bitcoin.com/south-korean-fintech-toss-targets-web3-finance-with-proprietary-mainnet-and-24-stablecoin-trademarks/" rel="noopener" target="_blank">Bitcoin.com News</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="svc-body-wrap">
+  <article class="svc-body">
+
+<h2>Who this is for</h2>
+
+<ul>
+  <li><strong>Korea-headquartered Web3 founders</strong> with an Upbit, Bithumb, Coinone or Korbit listing in motion, a KRW-stablecoin issuance plan, or an FSC-registered Virtual Asset Service Provider status confirmation in the press cycle. The brief's named ICP for the first push.</li>
+  <li><strong>Recently funded Korean Web3 and AI startups</strong> with no Korean press footprint yet beyond a Yonhap wire pickup. Series A and B teams entering the Korean trade-press cycle for the first time.</li>
+  <li><strong>Global Web3 founders preparing a Korea Blockchain Week keynote, side-event or token launch</strong> who need the five-week Korean embargo cycle run before September.</li>
+  <li><strong>AI startup CMOs entering Korea from a global hub</strong> who need Maeil Business, Hankyung, Chosun Biz and TechM ahead of a country-team build or a Samsung, LG, Naver, Kakao or SK partnership announcement.</li>
+  <li><strong>KRW-stablecoin and Project-Guardian-adjacent teams</strong> running institutional pilots under the won-pegged stablecoin bill cycle, where the press cycle requires named institutional partners and a named position on the FSC-versus-Bank-of-Korea debate.</li>
+  <li><strong>Cybersecurity vendors</strong> targeting Korean enterprise and FSS-regulated buyers, where TechM, Boannews, the IT Chosun beat and the FSS advisories cycle are the right press surface.</li>
+</ul>
+
+<h2>Why South Korea matters in 2026</h2>
+
+<ul>
+  <li><strong>The retail crypto market is one of the deepest in the world</strong>. South Korea has <a href="https://www.bitdegree.org/crypto/news/won-pegged-stablecoin-rules-set-to-hit-south-koreas-assembly-in-october" rel="noopener" target="_blank">more than 6 million verified crypto users</a> and the Upbit-Bithumb duopoly accounts for roughly 96 percent of domestic volume. A Korean exchange listing announcement is one of the highest-leverage single moments in the global crypto-trade press cycle.</li>
+  <li><strong>The regulator is moving fast</strong>. The <a href="https://reports.tiger-research.com/p/2026-korea-cryptocurrency-market-eng" rel="noopener" target="_blank">FSC is transforming the self-regulatory framework for digital asset exchanges into a public regulatory system</a>, with the Digital Asset Basic Act anticipated in 2026 as Phase 2 of the Virtual Asset User Protection Act. Press copy that gets this frame wrong reads as not-Korea-ready in the first paragraph.</li>
+  <li><strong>The KRW-stablecoin story is the live debate</strong>. The <a href="https://coinpedia.org/news/south-korea-moves-to-regulate-won-based-stablecoin-with-new-fsc-bill/" rel="noopener" target="_blank">FSC has indicated support for non-bank tech issuers</a>, while the Bank of Korea has pushed for 51 percent bank ownership. President Lee Jae-myung's ruling party committed to introducing a bill by early 2026. Toss filed 24 KRW stablecoin trademarks including TOSSKRW and confirmed an L1 mainnet build in April 2026. Kakao Bank and Kookmin Bank are reportedly preparing applications. Every payments, stablecoin or RWA announcement in 2026 reads inside this debate.</li>
+  <li><strong>Upbit and Bithumb are reshaping under the 20 percent ownership cap</strong>. South Korea set a <a href="https://www.cryptotimes.io/2026/03/04/south-korea-sets-ownership-cap-for-upbit-and-bithumb/" rel="noopener" target="_blank">20 percent ownership cap for crypto exchanges with a 3-year grace period</a>. Bithumb is pursuing a KOSDAQ listing first with a US listing as the secondary objective. Token issuers are reading both exchanges weekly for listing-pipeline status, governance shifts and shareholder structure.</li>
+  <li><strong>Korea Blockchain Week is the single biggest APAC crypto-press cycle of the year</strong>. KBW 2026 runs <a href="https://www.dlnews.com/external/kbw-2026-returns-to-seoul-september-29october-1-upbit-joins-as-main-sponsor/" rel="noopener" target="_blank">September 29 to October 1, 2026 at Walkerhill Hotels and Resorts with Upbit as Main Sponsor and FACTBLOCK as producer</a>. The three-day format opens with a private institutional forum for policymakers and senior leaders before the open conference. Press demand outstrips supply by 3 to 4x. Briefings have to start in mid-August.</li>
+  <li><strong>Crypto volumes rotated into equities in 2026, which makes positioning harder</strong>. The <a href="https://beincrypto.com/south-korea-stock-crash-crypto-surge/" rel="noopener" target="_blank">KOSPI doubled in 2026 and Korean crypto trading volumes fell roughly 80 percent</a> as won liquidity rotated into Korean equities. Korean retail attention is harder to win, which is why press copy that opens with named exchange-listing status, a KRW-stablecoin position or a named institutional partner outperforms generic launch press by a wide margin.</li>
+</ul>
+
+<h2>The Korean outlet map for 2026</h2>
+
+<table>
+  <thead>
+    <tr><th>Outlet</th><th>Read by</th><th>What they ask first</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>BloomingBit</strong></td>
+      <td>Korean crypto-native trade and retail readership</td>
+      <td>Token detail, exchange listing status, Korean-press founder headshot, KRW pair availability</td>
+    </tr>
+    <tr>
+      <td><strong>TokenPost</strong></td>
+      <td>Korean crypto-native professional readership</td>
+      <td>FSC framing, exchange listing pipeline, founder credentials, Korean partner anchor</td>
+    </tr>
+    <tr>
+      <td><strong>BlockMedia</strong></td>
+      <td>Korean Web3 trade readership</td>
+      <td>Tokenomics depth, institutional partner, regulatory position, Korean-language quote</td>
+    </tr>
+    <tr>
+      <td><strong>Coinness</strong></td>
+      <td>Korean fast-moving crypto news desk</td>
+      <td>Newswire-style first paragraph, Korean exchange impact, market-data hook</td>
+    </tr>
+    <tr>
+      <td><strong>CoinReaders</strong></td>
+      <td>Korean crypto-native readership with retail tilt</td>
+      <td>Founder profile, retail-investor implication, Korean KOL voice anchor</td>
+    </tr>
+    <tr>
+      <td><strong>Yonhap News (Yonhap Infomax)</strong></td>
+      <td>Korean wire service · mainstream pickup feeder</td>
+      <td>Public-interest framing, government-and-regulator angle, named-investor or named-customer hook</td>
+    </tr>
+    <tr>
+      <td><strong>Chosun Biz</strong></td>
+      <td>Korean mainstream business readership</td>
+      <td>Round detail, Korean lead-investor or customer, regional growth thesis</td>
+    </tr>
+    <tr>
+      <td><strong>Maeil Business (MK)</strong></td>
+      <td>Korean senior business and finance readership</td>
+      <td>Enterprise-customer-name framing, financial-services partner, institutional capital impact</td>
+    </tr>
+    <tr>
+      <td><strong>Hankyung (Korea Economic Daily)</strong></td>
+      <td>Korean business and capital-markets readership</td>
+      <td>KOSDAQ/KOSPI tie-in where relevant, IPO and listing pipeline, regulatory note</td>
+    </tr>
+    <tr>
+      <td><strong>Hankyoreh, JoongAng Ilbo, Donga Ilbo</strong></td>
+      <td>Korean national mainstream readership</td>
+      <td>Public-interest angle, consumer-protection note, regulator-and-policy frame</td>
+    </tr>
+    <tr>
+      <td><strong>TechM, IT Chosun, Boannews</strong></td>
+      <td>Korean tech trade, AI/SaaS, cybersecurity beats</td>
+      <td>Category-context framing, Korean partner anchor, FSS or KISA advisory tie-in for cyber</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>The Korean press sequence that actually works</h2>
+
+<p>Korean press is a closed citation graph. Korean trade outlets read each other, the wires read the trade, the mainstream reads the wires, and the FSC reads everything before it appears in the global trade press. A press copy that lands first in BloomingBit, TokenPost or BlockMedia carries built-in credibility for the re-report wave that follows.</p>
+
+<p>A 14 to 21 day Single-Market Launch Sprint for a Korea-anchored announcement:</p>
+
+<ul>
+  <li><strong>Days 1 to 4</strong>. Pull the Korean exchange-listing landscape; identify the Korean lead-investor, exchange-listing-pipeline or partner credibility anchor; choose 6 to 9 outlets to target (a tier-1 trade lead like BloomingBit, TokenPost or BlockMedia, two re-report destinations like Coinness and CoinReaders, two newsletter or KakaoTalk-channel stops, two named YouTube or Naver-Blog KOL voices); draft the Korean press kit with the FSC five-minute reconciliation framing, the position on the won-pegged stablecoin bill cycle and the Korean-language quote and headshot for the lead.</li>
+  <li><strong>Days 5 to 10</strong>. Brief the Korean tier-1 trade lead under a 5-day embargo. Brief Korean re-report destinations 48 hours behind. Brief the international tier-1 re-report (CoinDesk, Cointelegraph, The Block, AI Magazine, TechCrunch) 24 hours behind the Korean lift. Brief 4 to 8 named Korean KOL voices on KakaoTalk open chats, Naver Blogs, YouTube and Telegram for coordinated activation. Coordinate a Korean-press founder headshot, a Korean-language one-line quote and (if relevant) the Korean exchange-status confirmation.</li>
+  <li><strong>Days 11 to 16</strong>. Embargo lifts at 10 AM KST on a Tuesday or Wednesday. Tier-1 trade leads land at 10 AM, Korean re-reports follow inside the same day, mainstream Korean pickups (Yonhap, Chosun Biz, Maeil Business) lift between 12 PM and 4 PM KST, international tier-1 re-report lifts at 9 PM ET the same evening (10 AM KST next day). KOL wave times to the Korean lift. Founder LinkedIn post and X post timed to the Korean exclusive, with a Korean-language version pinned to the Korean-audience handle.</li>
+  <li><strong>Days 17 to 21</strong>. Named placements landed, audience overlap report, Korean and regional search-impressions delta, sentiment on the FSC framing, post-KBW or post-Fintech-Week follow-on coverage where applicable, and a renew-or-kill call per KOL on the wave.</li>
+</ul>
+
+<h2>The Korean events calendar Shilika maps to</h2>
+
+<ul>
+  <li><strong>Korea Blockchain Week 2026 (Walkerhill, 29 September to 1 October 2026)</strong>. The biggest single APAC crypto-press cycle of the year. Upbit is Main Sponsor. The three-day format opens with a private institutional forum for policymakers and senior leaders before the open conference. Pre-event embargoed BloomingBit, TokenPost or BlockMedia exclusive, founder on-stage moment, side-event press wave, post-event tier-1 international re-report on the Friday.</li>
+  <li><strong>Korea Fintech Week (FSC and FSS, autumn 2026)</strong>. The most-watched FSC calendar moment of the year. The right cycle for KRW-stablecoin, payments, RWA and Project-Guardian-adjacent institutional partner announcements. Maeil Business and Yonhap exclusive lead, BlockMedia and Coinness re-reports for the crypto-native depth.</li>
+  <li><strong>Upbit D Conference and Bithumb Connect</strong>. The single-exchange ecosystem events that double as listing-pipeline signaling moments. The right cycle for token issuers in the listing-pipeline window.</li>
+  <li><strong>BUIDL Asia Seoul (every KBW week)</strong>. The institutional and protocol side-event circuit. The right cycle for L1, L2 and infrastructure founders running a closed-door institutional brief on top of the open-doors KBW keynote.</li>
+  <li><strong>WAGMI Seoul, BeyondBlocks, ETH Seoul</strong>. The community side-event circuit. The right cycle for retail-investor and developer-audience announcements that need a Korean engineering-and-builder headline rather than a regulator-and-exchange headline.</li>
+</ul>
+
+<h2>FSC, DABA and the won-pegged stablecoin bill cycle</h2>
+
+<p>Every Korean press announcement Shilika ships in 2026 carries an FSC-aware framing line. The relevant frames:</p>
+
+<ul>
+  <li><strong>The Digital Asset Basic Act (DABA)</strong>. <a href="https://reports.tiger-research.com/p/2026-korea-cryptocurrency-market-eng" rel="noopener" target="_blank">Phase 2 of the Virtual Asset User Protection Act, anticipated in 2026</a>. Press copy for any digital-asset business has to confirm FSC-registered VASP status, the relevant Travel Rule position and the five-minute reconciliation regime in the lead paragraphs.</li>
+  <li><strong>The won-pegged stablecoin bill cycle</strong>. The <a href="https://coinpedia.org/news/south-korea-moves-to-regulate-won-based-stablecoin-with-new-fsc-bill/" rel="noopener" target="_blank">FSC bill requires 100 percent reserves in safe assets such as bank deposits or government bonds with full custody by banks</a>. The Bank of Korea pushed for 51 percent bank ownership. The ruling party committed to introducing a bill in early 2026 per the Lee Jae-myung manifesto. Toss, Kakao Bank and Kookmin Bank are reportedly preparing applications. Stablecoin issuance announcements have to confirm position vis-a-vis the bill.</li>
+  <li><strong>The 20 percent ownership cap for crypto exchanges</strong>. <a href="https://www.cryptotimes.io/2026/03/04/south-korea-sets-ownership-cap-for-upbit-and-bithumb/" rel="noopener" target="_blank">A 3-year grace period from the date the law takes effect</a>. Upbit and Bithumb together account for around 90 percent of Korean domestic volume. Listing-pipeline framing has to acknowledge the ownership-cap context.</li>
+  <li><strong>The Bithumb KOSDAQ listing track</strong>. <a href="https://thepaypers.com/crypto-web3-and-cbdc/news/bithumb-reorganises-its-business-structure-to-focus-on-ipo" rel="noopener" target="_blank">Bithumb is pursuing a KOSDAQ listing first with a US listing as the secondary objective</a>, with the timeline pushed into 2026. Any Bithumb-pair listing announcement reads inside this frame.</li>
+  <li><strong>The Toss L1 and KRW-stablecoin precedent</strong>. <a href="https://news.bitcoin.com/south-korean-fintech-toss-targets-web3-finance-with-proprietary-mainnet-and-24-stablecoin-trademarks/" rel="noopener" target="_blank">Toss confirmed an L1 mainnet build and 24 KRW stablecoin trademarks including TOSSKRW</a> in April 2026 and is targeting a US IPO in 2026 above a 10-billion-dollar valuation. Any Korean fintech-meets-Web3 announcement reads against this precedent.</li>
+  <li><strong>FSS, KISA and the cyber beat</strong>. Cybersecurity press copy has to name the FSS guidance and any KISA advisory the announcement intersects with. Boannews, TechM and IT Chosun are reading both beats weekly.</li>
+</ul>
+
+<callout>
+  <strong>Field note</strong>
+  Korean press in 2026 wants to know the FSC position and the exchange-listing status before they want to know the cap-table. The Digital Asset Basic Act readiness line is the first paragraph, not the disclosure footnote. A confirmed Upbit, Bithumb or Coinone listing date in the lead is worth two US tier-1 VCs further down.
+</callout>
+
+<h2>The Korean KOL layer that actually moves Korean retail</h2>
+
+<p>Korean crypto KOLs operate on four primary platforms in 2026, and the platform mix decides cost-effectiveness:</p>
+
+<ul>
+  <li><strong>KakaoTalk open chat rooms</strong>. The primary hub for Korean crypto community discussions, outpacing Telegram and Discord in local engagement. Channel-manager deliverables are time-sensitive and ideal for AMA announcements, exchange listings and airdrop campaigns.</li>
+  <li><strong>Naver Blogs</strong>. The dominant Korean information surface. Naver Blog thought leaders command respect through detailed, SEO-optimized written content and are excellent for explaining tokenomics, technical architecture and long-term roadmaps. Naver Blog content compounds in Korean-language AI search citations.</li>
+  <li><strong>YouTube</strong>. The most visible Korean crypto KOL surface. Project reviews, technical analysis videos and market commentary. Highest-priced layer.</li>
+  <li><strong>Telegram and X-Korea</strong>. For cross-border audience overlap with the global Web3 ecosystem and the global-Korean diaspora. Lower cost than Naver and YouTube, higher overlap with international retail.</li>
+</ul>
+
+<h2>The AI search layer for Korean audiences</h2>
+
+<p>Korean audiences searching in Korean and English see a mix of Naver, Kakao Brain, Google AI Mode, ChatGPT, Perplexity and Claude responses on Web3, AI and fintech queries. Per <a href="https://developers.google.com/search/docs/fundamentals/ai-optimization-guide" rel="noopener" target="_blank">Google's AI optimization guide</a>, non-commodity content with named-expert bylines and strong E-E-A-T signals wins citations on these surfaces, and Korean press placements in BloomingBit, TokenPost, BlockMedia, Coinness, CoinReaders, Yonhap, Chosun Biz and Maeil Business carry exactly that signal. Per <a href="https://developers.google.com/search/docs/fundamentals/using-gen-ai-content" rel="noopener" target="_blank">Google's gen-AI content guidance</a>, originality, named expertise and substantive review are the bar regardless of language.</p>
+
+<p>The <a href="https://arxiv.org/abs/2311.09735" rel="noopener" target="_blank">Princeton GEO study (Aggarwal et al., arXiv:2311.09735)</a> found pages combining citations, statistics and named quotations get cited 30 to 40 percent more by generative engines, and the dynamic holds for Korean-language AI search too. A campaign that earns a named-byline placement in BloomingBit, TokenPost or BlockMedia and a Naver Blog companion piece, then re-reports across Coinness, Yonhap and Maeil Business, builds the citation graph that ChatGPT, Perplexity and Naver Cue rank against on "best Web3 PR agency Korea", "KRW stablecoin licence", "Upbit listing", "Korea Blockchain Week announcement" and "DABA compliance" queries.</p>
+
+<h2>How to start</h2>
+
+<p>Book a 30-minute teardown. We look at whether Korea is the right first push for the next 90 days based on your actual fact set, which Korean outlets map to your audience, the FSC framing your press copy will need under the Digital Asset Basic Act track and the won-pegged stablecoin bill cycle, the Korea Blockchain Week or Korea Fintech Week cycle that should anchor the launch, the named Korean KOL voices that fit the brief, and which engagement shape (Quarterly Retainer, Single-Market Sprint or Always-On Coordinator) is the right one for your cycle. By the end of the call you will know whether the budget belongs in a Korea push this quarter or somewhere else entirely.</p>
+
+  </article>
+
+  <aside class="faq-block">
+    <h2>Frequently asked questions</h2>
+    <p class="faq-q">What does a Korea Web3 or AI PR program actually cover?</p>
+    <p class="faq-a">Seven workstreams. One: Korean tier-1 trade exclusive with BloomingBit, TokenPost, BlockMedia, Coinness or CoinReaders depending on the audience, or a mainstream lead with Yonhap, Chosun Biz, Maeil Business or Hankyung for a non-crypto-native story. Two: Korean re-report wave across the remaining trade and mainstream outlets timed to lift inside the same day as the exclusive. Three: tier-1 international re-report through CoinDesk, Cointelegraph, The Block, Decrypt, AI Magazine or TechCrunch 24 hours behind the Korean lift. Four: FSC-aware framing baked into every press copy under the 2026 Digital Asset Basic Act track, the Virtual Asset User Protection Act five-minute reconciliation regime and the won-pegged stablecoin bill cycle. Five: Korean KOL voices on KakaoTalk open chats, Naver Blogs, Telegram and YouTube with FTC-and-FSC-aware briefs. Six: on-ground event leverage at Korea Blockchain Week (Walkerhill, Sep 29 to Oct 1 2026) and Korea Fintech Week. Seven: founder LinkedIn and X-Korea activation timed to the press cycle, plus a Korean-language quote and headshot for the lead.</p>
+    <p class="faq-q">How much does Korea Web3 or AI PR cost in 2026?</p>
+    <p class="faq-a">Three commercial models. Korea Quarterly Retainer runs 5,500 to 12,000 US dollars per month over three to six months and covers one to two named-Korea placements per quarter plus the international re-report wave. Korea Single-Market Launch Sprint runs 11,000 to 30,000 US dollars total for one focused 14 to 21 day window timed to an Upbit or Bithumb listing, a KBW keynote, an FSC milestone or a Series A or B raise. Always-On Korea Coordinator runs 3,000 US dollars per month with a three-month minimum. KOL fees sit on top. Published 2026 Korean crypto KOL rates run nano 300 to 2,000 US dollars per deliverable, micro 1,000 to 8,000, mid 10,000 to 30,000, macro 25,000 to 100,000 plus, with a Korea Blockchain Week event-week premium of 30 to 50 percent on every tier and a separate KakaoTalk-channel deliverable as the most cost-efficient regional unlock.</p>
+    <p class="faq-q">Why does Korean press want the FSC framing inside the first three paragraphs?</p>
+    <p class="faq-a">Because Korean press treats the regulator as a participant in the story, not a backdrop. BloomingBit, TokenPost, BlockMedia, Coinness and CoinReaders read every Web3 announcement against the Virtual Asset User Protection Act five-minute reconciliation regime, the 2026 Digital Asset Basic Act track, the won-pegged stablecoin bill cycle, the 20 percent ownership cap on crypto exchanges and the Travel Rule. Press copy that buries the regulator paragraph reads as either uninformed of the Korean retail-protection bar or evasive. Conversely, press copy that opens with the right FSC frame and confirms exchange-listing or partner status signals founder credibility before any product detail. The FSC versus Bank of Korea debate over stablecoin issuance is the single most-watched regulatory storyline in Korea in 2026.</p>
+    <p class="faq-q">How does Korea Blockchain Week change the press calendar for a Web3 founder?</p>
+    <p class="faq-a">Korea Blockchain Week 2026 runs September 29 to October 1, 2026 at Walkerhill Hotels and Resorts in Seoul, with Upbit as the Main Sponsor and FACTBLOCK as the producer. The three-day format starts with a private institutional forum for policymakers, financial institutions and senior industry leaders before the open conference begins. The press cycle starts five weeks out with embargo briefings to BloomingBit, TokenPost and BlockMedia, lifts on the Monday before the event with a Korean tier-1 trade exclusive, runs side-event coverage through the conference and closes with a post-event international re-report on the Friday. KBW press demand outstrips supply by 3 to 4x, which is why the briefings start in mid-August.</p>
+    <p class="faq-q">Does Korea PR earn AI search citations in Korean and English AI engines?</p>
+    <p class="faq-a">Yes. Korean audiences searching in Korean and English see a mix of Naver, Kakao Brain, Google AI Mode, ChatGPT, Perplexity and Claude responses on Web3, AI and fintech queries. Named-byline placements in BloomingBit, TokenPost, BlockMedia, Coinness, CoinReaders, Yonhap, Chosun Biz and Maeil Business carry the named-expertise and E-E-A-T signal Google explicitly names in its AI optimization guide. The Princeton GEO study found pages combining citations, statistics and named quotations get cited 30 to 40 percent more by generative engines, and the dynamic holds for Korean-language AI search queries on best Web3 PR agency Korea, KRW stablecoin licence and Korea Blockchain Week announcement, where Naver Blog thought-leadership content compounds with the trade-press citation graph.</p>
+    <p class="faq-q">Which Korean outlets are the right exclusives for an AI startup versus a Web3 startup?</p>
+    <p class="faq-a">For an AI startup with an enterprise customer announcement, Maeil Business or Hankyung for the customer-name framing in Korean mainstream business press. For an AI startup raising a Series A or B, Chosun Biz or Hankyung Business for the funding lead with Yonhap as the wire and TechM as the trade re-report. For a Web3 startup announcing an Upbit, Bithumb or Coinone listing, BloomingBit or TokenPost for the trade lead with Cointelegraph and CoinDesk re-reports 24 hours behind. For a Web3 startup launching a KBW keynote, an embargoed BlockMedia exclusive five days ahead followed by an international tier-1 re-report timed to the keynote. For a KRW-stablecoin or Project Guardian-adjacent institutional partner story, Maeil Business or Yonhap for the institutional-partner-name lead, with Coinness for the crypto-native depth.</p>
+    <p class="faq-q">How does the FSC versus Bank of Korea stablecoin debate change Korean press copy in 2026?</p>
+    <p class="faq-a">It moves the regulator paragraph from a footnote to the lead. The FSC has indicated support for allowing non-bank tech companies to issue won-pegged stablecoins, while the Bank of Korea has argued only banks with 51 percent ownership should be permitted. The ruling party committed to introducing a bill in early 2026 in line with the manifesto from President Lee Jae-myung, and the bill requires 100 percent reserves in safe assets such as bank deposits or government bonds with full custody by banks. Toss filed 24 KRW stablecoin trademarks including TOSSKRW in June 2025 and confirmed an L1 mainnet build in April 2026. Any KRW-stablecoin, payments or RWA announcement in 2026 reads inside this debate, not next to it. Press copy that names a position vis-a-vis the FSC bill, the BOK objection, the Toss precedent and the Kakao Bank or Kookmin Bank application is treated as informed, and press copy that does not is treated as not.</p>
+  </aside>
+
+  <div class="author-block">
+    <div class="author-avatar">SJ</div>
+    <div>
+      <div class="author-name">Shilika Jain</div>
+      <p class="author-bio">Fractional PR Manager for Web3, AI and cybersecurity founders. 50+ protocols placed across Forbes, CoinDesk, Cointelegraph, Decrypt, The Block, Blockworks, AI Magazine, plus APAC tier-1 placements across BloomingBit, TokenPost, BlockMedia, The Business Times, DealStreetAsia and Inc42. APAC PR &amp; Partnerships at Myosin (a growth-marketing DAO). Previously at CoinMarketCap. <a href="/about">View full profile →</a> · <a href="https://www.linkedin.com/in/shilika/" rel="noopener" target="_blank">LinkedIn</a> · <a href="https://x.com/Shilika_jain" rel="noopener" target="_blank">X</a></p>
+    </div>
+  </div>
+
+  <div class="related-block">
+    <h3>Related reading</h3>
+    <div class="related-grid">
+      <a href="/apac" class="related-card">
+        <div class="related-kicker">Region · 9 min</div>
+        <div class="related-title">APAC PR: six markets across Asia plus MENA</div>
+      </a>
+      <a href="/services/apac-pr" class="related-card">
+        <div class="related-kicker">Service · 10 min</div>
+        <div class="related-title">APAC PR service: all markets on one page</div>
+      </a>
+      <a href="/singapore" class="related-card">
+        <div class="related-kicker">Country · 9 min</div>
+        <div class="related-title">Singapore PR: MAS framing and Token2049 calendar</div>
+      </a>
+      <a href="/india" class="related-card">
+        <div class="related-kicker">Country · 9 min</div>
+        <div class="related-title">India PR: home-market exclusive before the international re-report</div>
+      </a>
+      <a href="/dubai-mena" class="related-card">
+        <div class="related-kicker">Country · 10 min</div>
+        <div class="related-title">Dubai &amp; MENA PR: VARA, ADGM, RAK DAO framing</div>
+      </a>
+      <a href="/japan" class="related-card">
+        <div class="related-kicker">Country · NEW · 11 min</div>
+        <div class="related-title">Japan PR: FSA, FIEA, WebX Tokyo, NISA spot ETF channel</div>
+      </a>
+      <a href="/services/token-launch-pr" class="related-card">
+        <div class="related-kicker">Service · TGE</div>
+        <div class="related-title">Token Launch PR: Upbit and Bithumb listing-pipeline framing</div>
+      </a>
+      <a href="/playbook/apac-pr-playbook-2026" class="related-card">
+        <div class="related-kicker">Playbook · 11 min</div>
+        <div class="related-title">APAC PR Playbook 2026: Korea, Japan, Vietnam, India</div>
+      </a>
+    </div>
+  </div>
+
+</section>
+
+<section class="cta-strip">
+  <h3>Book a 30-minute <em>teardown</em>.</h3>
+  <a href="https://calendly.com/shilikajain/30min/" target="_blank" rel="noopener" class="cta-strip-btn">
+    Book a call
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.4"/></svg>
+  </a>
+</section>
+
+<footer class="footer">
+  <div class="footer-row">
+    <span>© 2026 SHILIKA JAIN · FRACTIONAL PR</span>
+    <span class="footer-modified">UPDATED 2026-06-02</span>
+    <span><a href="/about">About</a> · <a href="/blog">Blog</a> · <a href="/#contact">Contact</a> · <a href="https://www.linkedin.com/in/shilika/" target="_blank" rel="noopener">LinkedIn</a></span>
+  </div>
+</footer>

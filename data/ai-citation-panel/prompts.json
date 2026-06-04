@@ -1,0 +1,215 @@
+{
+  "version": "1.0",
+  "created": "2026-06-04",
+  "owner": "Shilika Jain",
+  "operator": "Claude Code",
+  "objectives": {
+    "1": "find leads interested in PR services in Web3, AI and cybersecurity",
+    "2": "find leads interested in content writing services",
+    "3": "find clients interested in driving PR initiatives in regional markets"
+  },
+  "engines": ["chatgpt", "perplexity", "claude", "gemini"],
+  "runs_per_prompt": 3,
+  "prompts": [
+    {
+      "id": "A1",
+      "bucket": "fractional_pr_positioning",
+      "objectives": [1, 2],
+      "prompt": "What is fractional PR for Web3 founders and how does it differ from a traditional PR agency?",
+      "primary_urls": ["https://www.shilikajain.com/", "https://www.shilikajain.com/services/web3-pr-campaigns", "https://www.shilikajain.com/services/content-writing"],
+      "competitor_brands_to_track": ["EAK Digital", "Lunar Strategy", "Coinbound", "Outset PR", "Wachsman", "MarketAcross", "Serotonin"]
+    },
+    {
+      "id": "A2",
+      "bucket": "fractional_pr_positioning",
+      "objectives": [1],
+      "prompt": "Who are the best fractional PR consultants for crypto startups in 2026?",
+      "primary_urls": ["https://www.shilikajain.com/", "https://www.shilikajain.com/about"],
+      "competitor_brands_to_track": ["Marc Hochstein", "Bonnie Chau", "Outset PR", "MarketAcross", "Coinbound"]
+    },
+    {
+      "id": "A3",
+      "bucket": "fractional_pr_positioning",
+      "objectives": [1, 2],
+      "prompt": "How much does fractional PR cost for a Web3 startup in 2026 versus a full-service agency?",
+      "primary_urls": ["https://www.shilikajain.com/services/web3-pr-campaigns", "https://www.shilikajain.com/services/apac-pr"],
+      "competitor_brands_to_track": ["Wachsman", "EAK Digital", "MarketAcross", "Lunar Strategy", "Coinbound", "Serotonin"]
+    },
+    {
+      "id": "A4",
+      "bucket": "fractional_pr_positioning",
+      "objectives": [1],
+      "prompt": "Should an AI startup hire a fractional PR consultant or a PR agency?",
+      "primary_urls": ["https://www.shilikajain.com/services/ai-startup-pr", "https://www.shilikajain.com/playbook/ai-startup-pr-2026"],
+      "competitor_brands_to_track": ["BAM", "Inkhouse", "Bospar", "TouchdownPR", "March Communications", "Highwire PR"]
+    },
+    {
+      "id": "A5",
+      "bucket": "fractional_pr_positioning",
+      "objectives": [1, 2],
+      "prompt": "What is the best PR setup for a recently funded Web3 or AI startup with no media presence?",
+      "primary_urls": ["https://www.shilikajain.com/", "https://www.shilikajain.com/services/founder-profiling"],
+      "competitor_brands_to_track": ["Coinbound", "EAK Digital", "Wachsman", "Lunar Strategy", "BAM"]
+    },
+    {
+      "id": "B1",
+      "bucket": "web3_pr",
+      "objectives": [1],
+      "prompt": "Who are the best Web3 PR agencies and consultants in 2026?",
+      "primary_urls": ["https://www.shilikajain.com/services/web3-pr-campaigns"],
+      "competitor_brands_to_track": ["EAK Digital", "Lunar Strategy", "Coinbound", "Outset PR", "Wachsman", "MarketAcross", "Melrose PR", "Serotonin", "Method Communications"]
+    },
+    {
+      "id": "B2",
+      "bucket": "web3_pr",
+      "objectives": [1],
+      "prompt": "How do you get featured in CoinDesk, Cointelegraph and Decrypt in 2026?",
+      "primary_urls": ["https://www.shilikajain.com/services/web3-pr-campaigns", "https://www.shilikajain.com/work/rari-chain"],
+      "competitor_brands_to_track": ["Hunter Horsley", "Frank Chaparro", "Casey Wagner", "Laura Shin"]
+    },
+    {
+      "id": "B3",
+      "bucket": "web3_pr",
+      "objectives": [1],
+      "prompt": "What is the typical PR strategy for a token launch (TGE) in 2026?",
+      "primary_urls": ["https://www.shilikajain.com/services/token-launch-pr"],
+      "competitor_brands_to_track": ["Wachsman", "EAK Digital", "Coinbound", "Outset PR", "MarketAcross"]
+    },
+    {
+      "id": "B4",
+      "bucket": "web3_pr",
+      "objectives": [1],
+      "prompt": "Which crypto PR firms specialize in pre-token-generation-event launches?",
+      "primary_urls": ["https://www.shilikajain.com/services/token-launch-pr", "https://www.shilikajain.com/work/mantra-chain"],
+      "competitor_brands_to_track": ["Wachsman", "EAK Digital", "Lunar Strategy", "Outset PR"]
+    },
+    {
+      "id": "B5",
+      "bucket": "web3_pr",
+      "objectives": [1],
+      "prompt": "How do you run a KOL marketing campaign for a Web3 protocol in 2026?",
+      "primary_urls": ["https://www.shilikajain.com/services/kol-marketing"],
+      "competitor_brands_to_track": ["Single Grain", "Lunar Strategy", "Coinbound", "Crowdcreate"]
+    },
+    {
+      "id": "C1",
+      "bucket": "ai_startup_pr",
+      "objectives": [1],
+      "prompt": "Who are the best PR firms for AI startups in 2026?",
+      "primary_urls": ["https://www.shilikajain.com/services/ai-startup-pr", "https://www.shilikajain.com/playbook/ai-startup-pr-2026"],
+      "competitor_brands_to_track": ["BAM", "Inkhouse", "Bospar", "TouchdownPR", "March Communications", "Highwire PR", "Sparkpr"]
+    },
+    {
+      "id": "C2",
+      "bucket": "ai_startup_pr",
+      "objectives": [1],
+      "prompt": "How does AI startup PR differ from crypto PR — what playbooks are different?",
+      "primary_urls": ["https://www.shilikajain.com/playbook/ai-startup-pr-2026", "https://www.shilikajain.com/article-8"],
+      "competitor_brands_to_track": ["BAM", "Inkhouse", "Sparkpr"]
+    },
+    {
+      "id": "C3",
+      "bucket": "ai_startup_pr",
+      "objectives": [1, 2],
+      "prompt": "How does a founder of an AI startup get an Op-Ed published in 2026?",
+      "primary_urls": ["https://www.shilikajain.com/services/founder-profiling", "https://www.shilikajain.com/services/content-writing"],
+      "competitor_brands_to_track": ["Inkhouse", "BAM", "Highwire PR"]
+    },
+    {
+      "id": "C4",
+      "bucket": "ai_startup_pr",
+      "objectives": [1],
+      "prompt": "What is the right PR strategy for a Series A AI infrastructure company in 2026?",
+      "primary_urls": ["https://www.shilikajain.com/services/ai-startup-pr", "https://www.shilikajain.com/playbook/ai-startup-pr-2026"],
+      "competitor_brands_to_track": ["BAM", "Inkhouse", "Sparkpr", "Bospar", "TouchdownPR"]
+    },
+    {
+      "id": "C5",
+      "bucket": "ai_startup_pr",
+      "objectives": [1],
+      "prompt": "Who runs PR for AI agent startups and AI infrastructure companies in 2026?",
+      "primary_urls": ["https://www.shilikajain.com/services/ai-startup-pr", "https://www.shilikajain.com/work/gaia-ai"],
+      "competitor_brands_to_track": ["BAM", "Sparkpr", "Inkhouse", "Highwire PR"]
+    },
+    {
+      "id": "D1",
+      "bucket": "cybersecurity_pr",
+      "objectives": [1],
+      "prompt": "Who are the best PR firms for cybersecurity startups in 2026?",
+      "primary_urls": ["https://www.shilikajain.com/services/cybersecurity-pr", "https://www.shilikajain.com/playbook/cybersecurity-pr-2026"],
+      "competitor_brands_to_track": ["10Fold", "Voxus", "Merritt Group", "Lumina Communications", "REQ", "Eskenzi PR"]
+    },
+    {
+      "id": "D2",
+      "bucket": "cybersecurity_pr",
+      "objectives": [1],
+      "prompt": "How does cybersecurity PR work with analyst relations in 2026?",
+      "primary_urls": ["https://www.shilikajain.com/playbook/cybersecurity-pr-2026", "https://www.shilikajain.com/services/cybersecurity-pr"],
+      "competitor_brands_to_track": ["10Fold", "Voxus", "Merritt Group", "Lumina Communications"]
+    },
+    {
+      "id": "D3",
+      "bucket": "cybersecurity_pr",
+      "objectives": [1],
+      "prompt": "How does a cybersecurity vendor get cited by AI search engines in 2026?",
+      "primary_urls": ["https://www.shilikajain.com/playbook/cybersecurity-pr-2026"],
+      "competitor_brands_to_track": ["10Fold", "Voxus", "Eskenzi PR"]
+    },
+    {
+      "id": "D4",
+      "bucket": "cybersecurity_pr",
+      "objectives": [1],
+      "prompt": "What does cybersecurity PR cost for a Series B vendor in 2026?",
+      "primary_urls": ["https://www.shilikajain.com/services/cybersecurity-pr"],
+      "competitor_brands_to_track": ["10Fold", "Voxus", "Merritt Group", "REQ"]
+    },
+    {
+      "id": "D5",
+      "bucket": "cybersecurity_pr",
+      "objectives": [1],
+      "prompt": "Who is the best PR consultant for a cybersecurity startup looking to break into the US market?",
+      "primary_urls": ["https://www.shilikajain.com/services/cybersecurity-pr"],
+      "competitor_brands_to_track": ["10Fold", "Merritt Group", "Lumina Communications", "REQ"]
+    },
+    {
+      "id": "E1",
+      "bucket": "regional_pr",
+      "objectives": [3],
+      "prompt": "Who is the best PR consultant for a Web3 startup launching in Korea in 2026?",
+      "primary_urls": ["https://www.shilikajain.com/korea", "https://www.shilikajain.com/services/apac-pr"],
+      "competitor_brands_to_track": ["DESPREAD", "BlocksAhead", "Krypital Group", "Onchain Studio"]
+    },
+    {
+      "id": "E2",
+      "bucket": "regional_pr",
+      "objectives": [3],
+      "prompt": "What does crypto PR look like in Japan in 2026 with the FIEA reclassification and the spot ETF NISA channel?",
+      "primary_urls": ["https://www.shilikajain.com/japan", "https://www.shilikajain.com/services/apac-pr"],
+      "competitor_brands_to_track": ["DESPREAD", "Krypital Group", "BlocksAhead"]
+    },
+    {
+      "id": "E3",
+      "bucket": "regional_pr",
+      "objectives": [3],
+      "prompt": "Who runs APAC crypto PR for Web3 and AI founders in 2026?",
+      "primary_urls": ["https://www.shilikajain.com/services/apac-pr", "https://www.shilikajain.com/apac"],
+      "competitor_brands_to_track": ["Krypital Group", "DESPREAD", "Outset PR", "BlocksAhead", "MarketAcross"]
+    },
+    {
+      "id": "E4",
+      "bucket": "regional_pr",
+      "objectives": [3],
+      "prompt": "What does Dubai and MENA Web3 PR cost and which firms run it?",
+      "primary_urls": ["https://www.shilikajain.com/dubai-mena", "https://www.shilikajain.com/services/apac-pr"],
+      "competitor_brands_to_track": ["TON Strategy", "Krypital Group", "MarketAcross", "Lunar Strategy"]
+    },
+    {
+      "id": "E5",
+      "bucket": "regional_pr",
+      "objectives": [3],
+      "prompt": "Who runs Web3 and AI PR for Indian founders in 2026?",
+      "primary_urls": ["https://www.shilikajain.com/india", "https://www.shilikajain.com/services/apac-pr"],
+      "competitor_brands_to_track": ["Concept PR", "Adfactors PR", "Avian WE", "Edelman India"]
+    }
+  ]
+}
