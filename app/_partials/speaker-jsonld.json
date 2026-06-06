@@ -1,0 +1,141 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://www.shilikajain.com/speaker#service",
+      "name": "Speaker bookings — Shilika Jain",
+      "alternateName": ["Web3 speaker", "AI startup PR speaker", "Cybersecurity PR speaker", "APAC PR speaker", "Crypto KOL speaker"],
+      "serviceType": "Speaker bookings",
+      "category": "Speaker",
+      "description": "Keynote, panel, fireside chat, workshop, podcast and closed-room press briefing bookings for Shilika Jain — fractional PR manager for Web3, AI and cybersecurity founders. Six topics: fractional PR motion, the three APAC press windows (WebX Tokyo, Korea Blockchain Week, Token2049 Singapore), AI-Overviews citation share as a founder distribution lever, KOL waves as a regulatory product across seven jurisdictions, the cybersecurity vendor AI-citation gap, and pre-TGE comms inside the 8-week window. Lengths flex 25 to 120 minutes by format.",
+      "url": "https://www.shilikajain.com/speaker",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "jobTitle": "Fractional PR Manager",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": [
+        { "@type": "Place", "name": "Global" },
+        { "@type": "Country", "name": "United States" },
+        { "@type": "Country", "name": "India" },
+        { "@type": "Country", "name": "Singapore" },
+        { "@type": "Country", "name": "United Arab Emirates" },
+        { "@type": "Country", "name": "Japan" },
+        { "@type": "Country", "name": "South Korea" },
+        { "@type": "Country", "name": "United Kingdom" },
+        { "@type": "Country", "name": "United Arab Emirates" }
+      ],
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Conference organisers, podcast bookers, founder community programmers, press desks"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Speaker formats and topic ladder",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "Keynote",
+            "description": "25 to 45 minutes. One topic from the six-topic ladder. Three to five slides. Named-protocol examples."
+          },
+          {
+            "@type": "Offer",
+            "name": "Fireside chat",
+            "description": "30 to 50 minutes. One host, one topic. Pre-call alignment on three story arcs."
+          },
+          {
+            "@type": "Offer",
+            "name": "Panel",
+            "description": "45 to 60 minutes. Two to four panelists, one moderator. Pre-event topic memo provided."
+          },
+          {
+            "@type": "Offer",
+            "name": "Workshop",
+            "description": "60 to 120 minutes. Founder cohort. PR or AEO clinic. Written takeaway one-pager per attendee."
+          },
+          {
+            "@type": "Offer",
+            "name": "Podcast guest",
+            "description": "30 to 90 minutes. Remote or in-person. Pre-call alignment on three to five anchor questions."
+          },
+          {
+            "@type": "Offer",
+            "name": "Closed-room press briefing",
+            "description": "30 to 45 minutes. Three to six trade reporters. Background or on-the-record by agreement."
+          }
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.shilikajain.com/speaker#breadcrumbs",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "About", "item": "https://www.shilikajain.com/about" },
+        { "@type": "ListItem", "position": 3, "name": "Speaker", "item": "https://www.shilikajain.com/speaker" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/speaker#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What topics does Shilika Jain speak on?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Six topics: the 2026 fractional PR motion replacing pre-Series B agency retainers; the three APAC press windows (WebX Tokyo, Korea Blockchain Week, Token2049 Singapore) that decide institutional flow; AI-Overviews citation share as a founder distribution lever; KOL waves as a regulatory product across seven jurisdictions; the cybersecurity vendor AI-citation gap and the four-pattern fix; pre-TGE comms inside the 8-week window most founders mis-spend. Each topic is delivered as a keynote, fireside chat, panel slot or podcast guest segment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What speaker formats does Shilika Jain accept?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Keynote 25 to 45 minutes, fireside chat 30 to 50 minutes, panel 45 to 60 minutes, workshop 60 to 120 minutes, podcast 30 to 90 minutes, closed-room press briefing 30 to 45 minutes. Pre-event topic memo provided for panels and fireside chats. Pre-call alignment on three to five anchor questions for podcasts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is Shilika Jain based and how much lead time does a booking need?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Asia-Pacific base. Comfortable across UTC+5:30 to UTC+9 daily; US and EU with one week of notice. Confirmed podcast slots inside 7 days. Confirmed keynote slots inside 4 weeks. APAC travel inside 2 weeks possible. US, EU and LATAM travel 4 to 6 weeks ahead."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Shilika Jain charge a speaker fee?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Paid keynote and workshop fees vary by venue, region and topic. Non-profit, educational and small-builder events frequently accepted pro bono. Honoraria and travel covered by host venue. Podcast appearances generally free for shows aligned with the topic ladder."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do bookers contact Shilika Jain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Email shilika@shilikajain.com with the subject line 'Speaking enquiry' and include venue, date, format, topic preference, audience size, time zone and budget if known. Replies inside 3 business days. A Calendly 30-minute orientation call is available before booking confirmation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where can a booker find press images and a bio for Shilika Jain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The speaker kit sidebar links a one-pager PDF, landscape and portrait press images and the long-form bio at /about. Verifiable byline list and recent press placements at /about and /work. Headshots are licensed for event-marketing use with credit to Shilika Jain."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -5,7 +5,13 @@
       "@type": "Service",
       "@id": "https://www.shilikajain.com/services/kol-marketing#service",
       "name": "KOL & Influencer Marketing",
-      "alternateName": ["Web3 KOL marketing", "Crypto influencer marketing", "Web3 creator marketing", "Token launch KOL waves", "Crypto influencer agency"],
+      "alternateName": [
+        "Web3 KOL marketing",
+        "Crypto influencer marketing",
+        "Web3 creator marketing",
+        "Token launch KOL waves",
+        "Crypto influencer agency"
+      ],
       "serviceType": "Influencer Marketing",
       "category": "KOL Marketing",
       "description": "Fractional, senior-operator-led KOL and influencer marketing for Web3, AI and cybersecurity founders. A direct line to 200+ vetted creators across X, YouTube, Telegram, Farcaster and Lens, segmented by region (Korea, Japan, Vietnam, China, India, Singapore, MENA, US, EU), vertical (DeFi, DePIN, gaming, AI agents, RWA, restaking, intents) and audience quality. Three-wave launch sequence: T-72h credibility anchors, T+0 broad activation across 40-120 creators, T+24h to T+7d sustained deep-dives. Independent fraud audit on every creator before contract. FTC and SEC-aware disclosure language baked in. KOL Wave Retainer $5K-$12K/mo, TGE KOL Sprint $15K-$45K total, Always-On Network $2,500/mo.",
@@ -23,14 +29,38 @@
         ]
       },
       "areaServed": [
-        { "@type": "Place", "name": "Global" },
-        { "@type": "Country", "name": "United States" },
-        { "@type": "Country", "name": "India" },
-        { "@type": "Country", "name": "Singapore" },
-        { "@type": "Country", "name": "United Arab Emirates" },
-        { "@type": "Country", "name": "Republic of Korea" },
-        { "@type": "Country", "name": "Japan" },
-        { "@type": "Country", "name": "Vietnam" }
+        {
+          "@type": "Place",
+          "name": "Global"
+        },
+        {
+          "@type": "Country",
+          "name": "United States"
+        },
+        {
+          "@type": "Country",
+          "name": "India"
+        },
+        {
+          "@type": "Country",
+          "name": "Singapore"
+        },
+        {
+          "@type": "Country",
+          "name": "United Arab Emirates"
+        },
+        {
+          "@type": "Country",
+          "name": "Republic of Korea"
+        },
+        {
+          "@type": "Country",
+          "name": "Japan"
+        },
+        {
+          "@type": "Country",
+          "name": "Vietnam"
+        }
       ],
       "audience": {
         "@type": "Audience",
@@ -40,13 +70,55 @@
         "@type": "OfferCatalog",
         "name": "KOL and influencer marketing offerings",
         "itemListElement": [
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Creator vetting and fraud audit (engagement, bot share, audience geo, on-chain history)" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Campaign design and three-wave launch sequencing (T-72h, T+0, T+24h)" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Region-segmented KOL activation across Korea, Japan, Vietnam, China, India, Singapore, MENA, US and EU" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Brief writing, talking-point sheets and FTC and SEC-aware disclosure language" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Performance tracking with CPW (cost per wallet), on-chain attribution and sentiment monitoring" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Token-launch operations (exchange-coordinated KOL drops, AMA scheduling, Telegram and Discord seeding)" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Post-campaign report with placements landed, audience overlap, sentiment delta and renew or kill calls per creator" } }
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Creator vetting and fraud audit (engagement, bot share, audience geo, on-chain history)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Campaign design and three-wave launch sequencing (T-72h, T+0, T+24h)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Region-segmented KOL activation across Korea, Japan, Vietnam, China, India, Singapore, MENA, US and EU"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Brief writing, talking-point sheets and FTC and SEC-aware disclosure language"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Performance tracking with CPW (cost per wallet), on-chain attribution and sentiment monitoring"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Token-launch operations (exchange-coordinated KOL drops, AMA scheduling, Telegram and Discord seeding)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Post-campaign report with placements landed, audience overlap, sentiment delta and renew or kill calls per creator"
+            }
+          }
         ]
       },
       "potentialAction": {
@@ -58,9 +130,24 @@
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.shilikajain.com/#services" },
-        { "@type": "ListItem", "position": 3, "name": "KOL Marketing", "item": "https://www.shilikajain.com/services/kol-marketing" }
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.shilikajain.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://www.shilikajain.com/#services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "KOL Marketing",
+          "item": "https://www.shilikajain.com/services/kol-marketing"
+        }
       ]
     },
     {
@@ -113,6 +200,46 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Indirectly, but the lift is real. AI engines (ChatGPT, Perplexity, Claude, Google AI Mode) cite named entities — people, products, projects — when answering category questions. A campaign that generates twelve named YouTube deep-dives, forty signed-attribution X threads, six podcast appearances and one named long-form Substack analysis seeds the open web with the citations AI engines rank against. The Princeton GEO study (Aggarwal et al., arXiv:2311.09735) found pages combining citations, statistics and named quotations get cited 30 to 40 percent more by generative engines. KOL deliverables that include named creator quotes, named numbers and links back to verifiable product pages produce exactly those artifacts. A campaign run on auto-generated copy and recycled hype threads does not."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does Web3 KOL marketing work in Korea in 2026 (rate floors, Naver, Kakao, KBW)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Korean KOL waves run on three closed platforms and one open platform: Kakao Open Chat for whale rooms (2,000 to 50,000 paying members each), LINE Open Chat for retail, Naver Cafe for long-form analysis and X for tier-1 reach. 2026 rate floors: nano on X 200,000 to 800,000 KRW per post, micro 1 to 4M KRW, mid YouTube 8 to 25M KRW per video, macro 30 to 90M KRW. Kaito Studio and BloomingBit Korean-leaderboards are the credible vetting layer. Disclosure language carries the Korean Fair Trade Commission paid-promotion tag in Hangul, not transliterated. Korea Blockchain Week 2026 (September 22 to 28, COEX) is the highest-leverage KOL activation window. Naver Search Generative Experience preferentially cites Korean-original creator content over translated Western posts, so the wave needs at least three Naver Cafe analysis pieces."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does Web3 KOL marketing work in Japan in 2026 (rate floors, X, YouTube, note.com, LINE)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Japanese KOL waves anchor on X (the dominant crypto-discussion platform in Japan), YouTube Japan for tier-1 analysis (Kazumasa Otsuka, Shoutaro Watanabe-class accounts), note.com for long-form essays (the highest-leverage AI-search citation unlock per dollar in 2026), and LINE Open Chat for closed-community amplification. 2026 rate floors: nano on X 30,000 to 120,000 JPY per post, micro 150,000 to 600,000 JPY, mid YouTube 1.2 to 3.5M JPY per video, macro 4 to 12M JPY. Japanese creator contracts require the JFTC stealth-marketing disclosure tag (PR or 広告 inside the post). Post-April-2026 FIEA reclassification and the spot ETF NISA Growth-tier route, Japanese KOLs increasingly require partner-bank or trust-stablecoin verification before signing. WebX 2026 (July 13 to 14, The Prince Park Tower Tokyo) is the press-and-KOL convergence cycle."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does Web3 KOL marketing work in Singapore in 2026 (rate floors, MAS DPT, Token2049)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Singapore KOL waves operate against the MAS Digital Payment Token guidelines and the MAS prohibition on promoting DPT services to the Singapore public. 2026 rate floors are USD-denominated: nano on X $200 to $800 per post, micro $800 to $3,500, mid YouTube $6K to $20K per video, macro $25K to $80K. Singapore KOL contracts disclose the MAS prohibition and either restrict the promotion to non-Singapore audiences or carry the institutional, non-retail framing MAS reads as compliant. Token2049 Singapore (October, Marina Bay Sands, 20,000+ attendees) is the regional convergence cycle for English-language APAC KOL activation. The Project Guardian institutional narrative is the credibility frame creators want before signing — without an MAS or named-bank tie, top-tier Singapore creators decline the brief."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does Web3 KOL marketing work in Dubai and MENA in 2026 (rate floors, VARA, Token2049 Dubai)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dubai and MENA KOL waves run against VARA's marketing rules, ADGM FSRA conduct standards and a creator pool concentrated in three cities (Dubai, Abu Dhabi, Riyadh). 2026 rate floors are USD-denominated: nano on X $250 to $1,000 per post, micro $1,000 to $4,500, mid YouTube $8K to $25K per video, macro $30K to $100K. VARA marketing-rule compliance requires the licensed-entity name and risk-disclosure language inside every post promoting a virtual asset. Token2049 Dubai (May 2026, Madinat Jumeirah) is the regional convergence cycle for Arabic and English crypto creators. Saudi creator activation routes through Riyadh-based agencies because direct outreach without a local fiduciary fails the Communications, Space and Technology Commission filter; Saudi PIF and Mubadala visibility lines decide which creators take the brief."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does Web3 KOL marketing work in India in 2026 (rate floors, X, YouTube, Telegram, ETHIndia)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Indian Web3 KOL waves anchor on a tri-platform pattern that no other APAC market shares: X for tier-1 commentary, YouTube for retail-onboarding analysis (Crypto India, Pushpendra Singh-class accounts), and Telegram broadcast channels for high-frequency trade and listing signals. 2026 rate floors: nano on X 15,000 to 60,000 INR per post, micro 75,000 to 300,000 INR, mid YouTube 600,000 to 1.8M INR per video, macro 2M to 7M INR. Indian creator contracts require the Advertising Standards Council of India crypto-asset disclaimer in Hindi or English (the asset is unregulated, may be highly volatile, transactions remain taxable at 30 percent plus 1 percent TDS). ETHIndia (December, Bengaluru) is the highest-leverage builder-and-creator convergence cycle. Indian audiences route through tri-platform creators rather than a single channel, so the wave needs at least one signed creator who runs all three surfaces."
           }
         }
       ]

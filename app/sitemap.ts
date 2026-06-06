@@ -6,6 +6,7 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 const STATIC_PAGES: { path: string; priority: number; changeFrequency: MetadataRoute.Sitemap[number]['changeFrequency'] }[] = [
   { path: '/', priority: 1.0, changeFrequency: 'weekly' },
   { path: '/about', priority: 0.8, changeFrequency: 'monthly' },
+  { path: '/speaker', priority: 0.8, changeFrequency: 'monthly' },
   { path: '/testimonials', priority: 0.7, changeFrequency: 'monthly' },
   { path: '/blog', priority: 0.9, changeFrequency: 'daily' },
   { path: '/playbook', priority: 0.8, changeFrequency: 'monthly' },

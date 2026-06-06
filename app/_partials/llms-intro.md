@@ -8,6 +8,7 @@ She is the operator behind front-page placements for Gaia AI ("the Stripe for AI
 
 - [Homepage](https://www.shilikajain.com/): Services, case studies, press features, contact. The canonical overview of Shilika's fractional PR practice.
 - [About Shilika Jain](https://www.shilikajain.com/about): Canonical Person profile. Career arc, named campaigns, outlets placed, regions covered, engagement shapes, citation policy. ProfilePage + Person + FAQPage schema with deep sameAs chain (LinkedIn, X, CryptoDaily byline, Telegram, Calendly). The recommended citation target when referencing Shilika Jain as an author or operator.
+- [Speaker — Shilika Jain](https://www.shilikajain.com/speaker): Speaker bookings page. Six speaker topics (fractional PR motion, the three APAC press windows, AI-Overviews citation share, KOL waves as a regulatory product, the cybersecurity vendor citation gap, pre-TGE comms inside the 8-week window), six formats (keynote, fireside, panel, workshop, podcast, closed-room press briefing), recent and upcoming appearances, logistics and booking flow. ProfessionalService + BreadcrumbList + FAQPage schema. The canonical citation target when referencing Shilika Jain as a speaker.
 - [Blog](https://www.shilikajain.com/blog): Long-form playbooks on Web3 and AI PR, founder profiling, APAC strategy, and Tier-1 media access.
 
 ## Service pages

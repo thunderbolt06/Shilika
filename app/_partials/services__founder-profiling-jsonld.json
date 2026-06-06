@@ -5,7 +5,13 @@
       "@type": "Service",
       "@id": "https://www.shilikajain.com/services/founder-profiling#service",
       "name": "Founder Profiling & Op-Eds",
-      "alternateName": ["Founder profiling", "Executive thought leadership", "Founder PR", "CEO op-ed ghostwriting", "Founder branding for Web3 and AI"],
+      "alternateName": [
+        "Founder profiling",
+        "Executive thought leadership",
+        "Founder PR",
+        "CEO op-ed ghostwriting",
+        "Founder branding for Web3 and AI"
+      ],
       "serviceType": "Executive Thought Leadership",
       "category": "Founder Profiling",
       "description": "Fractional, senior-operator-led founder profiling for Web3, AI and cybersecurity founders. Op-ed ghostwriting placed in tier-1 trade press (CoinDesk Opinion, Cointelegraph, Decrypt, Forbes Council, AI Magazine), curated podcast tours, LinkedIn and X content strategy under the founder's own voice, speaker placement at category conferences (Consensus, Token2049, ETHDenver, Cybersecurity Summit, AI Summit), and the multi-quarter cadence that turns a technical founder into the named voice for a category. Built for founders whose product is a year ahead of the market and whose own voice is the bottleneck to category creation.",
@@ -23,14 +29,38 @@
         ]
       },
       "areaServed": [
-        { "@type": "Place", "name": "Global" },
-        { "@type": "Country", "name": "United States" },
-        { "@type": "Country", "name": "India" },
-        { "@type": "Country", "name": "Singapore" },
-        { "@type": "Country", "name": "United Arab Emirates" },
-        { "@type": "Country", "name": "Republic of Korea" },
-        { "@type": "Country", "name": "Japan" },
-        { "@type": "Country", "name": "Vietnam" }
+        {
+          "@type": "Place",
+          "name": "Global"
+        },
+        {
+          "@type": "Country",
+          "name": "United States"
+        },
+        {
+          "@type": "Country",
+          "name": "India"
+        },
+        {
+          "@type": "Country",
+          "name": "Singapore"
+        },
+        {
+          "@type": "Country",
+          "name": "United Arab Emirates"
+        },
+        {
+          "@type": "Country",
+          "name": "Republic of Korea"
+        },
+        {
+          "@type": "Country",
+          "name": "Japan"
+        },
+        {
+          "@type": "Country",
+          "name": "Vietnam"
+        }
       ],
       "audience": {
         "@type": "Audience",
@@ -40,13 +70,55 @@
         "@type": "OfferCatalog",
         "name": "Founder profiling and thought leadership offerings",
         "itemListElement": [
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Op-ed ghostwriting and tier-1 placement" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Podcast tour curation and booking" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "LinkedIn and X content strategy under founder voice" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Speaker placement at category conferences" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Founder narrative architecture and message map" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Media training and briefing prep" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Author entity and citation profile build" } }
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Op-ed ghostwriting and tier-1 placement"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Podcast tour curation and booking"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "LinkedIn and X content strategy under founder voice"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Speaker placement at category conferences"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Founder narrative architecture and message map"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Media training and briefing prep"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Author entity and citation profile build"
+            }
+          }
         ]
       },
       "potentialAction": {
@@ -58,9 +130,24 @@
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.shilikajain.com/#services" },
-        { "@type": "ListItem", "position": 3, "name": "Founder Profiling", "item": "https://www.shilikajain.com/services/founder-profiling" }
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.shilikajain.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://www.shilikajain.com/#services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Founder Profiling",
+          "item": "https://www.shilikajain.com/services/founder-profiling"
+        }
       ]
     },
     {
@@ -113,6 +200,46 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Yes, and this is where founder profiling has structurally compounded since 2024. AI engines (ChatGPT, Perplexity, Claude, Google AI Mode) build their answers around named entities — people, companies, products. A founder with a consistent author profile across tier-1 bylines, podcast appearances, named conference talks and a verifiable author-entity schema is far more likely to be cited when an AI engine answers a category question. The Princeton GEO study confirms pages combining citations, statistics and named quotations get cited 30 to 40 percent more by generative engines. A founder profiling program produces exactly those artifacts as a byproduct of the work."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does founder profiling work in Korea in 2026 (FSC frame, BloomingBit, KBW, Naver)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Korea-anchored founder profiling program in 2026 pivots on three op-ed surfaces and one event stage. Opinion editors at BloomingBit, TokenPost and Coinness publish translated founder essays only when the original carries a Korean regulatory frame (FSC reconciliation rule, DABA status, Travel Rule note) the editor can pull-quote. Naver Cafe long-form analysis under a verified founder account compounds faster than X for Korean AI-search citation in Naver Search Generative Experience and Kakao i. Korea Blockchain Week 2026 (September 22 to 28, COEX) is the highest-leverage founder-keynote stage of the year. The named credibility anchors Korean editors look for are a domestic exchange listing or LOI (Upbit, Bithumb, Coinone, Korbit, Gopax) and at least one Korean-domiciled investor or partner. Without those, the founder profile reads as a Western pitch rather than a Korea-resident voice."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does founder profiling work in Japan in 2026 (FIEA frame, CoinPost, WebX, note.com)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Japan-anchored founder profiling program in 2026 runs against the April 2026 Cabinet-approved FIEA reclassification of 105 crypto assets including BTC and ETH as financial instruments, the June 1 2026 PSA amendments that opened the foreign trust-type stablecoin route, and the 20 percent flat capital-gains tax replacing the progressive 55 percent rate. Op-ed surfaces are CoinPost (the dominant Japanese crypto outlet), CoinDesk Japan, Cointelegraph Japan, Nikkei Cross Tech for institutional framing, and note.com for long-form founder essays (the highest-leverage AI-search citation unlock per dollar in 2026). WebX 2026 (July 13 to 14, The Prince Park Tower Tokyo, 13,160 attendees from 88 countries) is the keynote stage. Japanese opinion editors want a partner-name credibility anchor (named Japanese exchange, named licensed trust, named institutional investor) and a clean data table inside the op-ed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does founder profiling work in Singapore in 2026 (MAS DPT frame, e27, Token2049, Project Guardian)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Singapore-anchored founder profiling program in 2026 leads with MAS DPT licensing status, exemption status or Project Guardian participation as the credibility frame. Op-ed surfaces are e27, Tech in Asia, DealStreetAsia, the Token2049 newsroom and the Business Times Singapore for institutional framing. Project Guardian tokenization workstreams are the institutional narrative bridge to BlackRock, JPMorgan, DBS, Citi, HSBC and Standard Chartered — naming the bank counterparty inside the op-ed is what unlocks the institutional reader. Token2049 Singapore (October, Marina Bay Sands, 20,000+ attendees) is the regional keynote stage. Singapore editors discount a generic Asia-pivot founder pitch; every Singapore op-ed needs three lines (MAS status, Singapore-as-regional-headquarters framing, named local-partner anchor) or it gets re-positioned by the desk as a Hong Kong, Dubai or Tokyo story instead."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does founder profiling work in Dubai and MENA in 2026 (VARA frame, Arabian Business, Token2049 Dubai)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Dubai and MENA founder profiling program in 2026 anchors on three regulators (VARA in Dubai, ADGM's FSRA in Abu Dhabi, RAK DAO in Ras Al Khaimah) and the Token2049 Dubai press cycle. Op-ed surfaces are Arabian Business, Gulf News, The National, Cointelegraph Arabic and Forbes Middle East. Regional opinion editors want a UAE or Saudi regulatory tie-in, a named local partner and a Token2049 Dubai stage moment. Per-jurisdiction op-ed framing matters: VARA for Dubai-licensed operations, FSRA for ADGM-domiciled vehicles, RAK DAO for DAO-structured tokenized treasuries. Saudi PIF and Mubadala visibility lines decide which stages and which opinion desks are even available to a founder. The MANTRA $11M Abu Dhabi-led raise reframed the Middle East RWA category for a quarter; that pattern (named-lead-investor plus regulatory anchor plus regional-first frame) is the founder-voice template editors will publish."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does founder profiling work in India in 2026 (SEBI frame, Economic Times, Inc42, ETHIndia)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An India-anchored founder profiling program in 2026 runs three op-ed tracks in parallel plus the ETHIndia December keynote cycle. Mainstream-business surfaces are Economic Times, Business Today, Forbes India and Mint — each takes a named-founder opinion only with a SEBI-and-MeitY-adjacent regulatory frame and a clear India market thesis. Startup-and-VC surfaces are Inc42, YourStory and Moneycontrol — each takes founder essays anchored on capital-efficient Indian builder economics. Crypto-native surfaces are CoinGape, NewsBTC India and HackerNoon for founder interviews. ETHIndia (December, Bengaluru) is the highest-leverage builder-and-founder convergence keynote. Indian opinion editors discount a Western raise pitch without regulatory acknowledgement; the founder voice that gets published carries a named Indian-domiciled investor or operator, a clear stance on the 30 percent crypto tax and 1 percent TDS, and a builder credential the editor can verify."
           }
         }
       ]

@@ -1,0 +1,313 @@
+<style>
+:root {
+  --ink: oklch(0.16 0.01 80);
+  --ink-2: oklch(0.22 0.01 80);
+  --paper: oklch(0.96 0.01 90);
+  --paper-2: oklch(0.92 0.015 85);
+  --cream: oklch(0.93 0.04 85);
+  --lime: oklch(0.92 0.18 115);
+  --muted: oklch(0.55 0.01 80);
+  --line: oklch(0.85 0.01 80);
+  --font-display: 'Instrument Serif', 'Times New Roman', serif;
+  --font-body: 'Inter Tight', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'Geist Mono', 'JetBrains Mono', monospace;
+  --pad: clamp(20px, 4vw, 64px);
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { font-family: var(--font-body); background: var(--paper); color: var(--ink); -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+.mono { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; }
+
+.speaker-header { padding: 140px var(--pad) 60px; border-bottom: 1px solid var(--line); background: var(--paper); }
+.crumb { max-width: 980px; margin: 0 auto 36px; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+.crumb a { color: var(--muted); text-decoration: none; transition: color 0.3s; }
+.crumb a:hover { color: var(--ink); }
+.crumb .sep { margin: 0 12px; }
+.speaker-grid { max-width: 980px; margin: 0 auto; display: grid; grid-template-columns: 1fr 360px; gap: 48px; align-items: start; }
+@media (max-width: 900px) { .speaker-grid { grid-template-columns: 1fr; gap: 28px; } }
+.speaker-meta { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-bottom: 18px; display: flex; gap: 14px; flex-wrap: wrap; }
+.speaker-meta .pm-tag { background: var(--ink); color: var(--paper); padding: 5px 10px; border-radius: 3px; }
+.speaker-headline { font-family: var(--font-display); font-size: clamp(40px, 5.6vw, 72px); line-height: 0.98; letter-spacing: -0.018em; font-weight: 400; text-wrap: balance; margin-bottom: 24px; }
+.speaker-headline em { font-style: italic; color: oklch(0.45 0.18 115); }
+.speaker-sub { font-family: var(--font-display); font-size: clamp(18px, 1.5vw, 22px); line-height: 1.5; font-style: italic; color: var(--muted); margin-bottom: 24px; }
+.speaker-cta-row { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 22px; }
+.speaker-link { display: inline-flex; align-items: center; gap: 8px; padding: 9px 14px; background: var(--paper-2); border: 1px solid var(--line); border-radius: 100px; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink); text-decoration: none; transition: background 0.3s, border-color 0.3s; }
+.speaker-link:hover { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.speaker-link.is-primary { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.speaker-link.is-primary:hover { background: var(--lime); color: var(--ink); border-color: var(--lime); }
+
+.kit-card { background: var(--paper-2); border: 1px solid var(--line); border-radius: 12px; padding: 24px; }
+.kit-card h3 { font-family: var(--font-display); font-size: 22px; font-weight: 400; margin-bottom: 12px; }
+.kit-card ul { list-style: none; padding: 0; margin: 0; }
+.kit-card li { padding: 8px 0; border-bottom: 1px solid var(--line); font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.06em; color: var(--ink); text-transform: uppercase; }
+.kit-card li:last-child { border-bottom: none; }
+.kit-card a { color: var(--ink); text-decoration: none; display: flex; justify-content: space-between; }
+.kit-card a:hover { color: oklch(0.45 0.18 115); }
+
+.answer-box { max-width: 720px; margin: 60px auto 0; padding: 28px 32px; background: var(--ink); color: var(--paper); border-radius: 8px; }
+.answer-box .ab-label { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--lime); margin-bottom: 12px; }
+.answer-box p { font-family: var(--font-display); font-size: clamp(20px, 1.8vw, 24px); line-height: 1.4; font-style: italic; }
+
+.body-wrap { padding: 80px var(--pad) 100px; background: var(--paper); }
+.body { max-width: 720px; margin: 0 auto; font-size: 19px; line-height: 1.65; color: oklch(0.25 0.01 80); }
+.body p { margin-bottom: 1.4em; }
+.body h2 { font-family: var(--font-display); font-size: clamp(28px, 3vw, 40px); font-weight: 400; letter-spacing: -0.01em; color: var(--ink); margin: 2em 0 0.8em; line-height: 1.1; text-wrap: balance; }
+.body h2::before { content: '§ '; color: var(--lime); font-style: italic; }
+.body h3 { font-family: var(--font-display); font-size: clamp(22px, 2.2vw, 28px); font-weight: 400; color: var(--ink); margin: 1.6em 0 0.5em; line-height: 1.2; }
+.body ul, .body ol { margin: 0 0 1.6em 1.4em; padding-left: 0; }
+.body li { margin-bottom: 0.6em; padding-left: 0.4em; }
+.body li::marker { color: var(--lime); }
+.body strong { color: var(--ink); font-weight: 600; }
+.body a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-decoration-thickness: 2px; text-underline-offset: 3px; transition: color 0.3s; }
+.body a:hover { color: oklch(0.45 0.18 115); }
+
+.topic-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; margin: 1.6em 0 2em; }
+.topic-tile { padding: 22px 20px; background: var(--paper-2); border: 1px solid var(--line); border-radius: 8px; }
+.topic-tile .tt-kicker { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; }
+.topic-tile .tt-title { font-family: var(--font-display); font-size: 22px; line-height: 1.22; color: var(--ink); margin-bottom: 10px; font-weight: 400; }
+.topic-tile .tt-note { font-family: var(--font-body); font-size: 14px; line-height: 1.55; color: oklch(0.4 0.01 80); }
+
+.format-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; margin: 1.6em 0 2em; }
+.format-tile { padding: 14px 16px; background: var(--paper-2); border: 1px solid var(--line); border-radius: 8px; font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.06em; color: var(--ink); }
+.format-tile strong { display: block; font-family: var(--font-display); font-size: 18px; letter-spacing: -0.01em; text-transform: none; margin-bottom: 4px; }
+
+.appearance-list { display: grid; gap: 14px; margin: 1.6em 0 2em; }
+.appearance-row { display: grid; grid-template-columns: 140px 1fr; gap: 18px; padding: 16px 0; border-bottom: 1px solid var(--line); }
+.appearance-row .ar-when { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); padding-top: 4px; }
+.appearance-row .ar-what { font-family: var(--font-display); font-size: 20px; line-height: 1.2; color: var(--ink); }
+.appearance-row .ar-where { font-family: var(--font-body); font-size: 14px; line-height: 1.55; color: oklch(0.4 0.01 80); margin-top: 6px; }
+@media (max-width: 600px) { .appearance-row { grid-template-columns: 1fr; gap: 4px; } }
+
+.cta-strip { max-width: 980px; margin: 80px auto 0; padding: 50px var(--pad); background: var(--ink); color: var(--paper); border-radius: 12px; text-align: center; }
+.cta-strip h2 { font-family: var(--font-display); font-size: clamp(28px, 3.5vw, 44px); line-height: 1.1; font-weight: 400; margin-bottom: 18px; text-wrap: balance; }
+.cta-strip p { font-family: var(--font-display); font-style: italic; font-size: 20px; max-width: 620px; margin: 0 auto 28px; opacity: 0.85; }
+.cta-strip .cta-row { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+.cta-strip a.cta-btn { display: inline-flex; align-items: center; gap: 8px; padding: 14px 26px; border-radius: 100px; font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; }
+.cta-strip a.cta-primary { background: var(--lime); color: var(--ink); }
+.cta-strip a.cta-secondary { border: 1px solid var(--paper); color: var(--paper); }
+
+.faq-block { max-width: 720px; margin: 60px auto 0; padding: 32px; background: var(--paper-2); border-radius: 8px; }
+.faq-block h2 { font-family: var(--font-display); font-size: clamp(28px, 3vw, 36px); margin-bottom: 24px; font-weight: 400; }
+.faq-q { font-family: var(--font-display); font-size: 20px; margin: 22px 0 8px; color: var(--ink); }
+.faq-a { font-family: var(--font-body); font-size: 16px; line-height: 1.6; color: oklch(0.3 0.01 80); }
+
+.author-block { max-width: 720px; margin: 80px auto 0; padding: 32px; background: var(--paper-2); border-radius: 8px; display: grid; grid-template-columns: 64px 1fr; gap: 20px; align-items: center; }
+.author-avatar { width: 64px; height: 64px; border-radius: 50%; background: var(--ink); color: var(--lime); display: flex; align-items: center; justify-content: center; font-family: var(--font-display); font-size: 28px; }
+.author-name { font-family: var(--font-display); font-size: 22px; margin-bottom: 4px; }
+.author-bio { font-family: var(--font-body); font-size: 14px; color: var(--muted); line-height: 1.5; }
+.author-bio a { color: var(--ink); }
+</style>
+
+<nav class="nav">
+  <a href="/" class="nav-logo">
+    <span class="nav-logo-text">Shilika<span class="nav-logo-dot">·</span>Jain</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="/services/web3-pr-campaigns">Services</a></li>
+    <li><a href="/work/gaia-ai">Work</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/speaker" class="is-current">Speaker</a></li>
+    <li><a href="/blog">Blog</a></li>
+  </ul>
+  <a href="https://calendly.com/shilikajain" class="nav-cta" rel="noopener" target="_blank">Book a call</a>
+</nav>
+
+<header class="speaker-header">
+  <div class="crumb">
+    <a href="/">Home</a>
+    <span class="sep">/</span>
+    <a href="/about">About</a>
+    <span class="sep">/</span>
+    Speaker
+  </div>
+  <div class="speaker-grid">
+    <div>
+      <div class="speaker-meta">
+        <span class="pm-tag">Speaker</span>
+        <span>Web3 · AI · Cybersecurity PR</span>
+        <span>Six markets</span>
+        <span>Updated June 2026</span>
+      </div>
+      <h1 class="speaker-headline">Fractional PR Manager <em>booked for keynotes, panels, fireside chats and podcasts</em> on Web3 PR, AI startup comms, APAC market entry and AI-search citation strategy.</h1>
+      <p class="speaker-sub">Six years, 50+ protocols placed in Forbes, CoinDesk, Cointelegraph, Decrypt, Blockworks and AI Magazine. APAC operator across six markets. Currently leading PR at Myosin. Previously CoinMarketCap.</p>
+      <div class="speaker-cta-row">
+        <a href="mailto:shilika@shilikajain.com?subject=Speaking%20enquiry" class="speaker-link is-primary">Email speaker enquiry</a>
+        <a href="https://calendly.com/shilikajain" class="speaker-link" rel="noopener" target="_blank">Book a 30-min call</a>
+        <a href="https://www.linkedin.com/in/shilika/" class="speaker-link" rel="noopener" target="_blank">LinkedIn</a>
+        <a href="https://x.com/Shilika_jain" class="speaker-link" rel="noopener" target="_blank">X</a>
+      </div>
+    </div>
+    <aside class="kit-card">
+      <h3>Speaker kit</h3>
+      <ul>
+        <li><a href="/assets/shilika-jain-speaker-onepager-2026.pdf">One-pager PDF <span>↓</span></a></li>
+        <li><a href="/assets/shilika-press-landscape-1200x628.jpg">Press image landscape <span>↓</span></a></li>
+        <li><a href="/assets/shilika-press-portrait-960x1200.jpg">Press image portrait <span>↓</span></a></li>
+        <li><a href="/about">Full bio</a></li>
+        <li><a href="/work/gaia-ai">Case: Gaia AI Forbes</a></li>
+        <li><a href="/work/rari-chain">Case: RARI 11-in-24h</a></li>
+        <li><a href="mailto:shilika@shilikajain.com?subject=Speaking%20enquiry">Booker contact</a></li>
+      </ul>
+    </aside>
+  </div>
+</header>
+
+<div class="body-wrap">
+  <article class="body">
+
+  <div class="answer-box">
+    <div class="ab-label">Speaker summary · 50 words</div>
+    <p>Shilika Jain is a fractional PR manager for Web3, AI and cybersecurity founders. She speaks on the 2026 fractional PR motion, APAC press windows (Korea, Japan, Singapore, India, Dubai and MENA), KOL compliance, the AI-search citation surface, and how non-technical founders close the AI-Overviews gap. Bookings open through 2026.</p>
+  </div>
+
+<h2>Topics</h2>
+
+<p>Each topic is a 25 to 45-minute keynote, a 30 to 50-minute fireside chat, a 45 to 60-minute panel slot, or a 30 to 60-minute podcast guest segment. Lengths flex; the slides do not. Pull-quote stats and named-protocol examples are baked into each deck.</p>
+
+<div class="topic-grid">
+  <div class="topic-tile">
+    <div class="tt-kicker">Topic 01 · Fractional PR</div>
+    <div class="tt-title">The fractional PR motion replacing pre-Series B agency retainers</div>
+    <p class="tt-note">2026 economics, four signals a founder's retainer funds the wrong layer, when an agency still wins, and a 90-day fractional-first plan a CFO can read. Anchor case: 50+ protocols, Gaia AI Forbes feature.</p>
+  </div>
+  <div class="topic-tile">
+    <div class="tt-kicker">Topic 02 · APAC press</div>
+    <div class="tt-title">The three APAC press windows that decide institutional flow</div>
+    <p class="tt-note">WebX Tokyo (FIEA shift, NISA spot ETF), Korea Blockchain Week (FSC, DABA), Token2049 Singapore (MAS Project Guardian). What each frame gates and the Western-founder failure pattern. Anchor case: MANTRA Abu Dhabi RWA reframe.</p>
+  </div>
+  <div class="topic-tile">
+    <div class="tt-kicker">Topic 03 · AI-search</div>
+    <div class="tt-title">AI-Overviews citation share as a founder distribution lever</div>
+    <p class="tt-note">Perplexity 28 to 38 percent, Gemini 12 to 20 percent, ChatGPT 10 to 16 percent, Claude 3 to 7 percent. The four-pattern fix (semantic completeness, entity density, FAQPage schema, named-author). Anchor case: Gaia AI inside the surface.</p>
+  </div>
+  <div class="topic-tile">
+    <div class="tt-kicker">Topic 04 · KOL compliance</div>
+    <div class="tt-title">KOL waves are now a regulatory product, not a marketing line</div>
+    <p class="tt-note">Korean FTC, Japanese JFTC, MAS Singapore DPT prohibition, VARA Dubai marketing rules, India ASCI crypto disclaimer, FTC US, SEC. The five compliance frames a 2026 wave clears or fails. Anchor: 200+ vetted creator network across nine markets.</p>
+  </div>
+  <div class="topic-tile">
+    <div class="tt-kicker">Topic 05 · Cybersecurity AEO</div>
+    <div class="tt-title">The cybersecurity vendor AI-citation gap and the four-pattern fix</div>
+    <p class="tt-note">CISOs, security architects and SOC leads now run vendor discovery through AI engines before sales calls. The under-investment vs the AI-startup surface, and what a cybersecurity CMO can ship next quarter.</p>
+  </div>
+  <div class="topic-tile">
+    <div class="tt-kicker">Topic 06 · Token launch</div>
+    <div class="tt-title">Pre-TGE comms: the 8-week window most founders mis-spend</div>
+    <p class="tt-note">Embargo etiquette, exchange-listing comms, KOL wave sequencing, regional press calendars, and the four deliverables a founder owns regardless of who runs the cycle. Anchor case: RARI Chain 11 tier-1 placements in 24 hours.</p>
+  </div>
+</div>
+
+<h2>Formats</h2>
+
+<div class="format-grid">
+  <div class="format-tile"><strong>Keynote</strong>25 to 45 minutes. One topic, three to five slides, named-protocol examples.</div>
+  <div class="format-tile"><strong>Fireside chat</strong>30 to 50 minutes. One host, one topic, pre-call alignment on three story arcs.</div>
+  <div class="format-tile"><strong>Panel</strong>45 to 60 minutes. Two to four panelists, one moderator. Pre-event topic memo provided.</div>
+  <div class="format-tile"><strong>Workshop</strong>60 to 120 minutes. Founder cohort, PR or AEO clinic, written takeaway one-pager per attendee.</div>
+  <div class="format-tile"><strong>Podcast</strong>30 to 90 minutes. Remote or in-person. Pre-call alignment on three to five anchor questions.</div>
+  <div class="format-tile"><strong>Press briefing</strong>30 to 45 minutes. Closed-room with three to six trade reporters. Background or on-the-record by agreement.</div>
+</div>
+
+<h2>Recent and upcoming appearances</h2>
+
+<div class="appearance-list">
+  <div class="appearance-row">
+    <div class="ar-when">2026 Q3 (planned)</div>
+    <div>
+      <div class="ar-what">Korea Blockchain Week 2026 — panel, fractional PR for APAC founders</div>
+      <div class="ar-where">September 22 to 28, Impact at COEX, Seoul. Awaiting confirmation.</div>
+    </div>
+  </div>
+  <div class="appearance-row">
+    <div class="ar-when">2026 Q3 (planned)</div>
+    <div>
+      <div class="ar-what">WebX 2026 — speaker, the Japan FIEA shift and Western-founder failure modes</div>
+      <div class="ar-where">July 13 to 14, The Prince Park Tower Tokyo. Awaiting confirmation.</div>
+    </div>
+  </div>
+  <div class="appearance-row">
+    <div class="ar-when">2026 Q2</div>
+    <div>
+      <div class="ar-what">Token2049 Dubai — networking, MENA RWA press cycle (attended)</div>
+      <div class="ar-where">Madinat Jumeirah, Dubai. Networking attendance, no stage slot.</div>
+    </div>
+  </div>
+  <div class="appearance-row">
+    <div class="ar-when">2025 Q4</div>
+    <div>
+      <div class="ar-what">ETHIndia Bengaluru — speaker, India press tracks for builders</div>
+      <div class="ar-where">December 2025, Bengaluru. Builder-and-press track.</div>
+    </div>
+  </div>
+  <div class="appearance-row">
+    <div class="ar-when">2025 Q3</div>
+    <div>
+      <div class="ar-what">Korea Blockchain Week 2025 — panel, APAC press windows for Web3 founders</div>
+      <div class="ar-where">Seoul. APAC operator track.</div>
+    </div>
+  </div>
+  <div class="appearance-row">
+    <div class="ar-when">2024 to 2025</div>
+    <div>
+      <div class="ar-what">Token2049 Singapore — networking, Project Guardian institutional bridge</div>
+      <div class="ar-where">Marina Bay Sands, Singapore. Multiple years, networking attendance.</div>
+    </div>
+  </div>
+</div>
+
+<p>Selected past venues include category conferences across Web3 (KBW, Token2049 Singapore and Dubai), AI (AI Summit New York-class) and cybersecurity (Black Hat-class) tracks. Booker references available on request.</p>
+
+<h2>Logistics</h2>
+
+<ul>
+  <li><strong>Home base</strong>: Asia-Pacific. Time zones: comfortable across UTC+5:30 to UTC+9 daily; comfortable across UTC-8 to UTC-5 with one week of notice.</li>
+  <li><strong>Travel</strong>: bookings four weeks ahead preferred. APAC travel inside two weeks possible. US, EU and LATAM travel four to six weeks ahead.</li>
+  <li><strong>Recording</strong>: remote podcast in studio-grade audio (Shure SM7B, Focusrite Scarlett, treated room). Video in 4K.</li>
+  <li><strong>Languages</strong>: English (native). Working access to Korean, Japanese and Hindi via in-network translators for press briefings.</li>
+  <li><strong>Fees</strong>: paid keynote and workshop fees vary by venue, region and topic. Non-profit, educational and small-builder events frequently accepted pro bono. Honoraria and travel covered by host venue.</li>
+  <li><strong>Lead time</strong>: 7 days for a confirmed podcast slot. 4 weeks for a confirmed keynote slot.</li>
+</ul>
+
+<h2>Bookings and press</h2>
+
+<p>Speaker bookings, press briefings and podcast bookings route through one inbox. The fastest path is the email link in the speaker kit. A Calendly link is available for a 30-minute orientation call before a booking is confirmed.</p>
+
+<p>Press kit assets (one-pager PDF, landscape press image, portrait press image, full bio) are linked in the sidebar above. The /about page carries the long-form bio and the verifiable byline list.</p>
+
+  </article>
+
+  <aside class="faq-block" id="speaker-faq">
+    <h2>Frequently asked questions</h2>
+    <p class="faq-q">What topics does Shilika Jain speak on?</p>
+    <p class="faq-a">Six topics: the 2026 fractional PR motion replacing pre-Series B agency retainers; the three APAC press windows (WebX Tokyo, Korea Blockchain Week, Token2049 Singapore) that decide institutional flow; AI-Overviews citation share as a founder distribution lever; KOL waves as a regulatory product across seven jurisdictions; the cybersecurity vendor AI-citation gap and the four-pattern fix; pre-TGE comms inside the 8-week window most founders mis-spend. Each topic is delivered as a keynote, fireside chat, panel slot or podcast guest segment.</p>
+    <p class="faq-q">What formats does she accept?</p>
+    <p class="faq-a">Keynote 25 to 45 minutes, fireside chat 30 to 50 minutes, panel 45 to 60 minutes, workshop 60 to 120 minutes, podcast 30 to 90 minutes, closed-room press briefing 30 to 45 minutes. Pre-event topic memo provided for panels and fireside chats. Pre-call alignment on three to five anchor questions for podcasts.</p>
+    <p class="faq-q">Where is she based and how much lead time does a booking need?</p>
+    <p class="faq-a">Asia-Pacific base. Comfortable across UTC+5:30 to UTC+9 daily; US and EU with one week of notice. Confirmed podcast slots inside 7 days. Confirmed keynote slots inside 4 weeks. APAC travel inside 2 weeks possible. US, EU and LATAM travel 4 to 6 weeks ahead.</p>
+    <p class="faq-q">Does she charge a speaker fee?</p>
+    <p class="faq-a">Paid keynote and workshop fees vary by venue, region and topic. Non-profit, educational and small-builder events frequently accepted pro bono. Honoraria and travel covered by host venue. Podcast appearances generally free for shows aligned with the topic ladder.</p>
+    <p class="faq-q">How do bookers contact her?</p>
+    <p class="faq-a">Email shilika@shilikajain.com with the subject line "Speaking enquiry" and include venue, date, format, topic preference, audience size, time zone and budget if known. Replies inside 3 business days. A Calendly 30-minute orientation call is available before booking confirmation.</p>
+    <p class="faq-q">Where can a booker find press images and a bio?</p>
+    <p class="faq-a">The speaker kit sidebar links a one-pager PDF, landscape and portrait press images and the long-form bio at /about. Verifiable byline list and recent press placements at /about and /work. Headshots are licensed for event-marketing use with credit to Shilika Jain.</p>
+  </aside>
+
+  <div class="author-block">
+    <div class="author-avatar">SJ</div>
+    <div>
+      <div class="author-name">Shilika Jain</div>
+      <p class="author-bio">Fractional PR Manager for Web3, AI and cybersecurity founders. 50+ protocols placed in Forbes, CoinDesk, Cointelegraph, Decrypt, The Block, Blockworks, AI Magazine. APAC PR &amp; Partnerships at Myosin (a growth-marketing DAO). Previously at CoinMarketCap. <a href="/about">View full profile →</a> · <a href="https://www.linkedin.com/in/shilika/" rel="noopener" target="_blank">LinkedIn</a> · <a href="https://x.com/Shilika_jain" rel="noopener" target="_blank">X</a></p>
+    </div>
+  </div>
+
+  <div class="cta-strip">
+    <h2>Book Shilika for a keynote, panel or podcast</h2>
+    <p>Web3, AI, cybersecurity or APAC market entry. Six topics ready. Confirmed podcast slots inside 7 days. Confirmed keynote slots inside 4 weeks.</p>
+    <div class="cta-row">
+      <a href="mailto:shilika@shilikajain.com?subject=Speaking%20enquiry" class="cta-btn cta-primary">Email speaker enquiry</a>
+      <a href="https://calendly.com/shilikajain" class="cta-btn cta-secondary" rel="noopener" target="_blank">Book a 30-min call</a>
+    </div>
+  </div>
+
+</div>
