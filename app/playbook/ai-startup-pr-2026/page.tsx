@@ -6,9 +6,9 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'PR Strategy for AI Startups 2026: The Playbook',
+  title: 'AI Startup PR Strategy 2026: The Full Founder Playbook',
   description:
-    'A 14-minute PR playbook for AI startups in the 2026 funding environment. Positioning, narrative architecture, journalist mapping, AI Overviews citations and a Gaia AI worked example.',
+    'A 14-minute PR playbook for AI startups in 2026. Positioning, narrative, journalist mapping, AI Overviews citations and a Gaia AI worked example.',
   alternates: { canonical: `${SITE_URL}/playbook/ai-startup-pr-2026` },
   openGraph: {
     title: 'PR Strategy for AI Startups in 2026: The Playbook',

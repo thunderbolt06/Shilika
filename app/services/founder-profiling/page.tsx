@@ -6,12 +6,12 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Founder Profiling 2026: Op-Eds, Podcast Tours, Category Voice',
+  title: 'Founder Profiling 2026: Op-Eds, Podcasts, Category Voice',
   description: 'Founder profiling for Web3 and AI founders. Op-ed ghostwriting, podcast tours, LinkedIn/X strategy, speaker placement. Senior fractional operator. Book a call.',
   
   alternates: { canonical: 'https://www.shilikajain.com/services/founder-profiling' },
   openGraph: {
-    title: 'Founder Profiling 2026: Op-Eds, Podcast Tours, Category Voice',
+    title: 'Founder Profiling 2026: Op-Eds, Podcasts, Category Voice',
     description: 'Founder profiling and thought leadership for Web3 and AI founders. Op-ed ghostwriting in CoinDesk and Forbes, podcast tour booking, LinkedIn/X strategy, speaker placement. Fluence DePIN, Gaia AI, MANTRA proof.',
     url: 'https://www.shilikajain.com/services/founder-profiling',
     type: 'website',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Founder Profiling 2026: Op-Eds, Podcast Tours, Category Voice',
+    title: 'Founder Profiling 2026: Op-Eds, Podcasts, Category Voice',
     description: 'Founder profiling and thought leadership for Web3 and AI founders. Op-ed ghostwriting in CoinDesk and Forbes, podcast tour booking, LinkedIn/X strategy, speaker placement. Fluence DePIN, Gaia AI, MANTRA proof.',
     images: ['https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg'],
   },

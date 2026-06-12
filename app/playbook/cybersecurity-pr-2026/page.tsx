@@ -8,7 +8,7 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 export const metadata: Metadata = {
   title: 'Cybersecurity PR in 2026: Analyst Relations + AI Citations',
   description:
-    'A 12-minute cybersecurity PR playbook for 2026. Gartner and Forrester briefing cadence, threat-research as the news engine, named security desks, and the AI Mode citation tactics that move a vendor shortlist.',
+    'A 12-minute cybersecurity PR playbook. Gartner and Forrester cadence, threat-research news engines, named security desks, AI Mode citation tactics for vendors.',
   alternates: { canonical: `${SITE_URL}/playbook/cybersecurity-pr-2026` },
   openGraph: {
     title: 'Cybersecurity PR in 2026: How Vendors Get Cited by Analysts and AI Engines',

@@ -7,7 +7,7 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'Bullieverse Case Study: A $4M Web3 Gaming Raise in India',
-  description: 'How Shilika Jain launched the Bullieverse $4M metaverse gaming raise as an Economic Times exclusive, then ran mainstream Indian business press and crypto-native outlets in parallel. A regional Web3 PR case study.',
+  description: 'How Shilika Jain launched Bullieverse $4M metaverse gaming raise: an Economic Times exclusive plus Indian business press and crypto-native outlets in parallel.',
   
   alternates: { canonical: 'https://www.shilikajain.com/work/bullieverse' },
   openGraph: {

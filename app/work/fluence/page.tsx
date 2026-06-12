@@ -7,7 +7,7 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'Fluence Network Case Study: Making DePIN a Tier-1 Beat',
-  description: 'How Shilika Jain made DePIN a beat for tier-1 crypto reporters and anchored Tom Trowbridge as the category voice across CoinDesk Opinion, Cointelegraph Hashing It Out, Decrypt and Benzinga. A Web3 PR category-creation case study.',
+  description: 'How Shilika Jain made DePIN a tier-1 beat and anchored Tom Trowbridge as the category voice across CoinDesk, Cointelegraph, Decrypt and Benzinga.',
   
   alternates: { canonical: 'https://www.shilikajain.com/work/fluence' },
   openGraph: {

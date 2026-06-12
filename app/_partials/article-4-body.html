@@ -92,6 +92,14 @@ body {
 .faq-q { font-family: var(--font-display); font-style: italic; font-size: 20px; color: var(--ink); margin: 22px 0 8px; }
 .faq-a { font-size: 16px; color: oklch(0.30 0.01 80); line-height: 1.6; }
 
+.article-body .answer-box { margin: 0 0 2em; padding: 24px 28px; background: var(--ink); color: var(--paper); border-radius: 8px; }
+.article-body .answer-box .ab-label { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--lime); margin-bottom: 10px; }
+.article-body .answer-box p { font-family: var(--font-display); font-size: clamp(19px, 1.7vw, 23px); line-height: 1.4; font-style: italic; margin-bottom: 0; color: var(--paper); }
+.update-stamp { max-width: 980px; margin: 16px auto 0; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+.update-stamp strong { color: var(--ink); font-weight: 500; }
+.article-body a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px; text-decoration-thickness: 2px; }
+.article-body a:hover { background: var(--lime); }
+
 .author-block { max-width: 720px; margin: 80px auto 0; padding: 32px; background: var(--paper-2); border-radius: 8px; display: grid; grid-template-columns: 64px 1fr; gap: 20px; align-items: center; }
 .author-avatar { width: 64px; height: 64px; border-radius: 50%; background: var(--ink); color: var(--lime); display: flex; align-items: center; justify-content: center; font-family: var(--font-display); font-size: 24px; font-style: italic; font-weight: 400; }
 .author-name { font-family: var(--font-display); font-size: 24px; font-style: italic; line-height: 1; margin-bottom: 6px; }
@@ -143,9 +151,12 @@ body {
   </div>
   <div class="article-meta-row">
     <span class="article-cat">PRICING</span>
-    <span>· 8 MIN READ</span>
-    <span>· MAY 15, 2026</span>
+    <span>· 12 MIN READ</span>
+    <span>· PUBLISHED MAY 15, 2026</span>
     <span>· BY SHILIKA JAIN</span>
+  </div>
+  <div class="update-stamp" itemprop="dateModified">
+    <strong>Last updated:</strong> June 10, 2026 · v2 expansion · added AI startup, cybersecurity and content writing pricing brackets, plus regional breakdowns for Web3 founders evaluating fractional vs agency models in 2026.
   </div>
   <h1 class="article-headline">How much does crypto PR cost in <em>2026</em>?</h1>
   <p class="article-sub">A retainer with a Web3 PR agency in 2026 runs $7K to $60K a month. A fractional senior operator does the same scope at 40 to 60 percent of that. Here is what each dollar buys, where the markup hides, and how to decide which model your stage actually needs.</p>
@@ -160,6 +171,11 @@ body {
 
 <section class="article-body-wrap">
   <article class="article-body">
+
+<div class="answer-box">
+  <div class="ab-label">Direct answer</div>
+  <p>Crypto PR in 2026 costs $7,000 to $15,000 per month for a boutique Web3 agency, $15,000 to $30,000 for a mid-tier specialist, and $30,000 to $60,000+ for a global firm with a crypto desk. Fractional senior operators run $5,000 to $12,000 per month for equivalent scope. A full token launch sprint is $25,000 to $75,000 over a 6 to 8 week window. AI startup PR sits 10 to 20 percent higher than equivalent Web3 brackets; cybersecurity PR adds an analyst-relations line item at $3,000 to $8,000 per month; content-writing-only retainers (ghostwritten op-eds, whitepapers) run $2,500 to $7,500 per month. Stage, news flow, and regional count decide which model fits.</p>
+</div>
 
 <p class="lede">If you are reading this, you are probably trying to decide between writing a $200,000 cheque to a global agency and spending a third of that on a fractional senior. I have sat on both sides of this conversation. Here is the honest number.</p>
 
@@ -301,9 +317,78 @@ body {
 
 <p>If you are in the last two rows and you are being quoted $5,000 a month by a freelancer, the math also doesn't work — you don't have enough bandwidth on one person's calendar to cover a six-market TGE. The fractional model has a ceiling.</p>
 
+<h2>AI startup PR: how the brackets shift from Web3</h2>
+
+<p>The 2026 AI funding cycle is rewriting PR pricing for AI startups, but the rewrite is smaller than founders expect. Series A AI infrastructure rounds now cluster in the $25M to $60M range, agentic AI Series A medians sit between $18M and $30M, and <a href="https://www.cnbc.com/2026/05/28/anthropic-open-ai-startup-value.html" target="_blank" rel="noopener">Anthropic closed at a $965B post-money valuation on May 28, 2026</a>. Capital is no longer scarce in this category. The scarce resource is named-entity recall inside the AI engines that mediate the buyer's first 60 seconds of research.</p>
+
+<p>AI startup PR retainers in 2026 land roughly 10 to 20 percent above the equivalent Web3 brackets, for three reasons: the journalist pool is broader (Forbes, The Information, TechCrunch, VentureBeat, AI Magazine, Stratechery, Latent Space) and demands more pre-pitch reading; analyst relationships (Gartner, Forrester) need separate stewardship for enterprise-positioning plays; and the founder-voice arc usually requires deeper technical ghostwriting than a Web3 token narrative. Fractional senior pricing for AI founders sits at <strong>$6,000 to $14,000 per month</strong>; mid-tier AI-specialist agency retainers run <strong>$18,000 to $35,000 per month</strong>. Funding-round amplification sprints (typically 3 to 6 weeks around an announcement) cost <strong>$15,000 to $40,000</strong> for a single-exclusive Tier-1 launch with day-of social, podcast-tour pre-booking, and follow-on coverage.</p>
+
+<table>
+  <thead>
+    <tr><th>AI startup stage</th><th>Recommended monthly</th><th>What you should get</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Pre-seed / seed</td><td>$4K – $8K (fractional only)</td><td>Founder Op-Ed cadence (1/mo), 1 funding announcement, podcast tour planning</td></tr>
+    <tr><td>Series A, pre-launch</td><td>$8K – $15K</td><td>1 exclusive Tier-1 placement, 2 op-eds, 1 podcast tour, AI Overviews citation work</td></tr>
+    <tr><td>Series A, product live</td><td>$15K – $30K</td><td>3-4 placements/mo, sustained founder voice, analyst priming, category-defining whitepaper</td></tr>
+    <tr><td>Series B+, enterprise</td><td>$25K – $50K</td><td>Multi-market, Gartner/Forrester briefings, customer-quote engine, IPO narrative scaffolding</td></tr>
+  </tbody>
+</table>
+
+<h2>Cybersecurity PR: the analyst-relations line item</h2>
+
+<p>Cybersecurity PR in 2026 carries one line item Web3 and AI don't: structured analyst relations. The buyer journey for a security tool runs through Gartner Magic Quadrants, Forrester Waves, IDC MarketScapes and KuppingerCole Leadership Compasses long before it reaches the CISO's media diet. Skip the analyst layer and the PR retainer is solving a downstream problem with an upstream-of-it tool.</p>
+
+<p>A cybersecurity PR retainer in 2026 typically runs <strong>$10,000 to $25,000 per month</strong> for the standard media-relations scope (Dark Reading, The Record, Cyberscoop, SC Magazine, SecurityWeek, CSO Online, BleepingComputer placements; CISO-byline op-eds in Forbes Cybersecurity, Wired Security, Help Net Security). On top of that, <strong>analyst relations runs $3,000 to $8,000 per month</strong> for two to four briefings per quarter, plus Magic Quadrant or Wave submission support if a vendor is in nomination. Fractional cybersecurity PR — one senior operator who covers both media and analyst layers — runs <strong>$7,500 to $15,000 per month</strong> for vendors in the Series A to Series C window who don't have headcount for a full in-house comms function.</p>
+
+<p>The AI engines are now a fourth pillar alongside earned media, paid wire and analyst relations. Cybersecurity buyers prompt ChatGPT, Perplexity and Claude with queries like <em>"best EDR for mid-market in 2026"</em> or <em>"what is the leading SASE platform"</em>. Vendors that ship FAQPage schema, named-customer quotes, named-CVE response timelines, and named-benchmark citations inside their playbook content get cited; vendors that ship feature-marketing pages don't. That layer of work is what the GEO/AEO line item — typically $1,000 to $3,000 per month for a cybersecurity vendor — actually funds.</p>
+
+<h2>Content writing service: the lower-cost on-ramp</h2>
+
+<p>Not every founder is buying a full PR retainer. A growing share of Web3, AI and cybersecurity founders want senior content production alone — ghostwritten founder essays, op-eds, whitepapers, and category-defining long-reads — without the journalist outreach layer. The pricing is materially different.</p>
+
+<table>
+  <thead>
+    <tr><th>Content product</th><th>2026 price</th><th>Turnaround</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Ghostwritten founder Op-Ed (800-1,200 words)</td><td>$1,500 – $3,500</td><td>5-10 business days</td></tr>
+    <tr><td>Long-form founder essay (2,000-3,500 words)</td><td>$3,500 – $7,500</td><td>10-15 business days</td></tr>
+    <tr><td>Whitepaper or research report (4,000-8,000 words)</td><td>$7,500 – $20,000</td><td>4-6 weeks</td></tr>
+    <tr><td>Content-writing-only monthly retainer (2 essays + 4 LinkedIn longforms)</td><td>$2,500 – $7,500 / month</td><td>Rolling</td></tr>
+    <tr><td>Pillar playbook (8,000-15,000 words, AEO-formatted, FAQ schema)</td><td>$8,000 – $18,000</td><td>4-6 weeks</td></tr>
+  </tbody>
+</table>
+
+<p>The reason these brackets sit below the full PR retainer is the absence of pitch work, embargo coordination, and journalist relationship investment. The work is senior-level writing and category positioning, scoped per deliverable. Founders who already have a comms function in-house — or who are not yet ready to spend on outreach — use this on-ramp to build the citable corpus the AI engines will eventually ground their answers on. A page on shilikajain.com that gets cited in an AI Overview is doing the same job as a Tier-1 placement, often at a fraction of the cost per citation.</p>
+
+<h2>Regional PR pricing for Web3 and AI: per-market math</h2>
+
+<p>Regional pricing is the most underpriced line item in every Western contract I review. The brackets above for APAC are now also extending to AI startups expanding into Korea (the agentic AI buyer market), Japan (the enterprise AI buyer market), Singapore (the regional comms hub), India (the developer and SMB AI market), and the UAE / MENA (the sovereign-AI and crypto-friendly market). The unit economics are the same as the Web3 brackets I listed above, but the journalist lists and KOL platforms are different. For an AI startup launching into Korea, the per-launch cost is $8,000 to $20,000 covering ZDNet Korea, Aju Business, BlockMedia and KakaoTalk creator activations. For Japan, $7,000 to $15,000 covering Nikkei xTECH, ITmedia, CryptoTimes JP and YouTube creator partnerships. For India, $5,000 to $12,000 covering Inc42, YourStory, Analytics India Magazine and LinkedIn-led KOL waves.</p>
+
+<p>The single decision that moves the regional bill hardest is whether you contract one fractional operator with on-ground relationships across six markets, or stitch six regional agencies together. The first model usually runs 30 to 40 percent cheaper because there is one strategy fee, not six. The second model usually has more bandwidth because you have six teams running in parallel. Stage decides which one fits.</p>
+
+<h2>How the 2026 AI search shift changed the PR budget conversation</h2>
+
+<p>Three numbers from June 2026 reset every PR pricing conversation. First: <a href="https://heroicrankings.com/seo/managed/google-ai-overview-statistics-2026/" target="_blank" rel="noopener">organic CTR drops 61 percent on searches that trigger AI Overviews</a>, falling from 1.76 percent to 0.61 percent. Second: pages cited inside AI Overviews earn 35 percent more clicks than competitors that are not cited. Third: <a href="https://wellows.com/blog/google-ai-overviews-ranking-factors/" target="_blank" rel="noopener">47 percent of AI Overview citations now come from pages ranking below position 5</a>, which means classical SEO position is no longer the bottleneck for citation. Semantic completeness, named entities, fact-dense passages, structured FAQ schema and visible author credentials are.</p>
+
+<p>Practical translation for the PR budget: the $500 to $2,500 per month line item I now scope into every retainer covers four things — answer-box rewrites at the top of every owned page, FAQPage schema generation for every service and playbook, named-statistic injection (with date-stamped sources), and a 25-prompt panel run across ChatGPT, Perplexity, Claude and Google AI Mode every 30 days to measure citation share. The Princeton GEO study (Aggarwal et al., <a href="https://arxiv.org/abs/2311.09735" target="_blank" rel="noopener">arXiv:2311.09735</a>) measured a 30 to 40 percent uplift in citation rates from these structural moves alone. That is the highest-ROI line item in modern PR, and it is the one that almost nobody scopes in cleanly.</p>
+
+<h2>The decision tree: which model your stage actually needs</h2>
+
+<p>The five-question flow I walk through with every founder evaluating PR for the first time:</p>
+
+<ol>
+  <li><strong>Do you have a token, product, or paying customer to talk about right now?</strong> If no: skip a retainer. Buy 8 to 12 weeks of fractional support to build narrative, founder voice, and one anchor placement. Budget $24K to $50K for the window.</li>
+  <li><strong>Are you 90 days or less from a funding announcement, token generation event, or product launch?</strong> If yes: scope a sprint, not a retainer. A focused 6 to 8 week sprint at $25K to $75K beats a 12-month retainer that starts cold three weeks before the event.</li>
+  <li><strong>How many regional markets do you need to land in?</strong> One to two markets: a fractional senior is fine. Three to six markets: a fractional with regional partners or a mid-tier agency with named on-ground operators in each market. Seven or more: a global firm with desks, or you are over-scoped and should cut.</li>
+  <li><strong>Do you have a comms lead or in-house writer?</strong> If yes: a content-writing-only retainer at $2,500 to $7,500 per month covers the senior-pen scope without funding journalist outreach you do not need. If no: full retainer or full sprint.</li>
+  <li><strong>What is your monthly news flow honestly going to be?</strong> Fewer than two beats per month: you cannot productively absorb a $15K+ retainer. Two to four beats per month: fractional or boutique agency. Five+ beats per month and multi-market: mid-tier or global firm.</li>
+</ol>
+
 <h2>What I price at, and why</h2>
 
-<p>For full transparency: my fractional retainers in 2026 sit in the $5K to $12K bracket depending on scope, with TGE sprints scoped separately at $25K to $50K for the window. The reason it's not higher is that I run 4 to 6 active engagements at a time, not 20 — there is no account team to fund, and I am the only senior you are paying for. The reason it's not lower is that the work is senior-only — narrative, journalist relationships, founder-direct briefings — and that is what actually moves Tier-1 placements.</p>
+<p>For full transparency: my fractional retainers in 2026 sit in the $5K to $14K bracket depending on scope and vertical (Web3 lower, AI mid, cybersecurity at the top end with analyst relations), with TGE and AI-funding sprints scoped separately at $25K to $50K for the window. Content-writing-only retainers (Op-Eds and essays without outreach) sit at $2,500 to $7,500 per month. Regional add-ons are scoped per market per launch using the brackets above. The reason it's not higher is that I run 4 to 6 active engagements at a time, not 20 — there is no account team to fund, and I am the only senior you are paying for. The reason it's not lower is that the work is senior-only — narrative, journalist relationships, founder-direct briefings, AEO and GEO structuring — and that is what actually moves Tier-1 placements and AI engine citations.</p>
 
 <p>If you want the precise number for your stage and scope, the 30-minute teardown is the right next step. Bring your roadmap, your funding round, and the publication you want to be in. You'll leave with a scoped quote and an honest read on whether fractional is the right model — or whether you should be talking to a full agency instead.</p>
 
@@ -336,6 +421,24 @@ body {
 
       <div class="faq-q">How does APAC crypto PR pricing differ from Western markets?</div>
       <div class="faq-a">APAC PR is sold per-market, not as a bundle. A Korea-only campaign runs $8,000 to $20,000 per launch. Japan adds $7,000 to $15,000. Vietnam, Singapore and India each run $5,000 to $12,000. Bundled six-market APAC contracts with a single operator typically come in 30 to 40 percent cheaper than stitching individual regional agencies together.</div>
+
+      <div class="faq-q">How much does PR for an AI startup cost in 2026?</div>
+      <div class="faq-a">AI startup PR sits 10 to 20 percent above equivalent Web3 brackets. Fractional senior pricing runs $6,000 to $14,000 per month; mid-tier AI-specialist agencies run $18,000 to $35,000. A single-exclusive funding-round amplification sprint covering Forbes, The Information or TechCrunch with day-of social and follow-on coverage costs $15,000 to $40,000 over a 3 to 6 week window. The premium reflects a broader journalist pool, deeper technical ghostwriting and the need to invest in Gartner or Forrester analyst stewardship for enterprise plays.</div>
+
+      <div class="faq-q">How much does cybersecurity PR cost, and why is it different?</div>
+      <div class="faq-a">A standard cybersecurity PR retainer in 2026 runs $10,000 to $25,000 per month for media relations across Dark Reading, The Record, Cyberscoop, SC Magazine and CSO Online, plus CISO-byline op-eds. Analyst relations adds $3,000 to $8,000 per month for Gartner and Forrester briefings. Fractional cybersecurity PR covering both layers runs $7,500 to $15,000 per month. AI engine citation work (GEO/AEO) adds $1,000 to $3,000 per month for vendors who want to be cited in ChatGPT, Perplexity and AI Overviews for category queries.</div>
+
+      <div class="faq-q">How much does it cost to hire a ghostwriter for crypto or AI founder essays?</div>
+      <div class="faq-a">Ghostwritten founder Op-Eds in the 800-1,200 word range run $1,500 to $3,500 each in 2026. Long-form founder essays of 2,000-3,500 words run $3,500 to $7,500. Whitepapers and research reports in the 4,000-8,000 word range run $7,500 to $20,000. A content-writing-only monthly retainer covering two founder essays plus four LinkedIn longforms typically costs $2,500 to $7,500 per month. These brackets sit below full PR retainers because they exclude journalist outreach, embargo coordination and KOL waves.</div>
+
+      <div class="faq-q">How do you decide between a PR retainer, a launch sprint, and content-writing only?</div>
+      <div class="faq-a">A retainer fits when monthly news flow is two to four beats and the goal is sustained coverage. A sprint fits when a single window of 6 to 8 weeks contains a funding round, token generation event, or product launch worth concentrating budget around. Content-writing only fits when a comms lead is in-house, when outreach is not the bottleneck, or when the priority is building a citable corpus for AI engines rather than earning Tier-1 placements. Most pre-Series A founders should start with content-writing or a single sprint, not a 12-month retainer.</div>
+
+      <div class="faq-q">What does GEO and AEO work cost as a line item inside a PR retainer?</div>
+      <div class="faq-a">Generative engine optimization and answer engine optimization typically run $500 to $2,500 per month as a separate line item inside a PR retainer in 2026. The scope covers answer-box rewrites at the top of owned pages, FAQPage schema generation, named-statistic injection with date-stamped sources, and a monthly 25-prompt panel run across ChatGPT, Perplexity, Claude and Google AI Mode to measure citation share. The Princeton GEO study found a 30 to 40 percent uplift in citation rates from these structural moves alone, making this the highest-ROI line item in modern PR.</div>
+
+      <div class="faq-q">How much does PR cost for an AI startup or Web3 founder launching in India?</div>
+      <div class="faq-a">An India-only PR launch for an AI startup or Web3 founder runs $5,000 to $12,000 per launch in 2026, covering placements across Inc42, YourStory, Analytics India Magazine, Economic Times Tech and CoinGape, plus LinkedIn-led and YouTube creator activations. A monthly India retainer for sustained coverage runs $4,000 to $9,000. Bundling India inside a six-market APAC contract typically reduces the per-market cost by 25 to 35 percent because strategy hours are shared.</div>
     </div>
 
   </article>

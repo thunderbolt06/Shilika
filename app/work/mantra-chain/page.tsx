@@ -6,8 +6,8 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'MANTRA Chain Case Study: The $11M RWA Raise, Middle East Angle',
-  description: 'How Shilika Jain ran the MANTRA Chain $11M raise: a CoinDesk exclusive on the Middle East RWA angle and a standalone Cointelegraph CEO profile. Named outlets, named investors, the dual-asset playbook.',
+  title: 'MANTRA Chain Case Study: $11M RWA Raise, Middle East Angle',
+  description: 'How Shilika Jain ran the MANTRA Chain $11M raise: a CoinDesk exclusive on the Middle East RWA angle plus a Cointelegraph CEO profile.',
   
   alternates: { canonical: 'https://www.shilikajain.com/work/mantra-chain' },
   openGraph: {

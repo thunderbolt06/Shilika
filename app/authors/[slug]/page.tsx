@@ -74,17 +74,35 @@ export default async function AuthorPage({ params }: { params: Params }) {
 
   const ld = {
     '@context': 'https://schema.org',
-    '@type': 'ProfilePage',
-    mainEntity: {
-      '@type': 'Person',
-      '@id': url,
-      name: author.name,
-      url,
-      image: author.image_url ?? undefined,
-      jobTitle: author.title,
-      description: author.bio,
-      sameAs: author.same_as,
-    },
+    '@graph': [
+      {
+        '@type': 'ProfilePage',
+        '@id': `${url}#profile`,
+        url,
+        name: `${author.name} — ${author.title}`,
+        description: author.bio,
+        inLanguage: 'en',
+        mainEntity: {
+          '@type': 'Person',
+          '@id': url,
+          name: author.name,
+          url,
+          image: author.image_url ?? undefined,
+          jobTitle: author.title,
+          description: author.bio,
+          sameAs: author.same_as,
+        },
+      },
+      {
+        '@type': 'BreadcrumbList',
+        '@id': `${url}#breadcrumb`,
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/` },
+          { '@type': 'ListItem', position: 2, name: 'Authors', item: `${SITE_URL}/blog` },
+          { '@type': 'ListItem', position: 3, name: author.name, item: url },
+        ],
+      },
+    ],
   };
 
   return (

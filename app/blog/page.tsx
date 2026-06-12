@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Script from 'next/script';
 import { listPublishedPosts } from '@/lib/blog';
 import type { BlogPost } from '@/lib/supabase/types';
 
@@ -36,8 +37,48 @@ export default async function BlogIndexPage() {
     posts = [];
   }
 
+  const blogJsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'Blog',
+        '@id': `${SITE_URL}/blog#blog`,
+        url: `${SITE_URL}/blog`,
+        name: 'Shilika Jain — Blog',
+        description:
+          'Field notes from inside Web3 and AI PR: embargo strategy, tier-1 placement, APAC localisation, crisis comms, and KOL waves.',
+        inLanguage: 'en',
+        publisher: {
+          '@type': 'Organization',
+          '@id': `${SITE_URL}/#org`,
+          name: 'Shilika Jain — Fractional PR',
+        },
+        author: {
+          '@type': 'Person',
+          '@id': `${SITE_URL}/#person`,
+          name: 'Shilika Jain',
+          url: `${SITE_URL}/about`,
+        },
+      },
+      {
+        '@type': 'BreadcrumbList',
+        '@id': `${SITE_URL}/blog#breadcrumb`,
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/` },
+          { '@type': 'ListItem', position: 2, name: 'Blog', item: `${SITE_URL}/blog` },
+        ],
+      },
+    ],
+  };
+
   return (
     <main className="blog-page">
+      <Script
+        id="blog-index-jsonld"
+        type="application/ld+json"
+        strategy="beforeInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogJsonLd) }}
+      />
       <div className="blog-page-inner">
         <section className="blog-index-hero">
           <div>

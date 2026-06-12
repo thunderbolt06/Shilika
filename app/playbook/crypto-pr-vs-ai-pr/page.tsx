@@ -7,7 +7,7 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'Crypto PR vs AI PR in 2026: How the Playbooks Differ',
-  description: 'Crypto PR vs AI PR in 2026: different outlets, different journalists, different proof, different narrative arc. A side-by-side teardown of the two playbooks by a senior PR operator who runs both.',
+  description: 'Crypto PR vs AI PR in 2026: different outlets, journalists, proof and narrative arc. A side-by-side teardown by a senior operator who runs both.',
   
   alternates: { canonical: 'https://www.shilikajain.com/playbook/crypto-pr-vs-ai-pr' },
   openGraph: {

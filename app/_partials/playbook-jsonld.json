@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "https://www.shilikajain.com/playbook#collection",
+      "url": "https://www.shilikajain.com/playbook",
+      "name": "Playbooks: Field Guides From Inside Web3, AI & Cyber PR",
+      "description": "Ten long-form playbooks on Web3 PR, AI startup comms and cybersecurity PR. Pricing, pitch guides, regional teardowns and the trade-offs founders should weigh.",
+      "inLanguage": "en",
+      "isPartOf": { "@id": "https://www.shilikajain.com/#website" },
+      "about": [
+        { "@type": "Thing", "name": "Web3 PR" },
+        { "@type": "Thing", "name": "AI startup PR" },
+        { "@type": "Thing", "name": "Cybersecurity PR" },
+        { "@type": "Thing", "name": "Fractional PR" },
+        { "@type": "Thing", "name": "Generative engine optimization" },
+        { "@type": "Thing", "name": "Answer engine optimization" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/about"
+      },
+      "mainEntity": {
+        "@type": "ItemList",
+        "name": "Shilika Jain Playbooks",
+        "itemListOrder": "https://schema.org/ItemListOrderAscending",
+        "numberOfItems": 10,
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "url": "https://www.shilikajain.com/playbook/tier-1-pr-trap", "name": "The Tier-1 PR Trap: Why Web3 Founders Chase the Wrong Outlets" },
+          { "@type": "ListItem", "position": 2, "url": "https://www.shilikajain.com/playbook/apac-pr-playbook-2026", "name": "APAC PR Playbook 2026: Korea, Japan, Vietnam, India" },
+          { "@type": "ListItem", "position": 3, "url": "https://www.shilikajain.com/playbook/founder-profiling-sprint", "name": "Founder Profiling Sprint: 90 Days to Category Voice" },
+          { "@type": "ListItem", "position": 4, "url": "https://www.shilikajain.com/playbook/crypto-pr-cost-2026", "name": "How Much Does Crypto PR Cost in 2026? Honest Pricing" },
+          { "@type": "ListItem", "position": 5, "url": "https://www.shilikajain.com/playbook/get-featured-coindesk-2026", "name": "How to Get Featured in CoinDesk in 2026: Pitch Guide" },
+          { "@type": "ListItem", "position": 6, "url": "https://www.shilikajain.com/playbook/fractional-vs-agency", "name": "Fractional PR vs Web3 PR Agency: How to Choose in 2026" },
+          { "@type": "ListItem", "position": 7, "url": "https://www.shilikajain.com/playbook/best-web3-pr-agencies-2026", "name": "Best Web3 PR Agencies and Consultants in 2026: an Honest Field Guide" },
+          { "@type": "ListItem", "position": 8, "url": "https://www.shilikajain.com/playbook/crypto-pr-vs-ai-pr", "name": "Crypto PR vs AI PR in 2026: How the Playbooks Differ" },
+          { "@type": "ListItem", "position": 9, "url": "https://www.shilikajain.com/playbook/ai-startup-pr-2026", "name": "PR Strategy for AI Startups in 2026: The Playbook" },
+          { "@type": "ListItem", "position": 10, "url": "https://www.shilikajain.com/playbook/cybersecurity-pr-2026", "name": "Cybersecurity PR in 2026: How Vendors Get Cited by Analysts and AI Engines" }
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.shilikajain.com/playbook#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" }
+      ]
+    }
+  ]
+}

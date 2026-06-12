@@ -79,34 +79,52 @@ export default async function BlogPostPage({ params }: { params: Params }) {
   const minutes = readingTimeMinutes(post.body);
 
   const url = `${SITE_URL}/blog/${post.slug}`;
+  const articleType = isTechnical(post.tags) ? 'TechArticle' : 'Article';
   const ld = {
     '@context': 'https://schema.org',
-    '@type': isTechnical(post.tags) ? 'TechArticle' : 'Article',
-    headline: post.title,
-    description: post.description,
-    datePublished: post.published_at ?? undefined,
-    dateModified: post.updated_at,
-    image: post.image ?? undefined,
-    mainEntityOfPage: url,
-    author: author
-      ? {
-          '@type': 'Person',
-          '@id': author.url,
-          name: author.name,
-          url: author.url,
-          image: author.image_url ?? undefined,
-          sameAs: author.same_as,
-        }
-      : { '@type': 'Person', name: post.author },
-    publisher: {
-      '@type': 'Organization',
-      name: 'Shilika Jain — Fractional PR',
-      logo: {
-        '@type': 'ImageObject',
-        url: `${SITE_URL}/assets/shilika-press-square-1200.jpg`,
+    '@graph': [
+      {
+        '@type': articleType,
+        '@id': `${url}#article`,
+        headline: post.title,
+        description: post.description,
+        datePublished: post.published_at ?? undefined,
+        dateModified: post.updated_at,
+        image: post.image ?? undefined,
+        mainEntityOfPage: url,
+        url,
+        inLanguage: 'en',
+        author: author
+          ? {
+              '@type': 'Person',
+              '@id': author.url,
+              name: author.name,
+              url: author.url,
+              image: author.image_url ?? undefined,
+              sameAs: author.same_as,
+            }
+          : { '@type': 'Person', name: post.author },
+        publisher: {
+          '@type': 'Organization',
+          '@id': `${SITE_URL}/#org`,
+          name: 'Shilika Jain — Fractional PR',
+          logo: {
+            '@type': 'ImageObject',
+            url: `${SITE_URL}/assets/shilika-press-square-1200.jpg`,
+          },
+        },
+        keywords: post.tags.join(', '),
       },
-    },
-    keywords: post.tags.join(', '),
+      {
+        '@type': 'BreadcrumbList',
+        '@id': `${url}#breadcrumb`,
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/` },
+          { '@type': 'ListItem', position: 2, name: 'Blog', item: `${SITE_URL}/blog` },
+          { '@type': 'ListItem', position: 3, name: post.title, item: url },
+        ],
+      },
+    ],
   };
 
   const ctaLabel = post.cta_label ?? 'Book a 30-min teardown';

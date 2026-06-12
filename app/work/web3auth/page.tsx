@@ -7,7 +7,7 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'Web3Auth Case Study: Google Cloud Meets Web3 Wallets',
-  description: 'How Shilika Jain turned the Web3Auth and Google Cloud Firebase extension launch into tier-1 coverage across Blockworks, CoinDesk, Yahoo Finance and Benzinga, with French, Italian and Spanish syndication. A Web3 infrastructure PR case study.',
+  description: 'How Shilika Jain turned the Web3Auth and Google Cloud Firebase launch into tier-1 coverage: Blockworks, CoinDesk, Yahoo Finance, Benzinga, syndicated EU.',
   
   alternates: { canonical: 'https://www.shilikajain.com/work/web3auth' },
   openGraph: {

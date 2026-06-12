@@ -1,4 +1,7 @@
+import fs from 'node:fs';
+import path from 'node:path';
 import type { Metadata } from 'next';
+import Script from 'next/script';
 import { EditorialScripts } from '@/components/site/EditorialScripts';
 import { EditorialShell } from '@/components/site/EditorialChrome';
 import '../blog/blog.css';
@@ -6,9 +9,9 @@ import '../blog/blog.css';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Playbooks — Field guides from inside Web3, AI & Cyber PR',
+  title: 'Playbooks: Field Guides From Inside Web3, AI & Cyber PR',
   description:
-    'Ten long-form playbooks: the tier-1 PR trap, APAC PR playbook 2026, founder profiling sprint, crypto PR pricing, CoinDesk pitch guide, fractional vs agency, best Web3 PR agencies, crypto PR vs AI PR, the 2026 AI startup PR playbook, and cybersecurity PR in 2026.',
+    'Ten long-form playbooks on Web3 PR, AI startup comms and cybersecurity PR. Pricing, pitch guides, regional teardowns and the trade-offs founders should weigh.',
   alternates: { canonical: `${SITE_URL}/playbook` },
   openGraph: {
     title: 'Shilika Jain — Playbooks',
@@ -111,9 +114,20 @@ const PLAYBOOKS = [
   },
 ];
 
+function loadJsonLd(): string {
+  return fs.readFileSync(path.join(process.cwd(), 'app/_partials/playbook-jsonld.json'), 'utf8');
+}
+
 export default function PlaybookIndexPage() {
+  const jsonLd = loadJsonLd();
   return (
     <>
+      <Script
+        id="playbook-collection-jsonld"
+        type="application/ld+json"
+        strategy="beforeInteractive"
+        dangerouslySetInnerHTML={{ __html: jsonLd }}
+      />
       <EditorialShell active="playbook">
         <main className="blog-page">
           <div className="blog-page-inner">

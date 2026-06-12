@@ -7,7 +7,7 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'About Shilika Jain: Fractional PR for Web3 & AI Founders',
-  description: 'Shilika Jain is a senior fractional PR manager for Web3, AI and cybersecurity founders. Six years, 50+ protocols, 100K+ mentions/quarter, 200+ KOLs. Forbes, CoinDesk, Cointelegraph, Decrypt, Blockworks, AI Magazine placements.',
+  description: 'Senior fractional PR for Web3, AI and cybersecurity founders. 6 years, 50+ protocols, 200+ KOLs. Forbes, CoinDesk, Decrypt placements. Book a teardown.',
   
   alternates: { canonical: 'https://www.shilikajain.com/about' },
   openGraph: {

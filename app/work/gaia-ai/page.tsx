@@ -7,7 +7,7 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'Gaia AI Case Study: How We Placed the Stripe for AI Agents',
-  description: 'How Shilika Jain placed Gaia AI in Forbes, Decrypt, and Benzinga as the Stripe for AI agents. Named outlets, named reporters, 6-podcast founder tour. 2025 campaign teardown.',
+  description: 'How Shilika Jain placed Gaia AI in Forbes, Decrypt and Benzinga as the Stripe for AI agents. Named outlets, 6-podcast founder tour. 2025 teardown.',
   
   alternates: { canonical: 'https://www.shilikajain.com/work/gaia-ai' },
   openGraph: {

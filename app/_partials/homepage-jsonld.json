@@ -267,7 +267,7 @@
       "about": { "@id": "https://www.shilikajain.com/#person" },
       "primaryImageOfPage": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
       "datePublished": "2025-01-01",
-      "dateModified": "2026-05-28",
+      "dateModified": "2026-06-12",
       "inLanguage": "en",
       "breadcrumb": { "@id": "https://www.shilikajain.com/#breadcrumb" }
     },
@@ -286,13 +286,22 @@
     {
       "@type": "FAQPage",
       "@id": "https://www.shilikajain.com/#faq",
+      "url": "https://www.shilikajain.com/#faq",
+      "isPartOf": { "@id": "https://www.shilikajain.com/#webpage" },
+      "about": [
+        { "@id": "https://www.shilikajain.com/#person" },
+        { "@id": "https://www.shilikajain.com/#service" }
+      ],
+      "datePublished": "2026-06-12",
+      "dateModified": "2026-06-12",
+      "inLanguage": "en",
       "mainEntity": [
         {
           "@type": "Question",
           "name": "What does a fractional PR manager do for a Web3 or AI startup?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A fractional PR manager runs the full PR function — narrative, press, founder profiling, KOL waves, APAC localisation, and launch comms — on a part-time retainer instead of an agency contract. For Web3 and AI founders, that means dedicated senior attention, a direct line to Tier-1 journalists in Forbes, CoinDesk, Cointelegraph, Decrypt, The Block and Blockworks, and accountability tied to placements rather than hours."
+            "text": "A fractional PR manager runs the full PR function on a part-time retainer instead of an agency contract. For Web3 and AI founders, that means one senior operator handling narrative, embargoed press, founder profiling, KOL waves, APAC localisation, and launch comms. The retainer is sized to the work, founder access is direct, and accountability is tied to placements in Forbes, CoinDesk, Cointelegraph, Decrypt, The Block and Blockworks rather than billable hours."
           }
         },
         {
@@ -300,7 +309,7 @@
           "name": "How much does fractional PR for a Web3 or AI startup cost in 2026?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Fractional PR retainers typically run a fraction of a traditional agency contract because there are no account-team layers. Pricing depends on scope — single-campaign launches, ongoing retainer with founder profiling, or full TGE communications — but fractional is generally chosen by founders who want senior-only attention, no agency markup, and clear deliverables. Book a 30-minute teardown for a scoped quote."
+            "text": "Fractional PR retainers run a fraction of a traditional agency contract because there are no account-team layers. Web3 retainers typically sit at $5K to $14K per month, AI startup retainers at $6K to $14K, cybersecurity retainers at $7.5K to $15K, and token launch sprints at $20K to $60K. Full pricing teardown is at https://www.shilikajain.com/playbook/crypto-pr-cost-2026. Book a 30-minute teardown for a scoped quote."
           }
         },
         {
@@ -308,7 +317,7 @@
           "name": "Which Tier-1 publications has Shilika Jain placed clients in?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Forbes, CoinDesk, Cointelegraph, Decrypt, The Block, Blockworks, Bitcoin Magazine, Benzinga, Yahoo Finance, AI Magazine, The Defiant, CryptoSlate, CryptoNews, CryptoPotato, CryptoDaily, e27, and regional outlets including BloomingBit (Korea), CryptoTimes JP (Japan), ChainCatcher and Jinse (China), and Inc42 (India)."
+            "text": "Forbes, CoinDesk, Cointelegraph, Decrypt, The Block, Blockworks, Bitcoin Magazine, Benzinga, Yahoo Finance, AI Magazine, The Defiant, CryptoSlate, CryptoNews, CryptoPotato and CryptoDaily globally. Regionally: BloomingBit, TokenPost and Coinness in Korea, CryptoTimes JP and Coinpost in Japan, ChainCatcher and Jinse for Greater China, and Inc42, e27 and Economic Times for India and SEA."
           }
         },
         {
@@ -316,7 +325,7 @@
           "name": "What regions does Shilika cover for APAC crypto PR?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Korea, Japan, Vietnam, China, Singapore, and India — six markets across APAC plus global Tier-1 coverage. Each market gets native-language placements, regional KOL waves, on-ground events, and a local journalist database rather than translated press releases."
+            "text": "Korea, Japan, Vietnam, China, Singapore, India and the UAE. Each market gets native-language placements, regional KOL waves on X, Telegram, Farcaster and local platforms, on-ground access at Korea Blockchain Week, Token2049 Singapore, Token2049 Dubai, Japan Blockchain Week and ETHIndia, plus a local journalist database rather than translated press releases."
           }
         },
         {
@@ -324,15 +333,7 @@
           "name": "How is fractional PR different from a Web3 PR agency?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A Web3 PR agency typically assigns a junior account team, retainers start higher, and founder access is filtered through layers. Fractional PR with Shilika is one senior operator embedded with the founder, no markup on placements, and accountability tied to coverage in named outlets rather than billable hours."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What case studies show Shilika's Web3 PR work?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Gaia AI (positioned as 'the Stripe for AI agents' across Forbes, Decrypt and Benzinga), RARI Foundation (11 simultaneous Tier-1 placements at mainnet launch), MANTRA Chain (the $11M raise narrative with a Middle East angle), Fluence Network (DePIN category creation), Web3Auth (Google Cloud × Firebase story across Blockworks, CoinDesk, Yahoo Finance), and Bullieverse."
+            "text": "A Web3 PR agency assigns a junior account team, starts retainers higher, and filters founder access through layers. Fractional PR is one senior operator embedded with the founder, no markup on placements, and accountability tied to coverage in named outlets rather than billable hours. The full side-by-side is at https://www.shilikajain.com/playbook/fractional-vs-agency."
           }
         },
         {
@@ -340,7 +341,39 @@
           "name": "Does Shilika handle PR for AI startups outside of crypto?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. The same playbook — narrative, founder profiling, journalist mapping, podcast tours, op-ed ghostwriting — applies to AI startups whether or not they are on-chain. Gaia AI is one example. AI Magazine, Forbes AI coverage, and category-defining op-eds are the typical surface area."
+            "text": "Yes. The same playbook — category narrative, founder profiling, journalist mapping, podcast tours, op-ed ghostwriting — applies to AI startups whether or not they are on-chain. Gaia AI was placed as 'the Stripe for AI agents' across Forbes, Decrypt and Benzinga. AI Magazine, Forbes AI coverage, The Information and category-defining op-eds are the typical surface area."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Shilika handle PR for cybersecurity founders and CMOs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Cybersecurity PR combines media relations (TechCrunch Security, Dark Reading, The Record, CyberScoop, SC Magazine) with analyst relations (Gartner, Forrester, IDC, Omdia) and AEO work so vendors get cited by analysts and AI engines. Retainers run $7.5K to $15K per month for the fractional layer covering both media and analyst surfaces."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can Shilika ghostwrite op-eds, whitepapers and founder essays?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Three productised offers: Op-Ed of the Month at $2,500 per month, the Founder Essay Package at $3,500 to $7,500 per piece, and the Whitepaper Sprint at $7,500 to $20,000. Forbes-grade voice, technical accuracy, AI-search ready. Built for Web3 and AI founders who want to show up in CoinDesk Opinion, Cointelegraph, Decrypt, Forbes Council and AI Magazine under their own byline."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you build AI-search visibility for a startup that has no Google presence today?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Start with the entity, not the keyword. The 2026 playbook is: schema-marked founder and organisation profiles, named-source PR placements that ChatGPT, Perplexity, Claude and Gemini already cite, FAQPage and HowTo blocks that answer the exact buyer question, and a 90-day citation panel to measure which engines pick the brand up. Most newly-funded Web3 and AI startups go from zero AI citations to 8 to 15 inside one quarter when the schema, content and PR layer run together."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What case studies show Shilika's Web3 PR work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gaia AI positioned as 'the Stripe for AI agents' across Forbes, Decrypt and Benzinga. RARI Foundation landed 11 simultaneous Tier-1 placements at mainnet launch. MANTRA Chain shipped the $11M raise narrative with a Middle East angle. Fluence Network led DePIN category creation. Web3Auth shipped the Google Cloud × Firebase story across Blockworks, CoinDesk and Yahoo Finance. Bullieverse landed gaming and culture coverage."
           }
         },
         {
@@ -348,7 +381,7 @@
           "name": "How do I work with Shilika?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Book a 30-minute teardown at https://calendly.com/shilikajain/. Bring your roadmap, your funding stage, and the one publication you want to be in. You will leave the call with a scoped plan and an honest read on whether fractional PR is the right call."
+            "text": "Book a 30-minute teardown at https://calendly.com/shilikajain/30min/. Bring your roadmap, your funding stage, and the one publication you want to be in. You leave with a scoped plan and an honest read on whether fractional PR is the right call, or whether an agency or in-house hire is the better fit. No pitch deck, no agency-style sales process."
           }
         }
       ]

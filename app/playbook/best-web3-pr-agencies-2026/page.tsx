@@ -7,7 +7,7 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'Best Web3 PR Agencies and Consultants in 2026: Honest Guide',
-  description: 'An honest 2026 field guide to Web3 PR. Named agencies (Lunar, EAK, Coinbound, Outset, High Vibe) compared on cost, Tier-1 access, regional reach, and founder time. With a fractional senior-operator alternative.',
+  description: 'Honest 2026 field guide to Web3 PR. Lunar, EAK, Coinbound, Outset, High Vibe compared on cost, Tier-1 access and regional reach. Senior-operator pick.',
   
   alternates: { canonical: 'https://www.shilikajain.com/playbook/best-web3-pr-agencies-2026' },
   openGraph: {
