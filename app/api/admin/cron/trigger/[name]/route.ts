@@ -3,6 +3,7 @@ import { NextResponse } from 'next/server';
 const ALLOWED = new Set([
   'queue-filler',
   'daily-writer',
+  'daily-writer-10x',
   'hourly-publisher',
   'cross-poster',
   'gsc-daily-pull',

@@ -26,6 +26,11 @@ const CRONS: { name: string; schedule: string; description: string }[] = [
     description: 'Picks the top P0/P1 idea, runs writer + image gen, marks ready_for_review.',
   },
   {
+    name: 'daily-writer-10x',
+    schedule: '06:00 UTC daily',
+    description: 'Batch writer — drains up to 10 top P0/P1 ideas, writer + image gen each, marks ready_for_review.',
+  },
+  {
     name: 'hourly-publisher',
     schedule: 'top of every hour',
     description: 'Picks approved drafts, upserts blog_posts, revalidates paths.',
