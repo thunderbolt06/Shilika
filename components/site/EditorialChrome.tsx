@@ -126,12 +126,12 @@ export function EditorialNav({ active }: { active?: 'blog' | 'playbook' | 'about
       </a>
       <ul className="nav-links">
         <li>
-          <a href="/#work" data-magnet>
+          <a href="/work" data-magnet>
             Work
           </a>
         </li>
         <li>
-          <a href="/#services" data-magnet>
+          <a href="/services" data-magnet>
             Services
           </a>
         </li>
@@ -145,7 +145,7 @@ export function EditorialNav({ active }: { active?: 'blog' | 'playbook' | 'about
           </a>
         </li>
         <li>
-          <a href="/#about" data-magnet>
+          <a href="/about" data-magnet>
             About
           </a>
         </li>
@@ -155,7 +155,7 @@ export function EditorialNav({ active }: { active?: 'blog' | 'playbook' | 'about
           </a>
         </li>
         <li>
-          <a href="/#contact" data-magnet>
+          <a href="/contact" data-magnet>
             Contact
           </a>
         </li>

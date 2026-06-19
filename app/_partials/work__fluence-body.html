@@ -25,26 +25,6 @@ body {
 }
 .mono { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; }
 
-.nav {
-  position: fixed; top: 0; left: 0; right: 0;
-  z-index: 100;
-  display: flex; justify-content: space-between; align-items: center;
-  padding: 18px var(--pad);
-  background: rgba(247, 246, 241, 0.85);
-  backdrop-filter: blur(16px);
-  border-bottom: 1px solid var(--line);
-}
-.nav-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); }
-.nav-logo-text { font-family: var(--font-display); font-size: 22px; font-style: italic; letter-spacing: -0.01em; }
-.nav-logo-dot { color: var(--lime); margin: 0 2px; }
-.nav-links { display: flex; gap: 28px; list-style: none; font-family: var(--font-mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; }
-.nav-links a { position: relative; padding: 4px 0; color: var(--ink); text-decoration: none; }
-.nav-links a::after { content: ''; position: absolute; left: 0; bottom: 0; width: 0; height: 1px; background: var(--ink); transition: width 0.4s var(--ease-out-quart); }
-.nav-links a:hover::after { width: 100%; }
-.nav-cta { display: inline-flex; align-items: center; gap: 8px; padding: 10px 18px; background: var(--ink); color: var(--paper); font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; border-radius: 100px; transition: background 0.3s, color 0.3s; }
-.nav-cta:hover { background: var(--lime); color: var(--ink); }
-@media (max-width: 800px) { .nav-links { display: none; } }
-
 .case-header { padding: 140px var(--pad) 60px; border-bottom: 1px solid var(--line); background: var(--paper); position: relative; }
 .crumb { max-width: 980px; margin: 0 auto 36px; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
 .crumb a { color: var(--muted); text-decoration: none; transition: color 0.3s; }
@@ -124,29 +104,7 @@ body {
 .cta-strip .cta-btn { display: inline-flex; align-items: center; gap: 10px; padding: 16px 32px; background: var(--lime); color: var(--ink); font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.15em; text-transform: uppercase; text-decoration: none; border-radius: 100px; transition: transform 0.3s, background 0.3s; }
 .cta-strip .cta-btn:hover { transform: translateY(-2px); background: oklch(0.95 0.18 115); }
 
-footer { padding: 60px var(--pad); border-top: 1px solid var(--line); background: var(--paper); text-align: center; }
-footer .foot-row { display: flex; gap: 22px; justify-content: center; flex-wrap: wrap; margin-bottom: 18px; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; }
-footer .foot-row a { color: var(--muted); text-decoration: none; transition: color 0.3s; }
-footer .foot-row a:hover { color: var(--ink); }
-footer .foot-meta { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.08em; color: var(--muted); text-transform: uppercase; }
 </style>
-
-
-<nav class="nav">
-  <a class="nav-logo" href="/">
-    <span class="nav-logo-text">Shilika<span class="nav-logo-dot">·</span>Jain</span>
-  </a>
-  <ul class="nav-links">
-    <li><a href="/#services">Services</a></li>
-    <li><a href="/#work" class="is-current">Work</a></li>
-    <li><a href="/blog">Playbooks</a></li>
-    <li><a href="/about">About</a></li>
-  </ul>
-  <a class="nav-cta" href="https://calendly.com/shilikajain/30min/" target="_blank" rel="noopener">
-    <span>Book a call</span>
-    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.4"/></svg>
-  </a>
-</nav>
 
 <header class="case-header">
   <div class="crumb">
@@ -427,17 +385,3 @@ footer .foot-meta { font-family: var(--font-mono); font-size: 10px; letter-spaci
     </a>
   </div>
 </section>
-
-<footer>
-  <div class="foot-row">
-    <a href="/">Home</a>
-    <a href="/#services">Services</a>
-    <a href="/#work">Work</a>
-    <a href="/blog">Playbooks</a>
-    <a href="/about">About</a>
-    <a href="/#contact">Contact</a>
-    <a href="https://www.linkedin.com/in/shilika/" target="_blank" rel="noopener">LinkedIn</a>
-    <a href="https://x.com/Shilika_jain" target="_blank" rel="noopener">X</a>
-  </div>
-  <div class="foot-meta">© 2026 Shilika Jain · Fractional PR for Web3 &amp; AI Founders · Last updated 2026-05-22</div>
-</footer>

@@ -1191,6 +1191,30 @@ a.service.service-link:hover { color: var(--paper); }
 .case-deep-link:hover { color: oklch(0.95 0.18 115); letter-spacing: 0.13em; }
 .case-deep-link:hover span { transform: translateX(3px); }
 
+/* Deep link from a homepage section to its standalone page.
+   Lives inside .section-head (or .contact-inner) under the section title. */
+.section-deep-link {
+  display: inline-flex; align-items: center; gap: 8px;
+  margin-top: 24px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink);
+  border-bottom: 1px solid var(--lime);
+  padding-bottom: 4px;
+  text-decoration: none;
+  transition: gap 0.3s, color 0.3s;
+  cursor: none;
+}
+.section-deep-link span { transition: transform 0.3s; display: inline-block; }
+.section-deep-link:hover { gap: 14px; }
+.section-deep-link:hover span { transform: translateX(4px); }
+/* On dark sections (work, contact) flip to paper text */
+.work .section-deep-link,
+.contact .section-deep-link { color: var(--paper); }
+@media (max-width: 900px) { .section-deep-link { cursor: auto; } }
+
 
 /* ====== CASE CARDS (branded compositions) ====== */
 .case-card {
