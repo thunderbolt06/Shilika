@@ -12,16 +12,17 @@ export async function GET(request: Request) {
 
   return withRunLedger<Record<string, unknown>>('hourly-publisher', async () => {
     const supabase = getAdminSupabase();
-    const { data: approved } = await supabase
+    // Publish anything that has reached review — approval no longer gates publishing.
+    const { data: candidates } = await supabase
       .from('content_ideas')
       .select('*')
-      .eq('status', 'approved')
+      .in('status', ['ready_for_review', 'approved'])
       .order('reviewed_at', { ascending: true });
 
     const published: { id: number; slug: string }[] = [];
     const errors: { id: number; error: string }[] = [];
 
-    for (const idea of approved ?? []) {
+    for (const idea of candidates ?? []) {
       if (!idea.body || !idea.slug || !idea.title) {
         errors.push({ id: idea.id, error: 'missing body/slug/title' });
         continue;
@@ -68,7 +69,7 @@ export async function GET(request: Request) {
         published_count: published.length,
         published,
         errors,
-        approved_seen: approved?.length ?? 0,
+        candidates_seen: candidates?.length ?? 0,
       },
     };
   });

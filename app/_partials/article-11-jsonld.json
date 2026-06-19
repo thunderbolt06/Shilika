@@ -1,0 +1,117 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/web3-pr-agency-mistakes#article",
+      "headline": "7 mistakes Web3 founders make with PR agencies in 2026",
+      "alternativeHeadline": "The seven most expensive Web3 PR mistakes, and the fix for each, from a senior fractional operator",
+      "description": "The seven most expensive PR mistakes Web3 founders make in 2026: chasing a Tier-1 logo, hiring a generalist agency, paying for junior execution, launching with no news hook, English-only reach, ignoring AI-search visibility, and vanity metrics. Each has a concrete fix.",
+      "url": "https://www.shilikajain.com/playbook/web3-pr-agency-mistakes",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/web3-pr-agency-mistakes"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 1720,
+      "timeRequired": "PT9M",
+      "articleSection": "PR Playbook",
+      "keywords": ["Web3 PR mistakes", "crypto PR agency mistakes", "Web3 PR agency", "how to choose a Web3 PR agency", "crypto PR cost", "fractional PR", "AI search visibility PR", "GEO for crypto", "AEO Web3", "PR for Web3 founders 2026"],
+      "inLanguage": "en",
+      "datePublished": "2026-06-19",
+      "dateModified": "2026-06-19",
+      "about": [
+        { "@type": "Thing", "name": "Web3 public relations" },
+        { "@type": "Thing", "name": "Crypto PR agency" },
+        { "@type": "Thing", "name": "Generative engine optimization" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "Forbes" },
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "Cointelegraph" },
+        { "@type": "Organization", "name": "The Block" },
+        { "@type": "Organization", "name": "Decrypt" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.shilikajain.com/blog" },
+        { "@type": "ListItem", "position": 3, "name": "7 Mistakes Web3 Founders Make With PR Agencies 2026", "item": "https://www.shilikajain.com/playbook/web3-pr-agency-mistakes" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/web3-pr-agency-mistakes#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the biggest mistake Web3 founders make with PR agencies?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Buying \"press\" as a generic input instead of scoping the campaign to a specific decision they want to move. The most common visible version is chasing a Tier-1 logo such as a Forbes mention over the narrower outlet (a crypto-native desk, a regional publication, an analyst note) that the listing teams, partners or investors they actually need to influence read. A logo is a screenshot; a roadmap-moving placement is a meeting you would not otherwise have had."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much should a Web3 startup pay for PR in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fractional senior operator runs roughly $5,000 to $12,000 per month and does the actual senior work. Specialist agencies run roughly $15,000 to $45,000 per month, but the senior who pitched often hands execution to a junior account executive. The expensive mistake is paying agency retainer prices for junior hands, so the test before signing is to confirm in writing who, by name, writes the pitches and runs the journalist calls, and what share of their week you are buying."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why shouldn't I hire one agency for both crypto and AI PR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Because they are two different playbooks. Crypto PR runs on a fast news cycle into crypto-native outlets like CoinDesk, Cointelegraph, The Block and Decrypt, with KOL and community velocity. AI PR runs on a slower category-narrative cycle into mainstream tech and business press like Forbes, TechCrunch, The Information and AI Magazine, on enterprise credibility and analyst relations. A generalist pitching both with the same kit and contact list underperforms on each. Ask any agency to name five recent placements on your exact side, with the reporter's name."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does PR still matter if most searches are now zero-click and AI-driven?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It matters more, but the output has to change. AI Overviews appear on roughly 48 percent of US Google queries in 2026 and most of those searches end without a click, so the win is being cited inside the AI answer, not just earning a click. Earned media is a major source of the brand citations AI engines surface. A 2026 PR campaign should therefore produce quotable statistics, named expertise and front-loaded answers that AI systems can extract: content that the reporter reads once but the engines read on every query."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How should I measure whether my PR agency is working?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not by impressions or ad-equivalent value. Agree a scorecard before the campaign that tracks placement quality in named target outlets, inbound and pipeline signal, sentiment around your forcing events, and AI-citation presence for your priority buyer queries. Reach is a supporting metric, never the headline. If the end-of-month report is a wall of impressions with no link to a decision you wanted to move, you are renewing blind."
+          }
+        }
+      ]
+    }
+  ]
+}

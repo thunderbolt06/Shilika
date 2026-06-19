@@ -6,7 +6,7 @@
       "@id": "https://www.shilikajain.com/playbook#collection",
       "url": "https://www.shilikajain.com/playbook",
       "name": "Playbooks: Field Guides From Inside Web3, AI & Cyber PR",
-      "description": "Ten long-form playbooks on Web3 PR, AI startup comms and cybersecurity PR. Pricing, pitch guides, regional teardowns and the trade-offs founders should weigh.",
+      "description": "Eleven long-form playbooks on Web3 PR, AI startup comms and cybersecurity PR. Pricing, pitch guides, agency-selection mistakes, regional teardowns and the trade-offs founders should weigh.",
       "inLanguage": "en",
       "isPartOf": { "@id": "https://www.shilikajain.com/#website" },
       "about": [
@@ -27,7 +27,7 @@
         "@type": "ItemList",
         "name": "Shilika Jain Playbooks",
         "itemListOrder": "https://schema.org/ItemListOrderAscending",
-        "numberOfItems": 10,
+        "numberOfItems": 11,
         "itemListElement": [
           { "@type": "ListItem", "position": 1, "url": "https://www.shilikajain.com/playbook/tier-1-pr-trap", "name": "The Tier-1 PR Trap: Why Web3 Founders Chase the Wrong Outlets" },
           { "@type": "ListItem", "position": 2, "url": "https://www.shilikajain.com/playbook/apac-pr-playbook-2026", "name": "APAC PR Playbook 2026: Korea, Japan, Vietnam, India" },
@@ -38,7 +38,8 @@
           { "@type": "ListItem", "position": 7, "url": "https://www.shilikajain.com/playbook/best-web3-pr-agencies-2026", "name": "Best Web3 PR Agencies and Consultants in 2026: an Honest Field Guide" },
           { "@type": "ListItem", "position": 8, "url": "https://www.shilikajain.com/playbook/crypto-pr-vs-ai-pr", "name": "Crypto PR vs AI PR in 2026: How the Playbooks Differ" },
           { "@type": "ListItem", "position": 9, "url": "https://www.shilikajain.com/playbook/ai-startup-pr-2026", "name": "PR Strategy for AI Startups in 2026: The Playbook" },
-          { "@type": "ListItem", "position": 10, "url": "https://www.shilikajain.com/playbook/cybersecurity-pr-2026", "name": "Cybersecurity PR in 2026: How Vendors Get Cited by Analysts and AI Engines" }
+          { "@type": "ListItem", "position": 10, "url": "https://www.shilikajain.com/playbook/cybersecurity-pr-2026", "name": "Cybersecurity PR in 2026: How Vendors Get Cited by Analysts and AI Engines" },
+          { "@type": "ListItem", "position": 11, "url": "https://www.shilikajain.com/playbook/web3-pr-agency-mistakes", "name": "7 Mistakes Web3 Founders Make With PR Agencies in 2026" }
         ]
       }
     },

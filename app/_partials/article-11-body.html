@@ -1,0 +1,294 @@
+<style>
+:root {
+  --ink: oklch(0.16 0.01 80);
+  --ink-2: oklch(0.22 0.01 80);
+  --paper: oklch(0.96 0.01 90);
+  --paper-2: oklch(0.92 0.015 85);
+  --cream: oklch(0.93 0.04 85);
+  --lime: oklch(0.92 0.18 115);
+  --muted: oklch(0.55 0.01 80);
+  --line: oklch(0.85 0.01 80);
+  --font-display: 'Instrument Serif', 'Times New Roman', serif;
+  --font-body: 'Inter Tight', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'Geist Mono', 'JetBrains Mono', monospace;
+  --pad: clamp(20px, 4vw, 64px);
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { font-family: var(--font-body); background: var(--paper); color: var(--ink); -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+.mono { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; }
+
+.nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; display: flex; justify-content: space-between; align-items: center; padding: 18px var(--pad); background: rgba(247, 246, 241, 0.85); backdrop-filter: blur(16px); border-bottom: 1px solid var(--line); }
+.nav-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); }
+.nav-logo-text { font-family: var(--font-display); font-size: 22px; font-style: italic; letter-spacing: -0.01em; }
+.nav-logo-dot { color: var(--lime); margin: 0 2px; }
+.nav-links { display: flex; gap: 28px; list-style: none; font-family: var(--font-mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; }
+.nav-links a { position: relative; padding: 4px 0; color: var(--ink); text-decoration: none; }
+.nav-links a::after { content: ''; position: absolute; left: 0; bottom: 0; width: 0; height: 1px; background: var(--ink); transition: width 0.4s var(--ease-out-quart); }
+.nav-links a:hover::after, .nav-links a.is-current::after { width: 100%; }
+.nav-cta { display: inline-flex; align-items: center; gap: 8px; padding: 10px 18px; background: var(--ink); color: var(--paper); font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; border-radius: 100px; transition: background 0.3s, color 0.3s; }
+.nav-cta:hover { background: var(--lime); color: var(--ink); }
+@media (max-width: 800px) { .nav-links { display: none; } }
+
+.scroll-progress { position: fixed; top: 0; left: 0; right: 0; height: 2px; z-index: 200; background: transparent; }
+.scroll-progress-bar { height: 100%; background: var(--lime); width: 0%; transition: width 0.1s linear; }
+
+.article-header { padding: 140px var(--pad) 60px; border-bottom: 1px solid var(--line); background: var(--paper); position: relative; }
+.crumb { max-width: 980px; margin: 0 auto 36px; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+.crumb a { color: var(--muted); text-decoration: none; transition: color 0.3s; }
+.crumb a:hover { color: var(--ink); }
+.crumb .sep { margin: 0 12px; }
+.article-meta-row { max-width: 980px; margin: 0 auto 28px; display: flex; gap: 18px; align-items: center; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); flex-wrap: wrap; }
+.article-cat { background: var(--ink); color: var(--paper); padding: 5px 12px; border-radius: 3px; font-weight: 500; }
+.article-headline { max-width: 980px; margin: 0 auto; font-family: var(--font-display); font-size: clamp(40px, 6.4vw, 88px); line-height: 0.97; letter-spacing: -0.018em; font-weight: 400; text-wrap: balance; }
+.article-headline em { font-style: italic; background: linear-gradient(120deg, transparent 30%, var(--lime) 30%, var(--lime) 90%, transparent 90%); background-size: 200% 100%; background-position: 100% 0; padding: 0 0.05em; animation: hl-sweep 1.6s 0.4s var(--ease-out-quart) forwards; }
+@keyframes hl-sweep { to { background-position: 0 0; } }
+.article-sub { max-width: 760px; margin: 32px auto 0; font-family: var(--font-display); font-size: clamp(20px, 1.6vw, 24px); line-height: 1.4; font-style: italic; color: var(--muted); }
+
+.article-hero-visual { max-width: 1200px; margin: 60px auto 0; aspect-ratio: 16 / 7; position: relative; overflow: hidden; border-radius: 4px; background: var(--ink); color: var(--paper); }
+.visual-mistakes .v-num { position: absolute; left: 32px; top: 22px; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.15em; color: var(--lime); }
+.visual-mistakes .v-grid { position: absolute; inset: 30px 32px 32px; display: grid; grid-template-columns: repeat(4, 1fr); grid-auto-rows: 1fr; gap: 14px; align-content: end; }
+.visual-mistakes .v-cell { border: 1px solid rgba(255,255,255,0.14); border-radius: 4px; padding: 14px; display: flex; flex-direction: column; justify-content: space-between; }
+.visual-mistakes .v-cell .v-i { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.12em; color: rgba(255,255,255,0.45); }
+.visual-mistakes .v-cell .v-t { font-family: var(--font-display); font-style: italic; font-size: clamp(15px, 1.5vw, 20px); line-height: 1.05; color: var(--paper); }
+.visual-mistakes .v-cell.is-key { background: var(--lime); border-color: var(--lime); }
+.visual-mistakes .v-cell.is-key .v-i { color: rgba(40,37,32,0.6); }
+.visual-mistakes .v-cell.is-key .v-t { color: var(--ink); }
+@media (max-width: 720px) { .visual-mistakes .v-grid { grid-template-columns: repeat(2, 1fr); } }
+
+.article-body-wrap { padding: 80px var(--pad) 100px; background: var(--paper); }
+.article-body { max-width: 720px; margin: 0 auto; font-size: 19px; line-height: 1.65; color: oklch(0.25 0.01 80); }
+.article-body p { margin-bottom: 1.4em; }
+.article-body p.lede { font-family: var(--font-display); font-size: clamp(26px, 2.4vw, 34px); line-height: 1.25; font-style: italic; color: var(--ink); margin-bottom: 1.6em; }
+.article-body h2 { font-family: var(--font-display); font-size: clamp(28px, 3vw, 40px); font-weight: 400; letter-spacing: -0.01em; color: var(--ink); margin: 2em 0 0.8em; line-height: 1.1; text-wrap: balance; }
+.article-body h2::before { content: '§ '; color: var(--lime); font-style: italic; }
+.article-body h3 { font-family: var(--font-display); font-size: clamp(22px, 2.2vw, 28px); font-weight: 400; color: var(--ink); margin: 1.6em 0 0.5em; line-height: 1.2; }
+.article-body ul, .article-body ol { margin: 0 0 1.6em 1.4em; padding-left: 0; }
+.article-body li { margin-bottom: 0.6em; padding-left: 0.4em; }
+.article-body li::marker { color: var(--lime); }
+.article-body strong { color: var(--ink); font-weight: 600; }
+.article-body em { font-style: italic; }
+.article-body table { width: 100%; border-collapse: collapse; margin: 1.6em 0; font-size: 15px; font-family: var(--font-mono); letter-spacing: 0.02em; }
+.article-body table th { text-align: left; padding: 10px 12px; background: var(--ink); color: var(--paper); font-weight: 500; text-transform: uppercase; font-size: 11px; letter-spacing: 0.1em; }
+.article-body table td { padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.article-body table tr:nth-child(even) td { background: var(--paper-2); }
+.mistake-tag { display: inline-block; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink); background: var(--lime); padding: 4px 10px; border-radius: 3px; margin-bottom: 6px; }
+.callout { background: var(--ink); color: var(--paper); padding: 28px 32px; border-radius: 8px; margin: 2em 0; font-family: var(--font-display); font-size: clamp(20px, 1.8vw, 24px); font-style: italic; line-height: 1.35; }
+.callout strong { color: var(--lime); font-weight: 400; font-style: normal; font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; display: block; margin-bottom: 10px; }
+.fix-box { background: var(--paper-2); border-left: 3px solid var(--lime); padding: 20px 24px; border-radius: 4px; margin: 1.2em 0 1.8em; font-size: 17px; line-height: 1.55; }
+.fix-box strong.fix-label { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); display: block; margin-bottom: 8px; }
+.faq-block { max-width: 720px; margin: 60px auto 0; padding: 32px; background: var(--paper-2); border-radius: 8px; }
+.faq-block h2 { font-family: var(--font-display); font-size: clamp(28px, 3vw, 36px); margin-bottom: 24px; font-weight: 400; }
+.faq-q { font-family: var(--font-display); font-style: italic; font-size: 20px; color: var(--ink); margin: 22px 0 8px; }
+.faq-a { font-size: 16px; color: oklch(0.30 0.01 80); line-height: 1.6; }
+
+.author-block { max-width: 720px; margin: 80px auto 0; padding: 32px; background: var(--paper-2); border-radius: 8px; display: grid; grid-template-columns: 64px 1fr; gap: 20px; align-items: center; }
+.author-avatar { width: 64px; height: 64px; border-radius: 50%; background: var(--ink); color: var(--lime); display: flex; align-items: center; justify-content: center; font-family: var(--font-display); font-size: 24px; font-style: italic; font-weight: 400; }
+.author-name { font-family: var(--font-display); font-size: 24px; font-style: italic; line-height: 1; margin-bottom: 6px; }
+.author-bio { font-size: 14px; color: var(--muted); line-height: 1.4; }
+.author-bio a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px; }
+
+.cta-strip { background: var(--ink); color: var(--paper); padding: 100px var(--pad); text-align: center; position: relative; overflow: hidden; }
+.cta-strip h3 { font-family: var(--font-display); font-size: clamp(40px, 6vw, 80px); font-weight: 400; line-height: 1; letter-spacing: -0.015em; max-width: 18ch; margin: 0 auto 32px; }
+.cta-strip h3 em { font-style: italic; color: var(--lime); }
+.cta-strip-btn { display: inline-flex; align-items: center; gap: 10px; background: var(--lime); color: var(--ink); padding: 18px 32px; font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; text-decoration: none; border-radius: 100px; transition: transform 0.4s var(--ease-out-quart); }
+.cta-strip-btn:hover { transform: translateY(-2px); }
+
+.footer { background: var(--ink); color: var(--paper); padding: 40px var(--pad) 24px; border-top: 1px solid rgba(255,255,255,0.08); }
+.footer-row { max-width: 1440px; margin: 0 auto; display: flex; justify-content: space-between; font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.5); flex-wrap: wrap; gap: 12px; }
+.footer-row a { color: inherit; text-decoration: none; }
+</style>
+
+
+<div class="scroll-progress"><div class="scroll-progress-bar" id="progress-bar"></div></div>
+
+<nav class="nav">
+  <a href="/" class="nav-logo">
+    <svg width="34" height="34" viewBox="0 0 34 34" fill="none">
+      <rect width="34" height="34" rx="8" fill="#282520"/>
+      <text x="50%" y="55%" text-anchor="middle" dominant-baseline="middle" font-family="Georgia, serif" font-size="18" font-style="italic" fill="#d4ff32">SJ</text>
+      <circle cx="27" cy="7" r="2" fill="#d4ff32"/>
+    </svg>
+    <span class="nav-logo-text">SHILIKA<span class="nav-logo-dot">·</span>JAIN</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="/#work">Work</a></li>
+    <li><a href="/#services">Services</a></li>
+    <li><a href="/#press">Press</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/blog" class="is-current">Blog</a></li>
+    <li><a href="/#contact">Contact</a></li>
+  </ul>
+  <a href="https://calendly.com/shilikajain/30min/" target="_blank" rel="noopener" class="nav-cta">
+    <span>Book a call</span>
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.4"/></svg>
+  </a>
+</nav>
+
+<header class="article-header">
+  <div class="crumb">
+    <a href="/">Shilika Jain</a><span class="sep">/</span>
+    <a href="/blog">Field Notes</a><span class="sep">/</span>
+    <span>011</span>
+  </div>
+  <div class="article-meta-row">
+    <span class="article-cat">PITFALLS</span>
+    <span>· 9 MIN READ</span>
+    <span>· JUNE 19, 2026</span>
+    <span>· BY SHILIKA JAIN</span>
+  </div>
+  <h1 class="article-headline">7 <em>mistakes</em> Web3 founders make with PR agencies in 2026.</h1>
+  <p class="article-sub">After placing 50+ protocols across Forbes, CoinDesk and Cointelegraph, the same seven mistakes show up in almost every founder who comes to me after a campaign underdelivered. Here is what each one costs, and the fix that takes ten minutes to apply before you sign.</p>
+
+  <div class="article-hero-visual visual-mistakes">
+    <span class="v-num">011 / WEB3 PR AGENCY MISTAKES</span>
+    <div class="v-grid">
+      <div class="v-cell"><span class="v-i">01</span><span class="v-t">Chasing the logo</span></div>
+      <div class="v-cell"><span class="v-i">02</span><span class="v-t">Generalist "tech PR"</span></div>
+      <div class="v-cell"><span class="v-i">03</span><span class="v-t">Retainer, junior team</span></div>
+      <div class="v-cell"><span class="v-i">04</span><span class="v-t">No news hook</span></div>
+      <div class="v-cell"><span class="v-i">05</span><span class="v-t">English-only reach</span></div>
+      <div class="v-cell is-key"><span class="v-i">06</span><span class="v-t">Invisible to AI search</span></div>
+      <div class="v-cell"><span class="v-i">07</span><span class="v-t">Vanity metrics</span></div>
+      <div class="v-cell"><span class="v-i">FIX</span><span class="v-t">Inside</span></div>
+    </div>
+  </div>
+</header>
+
+<section class="article-body-wrap">
+  <article class="article-body">
+
+<p class="lede">The seven most expensive PR mistakes Web3 founders make in 2026 are: chasing a Tier-1 logo over a roadmap-moving outlet, hiring a generalist agency that treats crypto and AI as one beat, paying a big retainer for junior execution, launching with no dated news hook, running English-only press when the buyers are in Seoul and Dubai, ignoring AI-search visibility, and reporting vanity impressions instead of pipeline. Each has a fix you can apply before you sign.</p>
+
+<p>I run fractional PR for Web3 and AI founders. Most of my clients arrive after an agency engagement that looked busy and delivered little: a press release that went nowhere, a Forbes mention that moved no one, a five-figure monthly retainer with a junior account exec on the calls. The pattern is consistent enough that I can name the mistakes before a founder finishes the story. None of them are about bad agencies. They are about the wrong fit, the wrong brief, or the wrong scorecard. Here are the seven I see most, with what each costs and how to avoid it.</p>
+
+<h2>The seven mistakes at a glance</h2>
+
+<table>
+  <thead><tr><th>#</th><th>The mistake</th><th>What it costs</th><th>The fix</th></tr></thead>
+  <tbody>
+    <tr><td>1</td><td>Chasing the Tier-1 logo</td><td>Budget spent on vanity, no conversion</td><td>Pick outlets your buyers and partners actually read</td></tr>
+    <tr><td>2</td><td>Hiring a generalist "tech PR" agency</td><td>Pitches that land on neither side</td><td>Match the operator to crypto vs AI</td></tr>
+    <tr><td>3</td><td>Big retainer, junior execution</td><td>$15k+/mo for inbox management</td><td>Buy senior hours, not headcount</td></tr>
+    <tr><td>4</td><td>No dated news hook</td><td>Reporters pass, nothing lands</td><td>Anchor every push to a forcing event</td></tr>
+    <tr><td>5</td><td>English-only, US-only reach</td><td>Missing the buyers in APAC and MENA</td><td>Run regional + KOL waves in parallel</td></tr>
+    <tr><td>6</td><td>Ignoring AI-search visibility</td><td>Invisible when buyers ask an AI engine</td><td>Build the GEO/AEO layer into PR</td></tr>
+    <tr><td>7</td><td>Reporting vanity metrics</td><td>Can't tell what worked, renew blind</td><td>Track pipeline, sentiment and citations</td></tr>
+  </tbody>
+</table>
+
+<h2>Mistake 1: chasing the Tier-1 logo instead of the outlet that moves your roadmap</h2>
+
+<p><span class="mistake-tag">Mistake 01</span></p>
+
+<p>The most common brief I hear is "get us in Forbes." It is the wrong target far more often than founders expect. A single Forbes mention buried in a roundup rarely moves a token launch, an exchange conversation or a partner deal. The outlet that does is usually narrower: the crypto-native desk a listing team actually reads, the regional outlet a Korean exchange checks before a listing, the analyst note an enterprise buyer forwards internally. A logo is a screenshot. A roadmap-moving placement is a meeting you would not otherwise have gotten.</p>
+
+<div class="fix-box"><strong class="fix-label">The fix</strong>Before you brief anyone, write down the three decisions you want this campaign to influence (a listing, a raise, a partnership) and the specific people who make them. Then ask which publications those people actually read. Brief the agency on those outlets, not on a logo wall. I break the full version of this trap down in <a href="/playbook/tier-1-pr-trap">the Tier-1 PR trap playbook</a>.</div>
+
+<h2>Mistake 2: hiring a generalist agency that treats crypto and AI as one beat</h2>
+
+<p><span class="mistake-tag">Mistake 02</span></p>
+
+<p>Crypto PR and AI PR look like one job, "tech PR," and are two different jobs underneath. Crypto runs on a fast clock into crypto-native outlets (CoinDesk, Cointelegraph, The Block, Decrypt) with KOL and community velocity. AI runs on a slow clock into mainstream tech and business press (Forbes, TechCrunch, The Information, AI Magazine) on credibility and category narrative. A contact list from one side does not transfer to the other. A generalist agency pitching both with the same press kit underperforms on both, and founders building at the AI-and-crypto intersection get hit hardest because they assume one campaign covers it.</p>
+
+<div class="fix-box"><strong class="fix-label">The fix</strong>Ask the agency to name the last five placements they earned on <em>your</em> exact side, token launches if you are crypto or enterprise features if you are AI, with the reporter's name. If they cannot, they are a generalist. The full side-by-side is in <a href="/playbook/crypto-pr-vs-ai-pr">crypto PR vs AI PR</a>, and the AI-specific program is in the <a href="/services/ai-startup-pr">AI startup PR</a> service page.</div>
+
+<h2>Mistake 3: paying a big retainer for junior execution</h2>
+
+<p><span class="mistake-tag">Mistake 03</span></p>
+
+<p>The pitch in the room is the senior partner. The work after signing is a junior account executive who has never run a token generation event. This is the single most expensive mistake by dollar value: a $15,000 to $45,000 monthly agency retainer where the senior name shows up only for the quarterly review. For a pre-seed or just-raised founder, that is a marketing hire's salary spent on inbox management. Fractional senior operators run $5,000 to $12,000 a month for the actual senior doing the actual work. Fewer hours, but the right hands on every pitch.</p>
+
+<div class="fix-box"><strong class="fix-label">The fix</strong>Put it in the contract: who, by name, writes the pitches and runs the journalist calls, and what percentage of their week you are buying. If the answer is vague, you are paying for headcount, not outcomes. The full cost breakdown is in <a href="/playbook/crypto-pr-cost-2026">how much crypto PR costs in 2026</a>, and the model comparison is in <a href="/playbook/fractional-vs-agency">fractional PR vs a Web3 PR agency</a>.</div>
+
+<h2>Mistake 4: launching PR with no dated news hook</h2>
+
+<p><span class="mistake-tag">Mistake 04</span></p>
+
+<p>"We want more press" is not a campaign. Crypto reporters underwrite stories on a forcing event: a mainnet, a listing, a token generation event, a named partnership, a funding round, a hard piece of on-chain data. Without a dated hook, even a strong agency is reduced to pitching a vibe, and reporters pass. The founders who land eleven Tier-1 placements in a single news cycle do it because the launch <em>is</em> the story and everything compresses around the date. The ones who get silence booked a retainer with no event on the calendar.</p>
+
+<div class="fix-box"><strong class="fix-label">The fix</strong>Map your next two quarters of forcing events before you start PR, then build the campaign backward from each date. If you have no event for eight weeks, spend that window on founder thought leadership and the AI-search layer instead, not on press releases nobody will run. The pitch mechanics are in <a href="/playbook/get-featured-coindesk-2026">how to get featured in CoinDesk</a>.</div>
+
+<h2>Mistake 5: running English-only, US-only press when your buyers are in Seoul and Dubai</h2>
+
+<p><span class="mistake-tag">Mistake 05</span></p>
+
+<p>Web3 liquidity, community and listings are disproportionately APAC and MENA. A campaign that only pushes US English press leaves the highest-intent audiences untouched: Korean and Japanese exchanges, Vietnamese and Indian communities, Gulf capital. Founders routinely discover, after the fact, that their biggest community spike came from a single Korean outlet they never pitched. Treating PR as one English press release and a generic KOL buy, instead of coordinated regional placements plus vetted creators timed to the moment, leaves the most valuable reach on the table.</p>
+
+<div class="fix-box"><strong class="fix-label">The fix</strong>For any launch with a global token or community, brief regional outlets and a vetted KOL wave in parallel with the English push, not as an afterthought. The regional teardown is in the <a href="/playbook/apac-pr-playbook-2026">APAC PR playbook</a>, with the channels in <a href="/services/apac-pr">APAC PR</a> and <a href="/services/kol-marketing">KOL marketing</a>.</div>
+
+<h2>Mistake 6: ignoring AI-search visibility, the 2026 mistake that did not exist two years ago</h2>
+
+<p><span class="mistake-tag">Mistake 06</span></p>
+
+<p>This is the mistake almost no agency is fixing yet, and it compounds daily. AI Overviews now appear on roughly 48 percent of US Google queries (Heroic Rankings / WordStream, 2026), and searches that trigger an AI Overview see zero-click rates around 83 percent (Search Engine Land, 2026). When a buyer asks ChatGPT, Perplexity, Gemini or Google's AI Mode "who is the best Web3 PR consultant" or "what does token launch PR cost," the answer is assembled from content the engines can extract and cite, and earned media drives a large share of those brand citations. If your coverage and your site carry no quotable statistics, no named expertise and no front-loaded answers, you are invisible at the exact moment of intent.</p>
+
+<p>Google's own June 2026 guidance is blunt about how to win this: it is still SEO. Create non-commodity, first-hand, expert content; keep a clean technical structure; and earn authentic mentions rather than chasing inauthentic ones. The Princeton GEO study (Aggarwal et al., <a href="https://arxiv.org/abs/2311.09735" target="_blank" rel="noopener">arXiv:2311.09735</a>) measured a 30 to 40 percent uplift in generative-engine citations from exactly those moves: cited statistics and quotable expertise.</p>
+
+<div class="callout"><strong>Field rule</strong>In 2026, a PR campaign that produces no quotable, citable, AI-extractable content is half a campaign. The reporter reads it once; the AI engines read it on every query, forever.</div>
+
+<div class="fix-box"><strong class="fix-label">The fix</strong>Ask your PR partner what they do for AI-search visibility, not just press hits. The answer should include named statistics in your coverage, front-loaded answers and FAQ content on your site, and consistent entity signals across your profiles. If they look blank, that is the gap. This is built into every engagement on the <a href="/services/ai-startup-pr">AI startup PR</a> and <a href="/services/cybersecurity-pr">cybersecurity PR</a> service pages.</div>
+
+<h2>Mistake 7: reporting vanity impressions instead of pipeline, sentiment and citations</h2>
+
+<p><span class="mistake-tag">Mistake 07</span></p>
+
+<p>The end-of-month deck says "12 million impressions" and the founder still cannot tell whether PR did anything. Impressions and ad-equivalent value are the metrics agencies report when they cannot point to outcomes. The numbers that matter are different: did inbound improve, did the right partners or investors reference the coverage, did community sentiment lift around the launch, and increasingly, is the brand now cited when buyers ask an AI engine. If the report is a wall of reach with no link to a decision, you are renewing blind.</p>
+
+<div class="fix-box"><strong class="fix-label">The fix</strong>Agree the scorecard before the campaign: placement quality in named target outlets, inbound and pipeline signal, sentiment around forcing events, and AI-citation presence for your priority buyer queries. Reach is a supporting metric, never the headline. Set this with the agency in writing in week one.</div>
+
+<h2>The meta-mistake: buying "PR" instead of buying a decision</h2>
+
+<p>Every one of these seven traces back to the same root: founders buy "press" as a generic input instead of scoping PR to a specific decision they want to move. Fix the brief: name the decision, name the outlets, name the senior doing the work, name the forcing event, name the regions, name the AI-search outcome, name the scorecard. Do that and most of these mistakes cannot happen. The agency is rarely the problem. The brief usually is.</p>
+
+<p>If you want a scoped read on your own setup before you sign or renew, the 30-minute teardown is the right next step. Bring your next forcing event, your three target decisions, and the report from your last campaign. You will leave knowing which of these seven you are about to make.</p>
+
+
+    <div class="author-block">
+      <div class="author-avatar">SJ</div>
+      <div>
+        <div class="author-name">Shilika Jain</div>
+        <p class="author-bio">Fractional PR for Web3 and AI founders. 50+ protocols placed across Forbes, CoinDesk, Cointelegraph, Decrypt, The Block, Blockworks and AI Magazine. APAC coverage across Korea, Japan, Vietnam, Singapore and India. <a href="/about">View full profile →</a> &middot; <a href="/#contact">Book a 30-min teardown →</a></p>
+      </div>
+    </div>
+
+    <div class="faq-block">
+      <h2>Frequently asked questions</h2>
+
+      <div class="faq-q">What is the biggest mistake Web3 founders make with PR agencies?</div>
+      <div class="faq-a">Buying "press" as a generic input instead of scoping the campaign to a specific decision they want to move. The most common visible version is chasing a Tier-1 logo such as a Forbes mention over the narrower outlet (a crypto-native desk, a regional publication, an analyst note) that the listing teams, partners or investors they actually need to influence read. A logo is a screenshot; a roadmap-moving placement is a meeting you would not otherwise have had.</div>
+
+      <div class="faq-q">How much should a Web3 startup pay for PR in 2026?</div>
+      <div class="faq-a">A fractional senior operator runs roughly $5,000 to $12,000 per month and does the actual senior work. Specialist agencies run roughly $15,000 to $45,000 per month, but the senior who pitched often hands execution to a junior account executive. The expensive mistake is paying agency retainer prices for junior hands, so the test before signing is to confirm in writing who, by name, writes the pitches and runs the journalist calls, and what share of their week you are buying.</div>
+
+      <div class="faq-q">Why shouldn't I hire one agency for both crypto and AI PR?</div>
+      <div class="faq-a">Because they are two different playbooks. Crypto PR runs on a fast news cycle into crypto-native outlets like CoinDesk, Cointelegraph, The Block and Decrypt, with KOL and community velocity. AI PR runs on a slower category-narrative cycle into mainstream tech and business press like Forbes, TechCrunch, The Information and AI Magazine, on enterprise credibility and analyst relations. A generalist pitching both with the same kit and contact list underperforms on each. Ask any agency to name five recent placements on your exact side, with the reporter's name.</div>
+
+      <div class="faq-q">Does PR still matter if most searches are now zero-click and AI-driven?</div>
+      <div class="faq-a">It matters more, but the output has to change. AI Overviews appear on roughly 48 percent of US Google queries in 2026 and most of those searches end without a click, so the win is being cited inside the AI answer, not just earning a click. Earned media is a major source of the brand citations AI engines surface. A 2026 PR campaign should therefore produce quotable statistics, named expertise and front-loaded answers that AI systems can extract: content that the reporter reads once but the engines read on every query.</div>
+
+      <div class="faq-q">How should I measure whether my PR agency is working?</div>
+      <div class="faq-a">Not by impressions or ad-equivalent value. Agree a scorecard before the campaign that tracks placement quality in named target outlets, inbound and pipeline signal, sentiment around your forcing events, and AI-citation presence for your priority buyer queries. Reach is a supporting metric, never the headline. If the end-of-month report is a wall of impressions with no link to a decision you wanted to move, you are renewing blind.</div>
+    </div>
+
+    <p style="margin-top: 2.2em; padding: 22px 26px; background: var(--paper-2); border-left: 3px solid var(--lime); border-radius: 4px; font-size: 17px; line-height: 1.55;"><strong>Deciding how to staff PR at all?</strong> Start with <a href="/playbook/fractional-vs-agency" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">fractional PR vs a Web3 PR agency</a> for the model trade-offs, then <a href="/playbook/best-web3-pr-agencies-2026" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">the honest field guide to Web3 PR agencies in 2026</a> for who does what well. For pricing, see <a href="/playbook/crypto-pr-cost-2026" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">how much crypto PR costs in 2026</a>.</p>
+
+  </article>
+</section>
+
+<section class="cta-strip">
+  <h3>Which of these are you <em>about to make</em>?</h3>
+  <a href="https://calendly.com/shilikajain/30min/" target="_blank" rel="noopener" class="cta-strip-btn">
+    Book a 30-min teardown
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.4"/></svg>
+  </a>
+</section>
+
+<footer class="footer">
+  <div class="footer-row">
+    <span>© SHILIKA JAIN - 2019-2026</span>
+    <span>FIELD NOTES · v.1.0</span>
+    <span><a href="/blog">← ALL ARTICLES</a></span>
+  </div>
+</footer>
