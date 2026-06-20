@@ -1,0 +1,330 @@
+<style>
+:root {
+  --ink: oklch(0.16 0.01 80);
+  --ink-2: oklch(0.22 0.01 80);
+  --paper: oklch(0.96 0.01 90);
+  --paper-2: oklch(0.92 0.015 85);
+  --cream: oklch(0.93 0.04 85);
+  --lime: oklch(0.92 0.18 115);
+  --muted: oklch(0.55 0.01 80);
+  --line: oklch(0.85 0.01 80);
+  --font-display: 'Instrument Serif', 'Times New Roman', serif;
+  --font-body: 'Inter Tight', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'Geist Mono', 'JetBrains Mono', monospace;
+  --pad: clamp(20px, 4vw, 64px);
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { font-family: var(--font-body); background: var(--paper); color: var(--ink); -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+.mono { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; }
+
+.nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; display: flex; justify-content: space-between; align-items: center; padding: 18px var(--pad); background: rgba(247, 246, 241, 0.85); backdrop-filter: blur(16px); border-bottom: 1px solid var(--line); }
+.nav-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); }
+.nav-logo-text { font-family: var(--font-display); font-size: 22px; font-style: italic; letter-spacing: -0.01em; }
+.nav-logo-dot { color: var(--lime); margin: 0 2px; }
+.nav-links { display: flex; gap: 28px; list-style: none; font-family: var(--font-mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; }
+.nav-links a { position: relative; padding: 4px 0; color: var(--ink); text-decoration: none; }
+.nav-links a::after { content: ''; position: absolute; left: 0; bottom: 0; width: 0; height: 1px; background: var(--ink); transition: width 0.4s var(--ease-out-quart); }
+.nav-links a:hover::after, .nav-links a.is-current::after { width: 100%; }
+.nav-cta { display: inline-flex; align-items: center; gap: 8px; padding: 10px 18px; background: var(--ink); color: var(--paper); font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; border-radius: 100px; transition: background 0.3s, color 0.3s; }
+.nav-cta:hover { background: var(--lime); color: var(--ink); }
+@media (max-width: 800px) { .nav-links { display: none; } }
+
+.scroll-progress { position: fixed; top: 0; left: 0; right: 0; height: 2px; z-index: 200; background: transparent; }
+.scroll-progress-bar { height: 100%; background: var(--lime); width: 0%; transition: width 0.1s linear; }
+
+.article-header { padding: 140px var(--pad) 60px; border-bottom: 1px solid var(--line); background: var(--paper); position: relative; }
+.crumb { max-width: 980px; margin: 0 auto 36px; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+.crumb a { color: var(--muted); text-decoration: none; transition: color 0.3s; }
+.crumb a:hover { color: var(--ink); }
+.crumb .sep { margin: 0 12px; }
+.article-meta-row { max-width: 980px; margin: 0 auto 28px; display: flex; gap: 18px; align-items: center; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); flex-wrap: wrap; }
+.article-cat { background: var(--ink); color: var(--paper); padding: 5px 12px; border-radius: 3px; font-weight: 500; }
+.article-headline { max-width: 980px; margin: 0 auto; font-family: var(--font-display); font-size: clamp(40px, 6.4vw, 88px); line-height: 0.97; letter-spacing: -0.018em; font-weight: 400; text-wrap: balance; }
+.article-headline em { font-style: italic; background: linear-gradient(120deg, transparent 30%, var(--lime) 30%, var(--lime) 90%, transparent 90%); background-size: 200% 100%; background-position: 100% 0; padding: 0 0.05em; animation: hl-sweep 1.6s 0.4s var(--ease-out-quart) forwards; }
+@keyframes hl-sweep { to { background-position: 0 0; } }
+.article-sub { max-width: 760px; margin: 32px auto 0; font-family: var(--font-display); font-size: clamp(20px, 1.6vw, 24px); line-height: 1.4; font-style: italic; color: var(--muted); }
+
+.article-hero-visual { max-width: 1200px; margin: 60px auto 0; aspect-ratio: 16 / 7; position: relative; overflow: hidden; border-radius: 4px; background: var(--ink); color: var(--paper); }
+.visual-checklist .v-num { position: absolute; left: 32px; top: 22px; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.15em; color: var(--lime); }
+.visual-checklist .v-grid { position: absolute; inset: 30px 32px 32px; display: grid; grid-template-columns: repeat(5, 1fr); grid-auto-rows: 1fr; gap: 14px; align-content: end; }
+.visual-checklist .v-cell { border: 1px solid rgba(255,255,255,0.14); border-radius: 4px; padding: 14px; display: flex; flex-direction: column; justify-content: space-between; }
+.visual-checklist .v-cell .v-i { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.12em; color: rgba(255,255,255,0.45); }
+.visual-checklist .v-cell .v-t { font-family: var(--font-display); font-style: italic; font-size: clamp(15px, 1.4vw, 19px); line-height: 1.05; color: var(--paper); }
+.visual-checklist .v-cell.is-key { background: var(--lime); border-color: var(--lime); }
+.visual-checklist .v-cell.is-key .v-i { color: rgba(40,37,32,0.6); }
+.visual-checklist .v-cell.is-key .v-t { color: var(--ink); }
+@media (max-width: 720px) { .visual-checklist .v-grid { grid-template-columns: repeat(2, 1fr); } }
+
+.article-body-wrap { padding: 80px var(--pad) 100px; background: var(--paper); }
+.article-body { max-width: 720px; margin: 0 auto; font-size: 19px; line-height: 1.65; color: oklch(0.25 0.01 80); }
+.article-body p { margin-bottom: 1.4em; }
+.article-body p.lede { font-family: var(--font-display); font-size: clamp(26px, 2.4vw, 34px); line-height: 1.25; font-style: italic; color: var(--ink); margin-bottom: 1.6em; }
+.article-body h2 { font-family: var(--font-display); font-size: clamp(28px, 3vw, 40px); font-weight: 400; letter-spacing: -0.01em; color: var(--ink); margin: 2em 0 0.8em; line-height: 1.1; text-wrap: balance; }
+.article-body h2::before { content: '§ '; color: var(--lime); font-style: italic; }
+.article-body h3 { font-family: var(--font-display); font-size: clamp(22px, 2.2vw, 28px); font-weight: 400; color: var(--ink); margin: 1.6em 0 0.5em; line-height: 1.2; }
+.article-body ul, .article-body ol { margin: 0 0 1.6em 1.4em; padding-left: 0; }
+.article-body li { margin-bottom: 0.6em; padding-left: 0.4em; }
+.article-body li::marker { color: var(--lime); }
+.article-body strong { color: var(--ink); font-weight: 600; }
+.article-body em { font-style: italic; }
+.article-body table { width: 100%; border-collapse: collapse; margin: 1.6em 0; font-size: 15px; font-family: var(--font-mono); letter-spacing: 0.02em; }
+.article-body table th { text-align: left; padding: 10px 12px; background: var(--ink); color: var(--paper); font-weight: 500; text-transform: uppercase; font-size: 11px; letter-spacing: 0.1em; }
+.article-body table td { padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.article-body table tr:nth-child(even) td { background: var(--paper-2); }
+.callout { background: var(--ink); color: var(--paper); padding: 28px 32px; border-radius: 8px; margin: 2em 0; font-family: var(--font-display); font-size: clamp(20px, 1.8vw, 24px); font-style: italic; line-height: 1.35; }
+.callout strong { color: var(--lime); font-weight: 400; font-style: normal; font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; display: block; margin-bottom: 10px; }
+
+.download-cta { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; background: var(--paper-2); border: 1px solid var(--line); border-left: 3px solid var(--lime); padding: 22px 26px; border-radius: 6px; margin: 0 0 2.2em; }
+.download-cta .dl-text { flex: 1 1 280px; font-size: 16px; line-height: 1.5; color: var(--ink-2); }
+.download-cta .dl-text strong { color: var(--ink); }
+.download-cta a.dl-btn { display: inline-flex; align-items: center; gap: 10px; background: var(--ink); color: var(--paper); padding: 14px 22px; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; border-radius: 100px; transition: background 0.3s, color 0.3s; }
+.download-cta a.dl-btn:hover { background: var(--lime); color: var(--ink); }
+
+.phase { margin: 2.2em 0 1.2em; }
+.phase-head { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; border-bottom: 1px solid var(--line); padding-bottom: 10px; margin-bottom: 18px; }
+.phase-tag { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink); background: var(--lime); padding: 4px 10px; border-radius: 3px; }
+.phase-title { font-family: var(--font-display); font-style: italic; font-size: clamp(22px, 2.2vw, 28px); color: var(--ink); line-height: 1.1; }
+.phase-window { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+.checklist { list-style: none; margin: 0 0 0.6em; padding: 0; }
+.checklist li { position: relative; margin: 0 0 16px; padding: 2px 0 2px 38px; line-height: 1.55; font-size: 17px; }
+.checklist li::before { content: ''; position: absolute; left: 0; top: 2px; width: 22px; height: 22px; border: 1.5px solid var(--ink); border-radius: 5px; }
+.checklist li::after { content: ''; position: absolute; left: 7px; top: 6px; width: 8px; height: 13px; border-right: 2px solid var(--lime); border-bottom: 2px solid var(--lime); transform: rotate(40deg); }
+.checklist li .ck-n { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.08em; color: var(--muted); margin-right: 8px; }
+.checklist li strong { color: var(--ink); }
+
+.faq-block { max-width: 720px; margin: 60px auto 0; padding: 32px; background: var(--paper-2); border-radius: 8px; }
+.faq-block h2 { font-family: var(--font-display); font-size: clamp(28px, 3vw, 36px); margin-bottom: 24px; font-weight: 400; }
+.faq-q { font-family: var(--font-display); font-style: italic; font-size: 20px; color: var(--ink); margin: 22px 0 8px; }
+.faq-a { font-size: 16px; color: oklch(0.30 0.01 80); line-height: 1.6; }
+
+.author-block { max-width: 720px; margin: 80px auto 0; padding: 32px; background: var(--paper-2); border-radius: 8px; display: grid; grid-template-columns: 64px 1fr; gap: 20px; align-items: center; }
+.author-avatar { width: 64px; height: 64px; border-radius: 50%; background: var(--ink); color: var(--lime); display: flex; align-items: center; justify-content: center; font-family: var(--font-display); font-size: 24px; font-style: italic; font-weight: 400; }
+.author-name { font-family: var(--font-display); font-size: 24px; font-style: italic; line-height: 1; margin-bottom: 6px; }
+.author-bio { font-size: 14px; color: var(--muted); line-height: 1.4; }
+.author-bio a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px; }
+
+.cta-strip { background: var(--ink); color: var(--paper); padding: 100px var(--pad); text-align: center; position: relative; overflow: hidden; }
+.cta-strip h3 { font-family: var(--font-display); font-size: clamp(40px, 6vw, 80px); font-weight: 400; line-height: 1; letter-spacing: -0.015em; max-width: 18ch; margin: 0 auto 32px; }
+.cta-strip h3 em { font-style: italic; color: var(--lime); }
+.cta-strip-btn { display: inline-flex; align-items: center; gap: 10px; background: var(--lime); color: var(--ink); padding: 18px 32px; font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; text-decoration: none; border-radius: 100px; transition: transform 0.4s var(--ease-out-quart); }
+.cta-strip-btn:hover { transform: translateY(-2px); }
+
+.footer { background: var(--ink); color: var(--paper); padding: 40px var(--pad) 24px; border-top: 1px solid rgba(255,255,255,0.08); }
+.footer-row { max-width: 1440px; margin: 0 auto; display: flex; justify-content: space-between; font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.5); flex-wrap: wrap; gap: 12px; }
+.footer-row a { color: inherit; text-decoration: none; }
+</style>
+
+
+<div class="scroll-progress"><div class="scroll-progress-bar" id="progress-bar"></div></div>
+
+<nav class="nav">
+  <a href="/" class="nav-logo">
+    <svg width="34" height="34" viewBox="0 0 34 34" fill="none">
+      <rect width="34" height="34" rx="8" fill="#282520"/>
+      <text x="50%" y="55%" text-anchor="middle" dominant-baseline="middle" font-family="Georgia, serif" font-size="18" font-style="italic" fill="#d4ff32">SJ</text>
+      <circle cx="27" cy="7" r="2" fill="#d4ff32"/>
+    </svg>
+    <span class="nav-logo-text">SHILIKA<span class="nav-logo-dot">·</span>JAIN</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="/#work">Work</a></li>
+    <li><a href="/#services">Services</a></li>
+    <li><a href="/#press">Press</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/blog" class="is-current">Blog</a></li>
+    <li><a href="/#contact">Contact</a></li>
+  </ul>
+  <a href="https://calendly.com/shilikajain/30min/" target="_blank" rel="noopener" class="nav-cta">
+    <span>Book a call</span>
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.4"/></svg>
+  </a>
+</nav>
+
+<header class="article-header">
+  <div class="crumb">
+    <a href="/">Shilika Jain</a><span class="sep">/</span>
+    <a href="/blog">Field Notes</a><span class="sep">/</span>
+    <span>012</span>
+  </div>
+  <div class="article-meta-row">
+    <span class="article-cat">LAUNCH</span>
+    <span>· 10 MIN READ</span>
+    <span>· JUNE 20, 2026</span>
+    <span>· BY SHILIKA JAIN</span>
+  </div>
+  <h1 class="article-headline">The pre-token-launch PR <em>checklist</em> for 2026.</h1>
+  <p class="article-sub">Twenty-five steps across five phases, the same sequence I run before every TGE. Built from launches like RARI Chain and MANTRA, dated to a real eight-week run-up, and free to download as a one-page PDF.</p>
+
+  <div class="article-hero-visual visual-checklist">
+    <span class="v-num">012 / PRE-TOKEN-LAUNCH PR CHECKLIST</span>
+    <div class="v-grid">
+      <div class="v-cell"><span class="v-i">PHASE 1</span><span class="v-t">Foundation</span></div>
+      <div class="v-cell"><span class="v-i">PHASE 2</span><span class="v-t">Narrative &amp; assets</span></div>
+      <div class="v-cell"><span class="v-i">PHASE 3</span><span class="v-t">Media &amp; KOL</span></div>
+      <div class="v-cell is-key"><span class="v-i">PHASE 4</span><span class="v-t">Launch week</span></div>
+      <div class="v-cell"><span class="v-i">PHASE 5</span><span class="v-t">Post-TGE</span></div>
+    </div>
+  </div>
+</header>
+
+<section class="article-body-wrap">
+  <article class="article-body">
+
+<p class="lede">A pre-token-launch PR plan runs in five phases over roughly eight weeks: lock positioning and a compliance-aware fact sheet, build the narrative and press kit, open embargoed media and KOL conversations, sequence launch week from a war room, then convert the launch into durable, AI-citable assets. Below is the full 25-item checklist I run before every TGE.</p>
+
+<div class="download-cta">
+  <div class="dl-text"><strong>Want the one-page version?</strong> Download the full 25-item checklist as a printable PDF, no email required, and run it against your own launch.</div>
+  <a class="dl-btn" href="/assets/pre-token-launch-pr-checklist-2026.pdf" download>
+    Download the PDF
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M7 1v9M3.5 6.5L7 10l3.5-3.5M2 13h10" stroke="currentColor" stroke-width="1.4" fill="none"/></svg>
+  </a>
+</div>
+
+<p>I run fractional PR for Web3 and AI founders, and a token generation event is the one launch where the order of operations decides the outcome. The founders who land a wall of tier-1 placements in a single news cycle, the way RARI Chain did, are not luckier. They started eight weeks early and worked a sequence. The ones who get silence booked a retainer with no event mapped, no fact sheet, and no plan for the overnight regional windows. This checklist is that sequence, phase by phase, with the timing I actually use. Treat it as the brief you hand your PR partner, not a list of tips.</p>
+
+<h2>The five phases at a glance</h2>
+
+<table>
+  <thead><tr><th>Phase</th><th>Window</th><th>Focus</th><th>Items</th></tr></thead>
+  <tbody>
+    <tr><td>1. Foundation</td><td>T-8 to T-6 weeks</td><td>Positioning, compliance, fact sheet, scorecard</td><td>1 to 5</td></tr>
+    <tr><td>2. Narrative &amp; assets</td><td>T-6 to T-4 weeks</td><td>Story, founder voice, press kit, crisis prep, GEO layer</td><td>6 to 10</td></tr>
+    <tr><td>3. Media &amp; KOL</td><td>T-4 to T-2 weeks</td><td>Outlet tiers, embargo, KOL wave, regional, partners</td><td>11 to 15</td></tr>
+    <tr><td>4. Launch week</td><td>T-1 to T-0</td><td>Embargo timing, sequencing, war room, crisis, capture</td><td>16 to 20</td></tr>
+    <tr><td>5. Post-TGE</td><td>T+1 onward</td><td>Op-Ed, durable assets, regional follow-through, reporting</td><td>21 to 25</td></tr>
+  </tbody>
+</table>
+
+<div class="phase">
+  <div class="phase-head">
+    <span class="phase-tag">Phase 1</span>
+    <span class="phase-title">Foundation and positioning</span>
+    <span class="phase-window">T-8 to T-6 weeks</span>
+  </div>
+  <ul class="checklist">
+    <li><span class="ck-n">01</span><strong>Lock the one-sentence token thesis.</strong> What the token does, why it matters now, and who it is for. Every asset, pitch and KOL brief downstream inherits this sentence, so write it before anything else.</li>
+    <li><span class="ck-n">02</span><strong>Map the forcing events and build the calendar backward.</strong> TGE date, exchange listings, mainnet, named partnerships. Pin the dates, then schedule every push back from them. A launch with no dated hook is a vibe, and reporters pass on vibes.</li>
+    <li><span class="ck-n">03</span><strong>Set the regulatory posture per market and loop counsel early.</strong> Decide what you can and cannot say about price, returns and utility in each target jurisdiction, then write the messaging inside those lines. Compliance is cheaper as a constraint than as a correction.</li>
+    <li><span class="ck-n">04</span><strong>Build the single-source fact sheet.</strong> Tokenomics, supply, vesting, use of proceeds, audit status, named investors. One document every reporter and KOL works from, so the facts never drift between outlets.</li>
+    <li><span class="ck-n">05</span><strong>Agree the scorecard now, not impressions.</strong> Named target outlets, inbound and pipeline signal, sentiment around the launch, and AI-citation presence for your priority buyer queries. Decide what winning looks like before the work starts.</li>
+  </ul>
+</div>
+
+<div class="phase">
+  <div class="phase-head">
+    <span class="phase-tag">Phase 2</span>
+    <span class="phase-title">Narrative and assets</span>
+    <span class="phase-window">T-6 to T-4 weeks</span>
+  </div>
+  <ul class="checklist">
+    <li><span class="ck-n">06</span><strong>Write the launch as a category story, not a token ad.</strong> Anchor it to a real shift the token addresses. Reporters underwrite a trend with a protagonist, not a coin with a price.</li>
+    <li><span class="ck-n">07</span><strong>Prepare the founder as a quotable voice.</strong> Three to five message points, a media-training pass, and a byline or Op-Ed drafted for launch week. The founder is the most reusable asset you have.</li>
+    <li><span class="ck-n">08</span><strong>Produce the press kit.</strong> Logo pack, headshots, product screenshots, a 60-second explainer, and an embargoed press release. Make it so complete that a reporter can publish without a follow-up email.</li>
+    <li><span class="ck-n">09</span><strong>Draft and approve crisis holding statements.</strong> For the predictable failure modes: a price dump, an exploit rumor, a listing delay. Approve the language now, because the hour you need it is the hour you have no time to write it.</li>
+    <li><span class="ck-n">10</span><strong>Build the on-site GEO and AEO layer.</strong> A launch page with a front-loaded answer, FAQ content, named statistics and consistent entity signals, so when a buyer asks an AI engine about your token on launch day, the answer is assembled from your page. AI Overviews appear on roughly 48 percent of US Google queries in 2026, and earned media drives a large share of brand citations, so this is no longer optional.</li>
+  </ul>
+</div>
+
+<div class="phase">
+  <div class="phase-head">
+    <span class="phase-tag">Phase 3</span>
+    <span class="phase-title">Media and KOL outreach</span>
+    <span class="phase-window">T-4 to T-2 weeks</span>
+  </div>
+  <ul class="checklist">
+    <li><span class="ck-n">11</span><strong>Tier the outlet list by name.</strong> Crypto-native desks (CoinDesk, Cointelegraph, The Block, Decrypt, Blockworks), the regional outlets your buyers read, and the one or two mainstream targets that genuinely fit. Brief on outlets, never on a logo wall.</li>
+    <li><span class="ck-n">12</span><strong>Open embargoed conversations 10 to 14 days out.</strong> Offer a clean exclusive to the single best-fit outlet, then a coordinated embargo to the rest. Respect the embargo discipline that tier-1 desks expect.</li>
+    <li><span class="ck-n">13</span><strong>Contract a vetted KOL wave timed to the window.</strong> Disclosure-compliant, matched to your token thesis, and sequenced to the launch, never a generic buy fired at random.</li>
+    <li><span class="ck-n">14</span><strong>Line up regional placements in parallel.</strong> BloomingBit and CoinPost for Korea and Japan, ChainCatcher and Jinse for the Chinese-language market, Inc42 and YourStory for India. TGE windows often break overnight for one region, so cover the clock.</li>
+    <li><span class="ck-n">15</span><strong>Prepare partner and investor co-marketing.</strong> Quotes approved, their channels briefed, assets shared, so amplification on launch day is one click for them rather than a scramble for you.</li>
+  </ul>
+</div>
+
+<div class="phase">
+  <div class="phase-head">
+    <span class="phase-tag">Phase 4</span>
+    <span class="phase-title">Launch week</span>
+    <span class="phase-window">T-1 to T-0</span>
+  </div>
+  <ul class="checklist">
+    <li><span class="ck-n">16</span><strong>Confirm the embargo time in every reporter's timezone.</strong> Send final assets 24 to 48 hours ahead so nobody is waiting on a file when the clock hits zero.</li>
+    <li><span class="ck-n">17</span><strong>Sequence the day on a single timeline.</strong> The exclusive breaks first, re-reports follow, regional and KOL waves fire on schedule, and the founder posts within minutes of the break. Write the run-of-show down to the hour.</li>
+    <li><span class="ck-n">18</span><strong>Staff a launch-day war room.</strong> Someone watching coverage, sentiment and on-chain chatter in real time, so a misreport or a wrong number gets caught and corrected fast rather than spreading.</li>
+    <li><span class="ck-n">19</span><strong>Keep the crisis statements loaded.</strong> If price moves hard or an exploit rumor starts, respond from the pre-approved language within the hour. Speed and consistency beat a perfect statement that arrives late.</li>
+    <li><span class="ck-n">20</span><strong>Capture everything as it lands.</strong> Every placement, screenshot and quote logged in real time, both for the final report and as proof assets you will reuse for months.</li>
+  </ul>
+</div>
+
+<div class="phase">
+  <div class="phase-head">
+    <span class="phase-tag">Phase 5</span>
+    <span class="phase-title">Post-TGE follow-through</span>
+    <span class="phase-window">T+1 onward</span>
+  </div>
+  <ul class="checklist">
+    <li><span class="ck-n">21</span><strong>Publish the founder Op-Ed within 72 hours.</strong> Attention is highest right after the break, so put the durable founder asset out while the category is still listening.</li>
+    <li><span class="ck-n">22</span><strong>Convert the launch into durable assets.</strong> A case study, a teardown, and FAQ content that keeps earning AI citations long after the news cycle ends. A launch is a moment; the assets are the compounding return.</li>
+    <li><span class="ck-n">23</span><strong>Run the regional follow-through.</strong> Localized re-reports and KOL recaps in the markets that woke up after the US window, so no region is left on a single launch-day hit.</li>
+    <li><span class="ck-n">24</span><strong>Report against the scorecard.</strong> Placement quality in named outlets, inbound and pipeline, sentiment around the event, and AI-citation presence for your buyer queries. Reach is a supporting line, never the headline.</li>
+    <li><span class="ck-n">25</span><strong>Schedule the next forcing event.</strong> Momentum compounds when launches are sequenced rather than treated as one-offs. Put the next dated hook on the calendar before this one cools.</li>
+  </ul>
+</div>
+
+<div class="callout"><strong>Field rule</strong>A token launch is won in the eight weeks before the announcement, not on the day. By the time the embargo lifts, the only question left is whether you sequenced the work or improvised it.</div>
+
+<h2>How to use this checklist in 2026</h2>
+
+<p>Start six to twelve weeks out; eight is the standard run-up I plan around. If you have less than six weeks, do not try to compress all five phases, pick the two that move your specific launch most, usually the fact sheet and the embargo sequence, and run those properly rather than all twenty-five badly. If you have four months, you get the strongest result, because pre-TGE PR is sequencing work and the narrative, community, KOLs and embargo prep all compound.</p>
+
+<p>For the channels behind these steps, the <a href="/services/token-launch-pr">token launch PR</a> service page covers the full TGE program, <a href="/services/kol-marketing">KOL and influencer marketing</a> covers the creator wave, and the <a href="/playbook/apac-pr-playbook-2026">APAC PR playbook</a> covers the overnight regional windows in Korea, Japan and beyond. For budget, see <a href="/playbook/crypto-pr-cost-2026">how much crypto PR costs in 2026</a>, and for the pitch mechanics behind step 12, <a href="/playbook/get-featured-coindesk-2026">how to get featured in CoinDesk</a>. Two launches this checklist is drawn from are the <a href="/work/rari-chain">RARI Chain mainnet</a> and <a href="/work/mantra-chain">MANTRA raise</a> teardowns. External references worth bookmarking: the <a href="https://a16zcrypto.com/posts/article/how-to-launch-a-token-legally/" target="_blank" rel="noopener">a16z crypto token-launch legal framework</a> for step 3, and exchange listing pages on <a href="https://www.coingecko.com/en/methodology" target="_blank" rel="noopener">CoinGecko</a> and <a href="https://support.coinmarketcap.com/hc/en-us/articles/360043659351-Listings-Criteria" target="_blank" rel="noopener">CoinMarketCap</a> for the data fields you will be asked for.</p>
+
+
+    <div class="author-block">
+      <div class="author-avatar">SJ</div>
+      <div>
+        <div class="author-name">Shilika Jain</div>
+        <p class="author-bio">Fractional PR for Web3 and AI founders. 50+ protocols placed across Forbes, CoinDesk, Cointelegraph, Decrypt, The Block, Blockworks and AI Magazine. APAC coverage across Korea, Japan, Vietnam, Singapore and India. <a href="/about">View full profile →</a> &middot; <a href="/#contact">Book a 30-min teardown →</a></p>
+      </div>
+    </div>
+
+    <div class="faq-block">
+      <h2>Frequently asked questions</h2>
+
+      <div class="faq-q">How far before a TGE should PR start?</div>
+      <div class="faq-a">Six to twelve weeks, with eight as the standard run-up. Pre-token-launch PR is sequencing work: positioning, the fact sheet, the narrative, the KOL wave and embargo prep all build on each other, so the founders with the most runway get the strongest result. If you have fewer than six weeks, do not compress all five phases. Pick the two that move your launch most, usually the single-source fact sheet and the embargo sequence, and run those well.</div>
+
+      <div class="faq-q">What goes in a pre-token-launch press kit?</div>
+      <div class="faq-a">A single-source fact sheet (tokenomics, supply, vesting, use of proceeds, audit status, named investors), an embargoed press release, a logo pack, founder headshots, product screenshots, and a 60-second explainer. The test is whether a reporter could publish an accurate story from the kit alone without a follow-up email. Everything traces back to one fact sheet so the numbers never drift between outlets.</div>
+
+      <div class="faq-q">How do you keep token launch PR compliant?</div>
+      <div class="faq-a">Decide the regulatory posture for each target market before you write a word, loop counsel in early, and keep messaging inside what you can defensibly say about price, returns and utility in that jurisdiction. Draft crisis holding statements for predictable events like a price dump or a listing delay and get them approved in advance. Compliance handled as a constraint up front is far cheaper than a correction after launch.</div>
+
+      <div class="faq-q">Do KOLs still matter for token launches in 2026?</div>
+      <div class="faq-a">Yes, but only as a vetted wave matched to the token thesis and sequenced to the launch window, never a generic buy fired at random. KOLs and regional outlets cover the overnight windows in Korea, Japan, Vietnam and India where Web3 liquidity and community concentrate, and they must run with proper disclosure. The point is coordination with the earned-media push, not volume.</div>
+
+      <div class="faq-q">How do you make a token launch visible in AI search?</div>
+      <div class="faq-a">Build an on-site GEO and AEO layer before launch: a page with a front-loaded answer, FAQ content, named statistics and consistent entity signals so AI engines can extract and cite it. AI Overviews appear on roughly 48 percent of US Google queries in 2026 and most of those searches end without a click, so being cited inside the AI answer matters as much as the click. Earned media with quotable, citable data feeds those brand citations, which is why steps 8 and 10 pair the press kit with the AI-search layer.</div>
+    </div>
+
+    <p style="margin-top: 2.2em; padding: 22px 26px; background: var(--paper-2); border-left: 3px solid var(--lime); border-radius: 4px; font-size: 17px; line-height: 1.55;"><strong>Planning a TGE?</strong> Start with the <a href="/services/token-launch-pr" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">token launch PR</a> program, then read <a href="/playbook/web3-pr-agency-mistakes" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">the seven mistakes founders make with PR agencies</a> so you brief yours correctly before you sign.</p>
+
+  </article>
+</section>
+
+<section class="cta-strip">
+  <h3>Launching a token <em>this quarter</em>?</h3>
+  <a href="https://calendly.com/shilikajain/30min/" target="_blank" rel="noopener" class="cta-strip-btn">
+    Book a 30-min teardown
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.4"/></svg>
+  </a>
+</section>
+
+<footer class="footer">
+  <div class="footer-row">
+    <span>© SHILIKA JAIN - 2019-2026</span>
+    <span>FIELD NOTES · v.1.0</span>
+    <span><a href="/blog">← ALL ARTICLES</a></span>
+  </div>
+</footer>
