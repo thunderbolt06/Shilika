@@ -1,0 +1,118 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/how-to-pitch-cointelegraph-2026#article",
+      "headline": "How to pitch Cointelegraph in 2026",
+      "alternativeHeadline": "A senior Web3 PR operator's pitch guide to landing Cointelegraph coverage in 2026",
+      "description": "How to pitch Cointelegraph and earn editorial coverage in 2026: how the newsroom is structured, the dated news peg, the under-150-word pitch, the editorial firewall, multilingual APAC editions, and worked examples.",
+      "url": "https://www.shilikajain.com/playbook/how-to-pitch-cointelegraph-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/how-to-pitch-cointelegraph-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 1700,
+      "timeRequired": "PT9M",
+      "articleSection": "PR Playbook",
+      "keywords": ["how to pitch Cointelegraph", "Cointelegraph PR 2026", "get featured in Cointelegraph", "crypto journalist outreach", "Web3 media relations", "crypto news peg", "Cointelegraph editorial vs sponsored", "Cointelegraph regional editions", "APAC crypto PR"],
+      "inLanguage": "en",
+      "datePublished": "2026-06-21",
+      "dateModified": "2026-06-21",
+      "about": [
+        { "@type": "Thing", "name": "Cointelegraph" },
+        { "@type": "Thing", "name": "Web3 media relations" },
+        { "@type": "Thing", "name": "Crypto press strategy" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "Cointelegraph" },
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "Blockworks" },
+        { "@type": "Organization", "name": "MANTRA Chain" },
+        { "@type": "Organization", "name": "Web3Auth" },
+        { "@type": "Organization", "name": "Fluence Network" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.shilikajain.com/blog" },
+        { "@type": "ListItem", "position": 3, "name": "How to pitch Cointelegraph in 2026", "item": "https://www.shilikajain.com/playbook/how-to-pitch-cointelegraph-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/how-to-pitch-cointelegraph-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do you pitch Cointelegraph and actually get a reply?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lead the subject line and first line with a dated news peg that answers why the story matters now. Pitch one named writer whose recent work matches your beat, not a press list, and reference a specific recent piece of theirs to prove you read it. Keep the email under 150 words, in plain text, and offer complete materials: a one-page fact sheet, data, a named spokesperson, and a clear path to finishing the story without ten follow-ups."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Cointelegraph charge for coverage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cointelegraph runs a clearly labelled sponsored and brand-content business that is paid, but its newsroom coverage is earned and firewalled from that side. Paying for sponsored placement does not improve your odds with an editorial writer, and implying it should is a fast way to get ignored. Choose the lane honestly: sponsored for guaranteed dated placement you control, editorial for credibility and AI-search citations you cannot buy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is pitching Cointelegraph different from pitching CoinDesk?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Both want a category-level story over an announcement, but the emphasis differs. Cointelegraph rewards a sharp dated news peg, original data or a price angle, and it has strong multilingual regional editions that open Korea, Japan, Vietnam and Brazil. CoinDesk leans toward the canonical narrative and tighter embargo coordination. Map your story to the right outlet and the right internal surface rather than blasting both with the same note."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use the Cointelegraph regional editions for APAC reach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, and most US-only plans miss this. Cointelegraph publishes editions in several languages, and the overnight liquidity windows for Web3 sit in Asia and Brazil. When your story has a regional angle, pitch the relevant edition with a localised peg and a domestic hook rather than a translated English release, and pair it with vetted regional KOLs to cover the windows the English desk sleeps through."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to land Cointelegraph coverage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "News-desk coverage tied to a dated peg typically moves in days to two weeks from first contact, if the peg is real and materials are complete. A Cointelegraph Magazine feature or founder profile takes longer, often three to six weeks, because it needs multiple conversations and an editor's sign-off. Opinion submissions sit in between and depend on the strength of the argument and the timeliness of the topic."
+          }
+        }
+      ]
+    }
+  ]
+}

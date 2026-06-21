@@ -1,0 +1,309 @@
+<style>
+:root {
+  --ink: oklch(0.16 0.01 80);
+  --ink-2: oklch(0.22 0.01 80);
+  --paper: oklch(0.96 0.01 90);
+  --paper-2: oklch(0.92 0.015 85);
+  --cream: oklch(0.93 0.04 85);
+  --lime: oklch(0.92 0.18 115);
+  --muted: oklch(0.55 0.01 80);
+  --line: oklch(0.85 0.01 80);
+  --font-display: 'Instrument Serif', 'Times New Roman', serif;
+  --font-body: 'Inter Tight', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'Geist Mono', 'JetBrains Mono', monospace;
+  --pad: clamp(20px, 4vw, 64px);
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { font-family: var(--font-body); background: var(--paper); color: var(--ink); -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+.mono { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; }
+
+.nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; display: flex; justify-content: space-between; align-items: center; padding: 18px var(--pad); background: rgba(247, 246, 241, 0.85); backdrop-filter: blur(16px); border-bottom: 1px solid var(--line); }
+.nav-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); }
+.nav-logo-text { font-family: var(--font-display); font-size: 22px; font-style: italic; letter-spacing: -0.01em; }
+.nav-logo-dot { color: var(--lime); margin: 0 2px; }
+.nav-links { display: flex; gap: 28px; list-style: none; font-family: var(--font-mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; }
+.nav-links a { position: relative; padding: 4px 0; color: var(--ink); text-decoration: none; }
+.nav-links a::after { content: ''; position: absolute; left: 0; bottom: 0; width: 0; height: 1px; background: var(--ink); transition: width 0.4s var(--ease-out-quart); }
+.nav-links a:hover::after, .nav-links a.is-current::after { width: 100%; }
+.nav-cta { display: inline-flex; align-items: center; gap: 8px; padding: 10px 18px; background: var(--ink); color: var(--paper); font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; border-radius: 100px; transition: background 0.3s, color 0.3s; }
+.nav-cta:hover { background: var(--lime); color: var(--ink); }
+@media (max-width: 800px) { .nav-links { display: none; } }
+
+.scroll-progress { position: fixed; top: 0; left: 0; right: 0; height: 2px; z-index: 200; background: transparent; }
+.scroll-progress-bar { height: 100%; background: var(--lime); width: 0%; transition: width 0.1s linear; }
+
+.article-header { padding: 140px var(--pad) 60px; border-bottom: 1px solid var(--line); background: var(--paper); position: relative; }
+.crumb { max-width: 980px; margin: 0 auto 36px; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+.crumb a { color: var(--muted); text-decoration: none; transition: color 0.3s; }
+.crumb a:hover { color: var(--ink); }
+.crumb .sep { margin: 0 12px; }
+.article-meta-row { max-width: 980px; margin: 0 auto 28px; display: flex; gap: 18px; align-items: center; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); flex-wrap: wrap; }
+.article-cat { background: var(--ink); color: var(--paper); padding: 5px 12px; border-radius: 3px; font-weight: 500; }
+.article-headline { max-width: 980px; margin: 0 auto; font-family: var(--font-display); font-size: clamp(40px, 6.4vw, 88px); line-height: 0.97; letter-spacing: -0.018em; font-weight: 400; text-wrap: balance; }
+.article-headline em { font-style: italic; background: linear-gradient(120deg, transparent 30%, var(--lime) 30%, var(--lime) 90%, transparent 90%); background-size: 200% 100%; background-position: 100% 0; padding: 0 0.05em; animation: hl-sweep 1.6s 0.4s var(--ease-out-quart) forwards; }
+@keyframes hl-sweep { to { background-position: 0 0; } }
+.article-sub { max-width: 760px; margin: 32px auto 0; font-family: var(--font-display); font-size: clamp(20px, 1.6vw, 24px); line-height: 1.4; font-style: italic; color: var(--muted); }
+
+.article-hero-visual { max-width: 1200px; margin: 60px auto 0; aspect-ratio: 16 / 7; position: relative; overflow: hidden; border-radius: 4px; background: oklch(0.28 0.05 250); color: var(--paper); }
+.visual-ctg .v-grid { position: absolute; inset: 0; background-image: linear-gradient(rgba(255,255,255,0.06) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.06) 1px, transparent 1px); background-size: 28px 28px; }
+.visual-ctg .v-num { position: absolute; left: 24px; top: 22px; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.15em; color: rgba(255,255,255,0.6); }
+.visual-ctg .v-ticker { position: absolute; left: 0; right: 0; top: 50%; transform: translateY(-50%); display: flex; gap: 40px; align-items: center; justify-content: center; flex-wrap: wrap; padding: 0 24px; }
+.visual-ctg .v-pill { font-family: var(--font-mono); font-size: clamp(13px, 1.4vw, 18px); letter-spacing: 0.08em; color: rgba(255,255,255,0.85); border: 1px solid rgba(212,255,50,0.4); border-radius: 100px; padding: 8px 16px; }
+.visual-ctg .v-pill.is-key { background: var(--lime); color: var(--ink); border-color: var(--lime); }
+.visual-ctg .v-headline { position: absolute; left: 24px; bottom: 60px; font-family: var(--font-display); font-size: clamp(28px, 3.6vw, 44px); font-style: italic; color: var(--paper); line-height: 1; max-width: 62%; }
+.visual-ctg .v-tag { position: absolute; left: 24px; bottom: 24px; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.15em; color: rgba(255,255,255,0.6); }
+
+.article-body-wrap { padding: 80px var(--pad) 100px; background: var(--paper); }
+.article-body { max-width: 720px; margin: 0 auto; font-size: 19px; line-height: 1.65; color: oklch(0.25 0.01 80); }
+.article-body p { margin-bottom: 1.4em; }
+.article-body p.lede { font-family: var(--font-display); font-size: clamp(26px, 2.4vw, 34px); line-height: 1.25; font-style: italic; color: var(--ink); margin-bottom: 1.6em; }
+.article-body h2 { font-family: var(--font-display); font-size: clamp(28px, 3vw, 40px); font-weight: 400; letter-spacing: -0.01em; color: var(--ink); margin: 2em 0 0.8em; line-height: 1.1; text-wrap: balance; }
+.article-body h2::before { content: '§ '; color: var(--lime); font-style: italic; }
+.article-body h3 { font-family: var(--font-display); font-size: clamp(22px, 2.2vw, 28px); font-weight: 400; color: var(--ink); margin: 1.6em 0 0.5em; line-height: 1.2; }
+.article-body ul, .article-body ol { margin: 0 0 1.6em 1.4em; padding-left: 0; }
+.article-body li { margin-bottom: 0.6em; padding-left: 0.4em; }
+.article-body li::marker { color: var(--lime); }
+.article-body strong { color: var(--ink); font-weight: 600; }
+.article-body em { font-style: italic; }
+.article-body a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px; }
+.article-body table { width: 100%; border-collapse: collapse; margin: 1.6em 0; font-size: 15px; font-family: var(--font-mono); letter-spacing: 0.02em; }
+.article-body table th { text-align: left; padding: 10px 12px; background: var(--ink); color: var(--paper); font-weight: 500; text-transform: uppercase; font-size: 11px; letter-spacing: 0.1em; }
+.article-body table td { padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.article-body table tr:nth-child(even) td { background: var(--paper-2); }
+.callout { background: var(--ink); color: var(--paper); padding: 28px 32px; border-radius: 8px; margin: 2em 0; font-family: var(--font-display); font-size: clamp(20px, 1.8vw, 24px); font-style: italic; line-height: 1.35; }
+.callout strong { color: var(--lime); font-weight: 400; font-style: normal; font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; display: block; margin-bottom: 10px; }
+.pitch-example { background: var(--paper-2); border-left: 3px solid var(--lime); padding: 24px 28px; margin: 2em 0; font-family: var(--font-mono); font-size: 14px; line-height: 1.55; color: oklch(0.30 0.01 80); white-space: pre-wrap; border-radius: 0 6px 6px 0; }
+.pitch-example .pitch-label { display: block; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink); margin-bottom: 10px; font-weight: 600; }
+.faq-block { max-width: 720px; margin: 60px auto 0; padding: 32px; background: var(--paper-2); border-radius: 8px; }
+.faq-block h2 { font-family: var(--font-display); font-size: clamp(28px, 3vw, 36px); margin-bottom: 24px; font-weight: 400; }
+.faq-q { font-family: var(--font-display); font-style: italic; font-size: 20px; color: var(--ink); margin: 22px 0 8px; }
+.faq-a { font-size: 16px; color: oklch(0.30 0.01 80); line-height: 1.6; }
+
+.author-block { max-width: 720px; margin: 80px auto 0; padding: 32px; background: var(--paper-2); border-radius: 8px; display: grid; grid-template-columns: 64px 1fr; gap: 20px; align-items: center; }
+.author-avatar { width: 64px; height: 64px; border-radius: 50%; background: var(--ink); color: var(--lime); display: flex; align-items: center; justify-content: center; font-family: var(--font-display); font-size: 24px; font-style: italic; font-weight: 400; }
+.author-name { font-family: var(--font-display); font-size: 24px; font-style: italic; line-height: 1; margin-bottom: 6px; }
+.author-bio { font-size: 14px; color: var(--muted); line-height: 1.4; }
+.author-bio a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px; }
+
+.cta-strip { background: var(--ink); color: var(--paper); padding: 100px var(--pad); text-align: center; position: relative; overflow: hidden; }
+.cta-strip h3 { font-family: var(--font-display); font-size: clamp(40px, 6vw, 80px); font-weight: 400; line-height: 1; letter-spacing: -0.015em; max-width: 18ch; margin: 0 auto 32px; }
+.cta-strip h3 em { font-style: italic; color: var(--lime); }
+.cta-strip-btn { display: inline-flex; align-items: center; gap: 10px; background: var(--lime); color: var(--ink); padding: 18px 32px; font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; text-decoration: none; border-radius: 100px; transition: transform 0.4s var(--ease-out-quart); }
+.cta-strip-btn:hover { transform: translateY(-2px); }
+
+.footer { background: var(--ink); color: var(--paper); padding: 40px var(--pad) 24px; border-top: 1px solid rgba(255,255,255,0.08); }
+.footer-row { max-width: 1440px; margin: 0 auto; display: flex; justify-content: space-between; font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.5); flex-wrap: wrap; gap: 12px; }
+.footer-row a { color: inherit; text-decoration: none; }
+</style>
+
+
+<div class="scroll-progress"><div class="scroll-progress-bar" id="progress-bar"></div></div>
+
+<nav class="nav">
+  <a href="/" class="nav-logo">
+    <svg width="34" height="34" viewBox="0 0 34 34" fill="none">
+      <rect width="34" height="34" rx="8" fill="#282520"/>
+      <text x="50%" y="55%" text-anchor="middle" dominant-baseline="middle" font-family="Georgia, serif" font-size="18" font-style="italic" fill="#d4ff32">SJ</text>
+      <circle cx="27" cy="7" r="2" fill="#d4ff32"/>
+    </svg>
+    <span class="nav-logo-text">SHILIKA<span class="nav-logo-dot">·</span>JAIN</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="/#work">Work</a></li>
+    <li><a href="/#services">Services</a></li>
+    <li><a href="/#press">Press</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/blog" class="is-current">Blog</a></li>
+    <li><a href="/#contact">Contact</a></li>
+  </ul>
+  <a href="https://calendly.com/shilikajain/30min/" target="_blank" rel="noopener" class="nav-cta">
+    <span>Book a call</span>
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.4"/></svg>
+  </a>
+</nav>
+
+<header class="article-header">
+  <div class="crumb">
+    <a href="/">Shilika Jain</a><span class="sep">/</span>
+    <a href="/blog">Field Notes</a><span class="sep">/</span>
+    <span>013</span>
+  </div>
+  <div class="article-meta-row">
+    <span class="article-cat">MEDIA GUIDE</span>
+    <span>· 9 MIN READ</span>
+    <span>· JUNE 21, 2026</span>
+    <span>· BY SHILIKA JAIN</span>
+  </div>
+  <h1 class="article-headline">How to pitch <em>Cointelegraph</em> in 2026.</h1>
+  <p class="article-sub">The companion to my CoinDesk guide. How Cointelegraph's newsroom is actually structured, the dated news peg that gets you read in 15 seconds, the under-150-word pitch, the editorial firewall most founders trip over, and how to use the multilingual editions for APAC reach. From a senior PR operator who has placed 50+ protocols.</p>
+
+  <div class="article-hero-visual visual-ctg">
+    <div class="v-grid"></div>
+    <span class="v-num">013 / COINTELEGRAPH PLAYBOOK</span>
+    <div class="v-ticker">
+      <span class="v-pill">NEWS DESK</span>
+      <span class="v-pill is-key">NEWS PEG</span>
+      <span class="v-pill">MAGAZINE</span>
+      <span class="v-pill">OPINION</span>
+    </div>
+    <div class="v-headline">A story the reader<br/>cares about, in<br/><em style="font-style:italic; color:var(--lime);">15 seconds.</em></div>
+    <span class="v-tag">PEG · BEAT · COMPLETE MATERIALS</span>
+  </div>
+</header>
+
+<section class="article-body-wrap">
+  <article class="article-body">
+
+<p class="lede">Cointelegraph is the highest-traffic outlet in crypto, and that is exactly why a generic pitch dies there. To get covered in 2026 you need a dated news peg in the first line, a story the reader cares about rather than a product update, proof you have read the writer's recent work, and enough material to finish the piece without ten follow-ups. Here is the playbook.</p>
+
+<p>I run fractional PR for Web3 and AI founders, and Cointelegraph has been part of nearly every launch I have shipped, including coverage tied to MANTRA Chain's $11M raise, Web3Auth's Google Cloud integration, and Fluence Network's DePIN category push. This is the sister guide to my <a href="/playbook/get-featured-coindesk-2026">CoinDesk pitch playbook</a>. The two outlets reward different things, and the difference is the whole point of this piece.</p>
+
+<h2>Step 1: Understand how Cointelegraph's newsroom is actually built</h2>
+
+<p>Treating Cointelegraph as one inbox is the first mistake. It is several distinct surfaces, and each one filters for a different thing:</p>
+
+<table>
+  <thead><tr><th>Surface</th><th>What it runs</th><th>What it filters for</th></tr></thead>
+  <tbody>
+    <tr><td>News desk</td><td>Fast, dated, market-relevant news</td><td>A real news peg, today or this week</td></tr>
+    <tr><td>Markets &amp; analysis</td><td>Price, on-chain data, trend pieces</td><td>Original data, a chart, a number nobody else has</td></tr>
+    <tr><td>Cointelegraph Magazine</td><td>Long features, founder profiles, deep dives</td><td>A character and a narrative, not an announcement</td></tr>
+    <tr><td>Opinion</td><td>Bylined op-eds from founders and operators</td><td>A real argument, a thesis, a contrarian take</td></tr>
+    <tr><td>Sponsored / Brand</td><td>Paid, clearly labelled content</td><td>Budget, not editorial merit (firewalled)</td></tr>
+  </tbody>
+</table>
+
+<p>Decide which surface your story belongs to before you write a word. A funding round is a news-desk story. A founder's thesis on where the category is going is an Opinion submission. A deep teardown of how you survived a depeg is Magazine. Pitching the wrong surface is why a strong story gets no reply.</p>
+
+<h2>Step 2: Lead with a dated news peg, not a product</h2>
+
+<p>Cointelegraph's editors decide in roughly 15 seconds, and the first thing they look for is <strong>why this story matters now</strong>. A news peg is a date the story is anchored to: a launch day, a listing, a regulatory deadline, a market move, a funding close. Without a peg, even good news reads as evergreen, and evergreen goes to the bottom of the pile.</p>
+
+<p>The harder discipline is turning a product update into a story. The test I use: a protocol upgrade is a product update, but a protocol upgrade that cuts gas fees 40 percent during a fee spike is a story. The reader does not care about your release. They care about what it changes.</p>
+
+<ul>
+  <li>A token listing becomes "the first RWA token to list on a regulated APAC exchange the same week the regulator published its framework."</li>
+  <li>A mainnet becomes "the L2 going live the day a competing chain halted, with the throughput numbers to back the contrast."</li>
+  <li>A raise becomes "the Middle East fund backing tokenized real-world assets as the UAE finalises its RWA rules."</li>
+  <li>A partnership becomes "a Web2 cloud giant quietly entering on-chain identity."</li>
+</ul>
+
+<h2>Step 3: Find the right writer, then prove you read them</h2>
+
+<p>Cointelegraph has a large, rotating contributor and staff pool across beats: DeFi, infrastructure, regulation, markets, NFTs and gaming, AI, and regional desks. Do not pitch "the editor." Pitch the one writer whose last few pieces sit next to your story.</p>
+
+<p>The fastest way to map them is a site search. Run <strong>site:cointelegraph.com intitle:"your topic"</strong> in Google, read the last 10 to 15 results, and note who keeps showing up on your beat. Then read their three most recent pieces properly. Your pitch must reference one of them in a way that proves you actually read it. Generic "I think this is a great fit for Cointelegraph" lines are read as proof you have never opened the site.</p>
+
+<div class="callout"><strong>Field rule</strong>Personal pitches to one or two named writers beat broadcast blasts to a press list by a margin most founders badly underestimate. One real pitch outperforms fifty cold ones.</div>
+
+<h2>Step 4: Write the under-150-word pitch</h2>
+
+<p>Plain text email. No attachments, no decks, no video links in the first message. Four jobs in four short paragraphs: the peg, why it matters to that writer's beat, the proof, and the clear path to finishing the piece.</p>
+
+<div class="pitch-example"><span class="pitch-label">Pitch template, under 150 words</span>Subject: June 30 launch, first RWA token on a regulated APAC exchange
+
+Hi [Writer first name],
+
+News peg first: [Protocol] lists [TOKEN] on [exchange] on June 30, the same week [regulator] published its RWA framework. It is the first tokenized real-world-asset token to clear that regime, and it sets the template other RWA issuers will follow into Asia.
+
+Your June 12 piece on RWA regulation in Singapore is exactly the lens for this. I can give you the exclusive ahead of the wider wire.
+
+You would have everything to write it: a one-page fact sheet, on-chain volume data, two named partners, and founder [Name] for a 20-minute call this week. Embargo June 30, 9am SGT, confirmed in writing.
+
+Worth a look?
+
+Shilika</div>
+
+<p>The writer reads that in under a minute. If the peg is real and the materials are complete, you have a reply inside a day.</p>
+
+<h2>Step 5: Respect the editorial / sponsored firewall</h2>
+
+<p>Cointelegraph runs a clearly labelled sponsored and brand-content business alongside its newsroom, and the two are firewalled. Paying for sponsored placement does not move your odds with an editorial writer, and implying that it should is the fastest way to get ignored by the newsroom.</p>
+
+<p>Pick the lane honestly. Sponsored content is a legitimate distribution tool when you want guaranteed, dated placement and control the message. Editorial coverage is earned, unpredictable, and worth more in credibility and in AI-search citations. Do not pitch editorial as if it were a transaction, and never ask a reporter to cover you "in exchange for" running a sponsored post.</p>
+
+<h2>Step 6: Use the multilingual editions for real APAC reach</h2>
+
+<p>This is the lever most US-only PR plans miss. Cointelegraph publishes regional editions in multiple languages, and the overnight liquidity windows for Web3 sit in Korea, Japan, Vietnam and Brazil, not San Francisco. A story that runs only on the English edition leaves the markets where your community actually trades uncovered.</p>
+
+<p>When the story has a regional angle, pitch the relevant edition with a localised peg, not a machine translation of the English release. A Korea-relevant listing pitched to the Korean edition with a domestic exchange hook lands far better than the same English note forwarded on. Pair it with vetted regional KOLs and you cover the windows the English desk sleeps through. I go deeper on this in the <a href="/playbook/apac-pr-playbook-2026">APAC PR playbook</a>.</p>
+
+<h2>Step 7: Send complete materials, then follow up once</h2>
+
+<p>The single biggest reason a yes turns into a no-show is incomplete materials. The writer should be able to finish the piece from what you send without chasing you. After the writer bites, send a tight package: a one-page fact sheet, two named quotes, on-chain or product data, two founder photos at high resolution, and a one-paragraph bio. Everything traces back to a single fact sheet so numbers never drift between editions.</p>
+
+<p>On follow-up, the rule is one polite nudge, 48 hours later, that adds something new rather than repeating the ask. Then stop. The largest leverage in the relationship is the second story, not the first. A writer who covered you once is several times more likely to cover you again, so keep them warm with a quarterly check-in even when you have nothing to pitch.</p>
+
+<h2>Three worked examples</h2>
+
+<p>Quick teardowns from launches I have run where Cointelegraph was part of the wave.</p>
+
+<h3>MANTRA Chain: the $11M raise as a regional story</h3>
+<p>The raise had a Middle East RWA angle that mattered more than the dollar figure. CoinDesk took the news exclusive; Cointelegraph ran a standalone profile of the CEO under its "Everything Tokenized" framing. One announcement, two assets: a dated raise hit and a durable founder profile. Lesson: Cointelegraph often wants the character piece, not the press release.</p>
+
+<h3>Web3Auth: the partner brand as the headline</h3>
+<p>A developer release with no token and no funding hook is normally invisible to tier-1. Reframed around the Google Cloud and Firebase brand, it ran across Cointelegraph and Blockworks, then syndicated into French, Italian and Spanish markets. Lesson: make the partner brand the headline noun, and the multilingual editions do the rest.</p>
+
+<h3>Fluence Network: making DePIN a beat</h3>
+<p>DePIN was an acronym most editors did not yet treat as a beat. Rather than pitch company news, we pitched category thinking, landing a Cointelegraph "Hashing It Out" feature on DePIN's role in the next crypto wave alongside a CoinDesk opinion column under the founder's byline. Lesson: when the category is new, sell the category, and let the company ride inside it.</p>
+
+<h2>Why a Cointelegraph placement compounds in 2026</h2>
+
+<p>A Cointelegraph byline is worth more this year than last, and the reason is AI search. AI Overviews now appear on roughly <strong>48 percent of US Google queries</strong> (Search Engine Land, 2026), and most of those searches end without a click. Being cited inside the AI answer is the new position one. Cointelegraph is one of the crypto domains these engines lean on most heavily, so a single editorial feature shows up next to the generated answer your buyer is reading on Google AI Mode, ChatGPT, Perplexity and Claude, not just on the outlet's own page.</p>
+
+<p>This is also why the editorial-versus-sponsored choice matters beyond credibility. The Princeton GEO study (Aggarwal et al., <a href="https://arxiv.org/abs/2311.09735" target="_blank" rel="noopener">arXiv:2311.09735</a>, ACM SIGKDD 2024) measured a 30 to 40 percent lift in generative-engine citation rates for content carrying inline statistics, named sources and direct quotation. Editorial pieces built on real data and named partners feed that machinery. A pitch engineered with those signals in mind compounds long after the news cycle. If you are pre-launch, the <a href="/playbook/pre-token-launch-pr-checklist">pre-token-launch PR checklist</a> shows where this media push slots into the eight-week run-up.</p>
+
+<h2>What I do for clients on this</h2>
+
+<p>For most founders the gap between "I want Cointelegraph coverage" and "I am in Cointelegraph this week" is not pitch craft. It is the writer map, the dated peg, knowing which surface the story belongs to, and the discipline to send complete materials and stop at one follow-up. That is the job.</p>
+
+<p>If you want help running this for a specific launch, the 30-minute teardown is the next step. Bring your launch timeline, your top three Cointelegraph writers by beat, and the peg you are weighing. You will leave with a sharper version of each.</p>
+
+
+    <div class="author-block">
+      <div class="author-avatar">SJ</div>
+      <div>
+        <div class="author-name">Shilika Jain</div>
+        <p class="author-bio">Senior Web3 &amp; AI PR consultant. 50+ protocols placed in Forbes, CoinDesk, Cointelegraph, Decrypt, The Block, Blockworks, Bitcoin Magazine, Benzinga, and AI Magazine. APAC coverage across Korea, Japan, Vietnam, Singapore and India. <a href="/about">View full profile →</a> &middot; <a href="/#contact">Book a 30-min teardown →</a></p>
+      </div>
+    </div>
+
+    <div class="faq-block">
+      <h2>Frequently asked questions</h2>
+
+      <div class="faq-q">How do you pitch Cointelegraph and actually get a reply?</div>
+      <div class="faq-a">Lead the subject line and first line with a dated news peg that answers why the story matters now. Pitch one named writer whose recent work matches your beat, not a press list, and reference a specific recent piece of theirs to prove you read it. Keep the email under 150 words, in plain text, and offer complete materials: a one-page fact sheet, data, a named spokesperson, and a clear path to finishing the story without ten follow-ups.</div>
+
+      <div class="faq-q">Does Cointelegraph charge for coverage?</div>
+      <div class="faq-a">Cointelegraph runs a clearly labelled sponsored and brand-content business that is paid, but its newsroom coverage is earned and firewalled from that side. Paying for sponsored placement does not improve your odds with an editorial writer, and implying it should is a fast way to get ignored. Choose the lane honestly: sponsored for guaranteed dated placement you control, editorial for credibility and AI-search citations you cannot buy.</div>
+
+      <div class="faq-q">How is pitching Cointelegraph different from pitching CoinDesk?</div>
+      <div class="faq-a">Both want a category-level story over an announcement, but the emphasis differs. Cointelegraph rewards a sharp dated news peg, original data or a price angle, and it has strong multilingual regional editions that open Korea, Japan, Vietnam and Brazil. CoinDesk leans toward the canonical narrative and tighter embargo coordination. Map your story to the right outlet and the right internal surface rather than blasting both with the same note.</div>
+
+      <div class="faq-q">Can I use the Cointelegraph regional editions for APAC reach?</div>
+      <div class="faq-a">Yes, and most US-only plans miss this. Cointelegraph publishes editions in several languages, and the overnight liquidity windows for Web3 sit in Asia and Brazil. When your story has a regional angle, pitch the relevant edition with a localised peg and a domestic hook rather than a translated English release, and pair it with vetted regional KOLs to cover the windows the English desk sleeps through.</div>
+
+      <div class="faq-q">How long does it take to land Cointelegraph coverage?</div>
+      <div class="faq-a">News-desk coverage tied to a dated peg typically moves in days to two weeks from first contact, if the peg is real and materials are complete. A Cointelegraph Magazine feature or founder profile takes longer, often three to six weeks, because it needs multiple conversations and an editor's sign-off. Opinion submissions sit in between and depend on the strength of the argument and the timeliness of the topic.</div>
+    </div>
+
+  </article>
+</section>
+
+<section class="cta-strip">
+  <h3>Have a launch worth a <em>news peg</em>?</h3>
+  <a href="https://calendly.com/shilikajain/30min/" target="_blank" rel="noopener" class="cta-strip-btn">
+    Book a 30-min teardown
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.4"/></svg>
+  </a>
+</section>
+
+<footer class="footer">
+  <div class="footer-row">
+    <span>© SHILIKA JAIN - 2019-2026</span>
+    <span>FIELD NOTES · v.1.0</span>
+    <span><a href="/blog">← ALL ARTICLES</a></span>
+  </div>
+</footer>
