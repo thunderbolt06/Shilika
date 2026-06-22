@@ -1,5 +1,4 @@
 import 'server-only';
-import Anthropic from '@anthropic-ai/sdk';
 import { z } from 'zod';
 import { buildHeroPrompt } from '@/lib/images/prompt';
 import {
@@ -8,11 +7,10 @@ import {
   loadAgentContext,
   type AgentContext,
 } from './context';
-import { checkHumanization, formatViolations } from './humanize-loop';
-import { withRetry } from '@/lib/retry';
+import { checkHumanization } from './humanize-loop';
+import type { AnthropicBatchRequest } from './anthropic-batch';
 
 const WRITER_MODEL = process.env.ANTHROPIC_WRITER_MODEL || 'claude-sonnet-4-6';
-const MAX_HUMANIZE_PASSES = 4;
 
 const DEFAULT_CTA_LABEL = 'Book a 30-min teardown with Shilika';
 const DEFAULT_CTA_URL = 'https://calendly.com/shilikajain/30min/';
@@ -171,86 +169,24 @@ function buildUserPrompt(ctx: AgentContext): string {
     .join('\n\n');
 }
 
-function buildFixPrompt(violations: string): string {
-  return [
-    'The validator rejected the draft. Fix every violation below and call `submit_draft` again with the corrected post. Do not change the title, description, tags, related_posts, image_prompt, or slug. Only fix the body.',
-    '',
-    'Violations:',
-    violations,
-  ].join('\n');
+/** Stable custom_id <-> ideaId mapping used to match batch results to ideas. */
+export function writerCustomId(ideaId: number): string {
+  return `idea-${ideaId}`;
 }
 
-type Message = {
-  role: 'user' | 'assistant';
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  content: any;
-};
-
-type DraftCall = {
-  // The raw assistant message (preserved so we can append it to the
-  // conversation for the next fix-loop turn).
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  assistantContent: any;
-  input: unknown;
-};
-
-async function callClaude(system: string, messages: Message[]): Promise<DraftCall> {
-  const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
-  const response = await withRetry(
-    () =>
-      client.messages.create({
-        model: WRITER_MODEL,
-        max_tokens: 8000,
-        system: [
-          // eslint-disable-next-line @typescript-eslint/no-explicit-any
-          { type: 'text', text: system, cache_control: { type: 'ephemeral', ttl: '1h' } } as any,
-        ],
-        messages,
-        tools: [
-          // Anthropic-hosted web search (server-side; no client loop needed).
-          // eslint-disable-next-line @typescript-eslint/no-explicit-any
-          { type: 'web_search_20250305', name: 'web_search' } as any,
-          // Client tool used purely as a structured-output channel.
-          // Cache breakpoint on the last tool caches the full tools block.
-          // eslint-disable-next-line @typescript-eslint/no-explicit-any
-          { ...SUBMIT_DRAFT_TOOL, cache_control: { type: 'ephemeral', ttl: '1h' } } as any,
-        ],
-      }, {
-        headers: { 'anthropic-beta': 'extended-cache-ttl-2025-04-11' },
-      }),
-    { label: `anthropic:${WRITER_MODEL}` },
-  );
-
-  const toolUse = response.content.find(
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    (b: any) => b.type === 'tool_use' && b.name === SUBMIT_DRAFT_TOOL.name,
-  );
-  if (!toolUse) {
-    const text = response.content
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      .filter((b: any) => b.type === 'text')
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      .map((b: any) => b.text as string)
-      .join('\n')
-      .slice(0, 400);
-    throw new Error(`writer did not call submit_draft (got: ${text || '[no text]'})`);
-  }
-
-  return {
-    assistantContent: response.content,
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    input: (toolUse as any).input,
-  };
+export function ideaIdFromCustomId(customId: string): number | null {
+  const m = customId.match(/^idea-(\d+)$/);
+  return m ? Number(m[1]) : null;
 }
 
-export type WriterResult = {
-  draft: DraftEnvelope;
-  imagePrompt: string;
-  passes: number;
-  finalViolations: number;
-};
-
-export async function writeDraftForIdea(ideaId: number): Promise<WriterResult> {
+/**
+ * Build the Anthropic batch request for a single idea. The writer is now
+ * single-shot: the old multi-turn humanization fix loop can't run inside one
+ * batch request, so we ask for the best draft in one pass and validate
+ * humanization at parse time (recorded, non-fatal). Web search runs
+ * server-side within the batch request — no client loop needed.
+ */
+export async function buildWriterRequest(ideaId: number): Promise<AnthropicBatchRequest> {
   if (!process.env.ANTHROPIC_API_KEY) {
     throw new Error('ANTHROPIC_API_KEY missing — required to run the writer');
   }
@@ -261,37 +197,57 @@ export async function writeDraftForIdea(ideaId: number): Promise<WriterResult> {
   const system = buildSystem(ctx);
   const userPrompt = buildUserPrompt(ctx);
 
-  const messages: Message[] = [{ role: 'user', content: userPrompt }];
-  let call = await callClaude(system, messages);
-  let parsed = DraftSchema.parse(call.input);
-
-  let passes = 1;
-  let violations = checkHumanization(parsed.body);
-
-  while (violations.length > 0 && passes < MAX_HUMANIZE_PASSES) {
-    // Round-trip the assistant turn + a synthetic tool_result so the next
-    // turn is a well-formed continuation of the structured-output flow.
-    const toolUseId =
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      (call.assistantContent.find((b: any) => b.type === 'tool_use' && b.name === SUBMIT_DRAFT_TOOL.name) as any)
-        ?.id;
-    messages.push({ role: 'assistant', content: call.assistantContent });
-    messages.push({
-      role: 'user',
-      content: [
-        {
-          type: 'tool_result',
-          tool_use_id: toolUseId,
-          content: buildFixPrompt(formatViolations(violations)),
-          is_error: true,
-        },
+  return {
+    custom_id: writerCustomId(ideaId),
+    params: {
+      model: WRITER_MODEL,
+      max_tokens: 8000,
+      system: [
+        // Shared prefix across every request in the batch — cache it.
+        { type: 'text', text: system, cache_control: { type: 'ephemeral' } },
       ],
-    });
-    call = await callClaude(system, messages);
-    parsed = DraftSchema.parse(call.input);
-    passes += 1;
-    violations = checkHumanization(parsed.body);
+      messages: [{ role: 'user', content: userPrompt }],
+      tools: [
+        // Anthropic-hosted web search (server-side; runs inside the batch).
+        { type: 'web_search_20250305', name: 'web_search' },
+        // Client tool used purely as a structured-output channel. Cache
+        // breakpoint on the last tool caches the full tools block.
+        { ...SUBMIT_DRAFT_TOOL, cache_control: { type: 'ephemeral' } },
+      ],
+    },
+  };
+}
+
+export type WriterDraftResult = {
+  draft: DraftEnvelope;
+  imagePrompt: string;
+  finalViolations: number;
+};
+
+/**
+ * Parse a completed batch message into a validated draft + hero prompt.
+ * Throws if the model didn't call `submit_draft` or the payload fails schema
+ * validation — the caller rolls the idea back to 'idea' in that case.
+ */
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export function parseWriterDraft(message: any): WriterDraftResult {
+  const content = message?.content ?? [];
+  const toolUse = content.find(
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    (b: any) => b.type === 'tool_use' && b.name === SUBMIT_DRAFT_TOOL.name,
+  );
+  if (!toolUse) {
+    const text = content
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      .filter((b: any) => b.type === 'text')
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      .map((b: any) => b.text as string)
+      .join('\n')
+      .slice(0, 400);
+    throw new Error(`writer did not call submit_draft (got: ${text || '[no text]'})`);
   }
+
+  const parsed = DraftSchema.parse(toolUse.input);
 
   // Build a hero image prompt from the draft's image_prompt + structural rules.
   const hero = buildHeroPrompt({
@@ -301,10 +257,11 @@ export async function writeDraftForIdea(ideaId: number): Promise<WriterResult> {
     styleHint: parsed.image_prompt,
   });
 
+  const violations = checkHumanization(parsed.body);
+
   return {
     draft: parsed,
     imagePrompt: hero,
-    passes,
     finalViolations: violations.length,
   };
 }

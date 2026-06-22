@@ -22,6 +22,10 @@
       "schedule": "30 1 1 * *"
     },
     {
+      "path": "/api/cron/batch-poller",
+      "schedule": "15 1 * * *"
+    },
+    {
       "path": "/api/cron/hourly-publisher",
       "schedule": "0 * * * *"
     },

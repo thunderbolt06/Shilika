@@ -1,89 +1,81 @@
 import 'server-only';
 import { generateAndStoreHero } from '@/lib/images/pipeline';
 import { getAdminSupabase } from '@/lib/supabase/server';
-import { writeDraftForIdea, type WriterResult } from './writer';
+import type { DraftEnvelope } from './writer';
 
-export type PipelineResult = {
+export type FinalizeResult = {
   ideaId: number;
-  draft: WriterResult['draft'];
+  draft: DraftEnvelope;
   imageUrl: string | null;
   imageSizeKb: number | null;
-  humanizationPasses: number;
   finalViolations: number;
 };
 
 /**
- * End-to-end "idea → ready_for_review" pipeline:
- *   1. Mark the idea as in-flight
- *   2. Run the writer (Claude + humanization loop)
- *   3. Generate the hero image
- *   4. Write the result back to content_ideas with status='ready_for_review'
- *
- * Idempotent on idempotent inputs — re-running on the same idea overwrites
- * the previous draft. Failures roll the status back to 'idea' with a note.
+ * Mark an idea as claimed by a submitted writer batch so a parallel submit
+ * doesn't pick it again. Called at batch-submit time.
  */
-export async function runDraftPipeline(ideaId: number): Promise<PipelineResult> {
+export async function claimIdeaForWriter(ideaId: number): Promise<void> {
   const supabase = getAdminSupabase();
-
-  // Stake a claim on the row so a parallel writer doesn't pick the same idea.
   await supabase
     .from('content_ideas')
-    .update({ status: 'draft', notes: 'writer started' })
+    .update({ status: 'draft', notes: 'writer batch submitted' })
     .eq('id', ideaId);
+}
 
+/** Roll a claimed idea back to 'idea' when its batch request failed. */
+export async function rollbackIdea(ideaId: number, reason: string): Promise<void> {
+  const supabase = getAdminSupabase();
+  await supabase
+    .from('content_ideas')
+    .update({ status: 'idea', notes: `writer batch failed: ${reason.slice(0, 480)}` })
+    .eq('id', ideaId);
+}
+
+/**
+ * Finalize a writer batch result: generate + store the hero image, then write
+ * the draft back to content_ideas as ready_for_review. This is the post-writer
+ * half that used to live inline in runDraftPipeline; image generation (Gemini)
+ * stays synchronous and runs here, inside the batch-poller cron.
+ *
+ * Image-gen failures are non-fatal — the draft still ships for review.
+ */
+export async function finalizeWriterDraft(args: {
+  ideaId: number;
+  draft: DraftEnvelope;
+  imagePrompt: string;
+  finalViolations: number;
+}): Promise<FinalizeResult> {
+  const { ideaId, draft, imagePrompt, finalViolations } = args;
+  const supabase = getAdminSupabase();
+
+  let imageUrl: string | null = null;
+  let imageSizeKb: number | null = null;
   try {
-    const writerResult = await writeDraftForIdea(ideaId);
-
-    let imageUrl: string | null = null;
-    let imageSizeKb: number | null = null;
-    try {
-      const heroSlug = writerResult.draft.slug;
-      const img = await generateAndStoreHero({
-        slug: heroSlug,
-        prompt: writerResult.imagePrompt,
-      });
-      imageUrl = img.url;
-      imageSizeKb = img.sizeKb;
-    } catch (err) {
-      // Image gen failures are non-fatal; the draft still ships for review.
-      console.warn('[pipeline] hero image failed:', err);
-    }
-
-    const { error } = await supabase
-      .from('content_ideas')
-      .update({
-        body: writerResult.draft.body,
-        slug: writerResult.draft.slug,
-        title: writerResult.draft.title,
-        description: writerResult.draft.description,
-        tags: writerResult.draft.tags,
-        related_posts: writerResult.draft.related_posts,
-        image_url: imageUrl,
-        status: 'ready_for_review',
-        notes: `humanization: ${writerResult.finalViolations} violations in ${writerResult.passes} pass(es)${
-          imageUrl ? `; image ${imageSizeKb}kb` : '; no image'
-        }`,
-      })
-      .eq('id', ideaId);
-    if (error) throw new Error(`failed to save draft: ${error.message}`);
-
-    return {
-      ideaId,
-      draft: writerResult.draft,
-      imageUrl,
-      imageSizeKb,
-      humanizationPasses: writerResult.passes,
-      finalViolations: writerResult.finalViolations,
-    };
+    const img = await generateAndStoreHero({ slug: draft.slug, prompt: imagePrompt });
+    imageUrl = img.url;
+    imageSizeKb = img.sizeKb;
   } catch (err) {
-    const message = err instanceof Error ? err.message : String(err);
-    await supabase
-      .from('content_ideas')
-      .update({
-        status: 'idea',
-        notes: `writer failed: ${message.slice(0, 480)}`,
-      })
-      .eq('id', ideaId);
-    throw err;
+    console.warn('[pipeline] hero image failed:', err);
   }
+
+  const { error } = await supabase
+    .from('content_ideas')
+    .update({
+      body: draft.body,
+      slug: draft.slug,
+      title: draft.title,
+      description: draft.description,
+      tags: draft.tags,
+      related_posts: draft.related_posts,
+      image_url: imageUrl,
+      status: 'ready_for_review',
+      notes: `humanization: ${finalViolations} violations (single-pass batch)${
+        imageUrl ? `; image ${imageSizeKb}kb` : '; no image'
+      }`,
+    })
+    .eq('id', ideaId);
+  if (error) throw new Error(`failed to save draft: ${error.message}`);
+
+  return { ideaId, draft, imageUrl, imageSizeKb, finalViolations };
 }

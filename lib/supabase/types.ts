@@ -79,6 +79,21 @@ export type KnowledgeEntry = {
   updated_at: string;
 };
 
+export type LlmBatch = {
+  id: number;
+  provider: string;
+  kind: 'writer' | 'topic_research';
+  batch_id: string;
+  status: 'pending' | 'processed' | 'failed' | 'canceled';
+  request_map: Record<string, { ideaId?: number } & Record<string, unknown>>;
+  meta: Record<string, unknown> | null;
+  result_summary: Record<string, unknown> | null;
+  error: string | null;
+  created_at: string;
+  updated_at: string;
+  processed_at: string | null;
+};
+
 export type SearchConsoleRow = {
   query: string;
   page: string | null;

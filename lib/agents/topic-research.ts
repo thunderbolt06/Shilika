@@ -1,5 +1,4 @@
 import 'server-only';
-import Anthropic from '@anthropic-ai/sdk';
 import { z } from 'zod';
 import { ahrefsEnabled, ahrefsMatchingTerms, ahrefsOverview, type AhrefsOverview } from '@/lib/integrations/ahrefs';
 import { gscOpportunityQueries } from '@/lib/integrations/gsc';
@@ -7,7 +6,8 @@ import { perplexityBatch, perplexityEnabled, type PerplexitySignal } from '@/lib
 import { getAdminSupabase } from '@/lib/supabase/server';
 import type { ContentIdea, KnowledgeEntry } from '@/lib/supabase/types';
 import { loadAgentContext } from './context';
-import { withRetry } from '@/lib/retry';
+import { submitAnthropicBatch, type AnthropicBatchRequest } from './anthropic-batch';
+import { recordBatch } from './batch-store';
 
 const RESEARCH_MODEL = process.env.ANTHROPIC_RESEARCH_MODEL || 'claude-sonnet-4-6';
 
@@ -107,7 +107,7 @@ async function listKnownTitles(): Promise<Set<string>> {
   return known;
 }
 
-function callClaudeForCandidates(opts: {
+type ResearchPromptOpts = {
   seeds: string[];
   gscOpportunities: Awaited<ReturnType<typeof gscOpportunityQueries>>;
   ahrefs: Record<string, AhrefsOverview>;
@@ -115,8 +115,9 @@ function callClaudeForCandidates(opts: {
   perplexity: Record<string, PerplexitySignal>;
   knownTitles: string[];
   brandContext: string;
-}): Promise<Candidate[]> {
-  const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY! });
+};
+
+function buildResearchPrompt(opts: ResearchPromptOpts): { system: string; user: string } {
   const system = `${opts.brandContext}
 
 You are a topic-research agent. Your job is to propose blog post ideas that
@@ -245,37 +246,24 @@ Rules:
 3. Map the average to priority (P0/P1/P2/P3) per the rubric.
 4. Return JSON only: { "candidates": [ ... ] }. Do NOT return commentary.`);
 
-  return (async () => {
-    const response = await withRetry(
-      () =>
-        client.messages.create({
-          model: RESEARCH_MODEL,
-          max_tokens: 6000,
-          system: [
-            // eslint-disable-next-line @typescript-eslint/no-explicit-any
-            { type: 'text', text: system, cache_control: { type: 'ephemeral', ttl: '1h' } } as any,
-          ],
-          messages: [{ role: 'user', content: userParts.join('\n\n') }],
-          // eslint-disable-next-line @typescript-eslint/no-explicit-any
-          tools: [{ type: 'web_search_20250305', name: 'web_search' } as any],
-        }, {
-          headers: { 'anthropic-beta': 'extended-cache-ttl-2025-04-11' },
-        }),
-      { label: `anthropic:${RESEARCH_MODEL}` },
-    );
+  return { system, user: userParts.join('\n\n') };
+}
 
-    const text = response.content
-      .filter((b) => b.type === 'text')
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      .map((b) => (b as any).text as string)
-      .join('\n');
-    const start = text.indexOf('{');
-    const end = text.lastIndexOf('}');
-    if (start < 0 || end <= start) throw new Error('research agent returned no JSON');
-    const raw = JSON.parse(text.slice(start, end + 1));
-    const parsed = ResponseSchema.parse(coerceLlmCandidates(raw));
-    return parsed.candidates;
-  })();
+/** Parse a completed research batch message into validated candidates. */
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function parseResearchMessage(message: any): Candidate[] {
+  const text = (message?.content ?? [])
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    .filter((b: any) => b.type === 'text')
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    .map((b: any) => b.text as string)
+    .join('\n');
+  const start = text.indexOf('{');
+  const end = text.lastIndexOf('}');
+  if (start < 0 || end <= start) throw new Error('research agent returned no JSON');
+  const raw = JSON.parse(text.slice(start, end + 1));
+  const parsed = ResponseSchema.parse(coerceLlmCandidates(raw));
+  return parsed.candidates;
 }
 
 function fallbackFromSeeds(seeds: string[]): Candidate[] {
@@ -294,98 +282,16 @@ function fallbackFromSeeds(seeds: string[]): Candidate[] {
 }
 
 /**
- * Main entry point for the topic-research cron.
+ * Dedup candidates against the current pipeline + each other and insert the
+ * survivors as 'idea' rows. Re-queries known titles so a batch processed
+ * hours after submission still dedups against rows added since.
  */
-export async function runTopicResearch(options?: { force?: boolean }): Promise<ResearchSummary> {
+async function insertCandidates(
+  candidates: Candidate[],
+): Promise<{ proposed: number; inserted: number; skipped: number }> {
   const supabase = getAdminSupabase();
+  const knownTitles = await listKnownTitles();
 
-  // Skip the research run unless the queue is genuinely low or the caller
-  // explicitly forces a refresh.
-  if (!options?.force) {
-    const { count } = await supabase
-      .from('content_ideas')
-      .select('id', { count: 'exact', head: true })
-      .in('status', ['idea', 'ready_for_review']);
-    if ((count ?? 0) >= 5) {
-      return {
-        candidates_proposed: 0,
-        candidates_inserted: 0,
-        candidates_skipped_duplicate: 0,
-        gsc_opportunities: 0,
-        seed_queries: 0,
-        ahrefs_used: false,
-        perplexity_used: false,
-        llm_used: false,
-      };
-    }
-  }
-
-  const [seedRows, gscOpportunities, knownTitles, brandCtx] = await Promise.all([
-    listLongTailSeeds(),
-    process.env.GSC_SERVICE_ACCOUNT_JSON ? gscOpportunityQueries().catch(() => []) : Promise.resolve([] as Awaited<ReturnType<typeof gscOpportunityQueries>>),
-    listKnownTitles(),
-    loadAgentContext(null).then((ctx) => `# Persona\n${ctx.persona}\n\n# Strategy\n${ctx.strategy}`),
-  ]);
-  const seedQueries = seedRows.flatMap((r) => [r.title, ...r.body.split('\n').filter((l) => l.trim() && !l.startsWith('#'))]).slice(0, 60);
-
-  // Enrichment from Ahrefs + Perplexity (both optional).
-  const enrichmentSeeds = [...seedQueries, ...gscOpportunities.slice(0, 10).map((g) => g.query)].slice(0, 25);
-  const [ahrefsResults, expansionResults, perplexityResults] = await Promise.all([
-    ahrefsEnabled()
-      ? ahrefsOverview(enrichmentSeeds).catch((err) => {
-          console.warn('[topic-research] Ahrefs overview failed:', err);
-          return [] as Awaited<ReturnType<typeof ahrefsOverview>>;
-        })
-      : Promise.resolve([] as Awaited<ReturnType<typeof ahrefsOverview>>),
-    ahrefsEnabled()
-      ? Promise.allSettled(enrichmentSeeds.slice(0, 8).map((s) => ahrefsMatchingTerms(s, 15))).then(
-          (settled) =>
-            settled
-              .map((s, i) =>
-                s.status === 'fulfilled' ? { seed: enrichmentSeeds[i], terms: s.value } : null,
-              )
-              .filter(Boolean) as { seed: string; terms: { keyword: string; volume: number | null }[] }[],
-        )
-      : Promise.resolve([] as { seed: string; terms: { keyword: string; volume: number | null }[] }[]),
-    perplexityEnabled()
-      ? perplexityBatch(enrichmentSeeds.slice(0, 12)).catch((err) => {
-          console.warn('[topic-research] Perplexity failed:', err);
-          return {} as Awaited<ReturnType<typeof perplexityBatch>>;
-        })
-      : Promise.resolve({} as Awaited<ReturnType<typeof perplexityBatch>>),
-  ]);
-
-  const ahrefsByKeyword = Object.fromEntries(ahrefsResults.map((a) => [a.keyword.toLowerCase(), a]));
-  const perplexityByQuery: Record<string, PerplexitySignal> = {};
-  for (const [q, v] of Object.entries(perplexityResults)) {
-    if ('error' in v) continue;
-    perplexityByQuery[q] = v;
-  }
-
-  let candidates: Candidate[] = [];
-  let llmUsed = false;
-
-  if (process.env.ANTHROPIC_API_KEY && (seedQueries.length || gscOpportunities.length)) {
-    try {
-      candidates = await callClaudeForCandidates({
-        seeds: seedQueries,
-        gscOpportunities,
-        ahrefs: ahrefsByKeyword,
-        expansions: expansionResults,
-        perplexity: perplexityByQuery,
-        knownTitles: [...knownTitles],
-        brandContext: brandCtx,
-      });
-      llmUsed = true;
-    } catch (err) {
-      console.warn('[topic-research] LLM call failed, falling back to seeds:', err);
-      candidates = fallbackFromSeeds(seedQueries);
-    }
-  } else {
-    candidates = fallbackFromSeeds(seedQueries);
-  }
-
-  // Deduplicate against known titles + against each other within this batch.
   const seenTitles = new Set<string>(knownTitles);
   const toInsert: Pick<ContentIdea, 'title' | 'description' | 'tags' | 'priority' | 'source_signals'>[] = [];
   let skipped = 0;
@@ -421,14 +327,153 @@ export async function runTopicResearch(options?: { force?: boolean }): Promise<R
     inserted = (data ?? []).length;
   }
 
+  return { proposed: candidates.length, inserted, skipped };
+}
+
+/** Custom_id for the single research request inside a topic-research batch. */
+export const RESEARCH_CUSTOM_ID = 'research';
+
+export type ResearchSubmitResult =
+  | { mode: 'batch'; batch_id: string; seed_queries: number; gsc_opportunities: number; ahrefs_used: boolean; perplexity_used: boolean }
+  | { mode: 'fallback'; summary: ResearchSummary }
+  | { mode: 'skipped'; reason: string };
+
+/**
+ * Gather signals and submit topic research as an async Anthropic batch. When no
+ * Anthropic key is configured (or there are no signals to reason over), fall
+ * back to seeding raw queries synchronously so the queue never sits empty.
+ * The submitted batch is later finalized by processTopicResearchMessage via the
+ * batch-poller cron.
+ */
+export async function submitTopicResearch(options?: { force?: boolean }): Promise<ResearchSubmitResult> {
+  const supabase = getAdminSupabase();
+
+  // Skip the research run unless the queue is genuinely low or the caller
+  // explicitly forces a refresh.
+  if (!options?.force) {
+    const { count } = await supabase
+      .from('content_ideas')
+      .select('id', { count: 'exact', head: true })
+      .in('status', ['idea', 'ready_for_review']);
+    if ((count ?? 0) >= 5) {
+      return { mode: 'skipped', reason: 'queue not low' };
+    }
+  }
+
+  const [seedRows, gscOpportunities, knownTitles, brandCtx] = await Promise.all([
+    listLongTailSeeds(),
+    process.env.GSC_SERVICE_ACCOUNT_JSON ? gscOpportunityQueries().catch(() => []) : Promise.resolve([] as Awaited<ReturnType<typeof gscOpportunityQueries>>),
+    listKnownTitles(),
+    loadAgentContext(null).then((ctx) => `# Persona\n${ctx.persona}\n\n# Strategy\n${ctx.strategy}`),
+  ]);
+  const seedQueries = seedRows.flatMap((r) => [r.title, ...r.body.split('\n').filter((l) => l.trim() && !l.startsWith('#'))]).slice(0, 60);
+
+  // No LLM available (or nothing to reason over) — seed raw queries inline.
+  if (!process.env.ANTHROPIC_API_KEY || (!seedQueries.length && !gscOpportunities.length)) {
+    const { proposed, inserted, skipped } = await insertCandidates(fallbackFromSeeds(seedQueries));
+    return {
+      mode: 'fallback',
+      summary: {
+        candidates_proposed: proposed,
+        candidates_inserted: inserted,
+        candidates_skipped_duplicate: skipped,
+        gsc_opportunities: gscOpportunities.length,
+        seed_queries: seedQueries.length,
+        ahrefs_used: false,
+        perplexity_used: false,
+        llm_used: false,
+      },
+    };
+  }
+
+  // Enrichment from Ahrefs + Perplexity (both optional).
+  const enrichmentSeeds = [...seedQueries, ...gscOpportunities.slice(0, 10).map((g) => g.query)].slice(0, 25);
+  const [ahrefsResults, expansionResults, perplexityResults] = await Promise.all([
+    ahrefsEnabled()
+      ? ahrefsOverview(enrichmentSeeds).catch((err) => {
+          console.warn('[topic-research] Ahrefs overview failed:', err);
+          return [] as Awaited<ReturnType<typeof ahrefsOverview>>;
+        })
+      : Promise.resolve([] as Awaited<ReturnType<typeof ahrefsOverview>>),
+    ahrefsEnabled()
+      ? Promise.allSettled(enrichmentSeeds.slice(0, 8).map((s) => ahrefsMatchingTerms(s, 15))).then(
+          (settled) =>
+            settled
+              .map((s, i) =>
+                s.status === 'fulfilled' ? { seed: enrichmentSeeds[i], terms: s.value } : null,
+              )
+              .filter(Boolean) as { seed: string; terms: { keyword: string; volume: number | null }[] }[],
+        )
+      : Promise.resolve([] as { seed: string; terms: { keyword: string; volume: number | null }[] }[]),
+    perplexityEnabled()
+      ? perplexityBatch(enrichmentSeeds.slice(0, 12)).catch((err) => {
+          console.warn('[topic-research] Perplexity failed:', err);
+          return {} as Awaited<ReturnType<typeof perplexityBatch>>;
+        })
+      : Promise.resolve({} as Awaited<ReturnType<typeof perplexityBatch>>),
+  ]);
+
+  const ahrefsByKeyword = Object.fromEntries(ahrefsResults.map((a) => [a.keyword.toLowerCase(), a]));
+  const perplexityByQuery: Record<string, PerplexitySignal> = {};
+  for (const [q, v] of Object.entries(perplexityResults)) {
+    if ('error' in v) continue;
+    perplexityByQuery[q] = v;
+  }
+
+  const { system, user } = buildResearchPrompt({
+    seeds: seedQueries,
+    gscOpportunities,
+    ahrefs: ahrefsByKeyword,
+    expansions: expansionResults,
+    perplexity: perplexityByQuery,
+    knownTitles: [...knownTitles],
+    brandContext: brandCtx,
+  });
+
+  const request: AnthropicBatchRequest = {
+    custom_id: RESEARCH_CUSTOM_ID,
+    params: {
+      model: RESEARCH_MODEL,
+      max_tokens: 6000,
+      system: [{ type: 'text', text: system, cache_control: { type: 'ephemeral' } }],
+      messages: [{ role: 'user', content: user }],
+      tools: [{ type: 'web_search_20250305', name: 'web_search' }],
+    },
+  };
+
+  const batchId = await submitAnthropicBatch([request], `anthropic-batch:topic-research`);
+  await recordBatch({
+    kind: 'topic_research',
+    batchId,
+    requestMap: { [RESEARCH_CUSTOM_ID]: {} },
+  });
+
   return {
-    candidates_proposed: candidates.length,
-    candidates_inserted: inserted,
-    candidates_skipped_duplicate: skipped,
-    gsc_opportunities: gscOpportunities.length,
+    mode: 'batch',
+    batch_id: batchId,
     seed_queries: seedQueries.length,
+    gsc_opportunities: gscOpportunities.length,
     ahrefs_used: ahrefsResults.length > 0,
     perplexity_used: Object.keys(perplexityByQuery).length > 0,
-    llm_used: llmUsed,
+  };
+}
+
+/**
+ * Finalize a completed topic-research batch: parse candidates and insert them.
+ * Called by the batch-poller cron.
+ */
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export async function processTopicResearchMessage(message: any): Promise<ResearchSummary> {
+  const candidates = parseResearchMessage(message);
+  const { proposed, inserted, skipped } = await insertCandidates(candidates);
+  return {
+    candidates_proposed: proposed,
+    candidates_inserted: inserted,
+    candidates_skipped_duplicate: skipped,
+    gsc_opportunities: 0,
+    seed_queries: 0,
+    ahrefs_used: false,
+    perplexity_used: false,
+    llm_used: true,
   };
 }

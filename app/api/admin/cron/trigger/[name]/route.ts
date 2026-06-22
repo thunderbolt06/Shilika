@@ -4,6 +4,7 @@ const ALLOWED = new Set([
   'queue-filler',
   'daily-writer',
   'daily-writer-10x',
+  'batch-poller',
   'hourly-publisher',
   'cross-poster',
   'gsc-daily-pull',

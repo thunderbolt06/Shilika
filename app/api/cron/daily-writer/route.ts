@@ -1,11 +1,16 @@
 import { requireCronAuth, withRunLedger } from '@/lib/cron-auth';
-import { runDraftPipeline } from '@/lib/agents/pipeline';
+import { submitWriterBatch } from '@/lib/agents/batch-pipeline';
 import { getAdminSupabase } from '@/lib/supabase/server';
 
 export const runtime = 'nodejs';
 export const maxDuration = 300;
 export const dynamic = 'force-dynamic';
 
+/**
+ * Submit the top P0/P1 idea to the writer as an async Anthropic batch. The
+ * draft + hero image are finalized later by /api/cron/batch-poller once the
+ * batch completes (usually within the hour).
+ */
 export async function GET(request: Request) {
   const unauthorized = requireCronAuth(request);
   if (unauthorized) return unauthorized;
@@ -25,18 +30,24 @@ export async function GET(request: Request) {
       return { status: 'success', summary: { ran: false, reason: 'no idea in queue' } };
     }
 
-    const result = await runDraftPipeline(nextIdea.id);
+    const result = await submitWriterBatch([nextIdea.id]);
+    if (!result.batch_id) {
+      return {
+        status: 'partial',
+        summary: { ran: false, reason: 'failed to build writer request', skipped: result.skipped },
+      };
+    }
+
     return {
       status: 'success',
       summary: {
         ran: true,
+        submitted: result.submitted,
+        batch_id: result.batch_id,
         idea_id: nextIdea.id,
         title: nextIdea.title,
         priority: nextIdea.priority,
-        slug: result.draft.slug,
-        image_url: result.imageUrl,
-        humanization_passes: result.humanizationPasses,
-        final_violations: result.finalViolations,
+        note: 'draft will be finalized by batch-poller once the batch completes',
       },
     };
   });
