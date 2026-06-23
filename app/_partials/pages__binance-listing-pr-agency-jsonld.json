@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/binance-listing-pr-agency#service",
+      "name": "Binance Listing PR Agency — Exchange Announcement Comms",
+      "serviceType": "Token Launch / TGE PR",
+      "url": "https://www.shilikajain.com/pages/binance-listing-pr-agency",
+      "description": "Coordinated media and KOL campaign for Binance listing announcements. Embargo architecture, tier-1 journalist briefings, APAC KOL networks and 24-hour launch wave. Fractional senior operator at $5K–$12K/month, or a $15K–$40K listing sprint, versus $15K–$45K/month at a full agency. 50+ protocols launched including RARI Chain (11 tier-1 placements in 24 hours) and MANTRA Chain.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global", "United States", "South Korea", "Japan", "Vietnam", "China", "India", "Singapore", "United Arab Emirates"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 5000,
+          "maxPrice": 12000,
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "Binance Listing PR Agency", "item": "https://www.shilikajain.com/pages/binance-listing-pr-agency" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/binance-listing-pr-agency#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Binance listing PR and who is it for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Binance listing PR is the coordinated media and KOL campaign you run in the 24-48 hours around a Binance spot or futures listing confirmation. It is for token teams who have secured or are expecting a listing and want the announcement to generate editorial coverage, community momentum and price-discovery context rather than letting the exchange notification carry all the weight. A fractional senior operator is the right hire for most teams: Shilika Jain runs this work directly for $5K–$12K/month."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does Binance listing PR cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fractional retainer covering the listing and the 30 days around it runs $5K–$12K/month. A standalone listing sprint, covering the embargo prep, launch wave and 30-day follow-on, runs $15K–$40K. Full agency rates for the same work are typically $15K–$45K/month because the retainer funds a multi-person account team. KOL fees are separate: nano creators run $200-$1.5K per post, micro $500-$5K, mid-tier $10K-$30K."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which outlets and KOL tiers do you target for a listing announcement?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For editorial, the target set is CoinDesk, Cointelegraph, The Block, Decrypt and Blockworks. Benzinga and Yahoo Finance pick up well-framed releases. For APAC, BloomingBit and TokenPost in Korea, CoinPost in Japan, ChainCatcher and Jinse in China, and Inc42 in India. KOL tiers depend on your community size and listing type: a spot listing on Binance typically justifies 2-3 mid-tier KOLs plus 10-20 micro creators for reach and authenticity."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the embargo process and timeline?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A listing embargo works like this: once you have exchange confirmation, a short factual briefing document goes to 3-5 journalists under a strict embargo date tied to the public announcement. Journalists write their stories in advance so coverage publishes the moment the listing is live, not a day later when the news is old. Simultaneously, KOL posts are drafted, approved and scheduled to fire at the same time. The whole sequence needs at least 48 hours of preparation after listing confirmation, and 5-7 days is preferable."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get started with Binance listing PR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short project brief through the intent form with your listing timeline and target markets. You will get a reply within 24 hours with a read on your press footprint and a suggested approach, or book a 30-minute call and we plot it live. No deck, no account-team intro call."
+          }
+        }
+      ]
+    }
+  ]
+}

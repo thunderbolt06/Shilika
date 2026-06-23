@@ -1,0 +1,386 @@
+<style>
+:root {
+  --ink: oklch(0.16 0.01 80);
+  --ink-2: oklch(0.22 0.01 80);
+  --paper: oklch(0.96 0.01 90);
+  --paper-2: oklch(0.92 0.015 85);
+  --cream: oklch(0.93 0.04 85);
+  --lime: oklch(0.92 0.18 115);
+  --muted: oklch(0.55 0.01 80);
+  --line: oklch(0.85 0.01 80);
+  --font-display: 'Instrument Serif', 'Times New Roman', serif;
+  --font-body: 'Inter Tight', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'Geist Mono', 'JetBrains Mono', monospace;
+  --pad: clamp(20px, 4vw, 64px);
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { font-family: var(--font-body); background: var(--paper); color: var(--ink); -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+.mono { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; }
+
+.nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; display: flex; justify-content: space-between; align-items: center; padding: 18px var(--pad); background: rgba(247, 246, 241, 0.85); backdrop-filter: blur(16px); border-bottom: 1px solid var(--line); }
+.nav-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); }
+.nav-logo-text { font-family: var(--font-display); font-size: 22px; font-style: italic; letter-spacing: -0.01em; }
+.nav-logo-dot { color: var(--lime); margin: 0 2px; }
+.nav-links { display: flex; gap: 28px; list-style: none; font-family: var(--font-mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; }
+.nav-links a { position: relative; padding: 4px 0; color: var(--ink); text-decoration: none; }
+.nav-links a::after { content: ''; position: absolute; left: 0; bottom: 0; width: 0; height: 1px; background: var(--ink); transition: width 0.4s var(--ease-out-quart); }
+.nav-links a:hover::after, .nav-links a.is-current::after { width: 100%; }
+.nav-cta { display: inline-flex; align-items: center; gap: 8px; padding: 10px 18px; background: var(--ink); color: var(--paper); font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; border-radius: 100px; transition: background 0.3s, color 0.3s; }
+.nav-cta:hover { background: var(--lime); color: var(--ink); }
+@media (max-width: 800px) { .nav-links { display: none; } }
+
+.scroll-progress { position: fixed; top: 0; left: 0; right: 0; height: 2px; z-index: 200; background: transparent; }
+.scroll-progress-bar { height: 100%; background: var(--lime); width: 0%; transition: width 0.1s linear; }
+
+.article-header { padding: 140px var(--pad) 60px; border-bottom: 1px solid var(--line); background: var(--paper); position: relative; }
+.crumb { max-width: 980px; margin: 0 auto 36px; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+.crumb a { color: var(--muted); text-decoration: none; transition: color 0.3s; }
+.crumb a:hover { color: var(--ink); }
+.crumb .sep { margin: 0 12px; }
+.article-meta-row { max-width: 980px; margin: 0 auto 28px; display: flex; gap: 18px; align-items: center; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); flex-wrap: wrap; }
+.article-cat { background: var(--ink); color: var(--paper); padding: 5px 12px; border-radius: 3px; font-weight: 500; }
+.article-headline { max-width: 980px; margin: 0 auto; font-family: var(--font-display); font-size: clamp(40px, 6.4vw, 88px); line-height: 0.97; letter-spacing: -0.018em; font-weight: 400; text-wrap: balance; }
+.article-headline em { font-style: italic; background: linear-gradient(120deg, transparent 30%, var(--lime) 30%, var(--lime) 90%, transparent 90%); background-size: 200% 100%; background-position: 100% 0; padding: 0 0.05em; animation: hl-sweep 1.6s 0.4s var(--ease-out-quart) forwards; }
+@keyframes hl-sweep { to { background-position: 0 0; } }
+.article-sub { max-width: 760px; margin: 32px auto 0; font-family: var(--font-display); font-size: clamp(20px, 1.6vw, 24px); line-height: 1.4; font-style: italic; color: var(--muted); }
+
+.article-hero-visual { max-width: 1200px; margin: 60px auto 0; aspect-ratio: 16 / 7; position: relative; overflow: hidden; border-radius: 4px; background: var(--ink); color: var(--paper); }
+.visual-vs .v-num { position: absolute; left: 32px; top: 22px; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.15em; color: var(--lime); z-index: 2; }
+.visual-vs .v-split { position: absolute; inset: 30px 32px 32px; display: grid; grid-template-columns: 1fr auto 1fr; gap: 18px; align-items: stretch; }
+.visual-vs .v-col { border: 1px solid rgba(255,255,255,0.14); border-radius: 6px; padding: 22px; display: flex; flex-direction: column; justify-content: space-between; }
+.visual-vs .v-col.is-key { background: var(--lime); border-color: var(--lime); }
+.visual-vs .v-col .v-k { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(255,255,255,0.45); }
+.visual-vs .v-col.is-key .v-k { color: rgba(40,37,32,0.6); }
+.visual-vs .v-col .v-h { font-family: var(--font-display); font-style: italic; font-size: clamp(22px, 2.6vw, 34px); line-height: 1.0; color: var(--paper); }
+.visual-vs .v-col.is-key .v-h { color: var(--ink); }
+.visual-vs .v-col .v-d { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.06em; line-height: 1.4; color: rgba(255,255,255,0.55); text-transform: uppercase; }
+.visual-vs .v-col.is-key .v-d { color: rgba(40,37,32,0.7); }
+.visual-vs .v-mid { display: flex; align-items: center; justify-content: center; font-family: var(--font-display); font-style: italic; font-size: 28px; color: var(--lime); }
+@media (max-width: 720px) { .visual-vs .v-split { grid-template-columns: 1fr; } .visual-vs .v-mid { display: none; } }
+
+.article-body-wrap { padding: 80px var(--pad) 100px; background: var(--paper); }
+.article-body { max-width: 720px; margin: 0 auto; font-size: 19px; line-height: 1.65; color: oklch(0.25 0.01 80); }
+.article-body p { margin-bottom: 1.4em; }
+.article-body p.lede { font-family: var(--font-display); font-size: clamp(26px, 2.4vw, 34px); line-height: 1.25; font-style: italic; color: var(--ink); margin-bottom: 1.6em; }
+.article-body h2 { font-family: var(--font-display); font-size: clamp(28px, 3vw, 40px); font-weight: 400; letter-spacing: -0.01em; color: var(--ink); margin: 2em 0 0.8em; line-height: 1.1; text-wrap: balance; }
+.article-body h2::before { content: '§ '; color: var(--lime); font-style: italic; }
+.article-body h3 { font-family: var(--font-display); font-size: clamp(22px, 2.2vw, 28px); font-weight: 400; color: var(--ink); margin: 1.6em 0 0.5em; line-height: 1.2; }
+.article-body ul, .article-body ol { margin: 0 0 1.6em 1.4em; padding-left: 0; }
+.article-body li { margin-bottom: 0.6em; padding-left: 0.4em; }
+.article-body li::marker { color: var(--lime); }
+.article-body strong { color: var(--ink); font-weight: 600; }
+.article-body em { font-style: italic; }
+.article-body a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-decoration-thickness: 2px; text-underline-offset: 3px; }
+.article-body a:hover { color: oklch(0.45 0.18 115); }
+.article-body table { width: 100%; border-collapse: collapse; margin: 1.6em 0; font-size: 15px; font-family: var(--font-mono); letter-spacing: 0.02em; }
+.article-body table th { text-align: left; padding: 10px 12px; background: var(--ink); color: var(--paper); font-weight: 500; text-transform: uppercase; font-size: 11px; letter-spacing: 0.1em; }
+.article-body table td { padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.article-body table tr:nth-child(even) td { background: var(--paper-2); }
+.callout { background: var(--ink); color: var(--paper); padding: 28px 32px; border-radius: 8px; margin: 2em 0; font-family: var(--font-display); font-size: clamp(20px, 1.8vw, 24px); font-style: italic; line-height: 1.35; }
+.callout strong { color: var(--lime); font-weight: 400; font-style: normal; font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; display: block; margin-bottom: 10px; }
+.fix-box { background: var(--paper-2); border-left: 3px solid var(--lime); padding: 20px 24px; border-radius: 4px; margin: 1.2em 0 1.8em; font-size: 17px; line-height: 1.55; }
+.fix-box strong.fix-label { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); display: block; margin-bottom: 8px; }
+.faq-block { max-width: 720px; margin: 60px auto 0; padding: 32px; background: var(--paper-2); border-radius: 8px; }
+.faq-block h2 { font-family: var(--font-display); font-size: clamp(28px, 3vw, 36px); margin-bottom: 24px; font-weight: 400; }
+.faq-q { font-family: var(--font-display); font-style: italic; font-size: 20px; color: var(--ink); margin: 22px 0 8px; }
+.faq-a { font-size: 16px; color: oklch(0.30 0.01 80); line-height: 1.6; }
+.faq-a a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px; }
+
+.author-block { max-width: 720px; margin: 80px auto 0; padding: 32px; background: var(--paper-2); border-radius: 8px; display: grid; grid-template-columns: 64px 1fr; gap: 20px; align-items: center; }
+.author-avatar { width: 64px; height: 64px; border-radius: 50%; background: var(--ink); color: var(--lime); display: flex; align-items: center; justify-content: center; font-family: var(--font-display); font-size: 24px; font-style: italic; font-weight: 400; }
+.author-name { font-family: var(--font-display); font-size: 24px; font-style: italic; line-height: 1; margin-bottom: 6px; }
+.author-bio { font-size: 14px; color: var(--muted); line-height: 1.4; }
+.author-bio a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px; }
+
+.cta-strip { background: var(--ink); color: var(--paper); padding: 100px var(--pad); text-align: center; position: relative; overflow: hidden; }
+.cta-strip h3 { font-family: var(--font-display); font-size: clamp(40px, 6vw, 80px); font-weight: 400; line-height: 1; letter-spacing: -0.015em; max-width: 18ch; margin: 0 auto 32px; }
+.cta-strip h3 em { font-style: italic; color: var(--lime); }
+.cta-strip-btn { display: inline-flex; align-items: center; gap: 10px; background: var(--lime); color: var(--ink); padding: 18px 32px; font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; text-decoration: none; border-radius: 100px; transition: transform 0.4s var(--ease-out-quart); }
+.cta-strip-btn:hover { transform: translateY(-2px); }
+
+.footer { background: var(--ink); color: var(--paper); padding: 40px var(--pad) 24px; border-top: 1px solid rgba(255,255,255,0.08); }
+.footer-row { max-width: 1440px; margin: 0 auto; display: flex; justify-content: space-between; font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.5); flex-wrap: wrap; gap: 12px; }
+.footer-row a { color: inherit; text-decoration: none; }
+.article-hero-visual.hero-brief { display:flex; }
+.hero-brief .v-num { position:absolute; left:32px; top:22px; font-family:var(--font-mono); font-size:11px; letter-spacing:0.15em; color:var(--lime); z-index:2; }
+.hero-brief-grid { position:absolute; inset:30px 32px 32px; display:grid; grid-template-columns:1.3fr 1fr; gap:24px; align-items:stretch; }
+.hb-lede { font-family:var(--font-display); font-style:italic; font-size:clamp(24px,3vw,40px); line-height:1.08; color:var(--paper); align-self:center; }
+.hb-stats { display:grid; grid-template-rows:repeat(3,1fr); gap:12px; }
+.hb-stats > div { border:1px solid rgba(255,255,255,0.14); border-radius:6px; padding:12px 16px; display:flex; flex-direction:column; justify-content:center; }
+.hb-stats > div.is-key { background:var(--lime); border-color:var(--lime); }
+.hb-n { font-family:var(--font-display); font-style:italic; font-size:clamp(22px,2.4vw,30px); color:var(--paper); line-height:1; }
+.hb-stats > div.is-key .hb-n { color:var(--ink); }
+.hb-l { font-family:var(--font-mono); font-size:10px; letter-spacing:0.08em; text-transform:uppercase; color:rgba(255,255,255,0.55); margin-top:6px; }
+.hb-stats > div.is-key .hb-l { color:rgba(40,37,32,0.7); }
+@media (max-width:720px){ .hero-brief-grid{ grid-template-columns:1fr; position:static; inset:auto; padding:28px; } .article-hero-visual.hero-brief{ aspect-ratio:auto; } }
+</style>
+
+
+<div class="scroll-progress"><div class="scroll-progress-bar" id="progress-bar"></div></div>
+
+<nav class="nav">
+  <a href="/" class="nav-logo">
+    <svg width="34" height="34" viewBox="0 0 34 34" fill="none">
+      <rect width="34" height="34" rx="8" fill="#282520"/>
+      <text x="50%" y="55%" text-anchor="middle" dominant-baseline="middle" font-family="Georgia, serif" font-size="18" font-style="italic" fill="#d4ff32">SJ</text>
+      <circle cx="27" cy="7" r="2" fill="#d4ff32"/>
+    </svg>
+    <span class="nav-logo-text">SHILIKA<span class="nav-logo-dot">·</span>JAIN</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="/#work">Work</a></li>
+    <li><a href="/#services">Services</a></li>
+    <li><a href="/#press">Press</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/blog" class="is-current">Blog</a></li>
+    <li><a href="/#contact">Contact</a></li>
+  </ul>
+  <a href="https://calendly.com/shilikajain/30min/" target="_blank" rel="noopener" class="nav-cta">
+    <span>Book a call</span>
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.4"/></svg>
+  </a>
+</nav>
+
+<header class="article-header">
+  <div class="crumb">
+    <a href="/">Shilika Jain</a><span class="sep">/</span>
+    <a href="/playbook">Playbooks</a><span class="sep">/</span>
+    <span>043</span>
+  </div>
+  <div class="article-meta-row">
+    <span class="article-cat">CRISIS</span>
+    <span>· 10 MIN READ</span>
+    <span>· JUNE 23, 2026</span>
+    <span>· BY SHILIKA JAIN</span>
+  </div>
+  <h1 class="article-headline">Crypto Crisis Communications in 2026: <em>Exploits, Hacks</em> and Depegs.</h1>
+  <p class="article-sub">The first hour decides the story. A field guide to running comms through an exploit, hack or depeg, with a holding-statement template, a do-and-don't list, and the trust-rebuilding sequence most teams skip entirely.</p>
+
+  <div class="article-hero-visual hero-brief">
+    <span class="v-num">043 / CRISIS PR PLAYBOOK</span>
+    <div class="hero-brief-grid">
+      <div class="hb-lede">The first hour of a hack decides whether you own the story or it owns you.</div>
+      <div class="hb-stats">
+        <div>
+          <span class="hb-n">60 min</span>
+          <span class="hb-l">Window to publish a holding statement</span>
+        </div>
+        <div class="is-key">
+          <span class="hb-n">$2.2B</span>
+          <span class="hb-l">Crypto stolen in 2023 alone (Chainalysis)</span>
+        </div>
+        <div>
+          <span class="hb-n">72 hrs</span>
+          <span class="hb-l">Typical trust-recovery window before narrative hardens</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="article-body-wrap">
+  <article class="article-body">
+
+<p class="lede">When an exploit hits, publish a holding statement within sixty minutes, even if you know almost nothing yet. Acknowledge the incident, confirm you are investigating, tell users what to do right now, and promise a timeline for the next update. That single action separates teams that control the story from teams that spend a week chasing it. Everything else in crisis comms, the technical postmortem, the compensation plan, the rebuild narrative, flows from whether you moved first in that opening hour.</p>
+
+<p>I run fractional PR for Web3, DePIN and cybersecurity founders, and I have been in the room, or on the call, when exploits land. The pattern that decides outcomes is almost always the same: teams that treat the first hour as a communications problem, not just a technical one, keep their communities and their media relationships intact. Teams that go dark for four hours, or issue a legalistic non-statement, hand the story to on-chain sleuths, anonymous Twitter accounts and, increasingly, AI-powered news aggregators that write their own version of what happened. That version is rarely kind. This playbook is the field guide I give every founder who retains me on a <a href="/services/web3-pr-campaigns">Web3 PR campaigns</a> basis, updated for the speed and reach of the 2026 media environment.</p>
+
+<h2>Why the first sixty minutes matter more than anything that follows</h2>
+
+<p>Crypto media and on-chain analytics have closed to near real-time. By the time an exploit is large enough to register on Etherscan or a chain explorer, Lookonchain, Arkham and similar services have already begun surfacing wallet movements. In parallel, reporters at CoinDesk, The Block, Decrypt and Cointelegraph monitor those same feeds. In 2026, a nine-figure exploit can be reported within twenty minutes of the first anomalous transaction, often before the protocol team has even finished an internal triage call.</p>
+
+<p>If your first public statement arrives two hours after a reporter's first article, you are not setting the record straight. You are reacting to someone else's framing, and that framing is already being indexed, cited and amplified. The first public source becomes the reference point for everything that follows, including the AI-generated summaries that will surface in search and answer engines for months. Your window to be that source is narrow.</p>
+
+<div class="fix-box"><strong class="fix-label">The sixty-minute rule</strong>Post a holding statement within sixty minutes of internal confirmation that an incident is real. It does not have to contain all the facts. It has to demonstrate that you know about it, you are taking it seriously, and users have a clear next step. Post it on your official Twitter/X account and Discord simultaneously, then link to a live incident page if you have one. Lock down all other comms channels so no team member speaks publicly ahead of the official statement.</div>
+
+<h2>The holding statement: what to say when you know almost nothing</h2>
+
+<p>The holding statement is the most misunderstood asset in crypto crisis comms. Most teams either skip it entirely, waiting until they have the full picture, or publish something so hedged it says nothing. Both are mistakes. The holding statement exists to accomplish three things in the fewest possible words: confirm awareness, tell users what to do right now, and give a time by which you will say more.</p>
+
+<h3>Template you can adapt in ten minutes</h3>
+
+<div class="fix-box"><strong class="fix-label">Holding statement template</strong>
+<p><em>We are aware of an incident affecting [PROTOCOL/CONTRACT NAME] that was reported at approximately [TIME UTC]. We have [paused the protocol / alerted our security team / engaged our auditor] and are actively investigating. If you have funds in [AFFECTED POOL/CONTRACT], [do not make further deposits / bridge out via [LINK] / take no action until further notice]. We will provide a full update by [TIME + 2 HOURS]. Our team is on this now.</em></p>
+No legal disclaimers. No passive voice. No "we take security extremely seriously." Those phrases cost you credibility with every reader who has seen them before.</div>
+
+<p>Notice what the template does not include: apologies for something you cannot yet verify, speculation about the attacker or root cause, dollar figures before you have confirmed them, or any promise about compensation before legal and technical review. You will address all of those things, but not in hour one. The holding statement is about information control, not liability management. Your lawyers will want to add language. Resist it. A statement that reads like a legal brief tells the community exactly who you were thinking about when you wrote it, and it is not them.</p>
+
+<div class="callout"><strong>Field rule</strong>Silence in a crypto crisis is not caution. It is a narrative vacancy that someone else will fill, usually an on-chain sleuth with no obligation to be accurate and every incentive to be dramatic.</div>
+
+<h2>The full crisis comms timeline: hour by hour</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Window</th>
+      <th>What to do</th>
+      <th>What not to do</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0 to 15 min</td>
+      <td>Internal triage: confirm incident is real, pause contracts if possible, loop in CEO, CTO, legal counsel and your PR contact</td>
+      <td>Post anything publicly, share on community Discord without a coordinated statement</td>
+    </tr>
+    <tr>
+      <td>15 to 60 min</td>
+      <td>Draft and post holding statement; assign single spokesperson; alert your PR operator</td>
+      <td>Speculate on cause or attacker; publish partial dollar figures; let team members post independently</td>
+    </tr>
+    <tr>
+      <td>1 to 4 hrs</td>
+      <td>Second update with more detail on scope; confirm which contracts / chains are affected; post AMA time if warranted</td>
+      <td>Go silent; delete earlier posts; fight with critics on-chain Twitter</td>
+    </tr>
+    <tr>
+      <td>4 to 24 hrs</td>
+      <td>Publish detailed incident report draft; brief tier-1 reporters (CoinDesk, The Block) for accurate coverage; open community AMA</td>
+      <td>Promise repayment timelines you cannot confirm; speculate on the attacker's identity</td>
+    </tr>
+    <tr>
+      <td>24 to 72 hrs</td>
+      <td>Publish full post-mortem with root cause, remediation steps and compensation framework; proactive outreach to affected users</td>
+      <td>Treat the post-mortem as a legal document rather than a trust document</td>
+    </tr>
+    <tr>
+      <td>Week 2 and beyond</td>
+      <td>Begin rebuild narrative: re-audit, re-launch comms, founder op-ed on lessons learned; brief key outlets on recovery progress</td>
+      <td>Return to normal marketing as if nothing happened; skip the public audit results</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>The do-and-don't list that separates teams</h2>
+
+<p>Every crisis I have watched unfold has a version of the same set of mistakes. Some are tactical. Some are instinctive. All of them make recovery harder.</p>
+
+<h3>Do</h3>
+<ul>
+  <li><strong>Move fast on the holding statement</strong>, even with incomplete information. Speed signals control. Silence signals panic.</li>
+  <li><strong>Designate a single spokesperson</strong> before the first public post. Every additional voice is a surface for inconsistency.</li>
+  <li><strong>Brief your top-tier reporters directly</strong> before they publish from secondary sources. CoinDesk, The Block and Decrypt all have beat reporters who will write the story with or without you. A direct briefing gives you a chance at accurate framing rather than a reconstruction from on-chain data alone.</li>
+  <li><strong>Keep your community channels active</strong> even when you have nothing new to say. A pinned message that says "our team is working on this and we will update at [TIME]" costs almost nothing and prevents the vacuum that feeds speculation.</li>
+  <li><strong>Publish a real post-mortem</strong>. Not a PR document. A technical account of what happened, what failed, what you are changing, and what affected users can expect. The protocols that recovered fastest after major exploits, including those that subsequently raised again, published post-mortems that read like engineering reports, not press releases.</li>
+</ul>
+
+<h3>Don't</h3>
+<ul>
+  <li><strong>Don't go dark</strong>. Four hours of silence after an exploit is four hours of someone else's narrative becoming the default record.</li>
+  <li><strong>Don't delete posts</strong>. Deletions are screenshotted immediately and read as evidence of cover-up, even when the intent is correction.</li>
+  <li><strong>Don't speculate publicly about the attacker</strong>. Attribution takes time and technical analysis. A premature accusation that turns out to be wrong compounds the original damage.</li>
+  <li><strong>Don't let legal counsel write the public statement</strong>. Legal teams are optimised for liability minimisation. Your community is reading for honesty and accountability, which are different things. The legal review should happen, but the public voice should be human.</li>
+  <li><strong>Don't conflate the depeg playbook with the exploit playbook</strong>. A depeg or liquidity crisis needs different messaging: the emphasis is on market mechanics and protocol design, not security. Mixing the two confuses users and compounds the credibility problem.</li>
+</ul>
+
+<h2>Depegs and liquidity crises: what is different</h2>
+
+<p>A depeg is not a hack. The comms architecture is different in two important ways, and running an exploit playbook on a depeg is a common mistake that accelerates the spiral.</p>
+
+<p>First, a depeg often has no single culpable party. The framing cannot be "we were attacked." The framing has to explain market mechanics honestly: what conditions triggered the peg deviation, what the protocol's design assumptions were, and what the path back to stability looks like. Any attempt to make a liquidity crisis sound like an external attack gets dismantled in real time by on-chain analysts, and the resulting credibility loss is worse than the original incident.</p>
+
+<p>Second, the user action in a depeg is usually urgent and specific. "Exit via this route before this time" is sometimes the right message, and publishing that message clearly and early is not capitulation, it is responsible comms. The teams that handled depeg events well in the 2023 to 2025 cycle were the ones that gave users clear, actionable information rather than defending the peg's stability while it continued to unwind.</p>
+
+<div class="fix-box"><strong class="fix-label">Depeg messaging frame</strong>Separate three things in your public communications: (1) what is happening mechanically, in plain language; (2) what users can do right now to protect their positions; (3) what the protocol's plan is, with honest timelines. Conflating these three produces the corporate non-statement that destroys trust faster than the depeg itself.</div>
+
+<h2>Media relations during a crisis: briefing not blasting</h2>
+
+<p>The instinct under pressure is to send a blast to every journalist contact at once. Resist it. In a crisis, the right media strategy is the opposite of a launch: targeted, personal, fast, and honest about what you do not yet know.</p>
+
+<p>Identify the three to five reporters who cover your specific beat most seriously. For a DeFi protocol, that is likely the DeFi reporters at CoinDesk and The Block, the security beat at Decrypt, and the analyst at Blockworks who has written about your ecosystem. For a cybersecurity or infrastructure play, add Dark Reading, SC Magazine and the relevant beat at Forbes or TechCrunch. Reach out to each of them individually, acknowledge they may already have the story, and offer a direct briefing with your CEO or CTO within the hour.</p>
+
+<p>What you offer a reporter in this briefing: an honest account of what you know, a named technical contact for follow-up questions, and the clearest possible statement of what you are doing about it. What you do not offer: exclusives that create resentment with other reporters, speculation that you cannot stand behind, or off-the-record comments that contradict your public statement. The goal is accurate coverage, not favourable coverage. Accurate coverage in a crisis is the best you can do, and it is far better than the alternative. This is the core of what I mean when I talk about <a href="/services/cybersecurity-pr">cybersecurity PR</a> as a discipline distinct from standard launch comms.</p>
+
+<div class="callout"><strong>Field rule</strong>Crisis media relations is not about spin. It is about being the most reliable, fastest source of accurate information. Reporters who trust you as a source in a crisis will cite you accurately. Reporters who cannot reach you will reconstruct events from secondary sources, and the reconstruction is almost always worse than the truth.</div>
+
+<h2>Rebuilding trust after the incident: the sequence most teams skip</h2>
+
+<p>Most crisis comms guides stop at the post-mortem. That is the beginning of the recovery, not the end. The protocols that returned from serious exploits, and several have, did so because they treated the post-crisis period as a distinct PR campaign with its own narrative arc, not a return to business as usual.</p>
+
+<p>The rebuild sequence has four beats, and they need to happen in order.</p>
+
+<ol>
+  <li><strong>The re-audit announcement.</strong> Before you relaunch anything, announce the security audit engagement, name the auditor and publish the scope publicly. This is not optional. It is the signal that separates teams who learned from teams who are pretending.</li>
+  <li><strong>The audit results, published in full.</strong> Including the findings you did not like. A clean bill of health from a named auditor with the report link is the single highest-credibility asset in post-exploit recovery. Partial publication or summary-only defeats the purpose.</li>
+  <li><strong>The founder op-ed or interview.</strong> Not a puff piece. A direct, first-person account of what the team learned, what changed in how they think about security, and where the protocol is going. The best examples of this I have seen run in CoinDesk Opinion or as a long-form interview with a reporter who covered the original incident. This is how you turn an incident into a chapter in a larger story, rather than the final chapter.</li>
+  <li><strong>The re-launch comms.</strong> Once the above three are in place, the relaunch narrative has something to stand on. Without them, a relaunch looks like a pivot and reads as an attempt to change the subject. This is where a retained <a href="/services/web3-pr-campaigns">Web3 PR campaigns</a> relationship pays for itself: the relaunch lands inside a media relationship where context already exists, rather than cold.</li>
+</ol>
+
+<p>The proof points here are real. Protocols that went through the full rebuild sequence, including named re-audit, published results and founder-level narrative, rebuilt TVL and community trust on timescales measured in months. Those that skipped to the relaunch without the rebuild infrastructure tended to find that the media and community memory of the incident was still the dominant narrative at the moment they most needed a clean slate. The patterns I referenced in building out <a href="/playbook/crypto-exchange-pr-2026">crypto exchange PR in 2026</a> apply directly: credibility is harder to rebuild than to build, but it is not impossible if the sequence is right.</p>
+
+<h2>The common mistakes that make a recoverable crisis permanent</h2>
+
+<p>Three specific behaviours turn a survivable incident into a reputational write-off. I have watched each of them play out, more than once.</p>
+
+<p><strong>Blaming the victim.</strong> Any suggestion that users should have read the docs more carefully, that the vulnerability was edge-case, or that sophisticated users would have known better is the fastest way to destroy community loyalty permanently. It does not matter if it is technically true. It reads as cruel, and it will be screenshotted and circulated indefinitely.</p>
+
+<p><strong>The compensation promise you cannot keep.</strong> Announcing a compensation plan without legal, treasury and technical confirmation is worse than saying nothing. A broken promise in a crisis compounds the original trust damage by a factor that is genuinely hard to recover from. If you do not know what the compensation framework will be, say so honestly and give a timeline for when you will.</p>
+
+<p><strong>The pivot without the acknowledgment.</strong> Relaunching with a new brand, new contract address or new product line without a clear public acknowledgment of the incident history reads as an attempt to escape accountability. Sophisticated users and reporters notice. The incident history follows you in on-chain records regardless of what the new brand says. The only functional approach is to carry the history forward honestly, as a chapter you have learned from, not one you are hiding.</p>
+
+<p>The <a href="/playbook/web3-pr-agency-mistakes">Web3 PR agency mistakes</a> that hurt founders in normal times are amplified in a crisis. The agency that pitches press releases when you need a holding statement, or that goes quiet because crises are not in the retainer scope, is not a crisis comms partner. Know before an incident happens whether your PR operator has done this before.</p>
+
+<h2>What to have ready before anything happens</h2>
+
+<p>The teams that move fastest in the first sixty minutes are the ones that prepared before the incident. That does not mean predicting an attack. It means having a small set of things agreed and accessible so that the first-hour decisions are about facts, not process.</p>
+
+<ul>
+  <li><strong>A single comms lead</strong> with authority to post on behalf of the protocol, reachable at any hour.</li>
+  <li><strong>A holding statement draft</strong> with the variables left blank, reviewed in advance by legal so the format is cleared even if the content changes.</li>
+  <li><strong>A media contact list</strong> of the five reporters you would call first, with personal contact details, not just press inquiry emails.</li>
+  <li><strong>An incident page URL</strong>, even if it is blank, so you have somewhere to point users beyond Twitter.</li>
+  <li><strong>A clear internal escalation path</strong>: who decides to pause contracts, who approves the public statement, who speaks to press.</li>
+</ul>
+
+<p>None of this is exotic. All of it is genuinely rare in protocols under $500M TVL. The preparation gap is real, and it is exactly what a fractional PR operator covers as part of a retained relationship, not a crisis retainer that costs five times as much once the incident is already in motion. Fractional senior operators in this space run $5,000 to $12,000 per month, compared to $15,000 to $45,000 for a full agency. The delta is meaningful when you are trying to justify a PR budget to a board that considers it overhead until the day it is not.</p>
+
+
+    <div class="author-block">
+      <div class="author-avatar">SJ</div>
+      <div>
+        <div class="author-name">Shilika Jain</div>
+        <p class="author-bio">Fractional PR and crisis comms for Web3, DePIN, AI and cybersecurity founders. 50+ protocols placed across Forbes, CoinDesk, Cointelegraph, Decrypt, The Block and Blockworks, with crisis comms engagements across exploit, depeg and regulatory incidents. <a href="/about">View full profile &rarr;</a> &middot; <a href="/#contact">Book a 30-min teardown &rarr;</a></p>
+      </div>
+    </div>
+
+    <div class="faq-block">
+      <h2>Frequently asked questions</h2>
+
+      <div class="faq-q">What should a crypto protocol post in the first hour of a hack?</div>
+      <div class="faq-a">A holding statement, published within sixty minutes of internal confirmation. It should confirm you are aware of the incident, tell users the one thing they need to do right now (pause deposits, bridge out, take no action), and give a specific time by which you will provide a fuller update. It does not need root cause, attribution or compensation details. Speed and clarity matter more than completeness at this stage. Post it on your official Twitter/X and Discord simultaneously.</div>
+
+      <div class="faq-q">How is crisis comms for a depeg different from an exploit?</div>
+      <div class="faq-a">A depeg is not a security incident, so the messaging frame is different. You cannot frame it as an attack. The communication needs to explain market mechanics honestly, give users specific actions to protect their positions, and lay out the protocol's path back to stability with realistic timelines. Teams that run an exploit playbook on a depeg, emphasising investigation and attacker speculation, confuse users and compound the credibility damage. See the <a href="/services/web3-pr-campaigns">Web3 PR campaigns</a> page for how retained crisis preparedness differs from reactive retainers.</div>
+
+      <div class="faq-q">Should you brief journalists before publishing a public statement?</div>
+      <div class="faq-a">No. The public statement comes first, always, so your community hears from you directly rather than reading a reporter's reconstruction. After the holding statement is live, brief three to five beat reporters personally, offer a direct technical briefing, and provide your named spokesperson. The goal is accurate coverage, not favourable coverage. Reporters who can reach you in a crisis write better stories than those who cannot.</div>
+
+      <div class="faq-q">What does trust rebuilding after an exploit actually look like?</div>
+      <div class="faq-a">Four things in sequence: a re-audit engagement announcement naming the auditor, full publication of the audit results including any findings, a founder-led account of what the team learned (op-ed or long-form interview), and then the relaunch narrative. Skipping to the relaunch without the preceding three steps leaves the incident as the dominant narrative at exactly the moment you need a fresh start. The sequence matters as much as the individual pieces.</div>
+
+      <div class="faq-q">How much does crisis PR cost in crypto?</div>
+      <div class="faq-a">A retained fractional PR operator who covers crisis preparedness runs $5,000 to $12,000 per month, and that relationship is in place before anything happens. A reactive crisis retainer, engaged after an incident is already in motion, costs significantly more and starts from zero context. A full agency runs $15,000 to $45,000 per month. The preparation gap is the most expensive thing most protocols overlook in their comms budget.</div>
+    </div>
+
+    <p style="margin-top: 2.2em; padding: 22px 26px; background: var(--paper-2); border-left: 3px solid var(--lime); border-radius: 4px; font-size: 17px; line-height: 1.55;"><strong>Running a protocol that needs crisis-ready comms?</strong> Start with <a href="/services/cybersecurity-pr" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">cybersecurity PR</a> for security-sector positioning, then <a href="/services/web3-pr-campaigns" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">Web3 PR campaigns</a> for the retained relationship that covers both launch and crisis. Related reading: <a href="/playbook/crypto-exchange-pr-2026" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">crypto exchange PR in 2026</a> and <a href="/playbook/web3-pr-agency-mistakes" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">Web3 PR agency mistakes</a>. The <a href="/playbook" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">full playbook library</a> covers pitching, pricing and narrative architecture across the stack.</p>
+
+  </article>
+</section>
+
+<section class="cta-strip">
+  <h3>Crisis-ready comms before you <em>need</em> them.</h3>
+  <a href="https://calendly.com/shilikajain/30min/" target="_blank" rel="noopener" class="cta-strip-btn">
+    Book a 30-min teardown
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.4"/></svg>
+  </a>
+</section>
+
+<footer class="footer">
+  <div class="footer-row">
+    <span>© SHILIKA JAIN - 2019-2026</span>
+    <span>FIELD NOTES · v.1.0</span>
+    <span><a href="/blog">← ALL ARTICLES</a></span>
+  </div>
+</footer>

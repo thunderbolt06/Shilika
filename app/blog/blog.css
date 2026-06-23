@@ -1064,3 +1064,35 @@ html { scroll-behavior: smooth; }
 .prose-shilika h2,
 .prose-shilika h3 { scroll-margin-top: 100px; }
 
+
+/* ── Glossary ───────────────────────────────────────────── */
+.post-body-wrap { max-width: 760px; margin: 0 auto; padding: 0 var(--pad); }
+
+.glossary-answer {
+  background: var(--cream);
+  border-left: 3px solid var(--lime);
+  border-radius: 12px;
+  padding: 22px 24px;
+  margin-bottom: 0.6em;
+}
+.glossary-answer p { margin: 0; font-size: 1.05em; }
+.glossary-answer-label {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 8px !important;
+}
+
+.glossary-faq-item { margin-top: 1.4em; }
+.glossary-faq-item h3 { margin-top: 0; }
+.glossary-faq-item p { margin-top: 0.5em; }
+
+.glossary-meta {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--muted);
+  padding-top: 1.2em;
+  border-top: 1px solid var(--line);
+}

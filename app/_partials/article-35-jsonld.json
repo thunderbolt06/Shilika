@@ -1,0 +1,135 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/defi-protocol-pr-strategy-2026#article",
+      "headline": "How to Get Media Coverage for a DeFi Protocol in 2026",
+      "alternativeHeadline": "DeFi PR strategy: mechanism angles, named sources, and the outlets that actually cover protocols",
+      "description": "Getting media coverage for a DeFi protocol in 2026 requires a mechanism story, a verifiable TVL number, a named source, and an angle connected to a trend reporters are already tracking. This playbook covers the four angles that earn DeFi coverage, what The Defiant, DL News, Blockworks, CoinDesk, and The Block actually want, the named-source bar, pitch mechanics, and how to budget for DeFi PR.",
+      "url": "https://www.shilikajain.com/playbook/defi-protocol-pr-strategy-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/defi-protocol-pr-strategy-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2050,
+      "timeRequired": "PT9M",
+      "articleSection": "Strategy",
+      "keywords": [
+        "DeFi PR",
+        "DeFi media coverage",
+        "DeFi protocol PR strategy 2026",
+        "how to pitch DeFi journalists",
+        "The Defiant press coverage",
+        "DL News DeFi pitch",
+        "Blockworks DeFi PR",
+        "Web3 PR campaigns",
+        "DeFi named source media",
+        "crypto PR agency DeFi"
+      ],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "Decentralised finance" },
+        { "@type": "Thing", "name": "DeFi public relations" },
+        { "@type": "Thing", "name": "Protocol media strategy" },
+        { "@type": "Thing", "name": "TVL metrics" },
+        { "@type": "Thing", "name": "Crypto PR" },
+        { "@type": "Thing", "name": "Governance communications" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "The Defiant" },
+        { "@type": "Organization", "name": "DL News" },
+        { "@type": "Organization", "name": "Blockworks" },
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "The Block" },
+        { "@type": "Organization", "name": "Decrypt" },
+        { "@type": "Organization", "name": "Cointelegraph" },
+        { "@type": "Organization", "name": "DefiLlama" },
+        { "@type": "Organization", "name": "Dune Analytics" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "How to Get Media Coverage for a DeFi Protocol in 2026", "item": "https://www.shilikajain.com/playbook/defi-protocol-pr-strategy-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/defi-protocol-pr-strategy-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is DeFi PR and why is it different from general crypto PR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DeFi PR is media and narrative strategy specifically for decentralised finance protocols: AMMs, lending markets, yield aggregators, governance systems, and the infrastructure supporting them. It differs from general crypto PR because the target outlets, The Defiant, DL News, Blockworks Research, and The Block Research, are written by reporters with genuine technical literacy who understand on-chain mechanics, audit risk, and TVL dynamics. A pitch that would work for a general crypto audience will not move a DeFi specialist reporter. You need a mechanism angle, a verifiable on-chain number, and a named source to earn a response."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to get media coverage for a DeFi protocol?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For a hard news event with a compelling angle, verifiable on-chain data, and a named source, a well-pitched story can earn a response within 24 to 72 hours and publish within the same week. Without a hard news event, building organic DeFi coverage through mechanism stories and data-driven pitches typically takes four to eight weeks of consistent outreach to establish the first tier-1 placements. The strongest results come from a launch campaign that combines a hard news event with a pre-positioned narrative."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which DeFi outlets should a protocol prioritise for media coverage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Defiant for deep mechanism and protocol explainers, DL News for data-driven and risk-focused coverage, Blockworks for institutional and macro DeFi angles, CoinDesk Markets for TVL milestones and launch news, and The Block Research for technical protocol analysis. Cointelegraph and Decrypt are strong for broader reach after the specialist outlets have covered the story. For Asian markets, BloomingBit, TokenPost, and CryptoTimes JP run parallel DeFi coverage worth including in a global campaign."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does a DeFi protocol need a named founder to get media coverage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, in almost every case. Tier-1 DeFi outlets will not run a story from an anonymous team on a new protocol. The named-source bar exists because outlets have been burned by rug pulls and scam projects that they provided unnamed coverage for. If your team is anonymous, the pathway to coverage is a named advisor, a named investor, or the named partner at an audit firm going on the record. A named source does not mean doxing your full team: it means one identifiable, reachable, quotable person standing behind the claims in your pitch."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does DeFi PR cost in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fractional senior PR operator working on a DeFi account costs $5,000 to $12,000 per month. A full-service agency runs $15,000 to $45,000 per month. A focused launch sprint, covering a mainnet, raise, or major protocol upgrade, typically runs $15,000 to $40,000 for a three to six week campaign. Wire distribution alone is not a strategy: a wire fee does not produce tier-1 DeFi coverage. Budget for relationships and targeted pitching, not broadcast distribution."
+          }
+        }
+      ]
+    }
+  ]
+}

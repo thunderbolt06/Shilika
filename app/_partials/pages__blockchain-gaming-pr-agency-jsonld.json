@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/blockchain-gaming-pr-agency#service",
+      "name": "Blockchain Gaming PR Agency — Dual-Track Comms",
+      "serviceType": "Web3 PR",
+      "url": "https://www.shilikajain.com/pages/blockchain-gaming-pr-agency",
+      "description": "Dual-track PR for blockchain gaming studios that need coverage in both crypto media and gaming press simultaneously. A fractional senior operator runs both editorial tracks for $5K–$12K/month, versus $15K–$45K at a full agency. Worked example: Bullieverse $4M seed launch across India gaming media and global crypto outlets in a single news cycle.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global", "India", "United States", "South Korea", "Japan", "Singapore", "United Arab Emirates"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 5000,
+          "maxPrice": 12000,
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "Blockchain Gaming PR Agency", "item": "https://www.shilikajain.com/pages/blockchain-gaming-pr-agency" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/blockchain-gaming-pr-agency#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a blockchain gaming PR agency and who is it for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A blockchain gaming PR agency manages media relations for studios and protocols that sit at the intersection of gaming and crypto. The client is typically a Web3 game studio, a gaming-focused L1 or L2, or a play-to-earn or NFT gaming project that needs coverage in both crypto outlets and gaming or mainstream tech media. For most of these clients, a fractional senior operator covers the same scope as an agency, for $5K–$12K/month, without the account-team overhead."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does blockchain gaming PR cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A traditional agency covering both crypto and gaming media typically charges $15K–$45K per month because the two editorial maps require separate teams. A fractional senior operator who covers both verticals directly runs $5K–$12K per month. A focused launch sprint for a game release or token event runs $15K–$40K over four to eight weeks. KOL activations are priced separately: nano tier $200–$1.5K per creator, micro $500–$5K, mid $10K–$30K, macro $25K–$100K."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which outlets can you get a blockchain game into?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Crypto tier-1: CoinDesk, Cointelegraph, Decrypt, The Block, Blockworks, The Defiant. Gaming and mainstream tech: Forbes, TechCrunch, Benzinga, VentureBeat, PC Gamer where the story is genuinely newsworthy for that audience. Regional: Inc42 and YourStory (India), e27 and TechInAsia (SEA), BloomingBit and TokenPost (Korea). Coverage depends on a real news hook pitched directly to the editor, not a wire blast or a paid placement dressed as editorial."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does the dual-track process look like and how long does it take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The process starts with a one-week audit of your current press footprint in both crypto and gaming media. Week two produces two narrative documents: a token-economics angle for crypto editors and a gameplay or studio angle for gaming press. Weeks three and four are outreach and embargo management. Full results from a launch sprint are typically visible within four to six weeks. Ongoing monthly retainers compound those results with sustained pitching in both lanes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get started with blockchain gaming PR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short project brief through the intent form and you will get a reply within 24 hours with a quick read on your press footprint across crypto and gaming media. Or book a 30-minute call and we will plot the dual-track strategy live. No deck, no intro call with an account team."
+          }
+        }
+      ]
+    }
+  ]
+}

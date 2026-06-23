@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/crypto-kol-agency-japan#service",
+      "name": "Crypto KOL Agency Japan — Native Creator Access",
+      "serviceType": "KOL & Influencer Marketing",
+      "url": "https://www.shilikajain.com/pages/crypto-kol-agency-japan",
+      "description": "Crypto KOL campaigns for Japan built on native-language creator briefs and culturally precise activation across X JP, YouTube JP and LINE. Creator tiers from micro ($500–$5K) to macro ($25K–$100K+), coordinated with CryptoTimes JP and CoinPost media placements. Shilika Jain has run APAC KOL campaigns across six markets including Japan and Korea.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global", "Japan", "South Korea", "Singapore", "United States"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 15000,
+          "maxPrice": 40000,
+          "priceCurrency": "USD",
+          "unitText": "SPRINT"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "Crypto KOL Agency Japan", "item": "https://www.shilikajain.com/pages/crypto-kol-agency-japan" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/crypto-kol-agency-japan#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a crypto KOL agency for Japan and who is it for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A crypto KOL agency for Japan identifies, briefs and manages Japanese crypto creators on behalf of a project, so that the project reaches Japanese retail and institutional audiences through trusted voices rather than paid ads or translated press releases. It is for projects launching a token, listing on a Japanese exchange, or building community in Japan who need native-language creator access they cannot build in-house. Shilika Jain has run APAC KOL campaigns across six markets including Japan and Korea."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does a Japanese crypto KOL campaign cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Creator fees in Japan typically run: nano creators $200–$1.5K per post, micro creators $500–$5K, mid-tier creators $10K–$30K, and macro creators $25K–$100K or more. A campaign usually combines two or three tiers. The operator fee for brief writing, creator management and reporting sits on top of creator fees. Most Japan-focused campaigns run $15K–$40K total for a launch sprint covering four to six creators across two tiers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which platforms and outlets do Japanese crypto KOL campaigns use?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Japan's crypto audience is most active on X (Twitter JP), YouTube JP and LINE communities. Telegram and Discord have a smaller presence in Japan compared to Korea or Southeast Asia. Earned media placements run through CryptoTimes JP, CoinPost and occasionally Coincheck Media and CoinOtaku. Campaigns that combine creator content and media placement in the same 24-hour window consistently outperform creator-only activations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does a Japan KOL campaign take from brief to launch?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A standard Japan KOL sprint runs four to six weeks from first call to creator content going live. Week one covers audit and creator selection. Weeks two and three cover brief development, creator negotiation and content approvals. Weeks four to six cover activation, media timing and first-pass reporting. Projects with a hard launch date should start the conversation at least six weeks out."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get started with a Japan crypto KOL campaign?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short brief through the intent form at shilikajain.com/pages/crypto-kol-agency-japan. Include your project name, the launch event you are building toward and your target Japanese audience, and you will get a reply within 24 hours with an honest read on which creator tiers and channels fit your stage and budget. Or book a 30-minute call at calendly.com/shilikajain/30min to plot it live."
+          }
+        }
+      ]
+    }
+  ]
+}

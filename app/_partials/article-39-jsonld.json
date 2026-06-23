@@ -1,0 +1,137 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/web3-infrastructure-pr-2026#article",
+      "headline": "PR for a Web3 Infrastructure Startup in 2026",
+      "alternativeHeadline": "Borrowed credibility, developer proof and partner brands: the infra PR playbook with the Web3Auth Google Cloud lesson",
+      "description": "Web3 infrastructure has no token hype and no consumer story. This 2026 playbook covers how to earn coverage for wallets, RPCs, oracles and middleware through borrowed credibility from partner brands, developer adoption proof, and market-shift framing, anchored in the Web3Auth Google Cloud case study.",
+      "url": "https://www.shilikajain.com/playbook/web3-infrastructure-pr-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/web3-infrastructure-pr-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2050,
+      "timeRequired": "PT9M",
+      "articleSection": "Strategy",
+      "keywords": [
+        "Web3 PR agency",
+        "Web3 infrastructure PR",
+        "crypto infrastructure PR 2026",
+        "borrowed credibility PR",
+        "developer tool PR strategy",
+        "Web3Auth Google Cloud PR",
+        "DePIN infrastructure PR",
+        "fractional PR Web3",
+        "infra startup PR playbook",
+        "tier-1 crypto coverage"
+      ],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "Web3 infrastructure public relations" },
+        { "@type": "Thing", "name": "Borrowed credibility" },
+        { "@type": "Thing", "name": "Developer adoption" },
+        { "@type": "Thing", "name": "Narrative strategy" },
+        { "@type": "Thing", "name": "Fractional PR" },
+        { "@type": "Thing", "name": "DePIN" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "The Block" },
+        { "@type": "Organization", "name": "Blockworks" },
+        { "@type": "Organization", "name": "Decrypt" },
+        { "@type": "Organization", "name": "Forbes" },
+        { "@type": "Organization", "name": "TechCrunch" },
+        { "@type": "Organization", "name": "Dark Reading" },
+        { "@type": "Organization", "name": "Web3Auth" },
+        { "@type": "Organization", "name": "Google Cloud" },
+        { "@type": "Organization", "name": "Fluence Network" },
+        { "@type": "Organization", "name": "RARI Chain" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "PR for a Web3 Infrastructure Startup in 2026", "item": "https://www.shilikajain.com/playbook/web3-infrastructure-pr-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/web3-infrastructure-pr-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do you get PR coverage for a Web3 infrastructure company with no token?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most reliable path is borrowed credibility: pitch the infrastructure through the named brands and protocols building on top of it, so journalists who already cover those brands encounter your technology as the enabling layer. Pair that with a market-shift narrative that gives editors a reason to care about the infrastructure category, not just the product. A founder byline on CoinDesk Opinion or The Block seeding the thesis before any hard announcement is almost always the right first move."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What outlets cover Web3 infrastructure PR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CoinDesk and The Block are the tier-1 targets for narrative and market-shift stories. Blockworks is strong for DeFi and institutional infra angles. Decrypt covers developer tools when there is a clear user-impact frame. TechCrunch and Forbes work when there is a named mainstream-recognisable partner, as the Web3Auth Google Cloud partnership demonstrated. For developer-heavy infra, regional outlets including BloomingBit, TokenPost, CryptoTimes JP and Inc42 are chronically underused and offer strong ROI when the protocol has genuine traction in those markets."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is borrowed credibility in PR and how does it work for infra teams?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Borrowed credibility is the transfer of a partner brand's existing reputation to your technology through co-announced or co-featured stories. For an infra team, it means offering a reporter covering a named brand the infrastructure angle as depth: the layer that makes the product work, the founder who built it, the technical decision behind it. The reporter gets a better story. The infra company gets a placement inside a story that would have run without them. Over time those placements build a category position that is very hard for competitors to displace. The Web3Auth Google Cloud case is the clearest example."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does Web3 infrastructure PR cost in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For a pre-token or Series A infrastructure team, a fractional senior PR operator runs $5,000 to $12,000 per month and is usually the right fit: strategic narrative work and tier-1 placement without the overhead of a full agency relationship. A full Web3 PR agency runs $15,000 to $45,000 per month and makes sense for post-token campaigns with multi-market scope. A launch sprint for a mainnet or major integration event runs $15,000 to $40,000 flat. Founder op-ed ghostwriting for the narrative seeding layer sits at $1,500 to $4,000 per piece."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does the PR sequence matter for Web3 infrastructure?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Because a tier-1 placement with no narrative context in the market produces a thin mention that does not compound. The sequence that works is: founder byline or market-shift narrative seeded first, then the announcement lands inside a frame editors already recognise. Reporters who covered the category before your raise will give you depth coverage. Reporters encountering you cold give you a paragraph. Chase the narrative first and the tier-1 placement follows. Reverse it and you usually get neither."
+          }
+        }
+      ]
+    }
+  ]
+}

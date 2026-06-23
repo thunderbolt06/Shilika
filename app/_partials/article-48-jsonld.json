@@ -1,0 +1,134 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/crypto-pr-korea-2026#article",
+      "headline": "Crypto PR in Korea in 2026: Outlets, KOLs and Access",
+      "alternativeHeadline": "How to earn Korean crypto media coverage, build KOL relationships, and navigate FSC compliance in 2026",
+      "description": "Korea drives roughly half of Asia's crypto media traffic and demands a localised PR approach unlike any other market. This 2026 playbook covers the three native outlet tiers (BloomingBit, TokenPost, Coinness), the KOL culture built on YouTube and Kakao, FSC Virtual Asset User Protection Act compliance for marketing materials, and how to structure a Korea market entry campaign from community setup to flagship media placement.",
+      "url": "https://www.shilikajain.com/playbook/crypto-pr-korea-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/crypto-pr-korea-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 1950,
+      "timeRequired": "PT10M",
+      "articleSection": "APAC",
+      "keywords": [
+        "crypto PR",
+        "crypto PR Korea",
+        "Korea crypto media",
+        "BloomingBit",
+        "TokenPost",
+        "Korean crypto KOL",
+        "FSC crypto compliance Korea",
+        "APAC crypto PR",
+        "Korea market entry Web3",
+        "crypto PR 2026"
+      ],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "Crypto public relations" },
+        { "@type": "Thing", "name": "Korean crypto media" },
+        { "@type": "Thing", "name": "Key opinion leaders" },
+        { "@type": "Thing", "name": "Financial Services Commission Korea" },
+        { "@type": "Thing", "name": "Virtual Asset User Protection Act" },
+        { "@type": "Thing", "name": "KakaoTalk crypto community" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "BloomingBit" },
+        { "@type": "Organization", "name": "TokenPost" },
+        { "@type": "Organization", "name": "Coinness" },
+        { "@type": "Organization", "name": "Upbit" },
+        { "@type": "Organization", "name": "Bithumb" },
+        { "@type": "Organization", "name": "Financial Services Commission" },
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "The Block" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "Crypto PR in Korea in 2026: Outlets, KOLs and Access", "item": "https://www.shilikajain.com/playbook/crypto-pr-korea-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/crypto-pr-korea-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Which crypto media outlets matter most in Korea in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The three native outlets that define Korean crypto media credibility are BloomingBit (highest prestige, institutional readership, similar editorial bar to The Block), TokenPost (high volume, syndicates into Naver, strong SEO distribution), and Coinness (fast news wire, picks up localised releases quickly). Coverage across all three, combined with community pickup on Kakao and Telegram, constitutes a credible Korean PR footprint. Each requires a real Korean-language pitch with a genuine local news hook, not a translated global release."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do Korean crypto KOLs differ from global influencer channels?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Korean KOLs operate primarily on YouTube and KakaoTalk, with community trust built over years of consistent coverage rather than follower count alone. The Korean retail market suffered acutely through the LUNA collapse, so the community is sceptical of promotional content and rewards KOLs who maintain editorial independence. Micro and mid-tier Korean KOLs with 30K to 500K subscribers typically carry more genuine purchase intent than global macro channels with multiples of that reach."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What do FSC compliance changes mean for Korean-language crypto PR materials?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Virtual Asset User Protection Act, in full enforcement since 2024, prohibits misleading return projections, requires clear investment risk disclosure in Korean, and restricts unlicensed entities from soliciting Korean retail investment. Practically: remove APY or staking return figures from Korean-language press releases unless accompanied by full risk disclosure, frame token utility around protocol function rather than investment returns, and have a Korean-language legal review before materials go to outlets or KOLs. The FSC is active in enforcement and Korean outlets will decline materials that carry compliance risk."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does a Korea market entry campaign typically cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A launch sprint covering localised PR materials, BloomingBit and TokenPost outreach, a mid-tier KOL activation, and community setup typically runs $15,000 to $40,000. An ongoing fractional senior operator engagement for sustained Korean media and KOL relations runs $5,000 to $12,000 per month. Full Korean PR agencies with established exchange relationships run $15,000 to $45,000 per month. For first-time Korea market entry, the fractional model is the right starting point."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a KakaoTalk channel to do crypto PR in Korea?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, effectively. Kakao is the primary community infrastructure for Korean retail crypto communities, and a BloomingBit placement or KOL activation will drive Korean users to look for your Kakao presence within hours. Arriving without a managed KakaoTalk open channel signals that you are not serious about the Korean market, which undercuts the very credibility you are trying to build through media placement. Set up the channel before the media campaign runs, with a Korean-speaking community manager who can handle questions in real time."
+          }
+        }
+      ]
+    }
+  ]
+}

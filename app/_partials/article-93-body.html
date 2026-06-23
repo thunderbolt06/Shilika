@@ -1,0 +1,399 @@
+<style>
+:root {
+  --ink: oklch(0.16 0.01 80);
+  --ink-2: oklch(0.22 0.01 80);
+  --paper: oklch(0.96 0.01 90);
+  --paper-2: oklch(0.92 0.015 85);
+  --cream: oklch(0.93 0.04 85);
+  --lime: oklch(0.92 0.18 115);
+  --muted: oklch(0.55 0.01 80);
+  --line: oklch(0.85 0.01 80);
+  --font-display: 'Instrument Serif', 'Times New Roman', serif;
+  --font-body: 'Inter Tight', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'Geist Mono', 'JetBrains Mono', monospace;
+  --pad: clamp(20px, 4vw, 64px);
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { font-family: var(--font-body); background: var(--paper); color: var(--ink); -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+.mono { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; }
+
+.nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; display: flex; justify-content: space-between; align-items: center; padding: 18px var(--pad); background: rgba(247, 246, 241, 0.85); backdrop-filter: blur(16px); border-bottom: 1px solid var(--line); }
+.nav-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); }
+.nav-logo-text { font-family: var(--font-display); font-size: 22px; font-style: italic; letter-spacing: -0.01em; }
+.nav-logo-dot { color: var(--lime); margin: 0 2px; }
+.nav-links { display: flex; gap: 28px; list-style: none; font-family: var(--font-mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; }
+.nav-links a { position: relative; padding: 4px 0; color: var(--ink); text-decoration: none; }
+.nav-links a::after { content: ''; position: absolute; left: 0; bottom: 0; width: 0; height: 1px; background: var(--ink); transition: width 0.4s var(--ease-out-quart); }
+.nav-links a:hover::after, .nav-links a.is-current::after { width: 100%; }
+.nav-cta { display: inline-flex; align-items: center; gap: 8px; padding: 10px 18px; background: var(--ink); color: var(--paper); font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; border-radius: 100px; transition: background 0.3s, color 0.3s; }
+.nav-cta:hover { background: var(--lime); color: var(--ink); }
+@media (max-width: 800px) { .nav-links { display: none; } }
+
+.scroll-progress { position: fixed; top: 0; left: 0; right: 0; height: 2px; z-index: 200; background: transparent; }
+.scroll-progress-bar { height: 100%; background: var(--lime); width: 0%; transition: width 0.1s linear; }
+
+.article-header { padding: 140px var(--pad) 60px; border-bottom: 1px solid var(--line); background: var(--paper); position: relative; }
+.crumb { max-width: 980px; margin: 0 auto 36px; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+.crumb a { color: var(--muted); text-decoration: none; transition: color 0.3s; }
+.crumb a:hover { color: var(--ink); }
+.crumb .sep { margin: 0 12px; }
+.article-meta-row { max-width: 980px; margin: 0 auto 28px; display: flex; gap: 18px; align-items: center; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); flex-wrap: wrap; }
+.article-cat { background: var(--ink); color: var(--paper); padding: 5px 12px; border-radius: 3px; font-weight: 500; }
+.article-headline { max-width: 980px; margin: 0 auto; font-family: var(--font-display); font-size: clamp(40px, 6.4vw, 88px); line-height: 0.97; letter-spacing: -0.018em; font-weight: 400; text-wrap: balance; }
+.article-headline em { font-style: italic; background: linear-gradient(120deg, transparent 30%, var(--lime) 30%, var(--lime) 90%, transparent 90%); background-size: 200% 100%; background-position: 100% 0; padding: 0 0.05em; animation: hl-sweep 1.6s 0.4s var(--ease-out-quart) forwards; }
+@keyframes hl-sweep { to { background-position: 0 0; } }
+.article-sub { max-width: 760px; margin: 32px auto 0; font-family: var(--font-display); font-size: clamp(20px, 1.6vw, 24px); line-height: 1.4; font-style: italic; color: var(--muted); }
+
+.article-hero-visual { max-width: 1200px; margin: 60px auto 0; aspect-ratio: 16 / 7; position: relative; overflow: hidden; border-radius: 4px; background: var(--ink); color: var(--paper); }
+.visual-vs .v-num { position: absolute; left: 32px; top: 22px; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.15em; color: var(--lime); z-index: 2; }
+.visual-vs .v-split { position: absolute; inset: 30px 32px 32px; display: grid; grid-template-columns: 1fr auto 1fr; gap: 18px; align-items: stretch; }
+.visual-vs .v-col { border: 1px solid rgba(255,255,255,0.14); border-radius: 6px; padding: 22px; display: flex; flex-direction: column; justify-content: space-between; }
+.visual-vs .v-col.is-key { background: var(--lime); border-color: var(--lime); }
+.visual-vs .v-col .v-k { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(255,255,255,0.45); }
+.visual-vs .v-col.is-key .v-k { color: rgba(40,37,32,0.6); }
+.visual-vs .v-col .v-h { font-family: var(--font-display); font-style: italic; font-size: clamp(22px, 2.6vw, 34px); line-height: 1.0; color: var(--paper); }
+.visual-vs .v-col.is-key .v-h { color: var(--ink); }
+.visual-vs .v-col .v-d { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.06em; line-height: 1.4; color: rgba(255,255,255,0.55); text-transform: uppercase; }
+.visual-vs .v-col.is-key .v-d { color: rgba(40,37,32,0.7); }
+.visual-vs .v-mid { display: flex; align-items: center; justify-content: center; font-family: var(--font-display); font-style: italic; font-size: 28px; color: var(--lime); }
+@media (max-width: 720px) { .visual-vs .v-split { grid-template-columns: 1fr; } .visual-vs .v-mid { display: none; } }
+
+.article-body-wrap { padding: 80px var(--pad) 100px; background: var(--paper); }
+.article-body { max-width: 720px; margin: 0 auto; font-size: 19px; line-height: 1.65; color: oklch(0.25 0.01 80); }
+.article-body p { margin-bottom: 1.4em; }
+.article-body p.lede { font-family: var(--font-display); font-size: clamp(26px, 2.4vw, 34px); line-height: 1.25; font-style: italic; color: var(--ink); margin-bottom: 1.6em; }
+.article-body h2 { font-family: var(--font-display); font-size: clamp(28px, 3vw, 40px); font-weight: 400; letter-spacing: -0.01em; color: var(--ink); margin: 2em 0 0.8em; line-height: 1.1; text-wrap: balance; }
+.article-body h2::before { content: '§ '; color: var(--lime); font-style: italic; }
+.article-body h3 { font-family: var(--font-display); font-size: clamp(22px, 2.2vw, 28px); font-weight: 400; color: var(--ink); margin: 1.6em 0 0.5em; line-height: 1.2; }
+.article-body ul, .article-body ol { margin: 0 0 1.6em 1.4em; padding-left: 0; }
+.article-body li { margin-bottom: 0.6em; padding-left: 0.4em; }
+.article-body li::marker { color: var(--lime); }
+.article-body strong { color: var(--ink); font-weight: 600; }
+.article-body em { font-style: italic; }
+.article-body a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-decoration-thickness: 2px; text-underline-offset: 3px; }
+.article-body a:hover { color: oklch(0.45 0.18 115); }
+.article-body table { width: 100%; border-collapse: collapse; margin: 1.6em 0; font-size: 15px; font-family: var(--font-mono); letter-spacing: 0.02em; }
+.article-body table th { text-align: left; padding: 10px 12px; background: var(--ink); color: var(--paper); font-weight: 500; text-transform: uppercase; font-size: 11px; letter-spacing: 0.1em; }
+.article-body table td { padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.article-body table tr:nth-child(even) td { background: var(--paper-2); }
+.callout { background: var(--ink); color: var(--paper); padding: 28px 32px; border-radius: 8px; margin: 2em 0; font-family: var(--font-display); font-size: clamp(20px, 1.8vw, 24px); font-style: italic; line-height: 1.35; }
+.callout strong { color: var(--lime); font-weight: 400; font-style: normal; font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; display: block; margin-bottom: 10px; }
+.fix-box { background: var(--paper-2); border-left: 3px solid var(--lime); padding: 20px 24px; border-radius: 4px; margin: 1.2em 0 1.8em; font-size: 17px; line-height: 1.55; }
+.fix-box strong.fix-label { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); display: block; margin-bottom: 8px; }
+.faq-block { max-width: 720px; margin: 60px auto 0; padding: 32px; background: var(--paper-2); border-radius: 8px; }
+.faq-block h2 { font-family: var(--font-display); font-size: clamp(28px, 3vw, 36px); margin-bottom: 24px; font-weight: 400; }
+.faq-q { font-family: var(--font-display); font-style: italic; font-size: 20px; color: var(--ink); margin: 22px 0 8px; }
+.faq-a { font-size: 16px; color: oklch(0.30 0.01 80); line-height: 1.6; }
+.faq-a a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px; }
+
+.author-block { max-width: 720px; margin: 80px auto 0; padding: 32px; background: var(--paper-2); border-radius: 8px; display: grid; grid-template-columns: 64px 1fr; gap: 20px; align-items: center; }
+.author-avatar { width: 64px; height: 64px; border-radius: 50%; background: var(--ink); color: var(--lime); display: flex; align-items: center; justify-content: center; font-family: var(--font-display); font-size: 24px; font-style: italic; font-weight: 400; }
+.author-name { font-family: var(--font-display); font-size: 24px; font-style: italic; line-height: 1; margin-bottom: 6px; }
+.author-bio { font-size: 14px; color: var(--muted); line-height: 1.4; }
+.author-bio a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px; }
+
+.cta-strip { background: var(--ink); color: var(--paper); padding: 100px var(--pad); text-align: center; position: relative; overflow: hidden; }
+.cta-strip h3 { font-family: var(--font-display); font-size: clamp(40px, 6vw, 80px); font-weight: 400; line-height: 1; letter-spacing: -0.015em; max-width: 18ch; margin: 0 auto 32px; }
+.cta-strip h3 em { font-style: italic; color: var(--lime); }
+.cta-strip-btn { display: inline-flex; align-items: center; gap: 10px; background: var(--lime); color: var(--ink); padding: 18px 32px; font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; text-decoration: none; border-radius: 100px; transition: transform 0.4s var(--ease-out-quart); }
+.cta-strip-btn:hover { transform: translateY(-2px); }
+
+.footer { background: var(--ink); color: var(--paper); padding: 40px var(--pad) 24px; border-top: 1px solid rgba(255,255,255,0.08); }
+.footer-row { max-width: 1440px; margin: 0 auto; display: flex; justify-content: space-between; font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.5); flex-wrap: wrap; gap: 12px; }
+.footer-row a { color: inherit; text-decoration: none; }
+.article-hero-visual.hero-brief { display:flex; }
+.hero-brief .v-num { position:absolute; left:32px; top:22px; font-family:var(--font-mono); font-size:11px; letter-spacing:0.15em; color:var(--lime); z-index:2; }
+.hero-brief-grid { position:absolute; inset:30px 32px 32px; display:grid; grid-template-columns:1.3fr 1fr; gap:24px; align-items:stretch; }
+.hb-lede { font-family:var(--font-display); font-style:italic; font-size:clamp(24px,3vw,40px); line-height:1.08; color:var(--paper); align-self:center; }
+.hb-stats { display:grid; grid-template-rows:repeat(3,1fr); gap:12px; }
+.hb-stats > div { border:1px solid rgba(255,255,255,0.14); border-radius:6px; padding:12px 16px; display:flex; flex-direction:column; justify-content:center; }
+.hb-stats > div.is-key { background:var(--lime); border-color:var(--lime); }
+.hb-n { font-family:var(--font-display); font-style:italic; font-size:clamp(22px,2.4vw,30px); color:var(--paper); line-height:1; }
+.hb-stats > div.is-key .hb-n { color:var(--ink); }
+.hb-l { font-family:var(--font-mono); font-size:10px; letter-spacing:0.08em; text-transform:uppercase; color:rgba(255,255,255,0.55); margin-top:6px; }
+.hb-stats > div.is-key .hb-l { color:rgba(40,37,32,0.7); }
+@media (max-width:720px){ .hero-brief-grid{ grid-template-columns:1fr; position:static; inset:auto; padding:28px; } .article-hero-visual.hero-brief{ aspect-ratio:auto; } }
+</style>
+
+
+<div class="scroll-progress"><div class="scroll-progress-bar" id="progress-bar"></div></div>
+
+<nav class="nav">
+  <a href="/" class="nav-logo">
+    <svg width="34" height="34" viewBox="0 0 34 34" fill="none">
+      <rect width="34" height="34" rx="8" fill="#282520"/>
+      <text x="50%" y="55%" text-anchor="middle" dominant-baseline="middle" font-family="Georgia, serif" font-size="18" font-style="italic" fill="#d4ff32">SJ</text>
+      <circle cx="27" cy="7" r="2" fill="#d4ff32"/>
+    </svg>
+    <span class="nav-logo-text">SHILIKA<span class="nav-logo-dot">·</span>JAIN</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="/#work">Work</a></li>
+    <li><a href="/#services">Services</a></li>
+    <li><a href="/#press">Press</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/blog" class="is-current">Blog</a></li>
+    <li><a href="/#contact">Contact</a></li>
+  </ul>
+  <a href="https://calendly.com/shilikajain/30min/" target="_blank" rel="noopener" class="nav-cta">
+    <span>Book a call</span>
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.4"/></svg>
+  </a>
+</nav>
+
+<header class="article-header">
+  <div class="crumb">
+    <a href="/">Shilika Jain</a><span class="sep">/</span>
+    <a href="/playbook">Playbooks</a><span class="sep">/</span>
+    <span>093</span>
+  </div>
+  <div class="article-meta-row">
+    <span class="article-cat">CRISIS</span>
+    <span>· 9 MIN READ</span>
+    <span>· JUNE 23, 2026</span>
+    <span>· BY SHILIKA JAIN</span>
+  </div>
+  <h1 class="article-headline">Cybersecurity Breach and <em>Crisis Communications</em> in 2026.</h1>
+  <p class="article-sub">When you are the breach, not the researcher, the first hour sets whether you rebuild trust or lose it permanently. This is the holding statement playbook, the regulatory notification sequence, and the long road back to credibility after an incident.</p>
+
+  <div class="article-hero-visual hero-brief">
+    <span class="v-num">093 / BREACH CRISIS COMMS</span>
+    <div class="hero-brief-grid">
+      <div class="hb-lede">The first hour after a breach is worth more than six months of earned PR.</div>
+      <div class="hb-stats">
+        <div>
+          <span class="hb-n">72 hrs</span>
+          <span class="hb-l">GDPR regulatory notification window</span>
+        </div>
+        <div class="is-key">
+          <span class="hb-n">$5K&ndash;$12K/mo</span>
+          <span class="hb-l">Fractional crisis PR retainer range</span>
+        </div>
+        <div>
+          <span class="hb-n">3&ndash;6 mo</span>
+          <span class="hb-l">Typical trust rebuild timeline post-breach</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="article-body-wrap">
+  <article class="article-body">
+
+<p class="lede">When a cybersecurity breach hits your company, the comms job in the first hour is not to explain everything. It is to say three things clearly: you know something happened, you are working on it, and you will tell people more as you know more. Every minute you stay silent past that, the story gets written by someone else.</p>
+
+<p>I run fractional PR for Web3, AI, DePIN, and cybersecurity founders, and breach comms is one of the situations where being fractional actually helps: I have been close enough to incidents across multiple protocols to know what the first 24 hours look like from inside, without having a conflicted interest in making the company look better than it is. The question founders ask when something goes wrong is always some version of "what do we say right now?" This playbook is the answer to that question, from the holding statement through regulatory filings to the trust-rebuild arc that follows.</p>
+
+<h2>Why the first hour determines everything</h2>
+
+<p>Journalists, security researchers, and on-chain analysts move faster than most legal teams. By the time your counsel has signed off on an official statement, there are likely already threads on X, posts on Reddit, and reporters emailing your PR contact. If you have not said anything, the absence of a statement becomes the headline. "Company did not respond to request for comment" is read, correctly, as a company that was caught flat-footed or is hiding something.</p>
+
+<p>The holding statement exists precisely to fill this gap. It is not a full explanation. It does not assign fault. It does not speculate on scope. It simply says: we are aware of an incident, the relevant teams are investigating, we will update as we have more information, and here is where to watch for updates. That single paragraph, published within 60 minutes of the incident becoming public knowledge, buys you time, signals competence, and prevents the silence-becomes-story problem.</p>
+
+<div class="fix-box"><strong class="fix-label">Holding statement template</strong>We are aware of an incident affecting [product / protocol / platform]. Our security and engineering teams are investigating now. We will share a detailed update within [X hours] at [status page URL or official channel]. We take the security of [user / protocol / customer] funds and data seriously and will communicate transparently as we learn more. Questions: [press email].</div>
+
+<p>Adjust the specifics but keep the shape: awareness, action, timeline, channel. Do not say "we were hacked." Do not say "no user data was affected" unless you actually know that. Do not speculate on who is responsible. Every sentence you add at this stage is a sentence that can be wrong, and a wrong sentence makes the situation worse.</p>
+
+<h2>The regulatory notification sequence you cannot skip</h2>
+
+<p>Breach comms is not just a PR problem. For most cybersecurity companies operating in 2026, it also triggers legal notification obligations that run on their own clock, separate from and often faster than whatever feels comfortable from a comms standpoint.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Framework</th>
+      <th>Who it applies to</th>
+      <th>Notification window</th>
+      <th>Who gets notified</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GDPR (EU/UK)</td>
+      <td>Any entity processing EU/UK personal data</td>
+      <td>72 hours of becoming aware</td>
+      <td>Supervisory authority; affected individuals if high risk</td>
+    </tr>
+    <tr>
+      <td>SEC Cybersecurity Rules (US)</td>
+      <td>US public companies</td>
+      <td>4 business days of determining materiality</td>
+      <td>SEC via Form 8-K Item 1.05</td>
+    </tr>
+    <tr>
+      <td>DORA (EU financial)</td>
+      <td>Financial entities and ICT providers in EU</td>
+      <td>Initial report within 4 hours of classification</td>
+      <td>Competent authority and affected clients</td>
+    </tr>
+    <tr>
+      <td>US State breach laws</td>
+      <td>Entities holding state residents' data</td>
+      <td>30 to 90 days depending on state</td>
+      <td>State AG, affected individuals</td>
+    </tr>
+    <tr>
+      <td>FTC Safeguards Rule (US)</td>
+      <td>Non-bank financial institutions</td>
+      <td>30 days of discovery</td>
+      <td>FTC, affected customers</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The comms team and the legal team need to be in the same room from the first hour, because the notifications you are legally required to make and the statements you are crafting for press need to be consistent. The worst breach responses I have seen are ones where legal and comms were running separate tracks, and the public statement contradicted or undercut what was filed with a regulator. That inconsistency becomes the new story. Coordinate first, then communicate.</p>
+
+<div class="callout"><strong>Field rule</strong>Your public statement and your regulatory filing are both evidence. If they say different things about the same event, a journalist with a FOIA request will find out, and that discrepancy will be worse for you than the original breach.</div>
+
+<h2>The 24-hour update: what you owe your audience</h2>
+
+<p>The holding statement buys you time. The 24-hour update is where you spend that time wisely. By this point, you should have enough information from your security team to answer at minimum: what type of incident this was, what systems were affected, whether user data or funds were involved and to what extent, what has been done to contain it, and what the next steps are. You will not have all the answers. That is fine. Partial answers delivered honestly are better than silence or over-promise.</p>
+
+<p>Structure the 24-hour update this way. Open with the current status in one sentence. Then a brief factual description of what happened, to the extent you can confirm it. Then what you have done in response. Then what users should do if anything (change passwords, check wallets, watch for phishing). Then a clear timeline for the next update. Close with where to ask questions. If you operate a protocol with on-chain activity, include the relevant transaction hashes or contract addresses so technically sophisticated users and researchers can verify your account independently. Transparency with technical audiences is a credibility investment, not a liability.</p>
+
+<div class="fix-box"><strong class="fix-label">What to include in the 24-hour update</strong>Current status in one sentence. Confirmed facts about what happened. Steps taken to contain or remediate. User action required (if any). Timeline for next update. Contact point for press inquiries. On-chain evidence or technical detail if applicable to your product.</div>
+
+<h2>Who says what and through which channel</h2>
+
+<p>Channel discipline matters more than most founders expect. In a breach, you are managing multiple audiences simultaneously: your users or customers, the press, regulators, investors, and your own team. Each needs a different signal, at a different level of technical detail, through a different channel. Running everything through one channel, or letting every spokesperson freelance their own version, is how contradictions appear.</p>
+
+<h3>The channel map</h3>
+
+<ul>
+  <li><strong>Status page or official blog:</strong> the primary record. Everything official goes here first. This is what journalists screenshot, what regulators look at, and what your users bookmark. Do not let this lag behind social posts.</li>
+  <li><strong>X / Twitter:</strong> link to the status page update, brief summary, do not add new information. The goal is directing traffic to the canonical source, not expanding the story.</li>
+  <li><strong>Discord / Telegram / community channels:</strong> reassurance and logistics for your existing community. Address FUD directly, do not delete questions, do not go silent. Assign one person to this channel who is not also trying to write the press statement.</li>
+  <li><strong>Press:</strong> one spokesperson. Preferably the CEO or a designated communications lead with direct knowledge. No team members answering DMs from journalists independently. Centralise, then respond.</li>
+  <li><strong>Investors:</strong> direct, early, private. Investors who learn about a breach from a press article feel blindsided. A brief, honest one-pager to your cap table before the story breaks publicly is basic investor relations and protects those relationships for the rebuild phase.</li>
+</ul>
+
+<p>On the cybersecurity PR side specifically, the beat reporters who will cover your incident at outlets like Dark Reading, SC Media, Wired, CoinDesk, The Block, and Cointelegraph are sophisticated. They will notice if your statement is evasive, if technical details do not add up, or if your timeline is inconsistent with on-chain or log data they can access independently. Treat them as technically literate, because most of them are. A statement that tries to obscure the facts will be dissected in public. One that is blunt and honest, even when the facts are bad, usually earns a better story. For a broader view of what good <a href="/services/cybersecurity-pr">cybersecurity PR</a> looks like when the news is not a crisis, the service page covers the proactive side.</p>
+
+<h2>The spokesperson problem</h2>
+
+<p>One of the most common mistakes in breach comms is the founder going dark. It feels logical: legal says do not say anything you do not know for certain, the facts are still emerging, better to wait. But a founder who is invisible during a crisis sends a signal, and it is not the one they intend. It reads as not caring, or as having something to hide.</p>
+
+<p>The founder does not need to have all the answers to be present. They need to say: I take this seriously, I am personally overseeing the response, I will keep you informed. That is a statement any lawyer will approve, and it does meaningful work. A 60-second video from the CEO posted to the official channel, not scripted to sound like a PR product, is worth more than three beautifully crafted press releases at this stage. The technical detail can come from the security team. The accountability has to come from leadership.</p>
+
+<div class="fix-box"><strong class="fix-label">What the founder says on record</strong>"I am personally overseeing our response to this incident. Our team has taken immediate steps to [contain / investigate]. I will update this community with verified information as we have it. I am committed to being transparent with you about what happened and what we are doing about it." That is sufficient. Add specifics as you have them.</div>
+
+<h2>What the trust rebuild actually looks like</h2>
+
+<p>The acute crisis phase, the first 72 hours, is where most breach comms playbooks end. That is the wrong place to stop. Trust does not recover when the incident is contained. It recovers when people see consistent, honest behavior over time afterward. The rebuild arc typically takes three to six months and follows a predictable structure.</p>
+
+<p>First, the post-incident report. Within two to four weeks of the incident being fully contained, publish a detailed technical post-mortem. What happened, why it happened, what the attacker did and when, what your security posture was, what you have changed. Make it genuinely detailed, not a marketing document. The audiences that matter for long-term trust: security researchers, sophisticated users, journalists who covered the incident, and your existing customers. They have all seen enough vague incident reports to recognise one. A real post-mortem, with technical specificity and an honest accounting of what went wrong, is one of the highest-credibility actions a company can take after a breach.</p>
+
+<p>Second, the security upgrade announcement. Whatever you changed: new audit partner, new bug bounty program, new internal controls, insurance coverage, third-party security review. Announce these as they happen, not all at once in a single statement. A cadence of improvements signals that the response is real, not theatrical.</p>
+
+<p>Third, the earned media play. This is where proactive <a href="/playbook/cybersecurity-pr-2026">cybersecurity PR</a> pays off in a context that directly addresses the incident. A founder op-ed in Dark Reading or on CoinDesk Opinion about the lessons of the breach, what the industry should learn, what needs to change in security practice, positions your company as having turned an incident into expertise. That framing, done at the right moment, with the right level of candor, is the single most effective trust-rebuild move I have seen work. It converts the incident from a liability to a proof point of seriousness.</p>
+
+<p>For companies building in the threat research space and looking to use research as proof of capability, the approach in <a href="/playbook/cybersecurity-threat-research-pr-2026">cybersecurity threat research PR</a> applies directly here. Publishing original research after a breach tells the market you understand the threat landscape, not just that you survived one incident.</p>
+
+<h2>The crypto-specific layer</h2>
+
+<p>If your company operates a protocol, a DeFi product, a token, or any on-chain infrastructure, breach comms has an additional layer that does not apply to traditional software companies. On-chain data is public. Anyone can see the transactions. Security researchers often identify the breach before you do. The timeline of events is verifiable independently of anything you say. This is not a problem; it is actually an asset if you use it correctly.</p>
+
+<p>Anchor your public statements to on-chain evidence. When you say "the attack occurred at approximately 14:32 UTC," link to the transaction hash. When you say "approximately $X in assets were affected," reference the on-chain data that supports that figure. When you say "funds have been recovered" or "the vulnerability was in contract X," show your work. The crypto community has a high tolerance for technical failure and a very low tolerance for spin. A team that communicates with technical precision, citing verifiable on-chain data, recovers faster than one that communicates vaguely and is then fact-checked by Rekt News, ZachXBT, or similar researchers who will find the data anyway.</p>
+
+<p>The <a href="/playbook/crypto-crisis-communications-2026">crypto crisis communications</a> playbook goes deeper on the token-specific and community dynamics that apply when an incident affects a live protocol.</p>
+
+<div class="callout"><strong>Field rule</strong>In a crypto breach, the on-chain data is already public. Your job is not to control what people find: it is to be the first and most accurate source of what it means. Researchers who find the story before you tell it will frame it for you.</div>
+
+<h2>What good crisis PR costs and what it buys you</h2>
+
+<p>There is a real question about whether to engage a crisis PR firm, use existing PR support, or manage communications internally. The honest answer depends on scale and speed. For a company with no existing PR relationship, engaging a specialist firm in the first 24 hours of a major breach is nearly impossible: there is no onboarding time, no brief, and rates in a crisis context are not kind. The case for a <a href="/services/cybersecurity-pr">fractional cybersecurity PR operator</a> on retainer before an incident happens is precisely this: you have someone who already understands your product, your stakeholders, your technical stack, and your risk posture, who can be activated immediately rather than briefed from scratch while the incident is live.</p>
+
+<p>A fractional senior PR operator retainer runs $5,000 to $12,000 per month. A full agency runs $15,000 to $45,000. A crisis PR firm engaged on an emergency basis with no prior relationship typically charges $20,000 to $50,000 for the first week, and the quality suffers because they are learning your product while also trying to help you respond. The math on having representation before you need it is not complicated.</p>
+
+<p>What that retainer buys you in a crisis context: a pre-written holding statement template adapted to your specific product and stakeholders, a pre-agreed spokesperson chain of command, a pre-established relationship with the relevant beat reporters, a pre-built channel map, and someone who can be on a call within the hour when something goes wrong. These are not things you can build in real time. They have to exist before the incident.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Scenario</th>
+      <th>Response capability</th>
+      <th>Typical cost</th>
+      <th>Time to activate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Fractional operator on retainer</td>
+      <td>Immediate, knows your product</td>
+      <td>$5K&ndash;$12K/mo ongoing</td>
+      <td>Under 1 hour</td>
+    </tr>
+    <tr>
+      <td>Full agency on retainer</td>
+      <td>Immediate, knows your product</td>
+      <td>$15K&ndash;$45K/mo ongoing</td>
+      <td>Under 1 hour</td>
+    </tr>
+    <tr>
+      <td>Crisis firm, no prior relationship</td>
+      <td>Delayed, requires onboarding</td>
+      <td>$20K&ndash;$50K per incident week</td>
+      <td>12&ndash;48 hours</td>
+    </tr>
+    <tr>
+      <td>Internal comms only</td>
+      <td>Variable, no media relationships</td>
+      <td>Staff cost only</td>
+      <td>Depends on team</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The investment in preparation is the investment in recovery speed. Every hour of delay in the first 24 has a disproportionate cost to the narrative, which then has a disproportionate cost to user trust, which then has a disproportionate cost to protocol TVL, customer retention, or enterprise sales, depending on your product. The comms response is not separate from the business outcome: it is one of the primary levers on it.</p>
+
+
+    <div class="author-block">
+      <div class="author-avatar">SJ</div>
+      <div>
+        <div class="author-name">Shilika Jain</div>
+        <p class="author-bio">Fractional PR and crisis communications for Web3, AI, DePIN, and cybersecurity founders. 50+ protocols and companies placed across Forbes, CoinDesk, Cointelegraph, Decrypt, The Block, Dark Reading, and Blockworks. <a href="/about">View full profile &rarr;</a> &middot; <a href="/#contact">Book a 30-min teardown &rarr;</a></p>
+      </div>
+    </div>
+
+    <div class="faq-block">
+      <h2>Frequently asked questions</h2>
+
+      <div class="faq-q">What should a company say in the first hour after a cybersecurity breach?</div>
+      <div class="faq-a">Publish a holding statement within 60 minutes of the incident becoming public. It needs to say three things: you are aware of an incident, your team is investigating, and you will share more information at a specific place and time. Do not speculate on scope, assign blame, or claim nothing was affected until you have verified it. A clear holding statement prevents the silence from becoming the story.</div>
+
+      <div class="faq-q">What are the regulatory notification requirements after a data breach?</div>
+      <div class="faq-a">It depends on jurisdiction and company type, but the most common windows are 72 hours for GDPR (any entity processing EU or UK personal data), 4 business days for US public companies under SEC cybersecurity rules, and 30 to 90 days under various US state breach notification laws. These timelines run from the moment you become aware of the incident, not from when you have all the facts, so legal and communications teams need to be coordinating from hour one. See the <a href="/playbook/crypto-crisis-communications-2026">crypto crisis communications playbook</a> for protocol-specific regulatory context.</div>
+
+      <div class="faq-q">How long does it take to rebuild trust after a security breach?</div>
+      <div class="faq-a">Three to six months is the typical arc for companies that communicate well. The rebuild follows a sequence: a detailed public post-mortem within two to four weeks, a cadence of announced security improvements, and earned media positioning the company as having turned the incident into expertise. Companies that go quiet after the acute phase and assume trust will return naturally typically take much longer, if it returns at all.</div>
+
+      <div class="faq-q">Should the founder or CEO speak publicly during a breach?</div>
+      <div class="faq-a">Yes, and they do not need to have all the answers to do so. The founder going dark during a crisis signals that they do not care or have something to hide. A brief, direct statement, even a 60-second video saying "I am personally overseeing this response and will keep you updated," does more for trust than three polished press releases. Accountability has to come from leadership. Technical detail can come from the security team.</div>
+
+      <div class="faq-q">What does crisis PR cost for a cybersecurity incident?</div>
+      <div class="faq-a">A fractional senior PR operator on retainer costs $5,000 to $12,000 per month, and that retainer buys you immediate activation capability, pre-written templates, and an operator who already knows your product. A crisis PR firm engaged with no prior relationship typically costs $20,000 to $50,000 for the first week, with slower activation because they are onboarding in real time. The strongest argument for retaining <a href="/services/cybersecurity-pr">cybersecurity PR support</a> before an incident happens is that you cannot build those relationships and materials fast enough once something goes wrong.</div>
+    </div>
+
+    <p style="margin-top: 2.2em; padding: 22px 26px; background: var(--paper-2); border-left: 3px solid var(--lime); border-radius: 4px; font-size: 17px; line-height: 1.55;"><strong>Navigating a security incident or building breach-readiness?</strong> Start with <a href="/services/cybersecurity-pr" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">cybersecurity PR</a> for retainer and crisis support, or read the <a href="/playbook/crypto-crisis-communications-2026" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">crypto crisis communications</a> playbook for the protocol-specific layer. The full <a href="/playbook" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">playbook library</a> covers every stage of security PR from threat research through incident response.</p>
+
+  </article>
+</section>
+
+<section class="cta-strip">
+  <h3>Have an incident that needs <em>clear</em> comms?</h3>
+  <a href="https://calendly.com/shilikajain/30min/" target="_blank" rel="noopener" class="cta-strip-btn">
+    Book a 30-min teardown
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.4"/></svg>
+  </a>
+</section>
+
+<footer class="footer">
+  <div class="footer-row">
+    <span>© SHILIKA JAIN - 2019-2026</span>
+    <span>FIELD NOTES · v.1.0</span>
+    <span><a href="/blog">← ALL ARTICLES</a></span>
+  </div>
+</footer>

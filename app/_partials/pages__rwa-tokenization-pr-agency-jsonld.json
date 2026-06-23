@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/rwa-tokenization-pr-agency#service",
+      "name": "RWA & Tokenization PR Agency — Fractional Senior Operator",
+      "serviceType": "Web3 PR",
+      "url": "https://www.shilikajain.com/pages/rwa-tokenization-pr-agency",
+      "description": "Fractional RWA and tokenization PR for $5K–$12K/month. Coverage that institutions and crypto media both take seriously, backed by the MANTRA $11M Middle East RWA CoinDesk exclusive and 50+ protocol placements in Forbes, The Block, Decrypt and Blockworks globally.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global", "United States", "United Arab Emirates", "India", "Singapore", "South Korea", "Japan"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 5000,
+          "maxPrice": 12000,
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "RWA & Tokenization PR Agency", "item": "https://www.shilikajain.com/pages/rwa-tokenization-pr-agency" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/rwa-tokenization-pr-agency#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is an RWA tokenization PR agency?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is a PR partner who knows how to frame tokenized real-world assets for two different audiences at once: the institutional finance press (Bloomberg, Forbes, Reuters) that needs to see regulatory clarity and credible custodians, and the crypto media (CoinDesk, The Block, Decrypt) that needs to see protocol mechanics and on-chain proof. Shilika Jain runs RWA PR directly at $5K–$12K/month, with the MANTRA Chain CoinDesk exclusive as the benchmark."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who is RWA tokenization PR actually for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Protocols tokenizing real assets such as treasuries, credit, real estate, commodities or trade finance. Also relevant for the infrastructure layer: custody providers, compliance tooling and settlement rails serving RWA issuers. If your project is pitching to institutional capital and also needs crypto community credibility, this is the right service."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does RWA tokenization PR cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fractional senior operator retainer runs $5K–$12K/month, covering strategy, direct outreach and ongoing coverage management. A standalone launch sprint for a raise, listing or major partnership announcement runs $15K–$40K over four to eight weeks. Full-service traditional agencies for comparable senior access typically charge $15K–$45K/month because they staff multi-person account teams on every retainer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which outlets can you actually place RWA stories in?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For crypto-native coverage: CoinDesk, The Block, Decrypt, Blockworks, Cointelegraph, The Defiant. For institutional and mainstream crossover: Forbes, Bloomberg, Yahoo Finance, Benzinga. For regional audiences where RWA capital is concentrating: Khaleej Times and Arabian Business (UAE and MENA), Inc42 (India), e27 (SEA), BloomingBit and TokenPost (Korea). Coverage in each outlet requires a real news angle."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get started with RWA tokenization PR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short project brief through the intent form and you will get a reply within 24 hours covering a quick read on your current press footprint and a view on the strongest angle for your protocol. Alternatively, book a 30-minute call and we will plot it live. No deck needed, no introductory account-team call."
+          }
+        }
+      ]
+    }
+  ]
+}

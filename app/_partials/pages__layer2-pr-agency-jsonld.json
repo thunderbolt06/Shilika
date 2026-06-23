@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/layer2-pr-agency#service",
+      "name": "Layer-2 PR Agency — Fractional Senior Operator",
+      "serviceType": "Web3 PR",
+      "url": "https://www.shilikajain.com/pages/layer2-pr-agency",
+      "description": "Category-word PR for L2s, rollups and appchains. Shilika Jain frames your chain around the one term the market has not yet assigned, then secures simultaneous tier-1 placements at launch. Proof: RARI Chain mainnet, 11 tier-1 placements in 24 hours. Retainers from $5K to $12K per month; launch sprints from $15K to $40K.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global", "United States", "United Kingdom", "South Korea", "Japan", "India", "Singapore", "United Arab Emirates"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 5000,
+          "maxPrice": 12000,
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "Layer-2 PR Agency", "item": "https://www.shilikajain.com/pages/layer2-pr-agency" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/layer2-pr-agency#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does a Layer-2 PR agency actually do, and who is it for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Layer-2 PR practice positions your chain, rollup or appchain in the media and AI-search landscape before and after launch. The work covers category framing, journalist relationships, embargo coordination, KOL amplification and sustained coverage through ecosystem milestones. It is for L2 founders who have a technical differentiation but have not yet found the narrative that makes editors and fund partners pay attention."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does Layer-2 PR cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fractional senior operator runs L2 PR for $5K to $12K per month, which is the same senior scope as a traditional agency at $15K to $45K per month without the account-team markup. A single mainnet launch sprint, covering embargo preparation through post-launch coverage, runs $15K to $40K over four to eight weeks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which outlets cover L2 infrastructure, and can you get us there?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The primary beats are CoinDesk, The Block, Blockworks and Cointelegraph for infrastructure depth, with Decrypt and The Defiant covering developer and DeFi angles. Forbes and Bloomberg pick up L2 stories when there is a mainstream funding or adoption hook. Developer-community channels including Bankless, Unchained and Epicenter matter for ecosystem credibility. Coverage depends on a real news hook, not a press release blast."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the process and timeline for a mainnet launch?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The highest-leverage window is six to ten weeks before the public launch date. That period covers category positioning, journalist briefings under embargo, KOL mapping and the coordinated outreach plan. On launch day the embargo breaks simultaneously across all confirmed outlets. The RARI Chain launch used a 9-day embargo and produced 11 tier-1 placements in 24 hours."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get started?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short project brief through the intent form and you will get a reply within 24 hours with a quick read on your chain's current press footprint and category position, or book a 30-minute call and we will map it live. No deck required, no account-team intro meeting."
+          }
+        }
+      ]
+    }
+  ]
+}

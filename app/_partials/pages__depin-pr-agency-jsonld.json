@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/depin-pr-agency#service",
+      "name": "DePIN PR Agency — Fractional Senior Operator",
+      "serviceType": "Web3 PR",
+      "url": "https://www.shilikajain.com/pages/depin-pr-agency",
+      "description": "DePIN PR strategy that turns decentralized physical infrastructure into a named editorial beat. Shilika Jain ran the Fluence campaign that anchored DePIN as a tier-1 beat at CoinDesk, including a Tom Trowbridge Opinion piece. Fractional senior operator engagements from $5K–$12K/month; launch sprints $15K–$40K.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global", "United States", "United Kingdom", "South Korea", "Japan", "India", "Singapore", "United Arab Emirates"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 5000,
+          "maxPrice": 12000,
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "DePIN PR Agency", "item": "https://www.shilikajain.com/pages/depin-pr-agency" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/depin-pr-agency#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is DePIN PR and who is it for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DePIN PR is media strategy for projects building decentralized physical infrastructure: compute, storage, bandwidth, energy and sensor networks that use token incentives to coordinate real-world hardware. It is for founders who need journalists and analysts to understand a genuinely new category before they can write about it. The Fluence campaign is the reference case: a compute-layer protocol with no press template, which required making the DePIN frame legible to editors at CoinDesk before any product story could land."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does DePIN PR cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fractional senior operator engagement runs $5K–$12K per month, covering strategy, pitching, journalist relationships and KOL coordination. A scoped launch sprint, timed to a mainnet or network milestone, runs $15K–$40K over four to eight weeks. Full-service agencies running DePIN accounts typically charge $15K–$45K per month because the retainer funds a multi-person team. The fractional model gives you senior access at half the cost."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which outlets actually cover DePIN?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tier-1 crypto that has named DePIN as a beat: CoinDesk, The Block, Cointelegraph, Decrypt, Blockworks, The Defiant. Infrastructure and tech press where hardware angles warrant it: Wired, TechCrunch, VentureBeat. Regional outlets in Korea, Japan and India cover DePIN projects with node operator communities in those markets. Coverage depends on a real network milestone or category argument, not a product announcement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does the process look like and how long does it take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The first two weeks are a category audit and thesis build: what the network does, how it fits the DePIN frame, which journalists and KOLs map to the beat and what the first story is. The third and fourth weeks are embargo and outreach. Sustained beat coverage compounds from month two onward. The highest-leverage work starts six to eight weeks before a mainnet, raise or token generation event."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get started with DePIN PR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short project brief through the intent form and you will get a reply within 24 hours with a quick read on your press footprint and the DePIN angle most likely to land, or book a 30-minute call to plot it live. No deck, no account-team intro call."
+          }
+        }
+      ]
+    }
+  ]
+}

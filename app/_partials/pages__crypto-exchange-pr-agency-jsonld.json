@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/crypto-exchange-pr-agency#service",
+      "name": "Crypto Exchange PR Agency — Fractional Senior Operator",
+      "serviceType": "Token Launch / TGE PR",
+      "url": "https://www.shilikajain.com/pages/crypto-exchange-pr-agency",
+      "description": "Exchange PR covering listings, security credibility, regulatory positioning and regional market entry. Shilika Jain runs crypto exchange PR for $5K–$12K/month, with crisis communication protocols built in, placing founders in CoinDesk, Cointelegraph, The Block and Blockworks across six APAC markets.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global", "United States", "South Korea", "Japan", "India", "Singapore", "United Arab Emirates"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 5000,
+          "maxPrice": 12000,
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "Crypto Exchange PR Agency", "item": "https://www.shilikajain.com/pages/crypto-exchange-pr-agency" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/crypto-exchange-pr-agency#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does a crypto exchange PR agency actually do?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Exchange PR covers four distinct workstreams: listing announcements timed to maximise tier-1 pick-up, security and compliance positioning that builds institutional trust before it is needed, regional market entry comms across APAC and MENA, and crisis readiness so a breach or regulatory inquiry does not become a reputational spiral. Shilika Jain runs all four directly at $5K–$12K/month."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does crypto exchange PR cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Traditional agencies price exchange retainers at $15K–$45K/month because the fee supports a multi-person account team. A fractional senior operator delivers the same senior scope for $5K–$12K/month, and a targeted listing sprint runs $15K–$40K over four to eight weeks. KOL amplification adds cost depending on tier: nano creators run $200–$1.5K per placement, micro $500–$5K, mid-tier $10K–$30K and macro $25K–$100K or more."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which outlets can you secure for an exchange?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tier-1 crypto: CoinDesk, Cointelegraph, The Block, Decrypt, Blockworks, The Defiant. Mainstream finance where the angle warrants it: Forbes, Bloomberg, Yahoo Finance, Benzinga. Regional exchange beats: BloomingBit and TokenPost (Korea), CryptoTimes JP and CoinPost (Japan), ChainCatcher and Jinse (China), Inc42 (India), e27 (SEA), and Gulf News and Zawya for MENA. Placement depends on a real news hook: a listing with genuine liquidity, a compliance milestone, or a verifiable security audit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does the crisis communications process look like?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Crisis prep begins in the first two weeks: we map the three most likely incident types for your exchange, draft pre-approved response templates, set up a rapid-response communication chain, and agree on a spokesperson protocol. When an incident occurs, the goal is a factual first statement within two hours."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I start working with you on exchange PR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short brief through the intent form at shilikajain.com/pages/crypto-exchange-pr-agency. Include your exchange's current press footprint, the next public moment and your timeline. You will get a reply within 24 hours with a quick read on your narrative gaps and where the leverage is. Alternatively, book a 30-minute call directly at calendly.com/shilikajain/30min and we will map it live."
+          }
+        }
+      ]
+    }
+  ]
+}

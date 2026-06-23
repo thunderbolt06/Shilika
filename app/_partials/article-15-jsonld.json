@@ -1,0 +1,134 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/how-to-get-featured-in-decrypt-2026#article",
+      "headline": "How to Get Featured in Decrypt in 2026: Pitch Guide",
+      "alternativeHeadline": "What Decrypt's editors filter for, the explainer-friendly angle that lands, and a pitch template from a senior Web3 operator",
+      "description": "Decrypt is not CoinDesk. This 2026 pitch guide covers the newsroom map, editorial filter, beat breakdown, a 150-word pitch template, two worked examples, and the relationship-building approach that produces consistent Tier-1 placements for Web3, AI and DePIN founders.",
+      "url": "https://www.shilikajain.com/playbook/how-to-get-featured-in-decrypt-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/how-to-get-featured-in-decrypt-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2050,
+      "timeRequired": "PT9M",
+      "articleSection": "Tier-1",
+      "keywords": [
+        "how to get featured in crypto media",
+        "how to pitch Decrypt",
+        "Decrypt crypto media pitch guide",
+        "Web3 PR pitch template",
+        "crypto media relations 2026",
+        "get featured in Decrypt 2026",
+        "Decrypt editorial strategy",
+        "Web3 PR campaigns",
+        "DePIN media coverage",
+        "AI crypto founder PR"
+      ],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "Decrypt" },
+        { "@type": "Thing", "name": "Crypto media pitching" },
+        { "@type": "Thing", "name": "Web3 public relations" },
+        { "@type": "Thing", "name": "Tier-1 media placement" },
+        { "@type": "Thing", "name": "DePIN media coverage" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "Decrypt" },
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "Cointelegraph" },
+        { "@type": "Organization", "name": "The Block" },
+        { "@type": "Organization", "name": "Blockworks" },
+        { "@type": "Organization", "name": "Forbes" },
+        { "@type": "Organization", "name": "MANTRA Chain" },
+        { "@type": "Organization", "name": "Gaia AI" },
+        { "@type": "Organization", "name": "Web3Auth" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "How to Get Featured in Decrypt in 2026: Pitch Guide", "item": "https://www.shilikajain.com/playbook/how-to-get-featured-in-decrypt-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/how-to-get-featured-in-decrypt-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I get featured in Decrypt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pitch a story, not an announcement. Decrypt's editors are looking for a human angle, cultural moment, or plain-English explainer that a general crypto-aware reader can follow without prior knowledge of your protocol. Find the specific reporter covering your beat, write a pitch under 150 words with the news peg in the first sentence, and pitch on Wednesday or Thursday morning at least two to three weeks before your desired publish date."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What makes a good Decrypt pitch?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A good Decrypt pitch opens with one sentence that contains the hard news fact, follows with one or two sentences explaining why it matters to Decrypt's readers specifically, and closes with what you are offering, such as an exclusive, an interview, or an embargoed first look. The subject line should flag the beat in brackets and describe the story in eight to twelve words. If the story requires two paragraphs of context before the news becomes legible, simplify the angle before you send."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is Decrypt different from CoinDesk and Cointelegraph?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Decrypt is an explainer-first outlet for a crypto-aware but not maximalist audience. CoinDesk leans toward institutional and market-data coverage. Cointelegraph runs harder on price action and volume. Decrypt rewards stories where the significance is legible to a curious general reader, which means human angles, cultural moments, and plain-English mechanism explainers outperform pure protocol announcements."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I offer Decrypt an exclusive?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For a genuinely significant story, an exclusive can produce a longer, more prominent piece and a stronger editorial relationship. For most launch campaigns, an embargo is the better approach: you pitch multiple Tier-1 outlets under embargo, they all publish simultaneously on launch day, and you avoid gambling your coverage on a single outlet's editorial calendar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to get a response from Decrypt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If the story fits the editorial line-up, a response typically comes within 48 to 72 hours for an embargoed pitch sent two to three weeks before the event. If you hear nothing after seven business days, send one short follow-up in the same email thread. If there is still no response, the story either did not fit the current editorial plan or the angle needs reworking before you try again."
+          }
+        }
+      ]
+    }
+  ]
+}

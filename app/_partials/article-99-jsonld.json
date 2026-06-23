@@ -1,0 +1,133 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/share-of-voice-crypto-2026#article",
+      "headline": "Share of Voice in Crypto: How to Track It in 2026",
+      "alternativeHeadline": "How to define your competitor set, measure share of voice across media, social and search, and use the data to steer a crypto comms program",
+      "description": "Share of voice is the metric that survives a bear market. This 2026 guide covers how to define a competitor set, measure earned media SOV with weighted outlet tiers, track social and search SOV without a six-figure platform, and translate SOV gaps into concrete comms actions for Web3 and crypto brands.",
+      "url": "https://www.shilikajain.com/playbook/share-of-voice-crypto-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/share-of-voice-crypto-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2050,
+      "timeRequired": "PT8M",
+      "articleSection": "Strategy",
+      "keywords": [
+        "top crypto PR 2025",
+        "share of voice crypto",
+        "crypto PR strategy 2026",
+        "how to measure PR in crypto",
+        "Web3 PR metrics",
+        "crypto media SOV",
+        "share of voice measurement",
+        "crypto comms strategy",
+        "Web3 narrative strategy",
+        "PR ROI crypto"
+      ],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "Share of voice" },
+        { "@type": "Thing", "name": "Crypto PR" },
+        { "@type": "Thing", "name": "Media measurement" },
+        { "@type": "Thing", "name": "Competitive analysis" },
+        { "@type": "Thing", "name": "Narrative strategy" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "Cointelegraph" },
+        { "@type": "Organization", "name": "The Block" },
+        { "@type": "Organization", "name": "Decrypt" },
+        { "@type": "Organization", "name": "Blockworks" },
+        { "@type": "Organization", "name": "Forbes" },
+        { "@type": "Organization", "name": "Fluence Network" },
+        { "@type": "Organization", "name": "MANTRA Chain" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "Share of Voice in Crypto: How to Track It in 2026", "item": "https://www.shilikajain.com/playbook/share-of-voice-crypto-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/share-of-voice-crypto-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is share of voice in crypto PR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Share of voice measures the percentage of relevant media coverage, social conversation, or search visibility that your brand holds relative to a defined competitor set. A brand with 30 percent or more of the conversation in its category is typically setting the narrative rather than reacting to it. In crypto, SOV is tracked across earned media (press mentions), social channels (X, Reddit, Telegram), and organic search, and increasingly across AI engine citation rates as well. The metric only means something relative to the competitor set you define, which is why scoping that set correctly is step one."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I track share of voice without an expensive platform?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Set up Google Alerts for every brand in your competitor set and route results into a weekly spreadsheet. Weight mentions by outlet tier: tier-1 outlets like CoinDesk, Cointelegraph, The Block, and Decrypt at 3x; tier-2 at 1.5x; aggregators at 1x. For social, a tool like Brand24 at its entry tier covers X and Reddit at around $99 a month. For search, Google Search Console plus Ahrefs or Semrush gives you impression share by keyword. The full setup runs $100 to $200 a month and delivers 80 percent of what enterprise platforms charge several thousand a month for."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many competitors should be in my SOV set?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Five to eight is the right range. Include two to three direct competitors doing essentially the same thing, two to three category neighbors that journalists and buyers mention alongside you, and one or two aspirational leaders whose coverage sets the ceiling for what good looks like in your vertical. Validate the set by searching your top category keywords on CoinDesk, Cointelegraph, and Decrypt and noting which brand names appear most often in results. Revisit the set quarterly because the competitive landscape in crypto shifts faster than in most industries."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does a share of voice gap actually tell me to do differently?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends on which channel the gap is in. An earned media SOV gap says you need more newsworthy moments or better pitching mechanics toward tier-1 desks. A search SOV gap points to content depth and backlink authority problems. A social SOV gap often signals that competitors are running structured KOL programs you are not matching, with KOL tiers ranging from nano at $200 to $1,500 per post up to macro at $25,000 to $100,000 and above. An AI-engine citation gap says you need more bylined, expert, cited content that answer engines can attribute to your brand."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How often should I measure share of voice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Weekly for earned media and social, monthly for search SOV, and quarterly for a full cross-channel audit that resets the competitor set and reweights the outlet tiers. Weekly cadence gives you enough data to adjust a live campaign: if a competitor picks up three tier-1 features in a week because of a raise announcement, you need to see that in real time, not at the end of the quarter. Monthly search SOV is sufficient because organic rankings move slowly enough that weekly measurement generates noise rather than signal."
+          }
+        }
+      ]
+    }
+  ]
+}

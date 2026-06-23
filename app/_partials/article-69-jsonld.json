@@ -1,0 +1,138 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/how-to-submit-op-ed-techcrunch-2026#article",
+      "headline": "How to Submit an Op-Ed to TechCrunch (and Where Else) in 2026",
+      "alternativeHeadline": "The real opinion-desk map for tech and Web3 founders, and the submission approach that actually works",
+      "description": "TechCrunch rarely runs outside op-eds, so where do founder essays actually land? This 2026 playbook maps 12-20 tier-1 opinion desks across crypto, mainstream tech, AI and regional outlets, explains what each editor screens for, covers the ghostwriting question, and gives the pitch anatomy that separates the 5% that land from the rest.",
+      "url": "https://www.shilikajain.com/playbook/how-to-submit-op-ed-techcrunch-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/how-to-submit-op-ed-techcrunch-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2858,
+      "timeRequired": "PT8M",
+      "articleSection": "Content Writing",
+      "keywords": [
+        "how to get op-ed published in TechCrunch",
+        "founder op-ed placement 2026",
+        "op-ed submission tech outlets",
+        "ghostwriting founder essay",
+        "CoinDesk Opinion submission",
+        "thought leadership Web3 founders",
+        "op-ed pitch template",
+        "founder essay placement map",
+        "AI startup op-ed strategy",
+        "content writing for founders"
+      ],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "Op-ed submission" },
+        { "@type": "Thing", "name": "Opinion journalism" },
+        { "@type": "Thing", "name": "Ghostwriting" },
+        { "@type": "Thing", "name": "Thought leadership" },
+        { "@type": "Thing", "name": "Founder personal brand" },
+        { "@type": "Thing", "name": "Generative engine optimization" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "TechCrunch" },
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "Cointelegraph" },
+        { "@type": "Organization", "name": "Forbes" },
+        { "@type": "Organization", "name": "Decrypt" },
+        { "@type": "Organization", "name": "The Block" },
+        { "@type": "Organization", "name": "Blockworks" },
+        { "@type": "Organization", "name": "Fast Company" },
+        { "@type": "Organization", "name": "VentureBeat" },
+        { "@type": "Organization", "name": "Dark Reading" },
+        { "@type": "Organization", "name": "MIT Technology Review" },
+        { "@type": "Organization", "name": "Inc42" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "How to Submit an Op-Ed to TechCrunch (and Where Else) in 2026", "item": "https://www.shilikajain.com/playbook/how-to-submit-op-ed-techcrunch-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/how-to-submit-op-ed-techcrunch-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Does TechCrunch accept op-ed submissions from founders?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not through an open submission desk. TechCrunch runs limited opinion and TC+ content, but placement almost always requires an existing relationship with an editor or a referral from a known source. Cold pitches to the general inbox rarely succeed. The stronger play is building a credible op-ed record at targeted outlets first, which makes the TC conversation easier when you eventually have a relationship to have it in."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which outlets are the most realistic targets for a first founder op-ed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For Web3 founders, CoinDesk Opinion, Cointelegraph Expert Take, and Decrypt Opinion are the most accessible credible desks. For broader tech and AI founders, Forbes Technology Council (application-based), Fast Company Opinion and VentureBeat are realistic first targets. All three have genuine submission processes, want outside voices, and have meaningful audiences. Placing there first also builds the entity signal that makes tier-1 doors like Wired or TechCrunch more realistic."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the single most common reason op-ed pitches get rejected?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The piece is an announcement dressed as an argument. Editors can identify a disguised press release in one paragraph: the argument resolves to the product solving a problem, and the only evidence is the company's own claims. An op-ed needs a genuinely contestable thesis, one the founder will defend even when someone disagrees publicly. If you cannot state the argument in one sentence that someone could reasonably push back on, it is not ready to pitch."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is ghostwriting op-eds ethical and do editors know?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ghostwriting bylined founder essays is standard editorial practice. Most credible desks understand and accept it, provided the founder has reviewed, approved and can publicly defend the piece. A small number of outlets explicitly prohibit ghostwritten submissions and require the founder to confirm authorship, in which case ghostwriters should not be used for those placements. The key requirement at any outlet is that the argument and position are genuinely the founder's: the ghostwriter extracts and shapes the thinking, not invents it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to get an op-ed placed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At crypto-native desks, typically two to four weeks from pitch to publication if the piece is strong and the timing is right. At mainstream outlets like Forbes or Fast Company, four to eight weeks is more realistic, and relationship-driven placements can take longer if the editor has a full queue. The practical implication: if you are sequencing an op-ed ahead of a launch, start the pitch process six to eight weeks before the event date, not two."
+          }
+        }
+      ]
+    }
+  ]
+}

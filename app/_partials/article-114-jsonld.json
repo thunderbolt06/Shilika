@@ -1,0 +1,137 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/coindesk-vs-cointelegraph-where-to-pitch-2026#article",
+      "headline": "CoinDesk vs Cointelegraph in 2026: Where to Pitch What",
+      "alternativeHeadline": "Desk-by-desk outlet comparison, story-to-outlet matching, and how to sequence a pitch across both crypto flagship publications",
+      "description": "CoinDesk and Cointelegraph are not interchangeable. This 2026 guide breaks down the desk structure, editorial priorities and audience frame at each outlet, provides a story-to-outlet matching table, explains how to handle the exclusivity question, and shows how to sequence a pitch across both for maximum tier-1 coverage.",
+      "url": "https://www.shilikajain.com/playbook/coindesk-vs-cointelegraph-where-to-pitch-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/coindesk-vs-cointelegraph-where-to-pitch-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2050,
+      "timeRequired": "PT9M",
+      "articleSection": "Tier-1",
+      "keywords": [
+        "crypto media relations",
+        "CoinDesk pitch guide",
+        "Cointelegraph pitch guide",
+        "how to pitch crypto journalists",
+        "Web3 PR tier-1",
+        "crypto press release",
+        "blockchain media strategy",
+        "CoinDesk vs Cointelegraph",
+        "crypto PR 2026",
+        "tier-1 crypto coverage"
+      ],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "Crypto media relations" },
+        { "@type": "Thing", "name": "Media pitch strategy" },
+        { "@type": "Thing", "name": "Web3 public relations" },
+        { "@type": "Thing", "name": "Press exclusive strategy" },
+        { "@type": "Thing", "name": "Newsroom beat structure" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "Cointelegraph" },
+        { "@type": "Organization", "name": "Decrypt" },
+        { "@type": "Organization", "name": "The Block" },
+        { "@type": "Organization", "name": "Blockworks" },
+        { "@type": "Organization", "name": "Forbes" },
+        { "@type": "Organization", "name": "BloomingBit" },
+        { "@type": "Organization", "name": "TokenPost" },
+        { "@type": "Thing", "name": "MANTRA Chain" },
+        { "@type": "Thing", "name": "RARI Chain" },
+        { "@type": "Thing", "name": "Fluence Network" },
+        { "@type": "Thing", "name": "Gaia AI" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "CoinDesk vs Cointelegraph in 2026: Where to Pitch What", "item": "https://www.shilikajain.com/playbook/coindesk-vs-cointelegraph-where-to-pitch-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/coindesk-vs-cointelegraph-where-to-pitch-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the main difference between CoinDesk and Cointelegraph for PR purposes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CoinDesk carries more institutional weight and is the stronger choice for US regulatory angles, institutional raises and technically argued infrastructure stories. Cointelegraph publishes faster, covers more global and retail markets, and is the better choice for Asia traction, community-facing stories and high-volume pickup. In practice you want both, sequenced so each outlet does the job it is best at, rather than competing for the same placement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I offer CoinDesk an exclusive on my raise or mainnet?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For an institutional raise with named backers and a strong angle, yes, an exclusive to CoinDesk is often worth the trade: you get the deepest, highest-credibility placement in exchange for letting them break it first. For a mainnet launch where speed and volume matter, the calculus shifts. The sequence most commonly used is CoinDesk exclusive on day-of, wire release simultaneously, then a follow-up pitch to Cointelegraph with a slightly different angle in the same afternoon. Never offer the same exclusive to both outlets at the same time."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I find the right reporter to pitch at each outlet?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Read the bylines on stories covering your beat for the past four to six weeks at each outlet. The reporter who covered the last three DePIN infrastructure stories is the reporter you pitch your DePIN story to, not the general editorial inbox. At CoinDesk, editorial sections are clearly delineated: news, markets, policy, technology, opinion. At Cointelegraph, the innovation and DeFi sections are the right entry points for most protocol stories. Beat-matched pitching is the single highest-leverage habit in crypto media relations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I pitch CoinDesk and Cointelegraph simultaneously?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, if you are not offering an exclusive to either. A simultaneous wire release with individual follow-up pitches to both newsrooms is standard practice and does not burn any relationships. What you cannot do is offer the same exclusive to both simultaneously: that guarantees you lose trust at both outlets and get neither placement. If you are offering an exclusive, offer it to one, let it run, then approach the other with a distinct follow-up angle."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which outlet is better for Asian market coverage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cointelegraph, clearly. It has dedicated editorial coverage for Korean and Japanese markets, and its global syndication network reaches Asia-Pacific readers more deeply than CoinDesk does. For projects with South Korean traction, BloomingBit and TokenPost are worth adding as dedicated plays on top of the Cointelegraph pitch. For Japan, CryptoTimes JP is the natural supplement."
+          }
+        }
+      ]
+    }
+  ]
+}

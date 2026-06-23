@@ -1,0 +1,136 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/what-is-an-ai-publicist-2026#article",
+      "headline": "What an AI Publicist Actually Does in 2026",
+      "alternativeHeadline": "The specialist vs generalist test, real deliverables, and what a fractional AI publicist engagement looks like month by month",
+      "description": "An AI publicist is a PR operator with active beat relationships at AI-focused outlets who builds earned media strategy, secures founder bylines and podcast placements, and shapes how AI companies are framed in the press. This 2026 breakdown covers the core deliverables, the five-question specialist test, fractional pricing, and why GEO matters for AI PR.",
+      "url": "https://www.shilikajain.com/playbook/what-is-an-ai-publicist-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/what-is-an-ai-publicist-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2050,
+      "timeRequired": "PT8M",
+      "articleSection": "AI",
+      "keywords": [
+        "crypto publicist",
+        "AI publicist",
+        "AI startup PR",
+        "fractional PR for AI companies",
+        "AI PR specialist",
+        "AI media relations",
+        "tech PR vs AI PR",
+        "founder PR 2026",
+        "AI publicist deliverables",
+        "generative engine optimization for AI"
+      ],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "AI publicist" },
+        { "@type": "Thing", "name": "Fractional PR" },
+        { "@type": "Thing", "name": "Artificial intelligence PR" },
+        { "@type": "Thing", "name": "Earned media strategy" },
+        { "@type": "Thing", "name": "Narrative architecture" },
+        { "@type": "Thing", "name": "Generative engine optimization" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "TechCrunch" },
+        { "@type": "Organization", "name": "Forbes" },
+        { "@type": "Organization", "name": "The Information" },
+        { "@type": "Organization", "name": "MIT Technology Review" },
+        { "@type": "Organization", "name": "VentureBeat" },
+        { "@type": "Organization", "name": "Wired" },
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "Decrypt" },
+        { "@type": "Organization", "name": "Gaia AI" },
+        { "@type": "Organization", "name": "MANTRA Chain" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "What an AI Publicist Actually Does in 2026", "item": "https://www.shilikajain.com/playbook/what-is-an-ai-publicist-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/what-is-an-ai-publicist-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does an AI publicist actually do?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An AI publicist builds and executes the earned-media strategy for AI companies: crafting the narrative, securing placements in relevant outlets such as TechCrunch, Forbes, MIT Technology Review and VentureBeat, ghostwriting founder bylines, booking podcast appearances and running analyst briefings. The role requires deep knowledge of the AI media landscape, active relationships with the reporters who cover it, and the ability to translate technical product decisions into stories editors want to run. It is a specialised media function, not a generalist PR role with AI vocabulary added on."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is an AI publicist different from a tech PR generalist?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The difference is specificity of beat knowledge and relationship capital. An AI publicist knows which reporters cover which AI sub-categories, what angle each one will respond to, and what has already been covered so the pitch lands in white space rather than on a saturated topic. A generalist tech PR operator can handle a SaaS product launch but will miss the nuance between an inference-time compute story and a foundation-model story, and will pitch the wrong angle to the wrong reporter. That costs relationships, not just coverage. Ask any candidate to name the three reporters most relevant to your specific company and describe their recent work: the answer tells you which one you are talking to."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does an AI publicist cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A full AI-specialist PR agency runs $15,000 to $45,000 per month for a team. A fractional senior operator, who is the person doing the work rather than managing a team doing it, runs $5,000 to $12,000 per month. For most AI companies at seed to Series B, the fractional model delivers the highest-leverage part of the engagement, namely the senior judgment and the relationships, without the overhead of a full agency structure. The fractional PR model is worth understanding before you sign either structure."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I expect in the first 90 days of working with an AI publicist?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Month one is narrative and infrastructure: a long-form session to build the core story, a media audit of the existing landscape, and a press kit the founder will not be embarrassed by. Month two is earned media and bylines: personalised pitches to 3-5 reporters, a submitted founder byline and the start of podcast outreach. Month three is amplification: making each placement compound into the next, building the pattern that journalists and AI search engines recognise as expertise. Any operator who promises tier-1 coverage in the first 30 days without existing relationships at those outlets is telling you what you want to hear."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I know if my current PR firm is actually an AI specialist?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ask them to name the three reporters who most cover AI companies like yours and describe what each one ran in the last 60 days. Ask for one specific placement they made for an AI company in the last 12 months: the outlet, the angle and the measurable result. If they answer the first question vaguely and the second with a press release pickup, you have a generalist. The crypto publicist vs agency comparison framework applies directly to AI companies and is a useful starting reference for the full evaluation."
+          }
+        }
+      ]
+    }
+  ]
+}

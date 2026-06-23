@@ -1,0 +1,375 @@
+<style>
+:root {
+  --ink: oklch(0.16 0.01 80);
+  --ink-2: oklch(0.22 0.01 80);
+  --paper: oklch(0.96 0.01 90);
+  --paper-2: oklch(0.92 0.015 85);
+  --cream: oklch(0.93 0.04 85);
+  --lime: oklch(0.92 0.18 115);
+  --muted: oklch(0.55 0.01 80);
+  --line: oklch(0.85 0.01 80);
+  --font-display: 'Instrument Serif', 'Times New Roman', serif;
+  --font-body: 'Inter Tight', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'Geist Mono', 'JetBrains Mono', monospace;
+  --pad: clamp(20px, 4vw, 64px);
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { font-family: var(--font-body); background: var(--paper); color: var(--ink); -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+.mono { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; }
+
+.nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; display: flex; justify-content: space-between; align-items: center; padding: 18px var(--pad); background: rgba(247, 246, 241, 0.85); backdrop-filter: blur(16px); border-bottom: 1px solid var(--line); }
+.nav-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); }
+.nav-logo-text { font-family: var(--font-display); font-size: 22px; font-style: italic; letter-spacing: -0.01em; }
+.nav-logo-dot { color: var(--lime); margin: 0 2px; }
+.nav-links { display: flex; gap: 28px; list-style: none; font-family: var(--font-mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; }
+.nav-links a { position: relative; padding: 4px 0; color: var(--ink); text-decoration: none; }
+.nav-links a::after { content: ''; position: absolute; left: 0; bottom: 0; width: 0; height: 1px; background: var(--ink); transition: width 0.4s var(--ease-out-quart); }
+.nav-links a:hover::after, .nav-links a.is-current::after { width: 100%; }
+.nav-cta { display: inline-flex; align-items: center; gap: 8px; padding: 10px 18px; background: var(--ink); color: var(--paper); font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; border-radius: 100px; transition: background 0.3s, color 0.3s; }
+.nav-cta:hover { background: var(--lime); color: var(--ink); }
+@media (max-width: 800px) { .nav-links { display: none; } }
+
+.scroll-progress { position: fixed; top: 0; left: 0; right: 0; height: 2px; z-index: 200; background: transparent; }
+.scroll-progress-bar { height: 100%; background: var(--lime); width: 0%; transition: width 0.1s linear; }
+
+.article-header { padding: 140px var(--pad) 60px; border-bottom: 1px solid var(--line); background: var(--paper); position: relative; }
+.crumb { max-width: 980px; margin: 0 auto 36px; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+.crumb a { color: var(--muted); text-decoration: none; transition: color 0.3s; }
+.crumb a:hover { color: var(--ink); }
+.crumb .sep { margin: 0 12px; }
+.article-meta-row { max-width: 980px; margin: 0 auto 28px; display: flex; gap: 18px; align-items: center; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); flex-wrap: wrap; }
+.article-cat { background: var(--ink); color: var(--paper); padding: 5px 12px; border-radius: 3px; font-weight: 500; }
+.article-headline { max-width: 980px; margin: 0 auto; font-family: var(--font-display); font-size: clamp(40px, 6.4vw, 88px); line-height: 0.97; letter-spacing: -0.018em; font-weight: 400; text-wrap: balance; }
+.article-headline em { font-style: italic; background: linear-gradient(120deg, transparent 30%, var(--lime) 30%, var(--lime) 90%, transparent 90%); background-size: 200% 100%; background-position: 100% 0; padding: 0 0.05em; animation: hl-sweep 1.6s 0.4s var(--ease-out-quart) forwards; }
+@keyframes hl-sweep { to { background-position: 0 0; } }
+.article-sub { max-width: 760px; margin: 32px auto 0; font-family: var(--font-display); font-size: clamp(20px, 1.6vw, 24px); line-height: 1.4; font-style: italic; color: var(--muted); }
+
+.article-hero-visual { max-width: 1200px; margin: 60px auto 0; aspect-ratio: 16 / 7; position: relative; overflow: hidden; border-radius: 4px; background: var(--ink); color: var(--paper); }
+.visual-vs .v-num { position: absolute; left: 32px; top: 22px; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.15em; color: var(--lime); z-index: 2; }
+.visual-vs .v-split { position: absolute; inset: 30px 32px 32px; display: grid; grid-template-columns: 1fr auto 1fr; gap: 18px; align-items: stretch; }
+.visual-vs .v-col { border: 1px solid rgba(255,255,255,0.14); border-radius: 6px; padding: 22px; display: flex; flex-direction: column; justify-content: space-between; }
+.visual-vs .v-col.is-key { background: var(--lime); border-color: var(--lime); }
+.visual-vs .v-col .v-k { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(255,255,255,0.45); }
+.visual-vs .v-col.is-key .v-k { color: rgba(40,37,32,0.6); }
+.visual-vs .v-col .v-h { font-family: var(--font-display); font-style: italic; font-size: clamp(22px, 2.6vw, 34px); line-height: 1.0; color: var(--paper); }
+.visual-vs .v-col.is-key .v-h { color: var(--ink); }
+.visual-vs .v-col .v-d { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.06em; line-height: 1.4; color: rgba(255,255,255,0.55); text-transform: uppercase; }
+.visual-vs .v-col.is-key .v-d { color: rgba(40,37,32,0.7); }
+.visual-vs .v-mid { display: flex; align-items: center; justify-content: center; font-family: var(--font-display); font-style: italic; font-size: 28px; color: var(--lime); }
+@media (max-width: 720px) { .visual-vs .v-split { grid-template-columns: 1fr; } .visual-vs .v-mid { display: none; } }
+
+.article-body-wrap { padding: 80px var(--pad) 100px; background: var(--paper); }
+.article-body { max-width: 720px; margin: 0 auto; font-size: 19px; line-height: 1.65; color: oklch(0.25 0.01 80); }
+.article-body p { margin-bottom: 1.4em; }
+.article-body p.lede { font-family: var(--font-display); font-size: clamp(26px, 2.4vw, 34px); line-height: 1.25; font-style: italic; color: var(--ink); margin-bottom: 1.6em; }
+.article-body h2 { font-family: var(--font-display); font-size: clamp(28px, 3vw, 40px); font-weight: 400; letter-spacing: -0.01em; color: var(--ink); margin: 2em 0 0.8em; line-height: 1.1; text-wrap: balance; }
+.article-body h2::before { content: '§ '; color: var(--lime); font-style: italic; }
+.article-body h3 { font-family: var(--font-display); font-size: clamp(22px, 2.2vw, 28px); font-weight: 400; color: var(--ink); margin: 1.6em 0 0.5em; line-height: 1.2; }
+.article-body ul, .article-body ol { margin: 0 0 1.6em 1.4em; padding-left: 0; }
+.article-body li { margin-bottom: 0.6em; padding-left: 0.4em; }
+.article-body li::marker { color: var(--lime); }
+.article-body strong { color: var(--ink); font-weight: 600; }
+.article-body em { font-style: italic; }
+.article-body a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-decoration-thickness: 2px; text-underline-offset: 3px; }
+.article-body a:hover { color: oklch(0.45 0.18 115); }
+.article-body table { width: 100%; border-collapse: collapse; margin: 1.6em 0; font-size: 15px; font-family: var(--font-mono); letter-spacing: 0.02em; }
+.article-body table th { text-align: left; padding: 10px 12px; background: var(--ink); color: var(--paper); font-weight: 500; text-transform: uppercase; font-size: 11px; letter-spacing: 0.1em; }
+.article-body table td { padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.article-body table tr:nth-child(even) td { background: var(--paper-2); }
+.callout { background: var(--ink); color: var(--paper); padding: 28px 32px; border-radius: 8px; margin: 2em 0; font-family: var(--font-display); font-size: clamp(20px, 1.8vw, 24px); font-style: italic; line-height: 1.35; }
+.callout strong { color: var(--lime); font-weight: 400; font-style: normal; font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; display: block; margin-bottom: 10px; }
+.fix-box { background: var(--paper-2); border-left: 3px solid var(--lime); padding: 20px 24px; border-radius: 4px; margin: 1.2em 0 1.8em; font-size: 17px; line-height: 1.55; }
+.fix-box strong.fix-label { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); display: block; margin-bottom: 8px; }
+.faq-block { max-width: 720px; margin: 60px auto 0; padding: 32px; background: var(--paper-2); border-radius: 8px; }
+.faq-block h2 { font-family: var(--font-display); font-size: clamp(28px, 3vw, 36px); margin-bottom: 24px; font-weight: 400; }
+.faq-q { font-family: var(--font-display); font-style: italic; font-size: 20px; color: var(--ink); margin: 22px 0 8px; }
+.faq-a { font-size: 16px; color: oklch(0.30 0.01 80); line-height: 1.6; }
+.faq-a a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px; }
+
+.author-block { max-width: 720px; margin: 80px auto 0; padding: 32px; background: var(--paper-2); border-radius: 8px; display: grid; grid-template-columns: 64px 1fr; gap: 20px; align-items: center; }
+.author-avatar { width: 64px; height: 64px; border-radius: 50%; background: var(--ink); color: var(--lime); display: flex; align-items: center; justify-content: center; font-family: var(--font-display); font-size: 24px; font-style: italic; font-weight: 400; }
+.author-name { font-family: var(--font-display); font-size: 24px; font-style: italic; line-height: 1; margin-bottom: 6px; }
+.author-bio { font-size: 14px; color: var(--muted); line-height: 1.4; }
+.author-bio a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px; }
+
+.cta-strip { background: var(--ink); color: var(--paper); padding: 100px var(--pad); text-align: center; position: relative; overflow: hidden; }
+.cta-strip h3 { font-family: var(--font-display); font-size: clamp(40px, 6vw, 80px); font-weight: 400; line-height: 1; letter-spacing: -0.015em; max-width: 18ch; margin: 0 auto 32px; }
+.cta-strip h3 em { font-style: italic; color: var(--lime); }
+.cta-strip-btn { display: inline-flex; align-items: center; gap: 10px; background: var(--lime); color: var(--ink); padding: 18px 32px; font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; text-decoration: none; border-radius: 100px; transition: transform 0.4s var(--ease-out-quart); }
+.cta-strip-btn:hover { transform: translateY(-2px); }
+
+.footer { background: var(--ink); color: var(--paper); padding: 40px var(--pad) 24px; border-top: 1px solid rgba(255,255,255,0.08); }
+.footer-row { max-width: 1440px; margin: 0 auto; display: flex; justify-content: space-between; font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.5); flex-wrap: wrap; gap: 12px; }
+.footer-row a { color: inherit; text-decoration: none; }
+
+.article-hero-visual.hero-brief { display:flex; }
+.hero-brief .v-num { position:absolute; left:32px; top:22px; font-family:var(--font-mono); font-size:11px; letter-spacing:0.15em; color:var(--lime); z-index:2; }
+.hero-brief-grid { position:absolute; inset:30px 32px 32px; display:grid; grid-template-columns:1.3fr 1fr; gap:24px; align-items:stretch; }
+.hb-lede { font-family:var(--font-display); font-style:italic; font-size:clamp(24px,3vw,40px); line-height:1.08; color:var(--paper); align-self:center; }
+.hb-stats { display:grid; grid-template-rows:repeat(3,1fr); gap:12px; }
+.hb-stats > div { border:1px solid rgba(255,255,255,0.14); border-radius:6px; padding:12px 16px; display:flex; flex-direction:column; justify-content:center; }
+.hb-stats > div.is-key { background:var(--lime); border-color:var(--lime); }
+.hb-n { font-family:var(--font-display); font-style:italic; font-size:clamp(22px,2.4vw,30px); color:var(--paper); line-height:1; }
+.hb-stats > div.is-key .hb-n { color:var(--ink); }
+.hb-l { font-family:var(--font-mono); font-size:10px; letter-spacing:0.08em; text-transform:uppercase; color:rgba(255,255,255,0.55); margin-top:6px; }
+.hb-stats > div.is-key .hb-l { color:rgba(40,37,32,0.7); }
+@media (max-width:720px){ .hero-brief-grid{ grid-template-columns:1fr; position:static; inset:auto; padding:28px; } .article-hero-visual.hero-brief{ aspect-ratio:auto; } }
+</style>
+
+
+<div class="scroll-progress"><div class="scroll-progress-bar" id="progress-bar"></div></div>
+
+<nav class="nav">
+  <a href="/" class="nav-logo">
+    <svg width="34" height="34" viewBox="0 0 34 34" fill="none">
+      <rect width="34" height="34" rx="8" fill="#282520"/>
+      <text x="50%" y="55%" text-anchor="middle" dominant-baseline="middle" font-family="Georgia, serif" font-size="18" font-style="italic" fill="#d4ff32">SJ</text>
+      <circle cx="27" cy="7" r="2" fill="#d4ff32"/>
+    </svg>
+    <span class="nav-logo-text">SHILIKA<span class="nav-logo-dot">·</span>JAIN</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="/#work">Work</a></li>
+    <li><a href="/#services">Services</a></li>
+    <li><a href="/#press">Press</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/blog" class="is-current">Blog</a></li>
+    <li><a href="/#contact">Contact</a></li>
+  </ul>
+  <a href="https://calendly.com/shilikajain/30min/" target="_blank" rel="noopener" class="nav-cta">
+    <span>Book a call</span>
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.4"/></svg>
+  </a>
+</nav>
+
+<header class="article-header">
+  <div class="crumb">
+    <a href="/">Shilika Jain</a><span class="sep">/</span>
+    <a href="/playbook">Playbooks</a><span class="sep">/</span>
+    <span>041</span>
+  </div>
+  <div class="article-meta-row">
+    <span class="article-cat">STRATEGY</span>
+    <span>· 9 MIN READ</span>
+    <span>· JUNE 23, 2026</span>
+    <span>· BY SHILIKA JAIN</span>
+  </div>
+  <h1 class="article-headline">PR for an RWA and <em>Tokenization</em> Project in 2026.</h1>
+  <p class="article-sub">Real-world assets is where TradFi credibility meets crypto distribution. The founders who earn tier-1 coverage are not the ones with the biggest treasuries. They are the ones who figured out how to speak two languages at once, and built a narrative that institutions and crypto media both take seriously.</p>
+
+  <div class="article-hero-visual hero-brief">
+    <span class="v-num">041 / RWA TOKENIZATION PR</span>
+    <div class="hero-brief-grid">
+      <div class="hb-lede">Institutional credibility and crypto reach are not opposites. Build the bridge.</div>
+      <div class="hb-stats">
+        <div>
+          <span class="hb-n">$50B+</span>
+          <span class="hb-l">RWA on-chain by end of 2025 (DeFiLlama)</span>
+        </div>
+        <div class="is-key">
+          <span class="hb-n">$5K–$12K</span>
+          <span class="hb-l">Fractional PR operator / month</span>
+        </div>
+        <div>
+          <span class="hb-n">2 desks</span>
+          <span class="hb-l">Every RWA story must satisfy: crypto and finance</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="article-body-wrap">
+  <article class="article-body">
+
+<p class="lede">PR for an RWA or tokenization project in 2026 means running two media campaigns simultaneously: one for the crypto press that cares about protocol mechanics, on-chain liquidity, and DeFi composability, and one for the institutional and financial press that cares about legal structure, counterparty risk, and yield. The founders who earn serious coverage in both rooms are the ones who understood that the narrative bridges them, not the other way around.</p>
+
+<p>I run fractional PR for Web3 founders, and RWA is the category where I see the sharpest gap between what projects are actually building and how they talk about it publicly. Most teams default to one of two failure modes: they go full crypto-native and institutional audiences tune out, or they go full TradFi and the crypto press stops caring. The MANTRA Chain campaign is the clearest example I can point to of doing this correctly. Their $11M raise landed a CoinDesk exclusive, not because of the raise size, but because the team had built a regulatory-compliant RWA chain in the Middle East, which was a genuinely new geographic angle in a category that had been dominated by US and EU projects. Newness of angle, plus specificity of geography, plus institutional credibility. That is the formula. This is the full playbook.</p>
+
+<h2>Why RWA PR is structurally different from standard crypto PR</h2>
+
+<p>Most crypto PR operates on a single media track. You identify the outlets, you pitch the beat reporters, you time the announcement. RWA is different because the asset class sits at the intersection of two worlds with genuinely different editorial standards, different readers, and different ideas about what constitutes news.</p>
+
+<p>On the crypto side, the relevant outlets are CoinDesk, Cointelegraph, The Block, Decrypt, Blockworks, and regional books like BloomingBit (Korea), TokenPost (Korea), CryptoTimes JP, and Inc42 (India). These audiences want to know about chain architecture, protocol mechanics, total value locked, DeFi integrations, and on-chain activity. They are comfortable with tokenomics discussions, governance structures, and DeFi yield mechanics.</p>
+
+<p>On the institutional and finance side, the relevant outlets are Bloomberg, Reuters, Financial Times, Forbes, and specialist publications like Institutional Investor, Pensions and Investments, and regional financial press. These audiences want to know about regulatory approvals, custodial arrangements, counterparty risk management, legal entity structure, and how the yield compares to traditional alternatives. They have zero tolerance for vague claims about decentralization or tokenomics discussions they cannot evaluate.</p>
+
+<div class="callout"><strong>Field rule</strong>An RWA project that writes its press materials for only one of these audiences is leaving half its addressable market without a story. The narrative job is to find the one angle that genuinely works in both rooms, then deliver it with different emphasis on each side.</div>
+
+<h2>The two-narrative problem: how to frame it</h2>
+
+<p>The best RWA narratives are not two separate stories bolted together. They are one story told with different emphasis for different rooms. The structural formula is: a real-world asset class (real estate, private credit, government bonds, trade finance) plus a compelling reason why on-chain ownership changes something materially (liquidity, access, settlement speed, programmable yield) plus a legal and regulatory structure that removes the obvious institutional objection.</p>
+
+<p>The MANTRA Chain case is instructive. The team did not just say "we tokenize real assets." They said "we are building a regulatory-compliant RWA infrastructure chain for the Middle East, a jurisdiction with specific legal frameworks for digital assets and an institutional investor base actively looking for compliant on-chain yield." That framing meant the story worked for CoinDesk's RWA beat (new jurisdiction, new chain architecture, compliant-first approach), for regional Middle East financial media (new digital asset infrastructure, regulatory clarity), and for institutional press (legal compliance, jurisdiction specificity, named regulatory frameworks). One story, three rooms.</p>
+
+<div class="fix-box"><strong class="fix-label">Narrative architecture test</strong>Before you write a single press release, answer these three questions in one sentence each: What is the asset class and why is on-chain better? What is the legal structure and who are the regulated counterparties? What is the geographic or sector angle that makes this story new? If you cannot answer all three cleanly, the narrative is not ready. The announcement can wait. Get this right first, then read the <a href="/services/web3-pr-campaigns">Web3 PR campaigns</a> service page for how the campaign layer builds on top of it.</div>
+
+<h2>What media outlets actually want from an RWA story</h2>
+
+<p>RWA is no longer a novelty beat. CoinDesk and The Block have both covered tokenized treasury products, tokenized real estate, and tokenized private credit extensively since 2023. The editorial bar has risen accordingly. A pitch that leads with "we tokenize real-world assets" gets deleted immediately. The pitch that lands leads with the specific thing that is genuinely new: the jurisdiction, the asset class that has not been done on-chain before, the institutional name that adds credibility, the regulatory milestone that changes what is possible.</p>
+
+<h3>Crypto media: what makes an RWA pitch land</h3>
+
+<ul>
+  <li><strong>A named institutional counterparty.</strong> A tier-1 asset manager, custodian, or bank lends the story immediate credibility on the crypto side, because it signals the institutional world is arriving, which is the narrative crypto audiences have waited years for.</li>
+  <li><strong>On-chain proof.</strong> TVL figures, transaction volumes, number of unique holders, integration with named DeFi protocols. Numbers on-chain are not optional; they are the editorial test of whether the project is real.</li>
+  <li><strong>Regulatory specificity.</strong> Named frameworks (FSRA in Abu Dhabi, MAS in Singapore, FCA in the UK, SEC registration status in the US) make the story credible to crypto reporters who have watched too many projects launch without regulatory clarity.</li>
+  <li><strong>A geography angle.</strong> The Middle East RWA angle worked for MANTRA because it was genuinely underreported. Asia Pacific RWA infrastructure is another active angle. Emerging market treasury access via tokenization is another. Geographic specificity beats generic global claims every time.</li>
+</ul>
+
+<h3>Institutional and financial media: what they need</h3>
+
+<ul>
+  <li><strong>Legal entity clarity.</strong> Who holds the underlying asset? Who is the custodian? What happens in a default? These are not hostile questions; they are the minimum required for a finance reporter to run the story without getting their editor pushback.</li>
+  <li><strong>Yield comparison.</strong> What does the investor earn, and how does that compare to a traditional equivalent? Specific numbers, not ranges.</li>
+  <li><strong>Named investor validation.</strong> A sovereign wealth fund LP, a named family office, or a recognisable fund manager in the round makes the story publishable in outlets that otherwise cannot justify an RWA feature.</li>
+  <li><strong>Risk disclosure.</strong> Institutional media is not looking for cheerleading. A founder who can crisply name the risks and explain the mitigations is far more publishable than one who projects nothing but upside.</li>
+</ul>
+
+<h2>The media tier map for RWA in 2026</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tier</th>
+      <th>Outlet type</th>
+      <th>What they want</th>
+      <th>Timeline to earn</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Tier 1 crypto</td>
+      <td>CoinDesk, The Block, Blockworks</td>
+      <td>New angle, on-chain proof, institutional name, regulatory milestone</td>
+      <td>4–8 weeks of relationship building</td>
+    </tr>
+    <tr>
+      <td>Tier 1 finance</td>
+      <td>Bloomberg, Reuters, FT</td>
+      <td>Named counterparties, legal clarity, yield data, risk disclosure</td>
+      <td>6–12 weeks; usually needs a warm intro</td>
+    </tr>
+    <tr>
+      <td>Tier 2 crypto</td>
+      <td>Cointelegraph, Decrypt, Benzinga Crypto</td>
+      <td>Milestone announcement, raise, product launch, protocol upgrade</td>
+      <td>1–3 weeks with a clean press release and relationship</td>
+    </tr>
+    <tr>
+      <td>Regional</td>
+      <td>BloomingBit, TokenPost, CryptoTimes JP, Inc42</td>
+      <td>Geographic angle, local regulatory relevance, regional investor base</td>
+      <td>2–4 weeks with translated assets</td>
+    </tr>
+    <tr>
+      <td>Institutional trade</td>
+      <td>Institutional Investor, Pensions and Investments</td>
+      <td>Allocator-facing proof points, AUM, yield, counterparty</td>
+      <td>8–16 weeks; usually feature-driven, not news-driven</td>
+    </tr>
+    <tr>
+      <td>Founder voice</td>
+      <td>Forbes, Fortune, TechCrunch</td>
+      <td>Founder op-ed on category thesis, not product announcement</td>
+      <td>Ongoing; builds over 3–6 months of consistent byline cadence</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>The launch campaign structure that works for RWA</h2>
+
+<p>A well-run RWA launch is not a single press release. It is a sequenced campaign built around a forcing event, with each piece doing a specific job for a specific audience. Here is the sequence I run for tokenization projects at the launch or major milestone stage.</p>
+
+<p><strong>Six to eight weeks before the milestone:</strong> the founder op-ed lands on a crypto or finance opinion desk. CoinDesk Opinion, a Forbes Council, or Blockworks Opinion are the natural homes. The argument is the category thesis: why this asset class on-chain now, why this jurisdiction, what changes when the rails are compliant from day one. This piece sets the frame before any news breaks and gives every subsequent reporter a context for the announcement. It also starts building the founder's entity signal for AI-search, which I cover in the <a href="/playbook/crypto-pr-vs-ai-pr">crypto PR vs AI PR breakdown</a>.</p>
+
+<p><strong>Two weeks before:</strong> embargoed briefings with the two or three reporters most likely to run a feature. The Block, CoinDesk, and Bloomberg if you have the institutional angle and the legal clarity to satisfy their editorial bar. Give them the full deck: the asset, the legal structure, the named counterparties, the on-chain data, the regulatory framework. Let them set the story up properly so it lands with depth, not just a news flash.</p>
+
+<p><strong>On the date:</strong> the press release goes on the wire. BusinessWire or PR Newswire for global pickup; a regional wire for the specific jurisdiction. The release is tight, under 600 words, with one clear fact and a direct quote from the founder that an editor can lift. Regional outlets and aggregators pull from the wire, and your Cointelegraph, Decrypt, and Benzinga relationships pick up from there.</p>
+
+<p><strong>The week after:</strong> the follow-on technical piece. A Substack post, a Blockworks or Messari research contribution, or a Medium deep-dive on the protocol mechanics. This feeds the DeFi and analyst audience who want the architecture detail the press release could not carry, and it extends the story's life past the 72-hour news cycle.</p>
+
+<div class="fix-box"><strong class="fix-label">On timing the institutional press</strong>Finance and institutional media work on longer cycles than crypto. A Bloomberg or FT feature on an RWA project typically requires eight to twelve weeks of relationship time before the reporter is comfortable enough to take a risk on a nascent category. Do not treat them as a launch-day target; treat them as a six-month relationship investment that pays off on the second or third milestone, not the first.</div>
+
+<h2>The Middle East angle and why geography is the sharpest RWA narrative tool</h2>
+
+<p>The MANTRA Chain case, which I covered in detail at <a href="/work/mantra-chain">the case study</a>, produced 11 tier-1 placements in 24 hours around the $11M raise announcement. The single biggest driver was the geographic specificity: a regulatory-compliant RWA chain built specifically for Middle East institutional investors and the FSRA regulatory framework in Abu Dhabi. At the time, RWA coverage had been dominated by US Treasury tokenization and European DeFi projects. The Middle East angle was genuinely underreported, and the regulatory specificity gave reporters something concrete to hang the story on.</p>
+
+<p>The lesson is not that you need a Middle East angle. The lesson is that geography plus regulatory specificity equals editorial differentiation, regardless of which geography. Singapore's MAS framework for tokenized assets is another active angle. Hong Kong's SFC digital asset licensing is producing stories. India's emerging SEBI position on tokenized securities is early but real. Latin American treasury access via tokenization has been covered by Decrypt and Cointelegraph as an access story, not a crypto story.</p>
+
+<p>Identify the geographic or regulatory angle that makes your project genuinely new in the landscape of what has already been covered, and lead every pitch with that angle. If you cannot name it cleanly, the narrative work is not done yet.</p>
+
+<h2>Stablecoin adjacency and how to position RWA vs stablecoin narratives</h2>
+
+<p>Many RWA projects, especially those tokenizing yield-bearing assets like government bonds or money market funds, are adjacent to the stablecoin narrative. This can be a positioning advantage or a source of confusion depending on how it is handled. Yield-bearing stablecoins backed by tokenized treasuries occupy a grey zone where the RWA story and the stablecoin story overlap, and founders need to choose which lane to lead with.</p>
+
+<p>My general position: lead with the asset class, not the token structure. "Tokenized US Treasuries accessible on-chain" is a stronger narrative than "a yield-bearing stablecoin" in 2026, because the stablecoin frame carries regulatory uncertainty and product confusion, while the tokenized treasury frame carries institutional clarity. The mechanics can overlap; the language should not. If your project sits at this intersection, the <a href="/playbook/stablecoin-launch-pr-2026">stablecoin launch PR playbook</a> covers the specific stablecoin framing decisions in full, and reading it alongside this one will help you draw the line cleanly.</p>
+
+<div class="callout"><strong>Field rule</strong>Position it as tokenized access to an institutional asset class, not as a new kind of stablecoin. The first frame earns credibility in both rooms. The second frame earns questions in both rooms.</div>
+
+<h2>The founder profile investment: why RWA needs visible operators</h2>
+
+<p>RWA is a category where institutional credibility runs through the founder as much as through the product. Institutional investors and the journalists who cover them want to know who is behind the project, what their track record is in traditional finance, and whether they can be trusted to navigate the legal and regulatory complexity the category requires.</p>
+
+<p>This means the founder profile investment is not optional for an RWA project. A founder with a named background at a recognised asset manager, bank, or regulatory body needs that background consistently surfaced in every placement, every speaker slot, every LinkedIn article. A founder without that background needs to compensate by demonstrating operational credibility through what they build publicly: regulatory relationships, named counterparties, on-chain transparency.</p>
+
+<p>The ongoing PR budget for a serious RWA project at scale runs $5,000 to $12,000 a month with a fractional senior operator, or $15,000 to $45,000 with a full agency. A launch sprint around a major milestone runs $15,000 to $40,000 depending on scope. For most early-stage RWA projects, the fractional model is the better starting point because it keeps the operator senior and the budget sustainable across the 12-to-18 month runway it takes to build tier-1 relationships in both the crypto and institutional press simultaneously. The full campaign structure for Web3 PR is laid out at <a href="/services/web3-pr-campaigns">Web3 PR campaigns</a>.</p>
+
+<h2>The one mistake that kills RWA PR campaigns</h2>
+
+<p>Every failed RWA campaign I have watched shares one characteristic: the team treated the institutional press and the crypto press as if they were the same audience with different names. They wrote one set of materials, pitched both sides with the same angle, and got ignored by both because the pitch was too technical for finance reporters and too compliance-heavy for crypto reporters.</p>
+
+<p>The fix is not to write two different stories. The fix is to build one strong central narrative and then develop two versions of the pitch that emphasise different dimensions for each audience. Finance reporters get the legal structure, the counterparty names, and the yield comparison first. Crypto reporters get the on-chain mechanics, the DeFi composability, and the TVL data first. The same project, the same truth, two editorial entry points.</p>
+
+<p>This is narrative architecture, not spin. It is the difference between a founder who has thought carefully about who they are building for and what those different audiences actually need to understand the project, versus a founder who has a great deck and hopes the press will figure it out.</p>
+
+
+    <div class="author-block">
+      <div class="author-avatar">SJ</div>
+      <div>
+        <div class="author-name">Shilika Jain</div>
+        <p class="author-bio">Fractional PR and narrative strategy for Web3 and AI founders. 50+ protocols placed across Forbes, CoinDesk, Cointelegraph, Decrypt, The Block, Blockworks and AI Magazine, with campaigns spanning RWA, DePIN, AI infrastructure and cybersecurity. <a href="/about">View full profile &rarr;</a> &middot; <a href="/#contact">Book a 30-min teardown &rarr;</a></p>
+      </div>
+    </div>
+
+    <div class="faq-block">
+      <h2>Frequently asked questions</h2>
+
+      <div class="faq-q">What is crypto PR and how does it differ for RWA projects?</div>
+      <div class="faq-a">Crypto PR is the practice of earning editorial coverage in crypto-native and mainstream media for blockchain and digital asset projects. For RWA projects, it differs from standard crypto PR in one critical way: you are running two parallel media campaigns simultaneously. One targets crypto outlets like CoinDesk, The Block, and Blockworks, which care about protocol mechanics and on-chain data. The other targets institutional and financial media like Bloomberg, Reuters, and trade publications, which care about legal structure, counterparty risk, and yield. The narrative has to bridge both audiences without losing either. See the full <a href="/services/web3-pr-campaigns">Web3 PR campaigns</a> service for how the campaign layer is structured.</div>
+
+      <div class="faq-q">What made the MANTRA Chain $11M raise earn 11 tier-1 placements in 24 hours?</div>
+      <div class="faq-a">Three things worked together: a genuinely underreported geographic angle (Middle East institutional RWA infrastructure), regulatory specificity (FSRA framework in Abu Dhabi), and a named raise with a CoinDesk exclusive that gave the announcement editorial weight. Most RWA announcements at that size get a wire pickup and a few tier-2 placements. The MANTRA result came from building the narrative architecture before the announcement, not from the announcement itself. The full case study is at <a href="/work/mantra-chain">the MANTRA Chain case study</a>.</div>
+
+      <div class="faq-q">How long does it take to earn institutional media coverage for an RWA project?</div>
+      <div class="faq-a">Bloomberg, Reuters, and FT typically require eight to twelve weeks of relationship investment before a reporter is comfortable featuring an early-stage RWA project, and often longer. They are not launch-day targets. Tier-1 crypto outlets like CoinDesk and The Block can move in four to eight weeks with the right angle and a clean embargo briefing. Regional outlets like BloomingBit or Inc42 can move in two to four weeks with translated assets and a geography-specific angle. Plan the full campaign timeline with these cycles in mind, not the other way around.</div>
+
+      <div class="faq-q">Should an RWA project lead its messaging with the stablecoin narrative?</div>
+      <div class="faq-a">Generally no. Yield-bearing tokens backed by tokenized treasuries or money market funds are adjacent to stablecoins, but leading with the stablecoin frame invites regulatory confusion and editorial hesitation in both crypto and financial press. Leading with "tokenized access to institutional asset classes" is a stronger frame in 2026 because it signals legal clarity and institutional credibility. The <a href="/playbook/stablecoin-launch-pr-2026">stablecoin launch PR playbook</a> covers the specific cases where the stablecoin frame is the right choice and how to position it when it is.</div>
+
+      <div class="faq-q">How much does PR for an RWA project cost in 2026?</div>
+      <div class="faq-a">An ongoing retainer with a fractional senior operator runs $5,000 to $12,000 a month. A full PR agency runs $15,000 to $45,000 a month. A launch sprint around a major milestone or raise runs $15,000 to $40,000 depending on scope and the number of markets targeted. For most early-stage RWA projects, the fractional model is the better starting point: it keeps the operator senior, keeps the budget sustainable, and avoids paying full-agency overhead before you have the institutional proof points that justify the spend.</div>
+    </div>
+
+    <p style="margin-top: 2.2em; padding: 22px 26px; background: var(--paper-2); border-left: 3px solid var(--lime); border-radius: 4px; font-size: 17px; line-height: 1.55;"><strong>Building an RWA or tokenization campaign?</strong> Start with <a href="/services/web3-pr-campaigns" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">Web3 PR campaigns</a> for the full service overview, then read <a href="/playbook/crypto-pr-vs-ai-pr" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">crypto PR vs AI PR</a> for the AI-search layer, and <a href="/playbook/stablecoin-launch-pr-2026" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">stablecoin launch PR</a> if your product sits at the stablecoin adjacency. The full <a href="/playbook" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">playbook library</a> covers pricing, pitch guides, and campaign architecture across every Web3 vertical.</p>
+
+  </article>
+</section>
+
+<section class="cta-strip">
+  <h3>Ready to earn coverage in both <em>rooms</em>?</h3>
+  <a href="https://calendly.com/shilikajain/30min/" target="_blank" rel="noopener" class="cta-strip-btn">
+    Book a 30-min teardown
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.4"/></svg>
+  </a>
+</section>
+
+<footer class="footer">
+  <div class="footer-row">
+    <span>© SHILIKA JAIN - 2019-2026</span>
+    <span>FIELD NOTES · v.1.0</span>
+    <span><a href="/blog">← ALL ARTICLES</a></span>
+  </div>
+</footer>

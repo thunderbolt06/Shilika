@@ -1,0 +1,134 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/cybersecurity-pr-agency-pricing-2026#article",
+      "headline": "Cybersecurity PR Agency Retainer Pricing in 2026",
+      "alternativeHeadline": "What cybersecurity PR costs, why analyst relations changes the math, and how a fractional model compares to a median Series B retainer",
+      "description": "A full cybersecurity PR agency retainer runs $15,000 to $45,000 per month, with the Series B median around $23,500. This 2026 breakdown covers the full pricing stack, what analyst relations adds to the cost, when a fractional operator at $5K-$12K/mo outperforms a full retainer, and how launch sprint pricing works for threat intel reports and vulnerability disclosures.",
+      "url": "https://www.shilikajain.com/playbook/cybersecurity-pr-agency-pricing-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/cybersecurity-pr-agency-pricing-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2050,
+      "timeRequired": "PT8M",
+      "articleSection": "Cybersecurity PR",
+      "keywords": [
+        "cybersecurity PR agency",
+        "cybersecurity PR pricing 2026",
+        "cybersecurity PR retainer cost",
+        "analyst relations cost",
+        "fractional PR cybersecurity",
+        "cyber PR agency vs fractional",
+        "Series B cybersecurity PR",
+        "cybersecurity PR launch sprint",
+        "Dark Reading PR placement",
+        "security PR agency retainer"
+      ],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "Cybersecurity public relations" },
+        { "@type": "Thing", "name": "PR agency pricing" },
+        { "@type": "Thing", "name": "Analyst relations" },
+        { "@type": "Thing", "name": "Fractional PR" },
+        { "@type": "Thing", "name": "Vulnerability disclosure communications" },
+        { "@type": "Thing", "name": "Threat intelligence PR" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "Dark Reading" },
+        { "@type": "Organization", "name": "SecurityWeek" },
+        { "@type": "Organization", "name": "SC Media" },
+        { "@type": "Organization", "name": "Help Net Security" },
+        { "@type": "Organization", "name": "Bleeping Computer" },
+        { "@type": "Organization", "name": "Forbes" },
+        { "@type": "Organization", "name": "Gartner" },
+        { "@type": "Organization", "name": "Forrester" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "Cybersecurity PR Agency Retainer Pricing in 2026", "item": "https://www.shilikajain.com/playbook/cybersecurity-pr-agency-pricing-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/cybersecurity-pr-agency-pricing-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does a cybersecurity PR agency cost per month?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A full cybersecurity PR agency retainer runs $15,000 to $45,000 per month. The median for a funded Series B security company sits around $23,500 per month, once analyst relations, crisis readiness, and media training are factored in. Pre-Series A companies rarely need the full stack, and a fractional senior operator covering strategy and earned media runs $5,000 to $12,000 per month for the same strategic output. The right number depends entirely on your stage and sales motion, not the size of your ambition."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is included in a cybersecurity PR retainer at the $20K to $30K level?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At that level you typically get a dedicated account lead with cyber beat experience, ongoing media relations across Dark Reading, SC Media, SecurityWeek, Help Net Security, and Bleeping Computer, access to mainstream crossover outlets like Forbes and TechCrunch for the right stories, monthly reporting, and some level of analyst relations support, usually one to two Gartner or Forrester briefings per quarter. Crisis communications infrastructure is sometimes included, sometimes an add-on. Media training and event PR at RSA or Black Hat are almost always billed separately over the retainer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is analyst relations worth the extra cost for a Series A cybersecurity company?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends on your sales motion. If you sell into enterprise security teams where buyers check Gartner or Forrester before taking a vendor call, analyst relations is not optional, it is a sales asset. If you sell to SMB or mid-market buyers who do not use analyst subscriptions, the budget is better spent on trade press and thought leadership content that reaches your actual ICP. Analyst relations done poorly is actively harmful: briefing analysts before you have the proof points trains them to overlook you. Do it when you have the data and the budget to do it right."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does cybersecurity PR pricing compare to crypto PR pricing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cybersecurity PR costs more at every tier. A fractional crypto PR operator runs $3,000 to $8,000 per month against $5,000 to $12,000 for cyber; a full crypto agency runs $10,000 to $30,000 against $15,000 to $45,000 for cyber. The gap reflects a smaller, harder editorial universe in cybersecurity, where outlets like Dark Reading and SecurityWeek have high standards and no sponsored-content shortcuts for the placements that matter."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does a cybersecurity PR launch sprint cost, and when should I use one?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A cybersecurity PR launch sprint runs $15,000 to $40,000 for a four to eight week window, covering press release, journalist briefings, targeted pitching, and an anchor placement in a named outlet. Use a sprint for a product launch, a threat intelligence report drop, or a coordinated vulnerability disclosure. The sprint model works especially well for companies that are not ready for a monthly retainer but have a single high-value story to tell. A well-executed sprint on a genuine threat intel report can build more media record in six weeks than a mediocre retainer builds in six months."
+          }
+        }
+      ]
+    }
+  ]
+}

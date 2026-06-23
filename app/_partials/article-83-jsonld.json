@@ -1,0 +1,135 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/crypto-influencer-pricing-rates-2026#article",
+      "headline": "Crypto Influencer and KOL Pricing: 2026 Rates",
+      "alternativeHeadline": "What KOLs actually charge in 2026 by tier and platform, the all-in budget multiplier, and where creator spend quietly leaks",
+      "description": "The 2026 crypto KOL rate card from nano ($200 per post) to macro ($100K+ per campaign), with platform-by-platform pricing differences, regional premiums for South Korea, Japan and the Middle East, the 1.4x to 2x all-in budget multiplier, and a direct-vs-agency comparison for token launch campaigns.",
+      "url": "https://www.shilikajain.com/playbook/crypto-influencer-pricing-rates-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/crypto-influencer-pricing-rates-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2050,
+      "timeRequired": "PT8M",
+      "articleSection": "KOL",
+      "keywords": [
+        "crypto influencer pricing 2026",
+        "crypto KOL rates",
+        "top crypto PR 2025",
+        "KOL marketing Web3",
+        "token launch KOL budget",
+        "crypto influencer cost",
+        "Web3 KOL agency",
+        "DePIN influencer marketing",
+        "KOL tier rate card",
+        "crypto PR cost 2026"
+      ],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "Crypto influencer marketing" },
+        { "@type": "Thing", "name": "KOL pricing" },
+        { "@type": "Thing", "name": "Token launch marketing" },
+        { "@type": "Thing", "name": "Web3 creator economy" },
+        { "@type": "Thing", "name": "DePIN marketing" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "Cointelegraph" },
+        { "@type": "Organization", "name": "Decrypt" },
+        { "@type": "Organization", "name": "The Block" },
+        { "@type": "Organization", "name": "Blockworks" },
+        { "@type": "Organization", "name": "BloomingBit" },
+        { "@type": "Organization", "name": "CryptoTimes JP" },
+        { "@type": "Organization", "name": "TokenPost" },
+        { "@type": "Organization", "name": "Inc42" },
+        { "@type": "Person", "name": "MANTRA Chain" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "Crypto Influencer and KOL Pricing: 2026 Rates", "item": "https://www.shilikajain.com/playbook/crypto-influencer-pricing-rates-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/crypto-influencer-pricing-rates-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much do crypto KOLs charge in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rates range from $200 to $1,500 per post at the nano tier (1K to 10K followers) up to $25,000 to $100,000 per placement at the macro tier (500K to 2M followers). The most active zone for token launch campaigns is the mid-tier, where creators with 100K to 500K followers typically charge $10,000 to $30,000 per post and $25,000 to $60,000 for a multi-deliverable campaign. These are sticker prices before exclusivity, usage rights and agency margin are added."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the all-in budget multiplier for a KOL campaign?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Expect to spend 1.4 to 2 times the headline creator rate once you add agency margin (15 to 30 percent), exclusivity premiums (20 to 50 percent on the base rate), usage rights, and content revision rounds beyond the first two. A $25,000 creator rate frequently lands at $38,000 to $42,000 all-in. Budget for the multiplier at the planning stage, not after the contract is signed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which KOL tier gives the best ROI for a crypto token launch?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For most token launches, a portfolio approach outperforms betting on a single macro creator. A typical allocation combines 2 to 3 mid-tier creators in the $10,000 to $30,000 range, 5 to 10 micro creators at $500 to $5,000, and 1 to 2 targeted nano creators in specific niche communities. Nano and micro creators routinely outperform on engagement rate (5 to 12 percent vs. under 1 percent for macro), and their audiences are less desensitised to sponsored content."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do KOL rates differ by region?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, significantly. South Korea and Japan command 15 to 40 percent premiums over US baseline rates because the audience is highly retail-active and the content must be in the local language to be effective. Southeast Asia offers large audiences at lower or comparable rates but lower per-user conversion on average. Middle East is a growing market with 10 to 25 percent premiums for Arabic-language KOL content in the RWA and DeFi space. Budget regional tiers separately rather than assuming a flat global rate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I work with a KOL agency or book directly?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Direct booking saves the 15 to 30 percent agency margin but requires you to do your own creator vetting, contract management, and performance tracking. Agencies add real value on multi-creator, multi-region campaigns where their existing relationships speed up negotiation and their performance history provides a vetting baseline. If you know exactly which 3 to 5 creators you want, book directly. If you are running a 10 to 20 creator campaign across 3 regions, an agency's operational overhead earns its cost."
+          }
+        }
+      ]
+    }
+  ]
+}

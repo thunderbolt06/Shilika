@@ -1,0 +1,127 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/crypto-presale-launchpad-marketing-2026#article",
+      "headline": "Crypto Presale and Launchpad Marketing Playbook for 2026",
+      "alternativeHeadline": "How to build demand and credibility around a presale without the usual hype-cycle damage",
+      "description": "Launchpads bring liquidity, not narrative. This 2026 playbook covers the 8-to-12-week pre-token narrative runway, KOL tier sequencing, tier-1 media placements that move presale buyer conviction, tokenomics communication, and the budget ranges for fractional PR operators versus full agencies on a token launch.",
+      "url": "https://www.shilikajain.com/playbook/crypto-presale-launchpad-marketing-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/crypto-presale-launchpad-marketing-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2150,
+      "timeRequired": "PT9M",
+      "articleSection": "Launch",
+      "keywords": ["crypto PR", "crypto presale marketing", "token launch PR", "launchpad marketing 2026", "presale KOL strategy", "pre-token narrative", "Web3 presale comms", "token launch marketing agencies", "KOL sequencing crypto", "crypto PR campaign"],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "Crypto presale" },
+        { "@type": "Thing", "name": "Token launch marketing" },
+        { "@type": "Thing", "name": "KOL marketing" },
+        { "@type": "Thing", "name": "Launchpad" },
+        { "@type": "Thing", "name": "Tokenomics communication" },
+        { "@type": "Thing", "name": "Narrative strategy" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "Cointelegraph" },
+        { "@type": "Organization", "name": "The Block" },
+        { "@type": "Organization", "name": "Blockworks" },
+        { "@type": "Organization", "name": "Decrypt" },
+        { "@type": "Organization", "name": "Forbes" },
+        { "@type": "Organization", "name": "Fjord Foundry" },
+        { "@type": "Organization", "name": "Polkastarter" },
+        { "@type": "Organization", "name": "DAO Maker" },
+        { "@type": "Organization", "name": "MANTRA Chain" },
+        { "@type": "Organization", "name": "RARI Chain" },
+        { "@type": "Organization", "name": "Gaia AI" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "Crypto Presale and Launchpad Marketing Playbook for 2026", "item": "https://www.shilikajain.com/playbook/crypto-presale-launchpad-marketing-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/crypto-presale-launchpad-marketing-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How far in advance should I start PR for a crypto presale?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The minimum credible runway is 8 to 12 weeks before the presale opens. The first 4 to 6 weeks are for positioning, earned media foundation and community seeding; the final 4 to 6 weeks are for KOL sequencing, amplification and TGE day coordination. Starting later than 6 weeks out leaves insufficient time to build the media paper trail that serious buyers use for due diligence."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does being listed on a launchpad replace the need for a PR campaign?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. A launchpad provides an allocation mechanism and access to its existing buyer base. It does not build your narrative, pitch your story to journalists, manage community understanding of the protocol, or give buyers a reason to hold past day one. Founders who treat launchpad listing as a distribution strategy typically see strong sale-day numbers followed by significant post-TGE selling pressure from buyers who never understood what they bought."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does a crypto presale PR campaign cost in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fractional senior PR operator running an 8 to 12 week presale campaign costs $5,000 to $12,000 per month, with the KOL and media placement budget on top of that. A full agency running the same scope costs $15,000 to $45,000 per month. A packaged launch sprint covering 6 weeks pre-TGE to 2 weeks post-TGE typically runs $15,000 to $40,000 depending on scope and tier-1 placement count."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How should I allocate a KOL budget for a presale?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Spend 50 to 60 percent on nano and micro KOLs (5K to 200K followers, $200 to $5,000 per activation) who will genuinely research and explain the protocol in their own voice. Allocate 20 to 30 percent to one or two mid-tier accounts for AMAs or long-form threads. Reserve 15 to 20 percent for a macro push on or near TGE day, layered on top of the earned media already in market. Inverting this, spending most of the budget on macro reach first, is the most common and most expensive allocation mistake in presale campaigns."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What media outlets actually move presale buyer conviction?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For editorial credibility, CoinDesk, The Block, Blockworks and Cointelegraph carry the most weight with serious crypto buyers and institutional due-diligence processes. For regional markets, BloomingBit and TokenPost in Korea, CryptoTimes JP in Japan and Inc42 in India are high-ROI channels. Podcast appearances on Unchained, Bankless or Empire deliver deep narrative to qualified audiences. Wire press releases support the paper trail but do not substitute for reporter-driven coverage or placed founder op-eds."
+          }
+        }
+      ]
+    }
+  ]
+}

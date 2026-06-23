@@ -1,0 +1,136 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/ai-x-crypto-agent-pr-2026#article",
+      "headline": "PR for AI x Crypto and Agentic Projects in 2026",
+      "alternativeHeadline": "How to run credibility-led AI PR and speed-led crypto PR in parallel for intersection projects",
+      "description": "Projects at the AI-and-crypto seam need two separate editorial playbooks running at once. This 2026 strategy guide covers the two-layer narrative structure, the correct sequencing for a dual-track launch, the Gaia AI agents proof point, and how to budget for an operator who can hold both tracks without diluting either.",
+      "url": "https://www.shilikajain.com/playbook/ai-x-crypto-agent-pr-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/ai-x-crypto-agent-pr-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2050,
+      "timeRequired": "PT9M",
+      "articleSection": "Strategy",
+      "keywords": [
+        "AI startup PR",
+        "AI x crypto PR",
+        "agentic project PR",
+        "crypto PR 2026",
+        "dual-track PR strategy",
+        "Web3 AI narrative",
+        "intersection project PR",
+        "AI agent on-chain",
+        "Gaia AI PR case study",
+        "fractional PR for AI startups"
+      ],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "AI startup public relations" },
+        { "@type": "Thing", "name": "Crypto PR" },
+        { "@type": "Thing", "name": "Agentic AI projects" },
+        { "@type": "Thing", "name": "Narrative architecture" },
+        { "@type": "Thing", "name": "Launch PR sequencing" },
+        { "@type": "Thing", "name": "Dual-track media strategy" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "Cointelegraph" },
+        { "@type": "Organization", "name": "Forbes" },
+        { "@type": "Organization", "name": "Decrypt" },
+        { "@type": "Organization", "name": "The Block" },
+        { "@type": "Organization", "name": "Blockworks" },
+        { "@type": "Organization", "name": "TechCrunch" },
+        { "@type": "Organization", "name": "Benzinga" },
+        { "@type": "SoftwareApplication", "name": "Gaia AI" },
+        { "@type": "Organization", "name": "Fluence Network" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "PR for AI x Crypto and Agentic Projects in 2026", "item": "https://www.shilikajain.com/playbook/ai-x-crypto-agent-pr-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/ai-x-crypto-agent-pr-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is AI startup PR and how does it differ from crypto PR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AI startup PR is a credibility-led discipline targeting outlets like Forbes, TechCrunch and Wired, where reporters require demonstrable proof: a live demo, a benchmark, a named customer or a research artifact. Crypto PR is a timing-led discipline targeting CoinDesk, Cointelegraph, The Block and Decrypt, where the news peg is a hard event and the window to own a cycle is 24 to 48 hours. The two editorial cultures define newsworthiness in almost opposite ways, which is why intersection projects need both playbooks running in parallel."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you run crypto PR and AI PR at the same time without mixed messages?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The answer is a two-layer narrative: one shared thesis that is true for both audiences, and two separate pitch documents that translate that thesis into the language each editorial culture understands. The AI pitch is long, detailed and includes demo access. The crypto pitch is short, fact-dense and leads with the embargo date and raise details. Both pitches sit underneath the same one-sentence framing, so the story is coherent even if the execution looks different by outlet."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does dual-track AI x crypto PR cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fractional senior operator running both tracks costs $5,000 to $12,000 per month. A full agency with dedicated teams for each vertical runs $15,000 to $45,000 per month. A launch sprint covering both the AI and crypto press push for a single major event typically runs $15,000 to $40,000 for the campaign work, not including wire distribution fees. What you cannot do cheaply is run both tracks half-heartedly: a campaign that only covers the crypto side leaves the credibility layer unbuilt, which matters to enterprise buyers and institutional investors."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the right sequencing for an AI x crypto product launch?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Start the AI press outreach four to six weeks before the announcement with a founder op-ed arguing the category thesis. Begin background briefings with AI reporters two to three weeks out. Issue the crypto exclusive one to three days before the embargo lift and release the wire on announcement day, with regional syndication going out simultaneously. Run a podcast tour in the two weeks after the announcement to extend the narrative without requiring another event. The podcast layer matters because crypto-AI audiences consume a disproportionate amount of their information through audio."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is the podcast layer important for AI x crypto projects specifically?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Podcast audiences in the crypto-AI space are large, loyal and independent from the editorial outlets. A founder who appears on four to six relevant shows in a two-week window builds name recognition and narrative fluency in the market while longer editorial cycles at Forbes and Decrypt are still in progress. When the Forbes piece publishes, the audience has already heard the founder articulate the thesis in long form and the editorial hit lands in a prepared market, not a cold one. This is the sequencing the Gaia AI campaign used to compound six-plus placements across written and audio channels."
+          }
+        }
+      ]
+    }
+  ]
+}

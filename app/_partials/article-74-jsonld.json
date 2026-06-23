@@ -1,0 +1,136 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/how-to-get-into-forbes-councils-2026#article",
+      "headline": "How to Get Into a Forbes Council in 2026 (and Whether You Should)",
+      "alternativeHeadline": "The honest cost-benefit of Forbes Councils, the credibility trap, and the earned alternatives for Web3 and AI founders",
+      "description": "Forbes Councils is a paid membership program, not editorial coverage. This 2026 breakdown covers how the application works, what the membership actually delivers, when it is worth the $1,500-$2,500 annual fee, when it is not, and which earned alternatives carry more weight with tier-1 investors and journalists.",
+      "url": "https://www.shilikajain.com/playbook/how-to-get-into-forbes-councils-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/how-to-get-into-forbes-councils-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2050,
+      "timeRequired": "PT8M",
+      "articleSection": "Content Writing",
+      "keywords": [
+        "how to get featured in crypto media",
+        "Forbes Councils review",
+        "Forbes Councils worth it",
+        "Forbes Councils vs earned Forbes coverage",
+        "how to get into Forbes Councils",
+        "founder thought leadership Web3",
+        "crypto PR strategy 2026",
+        "earned media for Web3 founders",
+        "Forbes Councils membership cost",
+        "founder credibility media"
+      ],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "Forbes Councils" },
+        { "@type": "Thing", "name": "Paid media membership" },
+        { "@type": "Thing", "name": "Earned media" },
+        { "@type": "Thing", "name": "Thought leadership" },
+        { "@type": "Thing", "name": "Founder credibility" },
+        { "@type": "Thing", "name": "Ghostwriting" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "Forbes" },
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "Cointelegraph" },
+        { "@type": "Organization", "name": "Decrypt" },
+        { "@type": "Organization", "name": "The Block" },
+        { "@type": "Organization", "name": "Blockworks" },
+        { "@type": "Organization", "name": "TechCrunch" },
+        { "@type": "Thing", "name": "MANTRA Chain" },
+        { "@type": "Thing", "name": "Gaia AI" },
+        { "@type": "Thing", "name": "Fluence Network" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "How to Get Into a Forbes Council in 2026 (and Whether You Should)", "item": "https://www.shilikajain.com/playbook/how-to-get-into-forbes-councils-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/how-to-get-into-forbes-councils-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is Forbes Councils the same as being covered by Forbes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, and the difference matters. Forbes Councils is a paid membership program where accepted members self-publish articles on Forbes.com under a Forbes Councils byline label. Being covered by Forbes means a Forbes journalist or editorial contributor wrote a story about you or your company through the standard editorial process. The domain is the same; the editorial authority is not. Media-savvy audiences, including most investors and journalists, know the difference."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does Forbes Councils membership cost in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Annual membership fees run roughly $1,500 to $2,500 depending on the council and any adjustments Forbes makes to its pricing. This covers the ability to publish articles, use the member badge, and access the community. It does not include any guarantee of editorial coverage, reporter outreach, or placement in Forbes print or editorial. You will get the most from the fee if you commit to publishing four to eight substantive articles in the first year."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who should and should not join Forbes Councils?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It works well for founders whose primary audience is general business consumers, enterprise buyers, or international markets where the Forbes brand carries unambiguous weight. It is a weaker choice for founders whose primary audience is tier-1 VCs, crypto-native investors, or leading journalists, all of whom are likely to recognise the paid label and may view it as a negative signal. The decision hinges on who you are trying to move, not on the Forbes name itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the best alternatives to Forbes Councils for crypto and AI founders?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Earned placement on CoinDesk Opinion, Cointelegraph, Decrypt, The Block, and Blockworks carries significantly more credibility with crypto and AI audiences than Forbes Councils content. For mainstream tech credibility, a pitched Forbes or TechCrunch story written by an editorial journalist is the target. The op-ed format and the press release format each have different jobs; mapping those before choosing a channel prevents wasted spend."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can Forbes Councils articles rank on Google and help with AI search?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, and this is one of the genuine advantages. The Forbes domain has strong SEO authority, and a well-structured Councils article targeting a specific query can rank credibly. The AI-search value is moderate: the expert byline provides an authorship signal, but editorial articles from tier-1 outlets tend to be cited more often in AI Overviews than contributor content. If SEO and GEO visibility are the goal, the most efficient path is combining Councils content with earned placements on high-authority editorial outlets so the two signal layers reinforce each other."
+          }
+        }
+      ]
+    }
+  ]
+}

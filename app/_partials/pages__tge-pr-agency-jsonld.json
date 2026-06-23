@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/tge-pr-agency#service",
+      "name": "TGE PR Agency — Token Generation Event Comms",
+      "serviceType": "Token Launch / TGE PR",
+      "url": "https://www.shilikajain.com/pages/tge-pr-agency",
+      "description": "A fractional senior operator who runs the eight-week comms window around your token generation event: narrative lock-in, tier-1 media embargo, KOL waves and crisis prep. $15K–$40K as a launch sprint or $5K–$12K/month on retainer. Shilika Jain has run TGE comms for RARI Chain (11 tier-1 placements in 24 hours) and MANTRA Chain ($11M raise, CoinDesk exclusive).",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global", "United States", "South Korea", "Japan", "India", "Singapore", "United Arab Emirates"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 15000,
+          "maxPrice": 40000,
+          "priceCurrency": "USD",
+          "unitText": "LAUNCH_SPRINT"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "TGE PR Agency", "item": "https://www.shilikajain.com/pages/tge-pr-agency" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/tge-pr-agency#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a TGE PR agency and who is it for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A TGE PR agency plans and executes the media, KOL and narrative programme around a token generation event. It is for Web3 founders who have a listing date on the calendar and need tier-1 press coverage, exchange BD credibility and community momentum to land together, not in a staggered trickle. The highest-value window opens eight weeks before listing and closes four weeks after."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does TGE PR cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A dedicated launch sprint runs $15K–$40K over four to eight weeks and covers narrative, embargo management, KOL briefing and crisis prep. A monthly retainer from $5K–$12K suits founders who want sustained comms into and beyond the TGE. Traditional agencies charge $15K–$45K per month with a multi-person account team; a fractional senior operator delivers the same senior scope without the markup. KOL tiers run separately: nano $200–$1.5K, micro $500–$5K, mid $10K–$30K, macro $25K–$100K+."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which outlets can you actually place TGE coverage in?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tier-1 crypto: CoinDesk, Cointelegraph, The Block, Decrypt, Blockworks, The Defiant. Mainstream where the token story warrants it: Forbes, Bloomberg, Yahoo Finance, Benzinga. APAC: BloomingBit and TokenPost (Korea), CryptoTimes JP and CoinPost (Japan), ChainCatcher and Jinse (China), Inc42 (India), e27 (SEA). Coverage requires a real narrative hook tied to your TGE, not a generic listing announcement sent over a wire."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When should I start TGE PR and what does the process look like?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The eight-week window before listing is the minimum. Week one to two covers narrative and media map. Weeks three to six run journalist outreach, embargo setup and KOL briefing. The final two weeks execute the simultaneous embargo drop and KOL wave on or just before listing day. Post-TGE sustain runs for four weeks after. Starting later compresses the embargo window, which reduces the number of tier-1 journalists who can turn a piece around in time."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get started with TGE PR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short brief through the intent form with your listing date, target exchanges and the one angle that makes your token different. You will get a reply within 24 hours with an honest read on your press footprint and whether the window is workable. Or book a 30-minute call to plot it live. No deck required, no introductory account-team call."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/crypto-pr-vietnam-2026#article",
+      "headline": "Crypto PR in Vietnam in 2026",
+      "alternativeHeadline": "Vietnam media map, community access and adoption-led narrative for crypto founders running SEA campaigns",
+      "description": "Vietnam ranks top three globally for crypto adoption but is one of the least understood markets for Western PR. This 2026 playbook covers Vietnamese-language outlets, Telegram and Zalo community access, KOL economics, and how to sequence a launch campaign that lands in Hanoi and Ho Chi Minh City, not just in San Francisco.",
+      "url": "https://www.shilikajain.com/playbook/crypto-pr-vietnam-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/crypto-pr-vietnam-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2050,
+      "timeRequired": "PT8M",
+      "articleSection": "APAC",
+      "keywords": [
+        "crypto PR Vietnam",
+        "Vietnam crypto media",
+        "Web3 PR Southeast Asia",
+        "Vietnamese crypto KOL",
+        "APAC crypto PR 2026",
+        "CoinCu Coin68 media",
+        "Vietnam blockchain community",
+        "DePIN Vietnam",
+        "crypto PR",
+        "SEA crypto launch strategy"
+      ],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "Crypto PR" },
+        { "@type": "Thing", "name": "Vietnam cryptocurrency market" },
+        { "@type": "Thing", "name": "Southeast Asia blockchain" },
+        { "@type": "Thing", "name": "KOL marketing" },
+        { "@type": "Thing", "name": "DePIN" },
+        { "@type": "Thing", "name": "Web3 community management" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "CoinCu" },
+        { "@type": "Organization", "name": "Coin68" },
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "Cointelegraph" },
+        { "@type": "Organization", "name": "VnEconomy" },
+        { "@type": "Organization", "name": "VietnamNet" },
+        { "@type": "Organization", "name": "BeInCrypto Vietnam" },
+        { "@type": "Organization", "name": "KrASIA" },
+        { "@type": "Organization", "name": "Fluence Network" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "Crypto PR in Vietnam in 2026", "item": "https://www.shilikajain.com/playbook/crypto-pr-vietnam-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/crypto-pr-vietnam-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does crypto PR in Vietnam require a separate strategy from the rest of APAC?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vietnam has one of the highest crypto adoption rates in the world but a media and community ecosystem that is almost entirely Vietnamese-language and community-first. English-tier press placements in CoinDesk or Cointelegraph do not move the Vietnamese retail or builder audience. You need Vietnamese-language outlet placements, Telegram and Zalo community access, and KOL relationships built through the local market. The APAC PR service covers the coordination layer across the whole region, but Vietnam requires deliberate localisation on top of that."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which Vietnamese crypto media outlets should a Web3 project target first?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CoinCu and Coin68 are the two highest-priority editorial targets for most protocols: they have the broadest reach among retail and builder audiences and genuine editorial standards. For mainstream business press and regulatory positioning, VnEconomy and VietnamNet have expanded crypto coverage significantly since 2023. BeInCrypto Vietnam and CryptoViet add syndication reach at the retail tier. Build the editorial relationships before launch, not at the moment you need coverage."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How important are Telegram and Zalo for crypto PR in Vietnam?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "They are primary, not secondary. In Vietnam, community channels are where the retail market first encounters and evaluates a protocol. A CoinCu feature lands in hundreds of Telegram and Zalo groups within hours of publication, and projects without active community presence in those channels lose the follow-through audience that converts media coverage into actual user growth. Vietnamese crypto Telegram groups regularly reach 50,000 to 150,000 members, and Zalo communities add a layer the English-language tools cannot reach at all."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What narrative angles perform best in the Vietnamese crypto market?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Three angles consistently earn editorial and community traction. First, remittance and financial inclusion: Vietnam receives roughly $14 billion in annual remittances and any credible cost-reduction story resonates immediately. Second, DePIN node operator economics: Vietnam is one of the largest node operator markets globally and the audience understands yield on infrastructure investment. Third, regulatory readiness: as Vietnam develops its digital asset framework, protocols that can demonstrate genuine compliance positioning earn a new kind of institutional coverage that was not available two years ago."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does Vietnam-specific PR cost as part of an APAC campaign?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Vietnam-specific layer, covering Vietnamese-language press, KOL activation and community management, typically adds $3,000 to $8,000 per month to a regional programme, or sits inside a full APAC PR retainer running $5,000 to $12,000 per month at the fractional senior operator level. Launch sprint packages that include Vietnam alongside Singapore and the broader SEA tier typically run $15,000 to $40,000 for a concentrated 6-to-10-week campaign."
+          }
+        }
+      ]
+    }
+  ]
+}

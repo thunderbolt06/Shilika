@@ -1,0 +1,134 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/how-to-build-founder-thought-leadership-2026#article",
+      "headline": "How to Build Founder Thought Leadership in 2026",
+      "alternativeHeadline": "The four-track system: bylined editorial, op-ed cadence, speaking, and author-entity build for AI citation",
+      "description": "Founder thought leadership in 2026 is a system, not a content calendar. This playbook covers the four parallel tracks, bylined editorial, op-ed cadence, conference speaking and author-entity build, with cadence targets, channel matrix, cost breakdown and the AI-search layer that makes it compound.",
+      "url": "https://www.shilikajain.com/playbook/how-to-build-founder-thought-leadership-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/how-to-build-founder-thought-leadership-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2190,
+      "timeRequired": "PT10M",
+      "articleSection": "Founder",
+      "keywords": [
+        "thought leadership",
+        "founder thought leadership 2026",
+        "founder personal brand Web3",
+        "bylined editorial crypto",
+        "op-ed for founders",
+        "author entity build",
+        "generative engine optimization founders",
+        "AI citation strategy",
+        "founder PR strategy",
+        "speaking for founders"
+      ],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "Thought leadership" },
+        { "@type": "Thing", "name": "Founder personal brand" },
+        { "@type": "Thing", "name": "Bylined editorial" },
+        { "@type": "Thing", "name": "Generative engine optimization" },
+        { "@type": "Thing", "name": "Author entity" },
+        { "@type": "Thing", "name": "Op-ed" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "Cointelegraph" },
+        { "@type": "Organization", "name": "Forbes" },
+        { "@type": "Organization", "name": "Decrypt" },
+        { "@type": "Organization", "name": "The Block" },
+        { "@type": "Organization", "name": "Blockworks" },
+        { "@type": "Organization", "name": "VentureBeat" },
+        { "@type": "Organization", "name": "Dark Reading" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "How to Build Founder Thought Leadership in 2026", "item": "https://www.shilikajain.com/playbook/how-to-build-founder-thought-leadership-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/how-to-build-founder-thought-leadership-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to build genuine founder thought leadership?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The honest answer is six to twelve months of consistent output before you see compounding effects, meaning editors pitch you, journalists quote you without prompting, and AI engines include you in category answers. The first three months are about building the essay map and placing the initial bylines. Months four through six are where the entity signals start to consolidate and the referral loop from editors and journalists kicks in. Founders who start six months before a raise consistently outperform those who start the week before."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the most important channel for founder thought leadership in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bylined editorial on named publications, specifically opinion and guest desks at outlets like CoinDesk, Cointelegraph, Forbes, Decrypt and The Block for Web3 founders. Bylined writing is the only format that simultaneously builds the founder's author-entity signals for AI search, gives reporters a reference point before they pitch, and creates a permanent citation asset that compounds over time. Social media and podcasts support the system but do not anchor it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a PR agency to build thought leadership, or can I do it myself?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can start without an agency: write one defensible position essay, pitch one publication, and build your author entity layer before the piece runs. But scaling the system, meaning consistent placements across multiple publications, a speaking cadence, and a podcast tour, requires either a fractional senior operator at $5,000 to $12,000 per month or a full agency at $15,000 to $45,000 per month. The bottleneck is not the founder's ideas; it is the editorial craft, media relationships and coordination required to maintain cadence."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does thought leadership help with fundraising?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lead investors at the $10 million to $50 million check size research founders before the first call, and a Google or Perplexity search that returns a coherent body of published thinking is a meaningful trust signal. Bylined essays in CoinDesk Opinion, Forbes or Cointelegraph carry implicit editorial endorsement that an LP deck does not. Several founders benefit from having LPs reference specific op-eds during diligence calls, because the essay had already answered the category question the LP was trying to evaluate. Credibility compounds harder than CAC, and the thought-leadership system is how you build it before you need it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between thought leadership and personal branding?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Personal branding is about recognition: making the market know who you are. Thought leadership is about authority: making the market trust your analysis of where a category is going. The two overlap but the inputs are different. Personal branding is driven by volume and consistency. Thought leadership is driven by the quality and originality of the positions you take, and whether those positions turn out to be right before they are obvious. The best founder programs run both, using personal branding channels like LinkedIn and podcasts to distribute thought-leadership content from editorial placements, so each track feeds the other."
+          }
+        }
+      ]
+    }
+  ]
+}

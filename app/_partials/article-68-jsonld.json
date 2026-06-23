@@ -1,0 +1,133 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/how-to-get-podcast-interviews-founder-2026#article",
+      "headline": "How to Get Podcast Interviews as a Founder in 2026",
+      "alternativeHeadline": "Target-list building, host pitching, and turning one podcast tour into a quarter of compounding founder authority",
+      "description": "Podcasts are the most underrated founder channel. This 2026 playbook covers how to build a tiered podcast target list, pitch hosts who actually book guests, structure a 6-show tour like the Gaia AI campaign, and repurpose every episode into four to six weeks of owned content.",
+      "url": "https://www.shilikajain.com/playbook/how-to-get-podcast-interviews-founder-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/how-to-get-podcast-interviews-founder-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2050,
+      "timeRequired": "PT8M",
+      "articleSection": "Founder",
+      "keywords": [
+        "how to build personal brand as startup founder",
+        "podcast interviews for founders",
+        "founder podcast strategy 2026",
+        "how to get booked on podcasts",
+        "podcast pitch for founders",
+        "founder thought leadership",
+        "Web3 founder podcast",
+        "AI startup personal brand",
+        "founder profiling",
+        "podcast repurposing strategy"
+      ],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "Podcast guest strategy" },
+        { "@type": "Thing", "name": "Founder personal brand" },
+        { "@type": "Thing", "name": "Thought leadership" },
+        { "@type": "Thing", "name": "Content repurposing" },
+        { "@type": "Thing", "name": "Podcast pitching" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "Gaia AI" },
+        { "@type": "Organization", "name": "Forbes" },
+        { "@type": "Organization", "name": "Decrypt" },
+        { "@type": "Organization", "name": "Benzinga" },
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "Blockworks" },
+        { "@type": "Organization", "name": "Cointelegraph" },
+        { "@type": "Organization", "name": "The Block" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "How to Get Podcast Interviews as a Founder in 2026", "item": "https://www.shilikajain.com/playbook/how-to-get-podcast-interviews-founder-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/how-to-get-podcast-interviews-founder-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I get booked on podcasts as a startup founder with no profile yet?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Start with niche shows in your exact vertical rather than well-known general shows. A DePIN founder should pitch DePIN-specific podcasts; an AI founder should pitch AI operator and developer shows. These hosts are far more reachable, their audiences are exactly right, and a strong episode there builds the credibility that makes larger shows say yes later. Lead with a specific angle for their audience, not your funding or your journey."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to get booked on a podcast?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Niche shows with under 10,000 listeners per episode typically book within two to four weeks of a successful pitch. Mid-tier shows with 10,000 to 50,000 listeners tend to run four to eight weeks lead time. Tier-1 shows like Unchained or Bankless can run three to six months or more for non-celebrity guests, if they book at all without an existing relationship. Plan your campaign around these lead times rather than assuming you can book a slot for a launch week with one week's notice."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What makes a good founder podcast pitch?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A good pitch is under 150 words, leads with the specific angle you'd bring to that show's audience, includes one concrete proof point (a raise, a notable partner, a media placement, a stat), and shows you have actually listened to recent episodes. The subject line should contain the topic angle, not just 'podcast guest pitch.' Never send the same pitch to every show. Hosts can tell, and it signals you don't actually know their programme."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I repurpose a podcast episode once it's published?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The episode transcript is the raw material for a LinkedIn essay, a newsletter section, an SEO article, and 3 to 5 short video or audiogram clips. Plan to extract at least five to seven distinct content assets from every episode before you move to the next booking. A single 45-minute conversation, properly repurposed, can run a month of owned-channel content and generate inbound visibility from audiences who never listen to podcasts at all."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I pay to get booked on podcasts?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Some shows, particularly in the crypto space, charge guests a sponsorship fee for what is effectively a paid booking. For well-known shows with genuinely relevant audiences, this can be worth evaluating on the same ROI logic as any other paid channel. For smaller shows or shows with mismatched audiences, it is almost always a poor use of budget. Editorial bookings, earned through a strong pitch and credible founder profile, consistently outperform paid placements in terms of credibility transfer and follow-on opportunity."
+          }
+        }
+      ]
+    }
+  ]
+}

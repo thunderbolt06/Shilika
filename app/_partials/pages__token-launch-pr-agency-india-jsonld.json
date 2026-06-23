@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/token-launch-pr-agency-india#service",
+      "name": "Token Launch PR Agency India — Fractional Senior Operator",
+      "serviceType": "Token Launch / TGE PR",
+      "url": "https://www.shilikajain.com/pages/token-launch-pr-agency-india",
+      "description": "Dual-track token launch PR for India-based and India-targeting founders: crypto-native tier-1 coverage (CoinDesk, Cointelegraph, Decrypt) running in parallel with domestic India editorial (Inc42, Economic Times Crypto, The Ken), timed to one compliant launch window. Fractional senior operator model at $5K–$12K/month or $15K–$40K launch sprint.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global", "India", "United States", "Singapore", "United Arab Emirates", "South Korea", "Japan"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 5000,
+          "maxPrice": 12000,
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "Token Launch PR Agency India", "item": "https://www.shilikajain.com/pages/token-launch-pr-agency-india" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/token-launch-pr-agency-india#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a token launch PR agency in India and who needs one?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A token launch PR agency for India is a practitioner or firm that manages the media, narrative and community communications around a TGE for projects with an Indian founder base, Indian retail audience, or both. You need one if your project is incorporated in India, if a significant portion of your token sale targets Indian retail investors, or if you need domestic editorial credibility alongside global crypto-native coverage. The work is distinct from a standard Web3 PR retainer because it requires simultaneous management of two editorial audiences with different vocabulary, different compliance sensitivities and different publication relationships."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does token launch PR cost for an India-focused project?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fractional senior operator running a dual-track India launch costs $5K–$12K per month on a retainer engagement. A contained launch sprint, covering four to eight weeks from brief to post-TGE amplification, runs $15K–$40K. Full agency retainers for comparable scope typically price at $15K–$45K per month because they staff a multi-person account team. The fractional model removes that markup without reducing the seniority of the person pitching editors and briefing KOLs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which Indian and global outlets do you target for a token launch?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Domestic India track: Inc42, Economic Times Crypto, The Ken (where angle warrants), YourStory, CoinCrunch India and relevant Hindi and regional vernacular crypto communities. Global crypto-native track: CoinDesk, Cointelegraph, The Block, Decrypt, Blockworks, Benzinga and Forbes where the story warrants mainstream placement. Both tracks run in the same launch window so no outlet breaks the story ahead of the embargo lift."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you handle the compliance sensitivity around token launches in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Every press asset, press release, media brief and KOL talking-points document is written from the first draft with compliance language in mind: no claims that read as financial advice, no retail solicitation framing, no language that would require a full rewrite after a legal review. The domestic India pitch to editors at Economic Times or Inc42 is explicitly framed around the technology, ecosystem and team, not token price or return expectations. This is not a last-minute legal pass; it is baked into the narrative architecture from the start."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I start a token launch PR engagement for my India project?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short project brief through the intent form on this page. Include your TGE timeline, any existing coverage, your target audience split between Indian retail and global crypto, and your compliance status. You will get a reply within 24 hours with a quick read on your press footprint and a suggested approach. Alternatively, book a 30-minute call at calendly.com/shilikajain/30min and we will map the dual-track strategy live. No deck required and no agency intro call with six people on it."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/b2b-tech-pr-guide-2026#article",
+      "headline": "B2B Tech PR in 2026: What's Different",
+      "alternativeHeadline": "Category narrative, analyst relations and customer proof for B2B tech and TGE PR",
+      "description": "B2B PR sells to a buying committee of six to ten stakeholders, not a crowd. This 2026 guide covers category narrative architecture, analyst relations timelines, customer proof formats, TGE PR strategy, media tier selection and fractional operator pricing for AI, Web3 and cybersecurity founders.",
+      "url": "https://www.shilikajain.com/playbook/b2b-tech-pr-guide-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/b2b-tech-pr-guide-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2050,
+      "timeRequired": "PT9M",
+      "articleSection": "Strategy",
+      "keywords": ["TGE PR", "B2B tech PR", "B2B PR strategy 2026", "analyst relations for startups", "buying committee narrative", "enterprise AI PR", "token generation event PR", "category narrative B2B", "fractional PR operator", "B2B SaaS PR agencies"],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "B2B public relations" },
+        { "@type": "Thing", "name": "Token Generation Event" },
+        { "@type": "Thing", "name": "Analyst relations" },
+        { "@type": "Thing", "name": "Category narrative" },
+        { "@type": "Thing", "name": "Buying committee" },
+        { "@type": "Thing", "name": "Customer case study" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "Gartner" },
+        { "@type": "Organization", "name": "Forrester" },
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "The Block" },
+        { "@type": "Organization", "name": "Blockworks" },
+        { "@type": "Organization", "name": "Dark Reading" },
+        { "@type": "Organization", "name": "Messari" },
+        { "@type": "Organization", "name": "Delphi Digital" },
+        { "@type": "Organization", "name": "TechCrunch" },
+        { "@type": "Organization", "name": "Forbes" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "B2B Tech PR in 2026: What's Different", "item": "https://www.shilikajain.com/playbook/b2b-tech-pr-guide-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/b2b-tech-pr-guide-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is B2B tech PR and how is it different from consumer PR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "B2B tech PR is the discipline of building credibility with a buying committee, typically six to ten stakeholders, who independently research a vendor before any sales conversation. Unlike consumer PR, which targets a broad audience through high-volume coverage, B2B PR targets specific practitioners, analysts and executives with content that survives internal forwarding. The KPIs are analyst inclusion, vertical trade press placement and customer proof, not impressions or social mentions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is TGE PR and how does it differ from standard crypto launch PR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "TGE PR, or Token Generation Event PR, is the narrative and credibility work that surrounds a token launch. Standard crypto launch PR focuses on KOL volume, social buzz and exchange announcements. TGE PR that builds lasting value targets institutional allocators, protocol integrators and developer communities using analyst briefings, founder bylines and named customer proof. The frame borrows from B2B enterprise PR, not from consumer hype, because the buyers who matter are committee-style decision-makers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When should a B2B tech founder invest in analyst relations?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Start analyst relations when your target buyers use analysts as part of their vendor evaluation, which typically kicks in at deal sizes above $50K ARR or when selling to enterprise procurement processes. The timeline from first briefing to inclusion in relevant coverage is 12 to 18 months, so the right time to start is always earlier than it feels urgent. At minimum, request introductory briefings with two to three relevant analysts in your first year of selling enterprise."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does B2B PR cost for an AI startup or Web3 protocol?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fractional senior B2B PR operator runs $5,000 to $12,000 per month, which covers narrative building, media relations, analyst briefing support and founder byline placement. A full agency runs $15,000 to $45,000 per month. A launch sprint for a TGE or major product launch runs $15,000 to $40,000 flat. For AI startup founders, fractional operator engagements cover the full stack from category narrative through to analyst relations and editorial placement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What customer proof format works best for B2B tech PR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A short, 400 to 600-word narrative case study with a named client, a specific outcome and a direct executive quote outperforms a long PDF case study in almost every B2B context. It is short enough to be forwarded internally, specific enough to be credible, and named enough to pass the 'can I send this to my CFO' test. This format can be placed in vertical trade press as an editorial piece, syndicated to a founder newsletter and optimised to appear in AI-search answers when buyers research your category."
+          }
+        }
+      ]
+    }
+  ]
+}

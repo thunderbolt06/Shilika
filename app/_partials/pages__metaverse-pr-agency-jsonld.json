@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/metaverse-pr-agency#service",
+      "name": "Metaverse PR Agency — Fractional Senior Operator",
+      "serviceType": "Web3 PR",
+      "url": "https://www.shilikajain.com/pages/metaverse-pr-agency",
+      "description": "PR for metaverse and blockchain gaming projects grounded in product and community, not 2021 hype. A fractional senior operator who covers both the gaming press and the crypto media stack, at $5K–$12K/month. Bullieverse $4M seed placed across India and global dual-track coverage. 50+ Web3 and gaming founders placed in Forbes, CoinDesk, Decrypt, The Block and Benzinga.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global", "United States", "India", "South Korea", "Japan", "Singapore", "United Arab Emirates"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 5000,
+          "maxPrice": 12000,
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "Metaverse PR Agency", "item": "https://www.shilikajain.com/pages/metaverse-pr-agency" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/metaverse-pr-agency#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a metaverse PR agency and who is it for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A metaverse PR agency pitches immersive, gaming and virtual-world projects to the press and community channels that matter: gaming media for the product story, crypto and blockchain desks for the token or on-chain economy, and regional outlets where your player base lives. It is for founders building persistent worlds, blockchain gaming studios, virtual IP platforms, and digital-economy projects that need coverage grounded in product rather than 2021 hype. A fractional operator like Shilika Jain runs this scope directly at $5K–$12K/month."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does metaverse or gaming PR cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Traditional agencies charge $15K–$45K per month to staff a multi-person team, most of whom are generalists who have never pitched a gaming journalist. A fractional senior operator who covers both verticals runs $5K–$12K per month. A scoped launch sprint, four to eight weeks around a mint, world release or token event, runs $15K–$40K. KOL activations are priced separately: nano-tier $200–$1.5K, micro-tier $500–$5K, mid-tier $10K–$30K per placement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which outlets cover metaverse and blockchain gaming projects?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gaming press: IGN, Polygon, PC Gamer, Kotaku and Eurogamer for product; Decrypt, CoinDesk, Cointelegraph and The Block for the on-chain angle. Mainstream tech: Forbes, Wired, TechCrunch for round-sized stories or IP breakthroughs. Regional: Inc42 and GameIndia for Indian studios, BloomingBit and GameMeca for Korea, Forkast for APAC. Coverage depends on a real news hook, not a press release blast."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does the process look like and how long does it take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The first two weeks are a teardown: current press footprint, community size, product readiness and the one story worth telling. Week three produces the narrative brief and the journalist map. Launch outreach starts in week four with embargo pitches going out six to ten days before the announcement. A single news cycle with coordinated placements is achievable in four to six weeks from first call if the product hook is clear. Ongoing coverage compounds from there on a monthly retainer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get started with Shilika Jain for metaverse PR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short project brief through the intent form at shilikajain.com/pages/metaverse-pr-agency and you will get a reply within 24 hours with a quick read on your press footprint, or book a 30-minute call to plot the narrative live. No pitch deck required, no account-team intro call."
+          }
+        }
+      ]
+    }
+  ]
+}

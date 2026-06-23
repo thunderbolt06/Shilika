@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/ai-startup-pr-agency#service",
+      "name": "AI Startup PR Agency — Fractional Senior Operator",
+      "serviceType": "AI Startup PR",
+      "url": "https://www.shilikajain.com/pages/ai-startup-pr-agency",
+      "description": "Tier-1 AI PR from a fractional senior operator who pitches Forbes, TechCrunch, The Information and AI Magazine directly, builds AI-search citation presence, and runs podcast strategy, for $5K–$12K/month. Gaia AI placed as 'the Stripe for AI agents' in Forbes, Decrypt and Benzinga, plus a six-podcast tour that compounded into sustained AI-search visibility.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global", "United States", "United Kingdom", "Singapore", "India", "United Arab Emirates", "South Korea"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 5000,
+          "maxPrice": 12000,
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "AI Startup PR Agency", "item": "https://www.shilikajain.com/pages/ai-startup-pr-agency" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/ai-startup-pr-agency#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is an AI startup PR agency and who is it for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An AI startup PR agency runs media strategy specifically for AI companies: positioning the company in a category, pitching journalists at Forbes, TechCrunch, The Information and AI Magazine, booking podcast appearances, and building the AI-search footprint that gets cited by ChatGPT and Perplexity. It is the right fit for AI founders preparing a fundraise announcement, a product launch, a Series A or a sustained thought-leadership presence. The fractional model at Shilika Jain's AI startup PR service runs the same senior scope for $5K–$12K/month, without the account-team markup of a traditional agency."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does AI startup PR cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Traditional AI PR agencies charge $15K–$45K per month because the retainer supports a multi-person account team. A fractional senior operator runs the same strategic and execution scope for $5K–$12K per month. A focused launch sprint covering a single announcement window, such as a Series A or product launch, runs $15K–$40K over four to eight weeks. The cost difference reflects structure, not seniority."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which outlets can you actually place an AI startup in?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tier-1 AI and tech: Forbes, TechCrunch, The Information, AI Magazine, VentureBeat, Wired. Crypto-adjacent AI: CoinDesk, Decrypt, Benzinga, Blockworks. Podcasts: targeted show placements on AI-focused programmes with audiences that compound into transcript and AI-search citations. Coverage depends on a specific news hook and a story angle an editor can defend to their audience, not a wire blast."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does the process look like and how long before results?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The engagement opens with a teardown of your current press footprint and category position, usually in the first two weeks. The narrative and journalist map follow, then embargo outreach begins four to six weeks before your announcement date. Tier-1 placements typically land on or around the announcement. Podcast bookings and AI-search citation work build over the following six to twelve weeks. A sustained retainer compounds those placements into a recognised category position over one to two quarters."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get started with AI startup PR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short project brief using the intent form and you will get a reply within 24 hours with a quick read on your current press footprint and what angle is worth pursuing, or book a 30-minute call to plot it live. No deck required, no account-team intro call."
+          }
+        }
+      ]
+    }
+  ]
+}

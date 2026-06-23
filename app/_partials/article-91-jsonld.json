@@ -1,0 +1,132 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/cybersecurity-analyst-relations-2026#article",
+      "headline": "Cybersecurity Analyst Relations in 2026: Gartner, Forrester and IDC",
+      "alternativeHeadline": "How cybersecurity vendors earn Magic Quadrant and Wave inclusion: briefing cadence, AR vs PR, and the twelve-month roadmap",
+      "description": "Analysts shape the enterprise shortlist before press ever runs. This 2026 playbook covers how cybersecurity vendors build Gartner, Forrester and IDC relationships, what Magic Quadrant and Wave inclusion actually requires, the right briefing cadence, and how AR and PR must stay in sync.",
+      "url": "https://www.shilikajain.com/playbook/cybersecurity-analyst-relations-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/cybersecurity-analyst-relations-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2050,
+      "timeRequired": "PT10M",
+      "articleSection": "Cybersecurity Communications",
+      "keywords": [
+        "cybersecurity communications",
+        "analyst relations cybersecurity",
+        "Gartner Magic Quadrant inclusion",
+        "Forrester Wave briefing",
+        "cybersecurity PR 2026",
+        "AR vs PR cybersecurity",
+        "Gartner briefing cadence",
+        "enterprise security vendor shortlist",
+        "IDC MarketScape",
+        "fractional PR cybersecurity"
+      ],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "Analyst relations" },
+        { "@type": "Thing", "name": "Magic Quadrant" },
+        { "@type": "Thing", "name": "Forrester Wave" },
+        { "@type": "Thing", "name": "Cybersecurity communications" },
+        { "@type": "Thing", "name": "Enterprise vendor shortlisting" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "Gartner" },
+        { "@type": "Organization", "name": "Forrester" },
+        { "@type": "Organization", "name": "IDC" },
+        { "@type": "Organization", "name": "Dark Reading" },
+        { "@type": "Organization", "name": "SecurityWeek" },
+        { "@type": "Organization", "name": "CyberScoop" },
+        { "@type": "Organization", "name": "SC Magazine" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "Cybersecurity Analyst Relations in 2026: Gartner, Forrester and IDC", "item": "https://www.shilikajain.com/playbook/cybersecurity-analyst-relations-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/cybersecurity-analyst-relations-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How does a cybersecurity vendor get included in the Gartner Magic Quadrant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You must first meet the published inclusion criteria for the specific MQ, which typically include minimum revenue, a minimum number of enterprise customers, geographic presence, and product completeness across the research scope. Meeting criteria makes you eligible, not guaranteed. From there, you submit to be nominated, respond to the RFI questionnaire in full and on time, participate in a structured analyst briefing, and provide enterprise customer references for independent verification. The full cycle from first briefing to published placement commonly runs twelve to eighteen months."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between analyst relations and PR in cybersecurity?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PR builds credibility with journalists and the public content layer, placing your brand in outlets like Dark Reading, SC Magazine, SecurityWeek and Forbes. AR builds credibility with the small number of analysts at Gartner, Forrester and IDC whose written research shapes enterprise shortlists. They target different audiences at different stages of the buying cycle and cannot substitute for each other. A full cybersecurity communications program in 2026 needs both running in parallel, with a unified narrative across both tracks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How often should a cybersecurity vendor brief Gartner and Forrester analysts?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Three to four times per year per covering analyst, as a minimum, outside of any active research cycle. The baseline is a quarterly update briefing of sixty minutes covering product progress, customer evidence and competitive positioning. Add a thirty-minute news briefing whenever something material happens, and always before the public announcement. Reactive briefing only when you have news is one of the most common AR mistakes and one of the clearest signals to analysts that a vendor does not take the relationship seriously."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does buying Gartner advisory services improve Magic Quadrant placement?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Gartner's editorial research, including the Magic Quadrant, is independent of its advisory and vendor inquiry subscription products. Purchasing inquiry access gives you more dialogue with analysts and faster feedback on your positioning, which is genuinely useful. But it does not influence the research placement, which is based on product reality, customer evidence and market execution as assessed by the analyst team. Confusing the two tracks is an expensive and common mistake."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When should a Series A cybersecurity vendor start analyst relations?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At Series A, or immediately after, if the relevant Magic Quadrant or Wave is on a twelve to eighteen month cycle. The analyst who first briefs on your category forms a model of the market that takes sustained effort to update. Vendors who brief early, even with an early-stage product, build an eighteen-month head start over competitors who wait until the product is more polished. See the cybersecurity PR agency pricing guide for how AR fits into a lean communications budget at this stage."
+          }
+        }
+      ]
+    }
+  ]
+}

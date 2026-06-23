@@ -1,0 +1,136 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/blockchain-gaming-pr-2026#article",
+      "headline": "Blockchain Gaming PR in 2026: How to Promote a Web3 Game",
+      "alternativeHeadline": "Dual-track PR for blockchain games: separate narratives for gaming press and crypto media run in parallel",
+      "description": "Web3 games have two audiences with incompatible language: gamers want to know if the game is fun, crypto investors want to know if the token model holds. This 2026 playbook covers dual-track PR architecture, outlet maps for gaming and crypto press, KOL strategy for bridge creators, the Bullieverse India dual-track lesson, and how to sequence both tracks around a launch without alienating either audience.",
+      "url": "https://www.shilikajain.com/playbook/blockchain-gaming-pr-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/blockchain-gaming-pr-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2911,
+      "timeRequired": "PT9M",
+      "articleSection": "Strategy",
+      "keywords": [
+        "blockchain PR",
+        "blockchain gaming PR",
+        "Web3 game marketing",
+        "crypto gaming press",
+        "dual-track PR",
+        "Web3 PR campaigns",
+        "gaming influencer marketing",
+        "KOL marketing Web3",
+        "APAC gaming PR",
+        "Bullieverse PR"
+      ],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "Blockchain gaming" },
+        { "@type": "Thing", "name": "Public relations" },
+        { "@type": "Thing", "name": "Dual-track PR" },
+        { "@type": "Thing", "name": "Play-to-earn" },
+        { "@type": "Thing", "name": "NFT gaming" },
+        { "@type": "Thing", "name": "Web3 marketing" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "Cointelegraph" },
+        { "@type": "Organization", "name": "Decrypt" },
+        { "@type": "Organization", "name": "The Block" },
+        { "@type": "Organization", "name": "GamesBeat" },
+        { "@type": "Organization", "name": "Pocket Gamer" },
+        { "@type": "Organization", "name": "Inc42" },
+        { "@type": "Organization", "name": "Bullieverse" },
+        { "@type": "Organization", "name": "BloomingBit" },
+        { "@type": "Organization", "name": "TokenPost" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "Blockchain Gaming PR in 2026: How to Promote a Web3 Game", "item": "https://www.shilikajain.com/playbook/blockchain-gaming-pr-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/blockchain-gaming-pr-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is blockchain gaming PR and why does it need two tracks?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Blockchain gaming PR is the campaign architecture that earns coverage for a Web3 game across both gaming media and crypto media. It needs two tracks because gaming journalists and crypto reporters have structurally different editorial cultures, different language expectations and different definitions of what makes a story worth covering. A single pitch that tries to serve both reads as off-topic to both. The dual-track approach builds separate pitches, separate spokespeople and separate timing for each audience, so each story lands on its own terms."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I pitch a Web3 game to gaming press without losing the crypto angle?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You do not include the crypto angle in the gaming pitch at all, or you include it once, briefly, as a player benefit stated in plain English. Gaming journalists cover games as products and cultural objects. Lead with the gameplay hook, the genre, the studio's track record and a playable demo if you have one. The token mechanics belong in the crypto press pitch, not the gaming pitch. The two pitches can go out on the same launch day without contradicting each other because they are going to different people."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which crypto outlets cover blockchain gaming?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The tier-1 outlets are CoinDesk, Cointelegraph, Decrypt and The Block for global crypto coverage. Blockworks and NFT Now cover the gaming and NFT layer specifically. For regional depth, BloomingBit and TokenPost in Korea, CryptoTimes JP in Japan, and Inc42 and YourStory in India are the outlets where a real gaming story lands well, especially if the studio has a regional presence. The APAC PR program builds the regional outlet map and native-language syndication into the campaign from day one."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does blockchain gaming PR cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fractional senior PR operator working on a blockchain gaming launch typically runs $5,000 to $12,000 per month. A full agency engagement runs $15,000 to $45,000 per month. A launch sprint covering both the gaming and crypto tracks, with press kit creation, pitching and KOL coordination, typically runs $15,000 to $40,000 as a project fee. KOL activations sit on top of that: nano creators $200 to $1,500 per post, micro $500 to $5,000, mid-tier $10,000 to $30,000 for the bridge creators who can reach both audiences in a single piece of content."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What did the Bullieverse launch teach you about dual-track gaming PR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Bullieverse $4M seed launch demonstrated that adding a regional dimension to the dual-track framework multiplies the coverage surface without splitting the message. We ran a crypto track for global Web3 press and a separate India track for Inc42, YourStory and regional gaming outlets, where the India-headquartered studio angle was its own genuine story. The two tracks never contradicted each other because they were not the same pitch. They were two true framings of the same company, delivered to audiences who read entirely different publications."
+          }
+        }
+      ]
+    }
+  ]
+}

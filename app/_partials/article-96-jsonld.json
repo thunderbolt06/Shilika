@@ -1,0 +1,124 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/how-to-get-cited-by-chatgpt-2026#article",
+      "headline": "How to Get Your Brand Cited by ChatGPT and Perplexity in 2026",
+      "alternativeHeadline": "Named-entity consistency, quotable expertise, and earned editorial coverage: the citation system that works in 2026",
+      "description": "Citations from ChatGPT, Perplexity and Google AI Mode come from named-entity consistency, quotable expert attribution, and tier-one editorial coverage. This 2026 playbook covers the concrete GEO tactics that turn earned media into durable answer-engine mentions for AI startup founders.",
+      "url": "https://www.shilikajain.com/playbook/how-to-get-cited-by-chatgpt-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/how-to-get-cited-by-chatgpt-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2100,
+      "timeRequired": "PT9M",
+      "articleSection": "AI Search",
+      "keywords": ["AI startup PR", "get cited by ChatGPT", "Perplexity citations 2026", "generative engine optimization", "GEO for founders", "AI search visibility", "named entity SEO", "answer engine optimization", "ChatGPT brand mentions", "AI search PR strategy"],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "Generative engine optimization" },
+        { "@type": "Thing", "name": "AI search citations" },
+        { "@type": "Thing", "name": "Named entity recognition" },
+        { "@type": "Thing", "name": "Answer engine optimization" },
+        { "@type": "Thing", "name": "Earned media strategy" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "ChatGPT" },
+        { "@type": "Organization", "name": "Perplexity" },
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "Forbes" },
+        { "@type": "Organization", "name": "TechCrunch" },
+        { "@type": "Organization", "name": "Cointelegraph" },
+        { "@type": "Organization", "name": "The Block" },
+        { "@type": "Organization", "name": "Gaia AI" },
+        { "@type": "Organization", "name": "MANTRA Chain" },
+        { "@type": "Organization", "name": "RARI Chain" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "How to Get Your Brand Cited by ChatGPT and Perplexity in 2026", "item": "https://www.shilikajain.com/playbook/how-to-get-cited-by-chatgpt-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/how-to-get-cited-by-chatgpt-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I get my brand cited by ChatGPT in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Build named-entity consistency across credible indexed sources, earn tier-one editorial coverage with quotable founder claims, and publish answer-formatted content on your own site with FAQ sections. The Princeton GEO study found a 30 to 40 percent citation uplift from content with cited statistics and named expert attribution versus generic content. There is no shortcut, but the system is clear: entity clarity plus authoritative placements plus structured owned content."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between AI search citations and traditional SEO rankings?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Traditional SEO ranks pages on a results page; AI search citations appear inside a generated answer that a user may never leave. The underlying signals overlap, especially domain authority and content quality, but AI citation also requires named-entity consistency and quotable attribution that traditional keyword ranking does not specifically reward. A page that ranks at position three in Google may or may not be cited in an AI overview, depending on whether it contains extractable, attributable claims. Generative engine optimization is the practice built around closing that gap."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take for earned coverage to produce AI engine citations?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Typically six to eight weeks from publication to first consistent citations appearing in ChatGPT or Perplexity for brand-related queries, assuming the coverage is in a tier-one outlet and indexed promptly. Retrieval-augmented models like Perplexity can surface coverage faster, sometimes within days, while citation in base model training data takes longer and depends on update cycles. A sustained cadence over 90 days produces far more reliable citation than a single placement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do press releases help with AI search citations?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Only weakly, and only when they trigger editorial pickup. A press release sitting on GlobeNewswire or PR Newswire is a low-trust source for AI engines and is rarely cited on its own. What matters is the editorial coverage the press release generates: a CoinDesk or TechCrunch story based on your release, with a named founder quote and a specific claim, is what builds citation inventory. The release is the trigger; the editorial coverage is the asset."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does a fractional PR program for AI search visibility cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fractional senior operator program that covers both earned media placement and AI search visibility structure typically runs $5,000 to $12,000 per month, versus a full agency at $15,000 to $45,000. For early-stage AI startups, the fractional model is usually the right fit: senior operator experience and a systematic citation-building program without the overhead of a full team. The entity audit, content restructuring, editorial placement, and cadence tracking are all included in a well-run program."
+          }
+        }
+      ]
+    }
+  ]
+}

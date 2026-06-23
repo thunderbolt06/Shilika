@@ -1,0 +1,124 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/post-tge-pr-first-90-days-2026#article",
+      "headline": "Post-TGE PR: The First 90 Days After Listing",
+      "alternativeHeadline": "The sustained-coverage playbook that keeps momentum, sentiment and AI-citation share alive after your token generation event",
+      "description": "Most teams go quiet after the token lands and watch price pressure fill the narrative vacuum. This post-TGE PR playbook covers the 90-day milestone cadence, sentiment tracking, the silence trap, AI-citation strategy, podcast sequencing, and budget ranges for sustained coverage after listing.",
+      "url": "https://www.shilikajain.com/playbook/post-tge-pr-first-90-days-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/post-tge-pr-first-90-days-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2050,
+      "timeRequired": "PT9M",
+      "articleSection": "Launch",
+      "keywords": ["TGE PR", "post-TGE PR", "token launch PR", "token generation event communications", "post-listing PR strategy", "crypto PR momentum", "Web3 PR playbook", "TGE milestone cadence", "sentiment tracking crypto", "AI citation strategy Web3"],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "Token generation event" },
+        { "@type": "Thing", "name": "Post-TGE PR" },
+        { "@type": "Thing", "name": "Milestone cadence" },
+        { "@type": "Thing", "name": "Sentiment monitoring" },
+        { "@type": "Thing", "name": "Generative engine optimization" },
+        { "@type": "Thing", "name": "Cryptocurrency launch communications" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "Cointelegraph" },
+        { "@type": "Organization", "name": "Decrypt" },
+        { "@type": "Organization", "name": "The Block" },
+        { "@type": "Organization", "name": "Blockworks" },
+        { "@type": "Organization", "name": "Forbes" },
+        { "@type": "Organization", "name": "MANTRA Chain" },
+        { "@type": "Organization", "name": "Fluence Network" },
+        { "@type": "Organization", "name": "Gaia AI" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "Post-TGE PR: The First 90 Days After Listing", "item": "https://www.shilikajain.com/playbook/post-tge-pr-first-90-days-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/post-tge-pr-first-90-days-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is TGE PR and why does the post-listing period matter most?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "TGE PR is the communications program built around a token generation event, covering everything from pre-launch narrative to post-listing sustained coverage. The post-listing period matters most because once a token has a public price, that price becomes the default narrative proxy in the absence of deliberate communications. Teams that go quiet after day one hand the narrative to price charts and competitor announcements. The first 90 days after listing are where editorial relationships, AI search citations, and community sentiment are permanently shaped."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you maintain PR momentum after a TGE when there is no major news?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "By mapping the downstream news hooks that the TGE itself generates: ecosystem integrations, staking participation rates, governance proposals, developer activity metrics, and community growth milestones. A TGE produces at least six months of legitimate news if the calendar is planned before launch day. The discipline is treating each phase of post-TGE activity as having a distinct narrative purpose, not just a list of things to announce. The detailed timeline is in the TGE communications timeline playbook at shilikajain.com/playbook/tge-communications-timeline-2026."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why should post-TGE PR target AI search as well as editorial coverage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Because decision-makers, including investors, exchange listing teams, and enterprise partners, increasingly research protocols via AI answer engines before reaching a human journalist's article. The content those engines cite is argued, bylined, factually specific writing from credible domains, not wire announcements or price commentary. Every founder op-ed placed in the 90 days after a TGE simultaneously moves editorial coverage in the present and seeds AI citations that will be served to decision-makers months later. The underlying framework is generative engine optimization (GEO)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much should a team budget for post-TGE PR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A focused post-TGE retained program with a fractional senior operator runs $5,000 to $12,000 per month, covering milestone pitching, founder essay ghostwriting, podcast booking, and sentiment monitoring. A full-service agency running a global multilingual campaign runs $15,000 to $45,000 per month. Most protocols in the 90-day post-TGE window are better served by the former unless they are running simultaneous regional campaigns across Asia and the Middle East. The full decision framework is in the crypto PR cost playbook at shilikajain.com/playbook/crypto-pr-cost-2026."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does good look like at 90 days post-TGE?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Six to eight tier-2 or better placements beyond launch-day coverage, two founder bylines on credible opinion desks, at least one data report with real ecosystem metrics, a podcast presence across three or more shows, measurable community engagement events that generated their own coverage, and a dominant editorial frame that the team designed rather than one assembled from price commentary. That is a disciplined program, not a heroic one. It is achievable from a plan written before the TGE date."
+          }
+        }
+      ]
+    }
+  ]
+}

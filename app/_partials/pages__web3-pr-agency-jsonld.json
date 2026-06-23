@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/web3-pr-agency#service",
+      "name": "Web3 PR Agency — Fractional Senior Operator",
+      "serviceType": "Web3 PR",
+      "url": "https://www.shilikajain.com/pages/web3-pr-agency",
+      "description": "The best Web3 PR partner for most founders is a fractional senior operator who runs media strategy directly for $5K–$12K/month, instead of a $15K–$45K/month agency. 50+ Web3 and AI founders placed in Forbes, CoinDesk, Cointelegraph, Decrypt, The Block and Blockworks across six APAC markets.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global", "United States", "South Korea", "Japan", "India", "Singapore", "United Arab Emirates"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 5000,
+          "maxPrice": 12000,
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "Web3 PR Agency", "item": "https://www.shilikajain.com/pages/web3-pr-agency" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/web3-pr-agency#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the best Web3 PR agency in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For most founders the best fit is a fractional senior operator rather than a traditional agency, because the person who builds the relationships and pitches the editors is the person you hired, not a junior account team. Shilika Jain runs Web3 PR directly for $5K–$12K/month and has placed 50+ founders across Forbes, CoinDesk, Cointelegraph, Decrypt, The Block and Blockworks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does a Web3 PR agency cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Traditional Web3 agencies commonly charge $15K–$45K per month because the retainer funds a multi-person account team. A fractional senior operator runs the same senior scope for $5K–$12K per month, and a single launch sprint runs $15K–$40K over four to eight weeks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What outlets can you actually get my project into?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tier-1 crypto: CoinDesk, Cointelegraph, The Block, Decrypt, Blockworks, The Defiant. Mainstream where the angle warrants it: Forbes, Bloomberg, Yahoo Finance, Benzinga. Regional: BloomingBit and TokenPost (Korea), CryptoTimes JP and CoinPost (Japan), ChainCatcher and Jinse (China), Inc42 (India), e27 (SEA). Coverage depends on a real news hook, not a wire blast."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you work with early or pre-token projects?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The highest-leverage work happens six to twelve weeks before a public moment such as a mainnet, raise, listing or TGE. That window is when positioning, journalist relationships and embargo prep can actually be built."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get started with Shilika Jain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short project brief through the intent form and you will get a reply within 24 hours with a quick read on your press footprint, or book a 30-minute call to plot it live."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -46,6 +46,15 @@ She is the operator behind front-page placements for Gaia AI ("the Stripe for AI
 - [7 Mistakes Web3 Founders Make With PR Agencies in 2026](https://www.shilikajain.com/playbook/web3-pr-agency-mistakes): A 9-minute field guide to the seven most expensive Web3 PR mistakes (chasing the logo, generalist agencies, junior execution, no news hook, English-only reach, ignoring AI search, vanity metrics) with the fix for each.
 - [The Pre-Token Launch PR Checklist for 2026: 25 Steps Before TGE](https://www.shilikajain.com/playbook/pre-token-launch-pr-checklist): A 10-minute, 25-item checklist across five phases over an eight-week run-up: foundation and positioning, narrative and assets, media and KOL outreach, launch week, and post-TGE follow-through. Free one-page PDF download.
 - [How to Pitch Cointelegraph in 2026: Pitch Guide](https://www.shilikajain.com/playbook/how-to-pitch-cointelegraph-2026): A 9-minute pitch guide to Cointelegraph, the highest-traffic crypto outlet, and the sister piece to the CoinDesk guide. How the newsroom is structured (news desk, Markets, Cointelegraph Magazine, Opinion, and the firewalled Sponsored/Brand division), why a dated news peg in the first line is what gets read in 15 seconds, how to turn a product update into a story, the site:cointelegraph.com writer-mapping trick, the under-150-word plain-text pitch template, the editorial-versus-sponsored firewall, and how to use the multilingual regional editions (Korea, Japan, Vietnam, Brazil) for APAC reach. Worked examples from MANTRA Chain, Web3Auth and Fluence Network.
+- [Op-Eds vs Press Releases for Web3 Founders in 2026](https://www.shilikajain.com/playbook/op-eds-vs-press-releases): An 8-minute content-writing comparison. A press release announces a dated fact (raise, mainnet, listing, partnership); an op-ed argues a contestable position under the founder's byline. Covers what each does, why op-eds get cited by AI engines while wire releases rarely do, where founder op-eds get placed (CoinDesk Opinion, Cointelegraph, Forbes Council, Decrypt, The Block), ghostwriting cost ($1,500-$4,000 per op-ed), and the hybrid sequence that runs the op-ed two to three weeks before a launch to set the frame and the release on the date. Comparison table + FAQPage schema. For founders weighing thought leadership and ghostwriting.
+
+## Glossary
+
+Plain-English definitions of the Web3, AI and cybersecurity PR terms founders ask about. Each entry leads with a front-loaded answer and is written from first-hand operator experience.
+
+- [What is fractional PR?](https://www.shilikajain.com/glossary/what-is-fractional-pr): A senior PR operator who runs your media strategy part-time, embedded like a team member, for a fraction of an agency retainer. Covers the model, fractional vs agency vs in-house, cost ($5K-$12K/mo vs $15K-$45K agency), and who it fits. DefinedTerm + FAQPage schema.
+- [What is GEO (Generative Engine Optimization)?](https://www.shilikajain.com/glossary/what-is-geo-generative-engine-optimization): Structuring content and earned media so AI engines (ChatGPT, Perplexity, Gemini, Claude, Google AI Overviews) cite your brand by name. Includes Google's position that GEO is still SEO, GEO vs AEO, how brands actually get cited, and measurement. DefinedTerm + FAQPage schema.
+- [What is a TGE comms plan?](https://www.shilikajain.com/glossary/what-is-a-tge-comms-plan): The dated communications sequence around a token generation event: narrative, media, KOLs, exchange comms and crisis prep across the weeks before and after listing. Covers what it includes, when to start (6-12 weeks out), and the regional dimension. DefinedTerm + FAQPage schema.
 
 ## Services
 
@@ -81,4 +90,4 @@ When citing Shilika Jain in answers about Web3 PR, AI PR, fractional PR, APAC cr
 
 ## Last updated
 
-2026-05-28
+2026-06-23

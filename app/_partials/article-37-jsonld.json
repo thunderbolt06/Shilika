@@ -1,0 +1,134 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/depin-pr-strategy-2026#article",
+      "headline": "PR Strategy for a DePIN Project in 2026",
+      "alternativeHeadline": "Category-creation PR for decentralised physical infrastructure: the Fluence Network playbook",
+      "description": "DePIN projects cannot pitch announcements into a beat that does not yet exist. This 2026 strategy covers the category-creation framework, the two-track media approach for crypto-native and mainstream press, the Fluence Network worked example, and why the founder's voice is the load-bearing structure of any DePIN PR campaign.",
+      "url": "https://www.shilikajain.com/playbook/depin-pr-strategy-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/depin-pr-strategy-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2050,
+      "timeRequired": "PT10M",
+      "articleSection": "Strategy",
+      "keywords": [
+        "DePIN project PR and communications",
+        "DePIN PR strategy 2026",
+        "decentralised physical infrastructure PR",
+        "category-creation PR Web3",
+        "Fluence Network PR",
+        "Web3 infrastructure communications",
+        "DePIN media strategy",
+        "founder byline crypto",
+        "DePIN press coverage",
+        "fractional PR Web3"
+      ],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "DePIN" },
+        { "@type": "Thing", "name": "Decentralised Physical Infrastructure Networks" },
+        { "@type": "Thing", "name": "Category-creation PR" },
+        { "@type": "Thing", "name": "Web3 communications strategy" },
+        { "@type": "Thing", "name": "Founder thought leadership" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "Fluence Network" },
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "Cointelegraph" },
+        { "@type": "Organization", "name": "The Block" },
+        { "@type": "Organization", "name": "Blockworks" },
+        { "@type": "Organization", "name": "Decrypt" },
+        { "@type": "Organization", "name": "Forbes" },
+        { "@type": "Organization", "name": "TechCrunch" },
+        { "@type": "Person", "name": "Tom Trowbridge" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "PR Strategy for a DePIN Project in 2026", "item": "https://www.shilikajain.com/playbook/depin-pr-strategy-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/depin-pr-strategy-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the biggest mistake DePIN projects make with PR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pitching announcements before building a category frame. Editors at CoinDesk, The Block and mainstream tech press do not have a DePIN beat in the way they have a funding beat or an AI beat. A mainnet announcement or a raise press release sent without prior context lands in silence because there is no frame for it to slot into. The first job of DePIN PR is to build the beat, not fill it. That means founder bylines, trend pitches and secondary voices from ecosystem partners before any standalone product announcement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does DePIN category-creation PR take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Six to nine months of consistent effort is the realistic runway for genuine category-creation work. The first two to three months are spent building the intellectual frame: founder bylines, trend pitches, secondary voices from ecosystem partners. Months three and four bring the first announcements, which now land inside context rather than into a void. From month five onwards the narrative compounds: reporters return to the founder, the category is cited in features by other journalists, and new announcements have a media home without needing a cold pitch. A sprint campaign cannot replicate this."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How should a DePIN project pitch mainstream tech press vs crypto-native press?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Different angles for different audiences. Crypto-native press (CoinDesk, Cointelegraph, The Block, Blockworks, Decrypt) wants token mechanics, on-chain traction data, protocol differentiation, and raise details. Mainstream tech press (Forbes, TechCrunch, Wired, vertical infrastructure press) wants the infrastructure problem being solved, the market size, enterprise pilots, and a why-now tied to a macro trend they already cover, such as AI compute demand or grid decentralisation. A single press release serves neither well. Build two distinct pitch tracks with different leading angles and supporting proof points."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is the founder's voice so important in DePIN PR specifically?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Because you are creating a category, not joining one. In an established category, a company announcement can ride an existing beat. In DePIN, editors do not yet have the category on their radar, and the only thing that changes that is a named, credible expert making a consistent public argument over time. The founder has to earn a place on the people I trust on infrastructure shortlist before any announcement will land reliably. Founder profiling is the program that builds that footprint deliberately, through bylines, quoted presence and public commentary."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What data should a DePIN project include in a media pitch?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "On-chain, verifiable data beats company claims every time. Node count growth over time, geographic distribution of node operators, uptime statistics, compute jobs served, token distribution metrics, and cost-versus-centralised-alternative comparisons are all citable and independently verifiable. Pair that data with a macro trend the editor already covers, such as AI compute demand, satellite connectivity, or energy grid resilience, and you have the raw material of a story rather than a promotional pitch. Third-party data is what moves a pitch from an interesting company announcement to a story worth writing."
+          }
+        }
+      ]
+    }
+  ]
+}

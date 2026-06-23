@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/crypto-content-writing-agency#service",
+      "name": "Crypto Content Writing Agency — Ghostwritten Op-Eds and Whitepapers",
+      "serviceType": "Content Writing",
+      "url": "https://www.shilikajain.com/pages/crypto-content-writing-agency",
+      "description": "Founder-voice op-eds, whitepapers and thought-leadership essays for Web3, AI and DePIN founders, structured for human editors and AI search engines. Placements in Forbes, CoinDesk, Cointelegraph, Decrypt and Benzinga. Senior fractional operator at $5K–$12K/month, no junior ghostwriter markup.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global", "United States", "United Kingdom", "South Korea", "Japan", "India", "Singapore", "United Arab Emirates"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 5000,
+          "maxPrice": 12000,
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "Crypto Content Writing Agency", "item": "https://www.shilikajain.com/pages/crypto-content-writing-agency" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/crypto-content-writing-agency#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a crypto content writing agency and who is it for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A crypto content writing agency produces founder essays, op-eds, whitepapers and long-form thought leadership for Web3, AI and DePIN founders who need to build credibility with investors, partners and enterprise buyers. The fractional model run by Shilika Jain is for founders who want a senior operator writing in their voice, not a junior ghostwriter producing templated posts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does crypto content writing cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A senior fractional operator working on a monthly content retainer runs $5K–$12K per month, covering a set number of pieces, briefing sessions, placement pitches and revisions. A full-agency content team charges $15K–$45K per month for roughly the same output, because the retainer funds layers of junior writers and account managers. A standalone whitepaper or op-ed project can be scoped as a one-off at $3K–$8K depending on length and complexity."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which outlets can you place a founder op-ed in?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tier-1 crypto opinion: CoinDesk, Cointelegraph, Decrypt, The Block, Blockworks, The Defiant. Mainstream where the angle earns it: Forbes, Benzinga, Yahoo Finance, AI Magazine. Regional: ChainCatcher and Jinse (China), Inc42 (India), e27 (SEA), BloomingBit (Korea). Placement depends on a genuine editorial hook, not a distribution fee."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the process and how long does it take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A typical op-ed takes two to three weeks from briefing to publication: one 60-minute briefing call, a first draft within five business days, one revision round, then pitch and placement. A whitepaper runs four to six weeks depending on technical depth and stakeholder review cycles."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I start?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short project brief through the intent form at https://www.shilikajain.com/pages/crypto-content-writing-agency#lead. Describe what you are trying to say, who you need to reach, and whether you have a specific outlet or deadline in mind. You will get a reply within 24 hours with a read on whether the angle is placement-ready and what the next step looks like. Alternatively, book a 30-minute call at https://calendly.com/shilikajain/30min/ and we will scope it live."
+          }
+        }
+      ]
+    }
+  ]
+}

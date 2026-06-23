@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/web3-pr-agency-india#service",
+      "name": "Web3 PR Agency in India — Fractional Senior Operator",
+      "serviceType": "Web3 PR",
+      "url": "https://www.shilikajain.com/pages/web3-pr-agency-india",
+      "description": "Fractional senior Web3 PR operator with genuine India-market relationships, covering Inc42, YourStory, Economic Times and global crypto tier-1 simultaneously. Dual-track launch model proven with Bullieverse ($4M seed, India and global crypto press in the same news cycle). $5K–$12K/month, less than half a full agency retainer.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global", "India", "United States", "South Korea", "Japan", "Singapore", "United Arab Emirates"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 5000,
+          "maxPrice": 12000,
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "Web3 PR Agency in India", "item": "https://www.shilikajain.com/pages/web3-pr-agency-india" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/web3-pr-agency-india#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a Web3 PR agency in India and who is it for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Web3 PR agency operating in India handles media outreach across both India-native startup and business outlets (Inc42, YourStory, Economic Times, Business Standard) and global crypto tier-1 (CoinDesk, Cointelegraph, Decrypt). It is for Indian founders raising capital or launching products who need credibility in both markets at once, and for global Web3 projects targeting India's crypto retail and developer community. Shilika Jain runs this scope directly for $5K–$12K/month."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does India Web3 PR cost in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A global agency with an India desk typically charges $15K–$45K/month because the retainer funds multiple account teams. A fractional senior operator covering both India and global crypto outlets runs at $5K–$12K/month. A focused launch sprint covering a seed or TGE announcement across India and global press runs $15K–$40K over four to eight weeks. KOL activation on Indian crypto channels is priced separately: nano influencers at $200–$1.5K per post, micro at $500–$5K, mid-tier at $10K–$30K."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which Indian outlets can you actually get a Web3 project into?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "India startup and business press: Inc42, YourStory, Economic Times Tech, Business Standard, Entrackr and Livemint where a financial angle holds. Global crypto from the same launch: CoinDesk, Cointelegraph, Decrypt, The Block, Blockworks and Forbes where the hook warrants a mainstream run. Coverage depends on a real news hook pitched to the right editor, not a wire blast or a press-release submission form."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does the dual-track launch process look like and how long does it take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The dual-track model runs a single news event through two simultaneous pitching tracks: one angled for India startup press and one angled for global crypto media. Preparation takes three to four weeks: narrative drafting, journalist relationship activation, embargo agreements and India KOL coordination. The launch window runs 48 hours. The Bullieverse case study shows how this worked for a $4M seed round that landed in Inc42 and CoinDesk on the same morning."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get started with India Web3 PR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short project brief through the intent form and you will get a reply within 24 hours with a read on your current India press footprint and what a realistic dual-track pitch could look like, or book a 30-minute call and we map it live. No introductory deck, no account-team briefing call."
+          }
+        }
+      ]
+    }
+  ]
+}

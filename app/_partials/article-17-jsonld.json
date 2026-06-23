@@ -1,0 +1,132 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/how-to-get-bloomberg-crypto-coverage-2026#article",
+      "headline": "How to Get Bloomberg Crypto Coverage in 2026",
+      "alternativeHeadline": "The institutional sourcing standard, verification bar, and realistic path for crypto startups targeting Bloomberg",
+      "description": "Bloomberg crypto coverage requires institutional-grade data, at least two named on-record sources, and a raise or partnership large enough that a terminal subscriber would care. This 2026 playbook covers the verification bar, what story types land vs bounce, when a startup is not ready, and how to build the institutional angle that makes Bloomberg possible.",
+      "url": "https://www.shilikajain.com/playbook/how-to-get-bloomberg-crypto-coverage-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/how-to-get-bloomberg-crypto-coverage-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2150,
+      "timeRequired": "PT9M",
+      "articleSection": "Tier-1",
+      "keywords": [
+        "how to get Bloomberg crypto coverage",
+        "Bloomberg crypto pitch",
+        "tier-1 crypto PR",
+        "Bloomberg crypto reporter",
+        "institutional crypto PR",
+        "crypto press coverage 2026",
+        "how to pitch Bloomberg",
+        "Bloomberg verification standard",
+        "crypto PR strategy",
+        "Web3 tier-1 media"
+      ],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "Bloomberg crypto coverage" },
+        { "@type": "Thing", "name": "Institutional crypto PR" },
+        { "@type": "Thing", "name": "Tier-1 media strategy" },
+        { "@type": "Thing", "name": "Crypto journalism verification" },
+        { "@type": "Thing", "name": "Real-world asset tokenization" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "Bloomberg" },
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "The Block" },
+        { "@type": "Organization", "name": "Blockworks" },
+        { "@type": "Organization", "name": "Financial Times" },
+        { "@type": "Organization", "name": "Reuters" },
+        { "@type": "Organization", "name": "MANTRA Chain" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "How to Get Bloomberg Crypto Coverage in 2026", "item": "https://www.shilikajain.com/playbook/how-to-get-bloomberg-crypto-coverage-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/how-to-get-bloomberg-crypto-coverage-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do you get Bloomberg to cover your crypto startup?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You need a story with institutional stakes: a raise of $50M or more with a named institutional lead, a named TradFi or Fortune 500 partnership, a regulatory development in a market Bloomberg covers, or proprietary on-chain data that moves the institutional narrative. You also need at least two independent, named on-record sources outside your company, and data with a publicly citable audit trail. If those conditions are not in place, build them before pitching. A premature Bloomberg pitch closes the door faster than it opens it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What raise size gets Bloomberg's attention in crypto?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A $50M-plus raise with a named institutional lead investor willing to go on record is a reliable threshold. Below that, you need an unusually strong angle: a genuinely novel sector, a regulatory first in a major jurisdiction, or a named TradFi counterparty that makes the story relevant to Bloomberg's institutional reader. A $3M to $20M round is almost never a Bloomberg story on its own, regardless of how well it is pitched."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between pitching Bloomberg and pitching CoinDesk?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bloomberg writes for institutional investors, asset managers, and regulators. CoinDesk writes for the crypto ecosystem. The verification bar at Bloomberg is closer to a financial wire: named independent sources, data with an audit trail, and a news angle that matters to someone allocating institutional capital. A story that is perfect for CoinDesk may be too niche or too ecosystem-internal for Bloomberg. You need to translate the same facts into a different language for a different audience."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I go exclusive to Bloomberg or pitch multiple outlets?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If Bloomberg is genuinely interested, an exclusive is almost always the right move for the story you are protecting for them. Bloomberg will take an embargo, but the embargo has to be clean: no version of the story should be going to CoinDesk, The Block, or any other outlet on the same day. Decide it is a Bloomberg story before you pitch anyone else, honour the window, and protect the relationship for the next story. A broken embargo with Bloomberg is a relationship you do not recover."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to build a Bloomberg reporter relationship?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Plan for six to twelve weeks minimum before a cold pitch has a reasonable chance of being read. That means your founder is visible in the outlets Bloomberg reporters read, has been quoted accurately on a relevant beat, and ideally has met the reporter at an event with no ask attached. The relationship is not about being liked. It is about being a known, credible quantity when the pitch lands. Rushing this window is the most common mistake in tier-1 campaign strategy."
+          }
+        }
+      ]
+    }
+  ]
+}

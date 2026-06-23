@@ -1,0 +1,134 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/tge-communications-timeline-2026#article",
+      "headline": "The TGE Communications Timeline for 2026: Week by Week",
+      "alternativeHeadline": "An eight-week, dated comms calendar mapping narrative, media, KOLs and crisis prep to the token generation event",
+      "description": "A week-by-week TGE PR timeline covering the full eight weeks before and four weeks after a token generation event: narrative architecture, media embargoes, KOL briefing, community warm-up, crisis runbook, launch window execution, and post-TGE sustain. Written by a fractional PR operator with named launch examples.",
+      "url": "https://www.shilikajain.com/playbook/tge-communications-timeline-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/tge-communications-timeline-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2050,
+      "timeRequired": "PT10M",
+      "articleSection": "Launch",
+      "keywords": [
+        "TGE PR",
+        "TGE communications timeline",
+        "token generation event PR",
+        "TGE launch strategy 2026",
+        "token launch PR checklist",
+        "crypto token launch communications",
+        "TGE media strategy",
+        "KOL briefing token launch",
+        "TGE crisis runbook",
+        "fractional PR token launch"
+      ],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "Token generation event" },
+        { "@type": "Thing", "name": "TGE communications plan" },
+        { "@type": "Thing", "name": "Crypto PR strategy" },
+        { "@type": "Thing", "name": "KOL marketing" },
+        { "@type": "Thing", "name": "Launch PR timeline" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "Cointelegraph" },
+        { "@type": "Organization", "name": "Blockworks" },
+        { "@type": "Organization", "name": "Decrypt" },
+        { "@type": "Organization", "name": "The Block" },
+        { "@type": "Organization", "name": "Forbes" },
+        { "@type": "Organization", "name": "RARI Chain" },
+        { "@type": "Organization", "name": "MANTRA Chain" },
+        { "@type": "Organization", "name": "Gaia AI" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "The TGE Communications Timeline for 2026: Week by Week", "item": "https://www.shilikajain.com/playbook/tge-communications-timeline-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/tge-communications-timeline-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How far in advance should TGE PR planning start?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Eight weeks is the minimum for a launch that will generate tier-1 coverage and a warm community at TGE day. Week eight is narrative architecture; week six is when you brief tier-1 editors under embargo, which requires four to six weeks of lead time for a reporter to produce a real feature. Starting two weeks out produces a press release with no editorial pickup and no community ready to hold through price volatility. The earlier the narrative is locked, the more leverage every downstream asset has."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between the TGE comms timeline and the pre-TGE PR checklist?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The pre-token launch PR checklist is a comprehensive list of assets and decisions that need to exist before a TGE. The timeline maps those same assets to a week-by-week production schedule with owners and dependencies. You need both: the checklist to know what exists and what is missing, and the timeline to sequence the work so each asset is ready when the next phase needs it. A checklist filed without a timeline is a good-intentions document, not a plan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When should KOLs be briefed relative to TGE day?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Three to four weeks before TGE, in week five of the eight-week timeline. KOLs who understand the project and have formed a genuine view weeks before they are asked to post drive meaningfully better sentiment than KOLs briefed days before TGE with a paid-post brief. Contracts are signed in week five, talking points are delivered, and seed content is shared so KOLs can begin building organic association with the project before any paid activation starts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should a TGE crisis runbook cover?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At minimum: who is authorised to speak publicly (founder, legal, comms lead), a response template for the three to five most likely scenarios (smart contract issue, exchange listing delay, price manipulation, regulatory inquiry, community FUD spike), the escalation path if the primary spokesperson is unavailable, and the community statement format that stays calm and factual under pressure. Write it in week two, before you need it. The worst time to write crisis copy is when the crisis is happening."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens to PR after the TGE?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The TGE launch window is a forcing event, not a finish line. The 90 days after TGE determine whether the project builds a sustained media presence or drops out of coverage after launch week. The first month focuses on a community debrief post, analysis pitches using early on-chain data, and resetting the monthly PR cadence: one founder byline, one data-driven pitch, one community AMA per month. The full post-TGE playbook covers weeks one through twelve after the token generation event."
+          }
+        }
+      ]
+    }
+  ]
+}

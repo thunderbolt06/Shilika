@@ -1,0 +1,425 @@
+<style>
+:root {
+  --ink: oklch(0.16 0.01 80);
+  --ink-2: oklch(0.22 0.01 80);
+  --paper: oklch(0.96 0.01 90);
+  --paper-2: oklch(0.92 0.015 85);
+  --cream: oklch(0.93 0.04 85);
+  --lime: oklch(0.92 0.18 115);
+  --muted: oklch(0.55 0.01 80);
+  --line: oklch(0.85 0.01 80);
+  --font-display: 'Instrument Serif', 'Times New Roman', serif;
+  --font-body: 'Inter Tight', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'Geist Mono', 'JetBrains Mono', monospace;
+  --pad: clamp(20px, 4vw, 64px);
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { font-family: var(--font-body); background: var(--paper); color: var(--ink); -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+.mono { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; }
+
+.nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; display: flex; justify-content: space-between; align-items: center; padding: 18px var(--pad); background: rgba(247, 246, 241, 0.85); backdrop-filter: blur(16px); border-bottom: 1px solid var(--line); }
+.nav-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); }
+.nav-logo-text { font-family: var(--font-display); font-size: 22px; font-style: italic; letter-spacing: -0.01em; }
+.nav-logo-dot { color: var(--lime); margin: 0 2px; }
+.nav-links { display: flex; gap: 28px; list-style: none; font-family: var(--font-mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; }
+.nav-links a { position: relative; padding: 4px 0; color: var(--ink); text-decoration: none; }
+.nav-links a::after { content: ''; position: absolute; left: 0; bottom: 0; width: 0; height: 1px; background: var(--ink); transition: width 0.4s var(--ease-out-quart); }
+.nav-links a:hover::after, .nav-links a.is-current::after { width: 100%; }
+.nav-cta { display: inline-flex; align-items: center; gap: 8px; padding: 10px 18px; background: var(--ink); color: var(--paper); font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; border-radius: 100px; transition: background 0.3s, color 0.3s; }
+.nav-cta:hover { background: var(--lime); color: var(--ink); }
+@media (max-width: 800px) { .nav-links { display: none; } }
+
+.scroll-progress { position: fixed; top: 0; left: 0; right: 0; height: 2px; z-index: 200; background: transparent; }
+.scroll-progress-bar { height: 100%; background: var(--lime); width: 0%; transition: width 0.1s linear; }
+
+.article-header { padding: 140px var(--pad) 60px; border-bottom: 1px solid var(--line); background: var(--paper); position: relative; }
+.crumb { max-width: 980px; margin: 0 auto 36px; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+.crumb a { color: var(--muted); text-decoration: none; transition: color 0.3s; }
+.crumb a:hover { color: var(--ink); }
+.crumb .sep { margin: 0 12px; }
+.article-meta-row { max-width: 980px; margin: 0 auto 28px; display: flex; gap: 18px; align-items: center; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); flex-wrap: wrap; }
+.article-cat { background: var(--ink); color: var(--paper); padding: 5px 12px; border-radius: 3px; font-weight: 500; }
+.article-headline { max-width: 980px; margin: 0 auto; font-family: var(--font-display); font-size: clamp(40px, 6.4vw, 88px); line-height: 0.97; letter-spacing: -0.018em; font-weight: 400; text-wrap: balance; }
+.article-headline em { font-style: italic; background: linear-gradient(120deg, transparent 30%, var(--lime) 30%, var(--lime) 90%, transparent 90%); background-size: 200% 100%; background-position: 100% 0; padding: 0 0.05em; animation: hl-sweep 1.6s 0.4s var(--ease-out-quart) forwards; }
+@keyframes hl-sweep { to { background-position: 0 0; } }
+.article-sub { max-width: 760px; margin: 32px auto 0; font-family: var(--font-display); font-size: clamp(20px, 1.6vw, 24px); line-height: 1.4; font-style: italic; color: var(--muted); }
+
+.article-hero-visual { max-width: 1200px; margin: 60px auto 0; aspect-ratio: 16 / 7; position: relative; overflow: hidden; border-radius: 4px; background: var(--ink); color: var(--paper); }
+.visual-vs .v-num { position: absolute; left: 32px; top: 22px; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.15em; color: var(--lime); z-index: 2; }
+.visual-vs .v-split { position: absolute; inset: 30px 32px 32px; display: grid; grid-template-columns: 1fr auto 1fr; gap: 18px; align-items: stretch; }
+.visual-vs .v-col { border: 1px solid rgba(255,255,255,0.14); border-radius: 6px; padding: 22px; display: flex; flex-direction: column; justify-content: space-between; }
+.visual-vs .v-col.is-key { background: var(--lime); border-color: var(--lime); }
+.visual-vs .v-col .v-k { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(255,255,255,0.45); }
+.visual-vs .v-col.is-key .v-k { color: rgba(40,37,32,0.6); }
+.visual-vs .v-col .v-h { font-family: var(--font-display); font-style: italic; font-size: clamp(22px, 2.6vw, 34px); line-height: 1.0; color: var(--paper); }
+.visual-vs .v-col.is-key .v-h { color: var(--ink); }
+.visual-vs .v-col .v-d { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.06em; line-height: 1.4; color: rgba(255,255,255,0.55); text-transform: uppercase; }
+.visual-vs .v-col.is-key .v-d { color: rgba(40,37,32,0.7); }
+.visual-vs .v-mid { display: flex; align-items: center; justify-content: center; font-family: var(--font-display); font-style: italic; font-size: 28px; color: var(--lime); }
+@media (max-width: 720px) { .visual-vs .v-split { grid-template-columns: 1fr; } .visual-vs .v-mid { display: none; } }
+
+.article-body-wrap { padding: 80px var(--pad) 100px; background: var(--paper); }
+.article-body { max-width: 720px; margin: 0 auto; font-size: 19px; line-height: 1.65; color: oklch(0.25 0.01 80); }
+.article-body p { margin-bottom: 1.4em; }
+.article-body p.lede { font-family: var(--font-display); font-size: clamp(26px, 2.4vw, 34px); line-height: 1.25; font-style: italic; color: var(--ink); margin-bottom: 1.6em; }
+.article-body h2 { font-family: var(--font-display); font-size: clamp(28px, 3vw, 40px); font-weight: 400; letter-spacing: -0.01em; color: var(--ink); margin: 2em 0 0.8em; line-height: 1.1; text-wrap: balance; }
+.article-body h2::before { content: '§ '; color: var(--lime); font-style: italic; }
+.article-body h3 { font-family: var(--font-display); font-size: clamp(22px, 2.2vw, 28px); font-weight: 400; color: var(--ink); margin: 1.6em 0 0.5em; line-height: 1.2; }
+.article-body ul, .article-body ol { margin: 0 0 1.6em 1.4em; padding-left: 0; }
+.article-body li { margin-bottom: 0.6em; padding-left: 0.4em; }
+.article-body li::marker { color: var(--lime); }
+.article-body strong { color: var(--ink); font-weight: 600; }
+.article-body em { font-style: italic; }
+.article-body a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-decoration-thickness: 2px; text-underline-offset: 3px; }
+.article-body a:hover { color: oklch(0.45 0.18 115); }
+.article-body table { width: 100%; border-collapse: collapse; margin: 1.6em 0; font-size: 15px; font-family: var(--font-mono); letter-spacing: 0.02em; }
+.article-body table th { text-align: left; padding: 10px 12px; background: var(--ink); color: var(--paper); font-weight: 500; text-transform: uppercase; font-size: 11px; letter-spacing: 0.1em; }
+.article-body table td { padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.article-body table tr:nth-child(even) td { background: var(--paper-2); }
+.callout { background: var(--ink); color: var(--paper); padding: 28px 32px; border-radius: 8px; margin: 2em 0; font-family: var(--font-display); font-size: clamp(20px, 1.8vw, 24px); font-style: italic; line-height: 1.35; }
+.callout strong { color: var(--lime); font-weight: 400; font-style: normal; font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; display: block; margin-bottom: 10px; }
+.fix-box { background: var(--paper-2); border-left: 3px solid var(--lime); padding: 20px 24px; border-radius: 4px; margin: 1.2em 0 1.8em; font-size: 17px; line-height: 1.55; }
+.fix-box strong.fix-label { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); display: block; margin-bottom: 8px; }
+.faq-block { max-width: 720px; margin: 60px auto 0; padding: 32px; background: var(--paper-2); border-radius: 8px; }
+.faq-block h2 { font-family: var(--font-display); font-size: clamp(28px, 3vw, 36px); margin-bottom: 24px; font-weight: 400; }
+.faq-q { font-family: var(--font-display); font-style: italic; font-size: 20px; color: var(--ink); margin: 22px 0 8px; }
+.faq-a { font-size: 16px; color: oklch(0.30 0.01 80); line-height: 1.6; }
+.faq-a a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px; }
+
+.author-block { max-width: 720px; margin: 80px auto 0; padding: 32px; background: var(--paper-2); border-radius: 8px; display: grid; grid-template-columns: 64px 1fr; gap: 20px; align-items: center; }
+.author-avatar { width: 64px; height: 64px; border-radius: 50%; background: var(--ink); color: var(--lime); display: flex; align-items: center; justify-content: center; font-family: var(--font-display); font-size: 24px; font-style: italic; font-weight: 400; }
+.author-name { font-family: var(--font-display); font-size: 24px; font-style: italic; line-height: 1; margin-bottom: 6px; }
+.author-bio { font-size: 14px; color: var(--muted); line-height: 1.4; }
+.author-bio a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px; }
+
+.cta-strip { background: var(--ink); color: var(--paper); padding: 100px var(--pad); text-align: center; position: relative; overflow: hidden; }
+.cta-strip h3 { font-family: var(--font-display); font-size: clamp(40px, 6vw, 80px); font-weight: 400; line-height: 1; letter-spacing: -0.015em; max-width: 18ch; margin: 0 auto 32px; }
+.cta-strip h3 em { font-style: italic; color: var(--lime); }
+.cta-strip-btn { display: inline-flex; align-items: center; gap: 10px; background: var(--lime); color: var(--ink); padding: 18px 32px; font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; text-decoration: none; border-radius: 100px; transition: transform 0.4s var(--ease-out-quart); }
+.cta-strip-btn:hover { transform: translateY(-2px); }
+
+.footer { background: var(--ink); color: var(--paper); padding: 40px var(--pad) 24px; border-top: 1px solid rgba(255,255,255,0.08); }
+.footer-row { max-width: 1440px; margin: 0 auto; display: flex; justify-content: space-between; font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.5); flex-wrap: wrap; gap: 12px; }
+.footer-row a { color: inherit; text-decoration: none; }
+.article-hero-visual.hero-brief { display:flex; }
+.hero-brief .v-num { position:absolute; left:32px; top:22px; font-family:var(--font-mono); font-size:11px; letter-spacing:0.15em; color:var(--lime); z-index:2; }
+.hero-brief-grid { position:absolute; inset:30px 32px 32px; display:grid; grid-template-columns:1.3fr 1fr; gap:24px; align-items:stretch; }
+.hb-lede { font-family:var(--font-display); font-style:italic; font-size:clamp(24px,3vw,40px); line-height:1.08; color:var(--paper); align-self:center; }
+.hb-stats { display:grid; grid-template-rows:repeat(3,1fr); gap:12px; }
+.hb-stats > div { border:1px solid rgba(255,255,255,0.14); border-radius:6px; padding:12px 16px; display:flex; flex-direction:column; justify-content:center; }
+.hb-stats > div.is-key { background:var(--lime); border-color:var(--lime); }
+.hb-n { font-family:var(--font-display); font-style:italic; font-size:clamp(22px,2.4vw,30px); color:var(--paper); line-height:1; }
+.hb-stats > div.is-key .hb-n { color:var(--ink); }
+.hb-l { font-family:var(--font-mono); font-size:10px; letter-spacing:0.08em; text-transform:uppercase; color:rgba(255,255,255,0.55); margin-top:6px; }
+.hb-stats > div.is-key .hb-l { color:rgba(40,37,32,0.7); }
+@media (max-width:720px){ .hero-brief-grid{ grid-template-columns:1fr; position:static; inset:auto; padding:28px; } .article-hero-visual.hero-brief{ aspect-ratio:auto; } }
+</style>
+
+
+<div class="scroll-progress"><div class="scroll-progress-bar" id="progress-bar"></div></div>
+
+<nav class="nav">
+  <a href="/" class="nav-logo">
+    <svg width="34" height="34" viewBox="0 0 34 34" fill="none">
+      <rect width="34" height="34" rx="8" fill="#282520"/>
+      <text x="50%" y="55%" text-anchor="middle" dominant-baseline="middle" font-family="Georgia, serif" font-size="18" font-style="italic" fill="#d4ff32">SJ</text>
+      <circle cx="27" cy="7" r="2" fill="#d4ff32"/>
+    </svg>
+    <span class="nav-logo-text">SHILIKA<span class="nav-logo-dot">·</span>JAIN</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="/#work">Work</a></li>
+    <li><a href="/#services">Services</a></li>
+    <li><a href="/#press">Press</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/blog" class="is-current">Blog</a></li>
+    <li><a href="/#contact">Contact</a></li>
+  </ul>
+  <a href="https://calendly.com/shilikajain/30min/" target="_blank" rel="noopener" class="nav-cta">
+    <span>Book a call</span>
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.4"/></svg>
+  </a>
+</nav>
+
+<header class="article-header">
+  <div class="crumb">
+    <a href="/">Shilika Jain</a><span class="sep">/</span>
+    <a href="/playbook">Playbooks</a><span class="sep">/</span>
+    <span>025</span>
+  </div>
+  <div class="article-meta-row">
+    <span class="article-cat">LAUNCH</span>
+    <span>· 10 MIN READ</span>
+    <span>· JUNE 23, 2026</span>
+    <span>· BY SHILIKA JAIN</span>
+  </div>
+  <h1 class="article-headline">How to Announce a Binance Listing: <em>PR Strategy</em> for 2026.</h1>
+  <p class="article-sub">An exchange listing is a 24-hour window, and most projects waste most of it. This is the comms choreography that turns listing day into a durable narrative: how to coordinate with the exchange, set the embargo, time the KOL wave, and make sure the announcement actually lands instead of just going live.</p>
+
+  <div class="article-hero-visual hero-brief">
+    <span class="v-num">025 / LISTING DAY COMMS</span>
+    <div class="hero-brief-grid">
+      <div class="hb-lede">A listing announcement lives or dies in the 6 hours before it goes public.</div>
+      <div class="hb-stats">
+        <div>
+          <span class="hb-n">24 hrs</span>
+          <span class="hb-l">Peak engagement window post-listing</span>
+        </div>
+        <div class="is-key">
+          <span class="hb-n">$5K–$12K/mo</span>
+          <span class="hb-l">Fractional PR operator range for token launch</span>
+        </div>
+        <div>
+          <span class="hb-n">3–5 outlets</span>
+          <span class="hb-l">Tier-1 crypto media targets for launch day</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="article-body-wrap">
+  <article class="article-body">
+
+<p class="lede">The PR strategy for a Binance listing announcement has four moving parts: exchange coordination and embargo compliance, a media wave timed to the listing announcement, a KOL sequence that amplifies without front-running, and a narrative frame that makes the listing mean something beyond the price tick. Miss any one of them and you leave the most newsworthy moment of the year on the floor.</p>
+
+<p>I run fractional PR for Web3 and DePIN founders, and token listing day is the single highest-stakes comms moment most projects will ever face. In the launches I have run, the difference between a listing that generates a week of coverage and one that generates a tweet and a few chart screenshots almost always comes down to preparation: specifically, how far in advance the narrative, the media relationships, and the KOL briefing were locked in. The listing itself is not the story. It is the proof point for a story the team should have been building for months. This playbook is the operator's version of how to run it.</p>
+
+<h2>Start with the exchange: what Binance actually controls</h2>
+
+<p>Every Binance listing announcement is subject to the exchange's comms protocols, and getting this wrong is not a minor problem. Binance controls the announcement timing, the official copy, and in many cases the embargo window. Before any external PR is planned, the team's exchange liaison needs to get explicit answers to three questions from Binance's project relations team.</p>
+
+<ol>
+  <li><strong>What is the embargo end time, and in which timezone?</strong> Binance announces in UTC. Your KOL briefings, media pitches, and social posts all need to work backwards from that timestamp, not from your local time.</li>
+  <li><strong>What copy has Binance approved for the project to use in its own announcement?</strong> The exchange will have reviewed your project's positioning. The token name, trading pairs, and any claims about the listing tier need to match what Binance publishes. Inconsistencies get flagged fast on CT and create a credibility problem on the exact day you can least afford one.</li>
+  <li><strong>Is there a coordinated media push from Binance's own channels, and can the project be tagged in it?</strong> Binance's official Twitter/X account has over 10 million followers. If they are posting and your account is not tagged, you miss the organic amplification. Ask early. It is a simple request and often granted for projects with clean positioning.</li>
+</ol>
+
+<div class="fix-box"><strong class="fix-label">Pre-listing checklist item 1</strong>Lock the Binance embargo end time in UTC at least 10 days before the listing. All downstream comms, including media pitches, KOL briefs, and your own social calendar, get scheduled against that single timestamp. Never schedule anything to publish before you have this confirmed in writing.</div>
+
+<h2>The narrative frame: why the listing matters beyond the listing</h2>
+
+<p>Journalists at CoinDesk, Cointelegraph, Decrypt, The Block, and Blockworks receive dozens of "we got listed on Binance" pitches in any given month. A listing is a fact, not a story. The story is what the listing proves about where the protocol is going: mainnet traction, a regional expansion, a new institutional use case, the first RWA project in a given jurisdiction to reach this tier. Without that frame, the best you will get is a brief mention in a listings roundup. With it, you have a legitimate feature pitch.</p>
+
+<p>The narrative frame should be built well before listing day, ideally as part of a broader <a href="/services/token-launch-pr">token launch PR</a> program that starts four to eight weeks out. Think of the listing as the third act of a story you have already started telling: pre-listing traction coverage, a founder byline or op-ed staking out the protocol's category position, and then the listing as the moment the market validates what you have been arguing. By the time the announcement drops, the frame is already in place and reporters have context to write from.</p>
+
+<div class="callout"><strong>Field rule</strong>A Binance listing is proof, not news. The news is whatever the listing proves about your protocol's trajectory. Build that narrative first, then let the listing land inside it.</div>
+
+<h2>The embargo window: what to do in the 72 hours before it lifts</h2>
+
+<p>The 72 hours before the Binance announcement goes live are the most important preparation window you have, and they cannot be recovered if wasted. Here is how the sequence works.</p>
+
+<h3>Media under embargo (48-72 hours out)</h3>
+
+<p>Select two to four reporters who cover the relevant beat and offer an exclusive or co-exclusive briefing under embargo. For a Binance listing tied to a DePIN protocol, the right reporters are on the infrastructure and tokenomics beat at CoinDesk and The Block. For a Web3 gaming or consumer token, look at Decrypt and Blockworks. For a project with a strong regional angle, add BloomingBit (Korea), TokenPost (Korea), CryptoTimes JP (Japan), or Inc42 (India) depending on the target market.</p>
+
+<p>The embargo pitch is short: one paragraph on what is happening, one paragraph on why it matters for their readership, and the embargo end time in UTC. Attach any supporting materials that cannot be published until the embargo lifts. The reporter gets to prepare a proper article instead of scrambling in real time. You get a story ready to publish the moment the announcement is live, not hours later when the moment has passed.</p>
+
+<h3>KOL briefing (24-48 hours out)</h3>
+
+<p>Brief your KOLs under a clear, written embargo agreement at least 24 hours before the listing announcement. This is not optional. Front-running a Binance listing on social media, even unintentionally, is a serious compliance and reputational risk for the project and for the KOL. The brief should include the exact embargo end time in UTC, a one-pager on the project narrative and the approved talking points, and an explicit instruction that no content goes live before that timestamp.</p>
+
+<p>The KOL tiers and budget ranges that apply here are the same ones used across all launch campaigns: nano KOLs in the $200 to $1,500 range for community seeding, micro at $500 to $5,000 for engaged niche audiences, mid-tier at $10,000 to $30,000 for established crypto voices with 50K-plus followings, and macro at $25,000 to $100,000-plus for top-tier amplification. For a Binance listing, the highest-ROI deployment is usually three to five mid-tier KOLs with genuinely engaged audiences on CT, rather than one macro KOL whose audience is largely passive. The full approach is in the <a href="/services/kol-marketing">KOL marketing</a> program.</p>
+
+<div class="fix-box"><strong class="fix-label">Embargo compliance for KOLs</strong>Every KOL brief must state the embargo end time in UTC at the top of page one, in bold, before anything else. Follow up with a direct message or call confirmation at T-12 hours. If a KOL front-runs the announcement, the reputational cost falls on the project, not on them. Get it in writing, confirm it verbally.</div>
+
+<h2>Listing-day sequence: hour by hour</h2>
+
+<p>The table below is the operational timeline I use for listing-day execution. Adapt the times to your specific embargo window, but the order of operations does not change.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Time (relative to embargo lift)</th>
+      <th>Action</th>
+      <th>Owner</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>T-72 hrs</td>
+      <td>Media briefings sent under embargo to 2-4 target reporters</td>
+      <td>PR lead</td>
+    </tr>
+    <tr>
+      <td>T-48 hrs</td>
+      <td>KOL briefs distributed with UTC timestamp and approved talking points</td>
+      <td>PR lead + community</td>
+    </tr>
+    <tr>
+      <td>T-24 hrs</td>
+      <td>Confirm embargo receipt with all KOLs; send reminder to reporters</td>
+      <td>PR lead</td>
+    </tr>
+    <tr>
+      <td>T-12 hrs</td>
+      <td>Final KOL confirmation call or DM; founder social post scheduled, not yet published</td>
+      <td>Founder + PR lead</td>
+    </tr>
+    <tr>
+      <td>T-1 hr</td>
+      <td>All team members briefed; Discord and Telegram mods ready with pinned announcement copy</td>
+      <td>Community lead</td>
+    </tr>
+    <tr>
+      <td>T=0 (embargo lifts)</td>
+      <td>Binance posts; project Twitter/X posts simultaneously; press release live on wire</td>
+      <td>Founder + PR lead</td>
+    </tr>
+    <tr>
+      <td>T+15 min</td>
+      <td>KOL wave begins; founder threads, Discord pinned post, Telegram announcement go live</td>
+      <td>KOLs + community</td>
+    </tr>
+    <tr>
+      <td>T+1 hr</td>
+      <td>First embargoed articles publish (reporters who had briefings)</td>
+      <td>Reporters</td>
+    </tr>
+    <tr>
+      <td>T+3-6 hrs</td>
+      <td>Founder AMA or Twitter Spaces with KOL host to sustain engagement</td>
+      <td>Founder</td>
+    </tr>
+    <tr>
+      <td>T+24 hrs</td>
+      <td>Follow-up pitches to outlets that did not have embargoed briefings; regional media push</td>
+      <td>PR lead</td>
+    </tr>
+    <tr>
+      <td>T+48-72 hrs</td>
+      <td>Data story: trading volume, new holders, community growth since listing</td>
+      <td>PR lead + analytics</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The T+48 to T+72 data story is the piece most projects skip, and it is actually the highest-leverage follow-up pitch. By 48 hours post-listing, you have real trading data, real community growth numbers, and real on-chain activity. That is genuinely newsworthy and gives reporters who missed the day-one window a fresh news peg. The <a href="/playbook/pre-token-launch-pr-checklist">pre-token launch PR checklist</a> covers how to prepare the data infrastructure so you can pull these numbers fast.</p>
+
+<h2>Compliance-safe messaging: what you can and cannot say</h2>
+
+<p>This section is the one most projects underinvest in, and it is the one most likely to create legal exposure or reputational damage. The compliance principles here are general guidance only and not legal advice; always review with counsel before publishing.</p>
+
+<p>The core rule for any listing announcement is that you are announcing a fact: the token is now available to trade on Binance. You are not announcing what the price will do, projecting returns, or framing the listing as an investment recommendation. The practical messaging rules that follow from this are consistent across jurisdictions.</p>
+
+<ul>
+  <li><strong>Do not mention price targets or expected gains.</strong> "The listing could push price to X" is the most common compliance error in crypto PR, and it appears in project Telegram channels constantly. If it is in your KOL brief, remove it before you send.</li>
+  <li><strong>Do not use the word "investment."</strong> Frame the listing as a trading availability event, not an investment opportunity. The distinction matters to regulators and to Binance's own compliance team.</li>
+  <li><strong>Use factual, verifiable claims about the protocol, not performance projections.</strong> "The protocol has processed $X in transactions" is a fact. "The protocol will be the largest in its category" is a projection and creates exposure.</li>
+  <li><strong>Jurisdiction caveats where relevant.</strong> If the token is not available in certain jurisdictions due to regulatory requirements, the announcement copy should note this clearly. Binance itself will often flag this, but your own comms should match.</li>
+</ul>
+
+<div class="callout"><strong>Field rule</strong>Review every piece of KOL and media copy against one question: is this a statement of fact about what happened, or is it a statement about what will happen to price? The first kind is comms. The second kind is a liability. Every word in the brief should pass that test.</div>
+
+<h2>Regional and multilingual amplification</h2>
+
+<p>Binance's user base is overwhelmingly non-English-speaking. Korea, Turkey, Brazil, Japan, Vietnam, and the Philippines collectively represent a larger active-trading audience than the US and UK combined. A listing announcement that runs only in English, on English-language crypto media, is leaving the majority of the potential audience unaddressed.</p>
+
+<p>For each listing campaign I run, the regional layer is built in advance, not retrofitted after the fact. The practical version of this: identify which two or three regional markets are most relevant to the protocol's community or use case, brief a regional PR contact or local KOL in each market at the same time as the main KOL briefing, and have translated announcement copy ready to publish simultaneously with the English version. For Korea, that means Naver blog and BloomingBit as well as CT. For Japan, CryptoTimes JP and Line channels. For India, Inc42 and Hindustan Times Tech if the protocol has an Indian founding team or user base worth highlighting.</p>
+
+<p>Web3Auth's multilingual syndication at a major partnership announcement is the clearest example I have seen of this done right: the same story, translated and locally framed, running across six languages on the same day, multiplied the effective reach by a factor most single-language campaigns cannot match.</p>
+
+<h2>What to do if the listing announcement underperforms</h2>
+
+<p>Sometimes the listing goes live and the coverage does not materialise the way it should. This happens for a few specific reasons, and each has a concrete fix.</p>
+
+<p><strong>No pre-existing narrative context.</strong> If reporters have never written about the protocol before listing day, the listing is a cold announcement with no frame. The fix is not a better press release on the day. The fix is earlier media work, ideally starting eight weeks before the listing with a <a href="/services/token-launch-pr">token launch PR</a> program that builds familiarity with the beats that matter.</p>
+
+<p><strong>KOL content felt like paid promotion, not genuine signal.</strong> If the KOL posts all appeared in a tight 15-minute window with nearly identical language, CT users notice and discount the whole wave. The fix is staggered timing (T+15, T+45, T+90 minutes) and briefing KOLs to use the provided talking points as a springboard rather than a script.</p>
+
+<p><strong>The announcement copy led with the listing, not the story.</strong> "We are now listed on Binance" is the least interesting sentence in the press release. Lead with the narrative: what the listing proves, what milestone it marks, what it enables for users. The listing is the third sentence, not the first.</p>
+
+<p><strong>No follow-up cadence.</strong> Listing day is not the end of the campaign. The 72-hour data story, a founder AMA, a Twitter Spaces with a top KOL host, a podcast tour in the week following: these are the assets that extend the news cycle past the initial 24-hour window and give the story legs into the second week. I detail the full cadence in the <a href="/glossary/what-is-a-tge-comms-plan">TGE comms plan</a> breakdown.</p>
+
+<h2>How much should a listing PR campaign cost</h2>
+
+<p>Listing-day comms is not something to bolt on at the last minute with a $2,000 press release. The budget that works covers four line items: the PR operator or agency, the KOL budget, the wire distribution, and the regional translation and amplification.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Line item</th>
+      <th>Budget range</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Fractional PR operator (full listing campaign)</td>
+      <td>$5,000-$12,000/mo or $15,000-$40,000 sprint</td>
+      <td>Includes strategy, media, KOL coordination, copy</td>
+    </tr>
+    <tr>
+      <td>Full agency (if applicable)</td>
+      <td>$15,000-$45,000/mo</td>
+      <td>Larger team, broader output, higher overhead</td>
+    </tr>
+    <tr>
+      <td>KOL budget (3-5 mid-tier)</td>
+      <td>$30,000-$90,000 total</td>
+      <td>$10,000-$30,000 per mid-tier; nano/micro for seeding</td>
+    </tr>
+    <tr>
+      <td>Wire distribution (PRWeb, PRNewswire, Globe Newswire)</td>
+      <td>$500-$2,500 per release</td>
+      <td>Essential for timestamp, pickup, and global wire indexing</td>
+    </tr>
+    <tr>
+      <td>Regional amplification (translation + local KOLs)</td>
+      <td>$3,000-$12,000 per market</td>
+      <td>2-3 markets typical; depends on protocol's regional focus</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The total picture for a well-executed listing campaign sits in the $50,000 to $150,000 range when KOL budget is included, or $20,000 to $50,000 if the protocol has strong enough organic community traction to carry the KOL layer itself. The PR and media layer alone, without KOLs, typically runs $15,000 to $40,000 as a launch sprint. These are the same anchors used across the site.</p>
+
+    <div class="author-block">
+      <div class="author-avatar">SJ</div>
+      <div>
+        <div class="author-name">Shilika Jain</div>
+        <p class="author-bio">Fractional PR and ghostwriting for Web3, DePIN, AI and cybersecurity founders. 50+ protocols placed across Forbes, CoinDesk, Cointelegraph, Decrypt, The Block, Blockworks and regional crypto media, including coordinated listing-day campaigns for tier-1 exchange announcements. <a href="/about">View full profile &rarr;</a> &middot; <a href="/#contact">Book a 30-min teardown &rarr;</a></p>
+      </div>
+    </div>
+
+    <div class="faq-block">
+      <h2>Frequently asked questions</h2>
+
+      <div class="faq-q">How do you announce a Binance listing without front-running the embargo?</div>
+      <div class="faq-a">Binance controls the announcement timing and will provide an embargo end time in UTC. All your comms, including media pitches, KOL briefs, founder social posts, and community announcements, must be scheduled to publish at or after that UTC timestamp, never before. Brief KOLs 24-48 hours in advance under a written embargo agreement, confirm compliance at T-12 hours, and have all content pre-scheduled so nothing requires a manual trigger that could misfire early. The biggest risk is a KOL posting content without checking the time in their local timezone versus UTC.</div>
+
+      <div class="faq-q">Which media outlets should you target for a Binance listing announcement?</div>
+      <div class="faq-a">For English-language tier-1 coverage, target CoinDesk, Cointelegraph, Decrypt, The Block, and Blockworks with embargoed briefings 48-72 hours before the listing. For regional amplification, add BloomingBit and TokenPost for Korea, CryptoTimes JP for Japan, and Inc42 for India depending on the protocol's community focus. The pitch is short: one paragraph on the listing fact, one paragraph on what it proves about the protocol's trajectory, and the embargo end time. Reporters who have been briefed in advance publish the moment the embargo lifts, giving you coverage in the first hour rather than hours later. The full approach is in the <a href="/playbook/pre-token-launch-pr-checklist">pre-token launch PR checklist</a>.</div>
+
+      <div class="faq-q">How much does PR for a Binance listing announcement cost?</div>
+      <div class="faq-a">The PR and media layer for a listing campaign typically runs $15,000 to $40,000 as a launch sprint, or $5,000 to $12,000 per month if structured as a fractional operator retainer covering the full pre-listing and post-listing period. KOL budget sits on top of this, typically $30,000 to $90,000 for three to five mid-tier KOLs with genuinely engaged audiences. Wire distribution adds $500 to $2,500 per release. Regional amplification in two to three markets adds $3,000 to $12,000 per market. The total for a well-executed campaign is usually $50,000 to $150,000 including KOLs.</div>
+
+      <div class="faq-q">What should the listing announcement actually say?</div>
+      <div class="faq-a">Lead with the narrative frame, not the listing fact. The listing is proof that something larger is true about the protocol: a milestone in traction, a regional expansion, an institutional use case. The listing itself belongs in the second or third sentence, not the headline. From a compliance standpoint, announce the fact of trading availability and avoid any language that projects price performance, implies investment returns, or makes forward-looking claims about what the listing will do for token value. Review all copy, including KOL talking points, against this standard before distribution.</div>
+
+      <div class="faq-q">How do you sustain coverage beyond listing day?</div>
+      <div class="faq-a">The T+48 to T+72 data story is the most underused follow-up asset in listing campaigns. By 48 hours post-listing, you have real trading volume, new holder counts, and on-chain activity data that gives reporters who missed day one a fresh, factual news peg. Pair this with a founder AMA or Twitter Spaces in the first week and a podcast tour in the following ten days. The full cadence is detailed in the <a href="/glossary/what-is-a-tge-comms-plan">TGE comms plan</a> breakdown, which covers how to extend the news cycle through the second and third week post-listing.</div>
+    </div>
+
+    <p style="margin-top: 2.2em; padding: 22px 26px; background: var(--paper-2); border-left: 3px solid var(--lime); border-radius: 4px; font-size: 17px; line-height: 1.55;"><strong>Getting ready for a listing announcement?</strong> Start with the <a href="/playbook/pre-token-launch-pr-checklist" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">pre-token launch PR checklist</a> to lock in the infrastructure before listing day, then look at the <a href="/services/token-launch-pr" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">token launch PR</a> program for the full campaign build. The <a href="/playbook" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">full playbook library</a> covers pricing, KOL strategy, and the media relationships that make listing day coverage actually happen.</p>
+
+  </article>
+</section>
+
+<section class="cta-strip">
+  <h3>Have a listing that needs to <em>land</em>?</h3>
+  <a href="https://calendly.com/shilikajain/30min/" target="_blank" rel="noopener" class="cta-strip-btn">
+    Book a 30-min teardown
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.4"/></svg>
+  </a>
+</section>
+
+<footer class="footer">
+  <div class="footer-row">
+    <span>© SHILIKA JAIN - 2019-2026</span>
+    <span>FIELD NOTES · v.1.0</span>
+    <span><a href="/blog">← ALL ARTICLES</a></span>
+  </div>
+</footer>

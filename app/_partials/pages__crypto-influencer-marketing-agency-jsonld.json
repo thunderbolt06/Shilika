@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/crypto-influencer-marketing-agency#service",
+      "name": "Crypto Influencer Marketing Agency — KOL Campaigns with On-Chain Attribution",
+      "serviceType": "KOL & Influencer Marketing",
+      "url": "https://www.shilikajain.com/pages/crypto-influencer-marketing-agency",
+      "description": "Crypto influencer marketing campaigns measured on cost-per-wallet and on-chain attribution, not vanity reach. 200+ vetted KOLs across YouTube, X and Telegram, covering nano ($200–$1.5K), micro ($500–$5K), mid ($10K–$30K) and macro ($25K–$100K+) tiers. Monthly retainers $5K–$12K; launch sprints $15K–$40K. APAC rosters in Korea, Japan, Vietnam and India.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global", "United States", "South Korea", "Japan", "Vietnam", "India", "Singapore", "United Arab Emirates"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 5000,
+          "maxPrice": 12000,
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "Crypto Influencer Marketing Agency", "item": "https://www.shilikajain.com/pages/crypto-influencer-marketing-agency" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/crypto-influencer-marketing-agency#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a crypto influencer marketing agency and who is it for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A crypto influencer marketing agency plans, vets, briefs and activates KOLs (key opinion leaders) on YouTube, X and Telegram to drive awareness and on-chain conversion for Web3, DePIN and AI projects. It is the right fit for protocols running a TGE, mainnet launch, raise announcement or sustained community growth programme who need creator relationships and attribution tracking, not just follower count. Shilika Jain runs this work directly for $5K–$12K/month."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does a crypto KOL campaign cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOL pricing varies by tier. Nano creators ($200–$1.5K per post) are used for community seeding. Micro creators ($500–$5K) reach niche audiences with higher engagement rates. Mid-tier voices ($10K–$30K) carry category authority. Macro creators ($25K–$100K+) are used for broad market moments. A managed campaign retainer runs $5K–$12K/month including vetting, briefing and reporting, or a launch sprint runs $15K–$40K for a concentrated activation window."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which platforms and regions do you cover?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Primary platforms: YouTube for long-form explainers, X for news-cycle speed, Telegram for community depth. Regional rosters cover Korea (high retail crypto activity), Japan, Vietnam, India and MENA. Western English-language creators are always included. Coverage depends on where your target wallet demographic is most active, which the KOL audit maps before activation begins."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you measure the results of a KOL campaign?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Every campaign is reported on cost-per-wallet: the number of unique on-chain wallets that connected, transacted or held after a KOL activation, divided by the creator fee paid. Secondary metrics include referral link clicks, Discord and Telegram joins attributed to each creator, and sentiment shift tracked across the campaign window. A ranked scorecard shows which KOLs drove the highest on-chain conversion, not just the most views."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I start a KOL campaign with Shilika Jain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short brief through the intent form describing your project, launch date and target audience. You will get a reply within 24 hours with an initial read on your community gaps and a proposed KOL tier mix, or book a 30-minute call to map it live. No agency pitch deck, no account-team intro call."
+          }
+        }
+      ]
+    }
+  ]
+}

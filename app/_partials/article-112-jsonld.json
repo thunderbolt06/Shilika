@@ -1,0 +1,140 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/founder-led-diy-pr-2026#article",
+      "headline": "DIY PR in 2026: How Founders Can Run Their Own Comms",
+      "alternativeHeadline": "The founder-run PR system: media list, self-pitching, news hooks and knowing when to hand off",
+      "description": "A practical system for Web3 and AI founders who want to earn real media coverage before hiring anyone. Covers building a targeted media list, developing news hooks, writing pitches that get responses, maintaining a posting cadence, and identifying the right moment to hand off to a fractional PR operator.",
+      "url": "https://www.shilikajain.com/playbook/founder-led-diy-pr-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/founder-led-diy-pr-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 1980,
+      "timeRequired": "PT9M",
+      "articleSection": "Strategy",
+      "keywords": [
+        "how to get media coverage Web3",
+        "DIY PR for founders",
+        "founder-led PR",
+        "crypto PR media list",
+        "how to pitch journalists Web3",
+        "Web3 PR strategy 2026",
+        "self-pitching crypto startup",
+        "when to hire PR agency Web3",
+        "news hook crypto founder",
+        "fractional PR Web3"
+      ],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "Media relations" },
+        { "@type": "Thing", "name": "Public relations" },
+        { "@type": "Thing", "name": "Founder personal branding" },
+        { "@type": "Thing", "name": "Media list building" },
+        { "@type": "Thing", "name": "Journalist pitching" },
+        { "@type": "Thing", "name": "Web3 communications" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "Cointelegraph" },
+        { "@type": "Organization", "name": "Decrypt" },
+        { "@type": "Organization", "name": "The Block" },
+        { "@type": "Organization", "name": "Blockworks" },
+        { "@type": "Organization", "name": "TechCrunch" },
+        { "@type": "Organization", "name": "Dark Reading" },
+        { "@type": "Organization", "name": "Inc42" },
+        { "@type": "Person", "name": "Tom Trowbridge" },
+        { "@type": "Organization", "name": "Fluence Network" },
+        { "@type": "Organization", "name": "MANTRA Chain" },
+        { "@type": "Organization", "name": "Gaia AI" },
+        { "@type": "Organization", "name": "Web3Auth" },
+        { "@type": "Organization", "name": "Bullieverse" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "DIY PR in 2026: How Founders Can Run Their Own Comms", "item": "https://www.shilikajain.com/playbook/founder-led-diy-pr-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/founder-led-diy-pr-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can a Web3 founder really run their own PR without hiring anyone?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, and in the first six to twelve months most should. A founder who knows their own narrative, builds a tight 40-outlet media list, pitches the right reporters with a real news hook, and posts consistently on LinkedIn can earn a dozen meaningful placements in a year with zero budget. The system breaks down not because founders are bad at PR but because the time cost eventually exceeds the opportunity cost of hiring. That is the right time to bring in help, not before."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I build a media list as a crypto or Web3 founder?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Start with the outlets that cover your specific sub-category: CoinDesk, Cointelegraph, Decrypt, The Block, Blockworks, DLNews for Web3; Dark Reading or CyberScoop for security; Inc42 for India; BloomingBit or TokenPost for Korea. Search your primary topic keyword at each outlet and read the bylines on the last 6-10 articles. You want 35 to 60 names who have published on your specific beat in the last 90 days, not a generic list of every crypto journalist. For each name, track their beat, last article date, and one personal note."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What makes a good news hook when you have no big announcement?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Original data is the highest-leverage hook available to a founder without a launch event. If your protocol or platform holds numbers nobody else has, that is a story: transaction volume, user retention rates, time-to-deploy comparisons, error rates. A contrarian take that contradicts received wisdom in your category, backed by something real, also works. Trend commentary, where you position the founder as an expert source on a story already being written, builds relationships more than coverage but is a valid longer game."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I pitch a journalist without looking like a spammer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Keep the pitch under 150 words, reference a specific article they wrote, name the hook in one sentence with a real fact or number, and pitch one person per outlet at a time. Follow up once after five business days and then stop. The single biggest error is sending the same note to every journalist at an outlet simultaneously. That is a permanent credibility burn. Precision and patience are the only two tactics that work consistently in DIY media outreach."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When should a founder stop doing their own PR and hire someone?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The signal is not budget, it is opportunity cost. When you are spending more than five hours a week on comms and the return is diminishing, or when a launch, raise, or partnership window in the next 60 to 90 days matters enough that professional comms would materially change the outcome, it is time. A fractional senior operator runs $5,000 to $12,000 per month and usually recovers that in the first month of a real launch."
+          }
+        }
+      ]
+    }
+  ]
+}

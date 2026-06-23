@@ -1,0 +1,135 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/how-to-get-speaking-slots-crypto-conferences-2026#article",
+      "headline": "How to Get Speaking Slots at Crypto Conferences in 2026",
+      "alternativeHeadline": "Conference programming reality, how slots are chosen, the pitch, and event-led PR leverage for Web3 and AI founders",
+      "description": "Consensus, Token2049, ETHDenver and the rest fill their stages four to six months before the agenda goes public. This 2026 playbook covers how conference programming actually works, what selection committees look for, how to write a submission that reads editorial not promotional, and how to turn a single speaking slot into a sustained PR campaign.",
+      "url": "https://www.shilikajain.com/playbook/how-to-get-speaking-slots-crypto-conferences-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/how-to-get-speaking-slots-crypto-conferences-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2050,
+      "timeRequired": "PT9M",
+      "articleSection": "Founder",
+      "keywords": [
+        "how to get speaking slots crypto conferences",
+        "conference speaking Web3 founders",
+        "Consensus speaking slot",
+        "Token2049 speaker submission",
+        "ETHDenver speaking application",
+        "crypto conference PR strategy",
+        "founder thought leadership conferences",
+        "Web3 event speaking 2026",
+        "conference PR leverage",
+        "crypto stage access founder"
+      ],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "Conference speaking" },
+        { "@type": "Thing", "name": "Crypto conferences" },
+        { "@type": "Thing", "name": "Speaker submissions" },
+        { "@type": "Thing", "name": "Founder thought leadership" },
+        { "@type": "Thing", "name": "Event-led PR" }
+      ],
+      "mentions": [
+        { "@type": "Event", "name": "Consensus" },
+        { "@type": "Event", "name": "Token2049" },
+        { "@type": "Event", "name": "ETHDenver" },
+        { "@type": "Event", "name": "Permissionless" },
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "Cointelegraph" },
+        { "@type": "Organization", "name": "Blockworks" },
+        { "@type": "Organization", "name": "Decrypt" },
+        { "@type": "Organization", "name": "The Block" },
+        { "@type": "Organization", "name": "Forbes" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "How to Get Speaking Slots at Crypto Conferences in 2026", "item": "https://www.shilikajain.com/playbook/how-to-get-speaking-slots-crypto-conferences-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/how-to-get-speaking-slots-crypto-conferences-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How far in advance do you need to apply for a speaking slot at Consensus or Token2049?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For tier-1 events like Consensus and Token2049, the effective lead time is four to six months before the event date, often before the official call for speakers is even announced. Programming committees fill anchor slots through direct outreach and existing relationships months ahead of the public submission window. Submitting on the day the form opens is already late if you have not built the pre-existing relationship or reputation that puts you on a committee member's shortlist."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What do conference programmers look for in a speaker submission?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A specific, contestable argument the speaker will defend under questions, evidence that the speaker has the credential to make that specific argument (not just to run a relevant company), clear audience value rather than product positioning, and proof the speaker can perform: a video from any prior appearance, a byline that demonstrates the argument in writing, or a social presence that shows community credibility. The single biggest filter is whether the submission reads like an editorial pitch or a product pitch. Editorial pitches get read; product pitches get binned."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you need to be well-known to get a speaking slot at a major crypto conference?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, but you need to be legible on the specific topic you are pitching. A founder of an early-stage DePIN protocol with one well-cited op-ed on DePIN infrastructure and a video of a regional talk is a credible applicant for a DePIN track panel at Consensus, even without broad name recognition. The founder profiling program is specifically designed to build this kind of topic-specific credibility in a 90-day window, turning a strong point of view into the bylines and media appearances that make a conference submission land."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there a difference between sponsored and programmed speaking slots at crypto events?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, and it matters for PR outcomes. A programmed slot signals editorial selection, which journalists treat as credibility evidence and which generates more earned media coverage before and after the event. A sponsored slot gives you the room and the audience but not the editorial halo. Both can generate value, but the preparation should be the same: a real argument, a pre-briefed journalist, and a content asset plan. A well-executed sponsored talk at a tier-2 event builds the track record for a programmed slot at tier-1 the following year."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you turn a single conference talk into ongoing PR value?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Treat the event as a three-phase campaign: pre-brief two or three journalists on the argument you will make so they are primed to cover it live, document the talk in real time with clips and a live thread during the session, then publish the core argument as a standalone essay and pitch a follow-on op-ed in the post-event window. A recorded talk has a longer shelf life than any press release, and the best founders extract three to five pieces of content from a single thirty-minute session."
+          }
+        }
+      ]
+    }
+  ]
+}

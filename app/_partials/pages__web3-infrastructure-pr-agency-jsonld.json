@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/web3-infrastructure-pr-agency#service",
+      "name": "Web3 Infrastructure PR Agency — Fractional Senior Operator",
+      "serviceType": "Web3 PR",
+      "url": "https://www.shilikajain.com/pages/web3-infrastructure-pr-agency",
+      "description": "Fractional senior PR for Web3 infrastructure protocols: wallet SDKs, oracle networks, RPC providers and middleware layers. The core approach anchors each narrative to an ecosystem partner the press already covers. Web3Auth's Google Cloud x Firebase integration ran across 30+ outlets in seven languages. Retainer from $5K–$12K/month versus $15K–$45K at a full agency.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global", "United States", "United Kingdom", "South Korea", "Japan", "India", "Singapore", "United Arab Emirates"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 5000,
+          "maxPrice": 12000,
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "Web3 Infrastructure PR Agency", "item": "https://www.shilikajain.com/pages/web3-infrastructure-pr-agency" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/web3-infrastructure-pr-agency#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Web3 infrastructure PR and who is it for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Web3 infrastructure PR is the process of building press traction for protocols that form the plumbing layer of crypto: wallet SDKs, oracle networks, RPC providers, middleware, bridging layers and developer tooling. It is for teams whose product is adopted by builders rather than by end users directly, and who need coverage in both crypto media and developer-focused tech press. The core technique is anchoring your narrative to a partner, use-case or integration that the press already has a reason to cover."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does Web3 infrastructure PR cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fractional senior operator runs infrastructure PR for $5K–$12K per month, which covers strategy, pitching, partner coordination and APAC distribution. A traditional agency charges $15K–$45K per month because the retainer funds a multi-person account team, most of whom are not writing pitches or speaking to editors. A single integration launch sprint runs $15K–$40K over four to eight weeks if you need a concentrated push around one announcement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which outlets can actually cover a wallet SDK or oracle protocol?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Crypto tier-1: CoinDesk, The Block, Cointelegraph, Decrypt, Blockworks. Developer and enterprise tech: Google Cloud blog, The New Stack, InfoQ, TechCrunch where the partner angle is strong enough. Regional developer press: BloomingBit and TokenPost (Korea), CryptoTimes JP (Japan), ChainCatcher (China), Inc42 (India). Web3Auth's Firebase story ran across all three tiers simultaneously because the narrative framed it as a developer-tooling milestone, not a crypto wallet update."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does the process look like from first call to first placement?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Week one is a teardown: your current press footprint, partner roster and the one story angle most likely to resonate with a tech or crypto editor. Weeks two and three build the narrative and journalist map. Week four begins pitching under embargo, with multilingual distribution timed to a coordinated launch. First placements typically appear within two to four weeks of the project starting, depending on the news hook."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get started with Web3 infrastructure PR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short project brief through the intent form and you will get a reply within 24 hours with a quick read on your press footprint and the partner angle most worth pursuing. Or book a 30-minute call at calendly.com/shilikajain/30min and we will map it out live. No deck required, no account-team intro call."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/crypto-press-release-distribution-service#service",
+      "name": "Crypto Press Release Distribution Service",
+      "serviceType": "Content Writing",
+      "url": "https://www.shilikajain.com/pages/crypto-press-release-distribution-service",
+      "description": "Crypto press release distribution that drives real editorial pickup, not just wire syndication. Combines release writing with direct pitching to editors at CoinDesk, Cointelegraph, The Block, Decrypt and regional desks across six APAC markets. Fractional senior operator model at $5K–$12K/month versus $15K–$45K/month at a full agency.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global", "United States", "South Korea", "Japan", "India", "Singapore", "United Arab Emirates"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 5000,
+          "maxPrice": 12000,
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "Crypto Press Release Distribution Service", "item": "https://www.shilikajain.com/pages/crypto-press-release-distribution-service" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/crypto-press-release-distribution-service#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is crypto press release distribution and who is it for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Crypto press release distribution is the process of getting an announcement in front of the editors and journalists most likely to cover it, through a combination of direct pitching and, where appropriate, wire syndication. It is for Web3 and AI founders who need coverage in CoinDesk, Cointelegraph, The Block, Decrypt or mainstream finance outlets, and who have a genuine news hook: a raise, a product launch, a mainnet, a listing or a partnership with real weight. Wire-only distribution suits low-stakes announcements; earned placement is what moves markets and builds brand."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does crypto press release distribution cost compared to a wire service?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Wire services charge $300–$1,500 per release for syndication, which gets you a long list of republications on aggregator sites but rarely drives organic editor pickup. Fractional senior operator retainers run $5K–$12K/month and include release writing, direct editorial outreach, embargo management and reporting. A full agency handling the same scope typically runs $15K–$45K/month. A single launch sprint with a targeted release and distribution push runs $15K–$40K depending on scope and markets."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which outlets can you actually place a crypto press release in?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tier-1 crypto: CoinDesk, Cointelegraph, The Block, Decrypt, Blockworks, The Defiant. Mainstream where the story warrants it: Forbes, Yahoo Finance, Benzinga. Regional: BloomingBit and TokenPost (Korea), CryptoTimes JP and CoinPost (Japan), ChainCatcher and Jinse (China), Inc42 (India), e27 (Southeast Asia). Placement depends on a real news hook. A $2M pre-seed with no product and no named investors will not place in CoinDesk regardless of the distribution method used."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the process and how long does a crypto press release take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A single release project runs four to seven days from brief to outreach. Day one is the intake call or brief to lock the angle. Days two and three are drafting and review. Days four and five are outreach, with embargoed versions going to priority targets first. Day six or seven is follow-up and the placement report. For a larger launch with an embargo, add one to two weeks of pre-outreach relationship work before the announcement date."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get started with crypto press release distribution?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short project brief through the intent form and you will get a reply within 24 hours with a read on whether your announcement has a placeable angle and which outlets make sense to target. Alternatively, book a 30-minute call and we can work through the angle live. No deck required, no multi-step onboarding call."
+          }
+        }
+      ]
+    }
+  ]
+}

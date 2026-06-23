@@ -1,0 +1,134 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/how-to-vet-crypto-kols-2026#article",
+      "headline": "How to Vet Crypto KOLs in 2026 (and Spot Fake Engagement)",
+      "alternativeHeadline": "The independent audit checklist that catches bots, fake reach and dead engagement before you sign a KOL deal",
+      "description": "Most KOL spend in crypto is wasted on bought audiences and ghost followers. This 2026 vetting checklist covers follower growth pattern analysis, engagement rate benchmarks by tier, audience geography audits, on-chain track record checks, red flags that disqualify a deal, and how to structure performance-contingent KOL contracts.",
+      "url": "https://www.shilikajain.com/playbook/how-to-vet-crypto-kols-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/how-to-vet-crypto-kols-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2943,
+      "timeRequired": "PT9M",
+      "articleSection": "KOL",
+      "keywords": [
+        "crypto KOL vetting",
+        "fake engagement crypto influencer",
+        "how to vet crypto KOLs 2026",
+        "crypto influencer audit checklist",
+        "bot followers crypto",
+        "KOL engagement rate benchmarks",
+        "on-chain KOL track record",
+        "crypto PR agency comparison",
+        "Web3 influencer marketing",
+        "KOL deal structure crypto"
+      ],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "Key Opinion Leader (KOL)" },
+        { "@type": "Thing", "name": "Influencer marketing" },
+        { "@type": "Thing", "name": "Engagement fraud" },
+        { "@type": "Thing", "name": "Bot followers" },
+        { "@type": "Thing", "name": "On-chain analytics" },
+        { "@type": "Thing", "name": "Token launch marketing" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "Cointelegraph" },
+        { "@type": "Organization", "name": "Decrypt" },
+        { "@type": "Organization", "name": "The Block" },
+        { "@type": "Organization", "name": "Etherscan" },
+        { "@type": "Organization", "name": "Social Blade" },
+        { "@type": "Organization", "name": "Bubblemaps" },
+        { "@type": "Organization", "name": "Arkham" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "How to Vet Crypto KOLs in 2026 (and Spot Fake Engagement)", "item": "https://www.shilikajain.com/playbook/how-to-vet-crypto-kols-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/how-to-vet-crypto-kols-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do you spot fake engagement on a crypto KOL account?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The clearest signals are vertical follower spikes with no corresponding viral content, a like-to-reply ratio above 95:5 (engagement pods drive likes but not real replies), and engagement that peaks within 30 minutes of a post and disappears entirely by hour two. Cross-reference the follower growth chart on Social Blade, calculate manual engagement rate against tier benchmarks, and request a screen recording of the account's analytics rather than a static screenshot, which can be edited in minutes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a healthy engagement rate for a crypto KOL in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For nano-tier accounts (5K to 25K followers), expect 3.5 to 8 percent. Micro-tier (25K to 100K) should be 2 to 5 percent. Mid-tier (100K to 500K) lands at 1 to 3 percent, and macro accounts (500K and above) typically run 0.5 to 2 percent. Anything meaningfully below the lower bound for the tier is a signal the audience has been inflated or the content is not resonating. Check the crypto influencer pricing and rates guide for how engagement benchmarks map to fee ranges."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I check a KOL's on-chain track record?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Use free block explorers like Etherscan, BscScan or Solscan to look up the token contracts of projects they promoted historically. Search for large sell transactions in the 48 to 72 hours following their post. Tools like Bubblemaps and Arkham can help trace wallet relationships if the KOL's public address is disclosed. A pattern of promotion followed by personal token selling while followers are buying is both a red flag and a legal exposure for your project to be associated with."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I pay KOLs upfront or on performance?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Structure deals with a partial advance and the remainder on delivery of verified campaign metrics: impressions, link clicks, on-chain wallet connections or tracked token purchases. Performance-contingent KOL deals are increasingly standard in 2026. KOLs with genuine audiences will accept them without hesitation. A KOL who refuses the structure is signalling they do not expect to deliver the numbers they quoted."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many KOLs should a Web3 project use for a token launch?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Five to eight vetted mid-tier KOLs running simultaneously typically outperforms a single macro KOL at equivalent total spend. The compounding social proof effect across multiple credible voices in the 72-hour launch window creates a signal that looks organic rather than bought, and the topic-aligned audiences convert at higher rates than a large generalist following. Run them inside a broader PR window where editorial coverage from outlets like Decrypt, CoinDesk or The Block has already set the narrative before the KOL amplification lands."
+          }
+        }
+      ]
+    }
+  ]
+}

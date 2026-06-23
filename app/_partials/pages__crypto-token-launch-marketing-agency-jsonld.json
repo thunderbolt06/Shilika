@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/crypto-token-launch-marketing-agency#service",
+      "name": "Crypto Token Launch Marketing Agency — Fractional Senior Operator",
+      "serviceType": "Token Launch / TGE PR",
+      "url": "https://www.shilikajain.com/pages/crypto-token-launch-marketing-agency",
+      "description": "PR, KOL waves and community sequencing timed to one token launch cycle, run by a fractional senior operator for $5K–$12K/month or a $15K–$40K contained sprint. 50+ Web3 and AI founders placed in Forbes, CoinDesk, Cointelegraph, Decrypt, The Block and Blockworks. RARI Chain: 11 tier-1 placements in 24 hours at TGE. MANTRA Chain: $11M raise as CoinDesk exclusive.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global", "United States", "South Korea", "Japan", "Vietnam", "India", "Singapore", "United Arab Emirates"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 5000,
+          "maxPrice": 12000,
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "Crypto Token Launch Marketing Agency", "item": "https://www.shilikajain.com/pages/crypto-token-launch-marketing-agency" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/crypto-token-launch-marketing-agency#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does a crypto token launch marketing agency actually do?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A token launch marketing agency builds the pre-launch narrative, secures tier-1 media placements through embargo strategy, coordinates KOL waves across tiers and geos, activates community and APAC audiences in the launch window, and runs post-TGE coverage to sustain momentum. The critical variable is whether a senior operator is doing that work directly or whether a junior account team is. Shilika Jain runs the full motion directly for $5K–$12K/month or a $15K–$40K contained sprint."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does token launch marketing cost in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Full-service agencies bill $15K–$45K/month for a launch retainer because the fee funds a multi-person account team. A fractional senior operator delivers the same senior scope for $5K–$12K/month, or a contained four-to-eight-week sprint at $15K–$40K covering narrative, embargo, KOL activation and APAC. KOL fees sit on top of these rates: nano creators cost $200–$1.5K per post, micro $500–$5K, mid-tier $10K–$30K and macro $25K–$100K+."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which outlets and KOL tiers do you target for a token launch?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tier-1 crypto press: CoinDesk, Cointelegraph, The Block, Decrypt, Blockworks, The Defiant. Mainstream where the angle warrants it: Forbes, Bloomberg, Yahoo Finance, Benzinga. APAC: BloomingBit and TokenPost (Korea), CryptoTimes JP and CoinPost (Japan), ChainCatcher and Jinse (China), Inc42 (India). KOL tiers are matched to the community, from nano influencers for niche DeFi audiences through macro for broad retail. Coverage depends on a real news hook, not a distribution list."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When should I start the launch marketing process?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Six to twelve weeks before your TGE or public launch is the minimum useful window. That period is when narrative gets built, journalist relationships get warm, embargo timings get negotiated and KOL briefing packets get prepared. Starting two weeks out usually means the work is reactive rather than strategic."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get started with token launch marketing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short project brief through the intent form and you will get a reply within 24 hours with a read on your current press footprint and where the launch narrative should start. Or book a 30-minute call directly and we will plot the sequence live. No agency deck, no onboarding call with a team you will never speak to again."
+          }
+        }
+      ]
+    }
+  ]
+}

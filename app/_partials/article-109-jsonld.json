@@ -1,0 +1,135 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/crypto-pr-agency-comparison-2026#article",
+      "headline": "How to Compare Crypto PR Agencies in 2026",
+      "alternativeHeadline": "A practical scoring rubric for comparing crypto PR agencies on access, seniority, model, reporting and price",
+      "description": "A practical framework for comparing crypto PR agencies side by side in 2026, covering media access, account seniority, engagement model, reporting quality and all-in price. Includes a five-dimension scoring rubric, key questions to ask before signing, and where a fractional senior operator fits in the comparison.",
+      "url": "https://www.shilikajain.com/playbook/crypto-pr-agency-comparison-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/crypto-pr-agency-comparison-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2050,
+      "timeRequired": "PT8M",
+      "articleSection": "Strategy",
+      "keywords": [
+        "crypto PR agency comparison",
+        "how to compare crypto PR agencies",
+        "Web3 PR agency selection",
+        "crypto PR agency 2026",
+        "fractional PR vs agency",
+        "Web3 PR pricing",
+        "crypto PR agency scoring rubric",
+        "best crypto PR agency",
+        "how to choose Web3 PR agency",
+        "crypto PR retainer cost"
+      ],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "Public relations agency comparison" },
+        { "@type": "Thing", "name": "Crypto PR agencies" },
+        { "@type": "Thing", "name": "Web3 public relations" },
+        { "@type": "Thing", "name": "Fractional PR operator" },
+        { "@type": "Thing", "name": "PR agency scoring rubric" },
+        { "@type": "Thing", "name": "Media relations" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "Cointelegraph" },
+        { "@type": "Organization", "name": "The Block" },
+        { "@type": "Organization", "name": "Blockworks" },
+        { "@type": "Organization", "name": "Decrypt" },
+        { "@type": "Organization", "name": "Forbes" },
+        { "@type": "Organization", "name": "TechCrunch" },
+        { "@type": "Organization", "name": "Dark Reading" },
+        { "@type": "Organization", "name": "Clutch" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "How to Compare Crypto PR Agencies in 2026", "item": "https://www.shilikajain.com/playbook/crypto-pr-agency-comparison-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/crypto-pr-agency-comparison-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I compare crypto PR agencies without getting misled by the sales pitch?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Score each agency on five dimensions before you weight any single factor: media access at your specific outlet tier, the seniority of who will actually be on your account, the engagement model, reporting quality, and all-in price. Ask for three analogous placements from the past year, the name of the journalist, and a sample report from a current client. The sales deck tells you what they want you to believe; those three requests tell you what they can actually deliver."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a reasonable price range for a crypto PR agency in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Full-service agencies run $15,000 to $45,000 per month on retainer, depending on scope, team depth and outlet tier. Launch sprints for a defined campaign scope typically run $15,000 to $40,000 as a project fee. A fractional senior operator runs $5,000 to $12,000 per month and is a structurally different model: more seniority and direct media access per dollar, less production depth. Before comparing quotes, build a normalized scope that includes wire distribution, regional language packages, and any KOL or podcast coordination you need, since these are commonly billed as add-ons at full-service agencies."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should a crypto founder consider a fractional PR operator instead of an agency?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fractional belongs on every shortlist, not just as a budget fallback. At $5,000 to $12,000 per month it gives you a senior operator's direct journalist relationships and full narrative ownership, with the trade-off of lower production volume and no team depth. If your campaign is primarily editorial and your milestone cadence is concentrated rather than continuous, fractional often outperforms a full agency on coverage quality per dollar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many agencies should be on a crypto PR shortlist?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Three to five. Below three you do not have enough contrast to score meaningfully. Above five the comparison process consumes more founder time than the decision warrants. Include at least one full-service agency, one boutique specialist in your vertical, and one fractional option if your budget allows it. Build the list from Clutch reviews, agency rankings guides, and direct founder referrals from your network, not from cold inbound pitches."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What questions should I ask a crypto PR agency before signing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Six questions do most of the work. First: show me three placements from the past year closest to my goal and name the journalist. Second: who is on my account day to day and how many accounts are they running? Third: what does your standard monthly report look like, can you share a sanitized example? Fourth: what is the all-in cost including add-ons for my specific scope? Fifth: what happens if the person on my account leaves? Sixth: can you name two or three clients who ended a relationship with you in the last eighteen months and why? That last one separates agencies that are operationally honest from those whose pitch assumes everything goes right."
+          }
+        }
+      ]
+    }
+  ]
+}

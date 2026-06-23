@@ -1,0 +1,136 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/token-launch-marketing-agency-india-2026#article",
+      "headline": "Token Launch Marketing Agencies in India in 2026",
+      "alternativeHeadline": "How to find a token launch PR agency that runs both the domestic India narrative and the global crypto-native campaign",
+      "description": "Launching a token with an Indian home base or audience requires a dual-track campaign: domestic India media including CoinDesk India and Inc42 alongside global outlets like CoinDesk and Cointelegraph. This 2026 guide covers the compliance reality of India's 30% TDS regime, how to evaluate agencies, what a dual-track TGE campaign costs, and the narrative angles that actually land.",
+      "url": "https://www.shilikajain.com/playbook/token-launch-marketing-agency-india-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/token-launch-marketing-agency-india-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2050,
+      "timeRequired": "PT8M",
+      "articleSection": "Launch",
+      "keywords": [
+        "token launch PR agency",
+        "token launch marketing India",
+        "India TGE marketing",
+        "crypto PR agency India 2026",
+        "Web3 PR India",
+        "India token launch compliance",
+        "dual-track token launch",
+        "India crypto media",
+        "TGE PR strategy India",
+        "fractional PR Web3 India"
+      ],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "Token launch marketing" },
+        { "@type": "Thing", "name": "Crypto PR in India" },
+        { "@type": "Thing", "name": "Token generation event (TGE)" },
+        { "@type": "Thing", "name": "India crypto tax compliance" },
+        { "@type": "Thing", "name": "Dual-track PR campaign" },
+        { "@type": "Thing", "name": "KOL marketing Web3" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "Cointelegraph" },
+        { "@type": "Organization", "name": "Decrypt" },
+        { "@type": "Organization", "name": "The Block" },
+        { "@type": "Organization", "name": "Inc42" },
+        { "@type": "Organization", "name": "Economic Times Tech" },
+        { "@type": "Organization", "name": "CoinDCX" },
+        { "@type": "Organization", "name": "WazirX" },
+        { "@type": "Organization", "name": "Blockworks" },
+        { "@type": "Organization", "name": "BloomingBit" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "Token Launch Marketing Agencies in India in 2026", "item": "https://www.shilikajain.com/playbook/token-launch-marketing-agency-india-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/token-launch-marketing-agency-india-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the best token launch PR agency for India in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There is no single dominant agency. The best fit depends on whether you need dual-track coverage: domestic India media including CoinDesk India, Inc42, and ET Tech alongside global crypto-native outlets like CoinDesk, Cointelegraph, and Decrypt. Most agencies serve one track well and neglect the other. For pre-Series A projects, a fractional senior operator at $5,000 to $12,000 per month combined with a vetted India community manager often outperforms a full-service domestic agency."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does India's crypto tax regime affect token launch messaging?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "India's 30 percent flat tax on crypto gains and 1 percent TDS on transfers create real friction for retail participants, which means retail-facing marketing cannot lead with return projections without creating either a credibility problem or a compliance risk. The correct approach is to position the token as a utility instrument inside a protocol: staking access, governance rights, ecosystem participation. Any agency running your India campaign needs to understand this framing and apply it consistently across KOL content, press materials, and community communications."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does a dual-track India token launch campaign cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A launch sprint covering both global and India-domestic tracks runs $15,000 to $40,000, not including KOL fees which are separate. KOL fees in the India market range from $200 to $1,500 for nano-tier through $25,000 and above for macro-tier voices. Ongoing fractional PR support around the launch sits at $5,000 to $12,000 per month. Full agency retainers for larger projects run $15,000 to $45,000 per month. Budget both tracks explicitly: a global media spend that does not fund domestic India community conversion leaves you with press clippings and no on-chain volume."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which Indian crypto media outlets matter most for a TGE?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For editorial earned media: CoinDesk India, Inc42, and Economic Times Tech are the three that move institutional and retail credibility simultaneously. For community and retail reach: the major India-language Telegram groups, BloomingBit's India desk, and vetted Hindi and regional-language YouTube channels with genuine engagement. For any token launch with Indian retail as a target audience, you also need confirmed listings on CoinDCX, WazirX, or Zebpay, because media coverage that cannot convert to a purchase path is marketing with no outcome."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I check before hiring an India token launch marketing agency?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ask for named editor contacts at CoinDesk India and Inc42, not just references to relationships. Request the last three editorial placements they earned at global tier-one outlets with a specific reporter's byline on a TGE campaign. Ask how they handle the TDS and TCS messaging question in retail-facing content. And ask for a cash fee structure: any agency requesting token allocation as primary compensation has a conflict of interest that will shape their advice."
+          }
+        }
+      ]
+    }
+  ]
+}

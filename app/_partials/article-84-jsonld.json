@@ -1,0 +1,131 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/crypto-kol-marketing-korea-2026#article",
+      "headline": "Crypto KOL Marketing in Korea in 2026",
+      "alternativeHeadline": "Korean creator platforms, rate tiers, disclosure norms and native-brief discipline for foreign crypto projects",
+      "description": "Korea's crypto KOL ecosystem runs on its own platforms, rates and community norms. This 2026 operator playbook covers Korean creator tiers from nano to macro, KakaoTalk and YouTube as primary channels, disclosure requirements, why translated Western briefs fail, and how to build a native-brief campaign that credibly activates Korean retail.",
+      "url": "https://www.shilikajain.com/playbook/crypto-kol-marketing-korea-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/crypto-kol-marketing-korea-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 1980,
+      "timeRequired": "PT8M",
+      "articleSection": "KOL",
+      "keywords": [
+        "best crypto PR agency globally",
+        "crypto KOL marketing Korea",
+        "Korean crypto influencers 2026",
+        "Korea crypto KOL rates",
+        "KakaoTalk crypto marketing",
+        "Korean Web3 KOL campaign",
+        "APAC crypto PR",
+        "Korean crypto YouTube KOL",
+        "crypto influencer Korea disclosure",
+        "native brief Korea crypto"
+      ],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "Key Opinion Leader marketing" },
+        { "@type": "Thing", "name": "Korean crypto market" },
+        { "@type": "Thing", "name": "KakaoTalk communities" },
+        { "@type": "Thing", "name": "Influencer disclosure" },
+        { "@type": "Thing", "name": "APAC crypto PR" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "Upbit" },
+        { "@type": "Organization", "name": "Bithumb" },
+        { "@type": "Organization", "name": "BloomingBit" },
+        { "@type": "Organization", "name": "TokenPost" },
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "Korea Financial Services Commission" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "Crypto KOL Marketing in Korea in 2026", "item": "https://www.shilikajain.com/playbook/crypto-kol-marketing-korea-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/crypto-kol-marketing-korea-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does Korean crypto KOL marketing cost in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A properly executed Korean KOL campaign for a foreign project, combining Korean press placements, KOL fees, translation, and local coordination, typically runs $30,000 to $120,000 for a launch window. Individual creator rates range from $200 to $800 for nano creators, $500 to $8K for micro, $8K to $30K for mid-tier YouTube reviews, and $25K to $80K+ for macro creators. Korean creators sit at the premium end of global KOL rate ranges because they are operating in one of the highest-value crypto retail markets in the world."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which platforms do Korean crypto KOLs use?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "YouTube is the most important platform for long-form Korean crypto content, with top creators producing 20-40 minute project deep-dives that carry significant purchase-intent weight. KakaoTalk is Korea's dominant messaging platform and hosts closed crypto investment communities that are often more influential than public social channels. X (Twitter) functions as an amplification layer. NaverBlog and NaverCafe matter for domestic Korean search visibility and older retail segments. A complete Korean KOL campaign covers YouTube, KakaoTalk, and X at minimum."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do Korean crypto KOLs require paid content disclosure?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, increasingly and for good reason. Korea's Financial Services Commission has moved toward formal crypto asset disclosure requirements, and top Korean creators are disclosing paid arrangements as both a regulatory and community-trust practice. Korean retail communities actively watch for undisclosed paid promotions, and a creator caught pushing a project without disclosure loses community trust fast. The right approach is to structure genuinely credible content under a disclosed commercial arrangement, not to try to hide the commercial relationship."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why do Western KOL briefs fail in Korea?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Because Korean KOLs do not want to narrate a foreign project's English story in Korean translation. They need a hook their community will find compelling on its own terms: the Korean exchange listing status, the connection to local regulatory developments, a comparison to a market equivalent Korean retail already understands, or a Korean investor or advisor who can be named. A native brief identifies these local angles specifically."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I find credible Korean crypto KOL partners from outside Korea?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most reliable routes are: Korean crypto agencies with verifiable foreign-project campaign references and established creator rosters; Korean advisors or investors who can make warm introductions to top creators; or a specialist operator with genuine Korean market relationships. Cold English-language outreach to Korean creators almost never lands. The vetting metric that matters most is not follower count but community trust: how actively does the creator's community discuss and engage with the projects they cover, rather than simply watching and moving on."
+          }
+        }
+      ]
+    }
+  ]
+}

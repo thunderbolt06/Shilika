@@ -1,0 +1,121 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/cybersecurity-breach-crisis-comms-2026#article",
+      "headline": "Cybersecurity Breach and Crisis Communications in 2026",
+      "alternativeHeadline": "The first-hour holding statement, regulatory notification sequence, and trust rebuild playbook for security incidents",
+      "description": "When you are the breach, not the researcher. This 2026 crisis comms playbook covers what to say in the first hour, how to write a holding statement, which regulatory notification windows apply (GDPR, SEC, DORA), how to structure the 24-hour update, and the three-to-six month trust rebuild arc that determines whether credibility returns.",
+      "url": "https://www.shilikajain.com/playbook/cybersecurity-breach-crisis-comms-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/cybersecurity-breach-crisis-comms-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2050,
+      "timeRequired": "PT9M",
+      "articleSection": "Crisis",
+      "keywords": ["security PR", "cybersecurity breach communications", "crisis comms playbook", "holding statement template", "breach notification GDPR", "incident response PR", "crypto crisis communications", "trust rebuild after breach", "cybersecurity PR 2026", "data breach response"],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "Cybersecurity breach communications" },
+        { "@type": "Thing", "name": "Crisis PR" },
+        { "@type": "Thing", "name": "Incident response" },
+        { "@type": "Thing", "name": "Holding statement" },
+        { "@type": "Thing", "name": "Regulatory breach notification" },
+        { "@type": "Thing", "name": "Trust rebuild" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "Cointelegraph" },
+        { "@type": "Organization", "name": "Dark Reading" },
+        { "@type": "Organization", "name": "The Block" },
+        { "@type": "Organization", "name": "Wired" },
+        { "@type": "Organization", "name": "SC Media" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "Cybersecurity Breach and Crisis Communications in 2026", "item": "https://www.shilikajain.com/playbook/cybersecurity-breach-crisis-comms-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/cybersecurity-breach-crisis-comms-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What should a company say in the first hour after a cybersecurity breach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Publish a holding statement within 60 minutes of the incident becoming public. It needs to say three things: you are aware of an incident, your team is investigating, and you will share more information at a specific place and time. Do not speculate on scope, assign blame, or claim nothing was affected until you have verified it. A clear holding statement prevents the silence from becoming the story."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the regulatory notification requirements after a data breach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends on jurisdiction and company type, but the most common windows are 72 hours for GDPR (any entity processing EU or UK personal data), 4 business days for US public companies under SEC cybersecurity rules, and 30 to 90 days under various US state breach notification laws. These timelines run from the moment you become aware of the incident, not from when you have all the facts, so legal and communications teams need to be coordinating from hour one."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to rebuild trust after a security breach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Three to six months is the typical arc for companies that communicate well. The rebuild follows a sequence: a detailed public post-mortem within two to four weeks, a cadence of announced security improvements, and earned media positioning the company as having turned the incident into expertise. Companies that go quiet after the acute phase and assume trust will return naturally typically take much longer, if it returns at all."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should the founder or CEO speak publicly during a breach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, and they do not need to have all the answers to do so. The founder going dark during a crisis signals that they do not care or have something to hide. A brief, direct statement, even a 60-second video saying the founder is personally overseeing the response and will keep the community updated, does more for trust than three polished press releases. Accountability has to come from leadership. Technical detail can come from the security team."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does crisis PR cost for a cybersecurity incident?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fractional senior PR operator on retainer costs $5,000 to $12,000 per month, and that retainer buys immediate activation capability, pre-written templates, and an operator who already knows your product. A crisis PR firm engaged with no prior relationship typically costs $20,000 to $50,000 for the first week, with slower activation because they are onboarding in real time. The strongest argument for retaining cybersecurity PR support before an incident happens is that you cannot build those relationships and materials fast enough once something goes wrong."
+          }
+        }
+      ]
+    }
+  ]
+}

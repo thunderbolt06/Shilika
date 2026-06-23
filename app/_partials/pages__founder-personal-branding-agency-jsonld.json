@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/founder-personal-branding-agency#service",
+      "name": "Founder Personal Branding Agency — Op-Eds, Podcast Tour and Author Entity Build",
+      "serviceType": "Founder Profiling & Op-Eds",
+      "url": "https://www.shilikajain.com/pages/founder-personal-branding-agency",
+      "description": "Founder personal branding for Web3 and AI founders: category positioning, signed op-eds in Forbes, CoinDesk and Decrypt, a podcast tour and an author entity build that makes ChatGPT, Perplexity and Google AI Mode cite the founder by name. Delivered by a fractional senior operator for $5K–$12K/month across 50+ protocols and six APAC markets.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global", "United States", "United Kingdom", "India", "Singapore", "South Korea", "Japan", "United Arab Emirates"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 5000,
+          "maxPrice": 12000,
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "Founder Personal Branding Agency", "item": "https://www.shilikajain.com/pages/founder-personal-branding-agency" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/founder-personal-branding-agency#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a founder personal branding agency and who is it for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is the combination of positioning work, signed op-eds, podcast placements and an author entity build that makes a technical founder the cited voice of their category in media and in AI-engine answers. It is best suited to Web3, AI and DePIN founders who are raising, hiring or building partnerships and need a durable press presence rather than a one-off launch spike."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does founder personal branding cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A full-service brand agency or PR firm typically charges $15K–$45K/month for a founder programme. A fractional senior operator running the same work directly costs $5K–$12K/month. A focused founder profiling sprint, covering positioning, op-ed pipeline setup and author entity build, runs $15K–$40K over six to eight weeks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which outlets will my bylines appear in?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tier-1 crypto and tech: CoinDesk Opinion, Cointelegraph, Decrypt, The Block, Blockworks, Forbes. Business press where the angle warrants it: Fast Company, Benzinga, Yahoo Finance. The specific outlet list depends on the founder's category, news hook and how developed the thesis is. Coverage is earned, not guaranteed, and pitches go to editors who already know the work."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long before I see results?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The first signed op-ed typically lands within four to six weeks of the positioning session. A podcast placement takes two to four weeks to confirm and six to eight weeks to publish. An AI-engine citation appearing for the founder's name takes roughly eight to twelve weeks of consistent byline activity. The positioning and story-map work is done in week one, so the founder is pitching-ready within ten days of the start date."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get started with founder personal branding?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short brief through the intent form covering your category, your target audience and any press you have already had. You will get a reply within 24 hours with an honest read on your current media footprint and a suggested starting point. Alternatively, book a 30-minute call at calendly.com/shilikajain/30min and we map it live."
+          }
+        }
+      ]
+    }
+  ]
+}

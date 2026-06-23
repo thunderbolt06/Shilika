@@ -1,0 +1,133 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/how-to-choose-web3-pr-agency-checklist-2026#article",
+      "headline": "How to Choose a Web3 PR Agency in 2026: The Checklist",
+      "alternativeHeadline": "The questions that expose real journalist access, the red flags, and the model-fit test for evaluating Web3 PR agencies",
+      "description": "A founder-ready checklist for evaluating Web3 PR agencies in 2026: six questions that expose real journalist access versus noise, four red flags that predict a wasted retainer, the model-fit test between agency and fractional, and what to put in the contract before you sign.",
+      "url": "https://www.shilikajain.com/playbook/how-to-choose-web3-pr-agency-checklist-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/how-to-choose-web3-pr-agency-checklist-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2050,
+      "timeRequired": "PT9M",
+      "articleSection": "Strategy",
+      "keywords": [
+        "Web3 PR agency",
+        "how to choose a Web3 PR agency",
+        "Web3 PR agency checklist",
+        "Web3 PR agency red flags",
+        "fractional PR vs agency",
+        "crypto PR agency evaluation",
+        "Web3 journalist access",
+        "PR agency conflict of interest",
+        "Web3 PR retainer",
+        "crypto PR 2026"
+      ],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "Web3 PR agency selection" },
+        { "@type": "Thing", "name": "Journalist access" },
+        { "@type": "Thing", "name": "PR agency evaluation" },
+        { "@type": "Thing", "name": "Fractional PR" },
+        { "@type": "Thing", "name": "Crypto public relations" },
+        { "@type": "Thing", "name": "Earned media" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "Cointelegraph" },
+        { "@type": "Organization", "name": "Decrypt" },
+        { "@type": "Organization", "name": "The Block" },
+        { "@type": "Organization", "name": "Blockworks" },
+        { "@type": "Organization", "name": "Forbes" },
+        { "@type": "Organization", "name": "Benzinga" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "How to Choose a Web3 PR Agency in 2026: The Checklist", "item": "https://www.shilikajain.com/playbook/how-to-choose-web3-pr-agency-checklist-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/how-to-choose-web3-pr-agency-checklist-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I know if a Web3 PR agency has real journalist access?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ask the agency to name three earned editorial placements it secured in the last 90 days: the reporter's name, the outlet, the story angle, and whether it was editorial or sponsored. Real access produces specific, fast answers. Vague references to 'relationships across the ecosystem' or pivots to reach statistics are a signal the team is pitching from a cold list, not a warm relationship. Any agency billing above $10,000 a month should be able to pass this test without hesitation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between earned coverage and sponsored content in Web3 PR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Earned editorial coverage is coverage a reporter decided to write because the story was newsworthy, with no payment involved. Sponsored content is paid placement, labeled as such in most outlets, and carries far less credibility with buyers and search engines. Many agencies bundle both into a single coverage report to inflate the appearance of performance. Always ask for the distinction and count only earned placements when evaluating a campaign's effectiveness."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should a Web3 startup hire a PR agency or a fractional PR operator?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends on stage. Pre-launch and seed-stage founders are almost always better served by a fractional senior operator ($5,000 to $12,000 per month) than by a full agency ($15,000 to $45,000 per month), because the fractional model provides senior access and focus without the dilution of a large agency book. Agencies earn their cost at Series A and beyond, when launch cadence and vertical spread justify a full team."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What red flags should I watch for when evaluating Web3 PR agencies?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Four patterns predict a wasted retainer: coverage reports that mix earned and paid without distinguishing them; a senior team that sells the account but a junior associate who runs it; guarantees of placements in specific tier-1 outlets (editorial is never guaranteed, only sponsored placements can be); and agencies that plan to start pitching immediately before any narrative development work. Two or more of these in a first conversation is a strong signal to keep looking."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to see results from a Web3 PR campaign?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A realistic timeline for a well-run campaign is: weeks one to three for narrative development and relationship-warming, first meaningful pitches in week three or four, first earned coverage in weeks four to eight, and a consistent cadence from month two onwards. Month one with zero editorial pickup is not necessarily a failure if the narrative work is strong. Month two with zero pickup is a problem. Any agency that promises immediate tier-1 coverage from day one is setting expectations to close the deal, not to run a campaign."
+          }
+        }
+      ]
+    }
+  ]
+}

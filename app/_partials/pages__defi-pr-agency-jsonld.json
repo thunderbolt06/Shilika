@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/defi-pr-agency#service",
+      "name": "DeFi PR Agency — Fractional Senior Operator",
+      "serviceType": "Web3 PR",
+      "url": "https://www.shilikajain.com/pages/defi-pr-agency",
+      "description": "DeFi PR that leads with mechanism, not yield. Shilika Jain places DeFi and protocol founders in CoinDesk, The Defiant, Blockworks and Decrypt for $5K–$12K/month, using mechanism-first pitching, governance angles and on-chain data stories to earn tier-1 editorial coverage.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global", "United States", "United Kingdom", "European Union", "South Korea", "Japan", "India", "Singapore", "United Arab Emirates"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 5000,
+          "maxPrice": 12000,
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "DeFi PR Agency", "item": "https://www.shilikajain.com/pages/defi-pr-agency" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/defi-pr-agency#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a DeFi PR agency and who is it for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A DeFi PR agency pitches protocol launches, governance milestones, tokenomics updates and on-chain data stories to crypto-native journalists and mainstream financial media. It is the right fit for founders running AMMs, lending protocols, perpetuals, liquid staking or any DeFi infrastructure who need sustained editorial coverage beyond a one-off press release. A fractional senior operator is usually the better choice over a full agency: the person running your pitches to The Defiant and CoinDesk is the person you hired."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does DeFi PR cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Traditional crypto PR agencies charge $15K–$45K per month because the retainer covers a multi-person account team, most of whom are not DeFi-native. A fractional senior operator delivers the same editorial access and senior strategy for $5K–$12K per month. A focused launch sprint around a mainnet, a governance vote or a fundraise runs $15K–$40K over four to eight weeks and includes embargo management, journalist outreach and community amplification."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which outlets cover DeFi and can you get me in them?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The primary DeFi desks are The Defiant, DL News, Blockworks, CoinDesk, The Block and Decrypt. Mainstream finance outlets including Forbes, Bloomberg and Yahoo Finance cover DeFi when the angle has a broader market or regulatory dimension. Coverage is earned through a specific, verifiable hook: a mechanism story, a governance event backed by on-chain data or a fundraise with a named strategic angle. Wire blasts to generic crypto desks do not work for DeFi coverage."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does the process look like and how long does it take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The first week is a protocol audit: reading your current press footprint, your on-chain metrics and the mechanism story that has not been told yet. Week two produces the narrative frame and the journalist map for the DeFi beat. The first active pitching sprint begins in week three. For a planned launch or raise, the highest-leverage work starts six to eight weeks before the public moment, when embargo relationships and editorial positioning can be built properly. Ongoing retainer coverage runs month to month after that."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I start working with Shilika Jain on DeFi PR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short project brief through the intent form, including the protocol name, the mechanism you want to lead with and your next planned public moment. You will get a reply within 24 hours with a quick read on your current press footprint and where the angle is. Alternatively, book a 30-minute call and we will work through it live. No agency intro deck, no junior account-team handoff."
+          }
+        }
+      ]
+    }
+  ]
+}

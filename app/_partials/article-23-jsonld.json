@@ -1,0 +1,142 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/press-coverage-startup-reddit-2026#article",
+      "headline": "How to Get Press Coverage for a Startup: What Reddit Gets Right and Wrong",
+      "alternativeHeadline": "Myth-busting the most-upvoted PR advice on Reddit, with operator corrections for Web3 and AI founders",
+      "description": "A fractional PR operator fact-checks the most-upvoted startup PR advice on Reddit: HARO, spray-and-pray press releases, paid placement, and pitch email templates. Covers what holds up, what wastes your budget, and the earned media model that actually gets Web3 and AI startups into CoinDesk, Cointelegraph, Forbes, and Decrypt in 2026.",
+      "url": "https://www.shilikajain.com/playbook/press-coverage-startup-reddit-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/press-coverage-startup-reddit-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 1980,
+      "timeRequired": "PT8M",
+      "articleSection": "Strategy",
+      "keywords": [
+        "how to get media coverage Web3",
+        "press coverage startup 2026",
+        "HARO for crypto startups",
+        "Web3 PR strategy",
+        "how to pitch journalists crypto",
+        "paid placement crypto media",
+        "startup press coverage without investors",
+        "crypto PR myths",
+        "earned media Web3",
+        "Web3 press release strategy"
+      ],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "Media relations" },
+        { "@type": "Thing", "name": "Press coverage" },
+        { "@type": "Thing", "name": "Public relations strategy" },
+        { "@type": "Thing", "name": "HARO" },
+        { "@type": "Thing", "name": "Earned media" },
+        { "@type": "Thing", "name": "Paid media placement" },
+        { "@type": "Thing", "name": "Startup PR" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "Cointelegraph" },
+        { "@type": "Organization", "name": "Decrypt" },
+        { "@type": "Organization", "name": "The Block" },
+        { "@type": "Organization", "name": "Blockworks" },
+        { "@type": "Organization", "name": "Forbes" },
+        { "@type": "Organization", "name": "TechCrunch" },
+        { "@type": "Organization", "name": "Dark Reading" },
+        { "@type": "Organization", "name": "BloomingBit" },
+        { "@type": "Organization", "name": "TokenPost" },
+        { "@type": "Organization", "name": "CryptoTimes JP" },
+        { "@type": "Organization", "name": "Inc42" },
+        { "@type": "Thing", "name": "MANTRA Chain" },
+        { "@type": "Thing", "name": "Gaia AI" },
+        { "@type": "Thing", "name": "Fluence Network" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "How to Get Press Coverage for a Startup: What Reddit Gets Right and Wrong", "item": "https://www.shilikajain.com/playbook/press-coverage-startup-reddit-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/press-coverage-startup-reddit-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do you actually get media coverage as a Web3 startup?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You need a hard news angle, a warm relationship with the reporter covering that beat, and a pitch delivered in under 150 words before the story cycle closes. The most reliable path is building reporter relationships before you have news to pitch, developing a narrative frame around a trend that is already moving, and offering an exclusive to one outlet you have vetted. For the specific tactics without investor backing, see the playbook on how to get press coverage without investors."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does HARO work for crypto and Web3 startups?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rarely as a primary strategy. HARO (now Connectively) converts below 3 percent for most categories, and even lower in Web3 where the source pool is saturated. It works occasionally for very specific expert quotes from a named authority, but it does not produce the CoinDesk feature, the Decrypt interview, or the Blockworks funding story. Those require direct pitching with a news peg and an existing reporter relationship."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is paid placement in crypto media worth the cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends entirely on the goal. Paid editorial on low-DR sites does not move credibility with investors or Western journalists. Paid distribution on regional outlets like BloomingBit for Korea, CryptoTimes JP for Japan, or Inc42 for India can build genuine community awareness in specific markets. The mistake is treating paid placement as a substitute for earned coverage, rather than a complement in markets where earned relationships take time to build."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does a good press pitch for a crypto startup look like?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under 150 words. Opens with the hard fact in the first sentence. Explains in one line why this reporter's specific readers need to know it now. Ends with an offer: an exclusive angle, an on-record source, or a document they cannot get elsewhere. No press release in the body of the email. No history of the protocol. No request for coverage as the closing line. The pitch is the delivery mechanism; the relationship and the narrative frame are the variables that decide if it lands."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is Web3 PR different from regular startup PR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The news cycle is faster (72-hour windows are common), the journalist pool covering specific beats is smaller and more relationship-dependent, and paid placement is both more widespread and more easily identified as non-editorial by the people who matter. The narrative also needs to do more work because the technical complexity of most Web3 products means editors need the 'why this matters now' answered before they can brief a reporter."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/web3-pr-bear-market-2026#article",
+      "headline": "Web3 PR in a Bear Market in 2026",
+      "alternativeHeadline": "How to build narrative, credibility and share of voice when crypto budgets and attention contract",
+      "description": "Bear market crypto PR strategy means staying visible and credible during a down cycle by shifting from announcement-led comms to narrative-building, earned media outreach, founder op-eds and journalist relationship work. Teams that maintain consistent presence through a bear cycle emerge with stronger share of voice and established editor relationships before the next bull run.",
+      "url": "https://www.shilikajain.com/playbook/web3-pr-bear-market-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/web3-pr-bear-market-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 1980,
+      "timeRequired": "PT8M",
+      "articleSection": "Strategy",
+      "keywords": ["crypto PR", "bear market PR strategy", "Web3 PR bear market", "crypto PR 2026", "share of voice crypto", "crypto PR on small budget", "Web3 comms strategy", "founder op-ed crypto", "earned media Web3", "crypto PR bear cycle"],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "Crypto PR" },
+        { "@type": "Thing", "name": "Bear market strategy" },
+        { "@type": "Thing", "name": "Share of voice" },
+        { "@type": "Thing", "name": "Earned media" },
+        { "@type": "Thing", "name": "Founder thought leadership" },
+        { "@type": "Thing", "name": "Web3 communications" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "Cointelegraph" },
+        { "@type": "Organization", "name": "Decrypt" },
+        { "@type": "Organization", "name": "The Block" },
+        { "@type": "Organization", "name": "Blockworks" },
+        { "@type": "Organization", "name": "Benzinga" },
+        { "@type": "Organization", "name": "Forbes" },
+        { "@type": "Organization", "name": "Fluence Network" },
+        { "@type": "Organization", "name": "Gaia AI" },
+        { "@type": "Organization", "name": "MANTRA Chain" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "Web3 PR in a Bear Market in 2026", "item": "https://www.shilikajain.com/playbook/web3-pr-bear-market-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/web3-pr-bear-market-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the best crypto PR strategy in a bear market?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Shift from announcement-led comms to narrative-building: monthly founder op-eds on tier-1 editorial desks, targeted earned pitches on infrastructure and builder angles, and active journalist relationship maintenance. Bear markets reduce pitch volume significantly, which means editorial desks are more accessible and placements are cheaper to earn. Teams that stay consistently visible through a down cycle emerge with stronger share of voice and established editor relationships that pay off when the market turns."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I cut my PR budget in a bear market?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cut the right things: wire distribution, broad KOL spend, and sponsored editorial packages where reach has shrunk. Protect or increase the activities with long shelf life: earned media outreach, founder op-eds, data assets, and journalist relationships. In most cases, a team can reduce spend by 50-60 percent by moving from a full agency at $15K-$45K/mo to a fractional senior operator at $5K-$12K/mo without losing the narrative-building activity that actually matters."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What PR angles work in a crypto bear market?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Angles that land in bear markets focus on what is being built and why it will matter, not what prices are doing. Infrastructure stories, regulatory positioning, developer ecosystem depth, and honest analytical takes on what the cycle means for the category all earn more coverage than growth claims. Editors are tired of spin and actively looking for founders who will speak plainly. A founder who takes an honest, technical position in a bylined piece is exactly what opinion desks need when everyone else has gone quiet."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I run crypto PR on a small budget in a bear market?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Prioritise the three activities with the best return per dollar: targeted earned pitches to two or three journalists who cover your beat, one founder op-ed per month to build the editorial byline record, and consistent journalist relationship work that costs time rather than money. Regional outlets in Korea, Japan, India and the Middle East are meaningfully easier to place in during bear cycles and reach institutional audiences that matter."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When should a Web3 team ramp PR back up after a bear market?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ramp 3-6 months before you expect a major narrative moment, not the week of. The teams that dominate the first quarter of a new bull cycle are the ones who built editor relationships and earned the first placement slots during the bear. By the time the pitch queue fills back up, positioning your founder as the first call for journalists covering your category requires that you were already on their radar. The time to ramp is before the market makes it obvious that you should."
+          }
+        }
+      ]
+    }
+  ]
+}

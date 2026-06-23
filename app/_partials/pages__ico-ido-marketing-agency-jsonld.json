@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/ico-ido-marketing-agency#service",
+      "name": "ICO and IDO Marketing Agency — Token Launch Comms",
+      "serviceType": "Token Launch / TGE PR",
+      "url": "https://www.shilikajain.com/pages/ico-ido-marketing-agency",
+      "description": "Effective ICO and IDO marketing built on earned editorial coverage, not paid wire blasts. Shilika Jain places token sale projects in CoinDesk, Cointelegraph, Forbes, Decrypt and The Block, with KOL activation and APAC localisation, for $5K–$12K/month. Proven on RARI Chain (11 tier-1 placements in 24 hours) and MANTRA ($11M raise, CoinDesk exclusive).",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global", "United States", "South Korea", "Japan", "India", "Singapore", "United Arab Emirates", "Vietnam"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 5000,
+          "maxPrice": 12000,
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "ICO & IDO Marketing Agency", "item": "https://www.shilikajain.com/pages/ico-ido-marketing-agency" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/ico-ido-marketing-agency#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is ICO and IDO marketing, and who is it for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ICO and IDO marketing covers the communications campaign built around a public token sale: the narrative, the media coverage, the KOL activation and the community signal that persuade investors to participate before and during the sale window. It is for token projects that want demand built on credibility rather than hype, from pre-seed protocols running a community round to VC-backed projects doing a launchpad IDO. The most effective entry point is six to twelve weeks before the sale opens."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does ICO or IDO marketing cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fractional senior operator running your ICO or IDO campaign directly costs $5K–$12K/month. A traditional agency charges $15K–$45K/month because the retainer funds a multi-person account team. A single launch sprint, covering embargo, tier-1 outreach and KOL activation over four to eight weeks, runs $15K–$40K. KOL placements layer on top: nano influencers at $200–$1.5K, micro at $500–$5K, mid-tier at $10K–$30K per post or campaign."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which outlets and platforms can you get coverage in for a token sale?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tier-1 crypto editorial: CoinDesk, Cointelegraph, The Block, Decrypt, Blockworks, The Defiant. Mainstream financial where the angle is strong enough: Forbes, Bloomberg, Yahoo Finance, Benzinga. Regional: BloomingBit and TokenPost (Korea), CoinPost and CryptoTimes JP (Japan), ChainCatcher and Jinse (China), Inc42 (India), e27 (Southeast Asia). All placements depend on a genuine news hook tied to your sale, not a paid wire blast."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does the ICO or IDO marketing process look like, and how long does it take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The campaign runs in four phases: a narrative audit in week one, campaign architecture in weeks two and three (category positioning, embargo plan, KOL map, APAC brief), launch execution timed to your presale and public sale windows, and a post-sale sustain phase tracking coverage and AI citations. From first call to live coverage is typically four to six weeks, assuming your project has a real news hook. Projects starting earlier get more embargo runway and stronger placements."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get started with ICO or IDO marketing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short project brief through the intent form and you will get a reply within 24 hours with a quick read on your current press footprint and where the narrative gaps are. Or book a 30-minute call and we will map it live. No deck required, no account-team intro call."
+          }
+        }
+      ]
+    }
+  ]
+}

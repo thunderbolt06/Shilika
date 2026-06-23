@@ -1,0 +1,133 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/web3-pr-agency-reviews-clutch-2026#article",
+      "headline": "Web3 PR Agency Reviews on Clutch in 2026: How to Read Them",
+      "alternativeHeadline": "A field guide to reading Clutch, G2 and Trustpilot ratings for PR agencies without being misled by curated testimonials",
+      "description": "Review sites are gameable and most founders don't know the tells. This 2026 guide covers what Clutch scores actually measure, how Web3 PR reviews mislead, what G2 and Trustpilot add, the signals that matter inside any review, and the five reference-check questions that surface real agency quality before you sign.",
+      "url": "https://www.shilikajain.com/playbook/web3-pr-agency-reviews-clutch-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/web3-pr-agency-reviews-clutch-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2050,
+      "timeRequired": "PT7M",
+      "articleSection": "Strategy",
+      "keywords": [
+        "Web3 PR agency reviews",
+        "Clutch PR agency reviews",
+        "how to evaluate Web3 PR agency",
+        "PR agency reference check questions",
+        "Web3 PR agency 2026",
+        "fractional PR vs agency",
+        "earned vs paid media placements",
+        "crypto PR agency reviews",
+        "how to choose a Web3 PR agency",
+        "PR agency due diligence"
+      ],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "PR agency reviews" },
+        { "@type": "Thing", "name": "Clutch.co" },
+        { "@type": "Thing", "name": "Web3 public relations" },
+        { "@type": "Thing", "name": "Agency due diligence" },
+        { "@type": "Thing", "name": "Earned media" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "Cointelegraph" },
+        { "@type": "Organization", "name": "The Block" },
+        { "@type": "Organization", "name": "Blockworks" },
+        { "@type": "Organization", "name": "Decrypt" },
+        { "@type": "Organization", "name": "Clutch" },
+        { "@type": "Organization", "name": "G2" },
+        { "@type": "Organization", "name": "Trustpilot" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "Web3 PR Agency Reviews on Clutch in 2026: How to Read Them", "item": "https://www.shilikajain.com/playbook/web3-pr-agency-reviews-clutch-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/web3-pr-agency-reviews-clutch-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are Clutch reviews reliable for evaluating Web3 PR agencies?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Partially. Clutch conducts structured phone interviews with verified clients, which is more rigorous than most review platforms. But the clients being interviewed are almost always self-selected by the agency, the results language is not audited, and the platform does not distinguish between earned editorial coverage and paid sponsored placements. Use Clutch to build a longlist and check category history, then move to direct reference calls for the actual evaluation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I look for in a Web3 PR agency Clutch review?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Named outlets rather than vague category claims, description of how the agency built the narrative (not just what it delivered), specific criticism alongside praise, and recency. A review from 2021 describes a very different media environment than the one you are operating in now. Reviews that mention only outcomes and contain no process detail or any critique are often curated relationship favours rather than honest assessments."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What questions should I ask a PR agency reference?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ask which outlets earned coverage landed in and whether any was sponsored. Ask what happened when a planned placement fell through. Ask how the agency built the narrative for the launch. Ask what the client wishes they had known before signing. And ask specifically: 'Would you hire them again for your current stage?' That last question forces a more honest answer than a generic recommendation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I tell if a PR agency's Clutch reviews might be gamed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Look at the date distribution of reviews. If thirty reviews all appeared within a six-month window, that is usually a coordinated solicitation drive, not natural client satisfaction accumulating over time. Also look for specificity: genuine reviews describe process and include at least one thing that could have been better. Reviews that are uniformly positive with no friction described anywhere are a tell that the sample has been curated rather than representative."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I choose a PR agency based on its review-site rating?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Use the rating to confirm the agency has a client track record and has worked in your category. After that, the score is nearly worthless for distinguishing quality. The actual differentiators, such as whether they earn coverage or buy it, whether the senior person stays on your account, and whether they can articulate a genuine narrative rationale for your launch, do not appear on any review site. Those come out in reference calls and in the direct narrative conversation before you sign."
+          }
+        }
+      ]
+    }
+  ]
+}

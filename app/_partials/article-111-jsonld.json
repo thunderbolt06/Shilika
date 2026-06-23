@@ -1,0 +1,133 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/crypto-newsjacking-2026#article",
+      "headline": "Newsjacking for Crypto Brands in 2026",
+      "alternativeHeadline": "How to get media coverage in Web3 through reactive pitching: speed, relevance and reputational risk",
+      "description": "Newsjacking earns tier-1 crypto coverage without a launch or wire fee by inserting an expert comment into a breaking story before the journalist's deadline closes. This 2026 playbook covers the two-hour pitch window, the reactive comment format, building a pre-approved comment bank, when not to pitch, and how the underlying media relations layer makes it all work.",
+      "url": "https://www.shilikajain.com/playbook/crypto-newsjacking-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/crypto-newsjacking-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 1980,
+      "timeRequired": "PT8M",
+      "articleSection": "Strategy",
+      "keywords": [
+        "how to get media coverage Web3",
+        "crypto newsjacking",
+        "reactive PR crypto",
+        "Web3 media relations",
+        "crypto press coverage",
+        "how to pitch crypto journalists",
+        "DePIN PR strategy",
+        "AI startup PR",
+        "breaking news reactive pitch",
+        "crypto PR 2026"
+      ],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "Newsjacking" },
+        { "@type": "Thing", "name": "Reactive PR" },
+        { "@type": "Thing", "name": "Media relations" },
+        { "@type": "Thing", "name": "Crypto public relations" },
+        { "@type": "Thing", "name": "Expert comment pitching" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "Cointelegraph" },
+        { "@type": "Organization", "name": "Decrypt" },
+        { "@type": "Organization", "name": "The Block" },
+        { "@type": "Organization", "name": "Blockworks" },
+        { "@type": "Organization", "name": "Forbes" },
+        { "@type": "Organization", "name": "BloomingBit" },
+        { "@type": "Organization", "name": "TokenPost" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "Newsjacking for Crypto Brands in 2026", "item": "https://www.shilikajain.com/playbook/crypto-newsjacking-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/crypto-newsjacking-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do you get media coverage in Web3 without a launch?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Newsjacking is the most reliable method: monitor breaking stories in your vertical, offer a named journalist a usable expert comment within two hours of the story breaking, and keep the pitch under 120 words. You are not pitching yourself, you are helping the journalist make their existing story better with a credible source. The prerequisite is a real prior relationship with the reporter, built through the media relations work done before any news cycle starts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How fast do you need to move for a reactive crypto pitch?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under two hours from the story breaking publicly, ideally under sixty minutes. Crypto journalists on a breaking story have short deadlines and will file with whatever named sources they can reach fast. If your pitch arrives after the piece is published, the window is closed. The way to move that fast is preparation: a comment bank of pre-approved quotes and a monitoring stack that surfaces relevant stories in real time, not a morning email digest."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should a reactive comment pitch look like?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "One specific reference to the story you saw, a two-to-four sentence attributable quote with a clear position, one sentence of credential, and an offer to call if useful. Total length under 120 words. No company bios, no background sections, no bullet points. Journalists on deadline need one usable quote from a credible source, and the pitch that gives them that clearly and fast will almost always win over a longer, more polished pitch that arrives late."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When should you not newsjack a crypto story?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Skip it when the story involves user harm, a rug pull, a founder arrest, or any crisis where inserting your brand for coverage reads as opportunistic. Also skip it when you are not certain of the facts as reported, when your comment would be generic enough to apply to any industry, or when you do not have a prior relationship with any reporter covering the story. Over-pitching a single breaking story to ten journalists simultaneously is also a mistake: it is visible in a small beat and will cost you credibility with all of them."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is newsjacking different from a press release?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A press release announces something your company did. A reactive pitch offers expertise on something that already happened elsewhere. The press release requires a news peg of your own; the reactive pitch requires a news peg in the market. Reactive pitching also requires an existing reporter relationship to work on deadline, while a release can be sent cold via wire and still earn pickup through aggregators. Both have a place in a full web3 PR campaign, but newsjacking is faster, lower-cost, and often lands in publications a standard release would never reach."
+          }
+        }
+      ]
+    }
+  ]
+}

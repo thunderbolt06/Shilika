@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/web3-kol-agency#service",
+      "name": "Web3 KOL Agency — 200+ Vetted Creators",
+      "serviceType": "KOL & Influencer Marketing",
+      "url": "https://www.shilikajain.com/pages/web3-kol-agency",
+      "description": "Region-segmented creator activation across X, YouTube, Telegram and Farcaster, with a fraud audit on every name before a single dollar is spent. 200+ vetted creators tiered by reach, category fit and audience authenticity, at rates from $200 for nano to $100K+ for macro.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global", "United States", "South Korea", "Japan", "India", "Singapore", "United Arab Emirates", "China"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 200,
+          "maxPrice": 100000,
+          "priceCurrency": "USD",
+          "unitText": "CAMPAIGN"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "Web3 KOL Agency", "item": "https://www.shilikajain.com/pages/web3-kol-agency" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/web3-kol-agency#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a Web3 KOL agency and who is it for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Web3 KOL agency manages the selection, briefing, contracting and reporting of key opinion leaders, which is to say creators, influencers and community voices, on behalf of blockchain and crypto projects. It is the right fit if you are launching a token, protocol or product and want credible, on-narrative reach across X, YouTube, Telegram or Farcaster without building creator relationships from scratch. The critical difference between a good agency and a bad one is whether it vets the roster. Shilika Jain manages 200+ vetted creators globally."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does Web3 KOL marketing cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Creator fees vary by tier: nano creators ($200–$1.5K per post), micro ($500–$5K), mid-tier ($10K–$30K) and macro ($25K–$100K+). A typical launch wave using 10–20 creators across nano and micro tiers runs $5K–$30K in creator fees. Management and strategy sits on top at $5K–$12K/month for a fractional engagement. Full-service agency retainers with a large roster commonly run $15K–$45K/month."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which platforms and creator types do you work with?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Primary platforms: X (Twitter threads and Spaces), YouTube (long-form reviews and shorts), Telegram (AMA hosting and channel posts), Farcaster (frames and casts). Secondary where relevant: TikTok, Instagram and LinkedIn. Creator categories covered: DeFi analysts, gaming and metaverse voices, Layer 1 and Layer 2 ecosystem accounts, AI and tech commentators, and region-specific crypto media personalities in Korea, Japan, China, India and MENA."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does the vetting process look like and how long does it take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Every proposed creator is checked for follower authenticity (bot ratio, suspicious growth spikes), category fit (do they actually cover your vertical), audience geography (are the followers in the markets you care about) and recent engagement rate relative to follower count. A shortlist of 20–40 vetted creators can be turned around in five to seven business days. The process is the same for nano and macro tiers. If a creator does not pass, they are not proposed, regardless of reach."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get started with Web3 KOL marketing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short project brief through the intent form and you will get a reply within 24 hours with an initial read on your category, the creator tiers that fit your budget and a suggested region mix. Alternatively, book a 30-minute call and we will map it out together. No deck required, no account-team intro call."
+          }
+        }
+      ]
+    }
+  ]
+}

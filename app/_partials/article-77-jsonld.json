@@ -1,0 +1,135 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/fractional-pr-cost-pricing-2026#article",
+      "headline": "Fractional PR Cost and Monthly Retainer Pricing in 2026",
+      "alternativeHeadline": "What fractional PR really costs, what a retainer should include, and how to tell a fair price from an underqualified one",
+      "description": "A fractional PR retainer runs $5,000 to $12,000 per month in 2026, against a full agency at $15,000 to $45,000. This operator breakdown covers retainer tiers, what should be in scope at each price point, the five-question fair-price test, hidden costs to watch for, and when fractional beats a full agency.",
+      "url": "https://www.shilikajain.com/playbook/fractional-pr-cost-pricing-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/fractional-pr-cost-pricing-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2050,
+      "timeRequired": "PT8M",
+      "articleSection": "Pricing",
+      "keywords": [
+        "fractional PR",
+        "fractional PR cost 2026",
+        "fractional PR retainer pricing",
+        "PR retainer cost",
+        "fractional PR vs agency",
+        "how much does fractional PR cost",
+        "crypto PR pricing",
+        "Web3 PR retainer",
+        "fractional PR consultant",
+        "PR pricing 2026"
+      ],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "Fractional PR" },
+        { "@type": "Thing", "name": "PR retainer pricing" },
+        { "@type": "Thing", "name": "Public relations cost" },
+        { "@type": "Thing", "name": "Media relations" },
+        { "@type": "Thing", "name": "Startup PR" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "Cointelegraph" },
+        { "@type": "Organization", "name": "Forbes" },
+        { "@type": "Organization", "name": "The Block" },
+        { "@type": "Organization", "name": "Blockworks" },
+        { "@type": "Organization", "name": "TechCrunch" },
+        { "@type": "Organization", "name": "Dark Reading" },
+        { "@type": "Organization", "name": "MANTRA Chain" },
+        { "@type": "Organization", "name": "Gaia AI" },
+        { "@type": "Organization", "name": "Fluence Network" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "Fractional PR Cost and Monthly Retainer Pricing in 2026", "item": "https://www.shilikajain.com/playbook/fractional-pr-cost-pricing-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/fractional-pr-cost-pricing-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does fractional PR cost per month in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fractional PR retainer with a senior operator typically runs $5,000 to $12,000 per month in 2026. The lower end of that range covers ongoing media relations, a maintained pitch cadence and one press release per milestone. The upper end adds thought leadership drafting, multilingual syndication coordination and deeper founder positioning work. For comparison, a full agency retainer for similar senior attention runs $15,000 to $45,000 per month."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should a fractional PR retainer include?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At minimum: a maintained media list of 50 to 120 relevant journalists, 4 to 8 targeted pitches per month, press release drafting for each milestone, a monthly performance report, and direct access to the senior operator (not an account manager). At the upper end of the range, it should also include founder thought leadership drafts, narrative updates, crisis prep, and coordination for KOL or podcast outreach. If a proposal does not list specific deliverables, ask for them in writing before signing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between fractional PR and a full agency?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fractional PR means buying a defined share of a senior operator's time and relationships directly, without the overhead of a full agency team. The price difference is structural, not a quality gap: agencies price in junior staff hours, account management layers, and margin across a book of business. Fractional is the right model for pre-Series B companies where the founder is the story and execution needs to move fast."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I tell a real fractional PR operator from an underqualified one?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ask them to name three journalists at your target outlets and describe the last placement they made with each. A real operator answers immediately with names, stories and dates. Also ask who does the actual work: fractional means you get the senior person, not a junior team. Verify exit terms: reasonable minimums are three months. If the contract requires six months with no out clause, that is usually compensating for poor client retention rather than reflecting genuine confidence."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are wire distribution fees included in a fractional PR retainer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Often not. GlobeNewswire, PR Newswire and BusinessWire distributions run $500 to $2,500 per release depending on regions, word count and add-ons. Some operators bundle one wire run per month; many bill it separately. Ask explicitly before signing. Similarly, KOL campaigns, sponsored placements and content production beyond a set limit are typically billed as add-ons, not included in the base retainer fee. Get an itemised scope document that breaks out each bucket."
+          }
+        }
+      ]
+    }
+  ]
+}

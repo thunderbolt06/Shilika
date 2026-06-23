@@ -1,0 +1,135 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/op-ed-ghostwriting-executives-2026#article",
+      "headline": "Op-Ed Ghostwriting for Executives in 2026: How It Works",
+      "alternativeHeadline": "Voice capture, authenticity, pricing and placement: the full ghostwriting process for founder thought leadership",
+      "description": "Op-ed ghostwriting for executives means the thinking, positions and credibility belong to the founder while a ghostwriter provides the craft to clear an editorial desk. This 2026 guide covers the voice-capture process, the authenticity bar editors actually check, what it costs ($1,500 to $4,000 per piece), how placement works, and why a sustained cadence of six to ten pieces a year builds the entity signal that compounds into AI-search citations and inbound from journalists and investors.",
+      "url": "https://www.shilikajain.com/playbook/op-ed-ghostwriting-executives-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/op-ed-ghostwriting-executives-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2398,
+      "timeRequired": "PT8M",
+      "articleSection": "Content Writing",
+      "keywords": [
+        "thought leadership",
+        "op-ed ghostwriting",
+        "executive ghostwriting",
+        "founder thought leadership",
+        "ghostwriting for Web3 founders",
+        "op-ed placement 2026",
+        "founder content writing",
+        "voice capture ghostwriting",
+        "thought leadership content",
+        "ghostwritten op-ed cost"
+      ],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "Ghostwriting" },
+        { "@type": "Thing", "name": "Thought leadership" },
+        { "@type": "Thing", "name": "Op-ed" },
+        { "@type": "Thing", "name": "Content writing" },
+        { "@type": "Thing", "name": "Founder branding" },
+        { "@type": "Thing", "name": "Voice capture" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "Cointelegraph" },
+        { "@type": "Organization", "name": "Decrypt" },
+        { "@type": "Organization", "name": "The Block" },
+        { "@type": "Organization", "name": "Forbes" },
+        { "@type": "Organization", "name": "TechCrunch" },
+        { "@type": "Organization", "name": "Wired" },
+        { "@type": "Organization", "name": "Dark Reading" },
+        { "@type": "Organization", "name": "SC Magazine" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "Op-Ed Ghostwriting for Executives in 2026: How It Works", "item": "https://www.shilikajain.com/playbook/op-ed-ghostwriting-executives-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/op-ed-ghostwriting-executives-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is it ethical for an executive to publish a ghostwritten op-ed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Ghostwriting is a longstanding editorial practice used by political figures, business leaders, and academics across every major publication. The ethical line is not who writes the sentences but whether the ideas, expertise and positions genuinely belong to the bylined person. An op-ed is ghostwritten ethically when the executive owns the argument, has the expertise to back it up, and will defend the position publicly. A piece attributed to someone who has no real relationship to the ideas is a different matter entirely."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does the ghostwriting process take from kickoff to publication?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The draft is typically ready within three to five business days of the voice-capture session. Editorial review at the target outlet adds one to three weeks depending on the publication. CoinDesk Opinion and Cointelegraph tend to respond in one to two weeks. TechCrunch and Wired run closer to two to three weeks for unsolicited submissions. Total elapsed time from first conversation to published piece is usually two to four weeks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does op-ed ghostwriting cost for a Web3 or AI executive?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A single ghostwritten op-ed runs $1,500 to $4,000 as a standalone engagement, depending on the target outlet, argument complexity, and whether placement pitching is included. Inside a fractional PR retainer ($5,000 to $12,000 per month), one to two ghostwritten pieces per month are typically included in scope. The content writing programme at shilikajain.com covers all of this in one package for founders who want a sustained cadence rather than one-off pieces."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What makes a founder a good candidate for an op-ed ghostwriting programme?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Three things: a genuine, contestable position they are willing to defend publicly; first-hand evidence from their own work or platform that supports that position; and willingness to do a 45-60 minute voice-capture interview before the writing starts. Founders who struggle to name one argument they would defend in a live interview are not yet ready for ghostwriting. The founder profiling programme at shilikajain.com is the right starting point to build that foundation first."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which outlets accept ghostwritten op-eds from Web3 and AI executives?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most tier-one opinion desks accept ghostwritten pieces as long as the bylined person is a genuine authority on the subject and will stand behind the argument. Common placements include CoinDesk Opinion, Cointelegraph, Decrypt, The Block, Forbes Councils, TechCrunch, Wired, and for cybersecurity founders, Dark Reading and SC Magazine. The key is matching the argument to the desk whose readers need it most. Opinion desks are separate from news desks, and what clears one will not necessarily clear the other."
+          }
+        }
+      ]
+    }
+  ]
+}

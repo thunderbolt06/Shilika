@@ -1,0 +1,135 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/crypto-pr-small-budget-2026#article",
+      "headline": "Crypto PR on a Small Budget in 2026: What's Actually Possible",
+      "alternativeHeadline": "Lean-budget crypto PR tactics, DIY high-leverage moves, first-dollar priorities, and when to upgrade to a professional operator",
+      "description": "You do not need a $40K sprint to earn crypto press coverage. This 2026 playbook covers the five highest-leverage DIY moves, a budget-tier breakdown from $0 to $12K per month, what lean budgets genuinely cannot do, and the four inflection points that signal it is time to hire a fractional PR operator.",
+      "url": "https://www.shilikajain.com/playbook/crypto-pr-small-budget-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/crypto-pr-small-budget-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2050,
+      "timeRequired": "PT9M",
+      "articleSection": "Pricing",
+      "keywords": [
+        "crypto PR",
+        "crypto PR small budget",
+        "affordable crypto PR 2026",
+        "DIY crypto PR",
+        "founder-led PR Web3",
+        "lean budget PR crypto",
+        "crypto PR cost 2026",
+        "Web3 PR on a budget",
+        "fractional PR crypto",
+        "crypto media pitching"
+      ],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "Crypto PR" },
+        { "@type": "Thing", "name": "Public relations budget" },
+        { "@type": "Thing", "name": "Founder-led PR" },
+        { "@type": "Thing", "name": "Media pitching" },
+        { "@type": "Thing", "name": "Web3 communications" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "Cointelegraph" },
+        { "@type": "Organization", "name": "Decrypt" },
+        { "@type": "Organization", "name": "The Block" },
+        { "@type": "Organization", "name": "Blockworks" },
+        { "@type": "Organization", "name": "Forbes" },
+        { "@type": "Organization", "name": "GlobeNewswire" },
+        { "@type": "Organization", "name": "RARI Chain" },
+        { "@type": "Organization", "name": "MANTRA Chain" },
+        { "@type": "Organization", "name": "Gaia AI" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "Crypto PR on a Small Budget in 2026: What's Actually Possible", "item": "https://www.shilikajain.com/playbook/crypto-pr-small-budget-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/crypto-pr-small-budget-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can you get crypto PR coverage with almost no budget?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, but only if the story is genuinely newsworthy and the founder is willing to invest their own time in building reporter relationships and crafting targeted pitches. Lean-budget crypto PR can produce real earned placements in tier-1 outlets like CoinDesk, Cointelegraph and The Block, but not consistently or on demand. One well-placed story every four to eight weeks is a realistic ceiling for a founder-led effort, and it requires a sharp narrative and a specific pitch, not a wire blast."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I spend the first $1,000 on for crypto PR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Spend it on thinking before distribution: a narrative sharpening session ($300–$600) to get the story right, a targeted media list of eight to twelve reporters who cover your exact beat ($150–$300), and a professional pitch draft for your strongest angle ($200–$500). Wire distribution is only worth adding if the milestone is genuinely hard news, such as a raise close or mainnet launch. Everything else benefits more from a better story than broader distribution."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between a nano KOL campaign and a press placement at a small budget?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A nano KOL campaign (influencers at $200–$1,500 per post) generates reach inside existing crypto communities and is measurable in impressions and engagement, but carries limited credibility transfer to institutional or mainstream audiences. A press placement in CoinDesk or Cointelegraph carries editorial credibility and indexes into AI-search answers, but takes longer to earn and cannot be purchased directly. At lean budgets, most teams should prioritise earned press over paid KOL work because the credibility signal lasts far longer than a social post's shelf life."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to get a first placement with a lean budget?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Three to eight weeks from starting targeted outreach is a realistic range for a first earned placement, assuming the story is ready and the founder is pitching consistently. The wide range reflects the variability in story strength, timing relative to market cycles, and whether any reporter relationship already exists. The first placement is usually the hardest. The second and third follow faster because the credibility signal from the first placement makes future pitches easier to land."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When should an early-stage crypto founder stop doing PR themselves and hire a professional?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Four moments make a strong case for bringing in an operator: when you have a real raise to announce and no existing relationship with the right reporter; when you need consistent multi-outlet coverage every month rather than occasional hits; when your category is early enough that you need to create the beat, not just pitch into it; or when international or multilingual reach matters. A fractional senior operator runs $5,000 to $12,000 per month and is typically the most efficient path to consistent coverage pipeline."
+          }
+        }
+      ]
+    }
+  ]
+}

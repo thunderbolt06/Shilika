@@ -1,0 +1,134 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/kol-campaign-token-launch-2026#article",
+      "headline": "How to Run a KOL Campaign for a Token Launch in 2026",
+      "alternativeHeadline": "The three-wave KOL sequence for token launches: credibility anchors, broad activation, and sustained deep-dives",
+      "description": "A three-wave KOL campaign model for token launches in 2026: credibility anchors at T-72h establish legitimacy, broad activation at TGE drives reach, and deep-dive content 24-72h after converts attention into community. Covers creator tiers, fee ranges, brief structure, disclosure, and attribution.",
+      "url": "https://www.shilikajain.com/playbook/kol-campaign-token-launch-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/kol-campaign-token-launch-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2100,
+      "timeRequired": "PT9M",
+      "articleSection": "KOL",
+      "keywords": [
+        "Web3 token launch strategy",
+        "KOL campaign token launch",
+        "crypto KOL marketing 2026",
+        "token launch KOL strategy",
+        "three-wave KOL model",
+        "KOL brief template crypto",
+        "TGE marketing strategy",
+        "KOL disclosure crypto",
+        "token launch PR strategy",
+        "crypto influencer campaign"
+      ],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "KOL marketing" },
+        { "@type": "Thing", "name": "Token launch strategy" },
+        { "@type": "Thing", "name": "Influencer campaign" },
+        { "@type": "Thing", "name": "Token Generation Event" },
+        { "@type": "Thing", "name": "Web3 PR" },
+        { "@type": "Thing", "name": "Crypto community building" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "Cointelegraph" },
+        { "@type": "Organization", "name": "Decrypt" },
+        { "@type": "Organization", "name": "BloomingBit" },
+        { "@type": "Organization", "name": "TokenPost" },
+        { "@type": "Organization", "name": "CryptoTimes JP" },
+        { "@type": "Organization", "name": "The Block" },
+        { "@type": "Organization", "name": "Blockworks" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "How to Run a KOL Campaign for a Token Launch in 2026", "item": "https://www.shilikajain.com/playbook/kol-campaign-token-launch-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/kol-campaign-token-launch-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the three-wave KOL model for a token launch?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The three-wave model sequences KOL content into three distinct phases rather than a single drop. Wave 1 places credibility anchors, typically 3 to 5 sector-specialist mid-tier KOLs, 72 to 48 hours before the TGE to establish legitimacy. Wave 2 is broad activation at or within hours of the TGE for maximum reach. Wave 3 is deep-dive, long-form content published 24 to 72 hours after the launch to convert attention into genuine community. Each wave has a different brief, a different creator profile, and a different measurable goal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much should I budget for a KOL campaign for a token launch?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A realistic total KOL envelope for a well-capitalised mid-market launch runs $150,000 to $300,000 across all three waves. Allocate roughly 20 to 25 percent to Wave 1 credibility anchors ($500 to $30,000 per creator), 60 to 65 percent to Wave 2 broad activation ($10,000 to $100,000 or more per creator at macro tier), and 15 to 20 percent to Wave 3 deep-dive content. For tighter budgets, reduce the Wave 2 creator count rather than cutting Wave 1 or Wave 3, since the credibility and conversion layers do the most durable work. Fractional KOL strategy runs $5,000 to $12,000 per month; a launch sprint is typically $15,000 to $40,000."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should a KOL brief include for a token launch?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A workable KOL brief includes: the project described in one plain-English sentence, the specific angle relevant to that creator's audience, two or three proof points (not ten), one clear call to action, explicit disclosure language (not left for the KOL to figure out), and the embargo and go-live time in UTC. Wave 1 briefs are the most detailed because the content needs to be substantive. Wave 2 briefs are shorter and more specific. Wave 3 briefs should frame a post-launch angle for the creator to report on honestly, which means giving them the real on-chain numbers, not a spin deck."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you vet KOLs for a token launch campaign?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The core vetting criteria for Wave 1 and Wave 3 KOLs are: genuine sector expertise (they cover your vertical consistently, not opportunistically), audience composition that skews toward buyers and researchers rather than airdrop hunters, a track record of posts that acknowledge both upside and risk, and engagement rates that reflect real conversation rather than purchased followers. For Wave 2 activation, reach matters more, but still check for bot-inflated follower counts and require media kits with verified analytics."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What metrics actually matter for a token launch KOL campaign?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Views and follower counts are reach metrics, not conversion metrics. For a token launch, the metrics that matter are: unique wallet addresses from tracked UTM links per KOL, Discord and Telegram join rate during and after the campaign window, and trading volume attribution by creator cohort in the 48 hours post-TGE. Set up unique tracking links for every Wave 2 KOL before the campaign starts. Wave 1 and Wave 3 impact shows up in organic search volume uplift for the project name and inbound press enquiries in the days after each wave."
+          }
+        }
+      ]
+    }
+  ]
+}

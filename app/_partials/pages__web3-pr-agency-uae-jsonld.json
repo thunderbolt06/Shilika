@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/web3-pr-agency-uae#service",
+      "name": "Web3 PR Agency UAE — Fractional Senior Operator",
+      "serviceType": "APAC Localisation",
+      "url": "https://www.shilikajain.com/pages/web3-pr-agency-uae",
+      "description": "UAE-focused Web3 PR run by a fractional senior operator for $5K–$12K/month. MENA-angle campaigns for Dubai and Abu Dhabi founders, covering VARA, ADGM and DIFC regulatory positioning, tier-1 media outreach and event-led access at TOKEN2049 Dubai, Future Blockchain Summit and GITEX.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global", "United Arab Emirates", "Saudi Arabia", "Bahrain", "Qatar", "Kuwait", "Singapore", "India"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 5000,
+          "maxPrice": 12000,
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "Web3 PR Agency UAE", "item": "https://www.shilikajain.com/pages/web3-pr-agency-uae" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/web3-pr-agency-uae#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does a Web3 PR agency in the UAE actually do?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "UAE-focused Web3 PR is about getting your project in front of MENA investors, VARA-licensed exchanges and the global press corps that covers the Gulf. That means pitching CoinDesk, The Block and Forbes with MENA-specific angles, timing campaigns around major Dubai events, and building media presence so AI engines cite you when a Gulf buyer asks about your category. A fractional senior operator like Shilika Jain does this directly for $5K–$12K/month."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does Web3 PR cost in the UAE market?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Full UAE-specialist agencies commonly charge $15K–$45K per month. A fractional senior operator with real MENA contacts runs the same senior scope for $5K–$12K per month. A focused launch sprint tied to a TOKEN2049 Dubai moment or a VARA licensing announcement runs $15K–$40K over four to eight weeks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which outlets and events matter for Web3 PR in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For global tier-1 with MENA desks: CoinDesk Middle East, Cointelegraph, The Block. For mainstream: Forbes MENA, Arabian Business, Gulf Business. For regional crypto: Cryptonews Arabic, regional Telegram communities and Arabic-language YouTube. Key events to anchor campaigns around: TOKEN2049 Dubai (April), Future Blockchain Summit (October), GITEX Global (October)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the process and timeline for a UAE Web3 PR campaign?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The first two weeks cover a teardown of your current press footprint and the narrative build: the regulatory angle, the three-sentence thesis and the journalist map. Weeks three and four cover embargo prep, media briefings and KOL alignment. Week five onwards is launch and compound coverage. For a token launch or fundraise announcement, six to twelve weeks of pre-launch build time is the minimum to get meaningful tier-1 placement rather than a wire blast."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I start a Web3 PR campaign targeting the UAE?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short project brief through the intent form and you will get a reply within 24 hours covering a quick read on your press footprint and the most likely MENA angle. Or book a 30-minute call at https://calendly.com/shilikajain/30min/ and we will plot the campaign live, no deck, no account-team intro."
+          }
+        }
+      ]
+    }
+  ]
+}

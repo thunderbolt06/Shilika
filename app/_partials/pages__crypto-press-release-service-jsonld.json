@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/crypto-press-release-service#service",
+      "name": "Crypto Press Release Service — Written and Placed",
+      "serviceType": "Content Writing",
+      "url": "https://www.shilikajain.com/pages/crypto-press-release-service",
+      "description": "Crypto press releases written around a dated news peg and pitched directly to beat reporters at CoinDesk, Cointelegraph, Decrypt, The Block and Blockworks. Shilika Jain has placed 50+ Web3 and AI founders in tier-1 crypto and mainstream outlets, including 11 simultaneous placements in 24 hours for RARI Chain and a CoinDesk exclusive for MANTRA's $11M raise.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global", "United States", "South Korea", "Japan", "India", "Singapore", "United Arab Emirates"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 5000,
+          "maxPrice": 12000,
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "Crypto Press Release Service", "item": "https://www.shilikajain.com/pages/crypto-press-release-service" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/crypto-press-release-service#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a crypto press release service and who is it for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A crypto press release service writes the announcement, identifies the right reporters, pitches them directly and gets confirmed placements in tier-1 crypto and mainstream outlets. It is for Web3, DePIN, AI and cybersecurity founders who have a real news moment, such as a raise, mainnet, listing or partnership, and need the story covered rather than just distributed. The work at this level is different from a wire-only service because the outcome is a placed article, not a PDF on a syndication network."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does a crypto press release service cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A single press release written, pitched and placed runs as part of a retainer at $5K–$12K/month, which covers ongoing media relations and content alongside the release work. A standalone launch sprint, covering the release, embargo management and initial placement push, runs $15K–$40K over four to eight weeks. Full agencies charge $15K–$45K/month for the same scope. Pricing depends on the number of target outlets, the APAC localisation requirement and the embargo complexity."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which outlets can you place a crypto press release in?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tier-1 crypto where the news warrants it: CoinDesk, Cointelegraph, The Block, Decrypt, Blockworks, The Defiant. Mainstream where the angle crosses over: Forbes, Bloomberg, Yahoo Finance, Benzinga, AI Magazine. Regional: BloomingBit and TokenPost (Korea), CryptoTimes JP and CoinPost (Japan), ChainCatcher and Jinse (China), Inc42 (India), e27 (SEA). Placement is never guaranteed because editors decide, but the pitch approach, built around a real news hook to a specific beat reporter, is what makes the difference between coverage and the delete key."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does the process take from brief to placement?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Draft turnaround is two to three business days from a complete brief. Embargo windows for tier-1 placements run seven to fourteen days, giving reporters time to write original coverage rather than a wire recap. Same-day placements are possible for breaking news on an existing retainer. For a launch, the ideal lead time is four to six weeks before the public announcement date, so the narrative, the reporter list and the embargo logistics are already in place."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get started with the crypto press release service?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short project brief through the intent form with your announcement, target outlets and timeline. You will get a reply within 24 hours with a read on whether the news hook is strong enough, which reporters are the right fit and what the process looks like. Or book a 30-minute call to map it out live. No deck, no agency intake form."
+          }
+        }
+      ]
+    }
+  ]
+}

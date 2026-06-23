@@ -1,0 +1,131 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/how-to-get-covered-dark-reading-2026#article",
+      "headline": "How to Get Covered by Dark Reading in 2026",
+      "alternativeHeadline": "A practitioner's guide to pitching Dark Reading: threat research angles, newsroom map, and pitch anatomy that works",
+      "description": "Dark Reading rewards research, not pitches. This 2026 guide covers how the newsroom is organised by vertical, what earns editorial coverage versus what gets ignored, the anatomy of a pitch that converts, contributed article tracks, and how to build editor relationships before you pitch.",
+      "url": "https://www.shilikajain.com/playbook/how-to-get-covered-dark-reading-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/how-to-get-covered-dark-reading-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2720,
+      "timeRequired": "PT9M",
+      "articleSection": "Cybersecurity PR",
+      "keywords": [
+        "cybersecurity PR",
+        "Dark Reading pitch guide",
+        "how to get covered by Dark Reading",
+        "threat research PR",
+        "security press pitching",
+        "cybersecurity media relations",
+        "security vendor PR 2026",
+        "Dark Reading contributed article",
+        "B2B cybersecurity PR",
+        "practitioner media placement"
+      ],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "Dark Reading" },
+        { "@type": "Thing", "name": "Cybersecurity public relations" },
+        { "@type": "Thing", "name": "Threat intelligence" },
+        { "@type": "Thing", "name": "Security research" },
+        { "@type": "Thing", "name": "Media pitching" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "Dark Reading" },
+        { "@type": "Organization", "name": "Forbes" },
+        { "@type": "Organization", "name": "Decrypt" },
+        { "@type": "Event", "name": "Black Hat" },
+        { "@type": "Event", "name": "RSA Conference" },
+        { "@type": "Event", "name": "DEF CON" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "How to Get Covered by Dark Reading in 2026", "item": "https://www.shilikajain.com/playbook/how-to-get-covered-dark-reading-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/how-to-get-covered-dark-reading-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do you get covered by Dark Reading?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You bring original threat research, vulnerability findings, or practitioner-grade analysis, not a product announcement. Dark Reading editors are looking for stories where the reporter learns something from the source: novel attack chains, tracked threat actors, real telemetry, or a contrarian take on a security practice backed by evidence. Match your research to the specific vertical it belongs in, pitch one named editor, keep the pitch under 200 words, and lead with the finding not the company. A cybersecurity PR operator who knows the desk can compress the time to placement significantly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does Dark Reading not cover?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Product launches, funding announcements, partnership press releases, vendor surveys about how many CISOs are worried about something, and anything that reads like it was written by a marketing team. Dark Reading has a strict editorial firewall: advertising and sponsored content are handled by a separate commercial team and have no influence on editorial decisions. Pitching an advertising inquiry to an editorial contact damages the relationship permanently."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you pitch a Dark Reading editor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under 200 words, technically specific, addressed to one named editor whose beat matches your vertical. Open with the finding in one sentence: what you found, when, and why it matters to a working security professional. Follow with three to five technical bullets covering the evidence. State what you are offering: an exclusive, an embargo briefing, or a researcher interview. Close with a named technical contact, not a PR email address. Do not call. One follow-up after 72 hours on the same email thread is reasonable."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you submit a contributed article to Dark Reading?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, Dark Reading publishes practitioner-authored contributed articles that pass editorial review. They run 800 to 1,200 words, must not be product pitches, and work best as practitioner teardowns, detection methodology explainers, or contrarian takes with evidence. For companies building a threat research PR program, contributed articles provide the sustained cadence between major research drops. Dark Reading Connect, the community platform, is a more accessible layer for building a personal practitioner voice over time."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to get a response from Dark Reading?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A working expectation is 72 hours for a time-sensitive pitch. For non-urgent research pitches, a week is realistic. One follow-up by reply on the same thread after 72 hours is acceptable. Do not pitch the same story to multiple editors at the outlet simultaneously while waiting for a response. If the pitch does not fit the current editorial schedule, a good editor will usually say so briefly rather than leave you waiting indefinitely."
+          }
+        }
+      ]
+    }
+  ]
+}

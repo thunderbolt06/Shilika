@@ -1,0 +1,136 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/web3-marketing-agency-guide-2026#article",
+      "headline": "How to Choose a Web3 Marketing Agency in 2026",
+      "alternativeHeadline": "A buyer's guide to vetting Web3 marketing and PR partners: the questions that expose depth, red flags to watch for, and how to match the model to your stage",
+      "description": "Most Web3 founders pick an agency the wrong way. This 2026 buyer's guide covers the five vetting questions that expose real capability, the red flags easy to miss in a pitch meeting, stage-to-model matching from pre-seed to token launch, and what good narrative work actually looks like before you sign a retainer.",
+      "url": "https://www.shilikajain.com/playbook/web3-marketing-agency-guide-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/web3-marketing-agency-guide-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2050,
+      "timeRequired": "PT9M",
+      "articleSection": "Strategy",
+      "keywords": [
+        "Web3 marketing PR agency",
+        "how to choose a Web3 agency",
+        "Web3 PR agency buyer's guide",
+        "crypto marketing agency red flags",
+        "fractional PR Web3",
+        "Web3 agency vetting questions",
+        "token launch PR strategy",
+        "Web3 agency vs fractional operator",
+        "DePIN PR agency",
+        "crypto PR retainer cost"
+      ],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "Web3 marketing agency" },
+        { "@type": "Thing", "name": "Crypto PR" },
+        { "@type": "Thing", "name": "Fractional PR operator" },
+        { "@type": "Thing", "name": "Token launch PR" },
+        { "@type": "Thing", "name": "Agency vetting" },
+        { "@type": "Thing", "name": "Narrative strategy" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "Cointelegraph" },
+        { "@type": "Organization", "name": "The Block" },
+        { "@type": "Organization", "name": "Blockworks" },
+        { "@type": "Organization", "name": "Forbes" },
+        { "@type": "Organization", "name": "Decrypt" },
+        { "@type": "Organization", "name": "TechCrunch" },
+        { "@type": "Organization", "name": "MANTRA Chain" },
+        { "@type": "Organization", "name": "Gaia AI" },
+        { "@type": "Organization", "name": "Fluence Network" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "How to Choose a Web3 Marketing Agency in 2026", "item": "https://www.shilikajain.com/playbook/web3-marketing-agency-guide-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/web3-marketing-agency-guide-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I choose a Web3 marketing agency in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Start by clarifying what you actually need: editorial PR, KOL amplification, community building, or content. Each has different specialists, different timelines, and different ROI profiles. Then vet the specific people who will run your account, not just the agency brand. Ask for recent named journalist relationships, a sample narrative brief from a real project, and a defined 90-day plan with measurable outputs. The model that fits your stage matters as much as the agency's overall track record."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between a Web3 PR agency and a fractional PR operator?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A full-service Web3 PR agency runs $15,000 to $45,000 per month and provides a team across PR, content, social and community. A fractional senior operator runs $5,000 to $12,000 per month and gives you direct access to a senior person who does the strategic and narrative work themselves, without an account management layer sitting between you and the output. For founders between seed and Series A who need senior judgment rather than a full channel mix, the fractional model often delivers more per dollar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the biggest red flags when hiring a Web3 marketing agency?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Guaranteed tier-1 placements (earned media cannot be guaranteed), logo walls without verifiable earned links, no named day-to-day team member in the contract, KOL-heavy proposals with no editorial layer, and narratives that read like they were written for any project in your category. The most expensive red flag is vague deliverables: if there is no defined scope for month one, you will spend the first three months negotiating what the retainer actually includes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to see results from a Web3 PR campaign?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Earned editorial coverage starts appearing in the first four to eight weeks if the pitching program is active and the narrative is solid. Compounding results, where coverage generates coverage and the founder's name starts appearing as a go-to source, typically take three to five months of consistent work. KOL campaigns are faster but shorter-lived. Token launch sprints are designed to concentrate results in a defined window rather than compound over time."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a Web3-specific agency or can a general marketing agency handle it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You need Web3-specific experience for the editorial and narrative work. The reporter relationships, the ability to pitch a DePIN story versus an RWA story versus a token launch, the reputational dynamics around crypto projects, and the vocabulary that gets you taken seriously by tier-1 crypto journalists are all vertical-specific skills a general marketing agency does not have. Some functions like paid media or broad SEO can be run by generalists, but the PR and narrative layer needs someone genuinely inside the space."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/enterprise-ai-pr-2026#article",
+      "headline": "PR for an Enterprise AI Company in 2026",
+      "alternativeHeadline": "The B2B credibility ladder for enterprise AI: analyst relations, trade press, customer proof and executive visibility",
+      "description": "Enterprise AI PR is not startup PR with a larger logo. This 2026 playbook covers analyst relations with Gartner and Forrester, trade press that IT leaders actually read, customer reference programs, executive visibility in practitioner forums, and how to sequence all four to match the 6-18 month enterprise sales cycle.",
+      "url": "https://www.shilikajain.com/playbook/enterprise-ai-pr-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/enterprise-ai-pr-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2050,
+      "timeRequired": "PT9M",
+      "articleSection": "AI",
+      "keywords": [
+        "AI PR",
+        "enterprise AI PR",
+        "analyst relations",
+        "B2B AI PR",
+        "Gartner analyst briefing",
+        "enterprise technology PR",
+        "AI startup PR 2026",
+        "B2B credibility ladder",
+        "trade press enterprise AI",
+        "cybersecurity AI PR"
+      ],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "Enterprise AI public relations" },
+        { "@type": "Thing", "name": "Analyst relations" },
+        { "@type": "Thing", "name": "B2B technology PR" },
+        { "@type": "Thing", "name": "Customer reference programs" },
+        { "@type": "Thing", "name": "Executive thought leadership" },
+        { "@type": "Thing", "name": "Gartner Magic Quadrant" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "Gartner" },
+        { "@type": "Organization", "name": "Forrester Research" },
+        { "@type": "Organization", "name": "IDC" },
+        { "@type": "Organization", "name": "CIO.com" },
+        { "@type": "Organization", "name": "Dark Reading" },
+        { "@type": "Organization", "name": "InformationWeek" },
+        { "@type": "Organization", "name": "MIT Technology Review" },
+        { "@type": "Organization", "name": "VentureBeat" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "PR for an Enterprise AI Company in 2026", "item": "https://www.shilikajain.com/playbook/enterprise-ai-pr-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/enterprise-ai-pr-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is enterprise AI PR and how is it different from startup PR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Enterprise AI PR is built around the B2B buying committee, not general audience reach. While startup PR prioritises volume and velocity of coverage, enterprise AI PR prioritises credibility at specific nodes: analyst firms like Gartner and Forrester, trade publications that IT and finance leaders read, named customer proof, and executive visibility in practitioner forums. The goal is to be credible in the rooms where procurement decisions form, six to eighteen months before those decisions close."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How important is analyst relations for an enterprise AI company?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Analyst relations is the highest-leverage and most underinvested rung for early-stage enterprise AI companies. Gartner and Forrester analysts brief enterprise procurement teams directly, and a positive relationship with a relevant analyst can shape a shortlist the company never sees. Start with briefings, not with Magic Quadrant ambitions. Consistent briefings over twelve months, focused on the analyst's research agenda rather than the vendor's product roadmap, are how relationships get built."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which publications should an enterprise AI company target for press coverage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The priority list is CIO.com, InformationWeek, Computerworld, MIT Technology Review's enterprise coverage, and VentureBeat's AI and enterprise sections. For security AI, add Dark Reading, CSOonline and SecurityWeek. Beyond these, prioritise the two or three vertical trade publications most read by the specific buyers you are targeting, whether that is American Banker for fintech AI, Health Data Management for healthcare AI, or Industry Week for manufacturing. TechCrunch and VentureBeat are useful for investor signaling but rarely move enterprise procurement decisions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does enterprise AI PR cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A full-service enterprise B2B PR agency with AI experience runs $15,000 to $45,000 per month and covers a full team across analyst relations, trade press, and executive visibility. A fractional senior operator model runs $5,000 to $12,000 per month and makes sense for Series A and B companies that need senior strategy without full agency overhead. The fractional model works best when the company has an internal communications hire handling execution, with the operator leading strategy, analyst relations, and narrative architecture."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the single most valuable PR asset for an enterprise AI company?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A named customer case study with a recognisable enterprise logo, specific outcome metrics, and a quote from a director-level or above executive. No press release, analyst mention, or trade article is as persuasive to an enterprise buyer as a peer who has already made the decision and will say what happened. Building a formal customer reference program, where customer success identifies candidates and PR structures the story, is the investment that creates this asset consistently. One strong reference customer generates six to eight distinct PR assets across case studies, joint press releases, and trade bylines."
+          }
+        }
+      ]
+    }
+  ]
+}

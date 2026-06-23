@@ -1,0 +1,135 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/crypto-airdrop-pr-strategy-2026#article",
+      "headline": "Airdrop PR and Comms Strategy for 2026",
+      "alternativeHeadline": "How to message eligibility, avoid a farming-only narrative, and earn real coverage when the tokens land",
+      "description": "Airdrops are a comms event, not just a distribution mechanic. This 2026 playbook covers the three messages every airdrop needs, how to sequence media briefings and KOL coordination, the compliance language that eliminates secondary press stories, and why the post-claim data essay is the asset with the longest shelf life.",
+      "url": "https://www.shilikajain.com/playbook/crypto-airdrop-pr-strategy-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/crypto-airdrop-pr-strategy-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2050,
+      "timeRequired": "PT8M",
+      "articleSection": "Launch",
+      "keywords": [
+        "crypto PR",
+        "airdrop PR strategy",
+        "token airdrop comms",
+        "crypto airdrop 2026",
+        "token launch PR",
+        "airdrop farming narrative",
+        "sybil airdrop messaging",
+        "KOL airdrop coordination",
+        "TGE comms plan",
+        "Web3 token distribution PR"
+      ],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "Cryptocurrency airdrop" },
+        { "@type": "Thing", "name": "Token launch communications" },
+        { "@type": "Thing", "name": "Sybil attack prevention" },
+        { "@type": "Thing", "name": "KOL marketing" },
+        { "@type": "Thing", "name": "Crypto public relations" },
+        { "@type": "Thing", "name": "Token Generation Event" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "Cointelegraph" },
+        { "@type": "Organization", "name": "Decrypt" },
+        { "@type": "Organization", "name": "The Block" },
+        { "@type": "Organization", "name": "Blockworks" },
+        { "@type": "Organization", "name": "MANTRA Chain" },
+        { "@type": "Organization", "name": "BloomingBit" },
+        { "@type": "Organization", "name": "TokenPost" },
+        { "@type": "Organization", "name": "Inc42" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "Airdrop PR and Comms Strategy for 2026", "item": "https://www.shilikajain.com/playbook/crypto-airdrop-pr-strategy-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/crypto-airdrop-pr-strategy-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a crypto airdrop PR strategy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A crypto airdrop PR strategy is the full communications plan around a token distribution event: the eligibility messaging, the media briefing sequence, the KOL coordination, the compliance language, and the post-claim narrative. It treats the airdrop as a comms event rather than a technical distribution, and its goal is to ensure the dominant press frame is the protocol's distribution thesis, not a farming or sybil narrative assembled after the fact from on-chain data."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you avoid the farming narrative in airdrop coverage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The farming narrative takes over when no alternative frame is provided. The corrective is to publish the distribution thesis, the sybil stance, and the forward utility story before the eligibility criteria become public, not after. An exclusive briefing to a tier-1 outlet 5 to 7 days before claim day, with the eligibility reasoning fully documented, gives journalists a story to tell that is more interesting than a bot-counting exercise."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When should KOLs be briefed for an airdrop?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOLs should receive a briefing packet 24 hours before the claim goes live, not before the media embargo lifts. The packet should contain the three core messages (distribution thesis, sybil stance, forward utility story), key numbers, and a clear instruction on disclosure requirements and what not to say, particularly no price language. KOLs going live before the embargo lifts, or posting content that contradicts the sybil stance, creates the exact contradictions that journalists pick apart."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What compliance language does an airdrop announcement need?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At minimum: a clear statement of geographic exclusions (particularly US persons if applicable) in the body of the announcement, not the footer; no price language or financial return framing in any collateral including KOL briefs; and a utility-focused forward story that explains what the token does in the protocol rather than what holding it might yield. This is not a substitute for legal review, but it is the minimum that eliminates the secondary press story about whether the project is avoiding regulatory scrutiny."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does airdrop PR cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A full airdrop comms sprint covering the 3-week window before and after claim day typically runs $15,000 to $40,000 at fractional senior operator rates of $5,000 to $12,000 per month. That covers exclusive briefing coordination, KOL brief and review, press release drafting, founder content, and regional syndication. Full agency rates for the same scope run higher. The post-claim op-ed is often included as a deliverable in a token launch PR engagement because it is the asset with the longest comms shelf life."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/restaking-pr-2026#article",
+      "headline": "PR for a Restaking and Intents Project in 2026",
+      "alternativeHeadline": "Analogy discipline, category education and AI-citation strategy for hyper-technical Web3 infrastructure primitives",
+      "description": "Restaking and intents projects fail at PR because they explain the mechanism before establishing why it matters. This 2026 playbook covers analogy-first narrative development, category education before the announcement, the media map for shared security coverage, and the AI-citation strategy that makes technical framing legible to editors and generative engines alike.",
+      "url": "https://www.shilikajain.com/playbook/restaking-pr-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/restaking-pr-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2050,
+      "timeRequired": "PT9M",
+      "articleSection": "Strategy",
+      "keywords": [
+        "Web3 PR",
+        "restaking PR",
+        "intents project PR",
+        "shared security narrative",
+        "crypto infrastructure PR",
+        "Web3 PR strategy 2026",
+        "DePIN PR",
+        "generative engine optimization Web3",
+        "founder profiling crypto",
+        "category education blockchain"
+      ],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "Restaking" },
+        { "@type": "Thing", "name": "Intents" },
+        { "@type": "Thing", "name": "Shared security" },
+        { "@type": "Thing", "name": "Actively Validated Services" },
+        { "@type": "Thing", "name": "Generative engine optimization" },
+        { "@type": "Thing", "name": "Category narrative" },
+        { "@type": "Thing", "name": "Crypto public relations" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "Cointelegraph" },
+        { "@type": "Organization", "name": "The Block" },
+        { "@type": "Organization", "name": "Blockworks" },
+        { "@type": "Organization", "name": "Decrypt" },
+        { "@type": "Organization", "name": "The Defiant" },
+        { "@type": "Organization", "name": "Forbes" },
+        { "@type": "Organization", "name": "EigenLayer" },
+        { "@type": "Organization", "name": "Fluence Network" },
+        { "@type": "Organization", "name": "MANTRA Chain" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "PR for a Restaking and Intents Project in 2026", "item": "https://www.shilikajain.com/playbook/restaking-pr-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/restaking-pr-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the biggest PR mistake restaking projects make?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Explaining the mechanism before establishing why it matters. Reporters and editors do not cover mechanisms, they cover stories, and the story for a restaking or intents project is always about what changes for the end user or the broader ecosystem, not how the cryptoeconomic plumbing works. The fix is analogy-first narrative development: before any pitch goes out, the team needs one clear, repeatable analogy that translates the primitive into a frame a generalist journalist can use. Everything else in the PR strategy builds on that foundation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you do category education PR for a brand-new primitive like intents?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You run two tracks in parallel: off-record reporter briefings six to twelve weeks before any announcement, and a content program that publishes the category terms on your own domain so AI engines can index them. The briefings give specialist reporters at CoinDesk, The Block and Blockworks the context they need to write accurately when the announcement lands. The content program means that when anyone searches for explanations of the category, your framing is one of the sources they find. The AI-citation side of that work connects directly to generative engine optimization strategy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which outlets actually cover restaking and shared security in depth?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The specialist tier that does the deepest work in 2026 is CoinDesk, The Block, Blockworks and The Defiant. Decrypt is the best outlet for bridging the topic to a broader crypto-curious audience. For Asian coverage with strong institutional DeFi readership, BloomingBit (Korea) and CryptoTimes JP are the right choices. Forbes and TechCrunch will cover a raise or a named institutional partnership, but they need the simplest possible analogy and will not engage with mechanism detail."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How important is the founder's public profile for an infrastructure project?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "More important than most infrastructure founders assume. The reporters who cover shared security and intents write about people as much as protocols, and a named expert with a consistent point of view becomes a recurring source they quote across multiple cycles. The founder profiling program builds that public record before the launch: bylined essays, podcast appearances and a visible social presence in the six months before mainnet, so the reporter can write the founder as an authority rather than introducing them cold on announcement day."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does Web3 PR for a restaking project actually cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For an infrastructure-layer project with a concentrated specialist audience, a fractional senior operator at $5,000 to $12,000 per month is usually the right starting point, covering narrative development, reporter relationships and content output. A launch sprint around a mainnet or raise runs $15,000 to $40,000 depending on scope and regional reach. A full agency at $15,000 to $45,000 per month becomes the right model once the post-mainnet growth phase requires broadcast-scale distribution."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/how-to-get-covered-the-information-2026#article",
+      "headline": "How to Get Covered by The Information in 2026",
+      "alternativeHeadline": "Scoops, named sources, and the sourcing bar that separates The Information from every other tech outlet",
+      "description": "The Information is the hardest, highest-credibility tech journalism room. This 2026 playbook covers the outlet's sourcing standard, the story types that actually run, realistic expectations for AI and Web3 founders, how to pitch correctly, and what to do when a reporter calls you first.",
+      "url": "https://www.shilikajain.com/playbook/how-to-get-covered-the-information-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/how-to-get-covered-the-information-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2050,
+      "timeRequired": "PT8M",
+      "articleSection": "Tier-1 PR",
+      "keywords": [
+        "AI PR",
+        "The Information press coverage",
+        "how to get covered by The Information",
+        "tier-1 tech journalism",
+        "AI startup PR 2026",
+        "tech media pitching",
+        "named source journalism",
+        "exclusive scoop pitching",
+        "Web3 PR strategy",
+        "fractional PR for AI startups"
+      ],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "The Information" },
+        { "@type": "Thing", "name": "Technology journalism" },
+        { "@type": "Thing", "name": "Media relations" },
+        { "@type": "Thing", "name": "Exclusive scoops" },
+        { "@type": "Thing", "name": "Named source journalism" },
+        { "@type": "Thing", "name": "AI startup public relations" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "The Information" },
+        { "@type": "Organization", "name": "TechCrunch" },
+        { "@type": "Organization", "name": "Forbes" },
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "Cointelegraph" },
+        { "@type": "Organization", "name": "Decrypt" },
+        { "@type": "Organization", "name": "The Block" },
+        { "@type": "Organization", "name": "Blockworks" },
+        { "@type": "Organization", "name": "VentureBeat" },
+        { "@type": "Organization", "name": "Dark Reading" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "How to Get Covered by The Information in 2026", "item": "https://www.shilikajain.com/playbook/how-to-get-covered-the-information-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/how-to-get-covered-the-information-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What kind of story does The Information actually cover?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Information covers stories that change how institutional investors, senior operators, and fund managers think about capital allocation: exclusive funding scoops, personnel moves at significant companies, strategy pivots backed by documents or on-record sources, and market data not available elsewhere. It does not cover product launches, token announcements, or protocol upgrades as standalone stories. The editorial test is whether a paying subscriber would feel the story was worth their subscription fee."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many sources do you need to get a story placed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There is no fixed number, but the effective standard is at least one named on-record source plus independent corroboration, either a second source or documents. Anonymous tips without corroboration rarely move forward at The Information. The outlet's credibility with institutional subscribers depends on sourcing that holds up to scrutiny, so reporters are methodical about confirming claims before they run."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should an AI startup founder target The Information early in their PR program?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. The Information is a milestone outlet, not an entry point. For most AI startup PR programs, the right sequence is TechCrunch, Forbes, and VentureBeat first, building the named record and investor relationships that make a future Information pitch credible. Pitching cold before that groundwork exists is usually a waste of a good story on an outlet that will pass."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best way to pitch The Information?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A direct, short note to the specific reporter covering your beat, with the scoop stated in the first two sentences and the source package described clearly. No press release attached, no generic pitch to the editorial inbox. Identify the reporter through their recent bylines, connect the story to what they have been covering, and offer an exclusive window of 48 to 72 hours. Warm introductions from investors or founders the reporter already knows convert significantly better than cold outreach."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should a founder do if The Information is writing a story about them?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Engage immediately. Provide a named spokesperson, correct factual errors with documentation, and give a clear on-record statement. Silence is not protection: the story runs either way, and non-engagement reads as evasion to an audience of institutional readers. The right-of-reply call is an opportunity to shape the record, not a threat to avoid. Treating it as the former is the strategically correct move and the honest one."
+          }
+        }
+      ]
+    }
+  ]
+}

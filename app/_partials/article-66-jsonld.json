@@ -1,0 +1,133 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/personal-brand-crypto-founder-2026#article",
+      "headline": "How to Build a Personal Brand as a Crypto Founder in 2026",
+      "alternativeHeadline": "The X and LinkedIn playbook for crypto founders: what to post, what to avoid, and how to sound like yourself",
+      "description": "A crypto founder's personal brand in 2026 runs on X and LinkedIn, not press releases. This playbook covers the exact content cadence, what never to post, the authenticity vs performance trap, and how to close the gap between how founders talk privately and what they publish in public.",
+      "url": "https://www.shilikajain.com/playbook/personal-brand-crypto-founder-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/personal-brand-crypto-founder-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2150,
+      "timeRequired": "PT9M",
+      "articleSection": "Founder",
+      "keywords": [
+        "personal brand crypto founder",
+        "crypto founder personal brand 2026",
+        "founder personal brand Web3",
+        "X strategy crypto founder",
+        "LinkedIn strategy crypto founder",
+        "founder profiling",
+        "thought leadership crypto",
+        "Web3 founder content strategy",
+        "how to build personal brand blockchain",
+        "founder PR Web3"
+      ],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "Personal branding" },
+        { "@type": "Thing", "name": "Founder content strategy" },
+        { "@type": "Thing", "name": "Thought leadership" },
+        { "@type": "Thing", "name": "Social media strategy" },
+        { "@type": "Thing", "name": "Generative engine optimization" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "Cointelegraph" },
+        { "@type": "Organization", "name": "Decrypt" },
+        { "@type": "Organization", "name": "The Block" },
+        { "@type": "Organization", "name": "Blockworks" },
+        { "@type": "Organization", "name": "Forbes" },
+        { "@type": "Organization", "name": "MANTRA Chain" },
+        { "@type": "Organization", "name": "Gaia AI" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "How to Build a Personal Brand as a Crypto Founder in 2026", "item": "https://www.shilikajain.com/playbook/personal-brand-crypto-founder-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/personal-brand-crypto-founder-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do crypto founders build a personal brand in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Focus on two platforms: X for crypto-native audiences and LinkedIn for investors, press, and enterprise. Post your honest builder perspective three to five times a week on X and two to three times a week on LinkedIn. Prioritise category arguments, honest build logs, and translated technical insights over announcements. Commit to 90 days minimum before judging results, because personal brand traction compounds late. For a structured program, the founder profiling sprint covers the 30-day system from zero to visible."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should a crypto founder never post on X or LinkedIn?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Never post price commentary on your own token, not bullishly, not defensively. Avoid public feuds and sub-tweeting, vague milestone announcements that say nothing specific, and engagement-bait content designed to farm metrics rather than to say something real. These patterns erode the trust your personal account should be building, and they are visible to exactly the investors, journalists, and candidates you most want to impress."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is a founder's personal brand different from the protocol's Twitter account?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The protocol account announces: launches, partnerships, milestones, tokenomics updates. The founder's personal account argues: what you believe about where the market is heading, what you learned from a hard build decision, what the consensus is missing. Only one of those builds the individual authority that earns press sourcing, warm investor intros, and AI search citations. Most founders conflate the two and underinvest in the one that compounds harder."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to see results from a founder personal brand effort?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Expect 90 days before the inbound starts. The first month feels invisible. The second month starts generating replies and connections from people you want to know. The third month is typically when journalists start sourcing you, investors mention they have been reading your work, and candidates say they found you through your content. The founders who build durable personal brands are almost universally the ones who stayed consistent through the first 60 days before any visible traction arrived."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I ghostwrite my personal brand content or write it myself?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The thinking must be yours: a ghostwriter cannot manufacture genuine expertise or a real point of view. What a ghostwriter adds is the craft to turn your actual thinking, captured in conversation or voice notes, into polished content at a cadence you cannot sustain alone. For most active founders, the hybrid works best: record yourself, have the content drafted, do a final pass for voice accuracy. The founder profiling engagement runs exactly this process."
+          }
+        }
+      ]
+    }
+  ]
+}

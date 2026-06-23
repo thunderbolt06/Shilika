@@ -1,0 +1,135 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/earned-vs-paid-media-web3-2026#article",
+      "headline": "Earned vs Paid Media in Web3 in 2026",
+      "alternativeHeadline": "How to blend earned PR and paid KOL campaigns in Web3, protect the credibility firewall, and make each channel more efficient",
+      "description": "Paid media buys reach; earned media builds belief. This 2026 operator's guide covers the trade-offs between earned PR and paid KOL campaigns in Web3, the sponsored-content firewall, how to sequence both channels around a launch, and why earned coverage now drives AI-search visibility that paid placements cannot match.",
+      "url": "https://www.shilikajain.com/playbook/earned-vs-paid-media-web3-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/earned-vs-paid-media-web3-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2050,
+      "timeRequired": "PT8M",
+      "articleSection": "Strategy",
+      "keywords": [
+        "Web3 marketing PR agency",
+        "earned vs paid media Web3",
+        "crypto KOL campaigns",
+        "Web3 PR strategy 2026",
+        "sponsored content crypto",
+        "fractional PR Web3",
+        "credibility compounding Web3",
+        "KOL marketing crypto",
+        "earned media Web3",
+        "Web3 PR campaigns"
+      ],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "Earned media" },
+        { "@type": "Thing", "name": "Paid media" },
+        { "@type": "Thing", "name": "KOL marketing" },
+        { "@type": "Thing", "name": "Sponsored content" },
+        { "@type": "Thing", "name": "Web3 public relations" },
+        { "@type": "Thing", "name": "Credibility firewall" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "Cointelegraph" },
+        { "@type": "Organization", "name": "Decrypt" },
+        { "@type": "Organization", "name": "The Block" },
+        { "@type": "Organization", "name": "Blockworks" },
+        { "@type": "Organization", "name": "Forbes" },
+        { "@type": "Organization", "name": "MANTRA Chain" },
+        { "@type": "Organization", "name": "Fluence Network" },
+        { "@type": "Organization", "name": "RARI Chain" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "Earned vs Paid Media in Web3 in 2026", "item": "https://www.shilikajain.com/playbook/earned-vs-paid-media-web3-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/earned-vs-paid-media-web3-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the difference between earned and paid media in Web3?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Earned media is coverage you did not pay for: editorial features in CoinDesk, Decrypt, The Block or Forbes, podcast appearances, and bylined founder essays placed on opinion desks. Paid media is anything you bought: sponsored articles, KOL posts, display campaigns. Earned transfers third-party credibility and persists indefinitely in the editorial record. Paid delivers reach immediately but ends when the budget does. The strongest Web3 brands run both in sequence, using earned to build credibility and paid to amplify it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should Web3 founders prioritise earned PR or paid KOL campaigns?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Neither in isolation. The right priority depends on your stage. Pre-launch and early-stage, earned coverage builds the credibility foundation that makes every dollar of paid spend more efficient. At launch, paid KOL campaigns amplify the earned story to retail communities fast. Post-launch, earned content compounds the story for AI-search visibility and investor due diligence. A typical budget split is roughly 60 percent earned through a Web3 PR retainer and 40 percent paid, concentrated in the launch window."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does buying sponsored articles on crypto outlets help get editorial coverage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, and this is the most expensive misunderstanding in Web3 marketing. Major outlets like CoinDesk, Cointelegraph, The Block and Blockworks maintain strict editorial firewalls between their commercial and news teams. Ad spend has no influence on editorial decisions. Running sponsored content alongside a PR campaign is fine as a supplementary reach tool, but it does not soften editorial gatekeepers. Keep commercial conversations with the sales team and PR conversations with journalists, and never conflate the two."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does a Web3 PR agency or fractional PR operator cost compared to paid media?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A full-service Web3 PR agency runs $15,000 to $45,000 per month. A fractional senior PR operator runs $5,000 to $12,000 per month, or $15,000 to $40,000 for a launch sprint. On the paid side, crypto KOL posts range from $200 to $1,500 for nano influencers up to $25,000 to $100,000 or more for macro accounts. The comparison that matters is not cost per placement but cost per credibility point: earned coverage from a tier-1 outlet carries more weight in investor and institutional conversations than any volume of paid posts at any price."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does earned media matter for AI search visibility in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AI engines like Google AI Overviews, Perplexity and ChatGPT assemble answers from sources they can attribute and trust, which in practice means editorial coverage from established outlets. Sponsored content is rarely cited by these engines because it lacks the independent authority signals that editorial content carries. If a buyer or investor in your category asks an AI engine who is credible in your space, the answer is built from earned coverage, not paid placements. This makes a consistent earned media record one of the highest-ROI brand investments for Web3 projects in 2026."
+          }
+        }
+      ]
+    }
+  ]
+}
