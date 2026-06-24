@@ -47,24 +47,19 @@ export async function POST(req: Request) {
     return NextResponse.json({ ok: false, error: 'Please enter a valid email.' }, { status: 400 });
   }
 
-  if (!isEmailConfigured()) {
-    // Don't lose the lead — still log to Notion even without email.
-    console.error('[contact] email not configured; lead received:', JSON.stringify(payload));
-    addLeadToNotion(payload).catch((err) => console.error('[contact] notion failed:', err));
-    return NextResponse.json(
-      { ok: false, error: 'Email service is not configured yet.' },
-      { status: 503 },
-    );
-  }
-
-  const [emailResult] = await Promise.allSettled([
-    sendLeadEmail(payload),
-    addLeadToNotion(payload).catch((err) => console.error('[contact] notion failed:', err)),
+  // Run email and Notion in parallel — Notion always fires regardless of email result.
+  const [emailResult, notionResult] = await Promise.allSettled([
+    isEmailConfigured()
+      ? sendLeadEmail(payload)
+      : Promise.reject(new Error('Email not configured')),
+    addLeadToNotion(payload),
   ]);
 
   if (emailResult.status === 'rejected') {
-    console.error('[contact] send failed:', emailResult.reason);
-    return NextResponse.json({ ok: false, error: 'Could not send. Try again.' }, { status: 502 });
+    console.error('[contact] email failed:', emailResult.reason);
+  }
+  if (notionResult.status === 'rejected') {
+    console.error('[contact] notion failed:', notionResult.reason);
   }
 
   return NextResponse.json({ ok: true });

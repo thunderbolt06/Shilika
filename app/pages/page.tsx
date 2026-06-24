@@ -1,7 +1,5 @@
 import type { Metadata } from 'next';
 import Script from 'next/script';
-import { EditorialShell } from '@/components/site/EditorialChrome';
-import { EditorialScripts } from '@/components/site/EditorialScripts';
 import PagesIndex from './PagesIndex';
 import pagesData from '@/data/landing-pages.json';
 import '../blog/blog.css';
@@ -75,10 +73,7 @@ export default function Page() {
         strategy="beforeInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <EditorialShell>
-        <PagesIndex />
-      </EditorialShell>
-      <EditorialScripts />
+      <PagesIndex />
     </>
   );
 }
