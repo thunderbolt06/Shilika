@@ -193,8 +193,62 @@ export function EditorialFooter() {
           <span>·</span>
         </div>
       </div>
+
+      <nav className="footer-nav" aria-label="Site navigation">
+        <div className="footer-nav-col">
+          <p className="footer-nav-head">Company</p>
+          <a href="/">Home</a>
+          <a href="/about">About</a>
+          <a href="/work">Case Studies</a>
+          <a href="/testimonials">Testimonials</a>
+          <a href="/press">Press</a>
+          <a href="/speaker">Speaking</a>
+          <a href="/faq">FAQ</a>
+        </div>
+
+        <div className="footer-nav-col">
+          <p className="footer-nav-head">Services</p>
+          <a href="/services">All Services</a>
+          <a href="/services/web3-pr-campaigns">Web3 PR</a>
+          <a href="/services/token-launch-pr">Token Launch PR</a>
+          <a href="/services/ai-startup-pr">AI Startup PR</a>
+          <a href="/services/kol-marketing">KOL Marketing</a>
+          <a href="/services/founder-profiling">Founder Profiling</a>
+          <a href="/services/content-writing">Content Writing</a>
+          <a href="/services/apac-pr">APAC PR</a>
+          <a href="/services/cybersecurity-pr">Cybersecurity PR</a>
+        </div>
+
+        <div className="footer-nav-col">
+          <p className="footer-nav-head">Writing</p>
+          <a href="/blog">Blog</a>
+          <a href="/playbook">Playbooks</a>
+          <a href="/glossary">Glossary</a>
+        </div>
+
+        <div className="footer-nav-col">
+          <p className="footer-nav-head">Regions</p>
+          <a href="/apac">APAC</a>
+          <a href="/india">India</a>
+          <a href="/japan">Japan</a>
+          <a href="/korea">Korea</a>
+          <a href="/singapore">Singapore</a>
+          <a href="/dubai-mena">Dubai &amp; MENA</a>
+        </div>
+
+        <div className="footer-nav-col">
+          <p className="footer-nav-head">Contact &amp; Sources</p>
+          <a href="/contact">Contact</a>
+          <a href="https://calendly.com/shilikajain/30min/" target="_blank" rel="noopener">Book a Call</a>
+          <a href="mailto:shilika498@gmail.com">shilika498@gmail.com</a>
+          <a href="https://in.linkedin.com/in/shilika" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://twitter.com/Shilika_jain" target="_blank" rel="noopener">Twitter / X</a>
+        </div>
+      </nav>
+
       <div className="footer-row">
         <span className="mono">© SHILIKA JAIN - 2019-2026</span>
+        <span className="mono">Web3 &amp; AI PR · APAC &amp; Global</span>
       </div>
     </footer>
   );

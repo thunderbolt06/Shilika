@@ -2186,6 +2186,44 @@ a.press-item { text-decoration: none; }
   color: var(--lime);
   letter-spacing: -0.02em;
 }
+.footer-nav {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 40px 32px;
+  padding: 56px var(--pad) 48px;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+@media (max-width: 900px) {
+  .footer-nav {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 36px 24px;
+    padding: 40px var(--pad) 32px;
+  }
+}
+@media (max-width: 480px) {
+  .footer-nav { grid-template-columns: 1fr; gap: 28px; }
+}
+.footer-nav-head {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--lime);
+  margin-bottom: 14px;
+}
+.footer-nav-col a {
+  display: block;
+  font-size: 13px;
+  color: rgba(255,255,255,0.55);
+  text-decoration: none;
+  line-height: 1;
+  padding: 5px 0;
+  transition: color 0.18s;
+}
+.footer-nav-col a:hover { color: #fff; }
+.footer-nav-col a.footer-social {
+  display: flex; align-items: center; gap: 8px;
+}
 .footer-row {
   display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap;
   padding: 24px var(--pad);
