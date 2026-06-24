@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import { sendLeadEmail, isEmailConfigured, type LeadPayload } from '@/lib/email';
+import { addLeadToNotion } from '@/lib/notion';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -47,19 +48,24 @@ export async function POST(req: Request) {
   }
 
   if (!isEmailConfigured()) {
-    // Don't lose the lead in logs if email isn't wired yet.
+    // Don't lose the lead — still log to Notion even without email.
     console.error('[contact] email not configured; lead received:', JSON.stringify(payload));
+    addLeadToNotion(payload).catch((err) => console.error('[contact] notion failed:', err));
     return NextResponse.json(
       { ok: false, error: 'Email service is not configured yet.' },
       { status: 503 },
     );
   }
 
-  try {
-    await sendLeadEmail(payload);
-    return NextResponse.json({ ok: true });
-  } catch (err) {
-    console.error('[contact] send failed:', err);
+  const [emailResult] = await Promise.allSettled([
+    sendLeadEmail(payload),
+    addLeadToNotion(payload).catch((err) => console.error('[contact] notion failed:', err)),
+  ]);
+
+  if (emailResult.status === 'rejected') {
+    console.error('[contact] send failed:', emailResult.reason);
     return NextResponse.json({ ok: false, error: 'Could not send. Try again.' }, { status: 502 });
   }
+
+  return NextResponse.json({ ok: true });
 }

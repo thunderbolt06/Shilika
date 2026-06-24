@@ -89,35 +89,6 @@
     });
   }
 
-  // ---------- custom cursor ----------
-  if (window.matchMedia && window.matchMedia('(min-width: 901px)').matches && window.matchMedia('(pointer:fine)').matches) {
-    var cur = document.createElement('div');
-    cur.id = 'cursor';
-    cur.className = 'cursor';
-    var curDot = document.createElement('div');
-    curDot.id = 'cursor-dot';
-    curDot.className = 'cursor-dot';
-    document.body.appendChild(cur);
-    document.body.appendChild(curDot);
-
-    var cx = 0, cy = 0, tx = 0, ty = 0;
-    document.addEventListener('mousemove', function (e) {
-      tx = e.clientX; ty = e.clientY;
-      curDot.style.transform = 'translate(' + tx + 'px,' + ty + 'px) translate(-50%,-50%)';
-    }, { passive: true });
-    (function loop() {
-      cx += (tx - cx) * 0.18;
-      cy += (ty - cy) * 0.18;
-      cur.style.transform = 'translate(' + cx + 'px,' + cy + 'px) translate(-50%,-50%)';
-      requestAnimationFrame(loop);
-    })();
-
-    var hoverSel = 'a, button, input, textarea, select, summary, [data-magnet]';
-    document.querySelectorAll(hoverSel).forEach(function (el) {
-      el.addEventListener('mouseenter', function () { cur.classList.add('is-hover'); });
-      el.addEventListener('mouseleave', function () { cur.classList.remove('is-hover'); });
-    });
-  }
 
   // ---------- intent / lead form ----------
   var form = document.getElementById('intent-form');
