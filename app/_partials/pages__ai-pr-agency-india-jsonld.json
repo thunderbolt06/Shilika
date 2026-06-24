@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/ai-pr-agency-india#service",
+      "name": "AI PR Agency India — Fractional Senior Operator, Global From Day One",
+      "serviceType": "AI Startup PR",
+      "url": "https://www.shilikajain.com/pages/ai-pr-agency-india",
+      "description": "The most effective AI PR partner for an India-based or India-focused startup is a fractional senior operator who runs media strategy directly across Indian and global tech outlets for $5K–$12K/month, compared to $15K–$45K/month for a full agency. Shilika Jain has placed AI founders in Forbes, Decrypt, Benzinga, Inc42 and across six APAC markets, with senior hands on every pitch.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global", "India", "United States", "Singapore", "United Arab Emirates", "South Korea", "Japan"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 5000,
+          "maxPrice": 12000,
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "AI PR Agency India", "item": "https://www.shilikajain.com/pages/ai-pr-agency-india" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/ai-pr-agency-india#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is an AI PR agency in India and who is it for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An AI PR agency helps AI startups build a press footprint that earns coverage in both Indian outlets, like Inc42 and YourStory, and international publications, like Forbes, TechCrunch and Decrypt. It is for India-based or India-origin AI founders who need their story to land with global investors, enterprise buyers or conference organisers, not just the domestic startup press. A fractional senior operator runs this more cost-effectively than a traditional agency. Shilika Jain runs AI Startup PR directly for $5K–$12K/month, with dual India and global track coverage built into every engagement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does AI PR cost for an Indian startup?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A traditional agency charges $15K–$45K per month because that retainer funds a multi-person account team. A fractional senior operator runs the same senior scope for $5K–$12K per month. A focused launch sprint, covering a raise, product launch or international debut, runs $15K–$40K over four to eight weeks. Most India-based founders start with a monthly retainer at the lower end and scale from there once the first round of placements is live."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which outlets can you place an Indian AI startup in?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "India-native: Inc42, YourStory, The Ken, Economic Times Tech, Business Standard. International tech and AI: Forbes, TechCrunch, Benzinga, VentureBeat, AI Magazine. Web3 and crypto where relevant: CoinDesk, Decrypt, Cointelegraph. APAC: e27 (Singapore), DealStreetAsia, BloomingBit (Korea). Coverage depends on a genuine news hook: a raise, a partnership with a named enterprise, a product that solves a real problem, or a founder who can credibly argue a category point of view."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does the process and timeline look like?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Week one is a teardown of your current press footprint and a category positioning session. Week two produces the pitch narrative and the target journalist map across both India and international desks. Weeks three and four run the first embargo or pitch wave and capture initial placements. From there the work moves to a monthly retainer rhythm: one anchor story per month, ongoing journalist relationship-building and AI-citation monitoring. Most founders see first international placements within four to six weeks of starting."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get started with AI PR for my India-based startup?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short brief through the intent form and you will get a reply within 24 hours with a quick read on your press footprint and where the international angle is. Or book a 30-minute call and we plot it live on the call. No deck, no agency intro meeting, no account team."
+          }
+        }
+      ]
+    }
+  ]
+}

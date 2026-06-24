@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/fractional-head-of-pr#service",
+      "name": "Fractional Head of PR — Senior Comms Leadership for Web3 and AI Founders",
+      "serviceType": "Web3 PR",
+      "url": "https://www.shilikajain.com/pages/fractional-head-of-pr",
+      "description": "A fractional Head of PR gives Web3, AI and DePIN founders principal-level comms leadership at $5K–$12K/month, without a $180K–$250K full-time hire. Shilika Jain embeds as a de-facto comms lead, owns media strategy and runs pitches directly to tier-1 editors at CoinDesk, Forbes, Decrypt and The Block, with 50+ founders placed across six global markets.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global", "United States", "South Korea", "Japan", "India", "Singapore", "United Arab Emirates"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 5000,
+          "maxPrice": 12000,
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "Fractional Head of PR", "item": "https://www.shilikajain.com/pages/fractional-head-of-pr" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/fractional-head-of-pr#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a fractional Head of PR and who is it for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fractional Head of PR is a principal-level comms operator who works with your company part-time or on a defined scope, acting as your de-facto comms lead without sitting on your full-time payroll. It is the right model for Web3, AI and DePIN founders who need senior strategy and editor relationships, but are not yet at the stage where a $180K–$250K/year VP of Comms is the right allocation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does a fractional Head of PR cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fractional senior operator typically runs $5K–$12K per month, depending on scope, the number of news cycles and whether APAC localisation is included. That compares to $15K–$45K/month for a full agency retainer, or $180K–$250K all-in for a VP of Comms on payroll. A one-off launch sprint is usually $15K–$40K over four to eight weeks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which outlets and deliverables are included with a fractional Head of PR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tier-1 crypto: CoinDesk, Cointelegraph, The Block, Decrypt, Blockworks, The Defiant. Mainstream where the angle warrants it: Forbes, Bloomberg, Yahoo Finance, Benzinga. Regional: BloomingBit and TokenPost (Korea), CryptoTimes JP and CoinPost (Japan), ChainCatcher and Jinse (China), Inc42 (India), e27 (SEA). Deliverables typically include a 90-day narrative strategy, embargo management, tier-1 pitch execution, KOL coordination and monthly coverage reporting."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does the onboarding and timeline look like for a fractional Head of PR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The first two weeks cover an audit of your press footprint, competitive positioning and one-sentence category narrative. Weeks three and four produce the 90-day comms plan and the first pitch batch. Tier-1 placements typically appear within four to eight weeks of kick-off, though launch timelines depend on your news calendar. The model works best when engaged six to twelve weeks before a major public moment such as a raise, mainnet or TGE."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get started with a fractional Head of PR from Shilika Jain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short project brief through the intent form at shilikajain.com/pages/fractional-head-of-pr and you will get a reply within 24 hours with a quick read on your current press footprint, or book a 30-minute call at calendly.com/shilikajain/30min and we will map it out live. No deck required, no account-team intro call."
+          }
+        }
+      ]
+    }
+  ]
+}

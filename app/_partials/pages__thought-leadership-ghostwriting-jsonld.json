@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/thought-leadership-ghostwriting#service",
+      "name": "Thought Leadership Ghostwriting — Fractional Senior Operator",
+      "serviceType": "Content Writing",
+      "url": "https://www.shilikajain.com/pages/thought-leadership-ghostwriting",
+      "description": "Ghostwritten essays built on a genuine, defensible point of view, placed in tier-1 outlets under the founder's byline. Shilika Jain ghostwrites for Web3, AI and DePIN founders with placements in Forbes, CoinDesk, Decrypt and Benzinga. Retainer from $5K–$12K/month or standalone byline commissions from $2,500.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global", "United States", "United Kingdom", "Singapore", "United Arab Emirates", "India", "Australia"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 5000,
+          "maxPrice": 12000,
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "Thought Leadership Ghostwriting", "item": "https://www.shilikajain.com/pages/thought-leadership-ghostwriting" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/thought-leadership-ghostwriting#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is thought-leadership ghostwriting and who is it for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is the practice of writing a bylined essay, op-ed or long-form piece in a founder's voice, then placing it with a relevant outlet under their name. It is for Web3, AI and DePIN founders who have a genuine point of view but not the time or editorial training to turn it into something a tier-1 editor will publish. The output is yours: the byline, the credibility and the inbound it generates."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does thought-leadership ghostwriting cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A standalone byline commission, including intake, draft, revisions and editor placement, runs from $2,500 to $5,000 depending on outlet tier and piece length. A monthly retainer covering two to three pieces plus distribution runs $5K–$12K/month. That is the same range as a fractional senior operator because the same senior operator is doing the work, not a junior writer with an editor above them."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which outlets can the pieces actually land in?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For Web3 and AI founders: CoinDesk, Cointelegraph, Decrypt, The Block, Blockworks and The Defiant for category-specific pieces. Forbes, Fast Company and Benzinga for crossover business angles. For DePIN and cybersecurity: niche trades and newsletters that move the right audience faster than a general-tech masthead. Outlet choice is made at the outline stage, based on the argument, not retrofitted to whatever has the highest domain authority."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the process and how long does it take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A 45-minute intake call to lock voice and argument, then an outline for sign-off, then a first draft in five to seven business days. One round of structural revisions, one round of line edits, then direct editor pitch. Most pieces reach a decision from the target outlet within two weeks of submission. Rush timelines of seven to ten days are possible for news-pegged pieces, with a clear editorial hook already in hand."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get started with thought-leadership ghostwriting?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short brief through the intent form, including the rough argument you want to make and the outlet you have in mind, and you will get a reply within 24 hours with a read on whether the angle is publishable and which outlet is the right fit. Or book a 30-minute call and we will plot the first piece live."
+          }
+        }
+      ]
+    }
+  ]
+}

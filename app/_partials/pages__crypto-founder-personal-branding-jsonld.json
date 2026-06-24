@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/crypto-founder-personal-branding#service",
+      "name": "Crypto Founder Personal Branding — X + LinkedIn + Op-Eds",
+      "serviceType": "Founder Profiling & Op-Eds",
+      "url": "https://www.shilikajain.com/pages/crypto-founder-personal-branding",
+      "description": "A fractional senior operator who ghostwrites in your voice and places op-eds directly in CoinDesk, Forbes and Decrypt, running X and LinkedIn cadences for Web3, AI, DePIN and cybersecurity founders for $5K–$12K/month.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global", "United States", "United Kingdom", "India", "Singapore", "United Arab Emirates", "South Korea", "Japan"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 5000,
+          "maxPrice": 12000,
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "Crypto Founder Personal Branding", "item": "https://www.shilikajain.com/pages/crypto-founder-personal-branding" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/crypto-founder-personal-branding#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is crypto founder personal branding and who is it for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Crypto founder personal branding is the practice of building a consistent, credible public voice on X and LinkedIn, reinforced by op-ed placements in tier-1 outlets, so investors, journalists and potential partners know what you stand for before they get on a call. It is for Web3, AI, DePIN and cybersecurity founders who are raising, hiring, launching or trying to become the go-to voice in their category."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does founder personal branding cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fractional senior operator who ghostwrites and places op-eds directly runs $5K–$12K per month, depending on posting cadence and outlet targets. A content agency doing the same work typically charges $8K–$20K per month and routes everything through a junior team. A focused 90-day authority sprint is available for $15K–$40K for founders who need to move fast before a raise or launch."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which outlets can you place my op-eds in?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Op-ed targets depend on your angle and category. The primary outlets are CoinDesk Opinion, Cointelegraph, Decrypt, Forbes Tech and The Block for Web3 and crypto angles, and VentureBeat, AI Magazine and Fast Company for AI and DePIN angles. Regional placements in Inc42, e27, BloomingBit and ChainCatcher are available for APAC-facing founders. All pitches go to named editors with an established relationship, not a pitch blast."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long before I see results?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The first op-ed placement typically lands in weeks two to six, depending on the outlet and lead time. A consistent X and LinkedIn cadence builds measurable follower quality and inbound over a 60 to 90-day window. AI citation, where ChatGPT or Perplexity names you by category, follows consistent editorial placement and typically shows up between months two and four."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get started with Shilika Jain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short project brief through the intent form and you will get a reply within 24 hours with a quick read on your current public profile and where the highest-leverage gaps are. Or book a 30-minute call and we will map it live. No content questionnaire, no onboarding deck, no junior account call first."
+          }
+        }
+      ]
+    }
+  ]
+}

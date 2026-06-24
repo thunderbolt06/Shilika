@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/fractional-pr-consultant-web3#service",
+      "name": "Fractional PR Consultant for Web3 Startups",
+      "serviceType": "Web3 PR",
+      "url": "https://www.shilikajain.com/pages/fractional-pr-consultant-web3",
+      "description": "A fractional Web3 PR consultant runs your media strategy directly for $5K–$12K/month, without the multi-person account team baked into a $15K–$45K agency retainer. Shilika Jain has placed 50+ Web3 and AI founders in Forbes, CoinDesk, Cointelegraph, Decrypt, The Block and Blockworks, from token launches to DePIN infrastructure plays.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global", "United States", "South Korea", "Japan", "India", "Singapore", "United Arab Emirates"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 5000,
+          "maxPrice": 12000,
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "Fractional PR Consultant Web3", "item": "https://www.shilikajain.com/pages/fractional-pr-consultant-web3" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/fractional-pr-consultant-web3#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a fractional Web3 PR consultant and who is it for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fractional Web3 PR consultant is a senior operator who runs your PR function part-time or on a project basis, without the overhead of a full agency. You get direct access to the person with the editor relationships, the category knowledge and the track record. It suits Web3 startups that need senior PR muscle but are not at the stage where a $15K–$45K/month agency retainer makes financial sense."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does a fractional Web3 PR consultant cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fractional senior operator typically charges $5K–$12K/month for an ongoing retainer, or $15K–$40K for a defined launch sprint covering four to eight weeks. Both options remove the multi-person account-team markup baked into agency pricing. KOL amplification is priced separately: nano-tier $200–$1.5K per placement, micro $500–$5K, mid-tier $10K–$30K."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which outlets can a fractional Web3 PR consultant actually place me in?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tier-1 crypto: CoinDesk, Cointelegraph, The Block, Decrypt, Blockworks, The Defiant. Mainstream where the angle warrants it: Forbes, Bloomberg, Yahoo Finance, Benzinga. Regional: BloomingBit and TokenPost (Korea), CryptoTimes JP and CoinPost (Japan), ChainCatcher and Jinse (China), Inc42 (India), e27 (SEA). Placements depend on a genuine news hook, not a wire distribution blast."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to see results from a fractional Web3 PR consultant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Narrative positioning and journalist outreach start in week one. First placements typically land in weeks two to four, depending on the news hook and your embargo window. A structured launch like RARI Chain delivered 11 tier-1 placements in 24 hours because the positioning, relationships and embargo were built over the preceding nine days. Ongoing retainer work compounds across a 90-day cycle."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get started with a fractional Web3 PR consultant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short project brief through the intent form and you will get a reply within 24 hours with a quick read on your press footprint and a suggested approach. Or book a 30-minute call directly and plot it live. No deck required, no introductory account-team call before you speak to the person doing the work."
+          }
+        }
+      ]
+    }
+  ]
+}

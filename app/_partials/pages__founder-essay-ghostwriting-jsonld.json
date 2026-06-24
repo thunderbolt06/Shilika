@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/founder-essay-ghostwriting#service",
+      "name": "Founder Essay Ghostwriting — Senior Operator",
+      "serviceType": "Content Writing",
+      "url": "https://www.shilikajain.com/pages/founder-essay-ghostwriting",
+      "description": "Ghostwritten founder essays in your voice, structured for human readers and AI search. Shilika Jain extracts your point of view, writes 600 to 1,400 word essays, and places them in Forbes, CoinDesk, Cointelegraph, Decrypt and Blockworks. Individual commissions from $1,500 per piece; retainers from $5K–$12K/month.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global", "United States", "United Kingdom", "India", "Singapore", "United Arab Emirates", "South Korea", "Japan"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 1500,
+          "maxPrice": 12000,
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "Founder Essay Ghostwriting", "item": "https://www.shilikajain.com/pages/founder-essay-ghostwriting" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/founder-essay-ghostwriting#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is founder essay ghostwriting, and who is it for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Founder essay ghostwriting means a senior writer extracts your actual perspective through a recorded conversation, then writes the piece in your voice so it reads as genuinely yours. The byline is yours; the writing process is collaborative. It is for founders in Web3, AI, DePIN and cybersecurity who have a clear point of view but not the time or writing practice to get it onto the page and into a credible outlet."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does founder essay ghostwriting cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Individual commissions start at around $1,500 per essay, which covers the voice brief, draft, one round of edits and the pitch to relevant editors. A monthly retainer covering two to three essays plus placement support runs $5K–$12K/month. A full thought leadership sprint of six to eight essays planned around a raise or launch runs $15K–$40K."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which outlets can you place founder essays in?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For crypto and Web3 founders: CoinDesk, Cointelegraph, The Block, Decrypt, Blockworks, The Defiant. For AI and deep tech: Forbes, VentureBeat, AI Magazine, Benzinga, Yahoo Finance. For APAC audiences: Inc42 (India), e27 (Southeast Asia), regional Korean and Japanese crypto outlets. Placement is never guaranteed because editors decide, but the piece is structured and pitched to maximise the probability. Most placed essays find a home within two to three weeks of final draft."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the process and timeline from brief to published piece?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Week one: a 30-minute recorded voice brief and topic alignment. Week one to two: first draft delivered. Week two: your feedback and one round of edits. Week two to three: final polish and editor pitch. Most pieces are published within four to six weeks of the initial brief, depending on the outlet's editorial calendar. Faster turnarounds are possible for time-sensitive hooks around a raise, launch or trending topic."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get started with founder essay ghostwriting?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short brief through the intent form with the topic you want to own, the outlet you are targeting and your current publishing timeline. You will get a reply within 24 hours with a quick read on whether the angle is placeable and what the scope would look like, or book a 30-minute call at https://calendly.com/shilikajain/30min/ to map it out live."
+          }
+        }
+      ]
+    }
+  ]
+}

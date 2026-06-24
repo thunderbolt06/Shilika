@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/healthcare-ai-pr-agency#service",
+      "name": "Healthcare AI PR Agency, Fractional Senior Operator",
+      "serviceType": "AI Startup PR",
+      "url": "https://www.shilikajain.com/pages/healthcare-ai-pr-agency",
+      "description": "Healthcare AI PR built on evidence-led framing, regulatory awareness and direct journalist relationships. A fractional senior operator running your media strategy for $5K–$12K/month, placing healthcare AI founders in Forbes, Decrypt, Benzinga, STAT News, MedCity News and specialist health-tech outlets without overclaiming clinical outcomes.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global", "United States", "United Kingdom", "European Union", "India", "Singapore", "United Arab Emirates"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 5000,
+          "maxPrice": 12000,
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "Healthcare AI PR Agency", "item": "https://www.shilikajain.com/pages/healthcare-ai-pr-agency" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/healthcare-ai-pr-agency#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is healthcare AI PR and who is it for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Healthcare AI PR is the discipline of building credible media presence for companies that apply artificial intelligence to clinical, operational or life-sciences contexts: diagnostics, clinical decision support, drug discovery, revenue cycle, patient engagement and similar categories. It differs from general AI PR because science desks apply a higher evidence standard, regulatory language matters, and a single overblown claim can damage credibility with the reporters and institutional buyers you most need. It is right for funded healthcare AI startups, clinical AI spinouts or enterprise AI vendors selling into health systems."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does healthcare AI PR cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Generalist agencies with healthcare AI practices commonly charge $15K–$45K per month because the retainer covers a multi-person account team, overhead and account management layers. A fractional senior operator runs the same senior-scope work for $5K–$12K per month with no account-team markup. A focused launch sprint, for example around a study publication, a Series A announcement or a regulatory clearance, runs $15K–$40K over four to eight weeks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which outlets can you actually place healthcare AI stories in?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Health-tech verticals where the story is primarily clinical or operational: STAT News, MedCity News, Healthcare Dive, Fierce Healthcare, MobiHealthNews. General AI and tech desks for platform and infrastructure stories: Forbes, Wired, VentureBeat, MIT Technology Review, AI Magazine, Decrypt, Benzinga. Business and funding news: TechCrunch, Business Insider, Yahoo Finance. The specific outlets depend on the angle, the evidence base and the news hook. Coverage requires a real story, not a wire blast."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does the process and timeline look like?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Week one is a teardown: a review of the current press footprint, evidence base, regulatory status and the one story that holds up to editorial scrutiny. Week two produces the narrative: the category claim, the three-sentence thesis and the journalist map. Weeks three and four begin outreach, embargo preparation and thought-leadership drafts. The first placements typically land within four to six weeks of kickoff, with compound coverage building over a sustained programme. A single launch sprint delivers the burst placement; a monthly retainer builds the ongoing citation footprint."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get started with Shilika Jain for healthcare AI PR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short project brief through the intent form and you will receive a reply within 24 hours with a quick read on your press footprint and where the strongest story is. Or book a 30-minute call at calendly.com/shilikajain/30min and we will map it live. No agency credentials deck, no multi-person intro call."
+          }
+        }
+      ]
+    }
+  ]
+}

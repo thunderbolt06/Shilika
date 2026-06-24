@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/crypto-publicist#service",
+      "name": "Crypto Publicist — Fractional Senior Operator",
+      "serviceType": "Web3 PR",
+      "url": "https://www.shilikajain.com/pages/crypto-publicist",
+      "description": "A crypto publicist is a single senior operator who pitches your story directly to editors at CoinDesk, Cointelegraph and Forbes for $5K–$12K/month, versus a $15K–$45K agency retainer that staffs a junior account team. Shilika Jain has placed 50+ Web3 and AI founders in tier-1 outlets across six APAC markets, including 11 placements for RARI Chain in 24 hours and a CoinDesk exclusive for the MANTRA $11M raise.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global", "United States", "South Korea", "Japan", "India", "Singapore", "United Arab Emirates"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 5000,
+          "maxPrice": 12000,
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "Crypto Publicist", "item": "https://www.shilikajain.com/pages/crypto-publicist" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/crypto-publicist#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a crypto publicist and who is it for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A crypto publicist is a senior communications operator who pitches your project directly to journalists and editors at outlets like CoinDesk, Cointelegraph, Forbes and Decrypt, without routing work through a junior account team. The model fits Web3 and AI founders at seed through Series A who need tier-1 media coverage but cannot justify a $15K–$45K agency retainer. Shilika Jain operates as a fractional crypto publicist, working for $5K–$12K/month with direct editor access built over six years."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does a crypto publicist cost compared to an agency?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fractional crypto publicist typically charges $5K–$12K per month for ongoing retainer work, or $15K–$40K for a standalone launch sprint. A full-service crypto PR agency charges $15K–$45K per month because that retainer funds a multi-person account team, internal overhead and margin. The publicist model removes those layers: you pay for senior operator time, not headcount."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which outlets can a crypto publicist actually reach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tier-1 crypto: CoinDesk, Cointelegraph, The Block, Decrypt, Blockworks, The Defiant. Mainstream where the angle is strong: Forbes, Bloomberg, Yahoo Finance, Benzinga, AI Magazine. Regional across APAC: BloomingBit and TokenPost (Korea), CryptoTimes JP and CoinPost (Japan), ChainCatcher and Jinse (China), Inc42 (India), e27 (SEA). Outlet access depends on a real news hook. A publicist with direct editor relationships will tell you honestly which angle lands and which does not."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the process and how long does it take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A standard engagement starts with a positioning audit in week one: a read of your current press footprint and the story worth telling. Week two produces a narrative framework and journalist map. Active pitching begins in week three. First placements typically land within four to six weeks for strong news hooks, and within eight weeks for category-building work that requires warming a beat. A launch sprint compresses that into four weeks around a specific event."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I start working with a crypto publicist?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short brief through the intent form with your project stage, the moment you are building toward and your target markets. You will get a reply within 24 hours with a read on your situation and whether the timing makes sense. Or book a 30-minute call directly and we plot it live. No agency intro deck, no RFP process."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/japan-crypto-pr-agency#service",
+      "name": "Japan Crypto PR Agency — APAC Localisation",
+      "serviceType": "APAC Localisation",
+      "url": "https://www.shilikajain.com/pages/japan-crypto-pr-agency",
+      "description": "Japan crypto PR requires native-language pitching, FSA-aware framing and long editorial lead times. Shilika Jain runs Japan and Korea localisation as part of an APAC PR motion for $5K–$12K/month, with direct access to CoinPost, CryptoTimes JP and BloomingBit across six APAC markets.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global", "Japan", "South Korea", "Singapore", "India", "Vietnam", "United Arab Emirates"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 5000,
+          "maxPrice": 12000,
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "Japan Crypto PR Agency", "item": "https://www.shilikajain.com/pages/japan-crypto-pr-agency" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/japan-crypto-pr-agency#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Japan crypto PR and who is it for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Japan crypto PR is the process of placing a blockchain or digital asset project into Japanese-language media outlets, framed to meet the editorial and regulatory expectations of Japanese newsrooms and investors. It is for founders who are raising from Japanese VCs or exchanges, listing on a Japan-regulated platform, or building community with Japanese retail users. The core outlets are CoinPost and CryptoTimes JP, with Nikkei-adjacent business desks as aspirational targets."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does Japan crypto PR cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Japan localisation is typically run as part of an APAC retainer at $5K–$12K per month for a fractional senior operator, or as a standalone launch sprint at $15K–$40K over four to eight weeks. Full-service agencies charge $15K–$45K/month and often sub-contract the Japan-language work anyway. A fractional model removes that markup and keeps senior-level ownership on your account throughout."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which Japanese outlets can you place my project in?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Primary Japanese crypto outlets: CoinPost (the largest Japanese-language crypto publication), CryptoTimes JP, Coin Telegraph Japan and ZaikeiShimbun digital. For institutional credibility: Business Insider Japan and Nikkei Fintech digital are achievable where the angle is strong, typically a fund partnership, regulatory milestone or major raise. Coverage is contingent on a real news hook and proper lead time, not a press release blast."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the process and timeline for a Japan PR campaign?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Japan PR campaign runs in four stages over six to ten weeks: narrative teardown and localisation of angles into Japanese (weeks one to two), editorial mapping and embargo preparation for target desks (weeks two to four), launch with a global tier-1 anchor followed by Japan placements in the same news cycle (week four), and sustained follow-through with monthly APAC sentiment reporting. Japanese editors typically need two to four weeks of lead time, so starting the briefing early matters more than it does in English-language markets."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get started with Japan crypto PR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short project brief through the intent form and you will get a reply within 24 hours with a quick read on your Japan-market readiness and which editorial angles are worth pursuing. Alternatively, book a 30-minute call to map the Japan strategy live. No deck required, no account-team intro call."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+<style>
+:root {
+  --ink: oklch(0.16 0.01 80);
+  --ink-2: oklch(0.22 0.01 80);
+  --paper: oklch(0.96 0.01 90);
+  --paper-2: oklch(0.92 0.015 85);
+  --cream: oklch(0.93 0.04 85);
+  --lime: oklch(0.92 0.18 115);
+  --muted: oklch(0.55 0.01 80);
+  --line: oklch(0.85 0.01 80);
+  --font-display: 'Instrument Serif', 'Times New Roman', serif;
+  --font-body: 'Inter Tight', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'Geist Mono', 'JetBrains Mono', monospace;
+  --pad: clamp(20px, 4vw, 64px);
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { font-family: var(--font-body); background: var(--paper); color: var(--ink); -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+.mono { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; }
+
+.nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; display: flex; justify-content: space-between; align-items: center; padding: 18px var(--pad); background: rgba(247, 246, 241, 0.85); backdrop-filter: blur(16px); border-bottom: 1px solid var(--line); }
+.nav-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); }
+.nav-logo-text { font-family: var(--font-display); font-size: 22px; font-style: italic; letter-spacing: -0.01em; }
+.nav-logo-dot { color: var(--lime); margin: 0 2px; }
+.nav-links { display: flex; gap: 28px; list-style: none; font-family: var(--font-mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; }
+.nav-links a { position: relative; padding: 4px 0; color: var(--ink); text-decoration: none; }
+.nav-links a::after { content: ''; position: absolute; left: 0; bottom: 0; width: 0; height: 1px; background: var(--ink); transition: width 0.4s var(--ease-out-quart); }
+.nav-links a:hover::after, .nav-links a.is-current::after { width: 100%; }
+.nav-cta { display: inline-flex; align-items: center; gap: 8px; padding: 10px 18px; background: var(--ink); color: var(--paper); font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; border-radius: 100px; transition: background 0.3s, color 0.3s; }
+.nav-cta:hover { background: var(--lime); color: var(--ink); }
+@media (max-width: 800px) { .nav-links { display: none; } }
+
+.scroll-progress { position: fixed; top: 0; left: 0; right: 0; height: 2px; z-index: 200; background: transparent; }
+.scroll-progress-bar { height: 100%; background: var(--lime); width: 0%; transition: width 0.1s linear; }
+
+.article-header { padding: 140px var(--pad) 60px; border-bottom: 1px solid var(--line); background: var(--paper); position: relative; }
+.crumb { max-width: 980px; margin: 0 auto 36px; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+.crumb a { color: var(--muted); text-decoration: none; transition: color 0.3s; }
+.crumb a:hover { color: var(--ink); }
+.crumb .sep { margin: 0 12px; }
+.article-meta-row { max-width: 980px; margin: 0 auto 28px; display: flex; gap: 18px; align-items: center; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); flex-wrap: wrap; }
+.article-cat { background: var(--ink); color: var(--paper); padding: 5px 12px; border-radius: 3px; font-weight: 500; }
+.article-headline { max-width: 980px; margin: 0 auto; font-family: var(--font-display); font-size: clamp(40px, 6.4vw, 88px); line-height: 0.97; letter-spacing: -0.018em; font-weight: 400; text-wrap: balance; }
+.article-headline em { font-style: italic; background: linear-gradient(120deg, transparent 30%, var(--lime) 30%, var(--lime) 90%, transparent 90%); background-size: 200% 100%; background-position: 100% 0; padding: 0 0.05em; animation: hl-sweep 1.6s 0.4s var(--ease-out-quart) forwards; }
+@keyframes hl-sweep { to { background-position: 0 0; } }
+.article-sub { max-width: 760px; margin: 32px auto 0; font-family: var(--font-display); font-size: clamp(20px, 1.6vw, 24px); line-height: 1.4; font-style: italic; color: var(--muted); }
+
+.article-hero-visual { max-width: 1200px; margin: 60px auto 0; aspect-ratio: 16 / 7; position: relative; overflow: hidden; border-radius: 4px; background: var(--ink); color: var(--paper); }
+.visual-vs .v-num { position: absolute; left: 32px; top: 22px; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.15em; color: var(--lime); z-index: 2; }
+.visual-vs .v-split { position: absolute; inset: 30px 32px 32px; display: grid; grid-template-columns: 1fr auto 1fr; gap: 18px; align-items: stretch; }
+.visual-vs .v-col { border: 1px solid rgba(255,255,255,0.14); border-radius: 6px; padding: 22px; display: flex; flex-direction: column; justify-content: space-between; }
+.visual-vs .v-col.is-key { background: var(--lime); border-color: var(--lime); }
+.visual-vs .v-col .v-k { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(255,255,255,0.45); }
+.visual-vs .v-col.is-key .v-k { color: rgba(40,37,32,0.6); }
+.visual-vs .v-col .v-h { font-family: var(--font-display); font-style: italic; font-size: clamp(22px, 2.6vw, 34px); line-height: 1.0; color: var(--paper); }
+.visual-vs .v-col.is-key .v-h { color: var(--ink); }
+.visual-vs .v-col .v-d { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.06em; line-height: 1.4; color: rgba(255,255,255,0.55); text-transform: uppercase; }
+.visual-vs .v-col.is-key .v-d { color: rgba(40,37,32,0.7); }
+.visual-vs .v-mid { display: flex; align-items: center; justify-content: center; font-family: var(--font-display); font-style: italic; font-size: 28px; color: var(--lime); }
+@media (max-width: 720px) { .visual-vs .v-split { grid-template-columns: 1fr; } .visual-vs .v-mid { display: none; } }
+
+.article-body-wrap { padding: 80px var(--pad) 100px; background: var(--paper); }
+.article-body { max-width: 720px; margin: 0 auto; font-size: 19px; line-height: 1.65; color: oklch(0.25 0.01 80); }
+.article-body p { margin-bottom: 1.4em; }
+.article-body p.lede { font-family: var(--font-display); font-size: clamp(26px, 2.4vw, 34px); line-height: 1.25; font-style: italic; color: var(--ink); margin-bottom: 1.6em; }
+.article-body h2 { font-family: var(--font-display); font-size: clamp(28px, 3vw, 40px); font-weight: 400; letter-spacing: -0.01em; color: var(--ink); margin: 2em 0 0.8em; line-height: 1.1; text-wrap: balance; }
+.article-body h2::before { content: '§ '; color: var(--lime); font-style: italic; }
+.article-body h3 { font-family: var(--font-display); font-size: clamp(22px, 2.2vw, 28px); font-weight: 400; color: var(--ink); margin: 1.6em 0 0.5em; line-height: 1.2; }
+.article-body ul, .article-body ol { margin: 0 0 1.6em 1.4em; padding-left: 0; }
+.article-body li { margin-bottom: 0.6em; padding-left: 0.4em; }
+.article-body li::marker { color: var(--lime); }
+.article-body strong { color: var(--ink); font-weight: 600; }
+.article-body em { font-style: italic; }
+.article-body a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-decoration-thickness: 2px; text-underline-offset: 3px; }
+.article-body a:hover { color: oklch(0.45 0.18 115); }
+.article-body table { width: 100%; border-collapse: collapse; margin: 1.6em 0; font-size: 15px; font-family: var(--font-mono); letter-spacing: 0.02em; }
+.article-body table th { text-align: left; padding: 10px 12px; background: var(--ink); color: var(--paper); font-weight: 500; text-transform: uppercase; font-size: 11px; letter-spacing: 0.1em; }
+.article-body table td { padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.article-body table tr:nth-child(even) td { background: var(--paper-2); }
+.callout { background: var(--ink); color: var(--paper); padding: 28px 32px; border-radius: 8px; margin: 2em 0; font-family: var(--font-display); font-size: clamp(20px, 1.8vw, 24px); font-style: italic; line-height: 1.35; }
+.callout strong { color: var(--lime); font-weight: 400; font-style: normal; font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; display: block; margin-bottom: 10px; }
+.fix-box { background: var(--paper-2); border-left: 3px solid var(--lime); padding: 20px 24px; border-radius: 4px; margin: 1.2em 0 1.8em; font-size: 17px; line-height: 1.55; }
+.fix-box strong.fix-label { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); display: block; margin-bottom: 8px; }
+.faq-block { max-width: 720px; margin: 60px auto 0; padding: 32px; background: var(--paper-2); border-radius: 8px; }
+.faq-block h2 { font-family: var(--font-display); font-size: clamp(28px, 3vw, 36px); margin-bottom: 24px; font-weight: 400; }
+.faq-q { font-family: var(--font-display); font-style: italic; font-size: 20px; color: var(--ink); margin: 22px 0 8px; }
+.faq-a { font-size: 16px; color: oklch(0.30 0.01 80); line-height: 1.6; }
+.faq-a a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px; }
+
+.author-block { max-width: 720px; margin: 80px auto 0; padding: 32px; background: var(--paper-2); border-radius: 8px; display: grid; grid-template-columns: 64px 1fr; gap: 20px; align-items: center; }
+.author-avatar { width: 64px; height: 64px; border-radius: 50%; background: var(--ink); color: var(--lime); display: flex; align-items: center; justify-content: center; font-family: var(--font-display); font-size: 24px; font-style: italic; font-weight: 400; }
+.author-name { font-family: var(--font-display); font-size: 24px; font-style: italic; line-height: 1; margin-bottom: 6px; }
+.author-bio { font-size: 14px; color: var(--muted); line-height: 1.4; }
+.author-bio a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px; }
+
+.cta-strip { background: var(--ink); color: var(--paper); padding: 100px var(--pad); text-align: center; position: relative; overflow: hidden; }
+.cta-strip h3 { font-family: var(--font-display); font-size: clamp(40px, 6vw, 80px); font-weight: 400; line-height: 1; letter-spacing: -0.015em; max-width: 18ch; margin: 0 auto 32px; }
+.cta-strip h3 em { font-style: italic; color: var(--lime); }
+.cta-strip-btn { display: inline-flex; align-items: center; gap: 10px; background: var(--lime); color: var(--ink); padding: 18px 32px; font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; text-decoration: none; border-radius: 100px; transition: transform 0.4s var(--ease-out-quart); }
+.cta-strip-btn:hover { transform: translateY(-2px); }
+
+.footer { background: var(--ink); color: var(--paper); padding: 40px var(--pad) 24px; border-top: 1px solid rgba(255,255,255,0.08); }
+.footer-row { max-width: 1440px; margin: 0 auto; display: flex; justify-content: space-between; font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.5); flex-wrap: wrap; gap: 12px; }
+.footer-row a { color: inherit; text-decoration: none; }
+</style>
+
+
+<div class="scroll-progress"><div class="scroll-progress-bar" id="progress-bar"></div></div>
+
+<nav class="nav">
+  <a href="/" class="nav-logo">
+    <svg width="34" height="34" viewBox="0 0 34 34" fill="none">
+      <rect width="34" height="34" rx="8" fill="#282520"/>
+      <text x="50%" y="55%" text-anchor="middle" dominant-baseline="middle" font-family="Georgia, serif" font-size="18" font-style="italic" fill="#d4ff32">SJ</text>
+      <circle cx="27" cy="7" r="2" fill="#d4ff32"/>
+    </svg>
+    <span class="nav-logo-text">SHILIKA<span class="nav-logo-dot">·</span>JAIN</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="/#work">Work</a></li>
+    <li><a href="/#services">Services</a></li>
+    <li><a href="/#press">Press</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/blog" class="is-current">Blog</a></li>
+    <li><a href="/#contact">Contact</a></li>
+  </ul>
+  <a href="https://calendly.com/shilikajain/30min/" target="_blank" rel="noopener" class="nav-cta">
+    <span>Book a call</span>
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.4"/></svg>
+  </a>
+</nav>
+
+<header class="article-header">
+  <div class="crumb">
+    <a href="/">Shilika Jain</a><span class="sep">/</span>
+    <a href="/playbook">Playbooks</a><span class="sep">/</span>
+    <span>115</span>
+  </div>
+  <div class="article-meta-row">
+    <span class="article-cat">CONTENT</span>
+    <span>· 9 MIN READ</span>
+    <span>· JUNE 24, 2026</span>
+    <span>· BY SHILIKA JAIN</span>
+  </div>
+  <h1 class="article-headline">Whitepaper writing for <em>AI startups</em> in 2026.</h1>
+  <p class="article-sub">An AI startup whitepaper is not a crypto whitepaper, not a pitch deck, and not a long blog post. It is the one document that makes a technical claim credible to investors, analysts, enterprise buyers, and now the AI engines that answer your buyers' questions. Here is what goes in it, who it has to serve, and how to make it citable.</p>
+
+  <div class="article-hero-visual visual-vs">
+    <span class="v-num">115 / WHITEPAPER VS THE REST</span>
+    <div class="v-split">
+      <div class="v-col is-key">
+        <span class="v-k">Whitepaper</span>
+        <span class="v-h">A reasoned case for a technical claim</span>
+        <span class="v-d">Evidence · method · named data · long shelf life · AI-cited</span>
+      </div>
+      <div class="v-mid">vs</div>
+      <div class="v-col">
+        <span class="v-k">Pitch deck</span>
+        <span class="v-h">A 12-slide ask for money</span>
+        <span class="v-d">Narrative · momentum · private · expires in a round</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="article-body-wrap">
+  <article class="article-body">
+
+<p class="lede">A whitepaper for an AI startup is a structured, evidence-led argument that a specific technical approach works and matters. It sits between marketing and research: more rigorous than a blog post, more public than a pitch deck, more readable than an academic paper. In 2026 it does double duty, convincing human evaluators and feeding the AI search engines that now answer buyer questions without sending a click. Get it wrong and it reads like a brochure. Get it right and it becomes the most-cited asset you own.</p>
+
+<p>I run fractional PR and ghostwriting for Web3 and AI founders, and the whitepaper is the asset founders most often get wrong in both directions. Technical founders write a 40-page method paper that no investor finishes. Marketing teams write an 8-page gloss that no analyst trusts. Neither moves the deal. A whitepaper that works threads a narrow needle: it earns the trust of someone technical while staying legible to someone writing a cheque, and it does both in a way an AI engine can extract and attribute. This is the operator's breakdown of what that document actually is, who it has to serve, and how to make it carry weight in 2026.</p>
+
+<h2>What an AI whitepaper is, and three things it is not</h2>
+
+<p>The fastest way to write a bad whitepaper is to confuse it with a document that has a different job. Founders borrow the wrong template and inherit the wrong failure mode. Here is the document set, side by side.</p>
+
+<table>
+  <thead><tr><th>Document</th><th>Job</th><th>Reader</th><th>Failure mode if borrowed</th></tr></thead>
+  <tbody>
+    <tr><td>Whitepaper</td><td>Argue a technical claim with evidence</td><td>Investors, analysts, enterprise buyers, AI engines</td><td>This is the target</td></tr>
+    <tr><td>Pitch deck</td><td>Ask for money in 12 slides</td><td>VCs, in a room</td><td>Whitepaper becomes a hype reel with no method</td></tr>
+    <tr><td>Crypto whitepaper</td><td>Justify a token and its economics</td><td>Token buyers, community</td><td>AI paper inherits tokenomics theatre, loses analyst trust</td></tr>
+    <tr><td>Academic paper</td><td>Pass peer review on novelty</td><td>Researchers</td><td>Whitepaper becomes unreadable to anyone writing a cheque</td></tr>
+    <tr><td>Blog post</td><td>Earn attention and links</td><td>The open web</td><td>Whitepaper becomes thin, uncited, forgettable</td></tr>
+  </tbody>
+</table>
+
+<p>An AI startup whitepaper borrows the rigour of the academic paper, the clarity of the blog post, and the framing discipline of the deck, without becoming any of them. It is the only one of these documents built to be read by four very different audiences at once, which is exactly why it is hard to write and valuable when done well.</p>
+
+<h2>Why whitepapers matter more in 2026, not less</h2>
+
+<p>The conventional wisdom is that nobody reads long documents anymore. The 2026 reality is the opposite for anything that has to clear a credibility bar. Two forces pushed the whitepaper back to the centre.</p>
+
+<p>The first is investor scrutiny. AI fundraising got harder, not easier, even as more money flowed in. Investors in 2026 ask sharper technical questions: how is the model trained, what data is proprietary, what is defensible if a foundation-model lab ships a competing feature next quarter. Founders who walk in with investor-grade documentation that answers those questions in advance command materially better terms, while founders who hand-wave on defensibility get marked down. The whitepaper is where that argument lives in long form before the meeting.</p>
+
+<p>The second is AI search. AI Overviews now appear on roughly 48 percent of US Google queries (BrightEdge, 2026), and around 83 percent of the searches that trigger one end without a click (Search Engine Land, 2026). Zero-click searches overall hit 68 percent in early 2026 (SparkToro, 2026). When an analyst, a journalist or an enterprise buyer asks an AI engine "how does company X actually work" or "is approach Y credible," the answer is assembled from documents the engine can extract, attribute and trust. A rigorous, well-structured whitepaper is precisely that kind of source. A pitch deck is private and a brochure is empty, so neither gets cited. The whitepaper is the public, citable artifact of your technical credibility.</p>
+
+<div class="callout"><strong>Field rule</strong>A pitch deck wins a room. A whitepaper wins the rooms you are not in, including the one where an AI engine is deciding whether to name you.</div>
+
+<h2>The anatomy of a whitepaper that gets read in 2026</h2>
+
+<p>Length is not the point. Structure is. A whitepaper that gets finished and cited tends to run 8 to 16 pages and follows a predictable arc that respects the reader's time.</p>
+
+<ul>
+  <li><strong>The front-loaded thesis.</strong> One paragraph on page one that states the claim and why it matters, in plain language. If a reader stops there, they should still be able to repeat your argument. This is also the passage AI engines lift first.</li>
+  <li><strong>The problem, framed as a stake.</strong> Not a generic market-size slide. The specific, technical reason the current approach fails, written so a non-specialist understands the cost and a specialist respects the framing.</li>
+  <li><strong>The approach, with method.</strong> What you actually do, at a level of detail that proves it is real. This is the section technical founders over-write and marketers under-write. The right depth shows the mechanism without dumping the codebase.</li>
+  <li><strong>The evidence.</strong> Named data, benchmarks with methodology, a worked result. One honest, reproducible number beats ten unsourced superlatives.</li>
+  <li><strong>The defensibility.</strong> Why this is hard to copy: proprietary data, a model edge, a distribution moat. The exact question investors are now trained to ask.</li>
+  <li><strong>The limits.</strong> What the approach does not do yet. Naming limits is what separates a credible paper from a brochure, and it is the thing analysts look for first.</li>
+</ul>
+
+<div class="fix-box"><strong class="fix-label">The operator's read</strong>If your whitepaper has no methodology section and no honestly stated limitation, it is a brochure with a serif font. The credibility lives in the parts founders are tempted to cut.</div>
+
+<h2>The four audiences one whitepaper has to serve</h2>
+
+<p>This is the constraint that makes the format hard. A single document is read by four people with different tolerances, and it cannot fail any of them.</p>
+
+<ul>
+  <li><strong>The investor</strong> wants the thesis, the defensibility, and the evidence, fast. They read the first page and the evidence section and skim the rest.</li>
+  <li><strong>The analyst or technical evaluator</strong> wants the method and the limits. They are looking for the place you overclaim, and if they find one, they discount the whole document.</li>
+  <li><strong>The enterprise buyer</strong> wants to know it is real, safe and supported. They care about data handling, reliability and what happens when it breaks.</li>
+  <li><strong>The AI engine</strong> wants clean structure, extractable claims, named sources and a clear author. It cites documents it can parse and attribute, which means semantic headings, stated facts and a visible byline matter as much as the prose.</li>
+</ul>
+
+<p>Serving all four is a sequencing problem, not a compromise. The front-loaded thesis serves the investor and the engine. The method and limits serve the analyst. A short reliability and data section serves the buyer. Written in that order, one document does four jobs without diluting any of them.</p>
+
+<h2>How to make a whitepaper citable by AI engines</h2>
+
+<p>This is the part most AI startups miss, and it is the highest-leverage edit in 2026. Generative engines do not cite documents because they are long. They cite documents they can extract a specific, attributable claim from. Google's own guidance on AI features in search makes the underlying point plainly: there is no separate trick, it is still SEO, and the way to win is non-commodity, first-hand, expert content rather than recycled common knowledge (<a href="https://developers.google.com/search/docs/fundamentals/ai-optimization-guide" target="_blank" rel="noopener">Google Search Central, 2026</a>). A whitepaper is non-commodity by definition. The job is to make its substance machine-legible.</p>
+
+<ul>
+  <li><strong>Publish an HTML version, not just a gated PDF.</strong> A PDF behind an email wall is invisible to most engines. A clean, indexable HTML page with the same content is the citable surface. Keep the PDF as the download.</li>
+  <li><strong>State claims as standalone sentences.</strong> "Our retrieval step cuts hallucination rate by 41 percent on the Fin-QA benchmark" is extractable. "We dramatically improve accuracy" is not.</li>
+  <li><strong>Name your data and method.</strong> Engines weight cited, sourced statistics heavily. The Princeton GEO study (Aggarwal et al., <a href="https://arxiv.org/abs/2311.09735" target="_blank" rel="noopener">arXiv:2311.09735</a>) measured a 30 to 40 percent uplift in generative-engine citations from adding cited statistics and quotable expertise.</li>
+  <li><strong>Use semantic headings and a clear byline.</strong> One H1, descriptive H2s, a named author with a credible profile. That is how an engine knows who is making the claim. New to the term? Start with <a href="/glossary/what-is-geo-generative-engine-optimization">what GEO is</a>.</li>
+</ul>
+
+<p>Done this way, the whitepaper stops being a one-time fundraising artifact and becomes a standing source that AI engines return to whenever someone asks about your category. That is the same logic behind the broader <a href="/playbook/ai-startup-pr-2026">AI startup PR playbook</a> and the <a href="/playbook/op-eds-vs-press-releases">op-ed versus press release</a> trade-off: argued, sourced, bylined content is what gets cited, and a whitepaper is the most rigorous version of it you will ever publish.</p>
+
+<h2>Who should write it, and what it costs</h2>
+
+<p>The founder's thinking goes into it. The founder's name, or a named technical lead, goes on it. But the drafting is a specialist job, because the document fails if it tilts even slightly toward hype or toward unreadable density. The ghostwriting process is a long technical interview, a structured draft, a hard pass for overclaiming, and an edit for the four audiences. The output reads like your team because the substance is theirs. The craft is what keeps the analyst trusting it and the investor finishing it.</p>
+
+<p>On price, a ghostwritten AI startup whitepaper typically runs $4,000 to $12,000 depending on technical depth and how much primary research it carries, or it sits inside a content retainer for startups publishing regularly. For comparison, a full PR agency runs $15,000 to $45,000 a month and a fractional senior operator runs $5,000 to $12,000 a month. Against a funding round or an enterprise sales cycle, a single credible whitepaper is one of the highest-return documents a startup can commission. The fuller pricing picture is in <a href="/playbook/crypto-pr-cost-2026">how PR pricing works in 2026</a>, and the writing program lives under <a href="/services/content-writing">content writing</a> and <a href="/services/ai-startup-pr">AI startup PR</a>.</p>
+
+<h2>The honest disclaimer</h2>
+
+<p>A whitepaper is only worth writing if the underlying claim is real and the evidence holds. The single fastest way to destroy credibility is a benchmark you cannot reproduce or a defensibility claim that collapses under one analyst question. Do not invent numbers, do not borrow tokenomics theatre from crypto whitepapers, and do not bury the limitations. If the technical story is not ready to survive scrutiny, that is a signal to fix the story before publishing, not to dress it up. A whitepaper that overclaims does more damage than no whitepaper at all, because it teaches the exact evaluators you most need to trust you that your documents cannot be taken at face value. If the claim is real, the rigour is your advantage, and the whitepaper is where you press it.</p>
+
+
+    <div class="author-block">
+      <div class="author-avatar">SJ</div>
+      <div>
+        <div class="author-name">Shilika Jain</div>
+        <p class="author-bio">Fractional PR and ghostwriting for Web3 and AI founders. 50+ protocols placed across Forbes, CoinDesk, Cointelegraph, Decrypt, The Block, Blockworks and AI Magazine, with ghostwritten whitepapers, founder essays and op-eds across technical and opinion desks. <a href="/about">View full profile &rarr;</a> &middot; <a href="/#contact">Book a 30-min teardown &rarr;</a></p>
+      </div>
+    </div>
+
+    <div class="faq-block">
+      <h2>Frequently asked questions</h2>
+
+      <div class="faq-q">What is a whitepaper for an AI startup?</div>
+      <div class="faq-a">It is a structured, evidence-led document that argues a specific technical claim works and matters. It sits between marketing and research: more rigorous than a blog post, more public than a pitch deck, and more readable than an academic paper. Its job is to make a technical approach credible to investors, analysts, enterprise buyers and, in 2026, the AI search engines that answer buyer questions. A good one runs 8 to 16 pages and includes a clear thesis, a method section, named evidence, a defensibility argument and an honest statement of limits.</div>
+
+      <div class="faq-q">How is an AI whitepaper different from a crypto whitepaper or a pitch deck?</div>
+      <div class="faq-a">A pitch deck asks for money in 12 slides and expires with the round. A crypto whitepaper justifies a token and its economics. An AI startup whitepaper argues a technical claim with evidence for a mixed audience of investors, analysts and enterprise buyers. Borrowing the crypto template imports tokenomics theatre that erodes analyst trust, and borrowing the deck template produces a hype reel with no method. The AI whitepaper needs the rigour of a research paper and the clarity of a strong blog post without becoming either.</div>
+
+      <div class="faq-q">How long should an AI startup whitepaper be?</div>
+      <div class="faq-a">Most credible AI whitepapers run 8 to 16 pages. Length is not the point; structure is. The document should open with a one-paragraph thesis a reader can repeat, then frame the problem as a real technical stake, explain the approach with enough method to prove it is real, present named evidence with methodology, make the defensibility argument, and state honest limits. A 40-page method paper loses the investor and an 8-page gloss loses the analyst, so the right length is whatever serves both without padding.</div>
+
+      <div class="faq-q">How do you make a whitepaper get cited by AI search engines?</div>
+      <div class="faq-a">Publish an indexable HTML version, not only a gated PDF, because engines rarely cite documents behind an email wall. State claims as standalone, extractable sentences with named benchmarks and methodology rather than vague superlatives. Name your data sources, since generative engines weight cited statistics heavily, and the Princeton GEO study measured a 30 to 40 percent uplift in citations from adding sourced stats and quotable expertise. Use semantic headings, one H1 and a credible named author so the engine knows who is making the claim. This is <a href="/glossary/what-is-geo-generative-engine-optimization">generative engine optimization</a> applied to a technical document.</div>
+
+      <div class="faq-q">How much does it cost to have a whitepaper written?</div>
+      <div class="faq-a">A ghostwritten AI startup whitepaper typically runs $4,000 to $12,000 depending on technical depth and how much primary research it carries, or it sits inside a monthly content retainer for startups publishing regularly. For comparison, a full PR agency runs $15,000 to $45,000 per month and a fractional senior operator runs $5,000 to $12,000 per month. Measured against a funding round or an enterprise sales cycle, a single credible whitepaper is one of the highest-return documents a startup can commission. The full pricing breakdown is in <a href="/playbook/crypto-pr-cost-2026">how PR pricing works in 2026</a>.</div>
+    </div>
+
+    <p style="margin-top: 2.2em; padding: 22px 26px; background: var(--paper-2); border-left: 3px solid var(--lime); border-radius: 4px; font-size: 17px; line-height: 1.55;"><strong>Need a whitepaper that survives an analyst and gets cited?</strong> Start with <a href="/services/content-writing" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">content writing</a> for the ghostwriting program, then <a href="/services/ai-startup-pr" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">AI startup PR</a> for the launch around it. New to the landscape? The <a href="/playbook" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">full playbook library</a> covers pricing, pitch guides and the AI-search layer.</p>
+
+  </article>
+</section>
+
+<section class="cta-strip">
+  <h3>Have a technical claim worth <em>defending</em>?</h3>
+  <a href="https://calendly.com/shilikajain/30min/" target="_blank" rel="noopener" class="cta-strip-btn">
+    Book a 30-min teardown
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.4"/></svg>
+  </a>
+</section>
+
+<footer class="footer">
+  <div class="footer-row">
+    <span>© SHILIKA JAIN - 2019-2026</span>
+    <span>FIELD NOTES · v.1.0</span>
+    <span><a href="/blog">← ALL ARTICLES</a></span>
+  </div>
+</footer>

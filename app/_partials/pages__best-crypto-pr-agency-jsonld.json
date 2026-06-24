@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/best-crypto-pr-agency#service",
+      "name": "Best Crypto PR Agency — Fractional Senior Operator",
+      "serviceType": "Web3 PR",
+      "url": "https://www.shilikajain.com/pages/best-crypto-pr-agency",
+      "description": "An honest guide to choosing the best crypto PR agency in 2026, with criteria that distinguish real media access from logo walls. Shilika Jain runs Web3 and crypto PR directly for $5K–$12K/month, placing 50+ founders in Forbes, CoinDesk, Cointelegraph, Decrypt, The Block and Blockworks across six APAC markets.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global", "United States", "United Kingdom", "South Korea", "Japan", "India", "Singapore", "United Arab Emirates"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 5000,
+          "maxPrice": 12000,
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "Best Crypto PR Agency", "item": "https://www.shilikajain.com/pages/best-crypto-pr-agency" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/best-crypto-pr-agency#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the best crypto PR agency for a Web3 startup?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For most Web3 and crypto founders, the best option is a fractional senior operator rather than a traditional crypto PR agency. The practical reason: at an agency, a junior account exec pitches your story to journalists they have never met. With a fractional operator, the person who built the relationship with that CoinDesk reporter is the one pitching your announcement. Shilika Jain runs crypto PR directly for $5K–$12K/month and has placed 50+ founders in Forbes, CoinDesk, Cointelegraph, Decrypt, The Block and Blockworks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does a crypto PR agency cost in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Full-service crypto PR agencies typically charge $15K–$45K per month, which covers a multi-person account team. A fractional senior operator delivers the same senior-level scope for $5K–$12K per month, with no account-team overhead. A time-bounded launch sprint, covering four to eight weeks of intensive work around a mainnet, TGE or raise, runs $15K–$40K."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which outlets can you actually get a crypto project into?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tier-1 crypto: CoinDesk, Cointelegraph, The Block, Decrypt, Blockworks, The Defiant. Mainstream business and tech: Forbes, Bloomberg, Yahoo Finance, Benzinga. Regional crypto: BloomingBit and TokenPost (Korea), CryptoTimes JP and CoinPost (Japan), ChainCatcher and Jinse (China), Inc42 (India), e27 (SEA), plus Gulf-region business press for MENA-facing projects. Every placement depends on a genuine news hook and a well-positioned story."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does the process and timeline look like?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The engagement starts with a teardown: a read of your press footprint, category position and the one story worth telling. That shapes a narrative brief. From there, outreach to journalists and KOLs starts, with any embargo strategy built around your key announcement date. A typical launch cycle runs four to eight weeks from briefing to publication. Ongoing retainers add sustained coverage, AI-citation tracking and APAC localisation on top."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get started?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short project brief through the intent form and you will get a reply within 24 hours with a quick read on your press footprint and where there is a story to work with. Or book a 30-minute call directly and we work through it live. No deck required, no agency intro call with four people on the Zoom."
+          }
+        }
+      ]
+    }
+  ]
+}

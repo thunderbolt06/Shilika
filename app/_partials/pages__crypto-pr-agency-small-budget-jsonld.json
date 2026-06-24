@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/crypto-pr-agency-small-budget#service",
+      "name": "Crypto PR Agency Small Budget — Fractional Senior Operator",
+      "serviceType": "Web3 PR",
+      "url": "https://www.shilikajain.com/pages/crypto-pr-agency-small-budget",
+      "description": "High-leverage crypto PR for lean teams and early-stage protocols. A fractional senior operator at $5K–$12K/month, or a focused launch sprint at $15K–$40K, delivers tier-1 placements in CoinDesk, Cointelegraph, Decrypt and Forbes without the overhead of a full agency retainer. Shilika Jain has placed 50+ protocols including RARI Chain (11 tier-1 placements in 24 hours) and Gaia AI using targeted, small-budget PR execution.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global", "United States", "United Kingdom", "South Korea", "Japan", "India", "Singapore", "United Arab Emirates"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 5000,
+          "maxPrice": 12000,
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "Crypto PR Agency Small Budget", "item": "https://www.shilikajain.com/pages/crypto-pr-agency-small-budget" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/crypto-pr-agency-small-budget#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is crypto PR on a small budget, and who is it for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Small-budget crypto PR means running targeted, high-leverage media outreach without a full agency retainer. It is for early-stage protocols, pre-TGE projects, and founders who have a real news hook but cannot justify $15K–$45K/month for a traditional agency. The key is a senior operator who pitches directly, focuses on one strong story, and places it with the right three to five journalists rather than blasting a hundred contacts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does small-budget crypto PR actually cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fractional senior operator engagement starts at $5K/month and typically runs $5K–$12K/month for ongoing retainer work. A focused launch sprint, covering one raise, listing or mainnet announcement, runs $15K–$40K over four to eight weeks with no ongoing commitment. KOL support in the nano tier ($200–$1.5K per post) can be layered on top. Full traditional agencies charge $15K–$45K/month, which funds their account team overhead, not more senior hours on your account."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which outlets are realistic with a small crypto PR budget?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "With a genuine news hook and a targeted pitch, CoinDesk, Cointelegraph, Decrypt, The Block and Blockworks are achievable without a large retainer. The angle has to be genuinely newsworthy. A commodity raise or a generic product update will not land in tier-1 outlets regardless of budget. Mainstream outlets like Forbes, Benzinga or Yahoo Finance are viable for AI or crossover stories with a strong business angle. What budget buys is access to senior relationships and positioning advice, not guaranteed placements."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does the process look like for a lean team?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A typical lean engagement starts with a 30-minute call to identify the one story worth pitching right now. From there: a short journalist and outlet map for that specific hook, a targeted pitch to three to seven contacts with a specific angle per outlet, embargo or coordinated timing if the moment warrants it, and a follow-up op-ed or founder byline to compound the initial coverage. The whole first push can happen in two to three weeks for a launch moment, or over a month for a slower-burn narrative."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get started with Shilika Jain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short project brief through the intent form and you will get a reply within 24 hours with a quick read on your news hook and what is achievable with your budget, or book a 30-minute call to plot it live. No deck required, no multi-call agency intake process."
+          }
+        }
+      ]
+    }
+  ]
+}

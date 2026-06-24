@@ -11,11 +11,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 export const metadata: Metadata = {
   title: 'Playbooks: Field Guides From Inside Web3, AI & Cyber PR',
   description:
-    '114 long-form playbooks on Web3 PR, AI startup comms and cybersecurity PR. Pricing, pitch guides for CoinDesk and Cointelegraph, a pre-token-launch checklist, agency-selection mistakes, op-eds vs press releases, regional teardowns and the trade-offs founders should weigh.',
+    '115 long-form playbooks on Web3 PR, AI startup comms and cybersecurity PR. Pricing, pitch guides for CoinDesk and Cointelegraph, a pre-token-launch checklist, agency-selection mistakes, op-eds vs press releases, whitepaper writing for AI startups, regional teardowns and the trade-offs founders should weigh.',
   alternates: { canonical: `${SITE_URL}/playbook` },
   openGraph: {
     title: 'Shilika Jain — Playbooks',
-    description: '114 long-form playbooks from inside Web3, AI & cybersecurity PR.',
+    description: '115 long-form playbooks from inside Web3, AI & cybersecurity PR.',
     url: `${SITE_URL}/playbook`,
     type: 'website',
   },
@@ -947,6 +947,15 @@ const PLAYBOOKS = [
     title: 'CoinDesk vs Cointelegraph in 2026: Where to Pitch What',
     description: 'Two flagship outlets, two different newsrooms. Which story belongs where, how their desks differ, and how to sequence a pitch across both.',
     tag: 'Tier-1',
+    time: 9,
+  },
+  {
+    n: 115,
+    slug: 'whitepaper-writing-ai-startups-2026',
+    title: 'Whitepaper Writing for AI Startups in 2026',
+    description:
+      'A 9-minute operator breakdown of the AI startup whitepaper: what it is (and the pitch deck, crypto paper and blog post it is not), the four audiences it serves, how to make it citable by AI search, ghostwriting cost, and the honest limits.',
+    tag: 'Content',
     time: 9,
   },
 ];

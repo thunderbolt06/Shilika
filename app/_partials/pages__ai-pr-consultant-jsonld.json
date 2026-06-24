@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/ai-pr-consultant#service",
+      "name": "AI PR Consultant — Fractional Senior Specialist",
+      "serviceType": "AI Startup PR",
+      "url": "https://www.shilikajain.com/pages/ai-pr-consultant",
+      "description": "A fractional senior AI PR consultant who runs media strategy directly for technical founders at $5K–$12K/month. 50+ Web3 and AI founders placed in Forbes, CoinDesk, Decrypt and Benzinga, including Gaia AI as the Stripe for AI agents in Forbes, with no generalist agency account team markup.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global", "United States", "United Kingdom", "Singapore", "India", "United Arab Emirates", "South Korea", "Japan"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 5000,
+          "maxPrice": 12000,
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "AI PR Consultant", "item": "https://www.shilikajain.com/pages/ai-pr-consultant" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/ai-pr-consultant#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is an AI PR consultant and who is it for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An AI PR consultant is a specialist who runs media strategy for AI startups, translating technical products into stories that tier-1 journalists, investors and enterprise buyers can follow. The best fit is a fractional senior operator rather than a generalist agency, because the person pitching editors is the person who understands your model, your architecture and your market. Shilika Jain runs AI startup PR directly for $5K–$12K/month and has placed founders in Forbes, CoinDesk, Decrypt and Benzinga."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does an AI PR consultant cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fractional senior specialist typically runs $5K–$12K per month, which removes the multi-person account-team markup of a $15K–$45K generalist agency retainer. A focused launch sprint for a funding announcement, product launch or major partnership runs $15K–$40K over four to eight weeks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which outlets can you get an AI startup into?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tier-1 AI and tech: Forbes, TechCrunch, Wired, VentureBeat, The Information where the story warrants it. Crypto-adjacent: CoinDesk, Decrypt, The Block, Blockworks, Benzinga. Podcasts: covers placed across six-plus AI and tech podcast circuits in recent campaigns. AI Magazine and specialist newsletters for sustained thought leadership. Every placement follows a real news hook, not a wire blast or paid distribution."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does the process and timeline look like?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The first two weeks cover a press footprint teardown, a category positioning session and a journalist and KOL map for your beat. Week three to four is outreach, embargo placement and KOL seeding. Week five onward is sustained coverage, AI-citation monitoring and the next news hook. For a launch sprint the full cycle runs four to eight weeks. For a monthly retainer, the first major placement typically lands within the first four to six weeks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get started with an AI PR consultant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short project brief through the intent form and you will get a reply within 24 hours with a quick read on your press footprint and the one story worth telling right now. Or book a 30-minute call and we will plot it live. No introductory deck, no account-team onboarding call."
+          }
+        }
+      ]
+    }
+  ]
+}

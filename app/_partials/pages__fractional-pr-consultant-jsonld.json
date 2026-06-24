@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/fractional-pr-consultant#service",
+      "name": "Fractional PR Consultant — Senior, Embedded, Affordable",
+      "serviceType": "Web3 PR",
+      "url": "https://www.shilikajain.com/pages/fractional-pr-consultant",
+      "description": "A senior PR operator embedded part-time like a team member, for a fraction of an agency retainer. Shilika Jain works with Web3, AI, DePIN and cybersecurity founders for $5K–$12K/month, versus $15K–$45K/month at a traditional agency, with no account-team markup between you and the person pitching tier-1 editors.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global", "United States", "South Korea", "Japan", "India", "Singapore", "United Arab Emirates"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 5000,
+          "maxPrice": 12000,
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "Fractional PR Consultant", "item": "https://www.shilikajain.com/pages/fractional-pr-consultant" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/fractional-pr-consultant#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a fractional PR consultant and is it right for my startup?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fractional PR consultant is a senior communications operator who works inside your company part-time, running your media strategy the same way an in-house PR lead would, without the full-time salary or agency overhead. It is the right fit if you have a real news story, need tier-1 coverage, and want a senior person pitching editors directly rather than a $15K–$45K agency retainer funding a junior account team."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does a fractional PR consultant cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fractional senior operator typically runs $5K–$12K/month depending on scope and cadence. A traditional full-service PR agency charges $15K–$45K/month because the retainer funds a multi-person account team. A focused launch sprint, covering four to eight weeks of intensive work around a specific moment, runs $15K–$40K as a fixed project."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What deliverables and outlets can I expect from a fractional PR consultant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Deliverables typically include category positioning, a journalist and KOL map, press releases and pitch materials, embargo management, active media outreach and monthly coverage reporting. Outlets vary by news hook: tier-1 crypto (CoinDesk, Cointelegraph, The Block, Decrypt, Blockworks), mainstream business (Forbes, Bloomberg, Yahoo Finance, Benzinga) and regional APAC titles across Korea, Japan, China, India and SEA where the story warrants it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to see results from a fractional PR consultant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "First placements typically appear within the first four to six weeks, once category positioning and the journalist map are built and a credible news hook is live. Tier-1 placements around a major moment such as a raise, mainnet or TGE can land within days when an embargo strategy is set up in advance. The highest-leverage work is the six to twelve weeks of positioning before your public moment, not the week of."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get started with a fractional PR consultant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short project brief through the intent form and you will get a reply within 24 hours with a quick read on your press footprint and narrative position. Or book a 30-minute call and we will map it live. No deck required, no account-team intro call."
+          }
+        }
+      ]
+    }
+  ]
+}

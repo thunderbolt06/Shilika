@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/mena-crypto-pr-agency#service",
+      "name": "MENA Crypto PR Agency — Fractional Senior Operator",
+      "serviceType": "APAC Localisation",
+      "url": "https://www.shilikajain.com/pages/mena-crypto-pr-agency",
+      "description": "Fractional senior crypto PR for founders targeting Dubai, Abu Dhabi and the wider MENA region. VARA-aware narrative framing, Token2049 Dubai timing, and direct relationships with CoinDesk, Cointelegraph and Gulf business media. Proven by the MANTRA Chain campaign: $11M raise positioned as a Middle East RWA exclusive in CoinDesk. $5K–$12K/month, no junior account-team markup.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global", "United Arab Emirates", "Saudi Arabia", "Bahrain", "Qatar", "Kuwait", "Egypt", "India", "Singapore"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 5000,
+          "maxPrice": 12000,
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "MENA Crypto PR Agency", "item": "https://www.shilikajain.com/pages/mena-crypto-pr-agency" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/mena-crypto-pr-agency#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a MENA crypto PR agency and who is it for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A MENA crypto PR agency places blockchain, RWA, DePIN and AI projects in front of the journalists, investors and exchange BDs who cover the Dubai and Abu Dhabi markets, framing news around VARA licensing, Gulf sovereign capital and regional regulatory momentum. It is for founders who are raising in the UAE, listing on a MENA exchange, attending Token2049 Dubai, or expanding an APAC protocol into the Middle East. Shilika Jain runs this work directly for $5K–$12K/month, with the MANTRA Chain MENA campaign as the anchor proof point."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does MENA crypto PR cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A traditional agency covering MENA typically charges $15K–$45K per month because the retainer funds an account team spread across multiple time zones. A fractional senior operator running the same senior scope costs $5K–$12K per month, with no junior handoffs. A focused MENA launch sprint, built around a single news moment such as a raise announcement or Token2049 Dubai, runs $15K–$40K over four to eight weeks. KOL amplification in the MENA market adds $500–$30K depending on the tier of creator, separate from the media retainer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which outlets and channels do you pitch for MENA coverage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tier-1 global crypto with MENA desks: CoinDesk, Cointelegraph, The Block, Decrypt. Gulf business media: Arabian Business, Gulf Business, Khaleej Times business section, AMEinfo. Regional crypto: CryptoSlate MENA, BitcoinKE (for broader MEA reach). Mainstream finance where the angle warrants it: Bloomberg Middle East, Reuters. KOL amplification across Arabic-language and English-language crypto Twitter and Telegram channels relevant to the Dubai and Abu Dhabi community. Coverage depends on a real news hook, not a wire distribution."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the process and typical timeline for a MENA campaign?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A standard MENA campaign runs over eight to twelve weeks: weeks one and two are positioning teardown and narrative development, weeks three and four build the journalist map and embargo strategy, weeks five through eight cover primary launch outreach and KOL waves, and weeks nine through twelve shift to sustained follow-up and AI-citation tracking. If you are working to a Token2049 Dubai date or a specific regulatory announcement, the timeline compresses to fit the news window. The first call takes 30 minutes and produces a read on your current MENA press footprint."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get started with MENA crypto PR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short brief through the intent form. Include your project, the MENA angle you want to lead with, your target raise or launch date, and your budget range. You will get a reply within 24 hours with a quick assessment of your current MENA press position, or book a 30-minute call and we plot the campaign live. No agency deck, no intro call with a junior account manager."
+          }
+        }
+      ]
+    }
+  ]
+}

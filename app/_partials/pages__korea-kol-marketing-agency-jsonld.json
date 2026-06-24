@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/korea-kol-marketing-agency#service",
+      "name": "Korea KOL Marketing Agency — Native Creator Activation",
+      "serviceType": "KOL & Influencer Marketing",
+      "url": "https://www.shilikajain.com/pages/korea-kol-marketing-agency",
+      "description": "Korean creator activation by Korea's own rules, rates and platforms, with native briefs and disclosure. Verified nano, micro and mid-tier Korean creators activated alongside tier-1 media placements in BloomingBit, TokenPost and CoinDesk Korea. Shilika Jain runs Korea and Japan KOL campaigns across 6 APAC markets for Web3, AI and crypto founders.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global", "South Korea", "Japan", "Singapore", "India", "United Arab Emirates"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 5000,
+          "maxPrice": 12000,
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "Korea KOL Marketing Agency", "item": "https://www.shilikajain.com/pages/korea-kol-marketing-agency" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/korea-kol-marketing-agency#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Korea KOL marketing for crypto and Web3?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Korea KOL marketing is the activation of Korean-language creators, community moderators and educators across platforms like Naver Cafe, Kakao Talk channels, X CT Korea and YouTube KR to build awareness and community trust for a Web3 or crypto project. It is most effective when paired with editorial placements on BloomingBit, TokenPost or CoinDesk Korea. Shilika Jain runs this as part of a broader APAC KOL service, covering Korea and Japan from a single engagement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does Korea KOL marketing cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Creator fees in the Korean crypto market run from $200–$1.5K per post at nano tier, $500–$5K at micro tier and $10K–$30K for mid-tier creators with large verified communities. Macro and celebrity-tier activations start at $25K and can exceed $100K per placement. There is no agency markup on creator fees when working through a fractional operator model. A typical Korea activation wave covering 10–20 creators across tiers runs $5K–$25K in creator fees, plus strategy and coordination at fractional rates of $5K–$12K per month."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which platforms and outlets matter for Korean crypto communities?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The highest-engagement Korean crypto communities live on Naver Cafe (forum-style, trusted for due diligence), Kakao Talk open channels (retail trader chatter), X CT communities with Korean-language threads and YouTube KR for longer-form education. Editorial credibility comes from BloomingBit, TokenPost and CoinDesk Korea. A well-run campaign layers creator content across these platforms in the same window as the editorial placement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the typical process and timeline for a Korea KOL campaign?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "From a signed brief to the first wave going live is typically two to three weeks: one week to map and confirm the creator roster, one week to write and approve native Korean briefs with each creator, and one week of coordinated activation. A sustained monthly retainer runs on a rolling four-week cycle. The faster the project brief is confirmed, the faster the first creator brief can be written."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I start a Korea KOL campaign with Shilika Jain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short project brief through the intent form on this page with your project category, target community and timeline. You will get a reply within 24 hours with a read on which creator tiers fit and what a realistic activation looks like, or book a 30-minute call and we will map the roster live. No agency deck, no account-team onboarding call."
+          }
+        }
+      ]
+    }
+  ]
+}

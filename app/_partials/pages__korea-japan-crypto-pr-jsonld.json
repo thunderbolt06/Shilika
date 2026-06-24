@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/korea-japan-crypto-pr#service",
+      "name": "Korea and Japan Crypto PR — Dual-Market APAC Localisation",
+      "serviceType": "APAC Localisation",
+      "url": "https://www.shilikajain.com/pages/korea-japan-crypto-pr",
+      "description": "Coordinated native-language crypto PR across Korea and Japan from one fractional senior operator. Direct pitching relationships with BloomingBit, TokenPost, CoinPost and CryptoTimes JP, plus vetted KOL networks in both markets. Dual-market APAC campaigns from $5K–$12K/month, with coverage spanning six APAC markets.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global", "South Korea", "Japan", "Singapore", "India", "United Arab Emirates"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 5000,
+          "maxPrice": 12000,
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "Korea & Japan Crypto PR", "item": "https://www.shilikajain.com/pages/korea-japan-crypto-pr" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/korea-japan-crypto-pr#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Korea and Japan crypto PR, and who is it for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is a coordinated campaign that runs native-language media outreach, KOL activation and community engagement simultaneously in the Korean and Japanese crypto markets. It is for Web3 founders who want real traction in Asia's two most media-credible crypto markets, not just a translated press release. The Korean market responds to exchange traction and community momentum; the Japanese market weighs regulatory posture and long-term credibility. Running both from one operator means one narrative, two distinct angles, no gap in strategy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does a Korea and Japan crypto PR campaign cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A dual-market APAC retainer through a fractional senior operator runs $5K–$12K/month, covering media outreach, KOL coordination and community cadence in both markets. A focused launch sprint covering both Korea and Japan runs $15K–$40K over four to eight weeks. Full regional agencies billing separately for each market typically start at $15K–$45K/month per market."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which outlets and KOL tiers do you work with in Korea and Japan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Korea: BloomingBit and TokenPost for media, plus vetted Korean KOLs at nano ($200–$1.5K), micro ($500–$5K) and mid ($10K–$30K) tiers depending on audience fit. Japan: CoinPost and CryptoTimes JP for media, with Japanese-language community voices calibrated to the compliance-aware tone Japanese audiences expect. Global tier-1 placements in CoinDesk, Cointelegraph and Forbes are used as credibility anchors to warm both regional desks. Coverage depends on a real news hook, not a wire blast."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does the process and timeline look like for a Korea and Japan crypto PR campaign?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Week one to two: market audit and dual-narrative build, mapping the Korea and Japan angles separately from a shared global thesis. Week three to four: media list build, KOL mapping and embargo prep in both languages. Weeks five to eight: coordinated launch with native-language outreach, KOL activation waves and coverage tracking across both markets. Ongoing retainer work then sustains a coverage cadence and monitors AI-citation presence. The highest-leverage window is six to twelve weeks before a public moment such as a listing, TGE or partnership announcement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get started with Korea and Japan crypto PR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short project brief through the intent form with your target markets, stage and timeline. You will get a reply within 24 hours with an honest read on where your current Korea and Japan press footprint sits and where the gaps are. Or book a 30-minute call at https://calendly.com/shilikajain/30min/ and we map it live. No deck, no agency intro pitch."
+          }
+        }
+      ]
+    }
+  ]
+}

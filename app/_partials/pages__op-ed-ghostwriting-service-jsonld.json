@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/op-ed-ghostwriting-service#service",
+      "name": "Op-Ed Ghostwriting Service — Fractional Senior Ghostwriter",
+      "serviceType": "Content Writing",
+      "url": "https://www.shilikajain.com/pages/op-ed-ghostwriting-service",
+      "description": "Op-ed ghostwriting for founders and executives. A senior ghostwriter interviews you, extracts the argument, and delivers a 1,000–1,500 word editor-ready essay in your voice. Placement support targets Forbes, CoinDesk, Wired, Fast Company and vertical opinion desks. Essays placed for Web3, AI and DePIN founders across global and APAC markets.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global", "United States", "United Kingdom", "India", "Singapore", "United Arab Emirates", "Australia"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 1500,
+          "maxPrice": 6000,
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "Op-Ed Ghostwriting Service", "item": "https://www.shilikajain.com/pages/op-ed-ghostwriting-service" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/op-ed-ghostwriting-service#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is op-ed ghostwriting and who is it for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Op-ed ghostwriting is the practice of writing an opinion essay under the byline of a founder or executive who has the argument but not the time or editorial skill to get it to a publishable draft. It works best for founders building a named point of view in a category, executives entering a new market or raising a round, and leaders who need a tier-1 placement to anchor a broader campaign. The ghostwriter interviews you, extracts your thinking and delivers an essay that reads like you wrote it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does op-ed ghostwriting cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A single op-ed, including the interview, draft and two revision rounds, starts at $1,500–$3,000 depending on length and placement complexity. Ongoing retainers covering one to two essays per month run at $3,000–$6,000 per month. Full-agency content studios charge $5,000–$15,000 per essay when placement and PR coordination are bundled. Fractional senior ghostwriting sits in the middle: senior scope at a rate that does not fund a multi-person account team."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which publications can you target for placement?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Placement targets are agreed at the brief stage based on your category and the strength of the argument. Common targets include Forbes, CoinDesk, Wired, Fast Company, Decrypt, Benzinga and AI Magazine for global reach, and Inc42, e27, The Ken and Gulf News for regional reach across India, SEA and MENA. Acceptance depends on a real editorial argument, not a product pitch. Wire syndication is not placement support."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does the process look like and how long does it take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The standard timeline from brief to delivered draft is ten working days: a 30-minute intake call, a 60-minute voice extraction interview, five working days to the first draft, and two rounds of revision over three to five days. Placement outreach begins once the draft is approved. Most essays are placed or formally declined within three to six weeks of submission, depending on the editorial calendar of the target desk."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get started with op-ed ghostwriting?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short project brief using the form at shilikajain.com/pages/op-ed-ghostwriting-service, covering the topic you want to write about, the publication you are targeting and your current stage. You will get a response within 24 hours with a read on whether the argument is placement-ready or needs sharpening first. Alternatively, book a 30-minute call and we will work through the brief live. No retainer required to start with a single essay."
+          }
+        }
+      ]
+    }
+  ]
+}

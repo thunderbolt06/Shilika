@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/b2b-saas-pr-agency#service",
+      "name": "B2B SaaS PR Agency — Fractional Senior Operator",
+      "serviceType": "AI Startup PR",
+      "url": "https://www.shilikajain.com/pages/b2b-saas-pr-agency",
+      "description": "Category narrative, analyst relations and customer proof for B2B SaaS and AI startup founders. A fractional senior operator who owns your buying-committee media strategy directly for $5K–$12K/month, instead of a $15K–$45K/month agency. 50+ founders placed in Forbes, CoinDesk, Decrypt, AI Magazine and Benzinga.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global", "United States", "United Kingdom", "India", "Singapore", "United Arab Emirates", "South Korea", "Japan"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 5000,
+          "maxPrice": 12000,
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "B2B SaaS PR Agency", "item": "https://www.shilikajain.com/pages/b2b-saas-pr-agency" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/b2b-saas-pr-agency#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a B2B SaaS PR agency and who is it for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A B2B SaaS PR agency builds the category narrative, media presence and analyst relationships that shorten enterprise deal cycles. It is for founders selling to buying committees: the VP of Engineering who needs a technical proof point, the CFO who needs a credible market position, and the security team who needs a vendor with a published track record. A fractional senior operator delivers this directly for $5K–$12K/month, without the junior account team a traditional agency charges $15K–$45K/month to staff."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does B2B SaaS PR cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A traditional B2B PR agency retainer runs $15K–$45K per month because it funds a multi-person account team. A fractional senior operator delivers the same senior scope for $5K–$12K per month, with one experienced person running strategy and pitching editors directly. A focused launch sprint, covering positioning, a wave of tier-1 placements and analyst briefings, runs $15K–$40K over four to eight weeks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which outlets and deliverables do you focus on for B2B SaaS?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Publications mapped to your buying committee: Forbes, TechCrunch, VentureBeat and Fast Company for the mainstream business buyer; The Information and relevant vertical trade press for the practitioner; AI Magazine, Benzinga and Decrypt for AI-native audiences. Analyst briefings for Gartner, Forrester and independent category analysts. Customer case studies placed as contributed articles or cited in news features. Coverage depends on a real news hook or a genuine customer outcome, not a press release blast."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does the process look like and how long before I see results?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The first two weeks are narrative teardown and positioning: one ownable category word, a three-sentence company thesis, and a media and analyst map. Weeks three and four are pitching and briefing cadence. First placed stories typically land in week four to six. Sustained tier-1 coverage builds over three to six months as the category narrative gets picked up, quoted and cited. AI engine mentions follow media coverage, usually with a four to eight week lag after placement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get started with Shilika Jain for B2B SaaS PR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short project brief through the intent form and you will get a reply within 24 hours with a quick read on your current press footprint and category position. Or book a 30-minute call and we will map it live. No intro deck, no three-week agency scoping process."
+          }
+        }
+      ]
+    }
+  ]
+}

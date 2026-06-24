@@ -1,0 +1,117 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/whitepaper-writing-ai-startups-2026#article",
+      "headline": "Whitepaper Writing for AI Startups in 2026",
+      "alternativeHeadline": "What goes in an AI startup whitepaper, who it has to serve, and how to make it citable",
+      "description": "An AI startup whitepaper is not a crypto whitepaper, a pitch deck or a blog post. This 2026 operator's guide covers what goes in it, the four audiences it serves (investors, analysts, enterprise buyers, AI engines), how to make it citable by generative search, ghostwriting cost, and the honest limits.",
+      "url": "https://www.shilikajain.com/playbook/whitepaper-writing-ai-startups-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/whitepaper-writing-ai-startups-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 1830,
+      "timeRequired": "PT9M",
+      "articleSection": "Content Writing",
+      "keywords": ["whitepaper writing for AI startups", "AI startup whitepaper", "whitepaper ghostwriting", "content writing for AI startups", "technical content writing", "AI startup content", "GEO for whitepapers", "AI search visibility", "thought leadership AI", "AI startup PR 2026"],
+      "inLanguage": "en",
+      "datePublished": "2026-06-24",
+      "dateModified": "2026-06-24",
+      "about": [
+        { "@type": "Thing", "name": "Whitepaper" },
+        { "@type": "Thing", "name": "AI startup" },
+        { "@type": "Thing", "name": "Content writing" },
+        { "@type": "Thing", "name": "Ghostwriting" },
+        { "@type": "Thing", "name": "Generative engine optimization" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "Google" },
+        { "@type": "Organization", "name": "BrightEdge" },
+        { "@type": "CreativeWork", "name": "Princeton GEO study (arXiv:2311.09735)" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "Whitepaper Writing for AI Startups 2026", "item": "https://www.shilikajain.com/playbook/whitepaper-writing-ai-startups-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/whitepaper-writing-ai-startups-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a whitepaper for an AI startup?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is a structured, evidence-led document that argues a specific technical claim works and matters. It sits between marketing and research: more rigorous than a blog post, more public than a pitch deck, and more readable than an academic paper. Its job is to make a technical approach credible to investors, analysts, enterprise buyers and, in 2026, the AI search engines that answer buyer questions. A good one runs 8 to 16 pages and includes a clear thesis, a method section, named evidence, a defensibility argument and an honest statement of limits."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is an AI whitepaper different from a crypto whitepaper or a pitch deck?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A pitch deck asks for money in 12 slides and expires with the round. A crypto whitepaper justifies a token and its economics. An AI startup whitepaper argues a technical claim with evidence for a mixed audience of investors, analysts and enterprise buyers. Borrowing the crypto template imports tokenomics theatre that erodes analyst trust, and borrowing the deck template produces a hype reel with no method. The AI whitepaper needs the rigour of a research paper and the clarity of a strong blog post without becoming either."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long should an AI startup whitepaper be?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most credible AI whitepapers run 8 to 16 pages. Length is not the point; structure is. The document should open with a one-paragraph thesis a reader can repeat, then frame the problem as a real technical stake, explain the approach with enough method to prove it is real, present named evidence with methodology, make the defensibility argument, and state honest limits. A 40-page method paper loses the investor and an 8-page gloss loses the analyst, so the right length is whatever serves both without padding."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you make a whitepaper get cited by AI search engines?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Publish an indexable HTML version, not only a gated PDF, because engines rarely cite documents behind an email wall. State claims as standalone, extractable sentences with named benchmarks and methodology rather than vague superlatives. Name your data sources, since generative engines weight cited statistics heavily, and the Princeton GEO study measured a 30 to 40 percent uplift in citations from adding sourced stats and quotable expertise. Use semantic headings, one H1 and a credible named author so the engine knows who is making the claim. This is generative engine optimization applied to a technical document."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does it cost to have a whitepaper written?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A ghostwritten AI startup whitepaper typically runs $4,000 to $12,000 depending on technical depth and how much primary research it carries, or it sits inside a monthly content retainer for startups publishing regularly. For comparison, a full PR agency runs $15,000 to $45,000 per month and a fractional senior operator runs $5,000 to $12,000 per month. Measured against a funding round or an enterprise sales cycle, a single credible whitepaper is one of the highest-return documents a startup can commission. The full pricing breakdown is in how PR pricing works in 2026."
+          }
+        }
+      ]
+    }
+  ]
+}

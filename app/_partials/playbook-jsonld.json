@@ -6,7 +6,7 @@
       "@id": "https://www.shilikajain.com/playbook#collection",
       "url": "https://www.shilikajain.com/playbook",
       "name": "Playbooks: Field Guides From Inside Web3, AI & Cyber PR",
-      "description": "114 long-form playbooks on Web3 PR, AI startup comms and cybersecurity PR. Pricing, pitch guides for CoinDesk and Cointelegraph, a pre-token-launch checklist, agency-selection mistakes, op-eds vs press releases, regional teardowns and the trade-offs founders should weigh.",
+      "description": "115 long-form playbooks on Web3 PR, AI startup comms and cybersecurity PR. Pricing, pitch guides for CoinDesk and Cointelegraph, a pre-token-launch checklist, agency-selection mistakes, op-eds vs press releases, whitepaper writing for AI startups, regional teardowns and the trade-offs founders should weigh.",
       "inLanguage": "en",
       "isPartOf": {
         "@id": "https://www.shilikajain.com/#website"
@@ -47,7 +47,7 @@
         "@type": "ItemList",
         "name": "Shilika Jain Playbooks",
         "itemListOrder": "https://schema.org/ItemListOrderAscending",
-        "numberOfItems": 114,
+        "numberOfItems": 115,
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -732,6 +732,12 @@
             "position": 114,
             "url": "https://www.shilikajain.com/playbook/coindesk-vs-cointelegraph-where-to-pitch-2026",
             "name": "CoinDesk vs Cointelegraph in 2026: Where to Pitch What"
+          },
+          {
+            "@type": "ListItem",
+            "position": 115,
+            "url": "https://www.shilikajain.com/playbook/whitepaper-writing-ai-startups-2026",
+            "name": "Whitepaper Writing for AI Startups in 2026"
           }
         ]
       }

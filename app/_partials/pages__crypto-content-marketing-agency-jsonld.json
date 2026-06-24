@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/crypto-content-marketing-agency#service",
+      "name": "Crypto Content Marketing Agency — Integrated Content and PR",
+      "serviceType": "Content Writing",
+      "url": "https://www.shilikajain.com/pages/crypto-content-marketing-agency",
+      "description": "Integrated crypto content marketing for Web3, AI and DePIN founders. Every op-ed, explainer and case study is written to earn tier-1 coverage and get cited in ChatGPT, Perplexity and Google AI Mode. 50+ protocols shaped, with placements in Forbes, CoinDesk, Decrypt, The Block and Blockworks. Fractional senior operator at $5K–$12K/month.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global", "United States", "United Kingdom", "South Korea", "Japan", "India", "Singapore", "United Arab Emirates"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 5000,
+          "maxPrice": 12000,
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "Crypto Content Marketing Agency", "item": "https://www.shilikajain.com/pages/crypto-content-marketing-agency" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/crypto-content-marketing-agency#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a crypto content marketing agency and who is it for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A crypto content marketing agency produces owned content (op-eds, explainers, case studies, landing pages) for Web3, AI and DePIN founders. The right agency also integrates that content with PR so each piece earns coverage and builds AI-search citation, not just organic traffic. This approach fits founders who need to own a category narrative before a raise, TGE or major announcement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does crypto content marketing cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fractional senior operator running integrated content and PR costs $5K–$12K per month, compared to $15K–$45K per month at a traditional agency with a multi-person account team. A focused content sprint (six to eight weeks, covering an audit, content map and four to six flagship pieces with placement outreach) typically runs $15K–$40K. The retainer model is better for sustained AI-citation building; the sprint is the right fit for a launch window."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What deliverables do I actually get from a crypto content marketing retainer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Deliverables depend on scope, but a standard monthly retainer covers: two to four long-form pieces (op-eds, explainers or case studies) written in your voice; outreach to relevant tier-1 outlets for placement; one GEO-optimised landing page or FAQ page per quarter; and AI-citation tracking so you can see which queries your content is starting to appear in. Everything is written by a senior operator with real Web3 context, not generalist contractors."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to see results from crypto content marketing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PR placements can appear within the first two to four weeks if there is a live news hook. Organic search rankings typically move in six to twelve weeks for mid-competition queries in the crypto vertical. AI-citation signals (appearing in ChatGPT or Perplexity answers) can develop in four to eight weeks if the content is structured correctly and earns at least one tier-1 backlink. The compounding effect builds across quarters, which is why a retainer outperforms a one-off blog burst."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get started with crypto content marketing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short brief through the intent form: what you are building, what you are announcing and when. You will get a reply within 24 hours with a read on your current content footprint and where the fastest citation opportunities are. Alternatively, book a 30-minute call and we will map the content and PR calendar together live. No deck required, no introductory account team call."
+          }
+        }
+      ]
+    }
+  ]
+}

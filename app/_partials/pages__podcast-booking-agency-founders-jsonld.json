@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/podcast-booking-agency-founders#service",
+      "name": "Founder Podcast Booking Agency — Curated Tours for Web3 and AI Founders",
+      "serviceType": "Founder Profiling & Op-Eds",
+      "url": "https://www.shilikajain.com/pages/podcast-booking-agency-founders",
+      "description": "A managed podcast booking service for Web3, AI and deep-tech founders. Six to twelve curated show placements per quarter, with pre-recording briefs and post-recording amplification, building a durable audio and press footprint at $5K–$12K per month. Shilika Jain ran a six-show tour for Gaia AI that produced Forbes, Decrypt and Benzinga coverage alongside the audio appearances.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global", "United States", "United Kingdom", "Singapore", "United Arab Emirates", "India", "Australia"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 5000,
+          "maxPrice": 12000,
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "Founder Podcast Booking Agency", "item": "https://www.shilikajain.com/pages/podcast-booking-agency-founders" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/podcast-booking-agency-founders#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a founder podcast booking service and who is it for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is a managed service that researches, pitches and books podcast appearances on your behalf, then prepares you for each recording and amplifies the output across written and social channels. It is for Web3, AI and deep-tech founders who want to build a durable public profile but do not have the time or show relationships to do it themselves. Shilika Jain runs the service directly for $5K–$12K per month, targeting six to twelve confirmed bookings per quarter."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does podcast booking for founders cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A managed podcast tour runs $5K–$12K per month as part of a broader founder profiling retainer. A standalone quarterly sprint covering show research, outreach, bookings and prep briefs sits at the lower end of that range. Full agency equivalents charge $15K–$45K per month for the same scope with junior coordinators on the account. The sprint model, which targets one quarter with a defined show list and narrative, is typically $15K–$25K all in."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which shows can you get me booked on?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Shows whose audience matches your actual target, not shows with the biggest follower count. Typical placements for Web3 and AI founders include Unchained, Bankless, The Defiant, Epicenter, Web3 Breakfast, Wyre Talks and vertical shows in DePIN, RWA, AI infrastructure and cybersecurity. Mainstream business shows are pitched only when there is a genuine crossover angle. Every show list is approved by you before outreach starts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to see results from a podcast tour?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "First confirmed bookings typically come within three to four weeks of outreach starting. A full quarter of six to twelve bookings is the standard cadence. The AI-citation and press compounding effect builds over two to three quarters as transcripts, show notes and accompanying articles index in search engines and AI training data. One quarter is useful. Three quarters is when it becomes a competitive moat."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get started with founder podcast booking?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short project brief through the intent form with your category, target audience and the moment you are building toward. You will get a reply within 24 hours with an honest read on your current footprint and a suggested approach. Or book a 30-minute call at https://calendly.com/shilikajain/30min/ and we will map the tour live."
+          }
+        }
+      ]
+    }
+  ]
+}

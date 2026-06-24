@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/generative-ai-pr-agency#service",
+      "name": "Generative AI PR Agency — Use-Case-First Comms",
+      "serviceType": "AI Startup PR",
+      "url": "https://www.shilikajain.com/pages/generative-ai-pr-agency",
+      "description": "The most effective generative AI PR in 2026 leads with a concrete use case, not a model capability. A fractional senior operator runs this directly for $5K–$12K/month, versus $15K–$45K/month for a traditional agency. Shilika Jain placed Gaia AI as 'the Stripe for AI agents' in Forbes, Decrypt and Benzinga, and has shaped the narrative for 50+ AI and Web3 founders globally.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global", "United States", "United Kingdom", "Singapore", "India", "United Arab Emirates", "South Korea", "Japan"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 5000,
+          "maxPrice": 12000,
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "Generative AI PR Agency", "item": "https://www.shilikajain.com/pages/generative-ai-pr-agency" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/generative-ai-pr-agency#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a generative AI PR agency and who is it for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A generative AI PR agency runs media strategy for founders building products on large language models, diffusion models or AI agents. The work covers narrative positioning, media placement in AI and tech outlets, podcast tours and founder op-eds. It is for companies that have a working product, at least one concrete user outcome they can name, and a public moment coming up within three to six months. A fractional senior operator like Shilika Jain does this directly for $5K–$12K/month with no junior handoff."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does generative AI PR cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A full-service agency running an AI account typically charges $15K–$45K per month because the retainer covers a multi-person team. A fractional senior operator delivers the same senior-level strategy and editor relationships for $5K–$12K per month, with the operator on the keys rather than an account exec. A focused launch sprint, four to eight weeks around a product release or funding announcement, runs $15K–$40K as a flat project."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which outlets cover generative AI and can you place my company there?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The core beats for generative AI are Forbes tech and AI, Decrypt AI, Benzinga, AI Magazine, VentureBeat, TechCrunch and Yahoo Finance for mainstream reach. For AI infrastructure and developer-facing products, The Information and The Register carry weight. Coverage in any of these requires a real news hook: a concrete user outcome, a notable partnership, a funding round, or a product release that changes something the outlet's reader cares about. Wire blasts do not move these editors."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does the process and timeline look like?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The first two weeks cover a use-case audit and narrative build: your strongest user outcomes, the one-sentence category label, and the journalist map. Weeks three and four move to outreach, with an embargo strategy for tier-1 targets and podcast pitches running in parallel. Placements typically land in week four to six, depending on the news hook. Ongoing retainer work compounds the coverage month on month."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get started with generative AI PR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short brief through the intent form: your product, your strongest user outcome, and when your next public moment is. You will get a reply within 24 hours with a quick read on your current press footprint and whether the timing makes sense. Alternatively, book a 30-minute call at calendly.com/shilikajain/30min and we will plot it live. No introductory deck, no account-team onboarding call."
+          }
+        }
+      ]
+    }
+  ]
+}

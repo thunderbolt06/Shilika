@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/fractional-cmo-web3#service",
+      "name": "Fractional CMO Web3 — When Fractional PR Is the Smarter Move",
+      "serviceType": "Web3 PR",
+      "url": "https://www.shilikajain.com/pages/fractional-cmo-web3",
+      "description": "A fractional CMO for a Web3 startup costs $8K–$20K/month and makes sense once you have product-market fit and multiple channels to coordinate. Before that point, a fractional PR operator at $5K–$12K/month delivers the highest-leverage outcome: tier-1 press coverage, narrative positioning and AI-search visibility. Shilika Jain has run 50+ Web3 and AI founder narratives across Forbes, CoinDesk, Cointelegraph, Decrypt, The Block and Blockworks.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global", "United States", "South Korea", "Japan", "India", "Singapore", "United Arab Emirates"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 5000,
+          "maxPrice": 12000,
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "Fractional CMO Web3", "item": "https://www.shilikajain.com/pages/fractional-cmo-web3" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/fractional-cmo-web3#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does a fractional CMO do for a Web3 startup?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fractional CMO owns the full marketing function on a part-time senior basis: brand positioning, content strategy, paid acquisition, community growth and PR. For Web3 companies, the most common use case is a founder who needs senior marketing judgment but cannot justify a full-time CMO salary. The practical question is whether you need all of those channels coordinated, or whether the actual bottleneck is narrative and press, in which case a fractional PR engagement is more precise and less expensive."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does a fractional CMO cost for a Web3 company?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fractional CMO rates typically run $8K–$20K/month depending on scope and hours committed, plus any agency or tool spend they oversee. A full-time CMO equivalent in Web3 costs $180K–$300K/year in salary and equity, so fractional is genuinely cheaper for a company not yet at that scale. If PR is the primary lever, a fractional PR operator at $5K–$12K/month delivers the same narrative and press output at lower cost with no coordination overhead."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which outlets and deliverables does a fractional PR engagement include?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A retainer covers: category positioning document, narrative thesis and key messages, journalist and KOL mapping, embargo strategy for your next public moment, tier-1 media pitching and placement across CoinDesk, Cointelegraph, The Block, Decrypt, Blockworks and Forbes where the angle warrants, APAC localisation across Korea, Japan, India, China and SEA, and monthly AI-citation tracking to measure how often your project appears in ChatGPT and Perplexity answers. Launch sprints for a single event run $15K–$40K over four to eight weeks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "At what stage does a Web3 startup actually need a fractional CMO?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Once you have product-market fit, a live product with real users, and two or more active marketing channels that need coordinating. Before that, a fractional CMO adds management overhead to a function you are not ready to scale. The highest-leverage move at pre-PMF and early post-PMF stage is almost always narrative and press: getting the story right, placing it in the right outlets, and building the journalist relationships that compound for years. That is fractional PR scope, not CMO scope."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I start working with Shilika Jain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short project brief through the intent form and you will get a reply within 24 hours, including a quick read on your current press footprint and where the gaps are. Or book a 30-minute call directly and we plot it live, no deck required, no account-team intro call."
+          }
+        }
+      ]
+    }
+  ]
+}
