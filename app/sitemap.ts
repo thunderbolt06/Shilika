@@ -150,6 +150,8 @@ const STATIC_PAGES: { path: string; priority: number; changeFrequency: MetadataR
   { path: '/glossary/what-is-fractional-pr', priority: 0.65, changeFrequency: 'monthly' },
   { path: '/glossary/what-is-geo-generative-engine-optimization', priority: 0.65, changeFrequency: 'monthly' },
   { path: '/glossary/what-is-a-tge-comms-plan', priority: 0.65, changeFrequency: 'monthly' },
+  { path: '/glossary/what-is-aeo-answer-engine-optimization', priority: 0.65, changeFrequency: 'monthly' },
+  { path: '/glossary/what-is-a-kol-wave', priority: 0.65, changeFrequency: 'monthly' },
   { path: '/apac', priority: 0.85, changeFrequency: 'monthly' },
   { path: '/india', priority: 0.85, changeFrequency: 'monthly' },
   { path: '/singapore', priority: 0.85, changeFrequency: 'monthly' },

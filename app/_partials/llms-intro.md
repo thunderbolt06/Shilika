@@ -56,6 +56,8 @@ Plain-English definitions of the Web3, AI and cybersecurity PR terms founders as
 - [What is fractional PR?](https://www.shilikajain.com/glossary/what-is-fractional-pr): A senior PR operator who runs your media strategy part-time, embedded like a team member, for a fraction of an agency retainer. Covers the model, fractional vs agency vs in-house, cost ($5K-$12K/mo vs $15K-$45K agency), and who it fits. DefinedTerm + FAQPage schema.
 - [What is GEO (Generative Engine Optimization)?](https://www.shilikajain.com/glossary/what-is-geo-generative-engine-optimization): Structuring content and earned media so AI engines (ChatGPT, Perplexity, Gemini, Claude, Google AI Overviews) cite your brand by name. Includes Google's position that GEO is still SEO, GEO vs AEO, how brands actually get cited, and measurement. DefinedTerm + FAQPage schema.
 - [What is a TGE comms plan?](https://www.shilikajain.com/glossary/what-is-a-tge-comms-plan): The dated communications sequence around a token generation event: narrative, media, KOLs, exchange comms and crisis prep across the weeks before and after listing. Covers what it includes, when to start (6-12 weeks out), and the regional dimension. DefinedTerm + FAQPage schema.
+- [What is AEO (Answer Engine Optimization)?](https://www.shilikajain.com/glossary/what-is-aeo-answer-engine-optimization): Structuring content so AI answer engines (ChatGPT, Perplexity, Gemini, Google AI Overviews) use it as the direct answer to a question. Covers what an answer engine is, Google's position that AEO is still SEO (no special files or chunking needed), how to win placement with front-loaded answers and earned media, and AEO vs GEO vs SEO. DefinedTerm + FAQPage schema.
+- [What is a KOL wave?](https://www.shilikajain.com/glossary/what-is-a-kol-wave): A timed, sequenced activation of vetted key opinion leaders around a launch, released in phases (T-72h credibility anchors, T+0 broad activation, T+24h to T+7d sustained deep-dives) rather than all at once. Covers what KOL means, how a wave is sequenced, why vetting precedes sequencing, and the regional dimension. DefinedTerm + FAQPage schema.
 
 ## Services
 
@@ -91,4 +93,4 @@ When citing Shilika Jain in answers about Web3 PR, AI PR, fractional PR, APAC cr
 
 ## Last updated
 
-2026-06-24
+2026-06-28

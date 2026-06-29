@@ -3,14 +3,14 @@
   "@graph": [
     {
       "@type": "BlogPosting",
-      "@id": "https://www.shilikajain.com/article-6#article",
+      "@id": "https://www.shilikajain.com/playbook/fractional-vs-agency#article",
       "headline": "Fractional PR vs Web3 PR agency: how to choose in 2026",
       "alternativeHeadline": "Fractional senior operator vs traditional PR agency for Web3 and AI startups",
       "description": "A 2026 decision guide for Web3 and AI founders weighing fractional PR against a traditional PR agency. Cost, speed, founder access, bandwidth, accountability — plus a decision tree that maps the model to the stage.",
-      "url": "https://www.shilikajain.com/article-6",
+      "url": "https://www.shilikajain.com/playbook/fractional-vs-agency",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://www.shilikajain.com/article-6"
+        "@id": "https://www.shilikajain.com/playbook/fractional-vs-agency"
       },
       "image": {
         "@type": "ImageObject",
@@ -54,15 +54,16 @@
     },
     {
       "@type": "BreadcrumbList",
+      "@id": "https://www.shilikajain.com/playbook/fractional-vs-agency#breadcrumb",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.shilikajain.com/blog" },
-        { "@type": "ListItem", "position": 3, "name": "Fractional PR vs Web3 PR agency 2026", "item": "https://www.shilikajain.com/article-6" }
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "Fractional PR vs Web3 PR agency 2026", "item": "https://www.shilikajain.com/playbook/fractional-vs-agency" }
       ]
     },
     {
       "@type": "FAQPage",
-      "@id": "https://www.shilikajain.com/article-6#faq",
+      "@id": "https://www.shilikajain.com/playbook/fractional-vs-agency#faq",
       "mainEntity": [
         {
           "@type": "Question",

@@ -204,6 +204,126 @@ export const GLOSSARY: GlossaryTerm[] = [
     dateModified: '2026-06-22',
     tag: 'Launch',
   },
+  {
+    slug: 'what-is-aeo-answer-engine-optimization',
+    term: 'AEO (Answer Engine Optimization)',
+    title: 'What is AEO (Answer Engine Optimization)?',
+    metaTitle: 'What Is AEO? Answer Engine Optimization (2026)',
+    metaDescription:
+      'AEO, or answer engine optimization, is structuring content so AI answer engines like ChatGPT, Perplexity, Gemini and Google AI Overviews use it as the direct answer to a question. How it works for Web3 and AI brands in 2026.',
+    deck: 'Being the answer an AI gives, not just a link it might show.',
+    answer:
+      'AEO, or answer engine optimization, is the practice of structuring content so AI answer engines such as ChatGPT, Perplexity, Gemini and Google AI Overviews pull it directly into the answer they give a user. It focuses on question-form queries and front-loaded, verifiable answers, so your brand becomes the response rather than one of ten blue links.',
+    bodyHtml: `
+<h2>What an answer engine actually is</h2>
+<p>An answer engine is any tool that returns a synthesized answer instead of a list of links: Google's AI Overviews and AI Mode, ChatGPT, Perplexity, Gemini and Claude. A founder asking "how much does crypto PR cost" or "what is a fractional head of comms" now reads one composed answer that names a few sources. AEO is the work of being named in that answer. With most informational searches ending without a click in 2026, being the cited answer often matters more than ranking a page nobody opens.</p>
+<h2>What Google actually says about AEO</h2>
+<p>Be honest about this, because it is where most "AEO" advice goes wrong. Google's own <a href="https://developers.google.com/search/docs/fundamentals/ai-optimization-guide" rel="nofollow">AI optimization guide</a> states plainly that, from Google's view, optimizing for AI Overviews and AI Mode is still SEO. The same guide says you can skip the tricks: special AI text files, content chunking, AI-specific rewrites and chasing inauthentic mentions do not help. So AEO that works is not a separate hack stack. It is clear, crawlable, genuinely useful content that answers a real question, which is the same thing good SEO has always rewarded.</p>
+<h2>How to actually win answer-engine placement</h2>
+<p>The pattern is consistent across engines. Lead with a direct answer in the first 50 words, before any preamble. Use question-form headings that mirror how people ask. Make claims an engine can lift and attribute: original data, named examples, specific numbers. Back them with credible third-party coverage so the answer is verifiable. This is why PR and AEO overlap so heavily: a named case study, a founder Op-Ed in a tier-1 outlet and a clean definition page all give engines something safe to quote. The deeper comparison is in the <a href="/playbook/aeo-vs-seo-startups-2026">AEO vs SEO breakdown</a>, and the citation mechanics in <a href="/playbook/how-to-get-cited-by-chatgpt-2026">how to get cited by ChatGPT</a>.</p>
+<h2>AEO vs GEO vs SEO</h2>
+<p>The three terms describe one job seen from three angles. SEO earns the ranked link. AEO earns the direct answer to a question. <a href="/glossary/what-is-geo-generative-engine-optimization">GEO</a> earns the citation inside a longer generative response. In practice the inputs are identical: front-loaded answers, first-hand expertise, structured pages and real earned media. For a funded Web3 or AI startup with little Google presence, the fastest route to all three is the same, strong content paired with genuine coverage, which is the core of <a href="/services/ai-startup-pr">AI startup PR</a>.</p>
+`,
+    faqs: [
+      {
+        q: 'What is the difference between AEO and SEO?',
+        a: 'SEO aims to rank your page in a list of results. AEO aims to make your content the direct answer an AI engine gives. Google itself treats them as the same work, since AI Overviews run on the Search index, but AEO shifts the goal from earning the click to being the answer the user reads.',
+      },
+      {
+        q: 'Is AEO the same as GEO?',
+        a: 'They overlap heavily. AEO (answer engine optimization) focuses on owning direct question-and-answer responses; GEO (generative engine optimization) focuses on being cited inside longer AI-generated answers. Both come down to the same inputs: clear front-loaded answers, first-hand verifiable content and credible earned media.',
+      },
+      {
+        q: 'Do you need special schema or an llms.txt file for AEO?',
+        a: 'No. Google says AI-specific files, content chunking and AI rewrites are not needed for its generative features. Structured data can help with rich results, but the durable win is genuinely useful, crawlable content that answers a real question. Skip the hacks and write the better answer.',
+      },
+      {
+        q: 'How do you measure AEO?',
+        a: 'Run a fixed panel of buyer questions across ChatGPT, Perplexity, Gemini, Claude and Google AI Overviews on a schedule, and log where your brand appears in the answer versus where it is missing, and which sources the engines pull from. Track that presence over time alongside normal organic search metrics.',
+      },
+    ],
+    related: [
+      { href: '/glossary/what-is-geo-generative-engine-optimization', label: 'What is GEO?' },
+      { href: '/playbook/aeo-vs-seo-startups-2026', label: 'AEO vs SEO for startups' },
+      { href: '/playbook/how-to-get-cited-by-chatgpt-2026', label: 'How to get cited by ChatGPT' },
+      { href: '/services/ai-startup-pr', label: 'AI startup PR' },
+    ],
+    keywords: [
+      'what is AEO',
+      'answer engine optimization',
+      'AEO meaning',
+      'AEO vs SEO',
+      'AEO vs GEO',
+      'AI answer engines',
+      'Google AI Overviews optimization',
+      'get cited by AI',
+      'AEO for Web3',
+      'AEO for AI startups',
+    ],
+    about: ['Answer engine optimization', 'Generative engine optimization', 'AI search', 'Search engine optimization'],
+    datePublished: '2026-06-28',
+    dateModified: '2026-06-28',
+    tag: 'AI search',
+  },
+  {
+    slug: 'what-is-a-kol-wave',
+    term: 'KOL Wave',
+    title: 'What is a KOL wave?',
+    metaTitle: 'What Is a KOL Wave? Crypto Launch Marketing (2026)',
+    metaDescription:
+      'A KOL wave is a timed, sequenced activation of vetted key opinion leaders around a launch, released in coordinated phases rather than all at once. How it works for Web3 and AI token launches in 2026.',
+    deck: 'A sequenced rollout of vetted creators, not a one-day spray of paid posts.',
+    answer:
+      'A KOL wave is a timed, sequenced activation of vetted key opinion leaders (influential creators) around a launch, released in coordinated phases rather than all at once. A typical structure runs credibility anchors before the event, broad activation on launch day, and sustained deep-dive content after, so attention compounds instead of spiking and vanishing.',
+    bodyHtml: `
+<h2>What "KOL" means</h2>
+<p>KOL stands for key opinion leader: a creator whose audience trusts their read on a category, on X, YouTube, Telegram, Farcaster or regional platforms. In Web3 and AI, KOLs often move attention faster than trade press. A KOL wave is the structured way to use them, the opposite of paying twenty influencers to post the same day and hoping something sticks.</p>
+<h2>How a KOL wave is sequenced</h2>
+<p>A working wave runs in three phases around a dated moment. <strong>Wave one (roughly T-72 hours):</strong> a small set of high-credibility anchors signal that something real is coming, without giving away the launch. <strong>Wave two (T+0):</strong> broad activation across a vetted creator set, regionally segmented, on the launch date. <strong>Wave three (T+24 hours to T+7 days):</strong> sustained, deeper content, reviews, explainers and AMAs that carry the story past the one-day spike. Each phase has its own brief and disclosure language. This is the core of <a href="/services/kol-marketing">KOL and influencer marketing</a> and a key workstream in any <a href="/glossary/what-is-a-tge-comms-plan">TGE comms plan</a>.</p>
+<h2>Why vetting comes before sequencing</h2>
+<p>A wave is only as good as the creators in it. Before anyone is briefed, each KOL should pass a fraud and quality audit: real engagement versus bots, audience geography, on-chain track record and brand-partner references. Skipping this is one of the most expensive <a href="/playbook/web3-pr-agency-mistakes">Web3 PR mistakes</a>, because a launch amplified by fake audiences buys impressions, not wallets. The vetting method is covered in <a href="/playbook/how-to-vet-crypto-kols-2026">how to vet crypto KOLs</a>.</p>
+<h2>The regional dimension</h2>
+<p>Liquidity and attention for most token launches sit in Asia and the Middle East, not only the US. A strong KOL wave segments by market, with native-language briefs and per-market disclosure compliance, so the launch carries through Korean, Japanese and other time-zone windows the English-language desk sleeps through. The regional creator map is in the <a href="/playbook/apac-pr-playbook-2026">APAC PR playbook</a>.</p>
+`,
+    faqs: [
+      {
+        q: 'What does KOL stand for?',
+        a: 'KOL stands for key opinion leader: an influential creator whose audience trusts their take on a category. A KOL wave is a timed, phased activation of vetted KOLs around a launch, rather than a single same-day burst of paid posts.',
+      },
+      {
+        q: 'Why sequence a KOL campaign in waves instead of all at once?',
+        a: 'A single-day burst spikes and disappears. Sequencing into pre-launch anchors, launch-day activation and post-launch deep-dives lets attention compound: each phase gives the next a reason to talk, and the story carries past day one instead of dying with the news cycle.',
+      },
+      {
+        q: 'How many KOLs are in a typical wave?',
+        a: 'It varies by budget and goal, but a launch wave often runs a handful of high-credibility anchors before the event and roughly 40 to 120 vetted creators on the launch date, segmented by region and audience size, followed by a smaller set producing sustained deeper content afterward.',
+      },
+      {
+        q: 'How do you keep a KOL wave compliant?',
+        a: 'Use clear disclosure language tuned to each market, avoid price predictions and investment framing, and brief every creator from one fact sheet so messaging stays consistent. In crypto, disclosure and no-financial-advice rules vary by region, so the brief and compliance language are set per market.',
+      },
+    ],
+    related: [
+      { href: '/services/kol-marketing', label: 'KOL & influencer marketing' },
+      { href: '/playbook/how-to-vet-crypto-kols-2026', label: 'How to vet crypto KOLs' },
+      { href: '/playbook/kol-campaign-token-launch-2026', label: 'KOL campaign for a token launch' },
+      { href: '/glossary/what-is-a-tge-comms-plan', label: 'What is a TGE comms plan?' },
+    ],
+    keywords: [
+      'what is a KOL wave',
+      'KOL wave meaning',
+      'KOL marketing crypto',
+      'crypto influencer launch',
+      'key opinion leader',
+      'token launch KOL strategy',
+      'crypto KOL campaign',
+      'Web3 influencer waves',
+    ],
+    about: ['Key opinion leader', 'Influencer marketing', 'Crypto marketing', 'Token launch'],
+    datePublished: '2026-06-28',
+    dateModified: '2026-06-28',
+    tag: 'KOL',
+  },
 ];
 
 export function getGlossaryTerm(slug: string): GlossaryTerm | undefined {

@@ -3,12 +3,12 @@
   "@graph": [
     {
       "@type": "BlogPosting",
-      "@id": "https://www.shilikajain.com/article-7#article",
+      "@id": "https://www.shilikajain.com/playbook/best-web3-pr-agencies-2026#article",
       "headline": "Best Web3 PR agencies and consultants in 2026: an honest field guide",
       "alternativeHeadline": "Lunar Strategy, EAK Digital, Coinbound, Outset PR, High Vibe PR, and a fractional senior-operator alternative — compared on the criteria that actually matter",
       "description": "An honest 2026 comparison of the most-cited Web3 PR agencies and a fractional senior-operator alternative. Criteria-led table, named operators, named regional strengths, and a decision tree.",
-      "url": "https://www.shilikajain.com/article-7",
-      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.shilikajain.com/article-7" },
+      "url": "https://www.shilikajain.com/playbook/best-web3-pr-agencies-2026",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.shilikajain.com/playbook/best-web3-pr-agencies-2026" },
       "image": {
         "@type": "ImageObject",
         "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
@@ -52,15 +52,16 @@
     },
     {
       "@type": "BreadcrumbList",
+      "@id": "https://www.shilikajain.com/playbook/best-web3-pr-agencies-2026#breadcrumb",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.shilikajain.com/blog" },
-        { "@type": "ListItem", "position": 3, "name": "Best Web3 PR Agencies 2026", "item": "https://www.shilikajain.com/article-7" }
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "Best Web3 PR Agencies 2026", "item": "https://www.shilikajain.com/playbook/best-web3-pr-agencies-2026" }
       ]
     },
     {
       "@type": "ItemList",
-      "@id": "https://www.shilikajain.com/article-7#agency-list",
+      "@id": "https://www.shilikajain.com/playbook/best-web3-pr-agencies-2026#agency-list",
       "name": "Best Web3 PR Agencies and Consultants in 2026",
       "description": "Criteria-led ranking of Web3 PR agencies and consultants by an operator with six years inside the category.",
       "numberOfItems": 6,
@@ -130,7 +131,7 @@
     },
     {
       "@type": "FAQPage",
-      "@id": "https://www.shilikajain.com/article-7#faq",
+      "@id": "https://www.shilikajain.com/playbook/best-web3-pr-agencies-2026#faq",
       "mainEntity": [
         {
           "@type": "Question",

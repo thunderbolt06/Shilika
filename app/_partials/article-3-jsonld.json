@@ -3,14 +3,14 @@
   "@graph": [
     {
       "@type": "BlogPosting",
-      "@id": "https://www.shilikajain.com/article-3#article",
+      "@id": "https://www.shilikajain.com/playbook/founder-profiling-sprint#article",
       "headline": "From technical founder to category voice: a 90-day profiling sprint",
       "alternativeHeadline": "A 90-day sprint to turn a technical founder into a category voice",
       "description": "A 6-minute founder profiling sprint: how to turn a technical founder into a category-defining voice in 90 days. Cadence, calendar, and the four hand-offs.",
-      "url": "https://www.shilikajain.com/article-3",
+      "url": "https://www.shilikajain.com/playbook/founder-profiling-sprint",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://www.shilikajain.com/article-3"
+        "@id": "https://www.shilikajain.com/playbook/founder-profiling-sprint"
       },
       "image": {
         "@type": "ImageObject",
@@ -53,15 +53,16 @@
     },
     {
       "@type": "BreadcrumbList",
+      "@id": "https://www.shilikajain.com/playbook/founder-profiling-sprint#breadcrumb",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.shilikajain.com/blog" },
-        { "@type": "ListItem", "position": 3, "name": "Founder Profiling Sprint", "item": "https://www.shilikajain.com/article-3" }
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "Founder Profiling Sprint", "item": "https://www.shilikajain.com/playbook/founder-profiling-sprint" }
       ]
     },
     {
       "@type": "FAQPage",
-      "@id": "https://www.shilikajain.com/article-3#faq",
+      "@id": "https://www.shilikajain.com/playbook/founder-profiling-sprint#faq",
       "mainEntity": [
         {
           "@type": "Question",

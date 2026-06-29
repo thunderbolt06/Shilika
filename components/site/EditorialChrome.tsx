@@ -224,6 +224,7 @@ export function EditorialFooter() {
           <a href="/blog">Blog</a>
           <a href="/playbook">Playbooks</a>
           <a href="/glossary">Glossary</a>
+          <a href="/pages">Pages</a>
         </div>
 
         <div className="footer-nav-col">

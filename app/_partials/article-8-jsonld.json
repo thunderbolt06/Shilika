@@ -3,14 +3,14 @@
   "@graph": [
     {
       "@type": "BlogPosting",
-      "@id": "https://www.shilikajain.com/article-8#article",
+      "@id": "https://www.shilikajain.com/playbook/crypto-pr-vs-ai-pr#article",
       "headline": "Crypto PR vs AI PR in 2026: how the playbooks differ",
       "alternativeHeadline": "A side-by-side teardown of the Web3 and AI startup PR playbooks",
       "description": "A 2026 side-by-side comparison of crypto PR and AI PR. Different outlets, different journalists, different proof requirements, different narrative arc, different measurement — and how to tell which playbook your startup actually needs.",
-      "url": "https://www.shilikajain.com/article-8",
+      "url": "https://www.shilikajain.com/playbook/crypto-pr-vs-ai-pr",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://www.shilikajain.com/article-8"
+        "@id": "https://www.shilikajain.com/playbook/crypto-pr-vs-ai-pr"
       },
       "image": {
         "@type": "ImageObject",
@@ -54,15 +54,16 @@
     },
     {
       "@type": "BreadcrumbList",
+      "@id": "https://www.shilikajain.com/playbook/crypto-pr-vs-ai-pr#breadcrumb",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.shilikajain.com/blog" },
-        { "@type": "ListItem", "position": 3, "name": "Crypto PR vs AI PR 2026", "item": "https://www.shilikajain.com/article-8" }
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "Crypto PR vs AI PR 2026", "item": "https://www.shilikajain.com/playbook/crypto-pr-vs-ai-pr" }
       ]
     },
     {
       "@type": "FAQPage",
-      "@id": "https://www.shilikajain.com/article-8#faq",
+      "@id": "https://www.shilikajain.com/playbook/crypto-pr-vs-ai-pr#faq",
       "mainEntity": [
         {
           "@type": "Question",

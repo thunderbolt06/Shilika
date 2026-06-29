@@ -3,14 +3,14 @@
   "@graph": [
     {
       "@type": "BlogPosting",
-      "@id": "https://www.shilikajain.com/article-2#article",
+      "@id": "https://www.shilikajain.com/playbook/apac-pr-playbook-2026#article",
       "headline": "Korea, Japan, Vietnam: the APAC PR playbook nobody hands you",
       "alternativeHeadline": "How crypto PR actually works in Korea, Japan and Vietnam",
       "description": "An 11-minute regional breakdown of how PR actually works in Korea, Japan, and Vietnam — which outlets matter, how to pitch them, and what most agencies get wrong.",
-      "url": "https://www.shilikajain.com/article-2",
+      "url": "https://www.shilikajain.com/playbook/apac-pr-playbook-2026",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://www.shilikajain.com/article-2"
+        "@id": "https://www.shilikajain.com/playbook/apac-pr-playbook-2026"
       },
       "image": {
         "@type": "ImageObject",
@@ -55,15 +55,16 @@
     },
     {
       "@type": "BreadcrumbList",
+      "@id": "https://www.shilikajain.com/playbook/apac-pr-playbook-2026#breadcrumb",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.shilikajain.com/blog" },
-        { "@type": "ListItem", "position": 3, "name": "APAC PR Playbook", "item": "https://www.shilikajain.com/article-2" }
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "APAC PR Playbook", "item": "https://www.shilikajain.com/playbook/apac-pr-playbook-2026" }
       ]
     },
     {
       "@type": "FAQPage",
-      "@id": "https://www.shilikajain.com/article-2#faq",
+      "@id": "https://www.shilikajain.com/playbook/apac-pr-playbook-2026#faq",
       "mainEntity": [
         {
           "@type": "Question",

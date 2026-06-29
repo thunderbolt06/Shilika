@@ -3,14 +3,14 @@
   "@graph": [
     {
       "@type": "BlogPosting",
-      "@id": "https://www.shilikajain.com/article-1#article",
+      "@id": "https://www.shilikajain.com/playbook/tier-1-pr-trap#article",
       "headline": "The Tier-1 trap: why most Web3 founders chase the wrong publications",
       "alternativeHeadline": "Why Forbes can be worse than a niche placement for Web3 founders",
       "description": "Why a Forbes mention can be worse than a niche placement, and how to read which publications actually move your roadmap.",
-      "url": "https://www.shilikajain.com/article-1",
+      "url": "https://www.shilikajain.com/playbook/tier-1-pr-trap",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://www.shilikajain.com/article-1"
+        "@id": "https://www.shilikajain.com/playbook/tier-1-pr-trap"
       },
       "image": {
         "@type": "ImageObject",
@@ -53,15 +53,16 @@
     },
     {
       "@type": "BreadcrumbList",
+      "@id": "https://www.shilikajain.com/playbook/tier-1-pr-trap#breadcrumb",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.shilikajain.com/blog" },
-        { "@type": "ListItem", "position": 3, "name": "The Tier-1 trap", "item": "https://www.shilikajain.com/article-1" }
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "The Tier-1 trap", "item": "https://www.shilikajain.com/playbook/tier-1-pr-trap" }
       ]
     },
     {
       "@type": "FAQPage",
-      "@id": "https://www.shilikajain.com/article-1#faq",
+      "@id": "https://www.shilikajain.com/playbook/tier-1-pr-trap#faq",
       "mainEntity": [
         {
           "@type": "Question",
