@@ -44,6 +44,7 @@ const STATIC_PAGES: { path: string; priority: number; changeFrequency: MetadataR
   { path: '/playbook/how-to-pitch-cointelegraph-2026', priority: 0.7, changeFrequency: 'monthly' },
   { path: '/playbook/op-eds-vs-press-releases', priority: 0.7, changeFrequency: 'monthly' },
   { path: '/playbook/whitepaper-writing-ai-startups-2026', priority: 0.7, changeFrequency: 'monthly' },
+  { path: '/playbook/how-gaia-ai-got-into-forbes', priority: 0.75, changeFrequency: 'monthly' },
   { path: '/playbook/ai-startup-pr-2026', priority: 0.85, changeFrequency: 'monthly' },
   { path: '/playbook/cybersecurity-pr-2026', priority: 0.85, changeFrequency: 'monthly' },
   // AUTO-PLAYBOOKS-15-114

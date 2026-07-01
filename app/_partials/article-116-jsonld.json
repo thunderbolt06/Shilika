@@ -1,0 +1,123 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/how-gaia-ai-got-into-forbes#article",
+      "headline": "How Gaia AI Got Into Forbes: A Teardown",
+      "alternativeHeadline": "The framing, timeline, pitch structure and embargo etiquette behind an earned Forbes feature",
+      "description": "A first-hand teardown of how the Gaia AI campaign earned a Forbes feature: the Stripe-for-AI-agents frame, the reporter-beat match, the timeline, how the pitch was built, embargo etiquette, and what the placement produced downstream.",
+      "url": "https://www.shilikajain.com/playbook/how-gaia-ai-got-into-forbes",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/how-gaia-ai-got-into-forbes"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 1620,
+      "timeRequired": "PT8M",
+      "articleSection": "Teardown",
+      "keywords": ["how to get into Forbes", "Gaia AI Forbes", "AI startup PR case study", "how to get featured in Forbes AI", "earned media Forbes", "AI PR teardown", "decentralized AI PR", "Forbes pitch", "fractional AI PR", "Web3 AI PR 2026"],
+      "inLanguage": "en",
+      "datePublished": "2026-07-01",
+      "dateModified": "2026-07-01",
+      "about": [
+        { "@type": "Thing", "name": "Public relations" },
+        { "@type": "Thing", "name": "Earned media" },
+        { "@type": "Thing", "name": "AI startup" },
+        { "@type": "Organization", "name": "Forbes" },
+        { "@type": "Thing", "name": "Generative engine optimization" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "Forbes" },
+        { "@type": "Organization", "name": "Gaia" },
+        { "@type": "Organization", "name": "Decrypt" },
+        { "@type": "Organization", "name": "Benzinga" },
+        { "@type": "Person", "name": "Shashank Sripada" },
+        { "@type": "Event", "name": "Consensus Hong Kong 2025" }
+      ],
+      "citation": [
+        { "@type": "CreativeWork", "name": "AI Agents 101: The Future of Agentic Web and Onchain AI (Forbes, Cloris Chen)", "url": "https://www.forbes.com/sites/clorischen/2024/12/23/ai-agents-101-the-future-of-agentic-web-and-onchain-ai/" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "How Gaia AI Got Into Forbes: A Teardown", "item": "https://www.shilikajain.com/playbook/how-gaia-ai-got-into-forbes" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/how-gaia-ai-got-into-forbes#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How did Gaia AI actually get into Forbes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "By framing the protocol as the Stripe for AI agents, designating one named founder (co-founder and COO Shashank Sripada) as the spokesperson, and pitching a Forbes contributor whose live beat already covered agentic and onchain AI. The feature published on 23 December 2024 and anchored a wider Q1 2025 campaign."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you need a PR agency to get into Forbes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, but you need the same inputs an operator brings: a category frame a reporter can use, a named source with a defensible opinion, a match to a specific contributor's beat, and a calendar moment. Founders can run this themselves through Forbes Councils for the self-serve route; the earned-feature route is harder and is where a fractional operator versus agency decision comes in."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was the Forbes placement paid?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. It was an earned editorial feature by a Forbes contributor, written on her own beat. This is not a pay-to-play placement. Forbes Councils is a separate paid membership product; the Gaia feature was not that."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long did it take to get the Forbes feature?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The positioning and reporter-mapping ran across the first two to three weeks, the Forbes feature published 23 December 2024, and the downstream stack (Decrypt, Benzinga, CryptoDaily, Binance Square, six podcasts) ran through Q1 2025 anchored to Consensus Hong Kong in February. A tier-1 anchor first, then the stack, is the sequence."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does a campaign like this cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fractional senior-operator engagement of this scope runs roughly $5,000 to $12,000 per month, with a launch sprint stacked around the anchor moment. A traditional AI-PR agency would charge $25,000 to $50,000 per month for comparable scope."
+          }
+        }
+      ]
+    }
+  ]
+}

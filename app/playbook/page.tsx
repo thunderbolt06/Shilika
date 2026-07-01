@@ -11,7 +11,7 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 export const metadata: Metadata = {
   title: 'Playbooks: Field Guides From Inside Web3, AI & Cyber PR',
   description:
-    '115 long-form playbooks on Web3 PR, AI startup comms and cybersecurity PR. Pricing, pitch guides for CoinDesk and Cointelegraph, a pre-token-launch checklist, agency-selection mistakes, op-eds vs press releases, whitepaper writing for AI startups, regional teardowns and the trade-offs founders should weigh.',
+    '116 long-form playbooks on Web3 PR, AI startup comms and cybersecurity PR. Pricing, pitch guides for CoinDesk and Cointelegraph, a pre-token-launch checklist, agency-selection mistakes, op-eds vs press releases, whitepaper writing for AI startups, regional teardowns and the trade-offs founders should weigh.',
   alternates: { canonical: `${SITE_URL}/playbook` },
   openGraph: {
     title: 'Shilika Jain — Playbooks',
@@ -958,6 +958,15 @@ const PLAYBOOKS = [
     tag: 'Content',
     time: 9,
   },
+  {
+    n: 116,
+    slug: 'how-gaia-ai-got-into-forbes',
+    title: 'How Gaia AI Got Into Forbes: A Teardown',
+    description:
+      'A first-hand teardown of the campaign that earned Gaia AI a Forbes feature: the Stripe-for-AI-agents frame, the reporter-beat match, the timeline, how the pitch was built, embargo etiquette, and what the placement produced downstream.',
+    tag: 'Teardown',
+    time: 8,
+  },
 ];
 
 function loadJsonLd(): string {
@@ -980,7 +989,7 @@ export default function PlaybookIndexPage() {
             <section className="blog-index-hero">
               <div>
                 <p className="blog-index-kicker">
-                  <span className="dot" /> Playbook · 114 field guides
+                  <span className="dot" /> Playbook · 116 field guides
                 </p>
                 <h1 className="blog-index-title">
                   Field <em>guides</em>.

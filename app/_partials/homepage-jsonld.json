@@ -322,6 +322,14 @@
         },
         {
           "@type": "Question",
+          "name": "How do I get my Web3 or AI startup featured in CoinDesk or Cointelegraph?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lead with a category-level story, not a funding or launch announcement. Map the right reporter on the desk that covers your space, write an under-180-word pitch with a dated news peg, and offer a real embargo confirmed in writing 7 to 10 days out. The two newsrooms work differently: two step-by-step operator guides cover each, at /playbook/get-featured-coindesk-2026 and /playbook/how-to-pitch-cointelegraph-2026."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "What regions does Shilika cover for APAC crypto PR?",
           "acceptedAnswer": {
             "@type": "Answer",
