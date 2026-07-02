@@ -264,11 +264,13 @@ const STATIC_PAGES: { path: string; priority: number; changeFrequency: MetadataR
 ];
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const now = new Date();
-
+  // NOTE: previously this stamped every static page with `lastModified: new Date()`
+  // on every request, which told Google literally every page on the site changed
+  // every single day. That's a known anti-pattern: it makes the lastmod signal
+  // useless and can cause Google to discount it entirely. We omit lastModified for
+  // static pages that don't have a real tracked edit date instead of faking one.
   const staticEntries = STATIC_PAGES.map(({ path, priority, changeFrequency }) => ({
     url: `${SITE_URL}${path}`,
-    lastModified: now,
     priority,
     changeFrequency,
   }));
