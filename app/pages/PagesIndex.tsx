@@ -35,13 +35,19 @@ const CSS = `
 .lpx-controls { max-width:1280px; margin:0 auto; padding:8px 6vw 16px; position:sticky; top:64px; z-index:20; background:var(--paper,#f4f3ee); }
 .lpx-search { width:100%; max-width:420px; font-size:15px; padding:13px 16px; border:1px solid #d8d6cf; border-radius:100px; background:#fff; color:#26241f; margin-bottom:18px; }
 .lpx-search:focus { outline:none; border-color:#7aa800; }
-.lpx-filters { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:6px; }
-.lpx-flabel { font-family:var(--font-mono,monospace); font-size:10px; letter-spacing:.12em; text-transform:uppercase; color:#9a978f; align-self:center; margin-right:4px; }
-.lpx-chip { font-family:var(--font-mono,monospace); font-size:11px; letter-spacing:.04em; text-transform:uppercase; padding:8px 14px; border-radius:100px; border:1px solid #d8d6cf; background:#fff; color:#5a574f; cursor:pointer; transition:all .2s; }
+.lpx-filters { display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin-bottom:8px; }
+.lpx-flabel { font-family:var(--font-mono,monospace); font-size:10px; letter-spacing:.12em; text-transform:uppercase; color:#9a978f; align-self:center; margin-right:4px; min-width:52px; }
+.lpx-chip { font-family:var(--font-mono,monospace); font-size:11px; letter-spacing:.04em; text-transform:uppercase; padding:8px 14px; border-radius:100px; border:1px solid #d8d6cf; background:#fff; color:#5a574f; cursor:pointer; transition:all .2s; white-space:nowrap; }
 .lpx-chip:hover { border-color:#26241f; }
 .lpx-chip.on { background:#26241f; color:#f4f3ee; border-color:#26241f; }
 .lpx-chip.svc.on { background:#cdf23a; color:#26241f; border-color:#cdf23a; }
-.lpx-count { font-family:var(--font-mono,monospace); font-size:12px; color:#9a978f; padding:14px 6vw 0; max-width:1280px; margin:0 auto; }
+.lpx-select { font-family:var(--font-mono,monospace); font-size:11px; letter-spacing:.04em; text-transform:uppercase; padding:8px 30px 8px 14px; border-radius:100px; border:1px solid #d8d6cf; background:#fff url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="6" viewBox="0 0 10 6"><path d="M1 1l4 4 4-4" stroke="%235a574f" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>') no-repeat right 12px center; color:#5a574f; cursor:pointer; transition:all .2s; appearance:none; -webkit-appearance:none; max-width:220px; }
+.lpx-select:hover { border-color:#26241f; }
+.lpx-select.on { background-color:#26241f; color:#f4f3ee; border-color:#26241f; }
+.lpx-countbar { display:flex; align-items:center; justify-content:space-between; gap:12px; max-width:1280px; margin:0 auto; padding:14px 6vw 0; }
+.lpx-count { font-family:var(--font-mono,monospace); font-size:12px; color:#9a978f; }
+.lpx-clear { font-family:var(--font-mono,monospace); font-size:11px; letter-spacing:.04em; text-transform:uppercase; color:#5a574f; background:none; border:none; cursor:pointer; text-decoration:underline; text-underline-offset:3px; padding:0; }
+.lpx-clear:hover { color:#26241f; }
 .lpx-grid { max-width:1280px; margin:0 auto; padding:20px 6vw 100px; display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
 @media (max-width:960px){ .lpx-grid{ grid-template-columns:1fr 1fr; } }
 @media (max-width:640px){ .lpx-grid{ grid-template-columns:1fr; } .lpx-controls{ position:static; } }
@@ -116,14 +122,31 @@ export default function PagesIndex() {
         </div>
         <div className="lpx-filters">
           <span className="lpx-flabel">Vertical</span>
-          <button className={`lpx-chip ${vertical === '' ? 'on' : ''}`} onClick={() => setVertical('')}>All</button>
-          {VERTICALS.map((v) => (
-            <button key={v} className={`lpx-chip ${vertical === v ? 'on' : ''}`} onClick={() => setVertical(vertical === v ? '' : v)}>{v}</button>
-          ))}
+          <select
+            className={`lpx-select ${vertical ? 'on' : ''}`}
+            value={vertical}
+            onChange={(e) => setVertical(e.target.value)}
+            aria-label="Filter by vertical"
+          >
+            <option value="">All verticals</option>
+            {VERTICALS.map((v) => (
+              <option key={v} value={v}>{v}</option>
+            ))}
+          </select>
         </div>
       </div>
 
-      <p className="lpx-count">{filtered.length} {filtered.length === 1 ? 'page' : 'pages'}</p>
+      <div className="lpx-countbar">
+        <p className="lpx-count">{filtered.length} {filtered.length === 1 ? 'page' : 'pages'}</p>
+        {(service || region || vertical || q) && (
+          <button
+            className="lpx-clear"
+            onClick={() => { setService(''); setRegion(''); setVertical(''); setQ(''); }}
+          >
+            Clear filters ×
+          </button>
+        )}
+      </div>
 
       <div className="lpx-grid">
         {filtered.length === 0 ? (
