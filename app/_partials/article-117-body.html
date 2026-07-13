@@ -1,0 +1,373 @@
+<style>
+:root {
+  --ink: oklch(0.16 0.01 80);
+  --ink-2: oklch(0.22 0.01 80);
+  --paper: oklch(0.96 0.01 90);
+  --paper-2: oklch(0.92 0.015 85);
+  --cream: oklch(0.93 0.04 85);
+  --lime: oklch(0.92 0.18 115);
+  --muted: oklch(0.55 0.01 80);
+  --line: oklch(0.85 0.01 80);
+  --font-display: 'Instrument Serif', 'Times New Roman', serif;
+  --font-body: 'Inter Tight', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'Geist Mono', 'JetBrains Mono', monospace;
+  --pad: clamp(20px, 4vw, 64px);
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--font-body);
+  background: var(--paper);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+.mono { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; }
+
+#progress-bar { position: fixed; top: 0; left: 0; height: 3px; width: 0; background: var(--lime); z-index: 999; transition: width 0.1s linear; }
+
+.case-header { padding: 140px var(--pad) 60px; border-bottom: 1px solid var(--line); background: var(--paper); position: relative; }
+.crumb { max-width: 980px; margin: 0 auto 36px; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+.crumb a { color: var(--muted); text-decoration: none; transition: color 0.3s; }
+.crumb a:hover { color: var(--ink); }
+.crumb .sep { margin: 0 12px; }
+.case-meta-row { max-width: 980px; margin: 0 auto 28px; display: flex; gap: 18px; align-items: center; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); flex-wrap: wrap; }
+.case-tag { background: var(--ink); color: var(--paper); padding: 5px 12px; border-radius: 3px; font-weight: 500; }
+.case-headline { max-width: 980px; margin: 0 auto; font-family: var(--font-display); font-size: clamp(40px, 6.2vw, 84px); line-height: 0.98; letter-spacing: -0.018em; font-weight: 400; text-wrap: balance; }
+.case-headline em { font-style: italic; background: linear-gradient(120deg, transparent 30%, var(--lime) 30%, var(--lime) 90%, transparent 90%); background-size: 200% 100%; background-position: 100% 0; padding: 0 0.05em; animation: hl-sweep 1.6s 0.4s var(--ease-out-quart) forwards; }
+@keyframes hl-sweep { to { background-position: 0 0; } }
+.case-sub { max-width: 760px; margin: 32px auto 0; font-family: var(--font-display); font-size: clamp(20px, 1.6vw, 24px); line-height: 1.4; font-style: italic; color: var(--muted); }
+
+.answer-box { max-width: 720px; margin: 60px auto 0; padding: 28px 32px; background: var(--ink); color: var(--paper); border-radius: 8px; }
+.answer-box .ab-label { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--lime); margin-bottom: 12px; }
+.answer-box p { font-family: var(--font-display); font-size: clamp(20px, 1.8vw, 24px); line-height: 1.4; font-style: italic; }
+
+.results-strip { max-width: 980px; margin: 60px auto 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 18px; }
+.result-tile { padding: 22px 20px; background: var(--paper-2); border: 1px solid var(--line); border-radius: 8px; }
+.result-tile .rt-label { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; }
+.result-tile .rt-value { font-family: var(--font-display); font-size: 38px; line-height: 1; color: var(--ink); }
+.result-tile .rt-value em { font-style: italic; color: oklch(0.55 0.18 115); }
+.result-tile .rt-note { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.08em; color: var(--muted); margin-top: 8px; text-transform: uppercase; }
+
+.case-body-wrap { padding: 80px var(--pad) 100px; background: var(--paper); }
+.case-body { max-width: 720px; margin: 0 auto; font-size: 19px; line-height: 1.65; color: oklch(0.25 0.01 80); }
+.case-body p { margin-bottom: 1.4em; }
+.case-body h2 { font-family: var(--font-display); font-size: clamp(28px, 3vw, 40px); font-weight: 400; letter-spacing: -0.01em; color: var(--ink); margin: 2em 0 0.8em; line-height: 1.1; text-wrap: balance; }
+.case-body h2::before { content: '§ '; color: var(--lime); font-style: italic; }
+.case-body h3 { font-family: var(--font-display); font-size: clamp(22px, 2.2vw, 28px); font-weight: 400; color: var(--ink); margin: 1.6em 0 0.5em; line-height: 1.2; }
+.case-body ul, .case-body ol { margin: 0 0 1.6em 1.4em; padding-left: 0; }
+.case-body li { margin-bottom: 0.6em; padding-left: 0.4em; }
+.case-body li::marker { color: var(--lime); }
+.case-body strong { color: var(--ink); font-weight: 600; }
+.case-body em { font-style: italic; }
+.case-body a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-decoration-thickness: 2px; text-underline-offset: 3px; transition: color 0.3s; }
+.case-body a:hover { color: oklch(0.45 0.18 115); }
+.case-body blockquote { margin: 1.6em 0; padding: 22px 28px; border-left: 3px solid var(--lime); background: var(--paper-2); font-family: var(--font-display); font-size: 22px; line-height: 1.4; font-style: italic; color: var(--ink); }
+.case-body table { width: 100%; border-collapse: collapse; margin: 1.6em 0; font-size: 15px; font-family: var(--font-mono); letter-spacing: 0.02em; }
+.case-body table th { text-align: left; padding: 10px 12px; background: var(--ink); color: var(--paper); font-weight: 500; text-transform: uppercase; font-size: 11px; letter-spacing: 0.1em; }
+.case-body table td { padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.case-body table tr:nth-child(even) td { background: var(--paper-2); }
+
+.timeline-box { margin: 1.6em 0 2em; padding: 28px 32px; background: var(--paper-2); border-radius: 12px; border: 1px solid var(--line); }
+.timeline-box .tb-label { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-bottom: 16px; }
+.timeline-box ol { margin: 0; padding-left: 1.4em; }
+.timeline-box ol li { margin-bottom: 0.8em; font-size: 16px; }
+.timeline-box ol li::marker { font-family: var(--font-mono); font-size: 13px; color: var(--lime); }
+.timeline-box strong { color: var(--ink); }
+
+.faq-block { max-width: 720px; margin: 3em auto 0; }
+.faq-block .faq-label { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-bottom: 20px; }
+.faq-item { border-top: 1px solid var(--line); padding: 24px 0; }
+.faq-item:last-child { border-bottom: 1px solid var(--line); }
+.faq-item .faq-q { font-family: var(--font-display); font-size: 24px; line-height: 1.2; color: var(--ink); margin-bottom: 12px; }
+.faq-item .faq-a { font-size: 17px; line-height: 1.6; color: oklch(0.3 0.01 80); }
+
+.author-block { max-width: 720px; margin: 4em auto 2em; padding: 28px 32px; background: var(--paper-2); border-radius: 12px; border: 1px solid var(--line); display: flex; gap: 22px; align-items: flex-start; }
+.author-block img, .author-block .author-icon { width: 72px; height: 72px; border-radius: 50%; flex-shrink: 0; background: var(--ink); color: var(--lime); display: flex; align-items: center; justify-content: center; font-family: var(--font-display); font-size: 30px; font-style: italic; }
+.author-block .author-name { font-family: var(--font-display); font-size: 22px; line-height: 1.1; margin-bottom: 4px; }
+.author-block .author-role { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; }
+.author-block .author-bio { font-size: 15px; line-height: 1.55; color: oklch(0.3 0.01 80); }
+.author-block .author-links { margin-top: 12px; display: flex; gap: 14px; flex-wrap: wrap; }
+.author-block .author-links a { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--lime); }
+.author-block .author-links a:hover { color: oklch(0.45 0.18 115); }
+
+.related-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; max-width: 980px; margin: 0 auto; }
+.related-card { padding: 22px 20px; background: var(--paper-2); border: 1px solid var(--line); border-radius: 8px; text-decoration: none; color: var(--ink); transition: transform 0.3s var(--ease-out-quart), border-color 0.3s; display: block; }
+.related-card:hover { transform: translateY(-3px); border-color: var(--ink); }
+.related-card .rc-kicker { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; }
+.related-card .rc-title { font-family: var(--font-display); font-size: 19px; line-height: 1.2; color: var(--ink); }
+
+.cta-strip { max-width: 980px; margin: 80px auto 0; padding: 50px var(--pad); background: var(--ink); color: var(--paper); border-radius: 12px; text-align: center; }
+.cta-strip h2 { font-family: var(--font-display); font-size: clamp(28px, 3.5vw, 44px); line-height: 1.1; font-weight: 400; margin-bottom: 18px; text-wrap: balance; }
+.cta-strip h2 em { font-style: italic; color: var(--lime); }
+.cta-strip p { font-family: var(--font-display); font-size: 20px; font-style: italic; color: oklch(0.75 0.01 80); margin-bottom: 28px; max-width: 600px; margin-left: auto; margin-right: auto; }
+.cta-strip .cta-btn { display: inline-flex; align-items: center; gap: 10px; padding: 16px 32px; background: var(--lime); color: var(--ink); font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.15em; text-transform: uppercase; text-decoration: none; border-radius: 100px; transition: transform 0.3s, background 0.3s; }
+.cta-strip .cta-btn:hover { transform: translateY(-2px); background: oklch(0.95 0.18 115); }
+
+</style>
+
+<div id="progress-bar"></div>
+
+<header class="case-header">
+  <div class="crumb">
+    <a href="/">Shilika Jain</a><span class="sep">/</span>
+    <a href="/playbook">Playbooks</a><span class="sep">/</span>
+    <span>11 Tier-1 Placements in 24 Hours</span>
+  </div>
+  <div class="case-meta-row">
+    <span class="case-tag">TEARDOWN</span>
+    <span>· MAINNET LAUNCH PR</span>
+    <span>· WORKED EXAMPLE: RARI CHAIN</span>
+    <span>· 3 JULY 2026</span>
+    <span>· BY SHILIKA JAIN</span>
+  </div>
+  <h1 class="case-headline">How to land <em>11 tier-1 placements</em> in a single 24-hour news cycle.</h1>
+  <p class="case-sub">A repeatable teardown of the launch-day PR play that produced 11 simultaneous tier-1 placements for RARI Chain's 2024 mainnet, rebuilt as a step-by-step method any Web3 or AI founder can pressure-test before their next launch in 2026.</p>
+
+  <div class="answer-box">
+    <div class="ab-label">Direct answer</div>
+    <p>You land 11 tier-1 placements in 24 hours by selling a category, not an announcement. Pick one contested angle the press is already covering, give a single tier-1 outlet a real exclusive on it, then pre-build and pre-brief the other 10 desks so they can publish inside 90 minutes of the exclusive going live. The RARI Chain mainnet did exactly this: it launched as an NFT royalty enforcement story, not another L2. Coordination is the work, not the news.</p>
+  </div>
+
+  <div class="results-strip">
+    <div class="result-tile">
+      <div class="rt-label">Tier-1 placements</div>
+      <div class="rt-value"><em>11</em></div>
+      <div class="rt-note">24-hour cycle · one anchor exclusive</div>
+    </div>
+    <div class="result-tile">
+      <div class="rt-label">Pre-briefed desks</div>
+      <div class="rt-value"><em>10</em></div>
+      <div class="rt-note">Publish-ready before T-zero</div>
+    </div>
+    <div class="result-tile">
+      <div class="rt-label">Publish window</div>
+      <div class="rt-value"><em>90m</em></div>
+      <div class="rt-note">From exclusive live to full stack</div>
+    </div>
+    <div class="result-tile">
+      <div class="rt-label">Prep runway</div>
+      <div class="rt-value"><em>9d</em></div>
+      <div class="rt-note">Embargo held, no leak</div>
+    </div>
+  </div>
+</header>
+
+<section class="case-body-wrap">
+  <article class="case-body">
+
+<p>This is the founder-facing method behind a number people ask about constantly: 11 tier-1 placements in a single day. It is drawn from the real <a href="/work/rari-chain">RARI Chain mainnet campaign</a>, but it is written as a playbook you can run, not a case study you can only admire. If you want the campaign narrative and the coverage links, read the case study. If you want to know whether you can pull this off for your own launch in 2026, read this.</p>
+
+<p>The honest framing first: a 24-hour tier-1 stack is not a lucky day. It is a nine-day operation compressed into a launch window. Almost none of the work happens on launch day. By the time the anchor exclusive publishes, every other outcome is already decided.</p>
+
+<h2>Why do most launches only get one or two placements?</h2>
+
+<p>Because most founders pitch an announcement instead of a story. "We are launching our mainnet" is an event. It is true, it is important to you, and it is worth zero column inches to an editor at CoinDesk who has seen forty mainnet launches this year. Announcements do not travel. Categories travel.</p>
+
+<p>The second failure mode is sequencing. Founders blast a press release to fifty outlets at 9 AM on launch day and hope. What happens is that nobody has a reason to move fast, no outlet has anything the others do not, and the story competes with itself. You get one thin re-write and a wall of silence.</p>
+
+<p>The 11-placement play inverts both mistakes. It leads with a category the press is already arguing about, and it manufactures a reason for eleven desks to publish inside the same 90-minute window.</p>
+
+<h2>Step 1: Find the category the press is already covering</h2>
+
+<p>You are not introducing a topic. You are supplying a structural answer to a topic editors already have in their notebooks. In late 2023, the NFT industry was mid-royalty-crisis: OpenSea had made creator royalties optional, Blur had zeroed them out as a competitive wedge, and creators were watching income evaporate. That was the story the press was already writing.</p>
+
+<p>RARI Chain did not pitch "a new Layer 2 on Arbitrum Orbit." It pitched <strong>protocol-enforced royalties versus marketplace-enforced royalties</strong>, a chain that routed a royalty payment to the original creator on every transaction, on-chain, without depending on a marketplace's goodwill. Same product. Completely different bucket. One is an infrastructure announcement. The other is the answer to a crisis the press was covering weekly.</p>
+
+<blockquote>The story you sell your anchor outlet has to be a story the rest of the press is willing to re-report. If only one desk wants the angle, you do not have a launch, you have a favor.</blockquote>
+
+<p>To find your category, answer one question: what argument is my target press already having, and how does my product take a side in it? For an AI startup in 2026 that might be the agent-reliability debate, the training-data-provenance fight, or the on-device-versus-cloud split. For a cybersecurity vendor it might be the AI-generated-threat wave. If you cannot name the argument, you are not ready to pitch, you are ready to reposition.</p>
+
+<h2>Step 2: Give one tier-1 outlet a real exclusive</h2>
+
+<p>An exclusive is the only thing that buys you a feature instead of a rewrite. It gives one reporter a reason to spend days on your story: reading technical documentation, interviewing named partners, writing something their competitors do not have yet.</p>
+
+<p>For RARI Chain, CoinDesk got a nine-day exclusive on the royalty enforcement mechanism, with named exchange partners on the record. Nine days is a deliberate number. Here is the reasoning any operator should copy:</p>
+
+<div class="timeline-box">
+  <div class="tb-label">Why nine days, not two or twenty</div>
+  <ol>
+    <li><strong>Under five days:</strong> the reporter cannot read your architecture, secure named-source interviews, and ship a polished feature timed to the launch minute. You get a thin rewrite of your press kit.</li>
+    <li><strong>Over two weeks:</strong> the embargo leaks. Leak probability rises non-linearly past day ten through Telegram, slip-of-tongue interviews, and accidental mentions. Motivated reporters keep their word inside a tight window, not an open-ended one.</li>
+    <li><strong>Seven to ten days:</strong> long enough for a real feature, short enough to hold, and wide enough to pre-brief the other ten desks in the final 48 hours so they can lift the story the instant the exclusive publishes.</li>
+  </ol>
+</div>
+
+<p>Pick the anchor outlet by beat, not by prestige. The exclusive should go to the desk whose reporter already covers your category, not to the biggest logo. A perfectly matched reporter at a second-tier outlet will out-produce a mismatched one at a flagship. Match the beat, and the feature writes itself.</p>
+
+<h2>Step 3: Pre-build the stack so ten desks can publish in 90 minutes</h2>
+
+<p>This is the step founders skip and the reason most launches never break past two placements. The other ten outlets do not get an exclusive. They get something almost as valuable: everything they need to publish in thirty minutes instead of six hours.</p>
+
+<table>
+  <thead>
+    <tr><th>Asset</th><th>What it does</th><th>When it ships</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Embargoed press kit</strong></td>
+      <td>Fact sheet, quotes, named partners, technical explainer, links, assets. Turns a story into a copy-paste job.</td>
+      <td>T-5 days to the non-exclusive desks</td>
+    </tr>
+    <tr>
+      <td><strong>Pre-written angles</strong></td>
+      <td>Each desk gets the angle that fits its beat, so no two placements read identically.</td>
+      <td>T-5 days</td>
+    </tr>
+    <tr>
+      <td><strong>Named-source quotes</strong></td>
+      <td>On-the-record partner and founder quotes cleared for use, so reporters do not have to chase approvals at launch.</td>
+      <td>T-3 days</td>
+    </tr>
+    <tr>
+      <td><strong>Regional translations</strong></td>
+      <td>Pre-translated kits for APAC desks, timed to local morning, extend the cycle another 18 hours.</td>
+      <td>T-3 days</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>When the anchor exclusive goes live, the pre-briefed desks are not starting. They are hitting publish. That is how The Block, The Defiant, Cointelegraph, CryptoNews, Decrypt, NFTNow and a stack of regional outlets all cleared inside 90 minutes on the RARI launch. The speed was engineered days earlier.</p>
+
+<h2>What does launch day actually look like?</h2>
+
+<div class="timeline-box">
+  <div class="tb-label">The 24-hour cycle, sequenced</div>
+  <ol>
+    <li><strong>T-9 days:</strong> anchor exclusive locked. Reporter gets docs, named-source list, embargoed kit.</li>
+    <li><strong>T-5 days:</strong> the other ten tier-1 desks receive embargoed briefings under separate agreements, timed to lift after the exclusive.</li>
+    <li><strong>T-3 days:</strong> regional translations finalized. Local outlets receive pre-translated kits.</li>
+    <li><strong>T-1 day:</strong> final check with the anchor reporter. Confirm the publish slot and that named quotes are still on the record.</li>
+    <li><strong>T-zero:</strong> anchor exclusive publishes. Product goes live. Founder posts on X and Telegram.</li>
+    <li><strong>T+0 to 90 min:</strong> the pre-briefed stack publishes. Pre-built kits make it a 30-minute job per desk.</li>
+    <li><strong>T+4 hours:</strong> regional coverage begins at local morning.</li>
+    <li><strong>T+24 hours:</strong> tier-1 count reaches 11. Translated coverage extends the cycle another 18 hours.</li>
+  </ol>
+</div>
+
+<p>Notice how little of this is launch day. The visible fireworks are the last two lines. Everything above them is the campaign.</p>
+
+<h2>Why does this play compound harder in 2026?</h2>
+
+<p>Because a multi-outlet earned-media cluster is now the strongest signal an AI engine has that your entity is real. This is not a crypto-specific point, it is how generative search grounds answers, and it is why the play is worth more today than it was in 2024. Three reinforcing points:</p>
+
+<ul>
+  <li><strong>AI Overviews now appear on a large and growing share of US queries.</strong> Tier-1 outlets sit inside Google's most-cited domain stack. A launch feature dense with named entities keeps surfacing inside AI Overview citation panels long after publish day, doing work the original campaign never scoped.</li>
+  <li><strong>Earned media is a dominant driver of brand citations inside LLMs.</strong> A cluster of tier-1 placements in one cycle is exactly the kind of corroborated, multi-source signal ChatGPT, Perplexity, Claude and Gemini lean on when deciding whether an entity is citation-worthy.</li>
+  <li><strong>Contested, comparison-shaped stories travel furthest.</strong> "Protocol-enforced versus marketplace-enforced royalties" is a comparison at its core, and comparison content is disproportionately cited in AI answers. The framing that unlocked the placements in 2024 is the same framing AI engines reward in 2026.</li>
+</ul>
+
+<p>Google's own <a href="https://developers.google.com/search/docs/fundamentals/ai-optimization-guide" target="_blank" rel="noopener">guidance on optimizing for generative AI search</a> is blunt about this: there are no GEO hacks, no special files, no chunking tricks. What wins is unique, first-hand, non-commodity content and real corroboration across the web. A coordinated tier-1 launch produces exactly that corroboration, which is why it pays compounding dividends in AI search, not just launch-week traffic.</p>
+
+<h2>When should you NOT run this play?</h2>
+
+<p>The teardown is only honest if it tells you when it fails. Three conditions had to be true before the RARI campaign was even pitchable, and the same three gate yours:</p>
+
+<ol>
+  <li><strong>You have a real category angle, not an infrastructure announcement.</strong> "We launched" is not a story. If you cannot write the one sentence "X is doing Y inside Z category the press is already covering," fix the positioning before you call anyone.</li>
+  <li><strong>You have a hard launch moment with no slippage.</strong> A named minute on a named date. Embargoes survive on operational discipline. If engineering cannot guarantee the window, the embargo will not hold and the stack collapses.</li>
+  <li><strong>You have named partners willing to be quoted on the record.</strong> Anonymous quotes do not justify a multi-day exclusive. If no partner will put their name to it, you have a press release, not a tier-1 feature.</li>
+</ol>
+
+<p>If two of the three are missing, do not run the push. Fix the underlying story first. Chasing tier-1 logos before you have a category is the fastest way to burn reporter relationships you will need later, a trap covered in <a href="/playbook/tier-1-pr-trap">the tier-1 PR trap</a>.</p>
+
+<h2>How much does a launch like this cost?</h2>
+
+<p>A coordinated tier-1 launch sprint at this scope runs roughly $15,000 to $40,000 across a six-to-eight-week window, with an ongoing fractional retainer of $5,000 to $12,000 per month afterward to sustain follow-up coverage. A traditional crypto or AI PR agency would price the same scope at $25,000 to $60,000 per month on a multi-month minimum. The cost delta is why a growing number of funded founders run this with a <a href="/playbook/fractional-pr-cost-pricing-2026">fractional operator</a> instead of a full agency. Full pricing logic sits in the <a href="/playbook/crypto-pr-cost-2026">crypto PR cost breakdown</a>.</p>
+
+<p>The number that matters is not the placement count. Eleven placements are a proxy. The real deliverable is a corroborated entity the market and the AI engines both recognize. That is what a launch buys you when it is run as a category play instead of an announcement blast.</p>
+
+<div class="faq-block">
+  <div class="faq-label">Frequently asked</div>
+  <div class="faq-item">
+    <div class="faq-q">Can a founder run this play without a PR agency?</div>
+    <div class="faq-a">Partly. A founder can define the category angle and lock the launch date themselves. The hard, time-boxed parts, negotiating the anchor exclusive, pre-briefing ten desks under separate embargoes, and building publish-ready kits, are where an operator earns the fee, because they hinge on existing reporter relationships and nine days of tight coordination that a founder rarely has bandwidth for during a launch.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">How far before launch should the biggest placement run?</div>
+    <div class="faq-a">The anchor exclusive publishes at the launch moment itself, but the reporting runway starts seven to ten days earlier. The RARI mainnet used a nine-day embargo. Some launches deliberately place a major feature a few days ahead of a token event so it is not lost in launch-day noise; for a product or mainnet launch, timing the anchor to the launch minute concentrates the cycle.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">Does this only work for crypto launches?</div>
+    <div class="faq-a">No. The mechanics, one category angle, one anchor exclusive, ten pre-briefed desks, one hard launch moment, are media-agnostic. The worked example is a Web3 mainnet, but the same structure runs for an <a href="/services/ai-startup-pr">AI startup</a> product launch or a <a href="/services/cybersecurity-pr">cybersecurity</a> vendor announcement. What changes is the outlet map and the category argument, not the method.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">Why an exclusive instead of pitching everyone at once?</div>
+    <div class="faq-a">An exclusive is the only lever that turns a rewrite into a feature. Reporters invest days only when they have something competitors do not. That feature then sets the canonical narrative the rest of the stack lifts from, which is why the sequencing, one exclusive first, then the pre-briefed stack, produces coordinated coverage that a simultaneous blast never does.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">What is the single biggest reason these launches fail?</div>
+    <div class="faq-a">Positioning. If the story is an announcement rather than a side in an argument the press is already having, no amount of coordination saves it, because there is nothing for the other ten desks to re-report. Every failed launch stack traces back to a category that was never really there.</div>
+  </div>
+</div>
+
+<div class="author-block">
+  <div class="author-icon">SJ</div>
+  <div>
+    <div class="author-name">Shilika Jain</div>
+    <div class="author-role">Fractional PR Manager · APAC PR & Partnerships at Myosin · 6 years operating</div>
+    <div class="author-bio">Senior PR operator working with Web3 and AI founders. Past placements include Forbes, CoinDesk, Cointelegraph, Decrypt, The Block, Blockworks, Benzinga, AI Magazine. Past clients include RARI Foundation, Gaia AI, MANTRA Chain, Fluence Network, Web3Auth, Bullieverse. Previously at CoinMarketCap.</div>
+    <div class="author-links">
+      <a href="https://www.linkedin.com/in/shilika/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://x.com/Shilika_jain" target="_blank" rel="noopener">X / Twitter</a>
+      <a href="https://cryptodaily.co.uk/author/ShilikaJain" target="_blank" rel="noopener">CryptoDaily byline</a>
+      <a href="/about">Full profile</a>
+      <a href="/">Homepage</a>
+    </div>
+  </div>
+</div>
+
+  </article>
+
+  <div class="cta-strip">
+    <h2>Got a launch that deserves the <em>category</em>, not the wire?</h2>
+    <p>30 minutes is enough to know whether your story is a tier-1 exclusive or a press release, and whether the 24-hour stack is realistic for your window.</p>
+    <a class="cta-btn" href="https://calendly.com/shilikajain/30min/" target="_blank" rel="noopener">
+      Book a 30-min teardown
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.4"/></svg>
+    </a>
+  </div>
+
+</section>
+
+<section style="padding: 80px var(--pad); background: var(--paper-2); border-top: 1px solid var(--line);">
+  <div style="max-width: 980px; margin: 0 auto 32px;">
+    <span class="mono" style="color: var(--muted);">/03 RELATED READING</span>
+    <h2 style="font-family: var(--font-display); font-size: clamp(28px, 3vw, 40px); margin-top: 12px; font-weight: 400; letter-spacing: -0.01em;">Adjacent <em style="color: oklch(0.45 0.18 115);">playbooks</em>.</h2>
+  </div>
+  <div class="related-grid">
+    <a class="related-card" href="/work/rari-chain">
+      <div class="rc-kicker">Case study</div>
+      <div class="rc-title">RARI Chain, the full 11-placement mainnet campaign</div>
+    </a>
+    <a class="related-card" href="/playbook/tier-1-pr-trap">
+      <div class="rc-kicker">Pitfalls</div>
+      <div class="rc-title">The Tier-1 PR Trap: why founders chase the wrong outlets</div>
+    </a>
+    <a class="related-card" href="/playbook/get-featured-coindesk-2026">
+      <div class="rc-kicker">Pitch guide</div>
+      <div class="rc-title">How to Get Featured in CoinDesk in 2026</div>
+    </a>
+    <a class="related-card" href="/playbook/how-gaia-ai-got-into-forbes">
+      <div class="rc-kicker">Teardown</div>
+      <div class="rc-title">How Gaia AI Got Into Forbes: a named teardown</div>
+    </a>
+    <a class="related-card" href="/playbook/crypto-pr-cost-2026">
+      <div class="rc-kicker">Pricing</div>
+      <div class="rc-title">How Much Does Crypto PR Cost in 2026?</div>
+    </a>
+    <a class="related-card" href="/services/token-launch-pr">
+      <div class="rc-kicker">Service</div>
+      <div class="rc-title">Token Launch PR & TGE Communications</div>
+    </a>
+    <a class="related-card" href="/services/web3-pr-campaigns">
+      <div class="rc-kicker">Service</div>
+      <div class="rc-title">Web3 PR Campaigns, the playbook this ran on</div>
+    </a>
+    <a class="related-card" href="/services/apac-pr">
+      <div class="rc-kicker">Service</div>
+      <div class="rc-title">APAC PR, the translations that extended this cycle</div>
+    </a>
+  </div>
+</section>

@@ -24,7 +24,7 @@
       "keywords": ["how to get featured in CoinDesk", "how to pitch CoinDesk", "CoinDesk PR 2026", "Web3 media relations", "crypto journalist outreach", "embargo etiquette", "Tier-1 crypto press"],
       "inLanguage": "en",
       "datePublished": "2026-05-15",
-      "dateModified": "2026-05-19",
+      "dateModified": "2026-07-10",
       "about": [
         { "@type": "Thing", "name": "CoinDesk" },
         { "@type": "Thing", "name": "Web3 media relations" },
@@ -124,6 +124,14 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Editorial coverage tied to a launch typically takes 2 to 4 weeks from first reporter contact to publish, assuming the story angle is strong and the embargo is offered correctly. Profile pieces or category-defining features that aren't tied to a launch can take 2 to 3 months because they require multiple briefings and editor sign-off."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does a CoinDesk feature help me get cited in AI Overviews and ChatGPT in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, and this is the highest-leverage reason to earn one in 2026. Generative engines like Google AI Overviews, Perplexity, and ChatGPT ground their answers in high-authority sources they already trust, and CoinDesk sits near the top of that trust graph for crypto. When your launch is covered in a named CoinDesk story with your project and founder named in the body text, that sentence becomes retrievable source material an AI engine can quote back when a buyer asks who launched a project or which project is best in a category. One earned CoinDesk feature does more for AI-search visibility than self-published content, because the citation comes from a source the model did not have to take your word for."
           }
         },
         {

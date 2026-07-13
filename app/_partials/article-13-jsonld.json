@@ -61,10 +61,32 @@
       }
     },
     {
+      "@type": "HowTo",
+      "@id": "https://www.shilikajain.com/playbook/how-to-pitch-cointelegraph-2026#howto",
+      "name": "How to pitch Cointelegraph and earn editorial coverage",
+      "description": "A 7-step practitioner's playbook for landing earned Cointelegraph coverage in 2026, from mapping the right newsroom surface to sending complete materials and following up once.",
+      "totalTime": "PT336H",
+      "tool": [
+        { "@type": "HowToTool", "name": "A dated news peg (launch, listing, deadline, funding close, market move)" },
+        { "@type": "HowToTool", "name": "Writer beat map (Google site search of cointelegraph.com)" },
+        { "@type": "HowToTool", "name": "One-page fact sheet with named quotes, data, and high-resolution founder photos" }
+      ],
+      "step": [
+        { "@type": "HowToStep", "position": 1, "name": "Understand how Cointelegraph's newsroom is actually built", "text": "Treat Cointelegraph as several distinct surfaces, not one inbox. The news desk runs fast dated news and filters for a real peg; markets and analysis run price, on-chain data and trend pieces and filter for original data; opinion, features and the sponsored side each filter for something different. Map your story to the right surface before you write a word." },
+        { "@type": "HowToStep", "position": 2, "name": "Lead with a dated news peg, not a product", "text": "Editors decide in roughly 15 seconds and look first for why this story matters now. Anchor the story to a date: a launch day, a listing, a regulatory deadline, a market move, or a funding close. Without a peg even good news reads as evergreen, and evergreen sinks to the bottom of the pile." },
+        { "@type": "HowToStep", "position": 3, "name": "Find the right writer, then prove you read them", "text": "Cointelegraph has a large rotating staff and contributor pool across DeFi, infrastructure, regulation, markets, NFTs and gaming, AI, and regional desks. Do not pitch the editor. Pitch the one writer whose last few pieces sit next to your story, and reference a specific recent piece to prove you read it. A Google site search of cointelegraph.com is the fastest way to map beats." },
+        { "@type": "HowToStep", "position": 4, "name": "Write the under-150-word pitch", "text": "Plain-text email, no attachments or decks in the first message. Four short paragraphs doing four jobs: the peg, why it matters to that writer's beat, the proof, and a clear path to finishing the piece. Put the dated peg in the subject line and the first sentence." },
+        { "@type": "HowToStep", "position": 5, "name": "Respect the editorial and sponsored firewall", "text": "Cointelegraph runs a clearly labelled sponsored and brand-content business alongside its firewalled newsroom. Paying for sponsored placement does not move your odds with an editorial writer, and implying it should is the fastest way to get ignored. Pick the lane honestly: sponsored for guaranteed dated placement you control, editorial for credibility and AI-search citations you cannot buy." },
+        { "@type": "HowToStep", "position": 6, "name": "Use the multilingual editions for real APAC reach", "text": "Most US-only PR plans miss this lever. Cointelegraph publishes regional editions in several languages, and the overnight liquidity windows for Web3 sit in Korea, Japan, Vietnam and Brazil. When the story has a regional angle, pitch the relevant edition with a localised peg and a domestic hook rather than a translated English release, and pair it with vetted regional KOLs." },
+        { "@type": "HowToStep", "position": 7, "name": "Send complete materials, then follow up once", "text": "The biggest reason a yes turns into a no-show is incomplete materials. After the writer bites, send a tight package the writer can finish the piece from without chasing you: a one-page fact sheet, two named quotes, on-chain or product data, two high-resolution founder photos, and a one-paragraph bio. Then follow up once, not five times." }
+      ]
+    },
+    {
       "@type": "BreadcrumbList",
+      "@id": "https://www.shilikajain.com/playbook/how-to-pitch-cointelegraph-2026#breadcrumb",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.shilikajain.com/blog" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
         { "@type": "ListItem", "position": 3, "name": "How to pitch Cointelegraph in 2026", "item": "https://www.shilikajain.com/playbook/how-to-pitch-cointelegraph-2026" }
       ]
     },
