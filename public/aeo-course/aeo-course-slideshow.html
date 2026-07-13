@@ -195,6 +195,85 @@
   .nav select{background:#26241c;color:var(--cream);border:1px solid #3a382f;border-radius:4px;
     font-family:"SF Mono",monospace;font-size:11px;padding:6px;max-width:150px}
 
+  /* ---------- donut chart ---------- */
+  .donutwrap{display:flex;align-items:center;gap:28px;flex-wrap:wrap}
+  .donut{width:150px;height:150px;border-radius:50%;flex:0 0 150px;position:relative}
+  .donut::after{content:"";position:absolute;inset:22px;background:var(--card);border-radius:50%}
+  .page[data-variant="dark"] .donut::after{background:var(--dark)}
+  .dleg{display:flex;flex-direction:column;gap:8px}
+  .dleg-row{display:flex;align-items:center;gap:10px;font-size:14px}
+  .dleg-sw{width:11px;height:11px;border-radius:3px;flex:0 0 11px}
+  .dleg-l{color:#3a3830;flex:1}
+  .dleg-v{font-family:"SF Mono",monospace;font-weight:700;color:#000;min-width:52px;text-align:right}
+  .page[data-variant="dark"] .dleg-l{color:#c9c6ba}
+  .page[data-variant="dark"] .dleg-v{color:#fff}
+
+  /* ---------- arrow-flow cards ---------- */
+  .flow{display:flex;align-items:stretch;gap:6px}
+  .flow-card{flex:1;border:1.5px solid var(--line);border-radius:3px;padding:16px 14px;background:transparent;min-width:0}
+  .flow-n{font-family:"SF Mono",monospace;font-size:12px;color:var(--orange);font-weight:700;margin-bottom:6px}
+  .flow-card h4{margin:0 0 8px;font-size:15px;color:#000}
+  .flow-card p{margin:0;font-size:13px;line-height:1.4;color:#4a483f}
+  .flow-arrow{display:flex;align-items:center;justify-content:center;font-size:20px;color:#9a978c;flex:0 0 18px}
+  .page[data-variant="dark"] .flow-card h4{color:#fff}
+  .page[data-variant="dark"] .flow-card p{color:#c9c6ba}
+  .page[data-variant="dark"] .flow-arrow{color:#6a6858}
+
+  /* ---------- big-letter cards (BID) ---------- */
+  .bigcard{border:1.5px solid var(--line);border-radius:3px;padding:22px 16px;text-align:center}
+  .bigletter{font-size:52px;font-weight:800;line-height:1;color:var(--blue);letter-spacing:-.02em}
+  .biglabel{margin-top:8px;font-weight:700;font-size:15px;color:#000}
+  .bigsub{margin:8px 0 0;font-size:13px;color:#4a483f;line-height:1.4}
+
+  /* ---------- numbered gap cards ---------- */
+  .gapgrid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px}
+  .gapcard{border:1.5px solid var(--line);border-radius:3px;padding:14px 16px}
+  .gapno{width:24px;height:24px;border-radius:50%;color:#fff;font-weight:800;font-size:12px;
+    display:flex;align-items:center;justify-content:center;margin-bottom:8px;font-family:"SF Mono",monospace}
+  .gapcard h4{margin:0 0 6px;font-size:14.5px;color:#000}
+  .gapcard p{margin:0;font-size:12.5px;line-height:1.4;color:#4a483f}
+
+  /* ---------- yes/no comparison cards ---------- */
+  .jc{border:1.5px solid var(--line);border-radius:3px;padding:20px;text-align:center}
+  .jc .icon{width:42px;height:42px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+    margin:0 auto 10px;font-size:19px;font-weight:800}
+  .jc.yes .icon{background:#d7f5e9;color:#1f8f5f}
+  .jc.no .icon{background:#fbdede;color:#c23b2e}
+  .jc h4{margin:0 0 4px;font-size:15px;color:#000}
+  .jc .yn{font-family:"SF Mono",monospace;font-size:11px;letter-spacing:.1em;font-weight:700;color:#6c6a5f}
+
+  /* ---------- checklist (green/red rows) ---------- */
+  .cl-h{font-size:15px;margin:0 0 8px;color:#000}
+  .crow{display:flex;align-items:center;gap:9px;font-size:14px;color:#2c2b24;margin-bottom:6px}
+  .cicon{flex:0 0 18px;height:18px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+    font-size:11px;font-weight:800;color:#fff}
+  .cicon.y{background:#2fae74}
+  .cicon.n{background:#e0533d}
+
+  /* ---------- line chart legend ---------- */
+  .linelegend{display:flex;gap:22px;justify-content:center;margin-top:2px;font-family:"SF Mono",monospace;font-size:12px;color:#3a3830}
+  .linelegend i{display:inline-block;width:14px;height:3px;margin-right:6px;vertical-align:middle;border-radius:2px}
+
+  /* ---------- hub-and-spoke diagram ---------- */
+  .hub{position:relative;height:220px;margin:6px 0}
+  .hub-center{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+    background:var(--card);border:1.5px solid var(--blue);border-radius:6px;padding:14px 20px;
+    font-weight:800;font-size:15px;color:#000;box-shadow:0 4px 14px rgba(0,0,0,.08);white-space:nowrap;text-align:center}
+  .hub-sat{position:absolute;background:var(--card);border:1.5px solid var(--line);border-radius:20px;
+    padding:7px 14px;font-family:"SF Mono",monospace;font-size:12px;color:#3a3830;white-space:nowrap}
+  .page[data-variant="dark"] .hub-center{background:var(--dark)}
+  .page[data-variant="dark"] .hub-sat{background:var(--dark);color:#c9c6ba}
+
+  /* ---------- fullscreen presentation mode ---------- */
+  body.fs-mode{overflow:hidden;background:var(--dark)}
+  body.fs-mode .tophint,body.fs-mode .nav{display:none!important}
+  body.fs-mode .deck{max-width:none;margin:0;padding:0}
+  body.fs-mode .page{position:fixed;inset:0;display:none;align-items:center;justify-content:center}
+  body.fs-mode .page.active{display:flex}
+  body.fs-mode .page .notes{display:none!important}
+  body.fs-mode .slide{width:1128px;flex:none;transform-origin:center center}
+  .nav button.act{color:var(--orange)}
+
   /* ---------- print / PDF ---------- */
   @media print{
     @page{size:A4 landscape;margin:10mm}
@@ -222,6 +301,8 @@
   <button id="ntoggle" class="ntoggle">Notes</button>
   <div class="divr"></div>
   <button id="next">Next<span class="arrow">→</span></button>
+  <div class="divr"></div>
+  <button id="fsbtn" title="Fullscreen (F)">⛶ Full</button>
   <select id="jump" title="Jump"></select>
 </div>
 
@@ -260,6 +341,93 @@ function CELLS(items){
   }).join('')+'</div>';
 }
 function inb(v,max,col){return '<span class="inbar"><span style="width:'+Math.round(v/max*100)+'%;background:'+(col||'var(--blue)')+'"></span></span>';}
+
+function DONUT(segs,o){o=o||{};
+  var total=segs.reduce(function(s,x){return s+x.v},0);
+  var acc=0,stops=[];
+  segs.forEach(function(s){
+    var start=acc/total*360; acc+=s.v; var end=acc/total*360;
+    stops.push((s.color||'var(--blue)')+' '+start.toFixed(2)+'deg '+end.toFixed(2)+'deg');
+  });
+  var legend=segs.map(function(s){
+    return '<div class="dleg-row"><span class="dleg-sw" style="background:'+(s.color||'var(--blue)')+'"></span>'
+      +'<span class="dleg-l">'+s.l+'</span><span class="dleg-v">'+(s.d!=null?s.d:s.v+'%')+'</span></div>';
+  }).join('');
+  return '<div class="donutwrap"><div class="donut" style="background:conic-gradient('+stops.join(',')+')"></div>'
+    +'<div class="dleg">'+legend+'</div></div>'+(o.cap?'<div class="chart-cap">'+o.cap+'</div>':'');
+}
+function FLOW(items){
+  return '<div class="flow">'+items.map(function(it,i){
+    return (i>0?'<div class="flow-arrow">→</div>':'')
+      +'<div class="flow-card"><div class="flow-n">'+it.n+'</div><h4>'+it.t+'</h4><p>'+it.d+'</p></div>';
+  }).join('')+'</div>';
+}
+function BIGLETTERS(items){
+  return '<div class="cols c3">'+items.map(function(it){
+    return '<div class="bigcard"><div class="bigletter">'+it.letter+'</div><div class="biglabel">'+it.label+'</div>'
+      +(it.sub?'<p class="bigsub">'+it.sub+'</p>':'')+'</div>';
+  }).join('')+'</div>';
+}
+function GAPCARDS(items){
+  var cols=['#df531e','#e08a1e','#c9a227','#3a9d63','#1f2ed0','#7b7bf5'];
+  return '<div class="gapgrid">'+items.map(function(it,i){
+    return '<div class="gapcard"><div class="gapno" style="background:'+cols[i%cols.length]+'">'+(i+1)+'</div>'
+      +'<h4>'+it.t+'</h4><p>'+it.d+'</p></div>';
+  }).join('')+'</div>';
+}
+function JSCARDS(items){
+  return '<div class="cols c3">'+items.map(function(it){
+    return '<div class="jc '+(it.yes?'yes':'no')+'"><div class="icon">'+(it.yes?'✓':'✕')+'</div><h4>'+it.l+'</h4>'
+      +'<div class="yn">'+(it.yes?'YES':'NO')+'</div></div>';
+  }).join('')+'</div>';
+}
+function CHECKLIST(groups){
+  return '<div class="cols">'+groups.map(function(g){
+    return '<div><h4 class="cl-h">'+g.platform+'</h4>'+g.rows.map(function(r){
+      return '<div class="crow"><span class="cicon '+(r.y?'y':'n')+'">'+(r.y?'✓':'✕')+'</span><span>'+r.l+'</span></div>';
+    }).join('')+'</div>';
+  }).join('')+'</div>';
+}
+function LINECHART(o){o=o||{};
+  return '<svg viewBox="0 0 600 260" style="width:100%;aspect-ratio:600/260;display:block;flex-shrink:0">'
+   +'<line x1="40" y1="220" x2="580" y2="220" stroke="#cbc7bc" stroke-width="1.5"/>'
+   +'<line x1="40" y1="20" x2="40" y2="220" stroke="#cbc7bc" stroke-width="1.5"/>'
+   +'<path d="M40,210 C120,205 150,40 220,35 C280,32 320,150 380,195 C440,215 500,219 580,220" fill="none" stroke="#b9b5aa" stroke-width="3"/>'
+   +'<path d="M40,215 C150,200 250,140 350,90 C450,45 520,32 580,28" fill="none" stroke="#1f2ed0" stroke-width="3"/>'
+   +'<text x="300" y="245" text-anchor="middle" font-family="SF Mono, monospace" font-size="12" fill="#6c6a5f">Time →</text>'
+   +'<text x="20" y="120" text-anchor="middle" font-family="SF Mono, monospace" font-size="12" fill="#6c6a5f" transform="rotate(-90 20 120)">Traffic →</text>'
+   +'</svg>'
+   +'<div class="linelegend"><span><i style="background:#1f2ed0"></i>Search hit</span><span><i style="background:#b9b5aa"></i>Viral hit</span></div>';
+}
+function HUBSPOKE(center,sats){
+  var pos=[{t:'6%',l:'4%'},{t:'6%',l:'70%'},{t:'42%',l:'0%'},{t:'42%',l:'82%'},{t:'80%',l:'8%'},{t:'80%',l:'68%'}];
+  return '<div class="hub">'
+   +sats.map(function(s,i){var p=pos[i%pos.length];return '<div class="hub-sat" style="top:'+p.t+';left:'+p.l+'">'+s+'</div>';}).join('')
+   +'<div class="hub-center">'+center+'</div>'
+   +'</div>';
+}
+function VENN3(o){o=o||{};
+  return '<svg viewBox="0 0 500 380" style="width:100%;max-width:420px;aspect-ratio:500/380;display:block;margin:0 auto;flex-shrink:0">'
+   +'<circle cx="210" cy="170" r="130" fill="#1f2ed0" fill-opacity="0.16" stroke="#1f2ed0" stroke-width="2"/>'
+   +'<circle cx="290" cy="170" r="130" fill="#df531e" fill-opacity="0.16" stroke="#df531e" stroke-width="2"/>'
+   +'<circle cx="250" cy="255" r="130" fill="#7b7bf5" fill-opacity="0.22" stroke="#7b7bf5" stroke-width="2"/>'
+   +'<text x="150" y="34" text-anchor="middle" font-family="SF Mono, monospace" font-size="13" font-weight="700" fill="#1f2ed0">AI OVERVIEWS</text>'
+   +'<text x="350" y="34" text-anchor="middle" font-family="SF Mono, monospace" font-size="13" font-weight="700" fill="#df531e">CHATGPT</text>'
+   +'<text x="250" y="368" text-anchor="middle" font-family="SF Mono, monospace" font-size="13" font-weight="700" fill="#7b7bf5">PERPLEXITY</text>'
+   +'<text x="135" y="118" text-anchor="middle" font-size="13" fill="#2c2b24">Facebook</text>'
+   +'<text x="135" y="136" text-anchor="middle" font-size="13" fill="#2c2b24">WebMD</text>'
+   +'<text x="135" y="154" text-anchor="middle" font-size="13" fill="#2c2b24">Reddit</text>'
+   +'<text x="365" y="118" text-anchor="middle" font-size="13" fill="#2c2b24">Forbes</text>'
+   +'<text x="365" y="136" text-anchor="middle" font-size="13" fill="#2c2b24">Business Insider</text>'
+   +'<text x="365" y="154" text-anchor="middle" font-size="13" fill="#2c2b24">Wired</text>'
+   +'<text x="175" y="305" text-anchor="middle" font-size="13" fill="#2c2b24">NerdWallet</text>'
+   +'<text x="325" y="305" text-anchor="middle" font-size="13" fill="#2c2b24">Shopify</text>'
+   +'<text x="250" y="146" text-anchor="middle" font-size="13" font-weight="700" fill="#111">Wikipedia</text>'
+   +'<text x="250" y="165" text-anchor="middle" font-size="13" font-weight="700" fill="#111">Amazon</text>'
+   +'<text x="250" y="184" text-anchor="middle" font-size="13" font-weight="700" fill="#111">Google</text>'
+   +'<text x="250" y="203" text-anchor="middle" font-size="13" font-weight="700" fill="#111">Microsoft</text>'
+   +'</svg>'+(o.cap?'<div class="chart-cap" style="text-align:center">'+o.cap+'</div>':'');
+}
 
 /* ======================= slide data ======================= */
 var S=[
@@ -361,26 +529,37 @@ var S=[
 
 /* 13 what gets cited (HB) */
 {kick:"1.1 · Patterns",title:'What raises your citation odds<span class="ac">.</span>',type:"x",
- body:HB([
-  {l:"From Google's top 10",v:76,d:"76%",hi:1},
-  {l:"Fresher than a normal SERP",v:25,d:"+25%"},
-  {l:"NOT in Google's top 100",v:14,d:"14%",color:"var(--orange)"}],{max:100,cap:"Share of AI-Overview citations by source · consensus + freshness + authority"})
- +'<p class="note-inline"><b>Consensus</b> · repeated, consistent mentions raise probability &nbsp;—&nbsp; but authority isn’t only Google: 14% of cited pages don’t rank top-100 at all.</p>',
+ body:DONUT([
+   {l:"Rank in Google's top 10",v:76.1,d:"76.1%",color:"#1f2ed0"},
+   {l:"Rank 11–100",v:9.5,d:"9.5%",color:"#7b7bf5"},
+   {l:"Don't rank in top 100",v:14.4,d:"14.4%",color:"#df531e"}],{cap:"How AI-Overview citations rank in the SERPs · 1.9M citations studied"})
+ +'<p class="note-inline"><b>Consensus</b> matters too — repeated, consistent mentions raise your probability. And AI-cited content runs ~25% fresher than a normal SERP.</p>',
  notes:'<p>There are clear patterns. <b>Consensus</b>: repeated, consistent mentions across the web raise your probability. <b>Freshness</b>: AI-cited content runs ~25% fresher than a normal SERP. <b>Authority</b>: 76% of AI Overview citations come from pages already in Google\'s top 10 — so SEO is the foundation, again.</p><p>Crucially it\'s not only about Google: 14% of AI-Overview-cited pages don\'t rank in Google\'s top 100 at all, and for platforms like ChatGPT the overlap is even lower. Brands weak in traditional search can still win in AI.</p>'},
 
 /* 14 mechanics summary */
 {kick:"1.1 · Summary",title:'The mechanics, tied together<span class="ac">.</span>',type:"x",
- body:'<div class="steps">'
- +'<div class="step"><div class="n">A</div><div class="tx">AI pulls from <b>training data</b> + <b>real-time web search</b>.</div></div>'
- +'<div class="step"><div class="n">B</div><div class="tx"><b>Fan-out</b> expands one query into dozens of sub-queries.</div></div>'
- +'<div class="step"><div class="n">C</div><div class="tx">It <b>merges and scores</b> results from all of them.</div></div>'
- +'<div class="step"><div class="n">D</div><div class="tx">It generates a <b>probabilistic</b> answer — patterns, consensus, freshness, authority.</div></div></div>',
+ body:FLOW([
+   {n:"1",t:"Two Sources",d:"Training data + real-time web search."},
+   {n:"2",t:"Fan-Out",d:"1 query → dozens of sub-queries."},
+   {n:"3",t:"Merge &amp; Score",d:"Results from all sub-queries combined and ranked."},
+   {n:"4",t:"Probabilistic Response",d:"Not fixed — based on consensus, freshness, authority."}]),
  notes:'<p>Putting it together: AI search pulls from training data and live web search, expands your query through fan-out, merges and scores the results, then generates a probabilistic answer shaped by patterns, consensus, freshness and authority.</p><p>This is why "earn more brand mentions" (consensus), "cover the whole topic" (fan-out) and "SEO first" (76% from top-10 pages) are the throughlines of everything that follows.</p>'},
 
 /* 15 platforms not one thing */
 {kick:"1.2 · Platform differences",title:'AI search is not one thing<span class="ac">.</span>',type:"x",
- body:CELLS([{n:"14%",l:"Overlap of the top-50 most-cited domains across AIO, ChatGPT & Perplexity — only 7 of 50 on all three"},{n:"13.7%",l:"Citation overlap between Google's own AI Overviews & AI Mode"},{n:"86%",l:"…yet their answers are 86% semantically similar — same message, different sources"}]),
- notes:'<p>Treating AI search as one channel leaves visibility on the table. Of the top-50 most-cited domains across AI Overviews, ChatGPT and Perplexity, only 7 appear on all three — a 14% overlap. Optimize for one platform and you can be invisible on the others.</p><p>Even two Google products diverge: AI Overviews and AI Mode share only 13.7% of citations despite 86% semantically similar answers — same message, completely different sources.</p>'},
+ body:CELLS([{n:"14%",l:"Overlap of the top-50 most-cited domains across AI Overviews, ChatGPT & Perplexity — only 7 of 50 on all three"}])
+ +HB([
+   {l:"Semantic similarity",v:86,d:"86%",hi:1},
+   {l:"Word similarity",v:16,d:"16%"},
+   {l:"Citation similarity",v:13.7,d:"13.7%",color:"var(--orange)"}],{max:100,cap:"AI Overviews vs AI Mode: response similarity"})
+ +'<p class="note-inline">Same message, different sources: AI Overviews and AI Mode give 86% semantically similar answers, but share only 16% of exact wording and just 13.7% of citations.</p>',
+ notes:'<p>Treating AI search as one channel leaves visibility on the table. Of the top-50 most-cited domains across AI Overviews, ChatGPT and Perplexity, only 7 appear on all three — a 14% overlap. Optimize for one platform and you can be invisible on the others.</p><p>Even two Google products diverge: AI Overviews and AI Mode give 86% semantically similar answers — same underlying message — but share only 16% of exact wording (word similarity) and just 13.7% of citations (citation similarity). Same message, completely different sources.</p>'},
+
+/* 15b venn overlap */
+{kick:"1.2 · Platform differences",title:'Different platforms cite different brands<span class="ac">.</span>',type:"x",
+ body:VENN3({cap:"Overlap of the top-50 most-cited brands per AI assistant (source: Ahrefs research)"})
+ +'<p class="note-inline">Only a handful of globally dominant brands (Wikipedia, Amazon, Google, Microsoft) get cited everywhere. Most brands — including Forbes, Reddit, NerdWallet and Shopify here — only break through on one or two platforms.</p>',
+ notes:'<p>This is what that 14% overlap looks like in practice, using real names from the underlying study. Each AI assistant has its own citation "universe" — only the largest, most globally established brands (Wikipedia, Amazon, Google, Microsoft) get cited across all three. Everyone else sits in just one or two circles: health and reference sites like WebMD and Reddit skew toward AI Overviews; publishers like Forbes, Business Insider and Wired skew toward ChatGPT; niche finance and commerce sites like NerdWallet and Shopify skew toward Perplexity.</p><p>The practical takeaway: don\'t assume that ranking well or being cited on one assistant means you\'re covered everywhere. Check each platform separately in your brand-visibility tool.</p>'},
 
 /* 16 platform preferences TABLE */
 {kick:"1.2 · Platform differences",title:'What each platform prefers to cite<span class="ac">.</span>',type:"x",
@@ -429,11 +608,32 @@ var S=[
 {kick:"1.3 · Types of visibility",title:'Unlinked mentions are the strongest lever<span class="ac">.</span>',type:"x",
  body:HB([
   {l:"Branded web mentions",v:0.664,d:"0.664",hi:1},
-  {l:"Backlinks",v:0.42,d:"lower",color:"#b9b5aa"},
-  {l:"Domain rating",v:0.38,d:"lower",color:"#b9b5aa"},
-  {l:"Referring domains",v:0.34,d:"lower",color:"#b9b5aa"}],{max:0.8,cap:"Correlation with AI-Overview visibility · 75,000-brand study (source: Ahrefs research)"})
+  {l:"Branded anchors",v:0.527,d:"0.527"},
+  {l:"Branded search volume",v:0.392,d:"0.392"},
+  {l:"Domain rating (DR)",v:0.326,d:"0.326"},
+  {l:"Referring domains",v:0.295,d:"0.295"},
+  {l:"Branded traffic",v:0.274,d:"0.274"},
+  {l:"Number of backlinks",v:0.218,d:"0.218",color:"#b9b5aa"},
+  {l:"Ad traffic",v:0.216,d:"0.216",color:"#b9b5aa"},
+  {l:"Ad cost",v:0.215,d:"0.215",color:"#b9b5aa"},
+  {l:"URL rating",v:0.18,d:"0.18",color:"#b9b5aa"},
+  {l:"Number of site pages",v:0.17,d:"0.17",color:"#b9b5aa"}],{max:0.7,cap:"Correlation with AI-Overview visibility · 75,000-brand study (source: Ahrefs research)"})
  +'<p class="note-inline">LLMs learn associations ("peanut butter → jelly"). Every credible mention is another training example — it compounds.</p>',
- notes:'<p>Unlinked mentions are far from worthless. LLMs learn by reading the web, so every time your brand appears on a credible page tied to a topic, it\'s another training example — and repeated association ("peanut butter → jelly," "Tesla → electric cars") makes the model mention you more confidently.</p><p>A 75,000-brand study found <b>branded web mentions had the strongest correlation with AI visibility of any factor — 0.664</b> with AI Overviews, beating backlinks, domain rating and referring domains. Even unlinked, being mentioned is the long game, and it compounds.</p>'},
+ notes:'<p>Unlinked mentions are far from worthless. LLMs learn by reading the web, so every time your brand appears on a credible page tied to a topic, it\'s another training example — and repeated association ("peanut butter → jelly," "Tesla → electric cars") makes the model mention you more confidently.</p><p>A 75,000-brand study found <b>branded web mentions had the strongest correlation with AI visibility of any factor — 0.664</b> with AI Overviews. Behind it: branded anchors (0.527), branded search volume (0.392), domain rating (0.326), referring domains (0.295), branded traffic (0.274), backlinks (0.218), ad traffic (0.216), ad cost (0.215), URL rating (0.18), and — nearly irrelevant — the number of pages on your site (0.17). Even unlinked, being mentioned is the long game, and it compounds.</p>'},
+
+/* 21b key takeaways by platform */
+{kick:"1.3 · Types of visibility",title:'The same lever works differently per platform<span class="ac">.</span>',type:"x",
+ body:TBL(["Factor","Where it matters most","Correlation"],[
+   ["YouTube mentions","Strongest across ChatGPT, AI Mode &amp; AI Overviews","<b>0.737</b>"],
+   ["YouTube mention impressions","Slightly weaker than mentions themselves","<b>0.717</b>"],
+   ["Branded anchors","AI Mode's strongest authority signal","<b>0.628</b>"],
+   ["Branded search volume","AI Mode","<b>0.466</b>"],
+   ["Branded search volume","ChatGPT (much weaker)","0.352"],
+   ["Domain rating (DR)","ChatGPT (much weaker)","0.266"],
+   ["Number of site pages","Overall — near zero","0.194"],
+   ["Brand overlap across assistants","How similarly ChatGPT, AI Mode &amp; AIO cite the same brands","<b>0.779</b>"]])
+ +'<p class="note-inline">Content volume barely matters anywhere. But <b>which</b> factor matters most flips by platform — AI Mode rewards branded authority signals; ChatGPT is comparatively indifferent to them.</p>',
+ notes:'<p>Zooming into the correlation data by platform reveals real nuance. YouTube mentions (0.737) outperform every other factor studied, and hold that top spot across ChatGPT, AI Mode, and AI Overviews alike — YouTube mention impressions are a close second at 0.717.</p><p>Google\'s AI Mode consistently shows the highest correlations with branded authority signals — branded anchors (0.628) and branded search volume (0.466). ChatGPT, by contrast, shows much weaker correlations with those same classic authority metrics — branded search volume only correlates at 0.352, and domain rating at just 0.266.</p><p>Two more things worth knowing: there is almost no relationship between how many pages a site has and its AI visibility (0.194) — publishing more thin pages doesn\'t help. And all three AI assistants largely mention the same brands, shown by a high output-overlap correlation of 0.779 — so most of the differentiation between platforms is in the details, not who gets mentioned overall.</p>'},
 
 /* 22 response types */
 {kick:"1.3 · Types of visibility",title:'Response type decides what matters for you<span class="ac">.</span>',type:"x",
@@ -469,13 +669,14 @@ var S=[
 
 /* 26 six gaps TABLE */
 {kick:"2.1 · Brand gap analysis · Step 3",title:'Identify gaps across six dimensions<span class="ac">.</span>',type:"x",
- body:TBL(["Gap","What it reveals"],[
-  ["Visibility","You appear less often than competitors"],
-  ["Narrative","AI describes you wrong (e.g. “budget” when you’re premium)"],
-  ["Topic","Topics you should own but aren’t linked to"],
-  ["Format","Missing the content types AI cites (guides, video, comparisons)"],
-  ["Web mentions","Listicles / forums cite rivals, not you"],
-  ["Demand","Awareness searches where your name never comes up"]],{cap:"Framework: bucket your prompts into these six dimensions"}),
+ body:GAPCARDS([
+   {t:"Visibility gap",d:"You appear less often than competitors"},
+   {t:"Narrative gap",d:"AI describes you wrong (e.g. “budget” when you’re premium)"},
+   {t:"Topic gap",d:"Topics you should own but aren’t linked to"},
+   {t:"Format gap",d:"Missing the content types AI cites (guides, video, comparisons)"},
+   {t:"Web mentions gap",d:"Listicles / forums cite rivals, not you"},
+   {t:"Demand gap",d:"Awareness searches where your name never comes up"}])
+ +'<p class="note-inline">Framework: bucket your prompts into these six dimensions as you audit.</p>',
  notes:'<p>One useful framework groups brand gaps into six dimensions. <b>Visibility</b>: you appear less than competitors. <b>Narrative</b>: AI mis-positions you. <b>Topic</b>: subjects you should own but aren\'t associated with. <b>Format</b>: you don\'t produce the content types AI cites. <b>Web mentions</b>: third-party pages list competitors but not you — one of the strongest AI signals. <b>Demand</b>: awareness-stage searches where your name never surfaces.</p><p>Together these give a complete picture — not just how often you show up, but whether you show up for the right things, in the right way, in the right places. Bucket your prompts into these six as you audit.</p>'},
 
 /* 27 prioritize */
@@ -498,17 +699,31 @@ var S=[
 
 /* 29 BID TABLE */
 {kick:"2.2 · Step 2 · The BID formula",title:'Is a keyword worth targeting<span class="ac">?</span>',type:"x",
- body:TBL(["Test","Ask","Example"],[
-  ["<b>B</b> · Business potential","If I rank #1, does it help the business?","“best espresso machine under $500” &gt; “what is espresso”"],
-  ["<b>I</b> · Intent","Does the SERP match my content type?","E-commerce SERP + a blog post = mismatch"],
-  ["<b>D</b> · Difficulty","Can I realistically rank?","A few low-DR sites in the top 10 = an opening"]]),
+ body:BIGLETTERS([
+   {letter:"B",label:"Business potential",sub:"If I rank #1, does it help the business?"},
+   {letter:"I",label:"Intent",sub:"Does the SERP match my content type?"},
+   {letter:"D",label:"Difficulty",sub:"Can I realistically rank?"}])
+ +'<p class="note-inline">“best espresso machine under $500” beats “what is espresso” · e-commerce SERP + a blog post = mismatch · a few low-DR sites in the top 10 = an opening.</p>',
  notes:'<p>Some tempting keywords are traps. Before committing, run <b>BID</b>. <b>Business potential</b>: ranking #1 should actually help the business. <b>Intent</b>: Google the term and match your content type to what ranks; if every result is an e-commerce page, a blog post won\'t win. <b>Difficulty</b>: check referring domains and DR of the top pages — a few low-DR sites signal an opening.</p>'},
 
 /* 30 AI filter VB */
 {kick:"2.2 · Step 3 · The AI filter",title:'Can AI fully satisfy the query alone<span class="ac">?</span>',type:"x",
- body:VB([{l:"All keywords",v:21,d:"21%"},{l:"7+ word queries",v:46,d:"46%"},{l:"Question queries",v:58,d:"58%"},{l:"Informational triggers",v:99.9,d:"99.9%",color:"var(--orange)"}],{max:100,h:170,cap:"How often AI Overviews appear, by query type"})
- +'<p class="note-inline">Queries AI <b>can’t</b> satisfy stay open: <b>calculator · checker · generator · tool · template · finder · planner · maker</b>, or filter for transactional intent.</p>',
+ body:VB([
+   {l:"1 word",v:9.5,d:"9.5%"},{l:"2",v:9.9,d:"9.9%"},{l:"3",v:14,d:"14%"},{l:"4",v:19.5,d:"19.5%"},
+   {l:"5",v:27.6,d:"27.6%"},{l:"6",v:36.6,d:"36.6%"},{l:"7+",v:46.4,d:"46.4%",color:"var(--orange)"}],
+   {max:50,h:150,cap:"Share of SERPs with an AI Overview, by query length (words) · 146M SERPs analyzed"})
+ +'<p class="note-inline">Also: <b>57.9%</b> of question queries trigger an AI Overview vs only <b>15.5%</b> of non-questions. Queries AI <b>can’t</b> satisfy stay open: <b>calculator · checker · generator · tool · template · finder · planner · maker</b>, or filter for transactional intent.</p>',
  notes:'<p>Even a BID-passing keyword can be a trap if the AI Overview answers it so well that no one clicks. AI Overviews show on ~21% of all keywords, but ~58% of question queries, 46% of 7+ word queries, and 99.9% of AIO-triggering keywords are informational. Google the term and ask: am I satisfied, or do I need to click?</p><p>The good news is a whole category AI hasn\'t touched — <b>tools and action queries</b>. Add modifiers like calculator, checker, generator, tool, template, finder, planner, maker, or filter for transactional intent. When someone needs to <i>do</i> something, the organic click is still there.</p>'},
+
+/* 30b AIO by intent */
+{kick:"2.2 · Step 3 · The AI filter",title:'AI Overviews are almost entirely an informational play<span class="ac">.</span>',type:"x",
+ body:VB([
+   {l:"Informational",v:99.9,d:"99.9%",hi:1},
+   {l:"Commercial",v:5.5,d:"5.5%"},
+   {l:"Transactional",v:1.2,d:"1.2%"},
+   {l:"Navigational",v:0.1,d:"0.1%",color:"#b9b5aa"}],{max:100,h:170,cap:"Share of SERPs with an AI Overview, by keyword intent · 146M SERPs analyzed"})
+ +'<p class="note-inline">Question queries trigger an AI Overview <b>57.9%</b> of the time, vs only <b>15.5%</b> for non-questions. If your keyword is commercial or transactional, AI is far less likely to steal the click.</p>',
+ notes:'<p>Zoom out from query length to query intent and the pattern is even sharper: 99.9% of all keywords that trigger an AI Overview are informational in intent. Commercial queries trigger one just 5.5% of the time, transactional 1.2%, and navigational queries (searching for a specific brand or site) almost never (0.1%).</p><p>Question phrasing matters too — a question-style query triggers an AI Overview 57.9% of the time, versus only 15.5% for a non-question phrasing of the same topic. Put together with the query-length data: long, informational, question-phrased keywords are AI\'s favorite target — and exactly where you should apply the AI filter hardest before committing to a traditional SEO push.</p>'},
 
 /* 31 mention opps + prompt research */
 {kick:"2.2 · Steps 4 & 5",title:'Find mention opportunities, then research prompts<span class="ac">.</span>',type:"x",
@@ -532,6 +747,38 @@ var S=[
   {l:"Word-count correlation",v:4,d:"0.04",color:"var(--orange)"}],{max:100,cap:"Length ≈ zero. Freshness & format win. (53.4% of cited pages are under 1,000 words)"}),
  notes:'<p>Three data-backed truths. <b>Length is irrelevant</b> — across 174,000+ cited pages the correlation between word count and citation is 0.04, and 53.4% of cited pages are under 1,000 words.</p><p><b>Freshness is powerful</b> — AI-cited content is 25.7% fresher than organic; 89.7% of ChatGPT\'s top-cited pages were updated in 2025 and 76% within the last 30 days. Make <i>meaningful</i> updates though — Google detects a bare date change. <b>Format matters</b> — 43.8% of ChatGPT citations are listicles, and data-driven stats and comparisons perform well because they map to how people ask AI.</p>'},
 
+/* 33c page types table */
+{kick:"3.1 · Content that gets cited",title:'Listicles dominate — but the mix shifts by niche<span class="ac">.</span>',type:"x",
+ body:TBL(["Page type","Software","Agency","Products","Average"],[
+   ["Blog list","51.4%","40.6%","39.5%","<b>43.8%</b>"],
+   ["Blog post","6.7%","4.9%","31.4%","14.3%"],
+   ["Landing page","14.6%","17.0%","0.1%","10.6%"],
+   ["Product page","0.8%","–","19.1%","10.0%"],
+   ["Non-blog list","11.7%","16.3%","0.1%","9.4%"],
+   ["Homepage","4.5%","9.3%","1.4%","5.1%"],
+   ["Social media","3.7%","1.4%","3.6%","2.9%"],
+   ["Individual review / profile","1.8%","1.6%","1.1%","1.5%"],
+   ["Category page","0.2%","2.5%","1.6%","1.4%"],
+   ["Award","0.6%","1.8%","0.1%","0.8%"]],{cap:"Most prominent page types across ChatGPT responses · 750 top-of-funnel queries checked"})
+ +'<p class="note-inline">Blog lists dominate everywhere, but product pages matter far more for product-category queries (19.1%) than for software (0.8%) or agency (~0%) queries.</p>',
+ notes:'<p>The 43.8% listicle figure is an average — the real mix shifts a lot by query type. Across 750 top-of-funnel queries checked in ChatGPT, blog lists (best-of, top-X posts) dominate every category, from 39.5% of product queries up to 51.4% of software queries.</p><p>But look at product pages: they barely register for software queries (0.8%) or agency queries (basically none), yet make up 19.1% of citations for product queries — when someone\'s comparing physical or e-commerce products, ChatGPT is much more willing to cite the product page itself rather than a third-party review. Landing pages and non-blog lists follow a similar software/agency-heavy pattern. The takeaway: know which page type wins for <em>your</em> query type before you decide what to build.</p>'},
+
+/* 33b length distribution */
+{kick:"3.1 · Content that gets cited",title:'Length is a wash — freshness is not<span class="ac">.</span>',type:"x",
+ body:VB([{l:"Under 1,000 words",v:53.4,d:"53.4%",hi:1},{l:"1,000–2,000 words",v:30.6,d:"30.6%"},{l:"Over 2,000 words",v:16,d:"16%",color:"var(--orange)"}],
+   {max:60,h:150,cap:"Distribution of AI-Overview-cited page lengths"})
+ +'<p class="note-inline">Average AI-cited page: <b>1,282 words</b> vs <b>1,188</b> for organic — nearly identical. <b>89.7%</b> of ChatGPT’s top-cited pages were last updated in 2025 alone.</p>',
+ notes:'<p>Length isn\'t a lever either way — the average length of an AI-Overview-cited page (1,282 words) is actually slightly above the average organic-ranking page (1,188 words), but the correlation between length and citation is still near-zero (0.04 Spearman). Over half of cited pages (53.4%) are under 1,000 words, 30.6% are 1,000–2,000, and only 16% are over 2,000 — so both short and long pages get cited when they answer the question well.</p><p>Freshness is the real lever: 89.7% of ChatGPT\'s top-cited pages were last updated in 2025 alone, with a long tail of older pages (6.4% from 2024, and under 2% combined from every year before that).</p>'},
+
+/* 33d freshness by year */
+{kick:"3.1 · Content that gets cited",title:'Almost every cited page was touched this year<span class="ac">.</span>',type:"x",
+ body:DONUT([
+   {l:"2025",v:89.7,d:"89.7%",color:"#1f2ed0"},
+   {l:"2024",v:6.4,d:"6.4%",color:"#7b7bf5"},
+   {l:"2023 and earlier",v:3.9,d:"3.9%",color:"#df531e"}],{cap:"ChatGPT's most-cited pages by last-update year · 564 URLs analyzed"})
+ +'<p class="note-inline">The "2023 and earlier" slice splits thin: 2023 (1.4%), 2022 (1.1%), then 2013–2021 combined add up to under 2%. AI-cited content averages 1,064 days since publication vs 1,432 days for organic — 25.7% fresher.</p>',
+ notes:'<p>Break the freshness stat down by year and it\'s stark: 89.7% of ChatGPT\'s most-cited pages (out of 564 URLs analyzed) were last updated in 2025 alone. Add 2024 (6.4%) and you\'ve accounted for 96.1% of all citations — everything from 2023 and earlier combines for under 4%: 2023 (1.4%), 2022 (1.1%), 2021 (0.2%), 2020 (0.2%), 2019 (0.4%), 2017 (0.2%), 2014 (0.2%), and 2013 (0.4%).</p><p>The underlying freshness math: averaged across ChatGPT, Perplexity, Copilot and Gemini, cited URLs were last published 1,064 days ago (2.9 years) on average, versus 1,432 days (3.9 years) for organic search results — cited content is 25.7% "fresher" ((1432-1064)/1432). A page that hasn\'t been meaningfully updated in over a year is already starting from behind.</p>'},
+
 /* 34 four principles */
 {kick:"3.1 · Content that gets cited",title:'Structure content with four principles<span class="ac">.</span>',type:"x",
  body:'<div class="cols"><div class="k"><h3>BLUF · Bottom Line Up Front</h3><ul><li>Start each section with the answer</li><li>Humans scan in an F-pattern; LLMs weight the start &amp; end most</li></ul></div>'
@@ -546,14 +793,24 @@ var S=[
  +'<div class="k hi"><h3>Refresh "sleeper" pages</h3><ul><li>Once ranked, slowly declined — still hold backlinks &amp; authority</li><li>Your SEO tool\'s top-pages report → sort by traffic change</li><li>Confirm it’s a <b>content</b> issue, not a links issue, then update</li></ul></div></div>',
  notes:'<p>Two more levers. First, <b>label your ideas with your brand</b>: LLMs flatten original concepts into generic knowledge, so name your framework, define it explicitly, and distribute it everywhere — the more places it appears with your name, the harder it is to flatten.</p><p>Second, <b>refresh sleeper pages</b> — pages that once ranked and declined. They still hold backlinks and authority; they just need a real update, and since freshness drives AI citations this is one of the fastest wins. Find them in your SEO tool\'s top-pages report, sort by traffic change, and confirm the decline is a content problem before updating.</p>'},
 
+/* 35b distribute widely */
+{kick:"3.1 · Content that gets cited",title:'Distribute it everywhere<span class="ac">.</span>',type:"x",
+ body:HUBSPOKE('[Your Brand]<br>Content Scoring Matrix',['Blog','LinkedIn','Newsletter','X','Podcast','Reddit'])
+ +'<p class="note-inline" style="text-align:center">The more places your brand appears, the more AI has to learn from.</p>',
+ notes:'<p>Once you\'ve named and defined your framework, distribute it everywhere — your blog, LinkedIn, a newsletter, X, your podcast, Reddit threads. Every additional surface where it appears with your brand attached is another training example that makes it harder for AI to flatten the idea into generic, uncredited knowledge.</p>'},
+
 /* 36 three tiers TABLE */
 {kick:"3.2 · Earning mentions",title:'Earn mentions in three tiers<span class="ac">.</span>',type:"x",
- body:'<p class="lead" style="max-width:96%">Where you’re mentioned matters as much as how often — mentions on <b>highly-linked pages</b> correlate <span class="em">0.7</span> with AI-Overview visibility.</p>'
+ body:HB([
+   {l:"Google AI Overviews",v:0.7,d:"0.70",hi:1},
+   {l:"Perplexity",v:0.4,d:"0.40"},
+   {l:"ChatGPT",v:0.11,d:"0.11",color:"#b9b5aa"}],{max:0.8,cap:"Correlation between mentions on highly-cited pages and AI visibility, by platform"})
+ +'<p class="lead" style="max-width:96%;margin-top:14px">Where you’re mentioned matters as much as how often — but the effect is far stronger for Google’s AI Overviews than for ChatGPT.</p>'
  +TBL(["Tier","Sources","Why it matters"],[
   ["1 · Editorial","Publications, review sites, authoritative listicles, creator reviews","Hardest to earn, most valuable — exactly what AI cites"],
   ["2 · Community / UGC","Reddit, Quora, niche forums","Reddit is heavily cited &amp; a core LLM training source"],
   ["3 · Own properties","Your YouTube, podcast, LinkedIn","All indexed — all potential AI sources"]]),
- notes:'<p>Much of AEO is off-site. Branded web mentions had the strongest correlation with AI Overview visibility, and mentions on <b>highly-linked pages</b> correlate 0.7 — quality of page matters as much as frequency.</p><p><b>Tier 1</b> editorial mentions are hardest to earn but most valuable — exactly the pages AI loves (43.8% of ChatGPT citations are listicles/comparisons). <b>Tier 2</b> community sources matter more than people think — Reddit is heavily cited and a foundational training source; contribute real answers, never spam. <b>Tier 3</b> is your own properties — YouTube, podcast, LinkedIn — all indexed and all potential AI sources.</p>'},
+ notes:'<p>Much of AEO is off-site. Branded web mentions had the strongest correlation with AI Overview visibility, and mentions on <b>highly-linked pages</b> correlate 0.7 with AI-Overview visibility — but that same correlation drops to just 0.4 for Perplexity and only 0.11 for ChatGPT. Where you\'re mentioned matters, but the platform changes how much.</p><p><b>Tier 1</b> editorial mentions are hardest to earn but most valuable — exactly the pages AI loves (43.8% of ChatGPT citations are listicles/comparisons). <b>Tier 2</b> community sources matter more than people think — Reddit is heavily cited and a foundational training source; contribute real answers, never spam. <b>Tier 3</b> is your own properties — YouTube, podcast, LinkedIn — all indexed and all potential AI sources.</p>'},
 
 /* 37 find + audit */
 {kick:"3.2 · Earning mentions",title:'Find the pages — and watch your mentions<span class="ac">.</span>',type:"x",
@@ -569,6 +826,12 @@ var S=[
   {l:"Branded web mentions → AIO",v:0.664,d:"0.664"}],{max:0.8,cap:"Correlation strengths · YouTube was the strongest factor in this research (source: Ahrefs)"})
  +'<p class="note-inline">#1 most-cited domain in AI Overviews · GPT-4 trained on <b>1M+ hours</b> of YouTube transcripts — AI learns from YouTube, not just cites it.</p>',
  notes:'<p>YouTube deserves its own lesson. It\'s the most-cited domain in Google\'s AI Overviews, YouTube mentions have a 0.737 correlation with ChatGPT visibility — the strongest of any factor studied — and GPT-4 was trained on over a million hours of YouTube transcripts. So YouTube is a platform AI both cites and learns from.</p><p>The process is three steps: find what already works (search hits), create videos engineered to rank, then layer in AI visibility.</p>'},
+
+/* 38b search hit vs viral hit */
+{kick:"3.3 · YouTube optimization",title:'Search hits compound. Viral hits fade<span class="ac">.</span>',type:"x",
+ body:LINECHART()
+ +'<p class="note-inline">A viral hit spikes once the algorithm exhausts interested viewers, then dies. A search hit compounds — steady Google + YouTube traffic, month after month — and is exactly what AI pulls from.</p>',
+ notes:'<p>Before you pick a topic, understand the difference. A viral hit gets a spike of views that can keep spreading based on a viewer\'s interests, but once the algorithm exhausts the interested audience, it dies off. A search hit gets consistent traffic from both Google and YouTube search, month after month, because people are actively searching for that topic — and it keeps compounding.</p><p>Search hits are exactly the kind of videos AI is likely to pull from: if Google is already ranking a YouTube video for a keyword, there\'s a good chance AI Overviews will cite it too.</p>'},
 
 /* 39 YouTube checklist */
 {kick:"3.3 · YouTube optimization",title:'Target search hits, then optimize to rank<span class="ac">.</span>',type:"x",
@@ -587,8 +850,9 @@ var S=[
 
 /* 41 technical five checks */
 {kick:"3.4 · Technical AEO",title:'Five more technical checks<span class="ac">.</span>',type:"x",
- body:'<ul class="pts">'
- +'<li><b>JavaScript rendering:</b> Gemini &amp; Copilot render JS; <span class="em">ChatGPT’s crawler does not</span>. Fix JS-dependent pages with <b>server-side rendering</b> (test: disable JS, load your page).</li>'
+ body:JSCARDS([{l:"Gemini",yes:true},{l:"Copilot",yes:true},{l:"ChatGPT",yes:false}])
+ +'<p class="note-inline" style="text-align:center">Does the crawler render JavaScript? Fix JS-dependent pages with <b>server-side rendering</b> (test: disable JS, load your page).</p>'
+ +'<ul class="pts" style="margin-top:14px">'
  +'<li><b>Page speed:</b> matters <em>more</em> for AI — slow pages get dropped before scoring during real-time retrieval.</li>'
  +'<li><b>Clean HTML:</b> proper H1→H2→H3, each section self-contained &amp; parseable.</li>'
  +'<li><b>Schema markup:</b> evidence mixed — keep it if you use it for SEO; don’t over-invest.</li>'
@@ -603,13 +867,13 @@ var S=[
 
 /* 43 pillar 1 */
 {kick:"4.1 · Tracking · Pillar 1",title:'Track AI referral traffic (with a caveat)<span class="ac">.</span>',type:"x",
- body:TBL(["Platform","Passes referral data?"],[
-  ["Claude","Yes — tracks properly"],
-  ["ChatGPT","Search links yes; in-content links on paid accounts use no-referrer → invisible"],
-  ["Perplexity","Web yes, desktop app no"],
-  ["Copilot","Web yes, Windows no"],
-  ["Grok","<b style='color:var(--orange)'>No — passes nothing</b>"]],{cap:"Treat analytics as an undercount / trend"})
- +'<p class="note-inline">Set up: GA4 custom channel "AI traffic" (chatgpt.com · perplexity · gemini · copilot · claude.ai · deepseek) — or a privacy-friendly web analytics tool with a built-in AI channel.</p>',
+ body:CHECKLIST([
+   {platform:"ChatGPT",rows:[{y:true,l:"Source links &amp; search results"},{y:false,l:"In-content links on paid accounts (noreferrer)"}]},
+   {platform:"Claude",rows:[{y:true,l:"All link types"}]},
+   {platform:"Perplexity",rows:[{y:true,l:"Web"},{y:false,l:"Desktop app"}]},
+   {platform:"Copilot",rows:[{y:true,l:"Web"},{y:false,l:"Windows"}]},
+   {platform:"Grok",rows:[{y:false,l:"Never passes referrer data"}]}])
+ +'<p class="note-inline">Treat analytics as an undercount / trend. Set up: GA4 custom channel "AI traffic" (chatgpt.com · perplexity · gemini · copilot · claude.ai · deepseek) — or a privacy-friendly web analytics tool with a built-in AI channel.</p>',
  notes:'<p><b>Pillar 1 — AI referral traffic:</b> when someone clicks from an AI platform and lands on you. But attribution is leaky: some platforms strip referral data so visits appear as "direct." ChatGPT\'s search-result links pass referral, but in-content links on paid accounts use a no-referrer attribute and vanish; Claude tracks properly; Perplexity tracks on web but not desktop; Copilot on web but not Windows; Grok passes nothing. Treat what you see as an undercount and a trend.</p><p>To set up in GA4, create a custom channel group isolating AI sources (regex for chatgpt.com, perplexity, gemini.google.com, copilot.microsoft.com, claude.ai, deepseek.com). Simpler still, some free web analytics tools have a built-in AI channel and separate "unknown" from "direct" traffic.</p>'},
 
 /* 44 pillars 2 & 3 */
@@ -693,17 +957,58 @@ function show(n){
   jump.value=idx;
   prevB.disabled=idx===0;nextB.disabled=idx===tot-1;
   window.scrollTo({top:0,behavior:'instant'});
+  fitFullscreen();
 }
 prevB.onclick=function(){show(idx-1)};
 nextB.onclick=function(){show(idx+1)};
 jump.onchange=function(e){show(+e.target.value)};
 ntoggle.onclick=function(){document.body.classList.toggle('notes-on');ntoggle.classList.toggle('act',document.body.classList.contains('notes-on'));};
+
+/* ======================= fullscreen presentation mode ======================= */
+var fsbtn=document.getElementById('fsbtn');
+var REF_W=1128, REF_H=634;
+function fitFullscreen(){
+  if(!document.body.classList.contains('fs-mode'))return;
+  var slide=document.querySelector('.page.active .slide');
+  if(!slide)return;
+  var k=Math.min(window.innerWidth/REF_W, window.innerHeight/REF_H)*0.94;
+  slide.style.transform='scale('+k+')';
+}
+function enterFsMode(){
+  document.body.classList.add('fs-mode');
+  fsbtn.classList.add('act');
+  fitFullscreen();
+}
+function exitFsMode(){
+  document.body.classList.remove('fs-mode');
+  fsbtn.classList.remove('act');
+  var slide=document.querySelector('.page.active .slide');
+  if(slide) slide.style.transform='';
+}
+fsbtn.onclick=function(){
+  if(!document.fullscreenElement && document.documentElement.requestFullscreen){
+    document.documentElement.requestFullscreen().catch(function(){});
+  }
+  if(document.body.classList.contains('fs-mode')){
+    if(document.fullscreenElement && document.exitFullscreen) document.exitFullscreen().catch(function(){});
+    exitFsMode();
+  } else {
+    enterFsMode();
+  }
+};
+document.addEventListener('fullscreenchange',function(){
+  if(!document.fullscreenElement && document.body.classList.contains('fs-mode')) exitFsMode();
+});
+window.addEventListener('resize',fitFullscreen);
+
 document.addEventListener('keydown',function(e){
   if(e.key==='ArrowRight'||e.key==='PageDown'){e.preventDefault();show(idx+1);}
   else if(e.key==='ArrowLeft'||e.key==='PageUp'){e.preventDefault();show(idx-1);}
   else if(e.key==='Home'){show(0);}
   else if(e.key==='End'){show(tot-1);}
   else if(e.key==='n'||e.key==='N'){ntoggle.click();}
+  else if(e.key==='f'||e.key==='F'){fsbtn.click();}
+  else if(e.key==='Escape'&&document.body.classList.contains('fs-mode')){exitFsMode();}
 });
 show(0);
 </script>
