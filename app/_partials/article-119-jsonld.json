@@ -1,0 +1,119 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/crypto-go-to-market-strategy-2026#article",
+      "headline": "Crypto Go-to-Market Strategy in 2026: Where PR Fits",
+      "alternativeHeadline": "How PR sequences with product and growth in a token or protocol GTM plan",
+      "description": "A GTM plan that treats PR as an afterthought wastes its own launch. This 2026 breakdown covers where earned media sits before, during and after a token launch, how PR coordinates with product and growth, and a full GTM timeline template.",
+      "url": "https://www.shilikajain.com/playbook/crypto-go-to-market-strategy-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/crypto-go-to-market-strategy-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2380,
+      "timeRequired": "PT9M",
+      "articleSection": "Strategy",
+      "keywords": ["crypto PR", "crypto go-to-market strategy", "token launch GTM", "PR sequencing", "protocol launch strategy", "TGE communications", "Web3 marketing plan", "crypto PR agency", "token launch PR", "DePIN go-to-market"],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "Go-to-market strategy" },
+        { "@type": "Thing", "name": "Crypto PR" },
+        { "@type": "Thing", "name": "Token launch" },
+        { "@type": "Thing", "name": "TGE communications" },
+        { "@type": "Thing", "name": "Growth marketing" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "Cointelegraph" },
+        { "@type": "Organization", "name": "The Block" },
+        { "@type": "Organization", "name": "Decrypt" },
+        { "@type": "Organization", "name": "Blockworks" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "Crypto Go-to-Market Strategy in 2026: Where PR Fits", "item": "https://www.shilikajain.com/playbook/crypto-go-to-market-strategy-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/crypto-go-to-market-strategy-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "When should PR start in a crypto go-to-market plan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PR should start 6 to 10 weeks before token generation, running as a parallel track alongside product and growth rather than a final step after the growth plan is locked. That lead time is needed to build the media list, brief reporters under embargo, and place a founder op-ed that frames the announcement before it lands. The full pre-launch sequence is in the pre-token launch PR checklist."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does PR coordinate with growth and community during a launch?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PR's embargoed exclusive needs to break first, before the growth team's amplification push and any community teasers, so the story is validated by tier-1 coverage before it goes wide. If community or KOL channels leak the announcement early, embargoes break and lead outlets can pull exclusivity. The exact publishing order is covered in the TGE communications timeline."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if PR is added to the GTM plan too late?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A team that assigns PR two weeks before launch is left cold-pitching reporters with no relationship or narrative built, competing against dozens of other token launches that week. The realistic outcome is a wire pickup or paid placement instead of a tier-1 exclusive. The fix is structural: give PR a seat in GTM planning at the same time as product and growth, with its own 6 to 10 week timeline."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much should a token launch budget for PR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A full token launch PR sprint, covering media list building, embargo management, an op-ed and launch-day coordination, typically runs $15,000 to $40,000. A fractional senior operator running PR as an ongoing GTM track runs $5,000 to $12,000 a month, which fits teams planning multiple milestone announcements across the year. Details on scope are on the token launch PR service page."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does PR keep working after TGE, or does it end at launch?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PR should continue for 30 to 60 days after launch, when trade press and regional outlets pick up the story the tier-1 exclusive already validated, and when growth milestones like TVL or node count become new pitchable stories. Founders who treat TGE as the finish line get one news cycle. Founders who treat it as the midpoint get a quarter of coverage."
+          }
+        }
+      ]
+    }
+  ]
+}

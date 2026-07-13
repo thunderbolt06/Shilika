@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/crypto-ghostwriting-agency#service",
+      "name": "Crypto Ghostwriting Agency — Founder-Voice Content",
+      "serviceType": "Content Writing",
+      "url": "https://www.shilikajain.com/pages/crypto-ghostwriting-agency",
+      "description": "Op-eds, threads and long-form essays written in a founder's actual voice, not template copy with the name swapped in. Shilika Jain ghostwrites for Web3, AI, DePIN and cybersecurity founders, with essays and op-eds that have run in CoinDesk, Forbes and Decrypt, priced at $5K–$12K/month as a fractional operator.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 5000,
+          "maxPrice": 12000,
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "Crypto Ghostwriting Agency", "item": "https://www.shilikajain.com/pages/crypto-ghostwriting-agency" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/crypto-ghostwriting-agency#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is crypto ghostwriting and who is it for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Crypto ghostwriting is having a senior writer draft op-eds, threads and essays that carry a founder's real arguments and voice, published under the founder's name. It is for Web3, AI, DePIN and cybersecurity founders who have opinions worth publishing but not the hours to write them well every week."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does crypto ghostwriting cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fractional senior ghostwriter runs $5K–$12K per month for a steady cadence of essays, threads and op-eds, versus $15K–$45K per month at a full agency that staffs junior writers on your account. A single launch sprint of concentrated writing and placement runs $15K–$40K over four to eight weeks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What do you actually deliver, and where does it get placed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Founder op-eds pitched directly to outlets like CoinDesk, Cointelegraph, Forbes and Decrypt, plus LinkedIn and X threads, long-form essays, and newsletter copy, all drafted from a real interview with the founder. Placement depends on a real argument, not a wire-style press release dressed up as an opinion piece."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the process and how long does a piece take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It starts with a 45-60 minute voice interview, then a thesis map of the two or three positions worth publishing. A first draft usually turns around in three to five business days, with one editing round before it is pitched or published."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get started with Shilika Jain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short project brief through the intent form and you will get a reply within 24 hours with a quick read on your current writing and voice, or book a 30-minute call to plot the first piece live."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/pages/depin-marketing-agency#service",
+      "name": "DePIN Marketing Agency — Fractional Senior Operator",
+      "serviceType": "Web3 PR",
+      "url": "https://www.shilikajain.com/pages/depin-marketing-agency",
+      "description": "A DePIN marketing agency worth hiring is run by a senior operator who has already made DePIN a tier-1 media beat, not a generalist Web3 shop. Shilika Jain built Fluence's DePIN press position from scratch, including a CoinDesk Opinion byline, and runs fractional DePIN marketing for $5K–$12K/month versus $15K–$45K/month at a full agency.",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "areaServed": ["Global"],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 5000,
+          "maxPrice": 12000,
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
+        { "@type": "ListItem", "position": 3, "name": "DePIN Marketing Agency", "item": "https://www.shilikajain.com/pages/depin-marketing-agency" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/pages/depin-marketing-agency#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a DePIN marketing agency and who needs one?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A DePIN marketing agency turns network growth, node economics and infrastructure milestones into press coverage and investor-grade narrative. It is for DePIN founders, whether in wireless, compute, storage, energy or sensor networks, who need buyers, node operators and investors to understand the category in one sentence, not a pitch deck. Shilika Jain built Fluence's DePIN press position from scratch and runs fractional DePIN marketing directly for $5K–$12K/month."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does DePIN marketing and PR cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Full-service Web3 and DePIN agencies typically charge $15K–$45K per month because the retainer funds a multi-person account team. A fractional senior operator runs the same senior scope for $5K–$12K per month, and a standalone launch sprint around a mainnet or hardware milestone runs $15K–$40K over four to eight weeks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What outlets and deliverables does DePIN marketing actually cover?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tier-1 crypto and infra: CoinDesk, Cointelegraph, The Block, Decrypt, Blockworks, The Defiant. Mainstream where the angle warrants it: Forbes, Bloomberg, Yahoo Finance, Benzinga. Regional: BloomingBit and TokenPost (Korea), Inc42 (India), e27 (SEA). Deliverables run from category positioning and op-eds to embargo launches, KOL waves and ongoing sentiment and AI-citation tracking."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When should a DePIN project start marketing and PR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Six to twelve weeks before a public moment, a mainnet launch, hardware rollout, node-network milestone or raise, is the highest-leverage window. That is when category positioning, journalist relationships and embargo prep can actually be built instead of rushed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get started with Shilika Jain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send a short project brief through the intent form and you will get a reply within 24 hours with a quick read on your press footprint, or book a 30-minute call to plot it live."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/web3-narrative-positioning-strategy-2026#article",
+      "headline": "Web3 Narrative and Positioning Strategy in 2026",
+      "alternativeHeadline": "How to build a Web3 narrative that press, investors and users all believe at once",
+      "description": "Positioning decides which category you compete in before a single pitch goes out. A working operator's breakdown of narrative architecture, category framing and competitive positioning for Web3, AI, DePIN and cybersecurity founders in 2026, and how to keep one story consistent across press, investors and users.",
+      "url": "https://www.shilikajain.com/playbook/web3-narrative-positioning-strategy-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/web3-narrative-positioning-strategy-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2045,
+      "timeRequired": "PT9M",
+      "articleSection": "Strategy",
+      "keywords": ["Web3 marketing PR agency", "Web3 narrative strategy", "crypto positioning strategy", "narrative architecture Web3", "category positioning crypto", "competitive framing PR", "Web3 PR agency", "founder narrative 2026", "DePIN positioning", "AI startup positioning"],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "Narrative architecture" },
+        { "@type": "Thing", "name": "Category positioning" },
+        { "@type": "Thing", "name": "Competitive framing" },
+        { "@type": "Thing", "name": "Web3 PR strategy" },
+        { "@type": "Thing", "name": "Investor communications" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "Forbes" },
+        { "@type": "Organization", "name": "Cointelegraph" },
+        { "@type": "Organization", "name": "Decrypt" },
+        { "@type": "Organization", "name": "The Block" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "Web3 Narrative and Positioning Strategy in 2026", "item": "https://www.shilikajain.com/playbook/web3-narrative-positioning-strategy-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/web3-narrative-positioning-strategy-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the difference between positioning and narrative in Web3 PR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Positioning is the category decision, which existing mental map you fit into and what you own inside it that nobody else claims. Narrative is the argument layered on top for why that positioning matters right now, at this specific moment in the market. Positioning has to come first, because a strong narrative built on the wrong category still fails to land with press or investors."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I make sure my narrative works for press, investors and users at once?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Write the positioning as a single sentence, then test it against all three: a reporter needs a category they can name in one line, an investor needs it to map to a market size and a defensible wedge, and a user needs to understand what the product does from a homepage headline. If any of the three would ask \"so what is it,\" the positioning is not finished. Consistency across all three is what makes coverage, funding conversations and onboarding reinforce each other instead of contradicting."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to shift how the market perceives a project?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Expect roughly 90 days of consistent execution, meaning reporters and investors repeating your framing back to you unprompted, once the positioning itself is actually settled. The positioning workshop itself takes one to two weeks. The 90 days covers the repetition across bylines, coverage and social that makes a category claim stick, which is why founder thought leadership is the mechanism, not a single announcement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should paid KOL campaigns use a different narrative than press?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, they should run the same category claim through different channels. A KOL thread and a press exclusive that make contradictory claims about what you are confuse the market faster than either one alone can fix. Paid media amplifies a narrative that already exists, it does not substitute for deciding the positioning first."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if our positioning claim is not fully true yet?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It gets found out, usually fast, because reporters and due-diligence analysts both check the underlying facts before running with a category claim. The fix is to find the most compelling true differentiator before writing a single word of press material, not to soften the claim once it is challenged. This is the first thing a proper positioning workshop should surface."
+          }
+        }
+      ]
+    }
+  ]
+}

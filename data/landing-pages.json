@@ -2000,5 +2000,125 @@
       "/services/token-launch-pr",
       "/pages/token-launch-pr-agency"
     ]
+  },
+  {
+    "n": 101,
+    "slug": "depin-marketing-agency",
+    "h1": "DePIN marketing that turns nodes into narrative",
+    "title": "DePIN Marketing Agency 2026 | Nodes, Network Effects, Press",
+    "deck": "A senior operator who turns network growth, node economics and infrastructure milestones into press and investor-grade narrative for DePIN projects.",
+    "serviceKey": "web3",
+    "service": "Web3 PR",
+    "cat": "WEB3 PR",
+    "servicePage": "/services/web3-pr-campaigns",
+    "region": "Global",
+    "vertical": "DePIN",
+    "intent": "Hire",
+    "links": [
+      "/playbook/depin-pr-strategy-2026",
+      "/pages/depin-pr-agency",
+      "/services/web3-pr-campaigns",
+      "/pages/web3-pr-agency"
+    ]
+  },
+  {
+    "n": 102,
+    "slug": "web3-investor-relations-agency",
+    "h1": "Investor relations for Web3 founders raising real capital",
+    "title": "Web3 Investor Relations Agency 2026 | Fundraising & VC Comms",
+    "deck": "Fundraising PR and investor-facing communications for token and equity raises: embargoed announcements, VC positioning and the narrative that gets a round covered.",
+    "serviceKey": "web3",
+    "service": "Web3 PR",
+    "cat": "WEB3 PR",
+    "servicePage": "/services/web3-pr-campaigns",
+    "region": "Global",
+    "vertical": "Fundraising",
+    "intent": "Hire",
+    "links": [
+      "/playbook/tge-communications-timeline-2026",
+      "/pages/web3-pr-agency",
+      "/services/web3-pr-campaigns",
+      "/pages/founder-pr-agency"
+    ]
+  },
+  {
+    "n": 103,
+    "slug": "founder-media-training",
+    "h1": "Media training that makes founders sound like the expert they are",
+    "title": "Founder Media Training 2026 | Interview & Spokesperson Prep",
+    "deck": "Interview prep, message discipline and on-camera coaching for founders who are about to become their company's spokesperson.",
+    "serviceKey": "founder",
+    "service": "Founder Profiling & Op-Eds",
+    "cat": "FOUNDER",
+    "servicePage": "/services/founder-profiling",
+    "region": "Global",
+    "vertical": "General",
+    "intent": "Hire",
+    "links": [
+      "/pages/founder-thought-leadership-agency",
+      "/services/founder-profiling",
+      "/playbook/how-to-get-podcast-interviews-founder-2026",
+      "/pages/executive-visibility-agency"
+    ]
+  },
+  {
+    "n": 104,
+    "slug": "web3-partnership-announcement-pr",
+    "h1": "Partnership announcements that read like news, not a press release",
+    "title": "Web3 Partnership Announcement PR 2026 | Integrations & Launches",
+    "deck": "PR for partnership, integration and feature launches: the news hook, the joint narrative and the outreach that gets picked up.",
+    "serviceKey": "web3",
+    "service": "Web3 PR",
+    "cat": "WEB3 PR",
+    "servicePage": "/services/web3-pr-campaigns",
+    "region": "Global",
+    "vertical": "General",
+    "intent": "Hire",
+    "links": [
+      "/playbook/how-to-write-crypto-press-release-2026",
+      "/pages/web3-pr-agency",
+      "/services/web3-pr-campaigns",
+      "/pages/token-launch-pr-agency"
+    ]
+  },
+  {
+    "n": 105,
+    "slug": "crypto-regulatory-pr",
+    "h1": "Regulatory messaging that builds trust, not headlines you regret",
+    "title": "Crypto Regulatory PR 2026 | Compliance-Aware Communications",
+    "deck": "Communications built around real regulatory constraints: what you can say, how to say it, and how to keep momentum without overreaching.",
+    "serviceKey": "web3",
+    "service": "Web3 PR",
+    "cat": "WEB3 PR",
+    "servicePage": "/services/web3-pr-campaigns",
+    "region": "Global",
+    "vertical": "Regulatory",
+    "intent": "Hire",
+    "links": [
+      "/playbook/crypto-crisis-communications-2026",
+      "/pages/web3-pr-agency",
+      "/services/web3-pr-campaigns",
+      "/pages/dao-pr-agency"
+    ]
+  },
+  {
+    "n": 106,
+    "slug": "crypto-ghostwriting-agency",
+    "h1": "Ghostwriting that sounds like the founder, not an agency",
+    "title": "Crypto Ghostwriting Agency 2026 | Founder-Voice Content",
+    "deck": "Op-eds, threads and long-form essays written in a founder's actual voice, not template copy with the name swapped in.",
+    "serviceKey": "content",
+    "service": "Content Writing",
+    "cat": "CONTENT",
+    "servicePage": "/services/content-writing",
+    "region": "Global",
+    "vertical": "General",
+    "intent": "Hire",
+    "links": [
+      "/pages/founder-essay-ghostwriting",
+      "/pages/linkedin-ghostwriting-for-founders",
+      "/services/content-writing",
+      "/pages/founder-thought-leadership-agency"
+    ]
   }
 ]

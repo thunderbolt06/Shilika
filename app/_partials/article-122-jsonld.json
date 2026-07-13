@@ -1,0 +1,119 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.shilikajain.com/playbook/crypto-sustainability-esg-pr-2026#article",
+      "headline": "Crypto Sustainability and ESG PR in 2026",
+      "alternativeHeadline": "How to talk about crypto sustainability credibly without greenwashing claims you cannot back up",
+      "description": "Energy and ESG questions still shape how crypto gets covered in 2026. This playbook covers credible sustainability messaging versus greenwashing, real proof points like PoS energy data and verified offsets, outlet-specific pitch angles, and how to respond when an ESG story turns critical.",
+      "url": "https://www.shilikajain.com/playbook/crypto-sustainability-esg-pr-2026",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/playbook/crypto-sustainability-esg-pr-2026"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "width": 1200,
+        "height": 628
+      },
+      "wordCount": 2274,
+      "timeRequired": "PT8M",
+      "articleSection": "Strategy",
+      "keywords": ["crypto PR", "ESG PR crypto", "crypto sustainability PR", "greenwashing crypto", "Web3 PR agency", "DePIN sustainability", "proof of stake energy", "crypto crisis communications", "carbon offsets crypto", "sustainability messaging Web3"],
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "about": [
+        { "@type": "Thing", "name": "ESG communications" },
+        { "@type": "Thing", "name": "Crypto sustainability" },
+        { "@type": "Thing", "name": "Greenwashing" },
+        { "@type": "Thing", "name": "Proof of stake" },
+        { "@type": "Thing", "name": "DePIN" }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "CoinDesk" },
+        { "@type": "Organization", "name": "Forbes" },
+        { "@type": "Organization", "name": "Bloomberg" },
+        { "@type": "Organization", "name": "Blockworks" },
+        { "@type": "Organization", "name": "The Block" }
+      ],
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain — Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
+        { "@type": "ListItem", "position": 3, "name": "Crypto Sustainability and ESG PR in 2026", "item": "https://www.shilikajain.com/playbook/crypto-sustainability-esg-pr-2026" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.shilikajain.com/playbook/crypto-sustainability-esg-pr-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is it safe for a crypto project to call itself \"green\" or \"carbon neutral\"?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not without a number attached. \"Green\" and \"carbon neutral\" are exactly the phrases that trigger fact-checking at business and sustainability desks, and an unsourced version of either claim is one of the fastest ways to get a pitch declined or a published quote flagged after the fact. Name the consensus mechanism, the grid data, or the offset registry behind the claim instead of the adjective alone."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much did Ethereum's energy use actually drop after the Merge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Roughly 99.95 percent, based on the Ethereum Foundation's own post-Merge estimates comparing proof-of-work mining energy consumption to proof-of-stake validation. This figure is well documented and widely accepted by crypto and mainstream press, which makes it one of the few sustainability statistics safe to cite directly, as long as you're describing a genuinely proof-of-stake system and not borrowing the number for a different consensus model."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should a DePIN network disclose to make an ESG claim credible?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Actual node or facility locations, the grid carbon intensity at those locations sourced from the regional grid operator, and hardware lifecycle detail such as manufacturing footprint and end-of-life disposal plans. Generic language like \"powered by renewable energy\" with no locations or sourcing reads as marketing copy to reporters covering physical infrastructure, and will get challenged rather than run as-is."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How should a project respond to a critical ESG or greenwashing story?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Acknowledge the specific claim being made, respond with sourced data rather than adjectives, and correct anything that was genuinely inaccurate instead of defending it. This follows the same discipline as any reputational event, covered in more depth in crypto crisis communications. Projects that handle a fair critique with a real correction tend to earn more credibility with that reporter over time than projects that were never challenged at all."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do carbon offsets actually help a crypto project's PR narrative?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Only if they're specific. Naming the offset registry (such as Verra or Gold Standard), the project ID, and the percentage of emissions actually covered reads as credible. A vague \"we offset our footprint\" with no provider named reads as greenwashing to any reporter who has covered offset-market credibility issues, which most sustainability desks have by now."
+          }
+        }
+      ]
+    }
+  ]
+}

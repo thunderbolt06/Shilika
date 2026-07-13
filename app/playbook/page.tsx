@@ -11,11 +11,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 export const metadata: Metadata = {
   title: 'Playbooks: Field Guides From Inside Web3, AI & Cyber PR',
   description:
-    '117 long-form playbooks on Web3 PR, AI startup comms and cybersecurity PR. Pricing, pitch guides for CoinDesk and Cointelegraph, a pre-token-launch checklist, agency-selection mistakes, op-eds vs press releases, whitepaper writing for AI startups, named launch teardowns, regional teardowns and the trade-offs founders should weigh.',
+    '122 long-form playbooks on Web3 PR, AI startup comms and cybersecurity PR. Pricing, pitch guides for CoinDesk and Cointelegraph, a pre-token-launch checklist, agency-selection mistakes, op-eds vs press releases, whitepaper writing for AI startups, named launch teardowns, regional teardowns and the trade-offs founders should weigh.',
   alternates: { canonical: `${SITE_URL}/playbook` },
   openGraph: {
     title: 'Shilika Jain — Playbooks',
-    description: '115 long-form playbooks from inside Web3, AI & cybersecurity PR.',
+    description: '122 long-form playbooks from inside Web3, AI & cybersecurity PR.',
     url: `${SITE_URL}/playbook`,
     type: 'website',
   },
@@ -149,6 +149,46 @@ const PLAYBOOKS = [
     time: 8,
   },
   // AUTO-PLAYBOOKS-15-114 — generated from data/playbook-topics.json
+  {
+    n: 118,
+    slug: 'web3-narrative-positioning-strategy-2026',
+    title: 'Web3 Narrative and Positioning Strategy in 2026',
+    description: 'Positioning decides which category you compete in before a single pitch goes out. How to build a narrative that a reporter, an investor and a user all believe.',
+    tag: 'Strategy',
+    time: 9,
+  },
+  {
+    n: 119,
+    slug: 'crypto-go-to-market-strategy-2026',
+    title: 'Crypto Go-to-Market Strategy in 2026: Where PR Fits',
+    description: 'A GTM plan that treats PR as an afterthought wastes its own launch. Where earned media sits in a token or protocol go-to-market, and in what order.',
+    tag: 'Strategy',
+    time: 9,
+  },
+  {
+    n: 120,
+    slug: 'best-nft-news-outlets-to-pitch-2026',
+    title: 'Best NFT News Outlets to Pitch in 2026',
+    description: 'A working media list for NFT coverage: which outlets run what, how their desks differ, and how to pitch each one without wasting the shot.',
+    tag: 'Field guide',
+    time: 9,
+  },
+  {
+    n: 121,
+    slug: 'zk-proof-pr-2026',
+    title: 'Zero-Knowledge Proof PR in 2026: Explaining ZK Without Losing the Reader',
+    description: 'ZK tech is genuinely hard to explain. The translation layer that turns proof systems into a story a mainstream reporter can run.',
+    tag: 'Infrastructure',
+    time: 8,
+  },
+  {
+    n: 122,
+    slug: 'crypto-sustainability-esg-pr-2026',
+    title: 'Crypto Sustainability and ESG PR in 2026',
+    description: 'Energy and ESG questions still shape how crypto gets covered. How to talk about sustainability credibly, without greenwashing claims you cannot back up.',
+    tag: 'Strategy',
+    time: 8,
+  },
   {
     n: 15,
     slug: 'how-to-get-featured-in-decrypt-2026',
@@ -998,7 +1038,7 @@ export default function PlaybookIndexPage() {
             <section className="blog-index-hero">
               <div>
                 <p className="blog-index-kicker">
-                  <span className="dot" /> Playbook · 117 field guides
+                  <span className="dot" /> Playbook · 122 field guides
                 </p>
                 <h1 className="blog-index-title">
                   Field <em>guides</em>.

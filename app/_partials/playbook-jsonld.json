@@ -47,7 +47,7 @@
         "@type": "ItemList",
         "name": "Shilika Jain Playbooks",
         "itemListOrder": "https://schema.org/ItemListOrderAscending",
-        "numberOfItems": 115,
+        "numberOfItems": 120,
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -738,6 +738,36 @@
             "position": 115,
             "url": "https://www.shilikajain.com/playbook/whitepaper-writing-ai-startups-2026",
             "name": "Whitepaper Writing for AI Startups in 2026"
+          },
+          {
+            "@type": "ListItem",
+            "position": 116,
+            "url": "https://www.shilikajain.com/playbook/best-nft-news-outlets-to-pitch-2026",
+            "name": "Best NFT News Outlets to Pitch in 2026"
+          },
+          {
+            "@type": "ListItem",
+            "position": 117,
+            "url": "https://www.shilikajain.com/playbook/zk-proof-pr-2026",
+            "name": "Zero-Knowledge Proof PR in 2026: Explaining ZK Without Losing the Reader"
+          },
+          {
+            "@type": "ListItem",
+            "position": 118,
+            "url": "https://www.shilikajain.com/playbook/crypto-sustainability-esg-pr-2026",
+            "name": "Crypto Sustainability and ESG PR in 2026"
+          },
+          {
+            "@type": "ListItem",
+            "position": 119,
+            "url": "https://www.shilikajain.com/playbook/web3-narrative-positioning-strategy-2026",
+            "name": "Web3 Narrative and Positioning Strategy in 2026"
+          },
+          {
+            "@type": "ListItem",
+            "position": 120,
+            "url": "https://www.shilikajain.com/playbook/crypto-go-to-market-strategy-2026",
+            "name": "Crypto Go-to-Market Strategy in 2026: Where PR Fits"
           }
         ]
       }

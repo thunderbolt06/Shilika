@@ -1698,5 +1698,90 @@
       "/playbook/how-to-get-featured-in-decrypt-2026",
       "/services/web3-pr-campaigns"
     ]
+  },
+  {
+    "n": 118,
+    "slug": "web3-narrative-positioning-strategy-2026",
+    "title": "Web3 Narrative and Positioning Strategy in 2026",
+    "deck": "Positioning decides which category you compete in before a single pitch goes out. How to build a narrative that a reporter, an investor and a user all believe.",
+    "tag": "Strategy",
+    "cat": "STRATEGY",
+    "time": 9,
+    "primaryKeyword": "Web3 marketing PR agency",
+    "angle": "Narrative architecture, category positioning, competitive framing, keeping the story consistent across press, investor and user audiences.",
+    "links": [
+      "/playbook/how-to-build-founder-thought-leadership-2026",
+      "/services/web3-pr-campaigns",
+      "/pages/web3-pr-agency",
+      "/playbook/earned-vs-paid-media-web3-2026"
+    ]
+  },
+  {
+    "n": 119,
+    "slug": "crypto-go-to-market-strategy-2026",
+    "title": "Crypto Go-to-Market Strategy in 2026: Where PR Fits",
+    "deck": "A GTM plan that treats PR as an afterthought wastes its own launch. Where earned media sits in a token or protocol go-to-market, and in what order.",
+    "tag": "Strategy",
+    "cat": "STRATEGY",
+    "time": 9,
+    "primaryKeyword": "Crypto PR",
+    "angle": "GTM sequencing, PR's role pre-launch/at-launch/post-launch, coordination with product and growth, timeline template.",
+    "links": [
+      "/playbook/pre-token-launch-pr-checklist",
+      "/playbook/tge-communications-timeline-2026",
+      "/services/token-launch-pr",
+      "/pages/token-launch-pr-agency"
+    ]
+  },
+  {
+    "n": 120,
+    "slug": "best-nft-news-outlets-to-pitch-2026",
+    "title": "Best NFT News Outlets to Pitch in 2026",
+    "deck": "A working media list for NFT coverage: which outlets run what, how their desks differ, and how to pitch each one without wasting the shot.",
+    "tag": "Field guide",
+    "cat": "TIER-1",
+    "time": 9,
+    "primaryKeyword": "NFT PR",
+    "angle": "NFT-focused outlet map, desk-by-desk differences, pitch angle per outlet, sequencing across sites.",
+    "links": [
+      "/playbook/coindesk-vs-cointelegraph-where-to-pitch-2026",
+      "/pages/nft-pr-agency",
+      "/playbook/crypto-media-relations-guide-2026",
+      "/services/web3-pr-campaigns"
+    ]
+  },
+  {
+    "n": 121,
+    "slug": "zk-proof-pr-2026",
+    "title": "Zero-Knowledge Proof PR in 2026: Explaining ZK Without Losing the Reader",
+    "deck": "ZK tech is genuinely hard to explain. The translation layer that turns proof systems into a story a mainstream reporter can run.",
+    "tag": "Infrastructure",
+    "cat": "STRATEGY",
+    "time": 8,
+    "primaryKeyword": "Web3 infrastructure PR",
+    "angle": "ZK-specific narrative translation, avoiding jargon, real use-case framing, outlet fit (The Block, Blockworks, Decrypt).",
+    "links": [
+      "/playbook/restaking-pr-2026",
+      "/playbook/rwa-tokenization-pr-2026",
+      "/pages/web3-infrastructure-pr-agency",
+      "/services/web3-pr-campaigns"
+    ]
+  },
+  {
+    "n": 122,
+    "slug": "crypto-sustainability-esg-pr-2026",
+    "title": "Crypto Sustainability and ESG PR in 2026",
+    "deck": "Energy and ESG questions still shape how crypto gets covered. How to talk about sustainability credibly, without greenwashing claims you cannot back up.",
+    "tag": "Strategy",
+    "cat": "STRATEGY",
+    "time": 8,
+    "primaryKeyword": "Crypto PR",
+    "angle": "ESG/sustainability messaging in crypto, avoiding greenwashing, real proof points (PoS energy data, offsets), outlet angles.",
+    "links": [
+      "/playbook/crypto-crisis-communications-2026",
+      "/pages/web3-pr-agency",
+      "/services/web3-pr-campaigns",
+      "/playbook/web3-pr-agency-mistakes"
+    ]
   }
 ]
