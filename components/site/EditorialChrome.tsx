@@ -14,26 +14,34 @@ import { useEffect } from 'react';
  */
 export function EditorialLoader() {
   return (
-    <div id="loader" className="loader">
-      <div className="loader-inner">
-        <div className="loader-name">
-          <span>S</span>
-          <span>H</span>
-          <span>I</span>
-          <span>L</span>
-          <span>I</span>
-          <span>K</span>
-          <span>A</span>
-        </div>
-        <div className="loader-bar">
-          <div className="loader-fill" />
-        </div>
-        <div className="loader-meta">
-          <span>EST. 2019</span>
-          <span className="loader-pct">000</span>
+    <>
+      {/* site.js hides #loader on DOMContentLoaded. Without JS (or a crawler
+          that doesn't execute it) that never fires, so the fixed, full-viewport
+          overlay would otherwise cover the entire page permanently. */}
+      <noscript>
+        <style>{'#loader { display: none !important; }'}</style>
+      </noscript>
+      <div id="loader" className="loader">
+        <div className="loader-inner">
+          <div className="loader-name">
+            <span>S</span>
+            <span>H</span>
+            <span>I</span>
+            <span>L</span>
+            <span>I</span>
+            <span>K</span>
+            <span>A</span>
+          </div>
+          <div className="loader-bar">
+            <div className="loader-fill" />
+          </div>
+          <div className="loader-meta">
+            <span>EST. 2019</span>
+            <span className="loader-pct">000</span>
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
