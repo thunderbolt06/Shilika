@@ -262,12 +262,12 @@
       "@type": "WebPage",
       "@id": "https://www.shilikajain.com/#webpage",
       "url": "https://www.shilikajain.com/",
-      "name": "Shilika Jain — Fractional PR for Web3 & AI Founders",
+      "name": "Web3 PR & AI PR Consultant | Shilika Jain",
       "isPartOf": { "@id": "https://www.shilikajain.com/#website" },
       "about": { "@id": "https://www.shilikajain.com/#person" },
       "primaryImageOfPage": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
       "datePublished": "2025-01-01",
-      "dateModified": "2026-06-12",
+      "dateModified": "2026-07-15",
       "inLanguage": "en",
       "breadcrumb": { "@id": "https://www.shilikajain.com/#breadcrumb" }
     },
@@ -293,7 +293,7 @@
         { "@id": "https://www.shilikajain.com/#service" }
       ],
       "datePublished": "2026-06-12",
-      "dateModified": "2026-06-12",
+      "dateModified": "2026-07-15",
       "inLanguage": "en",
       "mainEntity": [
         {

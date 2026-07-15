@@ -1,4 +1,4 @@
-# Shilika Jain — Fractional PR for Web3 & AI Founders
+# Shilika Jain — Web3 PR & AI PR Consultant
 
 > Shilika Jain is a fractional PR manager who places Web3, AI, and cybersecurity founders into Tier-1 publications (Forbes, CoinDesk, Cointelegraph, Decrypt, The Block, Blockworks, AI Magazine) and runs APAC localisation across Korea, Japan, Vietnam, China, and India. Six years of practice. 50+ protocols shaped. 100K+ media mentions per quarter across the network. Direct line to 200+ vetted Web3 KOLs.
 

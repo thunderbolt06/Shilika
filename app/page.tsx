@@ -7,16 +7,16 @@ import { ClientReBoot } from '@/components/site/ClientReBoot';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Shilika Jain - Fractional PR for Web3 & AI Founders',
+  title: 'Web3 PR & AI PR Consultant | Shilika Jain',
   description:
-    'Fractional PR for Web3 and AI founders. 50+ protocols placed in Forbes, CoinDesk, Cointelegraph, Decrypt and The Block across APAC. Book a 30-min teardown.',
+    'Fractional Web3 PR and AI PR for crypto and AI startups. Coverage in Forbes, CoinDesk, Economic Times and Yahoo Finance. $5k-10k/month. Book a call.',
   alternates: { canonical: SITE_URL },
   openGraph: {
     type: 'website',
     siteName: 'Shilika Jain',
-    title: 'Shilika Jain - Fractional PR for Web3 & AI Founders',
+    title: 'Web3 PR & AI PR Consultant | Shilika Jain',
     description:
-      'Fractional PR for Web3 and AI founders. 50+ protocols placed in Forbes, CoinDesk, Cointelegraph, Decrypt and The Block across APAC. Book a 30-min teardown.',
+      'Fractional Web3 PR and AI PR for crypto and AI startups. Coverage in Forbes, CoinDesk, Economic Times and Yahoo Finance. $5k-10k/month. Book a call.',
     url: SITE_URL,
     locale: 'en_US',
     images: [
@@ -30,9 +30,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Shilika Jain - Fractional PR for Web3 & AI Founders',
+    title: 'Web3 PR & AI PR Consultant | Shilika Jain',
     description:
-      'Fractional PR for Web3 and AI founders. 50+ protocols in Forbes, CoinDesk, Cointelegraph, Decrypt and The Block across APAC.',
+      'Fractional Web3 PR and AI PR for crypto and AI startups. Coverage in Forbes, CoinDesk, Economic Times and Yahoo Finance.',
     images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
   },
 };

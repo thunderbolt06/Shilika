@@ -3,33 +3,93 @@
    SHILIKA JAIN - SITE INTERACTIONS
    ========================================================= */
 
-// ---------- LOADER ----------
-// Fire on DOMContentLoaded (or immediately if already past it) with a hard
-// 1.5s cap so external scripts (Calendly, PostHog, gtag) cannot keep the
-// loader on screen. Original code waited on window.load which blocked on
-// every deferred third-party script.
-(function bootLoader() {
-  function runLoader() {
-    var loader = document.getElementById('loader');
-    if (!loader) return;
-    var pct = document.querySelector('.loader-pct');
-    var p = 0;
-    var start = Date.now();
-    var t = setInterval(function () {
-      p = Math.min(100, p + Math.ceil(Math.random() * 30));
-      if (pct) pct.textContent = String(p).padStart(3, '0');
-      if (p >= 100 || Date.now() - start > 1200) {
-        clearInterval(t);
-        if (pct) pct.textContent = '100';
-        setTimeout(function () { loader.classList.add('gone'); }, 80);
-        setTimeout(function () { loader.style.display = 'none'; }, 550);
+// ---------- INTRO CARDS ----------
+// Homepage entry deck (replaces the old loader). Scroll, swipe, tap or
+// arrow keys advance one bold card at a time; past the last card (or via
+// Skip / Escape) the deck slides away and reveals the page.
+(function bootIntroCards() {
+  function runIntroCards() {
+    var deck = document.getElementById('icards');
+    if (!deck) return;
+    var cards = Array.prototype.slice.call(deck.querySelectorAll('.icard'));
+    if (!cards.length) return;
+    var counter = document.getElementById('icards-current');
+    var skip = document.getElementById('icards-skip');
+    var idx = 0, busy = false, done = false;
+    document.body.style.overflow = 'hidden';
+
+    function dismiss() {
+      if (done) return;
+      done = true;
+      deck.classList.add('gone');
+      document.body.style.overflow = '';
+      setTimeout(function () { deck.style.display = 'none'; }, 650);
+    }
+
+    function go(dir) {
+      if (busy || done) return;
+      var next = idx + dir;
+      if (next < 0) return;
+      if (next >= cards.length) { dismiss(); return; }
+      busy = true;
+      var cur = cards[idx];
+      cur.classList.remove('is-active');
+      if (dir > 0) cur.classList.add('is-exit');
+      cards[next].classList.add('is-active');
+      idx = next;
+      if (counter) counter.textContent = String(idx + 1).padStart(2, '0');
+      setTimeout(function () {
+        cur.classList.remove('is-exit');
+        busy = false;
+      }, 620);
+    }
+
+    // Wheel / trackpad
+    var wheelLock = false;
+    deck.addEventListener('wheel', function (e) {
+      e.preventDefault();
+      if (wheelLock || Math.abs(e.deltaY) < 10) return;
+      wheelLock = true;
+      go(e.deltaY > 0 ? 1 : -1);
+      setTimeout(function () { wheelLock = false; }, 750);
+    }, { passive: false });
+
+    // Touch swipe
+    var touchY = null;
+    deck.addEventListener('touchstart', function (e) {
+      touchY = e.touches[0].clientY;
+    }, { passive: true });
+    deck.addEventListener('touchend', function (e) {
+      if (touchY === null) return;
+      var dy = touchY - e.changedTouches[0].clientY;
+      touchY = null;
+      if (Math.abs(dy) > 40) go(dy > 0 ? 1 : -1);
+    }, { passive: true });
+
+    // Tap / click advances (but let real links and buttons work)
+    deck.addEventListener('click', function (e) {
+      if (e.target.closest('a, button')) return;
+      go(1);
+    });
+
+    // Keyboard
+    document.addEventListener('keydown', function onKey(e) {
+      if (done) { document.removeEventListener('keydown', onKey); return; }
+      if (e.key === 'ArrowDown' || e.key === 'PageDown' || e.key === ' ' || e.key === 'Enter') {
+        e.preventDefault(); go(1);
+      } else if (e.key === 'ArrowUp' || e.key === 'PageUp') {
+        e.preventDefault(); go(-1);
+      } else if (e.key === 'Escape') {
+        dismiss();
       }
-    }, 25);
+    });
+
+    if (skip) skip.addEventListener('click', dismiss);
   }
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', runLoader, { once: true });
+    document.addEventListener('DOMContentLoaded', runIntroCards, { once: true });
   } else {
-    runLoader();
+    runIntroCards();
   }
 })();
 
