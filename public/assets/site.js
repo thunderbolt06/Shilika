@@ -44,13 +44,23 @@
       }, 620);
     }
 
-    // Wheel / trackpad
+    // Wheel / trackpad. Trackpads send a burst of many small-deltaY ticks
+    // (often single digits) rather than one big one, so we accumulate over
+    // a short window instead of thresholding each event individually -
+    // otherwise a gentle trackpad scroll never crosses a per-event minimum.
     var wheelLock = false;
+    var wheelAccum = 0;
+    var wheelResetTimer = null;
     deck.addEventListener('wheel', function (e) {
       e.preventDefault();
-      if (wheelLock || Math.abs(e.deltaY) < 10) return;
+      if (wheelLock) return;
+      wheelAccum += e.deltaY;
+      clearTimeout(wheelResetTimer);
+      wheelResetTimer = setTimeout(function () { wheelAccum = 0; }, 200);
+      if (Math.abs(wheelAccum) < 6) return;
       wheelLock = true;
-      go(e.deltaY > 0 ? 1 : -1);
+      go(wheelAccum > 0 ? 1 : -1);
+      wheelAccum = 0;
       setTimeout(function () { wheelLock = false; }, 750);
     }, { passive: false });
 
@@ -94,20 +104,28 @@
 })();
 
 // ---------- CUSTOM CURSOR ----------
+// isDesktop() is re-checked live on every event/frame rather than once at
+// script load, so the cursor still attaches correctly if the viewport
+// wasn't settled to its final size at the moment this script ran.
 const cursor = document.getElementById('cursor');
 const dot = document.getElementById('cursor-dot');
 let cx = 0, cy = 0, tx = 0, ty = 0;
 
-if (cursor && window.matchMedia('(min-width: 901px)').matches) {
+if (cursor && dot) {
+  const isDesktop = () => window.matchMedia('(min-width: 901px)').matches;
+
   document.addEventListener('mousemove', (e) => {
+    if (!isDesktop()) return;
     tx = e.clientX; ty = e.clientY;
-    if (dot) dot.style.transform = `translate(${tx}px, ${ty}px) translate(-50%, -50%)`;
+    dot.style.transform = `translate(${tx}px, ${ty}px) translate(-50%, -50%)`;
   });
 
   function loopCursor() {
-    cx += (tx - cx) * 0.18;
-    cy += (ty - cy) * 0.18;
-    cursor.style.transform = `translate(${cx}px, ${cy}px) translate(-50%, -50%)`;
+    if (isDesktop()) {
+      cx += (tx - cx) * 0.18;
+      cy += (ty - cy) * 0.18;
+      cursor.style.transform = `translate(${cx}px, ${cy}px) translate(-50%, -50%)`;
+    }
     requestAnimationFrame(loopCursor);
   }
   loopCursor();
