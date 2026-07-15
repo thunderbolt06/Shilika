@@ -61,7 +61,16 @@ const nextConfig: NextConfig = {
         ],
       },
       {
-        source: '/assets/(.*)',
+        // Hand-authored JS/CSS/JSON under /assets are referenced by stable,
+        // non-fingerprinted URLs yet DO change between deploys, so they must
+        // revalidate. A blanket `immutable` rule here locked returning
+        // visitors to a stale build (old site.js) for up to a year.
+        source: '/assets/:file*.:ext(js|mjs|css|json|map)',
+        headers: [{ key: 'Cache-Control', value: 'public, max-age=0, must-revalidate' }],
+      },
+      {
+        // Images, fonts and PDFs are content-stable once shipped — safe to pin.
+        source: '/assets/:file*.:ext(png|jpg|jpeg|gif|webp|avif|svg|ico|woff|woff2|ttf|otf|eot|pdf|mp4|webm|mp3)',
         headers: [{ key: 'Cache-Control', value: 'public, max-age=31536000, immutable' }],
       },
       {
