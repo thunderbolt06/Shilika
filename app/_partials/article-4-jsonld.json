@@ -47,42 +47,157 @@
       "datePublished": "2026-05-15",
       "dateModified": "2026-06-10",
       "about": [
-        { "@type": "Thing", "name": "Crypto PR pricing" },
-        { "@type": "Thing", "name": "Web3 PR retainers" },
-        { "@type": "Thing", "name": "Fractional PR" },
-        { "@type": "Thing", "name": "Token launch communications" },
-        { "@type": "Thing", "name": "AI startup PR pricing" },
-        { "@type": "Thing", "name": "Cybersecurity PR pricing" },
-        { "@type": "Thing", "name": "Content writing retainers" },
-        { "@type": "Thing", "name": "Generative engine optimization" },
-        { "@type": "Thing", "name": "Answer engine optimization" },
-        { "@type": "Thing", "name": "Regional PR pricing APAC MENA" }
+        {
+          "@type": "Thing",
+          "name": "Crypto PR pricing"
+        },
+        {
+          "@type": "Thing",
+          "name": "Web3 PR retainers"
+        },
+        {
+          "@type": "Thing",
+          "name": "Fractional PR"
+        },
+        {
+          "@type": "Thing",
+          "name": "Token launch communications"
+        },
+        {
+          "@type": "Thing",
+          "name": "AI startup PR pricing"
+        },
+        {
+          "@type": "Thing",
+          "name": "Cybersecurity PR pricing"
+        },
+        {
+          "@type": "Thing",
+          "name": "Content writing retainers"
+        },
+        {
+          "@type": "Thing",
+          "name": "Generative engine optimization"
+        },
+        {
+          "@type": "Thing",
+          "name": "Answer engine optimization"
+        },
+        {
+          "@type": "Thing",
+          "name": "Regional PR pricing APAC MENA"
+        }
       ],
       "mentions": [
-        { "@type": "Organization", "name": "CoinDesk", "url": "https://www.coindesk.com/" },
-        { "@type": "Organization", "name": "Cointelegraph", "url": "https://cointelegraph.com/" },
-        { "@type": "Organization", "name": "Decrypt", "url": "https://decrypt.co/" },
-        { "@type": "Organization", "name": "The Block", "url": "https://www.theblock.co/" },
-        { "@type": "Organization", "name": "Blockworks", "url": "https://blockworks.co/" },
-        { "@type": "Organization", "name": "Forbes", "url": "https://www.forbes.com/" },
-        { "@type": "Organization", "name": "The Information", "url": "https://www.theinformation.com/" },
-        { "@type": "Organization", "name": "VentureBeat", "url": "https://venturebeat.com/" },
-        { "@type": "Organization", "name": "Dark Reading", "url": "https://www.darkreading.com/" },
-        { "@type": "Organization", "name": "The Record", "url": "https://therecord.media/" },
-        { "@type": "Organization", "name": "BloomingBit", "url": "https://bloomingbit.io/" },
-        { "@type": "Organization", "name": "CryptoTimes Japan", "url": "https://crypto-times.jp/" },
-        { "@type": "Organization", "name": "Inc42", "url": "https://inc42.com/" },
-        { "@type": "Organization", "name": "Anthropic" },
-        { "@type": "Organization", "name": "Gartner" },
-        { "@type": "Organization", "name": "Forrester" }
+        {
+          "@type": "Organization",
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/"
+        },
+        {
+          "@type": "Organization",
+          "name": "Cointelegraph",
+          "url": "https://cointelegraph.com/"
+        },
+        {
+          "@type": "Organization",
+          "name": "Decrypt",
+          "url": "https://decrypt.co/"
+        },
+        {
+          "@type": "Organization",
+          "name": "The Block",
+          "url": "https://www.theblock.co/"
+        },
+        {
+          "@type": "Organization",
+          "name": "Blockworks",
+          "url": "https://blockworks.co/"
+        },
+        {
+          "@type": "Organization",
+          "name": "Forbes",
+          "url": "https://www.forbes.com/"
+        },
+        {
+          "@type": "Organization",
+          "name": "The Information",
+          "url": "https://www.theinformation.com/"
+        },
+        {
+          "@type": "Organization",
+          "name": "VentureBeat",
+          "url": "https://venturebeat.com/"
+        },
+        {
+          "@type": "Organization",
+          "name": "Dark Reading",
+          "url": "https://www.darkreading.com/"
+        },
+        {
+          "@type": "Organization",
+          "name": "The Record",
+          "url": "https://therecord.media/"
+        },
+        {
+          "@type": "Organization",
+          "name": "BloomingBit",
+          "url": "https://bloomingbit.io/"
+        },
+        {
+          "@type": "Organization",
+          "name": "CryptoTimes Japan",
+          "url": "https://crypto-times.jp/"
+        },
+        {
+          "@type": "Organization",
+          "name": "Inc42",
+          "url": "https://inc42.com/"
+        },
+        {
+          "@type": "Organization",
+          "name": "Anthropic"
+        },
+        {
+          "@type": "Organization",
+          "name": "Gartner"
+        },
+        {
+          "@type": "Organization",
+          "name": "Forrester"
+        }
       ],
       "citation": [
-        { "@type": "ScholarlyArticle", "name": "GEO: Generative Engine Optimization (Aggarwal et al.)", "url": "https://arxiv.org/abs/2311.09735" },
-        { "@type": "WebPage", "name": "Google AI Optimization Guide for SEO", "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide" },
-        { "@type": "WebPage", "name": "Google guidance on AI-generated content", "url": "https://developers.google.com/search/docs/fundamentals/using-gen-ai-content" },
-        { "@type": "WebPage", "name": "Google AI Overviews ranking factors 2026", "url": "https://wellows.com/blog/google-ai-overviews-ranking-factors/" },
-        { "@type": "WebPage", "name": "Google AI Overview statistics 2026", "url": "https://heroicrankings.com/seo/managed/google-ai-overview-statistics-2026/" },
-        { "@type": "NewsArticle", "name": "Anthropic closes at $965B valuation, May 28 2026", "url": "https://www.cnbc.com/2026/05/28/anthropic-open-ai-startup-value.html" }
+        {
+          "@type": "ScholarlyArticle",
+          "name": "GEO: Generative Engine Optimization (Aggarwal et al.)",
+          "url": "https://arxiv.org/abs/2311.09735"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Google AI Optimization Guide for SEO",
+          "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Google guidance on AI-generated content",
+          "url": "https://developers.google.com/search/docs/fundamentals/using-gen-ai-content"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Google AI Overviews ranking factors 2026",
+          "url": "https://wellows.com/blog/google-ai-overviews-ranking-factors/"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Google AI Overview statistics 2026",
+          "url": "https://heroicrankings.com/seo/managed/google-ai-overview-statistics-2026/"
+        },
+        {
+          "@type": "NewsArticle",
+          "name": "Anthropic closes at $965B valuation, May 28 2026",
+          "url": "https://www.cnbc.com/2026/05/28/anthropic-open-ai-startup-value.html"
+        }
       ],
       "author": {
         "@type": "Person",
@@ -115,9 +230,24 @@
       "@type": "BreadcrumbList",
       "@id": "https://www.shilikajain.com/playbook/crypto-pr-cost-2026#breadcrumb",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
-        { "@type": "ListItem", "position": 3, "name": "How much does crypto PR cost in 2026", "item": "https://www.shilikajain.com/playbook/crypto-pr-cost-2026" }
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.shilikajain.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Playbooks",
+          "item": "https://www.shilikajain.com/playbook"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "How much does crypto PR cost in 2026",
+          "item": "https://www.shilikajain.com/playbook/crypto-pr-cost-2026"
+        }
       ]
     },
     {
@@ -129,7 +259,7 @@
           "name": "How much does crypto PR cost per month in 2026?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A traditional Web3 PR agency retainer in 2026 typically falls in three brackets: boutique crypto agencies run $7,000 to $15,000 per month, mid-tier specialists $15,000 to $30,000, and global firms with crypto desks $30,000 to $60,000+. Fractional PR — one senior operator embedded with the founder — usually lands between $5,000 and $12,000 per month for equivalent scope, because there is no account-team layer to fund. Single-launch PR sprints (4 to 6 weeks around a token launch or product milestone) range from $15,000 to $50,000 depending on the number of markets and outlets in scope."
+            "text": "A traditional Web3 PR agency retainer in 2026 typically falls in three brackets: boutique crypto agencies run $7,000 to $15,000 per month, mid-tier specialists $15,000 to $30,000, and global firms with crypto desks $30,000 to $60,000+. Fractional PR, one senior operator embedded with the founder, usually lands between $5,000 and $12,000 per month for equivalent scope, because there is no account-team layer to fund. Single-launch PR sprints (4 to 6 weeks around a token launch or product milestone) range from $15,000 to $50,000 depending on the number of markets and outlets in scope."
           }
         },
         {
@@ -145,7 +275,7 @@
           "name": "How much does PR for a token launch cost?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A full TGE communications sprint typically costs $25,000 to $75,000 for a 6 to 8 week window, covering pre-launch teasing, embargoed Tier-1 exclusives, launch day coverage, KOL waves across X, YouTube, and Telegram, regional placements in APAC and MENA, exchange announcement coordination, and post-launch sentiment management. The number that dominates the budget is the number of regional markets — adding Korea, Japan and Vietnam can roughly double the wire and KOL cost without doubling the strategy fee."
+            "text": "A full TGE communications sprint typically costs $25,000 to $75,000 for a 6 to 8 week window, covering pre-launch teasing, embargoed Tier-1 exclusives, launch day coverage, KOL waves across X, YouTube, and Telegram, regional placements in APAC and MENA, exchange announcement coordination, and post-launch sentiment management. The number that dominates the budget is the number of regional markets, adding Korea, Japan and Vietnam can roughly double the wire and KOL cost without doubling the strategy fee."
           }
         },
         {
@@ -153,7 +283,7 @@
           "name": "Is fractional PR cheaper than a Web3 PR agency?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, materially. Fractional PR removes the account-executive, account-manager, and account-director layers an agency funds with your retainer. For the same scope — 2 to 4 Tier-1 placements per month, founder profiling, KOL coordination — fractional pricing is roughly 40 to 60 percent of an equivalent agency contract because you are paying for one senior operator's hours, not a five-person team's overhead. The trade-off is bandwidth: a fractional operator can handle 4 to 6 active engagements at a time, not 20."
+            "text": "Yes, materially. Fractional PR removes the account-executive, account-manager, and account-director layers an agency funds with your retainer. For the same scope, 2 to 4 Tier-1 placements per month, founder profiling, KOL coordination, fractional pricing is roughly 40 to 60 percent of an equivalent agency contract because you are paying for one senior operator's hours, not a five-person team's overhead. The trade-off is bandwidth: a fractional operator can handle 4 to 6 active engagements at a time, not 20."
           }
         },
         {
@@ -169,7 +299,7 @@
           "name": "When is hiring a crypto PR agency a bad idea?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Hiring a full agency is rarely the right call pre-seed or seed-stage, before you have a token, product, or named pilot customer. The agency model assumes 12-month retainers and steady news flow. A pre-product founder gets better leverage from 8 to 12 weeks of focused fractional support — narrative work, founder profiling, one tier-1 placement around a funding announcement — at one-third the cost. The agency conversation makes sense after Series A and a product launch, or for protocols actively moving toward a token generation event."
+            "text": "Hiring a full agency is rarely the right call pre-seed or seed-stage, before you have a token, product, or named pilot customer. The agency model assumes 12-month retainers and steady news flow. A pre-product founder gets better leverage from 8 to 12 weeks of focused fractional support, narrative work, founder profiling, one tier-1 placement around a funding announcement, at one-third the cost. The agency conversation makes sense after Series A and a product launch, or for protocols actively moving toward a token generation event."
           }
         },
         {

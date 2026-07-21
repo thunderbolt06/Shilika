@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   if (!author) return {};
   const url = `${SITE_URL}/authors/${author.slug}`;
   return {
-    title: `${author.name} — ${author.title}`,
+    title: `${author.name}: ${author.title}`,
     description: author.bio,
     alternates: { canonical: url },
     openGraph: {
