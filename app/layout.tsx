@@ -3,7 +3,7 @@ import Script from 'next/script';
 import './globals.css';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
-const GTAG_ID = process.env.NEXT_PUBLIC_GTAG_ID;
+const GTAG_ID = process.env.NEXT_PUBLIC_GTAG_ID ?? 'AW-18324652879';
 
 export const viewport: Viewport = {
   themeColor: '#16140f',
@@ -76,9 +76,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <>
             <Script
               src={`https://www.googletagmanager.com/gtag/js?id=${GTAG_ID}`}
-              strategy="lazyOnload"
+              strategy="afterInteractive"
             />
-            <Script id="gtag-init" strategy="lazyOnload">
+            <Script id="gtag-init" strategy="afterInteractive">
               {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GTAG_ID}',{allow_enhanced_conversions:true});`}
             </Script>
           </>

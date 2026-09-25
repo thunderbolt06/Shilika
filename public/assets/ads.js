@@ -66,7 +66,7 @@ document.querySelectorAll('.reveal').forEach(function (el) { io.observe(el); });
     if (!a) return;
     if (typeof gtag === 'function') {
       gtag('event', 'conversion', {
-        send_to: 'AW-CONVERSION_ID/BOOK_CALL_LABEL',
+        send_to: 'AW-18324652879/pGrNCImphYUdEM-G8KFE',
         value: 40.0,
         currency: 'USD'
       });
@@ -80,9 +80,9 @@ document.querySelectorAll('.reveal').forEach(function (el) { io.observe(el); });
     if (!ev || ev.indexOf('calendly') !== 0) return;
     if (typeof gtag !== 'function') return;
     if (ev === 'calendly.event_scheduled') {
-      gtag('event', 'conversion', { send_to: 'AW-CONVERSION_ID/CAL_BOOKED_LABEL', value: 400.0, currency: 'USD' });
+      gtag('event', 'conversion', { send_to: 'AW-18324652879/pGrNCImphYUdEM-G8KFE', value: 400.0, currency: 'USD' });
     } else if (ev === 'calendly.profile_page_viewed') {
-      gtag('event', 'conversion', { send_to: 'AW-CONVERSION_ID/CAL_LOADED_LABEL', value: 80.0, currency: 'USD' });
+      gtag('event', 'conversion', { send_to: 'AW-18324652879/pGrNCImphYUdEM-G8KFE', value: 80.0, currency: 'USD' });
     }
   });
 })();

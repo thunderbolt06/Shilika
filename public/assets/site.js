@@ -337,7 +337,7 @@ if (form) {
     if (!a) return;
     if (typeof gtag === 'function') {
       gtag('event', 'conversion', {
-        send_to: 'AW-CONVERSION_ID/BOOK_CALL_LABEL',
+        send_to: 'AW-18324652879/pGrNCImphYUdEM-G8KFE',
         value: 40.0,
         currency: 'USD',
         transaction_id: ''
@@ -359,14 +359,14 @@ if (form) {
       }
       if (e.data.event === 'calendly.event_scheduled' && typeof gtag === 'function') {
         gtag('event', 'conversion', {
-          send_to: 'AW-CONVERSION_ID/CAL_BOOKED_LABEL',
+          send_to: 'AW-18324652879/pGrNCImphYUdEM-G8KFE',
           value: 400.0,
           currency: 'USD'
         });
       }
       if (e.data.event === 'calendly.profile_page_viewed' && typeof gtag === 'function') {
         gtag('event', 'conversion', {
-          send_to: 'AW-CONVERSION_ID/CAL_LOADED_LABEL',
+          send_to: 'AW-18324652879/pGrNCImphYUdEM-G8KFE',
           value: 80.0,
           currency: 'USD'
         });
