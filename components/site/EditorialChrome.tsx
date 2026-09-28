@@ -3,7 +3,7 @@
 import { useEffect } from 'react';
 
 /**
- * Editorial site chrome. Renders the same loader, cursor, grain overlay,
+ * Editorial site chrome. Renders the same cursor, grain overlay,
  * nav, and footer the homepage uses. Drop this around any non-homepage
  * route to keep visual consistency.
  *
@@ -12,38 +12,6 @@ import { useEffect } from 'react';
  * dangerouslySetInnerHTML). This component is the JSX equivalent for the
  * blog and playbook routes.
  */
-export function EditorialLoader() {
-  return (
-    <>
-      {/* site.js hides #loader on DOMContentLoaded. Without JS (or a crawler
-          that doesn't execute it) that never fires, so the fixed, full-viewport
-          overlay would otherwise cover the entire page permanently. */}
-      <noscript>
-        <style>{'#loader { display: none !important; }'}</style>
-      </noscript>
-      <div id="loader" className="loader">
-        <div className="loader-inner">
-          <div className="loader-name">
-            <span>S</span>
-            <span>H</span>
-            <span>I</span>
-            <span>L</span>
-            <span>I</span>
-            <span>K</span>
-            <span>A</span>
-          </div>
-          <div className="loader-bar">
-            <div className="loader-fill" />
-          </div>
-          <div className="loader-meta">
-            <span>EST. 2019</span>
-            <span className="loader-pct">000</span>
-          </div>
-        </div>
-      </div>
-    </>
-  );
-}
 
 const HOVER_SELECTOR = 'a, button, .service, .case, .press-item, input, textarea, select, [data-magnet]';
 
@@ -272,7 +240,6 @@ export function EditorialShell({
 }) {
   return (
     <>
-      <EditorialLoader />
       <EditorialCursor />
       <EditorialGrain />
       <EditorialNav active={active} />
