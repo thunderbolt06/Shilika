@@ -272,6 +272,7 @@ if (form) {
         status.textContent = '✓ Sent. Shilika will reply within 24h.';
         status.className = 'form-status success';
         form.reset();
+        if (window.__sjThankYou) window.__sjThankYou('form', 600);
       } else {
         const errText = await res.text();
         console.error('Contact API error:', res.status, errText);

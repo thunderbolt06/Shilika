@@ -146,6 +146,7 @@
         if (res.ok) {
           setStatus('✓ Sent. Shilika will reply within 24h.', 'success');
           form.reset();
+          if (window.__sjThankYou) window.__sjThankYou('form', 600);
         } else {
           var t = await res.text().catch(function () {
             return '';

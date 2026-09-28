@@ -2426,3 +2426,79 @@ a.press-item { text-decoration: none; }
   .faq-a p { font-size: 15px; }
 }
 
+
+/* =========================================================
+   THANK-YOU PAGE (/thank-you) - reuses the dark .contact section
+   ========================================================= */
+.ty { min-height: 100vh; padding-top: 160px; }
+.ty-title { margin: 24px 0 28px; }
+.ty-lede {
+  font-size: clamp(17px, 1.5vw, 21px);
+  line-height: 1.5;
+  color: rgba(255,255,255,0.78);
+  max-width: 56ch;
+}
+.ty-fallback { margin-top: 28px; }
+.ty-h2 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(30px, 3.4vw, 48px);
+  letter-spacing: -0.02em;
+  margin: 96px 0 32px;
+}
+.ty-steps {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  border-top: 1px solid rgba(255,255,255,0.12);
+}
+.ty-step {
+  padding: 28px 24px 28px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.12);
+  display: flex; flex-direction: column; gap: 10px;
+}
+.ty-step-num { color: var(--lime); font-size: 12px; letter-spacing: 0.12em; }
+.ty-step-title { font-family: var(--font-display); font-size: 26px; }
+.ty-step-body { color: rgba(255,255,255,0.7); line-height: 1.55; font-size: 15px; }
+.ty-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(24px, 4vw, 64px);
+  margin-top: 72px;
+}
+@media (max-width: 900px) { .ty-grid { grid-template-columns: 1fr; } }
+.ty-card {
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 6px;
+  padding: clamp(22px, 3vw, 36px);
+  display: flex; flex-direction: column; gap: 20px;
+}
+.ty-list { display: flex; flex-direction: column; gap: 14px; }
+.ty-list li {
+  position: relative;
+  padding-left: 22px;
+  line-height: 1.55;
+  color: rgba(255,255,255,0.82);
+}
+.ty-list li::before {
+  content: '→';
+  position: absolute; left: 0;
+  color: var(--lime);
+}
+.ty-reading {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+.ty-read {
+  display: flex; flex-direction: column; gap: 8px;
+  padding: 22px;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 6px;
+  transition: border-color 0.3s, background 0.3s;
+}
+.ty-read:hover { border-color: var(--lime); background: rgba(212,255,50,0.04); }
+.ty-read-label { font-family: var(--font-display); font-size: 24px; }
+.ty-read-note { color: rgba(255,255,255,0.65); font-size: 14px; line-height: 1.5; }
+.ty-back { margin-top: 80px; font-size: 12px; letter-spacing: 0.08em; color: rgba(255,255,255,0.55); }
+.ty-back a:hover { color: var(--lime); }
