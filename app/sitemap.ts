@@ -3,7 +3,40 @@ import { listPublishedPosts } from '@/lib/blog';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
-const STATIC_PAGES: { path: string; priority: number; changeFrequency: MetadataRoute.Sitemap[number]['changeFrequency'] }[] = [
+// Video sitemap entries for the two real homepage videos. Every field below is copied
+// from the existing homepage VideoObject JSON-LD (app/_partials/homepage-jsonld.json):
+// same video IDs, thumbnails, embed/watch URLs, and upload dates. No new facts are
+// invented. This completes the third of the three core video-discovery signals that
+// 2026 AI/video guidance recommends (watch page + VideoObject markup + video sitemap
+// entry), which helps Google and AI answer engines index and cite the videos.
+const HOMEPAGE_VIDEOS: NonNullable<MetadataRoute.Sitemap[number]['videos']> = [
+  {
+    title: 'Shilika Jain, Fractional PR for Web3 and AI Founders: services pitch',
+    thumbnail_loc: 'https://i.ytimg.com/vi/beWNvo1l1aQ/maxresdefault.jpg',
+    description:
+      'Shilika Jain explains the fractional PR model for Web3 and AI founders: Tier-1 placement strategy, APAC localisation, KOL waves, and founder profiling. A direct pitch to founders deciding between a fractional senior operator and a traditional PR agency.',
+    content_loc: 'https://www.youtube.com/watch?v=beWNvo1l1aQ',
+    player_loc: 'https://www.youtube-nocookie.com/embed/beWNvo1l1aQ',
+    publication_date: '2026-04-15',
+    family_friendly: 'yes',
+  },
+  {
+    title: 'Introduction: Shilika Jain, Web3 and AI PR consultant',
+    thumbnail_loc: 'https://i.ytimg.com/vi/HuKCqoj6IvE/maxresdefault.jpg',
+    description:
+      'A bio narrative from Shilika Jain: six years placing 50+ Web3 and AI protocols in Forbes, CoinDesk, Cointelegraph, Decrypt, The Block, Blockworks and AI Magazine. APAC coverage across Korea, Japan, Vietnam, Singapore, India and the UAE.',
+    content_loc: 'https://www.youtube.com/watch?v=HuKCqoj6IvE',
+    player_loc: 'https://www.youtube-nocookie.com/embed/HuKCqoj6IvE',
+    publication_date: '2026-04-15',
+    family_friendly: 'yes',
+  },
+];
+
+// `lastModified` is optional and set ONLY where we have a real, tracked edit date
+// (an honest ISO date that matches the page's own JSON-LD `dateModified` and visible
+// "UPDATED" stamp). Pages without a genuine edit date deliberately omit it rather than
+// faking a per-request `new Date()`. See the note in the default export below.
+const STATIC_PAGES: { path: string; priority: number; changeFrequency: MetadataRoute.Sitemap[number]['changeFrequency']; lastModified?: string }[] = [
   { path: '/', priority: 1.0, changeFrequency: 'weekly' },
   { path: '/about', priority: 0.8, changeFrequency: 'monthly' },
   { path: '/speaker', priority: 0.8, changeFrequency: 'monthly' },
@@ -11,6 +44,11 @@ const STATIC_PAGES: { path: string; priority: number; changeFrequency: MetadataR
   { path: '/blog', priority: 0.9, changeFrequency: 'daily' },
   { path: '/playbook', priority: 0.8, changeFrequency: 'monthly' },
   { path: '/glossary', priority: 0.7, changeFrequency: 'monthly' },
+  { path: '/tools', priority: 0.8, changeFrequency: 'monthly' },
+  { path: '/tools/gtm-planner', priority: 0.8, changeFrequency: 'monthly' },
+  { path: '/tools/marketing-budget-calculator', priority: 0.8, changeFrequency: 'monthly' },
+  { path: '/tools/marketing-checklist', priority: 0.8, changeFrequency: 'monthly' },
+  { path: '/resources', priority: 0.8, changeFrequency: 'monthly' },
   { path: '/authors/shilika-jain', priority: 0.7, changeFrequency: 'monthly' },
   { path: '/services', priority: 0.9, changeFrequency: 'monthly' },
   { path: '/work', priority: 0.8, changeFrequency: 'monthly' },
@@ -18,13 +56,13 @@ const STATIC_PAGES: { path: string; priority: number; changeFrequency: MetadataR
   { path: '/faq', priority: 0.7, changeFrequency: 'monthly' },
   { path: '/contact', priority: 0.8, changeFrequency: 'monthly' },
   { path: '/services/web3-pr-campaigns', priority: 0.9, changeFrequency: 'monthly' },
-  { path: '/services/token-launch-pr', priority: 0.9, changeFrequency: 'monthly' },
-  { path: '/services/ai-startup-pr', priority: 0.9, changeFrequency: 'monthly' },
+  { path: '/services/token-launch-pr', priority: 0.9, changeFrequency: 'monthly', lastModified: '2026-09-25' },
+  { path: '/services/ai-startup-pr', priority: 0.9, changeFrequency: 'monthly', lastModified: '2026-09-21' },
   { path: '/services/apac-pr', priority: 0.9, changeFrequency: 'monthly' },
   { path: '/services/kol-marketing', priority: 0.9, changeFrequency: 'monthly' },
-  { path: '/services/cybersecurity-pr', priority: 0.9, changeFrequency: 'monthly' },
-  { path: '/services/founder-profiling', priority: 0.9, changeFrequency: 'monthly' },
-  { path: '/services/content-writing', priority: 0.9, changeFrequency: 'monthly' },
+  { path: '/services/cybersecurity-pr', priority: 0.9, changeFrequency: 'monthly', lastModified: '2026-09-28' },
+  { path: '/services/founder-profiling', priority: 0.9, changeFrequency: 'monthly', lastModified: '2026-09-23' },
+  { path: '/services/content-writing', priority: 0.9, changeFrequency: 'monthly', lastModified: '2026-09-22' },
   { path: '/work/bullieverse', priority: 0.7, changeFrequency: 'yearly' },
   { path: '/work/fluence', priority: 0.7, changeFrequency: 'yearly' },
   { path: '/work/gaia-ai', priority: 0.7, changeFrequency: 'yearly' },
@@ -46,8 +84,8 @@ const STATIC_PAGES: { path: string; priority: number; changeFrequency: MetadataR
   { path: '/playbook/whitepaper-writing-ai-startups-2026', priority: 0.7, changeFrequency: 'monthly' },
   { path: '/playbook/how-gaia-ai-got-into-forbes', priority: 0.75, changeFrequency: 'monthly' },
   { path: '/playbook/how-rari-chain-landed-11-tier1-placements', priority: 0.75, changeFrequency: 'monthly' },
-  { path: '/playbook/ai-startup-pr-2026', priority: 0.85, changeFrequency: 'monthly' },
-  { path: '/playbook/cybersecurity-pr-2026', priority: 0.85, changeFrequency: 'monthly' },
+  { path: '/playbook/ai-startup-pr-2026', priority: 0.85, changeFrequency: 'monthly', lastModified: '2026-07-29' },
+  { path: '/playbook/cybersecurity-pr-2026', priority: 0.85, changeFrequency: 'monthly', lastModified: '2026-07-29' },
   // AUTO-PLAYBOOKS-15-114
   { path: '/playbook/web3-narrative-positioning-strategy-2026', priority: 0.7, changeFrequency: 'monthly' },
   { path: '/playbook/crypto-go-to-market-strategy-2026', priority: 0.7, changeFrequency: 'monthly' },
@@ -109,7 +147,7 @@ const STATIC_PAGES: { path: string; priority: number; changeFrequency: MetadataR
   { path: '/playbook/personal-brand-startup-founder-2026', priority: 0.7, changeFrequency: 'monthly' },
   { path: '/playbook/how-to-get-podcast-interviews-founder-2026', priority: 0.7, changeFrequency: 'monthly' },
   { path: '/playbook/how-to-submit-op-ed-techcrunch-2026', priority: 0.7, changeFrequency: 'monthly' },
-  { path: '/playbook/op-ed-ghostwriting-executives-2026', priority: 0.7, changeFrequency: 'monthly' },
+  { path: '/playbook/op-ed-ghostwriting-executives-2026', priority: 0.7, changeFrequency: 'monthly', lastModified: '2026-09-01' },
   { path: '/playbook/how-to-get-speaking-slots-crypto-conferences-2026', priority: 0.7, changeFrequency: 'monthly' },
   { path: '/playbook/best-founder-personal-branding-agencies-2026', priority: 0.7, changeFrequency: 'monthly' },
   { path: '/playbook/linkedin-strategy-founders-2026', priority: 0.7, changeFrequency: 'monthly' },
@@ -159,12 +197,12 @@ const STATIC_PAGES: { path: string; priority: number; changeFrequency: MetadataR
   { path: '/glossary/what-is-a-tge-comms-plan', priority: 0.65, changeFrequency: 'monthly' },
   { path: '/glossary/what-is-aeo-answer-engine-optimization', priority: 0.65, changeFrequency: 'monthly' },
   { path: '/glossary/what-is-a-kol-wave', priority: 0.65, changeFrequency: 'monthly' },
-  { path: '/apac', priority: 0.85, changeFrequency: 'monthly' },
-  { path: '/india', priority: 0.85, changeFrequency: 'monthly' },
-  { path: '/singapore', priority: 0.85, changeFrequency: 'monthly' },
-  { path: '/dubai-mena', priority: 0.85, changeFrequency: 'monthly' },
-  { path: '/korea', priority: 0.85, changeFrequency: 'monthly' },
-  { path: '/japan', priority: 0.85, changeFrequency: 'monthly' },
+  { path: '/apac', priority: 0.85, changeFrequency: 'monthly', lastModified: '2026-05-31' },
+  { path: '/india', priority: 0.85, changeFrequency: 'monthly', lastModified: '2026-09-03' },
+  { path: '/singapore', priority: 0.85, changeFrequency: 'monthly', lastModified: '2026-09-06' },
+  { path: '/dubai-mena', priority: 0.85, changeFrequency: 'monthly', lastModified: '2026-09-02' },
+  { path: '/korea', priority: 0.85, changeFrequency: 'monthly', lastModified: '2026-09-04' },
+  { path: '/japan', priority: 0.85, changeFrequency: 'monthly', lastModified: '2026-09-29' },
   // AUTO-LANDING-PAGES
   { path: '/pages/depin-marketing-agency', priority: 0.8, changeFrequency: 'monthly' },
   { path: '/pages/web3-investor-relations-agency', priority: 0.8, changeFrequency: 'monthly' },
@@ -281,10 +319,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // every single day. That's a known anti-pattern: it makes the lastmod signal
   // useless and can cause Google to discount it entirely. We omit lastModified for
   // static pages that don't have a real tracked edit date instead of faking one.
-  const staticEntries = STATIC_PAGES.map(({ path, priority, changeFrequency }) => ({
+  const staticEntries = STATIC_PAGES.map(({ path, priority, changeFrequency, lastModified }) => ({
     url: `${SITE_URL}${path}`,
     priority,
     changeFrequency,
+    // Only emit lastmod where a real tracked edit date exists; spreading nothing
+    // otherwise keeps those entries lastmod-free rather than stamping a fake date.
+    ...(lastModified ? { lastModified } : {}),
+    // Attach video sitemap entries only to the homepage, the one page that embeds
+    // the two videos described in HOMEPAGE_VIDEOS.
+    ...(path === '/' ? { videos: HOMEPAGE_VIDEOS } : {}),
   }));
 
   let blogEntries: MetadataRoute.Sitemap = [];

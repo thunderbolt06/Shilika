@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>GEO and AI Search Checklist | Shilika Jain</title>
+<link rel="stylesheet" href="print.css">
+</head>
+<body>
+
+<section class="cover">
+  <div>
+    <div class="kicker"><span class="dot"></span> Checklist · GEO / AEO · 9 sections</div>
+    <h1>The GEO and <em>AI Search</em> Checklist</h1>
+    <p class="lede">How to become a source that ChatGPT, Perplexity, Claude, Gemini and Google AI Overviews cite when your buyers ask for recommendations. Most of it is not technical. Assistants summarise what the web already says about you, so the work is making that consistent, quotable and corroborated by others.</p>
+  </div>
+  <div>
+    <div class="howto">
+      <h4>How AI answers find you, in brief</h4>
+      <ol>
+        <li><strong>Entity:</strong> the system has to recognise who you are and what category you belong to.</li>
+        <li><strong>Retrieval:</strong> assistants with web search pull pages that match the question. Your pages must be crawlable and answer it directly.</li>
+        <li><strong>Corroboration:</strong> claims repeated by independent sources (press, reviews, forums, directories) are more likely to be repeated in the answer.</li>
+      </ol>
+    </div>
+    <div class="cover-meta">
+      <div><b>Best for</b>B2B, Web3, AI and security companies with considered purchases</div>
+      <div><b>Time</b>Sections 1 to 5: two weeks. Sections 6 to 9: ongoing</div>
+      <div><b>A note on certainty</b>Assistant behaviour changes often. Measure monthly and trust your own logs over anyone's rules.</div>
+    </div>
+  </div>
+</section>
+
+<section class="page">
+  <h2><span class="num">01</span>Baseline before you change anything</h2>
+  <ul class="cl">
+    <li>Write 20 prompts your buyers would ask: "best [category] for [use case]", "[you] vs [competitor]", "is [you] safe", "how do I [job you solve]".</li>
+    <li>Run each prompt in ChatGPT, Perplexity, Claude, Gemini and Google (for AI Overviews). Use a logged-out or clean session where possible.</li>
+    <li>Log for each: are you mentioned, are you cited with a link, is the description correct, which sources are cited instead.</li>
+    <li>List the 15 domains cited most often across all answers. This is your earned-media and listings target list.</li>
+  </ul>
+
+  <h2 style="margin-top:5mm"><span class="num">02</span>Entity consistency</h2>
+  <ul class="cl">
+    <li>One canonical company description (the boilerplate) used word-for-word on your site, LinkedIn, X, Crunchbase, GitHub, app stores and directories.</li>
+    <li>Same company name, spelling and capitalisation everywhere. Note former names on the About page if you rebranded.</li>
+    <li>Founder names, titles and bios consistent across site, LinkedIn, conference pages and press.</li>
+    <li>Category phrase consistent: pick the words buyers use and stop rotating synonyms.</li>
+    <li>Wikidata entry accurate if you meet its notability rules; do not create promotional entries.</li>
+    <li>Official profiles linked to each other in both directions.</li>
+  </ul>
+
+  <h2 style="margin-top:5mm"><span class="num">03</span>Organization schema</h2>
+  <ul class="cl">
+    <li>JSON-LD <code>Organization</code> on the homepage with <code>name</code>, <code>url</code>, <code>logo</code>, <code>description</code>, <code>foundingDate</code>, <code>founder</code>.</li>
+    <li><code>sameAs</code> listing every official profile (LinkedIn, X, GitHub, Crunchbase, YouTube, Wikidata).</li>
+    <li><code>contactPoint</code> for press or sales where relevant.</li>
+    <li>Product or <code>SoftwareApplication</code> schema on product pages with an accurate description and category.</li>
+    <li>Validated with the Schema.org validator and Google's Rich Results Test; no errors.</li>
+  </ul>
+
+  <h2 style="margin-top:5mm"><span class="num">04</span>Author and Person schema</h2>
+  <ul class="cl">
+    <li>Every article has a named author with a real bio page, not "Admin" or "Team".</li>
+    <li>Author pages carry <code>Person</code> schema with <code>jobTitle</code>, <code>worksFor</code>, <code>sameAs</code> (LinkedIn, X, GitHub) and <code>knowsAbout</code>.</li>
+    <li>Articles use <code>Article</code> or <code>BlogPosting</code> schema with <code>author</code>, <code>datePublished</code> and <code>dateModified</code>.</li>
+    <li>Author bios state the specific experience that makes them credible on the topic.</li>
+  </ul>
+
+  <h2 style="margin-top:5mm"><span class="num">05</span>Citable paragraphs and page structure</h2>
+  <ul class="cl">
+    <li>Each key page answers its main question in the first 2 to 3 sentences, in plain language.</li>
+    <li>Paragraphs written to stand alone: name the subject instead of "it" or "this", include the key fact, under about 80 words.</li>
+    <li>Definitions stated as definitions: "[Term] is [category] that [does what]."</li>
+    <li>Specific, dated, sourced numbers. "As of [month year]" beats "recently".</li>
+    <li>Comparison and "alternatives to" pages that are fair to competitors. Assistants often cite balanced comparisons.</li>
+    <li>Descriptive H2s phrased like the questions people ask.</li>
+    <li>Tables for specs, pricing and comparisons; they extract cleanly.</li>
+    <li>Visible "last updated" date, and pages actually updated when facts change.</li>
+  </ul>
+
+  <h2 style="margin-top:5mm"><span class="num">06</span>FAQ and technical access</h2>
+  <ul class="cl">
+    <li>An FAQ section on key pages answering real objections (pricing, security, integrations, who it is not for).</li>
+    <li><code>FAQPage</code> schema on genuine FAQ content only, matching the visible text.</li>
+    <li>Key content rendered in HTML, not only via client-side JavaScript or inside images and PDFs.</li>
+    <li><code>robots.txt</code> reviewed: decide deliberately which AI crawlers (for example GPTBot, OAI-SearchBot, PerplexityBot, ClaudeBot, Google-Extended) you allow. Blocking search-oriented bots can remove you from answers.</li>
+    <li>CDN or firewall bot rules checked so they are not silently blocking crawlers you allowed.</li>
+    <li><code>llms.txt</code> at the site root summarising who you are and linking your most important pages. Low effort; treat it as a helpful map, not a ranking factor.</li>
+    <li>XML sitemap current, submitted to Google Search Console and Bing Webmaster Tools. Bing's index feeds several assistants.</li>
+  </ul>
+
+  <h2 style="margin-top:5mm"><span class="num">07</span>Third-party and earned mentions</h2>
+  <ul class="cl">
+    <li>Pitch the publications that appeared in your baseline citation list first.</li>
+    <li>Earned coverage in respected outlets for your space (for crypto and AI: CoinDesk, Cointelegraph, Decrypt, The Block, Blockworks, AI Magazine, Forbes), describing you with your category phrase.</li>
+    <li>Listed and accurate on the review sites, directories and "best of" lists that assistants cite in your category.</li>
+    <li>Founder quoted as an expert source in pieces that are not about your company.</li>
+    <li>Podcast appearances with published transcripts or show notes.</li>
+    <li>Partner and integration pages that describe you, linking back.</li>
+    <li>Original data or research that others cite. The strongest long-term citation magnet.</li>
+  </ul>
+
+  <h2 style="margin-top:5mm"><span class="num">08</span>Reddit, forums and communities</h2>
+  <ul class="cl">
+    <li>Identify the subreddits, forums (Stack Overflow, Hacker News, ecosystem forums) and Q&amp;A threads that appear in your baseline answers.</li>
+    <li>Founder or engineers answer questions there under real, disclosed identities, helpful first and promotional rarely.</li>
+    <li>Respond calmly and factually to existing threads that misdescribe you.</li>
+    <li>No fake accounts, paid upvotes or undisclosed staff posts. They get exposed and the exposure gets cited.</li>
+    <li>Docs and GitHub README clear enough to be quoted in answers to technical questions.</li>
+  </ul>
+
+  <h2 style="margin-top:5mm"><span class="num">09</span>Monthly measurement routine</h2>
+  <table>
+    <thead><tr><th style="width:30%">Step</th><th>What to do</th><th style="width:16%">Time</th></tr></thead>
+    <tbody>
+      <tr><td>1 · Rerun prompts</td><td>Same 20 prompts, same assistants, same day each month. Save screenshots or exports.</td><td>45 min</td></tr>
+      <tr><td>2 · Score</td><td>For each prompt and assistant: 0 = absent, 1 = mentioned, 2 = cited with link, minus 1 if described wrongly.</td><td>20 min</td></tr>
+      <tr><td>3 · Sources</td><td>Update the list of most-cited domains. New entrants become targets.</td><td>15 min</td></tr>
+      <tr><td>4 · Traffic</td><td>Check analytics referrals from chatgpt.com, perplexity.ai, gemini.google.com, claude.ai, copilot.microsoft.com and similar. Check self-reported attribution for "ChatGPT" or "AI".</td><td>10 min</td></tr>
+      <tr><td>5 · Fix</td><td>Pick the 3 lowest-scoring prompts and assign one action each: a page update, a pitch, a listing fix.</td><td>15 min</td></tr>
+    </tbody>
+  </table>
+  <div class="box" style="margin-top:3mm">
+    <div class="label"><span>Monthly score log</span></div>
+    <table class="tight" style="margin:2mm 0 0">
+      <thead><tr><th>Month</th><th class="c">ChatGPT</th><th class="c">Perplexity</th><th class="c">Claude</th><th class="c">Gemini</th><th class="c">AI Overviews</th><th class="c">Total / 200</th></tr></thead>
+      <tbody>
+        <tr><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+        <tr><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+        <tr><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+        <tr><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="callout"><p><strong>What not to do.</strong> Hidden text for bots, prompt-injection strings in pages, mass-produced near-duplicate pages, or buying listicle placements without disclosure. These are the tactics most likely to be filtered out as assistants mature, and they put the trust you are trying to build at risk.</p></div>
+</section>
+
+<!--CTA-->
+</body>
+</html>

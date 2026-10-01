@@ -109,6 +109,28 @@ async function renderBlock(block: Block): Promise<string> {
   }
 
   const lines = block.split('\n');
+  if (
+    lines.length >= 2 &&
+    lines.every((l) => /^\s*\|.*\|\s*$/.test(l)) &&
+    /^\s*\|(\s*:?-{3,}:?\s*\|)+\s*$/.test(lines[1])
+  ) {
+    const cells = (l: string) =>
+      l.trim().replace(/^\||\|$/g, '').split('|').map((c) => applyInline(c.trim()));
+    const head = cells(lines[0]).map((c) => `<th>${c}</th>`).join('');
+    const rows = lines
+      .slice(2)
+      .map((l) => `<tr>${cells(l).map((c) => `<td>${c}</td>`).join('')}</tr>`)
+      .join('');
+    return `<div class="table-wrap"><table><thead><tr>${head}</tr></thead><tbody>${rows}</tbody></table></div>`;
+  }
+  if (lines.every((l) => /^\s*[-*]\s+\[[ xX]\]\s+/.test(l))) {
+    const items = lines.map((l) => {
+      const done = /^\s*[-*]\s+\[[xX]\]/.test(l);
+      const text = l.replace(/^\s*[-*]\s+\[[ xX]\]\s+/, '');
+      return `<li class="task${done ? ' is-done' : ''}"><span class="task-box" aria-hidden="true"></span>${applyInline(text)}</li>`;
+    });
+    return `<ul class="task-list">${items.join('')}</ul>`;
+  }
   if (lines.every((l) => /^\s*[-*]\s+/.test(l))) {
     const items = lines.map((l) => `<li>${applyInline(l.replace(/^\s*[-*]\s+/, ''))}</li>`);
     return `<ul>${items.join('')}</ul>`;

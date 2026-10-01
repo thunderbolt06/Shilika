@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>The AI Startup GTM Canvas | Shilika Jain</title>
+<link rel="stylesheet" href="print.css">
+<style>
+  .canvas { display: grid; grid-template-columns: repeat(4, 1fr); gap: 2.5mm; }
+  .canvas .box { min-height: 44mm; }
+  .canvas .span2 { grid-column: span 2; }
+  .canvas .span4 { grid-column: span 4; }
+  .canvas .tall { grid-row: span 2; }
+  .canvas .lines { min-height: 20mm; }
+  .plan td.fill { height: 15mm; }
+  .plan th:first-child { width: 22%; }
+  .ex .box { min-height: 0; }
+  .ex .filled { font-size: 10pt; }
+  .ex-flag { display: inline-block; border: 0.35mm solid var(--ink); background: var(--lime); font-weight: 700; font-size: 7.5pt; letter-spacing: 0.1em; text-transform: uppercase; padding: 1mm 2.5mm; margin-bottom: 3mm; }
+</style>
+</head>
+<body>
+
+<section class="cover">
+  <div>
+    <div class="kicker"><span class="dot"></span> Canvas · 1-page GTM + 90-day plan + worked example</div>
+    <h1>The AI Startup <em>GTM</em> Canvas</h1>
+    <p class="lede">One page that forces the ten go-to-market decisions most AI teams leave implicit, a 90-day worksheet that turns them into a plan, and an illustrative filled example so you can see the level of specificity that makes a canvas useful.</p>
+  </div>
+  <div>
+    <div class="howto">
+      <h4>How to fill it in</h4>
+      <ol>
+        <li>Fill the canvas in pencil, in one 90-minute session with the founders. Leave a box blank rather than writing something vague.</li>
+        <li>Every box should contain something a skeptical investor could check: a named segment, a price, a number, a competitor.</li>
+        <li>Write the riskiest assumption in Risks, then design the first 30 days of the plan to test it.</li>
+        <li>Revisit monthly. A canvas that never changes is a canvas nobody reads.</li>
+      </ol>
+    </div>
+    <div class="cover-meta">
+      <div><b>Best for</b>AI and AI-infrastructure founders, pre-seed to Series A</div>
+      <div><b>Time</b>90 minutes for the canvas, 60 minutes for the 90-day plan</div>
+      <div><b>Interactive version</b>shilikajain.com/tools/gtm-planner</div>
+    </div>
+  </div>
+</section>
+
+<section class="page">
+  <h2><span class="num">CANVAS</span>Go-to-market on one page</h2>
+  <p class="small">Company: ______________________ &nbsp;&nbsp; Version / date: ____________ &nbsp;&nbsp; Owner: ______________________</p>
+  <div class="canvas">
+    <div class="box span2"><div class="label"><span>1 · Market</span><span class="n">WHERE</span></div><div class="prompt">Which segment first, and why now? What changed (model capability, cost, regulation, platform shift) that makes this possible this year?</div><div class="lines"></div></div>
+    <div class="box span2"><div class="label"><span>2 · ICP</span><span class="n">WHO</span></div><div class="prompt">Company type and size, trigger event, buyer title, user title. Who signs, who uses, who can block?</div><div class="lines"></div></div>
+    <div class="box"><div class="label"><span>3 · Problem</span></div><div class="prompt">The painful job in the buyer's words. What does it cost them today, in hours, money or risk?</div><div class="lines"></div></div>
+    <div class="box"><div class="label"><span>4 · Alternatives</span></div><div class="prompt">What they use now: incumbent, in-house build, general-purpose LLM, agency, nothing.</div><div class="lines"></div></div>
+    <div class="box span2"><div class="label"><span>5 · Positioning</span></div><div class="prompt">For [ICP] who [trigger/problem], [product] is a [category] that [key value]. Unlike [alternative], we [unique capability + proof].</div><div class="lines"></div></div>
+    <div class="box"><div class="label"><span>6 · Pricing</span></div><div class="prompt">Model (seat, usage, outcome, platform fee), entry price, expansion path. Does gross margin survive inference costs at scale?</div><div class="lines"></div></div>
+    <div class="box"><div class="label"><span>7 · Motion</span></div><div class="prompt">Product-led, sales-led, partner-led or community-led? Sales cycle length? Who closes the first 10 deals?</div><div class="lines"></div></div>
+    <div class="box span2"><div class="label"><span>8 · Channels</span><span class="n">MAX 3</span></div><div class="prompt">The three channels you will test first, each with a budget and an owner. Why will your ICP see you there?</div><div class="lines"></div></div>
+    <div class="box span2"><div class="label"><span>9 · Metrics</span></div><div class="prompt">One north-star metric, plus leading indicators: activation rate, qualified pipeline, CAC, payback, net revenue retention.</div><div class="lines"></div></div>
+    <div class="box span2"><div class="label"><span>10 · Risks</span><span class="n">TEST FIRST</span></div><div class="prompt">Riskiest assumptions: model commoditisation, data access, trust and security review, platform dependency, a big player shipping the same feature.</div><div class="lines"></div></div>
+  </div>
+</section>
+
+<section class="page">
+  <h2><span class="num">PLAN</span>90-day worksheet</h2>
+  <p>Each month has one job. Month 1 tests the riskiest assumption, month 2 doubles down on whatever produced signal, month 3 makes it repeatable.</p>
+  <table class="plan">
+    <thead><tr><th></th><th>Days 1 to 30 · Test</th><th>Days 31 to 60 · Focus</th><th>Days 61 to 90 · Repeat</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Goal</strong><br><span class="small">One sentence, one number</span></td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+      <tr><td><strong>Assumption tested</strong><br><span class="small">From box 10</span></td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+      <tr><td><strong>Channels</strong><br><span class="small">Max 3</span></td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+      <tr><td><strong>Key actions</strong><br><span class="small">3 to 5 per month</span></td><td class="fill" style="height:28mm"></td><td class="fill"></td><td class="fill"></td></tr>
+      <tr><td><strong>Assets needed</strong><br><span class="small">Pages, decks, demos, data</span></td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+      <tr><td><strong>Budget</strong></td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+      <tr><td><strong>Owner</strong></td><td class="fill" style="height:9mm"></td><td class="fill"></td><td class="fill"></td></tr>
+      <tr><td><strong>Success metric</strong><br><span class="small">And the kill threshold</span></td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+      <tr><td><strong>What we learned</strong><br><span class="small">Fill in at month end</span></td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    </tbody>
+  </table>
+  <div class="note"><strong>Weekly 30-minute review.</strong> Three questions only: what did the numbers do, what did we learn from customers, what do we stop doing? Write the answers under the month column.</div>
+</section>
+
+<section class="page ex">
+  <span class="ex-flag">Illustrative example · fictional company</span>
+  <h2>Worked example: "Ledgerlight"</h2>
+  <p class="small">A made-up AI startup used only to show the level of detail. Not a real company, client or result.</p>
+  <div class="grid2">
+    <div class="box"><div class="label"><span>1 · Market</span></div><p class="filled">Mid-market finance teams in the US and UK. LLMs can now read messy invoices and contracts reliably enough for a human-in-the-loop review flow; this was not practical two years ago.</p></div>
+    <div class="box"><div class="label"><span>2 · ICP</span></div><p class="filled">B2B SaaS companies with 200 to 1,000 staff, 3 to 10 people in finance, just switched ERP or failed an audit. Buyer: VP Finance. User: AP lead. Blocker: IT security.</p></div>
+    <div class="box"><div class="label"><span>3 · Problem</span></div><p class="filled">"We spend the first week of every month chasing invoice mismatches." Month-end close slips by days; errors surface in the audit.</p></div>
+    <div class="box"><div class="label"><span>4 · Alternatives</span></div><p class="filled">Manual review in spreadsheets, the AP module of their ERP, an outsourced bookkeeping firm.</p></div>
+    <div class="box"><div class="label"><span>5 · Positioning</span></div><p class="filled">For finance teams who close the month late because of invoice mismatches, Ledgerlight is an AI accounts-payable reviewer that flags errors before they post. Unlike ERP rules, it reads the contract, not just the PO.</p></div>
+    <div class="box"><div class="label"><span>6 · Pricing</span></div><p class="filled">Platform fee plus per-invoice usage. Annual contract, entry tier for under 2,000 invoices a month. Margin checked at 3x current volume.</p></div>
+    <div class="box"><div class="label"><span>7 · Motion</span></div><p class="filled">Sales-led with a free 14-day pilot on last month's invoices. Founder closes first 10 deals. Target cycle: 30 to 45 days.</p></div>
+    <div class="box"><div class="label"><span>8 · Channels</span></div><p class="filled">1. Founder LinkedIn to VP Finance audience. 2. ERP marketplace listing plus integration. 3. Earned media and podcasts in finance-ops trade press.</p></div>
+    <div class="box"><div class="label"><span>9 · Metrics</span></div><p class="filled">North star: invoices reviewed per week. Leading: pilots started, pilot-to-paid rate, security review pass rate, CAC payback under 12 months.</p></div>
+    <div class="box"><div class="label"><span>10 · Risks</span></div><p class="filled">IT security blocks pilots. ERP vendor ships a similar feature. Test first: can we pass a security questionnaire in under a week? (Prepare a trust page and SOC 2 roadmap.)</p></div>
+  </div>
+  <h3>90-day plan, condensed</h3>
+  <table class="tight">
+    <thead><tr><th>Month</th><th>Goal</th><th>Key actions</th><th>Kill threshold</th></tr></thead>
+    <tbody>
+      <tr><td>1 · Test</td><td>5 pilots started</td><td>Trust page live; 40 founder-led conversations; 3 posts a week; ERP listing submitted</td><td>Fewer than 2 pilots, or security blocks 3 in a row</td></tr>
+      <tr><td>2 · Focus</td><td>2 paid conversions</td><td>Pilot playbook; first customer story; podcast pitches to finance-ops shows</td><td>Pilot-to-paid below 1 in 4</td></tr>
+      <tr><td>3 · Repeat</td><td>10 pilots in pipeline</td><td>Data report on invoice error patterns (anonymised); trade press pitch; webinar with ERP partner</td><td>Report earns no coverage or inbound</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<!--CTA-->
+</body>
+</html>

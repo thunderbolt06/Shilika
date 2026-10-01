@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>The Startup Marketing Checklist | Shilika Jain</title>
+<link rel="stylesheet" href="print.css">
+</head>
+<body>
+
+<section class="cover">
+  <div>
+    <div class="kicker"><span class="dot"></span> Checklist · 115 items · 5 phases</div>
+    <h1>The Startup <em>Marketing</em> Checklist</h1>
+    <p class="lede">Everything a seed to Series A team should have in place, in the order it should happen. Built from launches across Web3, AI and cybersecurity, where trust is the product and a sloppy foundation costs you the first impression you only get once.</p>
+  </div>
+  <div>
+    <div class="howto">
+      <h4>How to use this checklist</h4>
+      <ol>
+        <li>Work top to bottom. Phase 1 is not optional: every later phase leaks without it.</li>
+        <li>Assign one owner per unchecked item. "The team" is not an owner.</li>
+        <li>Grey text under an item is the reason it matters. If the reason does not apply to you, skip it on purpose and write down why.</li>
+        <li>Revisit the Always-on page every Monday. That page is the job once the launch is over.</li>
+      </ol>
+    </div>
+    <div class="cover-meta">
+      <div><b>Best for</b>Founders and first marketing hires, pre-seed to Series A</div>
+      <div><b>Time to complete</b>Phase 1: two to three weeks part-time. Phases 2 to 4: about 4 months</div>
+      <div><b>Companion</b>20 Marketing Channels Playbook and the interactive checklist at shilikajain.com/tools</div>
+    </div>
+  </div>
+</section>
+
+<section class="page">
+  <h2><span class="num">PHASE 1</span>Foundations</h2>
+  <p class="lede">Positioning, measurement and email infrastructure. Unglamorous, and the single biggest reason paid and earned channels underperform for young companies.</p>
+
+  <div class="cl-group">
+  <h4>Positioning and ICP</h4>
+  <ul class="cl">
+    <li>Write a one-sentence ICP: company type, stage or size, the trigger event that makes them buy now, and the buyer's title.<span class="why">If you cannot name the trigger event, you will spend on people who agree with you but never buy.</span></li>
+    <li>List 10 named accounts that fit the ICP and 3 that look close but are not a fit.<span class="why">The near-misses sharpen your disqualifiers faster than any persona doc.</span></li>
+    <li>Interview at least 10 target buyers before writing copy. Record their exact words for the problem.</li>
+    <li>Name the real alternative you replace: a spreadsheet, an incumbent, an in-house build, an agency, or doing nothing.</li>
+    <li>Write a positioning statement (use the ICP and Positioning Worksheet) and read it to 5 people outside the company.</li>
+    <li>Choose a category buyers already search for, then sharpen it with a qualifier. Avoid inventing a category unless you have the budget to educate a market.</li>
+    <li>List 3 proof points you can show today: a live demo, an audit, a design partner quote, a usage number you are comfortable publishing.</li>
+  </ul>
+  </div>
+
+  <div class="cl-group">
+  <h4>Messaging</h4>
+  <ul class="cl">
+    <li>Homepage headline says what it is and who it is for in 12 words or fewer.</li>
+    <li>Write the one-liner, the 50-word and the 150-word description. Store them in one shared doc that everyone copies from.</li>
+    <li>Build a messaging hierarchy: one core claim, three pillars, one proof per pillar.</li>
+    <li>Write answers to your top 5 objections ("we already use X", "is it secure", "too early for us").</li>
+    <li>Write the founder story in under 120 words: why this team, why now.</li>
+    <li>Agree a banned-words list (vague superlatives, hype terms, claims you cannot prove).<span class="why">Security and AI buyers discount hype instantly. Crypto audiences have seen every superlative.</span></li>
+  </ul>
+  </div>
+
+  <div class="cl-group">
+  <h4>Website and brand</h4>
+  <ul class="cl">
+    <li>Logo in SVG and PNG, light and dark versions, plus a square avatar for social.</li>
+    <li>Mobile Largest Contentful Paint under 2.5 seconds on your homepage and top landing page.</li>
+    <li>Every page has a unique title, meta description, canonical URL and Open Graph image.</li>
+    <li>One primary call to action per page (demo, waitlist, docs, install). Not three.</li>
+    <li>About page with real names, photos and links to LinkedIn or X.<span class="why">Anonymous teams lose journalists, enterprise buyers and AI search engines in that order.</span></li>
+    <li>A pricing page, or a "how pricing works" page, even if it ends with "talk to us".</li>
+    <li>A technical page (docs, architecture, security overview) for the engineer who gets forwarded your link.</li>
+    <li>Organization schema with <code>sameAs</code> links to every official profile.</li>
+  </ul>
+  </div>
+
+  <div class="cl-group">
+  <h4>Analytics and attribution</h4>
+  <ul class="cl">
+    <li>Analytics installed and verified with a test visit (GA4, Plausible or PostHog).</li>
+    <li>Google Search Console and Bing Webmaster Tools verified, XML sitemap submitted to both.</li>
+    <li>Conversion events defined and firing: signup, demo request, waitlist join, docs visit, install.</li>
+    <li>UTM naming convention written down: lowercase, source = platform, medium = channel type, campaign = initiative.</li>
+    <li>"How did you hear about us?" free-text field on signup or demo forms.<span class="why">Self-reported attribution catches podcasts, communities and AI answers that click tracking misses.</span></li>
+    <li>CRM set up with lifecycle stages (lead, qualified, opportunity, customer) and one owner.</li>
+    <li>One weekly dashboard with no more than 5 numbers.</li>
+  </ul>
+  </div>
+
+  <div class="cl-group">
+  <h4>Domain and email authentication</h4>
+  <ul class="cl">
+    <li>Separate sending domain (for example <code>getyourco.com</code>) for any cold outbound. Never cold email from your primary domain.</li>
+    <li>SPF record published on every sending domain, listing only the services that actually send for you. Stay under the 10 DNS lookup limit.</li>
+    <li>DKIM signing enabled for each sender: Google Workspace or Microsoft 365, your email platform, your CRM, your support desk.</li>
+    <li>DMARC record published at <code>p=none</code> with a <code>rua</code> reporting address.</li>
+    <li>DMARC reports reviewed for 2 to 4 weeks, then policy moved to <code>quarantine</code>, then <code>reject</code> once all legitimate senders pass.</li>
+    <li>Custom tracking and link domain set up in your email platform.</li>
+    <li>New inboxes and domains warmed for 2 to 4 weeks before any volume. Low daily caps per inbox.</li>
+    <li>Google Postmaster Tools verified so you can see domain reputation and spam rate.</li>
+    <li>One-click unsubscribe header enabled on marketing email (required by major mailbox providers for bulk senders).</li>
+    <li>Registrar account protected with 2FA. Obvious typo domains and your handles on X, LinkedIn, GitHub, Discord, Telegram and YouTube reserved.<span class="why">Impersonation and phishing hit Web3 and security brands first, often during launch week.</span></li>
+  </ul>
+  </div>
+
+  <div class="cl-group">
+  <h4>Legal and compliance</h4>
+  <ul class="cl">
+    <li>Privacy policy and cookie notice that match what your analytics and pixels actually collect.</li>
+    <li>Terms of service published.</li>
+    <li>Trademark clearance search on the company and product name. File in core markets when budget allows.</li>
+    <li>Marketing claims review. No unqualified "unhackable", "fully secure", "guaranteed" or "audited" without the audit link.</li>
+    <li>Token or financial products: legal review of all copy that touches returns, price, listings or eligibility, plus geo-restrictions on campaigns where required.</li>
+    <li>Email consent recorded. Double opt-in for EU and UK subscribers.</li>
+    <li>Written permission on file for every customer logo, quote and case study.</li>
+  </ul>
+  </div>
+
+  <div class="callout"><p><strong>Phase 1 exit test.</strong> A stranger can read your homepage and say who it is for, what it replaces and why to believe you. A test signup shows up in your CRM with a source. Your domain passes SPF, DKIM and DMARC on a mail-tester check. If any of the three fail, do not start Phase 2.</p></div>
+</section>
+
+<section class="page">
+  <h2><span class="num">PHASE 2</span>Pre-launch <em>(T-8 to T-1 weeks)</em></h2>
+  <p class="lede">The launch is decided here, not on launch day. Most of the coverage, signups and community energy you see in week one was set up in these eight weeks.</p>
+  <div class="cl-group">
+  <h4>Plan</h4>
+  <ul class="cl">
+    <li>Launch date chosen and checked against major industry conferences, holidays and known big announcements in your space.</li>
+    <li>One primary launch goal with a number (for example, qualified signups or demo requests) and one secondary goal.</li>
+    <li>Launch owner named, with a run-of-show document listing every task, owner and time.</li>
+    <li>Decide the press strategy: one exclusive, a small embargo group, or open announcement.</li>
+  </ul>
+  </div>
+  <div class="cl-group">
+  <h4>Assets</h4>
+  <ul class="cl">
+    <li>Press kit live (see the Press Kit and Launch PR Template): boilerplate, fact sheet, founder bios, logos, product screenshots, headshots.</li>
+    <li>Announcement blog post, press release and an external FAQ drafted and approved.</li>
+    <li>60 to 90 second demo video plus 3 to 5 product screenshots or GIFs.</li>
+    <li>Launch landing page with one call to action, tested end to end on mobile, with tracking verified.</li>
+    <li>3 quotable testimonials from beta users or design partners, approved in writing.</li>
+    <li>Product Hunt assets: tagline, description, gallery images, first comment from the maker.</li>
+    <li>Show HN post drafted if developers are part of your audience.</li>
+  </ul>
+  </div>
+  <div class="cl-group">
+  <h4>Audience</h4>
+  <ul class="cl">
+    <li>Waitlist or beta list open with a concrete reason to join early (access, pricing, feature input).</li>
+    <li>10 to 20 design partners or beta users recruited who will talk publicly.</li>
+    <li>Founder LinkedIn and X profiles updated: headline, banner, featured post, link to the landing page.</li>
+    <li>Founders posting at least 3 times a week for 4 weeks before launch.</li>
+    <li>Community space ready (Discord, Slack or Telegram) with moderators, rules and welcome flow.</li>
+    <li>Media list of 30 to 60 reporters built by beat, with a recent relevant article for each.</li>
+    <li>Investor, partner and advisor amplification asks sent with copy-paste posts and the exact time to share.</li>
+  </ul>
+  </div>
+  <div class="cl-group">
+  <h4>Operations</h4>
+  <ul class="cl">
+    <li>Launch email sequence written: announcement, use case on day 3, proof or customer story on day 7.</li>
+    <li>Signup and onboarding flow load-tested.</li>
+    <li>Support inbox and status page staffed for launch week.</li>
+    <li>Incident one-pager: who speaks, what you say, and where you post if the site goes down or a security question goes viral.</li>
+  </ul>
+  </div>
+</section>
+
+<section style="margin-top:8mm">
+  <h2><span class="num">PHASE 3</span>Launch week</h2>
+  <p class="lede">Run it like an operation. One war-room channel, one owner per channel, a clock everyone works from.</p>
+  <div class="cl-group">
+  <h4>Day 0</h4>
+  <ul class="cl">
+    <li>Publish the announcement and release exactly at the embargo time. Not five minutes early.</li>
+    <li>Launch email sent to the full list within the first hour.</li>
+    <li>Founders post on LinkedIn and X with native video or images. On LinkedIn, the link goes in the first comment.</li>
+    <li>Product Hunt goes live at 12:01 a.m. Pacific if you are launching there. A maker replies to every comment.</li>
+    <li>Partners, investors and advisors notified with the live links.</li>
+    <li>Pin the launch post on every owned channel.</li>
+    <li>Signups tracked hourly against the launch goal in the war-room channel.</li>
+    <li>Every reply and comment answered for the first 48 hours.</li>
+  </ul>
+  </div>
+  <div class="cl-group">
+  <h4>Days 1 to 5</h4>
+  <ul class="cl">
+    <li>Coverage shared as it lands, and each journalist thanked individually.</li>
+    <li>Day 2: publish a customer story or a concrete use-case post.</li>
+    <li>Day 3: founder AMA in your community, an X Space or a LinkedIn Live.</li>
+    <li>Day 4: follow up with non-responding reporters using a new angle (data, customer, contrarian take). Do not resend the release.</li>
+    <li>Day 5: recap post with the numbers you are comfortable publishing.</li>
+    <li>All coverage collected on a press page. "As seen in" logos only for pieces that actually ran.</li>
+    <li>Retargeting audiences built from launch traffic if paid is in the plan.</li>
+    <li>Launch retro held within 7 days: what moved the goal, what did not, what to repeat.</li>
+  </ul>
+  </div>
+
+  <h2 class="page"><span class="num">PHASE 4</span>First 90 days</h2>
+  <div class="cl-group">
+  <h4>Days 1 to 30: test</h4>
+  <ul class="cl">
+    <li>3 channels chosen for testing (use the "pick 3 by stage" page in the Channels Playbook).</li>
+    <li>Test budget and kill criteria written for each channel before spending.</li>
+    <li>2 cornerstone pages published that answer real buyer questions.</li>
+    <li>Onboarding email sequence triggered by activation, not by signup date.</li>
+    <li>Customer interview cadence: 2 per week, notes in one shared place.</li>
+    <li>Founder posting continues at 3 per week.</li>
+  </ul>
+  </div>
+
+  <div class="cl-group">
+  <h4>Days 31 to 60: decide</h4>
+  <ul class="cl">
+    <li>Each channel test reviewed against its kill criteria: cut, keep testing, or scale.</li>
+    <li>First data or research asset published (anonymised usage data, a survey, an on-chain or threat analysis).</li>
+    <li>2 to 4 earned media pieces, bylines or podcast appearances secured.</li>
+    <li>Referral ask placed at the activation moment in product.</li>
+    <li>Comparison pages published against your top 2 alternatives, factual and fair.</li>
+    <li>First case study published with a named customer.</li>
+  </ul>
+  </div>
+  <div class="cl-group">
+  <h4>Days 61 to 90: systemise</h4>
+  <ul class="cl">
+    <li>What works documented in a one-page playbook per channel.</li>
+    <li>Contract or hire for the channel that is working, not the one you wish was working.</li>
+    <li>Next-quarter targets set from actual CAC and conversion rates, not benchmarks.</li>
+    <li>Positioning reviewed against win/loss notes. Homepage copy refreshed with customer language.</li>
+    <li>Second launch moment scheduled (feature, integration, partnership or data report).</li>
+    <li>Board or investor update includes marketing learnings, not just numbers.</li>
+  </ul>
+  </div>
+
+  <h2 class="page"><span class="num">PHASE 5</span>Always-on</h2>
+  <div class="cl-group">
+  <h4>Every week</h4>
+  <ul class="cl">
+    <li>Review the dashboard: traffic, signups, activation, pipeline, blended CAC.</li>
+    <li>3 founder posts, and 20 thoughtful replies to posts in your niche.</li>
+    <li>Publish one long-form piece or substantially update an existing page.</li>
+    <li>Pitch at least 2 reporters, newsletters or podcasts with a specific angle.</li>
+  </ul>
+  </div>
+  <div class="cl-group">
+  <h4>Every month</h4>
+  <ul class="cl">
+    <li>Product update email and public changelog entry.</li>
+    <li>Ask ChatGPT, Perplexity, Gemini and Claude 10 buyer questions. Log whether you are cited (see the GEO Checklist).</li>
+    <li>Refresh your top 5 pages by traffic: facts, dates, screenshots, internal links.</li>
+    <li>Reallocate spend between channels based on cost per qualified outcome.</li>
+    <li>Review DMARC reports and Postmaster spam rate.</li>
+  </ul>
+  </div>
+  <div class="cl-group">
+  <h4>Every quarter</h4>
+  <ul class="cl">
+    <li>Messaging refresh from sales-call notes and 5 win/loss interviews.</li>
+    <li>One planned news moment.</li>
+    <li>Tool audit: cancel unused subscriptions and seats.</li>
+    <li>Press kit, boilerplate and founder bios updated.</li>
+    <li>Budget re-plan using the Marketing Budget Template.</li>
+  </ul>
+  </div>
+</section>
+
+<section class="page">
+  <h2><span class="num">SUMMARY</span>The 20 channels at a glance</h2>
+  <p>Every channel below is covered in depth in the <strong>20 Marketing Channels Playbook</strong>. Cost and timing are operator estimates for an early-stage B2B or Web3 company; your market will move them.</p>
+  <table class="tight">
+    <thead><tr><th>#</th><th>Channel</th><th>Main job</th><th>Cost to start</th><th>First signal</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td>SEO</td><td>Capture existing search demand</td><td>Low cash, high time</td><td>3 to 6 months</td></tr>
+      <tr><td>2</td><td>GEO / AI search</td><td>Get cited in AI answers</td><td>Low cash, high time</td><td>1 to 3 months</td></tr>
+      <tr><td>3</td><td>Google Ads</td><td>Capture high-intent search</td><td>$2K to $5K test</td><td>1 to 2 weeks</td></tr>
+      <tr><td>4</td><td>Meta Ads</td><td>Create demand, retarget</td><td>$2K to $5K test</td><td>1 to 2 weeks</td></tr>
+      <tr><td>5</td><td>LinkedIn Ads</td><td>Reach exact titles and companies</td><td>$3K to $8K test</td><td>2 to 4 weeks</td></tr>
+      <tr><td>6</td><td>Reddit</td><td>Credibility in niche communities</td><td>Time, optional ads</td><td>2 to 6 weeks</td></tr>
+      <tr><td>7</td><td>X / Twitter</td><td>Narrative, crypto and dev reach</td><td>Time</td><td>2 to 8 weeks</td></tr>
+      <tr><td>8</td><td>LinkedIn organic</td><td>Founder-led B2B trust</td><td>Time</td><td>4 to 8 weeks</td></tr>
+      <tr><td>9</td><td>YouTube</td><td>Education and search</td><td>Medium</td><td>3 to 6 months</td></tr>
+      <tr><td>10</td><td>TikTok / Shorts</td><td>Reach and awareness</td><td>Low to medium</td><td>2 to 8 weeks</td></tr>
+      <tr><td>11</td><td>Email</td><td>Convert and retain</td><td>Low</td><td>Immediate</td></tr>
+      <tr><td>12</td><td>WhatsApp</td><td>High-touch nurture in key markets</td><td>Low</td><td>1 to 4 weeks</td></tr>
+      <tr><td>13</td><td>Communities</td><td>Retention, advocacy, support</td><td>Time</td><td>1 to 3 months</td></tr>
+      <tr><td>14</td><td>Product Hunt and launch sites</td><td>Launch spike, backlinks</td><td>Low</td><td>One day</td></tr>
+      <tr><td>15</td><td>PR / earned media</td><td>Credibility, reach, citations</td><td>$5K to $12K/mo retainer or in-house time</td><td>4 to 12 weeks</td></tr>
+      <tr><td>16</td><td>Podcasts</td><td>Depth with niche audiences</td><td>Time</td><td>1 to 3 months</td></tr>
+      <tr><td>17</td><td>Influencers / KOLs</td><td>Borrowed trust and reach</td><td>Varies widely</td><td>1 to 4 weeks</td></tr>
+      <tr><td>18</td><td>Partnerships and integrations</td><td>Distribution through others</td><td>Time, some engineering</td><td>2 to 6 months</td></tr>
+      <tr><td>19</td><td>Events and conferences</td><td>Pipeline and relationships</td><td>$3K to $50K+ per event</td><td>Event week</td></tr>
+      <tr><td>20</td><td>Referral programs</td><td>Turn customers into acquisition</td><td>Low plus incentives</td><td>1 to 3 months</td></tr>
+    </tbody>
+  </table>
+  <div class="callout"><p><strong>Rule of three.</strong> Run no more than three acquisition channels at once until one of them works. "Works" means a repeatable cost per qualified outcome you can afford, not a good week.</p></div>
+</section>
+
+<!--CTA-->
+</body>
+</html>
