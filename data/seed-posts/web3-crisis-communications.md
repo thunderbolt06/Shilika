@@ -92,8 +92,8 @@ Any of those three, get external counsel inside 12 hours. The cost of an outside
 
 ## Related playbooks
 
-- [Web3 PR Embargo Strategy 2026: How to Coordinate Tier-1 Press Without Breaking the Story](/blog/web3-pr-embargo-strategy) — the relationship work you do before the crisis arrives
-- [Tier-1 Crypto Media Outreach: How to Build Web3 Journalist Relationships That Actually Land Coverage](/blog/web3-tier1-journalist-relations) — who you call when the crisis needs a measured story
-- [Cybersecurity PR](/services/cybersecurity-pr) — the protocol overlap when the crisis is a security incident
+- [Web3 PR Embargo Strategy 2026: How to Coordinate Tier-1 Press Without Breaking the Story](/blog/web3-pr-embargo-strategy) - the relationship work you do before the crisis arrives
+- [Tier-1 Crypto Media Outreach: How to Build Web3 Journalist Relationships That Actually Land Coverage](/blog/web3-tier1-journalist-relations) - who you call when the crisis needs a measured story
+- [Cybersecurity PR](/services/cybersecurity-pr) - the protocol overlap when the crisis is a security incident
 
 If you are watching a thread escalate right now, the booking link below routes to a 30-minute teardown call. Same response sequence, faster than email.

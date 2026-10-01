@@ -1,4 +1,4 @@
-/* Tailwind base/components/utilities — scoped via tailwind.config content paths
+/* Tailwind base/components/utilities - scoped via tailwind.config content paths
    to only the new admin/blog UIs. Legacy marketing pages use the verbatim
    editorial CSS below. */
 @tailwind base;
@@ -593,7 +593,7 @@ ul { list-style: none; }
   .pitch-tag { right: 0; font-size: 9px; padding: 5px 8px; }
 }
 
-/* Lite YouTube — click-to-play poster (keeps the heavy iframe off
+/* Lite YouTube - click-to-play poster (keeps the heavy iframe off
    the initial page load; swapped in on click via JS). */
 .lite-yt { cursor: pointer; }
 .lite-yt picture, .lite-yt-poster {
@@ -981,7 +981,7 @@ ul { list-style: none; }
   transition: transform 0.5s var(--ease-out-expo), color 0.4s;
 }
 
-/* Clickable service cards (06, 07 — new service pages) */
+/* Clickable service cards (06, 07 - new service pages) */
 a.service.service-link {
   text-decoration: none;
   color: inherit;
@@ -1022,7 +1022,7 @@ a.service.service-link:hover { color: var(--paper); }
 }
 
 /* =========================================================
-   Latest Playbook — 3-card section
+   Latest Playbook - 3-card section
    ========================================================= */
 .playbook {
   background: var(--paper);

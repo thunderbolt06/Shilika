@@ -33,7 +33,7 @@ export async function getServerSupabase() {
  */
 export function getAdminSupabase() {
   if (!SUPABASE_SECRET_KEY) {
-    throw new Error('SUPABASE_SECRET_KEY missing — required for admin operations');
+    throw new Error('SUPABASE_SECRET_KEY missing - required for admin operations');
   }
   return createClient(SUPABASE_URL, SUPABASE_SECRET_KEY, {
     auth: { persistSession: false, autoRefreshToken: false },

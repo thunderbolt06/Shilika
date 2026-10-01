@@ -6,7 +6,7 @@
 
 // Reveal on scroll + scroll progress. Wrapped in an IIFE (like the LinkedIn
 // modal block below) because this page also loads site.js, which declares
-// its own top-level `const io` — an unwrapped redeclaration here throws a
+// its own top-level `const io` - an unwrapped redeclaration here throws a
 // page-wide SyntaxError that kills whichever of the two scripts loads
 // second, which is how the loader overlay ended up stuck on screen.
 (function () {

@@ -161,10 +161,10 @@ export function ExcelClient() {
                       <ActionBadge action={r.action} />
                     </td>
                     <td className="py-2 pr-3 font-mono text-xs">
-                      {String(r.parsed.slug ?? r.source.slug ?? '—')}
+                      {String(r.parsed.slug ?? r.source.slug ?? '-')}
                     </td>
                     <td className="py-2 pr-3">
-                      {String(r.parsed.title ?? r.source.title ?? '—')}
+                      {String(r.parsed.title ?? r.source.title ?? '-')}
                     </td>
                     <td className="py-2 pr-3 text-xs text-rust">
                       {r.errors.map((e) => `${e.field}: ${e.message}`).join('; ')}

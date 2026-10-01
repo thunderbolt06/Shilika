@@ -15,7 +15,7 @@ const WRITER_MODEL = process.env.ANTHROPIC_WRITER_MODEL || 'claude-sonnet-4-6';
 const DEFAULT_CTA_LABEL = 'Book a 30-min teardown with Shilika';
 const DEFAULT_CTA_URL = 'https://calendly.com/shilikajain/30min/';
 
-// CTA label/URL are deterministic constants set by us — ignore whatever the
+// CTA label/URL are deterministic constants set by us - ignore whatever the
 // model returns and always emit the defaults. Keeps draft validation from
 // failing on stylized labels or hallucinated/relative URLs.
 const ctaLabelSchema = z.preprocess(() => DEFAULT_CTA_LABEL, z.string());
@@ -77,7 +77,7 @@ const DraftSchema = z.object({
 export type DraftEnvelope = z.infer<typeof DraftSchema>;
 
 // JSON schema for the `submit_draft` tool. Mirrors DraftSchema's intent but is
-// what the Claude API actually enforces server-side — Zod still runs as a
+// what the Claude API actually enforces server-side - Zod still runs as a
 // belt-and-suspenders pass with its preprocess fallbacks.
 const SUBMIT_DRAFT_TOOL = {
   name: 'submit_draft',
@@ -85,7 +85,7 @@ const SUBMIT_DRAFT_TOOL = {
     'Submit the final blog post draft. Call this exactly once when you are done researching and writing. Do not return prose alongside the call.',
   // Strict mode: Anthropic grammar-constrains the tool input. Guarantees
   // required fields, types, and additionalProperties:false. NOTE: it does
-  // NOT enforce min/maxLength — those are advisory hints to the model; the
+  // NOT enforce min/maxLength - those are advisory hints to the model; the
   // truncating Zod preprocesses (titleSchema, descriptionSchema) are the
   // real safety net for length caps.
   strict: true,
@@ -121,7 +121,7 @@ function buildSystem(ctx: AgentContext): string {
     ctx.strategy,
     '# Important (memory)',
     ctx.important,
-    '# Skill — Write blog post',
+    '# Skill - Write blog post',
     ctx.skill,
     '# Humanization guide',
     ctx.humanize,
@@ -153,7 +153,7 @@ function buildUserPrompt(ctx: AgentContext): string {
       : '',
     '',
     '## Knowledge base entries you may cite',
-    kbBlock || '_(no matching knowledge base entries — write conservatively and avoid named entities)_',
+    kbBlock || '_(no matching knowledge base entries - write conservatively and avoid named entities)_',
     '',
     '## Currently published posts (use these slugs for related_posts)',
     publishedPostsAsList(ctx.publishedPosts),
@@ -184,11 +184,11 @@ export function ideaIdFromCustomId(customId: string): number | null {
  * single-shot: the old multi-turn humanization fix loop can't run inside one
  * batch request, so we ask for the best draft in one pass and validate
  * humanization at parse time (recorded, non-fatal). Web search runs
- * server-side within the batch request — no client loop needed.
+ * server-side within the batch request - no client loop needed.
  */
 export async function buildWriterRequest(ideaId: number): Promise<AnthropicBatchRequest> {
   if (!process.env.ANTHROPIC_API_KEY) {
-    throw new Error('ANTHROPIC_API_KEY missing — required to run the writer');
+    throw new Error('ANTHROPIC_API_KEY missing - required to run the writer');
   }
 
   const ctx = await loadAgentContext(ideaId);
@@ -203,7 +203,7 @@ export async function buildWriterRequest(ideaId: number): Promise<AnthropicBatch
       model: WRITER_MODEL,
       max_tokens: 8000,
       system: [
-        // Shared prefix across every request in the batch — cache it.
+        // Shared prefix across every request in the batch - cache it.
         { type: 'text', text: system, cache_control: { type: 'ephemeral' } },
       ],
       messages: [{ role: 'user', content: userPrompt }],
@@ -227,7 +227,7 @@ export type WriterDraftResult = {
 /**
  * Parse a completed batch message into a validated draft + hero prompt.
  * Throws if the model didn't call `submit_draft` or the payload fails schema
- * validation — the caller rolls the idea back to 'idea' in that case.
+ * validation - the caller rolls the idea back to 'idea' in that case.
  */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function parseWriterDraft(message: any): WriterDraftResult {

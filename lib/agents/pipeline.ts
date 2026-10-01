@@ -38,7 +38,7 @@ export async function rollbackIdea(ideaId: number, reason: string): Promise<void
  * half that used to live inline in runDraftPipeline; image generation (Gemini)
  * stays synchronous and runs here, inside the batch-poller cron.
  *
- * Image-gen failures are non-fatal — the draft still ships for review.
+ * Image-gen failures are non-fatal - the draft still ships for review.
  */
 export async function finalizeWriterDraft(args: {
   ideaId: number;

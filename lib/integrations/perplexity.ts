@@ -1,14 +1,14 @@
 import 'server-only';
 
 /**
- * Perplexity API integration. Optional — enabled when PERPLEXITY_API_KEY
+ * Perplexity API integration. Optional - enabled when PERPLEXITY_API_KEY
  * is configured.
  *
  * Used for two signal types:
- *   1. Related questions — Perplexity exposes the related questions it
+ *   1. Related questions - Perplexity exposes the related questions it
  *      shows users alongside its answer. These are a high-signal proxy
  *      for "people also ask" phrasings.
- *   2. Citation domains — the URLs Perplexity cites for a given query.
+ *   2. Citation domains - the URLs Perplexity cites for a given query.
  *      Useful as a competitor scan ("who answers this question well
  *      enough that Perplexity prefers them").
  */
@@ -75,7 +75,7 @@ export async function perplexitySignals(query: string): Promise<PerplexitySignal
 
 /**
  * Run perplexitySignals across an array of queries. Each call is independent
- * so we use Promise.allSettled — one failure does not poison the batch.
+ * so we use Promise.allSettled - one failure does not poison the batch.
  */
 export async function perplexityBatch(
   queries: string[],

@@ -4,7 +4,7 @@ import { ADMIN_COOKIE, verifySessionToken } from '@/lib/admin-session';
 export async function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl;
 
-  // /admin routes — gate everything except the login screen itself.
+  // /admin routes - gate everything except the login screen itself.
   if (pathname.startsWith('/admin') && pathname !== '/admin/login') {
     const session = await verifySessionToken(req.cookies.get(ADMIN_COOKIE)?.value);
     if (!session) {
@@ -14,7 +14,7 @@ export async function middleware(req: NextRequest) {
     }
   }
 
-  // /api/admin/* — same gate, but respond with JSON 401 instead of a redirect.
+  // /api/admin/* - same gate, but respond with JSON 401 instead of a redirect.
   if (pathname.startsWith('/api/admin/')) {
     const session = await verifySessionToken(req.cookies.get(ADMIN_COOKIE)?.value);
     if (!session) {

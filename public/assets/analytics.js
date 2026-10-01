@@ -1,9 +1,9 @@
 // =====================================================================
-// PostHog Analytics — EU region
+// PostHog Analytics - EU region
 // =====================================================================
 // Replace POSTHOG_KEY below with your project key (starts with `phc_`).
 // Get it from: https://eu.posthog.com/project/settings → "Project API Key".
-// The key is safe to expose in client code — that's how PostHog is designed.
+// The key is safe to expose in client code - that's how PostHog is designed.
 // =====================================================================
 
 (function () {
@@ -11,7 +11,7 @@
   var POSTHOG_HOST = 'https://eu.i.posthog.com';
 
   if (!POSTHOG_KEY || POSTHOG_KEY.indexOf('REPLACE_WITH') === 0) {
-    // Key not configured yet — skip init so we don't fire bogus events.
+    // Key not configured yet - skip init so we don't fire bogus events.
     return;
   }
 

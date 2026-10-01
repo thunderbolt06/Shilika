@@ -47,7 +47,7 @@ export async function POST(req: Request) {
     return NextResponse.json({ ok: false, error: 'Please enter a valid email.' }, { status: 400 });
   }
 
-  // Run email and Notion in parallel — Notion always fires regardless of email result.
+  // Run email and Notion in parallel - Notion always fires regardless of email result.
   const [emailResult, notionResult] = await Promise.allSettled([
     isEmailConfigured()
       ? sendLeadEmail(payload)

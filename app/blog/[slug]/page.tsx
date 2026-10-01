@@ -107,7 +107,7 @@ export default async function BlogPostPage({ params }: { params: Params }) {
         publisher: {
           '@type': 'Organization',
           '@id': `${SITE_URL}/#org`,
-          name: 'Shilika Jain — Fractional PR',
+          name: 'Shilika Jain - Fractional PR',
           logo: {
             '@type': 'ImageObject',
             url: `${SITE_URL}/assets/shilika-press-square-1200.jpg`,
@@ -231,7 +231,7 @@ export default async function BlogPostPage({ params }: { params: Params }) {
             </h3>
             <p>
               50+ Web3 &amp; AI founders placed in Forbes, CoinDesk, Decrypt, The Block,
-              Blockworks &amp; AI Magazine — across six APAC markets.
+              Blockworks &amp; AI Magazine - across six APAC markets.
             </p>
             <a href={ctaUrl} target="_blank" rel="noopener" data-magnet>
               {ctaLabel}
@@ -284,7 +284,7 @@ export default async function BlogPostPage({ params }: { params: Params }) {
               </h3>
               <p>
                 50+ Web3 &amp; AI founders placed in Forbes, CoinDesk, Decrypt, The Block,
-                Blockworks &amp; AI Magazine — across six APAC markets.
+                Blockworks &amp; AI Magazine - across six APAC markets.
               </p>
               <a href={ctaUrl} target="_blank" rel="noopener" data-magnet>
                 {ctaLabel}
@@ -339,7 +339,7 @@ export default async function BlogPostPage({ params }: { params: Params }) {
         <section className="post-related">
           <div className="post-related-head">
             <p className="post-related-kicker">
-              <span aria-hidden>—</span> Keep reading
+              <span aria-hidden>-</span> Keep reading
             </p>
             <h2>Similar playbooks</h2>
           </div>

@@ -44,7 +44,7 @@
       "publisher": {
         "@type": "Organization",
         "@id": "https://www.shilikajain.com/#organization",
-        "name": "Shilika Jain — Fractional PR",
+        "name": "Shilika Jain - Fractional PR",
         "url": "https://www.shilikajain.com/",
         "logo": {
           "@type": "ImageObject",
@@ -65,12 +65,12 @@
       ],
       "step": [
         { "@type": "HowToStep", "position": 1, "name": "Map the right reporter, not the masthead", "text": "Read 12 to 20 recent bylines, list each reporter by beat (DeFi, infra, regulation, stablecoins, gaming, AI x crypto, APAC, NFTs), and pick the one whose last three pieces overlap with your story angle. Cold-pitching the wrong beat is the #1 reason CoinDesk pitches die." },
-        { "@type": "HowToStep", "position": 2, "name": "Build a story angle, not an announcement", "text": "CoinDesk editors filter for category significance, not corporate news. Lead with what your launch tells readers about the market — a new pricing model, an industry-first integration, a category being defined — and put your funding or product line second." },
+        { "@type": "HowToStep", "position": 2, "name": "Build a story angle, not an announcement", "text": "CoinDesk editors filter for category significance, not corporate news. Lead with what your launch tells readers about the market - a new pricing model, an industry-first integration, a category being defined - and put your funding or product line second." },
         { "@type": "HowToStep", "position": 3, "name": "Write a pitch under 180 words", "text": "Three paragraphs. One on what's news. One on why it matters to the reporter's beat. One on what's exclusive (data, founder access, embargo). End with two sentences confirming you can ship assets within 24 hours." },
         { "@type": "HowToStep", "position": 4, "name": "Offer a real embargo with a clear window", "text": "Pitch 7 to 10 days before launch. Offer a 48 to 72 hour embargo. Confirm in writing. Send the press kit only after the reporter agrees to terms. Never pitch the same embargo to a competing outlet unless you have told them in writing." },
         { "@type": "HowToStep", "position": 5, "name": "Pre-brief, then send a tight package", "text": "Once the embargo is accepted, schedule a 30 to 45 minute founder briefing. Send a press kit with the key facts, two named customer quotes, three usable charts, founder bio, and high-resolution images." },
         { "@type": "HowToStep", "position": 6, "name": "Manage the day-of-launch carefully", "text": "Confirm the publish window with the reporter the morning of launch. Have the founder on standby for last-minute questions for at least 90 minutes. Coordinate any partner or exchange announcement to lag CoinDesk's piece by 15 to 30 minutes." },
-        { "@type": "HowToStep", "position": 7, "name": "Follow up with the second story", "text": "Two weeks after launch, return to the same reporter with a tied second beat — usage data, partnership, customer story. Reporters who covered you once are 4 to 5 times more likely to cover you again than cold contacts. Build the relationship, don't burn it." }
+        { "@type": "HowToStep", "position": 7, "name": "Follow up with the second story", "text": "Two weeks after launch, return to the same reporter with a tied second beat - usage data, partnership, customer story. Reporters who covered you once are 4 to 5 times more likely to cover you again than cold contacts. Build the relationship, don't burn it." }
       ]
     },
     {
@@ -99,7 +99,7 @@
           "name": "Does CoinDesk accept press releases?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "CoinDesk publishes paid press release distribution via partners like Cointelegraph PR and AccessWire, but editorial coverage in the newsroom is earned through direct reporter outreach, not press release submissions. Editorial and the press partner side are two separate funnels — paying for one does not increase the odds of the other."
+            "text": "CoinDesk publishes paid press release distribution via partners like Cointelegraph PR and AccessWire, but editorial coverage in the newsroom is earned through direct reporter outreach, not press release submissions. Editorial and the press partner side are two separate funnels - paying for one does not increase the odds of the other."
           }
         },
         {
@@ -147,7 +147,7 @@
           "name": "Can I get CoinDesk coverage without a PR agency?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes — and many founders do, especially in the first 18 to 24 months. Direct founder-to-reporter relationships are valued by CoinDesk editors. What an experienced operator brings is the journalist map, the embargo etiquette, the pitch craft, and a 2-week-out launch timeline that doesn't burn the relationship. Useful for repeat campaigns, less essential for a first story if the founder has the time."
+            "text": "Yes - and many founders do, especially in the first 18 to 24 months. Direct founder-to-reporter relationships are valued by CoinDesk editors. What an experienced operator brings is the journalist map, the embargo etiquette, the pitch craft, and a 2-week-out launch timeline that doesn't burn the relationship. Useful for repeat campaigns, less essential for a first story if the founder has the time."
           }
         }
       ]

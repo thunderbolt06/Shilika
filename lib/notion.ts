@@ -1,4 +1,4 @@
-// Notion lead logging — appends each inbound lead as a row in the Leads database.
+// Notion lead logging - appends each inbound lead as a row in the Leads database.
 //
 // Env vars:
 //   NOTION_TOKEN        Internal integration secret from notion.so/my-integrations
@@ -52,7 +52,7 @@ export function isNotionConfigured(): boolean {
 
 export async function addLeadToNotion(p: LeadPayload): Promise<void> {
   if (!isNotionConfigured()) {
-    console.warn('[notion] NOTION_TOKEN not set — skipping Notion entry.');
+    console.warn('[notion] NOTION_TOKEN not set - skipping Notion entry.');
     return;
   }
 

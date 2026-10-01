@@ -8,7 +8,7 @@ type Params = Promise<{ id: string }>;
 
 /**
  * Manually queue a draft for an idea. The writer now runs through the async
- * Anthropic batch API, so this submits the batch and returns immediately — the
+ * Anthropic batch API, so this submits the batch and returns immediately - the
  * draft + hero image are finalized by the batch-poller cron once the batch
  * completes (usually within the hour). The idea moves to status 'draft' while
  * it's in flight and 'ready_for_review' once finalized.

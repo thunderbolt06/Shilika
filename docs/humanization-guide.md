@@ -1,10 +1,10 @@
 # Humanization Guide
 
-The rules the validator enforces. Anything in **Hard Rules** is a regex match — if it fires, the draft is blocked. **Soft Rules** are judgment-based; aim to honor them but the validator does not enforce them.
+The rules the validator enforces. Anything in **Hard Rules** is a regex match - if it fires, the draft is blocked. **Soft Rules** are judgment-based; aim to honor them but the validator does not enforce them.
 
 ## Hard Rules
 
-- No em-dashes (—). Use periods, commas, or restructure.
+- No em-dashes (-). Use periods, commas, or restructure.
 - No ellipsis (…) for dramatic effect.
 - No arrow symbols (→, ⇒, ←).
 - No openers: "Here's why," "Here's how," "Here's the thing," "Let's dive in," "Let's break it down," "Let's unpack."

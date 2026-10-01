@@ -9,7 +9,7 @@ export const dynamic = 'force-dynamic';
  * Drives the async half of the LLM pipeline: checks every pending Anthropic
  * batch, finalizes the completed ones (writer → draft + hero image;
  * topic-research → inserted ideas), and leaves still-processing batches for the
- * next run. Runs hourly — Anthropic batches usually finish within the hour.
+ * next run. Runs hourly - Anthropic batches usually finish within the hour.
  */
 export async function GET(request: Request) {
   const unauthorized = requireCronAuth(request);

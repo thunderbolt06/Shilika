@@ -180,4 +180,4 @@ create policy blog_posts_anon_read_published
   on blog_posts for select to anon
   using (published = true);
 
--- (no anon policies for the other tables — service role only)
+-- (no anon policies for the other tables - service role only)

@@ -1,4 +1,4 @@
-// Web Crypto only — this module runs in both the Node runtime (route handlers)
+// Web Crypto only - this module runs in both the Node runtime (route handlers)
 // and the Edge runtime (middleware).
 
 const COOKIE_NAME = 'shilika_admin_session';

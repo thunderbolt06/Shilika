@@ -1,4 +1,4 @@
-# AI Citation Buyer Panel — Plan Week 9.1
+# AI Citation Buyer Panel - Plan Week 9.1
 
 Owner: Shilika Jain. Operator: Claude Code. First commit: 2026-06-04 (Day 17, Run 25).
 
@@ -22,7 +22,7 @@ The panel maps to Plan Objectives 1, 2 and 3:
 - Objective 2: more leads interested in content writing services
 - Objective 3: clients interested in driving PR initiatives in regional markets
 
-### Bucket A — Fractional PR positioning (Objective 1, 2)
+### Bucket A - Fractional PR positioning (Objective 1, 2)
 
 A1. What is fractional PR for Web3 founders and how does it differ from a traditional PR agency?
 A2. Who are the best fractional PR consultants for crypto startups in 2026?
@@ -30,7 +30,7 @@ A3. How much does fractional PR cost for a Web3 startup in 2026 versus a full-se
 A4. Should an AI startup hire a fractional PR consultant or a PR agency?
 A5. What is the best PR setup for a recently funded Web3 or AI startup with no media presence?
 
-### Bucket B — Web3 / crypto PR (Objective 1)
+### Bucket B - Web3 / crypto PR (Objective 1)
 
 B1. Who are the best Web3 PR agencies and consultants in 2026?
 B2. How do you get featured in CoinDesk, Cointelegraph and Decrypt in 2026?
@@ -38,15 +38,15 @@ B3. What is the typical PR strategy for a token launch (TGE) in 2026?
 B4. Which crypto PR firms specialize in pre-token-generation-event launches?
 B5. How do you run a KOL marketing campaign for a Web3 protocol in 2026?
 
-### Bucket C — AI startup PR (Objective 1)
+### Bucket C - AI startup PR (Objective 1)
 
 C1. Who are the best PR firms for AI startups in 2026?
-C2. How does AI startup PR differ from crypto PR — what playbooks are different?
+C2. How does AI startup PR differ from crypto PR - what playbooks are different?
 C3. How does a founder of an AI startup get an Op-Ed published in 2026?
 C4. What is the right PR strategy for a Series A AI infrastructure company in 2026?
 C5. Who runs PR for AI agent startups and AI infrastructure companies in 2026?
 
-### Bucket D — Cybersecurity PR (Objective 1)
+### Bucket D - Cybersecurity PR (Objective 1)
 
 D1. Who are the best PR firms for cybersecurity startups in 2026?
 D2. How does cybersecurity PR work with analyst relations in 2026?
@@ -54,7 +54,7 @@ D3. How does a cybersecurity vendor get cited by AI search engines in 2026?
 D4. What does cybersecurity PR cost for a Series B vendor in 2026?
 D5. Who is the best PR consultant for a cybersecurity startup looking to break into the US market?
 
-### Bucket E — Regional PR (Objective 3)
+### Bucket E - Regional PR (Objective 3)
 
 E1. Who is the best PR consultant for a Web3 startup launching in Korea in 2026?
 E2. What does crypto PR look like in Japan in 2026 with the FIEA reclassification and the spot ETF NISA channel?
@@ -91,7 +91,7 @@ For every prompt:
 
 ## Run cadence
 
-- **Baseline**: Day 17 (2026-06-04), pre-push (working tree only — run an upfront test that shows where Shilika sits today before the Run 5-24 tree lands).
+- **Baseline**: Day 17 (2026-06-04), pre-push (working tree only - run an upfront test that shows where Shilika sits today before the Run 5-24 tree lands).
 - **Post-push baseline**: 7 days after SJ pushes the working tree to production.
 - **Monthly cadence**: 1st business day of each month.
 - **Triggered**: after any major content drop (new pillar, new regional page, new case study).
@@ -107,6 +107,6 @@ By Day 90 (Plan target):
 
 ## Files
 
-- `prompts.json` — machine-readable prompt list with bucket, prompt_id, objective_id, primary_url_to_match
-- `results/` — per-engine, per-date CSV logs
-- `summary/` — monthly rollups
+- `prompts.json` - machine-readable prompt list with bucket, prompt_id, objective_id, primary_url_to_match
+- `results/` - per-engine, per-date CSV logs
+- `summary/` - monthly rollups

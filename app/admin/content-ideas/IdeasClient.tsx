@@ -156,11 +156,11 @@ export function IdeasClient() {
             onChange={(e) => setDraft({ ...draft, priority: Number(e.target.value) })}
             className="rounded-md border border-ink/15 bg-cream px-3 py-2 font-mono text-xs uppercase tracking-widest"
           >
-            <option value={0}>P0 — now</option>
-            <option value={1}>P1 — soon</option>
-            <option value={2}>P2 — queued</option>
-            <option value={3}>P3 — later</option>
-            <option value={4}>P4 — backlog</option>
+            <option value={0}>P0 - now</option>
+            <option value={1}>P1 - soon</option>
+            <option value={2}>P2 - queued</option>
+            <option value={3}>P3 - later</option>
+            <option value={4}>P4 - backlog</option>
           </select>
           <button
             disabled={busy}

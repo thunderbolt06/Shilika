@@ -1,4 +1,4 @@
-# Thin / scaled / duplicate content audit — 2026-08-09
+# Thin / scaled / duplicate content audit - 2026-08-09
 
 Plan Week 12, item 12.3 (identify bottom 20% pages; consolidate or noindex thin ones).
 Grounded in Google's Optimizing-for-generative-AI guide (updated 2026-07-10): scaled-content-abuse + reduce-duplicate-content.
@@ -9,7 +9,7 @@ Grounded in Google's Optimizing-for-generative-AI guide (updated 2026-07-10): sc
 - Cluster mean unique-content ratio: 84.3%
 - Cluster buckets: KEEP 106 | REVIEW 0 | CONSOLIDATE_OR_NOINDEX 0
 
-## /pages cluster — lowest unique-content ratio (highest scaled-content risk)
+## /pages cluster - lowest unique-content ratio (highest scaled-content risk)
 
 | Route | Words | Unique words | Unique ratio | Bucket | In sitemap |
 |---|---:|---:|---:|---|---|

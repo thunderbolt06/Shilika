@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   if (!author) return {};
   const url = `${SITE_URL}/authors/${author.slug}`;
   return {
-    title: `${author.name} — ${author.title}`,
+    title: `${author.name} - ${author.title}`,
     description: author.bio,
     alternates: { canonical: url },
     openGraph: {
@@ -79,7 +79,7 @@ export default async function AuthorPage({ params }: { params: Params }) {
         '@type': 'ProfilePage',
         '@id': `${url}#profile`,
         url,
-        name: `${author.name} — ${author.title}`,
+        name: `${author.name} - ${author.title}`,
         description: author.bio,
         inLanguage: 'en',
         mainEntity: {

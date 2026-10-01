@@ -1,7 +1,7 @@
-# Productized content-writing offers — dedicated landing page copy variants
+# Productized content-writing offers - dedicated landing page copy variants
 
 **Author**: Claude Code (Run 28, Day 20, Sunday 7 June 2026)
-**Source**: Plan Week 11.3 — "Productize: Founder Essay package, Whitepaper Sprint, Op-Ed-of-the-Month."
+**Source**: Plan Week 11.3 - "Productize: Founder Essay package, Whitepaper Sprint, Op-Ed-of-the-Month."
 **Status**: Copy variants scaffolded. Page builds happen Week 11 (27 to 31 July 2026) per plan calendar.
 
 ## Why dedicated landing pages
@@ -14,7 +14,7 @@ The three offers already live on `/services/content-writing` as cards. Dedicated
 
 ## Page URL plan
 
-- `/services/content-writing/founder-essay-package` — primary; canonicalized to `/services/content-writing` if needed during the initial rollout.
+- `/services/content-writing/founder-essay-package` - primary; canonicalized to `/services/content-writing` if needed during the initial rollout.
 - `/services/content-writing/whitepaper-sprint`
 - `/services/content-writing/op-ed-of-the-month`
 
@@ -22,7 +22,7 @@ Each page receives a Service JSON-LD node + BreadcrumbList + FAQPage + Offer sch
 
 ---
 
-## Offer 1 — Founder Essay Package landing page
+## Offer 1 - Founder Essay Package landing page
 
 **URL**: `/services/content-writing/founder-essay-package`
 **Primary keyword**: founder essay ghostwriting
@@ -39,7 +39,7 @@ Each page receives a Service JSON-LD node + BreadcrumbList + FAQPage + Offer sch
 `Founder Essay Package: $3,500 per Tier-1 ghostwritten essay`
 
 ### Front-loaded 50-word answer chunk (under H1, before H2 stack)
-`Founder Essay Package is a $3,500 ghostwritten 1,200 to 1,800 word essay placed in a Tier-1 contributor outlet — Forbes Council, Cointelegraph Innovation Circle, Entrepreneur, or AI Magazine — inside 10 to 14 days. Two founder voice interviews, two rounds of revisions, placement coordination by a senior PR operator who has placed 50+ protocols in Tier-1 press.`
+`Founder Essay Package is a $3,500 ghostwritten 1,200 to 1,800 word essay placed in a Tier-1 contributor outlet - Forbes Council, Cointelegraph Innovation Circle, Entrepreneur, or AI Magazine - inside 10 to 14 days. Two founder voice interviews, two rounds of revisions, placement coordination by a senior PR operator who has placed 50+ protocols in Tier-1 press.`
 
 ### H2 stack
 1. What the $3,500 Founder Essay Package covers (scope, deliverables, what is in scope vs not)
@@ -74,7 +74,7 @@ Each page receives a Service JSON-LD node + BreadcrumbList + FAQPage + Offer sch
 2. Which outlets does the Founder Essay Package target?
 3. How long does it take from brief to published essay?
 4. How many voice interviews does the package include?
-5. Who writes the essay — Shilika or a junior team?
+5. Who writes the essay - Shilika or a junior team?
 6. Is placement guaranteed?
 7. What happens if the founder does not like the draft?
 8. Can the package be used for cybersecurity or DePIN founders, not just Web3 and AI?
@@ -83,7 +83,7 @@ Each page receives a Service JSON-LD node + BreadcrumbList + FAQPage + Offer sch
 
 ---
 
-## Offer 2 — Whitepaper Sprint landing page
+## Offer 2 - Whitepaper Sprint landing page
 
 **URL**: `/services/content-writing/whitepaper-sprint`
 **Primary keyword**: web3 whitepaper writer
@@ -144,7 +144,7 @@ Each page receives a Service JSON-LD node + BreadcrumbList + FAQPage + Offer sch
 
 ---
 
-## Offer 3 — Op-Ed of the Month landing page
+## Offer 3 - Op-Ed of the Month landing page
 
 **URL**: `/services/content-writing/op-ed-of-the-month`
 **Primary keyword**: op-ed ghostwriting service
@@ -161,7 +161,7 @@ Each page receives a Service JSON-LD node + BreadcrumbList + FAQPage + Offer sch
 `Op-Ed of the Month: $2,500 per month for a Tier-1 founder op-ed`
 
 ### Front-loaded 60-word answer chunk
-`Op-Ed of the Month is a $2,500-per-month engagement (three-month minimum, $7,500 total) that ships one ghostwritten op-ed per month placed in a Tier-1 outlet — Forbes Council, Cointelegraph Innovation Circle, Entrepreneur, Coindesk Opinion, AI Magazine, The Information Op-Ed. By month three the founder is a recognized category voice across two to three Tier-1 outlets.`
+`Op-Ed of the Month is a $2,500-per-month engagement (three-month minimum, $7,500 total) that ships one ghostwritten op-ed per month placed in a Tier-1 outlet - Forbes Council, Cointelegraph Innovation Circle, Entrepreneur, Coindesk Opinion, AI Magazine, The Information Op-Ed. By month three the founder is a recognized category voice across two to three Tier-1 outlets.`
 
 ### H2 stack
 1. What the $2,500/month Op-Ed of the Month engagement covers (scope, deliverables, what is and is not in scope)
@@ -182,7 +182,7 @@ Each page receives a Service JSON-LD node + BreadcrumbList + FAQPage + Offer sch
 | AI agents founder, pre-Series A | Forbes Council | AI Magazine | Entrepreneur | 4 named-customer intros, 1 podcast invite |
 | Cybersecurity founder, Series B | Forbes Communications Council | Newsweek Expert Forum | Inc | 2 analyst inquiries, 1 inbound enterprise pilot |
 
-(Sanitize before publishing — these are real shapes with names blurred.)
+(Sanitize before publishing - these are real shapes with names blurred.)
 
 ### Schema additions
 - `Service` node with `name: "Op-Ed of the Month"`, `offers: {price: 2500, priceCurrency: "USD", priceSpecification: {billingDuration: "P1M", minPrice: 7500}}`.

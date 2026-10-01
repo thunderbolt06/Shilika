@@ -8,12 +8,12 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 export const revalidate = 600;
 
 export const metadata: Metadata = {
-  title: 'Blog — field notes on Web3 PR, AI PR, and embargo strategy',
+  title: 'Blog - field notes on Web3 PR, AI PR, and embargo strategy',
   description:
     'Field notes from inside Web3 and AI PR: embargo strategy, tier-1 placement, APAC localisation, crisis comms, and KOL waves.',
   alternates: { canonical: `${SITE_URL}/blog` },
   openGraph: {
-    title: 'Shilika Jain — Blog',
+    title: 'Shilika Jain - Blog',
     description: 'Field notes from inside Web3 and AI PR.',
     url: `${SITE_URL}/blog`,
     type: 'website',
@@ -44,14 +44,14 @@ export default async function BlogIndexPage() {
         '@type': 'Blog',
         '@id': `${SITE_URL}/blog#blog`,
         url: `${SITE_URL}/blog`,
-        name: 'Shilika Jain — Blog',
+        name: 'Shilika Jain - Blog',
         description:
           'Field notes from inside Web3 and AI PR: embargo strategy, tier-1 placement, APAC localisation, crisis comms, and KOL waves.',
         inLanguage: 'en',
         publisher: {
           '@type': 'Organization',
           '@id': `${SITE_URL}/#org`,
-          name: 'Shilika Jain — Fractional PR',
+          name: 'Shilika Jain - Fractional PR',
         },
         author: {
           '@type': 'Person',

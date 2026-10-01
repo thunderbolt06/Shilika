@@ -52,7 +52,7 @@
     {
       "@type": "Organization",
       "@id": "https://www.shilikajain.com/#organization",
-      "name": "Shilika Jain — Fractional PR",
+      "name": "Shilika Jain - Fractional PR",
       "alternateName": ["Shilika Jain PR", "Shilika PR"],
       "url": "https://www.shilikajain.com/",
       "logo": {
@@ -92,7 +92,7 @@
     {
       "@type": "ProfessionalService",
       "@id": "https://www.shilikajain.com/#service",
-      "name": "Shilika Jain — Fractional PR for Web3 & AI Founders",
+      "name": "Shilika Jain - Fractional PR for Web3 & AI Founders",
       "url": "https://www.shilikajain.com/",
       "image": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
       "priceRange": "$$$",
@@ -233,8 +233,8 @@
     {
       "@type": "VideoObject",
       "@id": "https://www.shilikajain.com/#pitch-video",
-      "name": "Shilika Jain — Fractional PR for Web3 & AI Founders: services pitch",
-      "description": "Shilika Jain explains the fractional PR model for Web3 and AI founders — Tier-1 placement strategy, APAC localisation, KOL waves, and founder profiling. A direct pitch to founders deciding between a fractional senior operator and a traditional PR agency.",
+      "name": "Shilika Jain - Fractional PR for Web3 & AI Founders: services pitch",
+      "description": "Shilika Jain explains the fractional PR model for Web3 and AI founders - Tier-1 placement strategy, APAC localisation, KOL waves, and founder profiling. A direct pitch to founders deciding between a fractional senior operator and a traditional PR agency.",
       "thumbnailUrl": "https://i.ytimg.com/vi/beWNvo1l1aQ/maxresdefault.jpg",
       "uploadDate": "2026-04-15",
       "contentUrl": "https://www.youtube.com/watch?v=beWNvo1l1aQ",
@@ -247,7 +247,7 @@
     {
       "@type": "VideoObject",
       "@id": "https://www.shilikajain.com/#intro-video",
-      "name": "Introduction — Shilika Jain, Web3 & AI PR consultant",
+      "name": "Introduction - Shilika Jain, Web3 & AI PR consultant",
       "description": "A bio narrative from Shilika Jain: six years placing 50+ Web3 and AI protocols in Forbes, CoinDesk, Cointelegraph, Decrypt, The Block, Blockworks and AI Magazine. APAC coverage across Korea, Japan, Vietnam, Singapore, India and the UAE.",
       "thumbnailUrl": "https://i.ytimg.com/vi/HuKCqoj6IvE/maxresdefault.jpg",
       "uploadDate": "2026-04-15",
@@ -349,7 +349,7 @@
           "name": "Does Shilika handle PR for AI startups outside of crypto?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. The same playbook — category narrative, founder profiling, journalist mapping, podcast tours, op-ed ghostwriting — applies to AI startups whether or not they are on-chain. Gaia AI was placed as 'the Stripe for AI agents' across Forbes, Decrypt and Benzinga. AI Magazine, Forbes AI coverage, The Information and category-defining op-eds are the typical surface area."
+            "text": "Yes. The same playbook - category narrative, founder profiling, journalist mapping, podcast tours, op-ed ghostwriting - applies to AI startups whether or not they are on-chain. Gaia AI was placed as 'the Stripe for AI agents' across Forbes, Decrypt and Benzinga. AI Magazine, Forbes AI coverage, The Information and category-defining op-eds are the typical surface area."
           }
         },
         {
@@ -397,7 +397,7 @@
     {
       "@type": "ItemList",
       "@id": "https://www.shilikajain.com/#latest-playbook",
-      "name": "Latest Playbook — Field notes for 2026 founders",
+      "name": "Latest Playbook - Field notes for 2026 founders",
       "description": "Three latest playbooks: crypto PR vs AI PR, best Web3 PR agencies of 2026, fractional vs agency comparison. Updated 2026-05-22.",
       "numberOfItems": 3,
       "itemListOrder": "ItemListOrderAscending",

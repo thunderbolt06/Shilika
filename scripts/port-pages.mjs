@@ -11,7 +11,7 @@
  *   4. Extract inline <script>...</script> from body → public/assets/<slug>.js
  *   5. Generate app/<route>/page.tsx
  *
- * Idempotent — re-run any time to regenerate from the source HTML.
+ * Idempotent - re-run any time to regenerate from the source HTML.
  */
 import fs from 'node:fs/promises';
 import path from 'node:path';
@@ -113,7 +113,7 @@ function extractStyleAndBody(html) {
   const bodyMatch = html.match(/<body[^>]*>([\s\S]*)<\/body>/i);
   let body = bodyMatch ? bodyMatch[1] : '';
 
-  // Pull inline scripts out of the body — they'd never execute via
+  // Pull inline scripts out of the body - they'd never execute via
   // dangerouslySetInnerHTML anyway. Each gets concatenated into one file.
   const scripts = [];
   body = body.replace(
@@ -132,7 +132,7 @@ function extractStyleAndBody(html) {
     },
   );
 
-  // Strip <noscript> blocks too — typically Calendly/analytics fallbacks
+  // Strip <noscript> blocks too - typically Calendly/analytics fallbacks
   // that don't add value in the SSR'd page.
   body = body.replace(/<noscript>[\s\S]*?<\/noscript>/gi, '');
 
@@ -147,7 +147,7 @@ const HTML_ENTITIES = {
   '&lt;': '<',
   '&gt;': '>',
   '&nbsp;': ' ',
-  '&mdash;': '—',
+  '&mdash;': '-',
   '&ndash;': '–',
   '&hellip;': '…',
 };
@@ -268,7 +268,7 @@ async function portOne({ html: rel, route, noindex }) {
   try {
     raw = await fs.readFile(input, 'utf8');
   } catch (e) {
-    console.warn(`skip ${rel} — ${e.message}`);
+    console.warn(`skip ${rel} - ${e.message}`);
     return null;
   }
 

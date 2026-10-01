@@ -91,7 +91,7 @@ print(f"routes+assets written: {routes}")
 pb_page = os.path.join(ROOT, "app", "playbook", "page.tsx")
 src = open(pb_page).read()
 if MARK not in src:
-    entries = [f"  // {MARK} — generated from data/playbook-topics.json"]
+    entries = [f"  // {MARK} - generated from data/playbook-topics.json"]
     for t in TOPICS:
         entries.append("  {")
         entries.append(f"    n: {t['n']},")

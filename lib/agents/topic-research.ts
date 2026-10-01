@@ -199,7 +199,7 @@ Rules:
         ahrefsRows
           .map(
             (a) =>
-              `- "${a.keyword}" — vol ${a.volume ?? '?'} | KD ${a.difficulty ?? '?'} | TP ${a.traffic_potential ?? '?'} | parent topic: ${a.parent_topic ?? '—'}`,
+              `- "${a.keyword}" - vol ${a.volume ?? '?'} | KD ${a.difficulty ?? '?'} | TP ${a.traffic_potential ?? '?'} | parent topic: ${a.parent_topic ?? '-'}`,
           )
           .join('\n'),
     );
@@ -268,7 +268,7 @@ function parseResearchMessage(message: any): Candidate[] {
 
 function fallbackFromSeeds(seeds: string[]): Candidate[] {
   // If Claude isn't available, the seed queries themselves become P2 idea rows
-  // — at least the queue won't sit empty.
+  // - at least the queue won't sit empty.
   return seeds.slice(0, 10).map((s) => ({
     title: s,
     description: `Seeded from knowledge_base.long_tail_seed: "${s}".`,
@@ -276,7 +276,7 @@ function fallbackFromSeeds(seeds: string[]): Candidate[] {
     priority: 2,
     source_signals: {
       seed_query: s,
-      rationale: 'No LLM available — using the raw seed query as the candidate.',
+      rationale: 'No LLM available - using the raw seed query as the candidate.',
     },
   }));
 }
@@ -368,7 +368,7 @@ export async function submitTopicResearch(options?: { force?: boolean }): Promis
   ]);
   const seedQueries = seedRows.flatMap((r) => [r.title, ...r.body.split('\n').filter((l) => l.trim() && !l.startsWith('#'))]).slice(0, 60);
 
-  // No LLM available (or nothing to reason over) — seed raw queries inline.
+  // No LLM available (or nothing to reason over) - seed raw queries inline.
   if (!process.env.ANTHROPIC_API_KEY || (!seedQueries.length && !gscOpportunities.length)) {
     const { proposed, inserted, skipped } = await insertCandidates(fallbackFromSeeds(seedQueries));
     return {

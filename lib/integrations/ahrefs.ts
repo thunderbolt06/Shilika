@@ -1,7 +1,7 @@
 import 'server-only';
 
 /**
- * Ahrefs v3 Keywords Explorer integration. Optional — enabled when
+ * Ahrefs v3 Keywords Explorer integration. Optional - enabled when
  * AHREFS_API_KEY is configured.
  *
  *   AHREFS_API_KEY=... (read-only Ahrefs API token)
@@ -56,7 +56,7 @@ export type AhrefsMatchingTerm = {
 let unauthorized = false;
 
 export function ahrefsEnabled(): boolean {
-  // Ahrefs is disabled — no API access yet.
+  // Ahrefs is disabled - no API access yet.
   return false;
 }
 
@@ -80,7 +80,7 @@ async function ahrefsGet<T>(path: string, params: Record<string, string>): Promi
     const text = await res.text();
     if (res.status === 401 || res.status === 403) {
       unauthorized = true;
-      console.warn(`[ahrefs] ${res.status} unauthorized — disabling Ahrefs for this process`);
+      console.warn(`[ahrefs] ${res.status} unauthorized - disabling Ahrefs for this process`);
       throw new Error(`Ahrefs ${path} ${res.status}: unauthorized`);
     }
     throw new Error(`Ahrefs ${path} ${res.status}: ${text.slice(0, 240)}`);

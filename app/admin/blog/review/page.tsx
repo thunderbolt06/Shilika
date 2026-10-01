@@ -69,7 +69,7 @@ export default async function ReviewPage() {
                 </p>
                 <p className="mt-1 font-serif text-2xl leading-tight">{r.title}</p>
                 <p className="mt-1 font-mono text-xs text-ink/50">
-                  slug: <code>{r.slug ?? '—'}</code>
+                  slug: <code>{r.slug ?? '-'}</code>
                 </p>
                 {r.tags?.length > 0 && (
                   <div className="mt-2 flex flex-wrap gap-1">

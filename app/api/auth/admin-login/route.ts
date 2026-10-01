@@ -10,7 +10,7 @@ export async function POST(request: Request) {
   }
 
   if (!checkAdminPassword(body.password)) {
-    // Constant-time mismatch — avoid leaking which guess was close.
+    // Constant-time mismatch - avoid leaking which guess was close.
     return NextResponse.json({ error: 'wrong password' }, { status: 401 });
   }
 

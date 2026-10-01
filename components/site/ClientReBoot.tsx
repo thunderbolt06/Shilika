@@ -10,7 +10,7 @@ import { useEffect } from 'react';
  * Calendly links, LinkedIn modal) re-render. This component re-fires
  * the boot function so handlers re-attach to the new elements.
  *
- * The boot function itself is responsible for idempotency — it uses
+ * The boot function itself is responsible for idempotency - it uses
  * data attributes to skip re-binding to elements it has already
  * touched.
  */

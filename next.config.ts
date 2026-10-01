@@ -69,7 +69,7 @@ const nextConfig: NextConfig = {
         headers: [{ key: 'Cache-Control', value: 'public, max-age=0, must-revalidate' }],
       },
       {
-        // Images, fonts and PDFs are content-stable once shipped — safe to pin.
+        // Images, fonts and PDFs are content-stable once shipped - safe to pin.
         source: '/assets/:file*.:ext(png|jpg|jpeg|gif|webp|avif|svg|ico|woff|woff2|ttf|otf|eot|pdf|mp4|webm|mp3)',
         headers: [{ key: 'Cache-Control', value: 'public, max-age=31536000, immutable' }],
       },

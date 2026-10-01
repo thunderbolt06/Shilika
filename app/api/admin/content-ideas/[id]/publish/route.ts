@@ -30,7 +30,7 @@ export async function POST(_req: Request, { params }: { params: Params }) {
     return NextResponse.json({ error: 'idea is missing required fields' }, { status: 400 });
   }
 
-  // Upsert into blog_posts by slug — keeps re-runs idempotent.
+  // Upsert into blog_posts by slug - keeps re-runs idempotent.
   const { data: post, error: postErr } = await supabase
     .from('blog_posts')
     .upsert(

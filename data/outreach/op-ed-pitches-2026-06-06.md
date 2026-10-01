@@ -1,4 +1,4 @@
-# Op-Ed pitch batch 2 — 5 outlets (Plan 9.3 continuation)
+# Op-Ed pitch batch 2 - 5 outlets (Plan 9.3 continuation)
 
 **Drafted**: Saturday 6 June 2026 (Run 27, Day 19) by Claude Code.
 **Owner to send**: Shilika Jain.
@@ -7,22 +7,22 @@
 Each pitch is built around: real news hook, one verifiable claim, named operator experience, regional or category angle the outlet does not already own. Subject lines under 60 chars. Body under 220 words. One link to a relevant shilikajain.com surface as the proof artifact.
 
 Outlet picks driven by:
-- The Block — institutional, capital-markets-adjacent, infra-and-MEV reader base, prefers structural arguments.
-- The Defiant — DeFi-native, builder-and-protocol register, opinion accepted from operator voices.
-- Bloomberg Crypto — institutional capital-markets reach, BlackRock and BlackRock-adjacent reader base.
-- Forbes Crypto Council — Forbes Council member byline, paywall-light reach into non-crypto CMO and CFO buyers.
-- AI Magazine — AI category-of-record outlet, non-crypto AI founder and CMO reader base, cybersecurity adjacency.
+- The Block - institutional, capital-markets-adjacent, infra-and-MEV reader base, prefers structural arguments.
+- The Defiant - DeFi-native, builder-and-protocol register, opinion accepted from operator voices.
+- Bloomberg Crypto - institutional capital-markets reach, BlackRock and BlackRock-adjacent reader base.
+- Forbes Crypto Council - Forbes Council member byline, paywall-light reach into non-crypto CMO and CFO buyers.
+- AI Magazine - AI category-of-record outlet, non-crypto AI founder and CMO reader base, cybersecurity adjacency.
 
 No outlet overlap with Batch 1 (CoinDesk, Cointelegraph, Decrypt, Blockworks, Forbes Communications Council). Each pitch leads with a different angle from Batch 1.
 
 Send sequence (recommended):
-1. **Tue 9 Jun 2026** — The Block, Bloomberg Crypto, AI Magazine (US-time, mid-morning ET).
-2. **Wed 10 Jun 2026** — The Defiant, Forbes Crypto Council (US-time, mid-morning ET).
+1. **Tue 9 Jun 2026** - The Block, Bloomberg Crypto, AI Magazine (US-time, mid-morning ET).
+2. **Wed 10 Jun 2026** - The Defiant, Forbes Crypto Council (US-time, mid-morning ET).
 3. Follow-up cadence: T+5 business days, T+10 business days. Kill after T+15 if no reply.
 
 ---
 
-## 1. The Block — Op-Ed pitch
+## 1. The Block - Op-Ed pitch
 
 **To**: tips@theblock.co (cc the named institutional and policy editor)
 **Subject**: Op-Ed pitch: The institutional press tier is now a regulatory-frame test
@@ -45,7 +45,7 @@ https://www.shilikajain.com/about
 
 ---
 
-## 2. The Defiant — Op-Ed pitch
+## 2. The Defiant - Op-Ed pitch
 
 **To**: editorial@thedefiant.io (cc the named DeFi-protocol beat editor)
 **Subject**: Op-Ed pitch: KOL waves are now a regulatory product, not a marketing line
@@ -68,7 +68,7 @@ https://www.shilikajain.com/about
 
 ---
 
-## 3. Bloomberg Crypto — Op-Ed pitch
+## 3. Bloomberg Crypto - Op-Ed pitch
 
 **To**: cryptocurrencies@bloomberg.net (cc the named institutional-flow reporter)
 **Subject**: Op-Ed pitch: APAC institutional flow is decided in three press windows
@@ -91,7 +91,7 @@ https://www.shilikajain.com/about
 
 ---
 
-## 4. Forbes Crypto Council — Op-Ed contribution
+## 4. Forbes Crypto Council - Op-Ed contribution
 
 **To**: forbescouncils.com submission queue (Crypto Council member byline)
 **Subject**: Forbes Council post: The fractional PR move replacing pre-Series B agency retainers
@@ -114,7 +114,7 @@ https://www.shilikajain.com/about
 
 ---
 
-## 5. AI Magazine — Op-Ed pitch
+## 5. AI Magazine - Op-Ed pitch
 
 **To**: editorial@aimagazine.com (cc the named AI-founder and AI-CMO beat editor)
 **Subject**: Op-Ed pitch: AI founders are under-invested in AI-Overviews citation share

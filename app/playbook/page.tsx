@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     '122 long-form playbooks on Web3 PR, AI startup comms and cybersecurity PR. Pricing, pitch guides for CoinDesk and Cointelegraph, a pre-token-launch checklist, agency-selection mistakes, op-eds vs press releases, whitepaper writing for AI startups, named launch teardowns, regional teardowns and the trade-offs founders should weigh.',
   alternates: { canonical: `${SITE_URL}/playbook` },
   openGraph: {
-    title: 'Shilika Jain — Playbooks',
+    title: 'Shilika Jain - Playbooks',
     description: '122 long-form playbooks from inside Web3, AI & cybersecurity PR.',
     url: `${SITE_URL}/playbook`,
     type: 'website',
@@ -79,7 +79,7 @@ const PLAYBOOKS = [
     slug: 'best-web3-pr-agencies-2026',
     title: 'Best Web3 PR Agencies and Consultants in 2026: an Honest Field Guide',
     description:
-      'A criteria-led 2026 ranking of Web3 PR firms — Lunar Strategy, EAK Digital, Coinbound, Outset PR, High Vibe PR — and a fractional senior-operator alternative.',
+      'A criteria-led 2026 ranking of Web3 PR firms - Lunar Strategy, EAK Digital, Coinbound, Outset PR, High Vibe PR - and a fractional senior-operator alternative.',
     tag: 'Field guide',
     time: 12,
   },
@@ -97,7 +97,7 @@ const PLAYBOOKS = [
     slug: 'ai-startup-pr-2026',
     title: 'PR Strategy for AI Startups in 2026: The Playbook',
     description:
-      'A 14-minute pillar on positioning, narrative architecture, journalist mapping (Forbes, The Information, TechCrunch, VentureBeat), AI Overviews citations, KOL waves and measurement — with the Gaia AI "Stripe for AI agents" worked example.',
+      'A 14-minute pillar on positioning, narrative architecture, journalist mapping (Forbes, The Information, TechCrunch, VentureBeat), AI Overviews citations, KOL waves and measurement - with the Gaia AI "Stripe for AI agents" worked example.',
     tag: 'AI',
     time: 14,
   },
@@ -115,7 +115,7 @@ const PLAYBOOKS = [
     slug: 'web3-pr-agency-mistakes',
     title: '7 Mistakes Web3 Founders Make With PR Agencies in 2026',
     description:
-      'A 9-minute field guide to the seven most expensive Web3 PR mistakes — chasing the logo, generalist agencies, junior execution, no news hook, English-only reach, ignoring AI search, and vanity metrics — with the fix for each.',
+      'A 9-minute field guide to the seven most expensive Web3 PR mistakes - chasing the logo, generalist agencies, junior execution, no news hook, English-only reach, ignoring AI search, and vanity metrics - with the fix for each.',
     tag: 'Pitfalls',
     time: 9,
   },
@@ -146,7 +146,7 @@ const PLAYBOOKS = [
     tag: 'Content',
     time: 8,
   },
-  // AUTO-PLAYBOOKS-15-114 — generated from data/playbook-topics.json
+  // AUTO-PLAYBOOKS-15-114 - generated from data/playbook-topics.json
   {
     n: 118,
     slug: 'web3-narrative-positioning-strategy-2026',

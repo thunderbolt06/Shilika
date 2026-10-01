@@ -38,7 +38,7 @@ export type BatchResult = {
 
 function client(): Anthropic {
   if (!process.env.ANTHROPIC_API_KEY) {
-    throw new Error('ANTHROPIC_API_KEY missing — required for the batch API');
+    throw new Error('ANTHROPIC_API_KEY missing - required for the batch API');
   }
   return new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 }

@@ -119,8 +119,8 @@ If you are facing a moment where the embargo break also involves an allegation a
 
 ## Related playbooks
 
-- [Tier-1 Crypto Media Outreach: How to Build Web3 Journalist Relationships That Actually Land Coverage](/blog/web3-tier1-journalist-relations) — the relationship work that makes embargoes hold
-- [Web3 Crisis Communications Playbook: From Rug Pull Allegations to Community Trust](/blog/web3-crisis-communications) — what to run when an embargo break is the smallest of your problems
-- [APAC Localisation & Access](/services/apac-pr) — how the embargo window gets retuned for Korean, Japanese, and Indian press
+- [Tier-1 Crypto Media Outreach: How to Build Web3 Journalist Relationships That Actually Land Coverage](/blog/web3-tier1-journalist-relations) - the relationship work that makes embargoes hold
+- [Web3 Crisis Communications Playbook: From Rug Pull Allegations to Community Trust](/blog/web3-crisis-communications) - what to run when an embargo break is the smallest of your problems
+- [APAC Localisation & Access](/services/apac-pr) - how the embargo window gets retuned for Korean, Japanese, and Indian press
 
 If you are about to run an embargoed announcement and want a second set of eyes on the outlet list and the angle map, the booking link below will get you a 30-minute teardown call.

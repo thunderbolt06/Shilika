@@ -1,4 +1,4 @@
-# Content Strategy — 4Ps positioning
+# Content Strategy - 4Ps positioning
 
 ## Problem (who has a problem you can solve, and what is it)
 
@@ -25,14 +25,14 @@ The pain shape is "I know I need PR but the agencies want $20K/month and a 6-mon
 
 The work has six surfaces:
 
-1. **Web3 PR Campaigns** — end-to-end strategic narrative + tier-1 outreach.
-2. **Founder Profiling & Op-Eds** — op-ed ghostwriting + podcast tour + speaker placement.
-3. **KOL & Influencer Marketing** — three-wave launch sequencing across 200+ vetted creators.
-4. **APAC Localisation & Access** — Korean, Japanese, Chinese diaspora, Indian, MENA press + on-ground events.
-5. **Token Launch PR / TGE Communications** — pre-TGE positioning, embargo coordination, exchange listing comms.
-6. **Cybersecurity PR** — analyst relations (Gartner, Forrester, IDC, KuppingerCole), security trade press, breach comms.
-7. **AI Startup PR** — Forbes, AI Magazine, Decrypt's AI desk, TechCrunch AI, The Information.
-8. **Content Writing** — op-eds, whitepapers, founder essays.
+1. **Web3 PR Campaigns** - end-to-end strategic narrative + tier-1 outreach.
+2. **Founder Profiling & Op-Eds** - op-ed ghostwriting + podcast tour + speaker placement.
+3. **KOL & Influencer Marketing** - three-wave launch sequencing across 200+ vetted creators.
+4. **APAC Localisation & Access** - Korean, Japanese, Chinese diaspora, Indian, MENA press + on-ground events.
+5. **Token Launch PR / TGE Communications** - pre-TGE positioning, embargo coordination, exchange listing comms.
+6. **Cybersecurity PR** - analyst relations (Gartner, Forrester, IDC, KuppingerCole), security trade press, breach comms.
+7. **AI Startup PR** - Forbes, AI Magazine, Decrypt's AI desk, TechCrunch AI, The Information.
+8. **Content Writing** - op-eds, whitepapers, founder essays.
 
 Each surface has its own service page on the site, its own pricing, and its own playbook. Cross-link liberally between blog posts and service pages.
 

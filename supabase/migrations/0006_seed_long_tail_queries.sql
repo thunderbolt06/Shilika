@@ -11,7 +11,7 @@
 insert into knowledge_base (title, kind, body, tags, metadata)
 values
 (
-  'Embargo strategy for Web3 PR — operational long-tails',
+  'Embargo strategy for Web3 PR - operational long-tails',
   'long_tail_seed',
   $body$how to coordinate embargoed press releases for blockchain funding rounds
 best practices for embargo timing in Web3 PR campaigns

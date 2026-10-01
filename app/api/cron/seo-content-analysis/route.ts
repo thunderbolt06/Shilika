@@ -66,7 +66,7 @@ export async function GET(request: Request) {
       .slice(0, 10);
 
     const briefMd = [
-      `# Weekly SEO brief — ${new Date().toISOString().slice(0, 10)}`,
+      `# Weekly SEO brief - ${new Date().toISOString().slice(0, 10)}`,
       '',
       '## Opportunity queries (impressions high, CTR < 2%)',
       ...(gscRows ?? []).map(
@@ -91,7 +91,7 @@ export async function GET(request: Request) {
 
     // Persist as a knowledge_base entry so the writer pipeline can read it.
     const { error } = await supabase.from('knowledge_base').insert({
-      title: `Weekly SEO brief — ${new Date().toISOString().slice(0, 10)}`,
+      title: `Weekly SEO brief - ${new Date().toISOString().slice(0, 10)}`,
       kind: 'human_note',
       body: briefMd,
       tags: ['seo-brief', 'auto-generated'],

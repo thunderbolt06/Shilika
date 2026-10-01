@@ -1,5 +1,5 @@
 // Lead-notification email via Brevo Transactional Email HTTP API.
-// Uses the REST API instead of SMTP — no IP whitelisting needed (works on Vercel).
+// Uses the REST API instead of SMTP - no IP whitelisting needed (works on Vercel).
 //
 // Env vars:
 //   BREVO_API_KEY     Your Brevo API key (Settings → API Keys)
@@ -56,7 +56,7 @@ export async function sendLeadEmail(p: LeadPayload): Promise<void> {
   const html = `<div style="max-width:560px;margin:0 auto;font-family:system-ui,sans-serif;">
   <p style="font:600 12px/1 system-ui;letter-spacing:.12em;text-transform:uppercase;color:#7aa800;margin:0 0 6px;">Shilika Jain · new enquiry</p>
   <h2 style="font:400 26px/1.1 Georgia,serif;color:#1a1a1a;margin:0 0 4px;">${esc(p.name)}${
-    p.company ? ` <span style="color:#9a9a9a;">— ${esc(p.company)}</span>` : ''
+    p.company ? ` <span style="color:#9a9a9a;">- ${esc(p.company)}</span>` : ''
   }</h2>
   <table style="border-collapse:collapse;margin:14px 0 18px;">
     ${row('Email', p.email)}
@@ -76,7 +76,7 @@ export async function sendLeadEmail(p: LeadPayload): Promise<void> {
 </div>`;
 
   const text = [
-    `New lead${p.service ? ` — ${p.service}` : ''}`,
+    `New lead${p.service ? ` - ${p.service}` : ''}`,
     `Name: ${p.name}`,
     `Email: ${p.email}`,
     p.company ? `Company: ${p.company}` : '',

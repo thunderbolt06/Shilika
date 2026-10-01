@@ -35,7 +35,7 @@ export async function GET() {
           ...posts.map((p) => {
             const url = `${SITE_URL}/blog/${p.slug}`;
             const md = `${SITE_URL}/api/markdown/blog/${p.slug}`;
-            return `- [${p.title}](${url}) — ${p.description}\n  Markdown alternate: ${md}`;
+            return `- [${p.title}](${url}) - ${p.description}\n  Markdown alternate: ${md}`;
           }),
           '',
         ].join('\n');

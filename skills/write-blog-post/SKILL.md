@@ -1,4 +1,4 @@
-# Write Blog Post — Skill
+# Write Blog Post - Skill
 
 Generate a publication-ready blog post for Shilika Jain's site.
 
@@ -7,7 +7,7 @@ Generate a publication-ready blog post for Shilika Jain's site.
 1. The content_idea row you were given: title, description, target queries, angle, CTA hint.
 2. `agents/content-strategist/PERSONA.md` (voice, what you ship, what you do not invent)
 3. `agents/content-strategist/STRATEGY.md` (4Ps + audience + channels)
-4. `agents/content-strategist/IMPORTANT.md` (memory — lessons from previous runs)
+4. `agents/content-strategist/IMPORTANT.md` (memory - lessons from previous runs)
 5. `docs/humanization-guide.md` (the rules the validator enforces)
 6. `docs/geo-guidelines.md` (how to write so AI assistants cite you cleanly)
 7. The `knowledge_base` rows tagged with at least one of the idea's tags, plus all `kind='brand_voice'` and `kind='case_study'` rows.

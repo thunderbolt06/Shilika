@@ -73,7 +73,7 @@ async function processWriterBatch(row: LlmBatch): Promise<{ succeeded: number; f
   for await (const res of iterateAnthropicBatchResults(row.batch_id)) {
     const mapped = row.request_map[res.custom_id];
     const ideaId = mapped?.ideaId ?? ideaIdFromCustomId(res.custom_id);
-    if (ideaId == null) continue; // unknown custom_id — nothing to finalize
+    if (ideaId == null) continue; // unknown custom_id - nothing to finalize
 
     if (res.outcome === 'succeeded') {
       try {

@@ -1,4 +1,4 @@
-# Baseline notes — 2026-06-04 (Day 17, Run 25)
+# Baseline notes - 2026-06-04 (Day 17, Run 25)
 
 The Day 17 baseline is taken **before** SJ pushes the Run 5-24 working tree to production. That means most of the 36 indexable URLs (the 8 service pages, 6 case studies, /about, 2 playbooks, 6 regional desks) are not crawlable by any AI engine yet. Expect citation share to be near zero for shilikajain.com on most prompts in this baseline.
 
@@ -23,7 +23,7 @@ The point of running the panel now is to set a clean before/after gate. Re-run t
 - Claude: 0% (Claude declines to recommend named providers by default for commercial intent prompts)
 - Gemini: 0% (Google AI Mode pulls from indexed pages, which we don't have yet)
 
-If the baseline shows >0% for any cell, log the verbatim quote — that's a citation we built without trying.
+If the baseline shows >0% for any cell, log the verbatim quote - that's a citation we built without trying.
 
 ## Post-push targets (re-run 7 days after SJ push)
 

@@ -18,4 +18,4 @@ create index if not exists cron_runs_name_started_idx
   on cron_runs (name, started_at desc);
 
 alter table cron_runs enable row level security;
--- service-role only — no anon policy
+-- service-role only - no anon policy

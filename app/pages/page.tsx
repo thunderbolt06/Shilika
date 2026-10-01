@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     '100 service pages on Web3 PR, token launch, AI startup PR, KOL marketing, cybersecurity PR, founder profiling and APAC, filterable by service, region and vertical. Send a brief or book a call.',
   alternates: { canonical: `${SITE_URL}/pages` },
   openGraph: {
-    title: 'Service Pages — Shilika Jain Fractional PR',
+    title: 'Service Pages - Shilika Jain Fractional PR',
     description:
       'Filterable directory of fractional PR service pages for Web3, AI and cybersecurity founders.',
     url: `${SITE_URL}/pages`,
@@ -32,7 +32,7 @@ export default function Page() {
         '@type': 'CollectionPage',
         '@id': `${SITE_URL}/pages#collection`,
         url: `${SITE_URL}/pages`,
-        name: 'Service Pages — Shilika Jain Fractional PR',
+        name: 'Service Pages - Shilika Jain Fractional PR',
         description:
           'Filterable directory of fractional PR service pages for Web3, AI, token launch, KOL, cybersecurity, founder profiling and APAC.',
         inLanguage: 'en',

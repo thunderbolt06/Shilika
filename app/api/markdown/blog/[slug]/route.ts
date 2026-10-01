@@ -36,7 +36,7 @@ export async function GET(_: Request, { params }: { params: Params }) {
     .join('\n');
 
   const byline = author
-    ? `By [${post.author}](${author.url}) — ${post.published_at ? new Date(post.published_at).toLocaleDateString('en-US') : ''}`
+    ? `By [${post.author}](${author.url}) - ${post.published_at ? new Date(post.published_at).toLocaleDateString('en-US') : ''}`
     : `By ${post.author}`;
 
   const ctaLabel = post.cta_label ?? 'Book a 30-min teardown with Shilika';
@@ -57,7 +57,7 @@ export async function GET(_: Request, { params }: { params: Params }) {
     '',
     '---',
     '',
-    `**${ctaLabel}** — ${ctaUrl}`,
+    `**${ctaLabel}** - ${ctaUrl}`,
     '',
     `Canonical: ${canonical}`,
     '',
@@ -70,7 +70,7 @@ export async function GET(_: Request, { params }: { params: Params }) {
       // Tell AI crawlers + search engines this is an alternate representation
       // of the canonical HTML page. They cite the canonical URL.
       Link: `<${canonical}>; rel="canonical"`,
-      // Intentionally NO X-Robots-Tag noindex — GPTBot/ClaudeBot/PerplexityBot
+      // Intentionally NO X-Robots-Tag noindex - GPTBot/ClaudeBot/PerplexityBot
       // honour it and we want them to read this route.
       'Cache-Control': 'public, max-age=3600, s-maxage=3600',
     },

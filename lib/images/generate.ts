@@ -91,7 +91,7 @@ export async function generateHeroImage(opts: GenerateOptions): Promise<ImageByt
   const ai = new GoogleGenAI({ apiKey: process.env.GOOGLE_GENAI_API_KEY });
   const model = opts.model || process.env.IMAGE_GEN_MODEL || DEFAULT_MODEL;
 
-  // Path A — Gemini "Nano Banana" image-capable Flash model. Returns inline
+  // Path A - Gemini "Nano Banana" image-capable Flash model. Returns inline
   // image bytes inside a candidate's parts. If the primary model is
   // overloaded after retries, fall back to gemini-2.5-flash-image before
   // dropping to Imagen.
@@ -99,7 +99,7 @@ export async function generateHeroImage(opts: GenerateOptions): Promise<ImageByt
     try {
       const img = await callGeminiImage(ai, model, opts.prompt);
       if (img) return img;
-      // No inline image returned — try the fallback model before Imagen.
+      // No inline image returned - try the fallback model before Imagen.
       if (model !== GEMINI_OVERLOAD_FALLBACK_MODEL) {
         console.warn(`[image-gen] ${model} returned no image; trying ${GEMINI_OVERLOAD_FALLBACK_MODEL}`);
         const fb = await callGeminiImage(ai, GEMINI_OVERLOAD_FALLBACK_MODEL, opts.prompt);
@@ -123,7 +123,7 @@ export async function generateHeroImage(opts: GenerateOptions): Promise<ImageByt
     // Fall through to Imagen if neither Gemini model returned an inline image.
   }
 
-  // Path B — Imagen 3 production model. The SDK shape differs by version;
+  // Path B - Imagen 3 production model. The SDK shape differs by version;
   // be defensive and tolerate both `generatedImages[0].image.imageBytes`
   // (older) and `images[0].imageBytes` (newer).
   const imagenModel = model.startsWith('imagen') ? model : IMAGEN_FALLBACK_MODEL;

@@ -13,7 +13,7 @@
  */
 
 const HARD_RULES = [
-  { id: 'em-dash',     pattern: /—/g,                                  message: 'Em-dash. Use periods, commas, or restructure.' },
+  { id: 'em-dash',     pattern: /-/g,                                  message: 'Em-dash. Use periods, commas, or restructure.' },
   { id: 'ellipsis',    pattern: /…/g,                                  message: 'Ellipsis for dramatic effect. Cut or use a period.' },
   { id: 'arrow',       pattern: /→|⇒|←/g,                              message: 'Arrow symbol. Use "means", "leads to", or restructure.' },
   { id: 'heres-why',   pattern: /\bHere'?s\s+(why|how|the thing)\b/gi,  message: '"Here\'s why/how/the thing" opener.' },

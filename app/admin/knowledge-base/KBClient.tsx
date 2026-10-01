@@ -172,7 +172,7 @@ export function KBClient() {
               onChange={(e) => setDraft({ ...draft, title: e.target.value })}
               required
               className="mt-1 w-full rounded-md border border-ink/15 bg-cream px-3 py-2"
-              placeholder="e.g. Gaia AI Forbes launch — Stripe-for-agents narrative"
+              placeholder="e.g. Gaia AI Forbes launch - Stripe-for-agents narrative"
             />
           </div>
 

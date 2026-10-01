@@ -1,5 +1,5 @@
 /* =========================================================
-   AI PR PITCH DECK — /pitch/ai-pr
+   AI PR PITCH DECK - /pitch/ai-pr
    16:9 stage, container-query units, keyboard-driven.
    Shilika brand: ink / paper / lime, serif display.
    ========================================================= */
@@ -12,9 +12,9 @@
   --d-ink-50: rgba(28, 26, 21, 0.52);
   --d-ink-30: rgba(28, 26, 21, 0.32);
   --d-ink-15: rgba(28, 26, 21, 0.16);
-  --d-acc: #55700a;      /* olive — lime that survives on paper */
-  --d-lime: #d4ff32;     /* brand lime — used on ink */
-  --d-sig: #e8590c;      /* signal — stamps & highlights */
+  --d-acc: #55700a;      /* olive - lime that survives on paper */
+  --d-lime: #d4ff32;     /* brand lime - used on ink */
+  --d-sig: #e8590c;      /* signal - stamps & highlights */
   position: fixed;
   inset: 0;
   z-index: 60;

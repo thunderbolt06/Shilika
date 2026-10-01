@@ -84,7 +84,7 @@ function buildJsonLd(entry: NonNullable<ReturnType<typeof getGlossaryTerm>>) {
         publisher: {
           '@type': 'Organization',
           '@id': `${SITE_URL}/#organization`,
-          name: 'Shilika Jain — Fractional PR',
+          name: 'Shilika Jain - Fractional PR',
           url: `${SITE_URL}/`,
           logo: { '@type': 'ImageObject', url: `${SITE_URL}/assets/shilika-press-square-1200.jpg` },
         },

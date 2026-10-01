@@ -132,9 +132,9 @@ If you are facing a moment where the embargo break also involves an allegation a
 
 ## Related playbooks
 
-- [Tier-1 Crypto Media Outreach: How to Build Web3 Journalist Relationships That Actually Land Coverage](/blog/web3-tier1-journalist-relations) — the relationship work that makes embargoes hold
-- [Web3 Crisis Communications Playbook: From Rug Pull Allegations to Community Trust](/blog/web3-crisis-communications) — what to run when an embargo break is the smallest of your problems
-- [APAC Localisation & Access](/services/apac-pr) — how the embargo window gets retuned for Korean, Japanese, and Indian press
+- [Tier-1 Crypto Media Outreach: How to Build Web3 Journalist Relationships That Actually Land Coverage](/blog/web3-tier1-journalist-relations) - the relationship work that makes embargoes hold
+- [Web3 Crisis Communications Playbook: From Rug Pull Allegations to Community Trust](/blog/web3-crisis-communications) - what to run when an embargo break is the smallest of your problems
+- [APAC Localisation & Access](/services/apac-pr) - how the embargo window gets retuned for Korean, Japanese, and Indian press
 
 If you are about to run an embargoed announcement and want a second set of eyes on the outlet list and the angle map, the booking link below will get you a 30-minute teardown call.
 $body$,
@@ -262,9 +262,9 @@ Any of those three, get external counsel inside 12 hours. The cost of an outside
 
 ## Related playbooks
 
-- [Web3 PR Embargo Strategy 2026: How to Coordinate Tier-1 Press Without Breaking the Story](/blog/web3-pr-embargo-strategy) — the relationship work you do before the crisis arrives
-- [Tier-1 Crypto Media Outreach: How to Build Web3 Journalist Relationships That Actually Land Coverage](/blog/web3-tier1-journalist-relations) — who you call when the crisis needs a measured story
-- [Cybersecurity PR](/services/cybersecurity-pr) — the protocol overlap when the crisis is a security incident
+- [Web3 PR Embargo Strategy 2026: How to Coordinate Tier-1 Press Without Breaking the Story](/blog/web3-pr-embargo-strategy) - the relationship work you do before the crisis arrives
+- [Tier-1 Crypto Media Outreach: How to Build Web3 Journalist Relationships That Actually Land Coverage](/blog/web3-tier1-journalist-relations) - who you call when the crisis needs a measured story
+- [Cybersecurity PR](/services/cybersecurity-pr) - the protocol overlap when the crisis is a security incident
 
 If you are watching a thread escalate right now, the booking link below routes to a 30-minute teardown call. Same response sequence, faster than email.
 $body$,
@@ -419,9 +419,9 @@ This is what I mean by compounding coverage. The relationship work in months one
 
 ## Related playbooks
 
-- [Web3 PR Embargo Strategy 2026: How to Coordinate Tier-1 Press Without Breaking the Story](/blog/web3-pr-embargo-strategy) — how the relationship work converts into clean launch coverage
-- [Web3 Crisis Communications Playbook: From Rug Pull Allegations to Community Trust](/blog/web3-crisis-communications) — what the relationship work is worth when something goes wrong
-- [Founder Profiling & Op-Eds](/services/founder-profiling) — the productized version of the personal entity build described above
+- [Web3 PR Embargo Strategy 2026: How to Coordinate Tier-1 Press Without Breaking the Story](/blog/web3-pr-embargo-strategy) - how the relationship work converts into clean launch coverage
+- [Web3 Crisis Communications Playbook: From Rug Pull Allegations to Community Trust](/blog/web3-crisis-communications) - what the relationship work is worth when something goes wrong
+- [Founder Profiling & Op-Eds](/services/founder-profiling) - the productized version of the personal entity build described above
 
 If you want a teardown of your current tier-1 outreach plan and a specific reporter shortlist for your stage and category, the booking link below is the fastest path.
 $body$,

@@ -12,7 +12,7 @@ export async function GET(request: Request) {
 
   return withRunLedger<Record<string, unknown>>('hourly-publisher', async () => {
     const supabase = getAdminSupabase();
-    // Publish anything that has reached review — approval no longer gates publishing.
+    // Publish anything that has reached review - approval no longer gates publishing.
     const { data: candidates } = await supabase
       .from('content_ideas')
       .select('*')

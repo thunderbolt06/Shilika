@@ -6,7 +6,7 @@
       "@id": "https://www.shilikajain.com/playbook/crypto-pr-vs-ai-pr#article",
       "headline": "Crypto PR vs AI PR in 2026: how the playbooks differ",
       "alternativeHeadline": "A side-by-side teardown of the Web3 and AI startup PR playbooks",
-      "description": "A 2026 side-by-side comparison of crypto PR and AI PR. Different outlets, different journalists, different proof requirements, different narrative arc, different measurement — and how to tell which playbook your startup actually needs.",
+      "description": "A 2026 side-by-side comparison of crypto PR and AI PR. Different outlets, different journalists, different proof requirements, different narrative arc, different measurement - and how to tell which playbook your startup actually needs.",
       "url": "https://www.shilikajain.com/playbook/crypto-pr-vs-ai-pr",
       "mainEntityOfPage": {
         "@type": "WebPage",
@@ -44,7 +44,7 @@
       "publisher": {
         "@type": "Organization",
         "@id": "https://www.shilikajain.com/#organization",
-        "name": "Shilika Jain — Fractional PR",
+        "name": "Shilika Jain - Fractional PR",
         "url": "https://www.shilikajain.com/",
         "logo": {
           "@type": "ImageObject",
@@ -86,7 +86,7 @@
           "name": "Does an AI startup need crypto-style KOL marketing?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Usually not in the same form. Crypto KOL marketing is a structured channel: vetted creators on X, Telegram and YouTube running coordinated campaigns around a token or launch, often with disclosure and performance tracking. AI startups rely more on credibility intermediaries — named researchers, analysts, respected technical voices, and enterprise customer references — than on paid creator waves. The AI equivalent of a KOL wave is a founder thought-leadership program: op-eds, podcasts, conference talks and analyst briefings that build category authority over months rather than amplifying a single launch moment."
+            "text": "Usually not in the same form. Crypto KOL marketing is a structured channel: vetted creators on X, Telegram and YouTube running coordinated campaigns around a token or launch, often with disclosure and performance tracking. AI startups rely more on credibility intermediaries - named researchers, analysts, respected technical voices, and enterprise customer references - than on paid creator waves. The AI equivalent of a KOL wave is a founder thought-leadership program: op-eds, podcasts, conference talks and analyst briefings that build category authority over months rather than amplifying a single launch moment."
           }
         },
         {
@@ -94,7 +94,7 @@
           "name": "Is AI PR more expensive than crypto PR?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Scope for scope, the costs are broadly similar — a fractional senior operator runs $5,000 to $12,000 per month for either, and specialist agencies run $15,000 to $45,000 per month. The difference is where the budget goes. Crypto PR spends more on KOL coordination, regional translation and exchange or launch communications. AI PR spends more on long-form founder content, analyst relations and sustained thought-leadership programming. AI campaigns also tend to run on a longer time horizon because the buying cycle for enterprise AI is slower than the attention cycle in crypto."
+            "text": "Scope for scope, the costs are broadly similar - a fractional senior operator runs $5,000 to $12,000 per month for either, and specialist agencies run $15,000 to $45,000 per month. The difference is where the budget goes. Crypto PR spends more on KOL coordination, regional translation and exchange or launch communications. AI PR spends more on long-form founder content, analyst relations and sustained thought-leadership programming. AI campaigns also tend to run on a longer time horizon because the buying cycle for enterprise AI is slower than the attention cycle in crypto."
           }
         },
         {

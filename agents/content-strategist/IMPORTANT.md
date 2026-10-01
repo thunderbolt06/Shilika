@@ -1,4 +1,4 @@
-# Important — Memory
+# Important - Memory
 
 Running log of lessons learned across drafts. The writer reads this at the start of every run.
 
@@ -8,4 +8,4 @@ Keep this file under ~50 lines. Prune the oldest or least relevant when it grows
 
 ---
 
-(none yet — the file fills in as the writer ships drafts and Shilika reviews them)
+(none yet - the file fills in as the writer ships drafts and Shilika reviews them)

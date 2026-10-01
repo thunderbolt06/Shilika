@@ -21,7 +21,7 @@
 //      whitespace-collapsed). Drop sentences < MIN_SENTENCE_WORDS words.
 //   3. Within a cluster (default: the /pages/* landing pages), a sentence is
 //      "boilerplate" if its normalized form appears on >= BOILERPLATE_MIN_PAGES
-//      pages in that cluster. Exact-match only — this UNDER-counts near-duplicate
+//      pages in that cluster. Exact-match only - this UNDER-counts near-duplicate
 //      entity-swapped lines, so the unique ratio reported is a generous upper
 //      bound on uniqueness (we never over-flag a page as duplicative).
 //   4. uniqueRatio = uniqueSentenceWords / totalSentenceWords per page.
@@ -184,7 +184,7 @@ const boilerplateLines = [...freq.entries()]
   .sort((a, b) => b[1] - a[1]);
 
 const lines = [];
-lines.push(`# Thin / scaled / duplicate content audit — ${TODAY}`);
+lines.push(`# Thin / scaled / duplicate content audit - ${TODAY}`);
 lines.push('');
 lines.push(`Plan Week 12, item 12.3 (identify bottom 20% pages; consolidate or noindex thin ones).`);
 lines.push(`Grounded in Google's Optimizing-for-generative-AI guide (updated 2026-07-10): scaled-content-abuse + reduce-duplicate-content.`);
@@ -195,7 +195,7 @@ lines.push(`- Boilerplate sentences (repeated on >= ${BOILERPLATE_MIN_PAGES} /pa
 lines.push(`- Cluster mean unique-content ratio: ${(clusterAvgUnique * 100).toFixed(1)}%`);
 lines.push(`- Cluster buckets: KEEP ${buckets.KEEP} | REVIEW ${buckets.REVIEW} | CONSOLIDATE_OR_NOINDEX ${buckets.CONSOLIDATE_OR_NOINDEX}`);
 lines.push('');
-lines.push(`## /pages cluster — lowest unique-content ratio (highest scaled-content risk)`);
+lines.push(`## /pages cluster - lowest unique-content ratio (highest scaled-content risk)`);
 lines.push('');
 lines.push('| Route | Words | Unique words | Unique ratio | Bucket | In sitemap |');
 lines.push('|---|---:|---:|---:|---|---|');

@@ -15,7 +15,7 @@ type Idea = {
   notes: string | null;
 };
 
-// Lightweight client-side markdown preview — does not need to match the
+// Lightweight client-side markdown preview - does not need to match the
 // production blog renderer exactly, just give Shilika a feel for the shape.
 function renderPreview(md: string): string {
   const escape = (s: string) =>

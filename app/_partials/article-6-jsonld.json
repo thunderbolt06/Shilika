@@ -6,7 +6,7 @@
       "@id": "https://www.shilikajain.com/playbook/fractional-vs-agency#article",
       "headline": "Fractional PR vs Web3 PR agency: how to choose in 2026",
       "alternativeHeadline": "Fractional senior operator vs traditional PR agency for Web3 and AI startups",
-      "description": "A 2026 decision guide for Web3 and AI founders weighing fractional PR against a traditional PR agency. Cost, speed, founder access, bandwidth, accountability — plus a decision tree that maps the model to the stage.",
+      "description": "A 2026 decision guide for Web3 and AI founders weighing fractional PR against a traditional PR agency. Cost, speed, founder access, bandwidth, accountability - plus a decision tree that maps the model to the stage.",
       "url": "https://www.shilikajain.com/playbook/fractional-vs-agency",
       "mainEntityOfPage": {
         "@type": "WebPage",
@@ -44,7 +44,7 @@
       "publisher": {
         "@type": "Organization",
         "@id": "https://www.shilikajain.com/#organization",
-        "name": "Shilika Jain — Fractional PR",
+        "name": "Shilika Jain - Fractional PR",
         "url": "https://www.shilikajain.com/",
         "logo": {
           "@type": "ImageObject",
@@ -70,7 +70,7 @@
           "name": "What is fractional PR?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Fractional PR is an engagement model where one senior PR operator runs the full PR function for a company on a part-time retainer, instead of a traditional agency assigning a multi-person account team. The founder gets senior-only attention, journalist outreach, narrative work, founder profiling, and crisis comms — without paying for the account-executive, account-manager, and account-director layers that fund an agency. Fractional retainers typically run 40 to 60 percent of an equivalent agency contract."
+            "text": "Fractional PR is an engagement model where one senior PR operator runs the full PR function for a company on a part-time retainer, instead of a traditional agency assigning a multi-person account team. The founder gets senior-only attention, journalist outreach, narrative work, founder profiling, and crisis comms - without paying for the account-executive, account-manager, and account-director layers that fund an agency. Fractional retainers typically run 40 to 60 percent of an equivalent agency contract."
           }
         },
         {
@@ -78,7 +78,7 @@
           "name": "What is the difference between fractional PR and a PR agency?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A PR agency assigns a team — typically an account executive, account manager, account director, and a senior partner — at a retainer that funds all four. A fractional PR engagement is one senior operator embedded with the founder, no team layer, no markup. For the same scope of 2 to 4 Tier-1 placements per month, founder profiling, and KOL coordination, fractional pricing comes in at roughly half the cost. The trade-off is bandwidth: a fractional operator can handle 4 to 6 active engagements at a time, not 20."
+            "text": "A PR agency assigns a team - typically an account executive, account manager, account director, and a senior partner - at a retainer that funds all four. A fractional PR engagement is one senior operator embedded with the founder, no team layer, no markup. For the same scope of 2 to 4 Tier-1 placements per month, founder profiling, and KOL coordination, fractional pricing comes in at roughly half the cost. The trade-off is bandwidth: a fractional operator can handle 4 to 6 active engagements at a time, not 20."
           }
         },
         {

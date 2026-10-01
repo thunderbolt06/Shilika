@@ -343,7 +343,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       changeFrequency: 'monthly' as const,
     }));
   } catch {
-    // Supabase not reachable at build time — ship static-only sitemap and let
+    // Supabase not reachable at build time - ship static-only sitemap and let
     // the next revalidation pick up the blog rows.
   }
 

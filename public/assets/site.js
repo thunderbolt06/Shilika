@@ -346,7 +346,7 @@ if (form) {
     }
   }, { passive: true });
 
-  // 5. Listen for Calendly postMessages — resize + conversion tracking.
+  // 5. Listen for Calendly postMessages - resize + conversion tracking.
   window.addEventListener('message', function (e) {
     if (!e.data || typeof e.data !== 'object') return;
     if (e.data.event && e.data.event.indexOf('calendly') === 0) {
@@ -437,8 +437,8 @@ if (form) {
 // ---------- BOOT HOOK (for Next.js SPA re-mounts) ----------
 // Expose a small no-op-safe re-boot function. The main script body above
 // runs at script load time. Most listeners are bound to `document` which
-// survives SPA navigation. The exceptions — cursor rAF and Calendly link
-// decoration — are stamped with data attributes so re-running them does
+// survives SPA navigation. The exceptions - cursor rAF and Calendly link
+// decoration - are stamped with data attributes so re-running them does
 // not double-bind. ClientReBoot in app/page.tsx calls this on mount.
 (function () {
   function reboot() {

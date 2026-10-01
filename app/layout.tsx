@@ -66,7 +66,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           rel="stylesheet"
         />
       </head>
-      {/* suppressHydrationWarning — PostHog (analytics.js) injects script tags
+      {/* suppressHydrationWarning - PostHog (analytics.js) injects script tags
           into <body> before React hydrates, which trips React's reconciler.
           We suppress the warning at the body root rather than letting React
           discard and re-render the entire tree on mount. */}

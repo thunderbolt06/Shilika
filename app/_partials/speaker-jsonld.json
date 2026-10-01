@@ -4,11 +4,11 @@
     {
       "@type": "ProfessionalService",
       "@id": "https://www.shilikajain.com/speaker#service",
-      "name": "Speaker bookings — Shilika Jain",
+      "name": "Speaker bookings - Shilika Jain",
       "alternateName": ["Web3 speaker", "AI startup PR speaker", "Cybersecurity PR speaker", "APAC PR speaker", "Crypto KOL speaker"],
       "serviceType": "Speaker bookings",
       "category": "Speaker",
-      "description": "Keynote, panel, fireside chat, workshop, podcast and closed-room press briefing bookings for Shilika Jain — fractional PR manager for Web3, AI and cybersecurity founders. Six topics: fractional PR motion, the three APAC press windows (WebX Tokyo, Korea Blockchain Week, Token2049 Singapore), AI-Overviews citation share as a founder distribution lever, KOL waves as a regulatory product across seven jurisdictions, the cybersecurity vendor AI-citation gap, and pre-TGE comms inside the 8-week window. Lengths flex 25 to 120 minutes by format.",
+      "description": "Keynote, panel, fireside chat, workshop, podcast and closed-room press briefing bookings for Shilika Jain - fractional PR manager for Web3, AI and cybersecurity founders. Six topics: fractional PR motion, the three APAC press windows (WebX Tokyo, Korea Blockchain Week, Token2049 Singapore), AI-Overviews citation share as a founder distribution lever, KOL waves as a regulatory product across seven jurisdictions, the cybersecurity vendor AI-citation gap, and pre-TGE comms inside the 8-week window. Lengths flex 25 to 120 minutes by format.",
       "url": "https://www.shilikajain.com/speaker",
       "provider": {
         "@type": "Person",

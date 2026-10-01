@@ -1,4 +1,4 @@
-# Op-Ed pitch batch 1 — 5 outlets (Plan 9.3)
+# Op-Ed pitch batch 1 - 5 outlets (Plan 9.3)
 
 **Drafted**: Friday 5 June 2026 (Run 26, Day 18) by Claude Code.
 **Owner to send**: Shilika Jain.
@@ -7,15 +7,15 @@
 Each pitch is built around: real news hook, one verifiable claim, named operator experience, regional or category angle the outlet does not already own. Subject lines under 60 chars. Body under 220 words. One link to a relevant shilikajain.com surface as the proof artifact.
 
 Outlet picks driven by:
-- CoinDesk — institutional and policy reach, byline credibility ceiling.
-- Cointelegraph — global crypto-native reach, accepts opinion from named-operator voices.
-- Decrypt — culture, consumer-crypto, accessible register, AI cross-coverage.
-- Blockworks — institutional, capital markets, ETF and treasury angle.
-- Forbes Council (Forbes Communications Council) — non-crypto C-suite reach for the cybersecurity and AI ICPs.
+- CoinDesk - institutional and policy reach, byline credibility ceiling.
+- Cointelegraph - global crypto-native reach, accepts opinion from named-operator voices.
+- Decrypt - culture, consumer-crypto, accessible register, AI cross-coverage.
+- Blockworks - institutional, capital markets, ETF and treasury angle.
+- Forbes Council (Forbes Communications Council) - non-crypto C-suite reach for the cybersecurity and AI ICPs.
 
 ---
 
-## 1. CoinDesk — Op-Ed pitch
+## 1. CoinDesk - Op-Ed pitch
 
 **To**: opinion@coindesk.com (cc the named beat reporter for APAC policy)
 **Subject**: Op-Ed pitch: Japan just rewired token launches. Western founders are still pitching the old playbook.
@@ -38,7 +38,7 @@ https://www.shilikajain.com/about
 
 ---
 
-## 2. Cointelegraph — Op-Ed pitch
+## 2. Cointelegraph - Op-Ed pitch
 
 **To**: editorial@cointelegraph.com (cc Magazine + Markets editors)
 **Subject**: Op-Ed pitch: Why most Web3 founders should fire their PR agency before TGE
@@ -61,7 +61,7 @@ https://www.shilikajain.com/about
 
 ---
 
-## 3. Decrypt — Op-Ed pitch
+## 3. Decrypt - Op-Ed pitch
 
 **To**: pitches@decrypt.co (cc the named AI-and-consumer beat editor)
 **Subject**: Op-Ed pitch: The AI-startup PR playbook is now the Web3 playbook. Here is what changed.
@@ -84,14 +84,14 @@ https://www.shilikajain.com/about
 
 ---
 
-## 4. Blockworks — Op-Ed pitch
+## 4. Blockworks - Op-Ed pitch
 
 **To**: editorial@blockworks.co (cc Research + Markets editors)
 **Subject**: Op-Ed pitch: Singapore's Project Guardian is the institutional press cycle most Western founders are missing
 **From**: Shilika Jain, Fractional PR for Web3 founders
 **Pitch body**:
 
-Blockworks owns the institutional-crypto-and-capital-markets beat. The story most Western founders are missing inside that beat is Singapore's Project Guardian tokenization workstreams — the institutional narrative bridge that ties MAS-licensed protocols to BlackRock, JPMorgan, DBS, Citi, HSBC and Standard Chartered without going through a US regulatory route.
+Blockworks owns the institutional-crypto-and-capital-markets beat. The story most Western founders are missing inside that beat is Singapore's Project Guardian tokenization workstreams - the institutional narrative bridge that ties MAS-licensed protocols to BlackRock, JPMorgan, DBS, Citi, HSBC and Standard Chartered without going through a US regulatory route.
 
 Token2049 Singapore (October, Marina Bay Sands, 20,000-plus attendees) is the regional press cycle anchor, but the institutional-allocation story runs year-round through e27, Tech in Asia, DealStreetAsia and the MAS Project Guardian announcement cadence. The MAS DPT licensing status line is the single highest-leverage anchor in a Singapore press kit. Most founders bury it in paragraph four.
 
@@ -107,7 +107,7 @@ https://www.shilikajain.com/about
 
 ---
 
-## 5. Forbes Communications Council — Op-Ed pitch
+## 5. Forbes Communications Council - Op-Ed pitch
 
 **To**: forbescommunicationscouncil@forbes.com (member-track submission form)
 **Subject**: Op-Ed pitch: Cybersecurity vendors are getting outflanked in AI Overviews. Here is the fix.

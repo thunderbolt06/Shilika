@@ -11,7 +11,7 @@ export function BookCallCTA({ label, url }: Props) {
       </p>
       <p className="mt-2 max-w-prose text-ink/70">
         Shilika has placed 50+ Web3 and AI founders in Forbes, CoinDesk, Cointelegraph, Decrypt,
-        The Block, Blockworks, and AI Magazine — across six APAC markets.
+        The Block, Blockworks, and AI Magazine - across six APAC markets.
       </p>
       <a
         href={url || DEFAULT_URL}

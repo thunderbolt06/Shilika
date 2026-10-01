@@ -1,4 +1,4 @@
-# Podcast pitches batch 1 — 5 shows (Plan 9.4)
+# Podcast pitches batch 1 - 5 shows (Plan 9.4)
 
 **Drafted**: Saturday 6 June 2026 (Run 27, Day 19) by Claude Code.
 **Owner to send**: Shilika Jain.
@@ -12,16 +12,16 @@ Show selection covers the four ICP buckets:
 - **Cybersecurity**: Risky Business (the category-of-record show, named-source preference, no PR-rep filter).
 
 Send sequence (recommended):
-1. **Mon 8 Jun 2026** — Bankless, Empire (US ET morning).
-2. **Tue 9 Jun 2026** — Lenny's, No Priors (US PT morning).
-3. **Wed 10 Jun 2026** — Risky Business (Sydney AEST late afternoon).
+1. **Mon 8 Jun 2026** - Bankless, Empire (US ET morning).
+2. **Tue 9 Jun 2026** - Lenny's, No Priors (US PT morning).
+3. **Wed 10 Jun 2026** - Risky Business (Sydney AEST late afternoon).
 4. Follow-up cadence: T+5 business days, T+10 business days. Kill after T+15 if no reply.
 
 Speaker one-pager and topic ladder at `/speaker` on shilikajain.com (Run 27 ships). PDF version at `data/outreach/shilika-jain-speaker-onepager-2026.pdf`.
 
 ---
 
-## 1. Bankless — Podcast pitch
+## 1. Bankless - Podcast pitch
 
 **To**: bookings@banklesshq.com (cc David and Ryan via show contact form)
 **Subject**: Podcast guest pitch: the 2026 fractional-PR shift inside Web3 GTM
@@ -43,7 +43,7 @@ Fractional PR Manager · Myosin DAO · Previously CoinMarketCap
 
 ---
 
-## 2. Empire (Blockworks) — Podcast pitch
+## 2. Empire (Blockworks) - Podcast pitch
 
 **To**: bookings@blockworks.co (cc Jason and Santi via show contact form)
 **Subject**: Podcast guest pitch: the institutional press tier is a regulatory-frame test
@@ -52,7 +52,7 @@ Fractional PR Manager · Myosin DAO · Previously CoinMarketCap
 
 Institutional desks (The Block, Blockworks, Bloomberg Crypto, Reuters) are filtering 2026 crypto press around a single test: does the announcement carry a named regulator frame the desk can pull-quote? The frames stacked this year: Singapore Project Guardian (MAS, BlackRock, JPMorgan, DBS, Citi, HSBC, Standard Chartered), Japan FIEA reclassification of 105 assets plus PSA stablecoin trust route plus 20 percent flat capital-gains tax, Dubai VARA marketing rules, US GENIUS Act stablecoin track, EU MiCA Phase 2.
 
-I have run press cycles inside three of those frames in 2026 — MANTRA inside the Abu Dhabi RWA window, a Layer 1 inside the Japan FIEA shift, and a DeFi protocol inside the Singapore Project Guardian institutional bridge.
+I have run press cycles inside three of those frames in 2026 - MANTRA inside the Abu Dhabi RWA window, a Layer 1 inside the Japan FIEA shift, and a DeFi protocol inside the Singapore Project Guardian institutional bridge.
 
 I would like to come on Empire for 45 to 60 minutes on the institutional press tier filter, how the four frames each gate capital flow, and the failure pattern Western founders most consistently misread.
 
@@ -64,7 +64,7 @@ Fractional PR Manager
 
 ---
 
-## 3. Lenny's Podcast — Guest pitch
+## 3. Lenny's Podcast - Guest pitch
 
 **To**: hello@lennysnewsletter.com (cc the podcast producer)
 **Subject**: Guest pitch: PR as a fractional motion for pre-Series B founders
@@ -86,7 +86,7 @@ https://www.shilikajain.com/about
 
 ---
 
-## 4. No Priors — Guest pitch
+## 4. No Priors - Guest pitch
 
 **To**: hello@nopriors.com (cc Sarah and Elad via show contact form)
 **Subject**: Guest pitch: AI Overviews citation share is the new founder distribution lever
@@ -107,7 +107,7 @@ Fractional PR Manager
 
 ---
 
-## 5. Risky Business — Guest pitch
+## 5. Risky Business - Guest pitch
 
 **To**: editor@risky.biz (cc Patrick Gray directly via show contact form)
 **Subject**: Guest pitch: cybersecurity vendors are losing the AI-citation surface
@@ -141,4 +141,4 @@ Fractional PR Manager
 
 ## Pitch tracker
 
-10 outreach items now in queue across two channels (Op-Ed Batch 1, Op-Ed Batch 2, Podcast Batch 1). Podcast tracker scaffolded below — append to `data/outreach/podcast-pitch-tracker.csv`.
+10 outreach items now in queue across two channels (Op-Ed Batch 1, Op-Ed Batch 2, Podcast Batch 1). Podcast tracker scaffolded below - append to `data/outreach/podcast-pitch-tracker.csv`.

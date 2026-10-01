@@ -5,7 +5,7 @@
       "@type": "WebPage",
       "@id": "https://www.shilikajain.com/testimonials#webpage",
       "url": "https://www.shilikajain.com/testimonials",
-      "name": "Testimonials — What Clients Say About Shilika Jain",
+      "name": "Testimonials - What Clients Say About Shilika Jain",
       "description": "19 unedited LinkedIn recommendations from founders, CMOs and journalists who have worked with Shilika Jain on Web3 and AI PR engagements from 2021 to 2026.",
       "isPartOf": { "@id": "https://www.shilikajain.com/#website" },
       "about": { "@id": "https://www.shilikajain.com/#person" },
@@ -41,7 +41,7 @@
       "@type": "WebSite",
       "@id": "https://www.shilikajain.com/#website",
       "url": "https://www.shilikajain.com/",
-      "name": "Shilika Jain — Fractional PR for Web3 & AI Founders",
+      "name": "Shilika Jain - Fractional PR for Web3 & AI Founders",
       "publisher": { "@id": "https://www.shilikajain.com/#person" }
     }
   ]

@@ -32,7 +32,7 @@ function isRetryableError(err: unknown): boolean {
   }
 
   // Node undici wraps the underlying error in `.cause` and surfaces only
-  // "fetch failed" at the top level — classify by error code on the cause.
+  // "fetch failed" at the top level - classify by error code on the cause.
   const code = typeof e.code === 'string' ? e.code : '';
   if (/^(ECONNRESET|ECONNREFUSED|ETIMEDOUT|EAI_AGAIN|UND_ERR_SOCKET|UND_ERR_CONNECT_TIMEOUT)$/i.test(code)) {
     return true;

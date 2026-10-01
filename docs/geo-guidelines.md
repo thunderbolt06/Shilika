@@ -1,4 +1,4 @@
-# GEO Guidelines — Writing for AI Assistant Citations
+# GEO Guidelines - Writing for AI Assistant Citations
 
 Generative Engine Optimization. Same goal as SEO with a different reader: the LLM behind ChatGPT, Claude, Perplexity, Gemini, and Google's AI Overview.
 
@@ -25,8 +25,8 @@ They pull short, declarative, self-contained paragraphs that answer a question d
 
 Every post is published at two URLs:
 
-- `/blog/<slug>` — the HTML page, what humans see
-- `/api/markdown/blog/<slug>` — the raw markdown, what AI bots fetch
+- `/blog/<slug>` - the HTML page, what humans see
+- `/api/markdown/blog/<slug>` - the raw markdown, what AI bots fetch
 
 Both routes return the same content. The markdown route includes a `Link: <canonical>; rel="canonical"` HTTP header so AI bots cite the canonical HTML page even though they read the markdown route.
 

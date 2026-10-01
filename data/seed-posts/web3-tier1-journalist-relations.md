@@ -119,8 +119,8 @@ This is what I mean by compounding coverage. The relationship work in months one
 
 ## Related playbooks
 
-- [Web3 PR Embargo Strategy 2026: How to Coordinate Tier-1 Press Without Breaking the Story](/blog/web3-pr-embargo-strategy) — how the relationship work converts into clean launch coverage
-- [Web3 Crisis Communications Playbook: From Rug Pull Allegations to Community Trust](/blog/web3-crisis-communications) — what the relationship work is worth when something goes wrong
-- [Founder Profiling & Op-Eds](/services/founder-profiling) — the productized version of the personal entity build described above
+- [Web3 PR Embargo Strategy 2026: How to Coordinate Tier-1 Press Without Breaking the Story](/blog/web3-pr-embargo-strategy) - how the relationship work converts into clean launch coverage
+- [Web3 Crisis Communications Playbook: From Rug Pull Allegations to Community Trust](/blog/web3-crisis-communications) - what the relationship work is worth when something goes wrong
+- [Founder Profiling & Op-Eds](/services/founder-profiling) - the productized version of the personal entity build described above
 
 If you want a teardown of your current tier-1 outreach plan and a specific reporter shortlist for your stage and category, the booking link below is the fastest path.

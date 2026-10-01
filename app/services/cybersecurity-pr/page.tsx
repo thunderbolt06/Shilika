@@ -7,7 +7,7 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'Cybersecurity PR in 2026: Fractional Senior Operator',
-  description: 'Fractional PR for cybersecurity founders and CMOs — analyst relations, tier-1 security press, breach comms, and AI-search visibility. Book a 30-min teardown.',
+  description: 'Fractional PR for cybersecurity founders and CMOs - analyst relations, tier-1 security press, breach comms, and AI-search visibility. Book a 30-min teardown.',
   
   alternates: { canonical: 'https://www.shilikajain.com/services/cybersecurity-pr' },
   openGraph: {

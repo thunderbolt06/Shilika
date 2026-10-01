@@ -1,4 +1,4 @@
-# Shilika site — Next.js + Supabase setup
+# Shilika site - Next.js + Supabase setup
 
 End-to-end setup for the migrated site, the admin control plane, and the
 autonomous content pipeline. Five phases, all live now.
@@ -24,27 +24,27 @@ npm install
 cp .env.example .env.local
 ```
 
-Required (Phase 1 + 3 — the admin and blog read paths):
-- `NEXT_PUBLIC_SITE_URL` — `http://localhost:3000` locally, `https://www.shilikajain.com` on prod
-- `NEXT_PUBLIC_SUPABASE_URL` — `https://yzgaxyxoosazxfnsyqta.supabase.co`
-- `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` — the `sb_publishable_…` key (client-safe)
-- `SUPABASE_SECRET_KEY` — the **rotated** `sb_secret_…` key (server-only)
-- `ADMIN_PASSWORD` — 12+ chars, your choice
-- `ADMIN_SESSION_SECRET` — 32+ chars, random (used to HMAC-sign session cookies)
+Required (Phase 1 + 3 - the admin and blog read paths):
+- `NEXT_PUBLIC_SITE_URL` - `http://localhost:3000` locally, `https://www.shilikajain.com` on prod
+- `NEXT_PUBLIC_SUPABASE_URL` - `https://yzgaxyxoosazxfnsyqta.supabase.co`
+- `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` - the `sb_publishable_…` key (client-safe)
+- `SUPABASE_SECRET_KEY` - the **rotated** `sb_secret_…` key (server-only)
+- `ADMIN_PASSWORD` - 12+ chars, your choice
+- `ADMIN_SESSION_SECRET` - 32+ chars, random (used to HMAC-sign session cookies)
 
 Required for Phase 4 (writer + image gen):
-- `ANTHROPIC_API_KEY` — claude-sonnet-4-6 for the writer agent
-- `GOOGLE_GENAI_API_KEY` — Gemini "Nano Banana 2" / Imagen 3 for hero images
+- `ANTHROPIC_API_KEY` - claude-sonnet-4-6 for the writer agent
+- `GOOGLE_GENAI_API_KEY` - Gemini "Nano Banana 2" / Imagen 3 for hero images
 - Optional: `ANTHROPIC_WRITER_MODEL`, `ANTHROPIC_RESEARCH_MODEL` (defaults to `claude-sonnet-4-6`)
 - Optional: `IMAGE_GEN_MODEL` (defaults to `gemini-2.5-flash-image-preview`)
 - Optional: `IMAGE_GEN_PROVIDER=stub` to short-circuit the API and return a placeholder
 
 Required for Phase 5 (cron + analytics + cross-post):
-- `CRON_SECRET` — 32+ chars random. Vercel Cron sends this in `Authorization: Bearer …`
+- `CRON_SECRET` - 32+ chars random. Vercel Cron sends this in `Authorization: Bearer …`
 - `GSC_SITE_URL=sc-domain:shilikajain.com`
-- `GSC_SERVICE_ACCOUNT_JSON` — full service account JSON, one line, escaped for env
+- `GSC_SERVICE_ACCOUNT_JSON` - full service account JSON, one line, escaped for env
 - `GA_PROPERTY_ID=123456789`
-- `GA_SERVICE_ACCOUNT_JSON` — same shape as GSC
+- `GA_SERVICE_ACCOUNT_JSON` - same shape as GSC
 - Optional cross-post: `DEVTO_API_KEY`, `HASHNODE_API_KEY`, `HASHNODE_PUBLICATION_ID`, `MEDIUM_INTEGRATION_TOKEN`, `MEDIUM_USER_ID`
 
 ## 4. Apply database migrations
@@ -60,9 +60,9 @@ supabase/migrations/
 
 Two ways to apply:
 
-**Option A — Supabase Dashboard SQL editor (fastest one-time):** open each file, paste, run, in order.
+**Option A - Supabase Dashboard SQL editor (fastest one-time):** open each file, paste, run, in order.
 
-**Option B — Supabase CLI:**
+**Option B - Supabase CLI:**
 ```bash
 npm i -g supabase
 supabase link --project-ref yzgaxyxoosazxfnsyqta
@@ -104,7 +104,7 @@ npm run dev   # http://localhost:3000
 5. Open `/admin/cron`, hit "Run now" on `hourly-publisher`. The row promotes to `blog_posts` and
    shows up on `/blog`.
 
-## 7. Cron triggers — how it works in production
+## 7. Cron triggers - how it works in production
 
 Vercel Cron config lives in `vercel.json` under the `crons` array. Vercel invokes each path on the
 schedule with `Authorization: Bearer ${CRON_SECRET}`.
@@ -115,12 +115,12 @@ schedule with `Authorization: Bearer ${CRON_SECRET}`.
 | `ga-daily-pull` | 04:30 daily | 28-day GA4 pagePath × date metrics → `content_metrics` | GA env vars |
 | `queue-filler` | 05:00 daily | Topic-research agent. Reads GSC opportunities + long-tail seeds. Proposes 5-10 ideas. | ANTHROPIC_API_KEY (+ GSC optional) |
 | `daily-writer` | 05:30 daily | Picks the top P0/P1 idea, runs writer + image gen, marks `ready_for_review` | ANTHROPIC_API_KEY (+ GOOGLE_GENAI_API_KEY optional) |
-| `hourly-publisher` | every hour | Picks approved ideas, upserts blog_posts, revalidates paths | — |
+| `hourly-publisher` | every hour | Picks approved ideas, upserts blog_posts, revalidates paths | - |
 | `cross-poster` | :30 every hour | Republishes new posts to dev.to / Hashnode / Medium with canonical Link | Platform tokens optional |
-| `seo-content-analysis` | Sun 06:00 | Weekly brief joining GSC + GA, saved as a knowledge_base row the writer reads | — |
+| `seo-content-analysis` | Sun 06:00 | Weekly brief joining GSC + GA, saved as a knowledge_base row the writer reads | - |
 
 The 30-minute offsets (filler 05:00, writer 05:30; publisher :00, cross-poster :30) are deliberate
-— a job must complete before its downstream picks up the result.
+- a job must complete before its downstream picks up the result.
 
 **Manual trigger from the UI:** `/admin/cron` → "Run now" on any row. The button hits
 `/api/admin/cron/trigger/{name}` which proxies to the real cron route with the secret. Both
@@ -153,7 +153,7 @@ In Vercel → Project Settings → Environment Variables, add the env vars from 
 Vercel auto-detects Next.js. The `crons` array in `vercel.json` is picked up at deploy time.
 
 **Plan requirements:** Vercel Cron with maxDuration > 60s requires the Pro plan or Fluid Compute.
-The daily-writer and queue-filler routes declare `maxDuration = 300` so they need 5-min runtime —
+The daily-writer and queue-filler routes declare `maxDuration = 300` so they need 5-min runtime -
 verify the project plan supports it before deploy.
 
 ## 9. Storage bucket

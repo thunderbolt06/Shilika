@@ -31,4 +31,4 @@ create index if not exists llm_batches_status_created_idx
   on llm_batches (status, created_at);
 
 alter table llm_batches enable row level security;
--- service-role only — no anon policy
+-- service-role only - no anon policy

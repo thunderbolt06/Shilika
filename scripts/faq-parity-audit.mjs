@@ -195,7 +195,7 @@ for (const bodyFile of bodies) {
   }
 }
 
-console.log(`FAQ parity audit — ${bodies.length} partial pairs scanned (repo-wide)`);
+console.log(`FAQ parity audit - ${bodies.length} partial pairs scanned (repo-wide)`);
 console.log(`  in parity (or no FAQ): ${clean}`);
 console.log(`  visible FAQ but no schema (warning): ${missingSchema}`);
 console.log(`  parity DEFECTS: ${drift}`);

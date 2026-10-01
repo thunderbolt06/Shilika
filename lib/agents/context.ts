@@ -107,7 +107,7 @@ export function publishedPostsAsList(
   return posts
     .map(
       (p) =>
-        `- /blog/${p.slug} — ${p.title}${p.tags?.length ? ` [${p.tags.join(', ')}]` : ''}`,
+        `- /blog/${p.slug} - ${p.title}${p.tags?.length ? ` [${p.tags.join(', ')}]` : ''}`,
     )
     .join('\n');
 }
