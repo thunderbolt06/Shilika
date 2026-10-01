@@ -122,7 +122,7 @@
           "name": "Why was the Stripe for AI agents positioning chosen for Gaia?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The Stripe for AI agents framing worked because it borrowed an instantly legible analogy (Stripe as the developer-first infrastructure layer for online payments) and applied it to a category — agentic AI infrastructure — that was on the verge of mass interest but still poorly understood by mainstream tech journalists. Forbes editors recognized the analogy as an immediate hook. Decrypt extended it into a deeper systems explainer. The framing also let Gaia avoid being categorized as just another AI model startup, which was the crowded box every generic press release was getting filed into."
+            "text": "The Stripe for AI agents framing worked because it borrowed an instantly legible analogy (Stripe as the developer-first infrastructure layer for online payments) and applied it to a category, agentic AI infrastructure, that was on the verge of mass interest but still poorly understood by mainstream tech journalists. Forbes editors recognized the analogy as an immediate hook. Decrypt extended it into a deeper systems explainer. The framing also let Gaia avoid being categorized as just another AI model startup, which was the crowded box every generic press release was getting filed into."
           }
         },
         {
@@ -130,7 +130,7 @@
           "name": "Who is Shashank Sripada and what was his role in the campaign?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Shashank Sripada is the co-founder and COO of Gaia. He served as the named operator-spokesperson for the campaign — quoted in the Benzinga piece on centralized models as a roadblock to decentralized AI, profiled in the CryptoDaily UK Consensus Hong Kong edition, and the primary voice across the podcast tour. Picking a single named operator with a clear technical point of view was load-bearing: it gave journalists one direct line and a coherent set of opinions, which is what produces sustained coverage rather than one-off mentions."
+            "text": "Shashank Sripada is the co-founder and COO of Gaia. He served as the named operator-spokesperson for the campaign, quoted in the Benzinga piece on centralized models as a roadblock to decentralized AI, profiled in the CryptoDaily UK Consensus Hong Kong edition, and the primary voice across the podcast tour. Picking a single named operator with a clear technical point of view was load-bearing: it gave journalists one direct line and a coherent set of opinions, which is what produces sustained coverage rather than one-off mentions."
           }
         },
         {

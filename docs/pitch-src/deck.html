@@ -1,0 +1,455 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Shilika Jain — PR Pitch Deck</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@300;400;500;600;700&family=Geist+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+@page { size: 1280px 720px; margin: 0; }
+:root {
+  --paper: #f5f2ea; --paper2: #ece8dd; --ink: #1c1a15;
+  --i70: rgba(28,26,21,.72); --i50: rgba(28,26,21,.54); --i30: rgba(28,26,21,.32); --i15: rgba(28,26,21,.16);
+  --acc: #55700a; --lime: #d4ff32; --sig: #e8590c;
+  --serif: 'Instrument Serif', serif; --sans: 'Inter Tight', sans-serif; --mono: 'Geist Mono', monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--paper); -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body { font-family: var(--sans); color: var(--ink); }
+.slide {
+  width: 1280px; height: 720px; position: relative; overflow: hidden;
+  padding: 56px 72px 52px; display: flex; flex-direction: column;
+  background: var(--paper); break-after: page; page-break-after: always;
+}
+.slide:last-child { break-after: auto; page-break-after: auto; }
+.ink { background: var(--ink); color: var(--paper); }
+.head { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 30px; }
+.kick { font-family: var(--mono); font-size: 13px; letter-spacing: .22em; text-transform: uppercase; color: var(--i50); }
+.ink .kick { color: rgba(245,242,234,.6); }
+.num { font-family: var(--mono); font-size: 13px; color: var(--i30); }
+.ink .num { color: rgba(245,242,234,.4); }
+h1 { font-family: var(--serif); font-weight: 400; font-size: 88px; line-height: .96; letter-spacing: -.02em; }
+h2 { font-family: var(--serif); font-weight: 400; font-size: 54px; line-height: 1.0; letter-spacing: -.015em; }
+h3 { font-family: var(--serif); font-weight: 400; font-size: 28px; line-height: 1.05; letter-spacing: -.01em; }
+.acc { font-style: italic; color: var(--acc); }
+.ink .acc { color: var(--lime); }
+.lead { font-size: 20px; line-height: 1.45; color: var(--i70); max-width: 620px; }
+.ink .lead { color: rgba(245,242,234,.8); }
+.small { font-size: 14px; line-height: 1.45; color: var(--i50); }
+.ink .small { color: rgba(245,242,234,.62); }
+.wordmark { font-family: var(--serif); font-size: 26px; }
+.wordmark .sl { color: var(--sig); font-style: italic; }
+.ink .wordmark .sl { color: var(--lime); }
+.stamp { display: inline-block; padding: 6px 12px; font-family: var(--mono); font-size: 12px; letter-spacing: .18em; text-transform: uppercase; color: var(--sig); border: 1.5px solid var(--sig); transform: rotate(-2deg); }
+.ink .stamp { color: var(--lime); border-color: var(--lime); }
+.foot { position: absolute; left: 72px; right: 72px; bottom: 26px; display: flex; justify-content: space-between; font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--i30); }
+.ink .foot { color: rgba(245,242,234,.35); }
+.body { flex: 1; display: flex; flex-direction: column; min-height: 0; }
+.center { justify-content: center; }
+.row { display: flex; gap: 40px; }
+.grid { display: grid; gap: 18px 26px; }
+.g2 { grid-template-columns: 1fr 1fr; } .g3 { grid-template-columns: repeat(3,1fr); } .g4 { grid-template-columns: repeat(4,1fr); }
+.stat { border: 1px solid var(--i15); background: var(--paper2); padding: 22px 20px; }
+.ink .stat { background: #26231c; border-color: rgba(245,242,234,.16); }
+.stat b { display: block; font-family: var(--serif); font-weight: 400; font-size: 60px; line-height: 1; color: var(--acc); }
+.ink .stat b { color: var(--lime); }
+.stat span { display: block; margin-top: 8px; font-size: 14px; line-height: 1.3; color: var(--i50); }
+.ink .stat span { color: rgba(245,242,234,.62); }
+.item { border-top: 2px solid var(--ink); padding-top: 12px; }
+.ink .item { border-color: var(--paper); }
+.item .n { font-family: var(--mono); font-size: 12px; color: var(--acc); letter-spacing: .08em; }
+.ink .item .n { color: var(--lime); }
+.item h3 { margin: 5px 0 7px; }
+.item p { font-size: 16px; line-height: 1.42; color: var(--i70); }
+.ink .item p { color: rgba(245,242,234,.72); }
+.tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.tag { font-family: var(--mono); font-size: 10.5px; letter-spacing: .08em; text-transform: uppercase; border: 1px solid var(--i30); padding: 3px 7px; color: var(--i70); }
+.ink .tag { border-color: rgba(245,242,234,.3); color: rgba(245,242,234,.75); }
+.case { border: 1px solid var(--ink); padding: 24px 24px 22px; display: flex; flex-direction: column; background: var(--paper); }
+.case.dark { background: var(--ink); color: var(--paper); box-shadow: 7px 7px 0 var(--lime); }
+.case .cat { font-family: var(--mono); font-size: 11px; letter-spacing: .16em; text-transform: uppercase; color: var(--i50); }
+.case.dark .cat { color: rgba(245,242,234,.6); }
+.case h3 { font-size: 36px; margin: 8px 0 10px; }
+.case p { font-size: 16px; line-height: 1.45; color: var(--i70); }
+.case.dark p { color: rgba(245,242,234,.8); }
+.case .big { font-family: var(--serif); font-size: 44px; line-height: 1; color: var(--acc); margin-top: auto; padding-top: 26px; }
+.case.dark .big { color: var(--lime); }
+.case .big small { font-family: var(--sans); font-size: 13px; color: var(--i50); display: block; margin-top: 4px; }
+.case.dark .big small { color: rgba(245,242,234,.6); }
+.logos { display: flex; flex-wrap: wrap; gap: 10px 14px; }
+.logo { font-family: var(--serif); font-size: 27px; letter-spacing: -.01em; padding: 6px 16px; border: 1px solid var(--i15); background: var(--paper2); }
+.ink .logo { border-color: rgba(245,242,234,.18); background: #26231c; }
+.logo.hl { background: var(--ink); color: var(--lime); border-color: var(--ink); }
+.bars { display: flex; flex-direction: column; gap: 12px; }
+.bar { display: grid; grid-template-columns: 250px 1fr 50px; align-items: center; gap: 14px; }
+.bar .l { text-align: right; font-family: var(--mono); font-size: 14px; color: var(--i70); }
+.bar .t { height: 18px; background: var(--i15); }
+.bar .f { height: 100%; background: var(--acc); }
+.bar .f.hi { background: var(--sig); }
+.bar .v { font-family: var(--mono); font-size: 14px; color: var(--i50); }
+.quote { font-family: var(--serif); font-size: 23px; line-height: 1.3; }
+.who { margin-top: 14px; font-family: var(--mono); font-size: 11.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--i50); }
+.who b { color: var(--ink); font-weight: 500; }
+.ink .who { color: rgba(245,242,234,.55); } .ink .who b { color: var(--lime); }
+.tier { border: 1px solid var(--ink); padding: 30px 26px 34px; display: flex; flex-direction: column; }
+.tier.dark { background: var(--ink); color: var(--paper); box-shadow: 7px 7px 0 var(--lime); }
+.tier .tn { font-family: var(--mono); font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--i50); }
+.tier.dark .tn { color: rgba(245,242,234,.6); }
+.tier .price { font-family: var(--serif); font-size: 50px; line-height: 1; margin: 12px 0 6px; }
+.tier .price small { font-family: var(--sans); font-size: 15px; color: var(--i50); }
+.tier.dark .price small { color: rgba(245,242,234,.6); }
+.tier ul { list-style: none; margin-top: 14px; display: flex; flex-direction: column; gap: 8px; }
+.tier li { position: relative; padding-left: 20px; font-size: 16px; line-height: 1.35; color: var(--i70); }
+.tier.dark li { color: rgba(245,242,234,.85); }
+.tier li::before { content: '→'; position: absolute; left: 0; color: var(--acc); }
+.tier.dark li::before { color: var(--lime); }
+.cmp { width: 100%; border-collapse: collapse; font-size: 15px; }
+.cmp th, .cmp td { text-align: left; padding: 11px 14px; border-bottom: 1px solid var(--i15); vertical-align: top; }
+.cmp th { font-family: var(--mono); font-size: 11.5px; letter-spacing: .14em; text-transform: uppercase; color: var(--i50); font-weight: 400; }
+.cmp td:first-child { font-family: var(--mono); font-size: 12.5px; letter-spacing: .06em; text-transform: uppercase; color: var(--i50); width: 190px; }
+.cmp td.me { background: var(--ink); color: var(--paper); }
+.cmp th.me { background: var(--ink); color: var(--lime); }
+.photo { position: absolute; right: 0; top: 0; bottom: 0; width: 430px; background: url('file:///Users/thunderbolt/Documents/projects/Shilika/public/assets/shilika-press-portrait-960x1200.jpg') right 40% / cover; }
+.photo::after { content: ''; position: absolute; inset: 0; background: linear-gradient(90deg, var(--ink) 0%, rgba(28,26,21,0) 30%); }
+.marq { font-family: var(--mono); font-size: 12px; letter-spacing: .2em; color: var(--lime); white-space: nowrap; }
+.contact { display: grid; grid-template-columns: 150px 1fr; gap: 12px 20px; font-size: 19px; }
+.contact dt { font-family: var(--mono); font-size: 12px; letter-spacing: .16em; text-transform: uppercase; color: rgba(245,242,234,.55); padding-top: 5px; }
+.contact dd a { color: var(--paper); text-decoration: none; border-bottom: 1px solid rgba(212,255,50,.6); }
+.tl { display: flex; flex-direction: column; gap: 14px; }
+.tl div { display: grid; grid-template-columns: 120px 1fr; gap: 14px; font-size: 16px; border-bottom: 1px solid var(--i15); padding-bottom: 12px; }
+.tl span { font-family: var(--mono); font-size: 12px; color: var(--acc); letter-spacing: .06em; padding-top: 3px; }
+.mkt { border: 1px solid var(--i15); background: var(--paper2); padding: 16px 16px; }
+.mkt h3 { font-size: 26px; margin-bottom: 6px; }
+.mkt p { font-size: 13px; line-height: 1.45; color: var(--i70); }
+</style>
+</head>
+<body>
+
+<!-- 01 COVER -->
+<section class="slide ink">
+  <div class="photo"></div>
+  <div class="head" style="width: 700px">
+    <span class="wordmark">Shilika<span class="sl">/</span>Jain</span>
+  </div>
+  <div class="body center" style="max-width: 760px">
+    <span class="stamp" style="align-self:flex-start;margin-bottom:26px">Web3 PR · AI PR · APAC + Global</span>
+    <h1>Web3 &amp; AI PR<br>that lands <span class="acc">Tier-1</span><br>headlines.</h1>
+    <p class="lead" style="margin-top:26px">PR consultant for Web3 and AI companies. Six years putting founders on the front page of Forbes, CoinDesk, Cointelegraph, Economic Times and Yahoo Finance.</p>
+    <p class="small" style="margin-top:22px">Led PR for Gaia AI · CoinMarketCap · Polygon + 50 more</p>
+  </div>
+  <div class="foot" style="right:500px"><span>shilikajain.com</span><span>Client pitch · 2026</span></div>
+</section>
+
+<!-- 02 NUMBERS -->
+<section class="slide">
+  <div class="head"><div><p class="kick">/01 The track record</p><h2 style="margin-top:12px">Six years of <span class="acc">earned</span> media,<br>in numbers.</h2></div><span class="num">02</span></div>
+  <div class="body center">
+    <div class="grid g3" style="gap:18px">
+      <div class="stat"><b>500+</b><span>Media placements secured</span></div>
+      <div class="stat"><b>150+</b><span>Tier-1 publications landed</span></div>
+      <div class="stat"><b>5B+</b><span>Estimated media impressions</span></div>
+      <div class="stat"><b>50+</b><span>Product launches &amp; protocols shaped</span></div>
+      <div class="stat"><b>25+</b><span>Countries reached via earned media</span></div>
+      <div class="stat"><b>200+</b><span>Vetted Web3 KOLs &amp; direct journalist relationships</span></div>
+    </div>
+  </div>
+  <div class="foot"><span>Shilika Jain · Web3 &amp; AI PR</span><span>shilikajain.com</span></div>
+</section>
+
+<!-- 03 WHO -->
+<section class="slide">
+  <div class="head"><div><p class="kick">/02 Who you'd be working with</p><h2 style="margin-top:12px">One senior operator.<br><span class="acc">No account-team layers.</span></h2></div><span class="num">03</span></div>
+  <div class="body">
+    <div class="row" style="gap:56px">
+      <div style="flex:1.1">
+        <p class="lead" style="font-size:18px">I built CoinMarketCap's regional comms function from the ground up, and I currently lead PR at Myosin, a growth-marketing DAO. Across both I've shaped narratives for 50+ protocols and placed them in Forbes, CoinDesk, Cointelegraph, Decrypt, The Block, Blockworks and AI Magazine. Asia to the States.</p>
+        <p class="lead" style="font-size:18px;margin-top:16px">I lead strategy <em>and</em> execution myself: the journalist relationships, the pitches, the punctual follow-ups.</p>
+        <p class="kick" style="margin-top:26px">Recently on stage</p>
+        <p class="small" style="margin-top:8px;font-size:15px">Binary Summit, Bangkok · India Blockchain Week 2024 · Web3 Conf Goa (Women in Web3) · EpicWeb3 Summit</p>
+      </div>
+      <div style="flex:1">
+        <div class="tl">
+          <div><span>2023 – NOW</span>Head of PR · Myosin DAO</div>
+          <div><span>2021 – 2023</span>APAC PR &amp; Partnerships · CoinMarketCap</div>
+          <div><span>2020 – 2021</span>Marketing Lead · Momentum6 / Bloom360</div>
+          <div><span>2020 – NOW</span>Freelance Contributor · CryptoDaily UK</div>
+        </div>
+        <p class="small" style="margin-top:18px">100+ journalist relationships and 150+ KOLs built at CoinMarketCap, and the muscle memory that only comes from shipping launches every week.</p>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span>Shilika Jain · Web3 &amp; AI PR</span><span>shilikajain.com</span></div>
+</section>
+
+<!-- 04 CLIENTS -->
+<section class="slide ink">
+  <div class="head"><div><p class="kick">/03 Trusted by</p><h2 style="margin-top:12px">Narratives shaped for<br><span class="acc">50+ protocols</span> and AI companies.</h2></div><span class="num">04</span></div>
+  <div class="body center">
+    <div class="logos">
+      <span class="logo hl">Gaia AI</span><span class="logo">CoinMarketCap</span><span class="logo hl">Polygon</span><span class="logo">NEAR Foundation</span><span class="logo">Ripple</span><span class="logo hl">RARI Foundation</span><span class="logo">MANTRA Chain</span><span class="logo">Web3Auth</span><span class="logo hl">Fluence</span><span class="logo">Stellar Foundation</span><span class="logo">OKX</span><span class="logo">Animoca Brands</span><span class="logo">Solana Saga</span><span class="logo">WalletConnect</span><span class="logo">Reown</span><span class="logo">Gnosis Guild</span><span class="logo">Liquity</span><span class="logo">Aragon</span><span class="logo">Zilliqa</span><span class="logo">ParaSwap</span><span class="logo">Rootstock</span><span class="logo">Stader Labs</span><span class="logo">Legion</span><span class="logo">RabbitX</span><span class="logo">Magna</span><span class="logo">Elastos</span><span class="logo">Bullieverse</span>
+    </div>
+  </div>
+  <div class="foot"><span>Shilika Jain · Web3 &amp; AI PR</span><span>shilikajain.com</span></div>
+</section>
+
+<!-- 05 WHY PR FAILS -->
+<section class="slide">
+  <div class="head"><div><p class="kick">/04 The problem</p><h2 style="margin-top:12px">Why most PR <span class="acc">fails.</span></h2></div><span class="num">05</span></div>
+  <div class="body">
+    <div class="grid g3" style="gap:32px">
+      <div class="item"><div class="n">01</div><h3>Cold press-release distribution</h3><p>It gets ignored. Editors filter it before they read it.</p></div>
+      <div class="item"><div class="n">02</div><h3>Generic agencies</h3><p>They recycle the same playbook they use for fintech and ecommerce, and hand your account to a junior team.</p></div>
+      <div class="item"><div class="n">03</div><h3>No track record</h3><p>The same teams that promise you Forbes have never placed a single token launch.</p></div>
+    </div>
+    <div style="margin-top:auto;border-left:4px solid var(--sig);padding:6px 0 6px 26px">
+      <p class="quote" style="font-size:34px;max-width:980px">“I don't pitch products. I pitch <span class="acc">inevitabilities</span> — the kind of stories that connect and editors save for Monday morning.”</p>
+      <p class="who" style="margin-top:12px"><b>Shilika Jain</b></p>
+    </div>
+  </div>
+  <div class="foot"><span>Shilika Jain · Web3 &amp; AI PR</span><span>shilikajain.com</span></div>
+</section>
+
+<!-- 06 WHY NOW -->
+<section class="slide">
+  <div class="head"><div><p class="kick">/05 Why earned media, why now</p><h2 style="margin-top:12px">AI answers are the<br><span class="acc">new front page.</span></h2></div><span class="num">06</span></div>
+  <div class="body">
+    <div class="grid g3" style="gap:30px">
+      <div class="item"><div class="n">01</div><h3 style="font-size:24px">Credibility is scarce</h3><p>Demos are cheap and launches are weekly. Earned coverage proves someone with no stake in your business vouched for you.</p></div>
+      <div class="item"><div class="n">02</div><h3 style="font-size:24px">LLMs read the press</h3><p>ChatGPT, Perplexity and Google AI Overviews describe your company from what the press wrote, not your homepage.</p></div>
+      <div class="item"><div class="n">03</div><h3 style="font-size:24px">Investors diligence in public</h3><p>Before any meeting, investors search you on Google, ChatGPT and X. Coverage is the first data room.</p></div>
+    </div>
+    <div style="margin-top:auto">
+      <p class="kick" style="margin-bottom:14px">Correlation with brand visibility in AI answers · ~75K brands · Ahrefs</p>
+      <div class="bars">
+        <div class="bar"><span class="l">Branded media mentions</span><span class="t"><span class="f hi" style="width:100%;display:block"></span></span><span class="v">0.66</span></div>
+        <div class="bar"><span class="l">Domain Rating</span><span class="t"><span class="f" style="width:50%;display:block"></span></span><span class="v">0.33</span></div>
+        <div class="bar"><span class="l">Backlinks</span><span class="t"><span class="f" style="width:33%;display:block"></span></span><span class="v">0.22</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span>Shilika Jain · Web3 &amp; AI PR</span><span>shilikajain.com</span></div>
+</section>
+
+<!-- 07 SERVICES -->
+<section class="slide">
+  <div class="head"><div><p class="kick">/06 What I do</p><h2 style="margin-top:12px">Crypto, token-launch &amp; AI PR —<br><span class="acc">without the agency markup.</span></h2></div><span class="num">07</span></div>
+  <div class="body center">
+    <div class="grid g4" style="gap:22px 24px">
+      <div class="item"><div class="n">01</div><h3 style="font-size:22px">Web3 PR Campaigns</h3><p style="font-size:13px">Narrative architecture, embargo strategy, tier-1 outreach, crisis comms and AEO.</p></div>
+      <div class="item"><div class="n">02</div><h3 style="font-size:22px">Founder Profiling &amp; Op-Eds</h3><p style="font-size:13px">Turn technical founders into category voices: op-eds, podcast tours, speaking, LinkedIn/X.</p></div>
+      <div class="item"><div class="n">03</div><h3 style="font-size:22px">KOL &amp; Influencer Marketing</h3><p style="font-size:13px">200+ vetted creators, fraud-audited, sequenced in three waves with on-chain attribution.</p></div>
+      <div class="item"><div class="n">04</div><h3 style="font-size:22px">APAC Localisation</h3><p style="font-size:13px">Native-language placements across Korea, Japan, China, India, Singapore, Vietnam and MENA.</p></div>
+      <div class="item"><div class="n">05</div><h3 style="font-size:22px">Token Launch PR &amp; TGE</h3><p style="font-size:13px">Pre-TGE positioning, exchange comms (Binance, OKX, MEXC, Bybit), 90-day tail.</p></div>
+      <div class="item"><div class="n">06</div><h3 style="font-size:22px">AI Startup PR</h3><p style="font-size:13px">Forbes, AI Magazine, Decrypt, The Information. Category narrative and founder profile.</p></div>
+      <div class="item"><div class="n">07</div><h3 style="font-size:22px">Content Writing</h3><p style="font-size:13px">Ghostwritten op-eds, whitepapers and founder essays — Forbes-grade, AI-search ready.</p></div>
+      <div class="item"><div class="n">08</div><h3 style="font-size:22px">Cybersecurity PR</h3><p style="font-size:13px">Analyst relations, tier-1 security press, disclosure &amp; breach comms, AEO for cyber.</p></div>
+    </div>
+  </div>
+  <div class="foot"><span>Shilika Jain · Web3 &amp; AI PR</span><span>shilikajain.com</span></div>
+</section>
+
+<!-- 08 GAIA -->
+<section class="slide ink">
+  <div class="head"><div><p class="kick">/07 Selected work · Decentralized AI</p><h2 style="margin-top:12px">Gaia AI: placed as<br><span class="acc">“the Stripe for AI agents.”</span></h2></div><span class="num">08</span></div>
+  <div class="body">
+    <div class="row" style="gap:50px">
+      <div style="flex:1.2">
+        <p class="lead" style="font-size:18.5px">Decentralized AI infrastructure is a hard, technical story. We profiled both founders in parallel and built the narrative from founder commentary into features, anchored to Consensus Hong Kong 2025.</p>
+        <div class="tags" style="margin-top:22px"><span class="tag">Forbes</span><span class="tag">Decrypt</span><span class="tag">Benzinga</span><span class="tag">CryptoDaily UK</span><span class="tag">Binance Square</span><span class="tag">6-podcast founder tour</span></div>
+        <p class="small" style="margin-top:22px">Forbes feature (Dec 2024) · Decrypt deep-dive on living knowledge systems for AI agents · Benzinga interview with co-founder Shashank Sripada · 6-podcast tour timed to Consensus HK.</p>
+      </div>
+      <div style="flex:1" class="grid g2">
+        <div class="stat"><b>14</b><span>Earned placements &amp; interviews in four months</span></div>
+        <div class="stat"><b>6</b><span>Podcasts in the founder tour</span></div>
+        <div class="stat" style="grid-column:span 2"><b>400K</b><span>Nodes on the network the story was built around</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span>Case study · shilikajain.com/work/gaia-ai</span><span>Shilika Jain</span></div>
+</section>
+
+<!-- 09 RARI + MANTRA -->
+<section class="slide">
+  <div class="head"><div><p class="kick">/07 Selected work · Launches &amp; raises</p><h2 style="margin-top:12px">Launches and raises<br>turned into <span class="acc">category stories.</span></h2></div><span class="num">09</span></div>
+  <div class="body center">
+    <div class="grid g2" style="gap:30px">
+      <div class="case dark">
+        <span class="cat">NFT infrastructure · Mainnet</span>
+        <h3>RARI Foundation</h3>
+        <p>Ran the global mainnet launch for RARI Chain on Arbitrum. A 9-day CoinDesk embargo on the royalty-enforcement angle, then simultaneous tier-1 placements at 9 AM ET, lifted into coordinated Korean, Japanese and Chinese translations.</p>
+        <div class="tags"><span class="tag">CoinDesk</span><span class="tag">The Block</span><span class="tag">The Defiant</span><span class="tag">Cointelegraph</span><span class="tag">Decrypt</span></div>
+        <div class="big">11 in 24h<small>Simultaneous tier-1 placements at launch</small></div>
+      </div>
+      <div class="case">
+        <span class="cat">RWA · Layer 1 · Series A</span>
+        <h3>MANTRA Chain</h3>
+        <p>Reframed a commodity raise as a Middle East RWA story, anchored on Abu Dhabi-based lead investor Shorooq Partners. Won a CoinDesk exclusive, plus a standalone Cointelegraph profile of CEO John Mullin: “Everything Tokenized.”</p>
+        <div class="tags"><span class="tag">CoinDesk exclusive</span><span class="tag">Cointelegraph</span><span class="tag">Decrypt</span><span class="tag">CryptoPotato</span><span class="tag">Milk Road</span></div>
+        <div class="big">$11M<small>Raise narrative + durable founder-profile asset</small></div>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span>Case studies · shilikajain.com/work</span><span>Shilika Jain</span></div>
+</section>
+
+<!-- 10 FLUENCE / WEB3AUTH / BULLIEVERSE -->
+<section class="slide">
+  <div class="head"><div><p class="kick">/07 Selected work · Category, infrastructure, regional</p><h2 style="margin-top:12px">Hard stories, <span class="acc">front-page results.</span></h2></div><span class="num">10</span></div>
+  <div class="body center">
+    <div class="grid g3" style="gap:24px">
+      <div class="case">
+        <span class="cat">DePIN · Compute</span>
+        <h3 style="font-size:32px">Fluence Network</h3>
+        <p style="font-size:15.5px">Made DePIN a beat for tier-1 reporters and anchored co-founder Tom Trowbridge as the category's go-to voice: a CoinDesk Opinion byline, Cointelegraph “Hashing It Out”, Decrypt analysis, Benzinga exclusive.</p>
+        <div class="big" style="font-size:34px">Category<small>created, not just covered</small></div>
+      </div>
+      <div class="case dark">
+        <span class="cat">Wallet infrastructure</span>
+        <h3 style="font-size:32px">Web3Auth</h3>
+        <p style="font-size:15.5px">A developer release with no funding hook and no token, reframed as a Google Cloud × Firebase story. Placed in Blockworks, CoinDesk, Benzinga and Yahoo Finance, then syndicated in French, Italian and Spanish.</p>
+        <div class="big" style="font-size:34px">4 languages<small>of borrowed-credibility coverage</small></div>
+      </div>
+      <div class="case">
+        <span class="cat">Metaverse · Gaming · Seed</span>
+        <h3 style="font-size:32px">Bullieverse</h3>
+        <p style="font-size:15.5px">India-founded Web3 gaming studio. Led as an Economic Times exclusive, then run on two parallel tracks: Indian business press (Inc42, YourStory, Business Today) and crypto-native media.</p>
+        <div class="big" style="font-size:34px">$4M<small>Seed, dual-track home-market launch</small></div>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span>Case studies · shilikajain.com/work</span><span>Shilika Jain</span></div>
+</section>
+
+<!-- 11 COVERAGE -->
+<section class="slide ink">
+  <div class="head"><div><p class="kick">/08 Coverage</p><h2 style="margin-top:12px">Where the stories <span class="acc">land.</span></h2></div><span class="num">11</span></div>
+  <div class="body">
+    <p class="kick" style="margin-bottom:12px">Global · mainstream &amp; crypto-native</p>
+    <div class="logos" style="gap:8px 10px">
+      <span class="logo hl">Forbes</span><span class="logo hl">CoinDesk</span><span class="logo hl">Cointelegraph</span><span class="logo">Decrypt</span><span class="logo">Blockworks</span><span class="logo">The Block</span><span class="logo">Yahoo Finance</span><span class="logo">Benzinga</span><span class="logo">Business Insider</span><span class="logo">Fast Company</span><span class="logo">The Information</span><span class="logo">AI Magazine</span><span class="logo">Bitcoin Magazine</span><span class="logo">The Defiant</span><span class="logo">BeInCrypto</span><span class="logo">Hackernoon</span><span class="logo">CryptoNews</span>
+    </div>
+    <p class="kick" style="margin:26px 0 12px">Regional · APAC &amp; MENA, native language</p>
+    <div class="logos" style="gap:8px 10px">
+      <span class="logo">Economic Times</span><span class="logo">Inc42</span><span class="logo">YourStory</span><span class="logo">Tech in Asia</span><span class="logo">e27</span><span class="logo">BloomingBit</span><span class="logo">TokenPost</span><span class="logo">CoinNess</span><span class="logo">CryptoTimes JP</span><span class="logo">CoinPost</span><span class="logo">ChainCatcher</span><span class="logo">Jinse</span><span class="logo">Coin68</span><span class="logo">Regulation Asia</span><span class="logo">Cointelegraph Arabic</span>
+    </div>
+  </div>
+  <div class="foot"><span>Shilika Jain · Web3 &amp; AI PR</span><span>shilikajain.com</span></div>
+</section>
+
+<!-- 12 APAC -->
+<section class="slide">
+  <div class="head"><div><p class="kick">/09 APAC + global reach</p><h2 style="margin-top:12px">One strategy across markets.<br><span class="acc">Not one agency per market.</span></h2></div><span class="num">12</span></div>
+  <div class="body">
+    <div class="grid g3" style="gap:14px 16px">
+      <div class="mkt"><h3>Korea</h3><p>BloomingBit, TokenPost, BlockMedia, Coinness. Korea Blockchain Week. Roughly half of all crypto-native media traffic in Asia.</p></div>
+      <div class="mkt"><h3>Japan</h3><p>CoinPost, CryptoTimes JP, Iolite, CoinDesk Japan, Nikkei. FSA-aware framing, WebX Tokyo.</p></div>
+      <div class="mkt"><h3>Greater China</h3><p>ChainCatcher, Jinse, PANews, Foresight News. Bilingual diaspora coverage.</p></div>
+      <div class="mkt"><h3>India</h3><p>Economic Times, Inc42, YourStory, Forbes India, Mint, Moneycontrol. Home-market exclusives, ETHIndia.</p></div>
+      <div class="mkt"><h3>Singapore &amp; SEA</h3><p>The Business Times, Tech in Asia, e27, KrAsia, DealStreetAsia. Token2049 Singapore.</p></div>
+      <div class="mkt"><h3>Dubai &amp; MENA</h3><p>Arabian Business, Gulf News, The National, Cointelegraph Arabic. VARA and ADGM framing, Token2049 Dubai.</p></div>
+    </div>
+    <p class="small" style="margin-top:18px;font-size:15px">Every market gets native-language placements, regional KOL waves, on-ground event access and a local journalist database — not translated press releases.</p>
+  </div>
+  <div class="foot"><span>Shilika Jain · Web3 &amp; AI PR</span><span>shilikajain.com</span></div>
+</section>
+
+<!-- 13 PROCESS -->
+<section class="slide">
+  <div class="head"><div><p class="kick">/10 The process</p><h2 style="margin-top:12px">No retainers <span class="acc">without results.</span></h2></div><span class="num">13</span></div>
+  <div class="body center">
+    <div class="grid g4" style="gap:28px">
+      <div class="item"><div class="n">01 · WEEKS 1–2</div><h3 style="font-size:34px">Listen</h3><p>Two-week immersion in your tech, your founders, your competitors and the things that actually matter. I read the whitepaper. Twice.</p></div>
+      <div class="item"><div class="n">02</div><h3 style="font-size:34px">Architect</h3><p>Narrative thesis, audience map, journalist priority list, regional mapping, announcement cadence and a 90-day calendar with measurable milestones.</p></div>
+      <div class="item"><div class="n">03</div><h3 style="font-size:34px">Execute</h3><p>Press releases, op-eds, podcast tours, KOL waves, on-ground conference support, embargo coordination — sometimes across six time zones.</p></div>
+      <div class="item"><div class="n">04 · WEEKLY</div><h3 style="font-size:34px">Report</h3><p>Weekly sentiment reports, share-of-voice tracking, journalist heatmaps and AI-citation tracking. The data investors ask for.</p></div>
+    </div>
+  </div>
+  <div class="foot"><span>Shilika Jain · Web3 &amp; AI PR</span><span>shilikajain.com</span></div>
+</section>
+
+<!-- 14 TESTIMONIALS -->
+<section class="slide">
+  <div class="head"><div><p class="kick">/11 Testimonials · 19 LinkedIn recommendations</p><h2 style="margin-top:12px">What founders say <span class="acc">after the dust settles.</span></h2></div><span class="num">14</span></div>
+  <div class="body center">
+    <div class="grid g3" style="gap:30px">
+      <div class="item"><p class="quote" style="font-size:21px">“When Shilika speaks, journalists listen. Her ability to translate client briefs into earned media is unmatched in our industry.”</p><p class="who"><b>Simon Yi</b><br>Managed Shilika directly</p></div>
+      <div class="item"><p class="quote" style="font-size:21px">“At Fluence, she led PR efforts with remarkable success — securing high-quality, organic media coverage that allowed the company to punch well above its weight.”</p><p class="who"><b>Alex Albano</b><br>CMO · Ex-Google Cloud</p></div>
+      <div class="item"><p class="quote" style="font-size:21px">“Outlets that once felt out of reach became regular coverage, both in crypto and mainstream tech media.”</p><p class="who"><b>Gafoor Khan</b><br>Client · Advisor &amp; Angel Investor</p></div>
+    </div>
+    <div class="grid g2" style="gap:30px;margin-top:40px">
+      <div class="item"><p class="quote" style="font-size:19px">“One of the most effective and reliable PR professionals I've collaborated with.”</p><p class="who"><b>Jana Bertram</b> · ex-RARI Foundation, WeTransfer, Klarna</p></div>
+      <div class="item"><p class="quote" style="font-size:19px">“A huge help in increasing Reown and WalletConnect leadership's presence — podcasts, interviews and media.”</p><p class="who"><b>Aaron Dodd</b> · Client, WalletConnect / Reown</p></div>
+    </div>
+  </div>
+  <div class="foot"><span>shilikajain.com/testimonials</span><span>Shilika Jain</span></div>
+</section>
+
+<!-- 15 FRACTIONAL VS AGENCY -->
+<section class="slide">
+  <div class="head"><div><p class="kick">/12 The model</p><h2 style="margin-top:12px">Fractional PR vs a <span class="acc">Web3 PR agency.</span></h2></div><span class="num">15</span></div>
+  <div class="body center">
+    <table class="cmp">
+      <tr><th></th><th>Typical agency</th><th class="me">Working with Shilika</th></tr>
+      <tr><td>Who does the work</td><td>Junior account team, senior partner on the sales call</td><td class="me">One senior operator, strategy and execution</td></tr>
+      <tr><td>Founder access</td><td>Filtered through account managers</td><td class="me">Direct — embedded like a team member</td></tr>
+      <tr><td>Playbook</td><td>Recycled from fintech and ecommerce</td><td class="me">Built for Web3, AI and APAC markets</td></tr>
+      <tr><td>Regional reach</td><td>English-only, or a separate agency per market</td><td class="me">Native placements across 6 APAC markets + MENA</td></tr>
+      <tr><td>Placements</td><td>Markup on paid media</td><td class="me">Organic-first; paid quoted transparently per outlet</td></tr>
+      <tr><td>Accountability</td><td>Billable hours</td><td class="me">Coverage in named outlets, reported weekly</td></tr>
+    </table>
+  </div>
+  <div class="foot"><span>Shilika Jain · Web3 &amp; AI PR</span><span>shilikajain.com</span></div>
+</section>
+
+<!-- 16 ENGAGEMENT -->
+<section class="slide">
+  <div class="head"><div><p class="kick">/13 Engagement</p><h2 style="margin-top:12px">Ways to <span class="acc">work together.</span></h2></div><span class="num">16</span></div>
+  <div class="body center">
+    <div class="grid g3" style="gap:24px">
+      <div class="tier dark">
+        <span class="tn">Monthly retainer</span>
+        <div class="price">$3k–7k<small> / month</small></div>
+        <p class="small" style="color:rgba(245,242,234,.7)">Fractional PR, scoped by cadence and markets.</p>
+        <ul><li>Narrative architecture &amp; 90-day calendar</li><li>Tier-1 and regional media outreach</li><li>Founder profiling, podcasts, commentary</li><li>Weekly reporting &amp; share of voice</li></ul>
+      </div>
+      <div class="tier">
+        <span class="tn">Launch sprint</span>
+        <div class="price">Custom<small> quote</small></div>
+        <p class="small">Token launch, mainnet, raise or product launch.</p>
+        <ul><li>Pre-launch positioning &amp; embargo strategy</li><li>Exchange &amp; partner comms</li><li>Segmented KOL waves</li><li>90-day post-launch tail</li></ul>
+      </div>
+      <div class="tier">
+        <span class="tn">Content writing</span>
+        <div class="price">$2.5k<small> / month +</small></div>
+        <p class="small">Ghostwritten under the founder's byline.</p>
+        <ul><li>Op-Ed of the Month · $2,500/mo</li><li>Founder Essay · $3,500–7,500</li><li>Whitepaper Sprint · $7,500–20,000</li><li>Structured for AI search (GEO/AEO)</li></ul>
+      </div>
+    </div>
+    <p class="small" style="margin-top:16px">Organic-first. Paid placements are an optional add-on, quoted transparently per outlet. APAC markets get custom plans.</p>
+  </div>
+  <div class="foot"><span>Shilika Jain · Web3 &amp; AI PR</span><span>shilikajain.com</span></div>
+</section>
+
+<!-- 17 CTA -->
+<section class="slide ink">
+  <div class="head"><span class="wordmark">Shilika<span class="sl">/</span>Jain</span><span class="num">17</span></div>
+  <div class="body" style="flex-direction:row;gap:60px;align-items:center">
+    <div style="flex:1.2">
+      <p class="kick">/14 Let's talk</p>
+      <h1 style="font-size:78px;margin-top:16px">Have a launch on the horizon? <span class="acc">Let's plot it.</span></h1>
+      <p class="lead" style="margin-top:22px;font-size:18px">Book a 30-minute intro call. Bring your roadmap, your funding stage and the one publication you want to be in. I'll come prepped with a teardown of your current press footprint.</p>
+    </div>
+    <dl class="contact" style="flex:1">
+      <dt>Book a call</dt><dd><a href="https://calendly.com/shilikajain/">calendly.com/shilikajain</a></dd>
+      <dt>Email</dt><dd><a href="mailto:shilika498@gmail.com">shilika498@gmail.com</a></dd>
+      <dt>Telegram</dt><dd><a href="https://t.me/shilika3">@shilika3</a></dd>
+      <dt>X</dt><dd><a href="https://x.com/Shilika_jain">@Shilika_jain</a></dd>
+      <dt>LinkedIn</dt><dd><a href="https://www.linkedin.com/in/shilika/">/in/shilika</a></dd>
+      <dt>Website</dt><dd><a href="https://shilikajain.com">shilikajain.com</a></dd>
+    </dl>
+  </div>
+  <div class="foot"><span class="marq">LET'S MAKE NOISE · LET'S MAKE NOISE · LET'S MAKE NOISE</span><span>© Shilika Jain 2019–2026</span></div>
+</section>
+
+</body>
+</html>

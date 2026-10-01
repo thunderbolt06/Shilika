@@ -87,6 +87,8 @@
     {
       "@type": "FAQPage",
       "@id": "https://www.shilikajain.com/india#faq",
+      "datePublished": "2026-05-31",
+      "dateModified": "2026-09-03",
       "mainEntity": [
         {
           "@type": "Question",

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: `${SITE_URL}/playbook/ai-startup-pr-2026`,
     type: 'article',
     publishedTime: '2026-05-29',
-    modifiedTime: '2026-05-29',
+    modifiedTime: '2026-07-29',
     authors: ['Shilika Jain'],
     tags: ['AI startup PR', 'Generative engine optimization', 'AI Overviews', 'Founder profiling'],
     images: [

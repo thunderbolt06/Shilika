@@ -218,8 +218,8 @@ export function EditorialFooter() {
           <a href="/contact">Contact</a>
           <a href="https://calendly.com/shilikajain/30min/" target="_blank" rel="noopener">Book a Call</a>
           <a href="mailto:shilika498@gmail.com">shilika498@gmail.com</a>
-          <a href="https://in.linkedin.com/in/shilika" target="_blank" rel="noopener">LinkedIn</a>
-          <a href="https://twitter.com/Shilika_jain" target="_blank" rel="noopener">Twitter / X</a>
+          <a href="https://www.linkedin.com/in/shilika/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://x.com/Shilika_jain" target="_blank" rel="noopener">Twitter / X</a>
         </div>
       </nav>
 

@@ -84,6 +84,8 @@
     {
       "@type": "FAQPage",
       "@id": "https://www.shilikajain.com/singapore#faq",
+      "datePublished": "2026-06-01",
+      "dateModified": "2026-09-06",
       "mainEntity": [
         {
           "@type": "Question",

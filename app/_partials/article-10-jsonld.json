@@ -35,36 +35,114 @@
       ],
       "inLanguage": "en",
       "datePublished": "2026-05-30",
-      "dateModified": "2026-05-30",
+      "dateModified": "2026-07-29",
       "about": [
-        { "@type": "Thing", "name": "Cybersecurity public relations" },
-        { "@type": "Thing", "name": "Analyst relations" },
-        { "@type": "Thing", "name": "Generative engine optimization" },
-        { "@type": "Thing", "name": "Answer engine optimization" },
-        { "@type": "Thing", "name": "Google AI Mode" },
-        { "@type": "Organization", "name": "Gartner" },
-        { "@type": "Organization", "name": "Forrester" },
-        { "@type": "Organization", "name": "IDC" },
-        { "@type": "Organization", "name": "KuppingerCole" }
+        {
+          "@type": "Thing",
+          "name": "Cybersecurity public relations"
+        },
+        {
+          "@type": "Thing",
+          "name": "Analyst relations"
+        },
+        {
+          "@type": "Thing",
+          "name": "Generative engine optimization"
+        },
+        {
+          "@type": "Thing",
+          "name": "Answer engine optimization"
+        },
+        {
+          "@type": "Thing",
+          "name": "Google AI Mode"
+        },
+        {
+          "@type": "Organization",
+          "name": "Gartner"
+        },
+        {
+          "@type": "Organization",
+          "name": "Forrester"
+        },
+        {
+          "@type": "Organization",
+          "name": "IDC"
+        },
+        {
+          "@type": "Organization",
+          "name": "KuppingerCole"
+        }
       ],
       "mentions": [
-        { "@type": "Organization", "name": "Dark Reading" },
-        { "@type": "Organization", "name": "SC Media" },
-        { "@type": "Organization", "name": "CyberScoop" },
-        { "@type": "Organization", "name": "The Record" },
-        { "@type": "Organization", "name": "SecurityWeek" },
-        { "@type": "Organization", "name": "BleepingComputer" },
-        { "@type": "Organization", "name": "Help Net Security" },
-        { "@type": "Organization", "name": "Forbes Cyber" },
-        { "@type": "Organization", "name": "WSJ Pro Cybersecurity" },
-        { "@type": "Organization", "name": "TechCrunch" },
-        { "@type": "Organization", "name": "Wired" },
-        { "@type": "Organization", "name": "CISA" },
-        { "@type": "Organization", "name": "NIST" },
-        { "@type": "Organization", "name": "MITRE ATT&CK" },
-        { "@type": "Organization", "name": "Cloud Security Alliance" },
-        { "@type": "Organization", "name": "SANS Institute" },
-        { "@type": "Organization", "name": "OWASP" }
+        {
+          "@type": "Organization",
+          "name": "Dark Reading"
+        },
+        {
+          "@type": "Organization",
+          "name": "SC Media"
+        },
+        {
+          "@type": "Organization",
+          "name": "CyberScoop"
+        },
+        {
+          "@type": "Organization",
+          "name": "The Record"
+        },
+        {
+          "@type": "Organization",
+          "name": "SecurityWeek"
+        },
+        {
+          "@type": "Organization",
+          "name": "BleepingComputer"
+        },
+        {
+          "@type": "Organization",
+          "name": "Help Net Security"
+        },
+        {
+          "@type": "Organization",
+          "name": "Forbes Cyber"
+        },
+        {
+          "@type": "Organization",
+          "name": "WSJ Pro Cybersecurity"
+        },
+        {
+          "@type": "Organization",
+          "name": "TechCrunch"
+        },
+        {
+          "@type": "Organization",
+          "name": "Wired"
+        },
+        {
+          "@type": "Organization",
+          "name": "CISA"
+        },
+        {
+          "@type": "Organization",
+          "name": "NIST"
+        },
+        {
+          "@type": "Organization",
+          "name": "MITRE ATT&CK"
+        },
+        {
+          "@type": "Organization",
+          "name": "Cloud Security Alliance"
+        },
+        {
+          "@type": "Organization",
+          "name": "SANS Institute"
+        },
+        {
+          "@type": "Organization",
+          "name": "OWASP"
+        }
       ],
       "citation": [
         {
@@ -144,9 +222,24 @@
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
-        { "@type": "ListItem", "position": 3, "name": "Cybersecurity PR in 2026", "item": "https://www.shilikajain.com/playbook/cybersecurity-pr-2026" }
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.shilikajain.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Playbooks",
+          "item": "https://www.shilikajain.com/playbook"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Cybersecurity PR in 2026",
+          "item": "https://www.shilikajain.com/playbook/cybersecurity-pr-2026"
+        }
       ]
     },
     {

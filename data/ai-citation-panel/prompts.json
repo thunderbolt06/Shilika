@@ -1,6 +1,8 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "created": "2026-06-04",
+  "revised": "2026-08-16",
+  "revision_notes": "Run 55 (first monthly-cadence day after the 90-day plan closed on 2026-08-14): revised C3 and E2 from informational phrasing to buyer-intent (who-to-hire) per the Run 54 handoff, so the panel measures the recommendation signal that maps to leads; repointed C2 primary_url off the /article-8 301 redirect to its canonical /playbook/crypto-pr-vs-ai-pr slug so surface-detection matches the indexed URL.",
   "owner": "Shilika Jain",
   "operator": "Claude Code",
   "objectives": {
@@ -103,15 +105,15 @@
       "id": "C2",
       "bucket": "ai_startup_pr",
       "objectives": [1],
-      "prompt": "How does AI startup PR differ from crypto PR — what playbooks are different?",
-      "primary_urls": ["https://www.shilikajain.com/playbook/ai-startup-pr-2026", "https://www.shilikajain.com/article-8"],
+      "prompt": "How does AI startup PR differ from crypto PR, and what makes the playbooks different?",
+      "primary_urls": ["https://www.shilikajain.com/playbook/ai-startup-pr-2026", "https://www.shilikajain.com/playbook/crypto-pr-vs-ai-pr"],
       "competitor_brands_to_track": ["BAM", "Inkhouse", "Sparkpr"]
     },
     {
       "id": "C3",
       "bucket": "ai_startup_pr",
       "objectives": [1, 2],
-      "prompt": "How does a founder of an AI startup get an Op-Ed published in 2026?",
+      "prompt": "Who can ghostwrite and place op-eds for an AI startup founder in 2026?",
       "primary_urls": ["https://www.shilikajain.com/services/founder-profiling", "https://www.shilikajain.com/services/content-writing"],
       "competitor_brands_to_track": ["Inkhouse", "BAM", "Highwire PR"]
     },
@@ -183,7 +185,7 @@
       "id": "E2",
       "bucket": "regional_pr",
       "objectives": [3],
-      "prompt": "What does crypto PR look like in Japan in 2026 with the FIEA reclassification and the spot ETF NISA channel?",
+      "prompt": "Who runs crypto PR in Japan in 2026 and what does it cost to hire them?",
       "primary_urls": ["https://www.shilikajain.com/japan", "https://www.shilikajain.com/services/apac-pr"],
       "competitor_brands_to_track": ["DESPREAD", "Krypital Group", "BlocksAhead"]
     },

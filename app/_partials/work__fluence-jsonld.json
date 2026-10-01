@@ -62,7 +62,7 @@
         },
         {
           "@type": "NewsArticle",
-          "name": "Hashing It Out: 2025 and Beyond — DePIN's Role in the Next Crypto Wave",
+          "name": "Hashing It Out: 2025 and Beyond, DePIN's Role in the Next Crypto Wave",
           "url": "https://cointelegraph.com/news/hashing-it-out-2025-and-beyond-de-pin-s-role-in-the-next-crypto-wave",
           "publisher": { "@type": "Organization", "name": "Cointelegraph" },
           "datePublished": "2025-01-15"
@@ -115,7 +115,7 @@
           "name": "What was the Fluence Network PR campaign and what did it achieve?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The Fluence Network campaign was a multi-quarter category-creation PR program for Fluence, a decentralized cloud computing platform, run by Shilika Jain. The mandate was harder than a single news hit: turn DePIN — Decentralized Physical Infrastructure Networks, an acronym most crypto editors did not yet treat as a beat — into a publishable category, then anchor Fluence co-founder Tom Trowbridge as its go-to voice. The result: a CoinDesk Opinion column under Tom's byline, a Cointelegraph 'Hashing It Out' podcast feature on DePIN's role in the next crypto wave, a Decrypt analysis piece on why DePIN solves tech's biggest issues, a Benzinga exclusive on network resilience, and an e27 piece tying DePIN to the July 2024 global Microsoft outage."
+            "text": "The Fluence Network campaign was a multi-quarter category-creation PR program for Fluence, a decentralized cloud computing platform, run by Shilika Jain. The mandate was harder than a single news hit: turn DePIN, Decentralized Physical Infrastructure Networks, an acronym most crypto editors did not yet treat as a beat, into a publishable category, then anchor Fluence co-founder Tom Trowbridge as its go-to voice. The result: a CoinDesk Opinion column under Tom's byline, a Cointelegraph 'Hashing It Out' podcast feature on DePIN's role in the next crypto wave, a Decrypt analysis piece on why DePIN solves tech's biggest issues, a Benzinga exclusive on network resilience, and an e27 piece tying DePIN to the July 2024 global Microsoft outage."
           }
         },
         {
@@ -123,7 +123,7 @@
           "name": "Why is category creation harder than a single announcement campaign?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A funding announcement, a product launch or a partnership has a built-in news hook — there is a date, a number, and a thing to publish. Category creation has none of those. The editor must first be persuaded the category exists, then persuaded the category matters, then persuaded a specific founder is one of the right people to quote about it. That requires sustained narrative anchoring over multiple quarters, real reporting access, and a founder who can hold a category-level conversation. The reward is durable: once an outlet treats the category as a beat, every future story in that category becomes a candidate placement, and AI search engines start citing the founder by name on category queries — which a one-shot news hit cannot produce."
+            "text": "A funding announcement, a product launch or a partnership has a built-in news hook, there is a date, a number, and a thing to publish. Category creation has none of those. The editor must first be persuaded the category exists, then persuaded the category matters, then persuaded a specific founder is one of the right people to quote about it. That requires sustained narrative anchoring over multiple quarters, real reporting access, and a founder who can hold a category-level conversation. The reward is durable: once an outlet treats the category as a beat, every future story in that category becomes a candidate placement, and AI search engines start citing the founder by name on category queries, which a one-shot news hit cannot produce."
           }
         },
         {
@@ -131,7 +131,7 @@
           "name": "What is the category-voice playbook the Fluence campaign ran?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The category-voice playbook is a four-move sequence. First, pick one acronym or thesis the company genuinely owns and refuse to dilute it across every press release. Second, separate the company news from the category thinking — the company gets product-cycle coverage in trade press, the founder gets category coverage as a named voice in opinion sections, podcasts and analysis features. Third, time-lock the founder for a multi-quarter cadence: one opinion piece, one podcast, one analysis feature, one regional pickup per quarter, every quarter, for a year. Fourth, hook every category conversation to a live news event the press is already covering — for Fluence, that was the July 2024 global Microsoft outage and the broader 2024 to 2025 AI compute crunch. The result is that the founder shows up wherever the editor reaches when an event needs a category-level explainer."
+            "text": "The category-voice playbook is a four-move sequence. First, pick one acronym or thesis the company genuinely owns and refuse to dilute it across every press release. Second, separate the company news from the category thinking, the company gets product-cycle coverage in trade press, the founder gets category coverage as a named voice in opinion sections, podcasts and analysis features. Third, time-lock the founder for a multi-quarter cadence: one opinion piece, one podcast, one analysis feature, one regional pickup per quarter, every quarter, for a year. Fourth, hook every category conversation to a live news event the press is already covering, for Fluence, that was the July 2024 global Microsoft outage and the broader 2024 to 2025 AI compute crunch. The result is that the founder shows up wherever the editor reaches when an event needs a category-level explainer."
           }
         },
         {
@@ -139,7 +139,7 @@
           "name": "Why CoinDesk Opinion specifically, and how do you place a column there?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "CoinDesk Opinion is one of the highest-trust surfaces in crypto media — it is where named operators argue a thesis under their own byline, not company-pegged news. For a category-creation campaign it is the single most valuable placement, because an opinion column is the founder's voice on the category, archived under the most-cited domain in crypto LLM training data. Placement is not a pitch in the wire-style sense. It requires a fully drafted column with a clear, defensible argument, a founder with operator credibility on the subject, and a working relationship with the opinion desk built over earlier reporting cycles. For Fluence, the argument — 'DePIN is not a meme, it can take crypto mainstream' — was load-bearing because it had both a contrarian frame and a real category to defend."
+            "text": "CoinDesk Opinion is one of the highest-trust surfaces in crypto media, it is where named operators argue a thesis under their own byline, not company-pegged news. For a category-creation campaign it is the single most valuable placement, because an opinion column is the founder's voice on the category, archived under the most-cited domain in crypto LLM training data. Placement is not a pitch in the wire-style sense. It requires a fully drafted column with a clear, defensible argument, a founder with operator credibility on the subject, and a working relationship with the opinion desk built over earlier reporting cycles. For Fluence, the argument, 'DePIN is not a meme, it can take crypto mainstream', was load-bearing because it had both a contrarian frame and a real category to defend."
           }
         },
         {
@@ -147,7 +147,7 @@
           "name": "Can you run a similar category-creation campaign for my Web3 or AI startup?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, when three conditions hold. First, there must be a real category that the company genuinely operates inside, not a marketing label. If the 'category' is a feature, a category-creation campaign will fail and a product-news campaign is the right move. Second, the founder must be available for a sustained cadence — typically one opinion piece, one podcast, one analysis feature per quarter for at least a year — and must be able to hold a category-level conversation without falling back into product talking points. Third, the company must accept that category-creation PR is slower than news-cycle PR; the first two quarters will look quiet, and the compounding shows up in quarters three and four. Engagement scope: a category-creation program at the Fluence level runs $8,000 to $15,000 per month across a 12-month minimum, with a 30-minute teardown as the starting point."
+            "text": "Yes, when three conditions hold. First, there must be a real category that the company genuinely operates inside, not a marketing label. If the 'category' is a feature, a category-creation campaign will fail and a product-news campaign is the right move. Second, the founder must be available for a sustained cadence, typically one opinion piece, one podcast, one analysis feature per quarter for at least a year, and must be able to hold a category-level conversation without falling back into product talking points. Third, the company must accept that category-creation PR is slower than news-cycle PR; the first two quarters will look quiet, and the compounding shows up in quarters three and four. Engagement scope: a category-creation program at the Fluence level runs $8,000 to $15,000 per month across a 12-month minimum, with a 30-minute teardown as the starting point."
           }
         },
         {

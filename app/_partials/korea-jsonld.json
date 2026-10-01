@@ -86,6 +86,8 @@
     {
       "@type": "FAQPage",
       "@id": "https://www.shilikajain.com/korea#faq",
+      "datePublished": "2026-06-02",
+      "dateModified": "2026-09-04",
       "mainEntity": [
         {
           "@type": "Question",

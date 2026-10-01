@@ -78,7 +78,7 @@
         },
         {
           "@type": "NewsArticle",
-          "name": "Protocol: Latest Tech News on Crypto, Blockchain — RARI Chain mainnet coverage",
+          "name": "Protocol: Latest Tech News on Crypto, Blockchain, RARI Chain mainnet coverage",
           "url": "https://www.coindesk.com/tech/2024/01/18/protocol-latest-tech-news-crypto-blockchain/",
           "publisher": { "@type": "Organization", "name": "CoinDesk" },
           "datePublished": "2024-01-18"
@@ -126,7 +126,7 @@
           "name": "Why was NFT royalty enforcement the category angle, not L2 launch?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "In January 2024 there were roughly six new L2s launching every quarter. CoinDesk, The Block, and The Defiant had stopped publishing generic L2 launch announcements. Royalty enforcement was a contested topic in the NFT industry: OpenSea had recently made royalties optional, Blur had dropped them entirely, creators were losing tens of millions of dollars annually. Framing RARI Chain as protocol-enforced royalties — a structural fix, not a marketplace policy — gave the launch an editorial through-line that Tier-1 outlets were already covering. The story sold itself once the category was correct. A press release about another Arbitrum Orbit chain would not have."
+            "text": "In January 2024 there were roughly six new L2s launching every quarter. CoinDesk, The Block, and The Defiant had stopped publishing generic L2 launch announcements. Royalty enforcement was a contested topic in the NFT industry: OpenSea had recently made royalties optional, Blur had dropped them entirely, creators were losing tens of millions of dollars annually. Framing RARI Chain as protocol-enforced royalties, a structural fix, not a marketplace policy, gave the launch an editorial through-line that Tier-1 outlets were already covering. The story sold itself once the category was correct. A press release about another Arbitrum Orbit chain would not have."
           }
         },
         {

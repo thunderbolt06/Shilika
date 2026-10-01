@@ -88,6 +88,8 @@
     {
       "@type": "FAQPage",
       "@id": "https://www.shilikajain.com/japan#faq",
+      "datePublished": "2026-06-03",
+      "dateModified": "2026-06-03",
       "mainEntity": [
         {
           "@type": "Question",

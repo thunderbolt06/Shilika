@@ -40,8 +40,28 @@
         "@type": "OfferCatalog",
         "name": "Web3 PR campaign offerings",
         "itemListElement": [
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Strategic PR retainer" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Mainnet or product launch sprint" } },
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Strategic PR retainer" },
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "USD",
+              "minPrice": 5000,
+              "maxPrice": 12000,
+              "unitText": "MONTH"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Mainnet or product launch sprint" },
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "priceCurrency": "USD",
+              "minPrice": 15000,
+              "maxPrice": 40000,
+              "description": "Total for a 4 to 8 week launch sprint"
+            }
+          },
           { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Funding announcement campaign" } },
           { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Embargo and tier-1 placement" } },
           { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Crisis and depeg communications" } },

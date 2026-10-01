@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Shilika Jain — Web3 &amp; AI PR: Client Brief</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Geist+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+@page { size: A4; margin: 22mm 20mm 22mm 20mm;
+  @bottom-left { content: "Shilika Jain · Web3 & AI PR"; font-family: 'Geist Mono', monospace; font-size: 7.5pt; letter-spacing: .12em; text-transform: uppercase; color: rgba(28,26,21,.4); }
+  @bottom-right { content: counter(page); font-family: 'Geist Mono', monospace; font-size: 8pt; color: rgba(28,26,21,.4); }
+}
+@page cover { margin: 0; @bottom-left { content: none; } @bottom-right { content: none; } }
+:root {
+  --paper: #f5f2ea; --paper2: #ece8dd; --ink: #1c1a15;
+  --i70: rgba(28,26,21,.74); --i50: rgba(28,26,21,.55); --i30: rgba(28,26,21,.32); --i15: rgba(28,26,21,.15);
+  --acc: #55700a; --lime: #d4ff32; --sig: #e8590c;
+  --serif: 'Instrument Serif', serif; --sans: 'Inter Tight', sans-serif; --mono: 'Geist Mono', monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body { font-family: var(--sans); font-size: 10.5pt; line-height: 1.6; color: var(--ink); }
+a { color: inherit; }
+
+.cover { page: cover; width: 210mm; height: 297mm; background: var(--ink); color: var(--paper); position: relative; overflow: hidden; break-after: page; }
+.cover .img { position: absolute; left: 0; right: 0; top: 0; height: 150mm; background: url('file:///Users/thunderbolt/Documents/projects/Shilika/public/assets/shilika-press-portrait-960x1200.jpg') center 58% / cover; }
+.cover .img::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(28,26,21,0) 55%, var(--ink) 100%); }
+.cover .wm { position: absolute; top: 16mm; left: 20mm; font-family: var(--serif); font-size: 20pt; color: var(--paper); z-index: 2; text-shadow: 0 1px 12px rgba(0,0,0,.25); }
+.cover .wm i { color: var(--lime); }
+.cover .txt { position: absolute; left: 20mm; right: 20mm; top: 140mm; }
+.cover .stamp { display: inline-block; font-family: var(--mono); font-size: 8pt; letter-spacing: .2em; text-transform: uppercase; color: var(--lime); border: 1.2px solid var(--lime); padding: 4px 9px; transform: rotate(-2deg); }
+.cover h1 { font-family: var(--serif); font-weight: 400; font-size: 52pt; line-height: .98; letter-spacing: -.02em; margin-top: 8mm; }
+.cover h1 em { color: var(--lime); }
+.cover p { margin-top: 7mm; font-size: 12pt; line-height: 1.5; color: rgba(245,242,234,.8); max-width: 135mm; }
+.cover .meta { position: absolute; left: 20mm; right: 20mm; bottom: 16mm; display: flex; justify-content: space-between; font-family: var(--mono); font-size: 7.5pt; letter-spacing: .16em; text-transform: uppercase; color: rgba(245,242,234,.45); border-top: 1px solid rgba(245,242,234,.18); padding-top: 4mm; }
+
+.sec { break-before: page; }
+.kick { font-family: var(--mono); font-size: 7.5pt; letter-spacing: .22em; text-transform: uppercase; color: var(--i50); }
+h2 { font-family: var(--serif); font-weight: 400; font-size: 32pt; line-height: 1.02; letter-spacing: -.015em; margin: 3mm 0 7mm; }
+h2 em, h3 em, .q em { color: var(--acc); }
+h3 { font-family: var(--serif); font-weight: 400; font-size: 17pt; line-height: 1.1; letter-spacing: -.01em; margin: 7mm 0 2.5mm; }
+h4 { font-family: var(--mono); font-weight: 400; font-size: 7.5pt; letter-spacing: .16em; text-transform: uppercase; color: var(--acc); margin: 5mm 0 1.5mm; }
+p { margin-bottom: 3.2mm; color: var(--i70); }
+p.lead { font-size: 13pt; line-height: 1.5; color: var(--ink); }
+strong { color: var(--ink); font-weight: 600; }
+ul.list { list-style: none; margin: 1mm 0 4mm; }
+ul.list li { position: relative; padding-left: 5mm; margin-bottom: 1.6mm; color: var(--i70); }
+ul.list li::before { content: '→'; position: absolute; left: 0; color: var(--acc); }
+.avoid { break-inside: avoid; }
+
+.toc { margin-top: 4mm; }
+.toc div { display: flex; align-items: baseline; gap: 4mm; padding: 3mm 0; border-bottom: 1px solid var(--i15); font-family: var(--serif); font-size: 15pt; }
+.toc span { font-family: var(--mono); font-size: 8pt; color: var(--acc); width: 10mm; }
+
+.stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 3mm; margin: 4mm 0 4mm; }
+.stat { background: var(--paper2); border: 1px solid var(--i15); padding: 3mm 4mm; }
+.stat b { display: block; font-family: var(--serif); font-weight: 400; font-size: 26pt; line-height: 1; color: var(--acc); }
+.stat span { display: block; margin-top: 1.5mm; font-size: 8.5pt; line-height: 1.3; color: var(--i50); }
+
+.q { font-family: var(--serif); font-size: 17pt; line-height: 1.3; color: var(--ink); border-left: 3px solid var(--sig); padding: 1mm 0 1mm 6mm; margin: 6mm 0; }
+.q small { display: block; margin-top: 2.5mm; font-family: var(--mono); font-size: 7.5pt; letter-spacing: .14em; text-transform: uppercase; color: var(--i50); }
+
+.tl { margin: 3mm 0 5mm; }
+.tl div { display: grid; grid-template-columns: 30mm 1fr; gap: 4mm; padding: 1.6mm 0; border-bottom: 1px solid var(--i15); }
+.tl span { font-family: var(--mono); font-size: 8pt; color: var(--acc); padding-top: .6mm; }
+
+.svc { break-inside: avoid; border-top: 2px solid var(--ink); padding-top: 2.5mm; margin-top: 5mm; }
+.svc p { font-size: 9.8pt; line-height: 1.52; margin-bottom: 2mm; }
+.svc .hd { display: flex; justify-content: space-between; align-items: baseline; }
+.svc .n { font-family: var(--mono); font-size: 8pt; color: var(--acc); letter-spacing: .1em; }
+.svc h3 { margin: 1mm 0 2mm; }
+.tags { display: flex; flex-wrap: wrap; gap: 1.5mm; margin: 1mm 0 2mm; }
+.tag { font-family: var(--mono); font-size: 6.8pt; letter-spacing: .08em; text-transform: uppercase; border: 1px solid var(--i30); padding: .6mm 1.8mm; color: var(--i70); }
+.proof { font-size: 9pt; color: var(--i50); }
+.proof b { font-family: var(--mono); font-weight: 400; font-size: 7pt; letter-spacing: .14em; text-transform: uppercase; color: var(--acc); margin-right: 1.5mm; }
+
+.case { break-inside: avoid; margin-top: 7mm; border: 1px solid var(--ink); }
+.case .top { background: var(--ink); color: var(--paper); padding: 5mm 6mm; display: flex; justify-content: space-between; align-items: flex-end; gap: 6mm; }
+.case .top .cat { font-family: var(--mono); font-size: 7pt; letter-spacing: .18em; text-transform: uppercase; color: rgba(245,242,234,.55); }
+.case .top h3 { color: var(--paper); margin: 1.5mm 0 0; font-size: 22pt; }
+.case .top .big { font-family: var(--serif); font-size: 26pt; line-height: 1; color: var(--lime); text-align: right; white-space: nowrap; }
+.case .top .big small { display: block; font-family: var(--sans); font-size: 7.5pt; color: rgba(245,242,234,.6); margin-top: 1mm; }
+.case .in { padding: 5mm 6mm 3mm; }
+.case .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 5mm; }
+.case h4 { margin-top: 0; }
+
+.outlets { columns: 3; column-gap: 6mm; margin: 2mm 0 5mm; }
+.outlets div { break-inside: avoid; padding: 1.8mm 0; border-bottom: 1px solid var(--i15); font-family: var(--serif); font-size: 12.5pt; display: flex; justify-content: space-between; }
+.outlets div span { font-family: var(--mono); font-size: 6.5pt; letter-spacing: .1em; text-transform: uppercase; color: var(--i30); padding-top: 1.2mm; }
+
+.mkts { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; margin-top: 5mm; }
+.mkt { background: var(--paper2); border: 1px solid var(--i15); padding: 5mm 5mm; break-inside: avoid; }
+.mkt h3 { margin: 0 0 2mm; font-size: 18pt; }
+.mkt p { font-size: 9.5pt; margin: 0; line-height: 1.5; }
+
+.steps { display: grid; grid-template-columns: 1fr 1fr; gap: 5mm 6mm; margin-top: 4mm; }
+.step { border-top: 2px solid var(--ink); padding-top: 3mm; break-inside: avoid; }
+.step .n { font-family: var(--mono); font-size: 8pt; color: var(--acc); }
+.step h3 { margin: 1mm 0 2mm; font-size: 20pt; }
+
+table.cmp { width: 100%; border-collapse: collapse; margin: 4mm 0 6mm; font-size: 9.5pt; break-inside: avoid; }
+.cmp th, .cmp td { text-align: left; padding: 2.6mm 3mm; border-bottom: 1px solid var(--i15); vertical-align: top; }
+.cmp th { font-family: var(--mono); font-weight: 400; font-size: 7pt; letter-spacing: .14em; text-transform: uppercase; color: var(--i50); }
+.cmp td:first-child { font-family: var(--mono); font-size: 7.5pt; letter-spacing: .06em; text-transform: uppercase; color: var(--i50); width: 34mm; }
+.cmp td { color: var(--i70); }
+.cmp .me { background: var(--ink); color: var(--paper); }
+.cmp th.me { color: var(--lime); }
+
+.tiers { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4mm; margin: 5mm 0 4mm; }
+.tier { border: 1px solid var(--ink); padding: 5mm 4.5mm; break-inside: avoid; }
+.tier.dark { background: var(--ink); color: var(--paper); box-shadow: 4px 4px 0 var(--lime); }
+.tier .tn { font-family: var(--mono); font-size: 7pt; letter-spacing: .14em; text-transform: uppercase; color: var(--i50); }
+.tier.dark .tn { color: rgba(245,242,234,.6); }
+.tier .price { font-family: var(--serif); font-size: 26pt; line-height: 1; margin: 2.5mm 0 1.5mm; }
+.tier .price small { font-family: var(--sans); font-size: 8.5pt; color: var(--i50); }
+.tier.dark .price small { color: rgba(245,242,234,.6); }
+.tier p { font-size: 8.8pt; line-height: 1.45; }
+.tier.dark p, .tier.dark li { color: rgba(245,242,234,.82); }
+.tier ul { list-style: none; margin-top: 2mm; }
+.tier li { position: relative; padding-left: 4mm; font-size: 8.8pt; line-height: 1.4; margin-bottom: 1.2mm; color: var(--i70); }
+.tier li::before { content: '→'; position: absolute; left: 0; color: var(--acc); }
+.tier.dark li::before { color: var(--lime); }
+
+.testi { break-inside: avoid; border-top: 1px solid var(--i15); padding: 3.2mm 0 1mm; }
+.testi p { font-family: var(--serif); font-size: 12pt; line-height: 1.4; color: var(--ink); margin-bottom: 2mm; }
+.testi .who { font-family: var(--mono); font-size: 7.3pt; letter-spacing: .1em; text-transform: uppercase; color: var(--i50); }
+.testi .who b { color: var(--acc); font-weight: 500; }
+
+.faq { break-inside: avoid; border-top: 1px solid var(--i15); padding-top: 3.5mm; margin-top: 3.5mm; }
+.faq h3 { font-size: 13.5pt; margin: 0 0 1.8mm; }
+.faq p { font-size: 9.8pt; }
+
+.back { break-before: page; background: var(--ink); color: var(--paper); padding: 26mm 20mm; width: 210mm; height: 297mm; page: cover; overflow: hidden; position: relative; }
+.back .kick { color: rgba(245,242,234,.55); }
+.back h2 { font-size: 44pt; color: var(--paper); margin-top: 5mm; }
+.back h2 em { color: var(--lime); }
+.back p { color: rgba(245,242,234,.8); font-size: 12pt; max-width: 140mm; }
+.back dl { display: grid; grid-template-columns: 36mm 1fr; gap: 4mm 6mm; margin-top: 12mm; font-size: 13pt; }
+.back dt { font-family: var(--mono); font-size: 7.5pt; letter-spacing: .18em; text-transform: uppercase; color: rgba(245,242,234,.5); padding-top: 1.5mm; }
+.back dd a { color: var(--paper); text-decoration: none; border-bottom: 1px solid rgba(212,255,50,.6); }
+.back .ft { position: absolute; left: 20mm; right: 20mm; bottom: 16mm; display: flex; justify-content: space-between; font-family: var(--mono); font-size: 7.5pt; letter-spacing: .18em; text-transform: uppercase; color: rgba(245,242,234,.4); border-top: 1px solid rgba(245,242,234,.18); padding-top: 4mm; }
+.back .ft span:first-child { color: var(--lime); }
+</style>
+</head>
+<body>
+
+<!-- COVER -->
+<section class="cover">
+  <div class="img"></div>
+  <div class="wm">Shilika<i>/</i>Jain</div>
+  <div class="txt">
+    <span class="stamp">Client brief · Web3 PR · AI PR · APAC + Global</span>
+    <h1>Web3 &amp; AI PR that lands <em>Tier-1</em> headlines.</h1>
+    <p>How I work, what I've shipped, and what it looks like to put your founders and your product on the front page of Forbes, CoinDesk, Cointelegraph, Economic Times and Yahoo Finance.</p>
+  </div>
+  <div class="meta"><span>shilikajain.com</span><span>Edition 2026</span></div>
+</section>
+
+<!-- CONTENTS + LETTER -->
+<section>
+  <p class="kick">Inside this brief</p>
+  <h2>Contents</h2>
+  <div class="toc">
+    <div><span>01</span>A note before we start</div>
+    <div><span>02</span>About Shilika Jain</div>
+    <div><span>03</span>Why earned media matters now</div>
+    <div><span>04</span>Services</div>
+    <div><span>05</span>Selected work: six case studies</div>
+    <div><span>06</span>Coverage &amp; APAC reach</div>
+    <div><span>07</span>The process</div>
+    <div><span>08</span>Engagement models &amp; pricing</div>
+    <div><span>09</span>What founders say</div>
+    <div><span>10</span>Questions founders ask</div>
+    <div><span>11</span>Next steps</div>
+  </div>
+
+  <div class="sec avoid">
+    <p class="kick">01 · A note before we start</p>
+    <h2>Why most PR fails, and <em>what I do differently.</em></h2>
+    <p>Most Web3 and AI founders have already been burned by PR once. The pattern is familiar:</p>
+    <ul class="list">
+      <li><strong>Cold press-release distribution.</strong> It gets ignored. Editors filter it before they read it.</li>
+      <li><strong>Generic agencies.</strong> They recycle the same playbook they use for fintech and ecommerce, then hand the account to a junior team.</li>
+      <li><strong>No track record.</strong> The same teams that promise you Forbes have never placed a single token launch.</li>
+    </ul>
+    <p>That's why I built something different: one senior operator who leads strategy and execution personally, with direct relationships in every market that matters for your launch.</p>
+  </div>
+  <div class="q">“I don't pitch products. I pitch <em>inevitabilities</em> — the kind of stories that connect and editors save for Monday morning.”<small>Shilika Jain</small></div>
+</section>
+
+<!-- ABOUT -->
+<section class="sec">
+  <p class="kick">02 · About</p>
+  <h2>Six years putting Web3 &amp; AI founders <em>on the front page.</em></h2>
+  <p class="lead" style="font-size:12pt">I'm Shilika Jain, a PR consultant for Web3, crypto and AI companies. I've led PR for Gaia AI, CoinMarketCap, Polygon and 50+ more.</p>
+  <p>I built CoinMarketCap's regional comms function from the ground up, including relationships with 100+ journalists and 150+ KOLs, and the muscle memory that only comes from shipping launches every week. I currently lead PR at Myosin, a growth-marketing DAO.</p>
+  <p>Across both roles I've shaped narratives for NEAR Foundation, Ripple, MANTRA Chain, RARI Foundation, Web3Auth, Fluence, Gaia AI, Stellar, Polygon, Solana Saga and many others, and placed them in Forbes, CoinDesk, Cointelegraph, Decrypt, The Block, Blockworks and AI Magazine. Asia to the States.</p>
+
+  <div class="stats">
+    <div class="stat"><b>500+</b><span>Media placements secured</span></div>
+    <div class="stat"><b>150+</b><span>Tier-1 publications landed</span></div>
+    <div class="stat"><b>5B+</b><span>Estimated media impressions</span></div>
+    <div class="stat"><b>50+</b><span>Product launches supported</span></div>
+    <div class="stat"><b>25+</b><span>Countries reached via earned media</span></div>
+    <div class="stat"><b>200+</b><span>Vetted Web3 KOLs in the network</span></div>
+  </div>
+
+  <h4>Career</h4>
+  <div class="tl">
+    <div><span>2023 – NOW</span>Head of PR · Myosin DAO</div>
+    <div><span>2021 – 2023</span>APAC PR &amp; Partnerships · CoinMarketCap</div>
+    <div><span>2020 – 2021</span>Marketing Lead · Momentum6 / Bloom360</div>
+    <div><span>2020 – NOW</span>Freelance Contributor · CryptoDaily UK</div>
+  </div>
+
+  <h4>Recently on stage</h4>
+  <p>Binary Summit, Bangkok · India Blockchain Week 2024 · Web3 Conf Goa (Women in Web3) · EpicWeb3 Summit</p>
+
+  <h4>Selected clients</h4>
+  <p>Gaia AI, CoinMarketCap, Polygon, NEAR Foundation, Ripple, RARI Foundation, MANTRA Chain, Web3Auth, Fluence Network, Stellar Foundation, OKX, Animoca Brands, Solana Saga, WalletConnect, Reown, Gnosis Guild, Liquity, Aragon, Zilliqa, ParaSwap, Rootstock, Stader Labs, Legion, RabbitX, Magna, Elastos, Bullieverse.</p>
+</section>
+
+<!-- WHY NOW -->
+<section class="sec">
+  <p class="kick">03 · Why earned media matters now</p>
+  <h2>In the age of AI, attention is cheap. <em>Credibility isn't.</em></h2>
+  <p class="lead">Buyers, partners and investors no longer just Google you. They ask ChatGPT and Perplexity about you, and those models answer from earned media, not from your homepage.</p>
+
+  <h3>1. Everyone claims “AI-powered”</h3>
+  <p>Demos are cheap and launches are weekly. Earned coverage is proof that someone with no stake in your business vouched for you. A journalist who chose your story is a third-party endorsement; an ad or a sponsored post is you talking about yourself.</p>
+
+  <h3>2. AI answers are the new front page</h3>
+  <p>ChatGPT, Perplexity, Gemini, Claude and Google AI Overviews learn who you are from high-authority coverage. Without earned media, the model either ignores you or makes it up. An Ahrefs study of roughly 75,000 brands found branded media mentions correlate with visibility in AI answers at <strong>0.66</strong>, against 0.33 for Domain Rating and 0.22 for backlinks. Being talked about beats backlinks three to one. PR is now an AI-distribution channel.</p>
+
+  <h3>3. Investors diligence in public</h3>
+  <p>Before any meeting, investors search you on Google, ChatGPT and X. What's written about you and your founders is the first data room, long before the real one opens. If a raise is anywhere on your roadmap, founder profiling is the highest-leverage PR you can do.</p>
+
+  <h3>Organic first, paid only when it helps</h3>
+  <p>Organic coverage is hard: an editor has to choose your story. That's exactly why it carries credibility. Paid coverage is easy: you pay, it publishes within a week, it's labelled “sponsored”, and readers, journalists and AI models discount it accordingly. I work organic-first, and build paid media strategies only when you need to fast-track coverage, quoted transparently per outlet.</p>
+
+  <div class="q" style="font-size:15pt">Most newly funded Web3 and AI startups go from zero AI citations to 8–15 inside one quarter when the schema, content and PR layers run together.</div>
+</section>
+
+<!-- SERVICES -->
+<section class="sec">
+  <p class="kick">04 · Services</p>
+  <h2>Crypto PR, token launch PR &amp; AI startup PR — <em>without the agency markup.</em></h2>
+  <p>Eight services, all run by the same senior operator. Most engagements combine two or three of them around a launch, a raise or a category push.</p>
+
+  <div class="svc"><div class="hd"><span class="n">01</span></div><h3>Web3 PR Campaigns</h3>
+    <p>End-to-end narrative architecture: positioning thesis, embargo strategy, tier-1 journalist outreach (Forbes, CoinDesk, Cointelegraph, Decrypt, The Block, Blockworks), KOL waves, crisis and depeg communications, APAC localisation, sentiment reporting and AEO.</p>
+    <div class="tags"><span class="tag">Tier-1 placements</span><span class="tag">Embargo strategy</span><span class="tag">Crisis comms</span><span class="tag">AEO for crypto</span></div>
+    <p class="proof"><b>Proof</b>RARI Chain mainnet (11 tier-1 placements in 24 hours) · MANTRA $11M raise · Fluence DePIN category creation</p></div>
+
+  <div class="svc"><div class="hd"><span class="n">02</span></div><h3>Founder Profiling &amp; Op-Eds</h3>
+    <p>Turn technical founders into category voices. Narrative architecture (the category word and a three-sentence thesis), op-ed ghostwriting placed in CoinDesk Opinion, Cointelegraph, Decrypt, Forbes Council and AI Magazine, a curated podcast tour of six to twelve named shows per quarter, LinkedIn and X strategy in the founder's own voice, speaker placement at Consensus, Token2049 and ETHDenver, and an author-entity build so AI engines resolve the founder consistently.</p>
+    <div class="tags"><span class="tag">Op-ed ghostwriting</span><span class="tag">Podcast tours</span><span class="tag">Speaker placement</span><span class="tag">LinkedIn / X strategy</span></div>
+    <p class="proof"><b>Proof</b>Tom Trowbridge as the DePIN voice (Fluence) · Shashank Sripada on AI agents (Gaia) · John Mullin “Everything Tokenized” (MANTRA)</p></div>
+
+  <div class="svc"><div class="hd"><span class="n">03</span></div><h3>KOL &amp; Influencer Marketing</h3>
+    <p>A direct line to 200+ vetted Web3 creators across X, YouTube, Telegram, Farcaster and Lens, segmented by region (Korea, Japan, Vietnam, China, India, Singapore, MENA, US, EU), vertical and audience quality. Every creator gets an independent fraud audit before contract. Launches run in three waves: T-72h credibility anchors, T+0 broad activation, T+24h sustained deep-dives. FTC- and SEC-aware briefs, on-chain attribution, and a renew-or-kill call per creator afterwards.</p>
+    <div class="tags"><span class="tag">Creator vetting</span><span class="tag">Three-wave sequencing</span><span class="tag">FTC-safe briefs</span><span class="tag">On-chain attribution</span></div></div>
+
+  <div class="svc"><div class="hd"><span class="n">04</span></div><h3>APAC Localisation &amp; Access</h3>
+    <p>Six APAC markets plus MENA. Native-language placements in BloomingBit, TokenPost, CryptoTimes JP, Coinpost, ChainCatcher, Jinse, Inc42 and Cointelegraph Arabic. Regional KOL waves, on-ground access at Korea Blockchain Week and Token2049, and per-market compliance-aware framing.</p>
+    <div class="tags"><span class="tag">Native press kits</span><span class="tag">Regional KOLs</span><span class="tag">Event-circuit leverage</span><span class="tag">Compliance-aware</span></div></div>
+
+  <div class="svc"><div class="hd"><span class="n">05</span></div><h3>Token Launch PR &amp; TGE Comms</h3>
+    <p>Pre-TGE through post-listing: positioning, embargo coordination across tier-1 trade press, exchange communications with Binance, OKX, MEXC, Bybit, KuCoin, Bitget and Gate, segmented KOL waves, compliance-aware messaging (no price, no projections, no investment framing), and 90 days of sustained coverage with sentiment and AI-citation tracking.</p>
+    <div class="tags"><span class="tag">TGE comms</span><span class="tag">Exchange relations</span><span class="tag">KOL waves</span><span class="tag">90-day tail</span></div></div>
+
+  <div class="svc"><div class="hd"><span class="n">06</span></div><h3>AI Startup PR</h3>
+    <p>A fractional senior operator for AI founders and CMOs. Forbes, AI Magazine, Decrypt, The Information. Category narrative, op-ed ghostwriting, podcast tour and KOL coordination — whether or not the company is on-chain.</p>
+    <div class="tags"><span class="tag">AI founders</span><span class="tag">Category narrative</span><span class="tag">Op-eds</span><span class="tag">Podcast tour</span></div>
+    <p class="proof"><b>Proof</b>Gaia AI as “the Stripe for AI agents” in Forbes, Decrypt and Benzinga</p></div>
+
+  <div class="svc"><div class="hd"><span class="n">07</span></div><h3>Content Writing</h3>
+    <p>Ghostwritten op-eds, whitepapers and founder essays for Web3 and AI startups. Forbes-grade voice, technical accuracy, and structured to be cited by AI search. Three productised offers with visible pricing: Op-Ed of the Month, the Founder Essay Package and the Whitepaper Sprint.</p>
+    <div class="tags"><span class="tag">Op-eds</span><span class="tag">Whitepapers</span><span class="tag">Founder essays</span><span class="tag">GEO &amp; AEO ready</span></div></div>
+
+  <div class="svc"><div class="hd"><span class="n">08</span></div><h3>Cybersecurity PR</h3>
+    <p>For cybersecurity founders, CMOs and CISOs. Analyst relations (Gartner, Forrester, IDC, KuppingerCole), tier-1 security press (Dark Reading, SC Media, CyberScoop, The Record, SecurityWeek), threat-research amplification, coordinated disclosure and breach communications, and the AEO work that gets vendors cited in AI search.</p>
+    <div class="tags"><span class="tag">Analyst relations</span><span class="tag">Security press</span><span class="tag">Disclosure comms</span><span class="tag">AEO for cyber</span></div></div>
+</section>
+
+<!-- CASE STUDIES -->
+<section class="sec">
+  <p class="kick">05 · Selected work</p>
+  <h2>Six case studies: <em>stories on the front page.</em></h2>
+  <p>Each campaign below had a hard problem: a technical product, a commodity announcement, or a category editors didn't cover yet. The lesson from each is how the story was framed, not just where it landed.</p>
+
+  <div class="case"><div class="top"><div><span class="cat">Decentralized AI · 2024–25</span><h3>Gaia AI</h3></div><div class="big">Forbes<small>“The Stripe for AI agents”</small></div></div>
+    <div class="in"><div class="grid">
+      <div><h4>The challenge</h4><p>Decentralized AI infrastructure — a hard, technical story, in a market where every startup claims to be “AI-powered”.</p><h4>What we did</h4><p>Profiled both founders (CEO and COO) in parallel to double the surface area for podcasts, commentary and interviews, and built a 6-podcast founder tour timed to Consensus Hong Kong 2025.</p></div>
+      <div><h4>Result</h4><p>14 earned placements and interviews in four months: a Forbes feature, a Decrypt deep-dive on living knowledge systems for AI agents, a Benzinga interview with co-founder Shashank Sripada, CryptoDaily UK and Binance Square.</p><h4>The lesson</h4><p>Start with founder commentary; it compounds into features, and by month four outlets are open to the company's key announcements.</p></div>
+    </div></div></div>
+
+  <div class="case"><div class="top"><div><span class="cat">NFT infrastructure · Mainnet · Jan 2024</span><h3>RARI Foundation</h3></div><div class="big">11 in 24h<small>Simultaneous tier-1 placements</small></div></div>
+    <div class="in"><div class="grid">
+      <div><h4>The challenge</h4><p>Launch RARI Chain on Arbitrum globally in a news cycle crowded with L2 launches.</p><h4>What we did</h4><p>Framed it as royalty enforcement, not “another L2”. Ran a 9-day CoinDesk embargo, then lifted it at 9 AM ET across all outlets, with coordinated Korean, Japanese and Chinese translations.</p></div>
+      <div><h4>Result</h4><p>11 simultaneous tier-1 placements — The Block, The Defiant, Cointelegraph, CryptoNews, Decrypt, NFTNow — plus 10+ regional APAC outlets.</p><h4>The lesson</h4><p>Category framing decides whether a launch is news.</p></div>
+    </div></div></div>
+
+  <div class="case"><div class="top"><div><span class="cat">RWA · Layer 1 · Mar 2024</span><h3>MANTRA Chain</h3></div><div class="big">$11M<small>Raise turned category story</small></div></div>
+    <div class="in"><div class="grid">
+      <div><h4>The challenge</h4><p>A Series A is a commodity announcement. Tier-1 desks see dozens a week.</p><h4>What we did</h4><p>Reframed it as a Middle East RWA story, anchored on Abu Dhabi-based lead investor Shorooq Partners and a live MENA regulatory beat.</p></div>
+      <div><h4>Result</h4><p>A CoinDesk exclusive, re-reported across Decrypt, CryptoPotato, CryptoDaily and Milk Road — plus a standalone Cointelegraph profile of CEO John Mullin, “Everything Tokenized”.</p><h4>The lesson</h4><p>One announcement, two assets: a news hit and a durable founder profile.</p></div>
+    </div></div></div>
+
+  <div class="case"><div class="top"><div><span class="cat">DePIN · Compute · 2024–25</span><h3>Fluence Network</h3></div><div class="big">DePIN<small>Made a tier-1 beat</small></div></div>
+    <div class="in"><div class="grid">
+      <div><h4>The challenge</h4><p>Turn DePIN — an acronym most crypto editors didn't yet treat as a beat — into a publishable category, and make co-founder Tom Trowbridge its go-to voice.</p><h4>What we did</h4><p>One acronym, company news kept separate from category thinking, a multi-quarter cadence, and every conversation hooked to a live event.</p></div>
+      <div><h4>Result</h4><p>A CoinDesk Opinion byline (“Not a Meme: DePIN Can Take Crypto Mainstream”), a Cointelegraph “Hashing It Out” feature, Decrypt analysis, a Benzinga exclusive, and an e27 piece tying DePIN to the 2024 global Microsoft outage.</p></div>
+    </div></div></div>
+
+  <div class="case"><div class="top"><div><span class="cat">Wallet infrastructure · Oct 2023</span><h3>Web3Auth</h3></div><div class="big">4 languages<small>Google Cloud × Firebase story</small></div></div>
+    <div class="in"><div class="grid">
+      <div><h4>The challenge</h4><p>A developer release — a wallet extension on the Firebase Extensions Hub — with no funding hook and no token. The kind of news tier-1 desks don't cover.</p><h4>What we did</h4><p>Made the partner brand the headline noun, translated capability into outcome, pre-built verifiable proof, and briefed a tiered outlet list for one day.</p></div>
+      <div><h4>Result</h4><p>Blockworks, CoinDesk (Protocol newsletter), Benzinga, Cointelegraph and Yahoo Finance, then syndicated into French, Italian and Spanish markets.</p></div>
+    </div></div></div>
+
+  <div class="case"><div class="top"><div><span class="cat">Metaverse · Gaming · Seed · Feb 2022</span><h3>Bullieverse</h3></div><div class="big">$4M<small>Economic Times exclusive</small></div></div>
+    <div class="in"><div class="grid">
+      <div><h4>The challenge</h4><p>An India-founded Web3 gaming studio announcing a seed round to two very different audiences.</p><h4>What we did</h4><p>Led with a home-market exclusive, then ran two parallel press tracks off one fact sheet, each with its own native framing, timed to one news cycle.</p></div>
+      <div><h4>Result</h4><p>Economic Times exclusive, then Inc42, YourStory, Business Today and Tech in Asia on the mainstream track, and NewsBTC and a HackerNoon founder interview on the crypto-native track.</p></div>
+    </div></div></div>
+</section>
+
+<!-- COVERAGE + APAC -->
+<section class="sec">
+  <p class="kick">06 · Coverage &amp; reach</p>
+  <h2>Where the stories <em>land.</em></h2>
+  <h4>Global · mainstream &amp; crypto-native</h4>
+  <div class="outlets">
+    <div>Forbes<span>Global</span></div><div>CoinDesk<span>Crypto</span></div><div>Cointelegraph<span>Crypto</span></div><div>Decrypt<span>Crypto</span></div><div>Blockworks<span>Crypto</span></div><div>The Block<span>Crypto</span></div><div>Yahoo Finance<span>Finance</span></div><div>Benzinga<span>Finance</span></div><div>Business Insider<span>Business</span></div><div>Fast Company<span>Business</span></div><div>The Information<span>Tech</span></div><div>AI Magazine<span>AI</span></div><div>Bitcoin Magazine<span>Crypto</span></div><div>The Defiant<span>DeFi</span></div><div>BeInCrypto<span>Crypto</span></div><div>CryptoSlate<span>Crypto</span></div><div>Hackernoon<span>Tech</span></div><div>CryptoDaily UK<span>Crypto</span></div>
+  </div>
+  <h4>Regional · APAC &amp; MENA</h4>
+  <div class="outlets">
+    <div>Economic Times<span>India</span></div><div>Inc42<span>India</span></div><div>YourStory<span>India</span></div><div>Tech in Asia<span>SEA</span></div><div>e27<span>SEA</span></div><div>BloomingBit<span>Korea</span></div><div>TokenPost<span>Korea</span></div><div>CoinNess<span>Korea</span></div><div>CryptoTimes JP<span>Japan</span></div><div>CoinPost<span>Japan</span></div><div>ChainCatcher<span>China</span></div><div>Jinse<span>China</span></div><div>Coin68<span>Vietnam</span></div><div>Regulation Asia<span>APAC</span></div><div>Cointelegraph Arabic<span>MENA</span></div>
+  </div>
+
+  <div class="sec"><p class="kick">06 · APAC + global reach</p><h2>One strategy across markets — <em>not one agency per market.</em></h2>
+  <p>Every market gets native-language placements, regional KOL waves, on-ground event access and a local journalist database, rather than translated press releases.</p>
+  <div class="mkts">
+    <div class="mkt"><h3>Korea</h3><p>BloomingBit, TokenPost, BlockMedia, Coinness, CoinReaders, Yonhap, Chosun Biz. FSC-aware framing; Korea Blockchain Week. Korea generates roughly half of all tracked crypto-native media traffic across Asia.</p></div>
+    <div class="mkt"><h3>Japan</h3><p>CoinPost, CoinDesk Japan, Cointelegraph Japan, CryptoTimes JP, Iolite, Nikkei. FSA-aware framing; WebX Tokyo and Japan Blockchain Week.</p></div>
+    <div class="mkt"><h3>Greater China</h3><p>ChainCatcher, Jinse, PANews, Foresight News. Bilingual diaspora coverage; Consensus Hong Kong.</p></div>
+    <div class="mkt"><h3>India</h3><p>Economic Times, Inc42, YourStory, Forbes India, Mint, Moneycontrol, Business Today. Home-market exclusives; SEBI-aware framing; ETHIndia.</p></div>
+    <div class="mkt"><h3>Singapore &amp; SEA</h3><p>The Business Times, Channel News Asia, Tech in Asia, e27, KrAsia, DealStreetAsia. MAS-aware framing; Token2049 Singapore.</p></div>
+    <div class="mkt"><h3>Dubai &amp; MENA</h3><p>Arabian Business, Gulf News, The National, AGBI, Wamda, Cointelegraph Arabic. VARA and ADGM framing; Token2049 Dubai.</p></div>
+  </div>
+</div>
+</section>
+
+<!-- PROCESS -->
+<section class="sec">
+  <p class="kick">07 · The process</p>
+  <h2>No retainers <em>without results.</em></h2>
+  <p>Nothing exotic. The edge is senior execution at every step and punctual follow-through with individual journalists.</p>
+  <div class="steps">
+    <div class="step"><span class="n">01 · WEEKS 1–2</span><h3>Listen</h3><p>Two-week immersion in your tech, your founders, your competitors and the things that actually matter. I read the whitepaper. Twice.</p></div>
+    <div class="step"><span class="n">02</span><h3>Architect</h3><p>Narrative thesis, audience map, journalist priority list, regional mapping, announcement cadence and a 90-day calendar with measurable milestones.</p></div>
+    <div class="step"><span class="n">03</span><h3>Execute</h3><p>Press releases, op-eds, podcast tours, KOL waves, on-ground conference support and embargo coordination — sometimes across six time zones.</p></div>
+    <div class="step"><span class="n">04 · WEEKLY</span><h3>Report</h3><p>Weekly sentiment reports, share-of-voice tracking, journalist heatmaps and AI-citation tracking. The data investors ask for.</p></div>
+  </div>
+
+  <div class="avoid"><h3 style="font-size:22pt;margin-top:10mm">Fractional PR vs a Web3 PR agency</h3>
+  <p>A fractional PR manager runs the full PR function on a part-time retainer instead of an agency contract: embedded like a team member, for a fraction of an agency retainer.</p>
+  <table class="cmp">
+    <tr><th></th><th>Typical agency</th><th class="me">Working with Shilika</th></tr>
+    <tr><td>Who does the work</td><td>Junior account team; senior partner on the sales call</td><td class="me">One senior operator, strategy and execution</td></tr>
+    <tr><td>Founder access</td><td>Filtered through account managers</td><td class="me">Direct</td></tr>
+    <tr><td>Playbook</td><td>Recycled from fintech and ecommerce</td><td class="me">Built for Web3, AI and APAC</td></tr>
+    <tr><td>Regional reach</td><td>English-only, or a separate agency per market</td><td class="me">Native placements in 6 APAC markets + MENA</td></tr>
+    <tr><td>Placements</td><td>Markup on paid media</td><td class="me">Organic-first; paid quoted transparently</td></tr>
+    <tr><td>Accountability</td><td>Billable hours</td><td class="me">Coverage in named outlets, reported weekly</td></tr>
+  </table></div>
+</section>
+
+<!-- PRICING -->
+<section class="sec">
+  <p class="kick">08 · Engagement models &amp; pricing</p>
+  <h2>Ways to <em>work together.</em></h2>
+  <p>One retainer, scoped by cadence, markets and founder-profiling depth. Launches and content can be added on or bought on their own.</p>
+  <div class="tiers">
+    <div class="tier dark"><span class="tn">Monthly retainer</span><div class="price">$3k–7k<small> /month</small></div><p>Fractional PR, scoped to your cadence and markets.</p>
+      <ul><li>Narrative architecture &amp; 90-day calendar</li><li>Tier-1 and regional media outreach</li><li>Founder profiling, podcasts, commentary</li><li>Weekly reporting &amp; share of voice</li></ul></div>
+    <div class="tier"><span class="tn">Launch sprint</span><div class="price">Custom<small> quote</small></div><p>Token launch, mainnet, raise or product launch.</p>
+      <ul><li>Pre-launch positioning &amp; embargo strategy</li><li>Exchange &amp; partner comms</li><li>Segmented KOL waves</li><li>90-day post-launch tail</li></ul></div>
+    <div class="tier"><span class="tn">Content writing</span><div class="price">$2.5k<small> /month +</small></div><p>Ghostwritten under the founder's byline.</p>
+      <ul><li>Op-Ed of the Month · $2,500/mo (3-month min.)</li><li>Founder Essay · $3,500–7,500</li><li>Whitepaper Sprint · $7,500–20,000</li></ul></div>
+  </div>
+  <ul class="list">
+    <li><strong>Organic-first.</strong> Paid placements are an optional add-on, quoted transparently per outlet, with no markup.</li>
+    <li><strong>APAC markets</strong> get custom plans, from a single-market launch to always-on regional coverage.</li>
+    <li><strong>KOL budgets</strong> are passed through at creator rates; every creator is vetted and fraud-audited before contract.</li>
+  </ul>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="sec">
+  <p class="kick">09 · Testimonials · 19 LinkedIn recommendations</p>
+  <h2>What founders say <em>after the dust settles.</em></h2>
+  <div class="testi"><p>“When Shilika speaks, journalists listen. Her ability to translate client briefs into earned media is unmatched in our industry. Shilika combines her knowledge of technology, skills in newsjacking and values of communicating courageously and with honesty. If you're lucky enough to work with her, clear the runway and let her fly.”</p><div class="who"><b>Simon Yi</b> · Managed Shilika directly</div></div>
+  <div class="testi"><p>“At Fluence, she led PR efforts with remarkable success — securing high-quality, organic media coverage that allowed the company to punch well above its weight. In an ecosystem often dominated by hype and inflated narratives, Shilika cuts through the noise with thoughtful, realistic, and highly effective communication strategies.”</p><div class="who"><b>Alex Albano</b> · CMO / Chief Growth Officer · Ex-Google Cloud</div></div>
+  <div class="testi"><p>“What sets her apart is a deep, genuine understanding of blockchain — not just the buzzwords. Her network is outstanding. Outlets that once felt out of reach became regular coverage, both in crypto and mainstream tech media.”</p><div class="who"><b>Gafoor Khan</b> · Client · Web3 &amp; AI advisor and angel investor</div></div>
+  <div class="testi"><p>“She has a sharp instinct for shaping compelling narratives and crafting PR strategies that align seamlessly with broader business goals. Whether it was pitching top-tier outlets or navigating fast-moving news cycles, Shilika was always on point.”</p><div class="who"><b>Jana Bertram</b> · Client · ex-RARI Foundation, WeTransfer, Klarna</div></div>
+  <div class="testi"><p>“She has been a huge help in increasing Reown and WalletConnect leadership's presence by securing podcast features, interviews, and media opportunities.”</p><div class="who"><b>Aaron Dodd</b> · Client · WalletConnect / Reown</div></div>
+  <div class="testi"><p>“One of the most impressive PR experts I've worked with. She deeply understands her clients, knows how to craft narratives that genuinely land and brings a rare mix of strategic thinking and relentless execution.”</p><div class="who"><b>Nicole Rochette</b> · Web3 BD · FCMO · Ex-Dapper Labs</div></div>
+  <div class="testi"><p>“A top tier PR operator. She gets things done and hustles to make sure to get the best press coverage possible — and when the client doesn't have their house in order, she works closely with them to help them get there faster.”</p><div class="who"><b>Blake Minho Kim</b> · Co-Founder, Myosin</div></div>
+  <div class="testi"><p>“One of the best PR specialists you could ever find on the market, with deep understanding of web3 and media landscape, strong connections with journalists and a proactive approach.”</p><div class="who"><b>Masha Vyazemskaya</b> · Client · RARI Foundation &amp; Fluence</div></div>
+</section>
+
+<!-- FAQ -->
+<section class="sec">
+  <p class="kick">10 · Answers</p>
+  <h2>Questions founders ask <em>before booking.</em></h2>
+  <div class="faq"><h3>What does a fractional PR manager do for a Web3 or AI startup?</h3><p>Runs the full PR function on a part-time retainer instead of an agency contract: narrative, embargoed press, founder profiling, KOL waves, APAC localisation and launch comms. Founder access is direct, and accountability is tied to placements in named outlets rather than billable hours.</p></div>
+  <div class="faq"><h3>Which Tier-1 publications have you placed clients in?</h3><p>Forbes, CoinDesk, Cointelegraph, Decrypt, The Block, Blockworks, Bitcoin Magazine, Benzinga, Yahoo Finance, AI Magazine, The Defiant, CryptoSlate, CryptoNews, CryptoPotato and CryptoDaily globally. Regionally: BloomingBit, TokenPost and Coinness in Korea; CryptoTimes JP and Coinpost in Japan; ChainCatcher and Jinse for Greater China; Inc42, e27 and Economic Times for India and SEA.</p></div>
+  <div class="faq"><h3>How do I get featured in CoinDesk or Cointelegraph?</h3><p>Lead with a category-level story, not a funding or launch announcement. Map the right reporter on the desk that covers your space, write an under-180-word pitch with a dated news peg, and offer a real embargo confirmed in writing 7 to 10 days out.</p></div>
+  <div class="faq"><h3>Do you handle AI startups outside of crypto?</h3><p>Yes. The same playbook — category narrative, founder profiling, journalist mapping, podcast tours, op-ed ghostwriting — applies whether or not the company is on-chain. AI Magazine, Forbes AI coverage, The Information and category-defining op-eds are the typical surface area.</p></div>
+  <div class="faq"><h3>How do you build AI-search visibility for a startup with no Google presence?</h3><p>Start with the entity, not the keyword: schema-marked founder and organisation profiles, named-source PR placements that ChatGPT, Perplexity, Claude and Gemini already cite, FAQ content that answers the exact buyer question, and a 90-day citation panel to measure which engines pick the brand up.</p></div>
+  <div class="faq"><h3>Which regions do you cover?</h3><p>Korea, Japan, Vietnam, China, Singapore, India and the UAE, plus global English-language press. Each market gets native-language placements, regional KOL waves and on-ground access at Korea Blockchain Week, Token2049 Singapore and Dubai, Japan Blockchain Week and ETHIndia.</p></div>
+  <div class="faq"><h3>How do we start?</h3><p>Book a 30-minute teardown. Bring your roadmap, your funding stage and the one publication you want to be in. You leave with a scoped plan and an honest read on whether fractional PR is the right call — or whether an agency or in-house hire is a better fit. No agency-style sales process.</p></div>
+</section>
+
+<!-- BACK -->
+<section class="back">
+  <p class="kick">11 · Next steps</p>
+  <h2>Have a launch on the horizon? <em>Let's plot it.</em></h2>
+  <p>Book a 30-minute intro call. I'll come prepped with a teardown of your current press footprint and map how to move ahead before you commit to anything.</p>
+  <dl>
+    <dt>Book a call</dt><dd><a href="https://calendly.com/shilikajain/">calendly.com/shilikajain</a></dd>
+    <dt>Email</dt><dd><a href="mailto:shilika498@gmail.com">shilika498@gmail.com</a></dd>
+    <dt>Telegram</dt><dd><a href="https://t.me/shilika3">@shilika3</a></dd>
+    <dt>X / Twitter</dt><dd><a href="https://x.com/Shilika_jain">@Shilika_jain</a></dd>
+    <dt>LinkedIn</dt><dd><a href="https://www.linkedin.com/in/shilika/">linkedin.com/in/shilika</a></dd>
+    <dt>Website</dt><dd><a href="https://shilikajain.com">shilikajain.com</a></dd>
+  </dl>
+  <div class="ft"><span>Let's make noise</span><span>© Shilika Jain 2019–2026 · Web3 &amp; AI PR · APAC &amp; Global</span></div>
+</section>
+
+</body>
+</html>

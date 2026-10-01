@@ -19,7 +19,15 @@
           "https://cryptodaily.co.uk/author/ShilikaJain"
         ]
       },
-      "areaServed": ["Global", "India", "United States", "South Korea", "Japan", "Singapore", "United Arab Emirates"],
+      "areaServed": [
+        "Global",
+        "India",
+        "United States",
+        "South Korea",
+        "Japan",
+        "Singapore",
+        "United Arab Emirates"
+      ],
       "offers": {
         "@type": "Offer",
         "priceCurrency": "USD",
@@ -36,9 +44,24 @@
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
-        { "@type": "ListItem", "position": 3, "name": "India Crypto PR Agency", "item": "https://www.shilikajain.com/pages/india-crypto-pr-agency" }
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.shilikajain.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Pages",
+          "item": "https://www.shilikajain.com/pages"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "India Crypto PR Agency",
+          "item": "https://www.shilikajain.com/pages/india-crypto-pr-agency"
+        }
       ]
     },
     {
@@ -47,10 +70,10 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "What is India crypto PR and who is it for?",
+          "name": "What is an India crypto PR agency and who is it for?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "India crypto PR is a dual-track media strategy that places crypto and blockchain founders simultaneously in Indian business and startup press (Inc42, Economic Times, Entrackr) and in global crypto tier-1 outlets (CoinDesk, Cointelegraph, Decrypt). It is for founders who are based in India, raising from Indian capital, or building a product for the Indian market and need credibility in both channels at once. A fractional senior operator runs this directly for $5K–$12K/month."
+            "text": "An India crypto PR agency specialises in placing blockchain, Web3 and crypto projects in Indian business and technology press such as Inc42, Economic Times, Mint and Business Standard, alongside global crypto-native outlets. It is for founders raising capital in India, launching products to Indian retail or institutional audiences, or building credibility with Indian regulators and investors. Shilika Jain runs this as a fractional APAC PR service for $5K–$12K/month, covering India as part of a six-market network."
           }
         },
         {
@@ -58,23 +81,23 @@
           "name": "How much does India crypto PR cost?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A fractional senior operator running a dual-track India campaign costs $5K–$12K per month, which covers both India business press and global crypto outlet pitching. A launch sprint focused on a single announcement, such as a raise or mainnet, runs $15K–$40K over four to eight weeks. Traditional agencies with India desks typically charge $15K–$45K per month because the retainer funds a larger team."
+            "text": "A full agency with an India desk typically charges $15K–$45K/month because the retainer covers a multi-person team. A fractional senior operator with active Indian press relationships runs the same scope for $5K–$12K/month, and a focused India launch sprint runs $15K–$40K over four to eight weeks. The difference is senior access at half the overhead."
           }
         },
         {
           "@type": "Question",
-          "name": "Which India outlets can you actually place stories in?",
+          "name": "Which Indian outlets can you actually get placements in?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "India business and startup press: Inc42, Economic Times Tech, Entrackr, YourStory, The Morning Context and Mint (where the angle is strong enough). India crypto-specific: CoinCrunch India and crypto columns in mainstream publications. Global alongside India: CoinDesk, Cointelegraph, The Block, Decrypt, Blockworks and Forbes. Coverage is contingent on a real news hook: a verifiable raise, a product launch, a regulatory milestone or a founder opinion that has something to say."
+            "text": "Indian business and tech press: Inc42, Economic Times (tech and startup desks), Mint, Business Standard, YourStory, The Ken. Global tier-1 alongside: CoinDesk, Cointelegraph, Forbes, Decrypt, The Block. Coverage depends on a real news hook and compliance-aware framing, not a wire blast."
           }
         },
         {
           "@type": "Question",
-          "name": "How do you handle India's regulatory environment in pitches?",
+          "name": "What does the India launch process look like and how long does it take?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "India's regulatory stance on crypto has shifted multiple times since 2018, and editors at Economic Times and Entrackr are alert to stories that could read as unhedged promotion. Every pitch is framed around the legitimate business angle: technology, market traction, user numbers or ecosystem contribution, rather than token price or speculative return. That framing works better for editorial acceptance and is less likely to attract regulator scrutiny."
+            "text": "A well-run dual-track India launch takes four to six weeks from first brief to coverage. Weeks one and two are narrative and outlet mapping. Week three is embargo outreach and journalist briefings. Week four is coordinated simultaneous publication. The highest-leverage window is six to twelve weeks before your public moment: raise close, mainnet, listing or product launch."
           }
         },
         {
@@ -82,7 +105,7 @@
           "name": "How do I get started with India crypto PR?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Send a short project brief through the intent form and you will get a reply within 24 hours with a quick read on your India press footprint and the one angle most likely to work with India business editors right now. Alternatively, book a 30-minute call and we will plot the dual-track approach live, no deck or account-team intro required."
+            "text": "Send a short project brief using the form below. You will get a reply within 24 hours with a quick read on your current Indian press footprint and whether the dual-track model fits your stage. Alternatively, book a 30-minute call and we will map it live. No agency deck, no multi-person intro call."
           }
         }
       ]

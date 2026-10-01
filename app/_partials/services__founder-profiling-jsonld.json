@@ -204,6 +204,22 @@
         },
         {
           "@type": "Question",
+          "name": "Who ghostwrites op-eds for Web3, AI and cybersecurity founders in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "One senior fractional operator, Shilika Jain, who has placed 50+ protocols in Forbes, CoinDesk, Cointelegraph, Decrypt, The Block, Blockworks and AI Magazine. The op-ed is written by the same person who knows the beat and the opinion editor, not handed to a junior writer or a content mill. The worked proof: the Fluence CoinDesk Opinion column under Tom Trowbridge's byline (April 3 2025) and the Gaia AI Forbes placement framing Shashank Sripada's company as the Stripe for AI agents. Standalone Op-Ed of the Month runs $2,500 per month with a three-month minimum; op-ed ghostwriting is also included in the Founder Voice retainer and the 90-Day Founder Sprint."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is founder op-ed ghostwriting, and how is it different from a content mill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Founder op-ed ghostwriting is placing a named byline in a tier-1 trade outlet on the founder's real position, written in the founder's own voice, with the founder reviewing final copy before publication. A content mill generates posts against a calendar and treats the founder's name as a distribution label. The difference shows up in placement: real op-eds are earned through a position the desk has not already published, verifiable founder experience, and a relationship with the named opinion editor built over multiple briefings. Auto-generated content clears none of those three bars and does not land in CoinDesk Opinion, Cointelegraph, Decrypt, Forbes Council or AI Magazine."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "How does founder profiling work in Korea in 2026 (FSC frame, BloomingBit, KBW, Naver)?",
           "acceptedAnswer": {
             "@type": "Answer",

@@ -24,7 +24,7 @@
       "keywords": ["fractional PR vs agency", "Web3 PR agency", "fractional PR", "PR agency comparison", "crypto PR agency", "AI startup PR", "PR pricing 2026", "fractional vs agency", "senior PR consultant"],
       "inLanguage": "en",
       "datePublished": "2026-05-15",
-      "dateModified": "2026-05-19",
+      "dateModified": "2026-07-30",
       "about": [
         { "@type": "Thing", "name": "Fractional PR" },
         { "@type": "Thing", "name": "Web3 PR agencies" },
@@ -111,6 +111,14 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "For most Web3 token launches up to a six-market global push, yes. A fractional senior operator can lead the narrative work, journalist briefings, embargo coordination, and KOL waves across Korea, Japan, Singapore, India, the UAE and a global Tier-1 push. Beyond six markets simultaneously, or for launches that require sustained 24-hour war-room coverage across many time zones, an agency or a fractional-plus-augmented-team setup tends to fit better."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Has fractional PR pricing changed heading into the second half of 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rates have held steady into H2 2026, with a slight upward drift at the senior end. Fractional retainers still sit at $5,000 to $12,000 per month, but operators with a verifiable AI and DePIN track record are now anchoring nearer the top of that band as demand from funded AI startups outpaces supply. Agency retainers are unchanged at $15,000 to $60,000. The bigger 2026 shift is scope, not price: founders increasingly ask fractional operators to own GEO and AEO work, so the brand is cited by ChatGPT, Perplexity and Google AI Overviews, and that is now a standard line item rather than an add-on."
           }
         }
       ]

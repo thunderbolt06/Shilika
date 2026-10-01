@@ -35,28 +35,82 @@
       ],
       "inLanguage": "en",
       "datePublished": "2026-05-29",
-      "dateModified": "2026-05-29",
+      "dateModified": "2026-07-29",
       "about": [
-        { "@type": "Thing", "name": "PR strategy for AI startups" },
-        { "@type": "Thing", "name": "Generative engine optimization" },
-        { "@type": "Thing", "name": "Answer engine optimization" },
-        { "@type": "Thing", "name": "AI Overviews" },
-        { "@type": "Organization", "name": "Anthropic" },
-        { "@type": "Organization", "name": "OpenAI" },
-        { "@type": "Organization", "name": "Mistral AI" },
-        { "@type": "Organization", "name": "Gaia AI" }
+        {
+          "@type": "Thing",
+          "name": "PR strategy for AI startups"
+        },
+        {
+          "@type": "Thing",
+          "name": "Generative engine optimization"
+        },
+        {
+          "@type": "Thing",
+          "name": "Answer engine optimization"
+        },
+        {
+          "@type": "Thing",
+          "name": "AI Overviews"
+        },
+        {
+          "@type": "Organization",
+          "name": "Anthropic"
+        },
+        {
+          "@type": "Organization",
+          "name": "OpenAI"
+        },
+        {
+          "@type": "Organization",
+          "name": "Mistral AI"
+        },
+        {
+          "@type": "Organization",
+          "name": "Gaia AI"
+        }
       ],
       "mentions": [
-        { "@type": "Organization", "name": "Forbes" },
-        { "@type": "Organization", "name": "The Information" },
-        { "@type": "Organization", "name": "TechCrunch" },
-        { "@type": "Organization", "name": "VentureBeat" },
-        { "@type": "Organization", "name": "AI Magazine" },
-        { "@type": "Organization", "name": "MIT Technology Review" },
-        { "@type": "Organization", "name": "Decrypt" },
-        { "@type": "Organization", "name": "Benzinga" },
-        { "@type": "Organization", "name": "Latent Space" },
-        { "@type": "Organization", "name": "Stratechery" }
+        {
+          "@type": "Organization",
+          "name": "Forbes"
+        },
+        {
+          "@type": "Organization",
+          "name": "The Information"
+        },
+        {
+          "@type": "Organization",
+          "name": "TechCrunch"
+        },
+        {
+          "@type": "Organization",
+          "name": "VentureBeat"
+        },
+        {
+          "@type": "Organization",
+          "name": "AI Magazine"
+        },
+        {
+          "@type": "Organization",
+          "name": "MIT Technology Review"
+        },
+        {
+          "@type": "Organization",
+          "name": "Decrypt"
+        },
+        {
+          "@type": "Organization",
+          "name": "Benzinga"
+        },
+        {
+          "@type": "Organization",
+          "name": "Latent Space"
+        },
+        {
+          "@type": "Organization",
+          "name": "Stratechery"
+        }
       ],
       "citation": [
         {
@@ -73,7 +127,10 @@
           "@type": "NewsArticle",
           "name": "Anthropic tops OpenAI as most valuable AI startup, nears $1 trillion valuation",
           "url": "https://www.cnbc.com/2026/05/28/anthropic-open-ai-startup-value.html",
-          "publisher": { "@type": "Organization", "name": "CNBC" }
+          "publisher": {
+            "@type": "Organization",
+            "name": "CNBC"
+          }
         },
         {
           "@type": "CreativeWork",
@@ -125,9 +182,24 @@
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
-        { "@type": "ListItem", "position": 3, "name": "PR strategy for AI startups in 2026", "item": "https://www.shilikajain.com/playbook/ai-startup-pr-2026" }
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.shilikajain.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Playbooks",
+          "item": "https://www.shilikajain.com/playbook"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "PR strategy for AI startups in 2026",
+          "item": "https://www.shilikajain.com/playbook/ai-startup-pr-2026"
+        }
       ]
     },
     {
@@ -163,7 +235,7 @@
           "name": "How do you get an AI startup cited inside Google AI Overviews and ChatGPT?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Six tactics, all on owned media. First, front-load every page with a direct 50-word answer to the title query. Second, structure long-form content into self-contained 134 to 167 word chunks scoring high on semantic completeness (the #1 ranking factor for AI Overview citations per a 15,847-result Wellows analysis). Third, ship every post with a named-author byline tied to a Person schema entity that resolves to the same node across LinkedIn, X, Crunchbase and Wikidata. Fourth, add Article and FAQPage schema with recent dateModified values. Fifth, cite 2 to 5 authoritative outbound sources by name. Sixth, publish in comparison and 'best of' formats — roughly 33% of AI citations are comparisons and 10% are opinion, so a 'X vs Y for use-case Z' page outperforms a generic launch post by 3 to 5x in citation share."
+            "text": "Six tactics, all on owned media. First, front-load every page with a direct 50-word answer to the title query. Second, structure long-form content into self-contained 134 to 167 word chunks scoring high on semantic completeness (the #1 ranking factor for AI Overview citations per a 15,847-result Wellows analysis). Third, ship every post with a named-author byline tied to a Person schema entity that resolves to the same node across LinkedIn, X, Crunchbase and Wikidata. Fourth, add Article and FAQPage schema with recent dateModified values. Fifth, cite 2 to 5 authoritative outbound sources by name. Sixth, publish in comparison and 'best of' formats - roughly 33% of AI citations are comparisons and 10% are opinion, so a 'X vs Y for use-case Z' page outperforms a generic launch post by 3 to 5x in citation share."
           }
         },
         {
@@ -171,7 +243,7 @@
           "name": "How is PR for AI startups different from PR for Web3 or SaaS startups?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "AI PR runs on credibility and category claim; Web3 PR runs on speed and crypto-native distribution; SaaS PR runs on customer logos and ARR proof. The AI press corps weights founder pedigree and technical depth more heavily than the crypto press, which weights launch momentum and KOL coverage. The AI buyer (CTO, head of AI, ML engineering lead) does 60% of their research inside AI chat windows in 2026 versus 30% on Google SERPs, which inverts the optimization stack: comparison content and structured FAQ chunks matter more than press release impressions. The journalist relationships also differ — Forbes Crypto and Decrypt overlap with AI desks but the playbooks are not interchangeable."
+            "text": "AI PR runs on credibility and category claim; Web3 PR runs on speed and crypto-native distribution; SaaS PR runs on customer logos and ARR proof. The AI press corps weights founder pedigree and technical depth more heavily than the crypto press, which weights launch momentum and KOL coverage. The AI buyer (CTO, head of AI, ML engineering lead) does 60% of their research inside AI chat windows in 2026 versus 30% on Google SERPs, which inverts the optimization stack: comparison content and structured FAQ chunks matter more than press release impressions. The journalist relationships also differ - Forbes Crypto and Decrypt overlap with AI desks but the playbooks are not interchangeable."
           }
         },
         {
@@ -179,7 +251,7 @@
           "name": "What metrics actually predict pipeline impact for AI PR in 2026?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Four metrics, in priority order. First, named-citation share inside AI Overviews, ChatGPT, Perplexity and Claude for a 25-prompt buyer panel run monthly. Second, branded search volume for the company name and founder name (Google Search Console plus Google Trends). Third, direct demo and sales-call inbound tagged by source (Calendly bookings, contact-form submissions, sales notes). Fourth, referring domains and backlinks from credible publications (Ahrefs or Semrush domain rating delta). Ignore press release impressions, media value estimates, and unfocused share-of-voice dashboards — they correlated with pipeline in 2019 and they do not correlate in 2026."
+            "text": "Four metrics, in priority order. First, named-citation share inside AI Overviews, ChatGPT, Perplexity and Claude for a 25-prompt buyer panel run monthly. Second, branded search volume for the company name and founder name (Google Search Console plus Google Trends). Third, direct demo and sales-call inbound tagged by source (Calendly bookings, contact-form submissions, sales notes). Fourth, referring domains and backlinks from credible publications (Ahrefs or Semrush domain rating delta). Ignore press release impressions, media value estimates, and unfocused share-of-voice dashboards - they correlated with pipeline in 2019 and they do not correlate in 2026."
           }
         }
       ]

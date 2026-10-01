@@ -19,7 +19,16 @@
           "https://cryptodaily.co.uk/author/ShilikaJain"
         ]
       },
-      "areaServed": ["Global", "United States", "United Kingdom", "Singapore", "India", "United Arab Emirates", "South Korea", "Japan"],
+      "areaServed": [
+        "Global",
+        "United States",
+        "United Kingdom",
+        "Singapore",
+        "India",
+        "United Arab Emirates",
+        "South Korea",
+        "Japan"
+      ],
       "offers": {
         "@type": "Offer",
         "priceCurrency": "USD",
@@ -36,9 +45,24 @@
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
-        { "@type": "ListItem", "position": 3, "name": "AI PR Consultant", "item": "https://www.shilikajain.com/pages/ai-pr-consultant" }
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.shilikajain.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Pages",
+          "item": "https://www.shilikajain.com/pages"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "AI PR Consultant",
+          "item": "https://www.shilikajain.com/pages/ai-pr-consultant"
+        }
       ]
     },
     {
@@ -50,7 +74,7 @@
           "name": "What is an AI PR consultant and who is it for?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "An AI PR consultant is a specialist who runs media strategy for AI startups, translating technical products into stories that tier-1 journalists, investors and enterprise buyers can follow. The best fit is a fractional senior operator rather than a generalist agency, because the person pitching editors is the person who understands your model, your architecture and your market. Shilika Jain runs AI startup PR directly for $5K–$12K/month and has placed founders in Forbes, CoinDesk, Decrypt and Benzinga."
+            "text": "An AI PR consultant is a senior communications specialist who runs media strategy for companies building AI products, AI infrastructure or AI-adjacent technology. The right fit is a fractional senior operator rather than a generalist agency, because the person who understands your technical differentiation, builds the journalist relationships and pitches the editors is the person you hired. Shilika Jain works directly with AI founders for $5K–$12K/month and has placed companies including Gaia AI in Forbes and Decrypt. See the full service scope at AI startup PR."
           }
         },
         {
@@ -58,15 +82,15 @@
           "name": "How much does an AI PR consultant cost?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A fractional senior specialist typically runs $5K–$12K per month, which removes the multi-person account-team markup of a $15K–$45K generalist agency retainer. A focused launch sprint for a funding announcement, product launch or major partnership runs $15K–$40K over four to eight weeks."
+            "text": "A fractional senior AI PR consultant runs $5K–$12K per month. A traditional AI PR agency charges $15K–$45K per month because the retainer funds a multi-person account team, not more senior access. A focused launch sprint runs $15K–$40K over four to eight weeks and covers positioning, embargo strategy, tier-1 outreach and podcast bookings. The full pricing breakdown is in AI PR agency pricing and packages 2026."
           }
         },
         {
           "@type": "Question",
-          "name": "Which outlets can you get an AI startup into?",
+          "name": "Which outlets and deliverables does AI PR actually produce?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Tier-1 AI and tech: Forbes, TechCrunch, Wired, VentureBeat, The Information where the story warrants it. Crypto-adjacent: CoinDesk, Decrypt, The Block, Blockworks, Benzinga. Podcasts: covers placed across six-plus AI and tech podcast circuits in recent campaigns. AI Magazine and specialist newsletters for sustained thought leadership. Every placement follows a real news hook, not a wire blast or paid distribution."
+            "text": "Tier-1 AI and tech: Forbes, AI Magazine, Decrypt, Benzinga, VentureBeat, TechCrunch. Crypto-adjacent AI: CoinDesk, Cointelegraph, The Block, Blockworks, The Defiant. Podcasts: introductions to shows your target investors and enterprise buyers actually listen to, not vanity downloads. Bylines and op-eds under your founders' names in relevant beats. Coverage depends on a real news hook and a story editors want to run, not a paid wire distribution."
           }
         },
         {
@@ -74,7 +98,7 @@
           "name": "What does the process and timeline look like?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The first two weeks cover a press footprint teardown, a category positioning session and a journalist and KOL map for your beat. Week three to four is outreach, embargo placement and KOL seeding. Week five onward is sustained coverage, AI-citation monitoring and the next news hook. For a launch sprint the full cycle runs four to eight weeks. For a monthly retainer, the first major placement typically lands within the first four to six weeks."
+            "text": "Week one is a teardown: your current press footprint, technical differentiation and the one story worth telling. Week two is narrative: the category framing, three-sentence thesis and the journalist and podcast map. Weeks three and four are launch execution: embargoes, outreach and the first wave of placements. Month two onward is sustained coverage, AI-citation tracking and compound positioning. See the full playbook at AI startup PR in 2026."
           }
         },
         {
@@ -82,7 +106,7 @@
           "name": "How do I get started with an AI PR consultant?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Send a short project brief through the intent form and you will get a reply within 24 hours with a quick read on your press footprint and the one story worth telling right now. Or book a 30-minute call and we will plot it live. No introductory deck, no account-team onboarding call."
+            "text": "Send a short project brief through the form below and you will get a reply within 24 hours with a quick read on your press footprint and the story worth telling. Or book a 30-minute call directly and we plot it live. No deck required, no account-team intro call, no week-long scoping process before anyone looks at your product."
           }
         }
       ]

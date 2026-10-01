@@ -107,7 +107,7 @@
           "name": "What was the MANTRA Chain $11M raise PR campaign and what did it achieve?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The MANTRA Chain campaign was a March 2024 funding-announcement PR push for MANTRA, an EVM-compatible Layer 1 for real-world asset tokenization, run by Shilika Jain. The $11M round was led by Abu Dhabi-based Shorooq Partners. Rather than ship the raise as a generic press release, the campaign reframed it as a Middle East RWA tokenization story — a regulatory narrative editors were already tracking. It was won as a CoinDesk exclusive headlined 'with Middle East tint', then re-reported across Decrypt, CryptoPotato, CryptoDaily and the Milk Road newsletter, and paired with a standalone Cointelegraph profile of CEO John Mullin so the raise produced both a 24-hour news hit and a durable founder thought-leadership asset."
+            "text": "The MANTRA Chain campaign was a March 2024 funding-announcement PR push for MANTRA, an EVM-compatible Layer 1 for real-world asset tokenization, run by Shilika Jain. The $11M round was led by Abu Dhabi-based Shorooq Partners. Rather than ship the raise as a generic press release, the campaign reframed it as a Middle East RWA tokenization story, a regulatory narrative editors were already tracking. It was won as a CoinDesk exclusive headlined 'with Middle East tint', then re-reported across Decrypt, CryptoPotato, CryptoDaily and the Milk Road newsletter, and paired with a standalone Cointelegraph profile of CEO John Mullin so the raise produced both a 24-hour news hit and a durable founder thought-leadership asset."
           }
         },
         {
@@ -115,7 +115,7 @@
           "name": "Why is a funding announcement hard to get PR coverage for?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A funding round is a commodity story. In any given week, a dozen Web3 protocols announce raises, and Tier-1 desks at CoinDesk, The Block and Cointelegraph cannot publish all of them. A raise on its own answers only 'how much' — it does not answer 'why does this matter to the category'. To earn a Tier-1 placement, the dollar figure has to be attached to a narrative the press is already covering: a regulatory shift, a category inflection, a regional story, or a named institutional investor. The MANTRA campaign attached the $11M to the Middle East real-world-asset regulatory tailwind, which is what made it publishable as an exclusive rather than a wire item."
+            "text": "A funding round is a commodity story. In any given week, a dozen Web3 protocols announce raises, and Tier-1 desks at CoinDesk, The Block and Cointelegraph cannot publish all of them. A raise on its own answers only 'how much', it does not answer 'why does this matter to the category'. To earn a Tier-1 placement, the dollar figure has to be attached to a narrative the press is already covering: a regulatory shift, a category inflection, a regional story, or a named institutional investor. The MANTRA campaign attached the $11M to the Middle East real-world-asset regulatory tailwind, which is what made it publishable as an exclusive rather than a wire item."
           }
         },
         {
@@ -123,7 +123,7 @@
           "name": "What was the Middle East angle and why did it work?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "MANTRA's $11M round was led by Shorooq Partners, an Abu Dhabi-based venture firm, and the use-of-funds explicitly named MENA and Asia as the markets for real-world asset tokenization. In early 2024, Middle East crypto regulation — Dubai's VARA framework, the ADGM regime in Abu Dhabi — was an active editorial beat. By foregrounding the regional regulatory tailwind and the MENA lead investor instead of just the round size, the pitch gave CoinDesk a story with a category through-line. The headline that ran, 'MANTRA Chain Raises $11M for RWA Tokenization With Middle East Tint', is the proof: the editor kept the regional frame in the headline, which is exactly what category framing is supposed to produce."
+            "text": "MANTRA's $11M round was led by Shorooq Partners, an Abu Dhabi-based venture firm, and the use-of-funds explicitly named MENA and Asia as the markets for real-world asset tokenization. In early 2024, Middle East crypto regulation, Dubai's VARA framework, the ADGM regime in Abu Dhabi, was an active editorial beat. By foregrounding the regional regulatory tailwind and the MENA lead investor instead of just the round size, the pitch gave CoinDesk a story with a category through-line. The headline that ran, 'MANTRA Chain Raises $11M for RWA Tokenization With Middle East Tint', is the proof: the editor kept the regional frame in the headline, which is exactly what category framing is supposed to produce."
           }
         },
         {
@@ -131,7 +131,7 @@
           "name": "What is the dual-asset playbook for a funding announcement?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A funding announcement should produce two distinct assets, not one. Asset one is the news hit: a Tier-1 exclusive on the raise itself, timed to a hard announcement date, that the rest of the press re-reports inside 24 hours. That asset has a short half-life — it is valuable for roughly a news cycle. Asset two is the durable founder-thought-leadership piece: a standalone profile or Q&A with the CEO, pitched to a different desk, that is not pegged to the funding date and keeps surfacing in search and AI answers for years. For MANTRA, asset one was the CoinDesk raise exclusive and asset two was the Cointelegraph 'Everything Tokenized' profile of John Mullin. Running both off a single announcement doubles the return on the same news moment."
+            "text": "A funding announcement should produce two distinct assets, not one. Asset one is the news hit: a Tier-1 exclusive on the raise itself, timed to a hard announcement date, that the rest of the press re-reports inside 24 hours. That asset has a short half-life, it is valuable for roughly a news cycle. Asset two is the durable founder-thought-leadership piece: a standalone profile or Q&A with the CEO, pitched to a different desk, that is not pegged to the funding date and keeps surfacing in search and AI answers for years. For MANTRA, asset one was the CoinDesk raise exclusive and asset two was the Cointelegraph 'Everything Tokenized' profile of John Mullin. Running both off a single announcement doubles the return on the same news moment."
           }
         },
         {
@@ -139,7 +139,7 @@
           "name": "Can you run a similar funding-announcement campaign for my Web3 or AI startup?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, when three conditions hold. First, the raise must connect to a category narrative the press is already covering — a regulatory shift, a regional story, a named brand-name investor, or a market inflection — not just a dollar figure. Second, there needs to be a hard, non-slipping announcement date so an exclusive embargo holds. Third, the founder must be available for a 30 to 45 minute on-record interview, both for the raise exclusive and for the separate profile piece. Engagement scope: a funding-announcement sprint at the MANTRA level runs $12,000 to $30,000 across a 4 to 6 week window, with a 30-minute teardown as the starting point. Book a call to map the angle and the calendar."
+            "text": "Yes, when three conditions hold. First, the raise must connect to a category narrative the press is already covering, a regulatory shift, a regional story, a named brand-name investor, or a market inflection, not just a dollar figure. Second, there needs to be a hard, non-slipping announcement date so an exclusive embargo holds. Third, the founder must be available for a 30 to 45 minute on-record interview, both for the raise exclusive and for the separate profile piece. Engagement scope: a funding-announcement sprint at the MANTRA level runs $12,000 to $30,000 across a 4 to 6 week window, with a 30-minute teardown as the starting point. Book a call to map the angle and the calendar."
           }
         },
         {
@@ -147,7 +147,7 @@
           "name": "Why does the MANTRA campaign still matter for PR strategy in 2026?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Real-world asset tokenization moved from a niche beat in 2024 to one of the largest narratives in crypto by 2026, with major asset managers issuing tokenized funds. Coverage that named MANTRA early — inside CoinDesk, Decrypt and Cointelegraph, with named investors and a clear category frame — now grounds AI-generated answers to RWA questions the original campaign never targeted. Earned media drives roughly 48 percent of LLM brand citations (AuthorityTech / Profound, 2026), and a multi-outlet earned-media cluster from a credible 2024 news cycle is a strong training signal that the entity is real. The campaign is a worked example of how a single well-framed funding announcement compounds in AI search years later."
+            "text": "Real-world asset tokenization moved from a niche beat in 2024 to one of the largest narratives in crypto by 2026, with major asset managers issuing tokenized funds. Coverage that named MANTRA early, inside CoinDesk, Decrypt and Cointelegraph, with named investors and a clear category frame, now grounds AI-generated answers to RWA questions the original campaign never targeted. Earned media drives roughly 48 percent of LLM brand citations (AuthorityTech / Profound, 2026), and a multi-outlet earned-media cluster from a credible 2024 news cycle is a strong training signal that the entity is real. The campaign is a worked example of how a single well-framed funding announcement compounds in AI search years later."
           }
         }
       ]

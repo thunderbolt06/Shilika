@@ -36,6 +36,12 @@
           "description": "One 1,200 to 1,800 word ghostwritten founder essay, edited to founder voice, placed in a Tier-1 contributor outlet (Forbes Council, Cointelegraph Innovation Circle, Entrepreneur, AI Magazine).",
           "price": "3500",
           "priceCurrency": "USD",
+          "priceSpecification": {
+            "@type": "PriceSpecification",
+            "price": "3500",
+            "priceCurrency": "USD",
+            "description": "Fixed price per single Tier-1 founder essay placement (1,200 to 1,800 words)"
+          },
           "availability": "https://schema.org/InStock",
           "url": "https://calendly.com/shilikajain/30min/"
         },
@@ -45,6 +51,12 @@
           "description": "8,000 to 15,000 word whitepaper across 4 weeks. Includes positioning, technical interviews, design coordination, two rounds of revisions, and a launch comms plan for the whitepaper drop.",
           "price": "9500",
           "priceCurrency": "USD",
+          "priceSpecification": {
+            "@type": "PriceSpecification",
+            "price": "9500",
+            "priceCurrency": "USD",
+            "description": "Total for one 8,000 to 15,000 word whitepaper sprint across 4 weeks"
+          },
           "availability": "https://schema.org/InStock",
           "url": "https://calendly.com/shilikajain/30min/"
         },
@@ -128,6 +140,22 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Yes. Cybersecurity, DePIN, agentic AI, gaming, NFT, infra, and DeFi are all in scope. The categories overlap on technical narrative work, named-analyst engagement (Gartner, Forrester, IDC for cyber), and Tier-1 trade press (CSO Online, Dark Reading, SecurityWeek for cyber; AI Magazine, The Information for AI). What matters is whether the founder has real technical differentiation and is willing to spend two interviews per piece on voice and accuracy. If yes, the engagement works. If no, no amount of writing fixes a thin story."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who ghostwrites op-eds for Web3 and AI founders in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Shilika Jain, a senior fractional PR operator, ghostwrites the op-eds directly. She has placed 50+ Web3 and AI protocols in Forbes, CoinDesk, Cointelegraph, Decrypt, The Block, Blockworks, and AI Magazine, and the operator who handles placement is the one who writes the piece, with no junior-writer or content-mill layer. Each op-ed is built from two founder voice interviews, ghostwritten in the founder's voice, and published under the founder's byline with full Person schema. The productized path is Op-Ed of the Month at $2,500 per month, 3-month minimum, one Tier-1 placement per month."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is op-ed ghostwriting, and how is it different from a content mill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Op-ed ghostwriting is a senior operator writing a founder's opinion piece in the founder's own voice, then placing it in a Tier-1 outlet under the founder's byline. It differs from a content mill on four points: a senior operator writes it rather than a junior writer; the voice comes from two recorded founder interviews per piece, not a template; every technical claim is verified with the engineering team; and Tier-1 placement is part of the engagement, not just a delivered draft. A $500-per-essay content mill produces generic marketing copy that AI engines summarize away. This is priced for senior-operator scope and engineered to be cited."
           }
         }
       ]

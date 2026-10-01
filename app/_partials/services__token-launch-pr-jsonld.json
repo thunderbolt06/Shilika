@@ -117,6 +117,22 @@
         },
         {
           "@type": "Question",
+          "name": "Who runs token launch PR for Web3 and crypto founders in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "One senior fractional operator, Shilika Jain, who has placed 50+ protocols in Forbes, CoinDesk, Cointelegraph, Decrypt, The Block and Blockworks. The embargo pitch and the launch-day sequence are run by the same person who knows the listings desks, not handed to a junior account executive or a press-release wire. The worked proof: RARI Chain's 11 tier-1 placements in 24 hours off a nine-day CoinDesk embargo (January 2024), and the MANTRA Chain $11M raise won as a CoinDesk exclusive and reframed as a Middle East real-world-assets story (March 19 2024). A pre-TGE retainer runs $6K to $14K per month; a full launch sprint runs $20K to $60K."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does pre-TGE PR actually involve before a token launch?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pre-TGE PR is sequencing work over the six to twelve weeks before a token generation event, not a single launch-day blast. The build phase runs two to three substantive earned stories a week (partnership announcements, ecosystem launches, founder commentary on category news) so the trade press has something to point back to in the launch piece, while the embargo, the category framing and the crisis holding statements are prepared before T-zero rather than after. RARI Chain is the reference: a nine-day CoinDesk embargo built on a sharp category angle, the NFT royalty enforcement claim rather than a generic L2 launch, is what turned a mainnet into 11 simultaneous tier-1 placements. Token launches that arrive with generic framing get filed; ones with a real category claim get covered."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "How does token launch PR work for a Korea TGE in 2026 (FSC, DABA, Upbit and Bithumb listings, KBW)?",
           "acceptedAnswer": {
             "@type": "Answer",

@@ -157,7 +157,13 @@ export default async function BlogPostPage({ params }: { params: Params }) {
               <div className="post-meta-author-placeholder" aria-hidden />
             )}
             <div>
-              <p className="post-meta-author-name">{post.author}</p>
+              <p className="post-meta-author-name">
+                {author ? (
+                  <Link href={`/authors/${author.slug}`}>{post.author}</Link>
+                ) : (
+                  post.author
+                )}
+              </p>
               <p className="post-meta-author-meta">
                 <span>{formatDate(post.published_at)}</span>
                 <span aria-hidden> · </span>
@@ -242,7 +248,9 @@ export default async function BlogPostPage({ params }: { params: Params }) {
                 <div className="post-author-card-placeholder" aria-hidden />
               )}
               <p className="post-author-card-kicker">Written by</p>
-              <p className="post-author-card-name">{author.name}</p>
+              <p className="post-author-card-name">
+                <Link href={`/authors/${author.slug}`}>{author.name}</Link>
+              </p>
               <p className="post-author-card-role">{author.title}</p>
               <p className="post-author-card-bio">{author.bio}</p>
               {author.same_as && author.same_as.length > 0 && (

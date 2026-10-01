@@ -21,15 +21,36 @@
       "wordCount": 2400,
       "timeRequired": "PT11M",
       "articleSection": "APAC PR",
-      "keywords": ["APAC crypto PR", "Korea crypto PR", "Japan crypto PR", "Vietnam crypto PR", "BloomingBit", "CryptoTimes JP", "ChainCatcher", "Jinse"],
+      "keywords": [
+        "APAC crypto PR",
+        "Korea crypto PR",
+        "Japan crypto PR",
+        "Vietnam crypto PR",
+        "BloomingBit",
+        "CryptoTimes JP",
+        "ChainCatcher",
+        "Jinse"
+      ],
       "inLanguage": "en",
       "datePublished": "2026-05-04",
-      "dateModified": "2026-07-13",
+      "dateModified": "2026-07-29",
       "about": [
-        { "@type": "Place", "name": "South Korea" },
-        { "@type": "Place", "name": "Japan" },
-        { "@type": "Place", "name": "Vietnam" },
-        { "@type": "Thing", "name": "APAC crypto PR" }
+        {
+          "@type": "Place",
+          "name": "South Korea"
+        },
+        {
+          "@type": "Place",
+          "name": "Japan"
+        },
+        {
+          "@type": "Place",
+          "name": "Vietnam"
+        },
+        {
+          "@type": "Thing",
+          "name": "APAC crypto PR"
+        }
       ],
       "author": {
         "@type": "Person",
@@ -57,9 +78,24 @@
       "@type": "BreadcrumbList",
       "@id": "https://www.shilikajain.com/playbook/apac-pr-playbook-2026#breadcrumb",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
-        { "@type": "ListItem", "position": 3, "name": "APAC PR Playbook", "item": "https://www.shilikajain.com/playbook/apac-pr-playbook-2026" }
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.shilikajain.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Playbooks",
+          "item": "https://www.shilikajain.com/playbook"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "APAC PR Playbook",
+          "item": "https://www.shilikajain.com/playbook/apac-pr-playbook-2026"
+        }
       ]
     },
     {
@@ -79,7 +115,7 @@
           "name": "How is APAC crypto PR different from US Web3 PR?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Three differences make APAC PR structurally distinct. First, the news cycle runs on local time — a 9 AM ET US embargo is 10 PM KST and lands in the dead zone of the Korean news day. Pre-translated assets timed to local morning are non-negotiable. Second, the journalist relationship economy is more closed than the US — outlets like BloomingBit and CryptoTimes JP expect direct introductions, not cold pitches via global email distros. Third, the buyer expectations are different: Korean retail traders care about exchange listings and KOL endorsement, Japanese institutional readers care about regulatory clarity, Indian builders care about funding and use cases. A single English-language press release covers none of these correctly."
+            "text": "Three differences make APAC PR structurally distinct. First, the news cycle runs on local time - a 9 AM ET US embargo is 10 PM KST and lands in the dead zone of the Korean news day. Pre-translated assets timed to local morning are non-negotiable. Second, the journalist relationship economy is more closed than the US - outlets like BloomingBit and CryptoTimes JP expect direct introductions, not cold pitches via global email distros. Third, the buyer expectations are different: Korean retail traders care about exchange listings and KOL endorsement, Japanese institutional readers care about regulatory clarity, Indian builders care about funding and use cases. A single English-language press release covers none of these correctly."
           }
         },
         {
@@ -87,7 +123,7 @@
           "name": "What is the right pitching cadence for Korean crypto outlets?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Korean outlets prefer warm introductions over cold pitches, with first contact ideally made through a known third-party (existing portfolio company, an exchange relations contact, or a fellow journalist). The realistic cadence: 7 to 10 business days from first introduction to a published feature for a category-fit story, longer for funding announcements that need translated press materials. Cold pitches sent at 9 AM ET (10 PM KST) are functionally invisible — pitches sent in the previous evening US (which is Korean morning) get roughly 4x the response rate."
+            "text": "Korean outlets prefer warm introductions over cold pitches, with first contact ideally made through a known third-party (existing portfolio company, an exchange relations contact, or a fellow journalist). The realistic cadence: 7 to 10 business days from first introduction to a published feature for a category-fit story, longer for funding announcements that need translated press materials. Cold pitches sent at 9 AM ET (10 PM KST) are functionally invisible - pitches sent in the previous evening US (which is Korean morning) get roughly 4x the response rate."
           }
         },
         {

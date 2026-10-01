@@ -89,7 +89,7 @@
       ],
       "hasOccupation": {
         "@type": "Occupation",
-        "name": "Public Relations Manager — Fractional",
+        "name": "Public Relations Manager, Fractional",
         "occupationLocation": [
           { "@type": "Country", "name": "India" },
           { "@type": "Country", "name": "Singapore" },
@@ -143,7 +143,7 @@
           "name": "What does Shilika Jain do?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Shilika runs a fractional PR practice — a senior operator embedded inside a founder's team, with the bandwidth and accountability of a retainer agency but without the layered junior account-handler stack. Engagements typically cover Tier-1 placements, founder profiling and op-ed ghostwriting, KOL waves, APAC localisation, token launch and TGE communications, and category-creation narrative work for AI and DePIN founders."
+            "text": "Shilika runs a fractional PR practice, a senior operator embedded inside a founder's team, with the bandwidth and accountability of a retainer agency but without the layered junior account-handler stack. Engagements typically cover Tier-1 placements, founder profiling and op-ed ghostwriting, KOL waves, APAC localisation, token launch and TGE communications, and category-creation narrative work for AI and DePIN founders."
           }
         },
         {
@@ -159,7 +159,7 @@
           "name": "Where is Shilika Jain based and where does she operate?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Based in India, operating across APAC (Korea, Japan, Vietnam, Singapore, India), the Middle East (Dubai and the broader UAE), and the United States. Campaigns are routinely run across multiple regional press tracks in parallel — a home-market exclusive plus a crypto-native track plus a Western tier-1 anchor. The APAC reach was built directly: CoinMarketCap's APAC PR function under Shilika's tenure shipped weekly launches across the region."
+            "text": "Based in India, operating across APAC (Korea, Japan, Vietnam, Singapore, India), the Middle East (Dubai and the broader UAE), and the United States. Campaigns are routinely run across multiple regional press tracks in parallel, a home-market exclusive plus a crypto-native track plus a Western tier-1 anchor. The APAC reach was built directly: CoinMarketCap's APAC PR function under Shilika's tenure shipped weekly launches across the region."
           }
         },
         {

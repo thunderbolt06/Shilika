@@ -21,13 +21,26 @@
       "wordCount": 1400,
       "timeRequired": "PT6M",
       "articleSection": "Founder Profiling",
-      "keywords": ["founder profiling", "Web3 founder PR", "category-defining narrative", "90-day PR sprint", "op-ed ghostwriting", "podcast tour"],
+      "keywords": [
+        "founder profiling",
+        "Web3 founder PR",
+        "category-defining narrative",
+        "90-day PR sprint",
+        "op-ed ghostwriting",
+        "podcast tour"
+      ],
       "inLanguage": "en",
       "datePublished": "2026-05-04",
-      "dateModified": "2026-07-13",
+      "dateModified": "2026-07-29",
       "about": [
-        { "@type": "Thing", "name": "Founder profiling" },
-        { "@type": "Thing", "name": "Narrative strategy" }
+        {
+          "@type": "Thing",
+          "name": "Founder profiling"
+        },
+        {
+          "@type": "Thing",
+          "name": "Narrative strategy"
+        }
       ],
       "author": {
         "@type": "Person",
@@ -55,9 +68,24 @@
       "@type": "BreadcrumbList",
       "@id": "https://www.shilikajain.com/playbook/founder-profiling-sprint#breadcrumb",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
-        { "@type": "ListItem", "position": 3, "name": "Founder Profiling Sprint", "item": "https://www.shilikajain.com/playbook/founder-profiling-sprint" }
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.shilikajain.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Playbooks",
+          "item": "https://www.shilikajain.com/playbook"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Founder Profiling Sprint",
+          "item": "https://www.shilikajain.com/playbook/founder-profiling-sprint"
+        }
       ]
     },
     {
@@ -77,7 +105,7 @@
           "name": "How long does it take to build category voice for a Web3 or AI founder?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A 90-day sprint produces the working foundation: positioning thesis locked, content cadence running, one anchor op-ed published, three to five podcast appearances done, LinkedIn and X cadence sustained. Real category voice — where journalists call the founder for quotes on adjacent stories without being pitched — typically takes 6 to 12 months of sustained work. Most founders compress this by tying profiling to a calendar moment (funding round, mainnet, product launch, conference keynote) where the visibility spike does 3 months of work in 6 weeks."
+            "text": "A 90-day sprint produces the working foundation: positioning thesis locked, content cadence running, one anchor op-ed published, three to five podcast appearances done, LinkedIn and X cadence sustained. Real category voice - where journalists call the founder for quotes on adjacent stories without being pitched - typically takes 6 to 12 months of sustained work. Most founders compress this by tying profiling to a calendar moment (funding round, mainnet, product launch, conference keynote) where the visibility spike does 3 months of work in 6 weeks."
           }
         },
         {
@@ -85,7 +113,7 @@
           "name": "What are the four hand-offs in the founder profiling sprint?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Hand-off 1 — positioning thesis: a single defensible point of view the founder will hold across every interview, op-ed, and panel. Hand-off 2 — owned-media cadence: a 12-week LinkedIn + X content calendar with the founder writing first-person posts, not ghostwritten polish. Hand-off 3 — earned-media stack: one anchor op-ed in a Tier-1 outlet, three to five podcast tour bookings, two conference panel placements. Hand-off 4 — journalist relationships: warm introductions to four to six beat reporters whose coverage arc matches the founder's positioning, set up for ongoing source-of-record conversations."
+            "text": "Hand-off 1 - positioning thesis: a single defensible point of view the founder will hold across every interview, op-ed, and panel. Hand-off 2 - owned-media cadence: a 12-week LinkedIn + X content calendar with the founder writing first-person posts, not ghostwritten polish. Hand-off 3 - earned-media stack: one anchor op-ed in a Tier-1 outlet, three to five podcast tour bookings, two conference panel placements. Hand-off 4 - journalist relationships: warm introductions to four to six beat reporters whose coverage arc matches the founder's positioning, set up for ongoing source-of-record conversations."
           }
         },
         {
@@ -93,7 +121,7 @@
           "name": "Do AI search engines cite individual founders or only their companies?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Both, but with a meaningful structural difference. ChatGPT, Perplexity, Claude, and Google AI Overviews increasingly cite individual founders as sources when the founder has a documented track record of public opinions on a category. A founder who has authored op-eds, given podcast interviews, and been quoted in Tier-1 outlets becomes a citable entity in the AI engine's training and grounding sets. Without that document trail, the company gets cited but the founder does not — which means the founder's personal credibility never compounds. Princeton GEO research (Aggarwal et al., arXiv:2311.09735) shows named entities with quotation density attached drive a 30 to 40 percent uplift in generative engine citations."
+            "text": "Both, but with a meaningful structural difference. ChatGPT, Perplexity, Claude, and Google AI Overviews increasingly cite individual founders as sources when the founder has a documented track record of public opinions on a category. A founder who has authored op-eds, given podcast interviews, and been quoted in Tier-1 outlets becomes a citable entity in the AI engine's training and grounding sets. Without that document trail, the company gets cited but the founder does not - which means the founder's personal credibility never compounds. Princeton GEO research (Aggarwal et al., arXiv:2311.09735) shows named entities with quotation density attached drive a 30 to 40 percent uplift in generative engine citations."
           }
         },
         {

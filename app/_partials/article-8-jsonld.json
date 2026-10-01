@@ -24,7 +24,7 @@
       "keywords": ["crypto PR vs AI PR", "AI startup PR", "Web3 PR", "crypto PR playbook", "AI PR playbook", "PR for AI startups", "PR for crypto startups", "AI PR strategy 2026", "fractional PR"],
       "inLanguage": "en",
       "datePublished": "2026-05-21",
-      "dateModified": "2026-07-13",
+      "dateModified": "2026-07-30",
       "about": [
         { "@type": "Thing", "name": "Crypto PR" },
         { "@type": "Thing", "name": "AI startup PR" },
@@ -103,6 +103,14 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "The two playbooks optimise for different things. A crypto campaign is built for speed, simultaneity and community velocity around a dated event. An AI campaign is built for credibility, depth and category narrative over a quarter or more. The crypto outlets, the embargo norms, the KOL channels and the price-sensitive language discipline do not map onto a TechCrunch or Information feature, which wants product substance, named enterprise customers, defensible technical claims and a founder who can articulate where the category is going. Reusing a crypto press kit for an AI launch typically reads as thin to a mainstream tech reporter."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does AI search visibility differ between a crypto launch and an AI launch in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Both need GEO and AEO work in 2026, but the target surfaces differ. A crypto launch wants to be the cited answer when buyers ask ChatGPT or Perplexity 'is this token legit', 'who is behind this protocol' or 'best projects in this narrative', so the work is entity consistency across CoinGecko, CoinMarketCap, exchange listings and Tier-1 crypto press. An AI launch wants to be cited in Google AI Overviews and ChatGPT for category questions like 'best tools for X' or 'who competes with Y', so the work is depth on comparison pages, named enterprise proof and analyst-grade documentation. The clock differs too: crypto citations spike around the launch window, while AI citations compound over a quarter as the category page set matures."
           }
         }
       ]

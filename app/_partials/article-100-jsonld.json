@@ -84,6 +84,52 @@
       ]
     },
     {
+      "@type": "ItemList",
+      "@id": "https://www.shilikajain.com/playbook/how-to-choose-web3-pr-agency-checklist-2026#checklist",
+      "name": "The six questions that expose what a Web3 PR agency actually does",
+      "description": "Six evaluation questions to ask any Web3 PR agency before you sign, each designed to expose real journalist access, earned-versus-paid coverage, conflicts of interest, narrative process, honest timelines, and verifiable references.",
+      "numberOfItems": 6,
+      "itemListOrder": "https://schema.org/ItemListOrderAscending",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Who writes the pitches and who sends them?",
+          "description": "At many agencies a senior operator sells the account and a junior account executive runs it, and the senior person's relationships do not transfer. Ask who will be on your account day-to-day, what their beat coverage looks like, and whether you can speak with them before signing."
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "What does your coverage report look like, and how do you distinguish earned from paid?",
+          "description": "Agencies that mix paid placements, sponsored articles, and press-wire pickups into a single coverage report are obscuring their actual earned editorial rate. Ask for a sample report and look for the distinction between earned and paid."
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Who are your current clients and are any of them competitive with us?",
+          "description": "Conflict is real in a small industry. An agency running several competing infrastructure projects has an incentive to distribute reporter attention across them, and the same reporter will not write four competing stories on similar protocols."
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "What is your narrative process before you start pitching?",
+          "description": "This separates PR agencies from comms operators. A narrative-first shop will not pitch a single reporter until it has a clear story architecture: who the founder is, what the protocol does that is genuinely new, and the tension or problem it addresses in the market."
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "What happens if we get no coverage in month one?",
+          "description": "This reveals the contract structure and the agency's honest expectations. Legitimate operators will tell you month one is mostly onboarding, narrative development, and relationship-warming, with first pitches going out in weeks three and four."
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Can we speak to two current clients at a similar stage?",
+          "description": "References in PR are almost universally positive because unhappy clients have already left. Ask for clients at a similar fundraise stage or market cap, in a similar vertical, and in a similar news cycle, so the reference is comparable to your situation."
+        }
+      ]
+    },
+    {
       "@type": "FAQPage",
       "@id": "https://www.shilikajain.com/playbook/how-to-choose-web3-pr-agency-checklist-2026#faq",
       "mainEntity": [

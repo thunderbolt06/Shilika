@@ -60,6 +60,81 @@
       }
     },
     {
+      "@type": "HowTo",
+      "@id": "https://www.shilikajain.com/playbook/pre-token-launch-pr-checklist#howto",
+      "name": "How to run pre-token-launch PR before a TGE",
+      "description": "The 25-step, five-phase PR sequence to run over an eight-week run-up to a token generation event: foundation and positioning, narrative and assets, media and KOL outreach, launch week, and post-TGE follow-through.",
+      "totalTime": "P8W",
+      "mainEntityOfPage": { "@id": "https://www.shilikajain.com/playbook/pre-token-launch-pr-checklist" },
+      "tool": [
+        { "@type": "HowToTool", "name": "Single-source fact sheet" },
+        { "@type": "HowToTool", "name": "Embargoed press kit" },
+        { "@type": "HowToTool", "name": "Backward-built launch calendar" }
+      ],
+      "step": [
+        {
+          "@type": "HowToSection",
+          "position": 1,
+          "name": "Foundation and positioning (T-8 to T-6 weeks)",
+          "itemListElement": [
+            { "@type": "HowToStep", "position": 1, "name": "Lock the one-sentence token thesis", "text": "Define what the token does, why it matters now, and who it is for. Every downstream asset, pitch and KOL brief inherits this sentence, so write it first." },
+            { "@type": "HowToStep", "position": 2, "name": "Map the forcing events and build the calendar backward", "text": "Pin the TGE date, exchange listings, mainnet and named partnerships, then schedule every push back from them. A launch with no dated hook gets passed on." },
+            { "@type": "HowToStep", "position": 3, "name": "Set the regulatory posture per market and loop counsel early", "text": "Decide what you can and cannot say about price, returns and utility in each jurisdiction, then write the messaging inside those lines." },
+            { "@type": "HowToStep", "position": 4, "name": "Build the single-source fact sheet", "text": "One document covering tokenomics, supply, vesting, use of proceeds, audit status and named investors, so the facts never drift between outlets." },
+            { "@type": "HowToStep", "position": 5, "name": "Agree the scorecard now, not impressions", "text": "Set named target outlets, inbound and pipeline signal, launch sentiment and AI-citation presence as the definition of winning before the work starts." }
+          ]
+        },
+        {
+          "@type": "HowToSection",
+          "position": 2,
+          "name": "Narrative and assets (T-6 to T-4 weeks)",
+          "itemListElement": [
+            { "@type": "HowToStep", "position": 6, "name": "Write the launch as a category story, not a token ad", "text": "Anchor the launch to a real market shift the token addresses, because reporters underwrite a trend with a protagonist, not a coin with a price." },
+            { "@type": "HowToStep", "position": 7, "name": "Prepare the founder as a quotable voice", "text": "Give the founder three to five message points, a media-training pass and a byline or Op-Ed drafted for launch week." },
+            { "@type": "HowToStep", "position": 8, "name": "Produce the press kit", "text": "Assemble a logo pack, headshots, product screenshots, a 60-second explainer and an embargoed release so a reporter can publish without a follow-up email." },
+            { "@type": "HowToStep", "position": 9, "name": "Draft and approve crisis holding statements", "text": "Pre-approve language for predictable failure modes like a price dump, an exploit rumor or a listing delay, before the hour you need it." },
+            { "@type": "HowToStep", "position": 10, "name": "Build the on-site GEO and AEO layer", "text": "Ship a launch page with a front-loaded answer, FAQ content, named statistics and consistent entity signals so AI engines assemble the answer from your page." }
+          ]
+        },
+        {
+          "@type": "HowToSection",
+          "position": 3,
+          "name": "Media and KOL outreach (T-4 to T-2 weeks)",
+          "itemListElement": [
+            { "@type": "HowToStep", "position": 11, "name": "Tier the outlet list by name", "text": "Name the crypto-native desks, the regional outlets your buyers read and the one or two mainstream targets that genuinely fit, then brief on outlets not logos." },
+            { "@type": "HowToStep", "position": 12, "name": "Open embargoed conversations 10 to 14 days out", "text": "Offer a clean exclusive to the single best-fit outlet, then a coordinated embargo to the rest, respecting the embargo discipline tier-1 desks expect." },
+            { "@type": "HowToStep", "position": 13, "name": "Contract a vetted KOL wave timed to the window", "text": "Book a disclosure-compliant KOL wave matched to the token thesis and sequenced to the launch, never a generic buy fired at random." },
+            { "@type": "HowToStep", "position": 14, "name": "Line up regional placements in parallel", "text": "Cover the overnight regional windows in Korea, Japan, the Chinese-language market and India, because TGE news often breaks for one region overnight." },
+            { "@type": "HowToStep", "position": 15, "name": "Prepare partner and investor co-marketing", "text": "Get quotes approved, partner channels briefed and assets shared so launch-day amplification is one click for them rather than a scramble for you." }
+          ]
+        },
+        {
+          "@type": "HowToSection",
+          "position": 4,
+          "name": "Launch week (T-1 to T-0)",
+          "itemListElement": [
+            { "@type": "HowToStep", "position": 16, "name": "Confirm the embargo time in every reporter's timezone", "text": "Send final assets 24 to 48 hours ahead so nobody is waiting on a file when the clock hits zero." },
+            { "@type": "HowToStep", "position": 17, "name": "Sequence the day on a single timeline", "text": "Break the exclusive first, follow with re-reports, fire regional and KOL waves on schedule, and have the founder post within minutes of the break." },
+            { "@type": "HowToStep", "position": 18, "name": "Staff a launch-day war room", "text": "Watch coverage, sentiment and on-chain chatter in real time so a misreport or wrong number is caught and corrected fast." },
+            { "@type": "HowToStep", "position": 19, "name": "Keep the crisis statements loaded", "text": "If price moves hard or an exploit rumor starts, respond from the pre-approved language within the hour, because speed and consistency beat a late perfect statement." },
+            { "@type": "HowToStep", "position": 20, "name": "Capture everything as it lands", "text": "Log every placement, screenshot and quote in real time, both for the final report and as proof assets you reuse for months." }
+          ]
+        },
+        {
+          "@type": "HowToSection",
+          "position": 5,
+          "name": "Post-TGE follow-through (T+1 onward)",
+          "itemListElement": [
+            { "@type": "HowToStep", "position": 21, "name": "Publish the founder Op-Ed within 72 hours", "text": "Put the durable founder asset out while attention is highest and the category is still listening." },
+            { "@type": "HowToStep", "position": 22, "name": "Convert the launch into durable assets", "text": "Turn the launch into a case study, a teardown and FAQ content that keep earning AI citations long after the news cycle ends." },
+            { "@type": "HowToStep", "position": 23, "name": "Run the regional follow-through", "text": "Ship localized re-reports and KOL recaps in the markets that woke up after the US window, so no region is left on a single launch-day hit." },
+            { "@type": "HowToStep", "position": 24, "name": "Report against the scorecard", "text": "Report placement quality in named outlets, inbound and pipeline, launch sentiment and AI-citation presence, with reach as a supporting line." },
+            { "@type": "HowToStep", "position": 25, "name": "Schedule the next forcing event", "text": "Put the next dated hook on the calendar before this one cools, because sequenced launches compound where one-offs do not." }
+          ]
+        }
+      ]
+    },
+    {
       "@type": "BreadcrumbList",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },

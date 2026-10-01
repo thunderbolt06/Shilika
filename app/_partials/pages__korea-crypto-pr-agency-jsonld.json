@@ -19,7 +19,14 @@
           "https://cryptodaily.co.uk/author/ShilikaJain"
         ]
       },
-      "areaServed": ["Global", "South Korea", "Japan", "Singapore", "India", "United Arab Emirates"],
+      "areaServed": [
+        "Global",
+        "South Korea",
+        "Japan",
+        "Singapore",
+        "India",
+        "United Arab Emirates"
+      ],
       "offers": {
         "@type": "Offer",
         "priceCurrency": "USD",
@@ -36,9 +43,24 @@
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
-        { "@type": "ListItem", "position": 3, "name": "Korea Crypto PR Agency", "item": "https://www.shilikajain.com/pages/korea-crypto-pr-agency" }
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.shilikajain.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Pages",
+          "item": "https://www.shilikajain.com/pages"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Korea Crypto PR Agency",
+          "item": "https://www.shilikajain.com/pages/korea-crypto-pr-agency"
+        }
       ]
     },
     {
@@ -50,7 +72,7 @@
           "name": "What is Korea crypto PR and who is it for?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Korea crypto PR is media relations, KOL seeding and event coverage targeting the Korean-language crypto audience: BloomingBit, TokenPost, CoinNess, Naver Finance and the Korean crypto Telegram and YouTube ecosystem. It is for crypto and Web3 projects that want to reach Korean retail and institutional investors, list on Korean exchanges, or maximise impact around Korea Blockchain Week. The best setup is a fractional senior operator with native media relationships, not a global agency translating your English wire."
+            "text": "Korea crypto PR means securing coverage in Korean-language outlets such as BloomingBit and TokenPost, activating vetted Korean KOLs and KakaoTalk community leads, and building the Korean-language narrative that makes a project credible to Korean retail traders, institutions and exchange listing committees. It is for projects planning a Korean exchange listing, attending Korea Blockchain Week, or building a retail community in Seoul. For the full scope of APAC localisation see the APAC PR service page."
           }
         },
         {
@@ -58,23 +80,23 @@
           "name": "How much does Korea crypto PR cost?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Seoul-based crypto agencies typically charge $10K–$30K per month for Korean-market localisation, funded by large account teams. A fractional senior operator covers the same scope, including native-language pitching, KOL coordination and KBW event strategy, for $5K–$12K per month. A standalone Korea launch sprint over four to six weeks runs $15K–$40K depending on the number of outlets and KOL tiers included. KOL fees are separate: nano Korean KOLs $200–$1.5K, micro $500–$5K, mid-tier $10K–$30K."
+            "text": "A fractional senior operator running Korea and Japan together typically costs $5K–$12K/month. A full agency with in-country staff will run $15K–$45K/month. KOL activations in Korea are priced separately: nano-tier Korean KOLs run $200–$1.5K per post, micro-tier $500–$5K, and mid-tier $10K–$30K. A Korea-specific launch sprint covering KBW plus two months of follow-on coverage runs $15K–$40K in total."
           }
         },
         {
           "@type": "Question",
-          "name": "Which Korean outlets and channels can you place my project in?",
+          "name": "Which Korean outlets and KOLs can you place my project in?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Primary Korean crypto media: BloomingBit, TokenPost, CoinNess, Naver Finance crypto section and BeinCrypto Korea. Korean KOL channels span Kakao Open Chat communities, YouTube crypto channels and X Korean-language accounts segmented by audience size. Coverage depends on a real news hook, not a paid wire blast. All placements are earned or clearly disclosed if sponsored."
+            "text": "Primary Korean crypto outlets: BloomingBit and TokenPost for editorial coverage, plus Hankyung and JoongAng for mainstream crossover when the institutional angle is strong. Korean KOL channels are matched by audience vertical: DeFi, Layer 1, gaming or RWA, with engagement and follower quality checked before any activation. Japan is available in parallel via CryptoTimes JP and CoinPost."
           }
         },
         {
           "@type": "Question",
-          "name": "How does Korea Blockchain Week fit into a PR campaign?",
+          "name": "How does the Korea PR process work and how long does it take?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "KBW, typically held in Seoul each September, is the highest-density media and investor moment in Asian crypto. The most effective PR motion builds in three phases: pre-KBW positioning six to eight weeks out, KBW week itself with side-event coverage and journalist briefings, and a post-KBW news cycle riding the attention tail. Timing a product announcement or raise reveal to the KBW window significantly increases the chance of Korean tier-1 pickup."
+            "text": "The first two weeks cover the Korean narrative audit and media map. Week three onwards is active outreach to Korean editors and a briefing to the KOL shortlist. First BloomingBit or TokenPost coverage typically lands within four to six weeks if there is a real news hook. KBW timing compresses the window: embargo prep for KBW should start at least eight weeks before the event."
           }
         },
         {
@@ -82,7 +104,7 @@
           "name": "How do I get started with Korea crypto PR?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Send a short project brief through the intent form and you will get a reply within 24 hours with a quick read on your Korean press footprint and the one story most likely to land in BloomingBit. Or book a 30-minute call at https://calendly.com/shilikajain/30min/ and we plot the Korea strategy live. No agency deck, no onboarding call chain."
+            "text": "Send a short project brief using the form below and you will get a reply within 24 hours with a read on your current Korean press footprint and a suggested approach. Alternatively, book a 30-minute call and we map it live. No Korean-language materials required before the first conversation."
           }
         }
       ]

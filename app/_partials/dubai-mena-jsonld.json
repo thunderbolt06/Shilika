@@ -89,6 +89,8 @@
     {
       "@type": "FAQPage",
       "@id": "https://www.shilikajain.com/dubai-mena#faq",
+      "datePublished": "2026-06-01",
+      "dateModified": "2026-09-02",
       "mainEntity": [
         {
           "@type": "Question",

@@ -39,8 +39,8 @@
         "@type": "OfferCatalog",
         "name": "Cybersecurity PR offerings",
         "itemListElement": [
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Strategic PR retainer" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Analyst relations sprint" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Strategic PR retainer" }, "priceSpecification": { "@type": "UnitPriceSpecification", "priceCurrency": "USD", "minPrice": 5000, "maxPrice": 12000, "unitText": "MONTH" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Analyst relations sprint" }, "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "USD", "minPrice": 12000, "maxPrice": 28000, "description": "Total for an 8 to 12 week analyst relations sprint" } },
           { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Coordinated disclosure communications" } },
           { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Breach and crisis communications" } },
           { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Threat-research amplification" } },
@@ -111,6 +111,22 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Yes — and for a cybersecurity vendor it has to be in scope before it is needed. Breach and incident communications cover three scenarios: a security incident at the vendor itself, a coordinated vulnerability disclosure the vendor is releasing, and a customer incident where the vendor's product is named in coverage. The work is a pre-built holding-statement library, a disclosure-timeline template aligned to coordinated-disclosure norms, a named-spokesperson and approval chain, and a journalist contact map so the response goes out in hours, not days. The goal is that the communications response is rehearsed, not improvised, because in security the improvised response is the story."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who runs cybersecurity PR for startups in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A senior fractional operator, Shilika Jain, working directly with the founder, CMO or CISO, with no account team and no junior in between. Scope is analyst relations (Gartner, Forrester, IDC, KuppingerCole), tier-1 security press, threat-research amplification, disclosure comms and AI-search visibility. The security proof is adjacent and stated honestly: the closest case is Web3Auth, an MPC wallet-infrastructure company placed across Blockworks, CoinDesk, Benzinga, Cointelegraph and Yahoo Finance by reframing key-management security as a trusted-infrastructure story. If you need a decade of named Magic Quadrant wins before you hire, this is not the fit; if you want a senior operator without the agency markup, it is."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who is the right PR consultant for a cybersecurity startup breaking into the US market?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A US-facing fractional operator who briefs the analyst firms that shape US buyer shortlists (Gartner, Forrester, IDC, KuppingerCole) and pitches the tier-1 desks a US CISO actually reads. A non-US cybersecurity vendor does not need a US office to be found; it needs earned US editorial, booked US analyst briefings, and structured content that US security buyers surface in ChatGPT, Perplexity, Claude and AI Overviews when they research a category. The fractional model runs $5K to $12K per month against a median Series B agency retainer near $23,500, so the US-entry motion fits a founder-stage budget rather than a full agency one."
           }
         },
         {

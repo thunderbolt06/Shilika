@@ -19,7 +19,15 @@
           "https://cryptodaily.co.uk/author/ShilikaJain"
         ]
       },
-      "areaServed": ["Global", "United States", "South Korea", "Japan", "India", "Singapore", "United Arab Emirates"],
+      "areaServed": [
+        "Global",
+        "United States",
+        "South Korea",
+        "Japan",
+        "India",
+        "Singapore",
+        "United Arab Emirates"
+      ],
       "offers": {
         "@type": "Offer",
         "priceCurrency": "USD",
@@ -36,9 +44,24 @@
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Pages", "item": "https://www.shilikajain.com/pages" },
-        { "@type": "ListItem", "position": 3, "name": "Fractional Head of PR", "item": "https://www.shilikajain.com/pages/fractional-head-of-pr" }
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.shilikajain.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Pages",
+          "item": "https://www.shilikajain.com/pages"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Fractional Head of PR",
+          "item": "https://www.shilikajain.com/pages/fractional-head-of-pr"
+        }
       ]
     },
     {
@@ -50,7 +73,7 @@
           "name": "What is a fractional Head of PR and who is it for?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A fractional Head of PR is a principal-level comms operator who works with your company part-time or on a defined scope, acting as your de-facto comms lead without sitting on your full-time payroll. It is the right model for Web3, AI and DePIN founders who need senior strategy and editor relationships, but are not yet at the stage where a $180K–$250K/year VP of Comms is the right allocation."
+            "text": "A fractional Head of PR is a senior comms leader who joins your team part-time, owns strategy and execution, and operates with the same accountability as a full-time hire but without the salary, benefits and equity cost. It is the right fit for Web3, AI, DePIN and cybersecurity founders who need more than a PR agency can give: strategic ownership, narrative leadership, board-level comms, and someone who is genuinely embedded. See when to hire fractional PR for the stage-by-stage decision criteria."
           }
         },
         {
@@ -58,23 +81,23 @@
           "name": "How much does a fractional Head of PR cost?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A fractional senior operator typically runs $5K–$12K per month, depending on scope, the number of news cycles and whether APAC localisation is included. That compares to $15K–$45K/month for a full agency retainer, or $180K–$250K all-in for a VP of Comms on payroll. A one-off launch sprint is usually $15K–$40K over four to eight weeks."
+            "text": "A fractional engagement runs $5K–$12K per month depending on scope, hours and the cadence of execution required. A focused launch sprint runs $15K–$40K over four to eight weeks. Both remove the multi-person account-team markup built into a traditional agency retainer of $15K–$45K per month, and the full salary overhead of a full-time head count at $180K–$250K per year. For a direct comparison of the models see fractional PR vs in-house hire 2026."
           }
         },
         {
           "@type": "Question",
-          "name": "Which outlets and deliverables are included with a fractional Head of PR?",
+          "name": "What outlets and deliverables can I expect?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Tier-1 crypto: CoinDesk, Cointelegraph, The Block, Decrypt, Blockworks, The Defiant. Mainstream where the angle warrants it: Forbes, Bloomberg, Yahoo Finance, Benzinga. Regional: BloomingBit and TokenPost (Korea), CryptoTimes JP and CoinPost (Japan), ChainCatcher and Jinse (China), Inc42 (India), e27 (SEA). Deliverables typically include a 90-day narrative strategy, embargo management, tier-1 pitch execution, KOL coordination and monthly coverage reporting."
+            "text": "Deliverables depend on what you are launching, but a typical fractional engagement covers: narrative positioning, a 90-day coverage calendar, direct pitching to tier-1 crypto outlets (CoinDesk, Cointelegraph, The Block, Decrypt, Blockworks), op-ed drafting and placement, KOL briefing and wave coordination, APAC localisation across Korea, Japan, China, India and SEA, and AI-citation tracking. Coverage is driven by real news hooks, not wire blasts or placement-guarantee contracts."
           }
         },
         {
           "@type": "Question",
-          "name": "What does the onboarding and timeline look like for a fractional Head of PR?",
+          "name": "What does the process look like from first contact to live?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The first two weeks cover an audit of your press footprint, competitive positioning and one-sentence category narrative. Weeks three and four produce the 90-day comms plan and the first pitch batch. Tier-1 placements typically appear within four to eight weeks of kick-off, though launch timelines depend on your news calendar. The model works best when engaged six to twelve weeks before a major public moment such as a raise, mainnet or TGE."
+            "text": "A short project brief or 30-minute call is all that is needed to start. Within 48 hours you get a read on your current press footprint and a proposed scope. Onboarding takes one week: access to your team channels, a review of existing materials and a first narrative session. Week two is the coverage calendar and first pitches going out. Most founders see their first tier-1 placement within three to six weeks, depending on news readiness. The full four-step process is described in the \"how it runs\" section above."
           }
         },
         {
@@ -82,7 +105,7 @@
           "name": "How do I get started with a fractional Head of PR from Shilika Jain?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Send a short project brief through the intent form at shilikajain.com/pages/fractional-head-of-pr and you will get a reply within 24 hours with a quick read on your current press footprint, or book a 30-minute call at calendly.com/shilikajain/30min and we will map it out live. No deck required, no account-team intro call."
+            "text": "Send a short project brief through the form below and you will get a reply within 24 hours with a quick read on your press footprint, or book a 30-minute call directly and we plot it live. No deck required, no intro call with an account team. The person who replies is the person who runs your comms."
           }
         }
       ]
