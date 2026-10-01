@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next';
 import Script from 'next/script';
 import './globals.css';
+import TalkPopup from '@/components/site/TalkPopup';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 const GTAG_ID = process.env.NEXT_PUBLIC_GTAG_ID ?? 'AW-18324652879';
@@ -88,6 +89,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {`function initApollo(){var n=Math.random().toString(36).substring(7),o=document.createElement("script");o.src="https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache="+n,o.async=!0,o.defer=!0,o.onload=function(){window.trackingFunctions.onLoad({appId:"6a44e09cf8f4f40020d77ca0"})},document.head.appendChild(o)}initApollo();`}
         </Script>
         {children}
+        <TalkPopup />
       </body>
     </html>
   );

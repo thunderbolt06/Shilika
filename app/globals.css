@@ -2502,3 +2502,87 @@ a.press-item { text-decoration: none; }
 .ty-read-note { color: rgba(255,255,255,0.65); font-size: 14px; line-height: 1.5; }
 .ty-back { margin-top: 80px; font-size: 12px; letter-spacing: 0.08em; color: rgba(255,255,255,0.55); }
 .ty-back a:hover { color: var(--lime); }
+
+/* =========================================================
+   TALK POPUP (components/site/TalkPopup.tsx)
+   ========================================================= */
+.talk-pop {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  display: grid;
+  place-items: center;
+  padding: 16px;
+  background: oklch(0.16 0.01 80 / 0.55);
+  backdrop-filter: blur(4px);
+  animation: talk-pop-fade 0.3s var(--ease-out-quart);
+}
+.talk-pop__card {
+  position: relative;
+  width: 100%;
+  max-width: 420px;
+  padding: 36px 32px 32px;
+  background: var(--paper);
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 30px 80px oklch(0.16 0.01 80 / 0.35);
+  animation: talk-pop-rise 0.45s var(--ease-out-expo);
+}
+.talk-pop__close {
+  position: absolute;
+  top: 12px; right: 14px;
+  width: 36px; height: 36px;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  font-size: 26px;
+  line-height: 1;
+  color: var(--muted);
+  cursor: none;
+}
+.talk-pop__close:hover { background: var(--paper-2); color: var(--ink); }
+.talk-pop__photo {
+  width: 72px; height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 16px;
+  display: block;
+  border: 2px solid var(--lime);
+}
+.talk-pop__eyebrow {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+.talk-pop__title {
+  font-family: var(--font-body);
+  font-size: clamp(22px, 5vw, 28px);
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  margin-bottom: 24px;
+}
+.talk-pop__title em { font-size: 1.1em; }
+.talk-pop__ctas { display: flex; gap: 10px; flex-wrap: wrap; }
+.talk-pop__btn {
+  flex: 1 1 150px;
+  padding: 14px 18px;
+  border: 1px solid var(--ink);
+  border-radius: 999px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: none;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+.talk-pop__btn:hover { background: var(--ink); color: var(--paper); }
+.talk-pop__btn--primary { background: var(--lime); border-color: var(--lime); color: var(--ink); }
+.talk-pop__btn--primary:hover { background: var(--lime-2); border-color: var(--lime-2); color: var(--ink); }
+@media (max-width: 900px) { .talk-pop__close, .talk-pop__btn { cursor: pointer; } }
+@keyframes talk-pop-fade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes talk-pop-rise { from { opacity: 0; transform: translateY(16px) scale(0.98); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .talk-pop, .talk-pop__card { animation: none; } }
