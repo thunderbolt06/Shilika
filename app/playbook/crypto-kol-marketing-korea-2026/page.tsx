@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import type { Metadata } from 'next';
 import Script from 'next/script';
+import { stripLegacyChrome } from '@/lib/legacy-chrome';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
@@ -25,7 +26,7 @@ export const metadata: Metadata = {
 };
 
 function loadBody(): string {
-  return fs.readFileSync(path.join(process.cwd(), 'app/_partials/article-84-body.html'), 'utf8');
+  return stripLegacyChrome(fs.readFileSync(path.join(process.cwd(), 'app/_partials/article-84-body.html'), 'utf8'));
 }
 
 function loadJsonLd(): string {

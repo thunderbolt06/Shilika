@@ -2,8 +2,6 @@ import fs from 'node:fs';
 import path from 'node:path';
 import type { Metadata } from 'next';
 import Script from 'next/script';
-import { EditorialScripts } from '@/components/site/EditorialScripts';
-import { EditorialShell } from '@/components/site/EditorialChrome';
 import '../blog/blog.css';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
@@ -1032,68 +1030,65 @@ export default function PlaybookIndexPage() {
         strategy="beforeInteractive"
         dangerouslySetInnerHTML={{ __html: jsonLd }}
       />
-      <EditorialShell active="playbook">
-        <main className="blog-page">
-          <div className="blog-page-inner">
-            <section className="blog-index-hero">
-              <div>
-                <p className="blog-index-kicker">
-                  <span className="dot" /> Playbook · 122 field guides
-                </p>
-                <h1 className="blog-index-title">
-                  Field <em>guides</em>.
-                </h1>
-              </div>
-              <div className="blog-index-blurb">
-                <p>
-                  The long-form playbooks that sit behind the practice. Pitch guides, regional
-                  teardowns, pricing breakdowns, and the trade-offs every founder weighing PR
-                  should know before signing. New to the terms? Start with the{' '}
-                  <a href="/glossary">PR glossary</a>.
-                </p>
-              </div>
-            </section>
-
-            <div className="blog-list">
-              {PLAYBOOKS.map((p) => (
-                <a
-                  key={p.n}
-                  href={`/playbook/${p.slug}`}
-                  className="blog-card"
-                  data-magnet
-                  aria-label={`Read playbook ${p.n}: ${p.title}`}
-                >
-                  <div className="blog-card-media" aria-hidden>
-                    <div
-                      style={{
-                        width: '100%',
-                        height: '100%',
-                        display: 'grid',
-                        placeItems: 'center',
-                        fontFamily: 'var(--font-display)',
-                        fontStyle: 'italic',
-                        fontSize: 'clamp(48px, 5vw, 80px)',
-                        color: 'var(--ink)',
-                      }}
-                    >
-                      {String(p.n).padStart(2, '0')}
-                    </div>
-                  </div>
-                  <div className="blog-card-meta">
-                    <span>Playbook {String(p.n).padStart(2, '0')}</span>
-                    <span className="blog-card-tag">{p.tag}</span>
-                    <span className="blog-card-tag subtle">{p.time} min</span>
-                  </div>
-                  <h2 className="blog-card-title">{p.title}</h2>
-                  <p className="blog-card-blurb">{p.description}</p>
-                  <span className="blog-card-cta">Read playbook →</span>
-                </a>
-              ))}
+      <main className="blog-page">
+        <div className="blog-page-inner">
+          <section className="blog-index-hero">
+            <div>
+              <p className="blog-index-kicker">
+                <span className="dot" /> Playbook · 122 field guides
+              </p>
+              <h1 className="blog-index-title">
+                Field <em>guides</em>.
+              </h1>
             </div>
+            <div className="blog-index-blurb">
+              <p>
+                The long-form playbooks that sit behind the practice. Pitch guides, regional
+                teardowns, pricing breakdowns, and the trade-offs every founder weighing PR
+                should know before signing. New to the terms? Start with the{' '}
+                <a href="/glossary">PR glossary</a>.
+              </p>
+            </div>
+          </section>
+
+          <div className="blog-list">
+            {PLAYBOOKS.map((p) => (
+              <a
+                key={p.n}
+                href={`/playbook/${p.slug}`}
+                className="blog-card"
+                data-magnet
+                aria-label={`Read playbook ${p.n}: ${p.title}`}
+              >
+                <div className="blog-card-media" aria-hidden>
+                  <div
+                    style={{
+                      width: '100%',
+                      height: '100%',
+                      display: 'grid',
+                      placeItems: 'center',
+                      fontFamily: 'var(--font-display)',
+                      fontStyle: 'italic',
+                      fontSize: 'clamp(48px, 5vw, 80px)',
+                      color: 'var(--ink)',
+                    }}
+                  >
+                    {String(p.n).padStart(2, '0')}
+                  </div>
+                </div>
+                <div className="blog-card-meta">
+                  <span>Playbook {String(p.n).padStart(2, '0')}</span>
+                  <span className="blog-card-tag">{p.tag}</span>
+                  <span className="blog-card-tag subtle">{p.time} min</span>
+                </div>
+                <h2 className="blog-card-title">{p.title}</h2>
+                <p className="blog-card-blurb">{p.description}</p>
+                <span className="blog-card-cta">Read playbook →</span>
+              </a>
+            ))}
           </div>
-        </main>
-      </EditorialShell>
-      <EditorialScripts />
+        </div>
+      </main>
     </>
   );
 }

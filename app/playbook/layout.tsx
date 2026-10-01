@@ -1,15 +1,16 @@
 import { EditorialScripts } from '@/components/site/EditorialScripts';
+import { EditorialShell } from '@/components/site/EditorialChrome';
 
 /**
- * The legacy article pages already include their own <nav>, <footer>, and
- * editorial markup inside the body partials. So we don't wrap them in
- * EditorialShell here — that would double the chrome. We just load the
- * shared scripts.
+ * Shared chrome (cursor, grain, nav, footer) for the playbook index and every
+ * playbook article. The legacy article partials still carry their own nav and
+ * footer markup; each page strips it via stripLegacyChrome() so the chrome
+ * isn't doubled.
  */
 export default function PlaybookLayout({ children }: { children: React.ReactNode }) {
   return (
     <>
-      {children}
+      <EditorialShell active="playbook">{children}</EditorialShell>
       <EditorialScripts />
     </>
   );
