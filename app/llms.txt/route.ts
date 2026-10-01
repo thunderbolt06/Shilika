@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { NextResponse } from 'next/server';
 import { listPublishedPosts } from '@/lib/blog';
+import { FREE_TOOLS } from '../tools/_data/free';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
@@ -39,7 +40,17 @@ export async function GET() {
           '',
         ].join('\n');
 
-  const body = `${intro.trim()}\n${dynamicSection}\n## Last updated\n\n${new Date().toISOString().slice(0, 10)}\n`;
+  const toolsSection = [
+    '',
+    '## Free tools',
+    '',
+    'Free marketing, SEO and PR tools that run in the browser with no signup.',
+    '',
+    ...FREE_TOOLS.map((t) => `- [${t.name}](${SITE_URL}/tools/${t.slug}): ${t.blurb}`),
+    '',
+  ].join('\n');
+
+  const body = `${intro.trim()}\n${dynamicSection}${toolsSection}\n## Last updated\n\n${new Date().toISOString().slice(0, 10)}\n`;
 
   return new NextResponse(body, {
     status: 200,

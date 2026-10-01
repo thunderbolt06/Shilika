@@ -1,14 +1,54 @@
 import type { Metadata } from 'next';
 import { EditorialScripts } from '@/components/site/EditorialScripts';
 import { EditorialShell } from '@/components/site/EditorialChrome';
-import { JsonLd, ToolCta } from './_components/ToolSections';
+import ToolIndex, { type IndexGroup } from './_components/free/ToolIndex';
+import { JsonLd } from './_components/ToolSections';
+import { FREE_TOOLS, GROUPS } from './_data/free';
 import { SITE_URL } from './_lib/seo';
 import '../blog/blog.css';
 import './tools.css';
+import './free-tools.css';
 
-const TITLE = 'Free Marketing Tools for AI and Web3 Startups';
-const DESCRIPTION =
-  'Free, no-signup tools for AI and Web3 founders: a GTM planner, a startup marketing budget calculator and an interactive marketing checklist covering 20 channels.';
+const PLANNING: IndexGroup = {
+  id: 'planning',
+  label: 'Planning',
+  blurb: 'Plan the launch before you spend.',
+  tools: [
+    {
+      href: '/tools/gtm-planner',
+      name: 'AI Startup GTM Planner',
+      blurb: 'Positioning, a ranked channel mix and a 90-day plan for your stage.',
+    },
+    {
+      href: '/tools/marketing-budget-calculator',
+      name: 'Startup Marketing Budget Calculator',
+      blurb: 'Size your budget from burn and estimate leads, CAC and payback.',
+    },
+    {
+      href: '/tools/marketing-checklist',
+      name: 'Startup Marketing Checklist',
+      blurb: 'Every launch phase plus the basics for 20 channels.',
+    },
+  ],
+};
+
+const INDEX: IndexGroup[] = [
+  ...GROUPS.map((g) => ({
+    id: g.id,
+    label: g.label,
+    blurb: g.blurb,
+    tools: FREE_TOOLS.filter((t) => t.group === g.id).map((t) => ({
+      href: `/tools/${t.slug}`,
+      name: t.name,
+      blurb: t.blurb,
+    })),
+  })),
+  PLANNING,
+];
+
+const COUNT = INDEX.reduce((a, g) => a + g.tools.length, 0);
+const TITLE = 'Free Marketing Tools: SEO, PR, Social and Calculators';
+const DESCRIPTION = `${COUNT} free marketing tools with no signup: UTM builder, SERP preview, schema and llms.txt generators, ROAS and A/B test calculators, press release generator and more.`;
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -22,34 +62,8 @@ export const metadata: Metadata = {
   },
 };
 
-const TOOLS = [
-  {
-    href: '/tools/gtm-planner',
-    name: 'AI Startup GTM Planner',
-    tag: 'Planner',
-    blurb:
-      'Pick your category, stage, buyer, motion and budget. Get a positioning prompt, a ranked channel mix with dollar amounts, a 90-day plan, metrics and top risks.',
-    cta: 'Build your plan',
-  },
-  {
-    href: '/tools/marketing-budget-calculator',
-    name: 'Startup Marketing Budget Calculator',
-    tag: 'Calculator',
-    blurb:
-      'Size your marketing budget from burn, split it across people, programs and tools, allocate it to channels, and estimate leads, CAC, LTV:CAC and payback.',
-    cta: 'Run the numbers',
-  },
-  {
-    href: '/tools/marketing-checklist',
-    name: 'Startup Marketing Checklist',
-    tag: 'Checklist',
-    blurb:
-      'Foundations, pre-launch, launch week, the first 90 days and always-on habits, plus concrete basics for 20 channels. Progress saves in your browser.',
-    cta: 'Open the checklist',
-  },
-];
-
 function buildJsonLd() {
+  const all = INDEX.flatMap((g) => g.tools);
   return {
     '@context': 'https://schema.org',
     '@graph': [
@@ -62,7 +76,7 @@ function buildJsonLd() {
         inLanguage: 'en',
         mainEntity: {
           '@type': 'ItemList',
-          itemListElement: TOOLS.map((t, i) => ({
+          itemListElement: all.map((t, i) => ({
             '@type': 'ListItem',
             position: i + 1,
             url: `${SITE_URL}${t.href}`,
@@ -86,58 +100,32 @@ export default function ToolsIndexPage() {
     <>
       <JsonLd id="tools-collection-jsonld" data={buildJsonLd()} />
       <EditorialShell active="playbook">
-        <main className="blog-page tool-page">
+        <main className="blog-page tool-page ft-page">
           <div className="blog-page-inner">
             <section className="blog-index-hero">
               <div>
                 <p className="blog-index-kicker">
-                  <span className="dot" /> Free tools · {TOOLS.length} and counting
+                  <span className="dot" /> Free tools · {COUNT}
                 </p>
                 <h1 className="blog-index-title">
                   Free <em>tools</em>.
                 </h1>
               </div>
               <div className="blog-index-blurb">
-                <p>
-                  The planning tools I wish every founder opened before their first launch call. No signup, no email
-                  gate, and everything runs in your browser.
-                </p>
+                <p>Marketing, SEO and PR tools that run in your browser. No signup.</p>
               </div>
             </section>
 
-            <div className="blog-list">
-              {TOOLS.map((t, i) => (
-                <a key={t.href} href={t.href} className="blog-card" data-magnet aria-label={`Open ${t.name}`}>
-                  <div className="blog-card-media" aria-hidden>
-                    <div className="tool-card-num">{String(i + 1).padStart(2, '0')}</div>
-                  </div>
-                  <div className="blog-card-meta">
-                    <span>Tool {String(i + 1).padStart(2, '0')}</span>
-                    <span className="blog-card-tag">{t.tag}</span>
-                  </div>
-                  <h2 className="blog-card-title">{t.name}</h2>
-                  <p className="blog-card-blurb">{t.blurb}</p>
-                  <span className="blog-card-cta">{t.cta}</span>
-                </a>
-              ))}
-              <a href="/resources" className="blog-card" data-magnet aria-label="Browse free downloadable resources">
-                <div className="blog-card-media" aria-hidden>
-                  <div className="tool-card-num">+</div>
-                </div>
-                <div className="blog-card-meta">
-                  <span>Downloads</span>
-                  <span className="blog-card-tag subtle">Resources</span>
-                </div>
-                <h2 className="blog-card-title">Templates and downloads</h2>
-                <p className="blog-card-blurb">
-                  Downloadable templates and guides for founders planning PR, launches and marketing. Pairs well
-                  with the tools above.
-                </p>
-                <span className="blog-card-cta">Browse resources</span>
-              </a>
-            </div>
+            <ToolIndex groups={INDEX} />
 
-            <ToolCta />
+            <section className="ft-cta no-print" aria-label="Work with Shilika">
+              <p>
+                Need more than a tool? I run PR and growth for AI and Web3 founders.{' '}
+                <a href="/contact" data-magnet>
+                  Book a free 30-minute teardown →
+                </a>
+              </p>
+            </section>
           </div>
         </main>
       </EditorialShell>

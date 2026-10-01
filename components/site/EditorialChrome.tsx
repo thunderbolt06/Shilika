@@ -200,6 +200,7 @@ export function EditorialFooter() {
           <a href="/blog">Blog</a>
           <a href="/playbook">Playbooks</a>
           <a href="/glossary">Glossary</a>
+          <a href="/tools">Free Tools</a>
           <a href="/pages">Pages</a>
         </div>
 

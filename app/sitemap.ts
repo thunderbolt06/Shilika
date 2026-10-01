@@ -1,5 +1,6 @@
 import type { MetadataRoute } from 'next';
 import { listPublishedPosts } from '@/lib/blog';
+import { FREE_TOOLS } from './tools/_data/free';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
@@ -48,6 +49,7 @@ const STATIC_PAGES: { path: string; priority: number; changeFrequency: MetadataR
   { path: '/tools/gtm-planner', priority: 0.8, changeFrequency: 'monthly' },
   { path: '/tools/marketing-budget-calculator', priority: 0.8, changeFrequency: 'monthly' },
   { path: '/tools/marketing-checklist', priority: 0.8, changeFrequency: 'monthly' },
+  ...FREE_TOOLS.map((t) => ({ path: `/tools/${t.slug}`, priority: 0.7, changeFrequency: 'monthly' as const })),
   { path: '/resources', priority: 0.8, changeFrequency: 'monthly' },
   { path: '/authors/shilika-jain', priority: 0.7, changeFrequency: 'monthly' },
   { path: '/services', priority: 0.9, changeFrequency: 'monthly' },

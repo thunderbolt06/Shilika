@@ -122,3 +122,61 @@ export async function sendLeadEmail(p: LeadPayload): Promise<void> {
     throw new Error(`Brevo API error ${res.status}: ${detail}`);
   }
 }
+
+// Sends a free-tool result to the visitor who asked for it on /tools/[slug].
+export async function sendToolResultEmail(p: {
+  to: string;
+  toolName: string;
+  toolUrl: string;
+  result: string;
+}): Promise<void> {
+  if (!isEmailConfigured()) {
+    throw new Error('Email not configured: set BREVO_API_KEY and BREVO_FROM_EMAIL.');
+  }
+
+  const calendly = 'https://calendly.com/shilikajain/30min/';
+  const hasResult = p.result.trim().length > 0;
+  const subject = hasResult ? `Your ${p.toolName} result` : `You're on the list for new free tools`;
+
+  const html = `<div style="max-width:600px;margin:0 auto;font-family:system-ui,sans-serif;color:#1a1a1a;">
+  <p style="font:600 12px/1 system-ui;letter-spacing:.12em;text-transform:uppercase;color:#7aa800;margin:0 0 8px;">Shilika Jain · free tools</p>
+  <h2 style="font:400 26px/1.15 Georgia,serif;margin:0 0 14px;">${esc(hasResult ? `Your ${p.toolName} result` : 'Thanks for signing up')}</h2>
+  ${
+    hasResult
+      ? `<pre style="font:13px/1.6 ui-monospace,Menlo,monospace;background:#f6f6f1;border-radius:8px;padding:16px;white-space:pre-wrap;word-break:break-word;margin:0 0 18px;">${esc(p.result)}</pre>`
+      : `<p style="font:400 15px/1.6 system-ui;margin:0 0 18px;">I'll email you when new free tools go live. Roughly once a month, never more.</p>`
+  }
+  <p style="font:400 15px/1.6 system-ui;margin:0 0 6px;">Run it again any time: <a href="${esc(p.toolUrl)}" style="color:#1a1a1a;">${esc(p.toolUrl)}</a></p>
+  <p style="font:400 15px/1.6 system-ui;margin:0 0 18px;">Want a second pair of eyes on your launch or PR plan? <a href="${calendly}" style="color:#1a1a1a;">Book a free 30-minute teardown</a>.</p>
+  <p style="font:400 12px/1.5 system-ui;color:#9a9a9a;margin:0;">You got this because you asked for it on shilikajain.com. Reply "unsubscribe" and you won't hear from me again.</p>
+</div>`;
+
+  const text = [
+    hasResult ? `Your ${p.toolName} result` : 'Thanks for signing up for new free tools.',
+    '',
+    hasResult ? p.result : '',
+    '',
+    `Run it again: ${p.toolUrl}`,
+    `Book a free 30-minute teardown: ${calendly}`,
+    '',
+    'Reply "unsubscribe" to stop hearing from me.',
+  ].join('\n');
+
+  const res = await fetch('https://api.brevo.com/v3/smtp/email', {
+    method: 'POST',
+    headers: { 'api-key': API_KEY, 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      sender: { name: FROM_NAME, email: FROM_EMAIL },
+      to: [{ email: p.to }],
+      replyTo: { name: 'Shilika Jain', email: LEAD_TO },
+      subject,
+      htmlContent: html,
+      textContent: text,
+    }),
+  });
+
+  if (!res.ok) {
+    const detail = await res.text().catch(() => '');
+    throw new Error(`Brevo API error ${res.status}: ${detail}`);
+  }
+}

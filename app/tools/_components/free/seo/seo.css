@@ -1,0 +1,101 @@
+/* SEO and AI search tools. Extends the shared ft-* primitives. */
+
+.seo-gap { margin-top: 14px; }
+.seo-muted { color: var(--muted); }
+.seo-break { overflow-wrap: anywhere; }
+.seo-error { color: oklch(0.5 0.16 30); margin: 0; }
+.seo-headline { font-family: var(--font-display); font-size: clamp(24px, 2.6vw, 32px); line-height: 1.15; margin: 0 0 12px; }
+
+/* Repeatable rows */
+.seo-repeat { border: 1px solid var(--line); border-radius: 14px; padding: 14px 14px 12px; margin: 0; min-width: 0; }
+.seo-repeat > legend { padding: 0 6px; margin: 0; }
+.seo-link-row { border-top: 1px dashed var(--line); padding-top: 12px; margin-top: 4px; margin-bottom: 12px; }
+.seo-link-row:first-of-type { border-top: 0; padding-top: 0; }
+.seo-details { border-top: 1px solid var(--line); padding-top: 12px; }
+.seo-details summary { cursor: pointer; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-2); margin-bottom: 12px; }
+
+/* URL fetch bar */
+.seo-fetch { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 0 12px; align-items: end; }
+.seo-fetch .ft-field { margin-bottom: 0; }
+.seo-fetch .tool-btn { white-space: nowrap; }
+.seo-fetch-msg { grid-column: 1 / -1; margin-top: 10px; }
+@media (max-width: 560px) {
+  .seo-fetch { grid-template-columns: minmax(0, 1fr); gap: 10px; }
+}
+
+@media (min-width: 901px) {
+  .seo-sticky { position: sticky; top: 96px; }
+}
+
+/* AI bot list */
+.seo-bots { list-style: none; margin: 12px 0 0; padding: 0; }
+.seo-bots li {
+  display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px 12px; align-items: center;
+  padding: 12px 0; border-bottom: 1px solid var(--line);
+}
+.seo-bots li:last-child { border-bottom: 0; }
+.seo-bots strong { font-weight: 500; font-size: 14px; }
+.seo-bots .ft-hint { margin-top: 2px; }
+.seo-toggle { margin: 0; }
+.seo-toggle button { padding: 7px 11px; }
+.seo-tag { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; border: 1px solid var(--line); border-radius: 100px; padding: 2px 8px; white-space: nowrap; }
+.seo-tag.is-training { background: var(--paper-2); }
+.seo-tag.is-search { background: color-mix(in oklch, var(--lime) 40%, var(--paper)); }
+.seo-tag.is-user { background: oklch(0.95 0.04 240); }
+@media (max-width: 420px) { .seo-bots li { grid-template-columns: minmax(0, 1fr); } }
+
+.seo-botstatus { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.seo-botstatus li { display: flex; justify-content: space-between; align-items: center; gap: 12px; font-size: 14px; }
+.seo-top { margin: 0; padding-left: 20px; display: grid; gap: 8px; font-size: 15px; line-height: 1.5; }
+.seo-cat + .seo-cat { margin-top: 20px; }
+
+/* Readability */
+.seo-passive { text-decoration: underline wavy oklch(0.6 0.15 250); text-decoration-thickness: 1.5px; text-underline-offset: 3px; }
+.seo-legend { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; }
+
+/* Social previews */
+.seo-clamp-1, .seo-clamp-2, .seo-clamp-3 { display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; overflow-wrap: anywhere; }
+.seo-clamp-1 { -webkit-line-clamp: 1; line-clamp: 1; }
+.seo-clamp-2 { -webkit-line-clamp: 2; line-clamp: 2; }
+.seo-clamp-3 { -webkit-line-clamp: 3; line-clamp: 3; }
+.seo-img-fallback {
+  display: grid; place-items: center; text-align: center;
+  background: var(--paper-2); color: var(--muted);
+  font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase;
+}
+.seo-og-img-wide { display: block; width: 100%; aspect-ratio: 1.91 / 1; object-fit: cover; }
+.seo-og-img-sq { display: block; width: 84px; height: 84px; flex: none; object-fit: cover; border-radius: 8px; }
+
+.seo-og-fb { border: 1px solid #dadde1; border-radius: 8px; overflow: hidden; background: #fff; color: #1c1e21; font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; }
+.seo-og-fb-body { display: grid; gap: 3px; padding: 10px 12px; background: #f0f2f5; font-size: 14px; line-height: 1.3; }
+.seo-og-fb-body strong { font-size: 16px; font-weight: 600; }
+.seo-og-fb-body .seo-muted { color: #606770; }
+.seo-og-domain { font-size: 12px; color: #606770; letter-spacing: 0.02em; }
+
+.seo-og-x { display: grid; gap: 6px; font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; color: #0f1419; }
+.seo-og-x-media { position: relative; border: 1px solid #cfd9de; border-radius: 16px; overflow: hidden; }
+.seo-og-x-title {
+  position: absolute; left: 12px; bottom: 12px; max-width: calc(100% - 24px);
+  background: rgba(0, 0, 0, 0.77); color: #fff; font-size: 13px; padding: 2px 6px; border-radius: 4px;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.seo-og-x-from { font-size: 13px; color: #536471; }
+.seo-og-x-small { display: flex; border: 1px solid #cfd9de; border-radius: 16px; overflow: hidden; font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; color: #0f1419; background: #fff; }
+.seo-og-x-small .seo-og-img-sq { width: 120px; height: 120px; border-radius: 0; border-right: 1px solid #cfd9de; }
+.seo-og-x-small > div { display: grid; align-content: center; gap: 2px; padding: 10px 12px; font-size: 14px; line-height: 1.3; min-width: 0; }
+.seo-og-x-small .seo-muted { color: #536471; }
+
+.seo-og-slack {
+  display: grid; gap: 4px; justify-items: start; padding-left: 12px; border-left: 4px solid #dddddd;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; font-size: 15px; line-height: 1.4; color: #1d1c1d;
+}
+.seo-og-slack-title { color: #1264a3; font-weight: 700; overflow-wrap: anywhere; }
+.seo-og-img-slack { display: block; max-width: min(100%, 360px); aspect-ratio: 1.91 / 1; object-fit: cover; border-radius: 8px; margin-top: 4px; }
+.seo-og-slack .seo-img-fallback { width: min(100%, 360px); }
+
+.seo-og-chat {
+  display: flex; gap: 10px; align-items: center; padding: 8px; border-radius: 12px;
+  background: #e7fce3; color: #111b21; font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; font-size: 14px; line-height: 1.3;
+}
+.seo-og-chat > div { display: grid; gap: 2px; min-width: 0; }
+.seo-og-chat .seo-muted { color: #667781; font-size: 12px; }
