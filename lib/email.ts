@@ -1,12 +1,25 @@
-// Lead-notification email via Brevo Transactional Email HTTP API.
-// Uses the REST API instead of SMTP - no IP whitelisting needed (works on Vercel).
+// Transactional email (lead notifications + free-tool results).
+//
+// Delivery order - each configured provider is tried until one succeeds:
+//   1. Google Workspace SMTP (primary)
+//   2. Brevo HTTP API        (backup, if BREVO_API_KEY is set)
+//   3. Brevo SMTP relay      (backup, if BREVO_SMTP_USER/PASS are set)
 //
 // Env vars:
-//   BREVO_API_KEY     Your Brevo API key (Settings → API Keys)
-//   BREVO_FROM_EMAIL  Verified sender email in Brevo (default: LEAD_NOTIFY_TO)
-//   BREVO_FROM_NAME   Display name for the sender (default: "Shilika Jain Website")
-//   LEAD_NOTIFY_TO    Where leads are delivered (default: shilika498@gmail.com)
+//   GOOGLE_SMTP_USER  Workspace mailbox to send from (e.g. hi@shilikajain.com)
+//   GOOGLE_SMTP_PASS  16-char Google App Password for that mailbox (needs 2-Step Verification)
+//   GOOGLE_SMTP_FROM  Optional From address (default: GOOGLE_SMTP_USER; must be the user or a verified alias)
+//   BREVO_API_KEY     Brevo API key (Settings → API Keys, starts with xkeysib-)
+//   BREVO_SMTP_HOST   Brevo SMTP host (default: smtp-relay.brevo.com)
+//   BREVO_SMTP_PORT   Brevo SMTP port (default: 587)
+//   BREVO_SMTP_USER   Brevo SMTP login
+//   BREVO_SMTP_PASS   Brevo SMTP key (starts with xsmtpsib-)
+//   BREVO_FROM        Verified sender email in Brevo (BREVO_FROM_EMAIL also accepted)
+//   EMAIL_FROM_NAME   Display name for the sender (default: "Shilika Jain"; BREVO_FROM_NAME also accepted)
+//   LEAD_NOTIFY_TO    Comma-separated lead recipients (default: shilika498@gmail.com)
 //   LEAD_NOTIFY_CC    Optional comma-separated extra recipients
+
+import nodemailer, { type Transporter } from 'nodemailer';
 
 export type LeadPayload = {
   name: string;
@@ -21,13 +34,130 @@ export type LeadPayload = {
   source?: string;
 };
 
-const API_KEY = process.env.BREVO_API_KEY || '';
-const LEAD_TO = process.env.LEAD_NOTIFY_TO || 'shilika498@gmail.com';
-const FROM_EMAIL = process.env.BREVO_FROM_EMAIL || LEAD_TO;
-const FROM_NAME = process.env.BREVO_FROM_NAME || 'Shilika Jain Website';
+const splitList = (s?: string) =>
+  (s || '')
+    .split(',')
+    .map((x) => x.trim())
+    .filter(Boolean);
+
+const LEAD_TO = splitList(process.env.LEAD_NOTIFY_TO || 'shilika498@gmail.com');
+const LEAD_CC = splitList(process.env.LEAD_NOTIFY_CC);
+const FROM_NAME = process.env.EMAIL_FROM_NAME || process.env.BREVO_FROM_NAME || 'Shilika Jain Website';
+
+const GOOGLE_USER = process.env.GOOGLE_SMTP_USER || '';
+const GOOGLE_PASS = (process.env.GOOGLE_SMTP_PASS || '').replace(/\s+/g, '');
+const GOOGLE_FROM = process.env.GOOGLE_SMTP_FROM || GOOGLE_USER;
+
+const BREVO_API_KEY = process.env.BREVO_API_KEY || '';
+const BREVO_SMTP_HOST = process.env.BREVO_SMTP_HOST || 'smtp-relay.brevo.com';
+const BREVO_SMTP_PORT = Number(process.env.BREVO_SMTP_PORT || 587);
+const BREVO_SMTP_USER = process.env.BREVO_SMTP_USER || '';
+const BREVO_SMTP_PASS = process.env.BREVO_SMTP_PASS || '';
+const BREVO_FROM = process.env.BREVO_FROM || process.env.BREVO_FROM_EMAIL || LEAD_TO[0];
+
+type Mail = {
+  to: string[];
+  cc?: string[];
+  replyTo: { name: string; email: string };
+  subject: string;
+  html: string;
+  text: string;
+};
+
+type Provider = { name: string; send: (m: Mail) => Promise<void> };
+
+let googleTransport: Transporter | undefined;
+let brevoTransport: Transporter | undefined;
+
+function sendViaSmtp(transport: Transporter, fromEmail: string, m: Mail) {
+  return transport.sendMail({
+    from: { name: FROM_NAME, address: fromEmail },
+    to: m.to,
+    cc: m.cc?.length ? m.cc : undefined,
+    replyTo: { name: m.replyTo.name, address: m.replyTo.email },
+    subject: m.subject,
+    html: m.html,
+    text: m.text,
+  });
+}
+
+async function sendViaBrevoApi(m: Mail) {
+  const res = await fetch('https://api.brevo.com/v3/smtp/email', {
+    method: 'POST',
+    headers: { 'api-key': BREVO_API_KEY, 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      sender: { name: FROM_NAME, email: BREVO_FROM },
+      to: m.to.map((email) => ({ email })),
+      ...(m.cc?.length ? { cc: m.cc.map((email) => ({ email })) } : {}),
+      replyTo: m.replyTo,
+      subject: m.subject,
+      htmlContent: m.html,
+      textContent: m.text,
+    }),
+  });
+  if (!res.ok) {
+    const detail = await res.text().catch(() => '');
+    throw new Error(`Brevo API error ${res.status}: ${detail}`);
+  }
+}
+
+function providers(): Provider[] {
+  const list: Provider[] = [];
+  if (GOOGLE_USER && GOOGLE_PASS) {
+    list.push({
+      name: 'google-smtp',
+      send: async (m) => {
+        googleTransport ??= nodemailer.createTransport({
+          host: 'smtp.gmail.com',
+          port: 465,
+          secure: true,
+          auth: { user: GOOGLE_USER, pass: GOOGLE_PASS },
+        });
+        await sendViaSmtp(googleTransport, GOOGLE_FROM, m);
+      },
+    });
+  }
+  if (BREVO_API_KEY && BREVO_FROM) {
+    list.push({ name: 'brevo-api', send: sendViaBrevoApi });
+  }
+  if (BREVO_SMTP_USER && BREVO_SMTP_PASS && BREVO_FROM) {
+    list.push({
+      name: 'brevo-smtp',
+      send: async (m) => {
+        brevoTransport ??= nodemailer.createTransport({
+          host: BREVO_SMTP_HOST,
+          port: BREVO_SMTP_PORT,
+          secure: BREVO_SMTP_PORT === 465,
+          auth: { user: BREVO_SMTP_USER, pass: BREVO_SMTP_PASS },
+        });
+        await sendViaSmtp(brevoTransport, BREVO_FROM, m);
+      },
+    });
+  }
+  return list;
+}
 
 export function isEmailConfigured(): boolean {
-  return Boolean(API_KEY && FROM_EMAIL);
+  return providers().length > 0;
+}
+
+// Tries each configured provider in order; throws only if all of them fail.
+async function deliver(m: Mail): Promise<void> {
+  const list = providers();
+  if (!list.length) {
+    throw new Error('Email not configured: set GOOGLE_SMTP_USER/GOOGLE_SMTP_PASS or Brevo credentials.');
+  }
+  const errors: string[] = [];
+  for (const p of list) {
+    try {
+      await p.send(m);
+      if (errors.length) console.warn(`[email] sent via fallback ${p.name} after: ${errors.join(' | ')}`);
+      return;
+    } catch (err) {
+      errors.push(`${p.name}: ${err instanceof Error ? err.message : String(err)}`);
+    }
+  }
+  throw new Error(`All email providers failed - ${errors.join(' | ')}`);
 }
 
 function esc(s: string): string {
@@ -45,10 +175,6 @@ function row(label: string, value?: string): string {
 }
 
 export async function sendLeadEmail(p: LeadPayload): Promise<void> {
-  if (!isEmailConfigured()) {
-    throw new Error('Email not configured: set BREVO_API_KEY and BREVO_FROM_EMAIL.');
-  }
-
   const subject = ['New lead', p.service ? `· ${p.service}` : '', p.name ? `· ${p.name}` : '']
     .filter(Boolean)
     .join(' ');
@@ -92,35 +218,14 @@ export async function sendLeadEmail(p: LeadPayload): Promise<void> {
     .filter(Boolean)
     .join('\n');
 
-  const cc = (process.env.LEAD_NOTIFY_CC || '')
-    .split(',')
-    .map((s) => s.trim())
-    .filter(Boolean)
-    .map((email) => ({ email }));
-
-  const body = {
-    sender: { name: FROM_NAME, email: FROM_EMAIL },
-    to: [{ email: LEAD_TO }],
-    ...(cc.length ? { cc } : {}),
+  await deliver({
+    to: LEAD_TO,
+    cc: LEAD_CC,
     replyTo: { name: p.name, email: p.email },
     subject,
-    htmlContent: html,
-    textContent: text,
-  };
-
-  const res = await fetch('https://api.brevo.com/v3/smtp/email', {
-    method: 'POST',
-    headers: {
-      'api-key': API_KEY,
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify(body),
+    html,
+    text,
   });
-
-  if (!res.ok) {
-    const detail = await res.text().catch(() => '');
-    throw new Error(`Brevo API error ${res.status}: ${detail}`);
-  }
 }
 
 // Sends a free-tool result to the visitor who asked for it on /tools/[slug].
@@ -130,10 +235,6 @@ export async function sendToolResultEmail(p: {
   toolUrl: string;
   result: string;
 }): Promise<void> {
-  if (!isEmailConfigured()) {
-    throw new Error('Email not configured: set BREVO_API_KEY and BREVO_FROM_EMAIL.');
-  }
-
   const calendly = 'https://calendly.com/shilikajain/30min/';
   const hasResult = p.result.trim().length > 0;
   const subject = hasResult ? `Your ${p.toolName} result` : `You're on the list for new free tools`;
@@ -162,21 +263,11 @@ export async function sendToolResultEmail(p: {
     'Reply "unsubscribe" to stop hearing from me.',
   ].join('\n');
 
-  const res = await fetch('https://api.brevo.com/v3/smtp/email', {
-    method: 'POST',
-    headers: { 'api-key': API_KEY, 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      sender: { name: FROM_NAME, email: FROM_EMAIL },
-      to: [{ email: p.to }],
-      replyTo: { name: 'Shilika Jain', email: LEAD_TO },
-      subject,
-      htmlContent: html,
-      textContent: text,
-    }),
+  await deliver({
+    to: [p.to],
+    replyTo: { name: 'Shilika Jain', email: GOOGLE_FROM || LEAD_TO[0] },
+    subject,
+    html,
+    text,
   });
-
-  if (!res.ok) {
-    const detail = await res.text().catch(() => '');
-    throw new Error(`Brevo API error ${res.status}: ${detail}`);
-  }
 }
