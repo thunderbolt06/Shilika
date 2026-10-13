@@ -115,6 +115,14 @@ body { font-family: var(--font-body); background: var(--paper); color: var(--ink
 .hb-l { font-family:var(--font-mono); font-size:10px; letter-spacing:0.08em; text-transform:uppercase; color:rgba(255,255,255,0.55); margin-top:6px; }
 .hb-stats > div.is-key .hb-l { color:rgba(40,37,32,0.7); }
 @media (max-width:720px){ .hero-brief-grid{ grid-template-columns:1fr; position:static; inset:auto; padding:28px; } .article-hero-visual.hero-brief{ aspect-ratio:auto; } }
+
+.x-notes { margin: 44px 0; padding: 28px 30px; border: 1px solid var(--line); border-left: 3px solid var(--lime); border-radius: 14px; background: var(--paper); }
+.x-notes-eyebrow { font-family: var(--font-mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin: 0 0 18px; }
+.x-note { margin: 0; padding: 0; }
+.x-note + .x-note { margin-top: 22px; padding-top: 22px; border-top: 1px solid var(--line); }
+.x-note blockquote { margin: 0; padding: 0; border: 0; font-family: var(--font-display); font-style: italic; font-size: clamp(19px, 2vw, 24px); line-height: 1.38; color: var(--ink); }
+.x-note figcaption { margin-top: 10px; font-family: var(--font-mono); font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.x-note figcaption a { color: inherit; text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px; }
 </style>
 
 
@@ -311,6 +319,12 @@ body { font-family: var(--font-body); background: var(--paper); color: var(--ink
   <li><strong>Consistent entity mentions across time.</strong> A company mentioned once in a press release does not build strong entity signal. A founder mentioned across 15 pieces over 18 months in recognized outlets builds the kind of signal that earns unprompted citation.</li>
   <li><strong>Content that directly answers common questions.</strong> Engines are optimized to surface answers to questions. If your content is organized around topics rather than questions, it will consistently lose to content that mirrors the query format.</li>
 </ul>
+
+<aside class="x-notes" aria-label="Field notes from X">
+  <p class="x-notes-eyebrow">Field notes from my X feed</p>
+  <figure class="x-note"><blockquote>if web3 companies started working on the localization strategies + SEO, then they wouldn't have to spend millions of dollars on marketing!</blockquote><figcaption><a href="https://x.com/Shilika_jain/status/1588141390776586240" target="_blank" rel="noopener">Shilika Jain on X, 3 Nov 2022</a></figcaption></figure>
+  <figure class="x-note"><blockquote>googling best exchanges in crypto only shows you exchanges that have best SEO</blockquote><figcaption><a href="https://x.com/Shilika_jain/status/1600830595600220160" target="_blank" rel="noopener">Shilika Jain on X, 8 Dec 2022</a></figcaption></figure>
+</aside>
 
 <h2>What this means for AI startup PR specifically</h2>
 

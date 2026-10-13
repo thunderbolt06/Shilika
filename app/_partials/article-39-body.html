@@ -116,6 +116,14 @@ body { font-family: var(--font-body); background: var(--paper); color: var(--ink
 .hb-l { font-family:var(--font-mono); font-size:10px; letter-spacing:0.08em; text-transform:uppercase; color:rgba(255,255,255,0.55); margin-top:6px; }
 .hb-stats > div.is-key .hb-l { color:rgba(40,37,32,0.7); }
 @media (max-width:720px){ .hero-brief-grid{ grid-template-columns:1fr; position:static; inset:auto; padding:28px; } .article-hero-visual.hero-brief{ aspect-ratio:auto; } }
+
+.x-notes { margin: 44px 0; padding: 28px 30px; border: 1px solid var(--line); border-left: 3px solid var(--lime); border-radius: 14px; background: var(--paper); }
+.x-notes-eyebrow { font-family: var(--font-mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin: 0 0 18px; }
+.x-note { margin: 0; padding: 0; }
+.x-note + .x-note { margin-top: 22px; padding-top: 22px; border-top: 1px solid var(--line); }
+.x-note blockquote { margin: 0; padding: 0; border: 0; font-family: var(--font-display); font-style: italic; font-size: clamp(19px, 2vw, 24px); line-height: 1.38; color: var(--ink); }
+.x-note figcaption { margin-top: 10px; font-family: var(--font-mono); font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.x-note figcaption a { color: inherit; text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px; }
 </style>
 
 
@@ -336,6 +344,11 @@ body { font-family: var(--font-body); background: var(--paper); color: var(--ink
 <p>The Princeton GEO study (Aggarwal et al., arXiv:2311.09735) measured a 30 to 40 percent uplift in generative-engine citations from cited statistics and quotable expertise. For an infra team trying to win the "what infrastructure should I use for X" query, that citation uplift is directly tied to whether a developer finds you or your competitor when they ask an AI for a recommendation.</p>
 
 <p>The practical implication: the founder needs a byline. One essay per quarter at minimum, placed on a named outlet, arguing a position the founder will defend. The <a href="/playbook/depin-pr-strategy-2026">DePIN PR playbook</a> covers the byline strategy in depth for infrastructure teams building physical-world layers, and the same logic applies to pure software infra. The Web3Auth case showed this clearly: the Google Cloud story seeded a category position that kept generating inbound from developers long after the announcement cycle closed, precisely because it was cited, attributed and argued in a format that search and AI engines could recognise.</p>
+
+<aside class="x-notes" aria-label="Field notes from X">
+  <p class="x-notes-eyebrow">Field notes from my X feed</p>
+  <figure class="x-note"><blockquote>the true chain abstraction moment happens when a user uses your dapp without knowing which chain you're built on!</blockquote><figcaption><a href="https://x.com/Shilika_jain/status/1839011824265552273" target="_blank" rel="noopener">Shilika Jain on X, 25 Sep 2024</a></figcaption></figure>
+</aside>
 
 <h2>The one thing most infra founders get exactly backwards</h2>
 
