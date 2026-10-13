@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
-    "humanize:check": "node scripts/check-humanization.mjs"
+    "humanize:check": "node scripts/check-humanization.mjs",
+    "i18n": "node --experimental-strip-types --env-file=.env.local scripts/i18n.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.30.0",

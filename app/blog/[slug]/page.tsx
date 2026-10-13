@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Script from 'next/script';
 import { notFound } from 'next/navigation';
 import { getAuthor, getPostBySlug, getRelatedPosts } from '@/lib/blog';
+import { languageAlternates } from '@/lib/i18n/config';
 import { readingTimeMinutes, renderMarkdown } from '@/lib/markdown';
 import { extractToc } from '@/lib/toc';
 import { TableOfContents } from '@/components/blog/TableOfContents';
@@ -25,6 +26,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
     description: post.description,
     alternates: {
       canonical: url,
+      languages: languageAlternates(`/blog/${post.slug}`),
       types: { 'text/markdown': `${url}.md` },
     },
     openGraph: {

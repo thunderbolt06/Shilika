@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import type { Metadata } from 'next';
 import Script from 'next/script';
+import { languageAlternates } from '@/lib/i18n/config';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
@@ -9,7 +10,7 @@ export const metadata: Metadata = {
   title: 'About Shilika Jain: Fractional PR for Web3 & AI Founders',
   description: 'Senior fractional PR for Web3, AI and cybersecurity founders. 6 years, 50+ protocols, 200+ KOLs. Forbes, CoinDesk, Decrypt placements. Book a teardown.',
   
-  alternates: { canonical: 'https://www.shilikajain.com/about' },
+  alternates: { canonical: 'https://www.shilikajain.com/about', languages: languageAlternates('/about') },
   openGraph: {
     title: 'About Shilika Jain: Fractional PR for Web3 & AI Founders',
     description: 'Six years placing Web3, AI and cybersecurity founders into Forbes, CoinDesk, Cointelegraph, Decrypt, Blockworks and AI Magazine. APAC operator. Currently leading PR at Myosin.',

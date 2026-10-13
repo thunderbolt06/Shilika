@@ -2,13 +2,14 @@ import fs from 'node:fs';
 import path from 'node:path';
 import type { Metadata } from 'next';
 import Script from 'next/script';
+import { languageAlternates } from '@/lib/i18n/config';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
   title: 'Korea Web3 & AI PR 2026: BloomingBit, TokenPost, KBW Seoul',
   description: 'Korea PR for Web3 and AI founders. BloomingBit, TokenPost, BlockMedia, Yonhap. FSC and DABA-aware framing, KBW Seoul Sep 2026, Upbit listings.',
-  alternates: { canonical: `${SITE_URL}/korea` },
+  alternates: { canonical: `${SITE_URL}/korea`, languages: languageAlternates('/korea') },
   openGraph: {
     title: 'Korea Web3 & AI PR 2026: BloomingBit, TokenPost, KBW Seoul',
     description: 'Korea PR for Web3 and AI founders. BloomingBit, TokenPost, BlockMedia, Coinness, CoinReaders, Yonhap, Chosun Biz, Maeil Business. FSC and DABA-aware framing, Korea Blockchain Week Walkerhill Sep 29 to Oct 1 2026, KRW-stablecoin frame.',

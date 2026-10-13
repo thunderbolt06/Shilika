@@ -55,3 +55,25 @@ Server-side logs from `/api/contact` ship to PostHog Logs (EU) through OTel.
 
 Override the key at deploy time by setting `POSTHOG_PROJECT_KEY` in the
 Vercel dashboard; otherwise the key in `_posthog-logs.js` is used.
+
+## Translations (`/zh`, `/ko`, `/ja`, `/es`, `/ru`)
+English stays at the root. The pages listed in `I18N_PAGES`
+(`lib/i18n/config.ts`) also exist under a language subfolder, with `hreflang`
+alternates on every version and in `sitemap.xml`. The nav's language switcher
+links to the same page in the chosen language (or that language's homepage when
+the current page is English-only).
+
+Translations are not copies of the HTML. `app/[locale]/[[...path]]/page.tsx`
+renders the English partial and swaps each text segment for its translation
+from `app/_partials/i18n/<locale>/<key>.json`, keyed by a hash of the English
+text. Edit the English and the affected segment falls back to English until it
+is retranslated; markup and styling changes need no translation work at all.
+
+- `pnpm i18n extract` - re-cut the English sources into `i18n/_source/`.
+- `pnpm i18n check` - list missing / stale / broken segments per locale.
+- `pnpm i18n prune` - drop translations whose English no longer exists.
+
+To translate another page: add it to `I18N_PAGES`, add
+`languages: languageAlternates('<path>')` to its English `alternates`, run
+`pnpm i18n extract`, then translate the new `_source/<key>.json` into each
+locale folder. Shared nav / footer strings live in `lib/i18n/ui.en.json`.

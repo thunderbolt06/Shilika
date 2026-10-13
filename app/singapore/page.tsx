@@ -2,13 +2,14 @@ import fs from 'node:fs';
 import path from 'node:path';
 import type { Metadata } from 'next';
 import Script from 'next/script';
+import { languageAlternates } from '@/lib/i18n/config';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
   title: 'Singapore Web3 & AI PR 2026: BT, DealStreetAsia, Token2049',
   description: 'Singapore PR for Web3 and AI founders. Business Times, Channel News Asia, DealStreetAsia, e27. MAS DTSP-aware framing, Token2049 Marina Bay Oct 2026.',
-  alternates: { canonical: `${SITE_URL}/singapore` },
+  alternates: { canonical: `${SITE_URL}/singapore`, languages: languageAlternates('/singapore') },
   openGraph: {
     title: 'Singapore Web3 & AI PR 2026: BT, DealStreetAsia, Token2049',
     description: 'Singapore PR for Web3 and AI founders. The Business Times, Channel News Asia, DealStreetAsia, Tech in Asia, e27, Lianhe Zaobao. MAS DTSP-aware framing, Project Guardian institutional partners, Token2049 Singapore Oct 2026 calendar.',

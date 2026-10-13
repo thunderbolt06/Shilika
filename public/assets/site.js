@@ -413,6 +413,20 @@ if (form) {
       });
     } catch (e) { /* never throw from re-boot */ }
   }
+  // Language switcher: close the <details> dropdown on outside click / Escape.
+  if (typeof document !== 'undefined') {
+    var closeLang = function (except) {
+      document.querySelectorAll('.lang details[open]').forEach(function (d) {
+        if (d !== except) d.removeAttribute('open');
+      });
+    };
+    document.addEventListener('click', function (e) {
+      closeLang(e.target.closest ? e.target.closest('.lang details') : null);
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') closeLang(null);
+    });
+  }
   if (typeof window !== 'undefined') {
     window.__shilikaBoot = reboot;
   }

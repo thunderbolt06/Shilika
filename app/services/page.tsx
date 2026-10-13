@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import type { Metadata } from 'next';
+import { languageAlternates } from '@/lib/i18n/config';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
@@ -8,7 +9,7 @@ export const metadata: Metadata = {
   title: 'Services: Web3 & AI PR, Founder Profiling, KOL Marketing',
   description:
     'From zero press to flagship coverage - without the agency markup. Fractional Web3 & AI PR: campaigns, founder profiling, KOL marketing, token launch, cybersecurity PR, content and APAC.',
-  alternates: { canonical: `${SITE_URL}/services` },
+  alternates: { canonical: `${SITE_URL}/services`, languages: languageAlternates('/services') },
   openGraph: {
     title: 'Services: Web3 & AI PR, Founder Profiling, KOL Marketing',
     description:

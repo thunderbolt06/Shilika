@@ -305,6 +305,96 @@ ul { list-style: none; }
   .nav-links { display: none; }
 }
 
+/* Language switcher: a <details> dropdown next to the nav CTA. */
+.nav-actions { display: flex; align-items: center; gap: 6px; }
+.lang {
+  position: relative;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.06em;
+}
+.lang summary {
+  display: flex; align-items: center; gap: 7px;
+  padding: 10px 12px;
+  border: 1px solid transparent;
+  border-radius: 100px;
+  list-style: none;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: border-color 0.3s;
+}
+.lang summary::-webkit-details-marker { display: none; }
+.lang summary:hover,
+.lang details[open] summary { border-color: currentColor; }
+.lang ul {
+  position: absolute;
+  top: calc(100% + 8px); right: 0;
+  min-width: 156px;
+  padding: 6px;
+  border-radius: 16px;
+  background: var(--ink);
+  color: var(--paper);
+}
+/* The nav is difference-blended with the page, which would let page text show
+   through the open menu. Give the bar a solid ground while the menu is open. */
+.nav:has(.lang details[open]) {
+  mix-blend-mode: normal;
+  background: var(--ink);
+}
+.lang li a {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 9px 12px;
+  border-radius: 10px;
+  white-space: nowrap;
+}
+.lang li a:hover { background: var(--lime); color: var(--ink); }
+.lang li a[aria-current]::after {
+  content: '';
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+}
+@media (max-width: 480px) {
+  /* Globe only on phones: the open menu still marks the current language. */
+  .nav-actions { gap: 2px; }
+  .lang summary { padding: 10px; }
+  .lang summary span { display: none; }
+}
+
+/* Translated pages (app/[locale]/layout.tsx wraps them in .i18n-<locale>).
+   Instrument Serif / Inter Tight carry no CJK or Cyrillic glyphs, so each
+   script names the fallback it should land on instead of the OS default. */
+.i18n { font-family: var(--font-body); }
+.i18n-zh {
+  --font-display: 'Instrument Serif', 'Noto Serif SC', 'Songti SC', 'SimSun', serif;
+  --font-body: 'Inter Tight', -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  --font-mono: 'Geist Mono', 'PingFang SC', 'Microsoft YaHei', monospace;
+}
+.i18n-ja {
+  --font-display: 'Instrument Serif', 'Noto Serif JP', 'Hiragino Mincho ProN', 'Yu Mincho', serif;
+  --font-body: 'Inter Tight', -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Yu Gothic', 'Meiryo', sans-serif;
+  --font-mono: 'Geist Mono', 'Hiragino Sans', 'Yu Gothic', monospace;
+  line-break: strict;
+}
+.i18n-ko {
+  --font-display: 'Instrument Serif', 'Noto Serif KR', 'AppleMyungjo', 'Batang', serif;
+  --font-body: 'Inter Tight', -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+  --font-mono: 'Geist Mono', 'Apple SD Gothic Neo', 'Malgun Gothic', monospace;
+  word-break: keep-all;
+}
+.i18n-ru { --font-display: 'Instrument Serif', 'PT Serif', 'Times New Roman', serif; }
+/* Translated nav labels run longer than the English ones (and share the bar
+   with the language switcher), so keep them on one line and fold earlier. */
+.i18n .nav { gap: 16px; }
+.i18n .nav-links { gap: clamp(14px, 1.8vw, 28px); }
+.i18n .nav-links a,
+.i18n .nav-logo { white-space: nowrap; }
+@media (max-width: 1080px) {
+  .i18n .nav-links { display: none; }
+}
+/* CJK has no italic; a synthesised slant just looks broken. */
+.i18n-zh *, .i18n-ja *, .i18n-ko * { font-style: normal !important; }
+
 /* =========================================================
    HERO
    ========================================================= */

@@ -3,6 +3,7 @@ import path from 'node:path';
 import type { Metadata } from 'next';
 import Script from 'next/script';
 import { stripLegacyChrome } from '@/lib/legacy-chrome';
+import { languageAlternates } from '@/lib/i18n/config';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
   title: 'How Much Does Crypto PR Cost in 2026? Honest Pricing',
   description: 'What crypto PR actually costs in 2026: agency retainers, fractional models, single-launch sprints, KOL waves and the hidden line items most contracts bury.',
   
-  alternates: { canonical: 'https://www.shilikajain.com/playbook/crypto-pr-cost-2026' },
+  alternates: { canonical: 'https://www.shilikajain.com/playbook/crypto-pr-cost-2026', languages: languageAlternates('/playbook/crypto-pr-cost-2026') },
   openGraph: {
     title: 'How Much Does Crypto PR Cost in 2026? Honest Pricing',
     description: 'Web3 PR pricing in 2026: agency retainers vs fractional, what each dollar gets you, and where the markup hides.',

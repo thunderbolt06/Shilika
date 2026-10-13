@@ -3,13 +3,14 @@ import path from 'node:path';
 import type { Metadata } from 'next';
 import Script from 'next/script';
 import { stripLegacyChrome } from '@/lib/legacy-chrome';
+import { languageAlternates } from '@/lib/i18n/config';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
   title: 'Best B2B SaaS PR Agencies Ranked in 2026',
   description: 'B2B SaaS PR is a different sport from consumer. A criteria-led look at the field, what separates the best, and the fractional alternative.',
-  alternates: { canonical: `${SITE_URL}/playbook/best-b2b-saas-pr-agencies-2026` },
+  alternates: { canonical: `${SITE_URL}/playbook/best-b2b-saas-pr-agencies-2026`, languages: languageAlternates('/playbook/best-b2b-saas-pr-agencies-2026') },
   openGraph: {
     title: 'Best B2B SaaS PR Agencies Ranked in 2026',
     description: 'B2B SaaS PR is a different sport from consumer. A criteria-led look at the field, what separates the best, and the fractional alternative.',

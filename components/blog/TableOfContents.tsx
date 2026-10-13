@@ -4,9 +4,9 @@ import { useEffect, useState } from 'react';
 
 export type TocItem = { id: string; text: string; level: number };
 
-type Props = { items: TocItem[] };
+type Props = { items: TocItem[]; label?: string };
 
-export function TableOfContents({ items }: Props) {
+export function TableOfContents({ items, label = 'On this page' }: Props) {
   const [activeId, setActiveId] = useState<string>('');
 
   useEffect(() => {
@@ -37,7 +37,7 @@ export function TableOfContents({ items }: Props) {
     <nav className="post-toc" aria-label="Table of contents">
       <p className="post-toc-kicker">
         <span className="post-toc-dot" aria-hidden />
-        On this page
+        {label}
       </p>
       <ol className="post-toc-list">
         {items.map((it) => (

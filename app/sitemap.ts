@@ -1,5 +1,6 @@
 import type { MetadataRoute } from 'next';
 import { listPublishedPosts } from '@/lib/blog';
+import { I18N_PAGES, LOCALES, languageAlternates, localizePath } from '@/lib/i18n/config';
 import { FREE_TOOLS } from './tools/_data/free';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
@@ -315,6 +316,12 @@ const STATIC_PAGES: { path: string; priority: number; changeFrequency: MetadataR
   { path: '/pages/token-launch-marketing-agency', priority: 0.8, changeFrequency: 'monthly' },
 ];
 
+// hreflang alternates for pages that have translations; nothing for English-only pages.
+function hreflang(path: string) {
+  const languages = languageAlternates(path);
+  return languages ? { alternates: { languages } } : {};
+}
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // NOTE: previously this stamped every static page with `lastModified: new Date()`
   // on every request, which told Google literally every page on the site changed
@@ -331,7 +338,19 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     // Attach video sitemap entries only to the homepage, the one page that embeds
     // the two videos described in HOMEPAGE_VIDEOS.
     ...(path === '/' ? { videos: HOMEPAGE_VIDEOS } : {}),
+    ...hreflang(path),
   }));
+
+  // Translated pages (/zh, /ko, /ja, /es, /ru). Each one lists the full
+  // hreflang set, mirroring the <link rel="alternate"> tags on the page.
+  const localizedEntries: MetadataRoute.Sitemap = LOCALES.flatMap((locale) =>
+    I18N_PAGES.map((page) => ({
+      url: `${SITE_URL}${localizePath(locale, page.path)}`,
+      priority: page.path === '/' ? 0.9 : 0.6,
+      changeFrequency: 'monthly' as const,
+      ...hreflang(page.path),
+    })),
+  );
 
   let blogEntries: MetadataRoute.Sitemap = [];
   try {
@@ -341,11 +360,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       lastModified: new Date(p.updated_at),
       priority: 0.7,
       changeFrequency: 'monthly' as const,
+      ...hreflang(`/blog/${p.slug}`),
     }));
   } catch {
     // Supabase not reachable at build time - ship static-only sitemap and let
     // the next revalidation pick up the blog rows.
   }
 
-  return [...staticEntries, ...blogEntries];
+  return [...staticEntries, ...localizedEntries, ...blogEntries];
 }

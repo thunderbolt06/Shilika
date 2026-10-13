@@ -3,6 +3,7 @@ import path from 'node:path';
 import type { Metadata } from 'next';
 import { EditorialShell } from '@/components/site/EditorialChrome';
 import { EditorialScripts } from '@/components/site/EditorialScripts';
+import { languageAlternates } from '@/lib/i18n/config';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
   title: 'Contact: Book a 30-min Web3 & AI PR Teardown',
   description:
     "Have a launch on the horizon? Send a note or book a 30-min intro call - I'll come prepped with a teardown of your current press footprint.",
-  alternates: { canonical: `${SITE_URL}/contact` },
+  alternates: { canonical: `${SITE_URL}/contact`, languages: languageAlternates('/contact') },
   openGraph: {
     title: 'Contact: Book a 30-min Web3 & AI PR Teardown',
     description:

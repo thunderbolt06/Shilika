@@ -3,6 +3,7 @@ import path from 'node:path';
 import type { Metadata } from 'next';
 import Script from 'next/script';
 import { stripLegacyChrome } from '@/lib/legacy-chrome';
+import { languageAlternates } from '@/lib/i18n/config';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
@@ -11,7 +12,7 @@ export const metadata: Metadata = {
   description:
     'How to pitch Cointelegraph and earn editorial coverage in 2026: how the newsroom is structured, the dated news peg, the under-150-word pitch, the editorial firewall, and the multilingual APAC editions.',
 
-  alternates: { canonical: `${SITE_URL}/playbook/how-to-pitch-cointelegraph-2026` },
+  alternates: { canonical: `${SITE_URL}/playbook/how-to-pitch-cointelegraph-2026`, languages: languageAlternates('/playbook/how-to-pitch-cointelegraph-2026') },
   openGraph: {
     title: 'How to Pitch Cointelegraph in 2026: Pitch Guide',
     description:

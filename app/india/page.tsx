@@ -2,13 +2,14 @@ import fs from 'node:fs';
 import path from 'node:path';
 import type { Metadata } from 'next';
 import Script from 'next/script';
+import { languageAlternates } from '@/lib/i18n/config';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
   title: 'India Web3 & AI PR 2026: Inc42, Economic Times, Forbes India',
   description: 'India PR for Web3 and AI founders. Home-market exclusives in Inc42, YourStory, Economic Times, Forbes India, Mint. SEBI-aware framing, ETHIndia leverage.',
-  alternates: { canonical: `${SITE_URL}/india` },
+  alternates: { canonical: `${SITE_URL}/india`, languages: languageAlternates('/india') },
   openGraph: {
     title: 'India Web3 & AI PR 2026: Inc42, Economic Times, Forbes India',
     description: 'India PR for Web3 and AI founders. Inc42, YourStory, Economic Times, Forbes India, Mint, Moneycontrol. SEBI-aware framing, $626M India Web3 funding context, ETHIndia leverage.',

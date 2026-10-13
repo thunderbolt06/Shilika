@@ -1,6 +1,17 @@
 'use client';
 
 import { useEffect } from 'react';
+import { usePathname } from 'next/navigation';
+import { findI18nPage, localizePath, splitLocalePath, type Lang } from '@/lib/i18n/config';
+import { languageToggleHtml } from '@/lib/i18n/toggle';
+import EN from '@/lib/i18n/ui.en.json';
+
+export type UiStrings = Record<string, string>;
+
+/** Internal link in the visitor's language when that page is translated, else English. */
+function hrefFor(lang: Lang, path: string): string {
+  return findI18nPage(path) ? localizePath(lang, path) : path;
+}
 
 /**
  * Editorial site chrome. Renders the same cursor, grain overlay,
@@ -87,10 +98,18 @@ export function EditorialGrain() {
  * so they jump back to the home and scroll. Internal routes stay as
  * top-level paths.
  */
-export function EditorialNav({ active }: { active?: 'blog' | 'playbook' | 'about' | 'testimonials' }) {
+export function EditorialNav({
+  active,
+  strings = EN,
+}: {
+  active?: 'blog' | 'playbook' | 'about' | 'testimonials';
+  strings?: UiStrings;
+}) {
+  const { lang, path } = splitLocalePath(usePathname() ?? '/');
+  const t = (key: keyof typeof EN) => strings[key] ?? EN[key];
   return (
     <nav className="nav">
-      <a href="/" className="nav-logo">
+      <a href={hrefFor(lang, '/')} className="nav-logo">
         <svg width="34" height="34" viewBox="0 0 34 34" fill="none" aria-hidden>
           <circle cx="17" cy="17" r="16" stroke="currentColor" strokeWidth="1" />
           <path d="M11 22 Q17 8 23 22" stroke="currentColor" strokeWidth="1.2" fill="none" />
@@ -102,13 +121,13 @@ export function EditorialNav({ active }: { active?: 'blog' | 'playbook' | 'about
       </a>
       <ul className="nav-links">
         <li>
-          <a href="/work" data-magnet>
-            Work
+          <a href={hrefFor(lang, '/work')} data-magnet>
+            {t('nav.work')}
           </a>
         </li>
         <li>
-          <a href="/services" data-magnet>
-            Services
+          <a href={hrefFor(lang, '/services')} data-magnet>
+            {t('nav.services')}
           </a>
         </li>
         <li>
@@ -117,107 +136,115 @@ export function EditorialNav({ active }: { active?: 'blog' | 'playbook' | 'about
             data-magnet
             className={active === 'blog' || active === 'playbook' ? 'is-active' : undefined}
           >
-            Writing
+            {t('nav.writing')}
           </a>
         </li>
         <li>
-          <a href="/about" data-magnet>
-            About
+          <a href={hrefFor(lang, '/about')} data-magnet>
+            {t('nav.about')}
           </a>
         </li>
         <li>
           <a href="/testimonials" data-magnet className={active === 'testimonials' ? 'is-active' : undefined}>
-            Testimonials
+            {t('nav.testimonials')}
           </a>
         </li>
         <li>
-          <a href="/contact" data-magnet>
-            Contact
+          <a href={hrefFor(lang, '/contact')} data-magnet>
+            {t('nav.contact')}
           </a>
         </li>
       </ul>
-      <a
-        href="https://calendly.com/shilikajain/30min/"
-        target="_blank"
-        rel="noopener"
-        className="nav-cta"
-        data-magnet
-      >
-        <span>Book a call</span>
-        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden>
-          <path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" strokeWidth="1.4" />
-        </svg>
-      </a>
+      <div className="nav-actions">
+        <div
+          className="lang"
+          dangerouslySetInnerHTML={{ __html: languageToggleHtml(lang, path, t('lang.label')) }}
+        />
+        <a
+          href="https://calendly.com/shilikajain/30min/"
+          target="_blank"
+          rel="noopener"
+          className="nav-cta"
+          data-magnet
+        >
+          <span>{t('nav.cta')}</span>
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden>
+            <path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" strokeWidth="1.4" />
+          </svg>
+        </a>
+      </div>
     </nav>
   );
 }
 
-export function EditorialFooter() {
+export function EditorialFooter({ strings = EN }: { strings?: UiStrings }) {
+  const { lang } = splitLocalePath(usePathname() ?? '/');
+  const t = (key: keyof typeof EN) => strings[key] ?? EN[key];
   return (
     <footer className="footer">
       <div className="footer-marquee" aria-hidden="true">
         <div className="footer-marquee-track">
-          <span>LET&apos;S MAKE NOISE</span>
+          <span>{t('footer.marquee')}</span>
           <span>·</span>
-          <span>LET&apos;S MAKE NOISE</span>
+          <span>{t('footer.marquee')}</span>
           <span>·</span>
-          <span>LET&apos;S MAKE NOISE</span>
+          <span>{t('footer.marquee')}</span>
           <span>·</span>
-          <span>LET&apos;S MAKE NOISE</span>
+          <span>{t('footer.marquee')}</span>
           <span>·</span>
-          <span>LET&apos;S MAKE NOISE</span>
+          <span>{t('footer.marquee')}</span>
           <span>·</span>
         </div>
       </div>
 
       <nav className="footer-nav" aria-label="Site navigation">
         <div className="footer-nav-col">
-          <p className="footer-nav-head">Company</p>
-          <a href="/">Home</a>
-          <a href="/about">About</a>
-          <a href="/work">Case Studies</a>
-          <a href="/testimonials">Testimonials</a>
-          <a href="/press">Press</a>
-          <a href="/speaker">Speaking</a>
-          <a href="/faq">FAQ</a>
+          <p className="footer-nav-head">{t('footer.company')}</p>
+          <a href={hrefFor(lang, '/')}>{t('footer.home')}</a>
+          <a href={hrefFor(lang, '/about')}>{t('footer.about')}</a>
+          <a href={hrefFor(lang, '/work')}>{t('footer.work')}</a>
+          <a href={hrefFor(lang, '/testimonials')}>{t('footer.testimonials')}</a>
+          <a href={hrefFor(lang, '/press')}>{t('footer.press')}</a>
+          <a href={hrefFor(lang, '/speaker')}>{t('footer.speaking')}</a>
+          <a href={hrefFor(lang, '/faq')}>{t('footer.faq')}</a>
         </div>
 
         <div className="footer-nav-col">
-          <p className="footer-nav-head">Services</p>
-          <a href="/services">All Services</a>
-          <a href="/services/web3-pr-campaigns">Web3 PR</a>
-          <a href="/services/token-launch-pr">Token Launch PR</a>
-          <a href="/services/ai-startup-pr">AI Startup PR</a>
-          <a href="/services/kol-marketing">KOL Marketing</a>
-          <a href="/services/founder-profiling">Founder Profiling</a>
-          <a href="/services/content-writing">Content Writing</a>
-          <a href="/services/apac-pr">APAC PR</a>
-          <a href="/services/cybersecurity-pr">Cybersecurity PR</a>
+          <p className="footer-nav-head">{t('footer.services')}</p>
+          <a href={hrefFor(lang, '/services')}>{t('footer.allServices')}</a>
+          <a href={hrefFor(lang, '/services/web3-pr-campaigns')}>{t('footer.web3Pr')}</a>
+          <a href={hrefFor(lang, '/services/token-launch-pr')}>{t('footer.tokenLaunchPr')}</a>
+          <a href={hrefFor(lang, '/services/ai-startup-pr')}>{t('footer.aiStartupPr')}</a>
+          <a href={hrefFor(lang, '/services/kol-marketing')}>{t('footer.kolMarketing')}</a>
+          <a href={hrefFor(lang, '/services/founder-profiling')}>{t('footer.founderProfiling')}</a>
+          <a href={hrefFor(lang, '/services/content-writing')}>{t('footer.contentWriting')}</a>
+          <a href={hrefFor(lang, '/services/apac-pr')}>{t('footer.apacPr')}</a>
+          <a href={hrefFor(lang, '/services/cybersecurity-pr')}>{t('footer.cybersecurityPr')}</a>
         </div>
 
         <div className="footer-nav-col">
-          <p className="footer-nav-head">Writing</p>
-          <a href="/blog">Blog</a>
-          <a href="/playbook">Playbooks</a>
-          <a href="/glossary">Glossary</a>
-          <a href="/tools">Free Tools</a>
-          <a href="/pages">Pages</a>
+          <p className="footer-nav-head">{t('footer.writing')}</p>
+          <a href={hrefFor(lang, '/blog')}>{t('footer.blog')}</a>
+          <a href={hrefFor(lang, '/playbook')}>{t('footer.playbooks')}</a>
+          <a href={hrefFor(lang, '/glossary')}>{t('footer.glossary')}</a>
+          <a href={hrefFor(lang, '/tools')}>{t('footer.tools')}</a>
+          <a href={hrefFor(lang, '/pages')}>{t('footer.pages')}</a>
         </div>
 
         <div className="footer-nav-col">
-          <p className="footer-nav-head">Regions</p>
-          <a href="/apac">APAC</a>
-          <a href="/india">India</a>
-          <a href="/japan">Japan</a>
-          <a href="/korea">Korea</a>
-          <a href="/singapore">Singapore</a>
-          <a href="/dubai-mena">Dubai &amp; MENA</a>
+          <p className="footer-nav-head">{t('footer.regions')}</p>
+          <a href={hrefFor(lang, '/apac')}>{t('footer.apac')}</a>
+          <a href={hrefFor(lang, '/india')}>{t('footer.india')}</a>
+          <a href={hrefFor(lang, '/japan')}>{t('footer.japan')}</a>
+          <a href={hrefFor(lang, '/korea')}>{t('footer.korea')}</a>
+          <a href={hrefFor(lang, '/singapore')}>{t('footer.singapore')}</a>
+          <a href={hrefFor(lang, '/dubai-mena')}>{t('footer.dubaiMena')}</a>
         </div>
 
         <div className="footer-nav-col">
-          <p className="footer-nav-head">Contact &amp; Sources</p>
-          <a href="/contact">Contact</a>
-          <a href="https://calendly.com/shilikajain/30min/" target="_blank" rel="noopener">Book a Call</a>
+          <p className="footer-nav-head">{t('footer.contactSources')}</p>
+          <a href={hrefFor(lang, '/contact')}>{t('footer.contact')}</a>
+          <a href="https://calendly.com/shilikajain/30min/" target="_blank" rel="noopener">{t('footer.bookCall')}</a>
           <a href="mailto:shilika498@gmail.com">shilika498@gmail.com</a>
           <a href="https://www.linkedin.com/in/shilika/" target="_blank" rel="noopener">LinkedIn</a>
           <a href="https://x.com/Shilika_jain" target="_blank" rel="noopener">Twitter / X</a>
@@ -226,7 +253,7 @@ export function EditorialFooter() {
 
       <div className="footer-row">
         <span className="mono">© SHILIKA JAIN - 2019-2026</span>
-        <span className="mono">Web3 &amp; AI PR · APAC &amp; Global</span>
+        <span className="mono">{t('footer.tagline')}</span>
       </div>
     </footer>
   );
@@ -234,18 +261,21 @@ export function EditorialFooter() {
 
 export function EditorialShell({
   active,
+  strings,
   children,
 }: {
   active?: 'blog' | 'playbook' | 'about' | 'testimonials';
+  /** Translated chrome strings; omit for English. */
+  strings?: UiStrings;
   children: React.ReactNode;
 }) {
   return (
     <>
       <EditorialCursor />
       <EditorialGrain />
-      <EditorialNav active={active} />
+      <EditorialNav active={active} strings={strings} />
       {children}
-      <EditorialFooter />
+      <EditorialFooter strings={strings} />
     </>
   );
 }

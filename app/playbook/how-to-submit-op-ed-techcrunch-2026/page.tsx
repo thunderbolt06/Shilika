@@ -3,13 +3,14 @@ import path from 'node:path';
 import type { Metadata } from 'next';
 import Script from 'next/script';
 import { stripLegacyChrome } from '@/lib/legacy-chrome';
+import { languageAlternates } from '@/lib/i18n/config';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
   title: 'How to Submit an Op-Ed to TechCrunch (and Where Else) in 2026',
   description: 'TechCrunch rarely runs outside op-eds, so where do founder essays actually land? The real opinion-desk map and a submission that works.',
-  alternates: { canonical: `${SITE_URL}/playbook/how-to-submit-op-ed-techcrunch-2026` },
+  alternates: { canonical: `${SITE_URL}/playbook/how-to-submit-op-ed-techcrunch-2026`, languages: languageAlternates('/playbook/how-to-submit-op-ed-techcrunch-2026') },
   openGraph: {
     title: 'How to Submit an Op-Ed to TechCrunch (and Where Else) in 2026',
     description: 'TechCrunch rarely runs outside op-eds, so where do founder essays actually land? The real opinion-desk map and a submission that works.',

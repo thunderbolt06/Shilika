@@ -1,9 +1,11 @@
-import crypto from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
 import type { Metadata } from 'next';
 import Script from 'next/script';
 import { ClientReBoot } from '@/components/site/ClientReBoot';
+import { assetUrl } from '@/lib/asset-url';
+import { languageAlternates } from '@/lib/i18n/config';
+import { LANG_TOGGLE_SLOT, languageToggleHtml } from '@/lib/i18n/toggle';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
@@ -11,7 +13,7 @@ export const metadata: Metadata = {
   title: 'Web3 PR & AI PR Consultant | Shilika Jain',
   description:
     'Fractional Web3 PR and AI PR for crypto and AI startups. Coverage in Forbes, CoinDesk, Economic Times and Yahoo Finance. $5k-10k/month. Book a call.',
-  alternates: { canonical: SITE_URL },
+  alternates: { canonical: SITE_URL, languages: languageAlternates('/') },
   openGraph: {
     type: 'website',
     siteName: 'Shilika Jain',
@@ -50,22 +52,8 @@ function loadHomepageJsonLd(): string {
   return fs.readFileSync(file, 'utf8');
 }
 
-// Content-hash a /public asset into its URL. site.js ships from a stable,
-// non-fingerprinted URL, so without this a returning visitor's browser keeps
-// running whatever build it first cached. The hash changes whenever the file
-// changes, minting a fresh URL that busts stale caches on every deploy.
-function assetUrl(publicRelPath: string): string {
-  try {
-    const file = path.join(process.cwd(), 'public', publicRelPath);
-    const hash = crypto.createHash('sha1').update(fs.readFileSync(file)).digest('hex').slice(0, 10);
-    return `/${publicRelPath}?v=${hash}`;
-  } catch {
-    return `/${publicRelPath}`;
-  }
-}
-
 export default function HomePage() {
-  const body = loadHomepageBody();
+  const body = loadHomepageBody().replace(LANG_TOGGLE_SLOT, languageToggleHtml('en', '/'));
   const jsonLd = loadHomepageJsonLd();
   return (
     <>

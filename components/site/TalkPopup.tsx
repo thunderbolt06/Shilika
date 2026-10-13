@@ -2,6 +2,9 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { usePathname } from 'next/navigation';
+import { splitLocalePath } from '@/lib/i18n/config';
+import { withEm } from '@/lib/i18n/rich';
+import EN from '@/lib/i18n/ui.en.json';
 
 /**
  * "Talk to Shilika" nudge. Opens after 30s of active time on a page (the
@@ -27,13 +30,19 @@ function markSeen() {
   try { sessionStorage.setItem(SEEN_KEY, '1'); } catch {}
 }
 
-export default function TalkPopup() {
+/**
+ * The root layout mounts the English popup; app/[locale]/layout.tsx mounts a
+ * translated one (with `strings`) and the English instance stands down there.
+ */
+export default function TalkPopup({ strings }: { strings?: Record<string, string> }) {
   const pathname = usePathname() ?? '/';
+  const t = (key: keyof typeof EN) => strings?.[key] ?? EN[key];
+  const otherInstance = !strings && splitLocalePath(pathname).lang !== 'en';
   const [open, setOpen] = useState(false);
   const closeRef = useRef<HTMLButtonElement>(null);
 
   useEffect(() => {
-    if (open || excluded(pathname) || alreadySeen()) return;
+    if (open || otherInstance || excluded(pathname) || alreadySeen()) return;
 
     let elapsed = 0;
     let startedAt = 0;
@@ -64,7 +73,7 @@ export default function TalkPopup() {
       clearTimeout(timer);
       document.removeEventListener('visibilitychange', onVisibility);
     };
-  }, [pathname, open]);
+  }, [pathname, open, otherInstance]);
 
   useEffect(() => {
     if (!open) return;
@@ -89,7 +98,7 @@ export default function TalkPopup() {
           ref={closeRef}
           type="button"
           className="talk-pop__close"
-          aria-label="Close"
+          aria-label={t('talk.close')}
           onClick={() => setOpen(false)}
         >
           ×
@@ -101,16 +110,16 @@ export default function TalkPopup() {
           width={72}
           height={72}
         />
-        <p className="talk-pop__eyebrow">Got questions?</p>
+        <p className="talk-pop__eyebrow">{t('talk.eyebrow')}</p>
         <h2 id="talk-pop-title" className="talk-pop__title">
-          Talk directly to <em>Shilika Jain</em> for details
+          {withEm(t('talk.title'))}
         </h2>
         <div className="talk-pop__ctas">
           <a className="talk-pop__btn talk-pop__btn--primary" href={TELEGRAM_URL} target="_blank" rel="noopener">
-            Chat on Telegram
+            {t('talk.telegram')}
           </a>
           <a className="talk-pop__btn" href={CALENDLY_URL} target="_blank" rel="noopener">
-            Book a call
+            {t('talk.call')}
           </a>
         </div>
       </div>
