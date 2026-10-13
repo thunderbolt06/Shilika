@@ -15,4 +15,5 @@ coverage
 .vscode
 *.mp4
 *.mov
+!public/assets/hero-reel.mp4
 supabase/.temp

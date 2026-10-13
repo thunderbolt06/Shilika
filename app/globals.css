@@ -388,6 +388,71 @@ ul { list-style: none; }
   to { transform: translateY(0); opacity: 1; }
 }
 
+/* Hero copy + portrait reel side by side; the title steps down a size so it
+   still breaks cleanly in the narrower column. */
+.hero-top {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) clamp(230px, 21vw, 310px);
+  gap: clamp(32px, 4vw, 72px);
+  align-items: center;
+  margin-bottom: 48px;
+}
+.hero-top .hero-title { font-size: clamp(56px, 8.4vw, 144px); }
+.hero-reel {
+  position: relative;
+  aspect-ratio: 9 / 16;
+  background: var(--ink);
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow:
+    0 1px 0 var(--line),
+    0 30px 80px -30px rgba(0,0,0,0.45),
+    0 12px 30px -12px rgba(0,0,0,0.25);
+  opacity: 0;
+  transform: translateY(20px);
+  animation: word-rise 1s var(--ease-out-expo) 0.6s forwards;
+}
+.hero-reel-video {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+  object-fit: cover;
+  display: block;
+  pointer-events: none;
+}
+.hero-reel-sound {
+  position: absolute;
+  top: 12px; right: 12px;
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 9px 13px;
+  border: 0;
+  border-radius: 100px;
+  background: rgba(0,0,0,0.55);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  color: #fff;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  transition: background 0.3s, color 0.3s;
+}
+.hero-reel-sound:hover,
+.hero-reel-sound[aria-pressed="true"] { background: var(--lime); color: var(--ink); }
+.hero-reel-sound:focus-visible { outline: 2px solid var(--lime); outline-offset: 2px; }
+.hero-reel-icon--on,
+.hero-reel-sound[aria-pressed="true"] .hero-reel-icon--off { display: none; }
+.hero-reel-sound[aria-pressed="true"] .hero-reel-icon--on { display: block; }
+@media (max-width: 900px) {
+  .hero-top { grid-template-columns: 1fr; gap: 44px; }
+  .hero-top .hero-title { font-size: clamp(56px, 10.5vw, 180px); }
+  .hero-reel { width: min(100%, 300px); }
+  .hero-reel-sound { cursor: pointer; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-reel { animation: none; opacity: 1; transform: none; }
+}
+
 .hero-bottom {
   display: grid;
   grid-template-columns: 1fr 1.4fr;

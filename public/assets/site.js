@@ -139,6 +139,46 @@ setInterval(tick, 1000); tick();
   });
 })();
 
+// ---------- HERO REEL (autoplay in view, mute toggle only) ----------
+// Starts muted (browsers block autoplay with sound) once the intro deck is
+// gone and the reel is on screen; pauses when scrolled away. The only
+// control is the sound button.
+(function () {
+  const wrap = document.getElementById('hero-reel');
+  if (!wrap) return;
+  const video = wrap.querySelector('video');
+  const btn = wrap.querySelector('.hero-reel-sound');
+  const label = wrap.querySelector('.hero-reel-label');
+  const deck = document.getElementById('icards');
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let inView = false;
+
+  const introDone = () => !deck || deck.classList.contains('gone') || deck.style.display === 'none';
+  function sync() {
+    if (inView && introDone()) {
+      if (video.paused && (!reduceMotion || !video.muted)) video.play().catch(() => {});
+    } else if (!video.paused) {
+      video.pause();
+    }
+  }
+
+  new IntersectionObserver((entries) => {
+    inView = entries[0].isIntersecting;
+    sync();
+  }, { threshold: 0.5 }).observe(wrap);
+  if (deck) new MutationObserver(sync).observe(deck, { attributes: true, attributeFilter: ['class', 'style'] });
+
+  btn.addEventListener('click', () => {
+    video.muted = !video.muted;
+    const on = !video.muted;
+    btn.setAttribute('aria-pressed', String(on));
+    btn.setAttribute('aria-label', on ? 'Mute video' : 'Unmute video');
+    label.textContent = on ? 'Sound on' : 'Sound off';
+    if (on && video.paused) video.play().catch(() => {});
+    try { if (on && window.posthog) posthog.capture('hero_reel_unmute'); } catch (e) {}
+  });
+})();
+
 // ---------- CONTACT FORM ----------
 const form = document.getElementById('contact-form');
 const status = document.getElementById('form-status');
