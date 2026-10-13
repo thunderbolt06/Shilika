@@ -11,7 +11,8 @@
     if (!cards.length) return;
     var counter = document.getElementById('icards-current');
     var skip = document.getElementById('icards-skip');
-    var idx = 0, busy = false, done = false;
+    var idx = 0, done = false;
+    var lastGo = 0, exitTimer = null;
     document.body.style.overflow = 'hidden';
 
     function dismiss() {
@@ -22,22 +23,27 @@
       setTimeout(function () { deck.style.display = 'none'; }, 650);
     }
 
+    // Transitions are interruptible: a new step retargets the cards
+    // mid-animation instead of being dropped while the previous one
+    // finishes. Only a short cooldown remains, to swallow the second
+    // click of an accidental double-click.
     function go(dir) {
-      if (busy || done) return;
+      if (done) return;
+      var now = Date.now();
+      if (now - lastGo < 220) return;
       var next = idx + dir;
       if (next < 0) return;
+      lastGo = now;
       if (next >= cards.length) { dismiss(); return; }
-      busy = true;
+      clearTimeout(exitTimer);
+      cards.forEach(function (c) { c.classList.remove('is-exit'); });
       var cur = cards[idx];
       cur.classList.remove('is-active');
       if (dir > 0) cur.classList.add('is-exit');
       cards[next].classList.add('is-active');
       idx = next;
       if (counter) counter.textContent = String(idx + 1).padStart(2, '0');
-      setTimeout(function () {
-        cur.classList.remove('is-exit');
-        busy = false;
-      }, 620);
+      exitTimer = setTimeout(function () { cur.classList.remove('is-exit'); }, 620);
     }
 
     // Wheel / trackpad. Trackpads send a burst of many small-deltaY ticks
@@ -76,6 +82,17 @@
     deck.addEventListener('click', function (e) {
       if (e.target.closest('a, button')) return;
       go(1);
+    });
+
+    // The card text must never become a selection: once it is selected,
+    // the next press on it starts a text drag and no click fires at all.
+    deck.addEventListener('mousedown', function (e) {
+      if (e.target.closest('a, button')) return;
+      e.preventDefault();
+    });
+    deck.addEventListener('selectstart', function (e) { e.preventDefault(); });
+    deck.addEventListener('dragstart', function (e) {
+      if (!e.target.closest || !e.target.closest('a')) e.preventDefault();
     });
 
     // Keyboard
