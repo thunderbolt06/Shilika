@@ -41,14 +41,14 @@ export const GLOSSARY: GlossaryTerm[] = [
 <h2>Fractional PR vs agency vs in-house</h2>
 <p>A traditional <a href="/playbook/best-web3-pr-agencies-2026">Web3 PR agency</a> sells you a team and bandwidth. That works at scale, but founder access is thin and execution often drops to junior staff. A full-time in-house hire gives you dedication and context, but it is slow to recruit and expensive once equity is counted. Fractional sits in the middle: senior judgment and direct access, scoped to what an early-stage company actually needs. The <a href="/playbook/fractional-vs-agency">fractional vs agency decision tree</a> walks through which one fits.</p>
 <h2>What it costs</h2>
-<p>Fractional engagements in Web3 and AI PR typically run roughly $5,000 to $12,000 a month, against $15,000 to $45,000 for a full agency retainer. The gap is not lower quality; it is fewer layers and no idle bandwidth. The full breakdown is in <a href="/playbook/crypto-pr-cost-2026">how much crypto PR costs in 2026</a>.</p>
+<p>Fractional engagements in Web3 and AI PR typically run roughly $3,000 to $7,000 a month, against $15,000 to $45,000 for a full agency retainer. The gap is not lower quality; it is fewer layers and no idle bandwidth. The full breakdown is in <a href="/playbook/crypto-pr-cost-2026">how much crypto PR costs in 2026</a>.</p>
 <h2>Who fractional PR is for</h2>
 <p>It fits funded Web3, AI and cybersecurity startups that have real news to make (a raise, a mainnet, a model, a partnership) but no in-house comms lead, and founders who want a senior partner rather than a vendor. It is the wrong fit for a company that needs ten people on a daily newsroom, or one with no news and no spokesperson willing to show up.</p>
 `,
     faqs: [
       {
         q: 'How much does fractional PR cost?',
-        a: 'Fractional PR for Web3 and AI startups usually runs roughly $5,000 to $12,000 a month, compared with $15,000 to $45,000 for a full agency retainer. You pay for senior time scoped to what an early-stage company needs, not for a layered team or idle bandwidth.',
+        a: 'Fractional PR for Web3 and AI startups usually runs roughly $3,000 to $7,000 a month, compared with $15,000 to $45,000 for a full agency retainer. You pay for senior time scoped to what an early-stage company needs, not for a layered team or idle bandwidth.',
       },
       {
         q: 'What is the difference between fractional PR and a freelancer?',

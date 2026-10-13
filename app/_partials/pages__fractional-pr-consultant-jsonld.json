@@ -7,7 +7,7 @@
       "name": "Fractional PR Consultant - Senior, Embedded, Affordable",
       "serviceType": "Web3 PR",
       "url": "https://www.shilikajain.com/pages/fractional-pr-consultant",
-      "description": "A senior PR operator embedded part-time like a team member, for a fraction of an agency retainer. Shilika Jain works with Web3, AI, DePIN and cybersecurity founders for $5K–$12K/month, versus $15K–$45K/month at a traditional agency, with no account-team markup between you and the person pitching tier-1 editors.",
+      "description": "A senior PR operator embedded part-time like a team member, for a fraction of an agency retainer. Shilika Jain works with Web3, AI, DePIN and cybersecurity founders for $3K–$7K/month, versus $15K–$45K/month at a traditional agency, with no account-team markup between you and the person pitching tier-1 editors.",
       "provider": {
         "@type": "Person",
         "@id": "https://www.shilikajain.com/#person",
@@ -58,7 +58,7 @@
           "name": "How much does a fractional PR consultant cost?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A fractional senior operator typically runs $5K–$12K/month depending on scope and cadence. A traditional full-service PR agency charges $15K–$45K/month because the retainer funds a multi-person account team. A focused launch sprint, covering four to eight weeks of intensive work around a specific moment, runs $15K–$40K as a fixed project."
+            "text": "A fractional senior operator typically runs $3K–$7K/month depending on scope and cadence. A traditional full-service PR agency charges $15K–$45K/month because the retainer funds a multi-person account team. A focused launch sprint, covering four to eight weeks of intensive work around a specific moment, runs $15K–$40K as a fixed project."
           }
         },
         {

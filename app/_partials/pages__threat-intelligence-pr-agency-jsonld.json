@@ -7,7 +7,7 @@
       "name": "Threat Intelligence PR Agency - Fractional Senior Operator",
       "serviceType": "Cybersecurity PR",
       "url": "https://www.shilikajain.com/pages/threat-intelligence-pr-agency",
-      "description": "Package and place threat-intelligence findings for maximum credible reach with coordinated disclosure. A fractional senior operator who understands embargo mechanics, the security beat and responsible disclosure timelines, for $5K–$12K/month versus $15K–$45K full-agency retainers.",
+      "description": "Package and place threat-intelligence findings for maximum credible reach with coordinated disclosure. A fractional senior operator who understands embargo mechanics, the security beat and responsible disclosure timelines, for $3K–$7K/month versus $15K–$45K full-agency retainers.",
       "provider": {
         "@type": "Person",
         "@id": "https://www.shilikajain.com/#person",
@@ -50,7 +50,7 @@
           "name": "What is a threat intelligence PR agency and who is it for?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A threat intelligence PR agency packages and places security research findings in the outlets practitioners, buyers and investors actually read, while managing the coordinated disclosure process so affected vendors are notified before anything is published. It is for threat research teams, cybersecurity vendors, red-team shops and founders in the infosec space who have real findings but need a credible public narrative. Shilika Jain runs this directly for $5K–$12K/month."
+            "text": "A threat intelligence PR agency packages and places security research findings in the outlets practitioners, buyers and investors actually read, while managing the coordinated disclosure process so affected vendors are notified before anything is published. It is for threat research teams, cybersecurity vendors, red-team shops and founders in the infosec space who have real findings but need a credible public narrative. Shilika Jain runs this directly for $3K–$7K/month."
           }
         },
         {
@@ -58,7 +58,7 @@
           "name": "How much does cybersecurity PR cost?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Full agencies with a multi-person account team charge $15K–$45K per month. A fractional senior operator covers the same senior scope for $5K–$12K per month. A single research launch or breach comms sprint runs $15K–$40K over four to eight weeks, depending on disclosure complexity and number of vendors involved."
+            "text": "Full agencies with a multi-person account team charge $15K–$45K per month. A fractional senior operator covers the same senior scope for $3K–$7K per month. A single research launch or breach comms sprint runs $15K–$40K over four to eight weeks, depending on disclosure complexity and number of vendors involved."
           }
         },
         {

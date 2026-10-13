@@ -138,7 +138,7 @@
               "@type": "Service",
               "@id": "https://www.shilikajain.com/services/kol-marketing#service",
               "name": "KOL & Influencer Marketing",
-              "description": "Fractional, senior-operator-led KOL and influencer marketing for Web3, AI and cybersecurity founders. 200+ vetted creators across X, YouTube, Telegram, Farcaster and Lens, segmented by region (Korea, Japan, Vietnam, China, India, Singapore, MENA, US, EU), vertical (DeFi, DePIN, gaming, AI agents, RWA, restaking, intents) and audience quality. Three-wave launch sequencing (T-72h credibility, T+0 broad activation, T+24h sustained), independent fraud audit, FTC and SEC-aware disclosure briefs, on-chain attribution, post-campaign report with renew-or-kill calls per creator. KOL Wave Retainer $5K-$12K/mo, TGE KOL Sprint $15K-$45K, Always-On Network $2,500/mo.",
+              "description": "Fractional, senior-operator-led KOL and influencer marketing for Web3, AI and cybersecurity founders. 200+ vetted creators across X, YouTube, Telegram, Farcaster and Lens, segmented by region (Korea, Japan, Vietnam, China, India, Singapore, MENA, US, EU), vertical (DeFi, DePIN, gaming, AI agents, RWA, restaking, intents) and audience quality. Three-wave launch sequencing (T-72h credibility, T+0 broad activation, T+24h sustained), independent fraud audit, FTC and SEC-aware disclosure briefs, on-chain attribution, post-campaign report with renew-or-kill calls per creator. KOL Wave Retainer $3K-$7K/mo, TGE KOL Sprint $15K-$45K, Always-On Network $2,500/mo.",
               "serviceType": "Influencer Marketing",
               "url": "https://www.shilikajain.com/services/kol-marketing",
               "provider": { "@id": "https://www.shilikajain.com/#person" }

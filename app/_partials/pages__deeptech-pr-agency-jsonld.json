@@ -7,7 +7,7 @@
       "name": "Deep-Tech PR Agency - Fractional Senior Operator",
       "serviceType": "AI Startup PR",
       "url": "https://www.shilikajain.com/pages/deeptech-pr-agency",
-      "description": "Fractional senior deep-tech PR for AI infrastructure, DePIN and cryptography founders who need a communicator that can read the whitepaper and still write a pitch a Forbes editor wants to open. 50+ technical founders placed in Forbes, CoinDesk, Decrypt, Benzinga and Cointelegraph, including Gaia AI (Forbes as the Stripe for AI agents) and Fluence (invented the DePIN category at CoinDesk). Retainers from $5K to $12K per month.",
+      "description": "Fractional senior deep-tech PR for AI infrastructure, DePIN and cryptography founders who need a communicator that can read the whitepaper and still write a pitch a Forbes editor wants to open. 50+ technical founders placed in Forbes, CoinDesk, Decrypt, Benzinga and Cointelegraph, including Gaia AI (Forbes as the Stripe for AI agents) and Fluence (invented the DePIN category at CoinDesk). Retainers from $3K to $7K per month.",
       "provider": {
         "@type": "Person",
         "@id": "https://www.shilikajain.com/#person",
@@ -50,7 +50,7 @@
           "name": "What is deep-tech PR and who is it for?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Deep-tech PR is media and narrative strategy for founders whose product requires genuine technical explanation before it can be positioned: AI infrastructure, DePIN, cryptography, novel consensus mechanisms, quantum-adjacent software and similar categories. It is for founders who have found that generalist PR firms cannot get past surface-level messaging because no one on the account team has read the docs. Shilika Jain works directly with technical founders at $5K to $12K per month, building the narrative from the architecture up."
+            "text": "Deep-tech PR is media and narrative strategy for founders whose product requires genuine technical explanation before it can be positioned: AI infrastructure, DePIN, cryptography, novel consensus mechanisms, quantum-adjacent software and similar categories. It is for founders who have found that generalist PR firms cannot get past surface-level messaging because no one on the account team has read the docs. Shilika Jain works directly with technical founders at $3K to $7K per month, building the narrative from the architecture up."
           }
         },
         {
@@ -58,7 +58,7 @@
           "name": "How much does deep-tech PR cost?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A fractional senior operator typically runs $5K to $12K per month for ongoing retainer work, covering positioning, pitching and ongoing media relations. A focused launch sprint runs $15K to $40K over four to eight weeks. Full-service agencies typically charge $15K to $45K per month because the retainer funds a multi-person account team. The fractional model removes that structural overhead without reducing senior access."
+            "text": "A fractional senior operator typically runs $3K to $7K per month for ongoing retainer work, covering positioning, pitching and ongoing media relations. A focused launch sprint runs $15K to $40K over four to eight weeks. Full-service agencies typically charge $15K to $45K per month because the retainer funds a multi-person account team. The fractional model removes that structural overhead without reducing senior access."
           }
         },
         {

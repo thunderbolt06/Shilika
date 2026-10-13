@@ -7,7 +7,7 @@
       "name": "Stablecoin PR Agency - Trust-First Comms",
       "serviceType": "Token Launch / TGE PR",
       "url": "https://www.shilikajain.com/pages/stablecoin-pr-agency",
-      "description": "Stablecoin PR built on reserves, audits and regulatory positioning, not yield claims. A fractional senior operator runs trust-first comms for stablecoin issuers for $5K–$12K/month, covering narrative development, tier-1 media relations, regulatory milestone PR and crisis architecture, versus $15K–$45K/month at a generalist agency.",
+      "description": "Stablecoin PR built on reserves, audits and regulatory positioning, not yield claims. A fractional senior operator runs trust-first comms for stablecoin issuers for $3K–$7K/month, covering narrative development, tier-1 media relations, regulatory milestone PR and crisis architecture, versus $15K–$45K/month at a generalist agency.",
       "provider": {
         "@type": "Person",
         "@id": "https://www.shilikajain.com/#person",
@@ -58,7 +58,7 @@
           "name": "How much does stablecoin PR cost?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A fractional senior operator runs stablecoin PR for $5K–$12K/month, which covers narrative development, ongoing media relations and regulatory milestone coverage. A full launch sprint, covering the period from embargo prep through the first 30 days of coverage, runs $15K–$40K. Generalist agencies charge $15K–$45K/month for a model that staffs junior account executives on your project."
+            "text": "A fractional senior operator runs stablecoin PR for $3K–$7K/month, which covers narrative development, ongoing media relations and regulatory milestone coverage. A full launch sprint, covering the period from embargo prep through the first 30 days of coverage, runs $15K–$40K. Generalist agencies charge $15K–$45K/month for a model that staffs junior account executives on your project."
           }
         },
         {

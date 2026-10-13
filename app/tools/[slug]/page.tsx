@@ -6,6 +6,7 @@ import { TOOL_COMPONENTS } from '../_components/free/components';
 import ToolFrame from '../_components/free/ToolFrame';
 import { JsonLd, ToolFaq, ToolHero, ToolHowTo } from '../_components/ToolSections';
 import { FREE_TOOL_BY_SLUG, FREE_TOOLS, GROUPS } from '../_data/free';
+import { ctaFor } from '../_data/free/cta';
 import { toolJsonLd, toolMetadata } from '../_lib/seo';
 import '../../blog/blog.css';
 import '../tools.css';
@@ -34,6 +35,7 @@ export default async function FreeToolPage({ params }: { params: Promise<{ slug:
   const group = GROUPS.find((g) => g.id === tool.group);
   const siblings = FREE_TOOLS.filter((t) => t.group === tool.group && t.slug !== slug).slice(0, 4);
   const [before, italic, after] = tool.h1;
+  const cta = ctaFor(tool);
 
   return (
     <>
@@ -71,9 +73,17 @@ export default async function FreeToolPage({ params }: { params: Promise<{ slug:
 
             <section className="ft-cta no-print" aria-label="Work with Shilika">
               <p>
-                Want this done for you? I run PR and growth for AI and Web3 founders.{' '}
+                {cta.lead}{' '}
+                {cta.links.map((l, i) => (
+                  <span key={l.href}>
+                    {i > 0 ? (i === cta.links.length - 1 ? ' and ' : ', ') : null}
+                    <a href={l.href}>{l.label}</a>
+                  </span>
+                ))}
+                {'. '}
+                Or{' '}
                 <a href="/contact" data-magnet>
-                  Book a free 30-minute teardown →
+                  book a free 30-minute teardown →
                 </a>
               </p>
             </section>

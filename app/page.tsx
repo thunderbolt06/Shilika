@@ -75,6 +75,10 @@ export default function HomePage() {
         dangerouslySetInnerHTML={{ __html: jsonLd }}
       />
       <div dangerouslySetInnerHTML={{ __html: body }} />
+      {/* Blocking on purpose: binds the intro deck as soon as its markup is
+          parsed, so clicks/keys work before hydration and site.js load. */}
+      {/* eslint-disable-next-line @next/next/no-sync-scripts */}
+      <script src={assetUrl('assets/intro-cards.js')} />
       <Script src={assetUrl('assets/site.js')} strategy="afterInteractive" />
       <Script
         src="https://assets.calendly.com/assets/external/widget.js"

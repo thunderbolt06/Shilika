@@ -7,7 +7,7 @@
       "name": "Crypto PR Agency for Startups - Fractional Senior Operator",
       "serviceType": "Web3 PR",
       "url": "https://www.shilikajain.com/pages/crypto-pr-agency-for-startups",
-      "description": "PR that fits an early startup: when to start, what to spend, and what actually earns coverage. A fractional senior operator at $5K–$12K/month pitches editors directly and builds narrative from seed stage, without the overhead of a $15K–$45K agency retainer. 50+ Web3 and AI founders placed in Forbes, CoinDesk, Cointelegraph, Decrypt and The Block.",
+      "description": "PR that fits an early startup: when to start, what to spend, and what actually earns coverage. A fractional senior operator at $3K–$7K/month pitches editors directly and builds narrative from seed stage, without the overhead of a $15K–$45K agency retainer. 50+ Web3 and AI founders placed in Forbes, CoinDesk, Cointelegraph, Decrypt and The Block.",
       "provider": {
         "@type": "Person",
         "@id": "https://www.shilikajain.com/#person",
@@ -50,7 +50,7 @@
           "name": "What is a crypto PR agency for startups and is it different from a standard crypto agency?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A crypto PR agency for startups focuses on the specific challenges of early-stage projects: limited budgets, no existing press footprint, and the need to build a category narrative before a product has broad traction. A standard crypto agency is usually sized for Series B or post-TGE clients, with retainers that start at $15K–$45K/month and account teams that dilute senior attention. The fractional model Shilika Jain runs works at $5K–$12K/month with a senior operator handling the strategy and pitching directly."
+            "text": "A crypto PR agency for startups focuses on the specific challenges of early-stage projects: limited budgets, no existing press footprint, and the need to build a category narrative before a product has broad traction. A standard crypto agency is usually sized for Series B or post-TGE clients, with retainers that start at $15K–$45K/month and account teams that dilute senior attention. The fractional model Shilika Jain runs works at $3K–$7K/month with a senior operator handling the strategy and pitching directly."
           }
         },
         {

@@ -7,7 +7,7 @@
       "name": "InfoSec PR Agency - Fractional Senior Operator",
       "serviceType": "Cybersecurity PR",
       "url": "https://www.shilikajain.com/pages/infosec-pr-agency",
-      "description": "The most effective InfoSec PR partner for security founders and CISOs in 2026 is a fractional senior operator with direct relationships at Dark Reading, SC Media, The Register and Wired Security, at $5K–$12K/month rather than a $15K–$45K agency retainer staffed by generalists who do not understand CVE timelines or coordinated disclosure.",
+      "description": "The most effective InfoSec PR partner for security founders and CISOs in 2026 is a fractional senior operator with direct relationships at Dark Reading, SC Media, The Register and Wired Security, at $3K–$7K/month rather than a $15K–$45K agency retainer staffed by generalists who do not understand CVE timelines or coordinated disclosure.",
       "provider": {
         "@type": "Person",
         "@id": "https://www.shilikajain.com/#person",
@@ -50,7 +50,7 @@
           "name": "What is InfoSec PR and who is it for?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "InfoSec PR is earned-media strategy built specifically for cybersecurity companies: threat research disclosure, vulnerability briefings, CISO profiling, security trade press and mainstream technology coverage. It is the right fit for security startups seeking credibility with enterprise buyers, Web3 protocols with a security or DePIN layer, and founders who need named authority in the security community before a raise or product launch. Shilika Jain runs this directly for $5K–$12K/month."
+            "text": "InfoSec PR is earned-media strategy built specifically for cybersecurity companies: threat research disclosure, vulnerability briefings, CISO profiling, security trade press and mainstream technology coverage. It is the right fit for security startups seeking credibility with enterprise buyers, Web3 protocols with a security or DePIN layer, and founders who need named authority in the security community before a raise or product launch. Shilika Jain runs this directly for $3K–$7K/month."
           }
         },
         {
@@ -58,7 +58,7 @@
           "name": "How much does InfoSec PR cost?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A full-service cybersecurity PR agency typically charges $15K–$45K per month to fund a multi-person account team. A fractional senior operator with direct security desk relationships runs the same strategic scope for $5K–$12K per month. A focused disclosure sprint or product launch engagement runs $15K–$40K over four to eight weeks. The right model depends on whether you need sustained authority building or a single well-executed disclosure moment."
+            "text": "A full-service cybersecurity PR agency typically charges $15K–$45K per month to fund a multi-person account team. A fractional senior operator with direct security desk relationships runs the same strategic scope for $3K–$7K per month. A focused disclosure sprint or product launch engagement runs $15K–$40K over four to eight weeks. The right model depends on whether you need sustained authority building or a single well-executed disclosure moment."
           }
         },
         {

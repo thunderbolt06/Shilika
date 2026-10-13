@@ -7,7 +7,7 @@
       "name": "Founder Podcast Booking Agency - Curated Tours for Web3 and AI Founders",
       "serviceType": "Founder Profiling & Op-Eds",
       "url": "https://www.shilikajain.com/pages/podcast-booking-agency-founders",
-      "description": "A managed podcast booking service for Web3, AI and deep-tech founders. Six to twelve curated show placements per quarter, with pre-recording briefs and post-recording amplification, building a durable audio and press footprint at $5K–$12K per month. Shilika Jain ran a six-show tour for Gaia AI that produced Forbes, Decrypt and Benzinga coverage alongside the audio appearances.",
+      "description": "A managed podcast booking service for Web3, AI and deep-tech founders. Six to twelve curated show placements per quarter, with pre-recording briefs and post-recording amplification, building a durable audio and press footprint at $3K–$7K per month. Shilika Jain ran a six-show tour for Gaia AI that produced Forbes, Decrypt and Benzinga coverage alongside the audio appearances.",
       "provider": {
         "@type": "Person",
         "@id": "https://www.shilikajain.com/#person",
@@ -50,7 +50,7 @@
           "name": "What is a founder podcast booking service and who is it for?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "It is a managed service that researches, pitches and books podcast appearances on your behalf, then prepares you for each recording and amplifies the output across written and social channels. It is for Web3, AI and deep-tech founders who want to build a durable public profile but do not have the time or show relationships to do it themselves. Shilika Jain runs the service directly for $5K–$12K per month, targeting six to twelve confirmed bookings per quarter."
+            "text": "It is a managed service that researches, pitches and books podcast appearances on your behalf, then prepares you for each recording and amplifies the output across written and social channels. It is for Web3, AI and deep-tech founders who want to build a durable public profile but do not have the time or show relationships to do it themselves. Shilika Jain runs the service directly for $3K–$7K per month, targeting six to twelve confirmed bookings per quarter."
           }
         },
         {
@@ -58,7 +58,7 @@
           "name": "How much does podcast booking for founders cost?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A managed podcast tour runs $5K–$12K per month as part of a broader founder profiling retainer. A standalone quarterly sprint covering show research, outreach, bookings and prep briefs sits at the lower end of that range. Full agency equivalents charge $15K–$45K per month for the same scope with junior coordinators on the account. The sprint model, which targets one quarter with a defined show list and narrative, is typically $15K–$25K all in."
+            "text": "A managed podcast tour runs $3K–$7K per month as part of a broader founder profiling retainer. A standalone quarterly sprint covering show research, outreach, bookings and prep briefs sits at the lower end of that range. Full agency equivalents charge $15K–$45K per month for the same scope with junior coordinators on the account. The sprint model, which targets one quarter with a defined show list and narrative, is typically $15K–$25K all in."
           }
         },
         {

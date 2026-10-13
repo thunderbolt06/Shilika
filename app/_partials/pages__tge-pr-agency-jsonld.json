@@ -7,7 +7,7 @@
       "name": "TGE PR Agency - Token Generation Event Comms",
       "serviceType": "Token Launch / TGE PR",
       "url": "https://www.shilikajain.com/pages/tge-pr-agency",
-      "description": "A fractional senior operator who runs the eight-week comms window around your token generation event: narrative lock-in, tier-1 media embargo, KOL waves and crisis prep. $15K–$40K as a launch sprint or $5K–$12K/month on retainer. Shilika Jain has run TGE comms for RARI Chain (11 tier-1 placements in 24 hours) and MANTRA Chain ($11M raise, CoinDesk exclusive).",
+      "description": "A fractional senior operator who runs the eight-week comms window around your token generation event: narrative lock-in, tier-1 media embargo, KOL waves and crisis prep. $15K–$40K as a launch sprint or $3K–$7K/month on retainer. Shilika Jain has run TGE comms for RARI Chain (11 tier-1 placements in 24 hours) and MANTRA Chain ($11M raise, CoinDesk exclusive).",
       "provider": {
         "@type": "Person",
         "@id": "https://www.shilikajain.com/#person",
@@ -58,7 +58,7 @@
           "name": "How much does TGE PR cost?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A dedicated launch sprint runs $15K–$40K over four to eight weeks and covers narrative, embargo management, KOL briefing and crisis prep. A monthly retainer from $5K–$12K suits founders who want sustained comms into and beyond the TGE. Traditional agencies charge $15K–$45K per month with a multi-person account team; a fractional senior operator delivers the same senior scope without the markup. KOL tiers run separately: nano $200–$1.5K, micro $500–$5K, mid $10K–$30K, macro $25K–$100K+."
+            "text": "A dedicated launch sprint runs $15K–$40K over four to eight weeks and covers narrative, embargo management, KOL briefing and crisis prep. A monthly retainer from $3K–$7K suits founders who want sustained comms into and beyond the TGE. Traditional agencies charge $15K–$45K per month with a multi-person account team; a fractional senior operator delivers the same senior scope without the markup. KOL tiers run separately: nano $200–$1.5K, micro $500–$5K, mid $10K–$30K, macro $25K–$100K+."
           }
         },
         {

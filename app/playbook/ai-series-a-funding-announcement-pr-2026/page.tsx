@@ -15,6 +15,8 @@ export const metadata: Metadata = {
     description: 'A raise is a commodity until you frame it. How to turn an AI Series A into a category story instead of another funding-round line item.',
     url: `${SITE_URL}/playbook/ai-series-a-funding-announcement-pr-2026`,
     type: 'article',
+    publishedTime: '2026-06-23',
+    modifiedTime: '2026-10-12',
     images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
   },
   twitter: {

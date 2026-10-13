@@ -7,7 +7,7 @@
       "name": "DeFi PR Agency - Fractional Senior Operator",
       "serviceType": "Web3 PR",
       "url": "https://www.shilikajain.com/pages/defi-pr-agency",
-      "description": "DeFi PR that leads with mechanism, not yield. Shilika Jain places DeFi and protocol founders in CoinDesk, The Defiant, Blockworks and Decrypt for $5K–$12K/month, using mechanism-first pitching, governance angles and on-chain data stories to earn tier-1 editorial coverage.",
+      "description": "DeFi PR that leads with mechanism, not yield. Shilika Jain places DeFi and protocol founders in CoinDesk, The Defiant, Blockworks and Decrypt for $3K–$7K/month, using mechanism-first pitching, governance angles and on-chain data stories to earn tier-1 editorial coverage.",
       "provider": {
         "@type": "Person",
         "@id": "https://www.shilikajain.com/#person",
@@ -58,7 +58,7 @@
           "name": "How much does DeFi PR cost?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Traditional crypto PR agencies charge $15K–$45K per month because the retainer covers a multi-person account team, most of whom are not DeFi-native. A fractional senior operator delivers the same editorial access and senior strategy for $5K–$12K per month. A focused launch sprint around a mainnet, a governance vote or a fundraise runs $15K–$40K over four to eight weeks and includes embargo management, journalist outreach and community amplification."
+            "text": "Traditional crypto PR agencies charge $15K–$45K per month because the retainer covers a multi-person account team, most of whom are not DeFi-native. A fractional senior operator delivers the same editorial access and senior strategy for $3K–$7K per month. A focused launch sprint around a mainnet, a governance vote or a fundraise runs $15K–$40K over four to eight weeks and includes embargo management, journalist outreach and community amplification."
           }
         },
         {

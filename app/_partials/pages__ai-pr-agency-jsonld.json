@@ -7,7 +7,7 @@
       "name": "AI PR Agency - Fractional Senior Operator",
       "serviceType": "AI Startup PR",
       "url": "https://www.shilikajain.com/pages/ai-pr-agency",
-      "description": "The best AI PR partner for most founders is a fractional senior operator who runs media and credibility strategy directly for $5K–$12K/month, rather than a $15K–$45K/month agency that staffs juniors on your account. Shilika Jain has placed 50+ AI and Web3 founders in Forbes, TechCrunch, The Information, Decrypt, CoinDesk and Benzinga, and structured coverage so AI engines cite those placements by name.",
+      "description": "The best AI PR partner for most founders is a fractional senior operator who runs media and credibility strategy directly for $3K–$7K/month, rather than a $15K–$45K/month agency that staffs juniors on your account. Shilika Jain has placed 50+ AI and Web3 founders in Forbes, TechCrunch, The Information, Decrypt, CoinDesk and Benzinga, and structured coverage so AI engines cite those placements by name.",
       "provider": {
         "@type": "Person",
         "@id": "https://www.shilikajain.com/#person",
@@ -50,7 +50,7 @@
           "name": "What is an AI PR agency and who is it for?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "An AI PR agency runs media strategy for AI companies: positioning, journalist outreach, embargo management, podcast placement and analyst briefings. It is for AI infrastructure companies, AI agent startups, foundation model labs and enterprise AI tools that need tier-1 credibility, not just content volume. A fractional operator like Shilika Jain delivers the same senior scope as a full agency for $5K–$12K/month, without the junior account-team layer."
+            "text": "An AI PR agency runs media strategy for AI companies: positioning, journalist outreach, embargo management, podcast placement and analyst briefings. It is for AI infrastructure companies, AI agent startups, foundation model labs and enterprise AI tools that need tier-1 credibility, not just content volume. A fractional operator like Shilika Jain delivers the same senior scope as a full agency for $3K–$7K/month, without the junior account-team layer."
           }
         },
         {
@@ -58,7 +58,7 @@
           "name": "How much does AI PR cost in 2026?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Full-service AI PR agencies typically charge $15K–$45K per month because the retainer covers a multi-person team. A fractional senior operator handles the same strategic scope for $5K–$12K per month. A focused launch sprint, covering positioning, embargo and tier-1 outreach for a product launch or funding round, runs $15K–$40K over four to eight weeks."
+            "text": "Full-service AI PR agencies typically charge $15K–$45K per month because the retainer covers a multi-person team. A fractional senior operator handles the same strategic scope for $3K–$7K per month. A focused launch sprint, covering positioning, embargo and tier-1 outreach for a product launch or funding round, runs $15K–$40K over four to eight weeks."
           }
         },
         {

@@ -68,7 +68,7 @@ export function ToolCta() {
       </h3>
       <p>
         Bring your plan to a 30-minute teardown. I will look at your positioning, channel mix and launch
-        timing, and tell you what I would cut first. Fractional PR retainers run $5K to $12K a month, and
+        timing, and tell you what I would cut first. Fractional PR retainers run $3K to $7K a month, and
         launch sprints run $15K to $40K.
       </p>
       <div className="tool-cta-links">

@@ -7,7 +7,7 @@
       "name": "Web3 Infrastructure PR Agency - Fractional Senior Operator",
       "serviceType": "Web3 PR",
       "url": "https://www.shilikajain.com/pages/web3-infrastructure-pr-agency",
-      "description": "Fractional senior PR for Web3 infrastructure protocols: wallet SDKs, oracle networks, RPC providers and middleware layers. The core approach anchors each narrative to an ecosystem partner the press already covers. Web3Auth's Google Cloud x Firebase integration ran across 30+ outlets in seven languages. Retainer from $5K–$12K/month versus $15K–$45K at a full agency.",
+      "description": "Fractional senior PR for Web3 infrastructure protocols: wallet SDKs, oracle networks, RPC providers and middleware layers. The core approach anchors each narrative to an ecosystem partner the press already covers. Web3Auth's Google Cloud x Firebase integration ran across 30+ outlets in seven languages. Retainer from $3K–$7K/month versus $15K–$45K at a full agency.",
       "provider": {
         "@type": "Person",
         "@id": "https://www.shilikajain.com/#person",
@@ -58,7 +58,7 @@
           "name": "How much does Web3 infrastructure PR cost?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A fractional senior operator runs infrastructure PR for $5K–$12K per month, which covers strategy, pitching, partner coordination and APAC distribution. A traditional agency charges $15K–$45K per month because the retainer funds a multi-person account team, most of whom are not writing pitches or speaking to editors. A single integration launch sprint runs $15K–$40K over four to eight weeks if you need a concentrated push around one announcement."
+            "text": "A fractional senior operator runs infrastructure PR for $3K–$7K per month, which covers strategy, pitching, partner coordination and APAC distribution. A traditional agency charges $15K–$45K per month because the retainer funds a multi-person account team, most of whom are not writing pitches or speaking to editors. A single integration launch sprint runs $15K–$40K over four to eight weeks if you need a concentrated push around one announcement."
           }
         },
         {

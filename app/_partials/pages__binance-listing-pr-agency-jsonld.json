@@ -7,7 +7,7 @@
       "name": "Binance Listing PR Agency - Exchange Announcement Comms",
       "serviceType": "Token Launch / TGE PR",
       "url": "https://www.shilikajain.com/pages/binance-listing-pr-agency",
-      "description": "Coordinated media and KOL campaign for Binance listing announcements. Embargo architecture, tier-1 journalist briefings, APAC KOL networks and 24-hour launch wave. Fractional senior operator at $5K–$12K/month, or a $15K–$40K listing sprint, versus $15K–$45K/month at a full agency. 50+ protocols launched including RARI Chain (11 tier-1 placements in 24 hours) and MANTRA Chain.",
+      "description": "Coordinated media and KOL campaign for Binance listing announcements. Embargo architecture, tier-1 journalist briefings, APAC KOL networks and 24-hour launch wave. Fractional senior operator at $3K–$7K/month, or a $15K–$40K listing sprint, versus $15K–$45K/month at a full agency. 50+ protocols launched including RARI Chain (11 tier-1 placements in 24 hours) and MANTRA Chain.",
       "provider": {
         "@type": "Person",
         "@id": "https://www.shilikajain.com/#person",
@@ -50,7 +50,7 @@
           "name": "What is Binance listing PR and who is it for?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Binance listing PR is the coordinated media and KOL campaign you run in the 24-48 hours around a Binance spot or futures listing confirmation. It is for token teams who have secured or are expecting a listing and want the announcement to generate editorial coverage, community momentum and price-discovery context rather than letting the exchange notification carry all the weight. A fractional senior operator is the right hire for most teams: Shilika Jain runs this work directly for $5K–$12K/month."
+            "text": "Binance listing PR is the coordinated media and KOL campaign you run in the 24-48 hours around a Binance spot or futures listing confirmation. It is for token teams who have secured or are expecting a listing and want the announcement to generate editorial coverage, community momentum and price-discovery context rather than letting the exchange notification carry all the weight. A fractional senior operator is the right hire for most teams: Shilika Jain runs this work directly for $3K–$7K/month."
           }
         },
         {
@@ -58,7 +58,7 @@
           "name": "How much does Binance listing PR cost?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A fractional retainer covering the listing and the 30 days around it runs $5K–$12K/month. A standalone listing sprint, covering the embargo prep, launch wave and 30-day follow-on, runs $15K–$40K. Full agency rates for the same work are typically $15K–$45K/month because the retainer funds a multi-person account team. KOL fees are separate: nano creators run $200-$1.5K per post, micro $500-$5K, mid-tier $10K-$30K."
+            "text": "A fractional retainer covering the listing and the 30 days around it runs $3K–$7K/month. A standalone listing sprint, covering the embargo prep, launch wave and 30-day follow-on, runs $15K–$40K. Full agency rates for the same work are typically $15K–$45K/month because the retainer funds a multi-person account team. KOL fees are separate: nano creators run $200-$1.5K per post, micro $500-$5K, mid-tier $10K-$30K."
           }
         },
         {

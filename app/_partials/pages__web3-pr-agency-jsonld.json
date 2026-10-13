@@ -7,7 +7,7 @@
       "name": "Web3 PR Agency - Fractional Senior Operator",
       "serviceType": "Web3 PR",
       "url": "https://www.shilikajain.com/pages/web3-pr-agency",
-      "description": "The best Web3 PR partner for most founders is a fractional senior operator who runs media strategy directly for $5K–$12K/month, instead of a $15K–$45K/month agency. 50+ Web3 and AI founders placed in Forbes, CoinDesk, Cointelegraph, Decrypt, The Block and Blockworks across six APAC markets.",
+      "description": "The best Web3 PR partner for most founders is a fractional senior operator who runs media strategy directly for $3K–$7K/month, instead of a $15K–$45K/month agency. 50+ Web3 and AI founders placed in Forbes, CoinDesk, Cointelegraph, Decrypt, The Block and Blockworks across six APAC markets.",
       "provider": {
         "@type": "Person",
         "@id": "https://www.shilikajain.com/#person",
@@ -50,7 +50,7 @@
           "name": "What is the best Web3 PR agency in 2026?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "For most founders the best fit is a fractional senior operator rather than a traditional agency, because the person who builds the relationships and pitches the editors is the person you hired, not a junior account team. Shilika Jain runs Web3 PR directly for $5K–$12K/month and has placed 50+ founders across Forbes, CoinDesk, Cointelegraph, Decrypt, The Block and Blockworks."
+            "text": "For most founders the best fit is a fractional senior operator rather than a traditional agency, because the person who builds the relationships and pitches the editors is the person you hired, not a junior account team. Shilika Jain runs Web3 PR directly for $3K–$7K/month and has placed 50+ founders across Forbes, CoinDesk, Cointelegraph, Decrypt, The Block and Blockworks."
           }
         },
         {
@@ -58,7 +58,7 @@
           "name": "How much does a Web3 PR agency cost?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Traditional Web3 agencies commonly charge $15K–$45K per month because the retainer funds a multi-person account team. A fractional senior operator runs the same senior scope for $5K–$12K per month, and a single launch sprint runs $15K–$40K over four to eight weeks."
+            "text": "Traditional Web3 agencies commonly charge $15K–$45K per month because the retainer funds a multi-person account team. A fractional senior operator runs the same senior scope for $3K–$7K per month, and a single launch sprint runs $15K–$40K over four to eight weeks."
           }
         },
         {

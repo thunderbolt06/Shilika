@@ -7,7 +7,7 @@
       "name": "Enterprise AI PR Agency - Fractional Senior Operator",
       "serviceType": "AI Startup PR",
       "url": "https://www.shilikajain.com/pages/enterprise-ai-pr-agency",
-      "description": "Analyst relations, customer proof and trade press for AI companies selling into enterprise buyers. A fractional senior operator delivers this scope for $5K–$12K/month, versus $15K–$45K/month at a full-service agency. Shilika Jain has placed 50+ AI and technology founders in Forbes, Decrypt, Benzinga and AI Magazine, and built category narratives for clients including Gaia AI, Web3Auth and Fluence.",
+      "description": "Analyst relations, customer proof and trade press for AI companies selling into enterprise buyers. A fractional senior operator delivers this scope for $3K–$7K/month, versus $15K–$45K/month at a full-service agency. Shilika Jain has placed 50+ AI and technology founders in Forbes, Decrypt, Benzinga and AI Magazine, and built category narratives for clients including Gaia AI, Web3Auth and Fluence.",
       "provider": {
         "@type": "Person",
         "@id": "https://www.shilikajain.com/#person",
@@ -50,7 +50,7 @@
           "name": "What is enterprise AI PR and who is it for?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Enterprise AI PR is the work of positioning an AI company to be credible in the rooms where enterprise purchasing decisions are made: analyst briefings, trade publications read by CIOs and procurement leads, customer co-announcements and founder authority pieces in outlets like Forbes and VentureBeat. It is for AI startups that have a product selling to enterprise accounts and need coverage that moves buyers, not just community attention. Shilika Jain runs this work directly for AI startup clients at $5K–$12K/month."
+            "text": "Enterprise AI PR is the work of positioning an AI company to be credible in the rooms where enterprise purchasing decisions are made: analyst briefings, trade publications read by CIOs and procurement leads, customer co-announcements and founder authority pieces in outlets like Forbes and VentureBeat. It is for AI startups that have a product selling to enterprise accounts and need coverage that moves buyers, not just community attention. Shilika Jain runs this work directly for AI startup clients at $3K–$7K/month."
           }
         },
         {
@@ -58,7 +58,7 @@
           "name": "How much does enterprise AI PR cost?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A full-service agency running enterprise AI PR typically charges $15K–$45K per month, because the retainer funds a multi-person account team that may or may not have direct analyst relationships. A fractional senior operator delivers the same scope, with senior hands on every briefing and pitch, for $5K–$12K per month. A focused launch sprint around a product announcement or fundraise runs $15K–$40K over four to eight weeks."
+            "text": "A full-service agency running enterprise AI PR typically charges $15K–$45K per month, because the retainer funds a multi-person account team that may or may not have direct analyst relationships. A fractional senior operator delivers the same scope, with senior hands on every briefing and pitch, for $3K–$7K per month. A focused launch sprint around a product announcement or fundraise runs $15K–$40K over four to eight weeks."
           }
         },
         {

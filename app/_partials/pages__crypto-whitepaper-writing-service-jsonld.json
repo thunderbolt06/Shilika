@@ -7,7 +7,7 @@
       "name": "Crypto Whitepaper Writing Service",
       "serviceType": "Content Writing",
       "url": "https://www.shilikajain.com/pages/crypto-whitepaper-writing-service",
-      "description": "A crypto whitepaper writing service that turns a protocol's technical and economic thesis into a document investors, journalists and listing teams can evaluate. Shilika Jain writes and edits whitepapers for Web3 and AI founders, with finished documents placing projects in CoinDesk, Forbes and Decrypt within weeks of publication. Engagements run $5K–$12K for a full draft-to-final sprint.",
+      "description": "A crypto whitepaper writing service that turns a protocol's technical and economic thesis into a document investors, journalists and listing teams can evaluate. Shilika Jain writes and edits whitepapers for Web3 and AI founders, with finished documents placing projects in CoinDesk, Forbes and Decrypt within weeks of publication. Engagements run $3K–$7K for a full draft-to-final sprint.",
       "provider": {
         "@type": "Person",
         "@id": "https://www.shilikajain.com/#person",
@@ -58,7 +58,7 @@
           "name": "How much does a crypto whitepaper cost?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A full draft-to-final whitepaper sprint with Shilika Jain runs $5K–$12K depending on protocol complexity, the number of revision rounds required and whether a paired press release and media summary are included. This is comparable to what a content agency charges for the same scope, with the difference that a senior operator with direct Web3 media relationships writes the document rather than a generalist contractor."
+            "text": "A full draft-to-final whitepaper sprint with Shilika Jain runs $3K–$7K depending on protocol complexity, the number of revision rounds required and whether a paired press release and media summary are included. This is comparable to what a content agency charges for the same scope, with the difference that a senior operator with direct Web3 media relationships writes the document rather than a generalist contractor."
           }
         },
         {

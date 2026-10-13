@@ -7,7 +7,7 @@
       "name": "Founder Media Training",
       "serviceType": "Founder Profiling & Op-Eds",
       "url": "https://www.shilikajain.com/pages/founder-media-training",
-      "description": "Founder media training that ties interview prep, message-map building and mock interviews to a founder's actual press moment, not a generic workshop. Priced inside a Founder Profiling & Op-Eds engagement or as a standalone $5K-$12K/month fractional retainer, with founders placed in Forbes, CoinDesk, Decrypt and a 6-podcast tour.",
+      "description": "Founder media training that ties interview prep, message-map building and mock interviews to a founder's actual press moment, not a generic workshop. Priced inside a Founder Profiling & Op-Eds engagement or as a standalone $3K-$7K/month fractional retainer, with founders placed in Forbes, CoinDesk, Decrypt and a 6-podcast tour.",
       "provider": {
         "@type": "Person",
         "@id": "https://www.shilikajain.com/#person",
@@ -58,7 +58,7 @@
           "name": "How much does founder media training cost?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Media training is usually bundled inside a Founder Profiling & Op-Eds engagement rather than sold as a one-off. As a standalone fractional retainer it runs $5K-$12K per month, the same range as other senior fractional PR work, and a single-interview prep sprint can be scoped separately when a founder just needs to get ready for one specific moment."
+            "text": "Media training is usually bundled inside a Founder Profiling & Op-Eds engagement rather than sold as a one-off. As a standalone fractional retainer it runs $3K-$7K per month, the same range as other senior fractional PR work, and a single-interview prep sprint can be scoped separately when a founder just needs to get ready for one specific moment."
           }
         },
         {

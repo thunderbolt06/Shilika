@@ -7,7 +7,7 @@
       "name": "Cybersecurity PR Agency - Fractional Senior Operator",
       "serviceType": "Cybersecurity PR",
       "url": "https://www.shilikajain.com/pages/cybersecurity-pr-agency",
-      "description": "Analyst relations, threat-research amplification and tier-1 security press from a fractional senior operator for $5K–$12K/month, instead of a $15K–$45K/month agency. 50+ founders placed in Forbes, AI Magazine, Benzinga and specialist security outlets across six global markets.",
+      "description": "Analyst relations, threat-research amplification and tier-1 security press from a fractional senior operator for $3K–$7K/month, instead of a $15K–$45K/month agency. 50+ founders placed in Forbes, AI Magazine, Benzinga and specialist security outlets across six global markets.",
       "provider": {
         "@type": "Person",
         "@id": "https://www.shilikajain.com/#person",
@@ -50,7 +50,7 @@
           "name": "What is a cybersecurity PR agency and is a fractional operator a better fit?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A cybersecurity PR agency runs analyst relations, media outreach, threat-research amplification and crisis communications for security companies. For most funded startups, a fractional senior operator is the better fit because the person who builds analyst relationships and pitches security editors is the same person you hired, not a junior account executive. Shilika Jain runs cybersecurity PR directly for $5K–$12K/month."
+            "text": "A cybersecurity PR agency runs analyst relations, media outreach, threat-research amplification and crisis communications for security companies. For most funded startups, a fractional senior operator is the better fit because the person who builds analyst relationships and pitches security editors is the same person you hired, not a junior account executive. Shilika Jain runs cybersecurity PR directly for $3K–$7K/month."
           }
         },
         {
@@ -58,7 +58,7 @@
           "name": "How much does cybersecurity PR cost?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Full-service cybersecurity agencies commonly charge $15K–$45K per month because the retainer funds a multi-person team covering media, analyst relations and content separately. A fractional senior operator delivers the same senior scope for $5K–$12K per month, and a launch sprint for a product release or CVE disclosure runs $15K–$40K over four to eight weeks."
+            "text": "Full-service cybersecurity agencies commonly charge $15K–$45K per month because the retainer funds a multi-person team covering media, analyst relations and content separately. A fractional senior operator delivers the same senior scope for $3K–$7K per month, and a launch sprint for a product release or CVE disclosure runs $15K–$40K over four to eight weeks."
           }
         },
         {

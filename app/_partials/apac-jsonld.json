@@ -90,7 +90,7 @@
       "@type": "FAQPage",
       "@id": "https://www.shilikajain.com/apac#faq",
       "datePublished": "2026-05-31",
-      "dateModified": "2026-05-31",
+      "dateModified": "2026-10-12",
       "mainEntity": [
         {
           "@type": "Question",
@@ -126,10 +126,18 @@
         },
         {
           "@type": "Question",
-          "name": "How does APAC PR handle the Q2 2026 regulatory deadlines?",
+          "name": "How does APAC PR handle the 2026 regulatory changes?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Every APAC announcement in 2026 carries a per-market compliance note. Korea FSC five-minute reconciliation and zero-threshold Travel Rule. Japan FIEA migration with no investment-framing language post-shift. Hong Kong SFC VASP licensing footnote. Australia Treasury digital-asset platform regime framing. India transaction-level crypto reporting obligations from April 2026 per the Union Budget. The compliance review is not optional and is not delegated to the founder."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Token2049 Dubai still a launch window for APAC and MENA announcements?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not until April 2027. Organisers postponed Token2049 Dubai to 21 to 22 April 2027, announced in March 2026, citing regional uncertainty. Founders planning a MENA announcement before then anchor it to the regional windows on the Dubai and MENA desk, or pair it with a Korea or Singapore press lift. Korea Blockchain Week (29 September to 1 October 2026) and Token2049 Singapore (7 to 8 October 2026) have also run, so a Q4 2026 or Q1 2027 expansion is best timed to your own listing, mainnet, raise or partnership milestone rather than to an event."
           }
         },
         {
