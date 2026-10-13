@@ -422,9 +422,20 @@ ul { list-style: none; }
   object-fit: cover;
   display: block;
   pointer-events: none;
+  filter: brightness(0.93) contrast(0.96) saturate(0.9);
+}
+/* Multiply the page's paper tone over the footage so its whites land on the
+   same warm shade as the hero background instead of glaring past it. */
+.hero-reel::after {
+  content: "";
+  position: absolute; inset: 0;
+  background: var(--paper);
+  mix-blend-mode: multiply;
+  pointer-events: none;
 }
 .hero-reel-sound {
   position: absolute;
+  z-index: 1;
   top: 12px; right: 12px;
   display: inline-flex; align-items: center; gap: 8px;
   padding: 9px 13px;
