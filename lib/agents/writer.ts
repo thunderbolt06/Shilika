@@ -3,6 +3,7 @@ import { z } from 'zod';
 import { buildHeroPrompt } from '@/lib/images/prompt';
 import {
   formatKbEntry,
+  formatXPost,
   publishedPostsAsList,
   loadAgentContext,
   type AgentContext,
@@ -139,9 +140,7 @@ function buildUserPrompt(ctx: AgentContext): string {
     throw new Error('writer requires a content_idea row');
   }
 
-  const kb = ctx.relevantKb.concat(ctx.brandVoiceKb).concat(ctx.caseStudyKb);
-  const uniq = new Map(kb.map((e) => [e.id, e]));
-  const kbBlock = [...uniq.values()].map(formatKbEntry).join('\n---\n');
+  const block = (rows: AgentContext['relevantKb']) => rows.map(formatKbEntry).join('\n---\n');
 
   return [
     `## Content idea (priority P${idea.priority})`,
@@ -152,8 +151,30 @@ function buildUserPrompt(ctx: AgentContext): string {
       ? `Source signals (why this topic): \`\`\`json\n${JSON.stringify(idea.source_signals, null, 2)}\n\`\`\``
       : '',
     '',
-    '## Knowledge base entries you may cite',
-    kbBlock || '_(no matching knowledge base entries - write conservatively and avoid named entities)_',
+    '## Who you are (on-record credentials)',
+    'Use these for first-person authority lines ("When I led APAC at CoinMarketCap..."). Pick the one or two facts that matter for this topic; never list the whole CV. Do not add roles, clients or talks that are not here.',
+    block(ctx.credentialsKb) || '_(none)_',
+    '',
+    '## Client case studies (ranked by relevance)',
+    'Use 1-2 of these as proof where they genuinely fit the argument: name the client, the outlet and what made it land, and link the coverage URL when one is given. Only cite outlets, numbers and people that appear here. If none fit, skip them rather than forcing one in.',
+    block(ctx.caseStudyKb) || '_(none)_',
+    '',
+    "## Your own posts on X (ranked by relevance)",
+    ctx.xPostsKb.length
+      ? [
+          'These are things you (Shilika) actually said publicly. Use them to anchor the post in your real point of view:',
+          '- Quote 2-4 of the strongest, most on-topic ones verbatim as blockquotes, each followed by its attribution line exactly as given, e.g.\n  > quote text\n  >\n  > [Shilika Jain on X, 11 Aug 2022](https://x.com/Shilika_jain/status/...)',
+          '- Trim hashtags, @-mentions, "follow me" lines and t.co links from quotes; do not otherwise change the words. Fix nothing that changes meaning.',
+          '- Introduce each quote with context (when and why you said it) and build on it; never stack quotes back to back.',
+          '- Prefer posts marked "Use: New page" or "Quote in page". "Idea bank" posts are for angles and FAQ questions, not quotes. Skip posts "Already quoted in" a published article unless nothing else fits.',
+          '- Ideas from other posts can be paraphrased in first person without quoting. Never invent a post or a date.',
+          '',
+          ctx.xPostsKb.map(formatXPost).join('\n\n'),
+        ].join('\n')
+      : '_(no matching posts - do not quote X)_',
+    '',
+    '## Other knowledge base entries you may cite',
+    block(ctx.relevantKb) || '_(no matching entries - write conservatively and avoid named entities)_',
     '',
     '## Currently published posts (use these slugs for related_posts)',
     publishedPostsAsList(ctx.publishedPosts),

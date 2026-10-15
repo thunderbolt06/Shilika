@@ -10,7 +10,7 @@ Generate a publication-ready blog post for Shilika Jain's site.
 4. `agents/content-strategist/IMPORTANT.md` (memory - lessons from previous runs)
 5. `docs/humanization-guide.md` (the rules the validator enforces)
 6. `docs/geo-guidelines.md` (how to write so AI assistants cite you cleanly)
-7. The `knowledge_base` rows tagged with at least one of the idea's tags, plus all `kind='brand_voice'` and `kind='case_study'` rows.
+7. The `knowledge_base`, ranked against the idea: Shilika's on-record credentials (always), the 2-4 most relevant client case studies (from her portfolio), up to 12 of her own X posts that match the topic (quotable verbatim with their attribution link), all `kind='brand_voice'` rows, and other matching notes and seeds.
 8. The 3 highest-ranking results currently on Google for the target query. Use the built-in `web_search` tool. Identify what they cover, what they skip, where they are thin.
 9. The list of currently published posts (slug + title + tags) for related_posts wiring.
 
