@@ -2,6 +2,8 @@ import type { MetadataRoute } from 'next';
 import { listPublishedPosts } from '@/lib/blog';
 import { I18N_PAGES, LOCALES, languageAlternates, localizePath } from '@/lib/i18n/config';
 import { FREE_TOOLS } from './tools/_data/free';
+import { AGENCIES, comparePath } from './compare/_data/agencies';
+import { LAST_VERIFIED_ISO } from './compare/_data/shilika';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
@@ -52,6 +54,8 @@ const STATIC_PAGES: { path: string; priority: number; changeFrequency: MetadataR
   { path: '/tools/marketing-checklist', priority: 0.8, changeFrequency: 'monthly' },
   ...FREE_TOOLS.map((t) => ({ path: `/tools/${t.slug}`, priority: 0.7, changeFrequency: 'monthly' as const })),
   { path: '/resources', priority: 0.8, changeFrequency: 'monthly' },
+  { path: '/compare', priority: 0.8, changeFrequency: 'monthly', lastModified: LAST_VERIFIED_ISO },
+  ...AGENCIES.map((a) => ({ path: comparePath(a), priority: 0.7, changeFrequency: 'monthly' as const, lastModified: LAST_VERIFIED_ISO })),
   { path: '/authors/shilika-jain', priority: 0.7, changeFrequency: 'monthly' },
   { path: '/services', priority: 0.9, changeFrequency: 'monthly' },
   { path: '/work', priority: 0.8, changeFrequency: 'monthly' },

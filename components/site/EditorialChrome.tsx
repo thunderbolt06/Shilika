@@ -229,6 +229,7 @@ export function EditorialFooter({ strings = EN }: { strings?: UiStrings }) {
           <a href={hrefFor(lang, '/glossary')}>{t('footer.glossary')}</a>
           <a href={hrefFor(lang, '/tools')}>{t('footer.tools')}</a>
           <a href={hrefFor(lang, '/pages')}>{t('footer.pages')}</a>
+          <a href="/compare">{t('footer.compare')}</a>
         </div>
 
         <div className="footer-nav-col">
