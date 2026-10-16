@@ -18,7 +18,7 @@
         "MENA Web3 PR"
       ],
       "url": "https://www.shilikajain.com/apac",
-      "description": "Fractional, senior-operator-led PR for Web3, AI and cybersecurity founders across six APAC markets plus MENA: South Korea, Japan, India, Singapore, Vietnam, Greater China and the UAE. Native-language placements across BloomingBit, TokenPost, BlockMedia, Coinness (Korea); CryptoTimes JP, Coinpost (Japan); ChainCatcher, Jinse, PANews (China and Greater China diaspora); Inc42, YourStory, Economic Times, Forbes India, Mint, Moneycontrol (India); e27, DealStreetAsia, Tech in Asia (Southeast Asia); Arabian Business, Gulf News, Cointelegraph Arabic, The National (MENA). Regional KOL waves with native-language briefs, on-ground event placements at Korea Blockchain Week, Token2049 Singapore, Token2049 Dubai, ETHIndia, Japan Blockchain Week, Consensus Hong Kong. Country-specific compliance navigation across the Q2 2026 regulatory overhaul (Korea FSC, Japan FIEA, Hong Kong SFC, Australia Treasury, India MoF transaction-level reporting).",
+      "description": "Fractional, senior-operator-led PR for Web3, AI and cybersecurity founders across six APAC markets plus MENA: South Korea, Japan, India, Singapore, Vietnam, Greater China and the UAE. Native-language placements across BloomingBit, TokenPost, BlockMedia, Coinness (Korea); CryptoTimes JP, Coinpost (Japan); ChainCatcher, Jinse, PANews (China and Greater China diaspora); Inc42, YourStory, Economic Times, Forbes India, Mint, Moneycontrol (India); e27, DealStreetAsia, Tech in Asia (Southeast Asia); Arabian Business, Gulf News, Cointelegraph Arabic, The National (MENA). Regional KOL waves with native-language briefs, on-ground event placements at Korea Blockchain Week, Token2049 Singapore, Token2049 Dubai, ETHIndia, Japan Blockchain Week, Consensus Hong Kong. Country-specific compliance navigation across the 2026 rule changes (Korea FSC, Japan FIEA, Hong Kong HKMA and SFC, Australia Digital Assets Framework, India MoF transaction-level reporting).",
       "provider": {
         "@type": "Person",
         "@id": "https://www.shilikajain.com/#person",
@@ -90,14 +90,14 @@
       "@type": "FAQPage",
       "@id": "https://www.shilikajain.com/apac#faq",
       "datePublished": "2026-05-31",
-      "dateModified": "2026-10-12",
+      "dateModified": "2026-10-15",
       "mainEntity": [
         {
           "@type": "Question",
           "name": "Which APAC markets does Shilika cover and why those?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Six core APAC markets plus MENA. South Korea generates roughly half of all tracked crypto-native media traffic across Asia. Japan is second-largest with rising regulatory weight as the JFSA migrates oversight to the Financial Instruments and Exchange Act in 2026. Vietnam is the highest-growth retail Web3 market in SEA. Greater China is reached through bilingual diaspora outlets like ChainCatcher and Jinse rather than mainland-licensed press. Singapore is the regional event hub (Token2049) and a credibility anchor under MAS. India is the home market for the practice and a category-builder for AI. MENA, anchored on Dubai and Abu Dhabi, is the fastest-moving Web3 regulatory perimeter."
+            "text": "Six core APAC markets plus MENA. South Korea generates roughly half of all tracked crypto-native media traffic across Asia. Japan is second-largest with rising regulatory weight after July 2026 amendments moved crypto oversight under the Financial Instruments and Exchange Act. Vietnam is the highest-growth retail Web3 market in SEA. Greater China is reached through bilingual diaspora outlets like ChainCatcher and Jinse rather than mainland-licensed press. Singapore is the regional event hub (Token2049, Singapore FinTech Festival) and a credibility anchor under MAS. India is the home market for the practice and a category-builder for AI. MENA, anchored on Dubai and Abu Dhabi, is the fastest-moving Web3 regulatory perimeter."
           }
         },
         {
@@ -129,7 +129,7 @@
           "name": "How does APAC PR handle the 2026 regulatory changes?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Every APAC announcement in 2026 carries a per-market compliance note. Korea FSC five-minute reconciliation and zero-threshold Travel Rule. Japan FIEA migration with no investment-framing language post-shift. Hong Kong SFC VASP licensing footnote. Australia Treasury digital-asset platform regime framing. India transaction-level crypto reporting obligations from April 2026 per the Union Budget. The compliance review is not optional and is not delegated to the founder."
+            "text": "Every APAC announcement in 2026 carries a per-market compliance note. Korea FSC five-minute reconciliation and zero-threshold Travel Rule. Japan FIEA amendments enacted July 2026, with no investment-framing language. Hong Kong SFC VASP licensing footnote. Australia Treasury digital-asset platform regime framing. India transaction-level crypto reporting obligations from April 2026 per the Union Budget. The compliance review is not optional and is not delegated to the founder."
           }
         },
         {
@@ -137,7 +137,7 @@
           "name": "Is Token2049 Dubai still a launch window for APAC and MENA announcements?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Not until April 2027. Organisers postponed Token2049 Dubai to 21 to 22 April 2027, announced in March 2026, citing regional uncertainty. Founders planning a MENA announcement before then anchor it to the regional windows on the Dubai and MENA desk, or pair it with a Korea or Singapore press lift. Korea Blockchain Week (29 September to 1 October 2026) and Token2049 Singapore (7 to 8 October 2026) have also run, so a Q4 2026 or Q1 2027 expansion is best timed to your own listing, mainnet, raise or partnership milestone rather than to an event."
+            "text": "Not until April 2027. Organisers postponed Token2049 Dubai to 21 to 22 April 2027, announced in March 2026, citing regional uncertainty. Founders planning a MENA announcement before then anchor it to the regional windows on the Dubai and MENA desk, or pair it with a Korea or Singapore press lift. Korea Blockchain Week (29 September to 1 October 2026) and Token2049 Singapore (7 to 8 October 2026) have also run, so a Q4 2026 or Q1 2027 expansion is best timed to your own listing, mainnet, raise or partnership milestone. The next event anchors are Devcon 8 in Mumbai (3 to 6 November 2026), Singapore FinTech Festival (18 to 20 November 2026) and Consensus Hong Kong (1 to 3 February 2027)."
           }
         },
         {

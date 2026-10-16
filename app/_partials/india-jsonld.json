@@ -88,7 +88,7 @@
       "@type": "FAQPage",
       "@id": "https://www.shilikajain.com/india#faq",
       "datePublished": "2026-05-31",
-      "dateModified": "2026-09-03",
+      "dateModified": "2026-10-15",
       "mainEntity": [
         {
           "@type": "Question",
@@ -136,6 +136,14 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "For an AI startup with a developer-audience hook, Inc42, ET Tech or Forbes India for the founder profile and category narrative. For an AI startup with an enterprise-customer announcement, Economic Times and Business Today for the customer-name framing. For a Web3 startup launching a token or mainnet, Mint or Moneycontrol for the regulatory and market-impact framing. For a Web3 startup raising a Series A or B, Economic Times for the funding lead with Inc42 and YourStory as same-day re-reports. For a category-defining founder profile, Forbes India for the long-form arc."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How should a Web3 founder use Devcon 8 Mumbai for press?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Treat 1 to 6 November 2026 as one Mumbai press week. India Blockchain Week runs 1 to 2 November at the Fairmont Mumbai, then Devcon 8 runs 3 to 6 November at the Jio World Centre, the first Devcon in India. Brief one Indian exclusive (Inc42 for startup news, Economic Times for mainstream business) by late October under embargo, lift it on the first day of the week, then use the week for in-person briefings with international crypto reporters who are already in the city. Pick one hard news hook, such as a raise, a mainnet or an India developer number. Side-event sponsorship alone does not earn coverage."
           }
         },
         {

@@ -16,7 +16,8 @@ export async function GET(request: Request) {
   return withRunLedger<Record<string, unknown>>('queue-filler', async () => {
     const url = new URL(request.url);
     const force = url.searchParams.get('force') === '1';
-    const result = await submitTopicResearch({ force });
+    const focus = url.searchParams.get('focus') ?? undefined;
+    const result = await submitTopicResearch({ force, focus });
     return { status: 'success', summary: result as unknown as Record<string, unknown> };
   });
 }

@@ -16,7 +16,7 @@
         "Singapore cybersecurity PR"
       ],
       "url": "https://www.shilikajain.com/singapore",
-      "description": "Senior-operator-led Singapore PR for Web3, AI and cybersecurity founders. Named placements across The Business Times, Channel News Asia, The Straits Times, DealStreetAsia, Tech in Asia, e27 and Lianhe Zaobao paired with the international tier-1 re-report. MAS-aware framing baked into press copy under the 2026 Digital Token Service Provider regime, stablecoin draft legislation and the wholesale CBDC tokenised-bill settlement track. Token2049 Singapore (Marina Bay Sands, October 2026) and Singapore FinTech Festival event leverage. Project Guardian institutional partner framing for tokenisation, payments and RWA stories.",
+      "description": "Senior-operator-led Singapore PR for Web3, AI and cybersecurity founders. Named placements across The Business Times, Channel News Asia, The Straits Times, DealStreetAsia, Tech in Asia, e27 and Lianhe Zaobao paired with the international tier-1 re-report. MAS-aware framing baked into press copy under the Digital Token Service Provider regime, the September 2026 draft stablecoin law and the wholesale CBDC tokenised-bill settlement track. Singapore FinTech Festival (18 to 20 November 2026) and Token2049 Singapore event leverage. Project Guardian institutional partner framing for tokenisation, payments and RWA stories.",
       "provider": {
         "@type": "Person",
         "@id": "https://www.shilikajain.com/#person",
@@ -85,14 +85,14 @@
       "@type": "FAQPage",
       "@id": "https://www.shilikajain.com/singapore#faq",
       "datePublished": "2026-06-01",
-      "dateModified": "2026-09-06",
+      "dateModified": "2026-10-15",
       "mainEntity": [
         {
           "@type": "Question",
           "name": "What does a Singapore Web3 or AI PR program actually cover?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Seven workstreams. One: Singapore exclusive lead with The Business Times, DealStreetAsia, Channel News Asia, The Straits Times or e27 depending on the audience. Two: Singapore re-report wave across Tech in Asia, Tech Wire Asia, Asia Tech Daily and Lianhe Zaobao (for Chinese-language Singapore audiences) timed to lift inside the same day as the exclusive. Three: international tier-1 re-report through CoinDesk, Cointelegraph, The Block, Decrypt, AI Magazine or TechCrunch 24 hours behind the Singapore lift. Four: MAS-aware framing baked into every press copy under the 2026 Digital Token Service Provider regime and the upcoming stablecoin legislation. Five: named regional KOL voices on X, YouTube and Telegram with FTC-and-MAS-aware briefs. Six: on-ground event leverage at Token2049 Singapore (Marina Bay Sands, October 2026) and the Singapore FinTech Festival. Seven: founder LinkedIn and X-Asia activation timed to the press cycle."
+            "text": "Seven workstreams. One: Singapore exclusive lead with The Business Times, DealStreetAsia, Channel News Asia, The Straits Times or e27 depending on the audience. Two: Singapore re-report wave across Tech in Asia, Tech Wire Asia, Asia Tech Daily and Lianhe Zaobao (for Chinese-language Singapore audiences) timed to lift inside the same day as the exclusive. Three: international tier-1 re-report through CoinDesk, Cointelegraph, The Block, Decrypt, AI Magazine or TechCrunch 24 hours behind the Singapore lift. Four: MAS-aware framing baked into every press copy under the Digital Token Service Provider regime and the September 2026 draft stablecoin law. Five: named regional KOL voices on X, YouTube and Telegram with FTC-and-MAS-aware briefs. Six: on-ground event leverage at the Singapore FinTech Festival (18 to 20 November 2026) and Token2049 Singapore at Marina Bay Sands. Seven: founder LinkedIn and X-Asia activation timed to the press cycle."
           }
         },
         {
@@ -108,7 +108,7 @@
           "name": "Why does Singapore press want the MAS framing inside the first three paragraphs?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Because Singapore business press treats the regulator as a participant in the story, not a backdrop. The Business Times and Channel News Asia read every Web3 announcement against the 2026 Digital Token Service Provider regime, the upcoming stablecoin legislation, Project Guardian institutional partners and the wholesale CBDC tokenised-bill settlement track. Press copy that buries the regulator paragraph reads as either uninformed or evasive. Conversely, press copy that opens with the right MAS frame signals founder-credibility before any product detail. The Singapore FinTech Festival announcement cycle every November is the most-watched MAS calendar moment globally."
+            "text": "Because Singapore business press treats the regulator as a participant in the story, not a backdrop. The Business Times and Channel News Asia read every Web3 announcement against the Digital Token Service Provider regime, the September 2026 draft stablecoin law, Project Guardian institutional partners and the wholesale CBDC tokenised-bill settlement track. Press copy that buries the regulator paragraph reads as either uninformed or evasive. Conversely, press copy that opens with the right MAS frame signals founder-credibility before any product detail. The Singapore FinTech Festival announcement cycle every November is the most-watched MAS calendar moment globally."
           }
         },
         {
@@ -116,7 +116,7 @@
           "name": "How does Token2049 Singapore change the press calendar for a Web3 founder?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Token2049 Singapore on 7 and 8 October 2026 at Marina Bay Sands is the world's largest crypto conference and the single highest-leverage week for a Web3 launch in APAC. The press cycle starts five weeks out with embargo briefings to The Business Times, DealStreetAsia and Channel News Asia, lifts on the Monday before the event with a Singapore exclusive, runs side-events and named-byline coverage through the conference and closes with a post-event tier-1 international re-report on the Friday. Token2049 week press demand outstrips supply by 4 to 5x, which is why the briefings start in mid-August and not early September."
+            "text": "Token2049 Singapore is the world's largest crypto conference and the single highest-leverage week for a Web3 launch in APAC. The 2026 edition ran on 7 and 8 October at Marina Bay Sands. The press cycle starts five weeks out with embargo briefings to The Business Times, DealStreetAsia and Channel News Asia, lifts on the Monday before the event with a Singapore exclusive, runs side-events and named-byline coverage through the conference, and closes with a post-event tier-1 international re-report on the Friday. Token2049 week press demand outstrips supply by 4 to 5x, which is why briefings start five weeks ahead, not one. Founders who missed the 2026 week can anchor to the Singapore FinTech Festival on 18 to 20 November 2026, then plan the 2027 cycle backwards from the dates once the organisers publish them."
           }
         },
         {

@@ -115,6 +115,7 @@ type ResearchPromptOpts = {
   perplexity: Record<string, PerplexitySignal>;
   knownTitles: string[];
   brandContext: string;
+  focus?: string;
 };
 
 function buildResearchPrompt(opts: ResearchPromptOpts): { system: string; user: string } {
@@ -168,7 +169,9 @@ Rules:
 - "tags" is REQUIRED. If you have no tags, return [].
 - "priority" is an INTEGER 0-4. Never "P1", never "high".
 - "description" is REQUIRED and at least 40 characters.
-- Five to ten candidates is the sweet spot.`;
+- Five to ten candidates is the sweet spot.
+- A topic that covers the same ground as an existing title is a duplicate even
+  if the wording differs. Only propose genuinely new angles.`;
 
   const userParts: string[] = [];
 
@@ -234,8 +237,15 @@ Rules:
 
   userParts.push(
     `## Titles and slugs already in the pipeline (do NOT propose duplicates)\n` +
-      opts.knownTitles.slice(0, 80).map((t) => `- ${t}`).join('\n'),
+      opts.knownTitles.slice(0, 600).map((t) => `- ${t}`).join('\n'),
   );
+
+  if (opts.focus) {
+    userParts.push(
+      `## Focus for this run\nPropose 10-15 candidates, all inside this theme: ${opts.focus}\n` +
+        `Treat the seeds and signals above as background; the theme takes precedence. Every candidate must be new relative to the titles above.`,
+    );
+  }
 
   userParts.push(`## Your task
 1. For each candidate idea you propose, use the web_search tool to:
@@ -281,6 +291,31 @@ function fallbackFromSeeds(seeds: string[]): Candidate[] {
   }));
 }
 
+// Words every title in this niche shares; ignoring them keeps near-duplicate
+// detection focused on what the post is actually about.
+const TITLE_STOPWORDS = new Set(
+  'a an and the of for to in on at by with how what why when who which your you vs is are be do does that this it its from into after before about actually 2025 2026 web3 crypto ai pr founder founders startup startups playbook guide'.split(' '),
+);
+const NEAR_DUP_THRESHOLD = 0.6;
+
+function titleTokens(title: string): Set<string> {
+  return new Set(
+    title
+      .toLowerCase()
+      .replace(/[^a-z0-9\s-]/g, ' ')
+      .split(/[\s-]+/)
+      .filter((w) => w.length > 2 && !TITLE_STOPWORDS.has(w))
+      .map((w) => w.replace(/s$/, '')),
+  );
+}
+
+function jaccard(a: Set<string>, b: Set<string>): number {
+  if (!a.size || !b.size) return 0;
+  let inter = 0;
+  for (const w of a) if (b.has(w)) inter += 1;
+  return inter / (a.size + b.size - inter);
+}
+
 /**
  * Dedup candidates against the current pipeline + each other and insert the
  * survivors as 'idea' rows. Re-queries known titles so a batch processed
@@ -293,15 +328,18 @@ async function insertCandidates(
   const knownTitles = await listKnownTitles();
 
   const seenTitles = new Set<string>(knownTitles);
+  const seenTokens = [...knownTitles].map(titleTokens);
   const toInsert: Pick<ContentIdea, 'title' | 'description' | 'tags' | 'priority' | 'source_signals'>[] = [];
   let skipped = 0;
   for (const c of candidates) {
     const key = c.title.toLowerCase().trim();
-    if (seenTitles.has(key)) {
+    const tokens = titleTokens(key);
+    if (seenTitles.has(key) || seenTokens.some((t) => jaccard(t, tokens) >= NEAR_DUP_THRESHOLD)) {
       skipped += 1;
       continue;
     }
     seenTitles.add(key);
+    seenTokens.push(tokens);
     toInsert.push({
       title: c.title,
       description: c.description,
@@ -345,7 +383,7 @@ export type ResearchSubmitResult =
  * The submitted batch is later finalized by processTopicResearchMessage via the
  * batch-poller cron.
  */
-export async function submitTopicResearch(options?: { force?: boolean }): Promise<ResearchSubmitResult> {
+export async function submitTopicResearch(options?: { force?: boolean; focus?: string }): Promise<ResearchSubmitResult> {
   const supabase = getAdminSupabase();
 
   // Skip the research run unless the queue is genuinely low or the caller
@@ -428,13 +466,14 @@ export async function submitTopicResearch(options?: { force?: boolean }): Promis
     perplexity: perplexityByQuery,
     knownTitles: [...knownTitles],
     brandContext: brandCtx,
+    focus: options?.focus,
   });
 
   const request: AnthropicBatchRequest = {
     custom_id: RESEARCH_CUSTOM_ID,
     params: {
       model: RESEARCH_MODEL,
-      max_tokens: 6000,
+      max_tokens: options?.focus ? 12000 : 6000,
       system: [{ type: 'text', text: system, cache_control: { type: 'ephemeral' } }],
       messages: [{ role: 'user', content: user }],
       tools: [{ type: 'web_search_20250305', name: 'web_search' }],
