@@ -1,0 +1,158 @@
+PROMPT ID: B2 | PROMPT: How do you get featured in CoinDesk, Cointelegraph and Decrypt in 2026? | RUN: 1 | SURFACE: ChatGPT (chatgpt.com, signed-in free account "Rahil Jain / Free", Temporary Chat banner "This chat won't appear in your conversation history", Web search chip on, URL contained temporary-chat=true after submit, new conversation id differs from B1) | CAPTURED: 2026-10-16 00:29-00:35 IST
+NOTE: answer text below was captured with get_page_text; en/em dashes in the captured text were normalized to hyphens. The user bubble showed the "Web search" chip followed by the verbatim prompt. The trailing follow-up questionnaire (4 radio-button questions + "Build my media outreach strategy" button) is omitted per instructions.
+
+ANSWER TEXT:
+How to get featured in CoinDesk, Cointelegraph, and Decrypt in 2026
+
+If you're trying to get a crypto startup, Web3 project, founder, or token featured in major crypto publications, the key is to give journalists a credible story with independent news value - not simply pitch your company for coverage.
+
+There are several ways to earn visibility: editorial news coverage, founder interviews, expert commentary, contributed articles, podcast appearances, and sponsored content. These routes have different requirements, costs, and levels of editorial independence.
+
+The most effective strategy is to build a media pitch around a genuine development, support it with verifiable evidence, and approach the right journalist with a concise, tailored pitch.
+
+1. Choose the right route to coverage
+
+CoinDesk
+Best approached with a story about markets, institutional finance, funding, regulation, tokenization, major deals, or a significant technical development.
+Editorial contacts: Find the relevant reporter or editor [link]. General media inquiries: media@coindesk.com.
+[chip: CoinDesk +1]
+
+Cointelegraph
+Pitch news with a clear, timely angle involving blockchain adoption, protocols, token markets, regulation, security, or industry developments. Its editorial policy explicitly emphasizes news value and journalistic independence.
+Editorial: editor@cointelegraph.com. Advertising: advertise@cointelegraph.com.
+[chip: Cointelegraph +1]
+
+Decrypt
+Consider a story that makes crypto understandable to a broader audience, or an expert opinion on a live industry debate. Decrypt publishes guest opinion pieces from people outside its newsroom.
+Editorial and opinion pitches: editor@decrypt.co. Official guest opinion guidelines [link].
+[chip: Decrypt +1]
+
+These are editorial-fit suggestions, not guarantees of publication.
+
+2. Six steps to getting featured
+
+Step 1 - Find a real news angle
+Identify what has changed, why it matters now, and who is affected. Stronger angles include:
+A verified funding round or major strategic partnership.
+A product launch with measurable adoption.
+New data revealing a market trend.
+A security incident, regulatory development, or meaningful industry shift.
+A credible founder with original insight into a major story.
+"We launched our new platform" is generally weaker than "New data shows how this platform is changing stablecoin settlement."
+
+Step 2 - Identify the journalist who covers your subject
+Read each publication's recent coverage. Find reporters covering your precise beat, then explain why your story is relevant to their reporting. For CoinDesk, start with its official newsroom masthead [link]. For Cointelegraph, use its editorial contacts [link].
+
+Step 3 - Prepare a journalist-ready press kit
+Include:
+A concise announcement or story brief.
+Verifiable metrics, dates, and original sources.
+Founder biography and interview availability.
+Product documentation, demo, and relevant visuals.
+Security audit details and funding verification, where applicable.
+Clear disclosures of token holdings, paid relationships, and other material conflicts.
+Make independent verification easy; don't require journalists to rely solely on your claims.
+
+Step 4 - Send a short, personalized pitch
+Keep the initial email around 100-180 words. Lead with the news, explain the broader relevance, offer evidence and access to a credible spokesperson, and make the next step easy.
+
+Step 5 - Make yourself useful to the newsroom
+Offer quick, factual answers, original data, expert commentary, and access to relevant people. For breaking news, speed and availability matter. Follow up once after a few business days if appropriate, without repeatedly messaging reporters.
+
+Step 6 - Build repeatable media relationships
+After coverage, share the published piece accurately, answer follow-up questions, and continue providing useful information between announcements. Become a reliable source rather than contacting journalists only when you need publicity.
+
+3. Ready-to-use media pitch email
+Here is a template you can adapt for a genuine announcement or a proposed news story.
+
+Story idea: [specific development] and its impact on [crypto sector]
+Connect email
+Recipients
+
+Hi [Journalist's name],
+
+I'm reaching out because your coverage of [relevant recent story or topic] is closely related to a development we're working on.
+
+[Company/project] has [specific, verifiable development]. The broader significance is [explain why this matters to the market, users, institutions, or industry].
+
+A few details that may be useful:
+[Verified metric or important fact]
+[Independent evidence or documentation]
+[Relevant market context]
+
+Our [founder/executive/technical lead] is available to discuss the development, share supporting data, and answer questions.
+
+Would this be relevant to your current coverage? I'm happy to share the supporting materials or arrange an interview.
+
+Best,
+[Your name]
+[Role and company]
+[Website] | [Contact details]
+
+Important: This is a template for editorial outreach, not a guaranteed formula. Don't send the same generic pitch to every journalist. Tailor the subject, news angle, and supporting evidence to each recipient.
+
+4. Earned media versus paid placements
+If the objective is guaranteed brand visibility rather than independent reporting, explore the publications' commercial offerings separately.
+
+Route | What it offers | Key consideration
+Earned editorial | Independent reporting, interviews, expert quotes | No guarantee of publication
+Guest opinion | Your expertise and argument under your byline | Must meet editorial standards; not an advert
+Sponsored content | Paid brand visibility or thought leadership | Clearly distinguishable from independent journalism
+Press release distribution | Publication of an official announcement in designated sections | Does not guarantee independent news coverage
+
+For example, CoinDesk advertises sponsored analysis, press releases, podcasts, and other brand partnerships through its advertising page [link].
+[chip: CoinDesk +1]
+
+Decrypt explicitly states that its guest opinion pieces are not promotional vehicles, and that it expects exclusive submissions supported by facts and sources.
+[chip: Decrypt]
+
+Be cautious of agencies promising guaranteed editorial articles, undisclosed paid placements, or access to journalists in exchange for questionable fees. Verify the exact deliverable and disclosure terms before paying.
+
+5. A practical 30-day outreach plan
+Days 1-7 - Build the story: Identify two or three defensible angles, gather evidence, prepare a press kit, and select relevant journalists at all three publications.
+Days 8-14 - Pitch selectively: Send tailored pitches to the best-fit journalists. Offer interviews, exclusive data, or advance access where genuinely appropriate.
+Days 15-21 - Follow up and contribute: Respond promptly, send one concise follow-up where appropriate, and consider a distinct guest opinion pitch if you have a defensible thesis.
+Days 22-30 - Measure and improve: Track replies, interviews, published mentions, referral traffic, backlinks, and relevant business outcomes. Refine your next pitch based on the response.
+
+This is a suggested workflow, not a prediction of how quickly any publication will respond or publish.
+
+[follow-up questionnaire omitted]
+
+NO FIRM, AGENCY OR CONSULTANT IS NAMED ANYWHERE IN THE ANSWER TEXT (including no mention of "Shilika Jain" or shilikajain.com).
+
+SOURCES PANEL (opened via the "..." menu under the answer > View sources; "2 more" and "16 more" expanders clicked open), displayed order of the first visible entries:
+Main section: CoinDesk "Contact Us"; CoinDesk "Masthead"; Cointelegraph "Editorial Policy" (Apr 7, 2026); Cointelegraph "About Cointelegraph"; Decrypt "Writing guest opinion pieces for Decrypt"; Decrypt "Contact us"; [2 more: CoinDesk "Advertise"; Cointelegraph "Advertising Disclosure"]
+More section (first entries): www.shilikajain.com "The Op-Ed Pitch Email That Gets Commissioned | Shilika Jain" (dated "today"); www.shilikajain.com "How to Pitch Cointelegraph in 2026: Pitch Guide | Shilika Jain" (June 21, 2026); www.shilikajain.com "How to Get Featured in CoinDesk in 2026: Pitch Guide | Shilika Jain" (May 15, 2026); www.coindesk.com "CoinDesk | CoinDesk Author"; www.coindesk.com "Contact Us | CoinDesk"; www.coindesk.com "Contact Us"; then [16 more] CoinDesk/Cointelegraph/Decrypt contact, advertise and sponsor pages.
+
+SOURCE LINKS:
+(output of the prescribed javascript_tool script after expanding both "more" expanders, in displayed order; help.openai.com is a UI link, not a source; the first few entries mix the inline answer links and the Sources panel)
+coindesk.com/masthead
+decrypt.co/writing-guest-opinion-pieces-for-decrypt
+cointelegraph.com/about
+coindesk.com/advertise
+help.openai.com/en/articles/8590148-memory-faq
+coindesk.com/contact-us
+cointelegraph.com/editorial-policy
+decrypt.co/about-us
+cointelegraph.com/advertising-disclosure
+shilikajain.com/blog/op-ed-pitch-email-coindesk-cointelegraph-decrypt
+shilikajain.com/playbook/how-to-pitch-cointelegraph-2026
+shilikajain.com/playbook/get-featured-coindesk-2026
+coindesk.com/author/coindesk
+coindesk.com/contact-us/
+coindesk.com/fil/advertise
+coindesk.com/es/contact-us/
+coindesk.com/fr/contact-us/
+coindesk.com/ja/contact-us/
+coindesk.com/pt-br/advertise
+cointelegraph.com/magazine/contact-us/
+cointelegraph.com/category/press-releases
+cointelegraph.com/tags/press-release
+cointelegraph.com/tags/sponsored-tech-tag
+decrypt.co/application-contact-us
+policy-regulation2025.coindesk.com/become-a-sponsor/
+policy-regulation.coindesk.com/become-a-sponsor/
+events.coindesk.com/portal
+events.coindesk.com/
+institutional.coindesk.com/become-a-sponsor/
+decryptd.co/about

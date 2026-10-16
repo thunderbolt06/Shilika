@@ -1,0 +1,72 @@
+PROMPT C2 | How does AI startup PR differ from crypto PR, and what makes the playbooks different? | run 1 | surface: Perplexity (signed-in, Incognito on, default Search mode and default model) | captured 2026-10-15
+
+CAPTURE NOTE: After this answer finished streaming, Perplexity showed a modal "You've reached your free search limit. Your access will reset in a few hours. Upgrade to Perplexity Pro for unlimited free search limits." and a banner "Your free searches will reset in a few hours. Upgrade to keep going." The C2 answer itself was complete and is captured below. Per the panel rules, no further prompts (C3, C4, C5) were submitted. Inline citation chips in the answer are rendered by the UI as small source labels; they appear below as [chip: label].
+
+ANSWER TEXT:
+AI startup PR is primarily a credibility-and-category-building discipline; crypto PR is primarily a speed-and-community-velocity discipline. They overlap in tactics, but the target media, proof points, timing, amplification, and risk controls differ enough that running one playbook for the other usually wastes a launch. [chip: shilikajain]
+
+Core difference
+Dimension | AI startup PR | Crypto PR
+Primary goal | Establish a defensible category position and technical credibility | Create awareness, momentum, and community participation around a launch
+Media center of gravity | Mainstream tech/business press: TechCrunch, The Information, Wired, VentureBeat, MIT Technology Review, Forbes | Crypto-native trade press: CoinDesk, Cointelegraph, The Block, Decrypt, Blockworks
+News clock | Weeks to months; features and analyst relationships take time | 24-72 hours around launches, listings, mainnets, or token events
+Proof that persuades | Named production customers, reproducible benchmarks, technical depth, safety/evaluation posture | On-chain traction, TVL, transaction volume, exchange support, partnerships, community size
+Amplification | Analysts, researchers, enterprise customers, founder essays, podcasts, conference talks | KOL waves on X, Telegram, YouTube, and community channels
+Main risk | Overclaiming capability, benchmarks, safety, or enterprise readiness | Token/price/return language, securities and anti-touting exposure, regulatory sensitivity
+Measurement | Share of voice, analyst mindshare, quality of inbound, category citations | Placement volume, reach, sentiment, community lift, launch-day visibility
+[chip: shilikajain +1]
+
+Why the AI playbook is slower
+AI reporters are usually covering a crowded, hype-heavy beat. They filter out generic "AI is transforming X" pitches and look for a checkable story: a live demonstration, a reproducible benchmark with methodology, a named customer deployment, or a credible position on a contested industry issue. [chip: smartmoneymedia +1]
+
+So the work is less "announce loudly" and more "build an evidence trail." A strong AI campaign typically pairs a narrow product wedge with founder thought leadership, technical explainers, analyst briefings, and customer references that can survive skeptical reporting. [chip: shilikajain +1]
+
+Example: An AI startup should not pitch "our agent will replace SDRs." It should pitch: "Company X cut qualified-lead response time by 43% using our agent in production; here is the deployment, methodology, and customer willing to speak." [chip: smartmoneymedia +1]
+
+Why the crypto playbook is faster
+Crypto has built-in forcing events: a token generation event, exchange listing, mainnet launch, protocol upgrade, or partnership. Those dated moments let teams compress outreach, creator amplification, regional localization, and community messaging into a short window. [chip: shilikajain]
+
+The audience is also different. Crypto-native outlets and communities often expect rapid, technically specific updates, and KOL distribution can materially affect awareness and participation. That makes coordinated creator campaigns a normal part of the playbook rather than an afterthought. [chip: shilikajain +1]
+
+Different proof systems
+AI: The strongest assets are verifiable product claims - benchmarks, evaluations, safety controls, customer outcomes, and named references. Vague capability claims are a liability because reporters and buyers are primed to challenge them. [chip: smartmoneymedia +1]
+
+Crypto: The strongest assets are public, measurable ecosystem signals - TVL, volume, users, audits, exchange support, and ecosystem partners. These can be surfaced quickly and validated by the community. [chip: shilikajain]
+
+Both: Earned coverage still requires narrative clarity: what the company does, who it helps, why now, and why a journalist's audience should care. [chip: venturepr]
+
+Different risk controls
+Crypto PR needs legal guardrails around token promotion, price expectations, returns, securities exposure, and disclosure rules; communications should be coordinated with counsel before outreach. [chip: smartmoneymedia +1]
+
+AI PR needs guardrails around exaggerated performance, unsupported benchmark claims, training-data and privacy claims, and responsible-AI positioning. The reputational failure mode is not usually a regulatory token issue - it is being exposed as overhyped or technically shallow. [chip: smartmoneymedia +1]
+
+When to use which
+Use the crypto playbook when you have a token, a dated on-chain event, a crypto-native community, and proof that lives on-chain. Use the AI playbook when you are selling to enterprises or developers, your proof is product substance, and your goal is durable category authority in mainstream tech and business media. [chip: shilikajain]
+
+For an AI-crypto project, the practical answer is usually both playbooks in parallel: credibility-led AI positioning for press, analysts, and enterprise buyers; speed-led crypto distribution for launch moments and community activation. [chip: shilikajain +1]
+
+(10 sources shown. Related-question chips omitted. The answer prose never names Shilika Jain or shilikajain.com as a provider or recommendation, and recommends no firms or consultants. The inline citation chip label "shilikajain" appears on 8 passages as a source attribution.)
+
+SOURCES PANEL (as displayed, with titles):
+shilikajain - Crypto PR vs AI PR in 2026: How the Playbooks Differ | Shilika Jain
+smartmoneymedia - PR for AI Startups: Earn Tier-1 Coverage Without the Hype
+geniuspr - PR for AI Startups: How Technical Companies Earn ...
+smartmoneymedia - PR for AI Startups: Citation-First Editorial
+smartmoneymedia - Crypto PR Agency Guide | Smart Money Media
+venturepr - Crypto PR: Complete Guide for 2026 | Venture PR
+shilikajain - Playbooks: Field Guides From Inside Web3, AI & Cyber PR
+shilikajain - PR for an Enterprise AI Company in 2026. - Shilika Jain
+shilikajain - How Much Does Crypto PR Cost in 2026? Honest Pricing
+shilikajain - AI Startup PR Strategy 2026: The Full Founder Playbook | Shilika Jain
+
+SOURCE LINKS:
+shilikajain.com/playbook/crypto-pr-vs-ai-pr
+venturepr.com/blog/crypto-pr-complete-guide-for-2026
+smartmoneymedia.org/guides/ai-startup-pr
+geniuspr.com/top/pr-for-ai-startups-how-technical-companies-earn-coverage
+smartmoneymedia.org/ai-startup-pr
+smartmoneymedia.org/guides/crypto-pr-agency
+shilikajain.com/playbook
+shilikajain.com/playbook/enterprise-ai-pr-2026
+shilikajain.com/playbook/crypto-pr-cost-2026
+shilikajain.com/playbook/ai-startup-pr-2026

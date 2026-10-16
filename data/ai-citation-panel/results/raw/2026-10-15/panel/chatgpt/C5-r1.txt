@@ -1,0 +1,126 @@
+PROMPT C5 | Who runs PR for AI agent startups and AI infrastructure companies in 2026? | run 1 | surface ChatGPT (chatgpt.com, signed-in free account, Temporary Chat, web search hint on) | captured 2026-10-15 | URL had temporary-chat=true | note: en/em dashes in the answer text were normalized to hyphens when saving
+
+ANSWER TEXT:
+Who runs PR for AI agent startups and AI infrastructure companies in 2026?
+
+If you're looking for the people who actually get AI startups into TechCrunch, Bloomberg, The Information, WIRED, Forbes, and other influential outlets, I'd focus on specialist tech PR agencies, independent communications consultants, and senior in-house communications leads rather than generic marketing agencies.
+
+The landscape breaks into three groups:
+- AI agent startups: PR for product launches, funding rounds, enterprise adoption, and category creation.
+- AI infrastructure companies: PR for technical differentiation, benchmarks, developer adoption, strategic partnerships, and major funding announcements.
+- AI-native companies building their reputation: Founder positioning, thought leadership, and visibility in both traditional media and AI-powered search.
+
+Here is a practical shortlist of firms and the people behind them, based on publicly available information as of October 2026. These are research leads, not a verified roster of the agencies currently representing every major AI startup.
+
+1. The strongest PR firms to investigate
+
+1. VSC - AI infrastructure
+One of the clearest fits for infrastructure and developer-facing AI companies. VSC's published case studies cover Groq's AI inference infrastructure and Windsurf's AI coding products, including funding and product-launch campaigns.
+[citation chip: VSC +1]
+People to investigate: the VSC account leadership and media-relations team responsible for those accounts.
+Website and case studies (inline link)
+
+2. Mission North - Enterprise AI and infrastructure
+A strong option for enterprise AI, cloud infrastructure, cybersecurity, and energy-intensive AI data-center businesses. Its leadership includes Erin Smith, EVP of Enterprise Technology Group, and Kerry Baker, who leads strategic partnerships in its infrastructure-focused practice.
+[citation chip: missionnorth.com +2]
+Meet the team and AI practice (inline link)
+
+3. Ditto PR - Startup launches and fundraising
+Founded and led by Trey Ditto, this firm focuses on startup launches, fundraising announcements, and sustained technology-media coverage. Its published AI portfolio includes Vise AI, Builder.AI, Engineer.ai, and Synapse, an AI infrastructure company.
+[citation chip: dittopr.pplx.app]
+Website and AI portfolio (inline link)
+
+4. Codeword
+A technology communications firm worth investigating for AI startups that need category positioning, product storytelling, and a mix of earned media and brand strategy. Its leadership includes Brandon Carter, Head of Strategy, and Gabie Kur, Partner and Head of Growth.
+[citation chip: Codeword +1]
+Website and newsroom (inline link)
+
+5. Crackle PR
+Relevant to B2B AI infrastructure and enterprise startups looking for technical media relations, executive positioning, and visibility in AI-powered search. Its founder and CEO is Parry Headrick. The firm publishes a minimum retainer of $12,000 per month and a six-month initial engagement.
+[citation chip: Crackle PR +1]
+Website and services (inline link)
+
+6. Notably PR
+A boutique option for early-stage AI and deep-tech companies. Co-founders Carly Martinetti and Carin Warner lead the firm, which combines media relations with measurement of brand visibility across AI assistants.
+[citation chip: Notably PR]
+Website and team (inline link)
+
+2. Who runs PR inside AI infrastructure companies?
+If you want to identify the people who own communications budgets and choose agencies, these are useful starting points.
+Person | Company / role | Why they're relevant
+Andrew Schmitt | Communications at Crusoe | Directly relevant to AI cloud, data centers, and energy infrastructure storytelling. [missionnorth.com]
+Alana O'Grady Lauk | VP of Communications & Public Affairs at Verkada | Example of senior communications leadership at an AI-enabled physical-security company. [missionnorth.com]
+Erin Smith | EVP, Enterprise Technology Group at Mission North | Agency-side decision-maker for enterprise technology and AI communications. [missionnorth.com]
+Kerry Baker | Mission North, infrastructure-focused partnerships | Relevant to cloud, data, and AI infrastructure communications. [missionnorth.com +1]
+Trey Ditto | Founder & CEO, Ditto PR | Agency-side contact for AI startup launches and fundraising campaigns. [dittopr.pplx.app]
+Parry Headrick | Founder & CEO, Crackle PR | Agency-side contact for B2B AI communications and technical positioning. [Crackle PR]
+These are publicly documented roles, not confirmation that each person currently runs PR for a particular AI agent company. For a specific startup, its current communications lead or press contact should be verified independently.
+
+3. Where I'd focus by company type
+AI agent startups (enterprise agents, coding agents, customer-support agents, autonomous workflow software): Start with Ditto PR, VSC, and Codeword. Look for evidence of successful product launches, funding exclusives, founder profiles, and customer-led stories.
+AI infrastructure (inference chips, GPU clouds, model-serving platforms, data centers, AI networking and developer infrastructure): Start with VSC and Mission North. Their published work and practice descriptions provide the clearest infrastructure-specific evidence in this shortlist.
+Early-stage AI companies building visibility (pre-seed to Series B, new categories, founder-led launches): Compare Ditto PR, Notably PR, and Crackle PR based on senior-level attention, relevant references, and demonstrated media results.
+
+4. How to find the actual person behind a startup's PR
+For a targeted list of AI agent and infrastructure companies, I would verify each company against:
+1. Its press releases and newsroom for an agency credit or media contact.
+2. LinkedIn profiles of its Head of Communications, VP of Communications, PR Director, or external agency account lead.
+3. Agency case studies and funding announcements to establish who handled the campaign.
+4. Recent press coverage to distinguish the current PR owner from a firm used only for a past launch.
+One important distinction: the agency with the strongest public portfolio is not necessarily the firm currently representing a startup. Account assignments can change, and many engagements are never publicly disclosed.
+
+I can narrow this into a much more actionable list. Are you primarily looking for (a) PR agencies to hire, (b) individual PR people who currently represent AI startups, or (c) the PR contacts behind specific companies such as Anthropic, Cursor, Cognition, Decagon, Groq, Cerebras, and Together AI? (closing question, ignored for coding)
+
+SOURCES PANEL (opened via "..." menu under the answer, then View sources; "N more" expanders clicked). Titles as displayed (partial capture; long list):
+- VSC - Startup PR Insights & Case Studies
+- VSC - Windsurf Case Study | AI IDE PR & Acquisition
+- missionnorth.com - Mission North Announces Record Growth within Enterprise and AI Practices, Hires Two New Senior Executives (May 20, 2025)
+- missionnorth.com - Mission North (Erin Smith page)
+- missionnorth.com - Announcing Mission North's AI Energy & Infrastructure Practice (September 16, 2025)
+- dittopr.pplx.app - Ditto PR - The PR Firm That AI Startups Trust
+- Codeword - Stepping into bigger shoes, and what comes next for Strategy at Codeword (August 6, 2026)
+- Codeword - Why we're bringing analyst-grade market intelligence and GTM strategy in-house (June 11, 2026)
+- Crackle PR - B2B Tech PR Agency for AI Search
+- Crackle PR - Best AI PR Agencies for AI Companies in 2026 (May 10, 2026)
+- Notably PR - AI PR Agency for AI and Deep-Tech Companies (October 10, 2026)
+- missionnorth.com - Crusoe's Andrew Schmitt on AI Infrastructure Storytelling, Multichannel Comms, and Where Human Creativity Wins
+- ... plus further items (Verkada, Axios, High Vibe PR, Business Insider, Economic Times, Express Computer, Reuters, Salient PR, more Mission North / VSC / Codeword pages) whose titles were not fully captured
+
+SOURCE LINKS (35 links as returned by the script, in DOM order; long URLs truncated to about 90 chars in capture):
+vsc.co/
+missionnorth.com/
+dittopr.pplx.app/
+codewordagency.com/
+cracklepr.com/
+notablypr.com/ai-pr-agency.html
+help.openai.com/en/articles/8590148-memory-faq
+vsc.co/case-study/windsurf
+missionnorth.com/dispatches/mission-north-announces-record-growth-within-enterprise-and-ai-practices
+missionnorth.com/us/erin-smith
+missionnorth.com/dispatches/announcing-mission-norths-ai-energy-infrastructure-practice
+codewordagency.com/the-feed/strategy-at-codeword/
+codewordagency.com/the-feed/why-were-bringing-analyst-grade-market-intelligence-and-gtm-strategy-in-(truncated)
+cracklepr.com/best-pr-agency-for-ai-companies
+missionnorth.com/dispatches/crusoes-andrew-schmitt-on-ai-infrastructure-storytelling-multichannel-co(truncated)
+missionnorth.com/dispatches/pr-not-er-verkadas-alana-ogrady-lauk-on-staying-grounded-in-a-crisis
+axios.com/newsletters/axios-pro-rata-0fc29160-ede7-4893-8bf4-4a537780ed72
+highvibepr.com/insights/best-ai-pr-agencies
+businessinsider.com/ai-agent-company-decagon-hired-investment-bank-acquisition-interest-20(truncated)
+m.economictimes.com/ai/ai-insights/you-cannot-secure-what-you-dont-know-exists-says-trenda(truncated)
+expresscomputer.in/news/ibm-meity-startup-hub-sign-mou-to-support-indias-deep-tech-startup(truncated)
+businessinsider.com/bird-ceo-says-ai-is-empowering-high-agency-generalist-workers-2026-9
+reuters.com/legal/transactional/sequoia-backed-chip-startup-nuvacore-raising-funds-about-2(truncated)
+missionnorth.com/dispatches/what-alex-konrad-wants-from-founders-and-pr-teams
+missionnorth.com/dispatches/mission-norths-danny-maiello-in-the-age-of-ai-reputation-runs-(truncated)
+salientpr.com/blog/the-5-best-ai-pr-agency-for-startups
+axios.com/2026/04/21/plenty-co-pr-agency-collective-launch
+businessinsider.com/pr-agency-solopreneurs-using-ai-for-client-service
+missionnorth.com/dispatches/writing-an-rfp-heres-what-you-should-ask-potential-agencies-ab(truncated)
+missionnorth.com/dispatches/ai-mn-insights-from-mission-norths-media-practi(truncated)
+vsc.co/insights
+vsc.co/blog/vsc-newsletter-spring-2025
+missionnorth.com/dispatch
+codewordagency.com/newsroom/
+codewordagency.com/job/5433577008/
+
+CODING NOTES: Shilika Jain / shilikajain.com is NOT named in the answer body and NO shilikajain.com link appears among the 35 cited links (verified: zero links matching "shilika"). Six firms are recommended in a numbered list (VSC, Mission North, Ditto PR, Codeword, Crackle PR, Notably PR); named individuals are staff of those firms or in-house comms leads, not additional firms. help.openai.com is a ChatGPT UI link. The first 6 links are the inline "Website" links for the recommended firms.

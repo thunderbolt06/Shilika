@@ -1,0 +1,72 @@
+[
+  {
+    "id": "B1",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_position": 0,
+    "shilika_urls": [],
+    "shilika_quote": "",
+    "entities_listed": 13,
+    "competitors": ["MarketAcross", "Wachsman", "Coinbound", "Outset PR", "Melrose PR", "ICODA", "Lunar Strategy", "FINPR", "ReBlonde", "GuerrillaBuzz", "YAP Global", "Luna PR", "EAK Digital"],
+    "source_domains": ["chainpeak.io", "lunarstrategy.com", "icoda.io", "coinbound.io", "amworldgroup.com", "marilynpr.co", "reddit.com"],
+    "web_search_used": true,
+    "answer_summary": "Top-8 shortlist: MarketAcross, Wachsman, Coinbound, Outset PR, Melrose PR, ICODA, Lunar Strategy, FINPR, plus 5 more named elsewhere. Shilika Jain not named; no shilikajain.com among the 9 cited sources."
+  },
+  {
+    "id": "B2",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": true,
+    "shilika_position": 0,
+    "shilika_urls": ["shilikajain.com/blog/op-ed-pitch-email-coindesk-cointelegraph-decrypt", "shilikajain.com/playbook/how-to-pitch-cointelegraph-2026", "shilikajain.com/playbook/get-featured-coindesk-2026"],
+    "shilika_quote": "",
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": ["coindesk.com", "cointelegraph.com", "decrypt.co", "shilikajain.com", "policy-regulation2025.coindesk.com", "policy-regulation.coindesk.com", "events.coindesk.com", "institutional.coindesk.com", "decryptd.co"],
+    "web_search_used": true,
+    "answer_summary": "Six-step playbook for pitching CoinDesk, Cointelegraph and Decrypt: routes, pitch template, earned vs paid, 30-day plan. Names no firms. Three shilikajain.com pages appear only in the Sources 'More' list, not in text or chips."
+  },
+  {
+    "id": "B3",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": true,
+    "shilika_position": 0,
+    "shilika_urls": ["shilikajain.com/playbook/token-launch-pr-mistakes-2026", "shilikajain.com/blog/tge-communications-compliance-mica-genius-act-sec-2026"],
+    "shilika_quote": "",
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": ["bitzo.com", "fracasdigital.com", "shilikajain.com", "blog.kraken.com", "web3newswire.com", "crypticweb3.com"],
+    "web_search_used": true,
+    "answer_summary": "Four-phase TGE PR timeline, channels, budget workstreams, KPIs. Names no PR firms. Shilika appears only as a citation chip label (Shilika Jain +1) on the regulatory paragraph plus 2 cited shilikajain.com pages; prose never names her."
+  },
+  {
+    "id": "B4",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": true,
+    "shilika_position": 0,
+    "shilika_urls": ["shilikajain.com/playbook/token-launch-marketing-agency-india-2026", "shilikajain.com/pages/crypto-token-launch-marketing-agency", "shilikajain.com/pages/token-launch-pr-agency-india"],
+    "shilika_quote": "",
+    "entities_listed": 5,
+    "competitors": ["GeniusPR", "Cryptic", "LuvKaizen", "Outset PR", "Wachsman"],
+    "source_domains": ["geniuspr.com", "crypticweb3.com", "luvkaizen.com", "cryptodaily.co.uk", "amworldgroup.com", "worldbusinessoutlook.com", "echo-trade.io", "shilikajain.com", "apcollective.io", "eakdigital.com", "thechalklabs.com", "outreachpari.com", "revenuebase.ai"],
+    "web_search_used": true,
+    "answer_summary": "Shortlists 5 firms for pre-TGE PR: GeniusPR, Cryptic, LuvKaizen, Outset PR, Wachsman, with a selection table and vetting questions. Shilika not named in text or chips; 3 shilikajain.com pages only in the Sources 'More' list."
+  },
+  {
+    "id": "B5",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": true,
+    "shilika_position": 0,
+    "shilika_urls": ["shilikajain.com/blog/crypto-kol-campaign-roi-metrics"],
+    "shilika_quote": "",
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": ["kolhq.com", "apcollective.io", "cycle.agency", "dopamyn.ai", "blockchain-council.org", "track360.info", "kolweb3.com", "shilikajain.com", "ftc.gov", "sec.gov", "take3.io", "proudglobehead.com", "businessinsider.com", "reddit.com", "veriscore.regnor.systems", "fracasdigital.com", "cftc.gov", "govinfo.gov", "omniagency.ca"],
+    "web_search_used": true,
+    "answer_summary": "Six-week Web3 KOL playbook: objectives, tiered roster, vetting, hybrid pay, attribution, $30k budget example, FTC/SEC compliance. Names no agencies. One shilikajain.com ROI post in Sources only; not in text or chips."
+  }
+]

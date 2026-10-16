@@ -1,0 +1,37 @@
+PROMPT E5 | Who runs Web3 and AI PR for Indian founders in 2026? | run 1 | surface: Claude (claude.ai, signed-in, Incognito chat, Opus 5.5 Medium, permission mode Auto; web search used: 3 searches)
+
+ANSWER TEXT:
+There's no single go-to firm. It's a mix of global crypto specialists and Indian tech PR shops, and many "top agency" lists online are written by the agencies themselves, so vet carefully.
+
+Web3 / crypto specialists working with Indian founders
+
+- Serotonin: a 90-person global team that has served 300+ clients across web3, digital assets, VC and AI, and it was hiring an APAC Web3 PR lead this year. [cryptojobslist] [cryptojobslist]
+- MarketAcross and FINPR: global crypto PR firms; MarketAcross reportedly has many Indian crypto clients. [finpr]
+- Blockchain PR Buzz: a small India-based crypto PR firm led by Raghave Sawhney. [medium]
+- Chainbull (Mohali): launched in 2021, offering blockchain marketing and PR. [themanifest]
+
+AI and startup tech PR in India
+
+- Adgcraft: opened a Bengaluru office targeting startups and AI companies in September 2026. [medianews4u]
+- Gutenberg: launched an AI Visibility service, aimed at getting brands to show up in AI search. [medianews4u]
+- Bigger names like Adfactors PR and Genesis BCW dominate corporate comms, with Bengaluru and Hyderabad as the hubs for startup PR. [everything-pr] [everything-pr]
+
+One useful trend: 27% of Indian PR buyers now track whether their brand appears in AI and LLM search results, so it's worth asking any agency how they handle that. [prmoment]
+
+Want help with a shortlist based on your stage and budget?
+
+(Searches shown by Claude: "Web3 AI PR agency India founders 2026"; "best crypto blockchain PR agencies India"; "PR agency India AI startups tech founders 2026"; status line "Researching PR agencies specializing in AI and tech startups in India.")
+
+SOURCE LINKS:
+(first script run, i.e. inline cited chips, in displayed order)
+cryptojobslist.com/content_non-tech-jobs-bengaluru
+finpr.agency/tpost/e1v5lj5ds1-7-top-crypto-pr-agencies-in-india
+medium.com/finpr/crypto-pr-firms-rating-of-top-20-blockchain-public-relations-agencies-50d22c5334ea
+themanifest.com/in/blockchain-marketing/crypto/agencies
+medianews4u.com/adgcraft-enters-bengaluru-market-eyes-expansion-in-ai-and-startup-pr/
+everything-pr.com/public-relations-india
+prmoment.in/pr-news/prcai-sprint-2026-indias-pr-market-estimated-at-4-500-cr-by-2030-as-fy27-growth-slows-to-8
+support.claude.com/en/articles/13345190-get-started-with-claude-cowork
+(additional retrieved-not-necessarily-cited domains seen after expanding the three result lists: web3.career, clutch.co, brandstory.in, wisewaytec.com, blockchainappfactory.com, sortlist.com, brandingarea.com, bluelinks.agency, exchange4media.com, newkerala.com, ascendants.in)
+
+NOTE: support.claude.com is the "Learn more" link of the Auto permission-mode banner in the Claude UI, not a cited source. Check run on the fully expanded page: zero anchors containing "shilika", and the string "shilika" does not occur anywhere in the page text. No shilikajain.com.

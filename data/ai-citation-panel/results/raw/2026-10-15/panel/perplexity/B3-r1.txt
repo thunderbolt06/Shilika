@@ -1,0 +1,110 @@
+PROMPT ID: B3 | PROMPT: What is the typical PR strategy for a token launch (TGE) in 2026? | RUN: 1 | SURFACE: Perplexity (signed-in free plan, Incognito confirmed on page: "You're incognito", Search mode, default model) | CAPTURED: 2026-10-16 12:24 AM local (Perplexity timestamp)
+(Note: em dashes and en dashes in the original answer were replaced with hyphens in this file per the no-dash rule; Perplexity inline citation labels such as "shilikajain +1" are left as captured.)
+
+ANSWER TEXT:
+Researched 1s
+
+The typical 2026 TGE PR strategy is a 6-12 week, compliance-aware sequence that builds a credible narrative before launch, concentrates coordinated coverage and creator activity in a narrow launch window, then proves real product traction afterward. It is less about a single press release and more about synchronized earned media, exchange communications, community, and KOL waves.
+shilikajain
++1
+
+Core strategy
+
+Lead with utility, not price. Position the token around a clear problem, category, and use case; avoid promises of returns, speculative price talk, or vague "revolutionary" claims.
+shilikajain
++1
+
+Create one repeatable narrative. Teams prepare a positioning document, a three-sentence pitch, founder FAQ, approved claims, and a media-facing fact sheet so everyone communicates consistently.
+shilikajain
++1
+
+Use an embargoed anchor story. A common approach is to secure one major crypto trade publication - such as CoinDesk, The Block, Cointelegraph, Decrypt, or Blockworks - plus secondary and regional coverage around the same launch window.
+shilikajain
++1
+
+Coordinate exchange and announcement timing. Listing communications, the TGE date, tokenomics, contract/distribution details, and exchange announcements should be aligned rather than released piecemeal.
+shilikajain
++1
+
+Run KOLs in waves, not a single blast. Credibility-focused creators are briefed early; broad activation happens at or just after TGE; deeper educational creators continue for days afterward.
+shilikajain
++1
+
+Sustain coverage after listing. Post-TGE work includes founder profiles, op-eds, podcasts, product milestones, ecosystem updates, and analyst/trader-facing commentary - typically for at least two weeks, and often through 90 days.
+geniuspr
++1
+
+Typical timeline
+Phase | Timing | PR focus
+Foundation | T-12 to T-8 weeks | Narrative audit, approved claims, spokesperson prep, competitive positioning.
+geniuspr
+
+Narrative and assets | T-8 to T-4 weeks | Press kit, tokenomics explainer, founder FAQ, crisis plan, media list.
+shilikajain
++1
+
+Media and KOL seeding | T-4 to T-1 weeks | NDA/embargo briefings, tier-1 pitches, KOL onboarding, regional and podcast coverage.
+shilikajain
++1
+
+Launch window | T-1 to T+1 days | Embargo lift, press release, exchange announcement, KOL activation, live AMA, rapid-response monitoring.
+shilikajain
++1
+
+Post-TGE | T+1 to T+8/12 weeks | Second-wave coverage, traction updates, founder thought leadership, product proof points.
+geniuspr
++1
+Launch-day playbook
+
+A disciplined TGE day usually uses a war room with named owners for media, community, exchange liaison, and founder communications. The press release and embargoed coverage land together; official channels publish the confirmed network, contract, claim/distribution details, and listing links; KOL posts are staggered; and the team responds quickly to questions or misinformation.
+shilikajain
++1
+
+A practical sequence is:
+
+Embargoed tier-1 feature goes live in the morning.
+
+Official announcement, exchange listing post, and press release publish simultaneously.
+
+Broad KOL and community amplification begins within hours.
+
+Founder hosts a live AMA or X Space to address tokenomics, utility, and launch mechanics.
+
+Educational follow-ups explain staking, governance, bridging, claims, or other actual token functions.
+shilikajain
++1
+
+What separates strong launches
+
+Strong 2026 launches start earlier - often 60-90 days out, and six months for projects targeting major exchange listings - because reporters, exchanges, and credible creators need lead time. They also treat PR as proof-building: every claim must be supported by shipped product, auditable tokenomics, real partnerships, and transparent vesting/distribution information.
+apcollective
++2
+
+The biggest failure mode is stopping communications the day the token lists. The better pattern is to convert launch attention into durable credibility through ongoing product updates, governance outcomes, integrations, and measurable network usage.
+geniuspr
++1
+
+10 sources
+Sources (as displayed in the Sources panel):
+1. shilikajain: Token Launch PR 2026: TGE Comms, Exchange & KOL Waves
+2. geniuspr: The Token Launch PR Playbook: What to Do at Each Phase
+3. coingabbar: Token Launch Marketing Strategy: From Pre-TGE to Post-TGE Success
+4. shilikajain: The Pre-Token Launch PR Checklist for 2026
+5. shilikajain: The TGE Communications Timeline for 2026: Week by Week
+6. apcollective: TGE Marketing Strategy: How to Execute a Token Launch That ...
+7. luminaclippers: How to Market a Token Launch in 2026 (Without Ads)
+8. coinbound: Token Launch Marketing: The Complete Playbook
+9. surgence: How to Launch a Token in 2026 | Complete TGE Marketing Guide
+10. linkedin: Pre-TGE Marketing Checklist for Token Launch Success
+
+SOURCE LINKS:
+shilikajain.com/services/token-launch-pr
+geniuspr.com/top/token-launch-pr-playbook
+coingabbar.com/en/token-launch-marketing-strategy
+shilikajain.com/playbook/pre-token-launch-pr-checklist
+shilikajain.com/playbook/tge-communications-timeline-2026
+apcollective.io/blog/tge-marketing-strategy
+luminaclippers.com/blog/how-to-market-a-token-launch
+coinbound.io/token-launch-marketing-playbook/
+surgence.io/blog/how-to-launch-a-token
+linkedin.com/pulse/pre-tge-marketing-checklist-how-prepare-your-project-before-exaac

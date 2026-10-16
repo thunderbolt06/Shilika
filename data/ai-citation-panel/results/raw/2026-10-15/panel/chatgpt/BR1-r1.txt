@@ -1,0 +1,40 @@
+id=BR1 | surface=ChatGPT (chatgpt.com, signed-in free account, Temporary Chat, web search hint on) | query=Who is Shilika Jain? | date=2026-10-15 | temporary-chat confirmed in URL (?temporary-chat=true) and "Temporary chat" banner
+
+ANSWER:
+Shilika Jain appears to be an India-based public relations (PR) and communications professional specializing in Web3, cryptocurrency, artificial intelligence (AI), and cybersecurity.
+
+According to her professional website and LinkedIn-related search results, here is a summary of her background.
+[citation chip: Shilika Jain +2]
+
+Shilika Jain
+PR, communications and Web3 marketing
+- Current role: Reportedly leads APAC public relations and partnerships at Myosin, a growth-marketing DAO.
+- Experience: Her website describes approximately six years of PR experience.
+- Industry focus: Blockchain, crypto, AI and emerging technology.
+- Regional reach: India, Singapore, South Korea, Japan, Vietnam and the UAE.
+[citation chip: Shilika Jain +1]
+
+What is she known for?
+- Media relations: Securing coverage and interviews for technology and crypto founders.
+- Strategic communications: Helping startups shape their public image and communicate launches and funding announcements.
+- Industry publications: Her website cites placements in outlets such as Forbes, CoinDesk, Cointelegraph, Decrypt and The Block. These are claims made in her professional portfolio, rather than independently verified results.
+[citation chip: Shilika Jain +1]
+
+Where can you learn more?
+- Official website
+- LinkedIn search for Shilika Jain
+
+One important distinction: This information identifies the Shilika Jain associated with Web3 PR. If you're looking for someone with the same name in another field, such as business, education or a particular company, tell me where you encountered her and I can narrow the search.
+
+SOURCE CHIP POPOVER (first chip, 3 items, titles as shown):
+1. Shilika Jain site: "Why Web3 and AI Founders Hire Shilika Jain" (October 1, 2026) -> opened tab URL: shilikajain.com/blog/why-founders-hire-shilika-jain
+2. Shilika Jain site: "Sobre Shilika Jain: PR fraccional para Web3 e IA" -> opened tab URL: shilikajain.com/es/about
+3. LinkedIn item: "Shilika . See you there, excited" -> exact URL unverified (button did not open a tab on scripted click)
+
+NOTE: the answer's Myosin claim (APAC PR and partnerships lead) was not checked against the site by this agent (unverified).
+
+SOURCE LINKS:
+shilikajain.com/
+linkedin.com/search/results/people/
+shilikajain.com/blog/why-founders-hire-shilika-jain
+shilikajain.com/es/about

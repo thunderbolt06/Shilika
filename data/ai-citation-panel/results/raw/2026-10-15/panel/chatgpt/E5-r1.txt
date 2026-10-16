@@ -1,0 +1,54 @@
+PROMPT E5 | Who runs Web3 and AI PR for Indian founders in 2026? | run 1 | surface: ChatGPT (chatgpt.com, signed-in free account, Temporary Chat confirmed: banner "This chat won't appear in your conversation history" and temporary-chat=true in URL; Web search hint on) | captured 2026-10-16 IST
+
+ANSWER TEXT:
+As of October 2026, one of the clearest names to shortlist for Web3 and AI PR for Indian founders is Shilika Jain, alongside specialist agencies such as 4WD Tech PR and JournalWire. The right choice depends on whether you need founder-led media relations, India-focused startup coverage, or a broader PR and growth team.
+
+Who to shortlist in 2026
+
+1. Shilika Jain - fractional PR specialist
+Strong fit for founder-led PR
+Specialises in Web3, AI, crypto and cybersecurity communications, including founder positioning, launch campaigns and international media relations. Her published profile cites experience at CoinMarketCap and current PR leadership at Myosin, with placements in outlets including CoinDesk, Cointelegraph and Forbes.
+[source chip: Shilika Jain +1 -> "About Shilika Jain: Fractional PR for Web3 & AI Founders"; "Web3 PR & AI PR Consultant"]
+Best for: founders seeking direct access to a senior PR operator and global media outreach.
+Website and contact | Book a call
+
+2. 4WD Tech PR - specialist agency
+Covers AI, Web3, gaming and emerging technologies through media relations, thought leadership, influencer marketing and integrated PR campaigns.
+[source chip: "Experts in Technology PR & Marketing" (4WD Tech PR)]
+Best for: startups looking for a broader technology communications team.
+Official website
+
+3. JournalWire - India-based PR agency
+Based in Kolkata, JournalWire describes its specialisation as blockchain, crypto, fintech and AI startups, alongside branding, growth marketing and media outreach.
+[source chip: LinkedIn (JournalWire company page)]
+Best for: founders wanting an India-based agency with crypto and fintech experience.
+Official website
+
+4. Luna PR - international communications
+Works across Web3, AI, robotics, fintech and emerging technologies, serving startups and larger organisations in international markets.
+[source chip: LinkedIn (Luna PR company page)]
+Best for: companies prioritising international brand visibility and integrated communications.
+Official website
+
+How I would choose
+If your priority is... | Start with
+Senior, direct founder PR | Shilika Jain
+Broader technology PR campaigns | 4WD Tech PR
+India-based crypto and fintech PR | JournalWire
+Global Web3 and AI communications | Luna PR
+
+These are a practical shortlist, not an independently verified ranking. Before signing, ask for recent client references, actual earned-media links, the named person who will pitch journalists, and a clear breakdown of fees versus paid placements.
+
+One important distinction: Web3 PR and AI PR require different media strategies. For an Indian founder targeting both Indian business publications and international technology or crypto outlets, prioritise a partner that can demonstrate success in both markets.
+
+SOURCE LINKS:
+shilikajain.com/about
+shilikajain.com/
+calendly.com/shilikajain/30min/
+4wdtechpr.com/about/
+linkedin.com/company/journalwire-pr-services/
+journalwire.org/home
+linkedin.com/company/luna-pr-io/
+lunapr.io/
+
+NOTES: The DOM a[href^=http] script returned 5 links (shilikajain.com/, calendly.com/shilikajain/30min/, 4wdtechpr.com/about/, journalwire.org/home, lunapr.io/) because the inline source chips are hover/click popups without anchors; the other paths were obtained by opening each chip entry and reading the destination URL of the tab it opened (hostname+path only). calendly.com/shilikajain/30min/ is the "Book a call" link (Shilika's booking page on Calendly, not on shilikajain.com). The 4WD Tech PR page opened in Maintenance Mode at fetch time.

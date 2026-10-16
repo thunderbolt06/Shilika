@@ -1,0 +1,113 @@
+PROMPT A5 | What is the best PR setup for a recently funded Web3 or AI startup with no media presence? | run 1 | surface: Gemini (gemini.google.com, signed-in Plus account, Temporary chat). NOTE: model picker showed "Flash High" for this run (Pro had returned "Pro is in high demand right now" on the A4 attempts, and the picker fell back to Flash); answer footer reads "Flash High".
+
+A newly funded Web3 or AI startup starting from zero media presence must treat its PR setup not as a megaphone, but as a credibility-building flywheel. The funding announcement is your single best opportunity to capture initial journalist attention; after that, media presence depends on founder thought leadership and reactive commentary.
+
+Phase 1: The Foundation & Asset Setup (Weeks 1–2)
+
+Before contacting any journalist, assemble your media infrastructure so that any reporter reviewing your pitch can verify your legitimacy within 30 seconds.
+
+1. Digital Press Room & Asset Folder
+
+Host a dedicated /press page or a clean Notion/Google Drive folder containing:
+
+One-Pager Fact Sheet: What the company builds, the problem it solves, key metrics/traction, founders, investors, and location.
+
+Founder Bio & Headshots: High-resolution headshots (both formal and casual/startup style) and 100-word biographies emphasizing past exits, research papers, or marquee roles (e.g., ex-OpenAI, ex-Consensys, ex-Google).
+
+Product Visuals: High-res screenshots, architecture diagrams, product GIFs, and logo packs (dark/light background PNGs and SVGs).
+
+Investor & Advisor Quotes: Pre-approved quotes from your lead VC partner commenting on why they backed you.
+
+2. Founder Digital Footprint Clean-up
+
+Journalists search founder names before replying. Optimize social profiles to reflect your category positioning:
+
+Web3 Founders: Optimize X (Twitter) bio, pin a concise breakdown thread of your technology/thesis, and engage actively on Farcaster/Lens.
+
+AI Founders: Optimize LinkedIn, publish a long-term vision post on Substack/Medium, and link relevant arXiv papers or GitHub repositories.
+
+Phase 2: The Funding Announcement Launch Strategy (Weeks 3–4)
+
+Do not distribute a press release on a wire service (e.g., PR Newswire) and expect news coverage. Wire services provide distribution for SEO and legal compliance, but real stories require targeted pitching.
+
+Pitching Timeline (T-Minus Launch Day)
+│
+├── T-14 Days: Finalize press release, investor quotes, and tier-1 target list
+├── T-10 Days: Offer Exclusive to ONE Tier-1 publication (e.g., TechCrunch, CoinDesk)
+├── T-5 Days: If Exclusive accepts, offer Embargo pitches to Tier-2/Trade publications
+├── T-0 (Launch): Exclusive drops, embargo lifts, founder posts thread, wire releases
+└── T+1 Day: Distribute newsletter, engage community, track inbound coverage
+
+1. The Exclusive Pitch Strategy
+
+Pick one top-tier publication to offer an "Exclusive" story. An exclusive guarantees that you will not share the news with any other media outlet until they publish.
+
+Target Tier 1 for Web3: CoinDesk, Blockworks, Decrypt, The Block, Axios Pro Rata.
+
+Target Tier 1 for AI: TechCrunch, VentureBeat, Wired, MIT Technology Review, Fortune Term Sheet.
+
+2. Pitch Structure (Keep Under 150 Words)
+
+Subject: EXCLUSIVE: [Company Name] raises $[X]M from [Lead VC] to solve [Industry Friction]
+
+Hi [Journalist First Name],
+
+[Company Name] has raised $[X]M in [Seed/Pre-Seed] funding led by [Lead Investor], with participation from [Notable Angels/VCs].
+
+Rather than [current flawed industry approach], [Company Name] builds [1-sentence explanation of technology/product]. Founded by [Founder 1 - prior achievement] and [Founder 2 - prior achievement], the platform [1 key traction stat, benchmark, or milestone].
+
+We are offering [Publication] the exclusive on this story for release on [Target Date, Time EST].
+
+Would you be open to speaking with our CEO, [Founder Name], this week under embargo? Full press kit attached.
+
+Best,
+
+[Your Name]
+
+Phase 3: Web3 vs. AI PR Playbook Differences
+
+Web3 and AI media operate under distinct dynamics, narrative expectations, and distribution channels.
+
+Dimension Web3 Startup Focus AI Startup Focus
+Primary Outlets CoinDesk, Blockworks, Decrypt, The Block, Bankless TechCrunch, VentureBeat, Wired, MIT Tech Review, Forbes
+Secondary Amplifiers Crypto Twitter (X), Farcaster, Telegram groups, podcasts Substack AI newsletters (TLDR AI, The Neuron), Hacker News, LinkedIn
+Narrative Drivers Decentralization, tokenomics/utility, mainnet launches, protocol security Performance benchmarks, model architecture, enterprise ROI, compute efficiency
+Validation Assets Audits, TVL (Total Value Locked), developer activity, testnet stats Academic preprints (arXiv), open-source GitHub stars, benchmark evaluations
+Crisis/Risk Focus Smart contract exploits, regulatory compliance, token distribution Data privacy/copyright, hallucination rates, compute costs
+Phase 4: Sustainable Post-Launch PR Engine
+
+After the funding spike, shift to an ongoing thought leadership and reactive PR engine to maintain domain authority.
+
+Newsjacking & Reactive Commentary: Set up alerts for trending industry events (e.g., major AI model drops, regulatory rulings, protocol upgrades). When news breaks, email a 2–3 sentence expert commentary from your founder to beat journalists within 2 hours.
+
+Technical Op-Eds & Guest Posts: Write long-form technical teardowns for publication on trade outlets (e.g., VentureBeat, Blockworks Op-Ed, Hackernoon). Focus on technical insight, not product promotion.
+
+Podcast & Event Circuit: Target niche industry podcasts (Unchained, Empire, Latent Space, Cognitive Revolution) before aiming for mainstream shows. Secure speaking spots on technical panels at major conferences (Token2049, Consensus, NeurIPS, GTC).
+
+PR Execution Options: Cost & Setup Comparison
+Setup Model Typical Monthly Cost Best For Pros & Cons
+Specialist Boutique Agency $8,000 – $18,000 / mo Series A / High-raise Seed
+
+Pros: Direct journalist access, turnkey strategy.
+
+Cons: High monthly burn, risk of getting handed off to junior reps.
+
+Fractional / Freelance PR Specialist $4,000 – $7,000 / mo Pre-Seed / Seed startups
+
+Pros: Direct senior contact, agile, lower cost.
+
+Cons: Single point of failure, limited bandwidth.
+
+Flat-Fee Launch Package $8,000 – $12,000 (one-time) Announcement-only goals
+
+Pros: No long-term lock-in, clear deliverable.
+
+Cons: No ongoing momentum after launch week.
+
+To tailor this framework directly to your team's launch:
+Draft customized funding announcement press release
+Build targeted press list of top AI and Web3 reporters
+Design 90-day PR timeline from pre-pitch to launch
+
+SOURCE LINKS:
+(none: Gemini displayed no source chips or Sources panel for this answer. The only external anchors in the DOM were Gemini UI chrome: google.co.in/intl/en/about/products and accounts.google.com/SignOutOptions, which are not citations.)

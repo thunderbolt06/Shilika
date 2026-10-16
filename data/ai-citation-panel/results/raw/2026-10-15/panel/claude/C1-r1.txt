@@ -1,0 +1,45 @@
+PROMPT ID: C1 | PROMPT: Who are the best PR firms for AI startups in 2026? | RUN: 1 | SURFACE: Claude (claude.ai, Incognito chat, Opus 5.5 Medium, web search used: 2 searches)
+
+There's no neutral ranking, and many "best AI PR firm" lists are published by agencies promoting themselves. These names come up most consistently:
+
+Inkhouse: Strong AI client roster. It took on Anaconda, Blaize, Forter, GetReal Security, Pigment, and Poolside in early 2025, adding to a portfolio that includes Databricks, Chainguard, and Robin AI. [silicon]
+
+Highwire: Good for larger, enterprise-focused AI companies. After acquiring The Bliss Group in January 2026, it has 250+ people across North America. Typical retainers run about $15,000 to $30,000 a month. [everything-pr] [onyamagazine]
+
+Bospar: A fully remote, independent tech PR firm founded in 2015, known for aggressive media outreach. It recently hired veteran AI reporter Clint Boulton to advise clients on pitching top-tier media. [everything-pr] [odwyerpr]
+
+Outcast: A go-to for well-funded startups that have already found product-market fit. [everything-pr]
+
+Treble PR: Built specifically for early-stage, VC-backed startups. [everything-pr]
+
+Salient PR: A boutique with founder-led execution, suited to post-Series A startups. [onyamagazine]
+
+On budget, a Series A startup should expect roughly $8,000 to $20,000 per month for a quality agency. [everything-pr]
+
+Tips: ask for case studies with AI companies at your stage, and meet the people who'll actually work on your account.
+
+Would you like India-based options instead?
+
+(Searches shown by Claude: "best PR firms for AI startups 2026"; "AI startups hire PR agency Highwire Inkhouse Bospar Outcast 2026")
+
+SOURCE LINKS:
+pearltrees.com/businesswirenews/item793727954
+everything-pr.com/tag/pr-firms/page/7
+globenewswire.com/news-release/2025/12/30/3211568/0/en/Another-PR-Named-a-Top-PR-Agency-for-LLM-Visibility-for-Startups-in-2026.html
+designrush.com/agency/public-relations/startups
+avenuez.com/blog/ai-healthtech-pr-firms/
+avenuez.com/
+techbullion.com/
+techbullion.com/top-pr-agencies-specializing-in-ai-in-2027/
+actual.agency/actual-insights/what-pr-agency-is-the-best-for-ai-startups
+starngage.pro/blog/top-ai-pr-firms-for-agencies-consultants-building-an-ai-practice
+everything-pr.com/best-pr-companies-for-startups-2026-pricing
+onyamagazine.com/
+everything-pr.com/best-b2b-pr-agencies-in-2026-top-firms-for-tech-saas-and-enterprise
+odwyerpr.com/story/category/114/pg/8/artificial-intelligence.html
+silicon.co.uk/press-release/inkhouse-named-agency-of-record-for-six-breakthrough-ai-companies-cementing-leadership-in-emerging-tech-communications
+everything-pr.com/bospar-pr-precognitive
+everything-pr.com/highwire-public-relations-agency-profile
+inkhouse.com/blog/inkhouse-named-agency-of-record-for-six-ai-companies-q1-2025/
+businesswire.com/news/home/20250424732123/en
+support.claude.com/en/articles/13345190-get-started-with-claude-cowork  (UI link from the permission-mode banner, not a cited source)

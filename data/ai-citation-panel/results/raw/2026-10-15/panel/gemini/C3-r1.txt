@@ -1,0 +1,30 @@
+PROMPT ID: C3 | PROMPT: Who can ghostwrite and place op-eds for an AI startup founder in 2026? | RUN: 1 | SURFACE: Gemini (gemini.google.com, signed-in, Temporary chat, default Flash model, 2026-10-15)
+NOTE: Only one inline source chip (labelled Onfolio) was displayed, attached to the CSuite Content bullet. Link read from the chip's citation popup. Text in [source chip: X] marks where the chip appeared.
+
+ANSWER TEXT:
+For an AI startup founder looking to publish op-eds, placed thought leadership, and bylines, you have three primary avenues depending on your budget, goals, and desired level of high-tier media placement (e.g., TechCrunch, VentureBeat, Fast Company, Wired, Harvard Business Review, or national broadsheets).
+
+1. Specialist Tech PR & Executive Communications Agencies
+Best for founders looking for end-to-end service: strategy, interviewing, drafting, and guaranteed placement pitching to top-tier media.
+- CSuite Content: Specializes in executive communications, combining founder op-eds, earned media placement, and LinkedIn thought leadership. Excellent for founders who want strategic PR paired with drafting. [source chip: Onfolio]
+- BAM Communications / Method Communications / LaunchSquad: High-growth tech PR agencies that routinely manage thought leadership programs for AI founders, handling both ghostwriting and direct editor pitching.
+- Column / Outcast: Boutique PR and positioning shops that specialize in complex B2B, AI infrastructure, and deep-tech founder positioning.
+
+2. Specialized Thought Leadership Studios & Agencies
+Best for pure content development, commentary, and op-ed positioning (often working alongside your internal PR team or pitching via established agency networks).
+- Scribblers India / Content/Co: Specialized ghostwriting studios for founders, CXOs, and tech executives focusing on thought leadership, opinion pieces, and executive commentary.
+- Storyarb / RevenueZen: Strategic executive content agencies that turn 30-45 minute founder voice interviews into articles, bylines, and opinion pieces.
+- Write With Light / Lexicon PR: Boutique boutique agencies dedicated strictly to ghostwriting op-eds and pitching bylines for venture-backed founders.
+
+3. Top-Tier Freelance Journalists & Executive Ghostwriters
+Best for high-stakes, Tier-1 placements (e.g., NYT, WSJ, HBR, Atlantic) where a deep media network and editorial caliber matter most.
+- Former Tech Journalists: Hiring former editors or senior contributors from VentureBeat, TechCrunch, MIT Tech Review, or Wired on platforms like Upwork Enterprise, Contra, or Toptal. They bring immediate pitch leverage and know exactly how media editors structure opinion desks.
+- Ghostwriting Platforms: Networks like Reedsy or elite freelance networks specialize in matching founders directly with published ghostwriters who have proven track records with op-ed desks.
+
+What to Look For When Selecting a Partner (table)
+Domain Understanding | Can they translate complex AI topics (e.g., agentic workflows, inference economics, LLM safety) into sharp, non-generic arguments without sounding like generic marketing copy?
+Placement Guarantee vs. Best Effort | Pure ghostwriters only write the piece; PR agencies handle placement pitches. Make sure you know if media outreach is explicitly included.
+Interview-Driven Process | Ensure they use 20-30 minute voice interviews to capture your authentic voice and opinion, rather than over-relying on LLM templates.
+
+SOURCE LINKS:
+onfolio.com/reviewed/best-linkedin-ghostwriters/

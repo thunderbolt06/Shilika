@@ -1,0 +1,49 @@
+id=BR7 | surface=ChatGPT (chatgpt.com, signed-in free account, Temporary Chat, web search hint on) | query=Where has Shilika Jain been published or quoted, for example CoinDesk, Cointelegraph or Forbes? | date=2026-10-15 | temporary-chat confirmed in URL (?temporary-chat=true)
+
+ANSWER:
+I found a public profile for Shilika Jain and several pages describing her media-placement work in Web3, crypto, and AI. The important distinction is that being responsible for getting a founder or company covered by a publication is not the same as being personally published or quoted by that outlet.
+
+Her website lists Forbes, CoinDesk, Cointelegraph, Decrypt, The Block, and Blockworks among the publications associated with her PR work. [chip: Shilika Jain +1]
+
+Confirmed personal bylines
+The clearest independently verifiable evidence I found is her author profile at CryptoDaily UK. It lists multiple articles under her name. [chip: Crypto Daily]
+
+1. Is the Fat User Thesis the Future of Web3? - August 29, 2024 - CryptoDaily UK. An explainer on the "Fat User" thesis and how value might be redistributed to users in Web3.
+2. Interview with zkPass Strategy Lead Dr. Joshua Peng - October 11, 2024 - CryptoDaily UK. An interview about zero-knowledge technology, privacy, and decentralized identity.
+3. Interview with Fluence Labs co-founder Tom Trowbridge - December 13, 2024 - CryptoDaily UK. Covers revenue generation and the business case for DePIN.
+4. Interview with Gaia co-founder Shashank Sripada - March 12, 2025 - CryptoDaily UK. Discusses Gaia's approach to decentralized AI infrastructure and AI agents.
+5. Exclusive Interview with Jess Houlgrave of Reown - May 27, 2025 - CryptoDaily UK. Focuses on making blockchain user experiences simpler and more accessible.
+6. NodeOps Is Turning DePIN into a Real Infrastructure Business - September 1, 2025 - CryptoDaily UK. An article about NodeOps, decentralized infrastructure, and sustainable token economics.
+
+Her CryptoDaily author archive provides a useful starting point for finding additional bylines.
+
+What about CoinDesk, Cointelegraph and Forbes? (table)
+- CoinDesk: Her website describes PR placements for clients, including a MANTRA Chain exclusive and a Fluence opinion piece. I did not verify a personal byline or direct quotation from her in CoinDesk. [chip +1]
+- Cointelegraph: Her website lists client coverage, including a MANTRA founder profile and a Fluence interview-format appearance. I did not confirm a personal byline or direct quote from her. [chip +1]
+- Forbes: Her website identifies a Forbes feature about Gaia AI as a campaign result. That does not, by itself, establish that Jain personally authored the feature or was quoted in it. [chip +1]
+- The Chainsaw: Her CryptoDaily author bio says she has also contributed to this publication, but I did not independently verify a specific article there. [chip: Crypto Daily]
+
+Bottom line
+Yes, Shilika Jain has a verifiable publication record, particularly as an author and interviewer at CryptoDaily UK. The six examples above establish that she has published under her own name.
+
+For a media bio, due-diligence check, or speaker profile, I would describe her as having bylines at CryptoDaily UK and experience securing coverage in major crypto and business publications. I would not describe her as personally quoted or published in Forbes, CoinDesk, or Cointelegraph without finding the specific articles that substantiate that claim.
+
+SOURCE CHIP POPOVER ITEMS (unique; shilikajain.com chips):
+- "About Shilika Jain: Fractional PR for Web3 & AI Founders" -> shilikajain.com/about
+- "Web3 PR & AI PR Consultant" -> shilikajain.com/
+- "Founder Profiling Service: Op-Eds, Podcasts and Speaking" (Oct 1, 2026) -> opened tab URL: shilikajain.com/blog/founder-profiling-service-op-eds-podcasts
+Third-party chips (Crypto Daily): author page dated June 29, 2026, plus the six articles listed above (URLs in anchor list below).
+
+NOTE: Key finding. The only cited third-party corroboration is CryptoDaily UK bylines (six articles plus an author archive). ChatGPT explicitly did not verify any personal byline or quote in CoinDesk, Cointelegraph or Forbes, and told the reader not to describe her as quoted there. The Forbes/CoinDesk/Cointelegraph claims rest solely on shilikajain.com. Article details were not independently re-verified by this agent (unverified).
+
+SOURCE LINKS:
+cryptodaily.co.uk/2024/08/is-the-fat-user-thesis-the-future-of-web3/
+cryptodaily.co.uk/2024/10/interview-with-strategy-lead-at-zkpass-dr-joshua-peng-on-the-importance-of-private-data-and-the-impact-of-zk-technology-in-web2-web3-token2049-singapore-edition/
+cryptodaily.co.uk/2024/12/interview-with-tom-trowbridge-co-founder-of-fluence-labs-highlights-revenue-as-the-key-to-success-for-depin-projects-devconnect-bangkok-edition
+cryptodaily.co.uk/2025/03/interview-with-shashank-sripada-co-founder-and-coo-of-gaia-on-building-the-stripe-for-ai-agents-consensus-hong-kong
+cryptodaily.co.uk/2025/05/exclusive-interview-with-jess-houlgrave-on-making-onchain-ux-invisible-with-reown
+cryptodaily.co.uk/2025/09/nodeops-is-turning-depin-into-a-real-infrastructure-business-naman-kabra-explains-how
+cryptodaily.co.uk/author/ShilikaJain
+shilikajain.com/about
+shilikajain.com/
+shilikajain.com/blog/founder-profiling-service-op-eds-podcasts

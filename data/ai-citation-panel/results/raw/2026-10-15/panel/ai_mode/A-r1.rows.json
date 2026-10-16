@@ -1,0 +1,72 @@
+[
+  {
+    "id": "A1",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_position": 0,
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": [],
+    "shilika_urls": [],
+    "shilika_quote": "",
+    "web_search_used": false,
+    "answer_summary": "Defines fractional PR as part-time senior PR (10-20 hrs/wk) vs rigid agency retainers; comparison table and benefits. No firms named, no source cards shown, no visible web grounding."
+  },
+  {
+    "id": "A2",
+    "ok": true,
+    "shilika_in_body": true,
+    "shilika_in_sources": true,
+    "shilika_position": 2,
+    "entities_listed": 6,
+    "competitors": ["GTM 80/20", "MarketerHire", "MarketAcross", "GuerrillaBuzz", "Outset PR"],
+    "source_domains": ["kolhq.com", "gtm8020.com", "shilikajain.com", "marketerhire.com", "geniuspr.com", "youtube.com", "chainpeak.io", "crypticweb3.com", "luvkaizen.com", "ibtimes.com", "ninjapromo.io", "linkedin.com", "reddit.com"],
+    "shilika_urls": ["shilikajain.com/pages/fractional-pr-consultant", "shilikajain.com/playbook", "shilikajain.com/services/web3-pr-campaigns"],
+    "shilika_quote": "Shilika Jain: A highly visible independent specialist providing senior, embedded fractional PR consulting specifically for Web3, AI, and developer-tooling startups.",
+    "web_search_used": true,
+    "answer_summary": "Lists 6 providers: GTM 80/20, Shilika Jain (2nd, hyperlinked), MarketerHire, MarketAcross, GuerrillaBuzz, Outset PR. Fractional $5k-12k/mo vs agency $15k-50k+. 17 sources incl. 3 shilikajain.com pages."
+  },
+  {
+    "id": "A3",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": true,
+    "shilika_position": 0,
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": ["luvkaizen.com", "shilikajain.com", "chainpeak.io", "kolweb3.com", "beantownmv.com", "belkinmarketing.com"],
+    "shilika_urls": ["shilikajain.com/playbook/fractional-vs-agency", "shilikajain.com/faq", "shilikajain.com/playbook/crypto-pr-cost-2026", "shilikajain.com/playbook/top-crypto-marketing-agencies-2026", "shilikajain.com/pages/web3-pr-agency", "shilikajain.com/blog/fractional-pr-web3-crypto-cost-scope-hire-vs-agency", "shilikajain.com/blog/fractional-head-of-pr-vs-agency-vs-in-house"],
+    "shilika_quote": "",
+    "web_search_used": true,
+    "answer_summary": "Fractional costs 40-60% less than agencies: $5k-12k/mo vs $15k-45k/mo, tier table up to $60k+. No firms named. Shilika not named in text, but 7 shilikajain.com pages are cited (top 4 cards)."
+  },
+  {
+    "id": "A4",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": true,
+    "shilika_position": 0,
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": ["cracklepr.com", "linkedin.com", "aikenhouse.com", "entrepreneur.com", "otterpr.com", "odwyerpr.com", "envizon.com", "shilikajain.com", "verifiedcomms.com", "reachsocial.ai", "theworkcrowd.com", "omnipublic.global"],
+    "shilika_urls": ["shilikajain.com/blog/fractional-head-of-pr-vs-agency-vs-in-house", "shilikajain.com/blog/fractional-pr-for-ai-startups-how-it-works"],
+    "shilika_quote": "",
+    "web_search_used": true,
+    "answer_summary": "Pre-Series A AI startups: fractional ($5k-12k/mo); Series A+ with steady news: agency ($20k-50k/mo); suggests sequencing. No firms named. Shilika not named in text; 2 shilikajain.com posts among 18 sources."
+  },
+  {
+    "id": "A5",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_position": 0,
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": [],
+    "shilika_urls": [],
+    "shilika_quote": "",
+    "web_search_used": false,
+    "answer_summary": "Blueprint: media kit, social, blog, embargoed exclusive for funding news then wire, lean tool stack (Muck Rack, Prowly), founder-led vs boutique agency $5k-15k/mo. No firms named, no sources shown."
+  }
+]

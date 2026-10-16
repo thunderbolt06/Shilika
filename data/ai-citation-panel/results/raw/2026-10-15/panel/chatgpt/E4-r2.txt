@@ -1,0 +1,77 @@
+PROMPT E4 | What does Dubai and MENA Web3 PR cost and which firms run it? | run 2 | surface: ChatGPT (chatgpt.com, signed-in free, Temporary Chat, hints=search) | 2026-10-15
+(Em and en dashes in the original answer are replaced with hyphens in this file.)
+
+Dubai & MENA Web3 PR: costs, firms and what to budget
+
+As of October 2026, the key distinction is between buying media placements, hiring a crypto-specialist PR agency, and running a senior-led regional communications campaign. They can have very different prices, even when all are marketed as "Web3 PR."
+
+For a project entering Dubai, Abu Dhabi or the wider MENA region, I would use the following planning ranges. These are indicative budgets, not verified quotes from every provider.
+
+1. What does Web3 PR cost?
+Indicative pricing in USD, based on publicly advertised rates and market guides.
+Press-release distribution / placement packages - Useful for announcements and baseline visibility; limited strategic support. - $500-$3K per campaign, indicative
+Fractional senior Web3 PR - Founder positioning, targeted pitching and regional media strategy. - $5K-$12K per month
+Boutique specialist agency - Ongoing crypto PR, media outreach, messaging and reporting. - $7K-$15K per month
+Full-service / larger specialist agency - Broader market coverage, senior strategy, multiple workstreams and sustained campaigns. - $15K-$45K+ per month
+Dubai / MENA launch sprint - A focused launch, funding announcement or event-led media campaign. - $12K-$40K per engagement
+These ranges are synthesized from published pricing by Shilika Jain and Baden Bower. Jain publishes MENA-specific retainers and launch-sprint rates; Baden Bower advertises a lower-cost, placement-oriented membership model. [chip: Shilika Jain +3]
+Important: A guaranteed publication placement is not the same as earned editorial coverage. Ask whether a quote includes agency fees, media fees, influencer/KOL payments, Arabic localization, event support and VAT.
+
+2. Which firms actually run Dubai and MENA Web3 PR?
+Here is a practical shortlist of firms to evaluate, separated by the type of work they appear best suited to. This is not a verified ranking of performance.
+
+1. FINPR - Published prices - Dubai-based - Crypto PR and media distribution
+Best for projects that need a defined number of placements, quick announcement distribution or packaged crypto-media coverage. Its published packages include $890 entry-level distribution, $1,990 for 20+ placements, and $5,900 for four specified Tier-1 crypto-media placements. Check the exact outlet, format and sponsorship disclosure for each placement. [chip: FINPR Agency +1]
+Website and pricing [link]
+
+2. Luna PR - Dubai HQ - Strategic communications and integrated marketing
+Worth approaching for an established Web3 brand seeking a broader communications partner, with PR, content, social media and influencer partnerships. Its official site lists a Dubai headquarters and an international footprint. Public retainer pricing was not verified. [chip: lunapr.com]
+Official website [link]
+
+3. Outset PR - Web3-native - Data-driven PR and organic media
+A candidate for teams prioritizing editorial coverage, differentiated story angles, measurable media performance and brand credibility over bulk press-release distribution. Its website emphasizes blockchain, crypto and Web3 PR; request specific UAE/MENA case studies and local journalist access before hiring. [chip: Outset PR +1]
+Official website [link]
+
+4. GuerrillaBuzz - Web3-native - Earned media, SEO and thought leadership
+Consider it if you want journalist-led PR tied to founder positioning, organic search and long-term brand authority. It explicitly distinguishes earned editorial coverage from paid placements. Confirm the proposed GCC media plan and local execution team. [chip: GuerrillaBuzz +1]
+Official website [link]
+
+5. Shilika Jain - Regional specialist - Fractional senior PR - Dubai, UAE and MENA
+A potential fit for a founder-led campaign requiring regional positioning, regulatory-aware messaging, targeted business and crypto media outreach, and coordination with other APAC markets. Her published pricing is $5K-$12K/month for senior-led MENA PR and $12K-$35K for a focused launch sprint. These are provider-published rates, not independently audited market averages. [chip: Shilika Jain +2]
+MENA PR service and pricing [link]
+
+3. What would I budget for a real campaign?
+For a Web3 company entering the UAE, I would model the budget around the outcome rather than the number of articles published.
+One-off announcement and distribution: $1K-$5K
+Founder visibility and targeted media outreach: $5K-$12K/month
+UAE market-entry launch: $12K-$35K
+Sustained UAE/MENA PR program: $15K-$30K/month
+Multi-market, integrated global campaign: $30K-$60K+/month
+These are planning estimates synthesized from published provider rates and broader crypto PR pricing guides, not a standardized UAE rate card. [chip: FINPR Agency +2]
+For a three-month campaign, that translates into approximately: Lean: $15K-$25K - a focused senior-led program. Mid-market: $30K-$60K - sustained media outreach, founder positioning and launch support. Enterprise: $60K-$135K+ - a larger agency team, broader regional scope and multiple communications workstreams.
+Influencer fees, paid sponsorships, major event activations and localization may sit outside these budgets.
+
+4. What should a Dubai/MENA PR brief include?
+Before selecting an agency, ask for five concrete deliverables: Named media targets; Regional relevance (UAE investors, business leaders and regulators, including VARA or ADGM where relevant); Earned versus paid coverage; Proof of execution (two or three relevant case studies with live coverage links); Commercial transparency (retainer, minimum term, deliverables, excluded expenses, reporting and cancellation terms).
+Do not judge success by a large placement count alone. Prioritize meaningful coverage, journalist relationships, qualified investor or partner attention, and visibility in the markets you actually want to enter.
+
+My recommendation
+For a project specifically targeting Dubai and MENA, I would start by briefing FINPR, Luna PR and Shilika Jain: they offer three different approaches spanning packaged distribution, integrated agency communications and senior-led regional PR. Add Outset PR or GuerrillaBuzz if earned media and longer-term brand authority are major priorities.
+[follow-up questionnaire - ignored; button "Find the best-fit firms"]
+
+SOURCE LINKS:
+(inline anchors, from the page script)
+finpr.agency/crypto-pr-packages
+lunapr.com/
+outsetpr.io/
+guerrillabuzz.com/
+shilikajain.com/pages/crypto-pr-agency-dubai
+(citation chip popovers; items are not anchors; titles read by hover; Shilika paths other than the anchor are repo-title matches, not click-confirmed)
+chip "Shilika Jain +3": Shilika "Crypto PR in Dubai and MENA in 2026" (June 23, 2026; title matches repo app/playbook/crypto-pr-dubai-mena-2026, i.e. shilikajain.com/playbook/crypto-pr-dubai-mena-2026); Shilika "Crypto PR Agency Dubai & MENA 2026 | VARA, Token2049" (shilikajain.com/pages/crypto-pr-agency-dubai, same as inline anchor); Shilika "How Much Does Crypto PR Cost in 2026? Honest Pricing" (May 15, 2026; title matches repo app/playbook/crypto-pr-cost-2026); a 4th item cut off in the popover (a favicon request for badenbower.com was made at that time, consistent with the Baden Bower mention in the sentence; path unresolved)
+chip "FINPR Agency +1": FINPR Agency "Cryptocurrency PR Packages" (finpr.agency/crypto-pr-packages); "Blockchain Public Relations Firm" label: "Crypto PR & Marketing Agency - FINPR" (finpr.agency, path unresolved)
+chip "lunapr.com": lunapr.com/
+chip "Outset PR +1": Outset PR "Data-Driven Crypto PR Agency" (outsetpr.io/); Crypto Daily "Best Crypto & Web3 PR Firms in Dubai and MENA [2025 Ranking]" (Sept 26, 2025; cryptodaily.co.uk, path unresolved)
+chip "GuerrillaBuzz +1": GuerrillaBuzz "GuerrillaBuzz: Web3 PR & Crypto Marketing Agency"; "Web3 PR Agency - Crypto PR That Moves Markets" (guerrillabuzz.com, paths unresolved beyond the inline anchor)
+chip "Shilika Jain +2": Shilika "Dubai and MENA PR Service for Web3 and AI Companies" (Oct 1, 2026; title not found in repo, path unresolved); "Crypto PR Agency Dubai & MENA 2026 | VARA, Token2049" (/pages/crypto-pr-agency-dubai); "Web3 PR Agency UAE 2026 | Abu Dhabi & Dubai" (title matches repo app/pages/web3-pr-agency-uae)
+chip "FINPR Agency +2": FINPR "Cryptocurrency PR Packages"; Shilika "Crypto PR in Dubai and MENA in 2026" (June 23, 2026); Shilika "How Much Does Crypto PR Cost in 2026? Honest Pricing" (May 15, 2026)
+(domains confirmed by favicon requests in this page load: shilikajain.com, finpr.agency, lunapr.com, outsetpr.io, guerrillabuzz.com, badenbower.com, cryptodaily.co.uk; a favicon request for ft.com was also logged but no matching source was identified, so it is not counted)

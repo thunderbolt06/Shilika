@@ -1,0 +1,142 @@
+[
+ {
+  "id": "E1",
+  "ok": true,
+  "web_search_used": true,
+  "shilika_in_body": false,
+  "shilika_in_sources": false,
+  "shilika_urls": [],
+  "shilika_position": 0,
+  "shilika_quote": "",
+  "entities_listed": 5,
+  "competitors": [
+   "Blockchain Marketing Asia (BMA)",
+   "HighCrypto",
+   "FACTBLOCK",
+   "MarketAcross",
+   "Outset PR"
+  ],
+  "source_domains": [
+   "mexc.com",
+   "seoulz.com",
+   "techbullion.com",
+   "dailycoin.com",
+   "cryptojobslist.com"
+  ],
+  "answer_summary": "Says there is no single best; lists 5 firms (BMA, HighCrypto, FACTBLOCK, MarketAcross, Outset PR) and advises vetting by Korean media placements. 2 searches. Shilika not mentioned."
+ },
+ {
+  "id": "E2",
+  "ok": true,
+  "web_search_used": true,
+  "shilika_in_body": false,
+  "shilika_in_sources": false,
+  "shilika_urls": [],
+  "shilika_position": 0,
+  "shilika_quote": "",
+  "entities_listed": 5,
+  "competitors": [
+   "Satoshi Consulting",
+   "Outset PR",
+   "Asia Crypto Agency",
+   "MarketAcross",
+   "Vector Inc."
+  ],
+  "source_domains": [
+   "techbullion.com",
+   "mexc.com",
+   "thedefiant.io",
+   "teamz.co.jp",
+   "ivs.events",
+   "pearltrees.com",
+   "coinbound.io"
+  ],
+  "answer_summary": "No single firm runs it; names 5 (Satoshi Consulting, Outset PR, Asia Crypto Agency, MarketAcross, Vector Inc.). Cost benchmark $5,000 to $15,000 per month retainer. Shilika not mentioned."
+ },
+ {
+  "id": "E3",
+  "ok": true,
+  "web_search_used": true,
+  "shilika_in_body": true,
+  "shilika_in_sources": false,
+  "shilika_urls": [],
+  "shilika_position": 1,
+  "shilika_quote": "Shilika (fractional PR). The closest match to your wording. Her profile describes her as offering fractional PR for Web3 and AI founders, with a background in CoinMarketCap’s APAC PR team, and she’s listed as Head of PR at Myosin DAO.",
+  "entities_listed": 4,
+  "competitors": [
+   "ICODA",
+   "YAP Global",
+   "MarketAcross"
+  ],
+  "source_domains": [
+   "dev.to",
+   "medialegacy1.dev.to",
+   "marketerhire.com",
+   "cryptojobslist.com"
+  ],
+  "answer_summary": "Lists Shilika first (first name only, not 'Shilika Jain') as closest match, sourced to DEV Community not shilikajain.com. Then ICODA, YAP Global, MarketAcross. 1 search."
+ },
+ {
+  "id": "E4",
+  "ok": true,
+  "web_search_used": true,
+  "shilika_in_body": false,
+  "shilika_in_sources": false,
+  "shilika_urls": [],
+  "shilika_position": 0,
+  "shilika_quote": "",
+  "entities_listed": 11,
+  "competitors": [
+   "Luna PR",
+   "FINPR",
+   "ICODA",
+   "theKOLLAB",
+   "Outset PR",
+   "Coinbound",
+   "PRLab",
+   "GuerrillaBuzz",
+   "Koinpr",
+   "Melrose PR",
+   "CredibilityX Media"
+  ],
+  "source_domains": [
+   "coinbound.io",
+   "designrush.com",
+   "techbehemoths.com",
+   "mexc.com"
+  ],
+  "answer_summary": "Retainers about $1,000 to $20,000/month (top tier $20,000 to $50,000+), campaigns $5,000 to $50,000. Names 11 firms incl. Luna PR, FINPR, ICODA, theKOLLAB. Shilika not mentioned."
+ },
+ {
+  "id": "E5",
+  "ok": true,
+  "web_search_used": true,
+  "shilika_in_body": false,
+  "shilika_in_sources": false,
+  "shilika_urls": [],
+  "shilika_position": 0,
+  "shilika_quote": "",
+  "entities_listed": 9,
+  "competitors": [
+   "Serotonin",
+   "MarketAcross",
+   "FINPR",
+   "Blockchain PR Buzz",
+   "Chainbull",
+   "Adgcraft",
+   "Gutenberg",
+   "Adfactors PR",
+   "Genesis BCW"
+  ],
+  "source_domains": [
+   "cryptojobslist.com",
+   "finpr.agency",
+   "medium.com",
+   "themanifest.com",
+   "medianews4u.com",
+   "everything-pr.com",
+   "prmoment.in"
+  ],
+  "answer_summary": "No single firm; names 9 (Serotonin, MarketAcross, FINPR, Blockchain PR Buzz, Chainbull, Adgcraft, Gutenberg, Adfactors, Genesis BCW). 3 searches. Shilika not mentioned."
+ }
+]

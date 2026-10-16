@@ -1,0 +1,148 @@
+PROMPT ID: B2 | PROMPT: How do you get featured in CoinDesk, Cointelegraph and Decrypt in 2026? | RUN: 1 | SURFACE: Perplexity (signed-in free plan, Incognito confirmed on page: "You're incognito", Search mode, default model) | CAPTURED: 2026-10-16 12:23 AM local (Perplexity timestamp)
+(Note: em dashes and en dashes in the original answer were replaced with hyphens in this file per the no-dash rule; Perplexity inline citation labels such as "shilikajain +1" are left as captured.)
+
+ANSWER TEXT:
+Researched 1s
+
+You get featured by giving each outlet a genuine editorial story - not a product announcement - pitched to the right reporter with verifiable data, a named source, and an exclusive or embargo. In 2026, CoinDesk skews toward institutional, market, and policy reporting; Cointelegraph favors fast, global, retail-facing crypto news; Decrypt wants plain-English stories with a human or cultural angle.
+shilikajain
++1
+
+Build the story first
+
+Before outreach, turn your milestone into a category-level claim. "We launched a feature" is not a story; "our protocol processed $500M with zero exploits over 18 months, contradicting the prevailing security narrative" can be.
+quickshock
+
+Strong news pegs include:
+
+A significant funding round with credible, named investors.
+obapr
+
+A protocol upgrade with measurable on-chain impact - TVL, users, volume, fees, latency, or security results.
+obapr
+
+Original research: on-chain analysis, developer surveys, market data, or a security disclosure.
+obapr
+
+A regulatory, institutional, or exchange milestone that changes the competitive landscape.
+obapr
+
+A contrarian or explanatory angle tied to a timely market event.
+omniagency
+
+Make the evidence independently checkable: publish a Dune dashboard, list contract addresses, link audits, and maintain a public team page. On-chain metrics are unusually persuasive in crypto PR because reporters can verify them.
+instantpress
++1
+
+Match the outlet
+Outlet | Pitch it when you have | Best format
+CoinDesk | Hard news, institutional relevance, policy, market-moving data, named on-record sources | Exclusive, embargoed news story with a specific date and number.
+shilikajain
+
+Cointelegraph | Fast-moving global crypto news, retail relevance, ecosystem growth, launches with broad appeal | Timely news angle, data, and accessible explanation; avoid pitching the same exclusive simultaneously.
+shilikajain
+
+Decrypt | A human, cultural, or plain-English angle understandable to a general Web3 reader | Short explainer or feature, with the news peg in the first sentence.
+shilikajain
+
+Do not send the identical exclusive to all three. Offer one outlet the flagship exclusive, then give the others a distinct follow-up angle or release broadly after the exclusive publishes.
+shilikajain
+
+Find the right reporter
+
+Map 10-15 reporters by beat - DeFi, infrastructure, regulation, stablecoins, gaming, AI x crypto, or your region. Read their last 12-20 articles, identify the angles they repeatedly cover, and choose the reporter whose recent work overlaps with your story.
+instantpress
++1
+
+Your pitch should reference their beat and recent coverage, but never pitch "to the publication" generically. A named-reporter pitch to the correct desk materially outperforms mass distribution.
+instantpress
++1
+
+Write a pitch reporters can use
+
+Keep it short and plain-text: roughly 150-180 words, with no PDFs, decks, or video attachments.
+shilikajain
++1
+
+Use this structure:
+
+Subject line: the story in one clause, not a teaser.
+shilikajain
+
+First sentence: the news fact and date.
+
+Why now: the market, regulatory, or category shift it speaks to.
+
+Proof: one verifiable number and a link to public data.
+
+Offer: exclusive interview, embargoed report, founder access, or original dataset.
+
+Availability: confirm you can provide assets and a spokesperson within 24 hours.
+shilikajain
+
+Example subject line: "Solana DEX volumes fell 40% since January - this protocol's usage grew against the trend." That gives the reporter a conflict, a number, and a reason to care; "we are the best DEX on Solana" does not.
+obapr
+
+Use embargoes properly
+
+For a launch, offer an embargo 7-10 days before the date, confirm it in writing, and give the reporter time to brief, draft, and clear the piece with an editor. A 48-72 hour embargo window is commonly workable for CoinDesk.
+shilikajain
+
+Then:
+
+Schedule a 30-45 minute founder briefing within 72 hours of acceptance.
+shilikajain
+
+Keep the founder reachable immediately before publication.
+shilikajain
+
+Coordinate partner posts, exchange announcements, and social amplification to follow the article by 15-30 minutes.
+shilikajain
+
+For simultaneous coverage, pitch multiple reporters under embargo and let stories publish on launch day.
+shilikajain
+
+Work the tip lines and follow up
+
+If you do not have a direct reporter contact, use the public tip channels - CoinDesk lists tips@coindesk.com, and Decrypt lists tips@decrypt.co - but address the note to the reporter you believe should cover it. Verify current addresses before sending, since contact routes change.
+instantpress
+
+Send one follow-up after about five to seven business days, ideally with a new data point or development. Repeated chasing can damage the relationship.
+shilikajain
++1
+
+Avoid the credibility trap
+
+Paid "sponsored posts" and press-release placements are advertising, not editorial coverage; they do not carry the same trust or authority as earned coverage. If you use an agency, ask for recent editorial bylines in the target outlets and verify that the coverage was earned rather than sponsored.
+quickshock
++1
+
+The durable approach is to become useful before you need coverage: share original data, offer informed commentary during market events, and maintain a clear narrative across every announcement.
+obapr
++1
+
+10 sources
+Sources (as displayed in the Sources panel):
+1. shilikajain: CoinDesk vs Cointelegraph in 2026: Where to Pitch What
+2. shilikajain: How to Get Featured in Decrypt in 2026: Pitch Guide
+3. quickshock: Crypto PR Strategy: How to Get Featured in CoinDesk ...
+4. obapr: Best Crypto PR Agency 2026 | Blockchain Media Strategy - OBA PR
+5. omniagency: Web3 PR Strategy for Crypto Token Launches (2026) - OMNI Agency
+6. instantpress: Get Featured in Crypto Publications (The 2026 Pitch Map) | IP
+7. apcollective: Crypto PR Strategy: How to Get Media Coverage That Actually ...
+8. shilikajain: How to Get Featured in CoinDesk in 2026: Pitch Guide ...
+9. chainbull: Crypto PR Agency Guide 2026: Get Featured in CoinDesk ...
+10. shilikajain: Web3 PR & AI PR Consultant | Shilika Jain
+
+SOURCE LINKS:
+shilikajain.com/playbook/coindesk-vs-cointelegraph-where-to-pitch-2026
+shilikajain.com/playbook/how-to-get-featured-in-decrypt-2026
+quickshock.io/blog/crypto-pr-coindesk-cointelegraph
+obapr.com/resources/crypto-web3-pr-agency-guide-best-strategies-for-blockchain-companies-to-get-coverage-in-2026/
+omniagency.ca/blog/web3-pr-strategy-token-launches
+instantpress.co/blog/how-to-get-featured-in-crypto-publications
+apcollective.io/blog/crypto-pr-strategy
+shilikajain.com/playbook/get-featured-coindesk-2026
+chainbull.net/blog/crypto-pr-agency-guide/
+shilikajain.com/
+(Order above is the Sources-panel display order, mapped from the DOM link list; the raw DOM order from the capture script was: quickshock.io, obapr.com, omniagency.ca, shilikajain.com x3 playbook pages, instantpress.co, apcollective.io, chainbull.net, shilikajain.com/.)

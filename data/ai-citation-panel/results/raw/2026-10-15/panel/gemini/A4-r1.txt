@@ -1,0 +1,72 @@
+PROMPT A4 | Should an AI startup hire a fractional PR consultant or a PR agency? | run 1 | surface: Gemini (gemini.google.com, signed-in Plus account, Temporary chat). NOTE: this is the 4th attempt, each in a brand-new temporary chat. Attempt 1 (Pro) hung with only a spinner for about 2.5 minutes and produced no text. Attempt 2 returned "Sorry, something went wrong. Please try your request again. Pro is in high demand right now. Another model was used for this response." and the model picker dropped to "Flash High". Attempt 3 (Flash High) returned "I encountered an error doing what you asked. Could you try again?". Attempt 4 (below, after A5 had succeeded on Flash High) answered normally; footer reads "Flash High".
+
+For early-stage AI startups (Pre-Seed to Series A), hiring a fractional PR consultant is almost always the better choice; established, post-Series A startups requiring high-volume output across multiple channels should opt for a PR agency.
+
+Because tech journalists are currently inundated with generic AI announcements, successful AI public relations requires deep technical literacy, direct founder access, and highly tailored story pitching—strengths where senior solo consultants excel over agency account teams.
+
+Direct Comparison
+Feature Fractional PR Consultant PR Agency
+Typical Cost $4,000 – $8,000 / month $12,000 – $25,000+ / month
+Who Does the Work Senior expert directly (15–20 yrs experience) Junior account executives overseen by senior leads
+AI Technical Literacy High (if specialized in AI/Deep Tech) Variable (often generalist tech pitchers)
+Bandwidth & Volume Limited (10–20 hours/week) High (multi-person team for rapid execution)
+Agility & Speed Fast (direct line to founders, minimal process) Slower (requires internal approval hierarchies)
+Media Networks Deep, personal tier-1 & tech reporter connections Broad, institutional media lists & database reach
+Ideal Stage Seed, Series A, Stealth to Launch Series A+ to Series B, multi-product scaling
+Option 1: Fractional PR Consultant
+
+A fractional PR consultant acts as an embedded Head of Communications for 10–20 hours per week.
+
+Key Advantages
+
+Senior Execution: You pay for an industry veteran who writes the messaging, builds the pitch, and personally contacts journalists—rather than paying senior rates for junior execution.
+
+Agile Messaging for AI: AI product cycles move in days or weeks, not quarters. A fractional consultant can adjust messaging, capitalize on newsjacking opportunities, and draft launch statements without multi-tier agency review cycles.
+
+Cost Efficiency: Reserves capital for technical hires, compute, or product development while delivering targeted top-tier or trade press coverage.
+
+Drawbacks
+
+Bandwidth Bottlenecks: Single-point execution cannot easily manage simultaneous events, major crisis communications, and high-volume media requests at once.
+
+Fewer Operational Resources: Does not include dedicated graphic designers, event planners, or full-time media monitoring teams.
+
+Option 2: PR Agency
+
+A PR agency provides a full team structure with dedicated account managers, pitch specialists, and content writers.
+
+Key Advantages
+
+Volume and Scalability: Capable of handling high-frequency release schedules, multi-market global launches, award submissions, and speaker bureau management simultaneously.
+
+Broad Media & Analyst Coverage: Large databases and multi-sector networks useful for enterprise sales-focused startups needing Gartner/Forrester analyst relations alongside tech press.
+
+Drawbacks
+
+Bait-and-Switch Risk: Senior partners pitch you during sales calls, but day-to-day drafting and reporter pitching are frequently delegated to junior associates who may struggle to explain complex AI architectures.
+
+Higher Overhead & Retainers: Standard $15k+/month retainers usually require a 6- to 12-month contract, creating financial drag if product launches get delayed.
+
+How to Decide: AI Startup Evaluation Matrix
+Choose a Fractional PR Consultant if:
+
+You are preparing for your initial seed/funding launch or stealth exit. You need sharp positioning, a targeted press release, and direct outreach to tier-1 tech outlets (TechCrunch, VentureBeat, Bloomberg).
+
+Your technical story is nuanced. You need someone who understands foundational models, agentic workflows, evaluation benchmarks, or enterprise compute costs—and can explain them simply.
+
+You need direct strategic advisory. You want an expert sitting in weekly leadership meetings to train founders on media interviews and thought leadership.
+
+Choose a PR Agency if:
+
+You have raised a Series B+ or have $10M+ in funding. You need a multi-channel engine managing press, podcast tours, trade shows, award submissions, and analyst relations simultaneously.
+
+You are targeting broad enterprise verticals. You need industry-specific teams pitching specialized vertical outlets (e.g., healthcare tech, fintech, defense tech) at scale.
+
+You lack internal marketing bandwidth. You need an external group to run the entire communications department without founder guidance.
+
+To take action on your PR hiring process:
+Draft screening questions for an AI PR consultant
+Create a PR briefing template for product launches
+
+SOURCE LINKS:
+(none: Gemini displayed no source chips or Sources panel for this answer. The only external anchors in the DOM were Gemini UI chrome: google.co.in/intl/en/about/products and accounts.google.com/SignOutOptions, which are not citations.)

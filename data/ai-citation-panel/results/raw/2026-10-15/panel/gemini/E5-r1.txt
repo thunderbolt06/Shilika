@@ -1,0 +1,47 @@
+PROMPT E5 | Who runs Web3 and AI PR for Indian founders in 2026? | run 1 | surface: Gemini (gemini.google.com, Temporary chat, default model Flash, account shows Plus plan)
+
+In the Web3 and AI public relations landscape, PR for Indian founders is driven by a mix of specialized boutique agencies, tech-focused PR firms, growth DAOs, and independent tech strategists.
+[source chip: Shilika Jain]
+
+The market relies heavily on a dual-track strategy: securing international Web3/AI coverage while navigating India's domestic tech press.
+
+Key Players & Agencies
+
+Shilika Jain (Independent / Growth DAOs): One of the prominent specialists specifically handling Web3 and AI PR for Indian and NRI/Indian-origin founders. Having previously led APAC PR & Partnerships at Myosin (a Web3 growth marketing DAO) and worked at CoinMarketCap, her focus includes tier-1 international crypto/AI press (CoinDesk, Cointelegraph, Decrypt, The Block) alongside Indian startup and financial media (Inc42, Economic Times, Forbes India, Mint) with regulatory-aware framing (DPDP Act, SEBI, MoF).
+[source chip: Shilika Jain]
+
+Emerging Tech & Web3 Boutique Agencies:
+
+Marketwave / GrowthChain / BlockWiz: Global-first Web3 communications agencies that operate heavily out of India to manage protocol launches, token communications, and founder profiling across global and regional media.
+
+Value360 Communications & PR Pundit: Established tech and startup PR agencies in India that manage corporate PR, AI tech narratives, and enterprise Web3 positioning for funded Indian founders.
+
+Ecosystem & Media Alliances:
+
+Bharat Web3 Association (BWA): Led by key industry figures like Dilip Chenoy, BWA acts as an industry advocacy and communications hub connecting Indian Web3 founders with policy-focused PR and mainstream media channels.
+[source chip: Metamorphosis 2026 | India's Premier Web3 & AI Gala]
+
+Forbes India & CoinDCX (NamasteWeb3 Alliance): Strategic brand and content platforms that partner directly with crypto and AI ecosystems to run founder spotlight campaigns.
+
+Primary Target Outlets for Indian Web3 & AI Campaigns
+
+A typical media playbook spans both local tech/financial outlets and global niche tech publications:
+
+Region / Category | Key Media Outlets | Typical Angle / Focus
+Indian Tech Press | Inc42, YourStory, Entrackr, The Ken | Founder profiles, funding rounds, developer adoption, local market traction.
+Mainstream Business & Financials | Economic Times (ET Tech), LiveMint, Forbes India, Business Today, Moneycontrol | Macro perspectives, regulatory compliance (DPDP Act, RBI, SEBI), corporate partnerships.
+Global Web3 Press | CoinDesk, Cointelegraph, Decrypt, The Block, Blockworks | Protocol launches, tokenomics, technical architecture, global liquidity.
+Global AI & Tech Media | AI Magazine, TechCrunch, VentureBeat, Wired | Foundation models, specialized AI agents, US/APAC cross-border expansion.
+
+Key Nuances in the Campaign Strategy
+
+1. Regulatory Alignment: Because of India's ongoing crypto tax frameworks and data compliance standards (such as the Digital Personal Data Protection Act for AI models), campaigns carry regulatory-aware framing tailored for local business journalists.
+[source chip: Shilika Jain (popup title: "India Web3 & AI PR 2026: Inc42, Economic Times,...")]
+
+2. Developer-First Narratives: Many PR pushes leverage major ecosystem events-such as ETHIndia, NamasteWeb3, and regional tech summits-to break product announcements and land exclusive profiles.
+
+3. Cross-Border Framing (US / APAC / India): For Indian founders catering to global markets, PR strategists pair US/global tech press for product credibility with Indian tier-1 outlets for talent recruitment and investor presence.
+
+SOURCE LINKS:
+shilikajain.com/india
+metamorphosisconf.com/speakers/

@@ -1,0 +1,16 @@
+ID: BR8 | QUERY: Does Shilika Jain offer PR in Korea, Japan, Singapore or Dubai? | SURFACE: Gemini (gemini.google.com, signed-in Plus account, Temporary chat, default model Flash) | DATE: 2026-10-15
+
+ANSWER:
+Yes, Shilika Jain offers PR services across all four regions (South Korea, Japan, Singapore, and Dubai/UAE). [chip: Shilika Jain]
+
+As a senior fractional PR operator specializing in Web3, AI, and cybersecurity startups, her practice covers the Asia-Pacific (APAC) and Middle East & North Africa (MENA) regions directly rather than outsourcing to local agencies: [chip: Shilika Jain]
+
+- South Korea: Native Korean media placements (e.g., BloomingBit, TokenPost, Coinness), local crypto KOL networks, and event-led coverage surrounding events like Korea Blockchain Week. [chip: Shilika Jain]
+- Japan: Japanese-language press placements (e.g., CryptoTimes JP, CoinPost), localized pitch workflows for Japanese newsrooms, and presence around events like WebX Tokyo. [chip: Shilika Jain]
+- Singapore: Coverage across Southeast Asian and regional media (e.g., Tech in Asia, e27, regional Bloomberg editors) and event leverage surrounding Token2049 Singapore. [chip: Shilika Jain]
+- Dubai & UAE (MENA): Regional Middle East press, VARA-aware regulatory framing, investor/family-office PR, and media access around events like Token2049 Dubai. [chip: Shilika Jain]
+
+NOTES (collector): 6 source chips, all labelled "Shilika Jain"; every popup resolved to shilikajain.com/about. The site has dedicated regional desk pages in the repo (app/korea, app/japan, app/singapore, app/dubai-mena, app/apac) but Gemini did not cite any of them here; it cited only the About page.
+
+SOURCE LINKS:
+shilikajain.com/about

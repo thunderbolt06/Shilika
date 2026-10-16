@@ -1,0 +1,26 @@
+ID: BR7 | QUERY: Where has Shilika Jain been published or quoted, for example CoinDesk, Cointelegraph or Forbes? | SURFACE: Gemini (gemini.google.com, signed-in Plus account, Temporary chat, default model Flash) | DATE: 2026-10-15
+
+ANSWER:
+Shilika Jain operates primarily as a Web3, AI, and Cybersecurity PR strategist and consultant (Head of PR at Myosin DAO, ex-CoinMarketCap). Rather than being a traditional staff journalist, her work and commentary in tier-1 publications - such as CoinDesk, Cointelegraph, Forbes, Decrypt, and The Block - appear through two main avenues: [chips: Shilika Jain + 1]
+
+1. Ghostwritten Op-Eds & Contributed Content
+- CoinDesk Opinion: She writes and places founder op-eds, industry analysis pieces, and category teardowns. She has also authored PR playbooks analyzing how publication newsrooms (like CoinDesk and Cointelegraph) are structured. [chips: www.shilikajain.com + 1]
+- Forbes Council: Authoring and contributing thought-leadership pieces on Web3, AI startup positioning, and emerging tech marketing.
+- Cointelegraph & Decrypt: Contributed opinion columns and deep-dives on DePIN, AI agents, and tokenomics. [chip: www.shilikajain.com]
+
+2. Client & Protocol Placement Features
+As a publicist and PR leader who has represented 50+ protocols and startups (including Gaia AI, Polygon, NEAR, MANTRA, and RARI Foundation), her narrative campaigns and quote placements frequently appear in major media: [chip: www.shilikajain.com]
+- Forbes: Featured narrative coverage (e.g., positioning Gaia AI as the "Stripe for AI agents"). [chip: www.shilikajain.com]
+- CoinDesk & Cointelegraph: Regular coverage spanning product launches, tokenomics rebrands, and strategic ecosystem announcements. [chip: www.shilikajain.com]
+- Blockworks, The Block, Benzinga, & Yahoo Finance: Features, interview quotes, and company profiles.
+
+3. Regional & Tech Outlets
+- Mainstream & Tech Press: Business Insider, Fast Company, and The Information. [chip: Shilika Jain]
+- APAC & Indian Media: The Economic Times, Inc42, YourStory, Forbes India, and Mint for regional tech and regulatory commentary. [chip: Shilika Jain]
+
+NOTES (collector): 8 source chips (6 labelled "www.shilikajain.com", 2 labelled "Shilika Jain"). Popups that opened resolved to shilikajain.com/speaker, shilikajain.com/ and shilikajain.com/playbook/how-to-pitch-cointelegraph-2026; popups for 5 chips (including the two "Shilika Jain" chips on the Regional & Tech Outlets list) did not expose a link when clicked, so their targets are unknown. None of the named outlet placements (CoinDesk Opinion, Forbes Council, Forbes Gaia AI feature, Business Insider, Fast Company, The Information, Economic Times, Mint, etc.) is cited to an actual article on that outlet; the cited pages are shilikajain.com pages. Placement claims are UNVERIFIED by the collector. Gemini did not name a single specific article URL or headline.
+
+SOURCE LINKS:
+shilikajain.com/speaker
+shilikajain.com/
+shilikajain.com/playbook/how-to-pitch-cointelegraph-2026

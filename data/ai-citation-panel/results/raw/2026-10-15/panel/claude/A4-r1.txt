@@ -1,0 +1,20 @@
+PROMPT A4 | Should an AI startup hire a fractional PR consultant or a PR agency? | run 1 | surface: Claude (claude.ai, Incognito chat, Opus 5.5 Medium; no Searched the web block, no sources displayed; Claude did not search)
+
+It depends mostly on stage, budget, and how much news you actually have.
+
+Go fractional if you're pre-seed to Series A, have a few announcements a year (launch, funding, key hire), and need someone senior to shape your story and pitch the right reporters. You typically get an experienced person directly, at a fraction of agency cost, with less overhead. The catch is limited bandwidth: one person can't run a heavy, multi-market campaign.
+
+Go agency if you're Series B or later, have a steady stream of news, need coverage across several regions or verticals, or expect crisis-level scrutiny (common in AI around safety, data, or IP issues). Agencies bring more hands, broader media lists, and continuity if someone leaves. The catch is cost and the classic problem of senior people pitching you and juniors doing the work.
+
+A few AI-specific points:
+
+AI press is crowded and skeptical, so a sharp, credible narrative matters more than volume. A strong fractional lead often wins early here.
+Technical credibility counts. Whoever you hire should understand your product well enough to defend claims to tech reporters.
+Founder visibility (podcasts, op-eds, LinkedIn, conference talks) often beats press releases for early AI companies, and fractional consultants tend to handle this well.
+
+Simple rule: start fractional, and move to an agency once your news flow and markets outgrow one person.
+
+If you share your stage and goals, I can give a more specific recommendation.
+
+SOURCE LINKS:
+(none displayed. The script returned only support.claude.com/en/articles/13345190-get-started-with-claude-cowork, the Permission mode banner "Learn more" link, UI chrome and not a cited source.)

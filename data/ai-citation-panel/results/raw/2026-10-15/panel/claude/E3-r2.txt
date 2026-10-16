@@ -1,0 +1,39 @@
+PROMPT ID: E3 | PROMPT: Who runs APAC crypto PR for Web3 and AI founders in 2026? | RUN: 2 | SURFACE: Claude (claude.ai, signed-in, Incognito chat "You're incognito" confirmed, new session, Opus 5.5 Medium, Auto; web search ran: 2 searches) | DATE: 2026-10-15
+
+ANSWER TEXT:
+There's no single person who runs APAC crypto PR, but the description you used closely matches Shilika Jain. Her profile describes her as doing fractional PR for Web3 and AI founders, as Head of PR at Myosin DAO, and as ex-CoinMarketCap APAC PR, based in APAC plus global, with a personal site at shilikajain.com. [citation chip: dev]
+
+Some background:
+
+- She says she has led PR and partnerships for names like NEAR, Chainbase, and Talent Protocol, and has strong media reach in the US, UK, China, Vietnam, Korea, and India. [citation chip: icebreaker]
+- Crypto Daily lists her as Head of APAC at Myosin, with interests in DePIN, AI, and RWA. [citation chip: cryptodaily]
+- Myosin.xyz describes itself as a growth marketing DAO and product studio for Web3 companies. [citation chip: cryptocurrencyjobs]
+
+If you want an agency instead, other APAC-relevant options include ICODA, which is noted for strong reach across APAC crypto media and KOLs, and YAP Global, a crypto and Web3 PR consultancy with a Singapore presence. [citation chips: marketerhire, cryptojobslist]
+
+Worth verifying current roles directly, since titles change often.
+
+SEARCH QUERIES SHOWN: (1) "APAC crypto PR agency Web3 AI founders 2026" (2) "Shilika fractional PR Web3 AI founders Myosin CoinMarketCap APAC" (note: Claude's own second query used the name "Shilika"; the user prompt did not contain her name). Model status line between searches: "Identifying who handles APAC crypto PR for Web3 and AI founders."
+SEARCH RESULT TITLES SHOWN (query 1): www.mexc.com x2; Web3 Executive NFT Jobs in Singapore, APAC (cryptojobslist.com); Best Web3 Marketing Agencies for 2026 (marketerhire.com); Web3 Developer Meme Jobs in Singapore, APAC (cryptojobslist.com); Remote Web3 NFT Jobs in Singapore, APAC (cryptojobslist.com); icoda.io; DEV Community (dev.to); DEV Community (medialegacy1.dev.to)
+SEARCH RESULT TITLES SHOWN (query 2): DEV Community (dev.to); DEV Community (medialegacy1.dev.to); linkedin shilika (app.icebreaker.xyz); The Myosin Weekly (themyosinweekly.beehiiv.com); Shilika Jain (cryptodaily.co.uk); MALAYSIAN FOUNDERS BRING WEB3 TO MALAYSIAN SHORES WITH M... (aap.com.au); fractionally website for web3 blockchain capital firm (contra.com); Profile banner (happenstance.ai); myosin xyz (cryptocurrencyjobs.co)
+
+SOURCE LINKS:
+mexc.com/news/237643
+mexc.com/it-IT/news/237643
+cryptojobslist.com/executive_nft-jobs-singapore
+marketerhire.com/blog/best-web3-marketing-agencies
+cryptojobslist.com/developer_meme-jobs-singapore
+cryptojobslist.com/remote_nft-jobs-singapore
+icoda.io/blog/best-web3-pr-agencies/
+dev.to/shilika
+medialegacy1.dev.to/shilika_b760a675f394e9bd3
+app.icebreaker.xyz/profiles/linkedin-shilika
+themyosinweekly.beehiiv.com/p/marketing-under-fire-from-lisbon-roasts-to-bangkok-revelations-baae
+cryptodaily.co.uk/author/ShilikaJain
+aap.com.au/aapreleases/cision20240715ae61377
+contra.com/p/mveNcv3M-fractionally-website-for-web3-blockchain-capital-firm
+happenstance.ai/u/simonponders
+cryptocurrencyjobs.co/startups/myosin-xyz/
+support.claude.com/en/articles/13345190-get-started-with-claude-cowork
+
+NOTES: The last link (support.claude.com) is the "Permission mode" UI banner link, not a cited source. shilikajain.com appears only as unlinked text inside the answer body; no link in any source list is on shilikajain.com (a DOM check for anchors with "shilikajain" in the href matched only cryptodaily.co.uk/author/ShilikaJain, which is a third-party domain). The "dev" chip on the Shilika Jain paragraph resolves to the DEV Community profile (dev.to / medialegacy1.dev.to), not shilikajain.com.

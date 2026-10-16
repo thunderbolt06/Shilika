@@ -1,0 +1,38 @@
+[
+  {
+    "id": "D3",
+    "ok": false,
+    "blocked_reason": "Perplexity free search limit modal ('You've reached your free search limit. Your access will reset in a few hours.') appeared after submitting the prompt; no answer generated. Upgrade not clicked.",
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_position": 0,
+    "competitors": [],
+    "source_domains": [],
+    "answer_summary": "No answer: Perplexity free-plan search limit reached on first prompt.",
+    "web_search_used": false
+  },
+  {
+    "id": "D4",
+    "ok": false,
+    "blocked_reason": "Not asked: Perplexity free search limit already reached on D3; run stopped per safety rules.",
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_position": 0,
+    "competitors": [],
+    "source_domains": [],
+    "answer_summary": "Not run (usage cap hit on D3).",
+    "web_search_used": false
+  },
+  {
+    "id": "D5",
+    "ok": false,
+    "blocked_reason": "Not asked: Perplexity free search limit already reached on D3; run stopped per safety rules.",
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_position": 0,
+    "competitors": [],
+    "source_domains": [],
+    "answer_summary": "Not run (usage cap hit on D3).",
+    "web_search_used": false
+  }
+]

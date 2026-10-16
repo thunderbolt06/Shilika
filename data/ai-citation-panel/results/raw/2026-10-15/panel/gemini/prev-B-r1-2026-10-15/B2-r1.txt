@@ -1,0 +1,44 @@
+PROMPT ID: B2 | PROMPT: How do you get featured in CoinDesk, Cointelegraph and Decrypt in 2026? | RUN: 1 | SURFACE: Gemini (gemini.google.com, Temporary chat confirmed: "Temporary Chat" header and "Just stopping by?" notice; model shown in selector: Flash High)
+NOTE: The first attempt in a fresh temporary chat (model Pro) ended with "Sorry, something went wrong. Please try your request again." and a banner "Pro is in high demand right now. Another model was used for this response." No answer was produced. The prompt was re-asked verbatim in a second brand-new temporary chat, where the default model selector had switched to Flash High; the answer below is from that second chat. During generation only the status "Analyzing Media Outlet Strategies" was seen (no "Searching the web" status was observed).
+
+ANSWER TEXT:
+Getting featured in CoinDesk, Cointelegraph, and Decrypt requires tailoring your approach to each outlet's distinct editorial lens. Crypto media is highly specialized, and pitching all three with a single generic press release will almost guarantee silence.
+
+1. Match Your Story to the Outlet's DNA
+Outlet | Primary Focus & Audience | Ideal Pitch Angles | Best Approach
+CoinDesk | Institutional finance, regulation, macro market trends, protocol-level tech, and canonical industry narratives. The Bloomberg/WSJ of crypto. | Funding rounds ($5M+ led by Tier-1 VCs); Institutional adoption / TradFi integration; Regulatory shifts & legal precedents; Exclusive data or market research reports | Earned Editorial: Must offer a strict Exclusive to a specific beat reporter. Does not run routine product announcements.
+Cointelegraph | Broad retail audience, market analysis, Web3 ecosystem news, opinion pieces, and global policy. | Major ecosystem milestones & protocol upgrades; Expert commentary on breaking market news; Thought leadership / Op-Eds; High-impact consumer applications | Hybrid: Pitch beat reporters for earned news, submit Op-Eds for thought leadership, or use paid press distribution wires for guaranteed press section placement.
+Decrypt | The intersection of Web3, AI, gaming, pop culture, DePIN, and consumer tech. | AI x Crypto convergence stories; Web3 gaming / entertainment launches; Culture, SocialFi, and consumer adoption; Narrative-driven founder stories | Earned Editorial: Focus on narrative, culture, or human consumer experience rather than dry technical specs. Pitch culture or tech-adjacent reporters.
+
+2. The Pitch Playbook
+Step 1: Secure On-Chain & Hard Data Validation
+Journalists are inundated with AI-generated pitches and exaggerated protocol stats. Every pitch must be backed by verifiable data:
+Funding: Verified press releases or confirmations from lead VCs (e.g., Paradigm, a16z, Dragonfly).
+Traction: Publicly auditable on-chain data (Dune Analytics dashboards, DefiLlama tracking, TVL, monthly active wallets).
+
+Step 2: Use the "Exclusive First" Strategy
+Never send a pitch blast to all three outlets simultaneously.
+Pick the single outlet that best fits the story (e.g., CoinDesk for institutional fundraises; Decrypt for an AI-gaming crossover).
+Pitch a beat reporter 3 to 5 days under embargo with explicit terms: "Offering an exclusive on this story until [Date/Time UTC]".
+If they pass or don't respond within 24-48 hours, lift the exclusive and offer it to the next outlet.
+
+Step 3: Target Beat Reporters Directly
+Generic inbox emails (info@, tips@) rarely yield results.
+Find Beat Reporters: Search recent articles on CoinDesk, Cointelegraph, and Decrypt for journalists covering your exact niche (e.g., DeFi, AI agents, policy).
+Engage on X (Twitter): Follow them, engage with their recent coverage, and pitch concise context via email or Twitter DMs (if open).
+Keep Emails Under 150 Words:
+Subject Line: [EXCLUSIVE EMBARGO] [Company Name] raises $X M for [Specific Utility]
+Body: 2-3 bullet points outlining Why this matters now and What the verifiable news is, plus a link to a private media kit (Notion page or Google Drive with logos, executive bios, and quote sheets).
+
+Step 4: Pitch News Commentary & Op-Eds
+If you don't have breaking news, land coverage through commentary:
+Cointelegraph Op-Eds: Submit opinion pieces analyzing broader industry shifts (e.g., post-quantum encryption in crypto, regulatory shifts, MEV developments).
+Rapid Reaction Pitching: When major market news breaks (e.g., regulatory rulings, major exploits, macroeconomic shifts), immediately email beat reporters with concise, punchy quotes from your founder or analysts offering expert context.
+
+Key Pitfalls to Avoid
+Pitching routine product updates: Standard feature drops or minor mainnet upgrades rarely warrant dedicated articles. Frame them around a macro trend or user adoption milestone instead.
+Confusing paid press releases with earned editorial: Paid release syndication services publish to press release subdomains, but they lack the credibility, organic homepage placement, and newsletter distribution of earned editorial coverage.
+Ignoring embargo ethics: Breaking an embargo or offering "co-exclusives" to competing outlets will burn reporter relationships permanently.
+
+SOURCE LINKS:
+(none displayed. No Sources chip or Show sources control appeared. The mandated script returned only two Gemini page-chrome links, which are not cited sources and are listed here for completeness: google.co.in/intl/en/about/products ; accounts.google.com/SignOutOptions)

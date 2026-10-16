@@ -1,0 +1,78 @@
+PROMPT A5 | What is the best PR setup for a recently funded Web3 or AI startup with no media presence? | run 1 | surface: ChatGPT (chatgpt.com, signed-in free account, Temporary Chat, hints=search; URL after submit carried temporary-chat=true; page showed "Temporary chat - This chat won't appear in your conversation history") | captured 2026-10-15 | note: em/en dashes in the captured answer normalized to hyphens
+
+ANSWER TEXT (get_page_text; "[chip]" lines are citation chip labels, not prose):
+
+The best PR setup for a newly funded Web3 or AI startup with no media presence
+
+My recommendation: start with a senior fractional PR lead, a founder-led narrative, and a focused 90-day earned-media programme - not an expensive, full-service agency on day one.
+
+A funding round gives you a news hook, but it doesn't automatically give you a reputation. If journalists have never heard of your startup, the goal is to turn the funding announcement into the beginning of a credible public profile, rather than a one-day spike in press mentions.
+
+That approach aligns with recent startup PR guidance, which recommends combining a funding announcement with a differentiated market story, targeted journalist outreach, and continued founder visibility.
+[chip] Shadow +2
+
+1. The ideal PR team
+1. Senior fractional PR lead (First hire): Owns positioning, media strategy, journalist relationships, pitching, interviews, and the 90-day plan. Look for someone who has personally secured relevant coverage in your target market, not just managed an agency account.
+2. Founder as the primary spokesperson: The CEO should be available for interviews, publish informed opinions, explain the market opportunity, and provide concrete evidence of what the company is building.
+3. On-demand content and design support: Use a freelancer for founder articles, case studies, press materials, product visuals, and a polished media kit. Add specialist crisis communications or regulatory counsel when needed.
+4. Existing investors and partners as credibility multipliers: Ask investors, customers, ecosystem partners, and technical collaborators to participate in briefings, validate claims, and provide attributable quotes where appropriate.
+Keep the core team small. Bring in a larger agency only when the business has enough news, customer proof, and geographic scope to justify it.
+
+2. A practical 90-day PR roadmap
+Days 1-14 - Build the narrative and press infrastructure: Write a one-sentence positioning statement: who you help, what you do, and why now. Prepare a fact-checked company backgrounder, founder bios, investor details, product demo, approved metrics, and press-ready visuals. Build a targeted list of 20-30 relevant journalists and podcasts. Identify the strongest story beyond simply announcing the funding.
+Days 15-30 - Launch a focused media campaign: Offer one suitable publication an exclusive or an embargoed briefing, if the news merits it. Pitch a small number of relevant journalists individually. Coordinate the announcement with investors, partners, founder LinkedIn posts, and company channels. Make the founder available for interviews and technical demonstrations.
+Days 31-60 - Turn visibility into credibility: Publish a substantive founder opinion piece or technical explainer. Pitch customer use cases, product milestones, original research, or named partnerships. Start a targeted podcast and newsletter outreach programme. Publish evidence that journalists can independently verify.
+Days 61-90 - Build an ongoing reputation: Pitch a second, genuinely new story rather than recycling the funding announcement. Build relationships with reporters who cover your category. Track branded search, qualified inbound, relevant coverage, and customer or investor conversations. Decide whether to extend the fractional engagement for another quarter.
+
+The sequencing matters: specialist Web3 PR guidance recommends establishing a broader market narrative before the announcement and extending the launch with technical content, ecosystem proof, and subsequent milestones.
+[chip] Shilika Jain +1
+
+3. Choose media by audience, not prestige
+These are target outlets, not promises of coverage. The best initial list depends on the product, customer, geography, and actual news.
+AI startups - Mainstream tech and AI industry: TechCrunch for differentiated product launches and startup funding; VentureBeat for enterprise AI and technical developments; The Information for deeper industry and business stories.
+Web3 startups - Crypto-native media and ecosystem credibility: CoinDesk, The Block, Blockworks, and Decrypt. Prioritise outlets whose readers match your segment: infrastructure, DeFi, institutional adoption, wallets, or consumer applications.
+India-based startups targeting India - Domestic startup and business audiences: Inc42, YourStory, and ETtech. For global ambitions, run an India track and an international track rather than assuming one campaign will serve both.
+
+For a startup operating across AI and Web3, run two complementary narratives: one explaining the technical or AI innovation and another explaining its relevance to the crypto ecosystem. The same press release is unlikely to resonate equally with both audiences.
+[chip] Shilika Jain +2
+
+4. How much should you spend?
+If the startup is India-based, these are sensible starting budgets. They are planning recommendations, not guaranteed market rates or coverage outcomes.
+Lean, founder-led PR | INR 0-50k/mo | Best for pre-seed and lean seed teams. Founder handles outreach, LinkedIn, and content. Use freelance help for a launch or specialist writing when needed.
+Fractional PR / focused campaign | INR 75k-1.5L/mo | My preferred starting point for a newly funded seed startup. One senior operator, targeted pitching, founder positioning, and a defined campaign. Consider a one-off launch project if the funding announcement is the only immediate news event.
+Ongoing agency programme | INR 1.5L-3L+/mo | Best for Series A or ambitious multi-market growth. Ongoing media relations, content support, multiple storylines, and broader domestic or international outreach.
+
+For context, an Indian PR pricing report published in 2026 estimates a starter retainer median of INR 95,000 per month and a one-time launch-project median of INR 3 lakh. These are estimates from a PR provider's market analysis, not independently verified universal benchmarks.
+[chip] Melivana +1
+
+My rule: spend enough to get senior expertise and consistent execution, but don't commit a large share of your new funding to PR before you know which messages and channels work.
+
+5. What to measure in the first 90 days
+Avoid judging PR by the number of press releases distributed or total syndicated mentions.
+Relevant earned coverage | Articles in outlets your buyers, investors, or developers actually read
+Message accuracy | Coverage correctly explains your product, differentiation, and proof points
+Founder visibility | Quality interviews, substantive bylines, and relevant podcast appearances
+Commercial impact | Qualified inbound leads, partnership conversations, recruiting interest
+Reputation growth | More branded searches, stronger third-party references, improved discoverability
+Execution quality | Targeted pitches, reporter relationships, follow-ups, and a clear next-story pipeline
+Establish a baseline before the campaign, then review results monthly. Where possible, track referral links and CRM attribution. AI-search visibility can be a useful additional experiment, but treat it as a developing measurement rather than a guaranteed PR outcome.
+
+6. What to demand from a PR agency
+Before signing, ask these five questions: Who will personally pitch our stories? Meet that person, not just the sales team. Can you show relevant placements you directly secured? Ask for examples in your specific technical category. What is your first 30-day plan? What happens when there is no announcement? How do you report results? Require named coverage, quality and message analysis, and business-relevant outcomes, not just clipping counts.
+Avoid guaranteed Tier-1 placements, indiscriminate mass pitching, undisclosed paid articles presented as earned coverage, and retainers with vague deliverables.
+
+7. Your first move depends on the startup (follow-up questionnaire: category, stage, market, budget, announcement status; ignored)
+
+The key principle is simple: build credibility before chasing publicity. A startup with a clear point of view, credible evidence, an accessible founder, and a senior person who knows how to pitch it has a much stronger foundation than a startup paying for the largest possible press-release distribution.
+
+SOURCE LINKS:
+(the extraction script returned [] after the answer completed; sources appear only as citation chips. Two Shilika Jain chips were opened with a real click and each opened a new tab at the URLs below, verified from the tab list)
+shilikajain.com/playbook/web3-infrastructure-pr-2026
+shilikajain.com/playbook/ai-x-crypto-agent-pr-2026
+
+SUPPLEMENTARY (citation chip hover cards, titles only; hostnames UNVERIFIED unless shown above):
+chip1 (Shadow +2): "PR for Startups: When to Invest, How to Pitch, and What Actually Works (2026 Guide)" (June 12, 2026) [Shadow]; "How to Announce a Funding Round: A Complete Guide for Founders (2026)" (June 1, 2026) [Shadow]; "Startup PR Benchmark Report India 2026" [Melivana Research]
+chip2 (Shilika Jain +1, opened shilikajain.com/playbook/web3-infrastructure-pr-2026): "PR for a Web3 Infrastructure Startup in 2026" (June 23, 2026) [Shilika Jain]; "PR for Tech Startups in 2026: A Founder's Guide" (June 23, 2026) [Shilika Jain]
+chip3 (Shilika Jain +2, opened shilikajain.com/playbook/ai-x-crypto-agent-pr-2026): "PR for AI x Crypto and Agentic Projects in 2026" (June 23, 2026) [Shilika Jain]; "AI Startup PR Strategy 2026: The Full Founder Playbook" (May 29, 2026) [Shilika Jain]; "PR for a Web3 Infrastructure Startup in 2026" (June 23, 2026) [Shilika Jain]
+chip4 (Melivana +1): "India PR Pricing Report 2026" [Melivana Original Research]; "Startup PR Benchmark Report India 2026" [Melivana Research]
+Shilika Jain is not named anywhere in the answer prose; no individual consultants or agencies are recommended by name.

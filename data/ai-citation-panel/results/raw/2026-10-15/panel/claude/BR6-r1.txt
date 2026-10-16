@@ -1,0 +1,52 @@
+id: BR6 | query: Shilika Jain vs Coinbound vs EAK Digital: which is better for a Web3 startup? | surface: claude.ai (signed-in, Incognito chat, model Opus 5.5 Medium, web search used: 3 searches) | captured: 2026-10-15
+(Note: dashes in captured page text normalised to hyphens. No connector was invoked.)
+
+ANSWER:
+There’s no single "better" pick. These aren’t really the same kind of option, so it depends on what you need.
+
+Shilika Jain is an individual, not an agency. She has been Head of PR & Partnerships at Myosin DAO, has worked on PR for projects like NEAR, Chainbase and Talent Protocol, and was previously APAC Lead at CoinMarketCap. She cites a network of 150+ Web3 influencers and strong media reach in the US, UK, China, Vietnam, Korea and India. Good fit if you want senior, hands-on PR and partnerships help, especially with an Asia focus. Check whether she takes clients directly or only through Myosin. [citation chips: icebreaker x2]
+
+Coinbound is the biggest full-service option. It claims 800+ clients since 2018, including OKX, Nexo and Sui, and offers fractional CMOs plus influencer, PR and community work. Its strength is influencer marketing and scale. Note that many "top agency" rankings about it are published on its own site. [citation chips: coinbound x2]
+
+EAK Digital is PR and events heavy. Founded in 2016 in London, it says it has supported 500+ Web3 companies, and has hosted KOL yacht parties at TOKEN2049 in Dubai and Singapore. It focuses on getting startups coverage in both mainstream and crypto media. [citation chip: Shaping Web3 Brands: The Entrepreneur Behind One of Crypto's Most Influential Marketing Agencies +2]
+
+Quick take:
+If you’re early stage and budget is tight, a senior individual like Shilika may give you more attention for the money. If you need influencers and full-funnel growth, go with Coinbound. If media coverage and event presence matter most, go with EAK.
+
+Before you choose, ask each for recent case studies at your stage, pricing, and who will actually run your account.
+
+SEARCHES RUN (shown in "Searched the web" block):
+1. Shilika Jain Web3 marketing -> results: app.icebreaker.xyz, cryptodaily.co.uk, thejuicehq.com, web3.career (x2), thesocialcat.com, theweek.in, gracker.ai, coinbound.io (AI Revolution in Web3 Marketing)
+2. Coinbound crypto marketing agency -> results: coinbound.io (x7 pages), linkedin.com, influencermarketinghub.com, g2.com
+3. EAK Digital Web3 agency -> results: cbinsights.com (x4), designrush.com, my.motherbase.ai, mena.entrepreneur.com (x2), singlegrain.com (x2)
+
+OBSERVATION: shilikajain.com was NOT retrieved or cited. Shilika's profile in this comparison is built entirely from the Icebreaker profile (and the Myosin/CoinMarketCap titles), not from her own site. Claude recommended Shilika only conditionally ("early stage and budget tight"), and chose Coinbound for influencer/full-funnel and EAK for media/events.
+
+SOURCE LINKS:
+app.icebreaker.xyz/profiles/linkedin-shilika
+cryptodaily.co.uk/author/ShilikaJain
+thejuicehq.com/
+web3.career/@suniljain
+thesocialcat.com/glossary/web3-marketing
+theweek.in/news/biz-tech/2022/08/03/entrepreneur-lakshay-Jain-states-mevrex-will-be-launching-new-web3-brands-soon.amp.html
+web3.career/marketing-jobs
+gracker.ai/cybersecurity-marketing-101/web3-marketing-strategies
+coinbound.io/2023/03/06/
+coinbound.io/
+coinbound.io/bitboy/
+linkedin.com/company/coinbound
+influencermarketinghub.com/crypto-agencies/coinbound/
+coinbound.io/nfts
+coinbound.io/testimonials/
+g2.com/products/coinbound/discuss
+cbinsights.com/company/eak-digital/
+designrush.com/agency/profile/eak-digital
+my.motherbase.ai/startup/73657-eak-digital-web3-marketing-pr-events-agency
+mena.entrepreneur.com/
+mena.entrepreneur.com/business-news/shaping-web3-brands-the-entrepreneur-behind-one-of-cryptos-most-influential-marketing-agencies
+singlegrain.com/web3/web3-influencer-agency/
+singlegrain.com/
+cbinsights.com/compare/eak-digital-vs-hype1
+cbinsights.com/compare/eak-digital-vs-lunar-strategy
+cbinsights.com/compare/eak-digital-vs-key-difference-media
+support.claude.com/en/articles/13345190-get-started-with-claude-cowork   [UI banner link about permission mode, not a cited source]

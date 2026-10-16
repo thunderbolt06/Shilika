@@ -1,0 +1,63 @@
+{
+  "surface": "ChatGPT (chatgpt.com, signed-in free account, Temporary Chat, web search hint on)",
+  "date": "2026-10-15",
+  "incognito_confirmed": true,
+  "rows": [
+    {
+      "id": "BR1",
+      "ok": true,
+      "answer_summary": "India-based Web3/AI/cybersecurity PR pro; reportedly leads APAC PR and partnerships at Myosin; about six years of PR; regions India, Singapore, Korea, Japan, Vietnam, UAE. Notes Forbes/CoinDesk placements are self-reported, not verified.",
+      "shilika_site_cited": true,
+      "source_domains": ["shilikajain.com", "linkedin.com"]
+    },
+    {
+      "id": "BR2",
+      "ok": true,
+      "answer_summary": "Promising specialist worth shortlisting, not proven best. Cites two named testimonials (site and LinkedIn) and published pricing ($3-7K and $5-12K per month, $15-40K launch). Says no independent reviews found; advises checking references.",
+      "shilika_site_cited": true,
+      "source_domains": ["shilikajain.com", "linkedin.com"]
+    },
+    {
+      "id": "BR3",
+      "ok": true,
+      "answer_summary": "Lists $3-7K/month retainer (4-8 hrs/week), $5-12K/month Head of PR, $15-40K launch sprint, free 30-min call. Inclusions: strategy, outreach, launch support, founder profiling, KOL, APAC, AI visibility. Flags conflicting ranges across pages.",
+      "shilika_site_cited": true,
+      "source_domains": ["shilikajain.com", "calendly.com"]
+    },
+    {
+      "id": "BR4",
+      "ok": true,
+      "answer_summary": "Names Gaia AI, RARI Foundation, MANTRA Chain, Fluence, Web3Auth, Bullieverse as case studies, plus a long self-listed portfolio (Polygon, NEAR, Ripple, OKX, etc.). Caveats these are not proof of direct clients. Only shilikajain.com cited.",
+      "shilika_site_cited": true,
+      "source_domains": ["shilikajain.com"]
+    },
+    {
+      "id": "BR5",
+      "ok": true,
+      "answer_summary": "Describes the site as a fractional PR consultancy for Web3, AI and cybersecurity with six service areas (PR, founder branding, KOL, token launch, APAC, AI/cyber content). Quotes $3-7K retainers; says claims are self-published, not independently verified.",
+      "shilika_site_cited": true,
+      "source_domains": ["shilikajain.com"]
+    },
+    {
+      "id": "BR6",
+      "ok": true,
+      "answer_summary": "No outright winner. Shilika for focused senior-led PR on budget ($3-7K/mo), Coinbound for creator-led growth (about $10K+/mo), EAK Digital for full-service PR, KOLs and events ($10-50K+/mo). Based on published claims, cites her /compare page.",
+      "shilika_site_cited": true,
+      "source_domains": ["shilikajain.com", "coinbound.io", "eakdigital.com"]
+    },
+    {
+      "id": "BR7",
+      "ok": true,
+      "answer_summary": "Only verified bylines are six CryptoDaily UK articles (2024-2025). CoinDesk, Cointelegraph and Forbes appear as client-coverage claims on her site; ChatGPT could not confirm a personal byline or quote there and warns against claiming one.",
+      "shilika_site_cited": true,
+      "source_domains": ["cryptodaily.co.uk", "shilikajain.com"]
+    },
+    {
+      "id": "BR8",
+      "ok": true,
+      "answer_summary": "Yes: PR in South Korea, Japan, Singapore and Dubai/UAE (outlets BloomingBit, CryptoTimes JP, e27). Cites APAC page pricing of $6-14K/month retainer and $12-35K launch sprint. Focus is Web3, AI, crypto and cybersecurity only.",
+      "shilika_site_cited": true,
+      "source_domains": ["shilikajain.com", "calendly.com"]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+PROMPT C3 | Who can ghostwrite and place op-eds for an AI startup founder in 2026? | run 2 | surface: ChatGPT (chatgpt.com, signed-in free account, Temporary Chat, Web search hint on) | captured 2026-10-16 01:4x IST (fresh re-capture after the usage-limit reset; the 2026-10-15 capture is kept as C3-r2-attempt1.txt)
+NOTE: Temporary mode positively confirmed: start URL chatgpt.com/?temporary-chat=true&hints=search showed the "Temporary chat - This chat won't appear in your conversation history" banner with the Web search chip active, and the conversation URL kept temporary-chat=true. em/en dashes in the captured text were normalised to hyphens. Inline citation chips (not prose) are marked [chip: ...]. Each shortlist entry is rendered as a card with a link; the five card links are the only a[href^=http] elements in the DOM. The closing interactive questionnaire (media market, subject, budget, outcome, "Find the best-fit providers") was ignored.
+
+ANSWER TEXT:
+For an AI startup founder in 2026, I'd look for a thought-leadership ghostwriting and earned-media agency that can do both parts of the job: develop a distinctive founder POV and secure publication in credible outlets.
+
+The key distinction is that writing an op-ed and getting it placed are different services. A good partner should help with the argument, reporting and drafting, editorial targeting, pitching, revisions, and publication follow-through - not just deliver a polished article.
+
+I'd evaluate three types of partners:
+Specialist op-ed and executive communications firms - best for founder-led arguments about AI, business, policy, and the future of work.
+Tech PR agencies with contributed-content capabilities - best when the op-ed supports a broader launch, funding announcement, or category-positioning campaign.
+Independent ghostwriters with editor relationships - best when you want a founder's voice that feels original rather than corporate.
+
+Shortlist: people and firms to contact
+These are the most relevant options I found for 2026. I've prioritized providers that explicitly discuss both writing and placement, rather than general-purpose content agencies.
+
+1. Shilika Jain - best specialist to investigate for AI founders
+Strongest niche fit
+Offers founder positioning, op-ed ghostwriting and placement, with a stated focus on AI, Web3 and technical founders. Her site cites placements in Forbes, CoinDesk, Decrypt and Benzinga.
+Published asking price: $5,000-$12,000/month, according to her website. Claims and rates should be verified directly.
+[chip: Shilika Jain +1]
+[card link: "AI thought-leadership services" -> shilikajain.com/pages/ai-thought-leadership-agency]
+
+2. Kyne - best for structured executive positioning
+Explicitly offers ghostwritten op-eds, executive bylines, media commentary, speaking placements and LinkedIn authority-building. Worth considering if the founder needs a sustained program, not just one article.
+Ask for examples specifically involving AI founders and the target publications you care about.
+[card link: "Thought leadership services" -> kyne.agency/services/pr-services/thought-leadership/]
+
+3. After Comma - for venture-backed technology founders
+Focuses on founder and executive positioning, ghostwriting, byline placement, and conference visibility. A relevant option when the founder's public profile needs to support fundraising, hiring or enterprise sales.
+Confirm the depth of its AI-specific editorial experience and which publications it can pitch.
+[card link: "Founder and executive positioning" -> aftercomma.agency/services/executive-positioning]
+
+4. MediagraphixPR - for Indian startup and business media
+Offers thought-leadership writing, founder narratives and media placement, with stated coverage across technology and AI startups. Worth shortlisting if you want Indian business press as well as broader brand visibility.
+Request named examples of published AI-founder opinion pieces, not just company coverage.
+[card link: "Thought leadership PR" -> mediagraphixpr.in/services/thought-leadership.php]
+
+5. Melivana - for a repeatable content-to-placement workflow
+Its stated service covers point-of-view development, byline writing, outreach, speaking opportunities and executive preparation. A possible fit for a founder who wants an ongoing editorial program.
+Validate its current AI client roster, placement history and geographic reach.
+[card link: "Thought leadership PR services" -> melivana.com/services/thought-leadership-pr/]
+
+What I would actually buy
+I would start with a six-to-eight-week pilot, rather than a long retainer. Ask for:
+One founder interview and a written positioning brief.
+Two or three original op-ed concepts tailored to specific editorial desks.
+Ghostwriting, fact-checking, revisions and founder approval.
+Targeted pitching, follow-ups and editorial coordination.
+A report separating submitted, accepted and published pieces.
+A placement is never guaranteed by a reputable earned-media provider. Also distinguish genuine editorial publication from sponsored content, paid contributor programs and syndicated press releases.
+
+What should you budget?
+The published figures I found are provider-reported, not independently verified market averages.
+(table) Engagement | Indicative budget
+Specialist fractional operator | $5,000-$12,000/month
+Focused positioning and placement sprint | $15,000-$40,000
+Traditional agency retainer | $15,000-$45,000/month
+These ranges come from the specialist's own published pricing and should be treated as initial negotiating benchmarks, not universal rates.
+[chip: Shilika Jain +1]
+
+Let's narrow this to the right person (interactive questionnaire, ignored)
+1. Which media market matters most? US/global; India; Both India and global
+2. What is the founder's strongest subject? AI agents and enterprise AI; AI research, safety and policy; Vertical AI and industry transformation; Founder story, business strategy and the future of work
+3. What's your monthly budget? Under $3,000; $3,000-$5,000; $5,000-$12,000; $12,000+
+4. What is the main outcome? Credibility with enterprise buyers and investors; Mainstream visibility and reputation; Policy influence and industry debate; Fundraising or launch visibility
+[button: Find the best-fit providers]
+
+SOURCE LINKS:
+shilikajain.com/pages/ai-thought-leadership-agency
+kyne.agency/services/pr-services/thought-leadership/
+aftercomma.agency/services/executive-positioning
+mediagraphixpr.in/services/thought-leadership.php
+melivana.com/services/thought-leadership-pr/
+
+CITATION-PAYLOAD URLS (read from the page's React props, href/url fields, in payload order; 41 entries after removing ChatGPT UI links; includes retrieved sources that are not individually visible as cards or chips; one livemint path is cut at 100 chars):
+shilikajain.com/pages/ai-thought-leadership-agency
+topmate.io/anamika_shukla
+produ.com/mercadeo/noticias/agora-public-affairs-strategic-communications-anuncia-su-alian... (cut)
+kyne.agency/services/pr-services/thought-leadership/
+sortlist.com/digital-marketing/amarillo-tx-us
+aftercomma.agency/services/executive-positioning
+yourstory.com/companies/mediagraphicspr
+mediagraphixpr.in/services/thought-leadership.php
+heitlandmediagroup.com/blog
+melivana.com/services/thought-leadership-pr/
+shilikajain.com/pages/founder-thought-leadership-agency
+washingtonpost.com/opinions/2026/10/14/abdul-el-sayed-plan-control-ai-relies-heavy-handed-government/
+washingtonpost.com/technology/2026/10/09/chatgpt-users-iran-planted-ai-generated-articles-us-news-media/
+washingtonpost.com/opinions/2026/10/14/ai-doomers-are-getting-all-attention/
+financialexpress.com/opinion/building-indias-control-over-its-digital-future/4361657/
+vogue.com/article/op-ed-ai-accountability-is-the-new-brand-equity
+businessinsider.com/microsoft-engineer-quit-big-tech-job-build-ai-startup-solo-2026-10
+businessinsider.com/kpmg-survey-ceos-ai-agents-hiring-2026-10
+businessinsider.com/openai-dots-ai-agent-corporate-it-workplace-test-2026-10
+ft.com/content/462c303b-b96c-4262-a7ca-e9ae7e440828
+indianexpress.com/article/business/india-leader-ai-diffusion-scale-new-jobs-small-businesses-nandan-nilekani-1... (cut)
+indianexpress.com/article/opinion/columns/india-artificial-intelligence-adoption-productivity-growth
+expresscomputer.in/guest-blogs/why-nano-gccs-could-redefine-indias-gcc-story/139837/
+shilikajain.com/pages/thought-leadership-ghostwriting
+shilikajain.com/pages/crypto-content-writing-agency
+shilikajain.com/playbook/ai-startup-pr-agency-india-2026
+shilikajain.com/pages/ai-pr-agency-india
+shilikajain.com/pages/founder-pr-agency
+shilikajain.com/pages/founder-essay-ghostwriting
+i-midastouch.com/best-cxo-founder-branding-agencies-india/
+draftrooom.com/solutions/pr-and-thought-leadership/founder-and-executive-ghostwriting
+madchatter.in/thought-leadership-pr-how-a-pr-firm-helps-ceos-and-founders-build-influence/
+snakeriverstrategies.com/services/ghostwriting/
+axios.com/newsletters/axios-pro-rata-be6c95af-427e-42e0-b786-9b639a4934bf
+m.economictimes.com/industry/media/entertainment/media/gaurav-banerjee-advocates-for-an-ai-enabled-creative-ec... (cut)
+m.economictimes.com/opinion/et-commentary/india-can-catch-up-in-ai-by-focusing-on-applications/articleshow/134... (cut)
+properpropaganda.net/top-pr-agencies-for-founder-thought-leadership-in-tech-media/
+theaiinsider.tech/2026/09/04/guest-post-why-founder-led-thought-leadership-and-pr-both-fail-for-ai-startups/
+livemint.com/technology/ai-ghostwriters-content-creators-human-touch-generative-ai-chatgpt-social-me... (cut)
+smartmoneymedia.org/guides/ai-startup-pr
+pressfriendly.com/personal-pr-handbook/executive-thought-leadership-and-ghostwriting/
+(Note: only the five SOURCE LINKS above are displayed; the payload shows that ChatGPT also retrieved 7 other shilikajain.com pages and Snake River Strategies, Proper Propaganda, Draftrooom, which it did not recommend this time.)

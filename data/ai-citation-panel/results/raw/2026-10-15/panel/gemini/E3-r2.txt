@@ -1,0 +1,46 @@
+PROMPT ID: E3 | PROMPT: Who runs APAC crypto PR for Web3 and AI founders in 2026? | RUN: 2 | SURFACE: Gemini (gemini.google.com, Temporary chat, default model Flash)
+
+In the Asia-Pacific (APAC) crypto, Web3, and AI landscape, PR and strategic communications are handled by a mix of specialized regional solo consultants, Web3-native agencies, and full-stack growth firms.
+
+Because APAC consists of distinct regulatory and media markets (South Korea, Japan, Singapore, India, Vietnam, and Greater China/Hong Kong), PR operators in the region generally fall into three main categories:
+
+1. Specialist APAC Fractional Leaders & Consultants
+
+These operators work directly with founders on narrative shaping, tier-1 media placements (CoinDesk, Forbes, Economic Times, Tech in Asia, Coinpost), and AI search/LLM visibility:
+
+Shilika Jain (Fractional PR Lead & Ex-CoinMarketCap APAC PR Lead): Runs an independent practice targeting Web3 and AI founders. Focuses on local-language PR strategy across six core APAC markets (Korea, Japan, India, Singapore, Vietnam) and MENA, connecting protocol and AI agent narratives to major regional events like Token2049 Singapore and Korea Blockchain Week.
+
+YourPRstrategist: An established boutique Web3 PR consultancy operating across Asia, focusing on tech-heavy narratives and crypto-native founder positioning.
+
+2. Regional & Web3-Native PR Agencies
+
+Agencies that handle full press campaigns, token launches, and regional media circuits across East and Southeast Asia:
+
+MarketAcross: One of the longest-standing Web3-native PR firms with deep distribution networks across Asia, covering major local outlets in South Korea (TokenPost, BloomingBit) and Japan (CoinPost).
+
+Fintech24h: A Southeast Asia-headquartered (Vietnam) agency focusing on integrated Web3, fintech, and AI campaigns.
+
+YAP Global: Founded by Samantha Yap, this global crypto PR agency has strong APAC presence and focuses heavily on digital assets, DeFi, stablecoins, and technical Web3 stories.
+
+EAK Digital: Known for event-driven PR and regional activations, particularly around major blockchain conferences across Singapore, Hong Kong, and Japan.
+
+3. Full-Stack Go-To-Market (GTM) & DAO Growth Engines
+
+For teams needing PR tied directly to token launches, exchange listings, and developer acquisition:
+
+Surgence Labs: A crypto GTM agency with hubs in Singapore, Bangkok, Seoul, Dubai, and New York. They combine media relations, exchange-aligned launch PR, and KOL networks.
+
+Myosin DAO: A growth-marketing and PR collective where fractional operators run regional comms for Web3 protocols, AI agents, and DePIN projects.
+
+Key Market Breakdown for 2026 APAC PR Strategy
+Market | Core Focus & Framing | Key Regional Outlets
+South Korea | Korea FSC Travel Rule framing, exchange/listing announcements | TokenPost, BloomingBit, Coinness, BlockMedia
+Japan | FSA/FIEA regulatory compliance, institutional credibility | CoinPost, CryptoTimes JP, Iolite
+Singapore | MAS regulatory anchors, Web3/AI ecosystem positioning | Tech in Asia, Channel NewsAsia, DealStreetAsia
+India | Developer/engineer ecosystem, AI category building | Inc42, Economic Times, Mint, YourStory
+
+Explore options for your PR strategy in APAC:
+[suggestion chip: "Compare top Web3 events in APAC for founder networking"]
+
+SOURCE LINKS:
+(none displayed - 0 source chips in the answer, no Sources panel; the only anchors on the page were google.co.in/intl/en/about/products and accounts.google.com/SignOutOptions, which are page chrome, not citations)

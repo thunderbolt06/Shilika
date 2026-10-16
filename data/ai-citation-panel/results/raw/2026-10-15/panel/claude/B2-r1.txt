@@ -1,0 +1,32 @@
+PROMPT B2 | How do you get featured in CoinDesk, Cointelegraph and Decrypt in 2026? | run 1 | surface: Claude (claude.ai, signed-in, Incognito chat, web search used: 1 search "how to get featured CoinDesk Cointelegraph Decrypt 2026 pitch")
+
+Getting covered in these outlets mostly comes down to having real news, fitting each outlet's focus, and pitching like a journalist would want it.
+
+1. Have an actual story. Funding with named investors, product launches with real usage, exclusive data, or a strong opinion on regulation. A pitch claiming a $20M raise without naming investors gets dismissed, while naming firms like Paradigm or Pantera gets better treatment because it offers independent verification. Expect fact checks too: reporters will check on-chain data for user claims and DefiLlama for TVL claims. [instantpress] [instantpress]
+
+2. Match the outlet.
+
+CoinDesk: favors regulatory and institutional angles and skips fluff. It works on embargo, rewards exclusives, and wants a clear hook, verifiable claims, and a named executive. [mexc] [everything-pr]
+
+Decrypt: wants accessible stories tying crypto to culture, business, or tech trends. Good for product launches. [mexc]
+
+Cointelegraph: open to varied stories but expects a clear news peg up front. [mexc]
+
+3. Pitch the right reporter. Find who covers your beat (DeFi, gaming, policy) and email them directly. Tip lines also exist: tips@coindesk.com and tips@decrypt.co. [instantpress]
+
+4. Keep the pitch tight. Short, direct, credibility first, and under 400 words. Avoid price talk and token shilling. Offer exclusive data when you can. [instantpress]
+
+5. Other routes. Write op eds as a founder, speak at big events like Consensus or TOKEN2049, or become a go-to expert source reporters quote. Paid sponsored posts and press release distribution exist too, but they're labeled and carry less credibility than earned coverage.
+
+6. Follow up once, then build relationships over time. Being a helpful source matters more than any single pitch.
+
+SOURCE LINKS:
+coinbound.io/crypto-pr/
+coinbound.io/crypto-pr-guide
+mexc.com/news/1080148
+dev.to/shilika
+everything-pr.com/how-to-pitch-crypto-media
+instantpress.co/blog/how-to-get-featured-in-crypto-publications
+everything-pr.com/tag/decrypt
+instantpress.co/blog/how-to-get-press-for-a-crypto-project
+adogy.com/

@@ -1,0 +1,177 @@
+PROMPT ID: B5 | PROMPT: How do you run a KOL marketing campaign for a Web3 protocol in 2026? | RUN: 1 | SURFACE: Perplexity (signed-in free plan, Incognito confirmed on page: "You're incognito", Search mode, default model) | CAPTURED: 2026-10-16 12:26 AM local (Perplexity timestamp)
+(Note: em dashes and en dashes in the original answer were replaced with hyphens in this file per the no-dash rule; Perplexity inline citation labels such as "formo +2" are left as captured.)
+
+ANSWER TEXT:
+Researched 1s
+
+Run it as a performance-marketing program, not a one-off "shoutout" buy: define an on-chain outcome, vet creators for audience quality and credibility, activate in coordinated waves around a product catalyst, and attribute wallets - not clicks - to each creator. In 2026, the strongest campaigns combine narrative credibility, disclosure, and wallet-level measurement.
+formo
++2
+
+1. Set one primary outcome
+
+Choose a single primary KPI tied to the protocol stage: funded wallets, first deposits, TVL, active users, governance participation, or 30-day retained wallets. Reach and impressions should remain secondary.
+luvkaizen
++1
+
+Example target: "Acquire 5,000 wallet-connected users from KOL traffic in 30 days, with at least 25% completing a first protocol transaction."
+wisebusinessplans
+
+2. Build a vetted creator roster
+
+Prioritize relevance and trust over follower count. A KOL should already speak credibly to your ideal user - DeFi traders, developers, gamers, or infrastructure builders - rather than merely having a large crypto audience.
+withgauge
++1
+
+Vet each creator on:
+
+Audience overlap with your ICP and recent 28-day native analytics, not follower totals.
+surgence
+
+Engagement authenticity, bot/fake-follower share, and audience geography.
+rzlt
+
+Prior sponsored-content performance and disclosure practices.
+withgauge
++1
+
+On-chain history and whether their past promotions produced holders or immediate dumps.
+formo
++1
+
+Category fit: a DeFi protocol needs different voices than an NFT, gaming, or infrastructure project.
+withgauge
+
+Use a tiered mix: a few high-credibility researchers or ecosystem figures, a larger mid-tier group for efficient reach, and micro/nano creators for conversion. If the goal is deposits or wallet activation, allocate most budget to nano, micro, and mid-tier creators.
+rzlt
++1
+
+3. Design a three-wave campaign
+
+Time the campaign around a real catalyst: testnet, mainnet, token launch, listing, major feature, or governance milestone.
+wisebusinessplans
+
+Wave | Timing | Purpose | Content
+Whisper / credibility | 2-3 days to weeks before launch | Establish the narrative with trusted specialists | Deep-dive threads, technical explainers, early access
+Tease / social proof | 1 week before launch | Expand awareness and build anticipation | Comparisons, AMAs, previews, mid-tier posts
+Shout / activation | Launch window | Convert attention into wallet actions | Tutorials, YouTube reviews, X threads, Telegram posts
+Sustain | 24 hours to 60-90 days after | Retain users and reinforce the story | Long-form analyses, podcasts, product updates, AMAs
+
+This sequencing prevents the launch from reading as a purely paid promotion: credible technical voices frame the product first, then broader creators amplify it.
+rzlt
++2
+
+4. Brief for authenticity and compliance
+
+Give creators the product thesis, key claims, risks, target action, and required disclosures - but let them explain it in their own voice. Scripted endorsements are quickly recognized by crypto audiences.
+luvkaizen
++1
+
+Every paid post should include:
+
+A clear sponsored-content disclosure appropriate to the relevant jurisdiction.
+omniagency
++1
+
+A unique tracked link, referral code, or claim URL.
+formo
++1
+
+One specific call to action, such as "connect your wallet," "deposit," or "join the testnet."
+rzlt
+
+Balanced risk language, especially for DeFi, token, or yield-related products.
+
+5. Instrument on-chain attribution before launch
+
+Set up tracking before the first post. Assign each KOL a unique UTM-tagged landing page or referral path; persist the source data through wallet connection; then monitor downstream on-chain activity.
+formo
++2
+
+Measure:
+
+Clicks and landing-page conversion.
+
+Wallet connections by creator.
+
+First transactions, deposits, swaps, mints, or other protocol actions.
+
+7-, 30-, and 60-day wallet retention.
+
+Cost per wallet and cost per activated wallet.
+
+TVL, volume, or holder retention from each creator cohort.
+luvkaizen
++2
+
+Tools commonly used include Dune, Nansen, Artemis, and wallet-cohort analysis; referral codes can also be routed through smart contracts for tamper-resistant attribution.
+rzlt
+
+6. Support traffic with community
+
+KOL traffic converts better when it lands in an active Discord or Telegram, with moderators who can answer technical questions and regular AMAs with the core team. Avoid inflated member counts; serious users notice.
+luvkaizen
++1
+
+Repurpose high-performing long-form collaborations - podcasts, interviews, AMAs - into 30-60 second clips for X, YouTube Shorts, TikTok, and other channels over the following weeks.
+omniagency
+
+7. Optimize in waves
+
+Run each wave for roughly two to four weeks, then review performance. Scale creators whose cost per activation beats target, re-brief or replace weak performers, and reallocate budget toward the best-performing regions and formats.
+rzlt
++1
+
+A practical kill/scale rule: if blended cost per activation remains more than 3x your planning target after two iterations, stop or fundamentally redesign the campaign.
+luvkaizen
+
+Common failure modes
+
+Buying reach instead of audience fit.
+withgauge
++1
+
+Treating a single post as a campaign rather than a multi-week sequence.
+formo
++1
+
+Measuring only impressions or follower growth instead of wallet behavior.
+wisebusinessplans
++1
+
+Launching before referral links, wallet attribution, and community support are ready.
+rzlt
+
+Skipping disclosure or making unsupported token-price claims.
+omniagency
++1
+
+The core formula is: credible niche creators + a clear product narrative + wave-based activation + on-chain attribution + active community support.
+formo
++2
+
+10 sources
+Sources (as displayed in the Sources panel):
+1. formo: Why KOL Campaigns Fail in DeFi: Key Metrics and ... - Formo
+2. omniagency: Web3 KOL Partnership Best Practices for Crypto Protocols (2026)
+3. rzlt: Crypto KOL Marketing: The 2026 Web3 Playbook - RZLT
+4. luvkaizen: Crypto KOL Marketing for Web3 Startups in 2026
+5. wisebusinessplans: Web3 KOL Marketing Strategy to Attract Investors
+6. withgauge: 4. Kol (key Opinion Leader)...
+7. surgence: Crypto KOL Meaning: Expert Guide to Key Opinion Leaders
+8. shilikajain: Web3 KOL Marketing 2026: 200+ Vetted Creators, FTC-Safe
+9. chainaware: Crypto Marketing: How to Promote Your Web3 Project ...
+10. linkedin: Crypto KOL Marketing: Partner with Credible Voices for Growth
+
+SOURCE LINKS:
+formo.so/blog/defi-kol-campaign-measurement
+omniagency.ca/blog/web3-kol-partnership-best-practices
+rzlt.io/blog/crypto-kol-marketing-web3-influencer
+luvkaizen.com/blogs/crypto-kol-marketing-strategy
+wisebusinessplans.com/blog/how-to-include-a-kol-marketing-strategy-in-your-web3-business-plan-to-attract-investors/
+withgauge.com/resources/top-marketing-channels-for-web3-and-crypto-companies-2026/
+surgence.io/blog/crypto-kol-meaning
+shilikajain.com/services/kol-marketing
+chainaware.ai/blog/web3-marketing-guide/
+linkedin.com/posts/blockchainappfactory_crypto-kol-marketing-guide-for-high-impact-activity-7477246985494745088-YUGv
+(Order above is the Sources-panel display order, mapped from the DOM link list; the raw DOM order from the capture script was: wisebusinessplans.com, surgence.io, rzlt.io, withgauge.com, omniagency.ca, luvkaizen.com, formo.so, shilikajain.com/services/kol-marketing, chainaware.ai, linkedin.com.)

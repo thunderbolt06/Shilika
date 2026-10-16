@@ -1,0 +1,34 @@
+PROMPT A5 | What is the best PR setup for a recently funded Web3 or AI startup with no media presence? | run 1 | surface: Google AI Mode (udm=50, gl=us, hl=en), tab 2114743020, signed-in Chrome profile (no private mode), fetched 2026-10-15
+
+ANSWER TEXT:
+The best PR setup for a newly funded Web3 or AI startup focuses on building a foundational narrative, targeting niche Web3/AI journalists, and leveraging owned communities before chasing major mainstream publications. Because you have no media presence, your primary goal is to establish credibility and capture the attention of investors, partners, and early adopters.
+Here is the ultimate PR blueprint for your startup, broken down by category:
+1. The Core Infrastructure (Owned Media)
+Before reaching out to any journalists, ensure your digital footprint looks legitimate.
+The Media Kit: Create a public Google Drive folder or Notion page containing your high-res logos, founder headshots, a 100-word company bio, and a product factsheet.
+Active Social Channels: Maintain active profiles on X (Twitter) and LinkedIn. For Web3, an active Discord or Telegram is non-negotiable.
+The Company Blog: Publish 2–3 deep-dive articles (e.g., a technical whitepaper summary or the vision behind your AI model) so journalists see you have substance.
+2. Crafting the Funding Announcement
+Your funding round is your highest-leverage hook. Do not waste it on a basic press release.
+The Hook: Do not just announce "We raised $X million." Frame it around the problem you are solving. For example: "How [Company] is using AI to solve Web3's smart contract vulnerability problem."
+The Exclusive Strategy: Offer the story to one major tech or niche outlet (e.g., TechCrunch, CoinDesk, The Block, or VentureBeat) under an embargo. Give them 3–5 days' notice to write the article before anyone else can publish it.
+The Wire Distribution: Once the exclusive article goes live, use a wire service like Chainwire (for Web3) or Newswire/PR Newswire (for AI/Tech) to syndicate the news globally.
+3. Essential PR Tool Stack
+You do not need an expensive agency immediately. You can run a lean setup using these tools:
+Media Database: Use Propel, Muck Rack, or Prowly to find contact information for journalists covering AI and Web3.
+Monitoring: Set up Google Alerts and Talkwalker for your company name, competitor names, and key industry keywords.
+Pitching: Use Mailshake or Buzzstream to send personalized, tracked email pitches to targeted reporters.
+4. Direct Comparison: In-House vs. PR Agency
+Depending on your remaining budget, you have two paths forward:
+Strategy Pros Cons Best For
+In-House Founder Led Zero agency fees; authentic voice; direct relationship with reporters. Highly time-consuming; steep learning curve for PR mechanics. Startups under $2M raised who need to move fast and lean.
+Boutique Web3/AI Agency Immediate access to warm journalist networks; handles all writing/pitching. Expensive ($5k–$15k/month retainer); risk of low-quality, template pitches. Startups with $2M+ raised looking for immediate, widespread coverage.
+To help tailor this blueprint, could you tell me:
+What is the approximate size of your funding round?
+Are you leaning more toward Web3 (crypto/blockchain) or AI (SaaS/deep tech) audiences?
+Do you plan to handle this in-house or hire outside help?
+
+NOTES: No source cards, no source chips and no "Show all" button rendered (13 per-paragraph "Related results" icon buttons existed in the DOM but no sources panel loaded). No PR firms or consultants are recommended (only a generic "Boutique Web3/AI Agency" tier plus software tools and wire services). The answer text never names Shilika Jain or shilikajain.com.
+
+SOURCE LINKS:
+(none displayed - the only non-Google links in the DOM were Google footer, policy and account links)

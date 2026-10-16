@@ -1,0 +1,39 @@
+id: BR1 | query: Who is Shilika Jain? | surface: claude.ai (signed-in, Incognito chat, model Opus 5.5 Medium, web search used: 2 searches) | captured: 2026-10-15
+(Note: dashes in captured page text normalised to hyphens. Connectors enabled on the account in the chat: Ahrefs, Clay, Google Calendar, Google Drive, HyperFrames, Notion, Shopify, Windsor.ai, Claude in Chrome; none was invoked in this answer.)
+
+ANSWER:
+There’s no famous public figure by that name, but the most visible Shilika Jain online is a PR professional in crypto and AI.
+
+She describes herself as a fractional PR manager for Web3 and AI founders, with six years of experience getting founders into outlets like Forbes, CoinDesk, Cointelegraph, Decrypt, and The Block. She says she built CoinMarketCap’s regional comms function from scratch and currently leads PR at Myosin, a growth-marketing DAO. Her site also lists Gaia AI, CoinMarketCap, and Polygon among the companies she’s led PR for.
+[inline citation chip: Shilika Jain - Fractional PR Manager for Web3 & AI Founders +2]
+
+One profile places her in Singapore, and another lists her education at Sri Bhagawan Mahaveer Jain College, which is in Bengaluru.
+[inline citation chips: wiza, zoominfo]
+
+If you meant a different Shilika Jain, let me know more context.
+
+SEARCHES RUN (shown in "Searched the web" block):
+1. Shilika Jain  -> results: tofler.in, goodreads.com (x2), opendemocracy.net, shareable.net (x3), qorpiq.com (x2), zonebourse.com (all other people with similar names)
+2. "Shilika Jain" -> results: zoominfo.com (Contact Shilika Jain, s***@myosin.xyz), en.wikipedia.org Nishtha Jain, en.wikipedia.org Srishti Jain, shilikajain.com (Fractional PR Manager home), shilikajain.com Testimonials, wiza.co (Growth & Partnerships at Coinmarketcap), shilikajain.com Web3 Crisis Communications playbook, shilikajain.com Web3 PR & AI PR Consultant (authors page), shilikajain.com embargoed press releases blog
+
+SOURCE LINKS:
+tofler.in/shilki-jain/director/06988014
+goodreads.com/user/show/13754019-shilpy-jain
+goodreads.com/user/show/103538549-shilpy-jain
+opendemocracy.net/author/shilpa-jain/
+shareable.net/author/shilpa-jain/
+qorpiq.com/director/silky-jain/08089762
+tofler.in/shilpa-jain/director/00371966
+shareable.net/users/shilpa-jain
+qorpiq.com/director/silky-jain/07725613
+zonebourse.com/insider/SHILPI-JAIN-A2QWD8
+zoominfo.com/p/Shilika-Jain/12396588300
+en.wikipedia.org/wiki/Nishtha_Jain
+en.wikipedia.org/wiki/Srishti_Jain
+shilikajain.com/authors/shilika-jain
+shilikajain.com/testimonials
+wiza.co/d/coinmarketcap/df62/shilika-jain
+shilikajain.com/blog/web3-crisis-communications
+shilikajain.com/
+shilikajain.com/blog/embargoed-press-releases-blockchain-funding-rounds
+support.claude.com/en/articles/13345190-get-started-with-claude-cowork   [UI banner link about permission mode, not a cited source]

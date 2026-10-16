@@ -1,0 +1,56 @@
+PROMPT ID: B5 | RUN: 1 | SURFACE: Gemini (gemini.google.com, signed-in Plus account, Temporary chat, default model Flash) | DATE: 2026-10-16
+PROMPT: How do you run a KOL marketing campaign for a Web3 protocol in 2026?
+NOTE: Attempt 1 (brand-new temporary chat) returned "I'm having a hard time fulfilling your request. Can I help you with something else instead?" with no answer. This file is attempt 2, also a brand-new temporary chat. Temporary Chat label confirmed at top of conversation. Inline citation chips are shown in brackets after the sentence they follow, as rendered by Gemini.
+
+ANSWER:
+In 2026, Web3 Key Opinion Leader (KOL) marketing has evolved from chaotic, "shill-and-dump" influencer blasts into a data-driven, heavily regulated, multi-platform acquisition channel. Projects no longer buy impression counts; they invest in technical narratives, on-chain conversions, and multi-tiered creator networks. [chips: Lever.io + 1]
+
+Executing a successful Web3 KOL campaign requires a structured, multi-phase framework.
+
+Phase 1: On-Chain & Technical Creator Vetting
+Before reaching out, audit creators rigorously to filter out bot networks and mercenary influencers. [chip: Shilika Jain]
+- On-Chain Credibility: Use wallet analytics platforms (e.g., Nansen, ChainAware) to cross-check the KOL's actual wallet history. A DeFi influencer whose wallet lacks active liquidity provision or smart contract interactions won't convert technical users. [chip: ChainAware.ai]
+- View Velocity & Conversion Data: Prioritize creators who drive impressions beyond their immediate follower echo chamber. Track comment-to-impression ratios and filter out low-quality or bot-generated noise. [chip: Lever.io]
+- Platform Specialization: Map creators according to ecosystem niches (e.g., Solana-native DeFi, Base consumer apps, modular zero-knowledge tooling). [chip: Lever.io]
+
+Phase 2: The Four-Tier Influence Strategy
+Deploying creators across multiple tiers ensures broad top-of-funnel reach while sustaining deep-funnel conversions. [chip: Disence]
+(ASCII pyramid) Tier 1: Macro KOLs (500K+) - Role: Mass awareness, TGE/Launch anchors | Tier 2: Mid-Tier / Micro KOLs (10K-100K) - Role: Technical breakdown, niche trust, L2/DeFi | Tier 3: Nano KOLs (<10K) - Role: Community conversion, high engagement | Tier 4: Key Opinion Consumers (KOCs) / Users - Role: On-chain social proof, referral loops
+Creator Tier | Audience | Primary Purpose | Best Content Formats
+Macro KOLs | 500K+ followers | Category positioning & global news broadcast | YouTube long-form, Keynote AMAs, Podcast appearances
+Micro KOLs | 10K-100K followers | Domain trust & technical storytelling | Long-form X/Twitter threads, Substack deep-dives, GitHub code walk-throughs
+Nano KOLs | Under 10K followers | High-conversion peer recommendations | Direct community chats, short video breakdowns, Telegram/Discord highlights
+KOCs & Power Users | Active Community | On-chain social proof & viral advocacy | Quest participation (Zealy/Galxe), product reviews, referral sharing
+
+Phase 3: Campaign Execution & Wave Sequencing
+For major protocol milestones (TGE, Mainnet launch, V2 rollouts), organize creator activations into three distinct time windows:
+(ASCII diagram) Wave 1 (T-72h to T-24h) Credibility Anchors: Technical threads, podcast teasers -> Wave 2 (T+0 to T+8h) Broad Multi-Platform Activation: 40-120 coordinated posts -> Wave 3 (T+24h to T+7d) Sustained Deep-Dives: YouTube analyses, ecosystem breakdowns
+- Wave 1 - Credibility Anchors (T-72h to T-24h): Activate 3 to 5 highly respected technical voices to publish embargoed research threads or podcasts. This establishes legitimate narrative authority.
+- Wave 2 - Broad Activation (T+0 to T+8h): Coordinate 40 to 120 Micro and Nano KOLs across X, Telegram, and TikTok within an 8-hour window to dominate social volume during launch.
+- Wave 3 - Sustained Retention (T+24h to T+7d): Follow up with long-form YouTube walk-throughs, AMAs, and educational tutorials to convert casual impressions into active wallet connections.
+
+Phase 4: Compliance & Incentive Structuring
+- Regulatory Compliance: Every brief must mandate strict disclosure tags (e.g., #ad, #sponsored, or explicit token allocation disclosures) compliant with FTC, SEC, or regional regulations. [chip: Shilika Jain]
+- Hybrid Compensation Models: Avoid paying 100% upfront in USDC/USDT. Structure deals with performance incentives: [chip: Lever.io]
+  - Base Fee: 40%-50% in stablecoins.
+  - Performance/Conversion Bonus: Tiered bonuses tied to referral wallet activity, protocol TVL, or active user benchmarks.
+  - Vested Token Allocations: Long-term creator alignment using token grants subject to standard cliff and vesting schedules.
+
+Phase 5: Measurement & On-Chain Attribution
+Shift your core KPIs away from vanity metrics (likes, retweets) and measure real on-chain conversion:
+- Wallet Rank & Quality Score: Monitor whether incoming wallets from KOL referral links represent experienced, high-intent Web3 users or sybil bots. [chip: ChainAware.ai]
+- On-Chain Funnel Metrics: Measure unique wallet connects, contract interactions, liquidity provided, or transaction volume attributed to custom referral codes or tracked landing pages.
+- Customer Acquisition Cost (CAC) per Active Wallet: Total KOL spend divided by the number of retained, active wallets over a 30-day window.
+
+Where would you like to focus next?
+[suggestion chips] Draft a KOL Brief & Campaign Guidelines Document | Calculate Campaign Budget & Tier Allocations
+
+(Footer: Flash | Gemini is AI and can make mistakes.)
+
+NOTES: The answer prose never names "Shilika Jain" or shilikajain.com. The only occurrences are two inline citation-chip labels reading "Shilika Jain" (after the Phase 1 vetting sentence and the Phase 4 compliance bullet). The View sources panel lists 7 entries: Lever.io x4 ("Web3 KOL Marketing Strategy in 2026: Top Tips f..."), Shilika Jain x1 (title "Web3 KOL Marketing 2026: 200+ Vetted Creators...", snippet "Every named KOL runs through a five-input audit before contract - engagement quality, bot share, audience geo..."), ChainAware.ai x1 ("How to Promote Your Web3 Project Successfully..."), Disence x1 ("Crypto KOL Marketing in 2026: Strategy Tips -..."). No agencies or consultants are recommended by name (Nansen and ChainAware are named as wallet analytics tools).
+
+SOURCE LINKS:
+news.lever.io/web3-kol-marketing-strategy-2026/
+shilikajain.com/services/kol-marketing
+chainaware.ai/blog/web3-marketing-guide/
+disence.com/articles/crypto-kol-marketing-in-2026-strategy-tips

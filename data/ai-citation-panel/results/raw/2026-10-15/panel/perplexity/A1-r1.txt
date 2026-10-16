@@ -1,0 +1,51 @@
+PROMPT A1 | What is fractional PR for Web3 founders and how does it differ from a traditional PR agency? | run 1 | surface: Perplexity (signed-in, Incognito ON, Search mode, default model, free plan)
+
+Fractional PR for Web3 founders is a part-time, senior communications lead who owns your PR function - positioning, media strategy, journalist outreach, founder prep, and launch communications - without hiring a full-time comms executive or paying for a full agency account team. It is essentially a "fractional head of communications" embedded directly with the founder. [inline citation chip: shilikajain +1]
+
+How it works
+
+A fractional PR operator typically works on a monthly retainer for a defined number of hours or days, and handles the strategic and senior-execution layer of PR:
+- Develops the project's narrative and messaging hierarchy.
+- Builds and manages journalist relationships across crypto-native and mainstream outlets.
+- Pitches stories, coordinates embargoes, and manages launch timing around events such as funding rounds, mainnet launches, listings, TGEs, or partnerships.
+- Prepares founders for interviews and hostile or skeptical crypto-press questions.
+- Advises on reactive communications around FUD, community allegations, or regulatory news.
+- Tracks coverage quality, share of voice, and increasingly AI-search visibility - not merely press-release distribution. [chip: shilikajain +1]
+
+The key distinction from a freelancer is ownership: a freelancer may write one release or pitch one story, whereas a fractional operator owns the communications function and its outcomes over time. [chip: shilikajain +1]
+
+Fractional PR vs. agency (table; every cell carries a chip "shilikajain +1" or "+2")
+Dimension | Fractional PR | Traditional Web3 PR agency
+Team structure | One senior operator working directly with the founder. | A multi-person account team, often including account executives, managers, and directors.
+Founder access | Direct, continuous access to the person doing the work. | Founder time is often filtered through account layers; senior staff may appear mainly for major briefings.
+Typical cost | Often about $3,000-$7,000 per month for steady-state work; launch sprints can run higher. | Commonly $15,000-$60,000+ per month, depending on seniority, scope, and market coverage.
+Bandwidth | Limited to a small number of concurrent clients and workstreams. | Greater capacity for parallel launches, multiple regions, and crisis "war rooms."
+Best fit | Founder-led, pre-Series B teams with real news but no in-house comms lead. | Companies needing high execution volume, multi-market coverage, or a larger standing team.
+Accountability | Usually tied to named coverage and strategic outcomes rather than billable hours. | Often structured around retainer scope, activity, and team capacity.
+
+Why Web3 founders use it
+
+Web3 PR has particular demands: crypto-native media relationships, credible founder narratives, timing around token or protocol milestones, community trust, and messaging that avoids unnecessary regulatory or market-risk exposure. A fractional operator can provide senior judgment on those issues while keeping the founder closely involved, which is often valuable before a company has enough sustained news flow to justify a full agency retainer. [chip: shilikajain +2]
+
+When an agency is better
+
+Choose an agency when the bottleneck is bandwidth rather than seniority - for example, simultaneous launches across several regions, a large TGE campaign, daily newsroom operations, or a crisis requiring multiple people working in parallel. Fractional PR works best when the founder can commit time, the company has genuine news moments, and in-house or contract support can handle downstream execution such as publishing, scheduling, community coordination, and asset production. [chip: shilikajain +1]
+
+In short: fractional PR buys you a senior operator and direct founder access at a lower cost; a traditional agency buys you a larger execution machine and more parallel capacity. [chip: shilikajain +1]
+
+(Related-question suggestions shown by UI: What does a fractional PR retainer typically cost for a Web3 startup / How do I know if my Web3 project is ready for fractional PR versus an agency / What are the red flags to watch out for when hiring a fractional PR operator)
+(Panel header: "Researched 1s", "10 sources")
+
+NOTE: The answer prose names no provider or firm. It never writes "Shilika Jain" or "shilikajain.com" in a sentence; the only textual trace is the inline citation chip labelled "shilikajain" (+N) attached to almost every paragraph/table cell, and 8 of the 10 source links are shilikajain.com pages.
+
+SOURCE LINKS:
+shilikajain.com/glossary/what-is-fractional-pr
+shilikajain.com/blog/fractional-pr-web3-crypto-cost-scope-hire-vs-agency
+shilikajain.com/services/web3-pr-campaigns
+shilikajain.com/playbook/fractional-vs-agency
+shilikajain.com/faq
+shilikajain.com/playbook/crypto-pr-cost-2026
+shilikajain.com/playbook/best-web3-pr-agencies-2026
+shilikajain.com/
+luvkaizen.com/solutions/best-web3-pr-agencies-2026
+coinbound.io/what-does-a-web3-marketing-agency-do-services-explained/

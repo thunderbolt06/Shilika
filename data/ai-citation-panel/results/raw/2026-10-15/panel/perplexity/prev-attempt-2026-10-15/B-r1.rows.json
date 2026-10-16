@@ -1,0 +1,72 @@
+[
+  {
+    "id": "B1",
+    "ok": true,
+    "shilika_in_body": true,
+    "shilika_in_sources": true,
+    "shilika_position": 0,
+    "shilika_urls": ["shilikajain.com/playbook/best-web3-pr-agencies-2026"],
+    "shilika_quote": "One example surfaced in 2026 coverage is Shilika Jain, an APAC-native consultant working across AI and Web3, offering founder-direct senior support at a reported $3,000-$7,000 monthly range.",
+    "entities_listed": 19,
+    "competitors": ["MarketAcross", "Wachsman", "YAP Global", "FINPR", "Melrose PR", "EAK Digital", "ReBlonde", "Coinbound", "Lunar Strategy", "AP Collective", "TokenMinds", "Luna PR", "Cryptic", "Serotonin", "AWISEE", "GuerrillaBuzz", "Coinpresso", "High Vibe PR"],
+    "source_domains": ["eakdigital.com", "apcollective.io", "shilikajain.com", "icoda.io", "otrenix.com", "revenuebase.ai", "highvibepr.com", "coinbound.io", "techbullion.com", "lunarstrategy.com"],
+    "web_search_used": true,
+    "answer_summary": "Lists 18 agencies (MarketAcross, Wachsman, YAP Global lead). Shilika named once as a consultant example in a separate section, 19th by order of appearance, no ranked list so position 0. Her playbook is source 3 of 10."
+  },
+  {
+    "id": "B2",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": true,
+    "shilika_position": 0,
+    "shilika_urls": ["shilikajain.com/playbook/get-featured-coindesk-2026", "shilikajain.com/playbook/coindesk-vs-cointelegraph-where-to-pitch-2026", "shilikajain.com/playbook/how-to-get-featured-in-decrypt-2026", "shilikajain.com/"],
+    "shilika_quote": "",
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": ["shilikajain.com", "apcollective.io", "quickshock.io", "obapr.com", "instantpress.co", "chainbull.net", "omniagency.ca"],
+    "web_search_used": true,
+    "answer_summary": "Pitch a dated, data-backed story to a beat-matched reporter; per-outlet fit table, embargo and exclusivity sequencing. No firms recommended. Shilika not named in prose, but 4 of 10 sources and many citation chips are shilikajain.com."
+  },
+  {
+    "id": "B3",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": true,
+    "shilika_position": 0,
+    "shilika_urls": ["shilikajain.com/services/token-launch-pr", "shilikajain.com/playbook/pre-token-launch-pr-checklist"],
+    "shilika_quote": "",
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": ["shilikajain.com", "crypticweb3.com", "coingabbar.com", "geniuspr.com", "apcollective.io", "cryptotrafficmarket.com", "linkedin.com", "coinbound.io", "luminaclippers.com"],
+    "web_search_used": true,
+    "answer_summary": "6-12 week sequenced TGE campaign: narrative, pre-TGE seeding, embargoed launch wave, 30-90 day sustain. No firms recommended. Shilika not named in prose; her 2 pages are sources 1 and 2 of 10 and cited in many chips."
+  },
+  {
+    "id": "B4",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_position": 0,
+    "shilika_urls": [],
+    "shilika_quote": "",
+    "entities_listed": 14,
+    "competitors": ["Cryptic", "Coinband", "Lunar Strategy", "Omni Agency", "ICODA", "TokenMinds", "Serotonin", "FINPR", "Outset PR", "Wachsman", "Luna PR", "Token Agency", "AP Collective", "Crowdcreate"],
+    "source_domains": ["techbullion.com", "linkedin.com", "icoda.io", "mexc.com", "apcollective.io", "financefeeds.com", "worldbusinessoutlook.com", "salientpr.com"],
+    "web_search_used": true,
+    "answer_summary": "Table of 8 pre-TGE specialists (Cryptic, Coinband, Lunar Strategy, Omni, ICODA, TokenMinds, Serotonin, FINPR) plus 6 others. Shilika Jain not mentioned and no shilikajain.com source cited."
+  },
+  {
+    "id": "B5",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": true,
+    "shilika_position": 0,
+    "shilika_urls": ["shilikajain.com/services/kol-marketing"],
+    "shilika_quote": "",
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": ["formo.so", "rzlt.io", "surgence.io", "withgauge.com", "omniagency.ca", "shilikajain.com", "luvkaizen.com", "coinbound.io", "linkedin.com", "chainaware.ai"],
+    "web_search_used": true,
+    "answer_summary": "Multi-wave KOL program: one outcome KPI, vet creators, tiered roster, 4-phase waves, disclosure, on-chain attribution, 2-4 week optimisation. No firms recommended. Shilika is only source 6 of 10, not in the text."
+  }
+]

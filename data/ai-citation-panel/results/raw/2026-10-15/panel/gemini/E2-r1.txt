@@ -1,0 +1,58 @@
+PROMPT E2 | Who runs crypto PR in Japan in 2026 and what does it cost to hire them? | run 1 | surface: Gemini (gemini.google.com, Temporary chat, default model Flash, account shows Plus plan)
+
+Executing Web3 and crypto Public Relations (PR) in Japan requires navigating a distinct landscape. Because mainstream Japanese media enforces strict regulatory compliance aligned with the Financial Services Agency (FSA), domestic crypto communications rely heavily on localized channels, specialized Web3 agencies, and regional media partnerships.
+[source chip: Shilika Jain]
+
+1. Key Players: Who Runs Crypto PR in Japan
+
+Crypto PR in Japan is split between domestic media/agency powerhouses, regional APAC growth networks, and global communications firms with local Tokyo desks.
+[source chip: Shilika Jain]
+
+Domestic Web3 Media & PR Hubs
+
+CoinPost (and WebX): CoinPost is the largest crypto-native media platform in Japan. Beyond media, its corporate arm manages major industry gatherings (such as WebX) and executes localized PR, corporate narrative building, and media partnerships for foreign projects entering Japan.
+[source chip: test55.cryptojournal.jp]
+
+CryptoTimes (Nevula Co., Ltd.): One of Japan's leading Web3 media and consulting firms. They offer media distribution, community building, localized content creation, and Key Opinion Leader (KOL) management.
+[source chip: test55.cryptojournal.jp + 1 (second source: ChainPeak)]
+
+Iolite & Cointelegraph Japan: Key Tier-1 native outlets that offer direct PR release syndication, sponsored editorials, and executive interview features.
+
+Regional APAC & Specialized Agencies
+
+ChainPeak / AP Collective: Regional APAC growth agencies that specialize in cross-border Web3 expansions. They coordinate Japanese PR (CoinPost, CryptoTimes, Yahoo! Japan), X (Twitter) community building, and local KOL campaigns under localized contracts.
+[source chip: Lunar Strategy]
+
+Surgence Labs / MarketAcross: Global Web3 PR powerhouses with dedicated Asian desks that handle single-market launches or multi-country APAC campaigns.
+
+Traditional Japanese PR Agencies with Web3 Desks
+
+Kyodo PR & PR Times: PR Times is the dominant press release distribution platform in Japan, while Kyodo PR provides dedicated strategic advisory. Foreign projects entering Japan frequently use PR Times for official press releases to reach mainstream business media like Nikkei, Yahoo! Japan, and ITmedia.
+
+2. Cost to Hire Crypto PR in Japan
+
+PR in Asian markets-and Japan in particular-is priced per-market rather than bundled into generic global retainers.
+[source chip: Shilika Jain (popup title: "How Much Does Crypto PR Cost in 2026? Honest...", snippet: "How does APAC crypto PR pricing differ from Western markets? APAC PR is sold per-market, not as a bundle.")]
+
+Cost Breakdown by Engagement Model
+Engagement Type | Typical Monthly / Campaign Cost | Deliverables & Scope
+Japanese Market-Entry Sprint (6-8 weeks) | $7,000 - $15,000 (one-time fee) | 3-5 earned/sponsored placements in Tier-1 Japanese outlets (CoinPost, CryptoTimes, Cointelegraph JP), translated press releases, and localized pitching.
+Boutique Agency / Local Retainer | $7,000 - $12,000 / month | Ongoing Japanese media relations, pitch placement, localized X (Twitter) PR, and regional media monitoring.
+Full-Scale APAC Growth Agency | $15,000 - $30,000 / month | Japanese PR combined with local KOL/influencer activation, Japanese community management, and event PR support.
+Wire & Paid Distribution Only | $1,500 - $5,000 per launch | Direct placement via wire partners (e.g., PR Times Japan or syndicated crypto publication spots).
+
+3. What Makes Japanese Crypto PR Unique?
+
+X (Twitter) and Local Media Dominance: Japanese crypto audiences rely heavily on X (Twitter) and dedicated native publications rather than Discord, Telegram, or Western outlets. Effective PR agencies combine press releases with localized X campaigns.
+
+Translation & Localization is Mandatory: Direct English-to-Japanese press release translations perform poorly. Successful PR teams re-architect narratives to fit Japanese business etiquette and regulatory expectations.
+
+FSA Regulatory Sensitivity: Local outlets will not publish campaigns promoting unregistered exchanges or dubious token sales. Japanese PR firms ensure messaging complies with FSA rules.
+
+NOTE (coder): the prose never names Shilika Jain as a provider; "Shilika Jain" appears only as the label of three inline source chips, all resolving to shilikajain.com/playbook/crypto-pr-cost-2026.
+
+SOURCE LINKS:
+shilikajain.com/playbook/crypto-pr-cost-2026
+test55.cryptojournal.jp/event/14284/
+chainpeak.io/blog/best-web3-pr-agencies-2026/
+lunarstrategy.com/article/best-web3-crypto-pr-agencies

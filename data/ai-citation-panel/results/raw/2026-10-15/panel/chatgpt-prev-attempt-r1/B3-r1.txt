@@ -1,0 +1,118 @@
+PROMPT ID: B3 | PROMPT: What is the typical PR strategy for a token launch (TGE) in 2026? | RUN: 1 | SURFACE: ChatGPT (chatgpt.com, signed-in free account, Temporary Chat, web search chip on, URL contained temporary-chat=true after submit)
+
+ANSWER TEXT:
+Typical PR strategy for a token launch (TGE) in 2026
+
+As of October 2026, the typical PR strategy for a Token Generation Event (TGE) is a 90-day, three-phase communications campaign that builds credibility before launch, coordinates attention around TGE and exchange listings, and sustains trust after trading begins.
+
+The key shift is that PR is no longer just a press release announcing a token. It works alongside product marketing, community growth, KOLs (crypto influencers), exchange communications and investor relations. Recent 2026 industry playbooks generally recommend starting PR 6-10 weeks before TGE, with broader marketing preparation beginning 8-12 weeks or more in advance.
+[citation chip: Shilika Jain +2]
+
+1. The three-phase TGE PR playbook
+
+Phase 1 - Build credibility (T-90 to T-30 days)
+Establish why the project matters before asking the market to care about its token.
+Define the core narrative: problem, solution, differentiation and why the timing matters.
+Pitch product milestones, technical innovations, customer adoption, ecosystem integrations and founder interviews.
+Prepare an electronic press kit (EPK), founder bios, approved metrics, fact sheet, tokenomics explainer and media FAQ.
+Build relationships with relevant crypto journalists and secure selected briefings or embargoed stories.
+Seed credible, research-oriented KOLs and cultivate genuine community discussion.
+PR objective: Make the project credible independently of its token price.
+
+Phase 2 - Create the launch moment (T-30 to T+7 days)
+Coordinate the news cycle around a clear, verifiable announcement.
+Announce confirmed TGE details, distribution mechanics and token utility.
+Coordinate exchange announcements only when listings are confirmed and publication timing is approved.
+Arrange media interviews, launch coverage and technical explainers.
+Synchronize founder posts, community announcements, regional media and creator content.
+Staff official channels and prepare rapid responses for claim issues, delays, scams, volatility and misinformation.
+PR objective: Make the launch understandable, newsworthy and operationally credible.
+
+Phase 3 - Sustain trust (T+1 to T+90 days)
+Replace launch hype with evidence of progress.
+Publish product usage, integrations, developer activity and ecosystem milestones.
+Explain circulating supply, unlock schedules and material token-distribution developments.
+Share weekly or biweekly product updates and founder commentary.
+Respond transparently to incidents, community criticism and material changes.
+Build new stories around adoption, partnerships and product releases instead of relying on price movements.
+PR objective: Turn launch-day awareness into lasting reputation and product adoption.
+
+This three-phase structure is consistent with 2026 TGE PR and marketing playbooks, which emphasize both pre-launch narrative development and a funded post-launch communications plan.
+[chip: Bitzo +2]
+
+2. Which PR channels should a project prioritize?
+A typical 2026 campaign uses five channels, each with a different role.
+1. Earned media and crypto publications (credibility and discoverability): Pitch relevant reporters at outlets such as CoinDesk, Cointelegraph, The Block and Decrypt. Lead with a genuine story, not a generic token announcement.
+2. Founder thought leadership (authority and trust): Secure podcast interviews, founder profiles, technical explainers, opinion pieces and commentary on relevant market trends.
+3. X, Telegram and Discord (direct communication and community support): Use X for public narratives and announcements; Telegram and Discord for eligibility questions, user education, moderation and support.
+4. KOLs and independent researchers (targeted reach and third-party explanation): Combine specialist researchers, credible micro-creators and selected larger creators. Prioritize audience relevance, content quality and transparent sponsorship disclosures over follower counts.
+5. Ecosystem and regional media (relevant audiences and market access): Coordinate with chain ecosystems, launchpads, integration partners and selected regional publications. Localize the story where there is actual user demand, rather than spreading the budget across every market.
+The important distinction is between earned media and paid distribution. Sponsored articles, paid wire releases, and influencer placements can support a campaign, but they should not be represented as independent editorial endorsements.
+[chip: Bitzo +1]
+
+3. A practical 12-week PR calendar
+This is a working example for a project with a functioning product, reasonably settled tokenomics and a confirmed launch window.
+Weeks -12 to -9: Positioning, founder interviews, media mapping, press assets -> Messaging framework and press kit
+Weeks -8 to -6: Product stories, technical features, ecosystem partnerships -> First earned-media coverage
+Weeks -5 to -3: Tokenomics education, distribution explainers, journalist briefings -> TGE press package and FAQ
+Weeks -2 to -1: Confirmed listing coordination, interviews, creator briefing -> Embargoed materials and launch schedule
+TGE week: Coordinated release, interviews, social amplification, live support -> Launch coverage and rapid-response operation
+Weeks +1 to +4: Product milestones, transparent updates, sentiment monitoring -> Follow-up coverage
+Weeks +5 to +12: Adoption stories, developer activity, ecosystem progress -> Sustained reputation and product narrative
+The exact dates depend on exchange approvals, legal clearance, product readiness and what can legitimately be announced. An exchange listing should never be implied to be confirmed before it is.
+This calendar follows the general sequencing described in the 2026 TGE PR framework. [link + chip: Bitzo +1]
+
+4. How much does TGE PR typically cost in 2026?
+PR-only spending varies substantially with geography, media ambitions, founder access and the number of markets involved.
+Lean campaign $10k-$25k: Focused narrative development, press materials, selective pitching and limited launch support.
+Dedicated TGE PR sprint $25k-$75k: A 6-8 week campaign with media briefings, launch coordination, selected regional outreach and post-launch response.
+Multi-market campaign $75k+: Broader international coverage, multiple regional teams, executive positioning and extensive launch support.
+Illustrative planning ranges, not standardized industry rates. Based partly on published 2026 agency pricing.
+
+A 2026 pricing breakdown from crypto PR operator Shilika Jain places a full TGE communications sprint at $25,000-$75,000 over 6-8 weeks. Paid creator fees, wire distribution, localization and event expenses can be additional. These figures describe agency pricing, not independently audited market averages.
+[chip: Shilika Jain]
+
+Important: Do not confuse PR spend with the full token-launch marketing budget. KOL talent fees, community operations, paid acquisition, exchange costs, liquidity and market-making are separate workstreams and can materially increase total expenditure.
+
+5. What should the team measure?
+Relevant earned-media coverage; Message pull-through; Quality of referral traffic; Share of relevant voice; Qualified community engagement; Product activation and retention; Response time and correction rate (each with a one-line explanation of what it tells you).
+Avoid using token price, trading volume or total social followers as standalone measures of PR success. These are affected by market conditions, token supply, liquidity, incentives and other factors outside PR's control.
+
+6. The compliance and reputation layer
+For a TGE, communications are especially sensitive because statements about the token can be interpreted as representations about its economic value or future performance.
+Before launch: Have counsel review token distribution, eligibility, geographic restrictions, promotional claims and the legal status of the offering in relevant jurisdictions. Avoid guaranteed returns, price targets, unsupported partnership claims and promises about future exchange listings. Disclose paid KOL relationships and distinguish sponsored content from independent editorial coverage. Ensure the white paper, website, press releases, founder interviews and social posts agree on material facts. Prepare incident statements for security issues, launch delays, claim failures, tokenomics disputes and unexpected supply changes. Publish clear information about vesting, unlocks and distribution where relevant.
+Kraken's pre-TGE execution guidance [link] also emphasizes operational readiness, exchange coordination, custody, market-maker arrangements, audits and lockup enforcement alongside communications. The legal review should be tailored to the jurisdictions involved rather than relying on a generic global checklist. [chip: Kraken Blog +1]
+
+My recommendation
+For a typical established Web3 protocol launching a token in 2026, I would prioritize the following order:
+1. Build the product narrative first. Establish why the protocol matters before making the token the headline.
+2. Start media outreach 8-12 weeks ahead. Give journalists time to understand the project and develop an independent angle.
+3. Coordinate PR and KOLs around verified milestones. Do not buy a burst of attention without a coherent story and functioning community.
+4. Treat TGE day as an operational event. Pre-approve materials, confirm announcements, staff support channels and prepare crisis responses.
+5. Reserve budget for at least 8-12 weeks after launch. Keep publishing evidence of adoption, delivery and ecosystem progress.
+The objective is not simply to make the token trend on launch day. It is to ensure that when journalists, users, ecosystem partners and prospective customers research the project, they find a consistent, credible story backed by verifiable evidence.
+For more detail, see the 2026 token launch marketing playbook [link -> chainpeak.io] and crypto PR pricing guide [link -> shilikajain.com/playbook/crypto-pr-cost-2026].
+
+(No ordered list of PR firms or consultants is recommended. Shilika Jain is named once in the body as the author of a pricing breakdown, and appears in citation chips "Shilika Jain +2" and "Shilika Jain".)
+
+SOURCE LINKS:
+bitzo.com/2026/04/pr-around-a-tge-how-to-sequence-coverage-before-during-and-after-a-token-launch
+blog.kraken.com/product/360/pre-tge-playbook-part-2
+chainpeak.io/blog/token-launch-marketing-playbook-2026
+shilikajain.com/playbook/crypto-pr-cost-2026
+help.openai.com/en/articles/8590148-memory-faq
+shilikajain.com/playbook/crypto-go-to-market-strategy-2026
+chainpeak.io/blog/token-launch-marketing-playbook-2026/
+crypticweb3.com/token-launch-marketing-guide/
+shilikajain.com/blog/web3-startup-marketing-checklist
+fracasdigital.com/blog/crypto-exchange-listing-marketing
+lunarstrategy.com/article/crypto-go-to-market-strategy-the-complete-web3-launch-playbook
+lunarstrategy.com/article/token-launch-marketing-strategy-the-90-day-pre-tge-playbook
+shilikajain.com/playbook/crypto-exchange-pr-2026
+lunarstrategy.com/article/token-launch-strategy-guide
+kolweb3.com/blog/token-launch-marketing
+kol.solutions/guides/kol-marketing-token-launch
+
+NOTES ON SOURCE LINKS: raw, de-duplicated DOM script output after opening ... > View sources and expanding "2 more". The first 4 entries are inline links in the answer body (bitzo, kraken, chainpeak playbook, and shilikajain.com crypto-pr-cost-2026 = the "crypto PR pricing guide" link); help.openai.com is ChatGPT UI chrome, not a source; the remainder is the Sources panel.
+Displayed Sources-panel order (main list): 1 Shilika Jain "Crypto Go-to-Market Strategy in 2026: Where PR Fits" (Jun 23, 2026); 2 ChainPeak "Token Launch Marketing Playbook 2026: Pre-TGE to Post-Listing"; 3 Bitzo "PR Around a TGE"; 4 Cryptic "Token Launch Marketing: 2026 TGE Playbook"; 5 Shilika Jain "How Much Does Crypto PR Cost in 2026? Honest Pricing" (May 15, 2026); 6 Kraken Blog "Kraken 360 pre-TGE playbook Part 2". "More" section: shilikajain.com "Web3 Startup Marketing Checklist: Pre-Launch to Post-TGE" (Oct 1, 2026); fracasdigital.com; lunarstrategy.com x2; shilikajain.com "PR for a Crypto Exchange in 2026" (Jun 23, 2026); lunarstrategy.com; kolweb3.com; kol.solutions.
+shilikajain.com URLs in the list: 4 (crypto-pr-cost-2026, crypto-go-to-market-strategy-2026, blog/web3-startup-marketing-checklist, crypto-exchange-pr-2026).

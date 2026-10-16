@@ -1,0 +1,132 @@
+PROMPT C2 | How does AI startup PR differ from crypto PR, and what makes the playbooks different? | run 1 | surface ChatGPT (chatgpt.com, signed-in free account, Temporary Chat, web search hint on) | captured 2026-10-15 | URL had temporary-chat=true | note: en/em dashes in the answer text were normalized to hyphens when saving
+
+ANSWER TEXT:
+AI startup PR vs. crypto PR: different products, different playbooks
+
+The biggest difference is what each industry needs to convince people of.
+
+AI startup PR sells a credible vision of the future. Crypto PR must establish credibility in a market where trust itself is often the product.
+
+Both compete for attention, investors, customers, and talent. But they face different audience expectations, reputational risks, and definitions of a successful story.
+
+The practical implication: AI PR is often built around utility, innovation, and adoption; crypto PR is often built around trust, legitimacy, community, and market credibility.
+
+1. The fundamental differences (table: Dimension | AI startup PR | Crypto PR)
+Core narrative | What becomes possible with this technology? | Why should anyone trust this project, protocol, or asset?
+Primary proof | Product performance, customer outcomes, benchmarks, adoption | Security, audits, decentralization claims, token mechanics, governance, usage
+Key audiences | Enterprise buyers, developers, investors, employees, regulators | Token holders, traders, developers, exchanges, investors, regulators
+Media targets | Technology, business, industry verticals, enterprise press | Crypto-native media, financial press, blockchain publications, mainstream business press
+News hooks | Product launches, customer wins, research, funding, measurable productivity gains | Protocol launches, token events, integrations, governance votes, audits, funding
+Reputation risk | Hype, exaggerated capabilities, privacy, bias, job displacement | Scams, hacks, token manipulation, insider selling, regulatory uncertainty
+Community strategy | Customers, developers, researchers, industry partners | Often a central operating function: holders, contributors, validators, ecosystem communities
+Success metrics | Qualified pipeline, customer adoption, share of voice, credibility | Community quality, developer activity, ecosystem adoption, trust, and sometimes market-sensitive sentiment
+
+These are tendencies, not absolutes. An AI infrastructure company may need deep technical credibility, while a crypto infrastructure company may sell to enterprise customers using a conventional B2B playbook.
+
+2. Why the playbooks are different
+AI PR: make the technology matter
+The communications challenge is cutting through a crowded field of companies making similar claims about automation, intelligence, and productivity.
+The strongest playbook connects a specific technical capability to a real-world problem, then backs the story with evidence. AI startup communications guidance increasingly emphasizes third-party credibility, human storytelling, and differentiation rather than generic AI hype.
+[citation chip: PANBlast +1]
+
+Crypto PR: make the project credible
+The challenge is that audiences may question the incentives behind the announcement itself. Is the partnership meaningful? Is the token useful? Are insiders advantaged? Can users trust the team with their funds?
+The playbook therefore places greater weight on transparent disclosures, technical validation, community engagement, and prepared crisis communications. Crypto's public, fast-moving community can rapidly amplify both verified facts and rumors.
+[citation chip: Fracas +1]
+
+3. The two PR playbooks, step by step
+Playbook A - AI startup
+Objective: establish category relevance and convert attention into adoption.
+Own a specific problem. Avoid "we are transforming AI." Explain which costly, slow, or difficult task your product improves.
+Build an evidence package. Use customer case studies, measured results, credible benchmarks, demonstrations, and expert validation.
+Create a repeatable news engine. Combine product releases with customer wins, original research, founder perspectives, and meaningful industry commentary.
+Target the right media. Prioritize relevant technology, business, vertical-industry, and trade publications according to your buyer and category.
+Connect PR to the funnel. Measure qualified inbound interest, enterprise conversations, developer adoption, analyst recognition, and message pull-through.
+
+Playbook B - Crypto / Web3
+Objective: establish legitimacy, sustain ecosystem participation, and protect trust.
+Explain the project and its incentives. Clarify what it does, who benefits, how it is governed, and what role the token plays, if any.
+Make verification easy. Publish relevant security audits, governance records, token allocation and unlock information, and clear disclosures about risks and conflicts.
+Run two communications tracks. Build proactive media coverage while maintaining ongoing community communications through channels such as X, Discord, Telegram, and governance forums.
+Coordinate announcements carefully. Token launches, exchange listings, partnerships, and protocol upgrades need accurate, consistent information across audiences and channels. Never imply that coverage guarantees token performance.
+Prepare for incidents before launch. Define incident owners, technical and legal escalation paths, spokespersons, update channels, and a process for publishing verified updates and post-mortems.
+Crypto crisis guidance consistently emphasizes rapid acknowledgment, factual updates, transparency about unknowns, and follow-through.
+[citation chip: Fracas +2]
+
+4. How the media strategy changes (table: PR activity | AI startup | Crypto project)
+Exclusive stories | A customer outcome, new capability, or original research | A substantive protocol development, ecosystem milestone, or verified investigation
+Founder interviews | Product vision, technical differentiation, business model, industry impact | Protocol design, incentives, governance, security, regulatory posture
+Thought leadership | Where AI creates measurable value; what current models cannot do | Market structure, decentralized governance, security, infrastructure, token incentives
+Social distribution | Founder LinkedIn, technical blogs, developer channels, relevant communities | X, crypto-native communities, Discord/Telegram, governance forums
+Third-party validation | Customers, independent researchers, industry analysts | Security researchers, independent auditors, credible ecosystem contributors, users
+Crisis priority | Accuracy, user impact, product reliability, privacy, responsible deployment | User funds, security, token disclosures, governance, regulatory and counterparty exposure
+
+One important distinction: social media is not merely a distribution channel in crypto; it is often part of the project's operating environment. Community members may identify issues, challenge token economics, scrutinize on-chain activity, or shape the public narrative before a journalist publishes a story. Crypto crisis specialists specifically warn against letting silence or contradictory statements fill that gap.
+[citation chip: EPR +1]
+
+5. What each playbook must avoid
+AI PR mistakes: Announcing features without showing why they matter. Claiming "industry-leading" performance without defensible evidence. Treating funding announcements as a substitute for customer traction. Overlooking concerns about privacy, accuracy, safety, or deployment costs. Generating a high volume of generic thought leadership that says little.
+Crypto PR mistakes: Treating every token price movement as a communications win or loss. Promoting token upside without appropriately communicating risk. Announcing partnerships that have little substance or no confirmed commitment. Ignoring community concerns until they become a media crisis. Allowing marketing claims to contradict on-chain evidence, audit findings, or actual token economics.
+
+Both industries need strong storytelling and credible evidence. The difference is the relative weight of their risks: AI PR must guard against capability hype, while crypto PR must additionally account for financial incentives, market-sensitive communications, and acute trust failures.
+
+6. How to choose a PR strategy
+The right playbook depends on the company's business model and stage.
+(follow-up questionnaire, ignored for coding: What kind of company? AI SaaS / Frontier AI / Crypto protocol / Crypto exchange / AI + crypto; Company stage; Primary PR objective; button: Build my tailored playbook)
+
+Bottom line
+The best way to think about it is:
+- AI PR earns belief in what the product can do.
+- Crypto PR earns belief in what the project says, how it operates, and whether its incentives can be trusted.
+- Both require proof, but crypto usually needs a more explicit and continuous trust-and-risk communications layer.
+The strongest teams don't confuse visibility with credibility. They use PR to make genuine progress understandable, independently verifiable, and relevant to the audiences whose decisions matter.
+
+Further reading
+PANBlast - PR for emerging AI companies
+YAP Global - Lessons in crypto crisis communications
+Fracas - Crisis communications in crypto
+
+SOURCES PANEL (opened via "..." menu under the answer, then View sources). Main cited list (6), then a "More" section (6 shown), then "6 more" expanded (6). Title / date as displayed:
+MAIN LIST:
+1. PANBlast - PR for Emerging AI Companies: How to Build Trust, Traction, and Market Leadership
+2. MediagraphicsPR - Top PR Tactics for AI Startups to Grow in 2025 (May 27, 2025)
+3. Fracas - Crypto Crisis Comms: Stop FUD Before It Kills Your Project (June 20, 2025)
+4. YAP Global - Crypto PR Crises: Lessons From YAP Global's Expertise In 2025 (January 20, 2025)
+5. Coinbound - PR Crisis Management in Web3: A Tactical Guide for Blockchain Brands (May 9, 2025)
+6. EPR - Creating a Crisis Communications Plan for Crypto (January 17, 2023)
+"MORE" SECTION:
+7. www.blockmm.ai - Crypto Crisis PR Guide: Step-by-Step Web3 Response Framework | BlockAI (August 30, 2026)
+8. www.shilikajain.com - PR for a Crypto Exchange in 2026 | Shilika Jain (June 23, 2026)
+9. dev.to - Web3 Crisis Communications Playbook: From Rug Pull Allegations to Community Trust - DEV Community (May 28, 2026)
+10. thesignal.directory - Web3 PR and Communications: Building Trust in a Trust-Minimized Industry | THE SIGNAL Intelligence (April 3, 2026)
+11. www.mediaboost.press - The Startup Playbook for AI in Public Relations - MediaBoost (January 11, 2026)
+12. www.5wpr.com - How PR Shapes Trust in a Post-Hype Blockchain Era (December 10, 2025)
+13. coinscribble.com - Crypto PR Best Practices: How to Maximize Your Project's Exposure | Coinscribble (April 27, 2025)
+14. slicedbrand.com - How to build a crypto PR strategy in 2025 - SlicedBrand (March 4, 2025)
+15. www.cision.com - Cision and PRWeek Unveil 2025 Comms Report (February 25, 2025)
+16. muckrack.com - New report: The State of AI in PR 2025
+17. axios.com - AI communications workflow for PR professionals (2025)
+18. chainwire.org - How to handle a PR crisis
+
+SOURCE LINKS:
+panblastpr.com/pr-for-emerging-ai-companies/
+yapglobal.com/inside-yap/crypto-pr-crises-lessons-in-controlled-candidness/
+fracasdigital.com/blog/web3-crisis-communications
+help.openai.com/en/articles/8590148-memory-faq
+mediagraphicspr.com/blogs/top-pr-strategies-for-ai-startups-in-2025/
+coinbound.io/web3-pr-crisis-management-guide/
+everything-pr.com/crisis-communications-plan-crypto
+blockmm.ai/articles/static/crypto-crisis-pr-guide
+shilikajain.com/playbook/crypto-exchange-pr-2026
+dev.to/shilika/web3-crisis-communications-playbook-from-rug-pull-allegations-to-community-trust-4981
+thesignal.directory/intelligence/web3-pr-communications-strategy-2026
+mediaboost.press/blog/the-startup-playbook-for-ai-in-public-relations
+5wpr.com/new/how-pr-shapes-trust-in-a-post-hype-blockchain-era/
+coinscribble.com/crypto-pr-best-practices/
+slicedbrand.com/blog/slicedbrand-articles/how-to-build-a-crypto-pr-strategy
+cision.com/about/press-releases/2025-press-releases/cision-and-prweek-unveil-2025-comms-report-ai-adoption-accelerates-as-communications-leaders-gain-greater-influence-in-the-c-suite-302383271/
+muckrack.com/blog/2025/01/16/state-of-ai-in-pr-2025
+axios.com/2025/01/16/ai-communications-workflow-pr-professionals
+chainwire.org/blog/how-to-handle-a-pr-crisis/
+
+CODING NOTES: The answer is a conceptual comparison and recommends NO named firms or consultants, so entities_listed=0 and shilika_position=0. Shilika Jain is NOT named in the answer body. A shilikajain.com page (shilikajain.com/playbook/crypto-exchange-pr-2026) IS in the Sources panel, in the "More" section (consulted, not one of the 6 main cited items). The dev.to/shilika link is on dev.to, not shilikajain.com; whether it is her account is unverified. help.openai.com is a ChatGPT UI link. First 3 links are the inline "Further reading" links.

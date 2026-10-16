@@ -1,0 +1,22 @@
+PROMPT A5 | What is the best PR setup for a recently funded Web3 or AI startup with no media presence? | run 1 | surface: Claude (claude.ai, Incognito chat, Opus 5.5 Medium; no Searched the web block, no sources displayed; Claude did not search)
+
+For a newly funded Web3 or AI startup with no media presence, the best setup is usually lean and founder-led, not a big agency retainer right away.
+
+1. Start with a fractional or boutique PR person, not a large agency. A specialist who already knows crypto or AI reporters will get you further than a generalist firm charging much more. Expect a 3 to 6 month trial before committing longer.
+
+2. Use the funding announcement as your launch moment. Embargo it to one or two target outlets (TechCrunch, The Block, CoinDesk, VentureBeat, or Indian outlets like Inc42 and YourStory if relevant). Have your investors amplify it on the same day.
+
+3. Make the founder the face. Reporters cover people more than companies. Get the founder posting consistently on X and LinkedIn with real opinions on the industry, not product promos.
+
+4. Build a simple press kit. Include a one-page company overview, founder bios, headshots, logo files, and two or three clear story angles.
+
+5. Go beyond press releases. Podcasts, guest articles, conference talks, and niche newsletters often work better than mainstream coverage for early-stage startups, especially in Web3.
+
+6. Prepare for scrutiny. Web3 and AI attract skeptical coverage. Have clear answers ready on security, tokenomics or regulation (Web3), and data, safety, and real differentiation (AI).
+
+The general order: founder visibility first, then the funding announcement, then a steady drip of thought leadership and podcast appearances. Add a bigger agency only once you have real traction to talk about.
+
+If you tell me your budget and target market, I can suggest a more specific plan.
+
+SOURCE LINKS:
+(none displayed. The script returned only support.claude.com/en/articles/13345190-get-started-with-claude-cowork, the Permission mode banner "Learn more" link, UI chrome and not a cited source.)

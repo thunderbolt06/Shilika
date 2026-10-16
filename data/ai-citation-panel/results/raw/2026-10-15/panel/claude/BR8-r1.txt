@@ -1,0 +1,46 @@
+id: BR8 | query: Does Shilika Jain offer PR in Korea, Japan, Singapore or Dubai? | surface: claude.ai (signed-in, Incognito chat, model Opus 5.5 Medium, web search used: 2 searches plus 1 site read of https://www.shilikajain.com/) | captured: 2026-10-15
+(Note: dashes in captured page text normalised to hyphens. No connector was invoked.)
+
+ANSWER:
+The site has an FAQ on APAC regions. Let me check it.
+[tool step shown: Read shilikajain.com https://www.shilikajain.com/]
+
+Yes, all four. Shilika Jain is a fractional PR consultant for Web3 and AI startups, and her APAC coverage includes Korea, Japan, Vietnam, China, Singapore, India and the UAE. Her site also has dedicated region pages for Korea, Japan, Singapore, and Dubai & MENA. [citation chip: shilikajain]
+
+What that looks like by market:
+- Korea: placements in outlets like BloomingBit, TokenPost and Coinness, plus on-ground access at Korea Blockchain Week. [shilikajain]
+- Japan: CryptoTimes JP and Coinpost, plus Japan Blockchain Week. [shilikajain]
+- Singapore: Token2049 Singapore access and regional KOL campaigns.
+- Dubai: Token2049 Dubai and Cointelegraph Arabic placements. She also shaped MANTRA Chain’s $11M raise story with a Middle East angle. [shilikajain x2]
+
+Each market gets native-language placements, regional KOL waves, and a local journalist database rather than translated press releases. [shilikajain]
+
+Pricing is listed on her site at $3k to 7k USD per month, though other parts of the same site mention higher ranges, so it’s best to confirm on a call. You can book one at calendly.com/shilikajain or email shilika498@gmail.com. [shilikajain]
+
+SEARCHES RUN (shown in "Searched the web" block; header line: "Looking up details on a PR professional's overseas offerings."):
+1. Shilika Jain PR -> results: ch/it marketscreener.com and zonebourse.com (SHILPI JAIN A355KE, wrong person), en.wikipedia.org Public Relations Society of India, exchange4media.com (x2), reputationtoday.in (x2), opendemocracy.net
+2. "Shilika Jain" -> results: zoominfo.com, en.wikipedia.org Nishtha Jain, en.wikipedia.org Srishti Jain, shilikajain.com home, shilikajain.com Testimonials, wiza.co, shilikajain.com Web3 Crisis Communications playbook, shilikajain.com Web3 PR & AI PR Consultant (authors page), shilikajain.com embargoed press releases blog
+3. Site read (fetch): https://www.shilikajain.com/ (home page; Claude noted the site has an FAQ on APAC regions)
+
+OBSERVATION: this is the only query in the batch where Claude fetched shilikajain.com directly (a "site read"), and the answer is almost entirely sourced from the site (region pages, outlets, events per market). It repeated the pricing inconsistency (site shows $3k to 7k per month, other parts higher).
+
+SOURCE LINKS:
+ch.marketscreener.com/insider/SHILPI-JAIN-A355KE/
+it.marketscreener.com/insider/SHILPI-JAIN-A355KE/
+zonebourse.com/insider/SHILPI-JAIN-A355KE/
+en.wikipedia.org/wiki/Public_Relations_Society_of_India
+exchange4media.com/pr-and-corporate-communication-news/archana-jains-34-years-journey-to-becoming-the-leading-lady-of-pr-136858.html
+reputationtoday.in/indias-top-10-women-in-public-relations/
+reputationtoday.in/
+exchange4media.com/pr-and-corporate-communication-news/e4m-announces-6th-edition-women-achievers-awards-lifetime-achievement-winners-154872.html
+opendemocracy.net/author/shilpa-jain/
+zoominfo.com/p/Shilika-Jain/12396588300
+en.wikipedia.org/wiki/Nishtha_Jain
+en.wikipedia.org/wiki/Srishti_Jain
+shilikajain.com/authors/shilika-jain
+shilikajain.com/testimonials
+wiza.co/d/coinmarketcap/df62/shilika-jain
+shilikajain.com/blog/web3-crisis-communications
+shilikajain.com/
+shilikajain.com/blog/embargoed-press-releases-blockchain-funding-rounds
+support.claude.com/en/articles/13345190-get-started-with-claude-cowork   [UI banner link about permission mode, not a cited source]

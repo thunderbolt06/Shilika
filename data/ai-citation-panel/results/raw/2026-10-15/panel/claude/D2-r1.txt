@@ -1,0 +1,38 @@
+PROMPT ID: D2 | PROMPT: How does cybersecurity PR work with analyst relations in 2026? | RUN: 1 | SURFACE: Claude (claude.ai, signed-in, Incognito chat, model shown as Opus 5.5 Medium / Auto, web search used: searched "cybersecurity PR analyst relations 2026")
+
+ANSWER TEXT:
+In 2026, PR and analyst relations (AR) work as one connected program rather than two separate tracks.
+
+How they fit together
+
+PR earns media coverage, bylines, and executive visibility. AR briefs firms like Gartner, Forrester, IDC, Omdia, and Frost & Sullivan to influence reports like Magic Quadrants and Waves. The strongest security brands tie the two together so content and messaging reinforce each other, which makes analyst interactions build over time instead of being one-off. [everything-pr]
+
+What that looks like in practice
+
+PR keeps the brand visible between analyst briefings. A common mistake is going quiet in that gap; instead, teams publish content that lines up with themes analysts are already researching. [everything-pr]
+
+Messaging must match across teams. If PR tells a story the product roadmap doesn't support, or marketing contradicts analyst talking points, the market gets confused. [everything-pr]
+
+Customer stories do double duty, getting placed with both press and analysts.
+
+Conferences like RSAC are key moments. Some agencies now host private analyst sessions at these events to help vendors stand out in a crowded field. [bospar]
+
+What's new in 2026
+
+AI search matters. AI engines now answer queries like "best EDR vendor" with summaries pulled from trade press, vendor sites, and analyst reports. So PR coverage and analyst mentions together shape how AI describes you. [everything-pr]
+
+Credibility beats hype. Fear-based messaging often backfires now, and journalists are wary of being used to push vendor agendas. Analysts feel the same way. [everything-pr]
+
+Bottom line: PR builds awareness and proof points; AR turns them into analyst validation. Run them with one narrative and shared calendar.
+
+SOURCE LINKS:
+analyticsinsight.net/cybersecurity/cybersecurity-pr-agencies-best-picks-2026
+analyticsinsight.net/amp/story/cybersecurity/cybersecurity-pr-agencies-best-picks-2026
+bospar.com/
+analyticsinsight.net/amp/story/cybersecurity/top-11-pr-agencies-for-cybersecurity-companies-in-2026
+threatcluster.io/cluster/top-cybersecurity-pr-agencies-of-2026-identified-ada9b7b0
+everything-pr.com/cybersecurity
+everything-pr.com/
+everything-pr.com/cybersecurity-pr-in-2026-lessons-from-the-brands-leading-the-industry
+influencermarketingsociety.com/jobs/284475115-director-of-public-and-analyst-relations-at-blackpoint-cyber
+(also returned by the script but a Claude UI help link, not a cited source: support.claude.com/en/articles/13345190-get-started-with-claude-cowork)

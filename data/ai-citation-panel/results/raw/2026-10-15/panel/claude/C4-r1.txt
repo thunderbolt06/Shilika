@@ -1,0 +1,25 @@
+PROMPT ID: C4 | PROMPT: What is the right PR strategy for a Series A AI infrastructure company in 2026? | RUN: 1 | SURFACE: Claude (claude.ai, Incognito chat, Opus 5.5 Medium, web search NOT used by Claude for this reply: no "Searched the web" block, no source chips)
+
+Short version: at Series A, PR should earn credibility with developers and buyers, not chase big headlines.
+
+What works now
+
+1. Lead with technical proof, not funding news. A funding announcement gets one day of attention. Benchmarks, cost or latency numbers, open-source releases, and real customer results keep working for months.
+2. Make your engineers the voice. Founder and engineer blog posts, conference talks, podcasts, and posts on X, LinkedIn, and Hacker News carry more weight with technical buyers than press releases.
+3. Target a few right outlets. Pick 5 to 10 reporters and newsletters that actually cover AI infra (trade press, Substacks, technical podcasts). Build relationships with them before you need coverage.
+4. Own one clear narrative. The AI infra space is crowded. Pick one sharp point of view (for example, "inference cost is the real bottleneck") and repeat it everywhere.
+5. Optimize for AI search. Buyers increasingly ask ChatGPT, Claude, or Perplexity for tool recommendations. Docs, comparison pages, and third-party mentions help you show up in those answers.
+6. Use customers as proof. A named customer case study beats any quote from your CEO.
+
+What to skip
+
+Avoid expensive retainer agencies at this stage, vague "revolutionizing AI" messaging, and announcing every small update.
+
+Simple plan
+
+One big moment per quarter (launch, benchmark, or open-source release), steady weekly content in between, and a small set of reporter relationships you keep warm.
+
+Want me to help draft a narrative or a quarterly PR calendar for your company?
+
+SOURCE LINKS:
+(none - the only http link in the page DOM was the UI link support.claude.com/en/articles/13345190-get-started-with-claude-cowork from the permission-mode banner, not a cited source)

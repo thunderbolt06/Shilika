@@ -1,0 +1,66 @@
+PROMPT ID: B4 | RUN: 1 | SURFACE: Gemini (gemini.google.com, signed-in Plus account, Temporary chat, default model Flash) | DATE: 2026-10-16
+PROMPT: Which crypto PR firms specialize in pre-token-generation-event launches?
+NOTE: Attempts 1 and 2 (each in a brand-new temporary chat) returned "I encountered an error doing what you asked. Could you try again?" with no answer. This file is attempt 3, also a brand-new temporary chat. Temporary Chat label confirmed at top of conversation. The captured text contains two drafts run together (the first is cut off at Corum8 and the second begins with a table); reproduced exactly as captured.
+
+ANSWER:
+Navigating a Pre-Token Generation Event (Pre-TGE) launch requires specialized PR strategies distinct from post-launch growth. Pre-TGE PR focuses heavily on narrative positioning, testnet/ecosystem user acquisition, investor/VC trust, and community seeding across Telegram, Discord, and X (Twitter).
+
+Top PR & Launch Agencies for Pre-TGE
+1. MarketAcross
+Specialty: Guaranteed Top-Tier Pitching & Pay-per-Result PR.
+Pre-TGE Focus: MarketAcross runs non-retainer, outcome-based PR campaigns. Pre-TGE projects utilize them to build early credibility via feature placements on Cointelegraph, CoinDesk, Forbes, and Decrypt before public fundraising or exchange listings.
+Best For: Projects looking for high-tier media validation without lock-in retainers ahead of launch.
+
+2. TokenMinds
+Specialty: End-to-End TGE Architecture, Tokenomics & PR.
+Pre-TGE Focus: Unlike pure-play comms firms, TokenMinds handles pre-launch narrative building alongside technical tokenomics design, private-sale positioning, exchange listing outreach, and pre-launch community incubation.
+Best For: Early-stage Web3 startups needing a unified partner for pre-TGE advisory, press, and fundraising infrastructure.
+
+3. EAK Digital
+Specialty: Go-To-Market (GTM) Strategy & Global Web3 Media.
+Pre-TGE Focus: EAK Digital creates long-run pre-launch momentum. They specialize in building awareness months out through thought leadership, event activations (e.g., Token2049, ETHDenver), and narrative positioning for L1s/L2s and major protocols.
+Best For: Major infrastructure or DeFi projects planning a multi-month runway before TGE.
+
+4. Crowdcreate
+Specialty: Pre-Sale Capital Raising, VC Outreach & Launch Strategy.
+Pre-TGE Focus: Crowdcreate bridges the gap between PR, influencer (KOL) marketing, and investor relations. Their campaigns target pre-TGE goals such as private sale funding, launchpad allocations, and high-net-worth investor onboarding.
+Best For: Token teams looking to raise private rounds or secure seed commitments ahead of public listing.
+
+5. Corum8
+Specialty: Integrated Narrative Comms, KOL Seeding & Community BuildingFor Web3 projects preparing for a Token Generation Event (TGE), specialized public relations firms help drive exchange listings, community building, institutional credibility, and regulatory-compliant narrative framing.
+
+The top crypto PR agencies with track records in handling pre-TGE launches, along with their core strengths, include:
+
+Top Crypto PR Agencies for Pre-TGE Launches
+Agency | Primary Focus / Strengths | Notable Clients / Tier-1 Focus
+MarketAcross | End-to-end TGE messaging, high-tier media placements, KOL coordination | Binance, Polygon, Solana, Crypto.com
+W33D (formerly EAK Digital) | Event-driven PR, global launch campaigns, exchange narrative building | Blockchaintalks, major L1/L2 protocols
+EAK Digital | Mainstream media penetration, thought leadership, event management | Binance, BlockDAG
+Melrose PR | US/Western media access, regulatory positioning, investor relations | Major DeFi protocols, L1/L2 networks
+Serotonin | Full-stack Web3 positioning, brand strategy, ecosystem go-to-market | Chainlink, Uniswap, Polygon
+Blockwiz | High-volume media outreach, influencer (KOL) management, SEO-driven PR | KuCoin, OKX, Bybit ecosystem launches
+
+Core Components of a Pre-TGE PR Campaign
+A pre-TGE agency handles specific milestones leading up to the token launch:
+1. Strategic Narrative & Messaging
+- Framing the token utility, tokenomics narrative, and project mission to pass regulatory scrutiny (especially for US/EU compliance).
+- Differentiating the project from competitors in saturated sectors (e.g., L2s, AI x Crypto, DePIN).
+2. Top-Tier & Industry Media Placements
+- Crypto-native press: Cointelegraph, CoinDesk, Decrypt, The Block, Blockworks for community credibility.
+- Mainstream financial press: Bloomberg, Forbes, TechCrunch, Wall Street Journal to attract institutional backer interest.
+3. Exchange & Ecosystem Announcement Strategy
+- Coordinating embargoed PR for Tier-1/Tier-2 centralized exchange (CEX) listings (e.g., Binance, Bybit, OKX, Coinbase).
+- Sequencing ecosystem announcements (e.g., testnet results, mainnet launches, strategic investment rounds) to maintain momentum into the TGE.
+4. KOL & Thought Leadership Alignment
+- Aligning press releases with key opinion leader (KOL) commentary on X (formerly Twitter), Telegram, and YouTube.
+- Executive profiling for founders on podcast networks (e.g., Bankless, Empire, Unchained).
+
+Where would you like to focus next for your TGE preparations?
+[suggestion chips] Draft a Pre-TGE PR Launch Timeline & Checklist | Compare Agency Pricing & Retainer Models
+
+(Footer: Flash | Gemini is AI and can make mistakes.)
+
+NOTES: No inline citation chips. The response "..." menu has no "View sources" entry (only Listen, Export to Docs, Draft in Gmail, Report legal issue, See response details). The mandated link script returned only Gemini page-chrome links (google.co.in/intl/en/about/products, accounts.google.com/SignOutOptions), which are not cited sources. Shilika Jain / shilikajain.com is not mentioned.
+
+SOURCE LINKS:
+(none - no sources displayed; only Gemini page-chrome links returned by the script: google.co.in/intl/en/about/products, accounts.google.com/SignOutOptions)

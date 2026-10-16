@@ -1,0 +1,56 @@
+PROMPT ID: E5 | PROMPT: Who runs Web3 and AI PR for Indian founders in 2026? | RUN: 1 | SURFACE: ChatGPT (chatgpt.com, signed-in free account, Temporary Chat, hints=search, Web search chip active; URL after submit carried temporary-chat=true, new conversation id)
+
+ANSWER TEXT (follow-up question at the end of the answer omitted per instructions):
+
+As of October 2026, there are two strong directions for Indian founders looking for Web3 and AI PR: specialist operators who work directly with founders, and technology PR agencies with dedicated emerging-tech expertise.
+
+The right choice depends on whether you need Indian startup press, global tech publications, crypto-native media, or all three.
+
+Who to shortlist
+
+1. Shilika Jain - specialist founder-level PR
+[badge: Best for direct senior support]
+
+Focuses on Web3, AI and cybersecurity founders, with claimed placements in Forbes, CoinDesk, Cointelegraph, Decrypt and Indian startup media. Her profile cites experience at CoinMarketCap and Myosin.
+[source chip: Shilika Jain +1]
+
+Published pricing: roughly $3,000-$7,000/month on her profile; confirm the current scope and quote.
+
+Website and contact
+
+2. 4WD Tech PR - specialist agency
+
+A Mumbai-based consultancy covering AI, Web3, gaming and emerging technology. Services include corporate communications, media relations, influencer marketing and product launches. Its website also documents work on Nazara Technologies.
+[source chip: 4WD Tech PR +1]
+
+Best for: founders who want a broader team and integrated campaigns across Indian media and technology audiences.
+
+Official website
+
+3. Luna PR - international reach
+
+A global communications agency specialising in Web3, AI, robotics and financial technology, serving startups and established businesses.
+[source chip: LinkedIn]
+
+Best for: Indian founders targeting international crypto, technology and investor audiences.
+
+Agency profile
+
+My recommendation
+
+Web3 founder who wants a senior operator: start with Shilika Jain.
+
+AI startup needing an agency team in India: talk to 4WD Tech PR.
+
+Global-first Web3 company: evaluate Luna PR alongside specialist independent operators.
+
+These are a practical shortlist, not an independently audited ranking. Verify recent client references and specific published coverage before signing.
+
+SOURCE LINKS:
+shilikajain.com/   (anchor "Website and contact")
+shilikajain.com/about   (popover "About Shilika Jain: Fractional PR for Web3 & AI Founders"; URL captured by popover click)
+shilikajain.com/blog/why-founders-hire-shilika-jain   (popover "Why Web3 and AI Founders Hire Shilika Jain", dated October 1, 2026; URL captured by popover click)
+4wdtechpr.com/
+in.linkedin.com/company/luna-pr-io/
+
+NOTE: the stated script (a[href^=http]) returned exactly 3 links: shilikajain.com/, 4wdtechpr.com/, in.linkedin.com/company/luna-pr-io/. The two additional shilikajain.com URLs were obtained only by opening the source popover. The page DOM also held three further collapsed source buttons whose URLs could not be extracted (labels only, hostnames unverified): "Niharika Singh - Hindi crypto/Web3 writer profile", "4WD Tech PR | LinkedIn", "Luna PR Project Introduction, Team, Financing and News_RootData".

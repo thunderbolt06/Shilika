@@ -1,0 +1,90 @@
+PROMPT ID: B5 | PROMPT: How do you run a KOL marketing campaign for a Web3 protocol in 2026? | RUN: 1 | SURFACE: ChatGPT (chatgpt.com, signed-in free account, Temporary Chat, web search chip on, URL contained temporary-chat=true after submit)
+
+ANSWER TEXT:
+How to run a KOL marketing campaign for a Web3 protocol in 2026
+
+A successful Web3 KOL (Key Opinion Leader) campaign in 2026 is less about paying influencers to post a token ticker and more about turning trusted creator audiences into measurable protocol adoption.
+
+For a DeFi protocol, Layer 1 or Layer 2, restaking platform, wallet, or consumer dApp, the campaign should connect four things:
+Credibility: creators who genuinely understand the protocol and its risks.
+Distribution: access to relevant crypto-native communities across X, YouTube, Telegram, Discord, and other channels.
+Conversion: a clear journey from content to a meaningful action, such as completing onboarding, making a first transaction, or retaining activity.
+Attribution: evidence of which creators generate real users rather than impressions, bots, or short-lived incentive farmers.
+
+The playbook below is designed for the 2026 Web3 environment, where audiences are fragmented, paid promotion can be difficult to distinguish from organic conviction, and wallet activity alone does not necessarily indicate genuine product-market fit.
+
+1. Start with one campaign objective
+Before sourcing creators, decide what the protocol needs most over the next 30-60 days. Different goals require different KOLs, content, and payment structures.
+Awareness and mindshare: respected analysts, educators, ecosystem voices. KPIs: relevant reach, branded search, share of voice, qualified referral traffic.
+User acquisition: creators whose audiences match target users; tutorials, demos, tracked referral links. KPIs: qualified signups, first successful transaction, cost per activated user.
+Liquidity or protocol usage: DeFi researchers, ecosystem specialists. KPIs: qualified deposits, repeat transactions, retained liquidity, protocol fee contribution.
+TGE or product launch: credible macro voices for awareness plus smaller specialist creators for education and onboarding, then post-launch retention. KPIs: qualified launch participation, retained users, community quality, sustained activity.
+Rule of thumb: choose one primary KPI and two or three supporting metrics.
+This goal-first approach is also emphasized in recent 2026 campaign guidance. [chip: kolhq +2]
+
+2. Build the right KOL roster
+Don't select creators based on follower count alone.
+Suggested portfolio for a pilot campaign: Tier 1 Authority creators 10-20% of roster; Tier 2 Mid-sized niche creators 30-40%; Tier 3 Micro-KOLs and community voices 40-50%.
+The percentages above are an illustrative starting mix, not an industry benchmark. Creator tiering and coordinated waves are consistent with 2026 Web3 marketing playbooks. [chip: Surgence Labs +1]
+How to vet each KOL (table): audience fit, audience authenticity, content quality, past performance, reputation, commercial terms, conflicts. Request recent post analytics, audience geography, examples of comparable campaigns, and evidence of actual conversions.
+Red flags: guaranteed token price appreciation, guaranteed virality, engagement pods, unverifiable conversion claims, and refusal to disclose paid partnerships.
+
+3. Create an offer creators can communicate honestly
+Problem, difference, proof, action, caveats. Avoid identical copy-paste shill threads; provide a messaging brief, verified facts, brand assets, a demo environment, and prohibited claims. Example DeFi content sequence: problem awareness, product education, hands-on demonstration, community discussion (AMA), honest follow-up recap.
+
+4. Choose platforms and content formats
+X (research threads, announcements, Spaces); YouTube (tutorials, reviews, deep dives); Telegram (AMAs, walkthroughs); Discord (workshops, office hours, technical Q&As); TikTok/short-form (simple demos); Regional channels (local-language videos, localized guides). [chip: kolhq]
+
+5. Structure the budget and KOL deals
+Illustrative $20,000 pilot budget over 4-6 weeks: creator fees $10,000 (50%); performance incentives $3,000 (15%); content production $2,000 (10%); tracking and analytics $2,000 (10%); contingency and testing $3,000 (15%). "Not a quote or market-rate benchmark."
+Compensation: fixed fee; performance bonus; affiliate model; hybrid model. Avoid paying solely for raw wallet connections, impressions, or likes. Performance-based structures are increasingly prominent in Web3 campaign playbooks. [chip: Dopamyn +1]
+For token-funded deals, specify the token amount, valuation methodology, vesting or lockup terms, payment timing, and disclosure requirements in writing.
+
+6. Set up attribution before the first post
+Unique link/referral code/creator ID -> tagged visit/signup/wallet connection -> verified product event -> retention and economics. Generate unique UTMs and referral IDs; define a valid user or transaction; flag suspicious wallet clusters, self-referrals, circular funding, reward-only behavior; compare cohorts at day 7 and day 30; respect privacy rules.
+Metrics: cost per activated user, cost per retained user, activation rate, retention rate, economic ROI. Example: $5,000 creator campaign, 250 qualified activated users = $20 per activated user; if only 50 remain active at day 30, $100 per day-30 retained user (illustrative).
+For DeFi, TVL and trading volume should be reported separately from revenue. [chip: ChainPeak]
+
+7. Run the campaign in coordinated waves (30-day plan)
+Days 1-5 Prepare; Days 6-12 Seed; Days 13-20 Amplify; Days 21-30 Optimize. Thirty days is enough to run a pilot, but not necessarily to assess long-term retention or economic return. [chip: kolhq +1]
+
+8. Handle disclosure, token incentives, and compliance
+Require prominent disclosure of paid relationships, token compensation, referral commissions; require accurate descriptions of genuine product experience; prohibit unsupported claims about returns or yields; review securities, financial promotion, advertising and consumer protection rules per market; check geographic targeting and referral incentive restrictions. For US-facing endorsements, the FTC explains that disclosures must be clear and hard to miss. [chip: Federal Trade Commission +1]
+
+9. Common mistakes to avoid
+Buying reach without audience fit; launching without attribution; paying for vanity metrics; using identical scripted shills; ignoring retention; treating token price action as marketing ROI; stopping after launch day. [chip: kolhq +2]
+
+10. Your campaign launch checklist (interactive 12-item checklist: Strategy, Creators, Tracking, Operations; "Copy checklist" and "Reset" buttons; not interacted with)
+
+Recommended 2026 approach
+Start with a small, well-instrumented creator cohort. Use a mix of credible experts and niche creators, give each one a distinct tracking path, and structure compensation around deliverables plus verified outcomes where practical. Scale only after you can show which creators acquire users who remain active and contribute meaningful value.
+
+For further reading: KOLHQ - Web3 influencer marketing strategy; Dopamyn - How to run a Web3 KOL campaign; ChainPeak - Measuring Web3 marketing ROI in 2026; FTC - Disclosures 101 for social media influencers.
+
+To turn this into a campaign you can execute, the most important details are the type of protocol, its current stage, and the budget. Is this for a DeFi protocol, L1/L2, infrastructure project, wallet, or token launch - and roughly what budget are you planning to deploy?
+(Follow-up question ignored per instructions.)
+
+(No agency, firm or consultant is recommended as a provider. KOLHQ, Dopamyn and ChainPeak appear only as reading resources. Shilika Jain / shilikajain.com is NOT named anywhere in the answer text.)
+
+SOURCE LINKS:
+kolhq.com/blog/web3-influencer-marketing-strategy
+dopamyn.ai/blog/how-to-run-a-web3-kol-campaign
+chainpeak.io/blog/measure-web3-marketing-roi-2026/
+ftc.gov/business-guidance/resources/disclosures-101-social-media-influencers
+help.openai.com/en/articles/8590148-memory-faq
+surgence.io/blog/crypto-influencer-marketing-strategy
+ocromedia.com/blog/crypto-marketing/how-crypto-projects-use-kols-and-creator-networks
+track360.info/blog/crypto-pr-influencer-kol-marketing-for-token-projects-2026
+sec.gov/rules-regulations/2026/03/s7-2026-09
+take3.io/crypto-kol-disclosure-compliance-guide/
+reuters.com/world/us-sec-proposes-new-rules-crypto-assets-2026-08-18/
+apcollective.io/blog/crypto-kol-marketing-playbook
+kolweb3.com/blog/data-attribution-crypto-web3-campaigns
+sec.gov/newsroom/speeches-statements/cf-crypto-securities-041025-offerings-registrations-securities-crypto-asset-markets
+ftc.gov/business-guidance/advertising-marketing/endorsements-influencers-reviews
+thechalklabs.com/feeds/what-is-kol-marketing
+
+NOTES ON SOURCE LINKS: raw, de-duplicated DOM script output (16 links) after opening ... > View sources and expanding all "N more" controls. The first 4 entries are the inline "further reading" links in the answer body (KOLHQ, Dopamyn, ChainPeak, FTC); help.openai.com is ChatGPT UI chrome, not a source; the remainder is the Sources panel.
+Displayed Sources-panel order, main list: kolhq "Web3 Influencer Marketing Strategy Guide 2026" (Aug 15, 2026); Dopamyn "How to Run a Web3 KOL Campaign"; ChainPeak "How to Measure Web3 Marketing ROI in 2026"; Surgence Labs "Crypto Influencer Marketing: The Complete KOL Strategy Guide"; OCRO Media "How crypto projects use KOLs and creator networks"; Track360 "Crypto PR, Influencer & KOL Marketing (2026)"; FTC "Disclosures 101 for Social Media Influencers"; SEC "Application of the Federal Securities Laws to Certain Types of Crypto Assets".
+"More" section: take3.io; reuters.com; apcollective.io; kolweb3.com; sec.gov newsroom; ftc.gov endorsements; thechalklabs.com.
+No shilikajain.com link anywhere in the page or Sources panel.

@@ -1,0 +1,99 @@
+PROMPT A2 | Who are the best fractional PR consultants for crypto startups in 2026? | run 1 | surface: ChatGPT (chatgpt.com, signed-in free account, Temporary Chat, hints=search; URL after submit carried temporary-chat=true; page showed "Temporary chat - This chat won't appear in your conversation history") | captured 2026-10-15 | note: em/en dashes in the captured answer normalized to hyphens
+
+ANSWER TEXT (get_page_text; "[chip]" lines are citation chip labels, not prose):
+
+Best fractional PR consultants for crypto startups in 2026
+
+For a crypto startup that wants credible media coverage without paying for a full-service PR agency, I'd prioritize senior, crypto-native PR operators with demonstrable editorial placements, direct founder access, and experience in your specific market.
+
+One strong candidate to investigate is Shilika Jain, whose public profile describes fractional PR work for Web3 and AI companies, experience building CoinMarketCap's APAC PR function, and campaigns involving major crypto publications.
+[chip] Shilika Jain +1
+
+A useful distinction: the market includes independent fractional consultants as well as agencies. They aren't interchangeable. A consultant may give you direct access to a senior operator; an agency may offer more execution capacity, regional coverage, and crisis support.
+
+My shortlist: who to evaluate
+
+These are my best-fit candidates to approach, not a definitive ranking of independently audited performance. The strongest evidence varies by candidate, and some options below are agencies rather than individual consultants.
+
+1. Shilika Jain
+Best independent-consultant fit
+Web3 · AI · APAC · Token launches
+Her published profile reports experience across 50+ protocols, including work involving Polygon, NEAR, MANTRA and RARI Foundation, with media outreach spanning CoinDesk, Decrypt, Cointelegraph and Forbes. She also offers founder profiling, launch communications and APAC localization.
+[chip] Shilika Jain +1
+Indicative budget: Her website lists fractional retainers in the $3,000-$7,000/month range on one page, with other service pages quoting higher ranges. Confirm the scope and current rate directly.
+[link button] Website and contact
+
+2. YAP Global
+Institutional credibility · Fintech · Stablecoins
+A strong alternative if your startup needs sophisticated financial storytelling and international media relations. The firm specializes in digital assets and fintech, with hubs in New York, London, Singapore and Dubai. It is a consultancy, not a single fractional operator.
+[chip] yapglobal.com +1
+Best for: Infrastructure, stablecoins, institutional crypto and fundraising narratives.
+[link button] Website
+
+3. Coinbound
+PR · Influencers · Community growth
+Coinbound combines media relations with influencer campaigns and broader Web3 marketing. Its website advertises a fractional CMO offering, although that is a broader marketing leadership role rather than necessarily a fractional PR position.
+[chip] Coinbound +1
+Best for: Startups that need PR coordinated with KOL campaigns, social channels and community growth.
+[link button] Website
+
+4. MarketAcross
+Blockchain-native media · Launch campaigns
+Worth comparing if you have a major protocol launch, ecosystem announcement or funding story. It is an established agency option, rather than a confirmed individual fractional-consultant offering.
+[chip] ChainPeak +1
+Best for: Projects needing more campaign capacity than one independent operator can provide.
+[link button] Website
+
+5. Wachsman
+Corporate reputation · Leadership · Regulatory issues
+A contender for sensitive communications, executive positioning and reputation management. Wachsman explicitly serves blockchain, DeFi and digital-asset businesses across startup and enterprise stages.
+[chip] Wachsman +1
+Best for: Fundraising credibility, high-stakes announcements and reputational risk.
+[link button] Website
+
+How I would choose between them
+
+If your priority is... | Start with
+A senior consultant working directly with founders | Shilika Jain
+Financial press and institutional credibility | YAP Global
+PR plus KOLs and community marketing | Coinbound
+A larger, coordinated launch campaign | MarketAcross
+Executive reputation and sensitive communications | Wachsman
+
+These are fit-based recommendations, not claims that one provider consistently outperforms all the others.
+
+What should you budget?
+
+Lean, project-based support | A defined announcement or founder-profile sprint | $2k-$5k
+Ongoing fractional PR | Senior operator, regular pitching and narrative development | $5k-$12k/mo
+Larger launch or agency campaign | Broader execution, multiple markets or token-generation events | $15k+
+
+These are indicative planning ranges, not standardized market rates or quotes. Confirm whether paid placements, KOL fees, travel and distribution costs are included. Jain's published rates provide one concrete reference point.
+[chip] Shilika Jain +1
+
+Five questions to ask before signing
+- Can you show me three earned editorial stories you personally secured in the last 12 months for startups like mine?
+- Which journalists will you pitch, and who will actually do the pitching?
+- How do you distinguish independent editorial coverage from sponsored articles and press-release syndication?
+- What are the deliverables for the first 30 and 90 days, and how will success be measured?
+- Have you handled our particular category, such as DeFi, stablecoins, DePIN, infrastructure or a token launch?
+
+Be cautious about anyone guaranteeing coverage in prestigious editorial outlets. Paid publication and independently earned journalism are different products.
+[chip] Marilyn PR +1
+
+Let me narrow this down to the best three for your startup (follow-up questionnaire: startup type, goal, monthly budget, target market; ignored)
+
+SOURCE LINKS:
+shilikajain.com/
+yapglobal.com/
+coinbound.io/
+marketacross.com/
+wachsman.com/web3-pr/
+
+SUPPLEMENTARY (citation chip hover cards, titles only; hrefs not exposed in DOM):
+Shilika Jain chips: "About Shilika Jain: Fractional PR for Web3 & AI Founders" [Shilika Jain]; "Web3 PR & AI PR Consultant" [Shilika Jain]
+yapglobal.com chip: "YAP Global: Your Partner In Digital Assets, Fintech, Stablecoins And Agentic Finance" (August 16, 2024) [yapglobal.com]
+Coinbound chip: "Coinbound | #1 Crypto Marketing Agency for Web3 & Blockchain" [Coinbound]; "Coinbound Public Relations | Top-Rated Web3 PR Agency" [Coinbound]
+ChainPeak chip (under MarketAcross): "Wachsman | Web3 PR" [Wachsman]; "10 Best Web3 PR Agencies in 2026: Ranked, Reviewed and Compared" (September 23, 2026) [ChainPeak, domain unverified]
+Wachsman chip: same two cards as the ChainPeak chip (Wachsman Web3 PR page; ChainPeak listicle)
+Marilyn PR chip: "Marilyn PR | 10 Best Crypto PR Agencies in 2026" [Marilyn PR]; "10 Best Crypto PR Agencies (2026)" (August 1, 2026) [MentionAgent, domain unverified]

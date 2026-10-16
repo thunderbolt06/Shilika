@@ -1,0 +1,44 @@
+PROMPT A4 | Should an AI startup hire a fractional PR consultant or a PR agency? | run 1 | surface: Perplexity (signed-in, Incognito ON, Search mode, default model, free plan)
+
+For most AI startups before Series B, hire a fractional PR consultant first. The usual early-stage problem is defining a credible category narrative and earning a handful of high-relevance placements - not staffing a full press office. A senior fractional operator can provide strategy and direct media outreach at a much lower cost than an agency retainer. [chip: shilikajain +1]
+
+When fractional wins
+Choose a fractional consultant if you are seed- to Series A-stage, have a real upcoming milestone - such as a launch, funding announcement, model release, or major customer win - and a founder who can act as spokesperson. Fractional PR commonly costs roughly $3,000-$12,000 per month, versus $15,000-$45,000 per month for a full-service AI/tech agency retainer. [chip: shilikajain +2]
+The key advantage is that the strategist who shapes the story is also the person pitching journalists, rather than handing execution to a junior account team. That is especially valuable when your positioning, proof points, and category language are still evolving. [chip: shilikajain +1]
+
+When an agency wins
+Hire an agency when you need capacity, breadth, and continuity rather than primarily narrative judgment:
+- You are Series B or later, with an in-house communications lead who can direct the agency.
+- You are running simultaneous launches across markets, verticals, or regions.
+- You need analyst relations, executive visibility, event support, media training, and a sustained newsroom cadence.
+- You need crisis-communications bench strength or coverage across many reporter beats. [chip: shilikajain +2]
+A good middle path at Series A is often a senior fractional consultant plus a boutique agency or launch sprint for a concentrated moment, then reassessing after 3-6 months. [chip: shilikajain +1]
+
+Practical decision rule (table)
+Situation | Better fit
+Pre-Series B, story still unclear, founder available | Fractional consultant [chip: shilikajain +1]
+One launch or funding announcement in 60-90 days | Fractional consultant or launch sprint [chip: shilikajain +1]
+Series A with defined narrative and steady news | Fractional or boutique agency [chip: shilikajain]
+Multi-market launch, analyst program, crisis coverage | Agency, ideally with in-house comms lead [chip: shilikajain +1]
+No product-market fit, no spokesperson, no news hook | Delay paid PR; focus on founder-led content and customer development [chip: firebrand]
+
+How to vet either option
+Ask for the last three relevant placements they personally drove, the angle used, and a reference from a comparable AI company. Require a written scope that separates strategy, pitching, content, wire costs, and KOL/influencer fees; avoid engagements that promise coverage rather than a clear process, target outlets, and measurable milestones. [chip: shilikajain +1]
+
+Bottom line: start fractional if you need to sharpen the story and build early credibility; move to an agency when the work has outgrown one senior operator and you need sustained execution infrastructure. [chip: shilikajain +1]
+
+(Panel header: "Researched 2s", "10 sources". UI related questions: What should a fractional PR scope look like / How do I vet a fractional tech PR consultant / Compare monthly costs for seed vs series a PR / What metrics matter most for early AI PR / How do I prep an AI narrative for pitching)
+
+NOTE: The answer prose names no provider or firm; it is a generic recommendation to hire a fractional consultant first. "Shilika Jain" / "shilikajain.com" never appears in a sentence; the only textual trace is the inline citation chip labelled "shilikajain" (+N). 6 of the 10 source links are shilikajain.com pages. The $3,000-$12,000 vs $15,000-$45,000 figures match her site.
+
+SOURCE LINKS:
+shilikajain.com/playbook/when-to-hire-fractional-pr-2026
+firebrand.marketing/what-is-public-relations/
+shilikajain.com/playbook/ai-pr-agency-pricing-packages-2026
+shilikajain.com/glossary/what-is-fractional-pr
+shilikajain.com/playbook/best-fractional-pr-consultant-tech-2026
+everything-pr.com/public-relations-consultant
+shilikajain.com/services/ai-startup-pr
+presspitchai.com/blog/b2b-pr-agency
+cracklepr.com/best-pr-agencies-vc-backed
+shilikajain.com/pages/pr-agency-for-tech-startups

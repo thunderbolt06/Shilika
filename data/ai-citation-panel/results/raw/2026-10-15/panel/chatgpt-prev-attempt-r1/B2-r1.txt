@@ -1,0 +1,97 @@
+PROMPT ID: B2 | PROMPT: How do you get featured in CoinDesk, Cointelegraph and Decrypt in 2026? | RUN: 1 | SURFACE: ChatGPT (chatgpt.com, signed-in free account, Temporary Chat, web search chip on, URL contained temporary-chat=true after submit)
+
+ANSWER TEXT:
+How to get featured in CoinDesk, Cointelegraph and Decrypt in 2026
+
+If you're a crypto founder, Web3 startup, blockchain protocol, exchange, AI/Web3 company or PR agency, the key is to approach these publications as three independent newsrooms - not three websites where you simply submit a press release.
+
+There are three main routes to visibility:
+Earned editorial coverage: A journalist independently decides your story is newsworthy. You don't pay for the coverage, and publication isn't guaranteed.
+Guest articles and expert commentary: You contribute original analysis, opinions or industry expertise, subject to editorial approval.
+Paid media and sponsored content: You purchase an explicitly commercial placement, subject to the publication's policies.
+
+The distinction matters. CoinDesk explicitly states that its editorial team does not sell articles or coverage. Cointelegraph also maintains a formal separation between editorial and commercial operations.
+[chip: CoinDesk +1]
+
+1. Understand the route for each publication
+
+CoinDesk
+Best approached with a finance, markets, institutional crypto or policy angle.
+For editorial: Pitch a timely market development, original research, a meaningful funding or acquisition story, regulatory implications, or a strong expert source.
+For paid visibility: CoinDesk advertises sponsored analysis, thought leadership, press releases, newsletters, podcasts and events.
+Contact: Editorial/media enquiries - Advertising and partnerships
+Sources: CoinDesk +2
+
+Cointelegraph
+Pitch news with a clear peg, industry impact and independently verifiable facts.
+For editorial: Focus on what has changed, why it matters now, and what evidence supports the story. Its newsroom covers digital assets, blockchain, AI and fintech.
+For paid visibility: Cointelegraph offers paid content and partnerships, with disclosures and editorial independence requirements.
+Contact: Editorial - editor@cointelegraph.com - Advertising disclosure and policies
+Sources: Cointelegraph +2
+
+Decrypt
+Pitch accessible explanations, distinctive expert perspectives and stories about how technology affects people.
+For editorial: Decrypt accepts guest opinion pitches and completed drafts. Its published guidance specifies original, exclusive, non-promotional arguments supported by facts and linked sources.
+For paid visibility: Decrypt has a dedicated brand partnership enquiry process.
+Contact: Guest opinion submission guide - Editorial - editor@decrypt.co - Brand partnerships
+Sources: Decrypt +2
+
+2. What actually makes a crypto story publishable in 2026?
+The strongest pitch gives an editor a reason to cover the story now, not merely a reason your company wants publicity.
+Original data or research: Examples: a new analysis of stablecoin usage, DeFi risk, on-chain activity, wallet behaviour or institutional adoption. Include methodology and verifiable evidence.
+A genuine news event: A material funding round, acquisition, major integration, regulatory development, security incident or significant product launch. Explain the significance beyond the announcement.
+A credible expert perspective: An informed response to a current market development, with a distinct thesis, evidence and an expert available for interview.
+A wider industry implication: Why an event matters to users, investors, developers, institutions or regulators - not just to your token holders or customers.
+These are practical pitching recommendations, not guarantees of publication. Cointelegraph's editorial policy says coverage is determined by news value and journalistic merit; Decrypt specifically asks for clear arguments backed by facts and original sources.
+[chip: Cointelegraph +1]
+
+3. How to pitch: a practical workflow
+Choose one story, not one publicity objective. Write down the actual development, why it matters now, and what makes it independently interesting.
+Research the right journalist. Find recent stories about the same subject, identify the reporter or editor who covers it, and refer to a specific relevant article.
+Prepare an evidence pack. Include a concise announcement or research brief, original data, source documents, relevant links, spokesperson details, and any material disclosures.
+Send a short, personalised email. Lead with the news peg and its significance. Offer an interview, exclusive data or access to credible sources where appropriate.
+Follow up selectively. If there is no reply, send one concise follow-up after a few business days. For breaking news, contact the newsroom promptly and make the timing explicit.
+Keep editorial and paid campaigns separate. If you need a guaranteed commercial placement, ask the sales or partnerships team about available products instead of asking a journalist to sell editorial coverage.
+
+4. Email templates you can use
+A. Pitching an editorial story (template: Story idea / Why now / Why it matters / We can provide original data, documents or an interview / Would this be of interest)
+B. Pitching a guest opinion article to Decrypt - Decrypt's official guidance asks contributors to submit a summary and completed draft. Guest columns are generally 500-800 words, must be exclusive, and cannot serve as promotional articles. [chip: Decrypt +1] (template: core argument / why it matters now / what readers will learn / credentials / draft attached)
+
+5. Your 30-day media outreach plan
+Days 1-7 Build the story. Days 8-14 Map the newsrooms. Days 15-21 Launch targeted outreach. Days 22-30 Follow up and refine.
+This is a suggested execution schedule, not a prediction of newsroom response times or a promise of publication.
+
+6. Common mistakes to avoid
+Sending the same generic press release to every journalist.
+Leading with claims like "revolutionary," "world-leading" or "the next 100x token."
+Offering unsupported user, transaction, revenue or market-share figures.
+Writing a guest article that is essentially a sales pitch.
+Asking journalists to guarantee coverage in exchange for money.
+Treating sponsored content as independent editorial endorsement.
+Paying intermediaries who promise guaranteed organic coverage without verifiable terms and clear disclosure.
+
+7. Choose the right strategy for your goal
+(Interactive questionnaire: primary goal, project type, current stage, budget approach, "Create my outreach plan" button. Ignored per instructions; nothing clicked.)
+
+My recommendation: Start with one credible, evidence-backed story and pitch it individually to relevant journalists. In parallel, pursue a guest article if you have a genuinely distinctive viewpoint. Use sponsored placements when you need a commercial campaign with defined deliverables. The right mix depends on your project's newsworthiness, maturity and budget - not simply on how many publications you contact.
+
+(No agency, firm or consultant is recommended by name anywhere in the answer. Shilika Jain / shilikajain.com is NOT named in the answer text.)
+
+SOURCE LINKS:
+coindesk.com/contact-us
+coindesk.com/advertise
+cointelegraph.com/about
+cointelegraph.com/advertising-disclosure
+decrypt.co/writing-guest-opinion-pieces-for-decrypt
+decrypt.co/about-us
+decrypt.co/sponsor
+help.openai.com/en/articles/8590148-memory-faq
+coindesk.com/advertising-policies
+cointelegraph.com/editorial-policy
+coindesk.com/fil/advertise
+shilikajain.com/playbook/how-to-pitch-cointelegraph-2026
+coindesk.com/author/coindesk
+consensus2026.coindesk.com/agenda/event/-coindesk-media-kit-presentation-364
+
+NOTES ON SOURCE LINKS: the list above is the raw, de-duplicated DOM script output (first 7 = inline contact links in the answer body; help.openai.com is ChatGPT UI chrome, not a source; the rest are the Sources panel after clicking ... > View sources > "3 more"). In the Sources panel, the shilikajain.com item sat in the "More" section (below the main source list, i.e. consulted by the search but not tied to an inline citation chip). Panel item text: "How to Pitch Cointelegraph in 2026: Pitch Guide | Shilika Jain", dated June 21, 2026, hover URL https://www.shilikajain.com/playbook/how-to-pitch-cointelegraph-2026.
+Displayed Sources-panel order: CoinDesk Advertising Policies; Cointelegraph Editorial Policy; CoinDesk Contact Us; CoinDesk Mag-advertise; About Cointelegraph; Cointelegraph Advertising Disclosure; Decrypt Contact us; Writing guest opinion pieces for Decrypt; Grow your brand with Decrypt; [More] shilikajain.com playbook; CoinDesk author page; consensus2026.coindesk.com CoinDesk Media Kit Presentation.

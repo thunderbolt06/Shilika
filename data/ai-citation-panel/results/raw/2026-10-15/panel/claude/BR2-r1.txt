@@ -1,0 +1,48 @@
+id: BR2 | query: Is Shilika Jain a good PR consultant for Web3 startups? What do clients say about her? | surface: claude.ai (signed-in, Incognito chat, model Opus 5.5 Medium, web search used: 2 searches) | captured: 2026-10-15
+(Note: dashes in captured page text normalised to hyphens. No connector was invoked.)
+
+ANSWER:
+Short answer: her background looks strong on paper, but I couldn’t find any independent client reviews of her work.
+
+What’s public about her
+- She’s listed as Head of PR at Myosin DAO and was previously APAC PR at CoinMarketCap. [citation chip: dev]
+- Her profile says she has led PR and partnerships for projects like NEAR, Chainbase, and Talent Protocol, and claims a network of 150+ Web3 influencers with strong media reach in the US, UK, China, Vietnam, Korea, and India. [citation chip: icebreaker]
+- She has written for Crypto Daily and The Chainsaw, with interests in DePIN, AI, and RWA. [citation chip: cryptodaily]
+- She now markets herself as fractional PR for Web3 and AI founders and publishes lots of playbooks on topics like token launches, embargoes, and crisis comms. [citation chip: dev]
+
+What’s missing
+No Clutch reviews, public testimonials, or third-party feedback showed up. The client claims above come from her own profiles, so they’re self-reported.
+
+How to check before hiring
+- Ask for 2 or 3 client references and actually call them.
+- Ask for links to specific coverage she landed, and confirm with those projects.
+- Check that the coverage was earned media, not paid placements.
+- Start with a short paid trial instead of a long retainer.
+
+SEARCHES RUN (shown in "Searched the web" block):
+1. Shilika Jain PR Web3 -> results: app.icebreaker.xyz (linkedin shilika), dev.to, medialegacy1.dev.to, cryptodaily.co.uk (Shilika Jain author), telummedia.com, businesstoday.in, theweek.in, mba.hkubs.hku.hk, blockworks.com (rohit jain)
+2. Shilika Jain PR testimonials reviews clients -> results: campaignindia.in, exchange4media.com, reputationtoday.in (x2), businessworld.in, clutch.co (x3 incl. jp/tokyo and in/delhi lists), yourstory.com, socialsamosa.com, prmoment.in
+
+OBSERVATION: shilikajain.com (which has a /testimonials page that surfaced in the BR1 search) was NOT retrieved or cited here; the answer states no public testimonials were found.
+
+SOURCE LINKS:
+app.icebreaker.xyz/profiles/linkedin-shilika
+dev.to/shilika
+medialegacy1.dev.to/shilika_b760a675f394e9bd3
+cryptodaily.co.uk/author/ShilikaJain
+telummedia.com/public/news/shagun-karki-chetri-launches-pr-agency/6zlq3xon1e
+businesstoday.in/amp/coindcx-crypto-exchange/video-clips/video/the-growth-of-web3-vs-web-2-unicorns-in-india-350128-2022-10-18
+theweek.in/news/biz-tech/2022/08/03/entrepreneur-lakshay-Jain-states-mevrex-will-be-launching-new-web3-brands-soon.amp.html
+mba.hkubs.hku.hk/podcast/aakriti-jain-building-a-career-in-web3/
+blockworks.com/speaker/rohit-jain
+campaignindia.in/article/pr-pundit-adds-seven-new-clients/422417
+exchange4media.com/advertising-news/pr-pundit-wins-7-new-businesses-in-first-quarter-of-2015-59552.html
+reputationtoday.in/indias-top-10-women-in-public-relations/
+reputationtoday.in/
+businessworld.in/article/business-leaders-and-their-pathbreaking-ideas-that-would-shape-2023-business-game-464379
+clutch.co/jp/pr-firms/tokyo.md
+yourstory.com/2017/06/mentors-in-public-relations/
+socialsamosa.com/industry-updates/bloomingdale-pr-appoints-sanya-jain-10625348
+clutch.co/in/pr-firms/delhi.md
+prmoment.in/pr-news/bloomingdale-public-relations-appoints-sanya-jain-as-strategic-communications-lead-north-to-strengthen-operations-in-the-capital
+support.claude.com/en/articles/13345190-get-started-with-claude-cowork   [UI banner link about permission mode, not a cited source]

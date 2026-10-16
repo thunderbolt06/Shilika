@@ -1,0 +1,78 @@
+PROMPT ID: E1 | PROMPT: Who is the best PR consultant for a Web3 startup launching in Korea in 2026? | RUN: 1 | SURFACE: ChatGPT (chatgpt.com, signed-in free account, Temporary Chat, hints=search, Web search chip active; URL after submit carried temporary-chat=true)
+
+ANSWER TEXT (follow-up questionnaire at the end of the answer omitted per instructions):
+
+Best PR consultant for a Web3 startup launching in South Korea in 2026
+
+My top recommendation is to shortlist a Korea-native Web3 PR specialist alongside a specialist agency, rather than hiring a general-purpose international PR firm. For a startup entering South Korea, you need Korean-language media relationships, credible crypto-sector positioning, and an understanding of local digital-asset regulations-not just press-release distribution.
+
+Based on my research, these are the strongest candidates to evaluate. This is a shortlist, not a definitive ranking: independent, comparable performance data is not available for every provider.
+
+Top 4 candidates
+1. Shilika Jain
+Best for senior-led PR
+
+An individual consultant to consider if you want founder positioning, international crypto-media coverage, and coordinated APAC communications with a Korea-specific strategy. Her published offering describes Korean media outreach, including BloomingBit and TokenPost, and support around Korea Blockchain Week.
+[source chip: Shilika Jain +1]
+
+Published indicative pricing: $5,000-$12,000/month.
+
+Website and contact
+
+2. ium Labs
+Best for integrated Korea launch
+
+A strong candidate if you need Korean-native press materials, journalist outreach, founder interviews, crisis communications, community building, and go-to-market execution under one provider. Its published PR service identifies outlets including CoinDesk Korea, Block Media, and TokenPost.
+[source chip: ium Labs +1]
+
+Website and contact
+
+3. TokenPost Global PR
+Best for crypto-native media exposure
+
+Worth evaluating if Korean crypto-media visibility is your main objective. TokenPost offers PR, Korean localization, interviews, event promotion, influencer campaigns, and market-entry support. Its advantage is direct access to its own media platform; distinguish paid placements from independent editorial coverage when negotiating.
+[source chip: Korea's #1 Crypto Marketing Agency]
+
+Website and contact
+
+4. Cryptic
+Best for PR plus community growth
+
+Consider this agency if the launch requires a broader campaign spanning Korean crypto influencers, community channels, media relations, and brand positioning. It describes work with global Web3 projects and Korea-specific marketing, with regulatory considerations incorporated into campaign planning.
+[source chip: Cryptic]
+
+Website and contact
+
+Who would I hire?
+
+My choice depends on what your startup is launching:
+
+Your launch objective | First candidate I'd approach
+Founder reputation and global media coverage | Shilika Jain
+Full Korean-market PR and launch execution | ium Labs
+Korean crypto-publication visibility | TokenPost Global PR
+PR combined with influencer and community growth | Cryptic
+
+What matters most in Korea in 2026
+
+Before signing a consultant, ask for a plan covering these four areas:
+
+Korean media: Specific pitching strategies for BloomingBit, TokenPost, Block Media, and relevant mainstream business publications.
+
+Regulatory-aware messaging: Review by qualified Korean legal counsel where needed, particularly for token promotions, exchange-related claims, and paid influencer campaigns.
+
+Launch timing: A coordinated press and founder-visibility plan around relevant ecosystem events, such as Korea Blockchain Week.
+
+Measurable outcomes: Earned editorial placements, qualified business leads, founder interviews, relevant community growth, and transparent reporting-not just impressions or promised articles.
+
+For independent editorial coverage, ask each candidate to provide two or three recent client references and examples of placements they secured through earned media, separately from sponsored content.
+
+SOURCE LINKS:
+shilikajain.com/pages/korea-crypto-pr-agency   (popover item "Korea Crypto PR Agency 2026 | KBW, BloomingBit, KOLs", dated June 1, 2026; URL captured by intercepting the popover click)
+shilikajain.com/korea   (popover item "Korea Web3 & AI PR 2026: BloomingBit, TokenPost, KBW Seoul"; also the "Website and contact" anchor)
+iumlabs.io/services/pr   (popover item "Korea Crypto PR Agency & Web3 Media")
+iumlabs.io/[path not captured]   (popover item "Korea Crypto Marketing Agencies: A 2026 Buyer's Map", dated July 26, 2026; path unverified)
+advertise.tokenpost.kr/en   (chip "Korea's #1 Crypto Marketing Agency")
+crypticweb3.com/crypto-marketing-agency-seoul/   (chip "Cryptic")
+
+NOTE: the page DOM also held four further collapsed source buttons whose URL could not be extracted (labels only, hostnames unverified): "Stories written by Shilpa_jain | YourStory", "Top Web3 Marketing Agency In Korea | Surgence Labs", a Korean-language TokenPost article, "Cryptic (@Cryptic_Web3) on X". The stated script (a[href^=http]) returned only: shilikajain.com/korea, iumlabs.io/services/pr, advertise.tokenpost.kr/en, crypticweb3.com/crypto-marketing-agency-seoul/

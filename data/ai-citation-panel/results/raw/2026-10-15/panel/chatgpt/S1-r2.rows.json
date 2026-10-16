@@ -1,0 +1,298 @@
+[
+  {
+    "id": "A1",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": true,
+    "shilika_position": 0,
+    "shilika_urls": [
+      "shilikajain.com/glossary/what-is-fractional-pr",
+      "shilikajain.com/playbook/fractional-vs-agency"
+    ],
+    "shilika_quote": "",
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": [
+      "shilikajain.com"
+    ],
+    "web_search_used": true,
+    "answer_summary": "Defines fractional PR and compares it to agencies in a table; cost $5k-12k vs $15k-45k+/mo. Shilika Jain appears only as inline citation chip label (+1) and a further-reading link to her fractional-vs-agency playbook; no prose mention."
+  },
+  {
+    "id": "A2",
+    "ok": true,
+    "shilika_in_body": true,
+    "shilika_in_sources": true,
+    "shilika_position": 1,
+    "shilika_urls": [
+      "shilikajain.com/about",
+      "shilikajain.com/pages/fractional-pr-consultant-web3"
+    ],
+    "shilika_quote": "Shilika Jain is the clearest match I found for a publicly described individual fractional PR engagement. Best for startups that want a senior operator personally handling media outreach, founder positioning, launch PR and regional communications.",
+    "entities_listed": 5,
+    "competitors": [
+      "YAP Global",
+      "MarketAcross",
+      "Coinbound",
+      "Serotonin"
+    ],
+    "source_domains": [
+      "shilikajain.com",
+      "apcollective.io",
+      "coinbound.io",
+      "surgence.io",
+      "yapglobal.com",
+      "marketacross.com",
+      "serotonin.co",
+      "calendly.com"
+    ],
+    "web_search_used": true,
+    "answer_summary": "Ranked shortlist of 5 with Shilika Jain #1 (best direct fractional fit, $3k-7k/mo), then YAP Global, MarketAcross, Coinbound, Serotonin. Final recommendation: start by interviewing Shilika Jain."
+  },
+  {
+    "id": "A3",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": true,
+    "shilika_position": 0,
+    "shilika_urls": [
+      "shilikajain.com/playbook/fractional-pr-cost-pricing-2026",
+      "shilikajain.com/playbook/crypto-pr-cost-2026",
+      "shilikajain.com/pages/crypto-pr-agency-for-startups",
+      "shilikajain.com/pages/web3-pr-agency-india",
+      "shilikajain.com/playbook/token-launch-pr-campaign-cost-2026",
+      "shilikajain.com/playbook/token-launch-marketing-agency-india-2026",
+      "shilikajain.com/pages/token-launch-pr-agency-india"
+    ],
+    "shilika_quote": "",
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": [
+      "shilikajain.com",
+      "otrenix.com",
+      "reddit.com",
+      "flexe.io",
+      "luvkaizen.com",
+      "kolhq.com",
+      "blockmm.ai",
+      "hiresava.com",
+      "blog.wiztrust.com",
+      "5wpr.com",
+      "influenceonline.co.uk"
+    ],
+    "web_search_used": true,
+    "answer_summary": "Fractional $3k-7k/mo vs agency tiers $7k-60k+/mo, TGE extras, hybrid model; suggests budgeting $5k-8k/mo. No firm named in prose; Shilika Jain only as citation chips (+2, +1, +2, +1) backing the pricing figures."
+  },
+  {
+    "id": "A4",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": true,
+    "shilika_position": 0,
+    "shilika_urls": [
+      "shilikajain.com/blog/fractional-pr-for-ai-startups-how-it-works",
+      "shilikajain.com/playbook/ai-startup-pr-2026",
+      "shilikajain.com/playbook/ai-series-a-funding-announcement-pr-2026"
+    ],
+    "shilika_quote": "",
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": [
+      "verifiedcomms.com",
+      "prpitcher.com",
+      "shilikajain.com",
+      "pressfriendly.com",
+      "melivana.com"
+    ],
+    "web_search_used": true,
+    "answer_summary": "Start with a senior fractional consultant, add an agency later; fractional $5k-12k/mo vs agency $15k-40k+/mo, 90-day plan. No firm named in prose; Shilika Jain only as one citation chip (+2) under the pricing table."
+  },
+  {
+    "id": "A5",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": true,
+    "shilika_position": 0,
+    "shilika_urls": [
+      "shilikajain.com/pages/web3-pr-agency-india",
+      "shilikajain.com/pages/crypto-pr-agency-for-startups",
+      "shilikajain.com/",
+      "shilikajain.com/playbook/ai-startup-pr-2026",
+      "shilikajain.com/playbook/fractional-pr-cost-pricing-2026",
+      "shilikajain.com/pages/fractional-pr-consultant-web3",
+      "shilikajain.com/playbook/ai-pr-agency-pricing-packages-2026",
+      "shilikajain.com/playbook/crypto-pr-cost-2026",
+      "shilikajain.com/playbook/fractional-vs-agency",
+      "shilikajain.com/pages/fractional-pr-consultant"
+    ],
+    "shilika_quote": "",
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": [
+      "guerrillabuzz.com",
+      "shilikajain.com",
+      "chainpeak.io",
+      "thegroupthree.com",
+      "techtokenagency.in",
+      "prometheanpr.com",
+      "quorum-media.com",
+      "obapr.com",
+      "techcrunch.com",
+      "jobs.prsa.org",
+      "prsa.org",
+      "connect.prsa.org",
+      "melivana.com",
+      "christianlehman.com",
+      "dtsworld.in",
+      "cracklepr.com",
+      "subscribepr.com",
+      "solana.com",
+      "schovia.com"
+    ],
+    "web_search_used": true,
+    "answer_summary": "Recommends a senior fractional PR lead, 90-day plan, budget tiers (fractional $3k-7k/mo). No firm named in prose. Shilika Jain appears only as one citation chip (+2) beside the budget table; 10 of her pages are in the retrieval payload."
+  },
+  {
+    "id": "B2",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_position": 0,
+    "shilika_urls": [],
+    "shilika_quote": "",
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": [
+      "coindesk.com",
+      "cointelegraph.com",
+      "decrypt.co"
+    ],
+    "web_search_used": true,
+    "answer_summary": "Guide to pitching CoinDesk, Cointelegraph and Decrypt via official masthead, editorial and guest-opinion pages, 30-day outreach plan, earned vs paid. Shilika Jain not mentioned; her playbook was retrieved but never shown."
+  },
+  {
+    "id": "B3",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": true,
+    "shilika_position": 0,
+    "shilika_urls": [
+      "shilikajain.com/blog/tge-communications-compliance-mica-genius-act-sec-2026",
+      "shilikajain.com/blog/token-launch-pr-service-whats-included",
+      "shilikajain.com/blog/web3-startup-marketing-checklist",
+      "shilikajain.com/playbook/crypto-go-to-market-strategy-2026"
+    ],
+    "shilika_quote": "",
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": [
+      "coingabbar.com",
+      "chainpeak.io",
+      "lunarstrategy.com",
+      "shilikajain.com",
+      "sec.gov",
+      "esma.europa.eu",
+      "blog.kraken.com",
+      "crypticweb3.com",
+      "coinbound.io",
+      "kolweb3.com",
+      "thesignal.directory",
+      "cryptowave.co.id",
+      "mena.b.tc",
+      "issuewire.com",
+      "concettolabs.com",
+      "nasdaq.com",
+      "rootdata.com",
+      "thestreet.com"
+    ],
+    "web_search_used": true,
+    "answer_summary": "90-day four-phase TGE PR timeline, five workstreams, tiered media targets, T-minus calendar, KPIs, MiCA/SEC compliance. No firms recommended. Shilika Jain appears only as three citation chips (+2, +1, +1); four of her pages in payload."
+  },
+  {
+    "id": "B4",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_position": 0,
+    "shilika_urls": [],
+    "shilika_quote": "",
+    "entities_listed": 7,
+    "competitors": [
+      "GeniusPR",
+      "Chalk Labs",
+      "Cryptic",
+      "Outset PR",
+      "Wachsman",
+      "Serotonin",
+      "AP Collective"
+    ],
+    "source_domains": [
+      "cryptodaily.co.uk",
+      "geniuspr.com",
+      "crypticweb3.com",
+      "apcollective.io",
+      "thechalklabs.com",
+      "outsetpr.io",
+      "wachsman.com",
+      "serotonin.co"
+    ],
+    "web_search_used": true,
+    "answer_summary": "Six-firm pre-TGE shortlist (GeniusPR, Chalk Labs, Cryptic, Outset PR, Wachsman, Serotonin) plus AP Collective as an extra. Shilika Jain absent from body and chips; three of her pages were retrieved but not shown."
+  },
+  {
+    "id": "B5",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_position": 0,
+    "shilika_urls": [],
+    "shilika_quote": "",
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": [
+      "kolhq.com",
+      "dopamyn.ai",
+      "apcollective.io",
+      "surgence.io",
+      "kolweb3.com",
+      "ftc.gov",
+      "esma.europa.eu",
+      "sec.gov"
+    ],
+    "web_search_used": true,
+    "answer_summary": "Six-week KOL playbook: one KPI, scored KOL vetting, hybrid pay with $20k example split, referral attribution, FTC/MiCA/SEC compliance. No firms recommended; Shilika Jain absent from prose, chips and payload."
+  },
+  {
+    "id": "C1",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_position": 0,
+    "shilika_urls": [],
+    "shilika_quote": "",
+    "entities_listed": 8,
+    "competitors": [
+      "High Vibe PR",
+      "Crackle PR",
+      "Treble",
+      "Mission North",
+      "5W Public Relations",
+      "Hotwire",
+      "Codeword",
+      "Corporate Ink"
+    ],
+    "source_domains": [
+      "jamcopr.com",
+      "cracklepr.com",
+      "highvibepr.com",
+      "treblepr.com",
+      "missionnorth.com",
+      "5wpr.com",
+      "hotwireglobal.com",
+      "codewordagency.com",
+      "corporateink.com"
+    ],
+    "web_search_used": true,
+    "answer_summary": "Eight-agency shortlist for AI startups (High Vibe PR first) with budget tiers $3k-30k+/mo. Shilika Jain absent from body and chips; her ai-startup-pr-agency-india-2026 playbook was in the retrieval payload but not shown."
+  }
+]

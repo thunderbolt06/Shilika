@@ -1,0 +1,85 @@
+PROMPT ID: B4 | PROMPT: Which crypto PR firms specialize in pre-token-generation-event launches? | RUN: 1 | SURFACE: Perplexity (signed-in free plan, Incognito confirmed on page: "You're incognito", Search mode, default model) | CAPTURED: 2026-10-15 7:27 PM local
+(Note: em dashes in the original answer were replaced with " - " in this file per the no-dash rule; Perplexity inline citation labels such as "techbullion +3" are left as captured. The answer spells one firm "Coinband"; kept as captured.)
+
+ANSWER TEXT:
+Researched 1s
+
+Yes - several crypto PR and Web3 marketing firms explicitly build campaigns for the pre-TGE window: narrative seeding, community/whitelist preparation, KOL activation, investor communications, and exchange-listing coordination. The strongest specialist shortlist is Cryptic, Coinband, Lunar Strategy, Omni Agency, ICODA, TokenMinds, Serotonin, and FINPR.
+techbullion
++3
+
+Best specialist options
+Firm | Pre-TGE specialization | Best fit
+Cryptic | Runs TGE work as separate pre-launch, listing, and post-launch mandates; emphasizes user acquisition and performance measurement. (techbullion) | Projects approaching a TGE that want a structured, measurable launch. (techbullion)
+
+Coinband | Focuses on the weeks around a TGE: pre-announcement narrative seeding, whitelist/airdrop mechanics, listing coordination, and day-one liquidity support. (linkedin) | Pre-launch tokens, DeFi protocols, and L2 ecosystems needing tight launch coordination. (linkedin)
+
+Lunar Strategy | Offers a dedicated TGE Accelerator and pre-TGE mindshare campaigns, with a large KOL network. (apcollective) | Teams that need visibility and positioning before listing. (apcollective)
+
+Omni Agency | Positioned specifically for TGE execution: community priming, launch-day coordination, and post-launch retention. (icoda) | Projects with a hard TGE date within roughly 90 days. (icoda)
+
+ICODA | Provides pre-launch community building, KOL/investor marketing, Tier-1/Tier-2 media placements, whitepaper/content support, and post-launch momentum. (icoda) | ICO/IDO/IEO/TGE teams wanting integrated PR plus growth marketing. (icoda)
+
+TokenMinds | Combines tokenomics, whitepaper development, marketing, and launch execution; treats launches as multi-stage campaigns. (financefeeds +1) | Projects needing token design and go-to-market built together. (financefeeds)
+
+Serotonin | A venture-studio/PR hybrid with token advisory; useful for pre-TGE narrative work before there are major milestones to announce. (mexc) | Infrastructure, DeFi, or protocol teams needing strategic positioning and token advisory. (financefeeds +1)
+
+FINPR | Known for coordinated PR, influencer launches, exchange-listing support, and MENA-focused token launches. (linkedin +1) | Projects targeting MENA, multilingual markets, or exchange-listing visibility. (linkedin +1)
+
+Other credible choices
+
+Outset PR - boutique, data-driven TGE PR with a stated focus on pre-TGE narrative building and post-TGE coverage.
+mexc
+
+Wachsman - long-established crypto PR firm suited to compliance-aware, institutional-grade messaging around a launch.
+mexc
+
+Luna PR - global communications consultancy that begins in the pre-announcement phase and has supported token launches.
+mexc
+
+Token Agency - blends PR, investor-facing positioning, performance marketing, and programmatic crypto advertising for capital-raise-linked TGEs.
+mexc
+
+AP Collective - full-stack launch partner covering pre-launch narrative through post-TGE retention, including PR, creators, community, and content.
+apcollective
++1
+
+Crowdcreate - particularly relevant if the pre-TGE priority is investor relations and fundraising communications.
+icoda
++1
+
+How to choose
+
+For a pure pre-TGE PR mandate, start with Cryptic, Coinband, Lunar Strategy, or Serotonin. If you need an integrated launch operation rather than media relations alone, prioritize Omni, ICODA, TokenMinds, or AP Collective.
+techbullion
++5
+
+Before signing, ask each firm for: a pre-TGE timeline by week, examples of launches at your stage, named media/KOL relationships, exchange-listing coordination experience, compliance-sensitive messaging process, and post-TGE coverage plan. Industry guidance consistently emphasizes that effective TGE campaigns begin weeks before launch rather than on launch day.
+mexc
++1
+
+10 sources
+
+SOURCES PANEL (displayed order, titles as shown):
+1. techbullion - The Best Crypto PR Agencies in 2026: A Buyer's Ranking
+2. linkedin - 4. Omni Agency (4.9 / 5.0)
+3. icoda - Best Crypto Marketing Agency: Top 15 for 2026 - ICODA
+4. mexc - Top 8 Crypto PR Agencies for Token Launches and TGE ... - MEXC
+5. apcollective - 10 Best Token Launch Marketing Agencies (2026)
+6. icoda - ICODA Agency
+7. financefeeds - Best Web3 Marketing Agency for Crypto Projects: 15 Top Picks for ...
+8. linkedin - 25 Best Crypto Marketing Agencies to Consider in 2026 (Updated ...
+9. worldbusinessoutlook - Best Crypto PR Agencies for Token Generation Events
+10. salientpr - Top Crypto PR Agencies & Blockchain Public Relations Firms
+
+SOURCE LINKS:
+techbullion.com/the-best-crypto-pr-agencies-in-2026-a-buyers-ranking/
+linkedin.com/pulse/best-crypto-marketing-agencies-guide-2026-field-review-agugbue-301yc
+icoda.io/blog/best-crypto-marketing-agency
+mexc.com/news/1026147
+apcollective.io/blog/best-token-launch-marketing-agencies
+icoda.io/
+financefeeds.com/best-web3-marketing-agency-for-crypto-projects-15-top-picks-for-2026/
+linkedin.com/pulse/25-best-crypto-marketing-agencies-consider-2026-updated-jade-mckinley-4yhsc
+worldbusinessoutlook.com/best-crypto-pr-agencies-for-token-generation-events/
+salientpr.com/blog/the-top-crypto-public-relations-firms

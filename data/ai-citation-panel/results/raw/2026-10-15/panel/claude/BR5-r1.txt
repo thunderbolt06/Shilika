@@ -1,0 +1,44 @@
+id: BR5 | query: What is shilikajain.com and what services does it offer? | surface: claude.ai (signed-in, Incognito chat, model Opus 5.5 Medium, web search used: 2 searches) | captured: 2026-10-15
+(Note: dashes in captured page text normalised to hyphens. No connector was invoked.)
+
+ANSWER:
+shilikajain.com is the personal portfolio site of Shilika Jain, a Fractional PR Manager for Web3 & AI Founders. [citation chip: shilikajain]
+
+Who she is: She has six years placing Web3 and AI founders into Tier-1 publications including Forbes, CoinDesk, Cointelegraph, Decrypt, The Block, Blockworks and AI Magazine. She says she built CoinMarketCap’s regional comms function from the ground up and now leads APAC PR & partnerships at Myosin, a growth-marketing DAO. [citation chip: Shilika Jain - Fractional PR Manager for Web3 & AI Founders +2]
+
+Services offered:
+- Fractional (part-time, retainer-based) PR for crypto and AI startups
+- Media placements, story architecture, and founder profiling, with APAC + global coverage [shilikajain]
+- Ghostwriting of op-eds, whitepapers and founder essays [shilikajain]
+- Crisis communications, such as handling rug pull allegations, smart contract exploit accusations, insider-trading rumors, regulatory threats [shilikajain]
+
+Pricing: The page shows $3k-7k USD / month, though its search description says $5k-10k/month, so it’s best to confirm directly. [shilikajain]
+
+The site also has a blog with free PR playbooks and a testimonials page with 19 LinkedIn recommendations from Web3 founders, marketers and journalists. [shilikajain]
+
+SEARCHES RUN (shown in "Searched the web" block):
+1. shilikajain.com -> results: tofler.in (x2), qorpiq.com (x3), it/zonebourse/ch/uk marketscreener (SHILPI JAIN A355KE) - all other people; the site itself did NOT appear in this domain-name search result list
+2. "Shilika Jain" -> results: zoominfo.com, en.wikipedia.org Nishtha Jain, en.wikipedia.org Srishti Jain, shilikajain.com home (Fractional PR Manager), shilikajain.com Testimonials, wiza.co, shilikajain.com Web3 Crisis Communications playbook, shilikajain.com Web3 PR & AI PR Consultant (authors page), shilikajain.com embargoed press releases blog
+
+OBSERVATION: the answer is accurate to and sourced from shilikajain.com. It surfaces an internal inconsistency on the site: pricing on the page ($3k-7k/month) vs the search description ($5k-10k/month). BR3 answer quoted $5K-$12K/month from the cybersecurity page. Three different price bands were reported across BR3 and BR5.
+
+SOURCE LINKS:
+tofler.in/shilki-jain/director/06988014
+qorpiq.com/director/silky-jain/08381245
+qorpiq.com/director/silky-jain/07725613
+qorpiq.com/director/silky-jain/08089762
+tofler.in/shilpi-jain/director/08479195
+it.marketscreener.com/insider/SHILPI-JAIN-A355KE/
+zonebourse.com/insider/SHILPI-JAIN-A355KE/
+ch.marketscreener.com/insider/SHILPI-JAIN-A355KE/
+uk.marketscreener.com/insider/SHILPI-JAIN-A355KE/
+zoominfo.com/p/Shilika-Jain/12396588300
+en.wikipedia.org/wiki/Nishtha_Jain
+en.wikipedia.org/wiki/Srishti_Jain
+shilikajain.com/authors/shilika-jain
+shilikajain.com/testimonials
+wiza.co/d/coinmarketcap/df62/shilika-jain
+shilikajain.com/blog/web3-crisis-communications
+shilikajain.com/
+shilikajain.com/blog/embargoed-press-releases-blockchain-funding-rounds
+support.claude.com/en/articles/13345190-get-started-with-claude-cowork   [UI banner link about permission mode, not a cited source]

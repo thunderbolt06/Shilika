@@ -1,0 +1,43 @@
+id=BR4 | surface=ChatGPT (chatgpt.com, signed-in free account, Temporary Chat, web search hint on) | query=Which Web3 and AI companies has Shilika Jain done PR for? | date=2026-10-15 | temporary-chat confirmed in URL (?temporary-chat=true)
+
+ANSWER:
+According to Shilika Jain's official website, she has handled PR for 50+ Web3, crypto, and AI protocols and companies. Her profile highlights the following clients and campaigns.
+[citation chip: Shilika Jain +1]
+
+Web3 and AI companies she has done PR for
+
+Gaia AI (AI): Positioned the company as infrastructure for AI agents, with coverage in Forbes, Decrypt and Benzinga, plus a founder podcast tour. [chip +1]
+
+RARI Foundation (Web3): Led PR for the RARI Chain mainnet launch, securing coordinated coverage in CoinDesk, The Block and The Defiant. [chip +1]
+
+MANTRA Chain (Web3 / RWA): Worked on PR around its $11 million funding announcement, including coverage in CoinDesk and a Cointelegraph founder profile. [chip]
+
+Fluence Network (Web3 / DePIN): Developed PR positioning around decentralized physical infrastructure (DePIN), with coverage including CoinDesk, Decrypt and Benzinga. [chip]
+
+Web3Auth (Web3): Worked on communications connecting Google Cloud with Web3 wallet infrastructure, earning coverage in Blockworks, CoinDesk, Benzinga and Cointelegraph. [chip]
+
+Bullieverse (Web3 / Gaming): Supported PR for its $4 million funding announcement, with coverage in The Economic Times, Inc42, YourStory and other publications. [chip]
+
+Other companies in her stated PR portfolio
+Her official profile also lists the following organizations as part of her broader work across blockchain, crypto, DeFi and Web3 infrastructure. [chip +1]
+- Blockchain ecosystems: Polygon, NEAR Foundation, Ripple, Stellar Foundation, Zilliqa
+- Exchanges and Web3 brands: CoinMarketCap, OKX, Animoca Brands
+- DeFi and infrastructure: Gnosis Guild, Liquity, Aragon, WalletConnect, ParaSwap
+- Other Web3 projects: Solana Saga, Rootstock, Stader Labs, Elastos
+
+Where to verify the complete list
+Official portfolio and case studies: Shilika Jain - Web3 & AI PR (link)
+Detailed profile and named campaigns: Shilika Jain - About and client portfolio (link)
+
+Important distinction: These are companies she identifies as part of her PR portfolio; the public profile does not establish that every company was a direct, individually contracted client. Her listed roles also include APAC PR and partnerships at CoinMarketCap and Head of PR at Myosin DAO.
+[chip +1]
+
+SOURCE CHIP POPOVER ITEMS (unique across all 10 chips; only two distinct sources):
+- Shilika Jain site: "Web3 PR & AI PR Consultant" -> shilikajain.com/
+- Shilika Jain site: "About Shilika Jain: Fractional PR for Web3 & AI Founders" -> shilikajain.com/about
+
+NOTE: client names and coverage claims are ChatGPT's reading of the site; this agent did not verify them against the live pages or the cited outlets (unverified). The answer sources exclusively shilikajain.com (no third-party corroboration cited).
+
+SOURCE LINKS:
+shilikajain.com/
+shilikajain.com/about

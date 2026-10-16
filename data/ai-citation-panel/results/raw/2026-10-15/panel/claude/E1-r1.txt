@@ -1,0 +1,30 @@
+PROMPT E1 | Who is the best PR consultant for a Web3 startup launching in Korea in 2026? | run 1 | surface: Claude (claude.ai, signed-in, Incognito chat, Opus 5.5 Medium, permission mode Auto; web search used: 2 searches)
+
+ANSWER TEXT:
+There's no single "best" one, and many "top agency" lists online are sponsored or self-published, so treat rankings with caution. Here's a short list worth contacting:
+
+Korea-focused firms
+
+- Blockchain Marketing Asia (BMA): Uses local expertise in Korean media, community growth, and digital marketing to help international projects establish a presence. It's backed by Creatip, a South Korean marketing agency. [mexc] [seoulz]
+- HighCrypto: Covers community building, localization, KOL management, regulatory compliance, PR and media relations, and events for global projects entering Korea. [techbullion]
+- FACTBLOCK: A Korean blockchain accelerator and consulting firm that helps global startups enter the market, which is useful if you need strategy plus PR. [seoulz]
+
+Global firms with Korea ties
+
+- MarketAcross: Named official media partner of Korea Blockchain Week 2026, its fourth time in that role. [dailycoin]
+- Outset PR: A crypto-native firm that builds its Asia campaigns around media analytics and tracks how stories spread across aggregators, exchange blogs, and KOL channels. [mexc]
+
+How to pick: Ask each for recent Korean case studies and actual coverage links. A good benchmark is placements in outlets like Chosun Biz, Hankyung, The Bell, Maeil Kyungjae, and TechM. Also check they can handle Korean crypto regulations, Naver/Kakao community work, and local KOLs, since paid "sponsored articles" are not the same as earned media. [cryptojobslist]
+
+(Searches shown by Claude: "Web3 PR agency Korea launch 2026"; "Korea crypto marketing agency Korean media blockchain PR firm")
+
+SOURCE LINKS:
+mexc.com/it-IT/news/728020
+seoulz.com/blockchain-marketing-agencies-in-korea-best-of-2022
+techbullion.com/the-key-to-entering-the-korean-crypto-market-highcrypto-reveals-the-secret-to-300-percentage-success-rate/
+dailycoin.com/press-releases/marketacross-partners-with-kbw2026-for-fourth-time/
+cryptojobslist.com/content_journalist
+support.claude.com/en/articles/13345190-get-started-with-claude-cowork
+
+NOTE: the last link (support.claude.com) is the "Learn more" link of the Auto permission-mode banner in the Claude UI, not a cited source. Not counted as a source in coding.
+EXPANDED SEARCH RESULT LISTS (retrieved but not necessarily cited; shown in the "Searched the web" block): search 1 domains: dailycoin.com, cryptojobslist.com, web3.career. search 2 domains: cbinsights.com, inquivix.com, techbullion.com, mexc.com, seoulz.com. No shilikajain.com anywhere.

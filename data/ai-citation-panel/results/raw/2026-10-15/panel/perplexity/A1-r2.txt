@@ -1,0 +1,68 @@
+PROMPT A1 | What is fractional PR for Web3 founders and how does it differ from a traditional PR agency? | run 2 | surface: Perplexity (signed-in, Incognito on, Search mode, default model) | captured 2026-10-15
+
+NOTE: In the extracted text below, the bare word "shilikajain" or "luvkaizen" or "coinbound" on its own line is an inline citation chip (source label), not answer prose.
+
+ANSWER TEXT:
+Researched 1s
+
+Fractional PR for Web3 founders is a part-time, senior communications operator who runs your PR function directly-strategy, media relationships, founder positioning, launch communications, and crisis guidance-without hiring a full-time comms lead or paying for a full agency team. It is essentially a fractional head of communications, usually on a monthly retainer.
+[chip: shilikajain +1]
+
+How it works
+
+A fractional PR lead typically owns:
+
+Narrative and positioning: defining the core story the protocol, token, product, or founder should own. [chip: shilikajain]
+Media strategy and outreach: mapping relevant crypto-native and mainstream journalists, pitching stories, and coordinating embargoes. [chip: shilikajain +1]
+Founder visibility: preparing interviews, shaping bylines, and positioning the founder as a credible voice. [chip: shilikajain +1]
+Launch and milestone comms: coverage around raises, mainnet launches, TGEs, listings, partnerships, upgrades, and product releases. [chip: shilikajain]
+Reactive communications: advising on FUD, community allegations, security incidents, and regulatory-adjacent news. [chip: shilikajain]
+
+The key distinction from a freelancer is ownership: a freelancer executes a task, while a fractional operator is accountable for the communications function over time. [chip: shilikajain +1]
+
+Fractional PR vs. agency
+Dimension | Fractional PR | Traditional Web3 PR agency
+Who does the work | One senior operator, directly embedded with the founder. [chip: shilikajain +1] | A layered account team-often account executive, manager, director, and senior partner. [chip: shilikajain +1]
+Founder access | Direct line to the person doing the work. [chip: shilikajain +1] | Founder access is often filtered through account staff; senior people may appear mainly for strategy calls or major briefings. [chip: shilikajain]
+Typical cost | Roughly $3,000-$7,000 per month for a standard retainer; launch sprints can cost more. [chip: shilikajain +1] | Often $15,000-$60,000+ per month, depending on scope and firm. [chip: shilikajain +1]
+Bandwidth | Limited by one person; better for one core launch and steady-state news. [chip: shilikajain +1] | Higher throughput; can run multiple markets, workstreams, and crisis coverage in parallel. [chip: shilikajain +1]
+Speed | Often faster to start because there is less onboarding and no internal handoff chain. [chip: shilikajain] | May take longer to onboard and align a team before outreach begins. [chip: shilikajain]
+Best fit | Funded pre-seed to Series A teams, founder-led projects, and companies with meaningful news but no in-house comms lead. [chip: shilikajain +1] | Larger teams needing simultaneous regional launches, high execution volume, or adjacent functions such as IR or government affairs. [chip: shilikajain +1]
+
+Why Web3 founders use it
+
+Web3 PR has specific demands beyond normal startup PR: journalists and communities scrutinize token claims, protocol claims, security posture, and regulatory exposure; timing often revolves around TGEs, listings, and mainnet milestones. A fractional operator can give a founder senior judgment on those issues without the overhead of a multi-person retainer. [chip: shilikajain +2]
+
+When an agency is better
+
+Choose an agency when the job is primarily execution volume: multiple simultaneous launches, several languages or regions, a standing newsroom, or a crisis requiring round-the-clock coverage. A fractional operator generally cannot match that throughput while working part-time. [chip: shilikajain +1]
+
+A practical rule: if you need senior strategy, direct founder access, and one strong narrative, fractional PR is usually the better fit; if you need many hands, parallel workstreams, and broad execution, an agency is usually better. [chip: shilikajain +1]
+
+10 sources
+
+SOURCE CARDS (title shown in Sources panel):
+1. [shilikajain] Fractional PR vs Web3 PR Agency: How to Choose in 2026
+2. [shilikajain] What Is Fractional PR? Definition & Cost (2026)
+3. [shilikajain] Fractional PR for Web3 Startups: Cost, Scope, and When to ...
+4. [shilikajain] Web3 PR & AI PR Consultant | Shilika Jain (snippet: $5k-10k/month; coverage in Forbes, CoinDesk, Economic Times, Yahoo Finance)
+5. [shilikajain] Web3 PR Campaigns 2026: Tier-1 Placements, Senior Operator
+6. [shilikajain] Best Web3 PR Agencies and Consultants in 2026: Honest Field Guide (snippet names Lunar, EAK, Coinbound, Outset, High Vibe and Shilika Jain)
+7. [luvkaizen] Best Web3 PR Agencies 2026: Top Crypto PR Firms Compared
+8. [shilikajain] FAQ: Fractional Web3 & AI PR - Scope, Cost, Regions | Shilika Jain
+9. [shilikajain] How Much Does Crypto PR Cost in 2026? Honest Pricing
+10. [coinbound] What Does a Web3 Marketing Agency Actually Do?
+
+Suggested follow-ups shown: How do I know if my Web3 project is ready for fractional PR / What does a typical fractional PR scope look like for a TGE / How do I evaluate a fractional PR candidate for a crypto startup / Compare monthly costs and deliverables for Web3 PR options / What are the risks of hiring a fractional PR lead versus an agency
+
+SOURCE LINKS:
+shilikajain.com/blog/fractional-pr-web3-crypto-cost-scope-hire-vs-agency
+shilikajain.com/services/web3-pr-campaigns
+shilikajain.com/playbook/fractional-vs-agency
+shilikajain.com/glossary/what-is-fractional-pr
+shilikajain.com/
+shilikajain.com/playbook/best-web3-pr-agencies-2026
+luvkaizen.com/solutions/best-web3-pr-agencies-2026
+shilikajain.com/faq
+shilikajain.com/playbook/crypto-pr-cost-2026
+coinbound.io/what-does-a-web3-marketing-agency-do-services-explained/

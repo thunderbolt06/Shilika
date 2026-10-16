@@ -1,0 +1,57 @@
+PROMPT ID: E2 | PROMPT: Who runs crypto PR in Japan in 2026 and what does it cost to hire them? | RUN: 2 | SURFACE: Gemini (gemini.google.com, Temporary chat, default model Flash)
+
+NOTE: inline source chips appear as labels in the text ("Shilika Jain", "LuvKaizen"), reproduced on their own lines where get_page_text placed them. Chip anchors were read by opening each chip with a real click. "Shilika Jain" appears ONLY as a chip label after the first paragraph, not in the answer prose.
+
+In Japan's Web3 and crypto ecosystem, PR operates as a hyper-localized, standalone effort rather than a bundled APAC offering. Media channels and influencer platforms in Japan (such as X/Twitter Japan, Line, Voicy, CryptoTimes JP, CoinPost, Iolite, and Cointelegraph Japan) rely heavily on local relationships, translation/localization, and strict compliance alignment with Japan's Financial Services Agency (FSA) and JVCEA.
+[chip: Shilika Jain]
+
+Who Runs Crypto PR in Japan?
+
+The landscape is divided into three primary categories of operators:
+
+1. Native Japanese Web3 & Crypto Agencies
+
+CoinPost / Links: CoinPost is one of Japan's largest Web3 media outlets and runs dedicated agency services, PR distribution, and event-marketing legs.
+
+CryptoTimes / Stake Technologies ecosystem partners: Tech-adjacent marketing and PR teams tied to local ecosystems (like Astar Network's media/community partners) that help foreign protocols localize for Japanese builders and retail investors.
+
+MarketAcross / Baden Bower (Japan Desks): Global PR entities with localized Japanese execution teams to handle press releases, native media placements, and compliance-aware communication.
+
+2. Specialized Regional APAC Operators
+
+DIFY Singapore / MarketAcross / Regional Firms: Regional APAC communications agencies that offer specific "Japan Launch Sprints" by partnering directly with Tokyo-based media, translators, and local Key Opinion Leaders (KOLs).
+
+3. Fractional Senior Operators & Local PR Consultants
+
+Bilingual crypto communications consultants based in Tokyo or Osaka who manage local journalist relationships, ghostwriting, and event activations directly without agency overhead.
+
+What Does It Cost to Hire Them in 2026?
+
+Crypto PR pricing in Japan is structured around market entry launches, ongoing retainers, or specific press release placements:
+[chip: LuvKaizen]
+
+Cost Breakdown by Service Model
+Engagement Type | Typical Cost (USD) | Scope & Key Deliverables
+Japan Single-Launch / Campaign Sprint | $7,000 - $15,000 (per launch) | Localized press releases, Tier-1 Japanese media pitching (CoinPost, CryptoTimes JP, Cointelegraph JP), and localized X/Voicy KOL outreach.
+Monthly Agency Retainer (Mid-Tier) | $8,000 - $15,000 / month | Ongoing local media relations, narrative positioning, executive ghostwriting (translated), and local event/meetup integration.
+Fractional Japanese PR Consultant | $3,000 - $7,000 / month | Direct senior-level execution without agency markups; best for seed-stage startups entering the market.
+Full TGE / Exchange Listing Push | $25,000 - $50,000+ (6-8 week window) | Concentrated multi-channel PR blitz, top-tier publication features, podcast/event sponsorship, and heavy local KOL coordination.
+
+Key Additional & Hidden Costs in Japan
+
+Paid Wire & Guaranteed Placements: Sponsored articles or guaranteed releases on outlets like CoinPost or Cointelegraph Japan typically run $2,500 - $5,000 per publication.
+
+Localization & Translation: Translating technical Web3 copy into natural, professional Japanese usually adds $500 - $1,500 per piece if not included in the retainer.
+
+KOL / Influencer Activations: Japanese crypto KOLs on X (Twitter) or YouTube bill separately, ranging from $500 to $5,000+ per dedicated post or video review.
+
+Where would you like to go from here?
+[suggestion chips: "Compare Japan crypto PR costs with South Korea and Singapore" / "Get a checklist for launching a Web3 project in Japan"]
+
+CHIP POPUP CARDS READ (title shown on card):
+- Shilika Jain chip: "How Much Does Crypto PR Cost in 2026? Honest Pricing | Shilika Jain"
+- LuvKaizen chip: "What Does a Crypto PR Agency Do? Costs and How to Choose"
+
+SOURCE LINKS:
+shilikajain.com/playbook/crypto-pr-cost-2026
+luvkaizen.com/blogs/crypto-pr-agency-guide

@@ -1,0 +1,110 @@
+PROMPT A5 | What is the best PR setup for a recently funded Web3 or AI startup with no media presence? | run 2 | surface: ChatGPT (chatgpt.com, signed-in free account, Temporary Chat, Web search hint on) | captured 2026-10-15
+NOTE: em/en dashes in the captured text were normalised to hyphens. Inline citation chips (not prose) are marked [chip: ...]. The prose never names Shilika Jain or any consultant/firm as a recommendation; only a citation chip is labelled "Shilika Jain +2".
+
+ANSWER TEXT:
+The best PR setup for a newly funded Web3 or AI startup
+
+My recommendation: start with a senior, fractional PR lead, a focused earned-media strategy, and founder-led thought leadership - not a large agency retainer or a one-off press release campaign.
+
+For a startup with funding secured but no existing media presence, the goal is to turn that funding milestone into lasting credibility with customers, investors, developers, potential hires, and journalists.
+
+The strongest approach combines three things: a clear reason the company matters, credible third-party coverage, and a consistent founder voice. Current specialist PR offerings for AI and Web3 increasingly follow this combination rather than relying on announcements alone.
+[chip: Promethean PR +2]
+
+1. The PR operating model I'd choose
+1. One senior fractional PR lead (Start here): Owns positioning, media relationships, journalist outreach, founder messaging, launch planning, and reporting. Ideally, this person has personally secured relevant coverage in your target publications.
+2. Earned media and targeted pitching: Build relationships with a small, relevant group of journalists. Prioritise original stories, interviews, and independently reported coverage over mass press-release distribution.
+3. Founder visibility: Create a repeatable pipeline of expert commentary, contributed articles, podcasts, and interviews. The founder becomes a recognised expert in a specific category rather than just the person who raised money.
+4. Communications foundations: Prepare a press kit, founder bios, approved company facts, a media FAQ, and a crisis-response protocol. For Web3, this should also cover security incidents, token-related claims, and regulatory sensitivities.
+
+Why fractional rather than full-service? At an early stage, you need senior judgment and direct access to the person pitching journalists, without paying for a large account team before you have a steady stream of newsworthy developments.
+
+2. Build a 90-day PR plan
+Days 1-14 Foundation - Establish the story: Define the category you want to own and the audience you need to influence. Develop three distinct story angles beyond "we raised funding." Build a press kit, founder bios, company fact sheet, and journalist target list. Prepare spokespeople and agree on what can be disclosed.
+Days 15-30 Launch - Secure the first credible coverage: Pitch a funding announcement, product milestone, or differentiated company story to a carefully selected journalist. Offer founder interviews, demos, customer evidence, or original data. Coordinate publication timing where appropriate, using agreed embargoes. Publish a clear company announcement on your own channels.
+Days 31-60 Authority - Make the founder a recognised voice: Publish two strong founder-led pieces or expert commentaries. Pitch relevant podcasts and specialist publications. Provide useful commentary on industry developments. Turn early coverage into sales collateral, hiring material, and investor updates.
+Days 61-90 Momentum - Build a repeatable PR engine: Pitch a second, substantive milestone. Develop relationships with journalists covering your category. Review referral traffic, qualified inbound, media accuracy, and share of voice. Decide whether to extend the fractional engagement or hire in-house.
+
+This sequence reflects established startup media guidance: tailor pitches to individual reporters, provide a genuine reason the story matters now, and give journalists enough time to report it properly.
+[chip: TechCrunch +2]
+
+3. Tailor the strategy to Web3 versus AI
+Web3, blockchain, or crypto - Credibility, adoption, and ecosystem trust: Target crypto-native outlets such as CoinDesk and The Block, alongside relevant mainstream business and financial media. Prioritise protocol traction, developer adoption, security audits, credible partnerships, real usage, and verifiable on-chain data. Treat token launches, exchange listings, and fundraising as potential news hooks - not the entire PR strategy. Key risk: hype-heavy claims, undisclosed paid promotion, token-price implications, and security or regulatory issues.
+AI startup - Differentiation, evidence, and commercial relevance: Target relevant technology and business publications such as TechCrunch and VentureBeat, plus specialist AI media. Prioritise a specific problem the product solves, measurable performance, customer outcomes, original research, technical differentiation, and the founder's informed perspective on where the market is heading. Key risk: generic "AI-powered" messaging, unsupported performance claims, and presenting incremental features as major breakthroughs.
+
+Important: don't chase mainstream headlines before you have a credible story. A detailed, independently reported article in a publication your buyers trust can be more valuable than several low-quality mentions. For Web3, that may be a respected crypto publication; for enterprise AI, it may be a respected technology outlet or a trade publication read by buyers.
+
+4. What should you budget?
+For an early-stage company, I'd begin with a defined 90-day programme and review results before committing to a larger team.
+
+The following are indicative planning ranges, not fixed market rates or guaranteed outcomes. Published 2026 specialist pricing guides show substantial differences between fractional operators, specialist agencies, and larger campaigns.
+[chip: Shilika Jain +2]
+
+Founder-led PR with freelance support: $1,000-$3,000/month - Very lean teams
+Senior fractional PR lead: $3,000-$7,000/month - Best starting point for many funded startups
+Specialist PR agency: $7,000-$15,000+/month - Multiple audiences and ongoing campaigns
+Large international agency: $15,000-$40,000+/month - Major launches or multi-market programmes
+
+For an India-focused startup, local PR support may be substantially less expensive than a global English-language media programme. But access to Indian business media and access to global crypto or top-tier technology journalists are different capabilities, so compare proposals by target outlets and deliverables rather than price alone.
+
+What your contract should include: A written positioning and messaging strategy. A named list of target journalists and publications. Active, personalised pitching and follow-up. Founder thought leadership and interview preparation. A launch or milestone communications plan. Monthly reporting and a crisis-response plan. Clear ownership of press materials, contacts, and other work products.
+
+Avoid signing a long contract based on promises of "guaranteed Forbes coverage." Ask for verifiable examples of work, references, and clarity on whether placements are independently earned, sponsored, or syndicated.
+
+5. How to measure success
+Don't judge your PR partner on the number of links alone.
+1 Media quality: Relevant, credible editorial coverage; accuracy and prominence of the story.
+2 Narrative adoption: Are journalists repeating your differentiated positioning, rather than just reporting the funding amount?
+3 Business impact: Qualified inbound leads, demo requests, developer interest, partnership conversations, and recruiting.
+4 Compounding visibility: Branded search, referral traffic, share of voice, and whether your company appears accurately in relevant AI-generated answers.
+Agree on baseline metrics before the engagement begins and review them monthly. PR attribution is imperfect, so combine coverage data with customer feedback, referral analytics, and sales conversations instead of claiming that every new lead came from a press article.
+[chip: PRSA +1]
+
+6. Where I'd start in practice
+My first move would be to hire one senior operator for a 90-day trial, focus on one core narrative, and build a small portfolio of high-quality coverage. I'd add a broader agency team only when the company has multiple launches, markets, or audiences that justify the extra cost.
+
+To make this recommendation specific to your startup, one detail matters most: Tell me a little about the company and I'll tailor the PR setup, hiring model, budget, and first media targets.
+(interactive questionnaire: startup type, funding stage, target market, monthly PR budget, announced or not, "Build my PR plan" - ignored)
+
+SOURCE LINKS:
+(the prescribed DOM anchor script returned an empty list for this answer; citations are rendered as chips that are not anchors)
+
+CHIP / CITATION-PAYLOAD URLS (read from the page's React props, 38 URLs in payload order; may include retrieved sources that are not individually visible as chips):
+guerrillabuzz.com/crypto-thought-leadership-agency
+shilikajain.com/pages/web3-pr-agency-india
+shilikajain.com/pages/crypto-pr-agency-for-startups
+shilikajain.com/
+shilikajain.com/playbook/ai-startup-pr-2026
+shilikajain.com/playbook/fractional-pr-cost-pricing-2026
+shilikajain.com/pages/fractional-pr-consultant-web3
+shilikajain.com/playbook/ai-pr-agency-pricing-packages-2026
+shilikajain.com/playbook/crypto-pr-cost-2026
+shilikajain.com/playbook/fractional-vs-agency
+shilikajain.com/pages/fractional-pr-consultant
+chainpeak.io/pr-media/
+thegroupthree.com/
+thegroupthree.com/blockchain-pr-services/
+thegroupthree.com/services/
+techtokenagency.in/
+prometheanpr.com/
+quorum-media.com/services/crypto-web3-pr.html
+quorum-media.com/blog/web3-pr-agency-guide.html
+obapr.com/resources/pr-for-ai-startups-the-best-2026-funding-to-launch-communications-strategy/
+techcrunch.com/2019/04/23/how-to-pitch-to-a-tech-journalist/
+techcrunch.com/2017/09/23/how-to-announce-a-funding-round/
+techcrunch.com/2008/05/25/pr-secrets-for-startups/
+techcrunch.com/2020/01/03/startup-pr-choose-reporter/
+techcrunch.com/2021/05/14/5-ways-to-raise-your-startups-pr-game/
+techcrunch.com/2019/04/23/the-master-list-of-pr-donts/
+techcrunch.com/2021/09/29/dear-sophie-any-advice-for-getting-media-coverage-for-my-startup/
+jobs.prsa.org/career-resources/finding-talent-10/how-to-build-a-pr-strategy-for-your-saas-startup-in-20 (path truncated by me)
+jobs.prsa.org/career-resources/finding-talent-10/what-is-public-relations-a-complete-guide-for-b2b-saas
+prsa.org/article/how-to-start-measuring-your-pr-success
+connect.prsa.org/blogs/katharine-d-paine/2026/03/25/good-advice-from-a-great (path truncated by me)
+melivana.com/research/india-pr-pricing-report/
+christianlehman.com/blog/ai-pr-agency-pricing-retainer-costs-2026
+dtsworld.in/blog/how-much-does-pr-cost-in-india-agency-pricing-retainer
+cracklepr.com/insights/tech-pr-agency-pricing-guide-2026
+subscribepr.com/blog/how-much-does-a-pr-retainer-cost-for-startups/
+solana.com/news/breakpoint-returns-2023
+schovia.com/services/enterprises/

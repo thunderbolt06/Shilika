@@ -1,0 +1,47 @@
+ID: BR5 | QUERY: What is shilikajain.com and what services does it offer? | SURFACE: Gemini (gemini.google.com, signed-in Plus account, Temporary chat, default model Flash) | DATE: 2026-10-15
+RUN NOTE: Gemini showed a "Searching the web" step before answering.
+
+ANSWER:
+Shilikajain.com is the official portfolio and consultancy website for Shilika Jain, a senior fractional PR consultant and communications operator specializing in Web3, AI startups, and Cybersecurity. [chip: www.shilikajain.com]
+
+She provides fractional PR management - serving as an embedded, senior-level PR lead for startups, Web3 protocols, and tech founders as an alternative to hiring a full-time in-house executive or paying traditional agency retainers. [chip: Shilika Jain]
+
+Core Services Offered
+
+1. Web3 PR & Token Launch (TGE) Communications
+- Earned Media Placements: Securing coverage in tier-1 crypto and mainstream publications like CoinDesk, Cointelegraph, Decrypt, Forbes, and The Block. [chip: Shilika Jain]
+- Token Generation Event (TGE) Comms: Strategic launch messaging, exchange relations announcement campaigns, and regulatory/compliance-aware PR timing. [chip: www.shilikajain.com]
+- Crisis Management: Crisis communications and messaging strategy for breaches, market shifts, or protocol issues.
+
+2. AI Startup & Cybersecurity PR
+- Category Narrative Building: Shaping market positioning for AI and deep-tech founders. [chip: Shilika Jain]
+- Cybersecurity Press & Analyst Relations: Outreach to security outlets (Dark Reading, SC Media, CyberScoop) and top research/analyst firms (Gartner, Forrester, IDC). [chip: www.shilikajain.com]
+- AI Search Optimization (AEO/GEO): Content and PR strategies designed to get protocols, startups, and vendors cited directly inside AI search engine overviews. [chip: www.shilikajain.com]
+
+3. Founder Profiling & Thought Leadership
+- Op-Ed Ghostwriting: Ghostwriting opinions and essays for outlets like CoinDesk Opinion, Cointelegraph, Decrypt, Forbes Council, and AI Magazine. [chip: www.shilikajain.com]
+- Podcast Tours & Speaker Placement: Booking founders on targeted podcasts and key regional/global industry events (e.g., Token2049, Korea Blockchain Week, WebX). [chip: Shilika Jain]
+- Social Strategy: Executive LinkedIn and X (Twitter) content strategy aligned with the founder's personal voice. [chip: www.shilikajain.com]
+
+4. APAC & MENA Regional PR Localization
+- Native Media Placement: Regional press distribution across key markets in Asia-Pacific and MENA (including Korea, Japan, Greater China, India, and the UAE) across outlets such as BloomingBit, CryptoTimes JP, ChainCatcher, Inc42, and Cointelegraph Arabic. [chip: Shilika Jain]
+- Event-Circuit Leverage: On-the-ground media coordination and press briefings during regional blockchain and AI summits. [chip: Shilika Jain]
+
+5. KOL & Influencer Marketing
+- Vetted creator activation across X, Telegram, YouTube, and Farcaster. [chip: Shilika Jain]
+- Independent fraud audits on influencer metrics, compliant briefing guidelines (FTC/SEC aware), and on-chain attribution tracking. [chip: Shilika Jain]
+
+6. Technical Content Writing
+- Productized ghostwriting packages including founder essays, long-form thought leadership pieces, whitepaper sprints, and pitch-ready narrative decks built for technical accuracy. [chip: www.shilikajain.com]
+
+Service Model & Engagement
+- Target Audience: Pre-Series B tech startups, crypto/blockchain protocols, AI founders, and senior CMOs.
+- Engagement Types: Monthly fractional retainers (typically $5,000-$10,000/month), fixed-scope content sprints (e.g., whitepapers, op-eds), or one-off launch campaigns. [chip: www.shilikajain.com]
+
+NOTES (collector): 16 source chips, all labelled "www.shilikajain.com" or "Shilika Jain"; the chip popups resolved to shilikajain.com/, shilikajain.com/speaker, shilikajain.com/pages and shilikajain.com/services. The monthly retainer here ($5,000-$10,000) differs from BR3, where Gemini said $3,000-$7,000 (which matches the site's own "$3,000 to $7,000 per month" wording on most pages; a "$5,000 to $10,000" range also appears in the site's app/_partials/article-97-body.html, so the BR5 figure may come from that page).
+
+SOURCE LINKS:
+shilikajain.com/
+shilikajain.com/speaker
+shilikajain.com/pages
+shilikajain.com/services

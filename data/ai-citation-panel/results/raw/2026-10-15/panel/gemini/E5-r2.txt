@@ -1,0 +1,66 @@
+PROMPT ID: E5 | PROMPT: Who runs Web3 and AI PR for Indian founders in 2026? | RUN: 2 | SURFACE: Gemini (gemini.google.com, Temporary chat, default model Flash)
+
+NOTE: inline source chips appear as labels in the text ("Shilika Jain", "Unchained Summit", "Metamorphosis 2026 | India's Premier Web3 & AI Gala"), reproduced on their own lines where get_page_text placed them. Chip anchors were read by opening each chip with a real click (all five "Shilika Jain" chips resolved to the same URL).
+
+In the Web3 and AI ecosystem, public relations for Indian and Indian-origin founders is driven by specialized boutique agencies, crypto/emerging-tech comms leaders, and global Web3 growth DAOs/agencies with dedicated APAC leads.
+
+Key figures and agencies leading PR, communications, and media strategy in this space include:
+
+1. Key Individuals & Emerging-Tech PR Strategists
+
+Shilika Jain (Comms & APAC PR Lead)
+
+Focus: Web3, Crypto, and DeepTech/AI founders (both India-based and NRI/global Indian founders).
+[chip: Shilika Jain]
+
+Role: Leads APAC Comms & Partnerships at Myosin (a Web3 growth marketing & comms DAO) and runs specialized PR practices for emerging tech.
+[chip: Shilika Jain]
+
+Coverage & Positioning: Specializes in securing tier-1 tech & business exclusives (Inc42, Economic Times / ETtech, Forbes India, Mint, YourStory) alongside global crypto/AI outlets (CoinDesk, Decrypt, The Block). She is noted for navigating local compliance positioning, such as DPDP Act compliance for AI data and Indian regulatory frameworks for Web3.
+[chip: Shilika Jain]
+
+2. Specialized Web3 & Emerging-Tech Agencies
+
+Myosin
+
+A decentralised growth-marketing and PR collective with a strong presence in India and APAC. They specialize in go-to-market strategies, token launches, and category-defining founder positioning across Web3 and AI.
+[chip: Shilika Jain]
+
+MarketAcross
+
+A dominant global Web3 PR and content marketing agency that manages campaigns for major global protocols, L1/L2 networks, and high-profile Indian Web3 founders entering international markets.
+
+Serotonin
+
+A premier global Web3 & tech marketing/PR firm (led by Amanda Cassatt). They frequently work with top-tier Indian crypto infrastructure protocols (e.g., L2s, data availability layers) scaling globally.
+[chip: Unchained Summit]
+
+3. Tech & Mainstream Indian Agencies Handling AI & Web3
+
+For AI and Web3 startups targeting mainstream enterprise, policy, and retail tech audiences within India, specialized technology arms at major PR firms handle corporate comms:
+
+Value360 Communications: One of India's largest tech PR agencies, regularly representing fintech, consumer AI platforms, and venture-backed startups in major Indian business press (Economic Times, Business Standard, Mint).
+
+Avian WE / Edelman India: Handle strategic positioning and policy-adjacent communications for mature deep-tech, enterprise AI, and Web3 infrastructure platforms.
+
+Bharat Web3 Association (BWA) Ecosystem Partners: Ecosystem builders working alongside organizations like the BWA (led by Dilip Chenoy) and regional tech cells to manage public affairs and policy comms for crypto and AI founders in India.
+[chip: Metamorphosis 2026 | India's Premier Web3 & AI Gala]
+
+Key Media Outlets Targetted for Indian Founders
+
+PR strategies for Indian Web3 and AI founders typically target two distinct media tracks:
+
+Domestic Business & Tech Press: Inc42, ETtech / Economic Times, Forbes India, Mint, YourStory, and Moneycontrol.
+[chip: Shilika Jain]
+
+Global Industry Outlets: CoinDesk, Cointelegraph, Decrypt, The Block, and TechCrunch.
+
+CHIP POPUP CARDS READ (title shown on card):
+- Shilika Jain chips (5 of 5 opened): "India Web3 & AI PR 2026: Inc42, Economic Times, Forbes India" (Shilika Jain)
+- Unchained Summit chip: "India Speakers 2026 - Top Web3 & Crypto Leaders" (Unchained Summit)
+- Metamorphosis chip: "Metamorphosis 2026 | India's Premier Web3 & AI Gala" (Metamorphosis)
+
+SOURCE LINKS:
+shilikajain.com/india
+unchainedsummit.com/india/speakers/
+metamorphosisconf.com/speakers/

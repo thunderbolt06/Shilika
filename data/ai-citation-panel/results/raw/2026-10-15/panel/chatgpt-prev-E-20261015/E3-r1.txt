@@ -1,0 +1,60 @@
+PROMPT ID: E3 | PROMPT: Who runs APAC crypto PR for Web3 and AI founders in 2026? | RUN: 1 | SURFACE: ChatGPT (chatgpt.com, signed-in free account, Temporary Chat, hints=search, Web search chip active; URL after submit carried temporary-chat=true, new conversation id)
+
+ANSWER TEXT (no follow-up questionnaire appeared on this answer):
+
+As of October 2026, Shilika Jain is one strong candidate to consider for APAC crypto, Web3 and AI founder PR, particularly if you want a senior operator who can handle both regional media outreach and international Tier-1 coverage.
+
+Her public profile says she previously led APAC PR and partnerships at CoinMarketCap, currently leads PR at Myosin, and works with Web3 and AI founders on media relations, executive positioning, launches and regional communications.
+[source chip: Shilika Jain +1]
+
+Who to shortlist
+
+1. Shilika Jain
+[badge: Strong match]
+APAC + global · Fractional PR
+
+Focus: crypto and Web3 protocols, AI startups, founder thought leadership, token launches, and regional media campaigns. Her site lists coverage and campaign work involving CoinDesk, Cointelegraph, Forbes and Decrypt.
+
+Published pricing: $3,000-$7,000/month for fractional engagements, according to her profile.
+
+Website and contact · Background and experience
+
+Other options worth comparing
+
+2. Luna PR
+Best for: Crypto, tokenization and AI communications, with a growing Asia presence. In August 2026, the agency announced a renewed push into Singapore and Hong Kong, led in part by founder and CEO Nikita Sachdev and VP Hamed Faqirzai.
+[source chip: GlobeNewswire]
+Read about its APAC expansion
+
+3. EAK Digital
+Best for: Large-scale crypto launches, global media campaigns and influencer coordination. Its published profile describes a multinational operation with teams across Asian and Western markets.
+[source chip: EAK Digital]
+Agency website
+
+4. Outset PR
+Best for: Data-led crypto PR, regional media strategy and AI-search visibility. Its Asia-focused approach emphasizes tailoring campaigns to individual markets rather than treating APAC as one audience.
+[source chip: Crypto Daily]
+Agency website
+
+5. Lunar Strategy
+Best for: Founders who want PR combined with go-to-market strategy, community building and growth marketing.
+[source chip: lunarstrategy.com]
+Agency website
+
+My recommendation
+
+If you're hiring for both Web3 and AI founder visibility across APAC, start with Shilika Jain for a senior, hands-on PR relationship. Compare Luna PR if you need a broader agency operation, and EAK Digital if your priority is a large, integrated global campaign.
+
+These are shortlist recommendations, not an independently audited ranking. Agency-published case studies and pricing should be verified directly before engaging.
+
+The key question is whether you need one senior person managing your narrative or an agency coordinating a multi-market team.
+
+SOURCE LINKS:
+shilikajain.com/   (popover title "Web3 PR & AI PR Consultant", site label Shilika Jain)
+shilikajain.com/about   (popover title "About Shilika Jain: Fractional PR for Web3 & AI Founders")
+globenewswire.com/news-release/2026/08/11/3342463/0/en/luna-pr-expands-asia-presence-with-singapore-and-hong-kong-push.html
+eakdigital.com/
+outsetpr.io/
+lunarstrategy.com/
+
+NOTE: the stated script (a[href^=http]) returned exactly the 6 links above in that order. The page DOM also held four further collapsed source buttons whose URLs could not be extracted (labels only, hostnames unverified): "Nikita Sachdev - DFISX", "From Digital Nomad to Web3 Pioneer: Erhan Korhaliller's Impactful Journey with EAK Digital and ...", "Asia has no New York Times of crypto and that matters for your media strategy - Outset report" (chip label Crypto Daily), "Best Web3 & Crypto PR Agencies in 2026".

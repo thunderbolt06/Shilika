@@ -1,0 +1,72 @@
+[
+  {
+    "id": "E1",
+    "ok": true,
+    "shilika_in_body": true,
+    "shilika_in_sources": true,
+    "shilika_position": 6,
+    "shilika_urls": ["shilikajain.com/playbook/best-web3-pr-agencies-2026"],
+    "shilika_quote": "Shilika Jain: A fractional PR operator with a focus on APAC localization (including Korea, Japan, and India). Recommended for pre-seed through Series A founders who prefer working directly with a senior strategist rather than a traditional account team.",
+    "entities_listed": 6,
+    "competitors": ["Cryptic Web3", "Blockchain App Factory", "MarketAcross", "Wachsman", "EAK Digital"],
+    "source_domains": ["crypticweb3.com", "chainpeak.io", "shilikajain.com"],
+    "web_search_used": true,
+    "answer_summary": "No single best pick. Lists Cryptic Web3, Blockchain App Factory, MarketAcross, Wachsman, EAK Digital, then Shilika Jain last as a fractional APAC operator for pre-seed to Series A. Gives $3k-$30k+/month ranges."
+  },
+  {
+    "id": "E2",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": true,
+    "shilika_position": 0,
+    "shilika_urls": ["shilikajain.com/playbook/crypto-pr-cost-2026"],
+    "shilika_quote": "",
+    "entities_listed": 7,
+    "competitors": ["CoinPost", "CryptoTimes (Nevula)", "ChainPeak", "AP Collective", "Surgence Labs", "MarketAcross", "Kyodo PR"],
+    "source_domains": ["shilikajain.com", "test55.cryptojournal.jp", "chainpeak.io", "lunarstrategy.com"],
+    "web_search_used": true,
+    "answer_summary": "Lists Japan media/agency hubs plus cost table ($1.5k-$30k). Shilika never named in prose; 'Shilika Jain' appears only as 3 inline source chips to her crypto-pr-cost-2026 playbook (cost framing)."
+  },
+  {
+    "id": "E3",
+    "ok": true,
+    "shilika_in_body": true,
+    "shilika_in_sources": false,
+    "shilika_position": 1,
+    "shilika_urls": [],
+    "shilika_quote": "Shilika Jain (ex-CoinMarketCap APAC PR Lead) operates as one of the prominent fractional PR operators across APAC (Korea, Japan, India, Singapore, Vietnam) and MENA.",
+    "entities_listed": 12,
+    "competitors": ["Fintech24h", "YourPRstrategist", "MarketAcross", "YAP Global", "High Vibe PR", "Surgence Labs", "Cryptic", "Serotonin", "EAK Digital", "Spark Communications", "Waxmann"],
+    "source_domains": [],
+    "web_search_used": false,
+    "answer_summary": "Glitched output: two generations joined mid-sentence. First list opens with 'Myosin DAO / Shilika Jain (Regional Head of PR)' (claims unverified), then 11 firms. No source chips or links shown. First attempt errored and was rerun."
+  },
+  {
+    "id": "E4",
+    "ok": true,
+    "shilika_in_body": true,
+    "shilika_in_sources": true,
+    "shilika_position": 7,
+    "shilika_urls": ["shilikajain.com/dubai-mena", "shilikajain.com/blog/dubai-mena-crypto-pr-service"],
+    "shilika_quote": "Fractional / Independent Advisors (e.g., Shilika Jain / Myosin Network). Focus: Boutique fractional PR leads specializing in positioning Web3/AI protocols into Gulf business outlets (Arabian Business, The National) alongside global Web3 trade press.",
+    "entities_listed": 7,
+    "competitors": ["Luna PR", "Outset PR", "FINPR", "GuerrillaBuzz", "NEXA", "LuvKaizen"],
+    "source_domains": ["shilikajain.com", "blockchair.com", "digitalnexa.com", "luvkaizen.com"],
+    "web_search_used": true,
+    "answer_summary": "Cost table: $12k-$35k sprint, $6k-$15k+/mo retainer, $20k-$40k+/mo enterprise. Six agencies, then Shilika Jain / Myosin Network as item 7 (fractional advisors). Two shilikajain.com pages cited, one under the cost factors. Needed 3 attempts."
+  },
+  {
+    "id": "E5",
+    "ok": true,
+    "shilika_in_body": true,
+    "shilika_in_sources": true,
+    "shilika_position": 1,
+    "shilika_urls": ["shilikajain.com/india"],
+    "shilika_quote": "Shilika Jain (Independent / Growth DAOs): One of the prominent specialists specifically handling Web3 and AI PR for Indian and NRI/Indian-origin founders.",
+    "entities_listed": 6,
+    "competitors": ["Marketwave", "GrowthChain", "BlockWiz", "Value360 Communications", "PR Pundit"],
+    "source_domains": ["shilikajain.com", "metamorphosisconf.com"],
+    "web_search_used": true,
+    "answer_summary": "Shilika Jain is the first named player under Key Players, with a detailed bio. Others: Marketwave, GrowthChain, BlockWiz, Value360, PR Pundit, plus BWA and Forbes India/CoinDCX as ecosystem alliances. Three Shilika chips cite shilikajain.com/india."
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "id": "A1",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": true,
+    "shilika_urls": [
+      "shilikajain.com/glossary/what-is-fractional-pr",
+      "shilikajain.com/blog/fractional-pr-web3-crypto-cost-scope-hire-vs-agency",
+      "shilikajain.com/services/web3-pr-campaigns",
+      "shilikajain.com/playbook/fractional-vs-agency",
+      "shilikajain.com/faq",
+      "shilikajain.com/playbook/crypto-pr-cost-2026",
+      "shilikajain.com/playbook/best-web3-pr-agencies-2026",
+      "shilikajain.com/"
+    ],
+    "shilika_position": 0,
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": ["shilikajain.com", "luvkaizen.com", "coinbound.io"],
+    "shilika_quote": "",
+    "web_search_used": true,
+    "answer_summary": "Defines fractional PR vs agency (one senior operator vs multi-person team; ~$3-7k vs $15-60k+/mo). Names no provider in prose; shilikajain cited via inline chip on nearly every claim; 8 of 10 sources are shilikajain.com."
+  },
+  {
+    "id": "A2",
+    "ok": true,
+    "shilika_in_body": true,
+    "shilika_in_sources": true,
+    "shilika_urls": [
+      "shilikajain.com/",
+      "shilikajain.com/playbook/crypto-pr-cost-2026",
+      "shilikajain.com/services/token-launch-pr",
+      "shilikajain.com/services/web3-pr-campaigns",
+      "shilikajain.com/pages/fractional-pr-consultant-web3",
+      "shilikajain.com/playbook/best-fractional-pr-consultant-tech-2026",
+      "shilikajain.com/pages",
+      "shilikajain.com/playbook",
+      "shilikajain.com/blog/fractional-pr-web3-crypto-cost-scope-hire-vs-agency"
+    ],
+    "shilika_position": 1,
+    "entities_listed": 6,
+    "competitors": ["Shagun Karki", "Claire C", "Carmen Pearson", "Grady Teske", "Coinbound"],
+    "source_domains": ["linkedin.com", "shilikajain.com", "coinbound.io", "cryptwerk.com", "tmco.io", "guerrillabuzz.com", "wolf.financial", "ibtimes.com", "thekollab.io", "marketerhire.com", "victoriaolsina.com", "badenbower.com", "crynet.io", "salientpr.com", "geniuspr.com", "luvkaizen.com", "dev.to", "web3connect.com", "rankkking.com", "eakwire.com"],
+    "shilika_quote": "Choose Shilika Jain if you need a dedicated crypto-native PR operator for narrative, tier-1 pitching, founder profiling, KOL waves, and TGE communications.",
+    "web_search_used": true,
+    "answer_summary": "No authoritative ranking; shortlist of 6: Shilika Jain (first in table and 'Choose' list), Shagun Karki, Claire C, Carmen Pearson, Grady Teske, Coinbound. Fractional $3-7k/mo. 41 sources, 9 on shilikajain.com."
+  },
+  {
+    "id": "A3",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": true,
+    "shilika_urls": [
+      "shilikajain.com/blog/fractional-pr-web3-crypto-cost-scope-hire-vs-agency",
+      "shilikajain.com/playbook/ai-pr-agency-pricing-packages-2026",
+      "shilikajain.com/playbook/web3-marketing-agency-guide-2026",
+      "shilikajain.com/playbook/fractional-vs-agency",
+      "shilikajain.com/faq",
+      "shilikajain.com/glossary/what-is-fractional-pr",
+      "shilikajain.com/services/web3-pr-campaigns",
+      "shilikajain.com/pages/pr-agency-for-tech-startups"
+    ],
+    "shilika_position": 0,
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": ["shilikajain.com", "marketerhire.com", "presspilot.io"],
+    "shilika_quote": "",
+    "web_search_used": true,
+    "answer_summary": "Fractional $3-14k/mo (senior operator $3-7k) vs agency $15-45k/mo; premium $30-75k+, TGE sprints $75-250k+. No provider named; shilikajain chip on nearly every claim; 8 of 10 sources are shilikajain.com."
+  },
+  {
+    "id": "A4",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": true,
+    "shilika_urls": [
+      "shilikajain.com/playbook/when-to-hire-fractional-pr-2026",
+      "shilikajain.com/playbook/ai-pr-agency-pricing-packages-2026",
+      "shilikajain.com/glossary/what-is-fractional-pr",
+      "shilikajain.com/playbook/best-fractional-pr-consultant-tech-2026",
+      "shilikajain.com/services/ai-startup-pr",
+      "shilikajain.com/pages/pr-agency-for-tech-startups"
+    ],
+    "shilika_position": 0,
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": ["shilikajain.com", "firebrand.marketing", "everything-pr.com", "presspitchai.com", "cracklepr.com"],
+    "shilika_quote": "",
+    "web_search_used": true,
+    "answer_summary": "Hire fractional first before Series B; agency when Series B+ or multi-market ($3-12k vs $15-45k/mo). No provider named in prose; shilikajain chip cited throughout; 6 of 10 sources are shilikajain.com."
+  },
+  {
+    "id": "A5",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": true,
+    "shilika_urls": [
+      "shilikajain.com/playbook/ai-startup-pr-2026",
+      "shilikajain.com/"
+    ],
+    "shilika_position": 0,
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": ["shilikajain.com", "glyph.social", "respona.com", "smartmoneymedia.org", "sproutworth.com", "ventechvc.com", "obapr.com", "the-square.co"],
+    "shilika_quote": "",
+    "web_search_used": true,
+    "answer_summary": "Founder-led proof-first PR engine plus fractional PR lead for 8-12 weeks, 3 owned assets, 20-40 journalists, 90-day plan. No provider named; shilikajain chip appears; only 2 of 10 sources are shilikajain.com."
+  }
+]

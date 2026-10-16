@@ -1,0 +1,72 @@
+[
+  {
+    "id": "D1",
+    "ok": true,
+    "web_search_used": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_urls": [],
+    "shilika_position": 0,
+    "shilika_quote": "",
+    "entities_listed": 6,
+    "competitors": ["Inkhouse", "Corporate Ink", "Code Red Communications", "PRLab", "Merritt Group", "Weber Shandwick"],
+    "source_domains": ["corporateink.com", "prlab.co", "cybersecuritymarketingagencies.com", "inkhouse.com", "coderedcomms.com", "mentionagent.ai", "merrittgrp.com", "webershandwick.com"],
+    "answer_summary": "Shortlist of 6 cyber PR firms (Inkhouse first, then Corporate Ink, Code Red, PRLab, Merritt Group, Weber Shandwick) with stage-fit table, budgets, vetting questions. Shilika Jain absent from text and sources."
+  },
+  {
+    "id": "D2",
+    "ok": true,
+    "web_search_used": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_urls": [],
+    "shilika_position": 0,
+    "shilika_quote": "",
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": ["forrester.com", "gartner.com", "reuters.com", "go.forrester.com"],
+    "answer_summary": "Explains PR and analyst relations as coordinated functions: shared narrative, 90-day plan, metrics, mistakes. Cites Forrester, Gartner, Reuters. No firms recommended; Shilika Jain absent from text and sources."
+  },
+  {
+    "id": "D3",
+    "ok": true,
+    "web_search_used": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_urls": [],
+    "shilika_position": 0,
+    "shilika_quote": "",
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": ["answermaniac.ai", "heft.dev", "arxiv.org", "developers.openai.com", "help.openai.com", "developers.google.com"],
+    "answer_summary": "GEO playbook for a security vendor: buyer-question pages, original evidence, third-party mentions, crawlability (OAI-SearchBot), 30-day plan, metrics. No firms recommended; Shilika Jain absent from text and sources."
+  },
+  {
+    "id": "D4",
+    "ok": true,
+    "web_search_used": true,
+    "shilika_in_body": true,
+    "shilika_in_sources": true,
+    "shilika_urls": ["shilikajain.com/blog/fractional-pr-cybersecurity-startup-vs-agency"],
+    "shilika_position": 0,
+    "shilika_quote": "",
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": ["otrenix.com", "securitysenses.com", "cracklepr.com", "shilikajain.com", "gabrielmarketing.com"],
+    "answer_summary": "Series B budget $10K-$25K/mo (high end $30K-$50K+), suggests $15K-$20K retainer, 6-month term. No firms named. Shilika Jain appears only as a source-chip label (blog post) after a sentence on billing scope; not in prose."
+  },
+  {
+    "id": "D5",
+    "ok": true,
+    "web_search_used": true,
+    "shilika_in_body": true,
+    "shilika_in_sources": true,
+    "shilika_urls": ["shilikajain.com/pages/cybersecurity-pr-agency-usa"],
+    "shilika_position": 0,
+    "shilika_quote": "",
+    "entities_listed": 4,
+    "competitors": ["Highwire", "Code Red Communications", "Corporate Ink", "PRLab"],
+    "source_domains": ["cybersecuritymarketingagencies.com", "highwirepr.com", "ranking-atlas.com", "coderedcomms.com", "corporateink.com", "prlab.co", "shilikajain.com", "cracklepr.com"],
+    "answer_summary": "Shortlist of 4 firms: Highwire first, then Code Red, Corporate Ink, PRLab. Shilika Jain is not recommended or shortlisted; her name appears only as a source-chip label (USA page) on the budget-range sentence."
+  }
+]

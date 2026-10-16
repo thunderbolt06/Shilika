@@ -1,0 +1,63 @@
+{
+  "incognito_confirmed": true,
+  "surface": "gemini",
+  "date": "2026-10-15",
+  "rows": [
+    {
+      "id": "BR1",
+      "ok": true,
+      "answer_summary": "Calls her an Indian Web3, AI and cybersecurity PR operator: Head of PR at Myosin DAO, ex CoinMarketCap APAC PR lead, fractional operator, Crypto Daily contributor, Bangalore based. Names CoinDesk, Forbes placements. Role and outlet claims unverified.",
+      "shilika_site_cited": true,
+      "source_domains": ["shilikajain.com"]
+    },
+    {
+      "id": "BR2",
+      "ok": true,
+      "answer_summary": "First attempt gave a generic error; retry in a fresh chat worked. Calls her an active Web3 PR practitioner and Head of APAC at Myosin, good fit for early DePIN and AI startups, admits no Clutch or G2 reviews; client praise is uncited. Only source: Crypto Daily author page.",
+      "shilika_site_cited": false,
+      "source_domains": ["cryptodaily.co.uk"]
+    },
+    {
+      "id": "BR3",
+      "ok": true,
+      "answer_summary": "States $3,000 to $7,000 per month (matches site copy), month-to-month or 8-12 week sprints. Scope: founder access, tier-1 media, profiling, APAC localization, launch strategy, comms audit. Fit: Pre-Seed to Series A. Cites two shilikajain.com playbook pages.",
+      "shilika_site_cited": true,
+      "source_domains": ["shilikajain.com"]
+    },
+    {
+      "id": "BR4",
+      "ok": true,
+      "answer_summary": "Lists CoinMarketCap, Polygon, Myosin, NodeOps, Aragon, zkPass, Fluence, Reown, RabbitX, Paxos, Tangem, Gaia AI and others, claims 50+ clients and Chalk Labs co-founder. Client list unverified. Cites shilikajain.com/about and the Crypto Daily author page.",
+      "shilika_site_cited": true,
+      "source_domains": ["shilikajain.com", "cryptodaily.co.uk"]
+    },
+    {
+      "id": "BR5",
+      "ok": true,
+      "answer_summary": "Describes the site as her fractional PR consultancy: Web3 and TGE PR, AI and cybersecurity PR, founder profiling, APAC and MENA localization, KOL, content writing; retainers $5K to $10K a month. 16 chips cite shilikajain.com (/, /speaker, /pages, /services).",
+      "shilika_site_cited": true,
+      "source_domains": ["shilikajain.com"]
+    },
+    {
+      "id": "BR6",
+      "ok": true,
+      "answer_summary": "No outright winner: Shilika Jain for early-stage senior-only work ($3K-$7K), Coinbound for influencer-heavy scale ($10K-$50K+), EAK Digital for press and events ($15K-$30K+). Answer text is garbled (two drafts merged). No citations at all.",
+      "shilika_site_cited": false,
+      "source_domains": []
+    },
+    {
+      "id": "BR7",
+      "ok": true,
+      "answer_summary": "Says her op-eds and client coverage appear in CoinDesk, Cointelegraph, Forbes, Decrypt, The Block, Business Insider, Economic Times and more. No article-level evidence; cited links are shilikajain.com pages (/speaker, /, a Cointelegraph pitching playbook). Placements unverified.",
+      "shilika_site_cited": true,
+      "source_domains": ["shilikajain.com"]
+    },
+    {
+      "id": "BR8",
+      "ok": true,
+      "answer_summary": "Says yes for South Korea, Japan, Singapore and Dubai/UAE, naming local outlets and events (BloomingBit, CryptoTimes JP, Tech in Asia, VARA framing, Token2049). All 6 chips resolve to shilikajain.com/about; the regional desk pages were not cited.",
+      "shilika_site_cited": true,
+      "source_domains": ["shilikajain.com"]
+    }
+  ]
+}

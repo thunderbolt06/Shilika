@@ -1,0 +1,94 @@
+PROMPT C3 | Who can ghostwrite and place op-eds for an AI startup founder in 2026? | run 2 | surface: ChatGPT (chatgpt.com, signed-in free account, Temporary Chat, Web search hint on) | captured 2026-10-15
+NOTE: em/en dashes in the captured text were normalised to hyphens. Inline citation chips (not prose) are marked [chip: ...].
+
+ANSWER TEXT:
+For an AI startup founder in 2026, I'd look for a thought-leadership ghostwriter who also handles editorial pitching and placement - not just a copywriter or a conventional PR agency that promises media coverage.
+
+The important distinction is whether the provider can do all three: extract a distinctive point of view from the founder, write a credible op-ed in their voice, and pitch the finished piece to an appropriate publication. Placement is never guaranteed, especially at top-tier outlets.
+
+Shortlist: who to contact
+These are the most relevant starting points I found, with an emphasis on people and firms that explicitly discuss ghostwriting and earned-media placement for technology, AI or startup founders.
+
+1. Shilika Jain - best direct fit for AI and technical founders
+Strongest specialist match
+An individual operator whose services explicitly cover op-ed ghostwriting, direct editor pitching and placement. Her website cites founder bylines in Forbes, CoinDesk, Decrypt and Benzinga, including a case involving Gaia AI.
+[chip: Shilika Jain]
+Published pricing: $2,500-$5,000 per standalone piece; $3,000-$7,000/month for a retainer, according to her current service page.
+Website: shilikajain.com
+
+2. Snake River Strategies - best for ghostwriting plus broader reputation and PR
+Offers executive op-eds, essay development, outlet targeting and placement support, combined with earned-media pitching and AI-search visibility. It is worth considering if the founder needs an ongoing communications partner rather than just an article.
+[chip: Snake River Strategies]
+Pricing: request a quote; I couldn't verify a public rate for its bespoke service.
+Website: snakeriverstrategies.com/services/ghostwriting
+
+3. Proper Propaganda - best for sustained founder visibility
+Focuses on founder positioning, commentary pitching and repeat inclusion in technology media, rather than just placing one guest article. A good candidate if the goal is to make the founder a recognized voice on a particular AI topic.
+[chip: Public Relations for Technology Companies]
+Pricing: request a proposal. Its published agency comparison is self-authored, so treat its evaluations as positioning, not independent rankings.
+Website: properpropaganda.net
+
+4. LaunchSquad - best for integrated technology PR
+A broader technology communications firm to consider if the founder needs op-eds alongside media interviews, company storytelling and a larger PR campaign. Its fit for dedicated, byline-guaranteed ghostwriting should be confirmed directly.
+[chip: Public Relations for Technology Companies]
+Website: launchsquad.com
+
+5. Highwire PR - best for a larger technology PR programme
+A full-service tech PR agency with media outreach and executive positioning. Consider it if op-eds are one part of a broader reputation-building programme, rather than the only deliverable. Confirm who will actually write and pitch the articles.
+[chip: Public Relations for Technology Companies]
+Website: highwirepr.com
+
+Which publications should the founder target?
+The best target depends on whether the founder sells enterprise AI, builds AI infrastructure or models, or wants to influence public policy.
+Mainstream business and technology - For broader business credibility, enterprise adoption and investor audiences. Forbes, Fast Company, Fortune and MIT Technology Review.
+AI and technical audiences - For model development, AI infrastructure, deployment and technical differentiation. VentureBeat, TechCrunch, The New Stack and specialist AI publications.
+Policy and public debate - For AI governance, safety, regulation, economic impact and public-interest arguments. Major newspaper opinion desks and relevant policy publications.
+These are target outlets to assess, not claims that any particular provider can secure a placement there. Some publications have strict submission rules, and contributor programmes may not carry the same editorial weight as independently commissioned op-eds.
+
+What I would do
+I'd start by contacting Shilika Jain and Snake River Strategies for a paid pilot, then compare their writing quality and actual pitching process. Ask each to propose one article angle, one primary outlet and two backup outlets before committing to a retainer.
+Require these five things in the proposal:
+Two or three live examples of op-eds they wrote or placed for founders in a comparable field.
+Confirmation of whether they write the article, pitch editors and manage revisions themselves.
+A clear distinction between earned editorial placement and paid contributor programmes.
+A fee, timeline, revision policy and what happens if the outlet declines the piece.
+A founder interview and technical fact-checking process to ensure the piece genuinely reflects the founder's views.
+
+Let me narrow this to the best three (interactive questionnaire: where op-eds land, AI startup type, budget, main objective, "Find my best three" - ignored)
+
+SOURCE LINKS:
+shilikajain.com/pages/thought-leadership-ghostwriting
+snakeriverstrategies.com/services/ghostwriting/
+properpropaganda.net/top-pr-agencies-for-founder-thought-leadership-in-tech-medi... (path shortened by me)
+launchsquad.com/
+highwirepr.com/
+
+CHIP / CITATION-PAYLOAD URLS (read from the page's React props, 29 URLs in payload order; includes retrieved sources that are not individually visible as chips; paths shortened by me):
+shilikajain.com/pages/thought-leadership-ghostwriting
+shilikajain.com/pages/ai-thought-leadership-agency
+shilikajain.com/services/founder-profiling
+shilikajain.com/pages/founder-thought-leadership-agency
+shilikajain.com/services/content-writing
+shilikajain.com/pages/crypto-ghostwriting-agency
+shilikajain.com/about
+shilikajain.com/pages/founder-essay-ghostwriting
+shilikajain.com/pages/crypto-content-writing-agency
+washingtonpost.com/opinions/2026/10/14/a... (x2)
+financialexpress.com/opinion/building-in...
+m.economictimes.com/news/company/corpora...
+businessinsider.com/microsoft-engineer-q...
+businessinsider.com/bird-ceo-says-ai-is-...
+vogue.com/article/op-ed-ai-accountabilit...
+indianexpress.com/article/opinion/column...
+wsj.com/tech/ai/tom-brown-athropic-66900...
+snakeriverstrategies.com/services/ghostw...
+properpropaganda.net/top-pr-agencies-for...
+i-midastouch.com/best-cxo-founder-brandi...
+understoryagency.com/blog/best-executive...
+topmate.io/anamika_shukla
+24-7pressrelease.com/press-release/53387...
+wildfirepr.com/
+launchsquad.squarespace.com/
+launchsquad.com/
+shamrockcap.com/portfolio/highwire/
+highwirepr.com/

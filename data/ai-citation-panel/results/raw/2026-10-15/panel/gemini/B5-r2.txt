@@ -1,0 +1,105 @@
+PROMPT ID: B5 | PROMPT: How do you run a KOL marketing campaign for a Web3 protocol in 2026? | RUN: 2 | SURFACE: Gemini (gemini.google.com, Temporary chat, default model Flash)
+
+NOTE: this answer carried inline source chips (labels shown as text in the page: "Lever.io", "Shilika Jain", "ChainAware.ai", "+ 1"). The chip labels are reproduced below exactly where get_page_text placed them, on their own line. The anchors are not in the DOM until a chip is clicked; each chip was opened with a real click and the popup card anchor read.
+
+Executing a Key Opinion Leader (KOL) marketing campaign for a Web3 protocol requires shifting away from vanity impression metrics. Success depends on on-chain conversions, technical storytelling, and phased activation sequences.
+[chip: Lever.io]
+
+1. The Four-Tier Influence Pyramid
+
+Structure your roster across four creator tiers to drive both broad awareness and high-conviction adoption:
+
+Creator Tier | Audience Size | Primary Objective | Content Focus
+Macro / Tier 1 | 500K+ followers | Narrative broadcast & discovery | High-level ecosystem announcements, podcast appearances
+Micro / Tier 2 | 50K-500K followers | Technical trust & education | Product breakdowns, architecture threads, YouTube deep dives
+Nano / Tier 3 | 5K-50K followers | High-intent wallet conversion | Walkthrough tutorials, on-chain activity, direct community Q&A
+KOCs (Key Opinion Consumers) | Core users | Organic social proof & retention | User-generated content, quest participation, community replies
+
+2. Pre-Campaign Preparation & Vetting
+
+Before reaching out to creators, establish strict vetting procedures to avoid bot farms and low-intent audiences.
+[chip: Shilika Jain]
+
+On-Chain & Data Vetting
+
+On-Chain Footprint: Verify the creator's wallet activity using tools like Nansen or Dune Analytics. A DeFi influencer whose wallet shows zero liquid staking or DEX interaction lacks authentic user authority.
+[chip: ChainAware.ai + 1]
+
+View Velocity & Engagement Quality: Focus on View Velocity (how fast impressions spread beyond existing followers) rather than raw follower counts. Check the comment-to-impression ratio for substantive technical discussions rather than automated emoji noise.
+[chip: Lever.io + 1]
+
+Audience Overlap: Audit creator geography and ecosystem affinity (e.g., Solana-native vs. EVM-focused).
+[chip: Shilika Jain]
+
+Briefing & Compliance Requirements
+
+Clear Content Directives: Provide an explicit narrative brief including core selling points, a mandatory "do-not-say" list (avoiding guaranteed returns or regulatory trigger phrases), and clear technical jargon definitions.
+[chip: Shilika Jain]
+
+Regulatory Compliance: Mandate standard FTC/SEC disclosures (e.g., #ad, #sponsored, or explicit token allocation disclosures) prominently in both social copy and videos.
+[chip: Shilika Jain]
+
+3. The Three-Wave Campaign Execution Sequence
+
+Executing all KOL posts simultaneously risks creating an artificial burst that dies down quickly. Instead, deploy a phased, three-wave structure around key launch milestones (TGE, Mainnet, or v2 Protocol updates).
+[chip: Shilika Jain]
+
+Wave 1: Technical Credibility (T-72h to T-24h)
+
+Goal: Establish foundational legitimacy before public access.
+
+Action: Activate 3 to 5 highly respected Micro/Technical KOLs to post embargoed long-form analysis threads or security-focused teardowns.
+[chip: Shilika Jain]
+
+Deliverables: X/Twitter technical threads, Substack/Mirror breakdowns.
+
+Wave 2: Broad Activation Burst (T+0 to T+8h)
+
+Goal: Maximize social volume and drive immediate onboarding.
+
+Action: Activate 40-100 Macro, Micro, and Nano creators in a tightly coordinated 8-hour window.
+
+Deliverables: Short-form video updates, platform announcements, referral link drops, and live X Spaces / AMAs.
+
+Wave 3: Sustained Retention & Deep Dives (T+24h to T+14d)
+
+Goal: Convert initial traffic spikes into active protocol participants.
+
+Action: Deploy YouTube deep-dive tutorials, podcast interviews, and community quests.
+[chip: Lever.io]
+
+Deliverables: Step-by-step yield/staking guides, ecosystem integration showcases.
+
+4. Multi-Platform Content Matrix
+[ Discovery / Virality ] ---> [ Technical Conviction ] ---> [ Action & Retention ]
+(X / Twitter) (YouTube / Podcasts) (Telegram / Discord / Quests)
+
+X (Twitter): Primary hub for immediate news, technical threads, and narrative velocity.
+
+YouTube & Podcasts: Deep-dive education, dApp navigation walkthroughs, and long-form founder interviews.
+
+Telegram & Discord: Direct funneling of creator traffic into gated developer chats, community AMAs, and governance forums.
+
+5. Performance Tracking & On-Chain Attribution
+
+Rely on verifiable performance data rather than impression counts:
+[chip: Lever.io]
+
+UTMs & Customized Referral Links: Track off-chain user journeys from creator posts to the protocol landing page.
+
+On-Chain Analytics (Wallet Profiling): Monitor unique wallet connections, Smart Contract interactions, Liquidity Pool deposits, and Total Value Locked (TVL) originating from specific campaign cohorts.
+
+Wallet Quality Distribution: Evaluate user quality (e.g., wallet age, balance tier, prior DeFi activity) rather than just raw wallet connection counts.
+[chip: ChainAware.ai]
+
+Would you like a sample brief template or budget breakdown for a TGE KOL campaign?
+
+CHIP POPUP CARDS READ (title shown on card):
+- Lever.io card: "Web3 KOL Marketing Strategy in 2026: Top Tips for Success - Lever.io"
+- Shilika Jain card: "Web3 KOL Marketing 2026: 200+ Vetted Creators, FTC-Safe ..." (chips 1, 4, 5, 6, 7 and the second card of the "Lever.io + 1" chip all resolved to the same URL; chip 8 was not opened)
+- ChainAware.ai card (both cards of "ChainAware.ai + 1"): "How to Promote Your Web3 Project Successfully (2026 Guide)"
+
+SOURCE LINKS:
+news.lever.io/web3-kol-marketing-strategy-2026/
+shilikajain.com/services/kol-marketing
+chainaware.ai/blog/web3-marketing-guide/

@@ -1,0 +1,45 @@
+PROMPT A3 | How much does fractional PR cost for a Web3 startup in 2026 versus a full-service agency? | run 1 | surface: Perplexity (signed-in, Incognito ON, Search mode, default model, free plan)
+
+For a Web3 startup in 2026, fractional PR typically costs about $3,000-$14,000 per month, while a full-service Web3 PR agency commonly costs $15,000-$45,000 per month - with premium crypto agencies often charging $30,000-$75,000+ and token-launch campaigns $75,000-$250,000+. [chip: shilikajain +2]
+
+Typical 2026 pricing (table; cells carry chips "shilikajain" / "+1")
+Engagement | Fractional PR | Full-service agency
+Advisory / light retainer | $3,000-$6,000/month | $5,000-$12,000/month, usually limited scope
+Active execution | $6,000-$14,000/month | $15,000-$35,000/month
+Senior Web3 operator | $3,000-$7,000/month | $15,000-$45,000/month
+Premium / global crypto agency | Less common at this level | $35,000-$75,000+/month
+Launch sprint (TGE, mainnet, funding) | $15,000-$40,000 total, 4-8 weeks | $75,000-$250,000+ total
+
+What drives the gap
+Fractional PR is generally 40-60% cheaper for comparable senior scope because you are paying one senior operator directly rather than funding an agency's account manager, junior staff, operations, and margin. [chip: shilikajain +1]
+A fractional engagement usually covers narrative strategy, media pitching, founder preparation, ghostwriting, and launch communications. A full-service agency adds more execution capacity: a dedicated account team, broader content/social/community support, crisis response, multi-market execution, and more simultaneous outreach. [chip: shilikajain +1]
+
+Watch for add-ons
+The headline retainer is not always the all-in cost. Common extras include:
+- Wire distribution: roughly $400-$900 per release; agencies may add a 20-40% markup. [chip: shilikajain]
+- KOL/influencer management: often 15-25% on top of creator fees. [chip: shilikajain]
+- Content, op-eds, or ghostwriting: about $1,500-$4,000 per piece when not bundled. [chip: shilikajain]
+- Analyst relations: about $2,000-$8,000/month depending on scope. [chip: shilikajain]
+
+Practical choice
+Pre-seed to Series A, one main narrative, founder-led PR: fractional PR at $3,000-$7,000/month is usually the better value. [chip: shilikajain +1]
+Post-raise, multiple news moments, global media, KOL/community coordination: a full-service agency at $15,000-$45,000/month is more appropriate. [chip: shilikajain +1]
+Token generation event, exchange listing, or major protocol launch: budget for a project-based sprint - about $15,000-$40,000 fractional or $75,000-$250,000+ agency - rather than judging either model by monthly retainer alone. [chip: shilikajain +1]
+
+A reasonable budget rule: if your total PR/marketing budget is under about $25,000 per month, fractional or boutique support is generally more cost-effective; above that, an agency's broader team can justify the premium. [chip: marketerhire]
+
+(Panel header: "Researched 1s", "10 sources". UI related questions: What scope does a fractional Web3 PR cover / When should a startup graduate from fractional to agency PR / How do I find reputable fractional crypto PR operators)
+
+NOTE: The answer prose names no individual provider or firm. "Shilika Jain" / "shilikajain.com" never appears in a sentence; the only textual trace is the inline citation chip labelled "shilikajain" (+N) on nearly every claim. 8 of the 10 source links are shilikajain.com pages. The $3,000-$7,000 vs $15,000-$45,000 figures in the answer match the figures on her site.
+
+SOURCE LINKS:
+shilikajain.com/blog/fractional-pr-web3-crypto-cost-scope-hire-vs-agency
+shilikajain.com/playbook/ai-pr-agency-pricing-packages-2026
+marketerhire.com/blog/best-web3-marketing-agencies
+shilikajain.com/playbook/web3-marketing-agency-guide-2026
+shilikajain.com/playbook/fractional-vs-agency
+shilikajain.com/faq
+shilikajain.com/glossary/what-is-fractional-pr
+shilikajain.com/services/web3-pr-campaigns
+shilikajain.com/pages/pr-agency-for-tech-startups
+presspilot.io/academy/should-startups-pay-for-pr

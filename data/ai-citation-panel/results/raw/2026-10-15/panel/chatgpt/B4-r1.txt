@@ -1,0 +1,95 @@
+PROMPT ID: B4 | PROMPT: Which crypto PR firms specialize in pre-token-generation-event launches? | RUN: 1 | SURFACE: ChatGPT (chatgpt.com, signed-in free account "Rahil Jain / Free", Temporary Chat banner "This chat won't appear in your conversation history", Web search chip on, URL contained temporary-chat=true after submit, new conversation id differs from B1-B3) | CAPTURED: 2026-10-16 00:33-00:40 IST
+NOTE: answer text below was captured with get_page_text; en/em dashes in the captured text were normalized to hyphens. The user bubble showed the "Web search" chip followed by the verbatim prompt. The trailing follow-up questionnaire (4 radio-button questions + "Find my top 3 firms" button) is omitted per instructions.
+
+ANSWER TEXT:
+For a crypto project preparing for a token generation event (TGE), I'd shortlist agencies that explicitly handle pre-launch narrative development, embargoed media outreach, launch-day coordination, and post-TGE coverage - not just general Web3 marketing.
+
+Based on current research, these are the firms I'd investigate first. This is a shortlist by specialization, not a verified ranking of agency performance.
+
+Crypto PR firms to shortlist for pre-TGE launches
+
+1. GeniusPR
+Best for pre-TGE PR planning
+Explicitly offers token-launch PR covering pre-launch narrative development, journalist embargoes, exchange announcements, launch-day coverage, and crisis preparation. It recommends starting 8-12 weeks before TGE.
+[chip: GeniusPR]
+Best for: protocol launches, DeFi, infrastructure and utility tokens.
+Website
+
+2. Cryptic
+Best for global media reach
+Specifically advertises pre-TGE positioning, launch announcements, exchange-listing PR and post-listing coverage. Its stated media network spans crypto-native and mainstream outlets, with regional coverage across MENA and LATAM as well as English-language markets.
+[chip: Cryptic]
+Best for: projects seeking international press and multi-market visibility.
+Website
+
+3. LuvKaizen
+Best for PR plus community growth
+Offers a broader token-launch program combining media relations, creator/KOL campaigns, community building, launch-week execution and post-TGE holder engagement. The company states it has managed over 100 launches since 2019.
+[chip: 100+ Launches, KOLs & PR]
+Best for: teams that need both pre-launch awareness and community activation, not PR alone.
+Website
+
+4. Outset PR
+Best for ongoing earned media
+Worth considering if your strategy is to establish credibility well before TGE and maintain press coverage afterward. A recent industry comparison highlights its proactive pitching, reactive expert commentary and coverage-syndication tracking.
+[chip: Crypto Daily]
+Best for: founders prioritizing editorial coverage and sustained visibility over a one-day publicity spike.
+Website
+
+5. Wachsman
+Best for institutional positioning
+A longer-established digital-asset communications firm to consider if the project needs a sophisticated corporate narrative, founder positioning and communications suited to institutional audiences. Its suitability for a specific TGE should be validated in a pitch.
+[chip: Crypto Daily +1]
+Best for: established protocols, major funding announcements and higher-profile launches.
+Website
+
+How I would choose between them
+If your priority is... | Start with
+Pre-TGE press strategy and embargo coordination | GeniusPR
+Global and regional media placements | Cryptic
+PR, KOLs and community growth together | LuvKaizen
+Ongoing earned-media visibility | Outset PR
+Institutional credibility and corporate communications | Wachsman
+
+These recommendations reflect publicly described services and positioning. I haven't independently verified current client references, campaign conversion results, or availability.
+
+What to ask before signing
+The most important distinction is whether a firm can build a credible story before the token is tradable, rather than simply distribute a press release on listing day.
+Timing: Can they begin 8-12 weeks before TGE and map out weekly milestones?
+Earned versus paid: Which placements are independently editorial, and which are sponsored?
+Proof: Can they provide two or three comparable TGE case studies with links to actual coverage?
+Embargoes: Which journalists have agreed to consider stories before launch? No reputable firm can guarantee independent editorial coverage.
+Deliverables: Who owns founder interviews, press materials, exchange announcements, crisis messaging and post-TGE follow-through?
+Compliance: Will they coordinate token-related claims with your legal counsel and avoid unsupported return or price promises?
+
+[follow-up questionnaire omitted]
+
+"Shilika Jain" / shilikajain.com DOES NOT APPEAR ANYWHERE IN THE ANSWER TEXT OR IN ANY INLINE CITATION CHIP.
+
+SOURCES PANEL (opened via the "..." menu under the answer > View sources; "7 more" expander clicked open), displayed order:
+Main section: 1. GeniusPR - Token Launch PR; 2. Cryptic - Crypto PR Agency for Web3 Brands; 3. "100+ Launches, KOLs & PR" (luvkaizen.com) - Token Launch Marketing Services; 4. Crypto Daily - Top 8 Crypto PR Agencies for Token Launches and TGE Campaigns in 2026 (Apr 13, 2026); 5. AMW - Best Crypto & Web3 PR Agencies (2026)
+More: 6. geniuspr.com - Best Token Launch PR Agencies in 2026 | GeniusPR (Sep 11, 2026); 7. worldbusinessoutlook.com - Best Crypto PR Agencies for Token Generation Events (Aug 28, 2026); 8. echo-trade.io - Top Crypto PR Agencies in 2026: Compared for Founders | EchoTrade (Aug 25, 2026); 9. www.shilikajain.com - Token Launch Marketing Agencies in India in 2026 | Shilika Jain (Jun 23, 2026); 10. www.apcollective.io - 10 Best Token Launch Marketing Agencies (2026) (Jun 22, 2026); 11. eakdigital.com - Top Web3 PR Agencie in 2026: Crypto PR Guide (Apr 22, 2026); [expanded:] 12. www.shilikajain.com - Crypto Token Launch Marketing Agency 2026 | PR + KOL | Shilika Jain; 13. www.shilikajain.com - Token Launch PR Agency India 2026 | Compliant Dual-Track | Shilika Jain; 14. www.thechalklabs.com - Token Launch PR Agency for TGEs & IDOs | Chalk Labs; 15. www.luvkaizen.com - Best Web3 PR Agencies 2026: Top Crypto PR Firms Compared; 16. www.luvkaizen.com - IDO Marketing Agency | Initial DEX Offering | LuvKaizen; 17. outreachpari.com - Web3 PR Agency - Our Guardrails Are Published; 18. revenuebase.ai - Top 10 Token launch marketing agencies based in India
+
+SOURCE LINKS:
+(output of the prescribed javascript_tool script after expanding the "7 more" expander, in displayed order; the first 5 entries before help.openai.com are the inline "Website" links of the recommended firms plus Sources-panel entries; help.openai.com is a UI link, not a source)
+geniuspr.com/token-launch-pr
+crypticweb3.com/crypto-pr-agency/
+luvkaizen.com/solutions/token-launch-marketing
+outsetpr.io/
+wachsman.com/
+help.openai.com/en/articles/8590148-memory-faq
+cryptodaily.co.uk/2026/04/top-8-crypto-pr-agencies-for-token-launches-and-tge-campaigns-in-2026
+amworldgroup.com/best/crypto-pr-agencies
+geniuspr.com/top/best-crypto-pr-agencies-for-a-token-launch-in-2026
+worldbusinessoutlook.com/best-crypto-pr-agencies-for-token-generation-events/
+echo-trade.io/blog/top-crypto-pr-agencies
+shilikajain.com/playbook/token-launch-marketing-agency-india-2026
+apcollective.io/blog/best-token-launch-marketing-agencies
+eakdigital.com/top-web3-pr-agencie-crypto-pr/
+shilikajain.com/pages/crypto-token-launch-marketing-agency
+shilikajain.com/pages/token-launch-pr-agency-india
+thechalklabs.com/feeds/token-launch-pr-agency
+luvkaizen.com/solutions/best-web3-pr-agencies-2026
+luvkaizen.com/solutions/ido-marketing-agency
+outreachpari.com/services/crypto-pr/
+revenuebase.ai/companies/token-launch-marketing-agencies/india

@@ -1,0 +1,112 @@
+PROMPT A1 | What is fractional PR for Web3 founders and how does it differ from a traditional PR agency? | run 1 | surface: ChatGPT (chatgpt.com, signed-in free account, Temporary Chat, hints=search; URL after submit carried temporary-chat=true; page showed "Temporary chat - This chat won't appear in your conversation history") | captured 2026-10-15 | note: em/en dashes in the captured answer normalized to hyphens
+
+ANSWER TEXT (get_page_text; "Shilika Jain +N" lines are citation chip labels, not prose):
+
+What is fractional PR for Web3 founders?
+
+Fractional PR is hiring an experienced public relations leader on a part-time or retainer basis instead of hiring a full-service PR agency or a full-time communications executive.
+
+For a Web3 founder, it means having a senior PR professional who works closely with you to build credibility, shape your project's narrative, secure relevant media coverage, and manage communications around important milestones - without paying for an entire agency team.
+
+The model is particularly relevant to early-stage crypto, blockchain, DeFi, DePIN, and AI x Web3 companies that need strong public visibility but don't yet need a large communications department.
+[chip] Shilika Jain +1
+
+What does fractional PR actually do for a Web3 founder?
+
+1. Founder positioning and thought leadership
+Turn your expertise and vision into a compelling public narrative. This can include founder interviews, opinion articles, podcast appearances, and commentary on industry trends.
+
+2. Media relations and earned coverage
+Build relationships with journalists and pitch relevant stories to publications such as CoinDesk and Cointelegraph. The objective is credible editorial coverage, not simply press-release distribution.
+
+3. Launch and milestone communications
+Plan PR around funding announcements, mainnet launches, protocol upgrades, strategic partnerships, token generation events (TGEs), and product launches.
+
+4. Reputation and crisis communications
+Prepare messaging for security incidents, market volatility, community concerns, or other sensitive events where the founder's response can affect trust.
+
+The central idea is that you're paying for senior judgment, strategic ownership, and hands-on execution rather than just a list of agency deliverables.
+[chip] Shilika Jain +2
+
+Fractional PR vs. a traditional PR agency
+
+The main difference is who leads your PR, how much capacity you get, and what you pay for.
+
+Dimension | Fractional PR | Traditional PR agency
+Team structure | One senior PR operator | A team of account managers, executives, and strategists
+Founder access | Direct, regular access to the person doing the work | Often mediated by an account manager
+Cost | Generally lower overhead | Higher cost to support multiple team members
+Strategy | Tailored closely to the founder and business | Agency-led strategy and team execution
+Execution capacity | Limited by one person's time | More resources for parallel campaigns
+Flexibility | Often easier to scope around specific milestones | May involve longer retainers and broader scopes
+Best suited for | Early-stage and founder-led Web3 companies | Larger companies with complex, simultaneous PR needs
+
+These are typical differences, not universal rules: some boutique agencies provide direct senior access, and some fractional operators bring in specialist support when needed.
+[chip] Shilika Jain +2
+
+How much does fractional Web3 PR cost?
+
+Published 2026 pricing examples suggest the following indicative ranges in US dollars. Actual pricing depends on geography, seniority, target publications, and campaign scope.
+
+Fractional PR operator | Part-time senior expertise | $3k-$12k per month
+Boutique Web3 PR agency | Small agency team | $7k-$15k per month
+Mid-tier or larger agency | Broader team and execution capacity | $15k-$60k+ per month
+
+Sources: published practitioner pricing guides for 2026. These are indicative quotes and market estimates, not independently verified industry-wide averages.
+[chip] Shilika Jain +1
+
+One important caveat: a lower retainer doesn't automatically mean better value. Check whether paid media distribution, influencer or KOL fees, localization, and crisis support are included or billed separately.
+
+Why fractional PR can be especially useful in Web3
+
+Web3 projects face communication challenges that general-purpose PR providers may not fully understand:
+- Technical complexity: Explaining infrastructure, token utility, governance, and protocol design in terms journalists and investors understand.
+- Credibility: Building trust beyond token speculation and promotional announcements.
+- Milestone-driven news: Coordinating funding, testnet, mainnet, ecosystem, and TGE announcements.
+- Community sensitivity: Communicating clearly during market volatility, security incidents, and controversy.
+- Global audiences: Reaching crypto-native media alongside mainstream business press and relevant regional publications.
+
+A strong fractional operator can help coordinate these priorities while keeping the founder closely involved in the story. However, PR cannot guarantee editorial coverage, investor interest, or token performance.
+[chip] Public Relations Services for Web3 +1
+
+Which model should a Web3 founder choose?
+
+Choose fractional PR if...
+- You're pre-seed, seed, or Series A.
+- You have a meaningful announcement or a clear founder story.
+- You want senior expertise and direct access without building a full team.
+- You need focused, ongoing PR rather than several simultaneous global campaigns.
+
+Choose a traditional agency if...
+- You need multiple campaigns running simultaneously.
+- You require substantial regional coverage or round-the-clock crisis support.
+- You need a team with specialist capabilities across PR, public affairs, and investor communications.
+- Your budget and workload justify broader execution capacity.
+
+A third option is a hybrid: engage a fractional PR lead for strategy and founder communications, then add an agency or specialist partners for a major launch.
+
+How to evaluate a fractional PR operator
+
+Before signing a retainer, ask these five questions:
+1. Relevant track record: Can they show actual editorial coverage for comparable Web3 projects?
+2. Media relationships: Do they have relevant journalist relationships, not just a database of media contacts?
+3. Clear scope: How many pitches, announcements, founder-content pieces, and reporting sessions are included?
+4. Measurement: Will they track relevant coverage, message quality, share of voice, and sentiment instead of just impressions?
+5. Honest expectations: Will they explain why your story is newsworthy and which outlets are realistic targets?
+
+For further reading, see this [link text: fractional PR versus agency comparison] and this [link text: 2026 crypto PR pricing guide].
+
+Bottom line: Fractional PR gives Web3 founders access to senior communications expertise without the cost and complexity of a full agency team. A traditional agency is usually the better fit when the company needs more people, more simultaneous campaigns, and broader operational coverage.
+
+The key is not simply getting more press. It's building a credible, consistent narrative that helps the right people understand why your project matters.
+
+SOURCE LINKS:
+shilikajain.com/playbook/fractional-vs-agency
+shilikajain.com/playbook/crypto-pr-cost-2026
+
+SUPPLEMENTARY (citation chip hover cards, titles only, hrefs not exposed in DOM; read via hover; order = chip order in answer):
+chip1 (Shilika Jain +1): "What Is Fractional PR? Definition & Cost (2026)" [Shilika Jain]; "Fractional PR Consultant Web3 2026 | Crypto-Native Senior" [Shilika Jain]
+chip2 (Shilika Jain +2): "Web3 PR & AI PR Consultant" [Shilika Jain; clicking the chip opened https://www.shilikajain.com/ so path = shilikajain.com/]; "About Shilika Jain: Fractional PR for Web3 & AI Founders" [Shilika Jain, path unverified]; "Web3 PR Agency" [site label "Public Relations Services for Web3", domain UNVERIFIED]
+chip3 (Shilika Jain +2): "Fractional PR vs Web3 PR Agency: How to Choose in 2026" (May 15, 2026) [Shilika Jain]; "What Is Fractional PR? Definition & Cost (2026)" [Shilika Jain]; "How Much Does Crypto PR Cost in 2026? Honest Pricing" (May 15, 2026) [Shilika Jain]
+chip4 (Shilika Jain +1): "Fractional PR Cost and Monthly Retainer Pricing in 2026" (June 23, 2026) [Shilika Jain]; "How Much Does Crypto PR Cost in 2026? Honest Pricing" (May 15, 2026) [Shilika Jain]
+chip5 (Public Relations Services for Web3 +1): "Web3 PR Agency" [Public Relations Services for Web3, domain UNVERIFIED]; "How Much Does Crypto PR Cost in 2026? Honest Pricing" (May 15, 2026) [Shilika Jain]

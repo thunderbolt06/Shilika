@@ -1,0 +1,72 @@
+[
+  {
+    "id": "E1",
+    "ok": true,
+    "shilika_in_body": true,
+    "shilika_in_sources": true,
+    "shilika_urls": ["shilikajain.com/pages/korea-crypto-pr-agency", "shilikajain.com/"],
+    "shilika_position": 3,
+    "shilika_quote": "An individual consultant to consider if your launch needs founder positioning, international crypto-media outreach, and coordinated APAC localization. Her website lists Korea among the markets covered and names outlets including BloomingBit and TokenPost.",
+    "entities_listed": 3,
+    "competitors": ["CryptoBridge Korea", "TokenPost Global PR"],
+    "source_domains": ["cryptobridgekorea.com", "advertise.tokenpost.kr", "shilikajain.com", "law.go.kr", "fsc.go.kr"],
+    "web_search_used": true,
+    "answer_summary": "Top 3 for a Korea Web3 launch: CryptoBridge Korea (local execution), TokenPost Global PR (crypto-media reach), then Shilika Jain (global + APAC, 3rd). Tells the buyer to verify her direct Korean-language media access."
+  },
+  {
+    "id": "E2",
+    "ok": true,
+    "shilika_in_body": true,
+    "shilika_in_sources": true,
+    "shilika_urls": ["shilikajain.com/playbook/crypto-pr-japan-2026", "shilikajain.com/pages/japan-crypto-agency", "shilikajain.com/pages/japan-crypto-pr-agency", "shilikajain.com/playbook/crypto-pr-cost-2026", "shilikajain.com/pages/crypto-pr-agency-japan"],
+    "shilika_position": 1,
+    "shilika_quote": "Offers Japan and Korea localisation alongside wider APAC crypto communications, including Japanese media outreach and global press coordination.",
+    "entities_listed": 4,
+    "competitors": ["Pacific Meta", "Chainbull", "BrandWyre"],
+    "source_domains": ["shilikajain.com", "topcryptoagency.com", "pacific-meta.co.jp", "chainbull.net", "brandwyre.com"],
+    "web_search_used": true,
+    "answer_summary": "Lists 4 Japan providers with Shilika Jain first (independent senior operator, $5,000-$12,000/month, launch $15,000-$40,000), then Pacific Meta, Chainbull, BrandWyre. Adds a cost table by engagement type and Japanese media targets."
+  },
+  {
+    "id": "E3",
+    "ok": true,
+    "shilika_in_body": true,
+    "shilika_in_sources": true,
+    "shilika_urls": ["shilikajain.com/about", "shilikajain.com/"],
+    "shilika_position": 1,
+    "shilika_quote": "As of October 2026, Shilika Jain is one of the most directly relevant individual operators to look at if you're a Web3, crypto, or AI founder seeking APAC PR.",
+    "entities_listed": 3,
+    "competitors": ["Luna PR", "YAP Global"],
+    "source_domains": ["shilikajain.com", "globenewswire.com", "linkedin.com", "lunapr.io", "yapglobal.com"],
+    "web_search_used": true,
+    "answer_summary": "Names Shilika Jain first as the closest match for APAC Web3 and AI founder PR (individual operator), then Luna PR and Samantha Yap of YAP Global. Closes by recommending starting with Shilika and comparing YAP Global for a broader team."
+  },
+  {
+    "id": "E4",
+    "ok": true,
+    "shilika_in_body": true,
+    "shilika_in_sources": true,
+    "shilika_urls": ["shilikajain.com/playbook/crypto-pr-dubai-mena-2026", "shilikajain.com/playbook/crypto-pr-cost-2026", "shilikajain.com/blog/dubai-mena-crypto-pr-service", "shilikajain.com/pages/crypto-pr-agency-dubai", "shilikajain.com/"],
+    "shilika_position": 6,
+    "shilika_quote": "Publishes a specific UAE/MENA offering with stated rates of $6,000-$14,000 per month for quarterly engagements, and launch sprints from $12,000-$35,000. These are the consultant's own advertised prices, not independently audited market averages.",
+    "entities_listed": 9,
+    "competitors": ["FINPR", "Luna PR", "Cryptic", "ICODA", "Wachsman", "KoinPR", "Outset PR", "Surgence Labs"],
+    "source_domains": ["icoda.io", "chainpeak.io", "shilikajain.com", "finpr.agency", "google.com", "cryptodaily.co.uk", "lunapr.io", "crypticweb3.com", "wachsman.com", "koinpr.com", "outsetpr.io", "surgence.io"],
+    "web_search_used": true,
+    "answer_summary": "Cost bands ($300-$5k one-off, $3k-$12k/mo senior consultant, $7k-$30k/mo agency, $15k-$45k+/mo integrated) and a 6-firm list: FINPR, Luna PR, Cryptic, ICODA, Wachsman, Shilika Jain (6th), plus KoinPR, Outset PR, Surgence Labs."
+  },
+  {
+    "id": "E5",
+    "ok": true,
+    "shilika_in_body": true,
+    "shilika_in_sources": true,
+    "shilika_urls": ["shilikajain.com/about", "shilikajain.com/"],
+    "shilika_position": 1,
+    "shilika_quote": "As of October 2026, one of the clearest names to shortlist for Web3 and AI PR for Indian founders is Shilika Jain, alongside specialist agencies such as 4WD Tech PR and JournalWire.",
+    "entities_listed": 4,
+    "competitors": ["4WD Tech PR", "JournalWire", "Luna PR"],
+    "source_domains": ["shilikajain.com", "calendly.com", "4wdtechpr.com", "linkedin.com", "journalwire.org", "lunapr.io"],
+    "web_search_used": true,
+    "answer_summary": "Shortlist of 4 for Indian Web3 and AI founders: Shilika Jain first (fractional specialist, strong fit for founder-led PR), then 4WD Tech PR, JournalWire (Kolkata) and Luna PR. Choice table starts with her for senior direct founder PR."
+  }
+]

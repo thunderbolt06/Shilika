@@ -1,0 +1,73 @@
+[
+  {
+    "id": "B1",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_position": 0,
+    "shilika_urls": [],
+    "shilika_quote": "",
+    "entities_listed": 11,
+    "competitors": ["Coinbound", "MarketAcross", "ICODA", "Outset PR", "High Vibe PR", "Wachsman", "Melrose PR", "FINPR", "ReBlonde", "Lunar Strategy", "Luna PR"],
+    "source_domains": ["icoda.io", "mexc.com", "techbullion.com", "influencermarketinghub.com", "ninjapromo.io"],
+    "web_search_used": true,
+    "answer_summary": "Warns there is no neutral best list (agency-written rankings). Groups 11 firms by type: crypto-native, AI-search, institutional, crisis, regional. Advises verifying case studies. Shilika not mentioned."
+  },
+  {
+    "id": "B2",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_position": 0,
+    "shilika_urls": [],
+    "shilika_quote": "",
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": ["coinbound.io", "mexc.com", "dev.to", "everything-pr.com", "instantpress.co", "adogy.com"],
+    "web_search_used": true,
+    "answer_summary": "Six-step how-to: real news, match each outlet, pitch the right reporter, keep pitches under 400 words, op-eds and events, follow up once. No PR firms or consultants recommended. Shilika not mentioned.",
+    "blocked_reason": ""
+  },
+  {
+    "id": "B3",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_position": 0,
+    "shilika_urls": [],
+    "shilika_quote": "",
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": ["mexc.com", "hypelab.com", "arrakis.finance", "cryptodaily.co.uk", "blockpr-newsroom.typeflo.io", "passport.human.tech", "guerrillabuzz.com", "crypticweb3.com", "mexc.co"],
+    "web_search_used": true,
+    "answer_summary": "Three-phase plan: pre-launch 8 to 16 weeks, launch-day coordinated drop across 10+ outlets, post-launch cadence; 2026 compliance focus; sample 15% PR budget. No named firms recommended. Shilika not mentioned."
+  },
+  {
+    "id": "B4",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_position": 0,
+    "shilika_urls": [],
+    "shilika_quote": "",
+    "entities_listed": 7,
+    "competitors": ["Lunar Strategy", "Surgence Labs", "Cryptic", "EAK Digital", "GuerrillaBuzz", "ICODA", "Outset PR"],
+    "source_domains": ["icoda.io", "coinbound.io", "guerrillabuzz.com", "marketerhire.com", "luma.com", "crypticweb3.com", "metaflow.life", "mexc.co"],
+    "web_search_used": true,
+    "answer_summary": "Lists 7 firms for pre-TGE work (Lunar Strategy first, then Surgence Labs, Cryptic, EAK Digital, GuerrillaBuzz, ICODA, Outset PR) with a caution that agency-published lists are self-promotional. Shilika not mentioned."
+  },
+  {
+    "id": "B5",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_position": 0,
+    "shilika_urls": [],
+    "shilika_quote": "",
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": ["mexc.com", "addressable.io", "chaincatcher.com", "blockeden.xyz"],
+    "web_search_used": true,
+    "answer_summary": "Nine-step KOL playbook after X banned InfoFi apps like Kaito: single goal, audience over followers, mixed tiers, trackable links, performance pay, diversify beyond X, disclosure. No firms named. Shilika not mentioned."
+  }
+]

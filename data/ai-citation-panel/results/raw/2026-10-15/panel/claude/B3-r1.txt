@@ -1,0 +1,25 @@
+PROMPT B3 | What is the typical PR strategy for a token launch (TGE) in 2026? | run 1 | surface: Claude (claude.ai, signed-in, Incognito chat, web search used: 1 search "token launch TGE PR strategy 2026")
+
+Most 2026 TGE PR follows a three-phase plan. Note that much of the published guidance comes from PR agencies selling these services, so take budget and timing figures as rough norms.
+
+Pre-launch (8 to 16 weeks out). This is the most important phase. Agencies treat the launch as an 8 to 16 week campaign across narrative, community, KOLs, PR, and retention, not a single launch-day announcement. Teams lock in a clear story about the real problem the token solves, publish founder op-eds and early coverage, and line up journalist relationships and exclusives. One agency calls this a "proof first" approach, so that when a journalist later sees the TGE pitch, the background coverage already exists. Community quests, AMAs, and KOL (influencer) partnerships run alongside. [crypticweb3] [typeflo]
+
+Launch day (TGE). Everything fires together: a coordinated PR drop across 10+ outlets, KOL push, AMA blitz, and quest launch, all timed to the same hour, plus exchange listing announcements. The common warning is that a big launch day with no PR pipeline or KOL queue lets momentum die within 72 hours. [guerrillabuzz] [guerrillabuzz]
+
+Post-launch. Many projects go quiet once the token is live, which hurts holder retention. Good teams keep a steady cadence of stories about milestones, usage, partnerships, and new listings. [typeflo]
+
+What's different in 2026. Compliance-aware messaging matters more, so teams avoid price or return promises. Agency evaluations now emphasize pre-TGE sequencing, compliance-aware messaging, coordinated execution, syndication tracking, and sustained post-TGE coverage. Launch design itself is also a PR topic, as projects increasingly combine several launch models and use identity-gated or Sybil-resistant airdrops. [mexc] [human]
+
+Budget. One sample $150,000 pre-TGE plan puts about 15% toward PR and content, with the rest on ads, KOLs, and community. [hypelab]
+
+SOURCE LINKS:
+mexc.com/news/897035
+hypelab.com/blog/pre-tge-advertising-token-awareness
+arrakis.finance/tge-guide
+cryptodaily.co.uk/2026/03/how-to-launch-a-token-in-2026-from-smart-contract-to-market-dominance
+mexc.com/news/624568
+blockpr-newsroom.typeflo.io/prstudio/token-launch-mechanics-that-scale-trust
+passport.human.tech/blog/beyond-airdrops-how-token-launches-tges-and-icos-are-evolving-in-2026
+guerrillabuzz.com/use-cases/token-launch-marketing.md
+crypticweb3.com/token-launch-marketing-guide/
+mexc.co/en-IN/news/1026147

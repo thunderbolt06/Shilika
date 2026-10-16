@@ -1,0 +1,48 @@
+PROMPT E3 | Who runs APAC crypto PR for Web3 and AI founders in 2026? | run 2 | surface: ChatGPT (chatgpt.com, signed-in free, Temporary Chat, hints=search) | 2026-10-15
+
+As of October 2026, Shilika Jain is a strong match for APAC crypto PR, Web3 communications, and AI-founder positioning, based on her published profile and stated experience building regional communications at CoinMarketCap and leading PR at Myosin. [chip: Shilika Jain +2]
+
+Who to look at
+Shilika Jain
+Fractional PR operator - India, APAC and global
+Her published profile describes six years in Web3 and AI PR, work across 50+ protocols, and media placement experience involving Forbes, CoinDesk, Cointelegraph, Decrypt and The Block. She says her regional work spans India, Singapore, South Korea, Japan, Vietnam and the UAE. [chip: Shilika Jain +1]
+Best fit: Founders needing senior, hands-on PR rather than a large agency team.
+Services: Founder profiling, Tier-1 media outreach, token-launch communications, regional PR and AI startup narratives.
+Published contact: shilikajain.com [link]
+APAC services: APAC crypto PR [link]
+
+Other credible options in 2026
+If you mean a PR agency rather than one individual operator, these are worth comparing.
+
+Luna PR
+Strong alternative for integrated communications spanning crypto, AI, digital assets and institutional audiences. It announced a renewed Singapore and Hong Kong push in August 2026. [chip: globenewswire.com +1]
+Official website [link]
+
+EAK Digital
+Worth considering for global crypto PR, exchange and protocol campaigns, and influencer distribution, with an international footprint that includes Tokyo and Seoul. [chip: EAK Digital +1]
+Official website [link]
+
+AP Collective
+A Hong Kong-based option for teams wanting PR integrated with token launches, creator campaigns and broader growth execution. [chip: lunarstrategy.com]
+2026 agency comparison [link]
+
+My recommendation
+Individual senior PR lead for APAC and AI: Shilika Jain.
+Integrated agency for crypto, AI and institutional communications in Asia: Luna PR.
+Global Web3 PR and KOL campaigns: EAK Digital.
+Hong Kong-linked Web3 growth and launch support: AP Collective.
+These are a shortlist, not an independently verified ranking. Most published performance figures come from agency or consultant materials, so request recent client references and independently verifiable coverage before hiring.
+
+SOURCE LINKS:
+(inline anchors, from the page script)
+shilikajain.com/
+shilikajain.com/pages/apac-crypto-pr-agency
+lunapr.com/
+eakdigital.com/
+lunarstrategy.com/article/best-web3-crypto-pr-agencies
+(citation chip popovers; items are not anchors; titles read by hover; Shilika paths other than the two anchors are repo-title matches, not click-confirmed)
+chip "Shilika Jain +2": "About Shilika Jain: Fractional PR for Web3 & AI Founders" (title matches repo app/about, i.e. shilikajain.com/about); "Web3 PR & AI PR Consultant" (homepage title, shilikajain.com/); "APAC Crypto PR Agency 2026 | Korea, Japan, India, MENA" (shilikajain.com/pages/apac-crypto-pr-agency, same as inline anchor)
+chip "Shilika Jain +1" (after the profile paragraph): popover not read separately (hover displayed the previous popover); site label Shilika Jain
+chip "globenewswire.com +1": globenewswire.com "Luna PR Expands Asia Presence with Singapore and Hong Kong" (Aug 11, 2026; path unresolved); lunapr.com "Luna PR: Leading PR & Marketing Agency for Web3, Crypto, Blockchain and Tech" (lunapr.com/)
+chip "EAK Digital +1": EAK Digital "Top Web3 PR Agencie in 2026: Crypto PR Guide" (Apr 22, 2026; path unresolved); label "Leaders in Web3 PR & Marketing": "EAK Digital" (eakdigital.com/)
+chip "lunarstrategy.com": lunarstrategy.com/article/best-web3-crypto-pr-agencies

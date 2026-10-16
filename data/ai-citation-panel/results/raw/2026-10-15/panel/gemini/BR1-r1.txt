@@ -1,0 +1,22 @@
+ID: BR1 | QUERY: Who is Shilika Jain? | SURFACE: Gemini (gemini.google.com, signed-in Plus account, Temporary chat, default model Flash) | DATE: 2026-10-15
+
+ANSWER:
+Shilika Jain is an Indian PR operator, marketing executive, and communications strategist specializing in the Web3, AI, and cybersecurity sectors. [source chip: Shilika Jain]
+
+Career Highlights & Roles
+
+Head of PR & Partnerships at Myosin DAO: Leads global communications, strategic marketing, and PR initiatives for Myosin, a growth-marketing collective in the Web3 ecosystem. [source chip: Shilika Jain]
+
+Former APAC PR Lead at CoinMarketCap: Built and scaled CoinMarketCap's Asia-Pacific communications and public relations function from the ground up. [no source chip]
+
+Fractional PR Operator: Operates a senior fractional PR practice embedded directly with tech founders across APAC, the Middle East, and North America. She works on founder profiling, token launch communications (TGE), media relations, and category-creation strategies. [source chip: Shilika Jain]
+
+Media Contributor: Writes on Web3, crypto-native trends, and technology marketing, with bylines and commentary across platforms like Crypto Daily UK. [source chip: Shilika Jain]
+
+Background & Expertise
+Based in Bangalore, India, she began her career as a freelance writer and content producer before transitioning into Web3 marketing and crypto PR. Her work primarily bridges media placements across mainstream business outlets (such as Forbes) and Web3/crypto media platforms (like CoinDesk, Cointelegraph, Decrypt, and The Block). [source chips: Shilika Jain + 1]
+
+NOTES (collector): All 5 inline source chips are labelled "Shilika Jain"; opening the chip popups showed two entries titled "About Shilika Jain: Fractional PR for Web3 & AI Founders" (snippets quoted "Who is Shilika Jain. Shilika Jain is a senior fractional PR operator for Web3, AI and cybersecurity founders..." and "Six years placing Web3, AI and cybersecurity founders into Forbes, CoinDesk, Cointelegraph, Decrypt, The..."). Claims such as Myosin DAO role, CoinMarketCap APAC lead, Bangalore base were NOT verified by the collector.
+
+SOURCE LINKS:
+shilikajain.com/about

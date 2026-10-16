@@ -1,0 +1,80 @@
+id=BR2 | surface=ChatGPT (chatgpt.com, signed-in free account, Temporary Chat, web search hint on) | query=Is Shilika Jain a good PR consultant for Web3 startups? What do clients say about her? | date=2026-10-15 | temporary-chat confirmed in URL (?temporary-chat=true)
+
+ANSWER:
+Is Shilika Jain a good PR consultant for Web3 startups?
+
+My assessment: she looks like a promising specialist worth shortlisting, but I'd verify her results independently before committing to a retainer.
+
+Shilika Jain presents herself as a Web3 and AI PR consultant with experience at CoinMarketCap and Myosin, focused on getting crypto and technology startups coverage in publications such as CoinDesk, Cointelegraph, Forbes and Decrypt. Her website also features campaign case studies and client recommendations.
+[citation chip: Shilika Jain +1]
+
+The important distinction is that having a credible-looking portfolio is not the same as having independently verified client satisfaction or guaranteed PR results. Here's what the available evidence suggests.
+
+1. What makes her worth considering?
+
+Web3-specific experience
+Her published career history lists APAC PR and partnerships at CoinMarketCap from 2021-2023, followed by a PR leadership role at Myosin. She says she has worked with more than 50 Web3 and AI projects.
+[chip: Shilika Jain +1]
+
+Relevant media targets
+Her portfolio names crypto-native and mainstream outlets, including CoinDesk, Cointelegraph, Decrypt, The Block, Forbes and Yahoo Finance. Those are relevant targets for a startup seeking industry credibility and investor visibility.
+[chip: Shilika Jain +1]
+
+Specific campaign examples
+Her site describes work for Gaia AI, RARI Foundation, Web3Auth and Bullieverse, with examples of technology coverage, a mainnet launch campaign and a funding announcement. These are more useful evaluation material than a generic list of clients, although the outcomes should still be checked independently.
+[chip: Shilika Jain +1]
+
+2. What do clients say about her?
+
+The clearest publicly available feedback I found is positive. Her website displays testimonials, and her LinkedIn profile contains recommendations from named professionals.
+[chip: Shilika Jain +1]
+
+Nicole Rochette - Web3 business development, Fractional CMO, formerly Dapper Labs
+Rochette praises Jain's strategic thinking, understanding of clients, execution and journalist relationships. She describes her as an asset to a team.
+Source: LinkedIn profile and recommendations; also reproduced on Jain's website.
+
+Gafoor Khan - Entrepreneur, Web3 and AI advisor/investor
+Khan highlights her blockchain knowledge, sharp writing, strategic pitches and ability to obtain coverage in crypto-native and mainstream technology media. He also praises her responsiveness and commitment to projects.
+Source: LinkedIn profile and recommendations; also reproduced on Jain's website.
+
+What the feedback tells us
+The recurring strengths are: technical understanding; strategic storytelling; media access; execution and responsiveness.
+[chip: Shilika Jain +1]
+
+An important caveat: these are endorsements rather than a representative sample of all clients. I did not find enough independent, critical reviews to establish an unbiased overall satisfaction rating. That does not mean there are negative experiences; it means the public evidence is incomplete.
+
+3. What should you verify before hiring her?
+Two or three recent client references; links to actual earned media coverage (editorial vs sponsored/paid/syndicated); a campaign relevant to your startup category; clear deliverables and measurement; capacity and conflicts of interest.
+
+4. Is her pricing reasonable?
+Her website lists different price ranges across pages, so you should request a written quote for the exact scope. The published figures include:
+- Fractional PR retainer: $3,000-$7,000/month on her profile
+- Web3 PR retainer: $5,000-$12,000/month on a specialist service page
+- Launch campaign: $15,000-$40,000 on her profile
+Sources: [chip: Shilika Jain +2]
+
+Those are advertised prices, not independently verified market rates or proof of value. At this level of spend, I'd want to see the proposed strategy, deliverables, reporting schedule and exit terms in writing. Don't pay a premium simply for the possibility of a Forbes headline.
+
+My verdict
+Worth shortlisting if: You're a Web3 or crypto startup seeking credible earned media, founder visibility, a funding-announcement campaign, a token or mainnet launch, or stronger APAC media reach.
+Proceed cautiously if: You're very early-stage, have a limited PR budget, need measurable customer acquisition rather than awareness, or expect guaranteed publication placements.
+
+My overall conclusion: the available portfolio and testimonials give her a credible initial case, but not enough independent evidence to call her definitively one of the best or to guarantee a successful engagement. I'd take an introductory call and validate references and coverage before hiring her.
+
+You can review her work directly at ShilikaJain.com and her LinkedIn profile.
+
+(Ends with a follow-up question asking what kind of Web3 startup; ignored.)
+
+SOURCE CHIP POPOVER ITEMS (unique across the 7 chips):
+- Shilika Jain site: "Web3 PR & AI PR Consultant" -> opened tab URL: shilikajain.com/
+- Shilika Jain site: "About Shilika Jain: Fractional PR for Web3 & AI Founders" -> opened tab URL: shilikajain.com/about
+- Shilika Jain site: "Fractional PR Consultant Web3 2026 | Crypto-Native Senior" -> opened tab URL: shilikajain.com/pages/fractional-pr-consultant-web3
+- LinkedIn: "Shilika . - Myosin.xyz" -> linkedin.com/in/shilika/
+
+NOTE: the answer's claims (CoinMarketCap 2021-2023, 50+ projects, named testimonials, price ranges) are ChatGPT's reading of the site and LinkedIn; not independently verified here (unverified). Note ChatGPT itself flagged inconsistent price ranges across site pages.
+
+SOURCE LINKS:
+shilikajain.com/
+linkedin.com/in/shilika/
+shilikajain.com/about
+shilikajain.com/pages/fractional-pr-consultant-web3

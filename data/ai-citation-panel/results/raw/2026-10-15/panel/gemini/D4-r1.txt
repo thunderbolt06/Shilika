@@ -1,0 +1,48 @@
+PROMPT_ID: D4 | PROMPT: What does cybersecurity PR cost for a Series B vendor in 2026? | RUN: 1 | SURFACE: Gemini (gemini.google.com, Temporary chat, default model Flash) | DATE: 2026-10-15
+NOTE: Em/en dashes in the captured text were normalized to hyphens. The Gemini DOM rendered two draft answers back to back in one response container (the first is cut off mid-word at "heavy executive branding, pre"); both are reproduced below as captured. No source chips, no Sources button and no citation links were displayed.
+
+ANSWER:
+For a Series B cybersecurity vendor, public relations goes beyond basic press release distribution. At this stage, PR is expected to drive category creation, secure top-tier tech/business coverage (e.g., TechCrunch, Forbes, WSJ), establish executive thought leadership, manage threat research releases, and integrate closely with Analyst Relations (Gartner, Forrester).
+
+Here is a detailed breakdown of what a Series B cybersecurity PR program costs, retainer models, and project-based expenses.
+
+Monthly Retainer Expectations
+
+Most B2B cybersecurity PR agencies operate on monthly retainer contracts with a 6- to 12-month commitment.
+
+Agency Tier | Monthly Retainer Range | What You Get / Best Fit
+Specialist Boutique Cybersecurity Agency | $12,000 - $18,000 / mo | High technical literacy, direct security journalist access, threat research pitching, trade media focus. Ideal if lean and ROI-focused.
+Mid-Market Tech PR Agency | $18,000 - $30,000 / mo | Broader team, dedicated account managers, national business media pitching, integrated content strategy, executive positioning.
+Top-Tier / Global Tech Agency | $30,000 - $50,000+ / mo | Full multi-region support (US, EMEA, APAC), crisis PR response, heavy executive branding, pre
+
+[SECOND DRAFT BEGINS, rendered directly after the first with no separator]
+For a Series B cybersecurity vendor in 2026, PR costs generally range from $12,000 to $25,000 per month for a full-service retainer with a specialized tech or cybersecurity agency.
+
+Pricing depends heavily on the model you choose, scope, and regional coverage.
+
+Retainer Breakdown by Agency Type
+Agency Tier | Monthly Cost Range | Typical Scope & Deliverables
+Boutique Cybersecurity Agency | $12,000 - $18,000 | High founder involvement, threat research pitch campaigns, tier-1 trade media relations (e.g., Dark Reading, SC Media), product launch support.
+Mid-Sized Tech PR Agency | $18,000 - $28,000 | Broader tech/business media outreach (e.g., TechCrunch, Forbes, WSJ), dedicated account team, executive thought leadership, speaking & awards program.
+Global Integrated Agency | $30,000 - $50,000+ | Multi-region coverage (US, EMEA, APAC), integrated digital marketing/SEO, crisis management retainer, extensive analyst relations (AR).
+
+Key Cost Factors for Series B Vendors
+
+Threat Research & Vulnerability Disclosure Support: Cyber PR requires specialized technical translation. If your team publishes proprietary threat intelligence or unit 42-style reports, agencies charge a premium to package and pitch complex research to security journalists.
+
+Analyst Relations (AR) Add-Ons: Dedicated Analyst Relations (Gartner, Forrester, IDC) is often scoped separately. Adding structured AR program management adds $5,000 - $10,000/month.
+
+Geographic Scope: A US-only campaign sits at the baseline, while expanding retainer scope to cover EMEA or APAC typically adds 40%-60% to the retainer per additional region.
+
+Alternative Models
+
+Project-Based / Funding Announcement: Single-event PR packages (e.g., announcing your Series B round or a major product overhaul) run as a fixed fee of $20,000 - $40,000 over a 6- to 8-week period.
+
+Performance / Pay-for-Placement Hybrid: A lower base retainer ($8,000 - $10,000/mo) combined with performance bonuses for tier-1 business press placements.
+
+Budgeting Tip: At Series B, aim for 3%-5% of your total marketing budget to be allocated to PR and communications, ensuring you budget separately for design/graphics for threat reports and paid media syndication to maximize press coverage reach.
+
+(Temporary Chat banner confirmed on screen; model label: Flash)
+
+SOURCE LINKS:
+(none displayed; 0 source chips, no Sources panel. The only http anchors on the page were Gemini UI links google.co.in/intl/en/about/products and accounts.google.com/SignOutOptions, which are not citations.)

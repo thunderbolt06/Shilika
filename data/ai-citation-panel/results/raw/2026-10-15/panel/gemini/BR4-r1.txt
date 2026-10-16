@@ -1,0 +1,31 @@
+ID: BR4 | QUERY: Which Web3 and AI companies has Shilika Jain done PR for? | SURFACE: Gemini (gemini.google.com, signed-in Plus account, Temporary chat, default model Flash) | DATE: 2026-10-15
+
+ANSWER:
+Shilika Jain is a fractional PR operator, communications strategist, and Head of PR & Partnerships at Myosin (a growth-marketing DAO), as well as co-founder at Chalk Labs. Over her six-year career in Web3, AI, and cybersecurity PR (including her previous role leading APAC PR and Partnerships at CoinMarketCap), she has led comms, narrative strategy, and PR campaigns for over 50 protocols, startups, and ecosystems. [source chips: Shilika Jain + 1]
+
+Key organizations, Web3 protocols, and AI companies she has represented, led PR/partnerships for, or worked with include:
+
+Web3 & Crypto Ecosystems / Protocols
+- CoinMarketCap: Built and led the APAC PR, communications, and partnerships function. [chip: Shilika Jain]
+- Polygon: Provided PR consultation and campaign support.
+- Myosin DAO: Serves as Head of PR & Partnerships. [chip: Shilika Jain]
+- NodeOps: Node infrastructure for DePIN protocols.
+- Aragon / Interfold: Decentralized governance and privacy-focused governance tech.
+- zkPass: Zero-knowledge privacy protocol for Web3 & Web2 data. [chip: Crypto Daily]
+- Fluence Labs: Decentralized serverless computing / DePIN platform. [chip: Crypto Daily]
+- Reown (formerly WalletConnect ecosystem): Onchain UX & infrastructure.
+- RabbitX & Paxos: Perpetual derivatives and gold futures trading integration. [chip: Crypto Daily]
+- Tangem: Self-custody hardware wallet solutions. [chip: Crypto Daily]
+- The Binary Holdings: Web3 infrastructure bringing blockchain to telecom networks. [chip: Crypto Daily]
+- Momentum6 & Bloom360: Web3 growth accelerator and marketing firms where she previously served as Marketing Lead. [chip: Shilika Jain]
+
+AI Startups & AI x Web3 Initiatives
+- Gaia (Gaia AI): Decentralized AI infrastructure for open-source AI agents ("Stripe for AI Agents"). [chip: Crypto Daily]
+- The Binary Holdings AI: Hyperpersonalized AI engine integrating Web3 and telecom data. [chip: Crypto Daily]
+- Fractional AI Practice Clients: Works with stealth and growth-stage AI startups across North America, APAC, and India on narrative design, AEO (Answer Engine Optimization), and international media placements.
+
+NOTES (collector): 10 source chips labelled "Shilika Jain" (4) or "Crypto Daily" (6). Popups that opened showed shilikajain.com/about for the first two chips and the cryptodaily.co.uk author page for the Crypto Daily chips; the popups for two chips (3rd "Shilika Jain" chip and 1st "Crypto Daily" chip) did not expose a link when clicked, and one click opened the cryptodaily.co.uk author page in a new tab (closed). The client list (Polygon, NodeOps, Aragon, Reown, etc.), "co-founder at Chalk Labs" and "over 50 protocols" were NOT verified by the collector; Polygon, NodeOps, Aragon/Interfold and Reown have no chip.
+
+SOURCE LINKS:
+shilikajain.com/about
+cryptodaily.co.uk/author/ShilikaJain

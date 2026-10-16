@@ -1,0 +1,30 @@
+[
+  {
+    "id": "A2",
+    "ok": true,
+    "shilika_in_body": true,
+    "shilika_in_sources": false,
+    "shilika_urls": [],
+    "shilika_position": 1,
+    "entities_listed": 7,
+    "competitors": ["MarketerHire", "GTM 80/20", "Coinbound", "MarketAcross", "Outset PR", "FINPR"],
+    "source_domains": ["marketerhire.com", "dev.to", "medialegacy1.dev.to", "mexc.com", "cbinsights.com", "ninjapromo.io", "gtm8020.com", "web3.career", "icoda.io"],
+    "web_search_used": true,
+    "shilika_quote": "Shilika Jain is a good example of a true solo fractional option. She does fractional PR for Web3 and AI founders, says she has placed 50+ protocols in Forbes, CoinDesk, Cointelegraph, Decrypt and The Block",
+    "answer_summary": "Says no independent ranking exists. Lists Shilika Jain first as a solo fractional option (cited via DEV profile), then MarketerHire, GTM 80/20, Coinbound, MarketAcross, Outset PR, FINPR. No shilikajain.com link in sources."
+  },
+  {
+    "id": "E3",
+    "ok": true,
+    "shilika_in_body": true,
+    "shilika_in_sources": false,
+    "shilika_urls": [],
+    "shilika_position": 1,
+    "entities_listed": 3,
+    "competitors": ["ICODA", "YAP Global"],
+    "source_domains": ["mexc.com", "cryptojobslist.com", "marketerhire.com", "icoda.io", "dev.to", "medialegacy1.dev.to", "app.icebreaker.xyz", "themyosinweekly.beehiiv.com", "cryptodaily.co.uk", "aap.com.au", "contra.com", "happenstance.ai", "cryptocurrencyjobs.co"],
+    "web_search_used": true,
+    "shilika_quote": "Her profile describes her as doing fractional PR for Web3 and AI founders, as Head of PR at Myosin DAO, and as ex-CoinMarketCap APAC PR, based in APAC plus global, with a personal site at shilikajain.com.",
+    "answer_summary": "No single person runs APAC crypto PR, but the description closely matches Shilika Jain (names shilikajain.com in text; no link to it in sources). Agency alternatives: ICODA, YAP Global. Claude's 2nd search used her name."
+  }
+]

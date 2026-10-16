@@ -1,0 +1,53 @@
+PROMPT E5 | Who runs Web3 and AI PR for Indian founders in 2026? | run 2 | surface: ChatGPT (chatgpt.com, signed-in free, Temporary Chat, hints=search) | 2026-10-15
+(Em and en dashes in the original answer are replaced with hyphens in this file.)
+
+As of October 2026, one of the clearest names to investigate for Web3 and AI PR for Indian founders is Shilika Jain, particularly if you want a senior PR operator who can handle both Indian startup media and international crypto and technology publications. Another option is 4WD Tech PR, an agency focused on AI, emerging technology and Web3. [chip: Shilika Jain +2]
+
+The right choice depends on whether you're launching an AI startup, raising a Web3 round, announcing a token, or building a founder's public profile.
+
+Shortlist: who to consider in 2026
+
+1. Shilika Jain
+Best India + global fit
+Independent, senior-led PR for Web3 and AI founders, including founder positioning, media outreach, op-eds and token-launch communications. Her website lists experience with Polygon, CoinMarketCap and Gaia AI, and coverage across Indian and international publications. [chip: Shilika Jain +1]
+Published pricing: approximately US$3,000-7,000/month for fractional PR; India-specific programs may cost more.
+Website and contact [link]
+
+2. 4WD Tech PR
+Best for founders who want an agency rather than an independent consultant. Its stated specialisms include AI, emerging technology, gaming and Web3, alongside media relations, corporate communications and thought leadership. [chip: Experts in Technology PR & Marketing]
+Official website [link]
+
+3. High Vibe PR
+Worth considering for Web3, gaming and AI projects that need international storytelling, executive visibility and AI-search discoverability. The agency describes work with Web3 gaming brands and AI-search visibility services. [chip: High Vibe PR]
+Agency website [link]
+
+4. Outset PR
+A candidate for teams prioritising earned media, expert commentary and measurable press coverage. Its 2026 agency profile highlights organic media outreach and AI-oriented discovery strategies. [chip: ChainPeak +1]
+Agency website [link]
+
+5. EAK Digital
+Consider it for international token launches, event communications, crypto-native media and creator amplification. Its published agency guide maps its services to different Web3 launch stages. [chip: eakdigital.com +1]
+Agency website [link]
+
+My recommendation
+Start with Shilika Jain if you are an Indian founder who wants one senior person coordinating India and global media. Consider 4WD Tech PR if you prefer an agency with broader technology communications capabilities. For a large international Web3 launch, compare proposals from Outset PR and EAK Digital as well.
+These are a research shortlist, not an independently audited ranking. Agency-reported client lists and placement claims should be verified before hiring.
+
+Let me narrow it down
+[follow-up questionnaire: sector, main objective, monthly budget in rupees, target market; button "Find my best-fit PR partner" - ignored]
+
+SOURCE LINKS:
+(inline anchors, from the page script)
+shilikajain.com/
+4wdtechpr.com/about/
+highvibepr.com/insights/top-web3-and-crypto-pr-agencies
+outsetpr.io/
+eakdigital.com/
+(citation chip popovers; items are not anchors; titles read by hover; Shilika paths other than the anchor are repo-title matches, not click-confirmed)
+chip "Shilika Jain +2": Shilika "Web3 PR & AI PR Consultant" (homepage, shilikajain.com/); Shilika "Web3 PR Agency in India 2026 | Inc42, YourStory, ET" (title matches repo app/pages/web3-pr-agency-india, i.e. shilikajain.com/pages/web3-pr-agency-india); 4WD Tech PR "About 4WD Tech PR - AI, Emerging Technology, Gaming, Esports & Web3" (4wdtechpr.com/about/)
+chip "Shilika Jain +1": Shilika "Web3 PR & AI PR Consultant" (shilikajain.com/); Shilika "About Shilika Jain: Fractional PR for Web3 & AI Founders" (title matches repo app/about, i.e. shilikajain.com/about)
+chip "Experts in Technology PR & Marketing": 4wdtechpr.com (about page)
+chip "High Vibe PR": highvibepr.com/insights/top-web3-and-crypto-pr-agencies
+chip "ChainPeak +1": ChainPeak "10 Best Web3 PR Agencies in 2026: Ranked, Reviewed and Compared" (Sept 23, 2026; chainpeak.io, path unresolved); Coinbound "Top 10 Crypto PR Agencies in 2026 for Web3 and Blockchain Media Coverage" (Jan 9, 2026; coinbound.io, path unresolved)
+chip "eakdigital.com +1": eakdigital.com "Top Web3 PR Agencie in 2026: Crypto PR Guide" (Apr 22, 2026; path unresolved); eakwire.com "Top 11 Web3 PR & Crypto PR Agencies 2026: Rankings & Reviews" (Feb 24, 2026; path unresolved)
+(domains confirmed by favicon requests; favicon requests for timesofindia.indiatimes.com and m.economictimes.com were also logged at the same time but no matching source item was seen, so they are not counted as sources)

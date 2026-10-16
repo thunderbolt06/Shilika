@@ -1,0 +1,35 @@
+PROMPT ID: D3 | PROMPT: How does a cybersecurity vendor get cited by AI search engines in 2026? | RUN: 1 | SURFACE: Claude (claude.ai, signed-in, Incognito chat, model shown as Opus 5.5 Medium / Auto, web search used: searched "how B2B brands get cited by AI search engines 2026 GEO")
+
+ANSWER TEXT:
+The short version: be the source AI engines can verify and quote. For a cybersecurity vendor, that comes down to a few things.
+
+1. Keep SEO basics strong. AI engines pull much of what they cite from regular search results, so good SEO feeds directly into AI visibility. Also check your robots.txt and CDN settings. If your server or robots rules block AI crawlers, your brand can't be cited at all. [polarisagency]
+
+2. Publish original, specific data. This is where security vendors have an edge. Threat reports, CVE analyses, attack telemetry, and breach stats are exactly what AI loves. A Princeton GEO study found expert quotes raised AI visibility by about 41% and statistics by about 30%. Vague marketing claims get skipped. [magmalabs]
+
+3. Structure pages for extraction. Put stats, tables, sources, and direct answers in the top 30% of the page. Build comparison pages, "what is" explainers (e.g. "what is XDR"), and clear docs. [tripledart]
+
+4. Get mentioned off your own site. AI engines track how often your brand appears across PR, Reddit, and YouTube, even without links. Review sites matter a lot. One 2026 study found every SaaS tool cited by ChatGPT had Capterra reviews. For security, also aim for G2, PeerSpot, Gartner Peer Insights, analyst reports, and security media coverage. [tripledart] [gogochimp]
+
+5. Build entity signals. Get a Wikipedia article if you can, or at least a Wikidata entry. [getdarwin]
+
+6. Track each engine separately. Only 11% of domains cited by ChatGPT are also cited by Perplexity, so one strategy won't cover all. Tools like Ahrefs Brand Radar or Profound can track your share of citations versus competitors. [gogochimp]
+
+One myth to skip: Google's 2026 guidance says llms.txt files, special chunking, and custom schema aren't required for AI search. [magmalabs]
+
+You have Ahrefs connected here. Want me to check how often your brand (or competitors) currently shows up in AI answers?
+
+(Search block text: "Researching current best practices for AI search citation strategy." / "Drafting a concise cybersecurity-focused answer with select citations.")
+
+SOURCE LINKS:
+blog.magmalabs.io/2026/07/23/geo-for-b2b-how-to-get-your-company-cited-by-chatgpt-and-perplexity.html
+blog.getdarwin.ai/en/generative-engine-optimization-geo-b2b-2026
+blog.magmalabs.io/
+gogochimp.com/blog/geo-for-saas
+contently.com/2026/03/31/geo-for-saas/
+bigredjelly.com/blog/generative-engine-optimization-b2b/
+bigredjelly.com/
+tripledart.com/blog/geo-statistics-for-b2b-saas
+gogochimp.com/blog/geo-for-b2b
+polarisagency.com/
+(also returned by the script but a Claude UI help link, not a cited source: support.claude.com/en/articles/13345190-get-started-with-claude-cowork)

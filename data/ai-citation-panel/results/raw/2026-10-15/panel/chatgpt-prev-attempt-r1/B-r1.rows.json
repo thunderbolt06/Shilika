@@ -1,0 +1,72 @@
+[
+  {
+    "id": "B1",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_position": 0,
+    "shilika_urls": [],
+    "shilika_quote": "",
+    "entities_listed": 11,
+    "competitors": ["MarketAcross", "Wachsman", "Coinbound", "Outset PR", "EAK Digital", "Melrose PR", "Lunar Strategy", "GuerrillaBuzz", "ReBlonde", "FINPR", "Luna PR"],
+    "source_domains": ["chainpeak.io", "lunarstrategy.com", "marilynpr.co", "icoda.io", "kolhq.com", "bitzo.com", "eakdigital.com", "luvkaizen.com", "surgence.io"],
+    "web_search_used": true,
+    "answer_summary": "Shortlist of 11 agencies led by MarketAcross, Wachsman, Coinbound, Outset PR, EAK Digital, Melrose PR, Lunar Strategy, plus 4 more. Shilika Jain not named; no shilikajain.com link in sources."
+  },
+  {
+    "id": "B2",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": true,
+    "shilika_position": 0,
+    "shilika_urls": ["shilikajain.com/playbook/how-to-pitch-cointelegraph-2026"],
+    "shilika_quote": "",
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": ["coindesk.com", "cointelegraph.com", "decrypt.co", "shilikajain.com", "consensus2026.coindesk.com"],
+    "web_search_used": true,
+    "answer_summary": "Guide to pitching CoinDesk, Cointelegraph, Decrypt: earned vs guest vs paid routes, workflow, templates, 30-day plan. Names no PR firms. Shilika's Cointelegraph pitch guide sat in the Sources 'More' list only, not in the text."
+  },
+  {
+    "id": "B3",
+    "ok": true,
+    "shilika_in_body": true,
+    "shilika_in_sources": true,
+    "shilika_position": 0,
+    "shilika_urls": ["shilikajain.com/playbook/crypto-pr-cost-2026", "shilikajain.com/playbook/crypto-go-to-market-strategy-2026", "shilikajain.com/blog/web3-startup-marketing-checklist", "shilikajain.com/playbook/crypto-exchange-pr-2026"],
+    "shilika_quote": "A 2026 pricing breakdown from crypto PR operator Shilika Jain places a full TGE communications sprint at $25,000-$75,000 over 6-8 weeks.",
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": ["shilikajain.com", "chainpeak.io", "bitzo.com", "crypticweb3.com", "blog.kraken.com", "fracasdigital.com", "lunarstrategy.com", "kolweb3.com", "kol.solutions"],
+    "web_search_used": true,
+    "answer_summary": "90-day three-phase TGE PR playbook, channels, 12-week calendar, cost tiers, compliance. Shilika Jain named once as a pricing source ($25k-$75k sprint), not as a recommended provider (position 0); 4 shilikajain.com pages in Sources."
+  },
+  {
+    "id": "B4",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": true,
+    "shilika_position": 0,
+    "shilika_urls": ["shilikajain.com/playbook/token-launch-marketing-agency-india-2026", "shilikajain.com/pages/token-launch-pr-agency-india", "shilikajain.com/services/token-launch-pr", "shilikajain.com/pages/crypto-token-launch-marketing-agency"],
+    "shilika_quote": "",
+    "entities_listed": 6,
+    "competitors": ["GeniusPR", "Cryptic", "MarketAcross", "Lunar Strategy", "Wachsman", "FINPR"],
+    "source_domains": ["geniuspr.com", "crypticweb3.com", "apcollective.io", "mistial.com", "cryptodaily.co.uk", "chainpeak.io", "worldbusinessoutlook.com", "shilikajain.com", "thechalklabs.com", "tokenpr.net", "revenuebase.ai", "pr.plus", "outreachpari.com"],
+    "web_search_used": true,
+    "answer_summary": "Shortlists 6 firms for pre-TGE PR: GeniusPR, Cryptic, MarketAcross, Lunar Strategy, Wachsman, FINPR. Shilika Jain not named in text; 4 shilikajain.com pages appear only in the Sources 'More' list."
+  },
+  {
+    "id": "B5",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_position": 0,
+    "shilika_urls": [],
+    "shilika_quote": "",
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": ["kolhq.com", "dopamyn.ai", "chainpeak.io", "surgence.io", "ocromedia.com", "track360.info", "ftc.gov", "sec.gov", "take3.io", "reuters.com", "apcollective.io", "kolweb3.com", "thechalklabs.com"],
+    "web_search_used": true,
+    "answer_summary": "Step-by-step Web3 KOL campaign playbook: objective, tiered roster, vetting, $20k pilot budget, attribution, 30-day waves, FTC disclosure. Recommends no agencies; Shilika absent from text and sources."
+  }
+]

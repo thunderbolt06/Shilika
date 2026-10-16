@@ -1,0 +1,62 @@
+PROMPT E1 | Who is the best PR consultant for a Web3 startup launching in Korea in 2026? | run 2 | surface: ChatGPT (chatgpt.com, signed-in free, Temporary Chat, hints=search) | 2026-10-15
+
+Best PR consultant for a Web3 startup launching in South Korea in 2026
+
+My recommendation is to shortlist a Korea-native crypto PR specialist and a global Web3 PR agency, rather than hiring a conventional technology PR firm. The right choice depends on whether your priority is Korean media coverage, investor credibility, exchange ecosystem relationships, or international visibility.
+
+Based on my research for 2026, these are the strongest candidates to evaluate. This is a practical shortlist, not an independently verified ranking of every PR consultant in Korea.
+
+Top 3 candidates to consider
+
+1. Shilika Jain
+Best independent consultant to evaluate
+Korea-focused APAC and global crypto PR
+An individual-consultant option for founder positioning, international media outreach, Korean market localization and launch communications. Her website lists work involving outlets such as CoinDesk, Cointelegraph, BloomingBit and TokenPost, along with broader APAC campaigns. Verify the depth of her direct Korean-language relationships and relevant case studies before engaging. [chip: Shilika Jain +2]
+Website and Korea services [link]
+
+2. TokenPost Global PR
+Best for Korean crypto media access
+Korean-language publicity and local market reach
+A strong option to investigate if your launch needs localized content, Korean crypto media coverage, influencer campaigns and event promotion. TokenPost advertises integrated PR and marketing services and publishes client case studies. Because it operates a media outlet, clarify which deliverables are independent editorial coverage versus paid placements or advertorials. [chip: Korea's #1 Crypto Marketing Agency]
+Official agency website [link]
+
+3. GeniusPR
+Best agency alternative to assess
+Global PR with a reported Seoul presence
+Worth considering if you need a coordinated agency team for international media, corporate positioning and a multi-market campaign. Its published profile describes a Seoul office and global Web3 campaign experience. Ask for named Korean client references and examples of earned coverage specifically in South Korea. [chip: GenuisPR]
+Agency website [link]
+
+How I would choose
+Your launch objective | My first choice to evaluate
+Personal attention from a senior Web3 PR consultant | Shilika Jain
+Korean-language crypto media and local visibility | TokenPost Global PR
+Broader international agency support | GeniusPR
+
+For a wider global-agency comparison, MarketAcross is also worth evaluating for blockchain-native media relations, while Wachsman is relevant for corporate reputation and high-stakes communications. Both appear in a 2026 Web3 agency comparison. [chip: ChainPeak]
+
+What matters specifically in Korea in 2026
+Before signing a PR contract, check whether the consultant can deliver:
+Native Korean media relations: Relevant relationships with BloomingBit, TokenPost, BlockMedia and Coinness.
+A launch narrative that builds trust: Credible founder profiles, product differentiation, partnerships and verifiable traction.
+Regulatory-aware messaging: Communications appropriate to South Korea's virtual-asset rules and your particular business model.
+Local community reach: Korean-language content and carefully selected creators, not just translated English announcements.
+Measurable earned media: Clear separation between independent editorial coverage, sponsored articles, press-release syndication and influencer promotions.
+These distinctions are particularly important if your project has a token, plans exchange listings, or targets Korean retail investors. [chip: Korea's #1 Crypto Marketing Agency +2]
+
+Help me narrow it down to one consultant
+[follow-up questionnaire about launch type, PR objective, monthly budget, launch stage; button "Find my best-fit PR consultant" - ignored]
+
+SOURCE LINKS:
+(inline anchors, from the page script)
+shilikajain.com/korea
+advertise.tokenpost.kr/en
+geniuspr.com/
+(citation chip popovers; items are not anchors; titles read by hover)
+chip "Shilika Jain +2" items (all site label "Shilika Jain"):
+  - "Korea Crypto PR Agency 2026 | KBW, BloomingBit, KOLs" (June 1, 2026) -> title matches repo page app/pages/korea-crypto-pr-agency, i.e. shilikajain.com/pages/korea-crypto-pr-agency (title match only, click-through not confirmed)
+  - "Web3 PR & AI PR Consultant" -> title matches the homepage metadata, i.e. shilikajain.com/ (title match only)
+  - "Korea Web3 & AI PR 2026: BloomingBit, TokenPost, KBW Seoul" -> matches shilikajain.com/korea (same as inline anchor, title also in repo app/korea)
+chip "Korea's #1 Crypto Marketing Agency": "TokenPost Global PR" (advertise.tokenpost.kr/en per inline link)
+chip "GenuisPR": "Best Crypto PR Agency in 2026 Buyer's Evaluation Guide" (Sept 11, 2026), geniuspr.com (path unresolved)
+chip "ChainPeak": chainpeak.io (page "10 Best Web3 PR Agencies in 2026: Ranked, Reviewed and Compared", Sept 23, 2026; chainpeak.io/blog/best-web3-pr-agencies-2026/ is the URL of a tab open in the same browser with that exact title)
+chip "Korea's #1 Crypto Marketing Agency +2" items: TokenPost Global PR; Shilika Jain "Korea Web3 & AI PR 2026: BloomingBit, TokenPost, KBW Seoul"; ChainPeak "10 Best Web3 PR Agencies in 2026: Ranked, Reviewed and Compared"

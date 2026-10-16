@@ -1,0 +1,96 @@
+PROMPT B4 | Which crypto PR firms specialize in pre-token-generation-event launches? | run 2 | surface: ChatGPT (chatgpt.com, signed-in free account, Temporary Chat, Web search hint on) | captured 2026-10-15
+NOTE: em/en dashes in the captured text were normalised to hyphens. Inline citation chips (not prose) are marked [chip: ...]. Shilika Jain is NOT named in the prose and NO chip is labelled Shilika Jain in this answer.
+
+ANSWER TEXT:
+For a crypto project preparing for a Token Generation Event (TGE), I'd prioritize PR firms that explicitly handle the pre-TGE runway, coordinated press embargoes, launch-day coverage, exchange announcements, and post-listing communications - not just general Web3 marketing.
+
+Based on current web research, these are the strongest candidates to put on your shortlist. One important caveat: many agency rankings are published by the agencies themselves or commercial media sites, so treat performance claims as leads to verify, not independent proof.
+[chip: GenuisPR +2]
+
+Crypto PR firms specializing in pre-TGE launches
+
+1. GeniusPR - Best for end-to-end launch PR
+Explicitly offers token-launch communications covering pre-launch narrative development, embargo coordination, exchange and institutional media, launch-day coverage, and post-launch momentum. Its published guidance recommends starting roughly 8-12 weeks before TGE. [chip: GeniusPR +1]
+Best fit: Projects with a defined launch date seeking a structured PR campaign.
+Website: Token launch PR
+
+2. Chalk Labs - Best for synchronized media coverage
+Focuses on pre-TGE narrative building, launch-week press waves, embargo timing, tier-one media placements, and post-listing momentum. The firm publishes a dedicated TGE and token-launch PR offering and claims experience across 50+ launches. [chip: Chalk Labs +1]
+Best fit: Teams that want coordinated editorial coverage around a specific announcement window.
+Website: Token launch PR
+
+3. Cryptic
+Offers explicit TGE and token-launch PR, exchange-listing announcements, paid media placements, broadcast coordination, and regional media campaigns across MENA, LATAM, and APAC. [chip: Cryptic]
+Best fit: Projects targeting multiple regions and combining earned press with paid visibility.
+Website: Crypto PR services
+
+4. Outset PR
+Emphasizes proactive media pitching, reactive journalist commentary, press syndication tracking, and ongoing coverage after the initial announcement. Its work is relevant when a project needs visibility to persist beyond launch day. [chip: Crypto Daily]
+Best fit: Teams prioritizing measurable press distribution and sustained media exposure.
+Website: Outset PR website
+Verify the current service scope and website directly before outreach.
+
+5. Wachsman
+An established strategic communications firm with experience across crypto exchanges, blockchain protocols, and infrastructure. Particularly relevant for institutional positioning, reputation management, and carefully framed communications in regulated markets. Its public positioning is broader than TGE execution specifically. [chip: Crypto Daily]
+Best fit: Larger or well-funded projects that need institutional credibility and senior-level communications.
+Website: Wachsman
+
+6. Serotonin
+Combines Web3 communications with venture-studio capabilities and token-related strategic advisory. This makes it worth considering when positioning, token design, and launch communications need to be aligned early. It is not exclusively a TGE PR firm. [chip: Crypto Daily]
+Best fit: Early-stage protocols that are still shaping their market narrative and go-to-market strategy.
+Website: Serotonin
+
+How I'd choose between them
+Pre-TGE to post-listing PR in one engagement: GeniusPR
+Coordinated tier-one press and launch-day coverage: Chalk Labs
+Regional reach plus paid media: Cryptic
+Press syndication and sustained coverage: Outset PR
+Institutional reputation and sensitive messaging: Wachsman
+Narrative and token strategy before launch: Serotonin
+
+For a broader launch campaign that includes creators, community growth, and distribution in addition to PR, also investigate AP Collective. Its published offering spans integrated token-launch marketing rather than PR alone. [chip: AP Collective +1]
+
+What to ask before signing
+A polished media list isn't enough. Ask each agency for:
+Three recent pre-TGE case studies: Project name, launch date, scope of work, outlets secured, and verifiable links.
+Actual editorial placements: Separate earned articles from sponsored content, paid press releases, and syndication copies.
+Embargo execution: Which outlets can they coordinate for the same launch window, and what happens if a story is delayed?
+Team and compliance: Who writes and pitches the story, and how are token-sale claims, exchange-listing claims, and regional restrictions reviewed?
+Measurement: Guaranteed deliverables, reporting cadence, and how they distinguish genuine press coverage from impressions and reposts.
+No PR agency can reliably guarantee an exchange listing, token price, trading volume, or investor demand.
+
+Let me narrow this to the best three for your launch (interactive questionnaire: TGE timing, project type, PR budget, target media market, "Find my top 3 agencies" - ignored)
+
+SOURCE LINKS:
+geniuspr.com/token-launch-pr
+thechalklabs.com/feeds/token-launch-pr-agency
+crypticweb3.com/crypto-pr/
+outsetpr.io/
+wachsman.com/
+serotonin.co/
+
+CHIP / CITATION-PAYLOAD URLS (read from the page's React props, 30 URLs in payload order; first 24 shown, the rest were cut off by the output limit; includes retrieved sources that are not individually visible as chips):
+cryptodaily.co.uk/2026/04/top-8-crypto-pr-agenci... (truncated by me)
+geniuspr.com/top/best-crypto-pr-agencies-for-a-t... (truncated by me)
+geniuspr.com/token-launch-pr
+crypticweb3.com/crypto-pr-agency/
+shilikajain.com/playbook/token-launch-marketing-agency-india-2026   <-- in payload, NOT shown as a chip (retrieved only)
+shilikajain.com/pages/token-launch-pr-agency-india   <-- in payload, NOT shown as a chip (retrieved only)
+shilikajain.com/   <-- in payload, NOT shown as a chip (retrieved only)
+apcollective.io/blog/best-token-launch-marketing... (truncated by me)
+mistial.com/digital-marketing/2026/best-crypto-m... (truncated by me)
+thechalklabs.com/services/pr
+thechalklabs.com/feeds/token-launch-pr-agency
+thechalklabs.com/feeds/token-launch-marketing-ag... (truncated by me)
+worldbusinessoutlook.com/best-crypto-pr-agencies
+outreachpari.com/services/crypto-pr/
+echo-trade.io/blog/top-crypto-pr-agencies
+chainpeak.io/blog/best-token-launch-marketing-ag... (truncated by me)
+thegroupthree.com/
+thegroupthree.com/services/
+growgami.com/best-token-launch-marketing-agencie... (truncated by me)
+icoda.io/blog/best-web3-pr-agencies/
+cryptojobslist.com/companies/genius-pr
+startuphub.ai/ai-news/funding-round/2025/chalk-s... (truncated by me)
+binance.com/en/square/profile/cryptic_web3
+crypticweb3.c... (cut off)

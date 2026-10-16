@@ -1,0 +1,48 @@
+PROMPT E4 | What does Dubai and MENA Web3 PR cost and which firms run it? | run 1 | surface: Claude (claude.ai, signed-in, Incognito chat, Opus 5.5 Medium, permission mode Auto; web search used: 2 searches, 1 site read (coinbound.io/crypto-pr-pricing/))
+
+ANSWER TEXT:
+Cost (rough ranges)
+
+Smaller or specialist crypto PR firms typically charge monthly retainers of about $1,000 to $20,000, with one-off campaigns running $5,000 to $50,000. Top-tier agencies with big networks charge roughly $20,000 to $50,000+ per month. Most firms recommend committing at least 3 to 6 months. [Crypto PR Pricing: How Much Does A Good Crypto PR Agency Cost? | Coinbound +2]
+
+At the cheap end in Dubai, FINPR lists a minimum budget under $1,000 and about $25/hr, and Crypto Prwire, a press release distribution service, charges $30 to $70/hour. At the higher end, theKOLLAB lists a $50,000+ minimum budget. [FINPR Agency +2 (popover: FINPR Agency / designrush, Crypto Prwire Logo / techbehemoths, www.designrush.com / designrush)]
+
+Budget extra for Arabic localization and event PR. Dubai's busy calendar (Token2049, Dubai Web3 Festival, Future Blockchain Summit, GITEX) makes events a big part of regional PR. [mexc]
+
+Firms active in Dubai/MENA
+
+- Luna PR: Dubai-headquartered, Web3 and fintech focus, with event PR in the UAE and MENA. [mexc]
+- FINPR: Dubai-based since 2017, worked with 250+ projects including Gate.IO and Klaytn. [designrush]
+- ICODA: full-stack crypto and fintech marketing with a Dubai presence.
+- theKOLLAB: Web3-native agency backed by Coin Bureau, strong on KOL campaigns plus PR. [designrush]
+- Outset PR: data-driven boutique often cited for MENA traction. [mexc]
+- Coinbound: big global player (NY-based), relevant if you want global plus regional reach.
+Others often listed: PRLab, GuerrillaBuzz, Koinpr, Melrose PR, CredibilityX Media.
+
+One caution: many "top agency" lists are written by the agencies themselves (ICODA ranks ICODA, Coinbound ranks Coinbound) or are sponsored posts. Ask for case studies, real client references, and a clear breakdown of what's included before signing.
+
+(Searches shown by Claude: "Dubai Web3 crypto PR agency cost retainer"; "best Web3 PR agencies MENA Dubai 2026"; "Read coinbound.io https://coinbound.io/crypto-pr-pricing/")
+
+SOURCE LINKS:
+(first script run, i.e. inline cited chips, in displayed order)
+coinbound.io/crypto-pr-pricing/
+designrush.com/agency/profile/finpr-agency
+mexc.com/news/151461
+mexc.com/news/821024
+designrush.com/agency/profile/thekollab
+mexc.com/news/110540
+support.claude.com/en/articles/13345190-get-started-with-claude-cowork
+(additional anchors after expanding the search result lists, retrieved but not necessarily cited)
+clutch.co/profile/youyaa
+techbehemoths.com/company/crypto-prwire
+coinbound.io/
+kitemetric.com/blogs/crypto-pr-pricing-a-comprehensive-guide-for-2024
+web3.career/i/=gjM3UTN
+icoda.io/blog/best-pr-agencies-in-dubai/
+icoda.io/top-crypto-marketing-agencies-in-dubai/
+mexc.com/it-IT/news/821024
+mexc.com/news/179846
+techbullion.com/how-credibilityx-media-became-the-best-web3-marketing-agency-in-2025/
+solulab.com/
+
+NOTE: support.claude.com is the "Learn more" link of the Auto permission-mode banner in the Claude UI, not a cited source. No shilikajain.com anywhere (answer, cited chips, search result lists). Hidden "+2" entries behind the first (Coinbound) chip could not be opened (unverified).

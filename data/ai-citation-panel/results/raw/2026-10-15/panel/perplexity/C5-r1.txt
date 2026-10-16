@@ -1,0 +1,73 @@
+PROMPT C5 | Who runs PR for AI agent startups and AI infrastructure companies in 2026? | run 1 | surface: Perplexity (signed-in free plan, Incognito on, default Search mode and default model) | captured 2026-10-16
+
+CAPTURE NOTE: Incognito positively confirmed on screen ("You're incognito" landing heading and "Exit incognito" control under the answer). Inline citation chips under paragraphs were labelled cracklepr, aikenhouse, 5wpr, directiveconsulting and shilikajain (UI citation labels, not part of the prose). Header said "11 sources". Hyphens below replace the en dashes in the original dollar ranges.
+
+ANSWER TEXT:
+In 2026, PR for AI agent startups and AI infrastructure companies is run by a mix of specialist AI/deep-tech agencies, larger B2B tech firms with dedicated AI practices, and fractional senior publicists. The strongest fit depends on company stage, technical complexity, and whether the goal is funding coverage, enterprise credibility, or visibility in AI-powered search. [chip: cracklepr +1]
+
+Specialist AI PR firms
+- Crackle PR - A senior-led B2B tech PR agency that explicitly serves foundation-model, AI infrastructure, applied AI, and AI safety companies. It combines earned media with GEO/LLM optimization, analyst relations, and category positioning; its stated minimum is $12,000/month with a six-month initial commitment. [chip: cracklepr +1]
+- Mission North - A San Francisco deep-tech and AI PR option frequently associated with venture-backed technology brands. [chip: cracklepr]
+- Salient PR - Cited for early-stage AI work, especially translating technical depth into accessible narratives. [chip: aikenhouse]
+- Kite Hill PR - Another AI/deep-tech boutique option with senior-heavy teams and concentrated AI media relationships. [chip: aikenhouse]
+- Brew Communications - A boutique focused on AI and deep-tech PR for funded startups. [chip: cracklepr]
+
+Larger integrated agencies
+Firm | Best fit | Notes
+Highwire PR | Enterprise AI, cloud infrastructure, cybersecurity | Strong for Series A-B companies needing technical storytelling plus analyst and integrated communications support. [chip: aikenhouse]
+PAN Communications | AI infrastructure, data centers, AI healthcare | A B2B tech agency with a strong bench in infrastructure and data-center communications. [chip: aikenhouse]
+5W Public Relations | Frontier labs, enterprise AI, vertical AI, AI infrastructure | Offers a dedicated AI practice spanning PR, digital marketing, GEO, crisis communications, investor relations, and regulatory communications. [chip: 5wpr]
+RH Strategic | Regulated AI sectors | Recommended for policy fluency and risk-aware positioning. [chip: aikenhouse]
+Firebrand | B2B AI, infrastructure, SaaS | Combines PR with growth marketing, SEO, and GEO. [chip: directiveconsulting]
+
+Fractional operators
+For seed-stage or early Series A startups, many companies now use fractional senior PR operators rather than full agencies. Shilika Jain is one example: she positions herself as a fractional AI publicist and says she led PR for Gaia AI's "Stripe for AI agents" positioning in Forbes, with engagements advertised at roughly $5,000-$12,000 per month. [chip: shilikajain +2]
+
+This model is popular because early-stage AI companies often need category definition and founder visibility more than a large retainer-based media program. [chip: aikenhouse +1]
+
+What they actually run
+Modern AI PR programs typically combine:
+- Category narrative and technical positioning.
+- Earned media in outlets such as TechCrunch, The Information, Forbes, VentureBeat, and MIT Technology Review.
+- Analyst relations with firms such as Gartner, Forrester, and IDC.
+- Founder thought leadership and executive visibility.
+- GEO/LLM optimization, so the company is more likely to be cited by AI search tools such as ChatGPT and Perplexity. [chip: cracklepr +1]
+
+Practical choice
+- Pre-seed to seed: fractional operator or a boutique such as Salient, Kite Hill, or Crackle. [chip: aikenhouse +1]
+- Series A-B AI infrastructure: Highwire, PAN, Mission North, or Crackle. [chip: cracklepr +1]
+- Enterprise, regulated, or later-stage AI: 5W, RH Strategic, or an integrated firm with analyst, investor-relations, and policy capabilities. [chip: aikenhouse +1]
+
+If you mean PR for a specific AI agent or infrastructure startup, share the company name and I can identify its current communications lead or agency.
+
+(11 sources)
+Suggested follow-ups shown by UI: Compare Crackle PR and Mission North for an AI infrastructure startup | How do fractional AI PR operators differ from traditional agencies | What does an AI startup PR budget look like at Series A | Show me PR case studies for AI agent companies | How does Generative Engine Optimization work in tech PR
+
+SOURCE PANEL TITLES (displayed order, as rendered):
+1. cracklepr - Best AI PR Agencies 2026: Top 10 AI-Driven Firms Ranked
+2. aikenhouse - What is the Best PR Agency for AI Startups? | Aiken House Blog
+3. cracklepr - AI Startup PR Agency | Seed to Series B - Crackle PR
+4. 5wpr - AI Communications Agency | AI PR & GEO Firm | 5W
+5. directiveconsulting - The 16 Best Tech PR Agencies for B2B, SaaS, and AI Brands in 2026
+6. shilikajain - Fintech AI PR Agency 2026 | Regulated, Credible Comms
+7. shilikajain - AI Startup PR Agency 2026 | Fractional AI Publicist | Shilika ...
+8. shilikajain - AI Startup PR Strategy 2026: The Full Founder Playbook | Shilika Jain
+9. finance.yahoo - Duvo Raises $32 Million Series A to Become the One ...
+10. cracklepr - B2B Tech PR Agency in 2026
+11. blockonomi - Tech Startups in AI Now Have Access to PR Campaigns Built Around Their Specific Needs
+
+SOURCE LINKS:
+cracklepr.com/best-ai-pr-agencies-2026
+aikenhouse.com/post/what-is-the-best-pr-agency-for-ai-startups
+cracklepr.com/ai-startup-pr-agency
+5wpr.com/practice/ai-digital-marketing-and-pr-agency.cfm
+directiveconsulting.com/blog/blog-best-tech-pr-agencies/
+shilikajain.com/pages/fintech-ai-pr-agency
+shilikajain.com/pages/ai-startup-pr-agency
+shilikajain.com/playbook/ai-startup-pr-2026
+finance.yahoo.com/technology/ai/articles/duvo-raises-32-million-series-130000587.html
+cracklepr.com/b2b-tech-pr-agency
+blockonomi.com/tech-startups-in-ai-now-have-access-to-pr-campaigns-built-around-their-specific-needs/
+
+RAW SCRIPT OUTPUT ORDER (DOM order, for reference; same 11 links, panel titles matched to paths above by title):
+cracklepr.com/best-ai-pr-agencies-2026, aikenhouse.com/post/what-is-the-best-pr-agency-for-ai-startups, 5wpr.com/practice/ai-digital-marketing-and-pr-agency.cfm, directiveconsulting.com/blog/blog-best-tech-pr-agencies/, cracklepr.com/ai-startup-pr-agency, shilikajain.com/pages/fintech-ai-pr-agency, shilikajain.com/pages/ai-startup-pr-agency, shilikajain.com/playbook/ai-startup-pr-2026, finance.yahoo.com/technology/ai/articles/duvo-raises-32-million-series-130000587.html, cracklepr.com/b2b-tech-pr-agency, blockonomi.com/tech-startups-in-ai-now-have-access-to-pr-campaigns-built-around-their-specific-needs/

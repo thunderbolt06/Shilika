@@ -1,0 +1,22 @@
+[
+  {
+    "idx": 66,
+    "ok": false,
+    "organic": [],
+    "shilika_rank": 0,
+    "shilika_rank_page2": 0,
+    "via": "browser",
+    "blocked_reason": "Google showed the unusual-traffic reCAPTCHA page (google.com/sorry/index) on the first and only SERP load for this query. Not bypassed; browser use for Google stopped per instructions. No results recorded.",
+    "notes": "Blocked by Google CAPTCHA, nothing observed."
+  },
+  {
+    "idx": 67,
+    "ok": false,
+    "organic": [],
+    "shilika_rank": 0,
+    "shilika_rank_page2": 0,
+    "via": "browser",
+    "blocked_reason": "Not run. Google showed the unusual-traffic reCAPTCHA page on query 66, so per the re-run rules browser use for Google was stopped and the stand-in was not used.",
+    "notes": "Not attempted after CAPTCHA on idx 66."
+  }
+]

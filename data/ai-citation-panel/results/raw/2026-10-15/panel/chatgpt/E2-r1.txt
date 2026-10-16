@@ -1,0 +1,90 @@
+PROMPT E2 | Who runs crypto PR in Japan in 2026 and what does it cost to hire them? | run 1 | surface: ChatGPT (chatgpt.com, signed-in free account, Temporary Chat confirmed: banner "This chat won't appear in your conversation history" and temporary-chat=true in URL; Web search hint on) | captured 2026-10-16 IST
+
+ANSWER TEXT (follow-up questionnaire at the end omitted):
+Who runs crypto PR in Japan in 2026 - and what does it cost?
+
+As of October 2026, the market has two main options: specialist Web3 PR agencies that can coordinate media, influencers and launches, and senior PR operators who handle Japan localisation and journalist outreach directly.
+
+For a crypto project entering Japan, the key question isn't just which agency has the biggest global press list. It's whether the team can pitch Japanese-language outlets, understand local regulatory sensitivities, and build relationships with the journalists who cover the domestic market.
+[source chip: Shilika Jain +1 -> "Crypto PR in Japan in 2026: Outlets and Approach" (June 23, 2026); Top Crypto Marketing Agencies: "Top Crypto Marketing Agencies in Japan 2026"]
+
+1. Who to shortlist
+
+1. Shilika Jain - independent senior PR operator
+Published pricing
+Offers Japan and Korea localisation alongside wider APAC crypto communications, including Japanese media outreach and global press coordination.
+Cost: $5,000-$12,000/month
+Launch campaign: $15,000-$40,000
+Best for: Founders wanting senior-level attention without a large agency team.
+Pricing and service claims are published on her own website, rather than independently audited.
+Website and pricing
+[source chip: Shilika Jain +1 -> "Japan Crypto PR Agency 2026 | Native Outlets & Norms" (June 1, 2026); "Crypto PR in Japan in 2026: Outlets and Approach"]
+
+2. Pacific Meta - Japan-based Web3 market-entry specialist
+A Tokyo-based firm offering Web3 marketing, social media management, business development and events. Its broader offering includes regulatory and commercial market-entry support.
+Cost: Custom quote; no verified public PR rate found.
+Best for: Projects seeking Japanese partners, enterprise adoption and a longer-term local presence.
+Official services
+[source chip: Pacific Meta Inc. +1 -> "Services"; "Pacific Meta Inc."]
+
+3. Chainbull - full-service crypto PR and marketing
+Provides crypto media outreach, press releases, founder thought leadership, influencer marketing and token-launch campaigns. It serves international Web3 clients, but its Japan-specific journalist relationships should be verified.
+Cost: Approximately $3,000+/month for focused work; $5,000-$50,000+ for project campaigns, depending on scope.
+Best for: Teams that need PR combined with broader crypto marketing.
+Official website and pricing guidance
+[source chip: Chainbull]
+
+4. BrandWyre - international PR and press distribution
+Offers global press distribution, brand communications and Web3 marketing. Its published Japan option is aimed at press syndication, which is different from securing independent editorial coverage in Japanese crypto media.
+Cost: Japan press distribution advertised from $2,200; bespoke strategic PR costs may differ.
+Best for: Teams prioritising international visibility or a cost-conscious distribution campaign.
+Japan services and packages
+[source chip: Global PR Agency +1 -> "BrandWyre - Choose Your Market"; Chainbull "Top Crypto Marketing Agencies in June 2026" (June 4, 2026)]
+
+Important distinction: these are potential providers, not a verified ranking of the best Japanese crypto PR firms. Publicly advertised prices and agency claims don't independently establish editorial relationships or actual placement results.
+
+2. What should crypto PR in Japan cost?
+The following ranges are useful planning benchmarks, compiled from published 2026 provider pricing. They are not a standard industry tariff.
+
+Engagement type | Estimated cost (USD) | Typical purpose
+Press distribution | $100-$2,500+ per release/package | Broad syndication
+Translation and localisation | $200-$800 per document | Japanese-language materials
+Focused PR retainer | $3,000-$7,000/month | Senior operator, narrative and targeted outreach
+Specialist agency retainer | $8,000-$20,000/month | Ongoing local PR and media relations
+Japan launch campaign | $15,000-$40,000 total | Multi-week launch and media outreach
+Multi-market agency programme | $15,000-$45,000+/month | Japan plus other markets, multiple team members
+[source chip: Shilika Jain +3 -> "How Much Does Crypto PR Cost in 2026? Honest Pricing" (May 15, 2026); "Crypto PR in Japan in 2026: Outlets and Approach"; Chainbull "Crypto Marketing Agency for Web3 & DeFi Projects"; Global PR Agency "BrandWyre - Choose Your Market"]
+
+For budgeting, a $10,000/month retainer for three months means $30,000 in agency fees, before any separately billed influencer fees, travel, event sponsorships or other campaign expenses.
+
+3. Which Japanese media should your PR partner reach?
+CoinPost - A key domestic crypto news outlet. Relevant for market developments, exchange news, regulation and major project announcements.
+CoinDesk Japan - Relevant for crypto business, institutional developments and industry news.
+CryptoTimes - Useful to evaluate for token announcements, DeFi, blockchain projects and Japanese retail-crypto audiences.
+[source chip: Shilika Jain +1 -> "Crypto PR in Japan in 2026: Outlets and Approach"; "Crypto PR Agency Japan 2026 | CryptoTimes JP, CoinPost"]
+
+For mainstream business credibility, a campaign might also target Nikkei or Toyo Keizai, but the story needs genuine Japanese business relevance. No reputable PR provider can guarantee independent editorial coverage simply by promising access to these outlets.
+
+4. How I would choose
+Under $7,000/month: Look for a senior operator who can handle Japanese-language positioning and targeted outreach. Keep distribution and influencer spending separate.
+$8,000-$20,000/month: Consider a Japan-focused specialist or a local firm with demonstrable media relationships and a named Japanese-speaking account lead.
+$20,000+/month: Consider a broader market-entry programme if you also need partnerships, events, regulatory coordination or exchange relationships.
+
+Before signing, ask every provider for three recent Japan-specific case studies, the exact outlets contacted, examples of actual editorial coverage, the share of the work performed in Japanese, and a clear distinction between earned coverage and paid placement.
+
+(answer then ends with a "Let's narrow this to the right providers" questionnaire, ignored per instructions)
+
+SOURCE LINKS:
+shilikajain.com/playbook/crypto-pr-japan-2026
+topcryptoagency.com/countries/japan
+shilikajain.com/pages/japan-crypto-agency
+shilikajain.com/pages/japan-crypto-pr-agency
+pacific-meta.co.jp/en/service
+pacific-meta.co.jp/en/
+chainbull.net/crypto-marketing-agency/
+brandwyre.com/
+chainbull.net/blog/blockchain/top-crypto-marketing-agencies-in-june-2026-6-leading-firms-driving-web3-growth/
+shilikajain.com/playbook/crypto-pr-cost-2026
+shilikajain.com/pages/crypto-pr-agency-japan
+
+NOTES: The DOM a[href^=http] script returned only 4 links (shilikajain.com/pages/japan-crypto-agency, pacific-meta.co.jp/en/service, chainbull.net/crypto-marketing-agency/, brandwyre.com/) because the inline source chips are hover/click popups without anchors; the other paths were obtained by opening each chip entry and reading the destination URL of the tab it opened (hostname+path only). The "Website and pricing" anchor is shilikajain.com/pages/japan-crypto-agency while the chip entry "Japan Crypto PR Agency 2026 | Native Outlets & Norms" opened shilikajain.com/pages/japan-crypto-pr-agency; both are listed as observed. Thumbnail image attributions are not cited text sources and are excluded.

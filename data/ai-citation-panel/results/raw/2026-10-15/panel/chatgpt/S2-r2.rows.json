@@ -1,0 +1,255 @@
+[
+  {
+    "id": "C2",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": true,
+    "shilika_position": 0,
+    "shilika_urls": [
+      "shilikajain.com/playbook/enterprise-ai-pr-2026",
+      "shilikajain.com/playbook/crypto-exchange-pr-2026"
+    ],
+    "shilika_quote": "",
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": [
+      "shilikajain.com",
+      "a16zcrypto.com",
+      "outsetpr.io",
+      "ftc.gov",
+      "sec.gov"
+    ],
+    "web_search_used": true,
+    "answer_summary": "Compares AI vs crypto PR playbooks (audiences, proof, crisis, 90-day plans, metrics). Recommends no providers. Shilika Jain appears only as citation chips (2 playbook pages) and one 'enterprise AI PR playbook' link, never in prose.",
+    "blocked_reason": ""
+  },
+  {
+    "id": "C3",
+    "ok": true,
+    "shilika_in_body": true,
+    "shilika_in_sources": true,
+    "shilika_position": 1,
+    "shilika_urls": [
+      "shilikajain.com/pages/ai-thought-leadership-agency"
+    ],
+    "shilika_quote": "Offers founder positioning, op-ed ghostwriting and placement, with a stated focus on AI, Web3 and technical founders. Her site cites placements in Forbes, CoinDesk, Decrypt and Benzinga.",
+    "entities_listed": 5,
+    "competitors": [
+      "Kyne",
+      "After Comma",
+      "MediagraphixPR",
+      "Melivana"
+    ],
+    "source_domains": [
+      "shilikajain.com",
+      "kyne.agency",
+      "aftercomma.agency",
+      "mediagraphixpr.in",
+      "melivana.com"
+    ],
+    "web_search_used": true,
+    "answer_summary": "Five-firm shortlist for AI-founder op-ed ghostwriting and placement: 1 Shilika Jain (best specialist, $5K-$12K/month), 2 Kyne, 3 After Comma, 4 MediagraphixPR, 5 Melivana. Advises a 6-8 week pilot and gives budget bands.",
+    "blocked_reason": ""
+  },
+  {
+    "id": "D4",
+    "ok": true,
+    "shilika_in_body": true,
+    "shilika_in_sources": true,
+    "shilika_position": 3,
+    "shilika_urls": [
+      "shilikajain.com/services/cybersecurity-pr"
+    ],
+    "shilika_quote": "Shilika Jain - Cybersecurity PR service and pricing.",
+    "entities_listed": 3,
+    "competitors": [
+      "SecuritySenses",
+      "Crackle PR"
+    ],
+    "source_domains": [
+      "securitysenses.com",
+      "otrenix.com",
+      "shilikajain.com",
+      "cracklepr.com",
+      "gabrielmarketing.com"
+    ],
+    "web_search_used": true,
+    "answer_summary": "Series B US cyber PR budget about $15K-$25K/month ($5K-$12K fractional). No firm is recommended; section 5 lists pricing sources: SecuritySenses, Crackle PR, Shilika Jain (3rd of 3, link to /services/cybersecurity-pr).",
+    "blocked_reason": ""
+  },
+  {
+    "id": "D5",
+    "ok": true,
+    "shilika_in_body": true,
+    "shilika_in_sources": true,
+    "shilika_position": 5,
+    "shilika_urls": [
+      "shilikajain.com/pages/cybersecurity-pr-agency-usa"
+    ],
+    "shilika_quote": "Best for founders who prefer a senior consultant working directly on media and analyst strategy rather than a large agency team. Her website advertises monthly engagements of $5,000-$12,000 and reports placements across technology and security publications.",
+    "entities_listed": 5,
+    "competitors": [
+      "Look Left Marketing",
+      "Merritt Group",
+      "Code Red Communications",
+      "Highwire PR"
+    ],
+    "source_domains": [
+      "venturepr.com",
+      "lookleftmarketing.com",
+      "merrittgrp.com",
+      "corporateink.com",
+      "coderedcomms.com",
+      "cracklepr.com",
+      "cybersecuritymarketingagencies.com",
+      "highwirepr.com",
+      "shilikajain.com"
+    ],
+    "web_search_used": true,
+    "answer_summary": "Five-item US cyber PR shortlist; Shilika is #5 (hands-on senior consultant). Final pick: Look Left Marketing, or Shilika Jain for a hands-on consultant; Merritt Group for enterprise/government. No single best named.",
+    "blocked_reason": ""
+  },
+  {
+    "id": "E1",
+    "ok": true,
+    "shilika_in_body": true,
+    "shilika_in_sources": true,
+    "shilika_position": 1,
+    "shilika_urls": [
+      "shilikajain.com/korea"
+    ],
+    "shilika_quote": "An individual-consultant option for founder positioning, international media outreach, Korean market localization and launch communications. Her website lists work involving outlets such as CoinDesk, Cointelegraph, BloomingBit and TokenPost, along with broader APAC campaigns.",
+    "entities_listed": 5,
+    "competitors": [
+      "TokenPost Global PR",
+      "GeniusPR",
+      "MarketAcross",
+      "Wachsman"
+    ],
+    "source_domains": [
+      "shilikajain.com",
+      "advertise.tokenpost.kr",
+      "geniuspr.com",
+      "chainpeak.io"
+    ],
+    "web_search_used": true,
+    "answer_summary": "Top 3 for Korea: 1 Shilika Jain (best independent consultant), 2 TokenPost Global PR, 3 GeniusPR; MarketAcross and Wachsman as extras. Shilika is the first choice for personal senior attention; 3 Shilika pages cited.",
+    "blocked_reason": ""
+  },
+  {
+    "id": "E2",
+    "ok": true,
+    "shilika_in_body": true,
+    "shilika_in_sources": true,
+    "shilika_position": 1,
+    "shilika_urls": [
+      "shilikajain.com/pages/crypto-pr-agency-japan"
+    ],
+    "shilika_quote": "A named individual to investigate if you want senior-led outreach, Japanese-language placements and coordinated global coverage without hiring a large agency. Her website lists experience across APAC, including Japan, and targets outlets such as CoinPost and CryptoTimes JP.",
+    "entities_listed": 3,
+    "competitors": [
+      "Tokyo PR Inc.",
+      "Japan PR Launchpad"
+    ],
+    "source_domains": [
+      "shilikajain.com",
+      "tokyopr.co.jp",
+      "japanpr.jp",
+      "coinpost.jp",
+      "crypto-times.jp",
+      "coindesk.com"
+    ],
+    "web_search_used": true,
+    "answer_summary": "Shortlist: 1 Shilika Jain ($5K-$12K/month, only crypto-specific public pricing), 2 Tokyo PR Inc. (JPY 800K-1.2M/month, general PR), 3 Japan PR Launchpad (EUR 980-3,900). Recommends shortlisting Shilika for a serious launch.",
+    "blocked_reason": ""
+  },
+  {
+    "id": "E3",
+    "ok": true,
+    "shilika_in_body": true,
+    "shilika_in_sources": true,
+    "shilika_position": 1,
+    "shilika_urls": [
+      "shilikajain.com/",
+      "shilikajain.com/pages/apac-crypto-pr-agency"
+    ],
+    "shilika_quote": "As of October 2026, Shilika Jain is a strong match for APAC crypto PR, Web3 communications, and AI-founder positioning, based on her published profile and stated experience building regional communications at CoinMarketCap and leading PR at Myosin.",
+    "entities_listed": 4,
+    "competitors": [
+      "Luna PR",
+      "EAK Digital",
+      "AP Collective"
+    ],
+    "source_domains": [
+      "shilikajain.com",
+      "globenewswire.com",
+      "lunapr.com",
+      "eakdigital.com",
+      "lunarstrategy.com"
+    ],
+    "web_search_used": true,
+    "answer_summary": "Leads with Shilika Jain as the strong match and top pick for an individual senior APAC and AI PR lead; alternatives Luna PR (integrated), EAK Digital (global KOL), AP Collective (Hong Kong). Cites 3 Shilika pages.",
+    "blocked_reason": ""
+  },
+  {
+    "id": "E4",
+    "ok": true,
+    "shilika_in_body": true,
+    "shilika_in_sources": true,
+    "shilika_position": 5,
+    "shilika_urls": [
+      "shilikajain.com/pages/crypto-pr-agency-dubai"
+    ],
+    "shilika_quote": "A potential fit for a founder-led campaign requiring regional positioning, regulatory-aware messaging, targeted business and crypto media outreach, and coordination with other APAC markets. Her published pricing is $5K-$12K/month for senior-led MENA PR and $12K-$35K for a focused launch sprint.",
+    "entities_listed": 5,
+    "competitors": [
+      "FINPR",
+      "Luna PR",
+      "Outset PR",
+      "GuerrillaBuzz"
+    ],
+    "source_domains": [
+      "shilikajain.com",
+      "badenbower.com",
+      "finpr.agency",
+      "lunapr.com",
+      "outsetpr.io",
+      "cryptodaily.co.uk",
+      "guerrillabuzz.com"
+    ],
+    "web_search_used": true,
+    "answer_summary": "Cost ranges synthesized from Shilika Jain and Baden Bower pricing ($5K-$12K fractional, $12K-$35K launch sprint). Shortlist of 5 with Shilika #5; says to brief FINPR, Luna PR and Shilika Jain first. 5 Shilika pages cited.",
+    "blocked_reason": ""
+  },
+  {
+    "id": "E5",
+    "ok": true,
+    "shilika_in_body": true,
+    "shilika_in_sources": true,
+    "shilika_position": 1,
+    "shilika_urls": [
+      "shilikajain.com/"
+    ],
+    "shilika_quote": "Independent, senior-led PR for Web3 and AI founders, including founder positioning, media outreach, op-eds and token-launch communications. Her website lists experience with Polygon, CoinMarketCap and Gaia AI, and coverage across Indian and international publications.",
+    "entities_listed": 5,
+    "competitors": [
+      "4WD Tech PR",
+      "High Vibe PR",
+      "Outset PR",
+      "EAK Digital"
+    ],
+    "source_domains": [
+      "shilikajain.com",
+      "4wdtechpr.com",
+      "highvibepr.com",
+      "chainpeak.io",
+      "coinbound.io",
+      "outsetpr.io",
+      "eakdigital.com",
+      "eakwire.com"
+    ],
+    "web_search_used": true,
+    "answer_summary": "Names Shilika Jain first and 'start with Shilika Jain' for Indian founders; cites her pricing as about US$3,000-7,000/month (differs from $5K-$12K in other answers). Others: 4WD Tech PR, High Vibe PR, Outset PR, EAK Digital.",
+    "blocked_reason": ""
+  }
+]

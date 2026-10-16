@@ -1,0 +1,20 @@
+PROMPT ID: C2 | PROMPT: How does AI startup PR differ from crypto PR, and what makes the playbooks different? | RUN: 1 | SURFACE: Claude (claude.ai, Incognito chat, Opus 5.5 Medium, web search NOT used by Claude for this reply: no "Searched the web" block, no source chips)
+
+The core difference is trust. AI PR fights skepticism about hype, while crypto PR fights skepticism about legitimacy. That shapes everything else.
+
+Audience. AI startups pitch enterprise buyers, developers, investors, and mainstream tech press. Crypto pitches a community first: token holders, traders, and crypto-native media like CoinDesk or The Block, plus X, Discord, and Telegram.
+
+What counts as proof. In AI, credibility comes from benchmarks, demos, customer logos, revenue, and founder pedigree (ex-OpenAI, ex-DeepMind). In crypto, it comes from TVL, on-chain activity, audits, token distribution, and backers. Anyone can verify on-chain data, so claims get checked fast.
+
+Pace and channels. AI news cycles run on launches, funding rounds, and research papers, with traditional media still mattering a lot. Crypto moves faster and is community-driven. A Twitter thread or KOL mention can matter more than a TechCrunch story.
+
+Regulatory risk. Crypto PR is heavily lawyered. Anything sounding like a promise of returns can create securities issues, so messaging avoids price talk. AI faces growing scrutiny too (safety, copyright, the EU AI Act), but it's more about reputation than legal liability for most startups.
+
+Crisis playbook. Crypto crises are often existential (hacks, depegs, rug-pull accusations) and need real-time, transparent responses within hours. AI crises tend to be about model failures, bias, data use, or overclaiming, and recovery leans on fixes and thoughtful explanations.
+
+Biggest pitfall. For AI, it's overpromising ("AGI-level," "replaces X") in a crowded field where everyone sounds the same. For crypto, it's looking like a pump, or being linked to past scandals in the industry.
+
+In short: AI PR is about standing out with credible substance, while crypto PR is about earning trust and building community without legal missteps.
+
+SOURCE LINKS:
+(none - the only http link in the page DOM was the UI link support.claude.com/en/articles/13345190-get-started-with-claude-cowork from the permission-mode banner, not a cited source)

@@ -1,0 +1,4 @@
+[
+  {"idx": 66, "ok": false, "organic": [], "shilika_rank": 0, "shilika_rank_page2": 0, "via": "browser", "blocked_reason": "Brave Search served a 'Verifying you're not a bot' bot-detection interstitial (Verify button / traditional CAPTCHA option) instead of results; not bypassed per safety rules.", "notes": "No results page was rendered, so nothing is recorded for this query."},
+  {"idx": 67, "ok": false, "organic": [], "shilika_rank": 0, "shilika_rank_page2": 0, "via": "browser", "blocked_reason": "Not run: Brave Search bot-detection interstitial hit on the first query (idx 66); stopped per safety rules and not bypassed.", "notes": "Not attempted."}
+]

@@ -1,0 +1,30 @@
+PROMPT B4 | Which crypto PR firms specialize in pre-token-generation-event launches? | run 1 | surface: Claude (claude.ai, signed-in, Incognito chat, web search used: 1 search "crypto PR agency pre-TGE launch")
+
+A few names come up repeatedly for pre-TGE work:
+
+Lunar Strategy: Focused on L1/L2, DeFi, and DePIN projects in the pre-TGE window, using Kaito's social scoring to build measurable mind-share before launch day. [icoda]
+
+Surgence Labs: Positioned for pre-launch narrative and phased go-to-market, strongest from pre-launch through TGE. [icoda]
+
+Cryptic: Runs coordinated media pushes timed to the TGE, covering pre-TGE positioning, launch-day announcements, and post-listing momentum. [crypticweb3]
+
+EAK Digital: Named alongside Cryptic and Surgence Labs as a pre-TGE specialist focused on narrative, influencer seeding, and community growth before liquidity exists. [metaflow]
+
+GuerrillaBuzz: Offers a 90-day TGE playbook covering pre, during, and post-TGE, and claims a playbook refined across 100+ launches. [guerrillabuzz]
+
+ICODA: Pitches itself as a single partner from pre-launch strategy through post-TGE community management. [icoda]
+
+Outset PR: A data-driven boutique often listed for TGE campaigns, though one review noted pre-TGE sequencing isn't where it concentrates. [mexc] [mexc]
+
+One caution: most "best agency" lists are published by the agencies themselves (ICODA, Coinbound, etc.), so treat rankings skeptically. Ask each firm for past TGE case studies and talk to former clients before signing.
+
+SOURCE LINKS:
+icoda.io/blog/best-web3-pr-agencies/
+coinbound.io/
+guerrillabuzz.com/use-cases/token-launch-marketing.md
+marketerhire.com/blog/best-crypto-marketing-agency
+icoda.io/blog/crypto-go-to-market-agencies/
+luma.com/2vdbczpt
+crypticweb3.com/crypto-pr-agency/
+metaflow.life/blog/best-crypto-marketing-agencies-for-startups
+mexc.co/en-IN/news/1026147

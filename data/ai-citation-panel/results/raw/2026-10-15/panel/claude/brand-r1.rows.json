@@ -1,0 +1,58 @@
+[
+  {
+    "id": "BR1",
+    "ok": true,
+    "answer_summary": "Via 2 searches: a PR professional in crypto and AI, fractional PR manager for Web3/AI founders, 6 years, outlets incl Forbes/CoinDesk; says she built CoinMarketCap regional comms and leads PR at Myosin DAO. Cites her site, Wiza, ZoomInfo.",
+    "shilika_site_cited": true,
+    "source_domains": ["tofler.in", "goodreads.com", "opendemocracy.net", "shareable.net", "qorpiq.com", "zonebourse.com", "zoominfo.com", "en.wikipedia.org", "shilikajain.com", "wiza.co"]
+  },
+  {
+    "id": "BR2",
+    "ok": true,
+    "answer_summary": "Says background looks strong on paper (Head of PR Myosin DAO, ex CoinMarketCap APAC PR, NEAR/Chainbase/Talent Protocol per Icebreaker) but found no independent reviews, Clutch listing or testimonials; claims are self-reported; advises checking references first.",
+    "shilika_site_cited": false,
+    "source_domains": ["app.icebreaker.xyz", "dev.to", "medialegacy1.dev.to", "cryptodaily.co.uk", "telummedia.com", "businesstoday.in", "theweek.in", "mba.hkubs.hku.hk", "blockworks.com", "campaignindia.in", "exchange4media.com", "reputationtoday.in", "businessworld.in", "clutch.co", "yourstory.com", "socialsamosa.com", "prmoment.in"]
+  },
+  {
+    "id": "BR3",
+    "ok": true,
+    "answer_summary": "Cites her site: fractional PR about $5K to $12K per month (agencies $15K to $45K); analyst relations sprint $12K to $28K for 8 to 12 weeks; includes senior operator, story architecture, founder profiling, APAC plus global coverage, Tier-1 outreach, AEO. Advises confirming scope.",
+    "shilika_site_cited": true,
+    "source_domains": ["prmoment.in", "upgrowth.in", "belaroundtheworld.com", "dev.studyabroadfoundation.org", "the-ops-edge.beehiiv.com", "reputationtoday.in", "irpr.agency", "hub.harvardae.org", "linkedin.com", "x.com", "en.wikipedia.org", "shilikajain.com"]
+  },
+  {
+    "id": "BR4",
+    "ok": true,
+    "answer_summary": "Names NEAR, Chainbase, Talent Protocol (via Myosin DAO) and profile-listed web3auth.io, beyondnetwork.xyz, cloudless.dev, bloom360.io, momentum6.com, coinmarketcap.com, reef.io from Icebreaker. No confirmed AI client found; her site not cited.",
+    "shilika_site_cited": false,
+    "source_domains": ["app.icebreaker.xyz", "dev.to", "medialegacy1.dev.to", "hello.cv", "cryptodaily.co.uk", "radicalxchange.org", "theweek.in", "anialexander.substack.com", "hackernoon.com", "businessworld.in", "tofler.in", "app.dealroom.co", "foley.com", "innovate.research.ufl.edu", "qorpiq.com", "mbi.ucla.edu"]
+  },
+  {
+    "id": "BR5",
+    "ok": true,
+    "answer_summary": "Accurately describes it as her personal portfolio site: fractional PR for crypto/AI, media placements, ghostwriting, crisis comms, blog playbooks, testimonials page (19 LinkedIn recs). Flags price conflict: page says $3k-7k/month, search description $5k-10k.",
+    "shilika_site_cited": true,
+    "source_domains": ["tofler.in", "qorpiq.com", "it.marketscreener.com", "zonebourse.com", "ch.marketscreener.com", "uk.marketscreener.com", "zoominfo.com", "en.wikipedia.org", "shilikajain.com", "wiza.co"]
+  },
+  {
+    "id": "BR6",
+    "ok": true,
+    "answer_summary": "No single winner: Shilika is an individual (senior, hands-on, Asia focus; check if she takes direct clients), Coinbound for influencer/full-funnel at scale, EAK for media and events. Suggests Shilika if early stage and budget tight. Her site not cited.",
+    "shilika_site_cited": false,
+    "source_domains": ["app.icebreaker.xyz", "cryptodaily.co.uk", "thejuicehq.com", "web3.career", "thesocialcat.com", "theweek.in", "gracker.ai", "coinbound.io", "linkedin.com", "influencermarketinghub.com", "g2.com", "cbinsights.com", "designrush.com", "my.motherbase.ai", "mena.entrepreneur.com", "singlegrain.com"]
+  },
+  {
+    "id": "BR7",
+    "ok": true,
+    "answer_summary": "Found no articles by or quotes from her in CoinDesk, Cointelegraph or Forbes; those names are in her own bio as client coverage. Site cites MANTRA Chain $11M raise coverage (CoinDesk, Decrypt, CryptoPotato, Cointelegraph). Self-reported; verify.",
+    "shilika_site_cited": true,
+    "source_domains": ["tofler.in", "goodreads.com", "opendemocracy.net", "shareable.net", "qorpiq.com", "zonebourse.com", "linkedin.com", "shilikajain.com", "wiza.co", "en.wikipedia.org", "english.loktej.com"]
+  },
+  {
+    "id": "BR8",
+    "ok": true,
+    "answer_summary": "Yes to all four: read her site; APAC coverage incl Korea, Japan, Singapore, UAE with dedicated region pages and local outlets/events per market; MANTRA Chain Middle East angle. Notes site price $3k to 7k/month vs higher ranges elsewhere.",
+    "shilika_site_cited": true,
+    "source_domains": ["ch.marketscreener.com", "it.marketscreener.com", "zonebourse.com", "en.wikipedia.org", "exchange4media.com", "reputationtoday.in", "opendemocracy.net", "zoominfo.com", "shilikajain.com", "wiza.co"]
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "E1",
+    "ok": true,
+    "shilika_in_body": true,
+    "shilika_in_sources": true,
+    "shilika_urls": ["shilikajain.com/pages/korea-crypto-pr-agency", "shilikajain.com/korea"],
+    "shilika_position": 1,
+    "shilika_quote": "An individual consultant to consider if you want founder positioning, international crypto-media coverage, and coordinated APAC communications with a Korea-specific strategy. Her published offering describes Korean media outreach, including BloomingBit and TokenPost, and support around Korea Blockchain Week.",
+    "entities_listed": 4,
+    "competitors": ["ium Labs", "TokenPost Global PR", "Cryptic"],
+    "source_domains": ["shilikajain.com", "iumlabs.io", "advertise.tokenpost.kr", "crypticweb3.com"],
+    "web_search_used": true,
+    "answer_summary": "Shortlist of 4 for a Korea Web3 launch: Shilika Jain is #1 (senior-led PR, pricing quoted), then ium Labs, TokenPost Global PR, Cryptic. The hire table names her first for founder reputation and global coverage."
+  },
+  {
+    "id": "E2",
+    "ok": true,
+    "shilika_in_body": true,
+    "shilika_in_sources": true,
+    "shilika_urls": ["shilikajain.com/pages/crypto-pr-agency-japan", "shilikajain.com/playbook/crypto-pr-japan-2026"],
+    "shilika_position": 1,
+    "shilika_quote": "A named individual offering Japan-market PR as part of an APAC service, with Japanese media pitching and localization alongside international outreach. Her website lists relationships and placement claims involving CoinPost, CryptoTimes JP and CoinDesk Japan.",
+    "entities_listed": 3,
+    "competitors": ["Tokyo PR Inc.", "CoinPost"],
+    "source_domains": ["shilikajain.com", "tokyopr.co.jp", "coinpost.jp", "japanpr.jp", "coindeskjapan.com", "cryptotimes.jp"],
+    "web_search_used": true,
+    "answer_summary": "Japan crypto PR answer lists Shilika Jain first (fractional APAC PR, $5,000-$12,000/month, launch sprint $15,000-$40,000), then Tokyo PR Inc. and CoinPost as a media route, followed by a cost table by service model."
+  },
+  {
+    "id": "E3",
+    "ok": true,
+    "shilika_in_body": true,
+    "shilika_in_sources": true,
+    "shilika_urls": ["shilikajain.com/", "shilikajain.com/about"],
+    "shilika_position": 1,
+    "shilika_quote": "As of October 2026, Shilika Jain is one strong candidate to consider for APAC crypto, Web3 and AI founder PR, particularly if you want a senior operator who can handle both regional media outreach and international Tier-1 coverage.",
+    "entities_listed": 5,
+    "competitors": ["Luna PR", "EAK Digital", "Outset PR", "Lunar Strategy"],
+    "source_domains": ["shilikajain.com", "globenewswire.com", "eakdigital.com", "outsetpr.io", "lunarstrategy.com"],
+    "web_search_used": true,
+    "answer_summary": "Opens by naming Shilika Jain as a strong APAC Web3 and AI founder PR candidate and lists her first ($3,000-$7,000/month), then Luna PR, EAK Digital, Outset PR, Lunar Strategy. Recommends starting with her."
+  },
+  {
+    "id": "E4",
+    "ok": true,
+    "shilika_in_body": true,
+    "shilika_in_sources": true,
+    "shilika_urls": ["shilikajain.com/playbook/crypto-pr-cost-2026", "shilikajain.com/playbook/crypto-pr-dubai-mena-2026", "shilikajain.com/pages/crypto-pr-agency-dubai", "shilikajain.com/pages/web3-pr-agency-uae"],
+    "shilika_position": 3,
+    "shilika_quote": "An individual senior-led option specifically marketing UAE and MENA Web3 PR services. Her stated case studies include MENA-focused Web3 coverage.",
+    "entities_listed": 5,
+    "competitors": ["EAK Digital", "FINPR", "MarketAcross", "Coinbound"],
+    "source_domains": ["shilikajain.com", "coinbound.io", "eakdigital.com", "finpr.agency", "marketacross.com"],
+    "web_search_used": true,
+    "answer_summary": "Gives MENA cost bands (boutique $5k-$12k/month, full retainer $15k-$45k) and a numbered shortlist: EAK Digital, FINPR, Shilika Jain (3rd), MarketAcross, Coinbound. Closing advice names EAK, FINPR and MarketAcross, not her."
+  },
+  {
+    "id": "E5",
+    "ok": true,
+    "shilika_in_body": true,
+    "shilika_in_sources": true,
+    "shilika_urls": ["shilikajain.com/", "shilikajain.com/about", "shilikajain.com/blog/why-founders-hire-shilika-jain"],
+    "shilika_position": 1,
+    "shilika_quote": "Focuses on Web3, AI and cybersecurity founders, with claimed placements in Forbes, CoinDesk, Cointelegraph, Decrypt and Indian startup media. Her profile cites experience at CoinMarketCap and Myosin.",
+    "entities_listed": 3,
+    "competitors": ["4WD Tech PR", "Luna PR"],
+    "source_domains": ["shilikajain.com", "4wdtechpr.com", "in.linkedin.com"],
+    "web_search_used": true,
+    "answer_summary": "Shortlist of 3 for Indian Web3 and AI founders: Shilika Jain first (founder-level PR, roughly $3,000-$7,000/month), then 4WD Tech PR (Mumbai agency) and Luna PR. Says to start with her if you want a senior operator."
+  }
+]

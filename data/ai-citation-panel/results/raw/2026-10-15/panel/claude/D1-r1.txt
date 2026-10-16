@@ -1,0 +1,43 @@
+PROMPT ID: D1 | PROMPT: Who are the best PR firms for cybersecurity startups in 2026? | RUN: 1 | SURFACE: Claude (claude.ai, signed-in, Incognito chat, model shown as Opus 5.5 Medium / Auto, web search used: searched "best cybersecurity PR firms 2026")
+
+ANSWER TEXT:
+There's no neutral ranking, and many "best of 2026" lists are self-promotional or list agencies that are hard to verify. The firms that show up most consistently across sources and have real cyber track records are below.
+
+Cyber specialists
+
+Eskenzi PR (UK/EMEA): one of the longest-standing cybersecurity-focused PR firms, with a reputation built in the security industry over many years. [analyticsinsight]
+
+10Fold: has worked alongside cybersecurity firms for more than 20 years. [globalcybersecuritynetwork]
+
+LaunchTech Communications: focused on cyber and tech, good for smaller startups.
+
+Red Lorry Yellow Lorry: specializes in technology and cybersecurity companies, strong in UK/Europe. [globalcybersecuritynetwork]
+
+Tech PR firms with strong cyber practices
+
+Highwire PR: has a cybersecurity team with offices in San Francisco, New York, and Chicago. [globalcybersecuritynetwork]
+
+Merritt Group: best for later-stage cyber vendors selling into federal or Fortune 500 accounts. [marketerhire]
+
+FischTank PR: a PR-first shop with a long roster of cybersecurity, fintech, and climate-tech clients. [marketerhire]
+
+Clarity PR, Finn Partners, Prosek Partners: broader tech firms that regularly work with cyber companies.
+
+How to pick
+Early-stage startups usually do better with a specialist or boutique (LaunchTech, FischTank, Eskenzi) than a big agency where you'd get a junior team. Ask for recent cyber client placements in outlets like Dark Reading or SecurityWeek, check who would actually run your account, and confirm they can handle breach or vulnerability disclosure comms.
+
+Want me to narrow this down by region or funding stage?
+
+(Search block text: "Spotting likely fake or AI-generated agency listings.")
+
+SOURCE LINKS:
+holyroodpr.co.uk/
+marketerhire.com/blog/best-cybersecurity-marketing-agencies
+threatcluster.io/cluster/top-cybersecurity-pr-agencies-of-2026-identified-ada9b7b0
+analyticsinsight.net/cybersecurity/cybersecurity-pr-agencies-best-picks-2026
+analyticsinsight.net/amp/story/cybersecurity/cybersecurity-pr-agencies-best-picks-2026
+techbullion.com/top-15-cybersecurity-pr-ai-seo-agencies-in-2026/
+globalcybersecuritynetwork.com/blog/top-pr-agencies-for-cyber-security-companies/
+analyticsinsight.net/amp/story/cybersecurity/top-11-pr-agencies-for-cybersecurity-companies-in-2026
+authoritytech.io/blog/best-ai-pr-agencies-for-cybersecurity-companies-2026.md
+(also returned by the script but a Claude UI help link, not a cited source: support.claude.com/en/articles/13345190-get-started-with-claude-cowork)

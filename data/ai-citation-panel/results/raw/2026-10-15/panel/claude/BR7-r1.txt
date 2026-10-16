@@ -1,0 +1,50 @@
+id: BR7 | query: Where has Shilika Jain been published or quoted, for example CoinDesk, Cointelegraph or Forbes? | surface: claude.ai (signed-in, Incognito chat, model Opus 5.5 Medium, web search used: 3 searches) | captured: 2026-10-15
+(Note: dashes in captured page text normalised to hyphens. No connector was invoked.)
+
+ANSWER:
+I couldn’t find any articles Shilika Jain wrote herself, or any quotes from her, in CoinDesk, Cointelegraph or Forbes. Those outlet names show up in her bio as places where she got her clients covered.
+
+She is a Web3 and AI PR consultant. Her site describes six years of placing Web3 and AI founders in outlets like Forbes, CoinDesk, Cointelegraph, Decrypt, The Block, Blockworks and AI Magazine, and says she currently leads APAC PR and partnerships at Myosin. She also lists Economic Times and Yahoo Finance coverage and past work with Gaia AI, CoinMarketCap and Polygon. [citation chips: shilikajain x2]
+
+One example she gives: for MANTRA Chain’s $11M raise, she says she secured a CoinDesk exclusive plus coverage in Decrypt and CryptoPotato, and a separate Cointelegraph profile of the CEO. In that case the articles are about her client, not by or quoting her. [citation chip: shilikajain]
+
+Her own published writing seems to be mainly on her website (shilikajain.com) and LinkedIn. She was earlier in partnerships/BD at CoinMarketCap. [citation chip: linkedin]
+
+These claims come from her own site, so check the original articles if you need proof.
+
+SEARCHES RUN (shown in "Searched the web" block):
+1. Shilika Jain -> results: tofler.in, goodreads.com (x2), opendemocracy.net, shareable.net (x2), qorpiq.com (x2), zonebourse.com (all other people with similar names)
+2. "Shilika Jain" crypto -> results: linkedin.com post, shilikajain.com home, shilikajain.com PR for AI x Crypto and Agentic Projects in 2026 (playbook), shilikajain.com Crypto Sustainability and ESG PR in 2026 (playbook), shilikajain.com Web3 PR & AI PR Consultant (authors page), shilikajain.com Web3 Crisis Communications playbook, shilikajain.com Crypto Presale and Launchpad Marketing Playbook for 2026, shilikajain.com Testimonials, shilikajain.com MANTRA Chain Case Study: $11M RWA Raise, Middle East Angle, wiza.co
+3. "Shilika Jain" author OR quoted OR said -> results: en.wikipedia.org (Bapsy Jain, Aparna Jain, Anupama Jain, Prabhakiran Jain), english.loktej.com (Siya Jain), linkedin.com (x2 posts), shilikajain.com home, shilikajain.com Testimonials
+
+OBSERVATION: Claude found NO third-party article by or quoting Shilika in CoinDesk, Cointelegraph or Forbes (no independent corroboration of the bio claims). It treated the site's outlet list as self-reported and explicitly advised verifying the original articles. The site was used as the source for MANTRA Chain, Economic Times, Yahoo Finance, Gaia AI, CoinMarketCap and Polygon claims.
+
+SOURCE LINKS:
+tofler.in/shilki-jain/director/06988014
+goodreads.com/user/show/13754019-shilpy-jain
+goodreads.com/user/show/103538549-shilpy-jain
+opendemocracy.net/author/shilpa-jain/
+shareable.net/author/shilpa-jain/
+qorpiq.com/director/silky-jain/08089762
+tofler.in/shilpa-jain/director/00371966
+shareable.net/users/shilpa-jain
+qorpiq.com/director/silky-jain/07725613
+zonebourse.com/insider/SHILPI-JAIN-A2QWD8
+linkedin.com/posts/shilika_web3-crypto-fintech-activity-6916819777617350656-R7MF
+shilikajain.com/authors/shilika-jain
+shilikajain.com/playbook/ai-x-crypto-agent-pr-2026
+shilikajain.com/playbook/crypto-sustainability-esg-pr-2026
+shilikajain.com/
+shilikajain.com/blog/web3-crisis-communications
+shilikajain.com/playbook/crypto-presale-launchpad-marketing-2026
+shilikajain.com/testimonials
+shilikajain.com/work/mantra-chain
+wiza.co/d/coinmarketcap/df62/shilika-jain
+en.wikipedia.org/wiki/Bapsy_Jain
+en.wikipedia.org/wiki/Aparna_Jain
+en.wikipedia.org/wiki/Anupama_Jain
+english.loktej.com/article/33543/indian-australian-author-siya-jain-launches-second-book-at-uk-parliament--receives-certificate-of-excellence
+en.wikipedia.org/wiki/Prabhakiran_Jain
+linkedin.com/posts/shilika_web3-crypto-blockchain-activity-6937692803812470784-s8Rt
+linkedin.com/posts/shilika_bitcoin-content-cryptocurrency-activity-6935623470793818112-loz7
+support.claude.com/en/articles/13345190-get-started-with-claude-cowork   [UI banner link about permission mode, not a cited source]

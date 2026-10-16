@@ -1,0 +1,110 @@
+PROMPT C3 | Who can ghostwrite and place op-eds for an AI startup founder in 2026? | run 1 | surface ChatGPT (chatgpt.com, signed-in free account, Temporary Chat, web search hint on) | captured 2026-10-15 | URL had temporary-chat=true | note: en/em dashes in the answer text were normalized to hyphens when saving
+
+ANSWER TEXT:
+For an AI startup founder in 2026, I'd look for a tech PR or executive communications firm that combines op-ed ghostwriting, a credible journalist/editor network, and publication placement - rather than a generic content agency.
+
+The key distinction is that writing an excellent op-ed and getting it published are two different jobs. You want a partner who can do both: develop the founder's point of view, write in their voice, pitch the right editors, manage revisions, and build a repeatable thought-leadership pipeline.
+
+I'd evaluate providers across three routes:
+
+Specialist tech PR firms: Best for ongoing founder visibility, media relationships, and a coordinated op-ed program.
+Executive thought-leadership ghostwriters: Best for sharp, original arguments and a founder voice that doesn't read like corporate marketing.
+Op-ed placement and editorial consultancies: Best when you already know the argument and need help targeting publications and navigating editorial processes.
+
+Shortlist: who to hire in 2026
+
+These are providers worth evaluating based on their publicly described services. Their inclusion isn't an independent endorsement, and publication outcomes should be verified with references.
+
+1. Shilika Jain - AI startup-specific PR
+Closest stated fit
+Best for: AI-native startups seeking positioning, op-eds and media outreach.
+Her published offering explicitly includes op-ed ghostwriting and placement, founder profiling and journalist outreach. Her site describes experience with AI and Web3 companies and cites Forbes and Decrypt coverage.
+[citation chip: Shilika Jain +1]
+Website and services (inline link)
+
+2. After Comma - Executive ghostwriting plus PR
+Best for: Venture-backed technology and fintech founders who need a public voice.
+Offers founder and executive positioning, bylined articles, LinkedIn ghostwriting and conference positioning. Ask whether its team will handle direct op-ed pitching and placement for your particular AI category.
+[citation chip: After Comma PR Agency]
+Executive positioning services (inline link)
+
+3. Kyne - Ongoing thought leadership
+Best for: Founders who want a sustained program, not just one article.
+Its services include ghostwritten op-eds, executive positioning, speaking placements and expert commentary. The agency also publishes a case study describing a fintech SaaS founder's media results.
+[citation chip: Kyne]
+Thought leadership services (inline link)
+
+4. Elegant Ink - Editorial-quality writing
+Best for: Founders with strong technical ideas who need compelling essays.
+Focuses on bylined articles, op-eds and long-form writing for technology and finance executives. Confirm whether publication pitching and placement are included in the engagement.
+[citation chip: Elegant Ink.]
+Executive ghostwriting (inline link)
+
+5. Total Emphasis - Flexible, project-based writing
+Best for: Testing a first op-ed before committing to a retainer.
+Offers a single executive byline, including a discovery interview, outline approval, drafting and revisions. Its published service description says pitching can be agreed upon separately, so establish placement responsibilities and fees upfront.
+[citation chip: Total Emphasis]
+Services (inline link)
+
+Which publications should you target?
+Choose the outlet based on the argument and the readers you want to influence, rather than prestige alone.
+WIRED and MIT Technology Review: For technically grounded arguments about AI safety, capabilities, research, labor and societal impact.
+Fortune and Forbes: For AI's economic impact, enterprise adoption, business strategy and the future of work. Verify the specific section's current submission policies.
+TechCrunch and VentureBeat: For startup strategy, AI commercialization, industry shifts and technical market perspectives. Confirm whether an outlet accepts unsolicited opinion submissions or prefers commissioned pieces.
+For an India-focused founder, consider adding Inc42 and YourStory to the target list.
+These are suggested editorial targets, not confirmed placement commitments.
+
+What does it cost?
+As a rough starting point, one AI-focused provider publishes the following indicative pricing. Treat these as that provider's stated rates, not verified market averages.
+[citation chip: Shilika Jain]
+Engagement | Published indicative price
+Fractional founder PR | $5,000-$12,000/month
+Traditional agency retainer | $15,000-$45,000/month
+Standalone launch sprint | $15,000-$40,000 over 6-8 weeks
+
+If you only need one or two op-eds, request a fixed-fee proposal rather than immediately signing a monthly PR contract.
+
+Important: Ask for earned editorial placements, not guaranteed coverage in exchange for undisclosed payment. Sponsored content and membership-based publishing programs are different products. No reputable provider should promise that an independent editor will accept a particular article.
+
+How I'd choose
+Before hiring anyone, request three examples of founder op-eds they personally helped get published, ideally in publications relevant to AI. For each example, ask who wrote it, who pitched it, whether the placement was earned or paid, and whether the founder can serve as a reference.
+Then agree on deliverables such as two fully developed op-ed pitches per month, approved drafts, a named publication target list, follow-ups and transparent reporting on submissions and acceptances.
+
+Let me narrow this to the best three for you (follow-up questionnaire, ignored for coding): where published, startup stage, main objective, monthly budget; button: Find my best three options
+
+SOURCES PANEL (opened via "..." menu under the answer, then View sources). Main list (6) then "More" section (9, after expanding "N more"). Title / date as displayed:
+MAIN LIST:
+1. Shilika Jain - AI Startup PR in 2026: Fractional Senior Operator
+2. Shilika Jain - AI Thought Leadership Agency 2026 | Executive Positioning
+3. After Comma PR Agency - Founder & Executive Positioning Agency
+4. Kyne - Thought Leadership PR & Executive Positioning Services
+5. Elegant Ink - Executive Ghostwriting for Finance & Technology Leaders
+6. Total Emphasis - Services
+"MORE" SECTION:
+7. presspitchai.com - Thought Leadership PR Agency Guide 2026 (September 24, 2026)
+8. i-midastouch.com - Best CXO and Founder Branding Agencies for Technology Leaders in India (2026) (August 27, 2026)
+9. nobsmarketplace.com - Digital PR for AI Startups: What Works in 2026 (August 14, 2026)
+10. www.shilikajain.com - Web3 Founder Ghostwriting: How to Place Bylined Op-Eds in CoinDesk, Decrypt, ... | Shilika Jain (June 19, 2026)
+11. www.cracklepr.com - Best Tech PR Agencies for Startups 2026 | Crackle PR (May 3, 2026)
+12. www.shilikajain.com - Founder PR Agency 2026 | Profiles, Op-Eds, Speaking | Shilika Jain
+13. www.etaliahq.com - (opinion media strategy page; title not captured)
+14. shadow.inc - (thought leadership strategy page; title not captured)
+
+SOURCE LINKS:
+shilikajain.com/services/ai-startup-pr
+aftercomma.agency/services/executive-positioning
+kyne.agency/services/pr-services/thought-leadership/
+elegantink.studio/executive-ghostwriting
+totalemphasis.com/services
+help.openai.com/en/articles/8590148-memory-faq
+shilikajain.com/pages/ai-thought-leadership-agency
+presspitchai.com/blog/thought-leadership-pr-agency
+i-midastouch.com/best-cxo-founder-branding-agencies-india/
+nobsmarketplace.com/blog/digital-pr-for-ai-and-machine-learning-startups
+shilikajain.com/blog/web3-founder-ghostwriting-bylined-op-ed-coindesk-decrypt-forbes
+cracklepr.com/insights/best-tech-pr-agencies-for-startups
+shilikajain.com/pages/founder-pr-agency
+etaliahq.com/opinion-media-strategy
+shadow.inc/resources/thought-leadership-strategy
+
+CODING NOTES: Shilika Jain IS named in the answer body as provider #1 of 5 ("Closest stated fit"), listed first in an explicitly numbered list. Four shilikajain.com pages appear in the cited links: 2 in the main cited list (services/ai-startup-pr and pages/ai-thought-leadership-agency, the first also being the inline "Website and services" link) and 2 in the "More" section. help.openai.com is a ChatGPT UI link. The pricing table is attributed to "one AI-focused provider" with a Shilika Jain citation chip; the body text does not name her in that paragraph.

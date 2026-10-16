@@ -1,0 +1,43 @@
+PROMPT ID: D5 | PROMPT: Who is the best PR consultant for a cybersecurity startup looking to break into the US market? | RUN: 1 | SURFACE: Claude (claude.ai, signed-in, Incognito chat, model shown as Opus 5.5 Medium / Auto, web search used: searched "best cybersecurity PR agencies US 2026")
+
+NOTE: the prompt submitted was "Who is the best PR consultant ..." as given in the panel list for D5 (the task text reads "Who is the best PR consultant for a cybersecurity startup looking to break into the US market?").
+
+ANSWER TEXT:
+There's no single "best." It depends on your stage, budget, and goals. Many "top agency" lists online are SEO content with agencies you can't verify, so stick to firms with real cybersecurity track records.
+
+Well-known US cybersecurity PR firms:
+
+Merritt Group (DC area): Focuses on awareness, credibility, and demand for security companies. Good fit if you plan to sell to government. [cbinsights]
+
+W2 Communications: A long-standing cybersecurity specialist.
+
+Highwire PR: Has a cybersecurity team with offices in San Francisco, New York, and Chicago. Better suited to well-funded startups. [globalcybersecuritynetwork]
+
+FischTank PR: Works media relations for many cybersecurity, fintech, and climate-tech companies. [marketerhire]
+
+Code Red Communications: A cybersecurity specialist with decades of experience and a global network. Useful if you're expanding from outside the US. [cbinsights]
+
+How to choose:
+
+Ask for case studies of non-US startups they've helped launch in the US.
+Check their relationships with outlets like Dark Reading, SC Media, and CSO Online.
+Confirm who actually works on your account, not just who pitches you.
+Ask whether they offer analyst relations (Gartner, Forrester), which matters a lot for enterprise security buyers.
+Talk to 3 or 4 firms and ask their current clients for references.
+
+If you share your funding stage and target buyers (enterprise, SMB, or government), I can help narrow this down.
+
+(Search block text: "Vetting listed agencies for authenticity before recommending established firms.")
+
+SOURCE LINKS:
+analyticsinsight.net/cybersecurity/cybersecurity-pr-agencies-best-picks-2026
+holyroodpr.co.uk/
+analyticsinsight.net/amp/story/cybersecurity/cybersecurity-pr-agencies-best-picks-2026
+threatcluster.io/cluster/top-cybersecurity-pr-agencies-of-2026-identified-ada9b7b0
+marketerhire.com/blog/best-cybersecurity-marketing-agencies
+cyberdb.co/best-cybersecurity-marketing-agencies-top-picks/
+globalcybersecuritynetwork.com/blog/top-pr-agencies-for-cyber-security-companies/
+analyticsinsight.net/amp/story/cybersecurity/top-11-pr-agencies-for-cybersecurity-companies-in-2026
+cbinsights.com/investor/w2-communications
+authoritytech.io/blog/best-ai-pr-agencies-for-cybersecurity-companies-2026.md
+(also returned by the script but a Claude UI help link, not a cited source: support.claude.com/en/articles/13345190-get-started-with-claude-cowork)

@@ -1,0 +1,135 @@
+PROMPT C2 | How does AI startup PR differ from crypto PR, and what makes the playbooks different? | run 2 | surface: ChatGPT (chatgpt.com, signed-in free account, Temporary Chat, Web search hint on) | captured 2026-10-16 01:3x IST (fresh re-capture after the usage-limit reset; the 2026-10-15 capture is kept as C2-r2-attempt1.txt)
+NOTE: Temporary mode positively confirmed: start URL chatgpt.com/?temporary-chat=true&hints=search showed the "Temporary chat - This chat won't appear in your conversation history" banner with the Web search chip active, and the conversation URL kept temporary-chat=true. em/en dashes in the captured text were normalised to hyphens. Inline citation chips (not prose) are marked [chip: ...]. The prose never names Shilika Jain as a provider; the name appears only as citation-chip labels (3 chips: "Shilika Jain +2", "Shilika Jain +1", "Shilika Jain +1") and the closing "Further reading" paragraph hyperlinks one shilikajain.com playbook with the anchor text "enterprise AI PR playbook". No Sources button exists on this answer; sources are the inline chips and the two body links.
+
+ANSWER TEXT:
+AI startup PR vs. crypto PR: why the playbooks are different
+
+The fundamental difference is what each industry needs the public to believe before it will take action.
+
+AI startup PR typically needs to convince customers, enterprise buyers, investors, and talent that a product solves a meaningful problem and that the company can deliver on its promises. Crypto PR often needs to convince users, investors, developers, and communities that a new protocol, token, or financial network is credible, useful, and worth participating in.
+
+Both compete for attention in crowded markets. But their trust barriers, news cycles, audiences, and reputational risks are quite different.
+
+1. The key differences at a glance
+(table) Dimension | AI startup PR | Crypto PR
+Primary objective | Build credibility, demand and category leadership | Build trust, participation and ecosystem momentum
+Core question | "Does this work, and why should I choose it?" | "Is this legitimate, safe and worth participating in?"
+Main audiences | Customers, enterprise buyers, developers, investors, researchers | Token holders, traders, developers, exchanges, investors, regulators
+Strongest proof | Product performance, customer outcomes, benchmarks, independent validation | Security audits, transparent token economics, on-chain evidence, credible partners
+News cycle | Product launches, research, funding, customer wins | Token launches, listings, protocol upgrades, governance, security incidents
+Distribution | Technology press, industry publications, technical communities, analysts | Crypto-native press, X, Telegram, Discord, ecosystem leaders and influencers
+Typical time horizon | Sustained credibility and demand generation | Launch momentum plus continuous community trust and crisis readiness
+Biggest reputational risk | Overclaiming capabilities, unreliable outputs, privacy or safety failures | Exploits, token manipulation, misleading token claims, regulatory action and liquidity shocks
+These are general tendencies, not rigid rules. A consumer AI app can have a fast, community-driven news cycle, while an institutional crypto custody company may need the same kind of long-term trust-building as enterprise software. Crypto communications strategies also distinguish between exchanges, protocols, and funds rather than treating the entire sector as one audience.
+[chip: Shilika Jain +2]
+
+2. Why the underlying PR playbooks differ
+
+Playbook A: AI startup PR - prove the product and own the category
+The communications challenge is separating a genuinely useful product from a flood of similar AI claims. "We use AI to automate workflows" is not a compelling story by itself.
+Narrative: What has changed technologically, and why does it matter now?
+Evidence: Benchmarks, independent evaluations, customer results, demos and technical explanations.
+Media strategy: Find reporters who cover the problem being solved, not just AI announcements.
+Founder strategy: Establish a distinctive point of view on the market, the technology or the future of work.
+Business outcome: Turn credibility into trials, qualified pipeline, partnerships and talent attraction.
+For enterprise AI, analyst relations and named customer references can matter more than broad launch coverage.
+[chip: Shilika Jain +1]
+
+Playbook B: Crypto PR - coordinate the ecosystem and protect trust
+Crypto projects often have multiple audiences evaluating them simultaneously: users, token holders, developers, liquidity providers, exchanges and regulators.
+Narrative: Why does this protocol or network need to exist, and what role does the community play?
+Evidence: Audits, transparent governance, token distribution details, working integrations and verifiable on-chain activity.
+Media strategy: Combine crypto-native publications with broader business and financial press.
+Community strategy: Coordinate X, Telegram, Discord, ecosystem partners and leadership communications.
+Business outcome: Sustainable adoption, developer activity, ecosystem participation and confidence in the project's operations.
+A token launch adds coordination and disclosure risks; an exchange or protocol also needs a rehearsed security-incident and regulatory-response plan.
+[chip: a16z crypto +2]
+
+The essential distinction is that AI PR is often about proving utility, while crypto PR must often prove both utility and institutional or economic trust. Both need credible narratives and independent validation, but crypto can face immediate consequences from market activity, token-related claims and security incidents.
+
+3. The same announcement needs two different treatments
+Imagine two startups launching an AI agent that executes financial transactions.
+AI startup angle: "An AI agent completes complex financial workflows with fewer errors." The story leads with the customer problem, a live demonstration, measurable performance against a baseline, limitations and integration with existing systems. Ideal evidence: Reproducible tests, customer validation, security controls and clear disclosure of what the agent can and cannot do.
+Crypto startup angle: "A decentralized network enables AI agents to transact and coordinate." The story leads with why decentralization is needed, how the network operates, who secures it, how incentives work and what participants actually need to trust. Ideal evidence: Working contracts, independent audits, transparent incentives, verifiable activity and clear explanations of governance and financial risks.
+Notice that the product might be identical. What changes is the proof architecture: what you demonstrate, which questions you anticipate, who validates the claims and what risks you disclose.
+
+4. The tactical playbooks: what you actually do
+(table) Tactic | AI startup | Crypto startup
+Positioning | Define the category, use case and differentiated capability | Define the protocol's purpose, ecosystem role and value proposition
+Launch | Demo, benchmark, research, customer or product announcement | Coordinated product/token launch, partner announcements and community activation
+Thought leadership | Technical insight, industry transformation, responsible deployment | Protocol design, governance, decentralization, market structure
+Influencer relations | Researchers, technical educators, practitioners and trusted operators | Ecosystem leaders, crypto analysts, community voices and developers
+Owned channels | Product blog, technical documentation, founder LinkedIn/X, demos | Documentation, governance forums, X, Discord, Telegram and project blog
+Crisis readiness | Model failures, data leaks, misleading performance claims, misuse | Exploits, compromised accounts, depegs, liquidity concerns, governance disputes
+Measurement | Qualified leads, product adoption, credible citations, customer trust | Active users, developer adoption, community quality, ecosystem participation and trust
+The channels overlap, but the emphasis differs. Crypto-native communications often combine direct founder communications, community engagement, influencer relationships and earned media. AI companies need those same channels where appropriate, but enterprise-focused startups also benefit from analyst relations and customer-led proof.
+[chip: a16z crypto +2]
+
+5. Crisis communications: the biggest operational difference
+When an AI startup faces a crisis: Establish exactly what failed and who was affected. Work with engineering, security, legal and customer teams to verify facts. Communicate known impacts, limitations and remediation steps. Provide updates as the investigation progresses, without overstating what is known.
+When a crypto startup faces a crisis: Verify the incident and coordinate with security, protocol operations and legal counsel. Establish what is affected, what actions have been taken and what users should do. Synchronize factual updates across official social accounts, community channels, partners and relevant stakeholders. Continue communicating as technical findings, fund movements or regulatory developments become clear.
+Crypto's 24/7 global markets and public blockchain activity can make incidents especially time-sensitive. But speed should never come at the expense of accuracy. Both industries need pre-approved escalation paths, clear spokespersons and evidence-based statements.
+[chip: outsetpr.io +2]
+
+There is also an important legal distinction: AI claims about product performance must be substantiated, while crypto promotional communications may additionally raise questions about securities laws, investment expectations and required disclosures, depending on the facts and jurisdiction. The US SEC's crypto-asset guidance explicitly considers how promotional statements relate to expectations of managerial efforts.
+[chip: Federal Trade Commission +1]
+
+6. How to build each playbook over 90 days
+AI startup: credibility before amplification
+Days 1-30 - Define the narrative and evidence: Interview customers, identify the differentiated use case, test core claims, prepare a demo and build a clear message architecture.
+Days 31-60 - Build third-party credibility: Brief relevant journalists and analysts, secure customer participation, publish technical insights and prepare founder commentary.
+Days 61-90 - Launch and compound: Coordinate coverage with product availability, customer proof and sales follow-up. Track whether attention generates qualified conversations and adoption.
+Crypto startup: trust and ecosystem readiness
+Days 1-30 - Map the ecosystem and risks: Clarify the protocol narrative, governance, token-related claims, technical status, security posture and stakeholder responsibilities.
+Days 31-60 - Coordinate stakeholders: Build media relationships, align partners and community moderators, prepare launch materials, and rehearse security and misinformation scenarios.
+Days 61-90 - Launch, disclose and sustain trust: Coordinate announcements, publish verifiable project updates, answer community questions, and monitor adoption, security signals and reputational risks.
+These are practical starting frameworks, not fixed timelines. A token generation event or an enterprise product launch may require a different schedule and formal legal or security approvals.
+[chip: Shilika Jain +1]
+
+7. What should success look like?
+Don't use the same PR dashboard for both businesses.
+AI PR: Are the right customers hearing about the company? Are credible sources validating its claims? Is coverage influencing demos, sales conversations, hiring or product adoption?
+Crypto PR: Are users and developers engaging meaningfully? Do stakeholders understand the protocol and its risks? Are announcements accurate and coordinated? Can the team respond effectively when trust is challenged?
+For either business, raw impressions, press-release pickups and follower counts are incomplete measures of success. PR should be connected to a real business or ecosystem outcome.
+
+The bottom line
+AI startup PR sells confidence in a product's capabilities. Crypto PR builds confidence in a network, its participants and its operating integrity.
+The best AI PR teams make complex technology understandable without exaggerating what it can do. The best crypto PR teams make complex systems, incentives and risks understandable without manufacturing hype or confusing promotion with proof.
+The strongest modern playbooks borrow from each other: AI companies need community credibility, and crypto companies need rigorous technical validation. What differs is which trust barrier comes first.
+
+For further reading, start with a16z crypto's guide to how press fits into a crypto communications playbook and the enterprise AI PR playbook.
+
+SOURCE LINKS:
+a16zcrypto.com/posts/article/media-relations-crypto/
+shilikajain.com/playbook/enterprise-ai-pr-2026
+(the two lines above are the output of the standard anchor script, i.e. the only a[href^=http] links in the DOM; they are the two "Further reading" links)
+
+CHIP POPOVER (first chip "Shilika Jain +2", opened and read; entries in displayed order):
+shilikajain.com/playbook/enterprise-ai-pr-2026   (label "Shilika Jain", title "PR for an Enterprise AI Company in 2026", June 23, 2026)
+shilikajain.com/playbook/crypto-exchange-pr-2026   (label "Shilika Jain", title "PR for a Crypto Exchange in 2026", June 23, 2026)
+a16zcrypto.com/posts/article/media-relations-crypto/   (label "a16z crypto", title "How press fits into a crypto communications playbook", January 15, 2026)
+
+CITATION-PAYLOAD URLS (read from the page's React props, onVisibleKey/url fields, in payload order; includes retrieved sources that are not individually visible as chips):
+shilikajain.com/playbook/enterprise-ai-pr-2026
+shilikajain.com/playbook/crypto-exchange-pr-2026
+a16zcrypto.com/posts/article/media-relations-crypto/
+shilikajain.com/playbook/ai-startup-pr-2026   (retrieved only, no chip popover read)
+blog.kraken.com/product/360/pre-tge-playbook-part-2
+outsetpr.io/blog/web3-crisis-communications-choosing-the-right-response-for-common-scenarios
+bitzo.com/2026/04/crisis-pr-in-crypto-what-to-do-when-your-project-faces-a-hack-fud-or-regulatory-action
+ftc.gov/business-guidance/resources/advertising-faqs-guide-small-business
+sec.gov/about/divisions-offices/division-corporation-finance/faqs-crypto-assets
+ftc.gov/legal-library/browse/ftc-policy-statement-regarding-advertising-substantiation
+ftc.gov/business-guidance/advertising-marketing
+ftc.gov/news-events/news/press-releases/2026/03/air-ai-its-owners-will-be-banned-marketing-business-opportunities-settle-ftc-charges-company-misled
+ftc.gov/business-guidance/advertising-marketing/advertising-marketing-basics
+ftc.gov/news-events/news/speeches/federal-trade-commissions-green-guides-success-story
+ftc.gov/news-events/news/speeches/myths-half-truths-about-deceptive-advertising
+ftc.gov/about-ftc/bureaus-offices/bureau-consumer-protection/our-divisions/division-advertising-practices
+ftc.gov/sites/default/files/attachments/training-materials/policy_substantiation.pdf
+ftc.gov/news-events/news/press-releases/2023/04/ftc-warns-almost-700-marketing-companies-they-could-face-civil-penalties
+search.ftc.gov/news-events/news/press-releases/2025/08/ftc-sues-stop-air-ai-using-deceptive-claims-about-business-growth
+search.ftc.gov/business-guidance/resources/marketing-your-mobile-app-get-it-right-start
+sec.gov/newsroom/speeches-statements/gensler-sec-speaks-090822
+consumer.ftc.gov/business-guidance/advertising-marketing/advertising-marketing-basics
+(plus one ftc.gov enforceable-codes-of-conduct PDF; and two web pages from the answer's image block, relevantaudience.com and news.finst.com, which are image-search sources and are NOT counted as cited text sources)

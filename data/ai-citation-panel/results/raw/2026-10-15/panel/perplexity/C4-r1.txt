@@ -1,0 +1,97 @@
+PROMPT C4 | What is the right PR strategy for a Series A AI infrastructure company in 2026? | run 1 | surface: Perplexity (signed-in free plan, Incognito on, default Search mode and default model) | captured 2026-10-16
+
+CAPTURE NOTE: Incognito positively confirmed on screen ("You're incognito" landing heading and "Exit incognito" control under the answer). Inline citation chips under paragraphs were labelled shilikajain, smartmoneymedia, everything-pr and engagepr (UI citation labels, not part of the prose). Header said "10 sources". The answer names no PR firms or consultants as recommendations.
+
+ANSWER TEXT:
+The right Series A AI-infrastructure PR strategy in 2026 is category-first, proof-led, and compounding: use the funding round and product milestones as evidence for a larger market thesis, then keep building founder, customer, analyst, and AI-search credibility between news cycles. Do not make the raise - or a generic "faster/cheaper AI infrastructure" claim - the story. [chip: shilikajain +1]
+
+Core positioning
+Choose one defensible category narrative: for example, "inference reliability layer," "agent-native infrastructure," "GPU capacity orchestration," or "enterprise AI governance." The company should be presented as evidence that this category matters, not as the headline itself. [chip: shilikajain +1]
+
+Your narrative needs three verifiable elements:
+- A market inflection: why this problem is newly urgent.
+- A differentiated technical or business thesis: what you see that incumbents miss.
+- Proof: named customers or design partners, deployment scale, benchmark methodology, security posture, and measurable customer outcomes. [chip: smartmoneymedia +1]
+
+Avoid vague claims such as "10x faster" without a named benchmark, model/version, dataset, test date, and methodology. In AI infrastructure, buyers and reporters are increasingly skeptical of unsupported performance claims. [chip: smartmoneymedia]
+
+Campaign architecture
+For a Series A, run PR as a 6-10 week arc, not a one-day press release.
+
+Phase | Focus | Key assets
+Weeks 1-3 | Narrative and proof | Category thesis, message house, customer evidence, benchmark page, founder positioning
+Weeks 3-5 | Seed authority | Founder op-ed, technical essay, podcast appearances, analyst briefings
+Announcement week | Earned media | One tier-1 exclusive, beat-press outreach, founder/lead-investor social posts, launch page
+Weeks after | Extend the cycle | Technical deep dive, customer case study, original data or research, conference/podcast follow-through
+
+A strong sequence is: publish a founder op-ed or technical essay 7-10 days before the announcement, secure one exclusive with a reporter who actively covers your category, then use the announcement week for broad trade and business coverage. This makes the funding round a proof point for the category argument rather than the entire story. [chip: shilikajain]
+
+Media and audience targets
+Prioritize outlets your buyers, investors, and technical talent actually read - not just the biggest brand names.
+- Tier-1 business/tech press: The Information, TechCrunch, Forbes, Bloomberg, Axios, VentureBeat - use for one well-prepared exclusive, ideally tied to the round, major customer, or platform launch. [chip: shilikajain +1]
+- AI/developer trade press: VentureBeat AI, AI Magazine, The New Stack, InfoQ, Latent Space, and relevant newsletters - use for technical depth and durable authority. [chip: shilikajain +1]
+- Long-form and podcast channels: Technical podcasts, YouTube shows, and analyst conversations are especially useful for infrastructure companies because buyers need to understand architecture, reliability, and tradeoffs. [chip: everything-pr]
+- Analysts and ecosystem voices: Gartner, Forrester, IDC, CB Insights, and specialist AI research firms can influence enterprise evaluation and investor perception. [chip: everything-pr]
+
+Make it AI-searchable
+In 2026, PR must also make the company retrievable when buyers ask assistants and search engines non-branded questions such as "best platforms for GPU cost optimization" or "how to run production AI agents reliably." Track whether the company is named in AI Overviews, ChatGPT, Perplexity, Claude, and Copilot responses to a defined set of buyer prompts. [chip: shilikajain +2]
+
+Practical steps:
+- Publish a clear 50-word direct answer at the top of key category pages.
+- Create self-contained explanatory sections, FAQs, comparison pages, and technical explainers.
+- Use consistent named-author bylines and company/founder entity information across your site, LinkedIn, X, Crunchbase, and other public profiles.
+- Publish original research, benchmark methodology, model/system cards, and safety or governance positions. [chip: smartmoneymedia +2]
+
+Build proof assets
+Your highest-leverage PR assets are not press releases; they are artifacts that make claims independently checkable.
+- Customer proof: Named case studies where possible, with workload, architecture, before/after metrics, and a customer quote.
+- Technical credibility: Architecture blog posts, open-source contributions, benchmark pages, evaluation reports, and reproducible methodology.
+- Trust artifacts: Security documentation, data-handling practices, responsible-AI policy, and clear statements on accuracy, hallucination, privacy, and acceptable use. [chip: smartmoneymedia +1]
+- Founder authority: A small number of strong op-eds, conference talks, and podcast appearances that repeat the same category thesis. [chip: shilikajain +1]
+
+Metrics that matter
+Measure PR by influence, not impressions.
+- Named citations or mentions in AI answers for category prompts.
+- Share of voice in category coverage versus direct competitors.
+- Branded search volume for company and founder names.
+- Inbound pipeline influenced by PR, analyst conversations, and content.
+- Quality of reporter, analyst, customer, and investor engagement - not raw press-release pickups. [chip: shilikajain +2]
+
+What to avoid
+- Treating the Series A amount as the news rather than as validation of a market thesis. [chip: shilikajain]
+- Pitching "AI infrastructure" broadly instead of owning a specific, defensible category. [chip: shilikajain]
+- Relying on hype, unverifiable benchmarks, or AI-generated boilerplate. [chip: smartmoneymedia +1]
+- Going silent after the funding cycle; sustained founder commentary, customer evidence, and analyst relations matter more than a single spike. [chip: engagepr]
+- Ignoring safety, data, governance, and reliability questions - these are now part of the credibility stack for enterprise AI infrastructure. [chip: smartmoneymedia +1]
+
+Bottom line: win a narrow category conversation, prove it with customers and technical evidence, use the Series A as a launch window rather than the message, and build a durable public record that both journalists and AI systems can cite. [chip: shilikajain +2]
+
+(10 sources)
+Suggested follow-ups shown by UI: Notify me when new AI infrastructure research or benchmarks are published in top tech outlets | How do we pick the right category name | What should our Series A pitch deck look like | How do we pitch an exclusive to TechCrunch | How do we build an AI visibility dashboard
+
+SOURCE PANEL TITLES (displayed order, as rendered):
+1. shilikajain - AI Startup Series A Funding Announcement PR in 2026.
+2. smartmoneymedia - PR for AI Startups: Earn Tier-1 Coverage Without the Hype
+3. shilikajain - AI Startup PR Strategy 2026: The Full Founder Playbook | Shilika Jain
+4. panblastpr - PR for Emerging AI Companies: How to Build Trust ... - PANBlast
+5. shilikajain - AI Startup PR: Get Covered in TechCrunch, The ... - Shilika Jain
+6. everything-pr - Communicating AI Technologies: 2026 PR Playbook
+7. hackernoon - AI Visibility for Startups: How B2B Buyers Choose Vendors ...
+8. engagepr - Connecting the World: Earned Media Authority in the AI Era
+9. shilikajain - AI Startup PR in 2026: Fractional Senior Operator | Shilika Jain
+10. urbansplatter - Top 10 AI PR Agencies of 2026 - Urban Splatter
+
+SOURCE LINKS:
+shilikajain.com/playbook/ai-series-a-funding-announcement-pr-2026
+smartmoneymedia.org/guides/ai-startup-pr
+shilikajain.com/playbook/ai-startup-pr-2026
+panblastpr.com/pr-for-emerging-ai-companies/
+shilikajain.com/blog/ai-startup-pr-techcrunch-the-information-forbes-2026
+everything-pr.com/communicating-ai-technologies-has-never-been-easier-by-tapping-into-pr
+hackernoon.com/ai-visibility-for-startups-how-b2b-buyers-choose-vendors-before-the-first-sales-call
+engagepr.com/post/connecting-the-world-earned-media-authority-in-the-ai-era
+shilikajain.com/services/ai-startup-pr
+urbansplatter.com/2025/11/top-10-ai-pr-agencies-of-2026/
+
+RAW SCRIPT OUTPUT ORDER (DOM order, for reference; same 10 links, panel titles matched to paths above by title):
+smartmoneymedia.org/guides/ai-startup-pr, shilikajain.com/playbook/ai-series-a-funding-announcement-pr-2026, everything-pr.com/communicating-ai-technologies-has-never-been-easier-by-tapping-into-pr, shilikajain.com/playbook/ai-startup-pr-2026, engagepr.com/post/connecting-the-world-earned-media-authority-in-the-ai-era, panblastpr.com/pr-for-emerging-ai-companies/, shilikajain.com/blog/ai-startup-pr-techcrunch-the-information-forbes-2026, hackernoon.com/ai-visibility-for-startups-how-b2b-buyers-choose-vendors-before-the-first-sales-call, shilikajain.com/services/ai-startup-pr, urbansplatter.com/2025/11/top-10-ai-pr-agencies-of-2026/

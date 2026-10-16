@@ -1,0 +1,45 @@
+PROMPT E2 | Who runs crypto PR in Japan in 2026 and what does it cost to hire them? | run 1 | surface: Claude (claude.ai, signed-in, Incognito chat, Opus 5.5 Medium, permission mode Auto; web search used: 2 searches)
+
+ANSWER TEXT:
+There's no single firm that "runs" crypto PR in Japan. It's split between crypto-native agencies, big Japanese PR firms, and local media partners.
+
+Main players
+
+Crypto-native agencies with Japan focus: Satoshi Consulting helps Western Web3 projects enter Asian markets, using a network of 200+ KOLs and community managers across Japan, Korea, and China. Outset PR and Asia Crypto Agency are also commonly listed for Asian crypto PR, and MarketAcross partnered with Turingum, a Japanese Web3 consultancy, to bridge Japan and global projects. [techbullion.com +2 (popover: techbullion.com, mexc.com, thedefiant.io)]
+
+Large Japanese PR firms: Vector Inc., one of Japan's biggest integrated PR firms and listed on the TSE Prime, handled PR for the TEAMZ Web3/AI Summit 2026. These suit larger or more regulated companies. [teamz]
+
+Key media: NADA NEWS, formerly CoinDesk JAPAN until its rebrand at the end of 2025, is one of Japan's largest Web3 media outlets. Placements there often matter more than which agency you use. [ivs]
+
+Cost
+
+Japan-specific pricing is rarely published. As a general benchmark, most projects should expect $5,000 to $15,000 per month for a full retainer with a specialized crypto PR agency. Some firms also offer project-based or performance-based fees instead of retainers. Big firms like Vector will usually quote higher, and KOL campaigns are often billed separately. [pearltrees] [coinbound]
+
+One caution: many "top agency" lists are paid placements, so ask for Japanese-language case studies and direct quotes before choosing.
+
+(Searches shown by Claude: "crypto PR agency Japan 2026"; "Japan Web3 PR agency retainer cost"; status line "Weighing regional pricing gaps and sponsored-content caveats.")
+
+SOURCE LINKS:
+(all anchors in the DOM after expanding the Searched the web block and both result lists, in displayed order; inline-cited chips are: techbullion.com, mexc.com, thedefiant.io, teamz.co.jp, ivs.events, pearltrees.com, coinbound.io)
+techbullion.com/
+mexc.com/news/728020
+mexc.com/it-IT/news/728020
+mexc.com/news/533221
+san-1510.aid.brainsum.com/news/top-news/polymarket-names-japan-representative-eyes-2030-approval-bloomberg
+mexc.com/news/715484
+ivs.events/en/news/20260327
+teamz.co.jp/en/news/teamz-announces-strategic-partnership-with-vector-inc
+marketingmonk.so/jobboard/jobs/senior-pr-manager-asia-at-binance-s3jagx
+coinbound.io/crypto-pr-pricing/
+cryptojobslist.com/remote_content-jobs-tokyo
+clutch.co/jp/pr-firms/tokyo.md
+web3.career/hire/social-media/japan
+pearltrees.com/cryptopragencymarketing/item794160467
+coinbound.io/
+cryptojobslist.com/remote_data-jobs-tokyo
+thedefiant.io/news/press-releases/marketacross-and-turingum-announce-strategic-partnership-to-help-bridge-the-japanese-and-global-web3-ecosystems
+cryptojobslist.com/content_legal-jobs-tokyo
+krowdbase.com/service/gloture
+support.claude.com/en/articles/13345190-get-started-with-claude-cowork
+
+NOTE: support.claude.com is the "Learn more" link of the Auto permission-mode banner in the Claude UI, not a cited source. No shilikajain.com link anywhere in the answer, the cited chips, or either search result list.

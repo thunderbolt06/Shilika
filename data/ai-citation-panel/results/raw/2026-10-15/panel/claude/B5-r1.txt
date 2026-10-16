@@ -1,0 +1,28 @@
+PROMPT B5 | How do you run a KOL marketing campaign for a Web3 protocol in 2026? | run 1 | surface: Claude (claude.ai, signed-in, Incognito chat, web search used: 1 search "Web3 KOL marketing 2026 InfoFi X ban Kaito")
+
+The big change in 2026 is that the old "pay for posts" model is weaker. X banned InfoFi apps like Kaito and Cookie DAO from its data pipelines, and Kaito shut down Yaps and moved to a stricter, tiered creator setup closer to traditional marketing. So today it's about fewer, better creators and real tracking. [blockeden] [mexc]
+
+Here's a simple playbook:
+
+1. Set one clear goal. Pick a single target like testnet users, TVL, wallet signups, or Discord members. "Awareness" alone is hard to measure and easy to waste money on.
+2. Pick creators by audience, not follower count. Check engagement quality, reply authenticity, and past campaign results. Many large accounts have a high share of bots or inactive followers, so mid-sized niche creators (DeFi, L2, gaming, etc.) often perform better.
+3. Mix tiers. Use 1 or 2 big names for credibility, plus 10 to 30 smaller, trusted voices for depth and repetition.
+4. Give them substance, not scripts. Offer early access, a call with the founders, or a real feature to try. Threads, walkthroughs, and honest reviews beat copy-pasted shill posts.
+5. Track everything. Give each KOL unique referral links or codes, and measure onchain actions from those wallets, not just likes and views.
+6. Pay for results where possible. Combine a base fee with bonuses tied to real users or retention. Avoid paying mainly in your own token with no vesting, since it often gets dumped.
+7. Go beyond X. Spread across YouTube, Telegram, Farcaster, podcasts, and regional communities (Korea, Vietnam, Turkey, etc.) so one platform's policy change can't kill your campaign.
+8. Stay compliant. Make sure every paid post is clearly disclosed. Rules on crypto promotions are tightening in many places (EU MiCA, UK, US), so check with a lawyer for your target regions.
+9. Review and cut. After 2 to 4 weeks, drop the creators who didn't move your metric and double down on the ones who did.
+
+Want me to help draft a KOL brief or a tracking sheet for your campaign?
+
+SOURCE LINKS:
+mexc.com/news/489399
+mexc.com/it-IT/news/489399
+addressable.io/blog/the-death-of-the-web3-kol
+chaincatcher.com/ko/article/2238861
+blockeden.xyz/blog/2026/03/16/infofi-collapse-kaito-studio-pivot-tokenized-attention-x-api-ban-web3-creator-economy/
+blockeden.xyz/ja/blog/2026/03/16/infofi-collapse-kaito-studio-pivot-tokenized-attention-x-api-ban-web3-creator-economy/
+blockeden.xyz/de/blog/2026/03/16/infofi-collapse-kaito-studio-pivot-tokenized-attention-x-api-ban-web3-creator-economy/
+blockeden.xyz/es/blog/2026/03/16/infofi-collapse-kaito-studio-pivot-tokenized-attention-x-api-ban-web3-creator-economy/
+blockeden.xyz/ru/blog/2026/03/16/infofi-collapse-kaito-studio-pivot-tokenized-attention-x-api-ban-web3-creator-economy/

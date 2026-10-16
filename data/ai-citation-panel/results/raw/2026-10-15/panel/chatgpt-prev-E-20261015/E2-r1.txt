@@ -1,0 +1,102 @@
+PROMPT ID: E2 | PROMPT: Who runs crypto PR in Japan in 2026 and what does it cost to hire them? | RUN: 1 | SURFACE: ChatGPT (chatgpt.com, signed-in free account, Temporary Chat, hints=search, Web search chip active; URL after submit carried temporary-chat=true, new conversation id)
+
+ANSWER TEXT (follow-up questionnaire at the end of the answer omitted per instructions):
+
+Who runs crypto PR in Japan in 2026 - and what does it cost?
+
+As of October 2026, there are three practical ways to hire crypto PR for Japan: a senior Web3 PR operator with local media relationships, a Japan-based communications agency, or a global crypto PR firm that can execute a Japan campaign.
+
+The realistic budget ranges from a few thousand dollars for a focused announcement to $8,000-$20,000+ per month for dedicated local agency support. The key distinction is whether you're buying Japanese-language media outreach, paid placements, or ongoing reputation-building with journalists and business media.
+[source chip: Shilika Jain +2]
+
+1. Who to consider
+
+Shilika Jain - Fractional APAC PR
+[badge: Published pricing]
+
+A named individual offering Japan-market PR as part of an APAC service, with Japanese media pitching and localization alongside international outreach. Her website lists relationships and placement claims involving CoinPost, CryptoTimes JP and CoinDesk Japan.
+
+Published price: $5,000-$12,000/month for fractional APAC PR; $15,000-$40,000 for a launch sprint, depending on scope.
+
+Website and service details
+
+These are provider-published claims and prices, not independently audited results.
+
+Tokyo PR Inc. - Local communications agency
+
+A Japan-based option for companies that need ongoing media relations, localized press materials, interviews, press conferences and broader marketing communications. Its official website publishes indicative retainer prices.
+
+Published reference prices: ¥800,000/month for international PR program execution in Japan; ¥1.2 million/month for additional Japan-specific programs; ¥1.8 million/month for PR plus marketing.
+
+Official pricing and contracting page
+
+These are general PR packages, not crypto-specific quotes. Confirm Web3 experience and journalist relationships before hiring.
+
+CoinPost - Direct media and sponsored-content route
+
+Rather than hiring a PR agency, a project can approach CoinPost directly for PR, sponsored articles, interviews and other publisher services. This is useful when the primary objective is visibility among Japanese crypto readers.
+
+Pricing: request a current media kit and campaign quote; I could not verify a public rate card for 2026.
+
+Official media business and inquiry page
+
+Paid content is different from independent editorial coverage.
+
+These are identifiable starting points, not a definitive ranking of Japan's best crypto PR providers.
+[source chip: Shilika Jain +2]
+
+2. What does crypto PR in Japan cost?
+
+The following ranges combine published provider pricing and 2026 market estimates. They are budgeting benchmarks, not guaranteed quotes.
+
+Service model | Indicative cost | Best suited to
+Press release distribution | From ¥30,000 per release for platform fees | One announcement, with Japanese writing handled internally
+Professionally prepared release campaign | €1,000-€2,500 per release | Native-language writing, distribution and reporting
+Local Japanese PR agency | ¥300,000-¥1,000,000+/month | Ongoing domestic communications
+Fractional senior crypto PR | $5,000-$12,000/month for Japan/APAC | Media relations and market entry
+Dedicated Japan launch sprint | $15,000-$40,000 per campaign | Coordinated launch over several weeks
+Multi-person crypto PR agency | $15,000-$45,000/month for broader specialist agency services | Sustained campaigns, multiple markets and executive visibility
+
+Sources: Japan PR Launchpad's pricing guide, Tokyo PR's reference fees and 2026 crypto PR Japan estimates. [source chip: japanpr.jp +3]
+
+Note that the ranges have different scopes. A Japan-only press release should not cost the same as a multi-market token launch with influencer activation, executive positioning and ongoing media relations.
+
+3. Which Japanese crypto outlets matter?
+
+CoinPost
+A major crypto-native publication and a relevant target for exchange news, project launches, partnerships and market developments.
+Media services
+
+CoinDesk Japan
+Relevant for market structure, institutional adoption, regulation and major company developments.
+Website
+
+CryptoTimes
+A crypto-native target for Web3 projects, blockchain infrastructure and ecosystem announcements.
+Website
+
+These are potential targets, not guaranteed placements. A PR firm should explain which journalists it can pitch directly and which offerings are paid.
+[source chip: Shilika Jain +2]
+
+4. How I'd choose a provider
+
+For a seed-stage startup: Start with a short, fixed-scope Japan campaign rather than committing immediately to a long retainer.
+
+For a token generation event or exchange-listing campaign: Ask for a detailed plan covering Japanese media, community channels, localization and regulatory review.
+
+For a company entering Japan long-term: Consider a local agency with Japanese-language account management and demonstrated crypto-sector experience.
+
+For credibility with investors or institutions: Prioritize earned editorial, substantive interviews and a clear regulatory narrative over a high count of syndicated releases.
+
+Before signing, request two or three relevant Japanese-market case studies, named deliverables, a breakdown of paid versus earned coverage, and the cancellation terms. No responsible PR firm can guarantee independent editorial decisions.
+
+SOURCE LINKS:
+shilikajain.com/pages/crypto-pr-agency-japan   (popover title "Crypto PR Agency Japan 2026 | CryptoTimes JP, ...", site label Shilika Jain)
+tokyopr.co.jp/en/how-we-work/contractingprocess
+coinpost.jp/corporate/media/
+japanpr.jp/guides/japan-pr-cost   (popover title "How Much Does PR in Japan Cost? Transparent 2026 Price Guide for Foreign Brands")
+shilikajain.com/playbook/crypto-pr-japan-2026   (popover title "Crypto PR in Japan in 2026: Outlets and Approach", dated June 23, 2026, site label Shilika Jain)
+coindeskjapan.com/
+cryptotimes.jp/
+
+NOTE: the stated script (a[href^=http]) returned exactly the 7 links above in that order. The page DOM also held six further collapsed source buttons whose URLs could not be extracted (labels only, hostnames unverified): "Niharika Singh - Hindi crypto/Web3 writer profile", an Ozma PR head office renovation article, a CoinPost press release about an evangelist appointment, "CoinPost acquires Remix Point shares", "CoinDesk JAPAN | Sponsor | Consensus 2025", "Crypto Times - Organizations | IQ.wiki".

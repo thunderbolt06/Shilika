@@ -1,0 +1,111 @@
+[
+  {
+    "id": "A1",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": true,
+    "shilika_urls": [
+      "shilikajain.com/glossary/what-is-fractional-pr",
+      "shilikajain.com/about",
+      "shilikajain.com/playbook/fractional-vs-agency",
+      "shilikajain.com/pages/fractional-head-of-pr",
+      "shilikajain.com/playbook/fractional-cmo-web3-2026",
+      "shilikajain.com/",
+      "shilikajain.com/pages/web3-pr-agency-india",
+      "shilikajain.com/pages/crypto-pr-agency-for-startups",
+      "shilikajain.com/pages/fractional-pr-consultant",
+      "shilikajain.com/pages/fractional-pr-consultant-web3"
+    ],
+    "shilika_position": 0,
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": ["shilikajain.com", "crypticweb3.com", "thegroupthree.com", "quorum-media.com", "eakdigital.com"],
+    "answer_summary": "Defines fractional PR and compares it to agencies ($5k-$12k/mo vs $15k-$45k+). Names no PR firms. Shilika appears only as citation-chip labels and in sources (4 cited + 6 'More' shilikajain.com pages); prose never names her.",
+    "shilika_quote": "",
+    "web_search_used": true
+  },
+  {
+    "id": "A2",
+    "ok": true,
+    "shilika_in_body": true,
+    "shilika_in_sources": true,
+    "shilika_urls": [
+      "shilikajain.com/about",
+      "shilikajain.com/",
+      "shilikajain.com/compare",
+      "shilikajain.com/pages/web3-pr-agency-india",
+      "shilikajain.com/pages/fractional-pr-consultant-web3",
+      "shilikajain.com/pages/fractional-pr-consultant",
+      "shilikajain.com/pages/crypto-pr-agency-for-startups",
+      "shilikajain.com/pages/crypto-marketing-agency-india"
+    ],
+    "shilika_position": 1,
+    "entities_listed": 5,
+    "competitors": ["YAP Global", "Melrose PR", "Wachsman", "Coinbound"],
+    "source_domains": ["marilynpr.co", "geniuspr.com", "shilikajain.com", "amworldgroup.com", "coinbound.io", "echo-trade.io"],
+    "answer_summary": "Ranked shortlist of 5: #1 Shilika Jain ('Best fit for fractional PR', $3k-$7k/mo home, $5k-$12k service pages), then YAP Global, Melrose PR, Wachsman, Coinbound. Cites shilikajain.com (3 cited, 5 in 'More').",
+    "shilika_quote": "A senior fractional PR consultant focused on Web3, AI, and technical startups. Her public profile cites experience at CoinMarketCap and current PR leadership at Myosin, with claimed placements across Forbes, CoinDesk, Decrypt, and The Block.",
+    "web_search_used": true
+  },
+  {
+    "id": "A3",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": true,
+    "shilika_urls": [
+      "shilikajain.com/playbook/fractional-pr-cost-pricing-2026",
+      "shilikajain.com/playbook/crypto-pr-cost-2026",
+      "shilikajain.com/playbook/fractional-vs-agency"
+    ],
+    "shilika_position": 0,
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": ["shilikajain.com", "chainpeak.io", "dtsworld.in", "icoda.io"],
+    "answer_summary": "No firms named. Gives $3K-$7K/mo fractional vs $7K-$15K boutique vs $15K-$60K+ agency, plus launch-sprint costs. Shilika only as chip labels and 3 cited playbook pages (2 inline further-reading links); never named in prose.",
+    "shilika_quote": "",
+    "web_search_used": true
+  },
+  {
+    "id": "A4",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": true,
+    "shilika_urls": [
+      "shilikajain.com/blog/fractional-pr-for-ai-startups-how-it-works",
+      "shilikajain.com/playbook/fractional-pr-cost-pricing-2026",
+      "shilikajain.com/playbook/ai-pr-agency-pricing-packages-2026",
+      "shilikajain.com/playbook/ai-startup-pr-agency-india-2026",
+      "shilikajain.com/playbook/when-to-hire-fractional-pr-2026",
+      "shilikajain.com/playbook/ai-startup-pr-2026"
+    ],
+    "shilika_position": 0,
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": ["shilikajain.com", "prpitcher.com", "melivana.com", "bluebuzz.in", "stackmatix.com", "clickstrike.com", "smartmoneymedia.org", "mediagraphicspr.com", "macrolingo.com", "dtsworld.in", "womencanstartup.com", "zutsumedia.com", "pressfriendly.com", "beantownmv.com", "mentionagent.ai", "verifiedcomms.com", "presspilot.io", "cracklepr.com", "aajconsult.com"],
+    "answer_summary": "Advises hiring a senior fractional consultant first, agency later ($3k-$7k vs $15k-$45k, plus INR ranges). No firms named. Shilika only as chip labels; 6 shilikajain.com pages in the source list (3 cited, 3 in 'More'), first source is hers.",
+    "shilika_quote": "",
+    "web_search_used": true
+  },
+  {
+    "id": "A5",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": true,
+    "shilika_urls": [
+      "shilikajain.com/playbook/web3-infrastructure-pr-2026",
+      "shilikajain.com/playbook/ai-x-crypto-agent-pr-2026",
+      "shilikajain.com/playbook/ai-product-launch-pr-2026",
+      "shilikajain.com/playbook/ai-pr-agency-pricing-packages-2026",
+      "shilikajain.com/playbook/crypto-pr-cost-2026",
+      "shilikajain.com/blog/crypto-pr-fundraising-rounds-investor-media-playbook",
+      "shilikajain.com/blog/ai-startup-stealth-to-launch-pr-timeline-12-weeks"
+    ],
+    "shilika_position": 0,
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": ["stackmatix.com", "coinbound.io", "clickstrike.com", "techcrunch.com", "shilikajain.com", "melivana.com", "axios.com", "vox.com", "theaiinsider.tech", "blokpoint.com"],
+    "answer_summary": "Recommends a senior fractional PR lead, founder-led narrative and a 90-day earned-media plan, not a large agency. No PR providers named. Shilika only as chip labels; 7 shilikajain.com pages in sources (5 cited, 2 in 'More').",
+    "shilika_quote": "",
+    "web_search_used": true
+  }
+]

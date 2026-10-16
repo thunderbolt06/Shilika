@@ -1,0 +1,105 @@
+PROMPT B3 | What is the typical PR strategy for a token launch (TGE) in 2026? | run 2 | surface: ChatGPT (chatgpt.com, signed-in free account, Temporary Chat, Web search hint on) | captured 2026-10-15
+NOTE: em/en dashes in the captured text were normalised to hyphens. Inline citation chips (not prose) are marked [chip: ...]. The prose never names Shilika Jain or any consultant/firm as a recommendation; three citation chips are labelled "Shilika Jain".
+
+ANSWER TEXT:
+Typical PR strategy for a token launch (TGE) in 2026
+
+As of October 2026, the typical approach is to treat a Token Generation Event (TGE) as a 90-day communications campaign, not a one-day press release. The objective is to establish credibility before launch, coordinate media and community attention around TGE, and demonstrate real progress after the token becomes tradable.
+
+Recent 2026 playbooks recommend starting PR roughly 6-10 weeks ahead of TGE, with broader marketing campaigns often beginning 8-12 weeks in advance. Kraken's TGE guidance also emphasizes coordinated communications, operational readiness, and strict control over what the team says publicly.
+[chip: Shilika Jain +2]
+
+1. The typical 90-day PR timeline
+T-90 to T-60 days - Phase 1 Narrative and credibility: Establish why the project matters before promoting the token. Develop the core narrative: problem, solution, differentiation and market opportunity. Prepare founder interviews, expert commentary and thought-leadership articles. Build relationships with crypto journalists and relevant mainstream or business media. Align messaging with product milestones, audits, funding news and actual traction. Main outcome: journalists and the target audience understand the project before the launch announcement.
+T-60 to T-30 days - Phase 2 Awareness and pre-launch momentum: Turn the project narrative into a credible reason to pay attention. Publish milestone announcements, technical explainers and founder bylines. Pitch exclusive stories or embargoed briefings to selected journalists. Coordinate ecosystem partners, community campaigns and disclosed KOL collaborations. Prepare the press release, tokenomics fact sheet, founder quotes and media FAQ. Main outcome: sustained awareness and an informed audience, rather than a burst of paid promotion.
+T-30 to TGE - Phase 3 Launch orchestration: Coordinate every public announcement around confirmed launch details. Announce the TGE date when authorized and confirmed. Synchronize the project's blog, X, Telegram, Discord, PR distribution and partner channels. Coordinate exchange announcements with the relevant exchanges. Publish official contract addresses, claim instructions, network information and risk disclosures. Prepare spokespersons and a rapid-response process for launch-day questions. Main outcome: consistent information across media, community and official channels.
+T+1 to T+90 days - Phase 4 Post-TGE proof and retention: Keep the story focused on execution, not just market activity. Share product releases, integrations, ecosystem growth and verified usage metrics. Explain circulating supply, unlock schedules and distribution milestones accurately. Arrange founder interviews, podcasts and technical deep dives. Address delays, security incidents or unexpected market events promptly. Publish regular progress updates against previously announced milestones. Main outcome: sustained trust and engagement beyond launch week.
+
+This four-phase model synthesizes the sequencing recommended in 2026 token-launch and PR playbooks.
+[chip: ChainPeak +2]
+
+2. What does the PR campaign actually include?
+A typical TGE PR program combines five workstreams.
+Earned media: News coverage, founder interviews, exclusive stories, expert commentary
+Owned media: Announcement blog, X threads, tokenomics explainer, FAQs and official documentation
+KOL and creator PR: Expert reviews, educational content, interviews and disclosed sponsorships
+Ecosystem communications: Partner announcements, developer stories, integrations and community activations
+Reputation and crisis PR: Media monitoring, scam alerts, holding statements and rapid responses
+
+The important distinction is that PR should sell the significance of the project, not promise a token's future price. A launch story grounded in product usage, technical differentiation, credible partners or a meaningful ecosystem milestone is generally more defensible than an announcement that simply says a token is launching.
+[chip: Shilika Jain +1]
+
+3. Which media outlets should a project target?
+The media list should reflect the project's geography, category and actual newsworthiness, rather than treating every publication as equally valuable.
+Tier 1 - Established crypto-native media. Examples: CoinDesk, The Block, Decrypt and Cointelegraph. Use for material company news, major ecosystem developments, substantive founder interviews and launch stories with independent news value.
+Tier 2 - Specialist and sector media. Examples: Blockworks, DeFi-focused publications, L1/L2 ecosystem media, gaming publications and infrastructure newsletters. Use to reach the audiences most likely to care about the project's technology and use case.
+Tier 3 - Business, regional and creator channels. Examples: relevant business-tech publications, local-language crypto media, podcasts, newsletters and specialist creators. Use for regional reach, founder visibility and education in target markets, with paid relationships clearly disclosed.
+These are target examples, not a guarantee of coverage. The 2026 PR guidance recommends developing relationships well ahead of launch and choosing an exclusive, embargo or open announcement based on the strength of the news.
+[chip: Shilika Jain +1]
+
+4. What does the PR calendar look like around TGE?
+Here is a practical example for a project launching on a hypothetical Day 0.
+T-60: Project positioning, founder profiling and initial media outreach
+T-45: Product milestone story, technical explainer or founder byline
+T-30: Main launch narrative finalized; media briefings begin
+T-21 to T-14: Confirmed launch-related news and partner coordination, where authorized
+T-7: Approved launch FAQ, spokesperson briefing and community scam warnings
+TGE day: Official announcement, press release, synchronized social posts and media responses
+T+1 to T+7: Founder interviews, clarifications and verified launch updates
+T+14 to T+30: Product adoption, integrations and ecosystem stories
+T+30 to T+90: Progress reports, new milestones, technical coverage and unlock communications
+Important: TGE, token claim availability, DEX trading and centralized-exchange listings may occur at different times. Communicate each milestone separately and announce exchange listings only when authorized and confirmed.
+[chip: Coin Gabbar +2]
+
+5. How should success be measured?
+Avoid measuring success exclusively by the number of press releases published or the volume of articles syndicated.
+Suggested PR scorecard: Media quality (relevant independent coverage, message accuracy, journalist engagement, founder interviews and share of voice). Audience acquisition (referral traffic, qualified website visits, documentation views, attributable sign-ups and conversion rates). Community quality (active participants, returning users, meaningful discussions, contributor retention and ecosystem participation). Trust and execution (accuracy of launch information, response time to incidents, scam-response effectiveness and delivery against announced milestones).
+Set numerical targets according to the project's starting point, budget and audience. Treat impressions and article counts as exposure measures, not proof of adoption or business impact.
+
+6. The 2026 consideration that cannot be skipped: compliance
+Token PR needs a legal review process built into the campaign from the beginning.
+Consistent disclosures: Public messaging should match the project's published documentation and tokenomics.
+No misleading investment claims: Avoid guaranteed returns, price targets, unsupported adoption claims or language implying a listing is confirmed when it is not.
+Jurisdiction-specific review: Requirements vary by token structure, distribution method and target market. EU MiCA Article 7, for example, specifies requirements for certain crypto-asset marketing communications, including fair and non-misleading information and consistency with the white paper where required. [chip: European Securities and Markets Authority +1]
+Creator disclosures: Ensure paid promotions and other material relationships are disclosed as required by applicable rules.
+Approval and escalation: Maintain approved messaging, documented sign-offs, archived publications and a crisis-response owner.
+This is especially important for campaigns targeting multiple jurisdictions. The cited SEC staff FAQs are guidance rather than binding rules, and neither they nor MiCA should be treated as a universal legal answer for every token. Have qualified counsel review the specific launch.
+
+7. What budget should a project allocate?
+There is no reliable universal PR budget for a TGE. Scope depends on the project's existing reputation, the strength of its news, target markets, number of languages, campaign duration and whether paid distribution or creator partnerships are included.
+A sensible budgeting structure is to separate: PR strategy and messaging; Media relations and journalist outreach; Content creation and press materials; Paid media and creator activations; Regional localization; Monitoring, reporting and crisis support.
+Get itemized quotes and distinguish earned-media work from paid placements. Do not assume that paying for a placement guarantees independent editorial coverage.
+
+Bottom line
+A typical TGE PR strategy in 2026 is built around three principles:
+Build credibility before the token launch. Give journalists and users substantive reasons to care about the project.
+Coordinate the launch precisely. Align media, founders, exchanges, community channels and legal approvals.
+Keep communicating after TGE. Use verifiable product and ecosystem progress to sustain attention and trust.
+The launch announcement is the visible peak of the campaign; the underlying work is the narrative, relationships, operational coordination and evidence that make it credible.
+For a more tailored plan, the most important variable is the type of token launch: a DeFi protocol, L1/L2, AI project, gaming token and exchange-related launch can require quite different PR strategies.
+
+SOURCE LINKS:
+(the prescribed DOM anchor script returned an empty list for this answer; citations are rendered as chips that are not anchors)
+
+CHIP / CITATION-PAYLOAD URLS (read from the page's React props, 21 URLs in payload order; may include retrieved sources that are not individually visible as chips):
+coingabbar.com/en/token-launch-marketing-strategy
+chainpeak.io/blog/token-launch-marketing-playbook-2026/
+lunarstrategy.com/article/token-launch-marketing-strategy-the-90-day-pre-tg... (truncated by me)
+shilikajain.com/blog/tge-communications-compliance-mica-genius-act-sec-2026
+shilikajain.com/blog/token-launch-pr-service-whats-included
+shilikajain.com/blog/web3-startup-marketing-checklist
+shilikajain.com/playbook/crypto-go-to-market-strategy-2026
+sec.gov/about/divisions-offices/division-corporation-finance/faqs-crypto-as... (truncated by me)
+esma.europa.eu/publications-and-data/interactive-single-rulebook/mica/artic... (truncated by me)
+blog.kraken.com/product/360/pre-tge-playbook-part-2
+crypticweb3.com/token-launch-marketing-guide/
+coinbound.io/token-launch-marketing-playbook/
+kolweb3.com/blog/token-launch-marketing
+thesignal.directory/n/token-launch-marketing-pre-launch-post-tge-strategy
+cryptowave.co.id/articles/vitalik-buterin-dorong-industri-di-bidang-kesehat... (truncated by me)
+mena.b.tc/press
+issuewire.com/zyrexfx-capital-limited-launche... (truncated by me)
+concettolabs.com/cryptocurrency-development
+nasdaq.com/publishers/coindesk
+rootdata.com/Projects/detail/Blockworks
+thestreet.com/crypto/markets/watch-wazirx-fou... (truncated by me)

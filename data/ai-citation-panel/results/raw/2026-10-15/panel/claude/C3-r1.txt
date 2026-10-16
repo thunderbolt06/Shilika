@@ -1,0 +1,41 @@
+PROMPT ID: C3 | PROMPT: Who can ghostwrite and place op-eds for an AI startup founder in 2026? | RUN: 1 | SURFACE: Claude (claude.ai, Incognito chat, Opus 5.5 Medium, web search used: 2 searches)
+
+There's no single go-to name, but the help usually comes from one of four places.
+
+1. Tech PR agencies (writing plus placement). This is the most common route. Firms with strong tech and AI practices include Highwire PR, Bospar, Inkhouse, SHIFT Communications, Hotwire, and Zeno. There are also AI-focused shops such as Influence Tech PR, a London agency that works with AI companies on media strategy and thought leadership placements. Retainers often run several thousand dollars a month or more. [designrush]
+
+2. Independent executive ghostwriters. These are freelancers who focus on founders. They write the piece, and some will also pitch it. Many write thought leadership articles, op-eds, podcast talking points, and investor narratives as well as LinkedIn posts. You can find them on Contra or Upwork, or by asking other founders and your VCs for referrals. That last route is usually the best. [sproutworth]
+
+3. LinkedIn ghostwriting agencies. Firms like Understory Agency, Windmill Growth, Stop The Scroll, and Sculpt are good at voice capture. Their focus is LinkedIn, though, not landing pieces in major outlets. [understoryagency]
+
+4. Doing the pitching yourself. You hire a writer, then pitch the editors yourself. This works well for outlets like TechCrunch, Fortune, or trade publications, where a founder's direct pitch can land.
+
+A few cautions:
+
+Be wary of anyone who promises guaranteed placement in top outlets. Real op-ed desks decide on merit. "Guaranteed" usually means paid or sponsored content, or a pay-to-join contributor council.
+Ask for links to past bylines they placed, not just samples they wrote.
+The best ghostwriters interview you first. A distinct, timely opinion is what gets accepted.
+
+Most of the "top 10" lists online are written by the agencies themselves, so check references before you sign.
+
+(Searches shown by Claude: "op-ed ghostwriting and placement agency for tech startup founders 2026"; "AI PR agency thought leadership op-ed placement founders")
+
+SOURCE LINKS:
+techbullion.com/
+upwork.com/freelance-jobs/apply/Tech-Founder-Ghostwriter-LinkedIn-Thought-Leadership-Company-Content_~022078188766360282635/
+adamdipinto.substack.com/
+sproutworth.com/executive-ghostwriter/
+ghostwritingllc.com/blog/top-10-ghostwriting-services-for-founders/
+understoryagency.com/blog/best-linkedin-ghostwriting-agencies-b2b-saas
+substack.com/@adamdipinto
+adeptghostwriting.com/blog/top-10-ghostwriters-for-hire-in-san-francisco/
+promiseclick.com/resources/glossary/ghostwriting
+pedowitzgroup.com/ai-for-op-ed-guest-article-placement
+pedowitzgroup.com/monitor-the-media-landscape-with-ai-to-elevate-thought-leadership
+starngage.pro/blog/scouting-ai-thought-leaders-how-pr-agencies-build-founder-profiles-that-get-covered
+influenceonline.co.uk/2025/10/24/what-are-the-top-pr-agencies-doing-right-in-thought-leadership
+designrush.com/agency/profile/influence-tech-pr
+techcrunch.com/2023/08/05/4-ways-generative-ai-makes-founders-more-interesting-to-journalists/
+techcrunch.com/
+markt-kom.com/en/
+support.claude.com/en/articles/13345190-get-started-with-claude-cowork  (UI link from the permission-mode banner, not a cited source)

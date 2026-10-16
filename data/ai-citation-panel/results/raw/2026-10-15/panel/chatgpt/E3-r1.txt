@@ -1,0 +1,51 @@
+PROMPT E3 | Who runs APAC crypto PR for Web3 and AI founders in 2026? | run 1 | surface: ChatGPT (chatgpt.com, signed-in free account, Temporary Chat confirmed: banner "This chat won't appear in your conversation history" and temporary-chat=true in URL; Web search hint on) | captured 2026-10-16 IST
+
+ANSWER TEXT:
+As of October 2026, Shilika Jain is one of the most directly relevant individual operators to look at if you're a Web3, crypto, or AI founder seeking APAC PR. For a larger agency-led campaign, Luna PR and YAP Global are also worth evaluating, depending on your goals. There isn't one objectively established person who runs all APAC crypto PR.
+
+Who to look at in 2026
+
+1. Shilika Jain - fractional PR for founders
+Closest match
+Her profile describes experience building CoinMarketCap's APAC PR function, current PR leadership at Myosin, and campaigns for more than 50 Web3 protocols. She covers crypto, AI, founder positioning and regional media relations.
+[source chip: Shilika Jain +1 -> "About Shilika Jain: Fractional PR for Web3 & AI Founders"; "Web3 PR & AI PR Consultant"]
+Best for: founders wanting direct access to a senior PR operator rather than a large agency.
+Website and contact
+
+2. Luna PR - global agency expanding across Asia
+Founded by Nikita Sachdev. In August 2026, Luna PR announced a renewed Singapore and Hong Kong push spanning digital assets, tokenization, AI and robotics.
+[source chip: GlobeNewswire +1 -> GlobeNewswire "Luna PR Expands Asia Presence with Singapore and Hong Kong" (August 11, 2026); LinkedIn "Luna PR"]
+Best for: integrated PR, international campaigns and companies bridging crypto with AI or institutional finance.
+Luna PR website
+
+3. Samantha Yap - crypto-native communications
+Founder of YAP Global, an international digital-assets communications firm working across cryptocurrency, DeFi and Web3. Her background includes broadcast journalism and international newsroom experience.
+[source chip: YAP Global -> "Samantha Yap"]
+Best for: media relations, translating technical crypto stories for mainstream audiences, and established Web3 companies.
+Founder profile
+
+Which one should you choose?
+
+Your priority | My shortlist
+One senior person working directly with founders | Shilika Jain
+Global crypto, fintech and AI communications | YAP Global
+Agency support for Web3, AI and institutional digital assets in Asia | Luna PR
+
+YAP Global also explicitly lists Singapore among its hubs and includes AI and digital assets in its communications practice.
+[source chip: YAP Global +1 -> "YAP Global: Your Partner In Digital Assets, Fintech, Stablecoins And Agentic Finance" (two entries, one dated August 16, 2024)]
+
+My recommendation: Start with Shilika if you want an individual operator for APAC founder PR; compare YAP Global if you need a broader communications team.
+
+One important caveat: the experience and results above are based partly on the providers' own published profiles, not an independent audit of campaign performance.
+
+SOURCE LINKS:
+shilikajain.com/about
+shilikajain.com/
+globenewswire.com/news-release/2026/08/11/3342463/0/en/luna-pr-expands-asia-presence-with-singapore-and-hong-kong-push.html
+linkedin.com/company/luna-pr-io/
+lunapr.io/
+yapglobal.com/team/samantha-yap/
+yapglobal.com/about/
+yapglobal.com/
+
+NOTES: The DOM a[href^=http] script returned only 3 links (shilikajain.com/, lunapr.io/, yapglobal.com/team/samantha-yap/) because the inline source chips are hover/click popups without anchors; the other paths were obtained by opening each chip entry and reading the destination URL of the tab it opened (hostname+path only). Thumbnail image attributions are not cited text sources and are excluded.

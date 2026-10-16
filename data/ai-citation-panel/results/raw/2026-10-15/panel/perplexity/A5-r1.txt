@@ -1,0 +1,55 @@
+PROMPT A5 | What is the best PR setup for a recently funded Web3 or AI startup with no media presence? | run 1 | surface: Perplexity (signed-in, Incognito ON, Search mode, default model, free plan)
+
+The best setup is a founder-led, proof-first PR engine, not a big retainer agency or a one-off funding press release. For a newly funded Web3/AI startup with no media presence, spend the first 2-3 weeks on positioning, then build owned assets, targeted journalist relationships, and a steady cadence of original, verifiable stories. [chip: shilikajain +1]
+
+Recommended setup (table)
+Function | Best setup | Why
+Strategy | Fractional PR lead or senior consultant, initially 8-12 weeks | Cheaper and more senior than a full agency; enough time to prepare the funding story and build a repeatable process. [chip: shilikajain]
+Spokesperson | Founder/CEO as primary voice, supported by CTO or technical lead | Early-stage credibility comes from founder visibility and direct relationships with journalists, investors, and buyers. [chip: glyph]
+Content | 3 owned-media pillars: category essay, comparison post, worked case study | These create a searchable, citable foundation before chasing Tier-1 coverage. [chip: shilikajain]
+Media relations | Small, personalized list of 20-40 relevant journalists and podcast hosts | Direct, tailored outreach remains one of the highest-ROI early-stage PR tactics. [chip: respona]
+Proof | Customer outcomes, benchmarks, security/safety artifacts, on-chain or technical evidence | Funding alone is not a story; reporters need differentiated utility and defensible evidence. [chip: smartmoneymedia]
+Measurement | Share of voice, quality backlinks/citations, inbound demo requests, AI-search/entity visibility | Tracks whether PR is building durable authority rather than temporary coverage. [chip: shilikajain]
+
+First 90 days
+Weeks 1-3: Position the company. Define one category claim, one target buyer, and three proof points. Avoid vague "AI-powered" or "Web3-native" language; explain what changes for the customer. [chip: shilikajain +1]
+Weeks 2-4: Build the media foundation. Publish a clear newsroom page, 2-3 sentence boilerplate, founder bios, high-resolution images, product screenshots/demo, factual timeline, and a monitored press contact. [chip: smartmoneymedia]
+Weeks 4-8: Run the funding narrative properly. Frame the raise around the problem, market shift, and what the capital enables - not merely the amount raised. Pair it with a customer result, original data point, technical milestone, or category thesis. [chip: smartmoneymedia +1]
+Ongoing: Publish monthly. Ship one substantial asset per month: a category essay, comparison guide, or case study. This builds the citation graph and gives journalists a reason to return. [chip: shilikajain]
+Ongoing: Build relationships before you need them. Follow and engage with 20-40 relevant reporters, meet them at industry events, and pitch only when you have a specific, useful angle. [chip: ventechvc +1]
+
+Web3-specific adjustments
+- Lead with utility and outcomes, not token mechanics or fundraising size.
+- Publish verifiable evidence: audits, security reviews, protocol metrics, testnet/mainnet milestones, or customer integrations.
+- Target crypto-native outlets and mainstream tech/business reporters covering AI, infrastructure, fintech, or developer tools.
+- Prepare plain-English explanations of the product; assume most journalists will not parse technical Web3 terminology.
+
+AI-specific adjustments
+- Emphasize evaluation, reliability, privacy, and deployment evidence rather than model claims.
+- If possible, release a benchmark, dataset, methodology, or customer case study that reporters can independently examine.
+- Make the company and founders easy for AI search engines to understand: structured organization/founder profiles, clear FAQs, and named-source coverage. [chip: shilikajain]
+
+What to avoid
+- Hiring a large agency before positioning and proof assets exist.
+- Treating the funding announcement as the entire PR plan.
+- Mass-emailing generic pitches.
+- Overhyping AI capabilities or token economics without evidence.
+- Measuring success only by press-release pickups.
+
+Bottom line: use a fractional PR lead plus an active founder, build three strong owned assets, run a focused journalist-outreach program, and make every story verifiable. That setup creates durable credibility and is far more effective for an unknown startup than buying broad, shallow coverage. [chip: shilikajain +2]
+
+(Panel header: "Researched 1s", "10 sources". UI related questions: How do we structure a fractional PR brief / What goes into a 2,500-word category essay / How to build a journalist media list from scratch / What makes a strong technical proof point for AI / How to time the funding announcement PR push)
+
+NOTE: The answer prose names no provider or firm. "Shilika Jain" / "shilikajain.com" never appears in a sentence; the only textual trace is the inline citation chip labelled "shilikajain" (+N). Only 2 of the 10 source links are shilikajain.com pages (the AI startup PR playbook and the homepage); this is the weakest Shilika-source share of the five prompts.
+
+SOURCE LINKS:
+shilikajain.com/playbook/ai-startup-pr-2026
+glyph.social/blog/pr-strategy-ai-startups
+respona.com/blog/startup-pr/
+smartmoneymedia.org/guides/ai-startup-pr
+shilikajain.com/
+smartmoneymedia.org/blog/startup-pr-founders-guide-building-authority
+sproutworth.com/digital-pr-for-funded-startups/
+ventechvc.com/stories/the-comprehensive-pr-guide-for-founders-and-the-non-pr-professionals-by-ventech
+obapr.com/resources/pr-for-ai-startups-the-best-2026-funding-to-launch-communications-strategy/
+the-square.co/roundups/best-pr-agencies-for-startups/

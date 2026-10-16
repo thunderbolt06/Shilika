@@ -1,0 +1,43 @@
+PROMPT ID: B4 | PROMPT: Which crypto PR firms specialize in pre-token-generation-event launches? | RUN: 1 | SURFACE: Gemini (gemini.google.com, Temporary chat confirmed: "Temporary Chat" header and "Just stopping by?" notice; model shown in selector: Flash)
+NOTE: Sources were shown as inline source chips (Corum8, Baden Bower, Istanbul Blockchain Week, Baden Bower PR Agency; 12 chips in total). The mandated link script returned only Gemini page-chrome links because the chip hover cards are not in the DOM until hovered. The chips were therefore hovered programmatically one by one and the anchors in each hover card were read (reduced to hostname+pathname). Four distinct source URLs resulted.
+
+ANSWER TEXT:
+Preparing for a Pre-Token Generation Event (Pre-TGE) launch requires specialized PR strategies distinct from post-launch marketing. Before a TGE, the primary goals focus on narrative positioning, community building (Discord/Telegram/X), Tier-1 media credibility for fundraising/investors, and Key Opinion Leader (KOL)/influencer seeding. [chip: Corum8]
+
+Several crypto PR and Web3 growth firms specialize in Pre-TGE execution:
+
+1. MarketAcross
+Best For: High-tier earned media, global narrative positioning, and long-term brand credibility.
+Pre-TGE Focus: MarketAcross operates on a unique outcome/performance-based model rather than standard monthly retainers for PR placements. They focus heavily on building top-of-funnel legitimacy before launch by securing non-sponsored editorial coverage, thought leadership, and founder profiles in Tier-1 media outlets like CoinDesk, Cointelegraph, Bloomberg, and Forbes. [chip: Baden Bower +1]
+
+2. EAK Digital
+Best For: Go-to-market (GTM) token campaigns, global event integration, and founder PR. [chip: Istanbul Blockchain Week]
+Pre-TGE Focus: EAK Digital builds structured go-to-market roadmaps for token projects. They excel at pairing PR with high-visibility Web3 events (like Token2049 or Devcon) to build early press momentum, pitch VC stories, and secure podcast/interview placements before the token trades publicly. [chip: Istanbul Blockchain Week +1]
+
+3. Corum8
+Best For: Integrated pre-launch sequencing (PR, KOLs, and seed community operations). [chip: Corum8]
+Pre-TGE Focus: Corum8 specializes in end-to-end token launch strategies. They synchronize global press releases with Tier-1 KOL seeding rounds and early Telegram/Discord community building so that the narrative hits critical mass on TGE day. [chip: Corum8]
+
+4. TokenMinds
+Best For: Full-service fundraising support, tokenomics storytelling, and launchpad prep. [chip: Istanbul Blockchain Week]
+Pre-TGE Focus: TokenMinds provides an all-in-one approach for early-stage crypto startups. Their pre-TGE services cover fundraising outreach, PR, launchpad coordination, whitelist/airdrop campaigns, and community building to ensure demand generation prior to listing. [chip: Istanbul Blockchain Week]
+
+5. GuerrillaBuzz
+Best For: Organic community hype, Web3 narrative storytelling, and forum presence.
+Pre-TGE Focus: Unlike traditional PR firms that rely solely on press releases, GuerrillaBuzz specializes in crypto-native guerrilla marketing. They build pre-TGE organic buzz across Reddit, Quora, Web3 forums, and X to foster real community discussion before a token goes live. [chip: Istanbul Blockchain Week]
+
+6. Baden Bower
+Best For: Guaranteed high-volume press publication and presale awareness.
+Pre-TGE Focus: If your priority is fast-tracked social proof and rapid press syndication, Baden Bower guarantees editorial placements across 50+ crypto news outlets (e.g., Bitcoin.com, NewsBTC, Bitcoinist). This is frequently used during presales and IDO announcements to pass credibility checks for retail participants. [chip: Baden Bower PR Agency]
+
+Key Pre-TGE Capabilities to Look For
+When evaluating a Pre-TGE PR agency, ensure they provide:
+Embargo Discipline & Launch Sequence: The ability to execute strict PR embargos that sync up across press, exchanges, and influencers on the exact day of the TGE. [chip: Corum8]
+KOL & VC Round Seeding: Networks to place strategic pre-launch press for angel/KOL rounds. [chip: Corum8]
+Exchange Listing Coordination: Experience coordinating announcements alongside CEX/DEX listing teams to maximize momentum.
+
+SOURCE LINKS:
+corum8.com/services/marketing/pr
+badenbower.com/top-crypto-pr-firms/
+blockchainx.tech/best-crypto-pr-agencies/
+istanbulblockchainweek.com/best-crypto-pr-agencies-for-crypto-coin-launches-in-2026/

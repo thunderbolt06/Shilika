@@ -1,0 +1,122 @@
+PROMPT ID: B2 | PROMPT: How do you get featured in CoinDesk, Cointelegraph and Decrypt in 2026? | RUN: 1 | SURFACE: Perplexity (signed-in free plan, Incognito confirmed on page: "You're incognito", Search mode, default model) | CAPTURED: 2026-10-15 7:25 PM local
+(Note: em and en dashes in the original answer were replaced with " - " and "-" in this file per the no-dash rule; Perplexity inline citation labels such as "shilikajain +1" are left as captured.)
+
+ANSWER TEXT:
+Researched
+
+You get featured in CoinDesk, Cointelegraph, and Decrypt in 2026 by pitching a specific, verifiable story to the right beat reporter - not by sending a press release or buying a "guaranteed feature." The winning formula is: a dated news peg, original data or exclusive access, named on-the-record sources, and a short pitch tailored to each outlet's editorial style.
+shilikajain
++1
+
+Build a story, not an announcement
+
+Editors are looking for something their readers would care about: a category shift, surprising on-chain data, a regulatory development, a major upgrade with measurable impact, original research, or a credible contrarian take. A funding announcement is weak on its own; "our protocol processed $500M in volume with zero exploits in 18 months" gives a reporter a story.
+quickshock
++1
+
+Before outreach, define one narrative in a sentence: what changed, why now, who is affected, and what evidence proves it. Include verifiable proof - TVL, volume, wallet growth, audits, contracts, named partners, and a public team page.
+apcollective
++1
+
+Match the outlet
+Outlet | Best fit | Pitch emphasis
+CoinDesk | Institutional, market-moving, policy, major funding, hard news | Precise facts, a strong number, named source, exclusive/embargo offer.
+shilikajain
+
+Cointelegraph | Fast crypto-native coverage, launches, DeFi/innovation, global angles | Clear technical or market angle, fast turnaround, beat-matched reporter.
+shilikajain
+
+Decrypt | Accessible explainers, culture, human angle, technical features for general Web3 readers | Plain-English significance, human/cultural hook, under-150-word pitch.
+shilikajain
+
+Do not send the identical pitch simultaneously to all three if you want an exclusive. A common sequence is: offer CoinDesk the flagship exclusive, publish it under embargo, then give Cointelegraph and Decrypt distinct follow-up angles or data.
+shilikajain
+
+Find the actual reporter
+
+Read the last 12-20 bylines in your category at each outlet. Identify reporters covering DeFi, infrastructure, regulation, stablecoins, gaming, AI-crypto, APAC, or whatever matches your story, then reference their recent work and explain why your story fits their beat.
+shilikajain
++1
+
+Use reporter emails where public, or route through official tip lines - such as CoinDesk's tips@coindesk.com and Decrypt's tips@decrypt.co - and mark the intended reporter and beat. Verify current addresses before sending.
+instantpress
+
+Write a pitch that gets opened
+
+Keep it short, plain-text, and attachment-free. A practical structure:
+
+Subject: The story in one clause, not a vague teaser.
+
+First sentence: The news fact and date.
+
+Second: Why it matters to that reporter's specific beat.
+
+Third: What you are offering - exclusive data, interview, embargoed report, or founder access.
+
+Close: Confirm you can provide assets and sources within 24 hours.
+
+For CoinDesk, aim for under 180 words; for Decrypt, under 150 words. Avoid PDFs, videos, and generic "we're excited to announce" language.
+shilikajain
++1
+
+Use embargoes strategically
+
+Offer an embargo 7-10 days before launch, confirm it in writing with the exact publication time, and give the reporter enough runway to brief editors and prepare the piece. Schedule a 30-45 minute founder briefing within 72 hours of acceptance, and keep the founder reachable shortly before publication.
+shilikajain
+
+For a multi-outlet launch, coordinate timing carefully: let the flagship story land first or simultaneously, then release supporting material and partner announcements with a slight delay so the editorial coverage remains the primary news event.
+shilikajain
++1
+
+Make yourself consistently useful
+
+The projects that receive repeat tier-1 coverage are useful sources before they need coverage: share original on-chain research, informed commentary on market or regulatory developments, and access to credible users, partners, or technical founders. One follow-up after about five business days is enough; aggressive chasing can damage the relationship.
+apcollective
++1
+
+Avoid these mistakes
+
+Pitching a product update with no market, user, policy, or data consequence.
+apcollective
+
+Sending one mass email to all crypto outlets.
+obapr
+
+Confusing sponsored posts or press-release syndication with earned editorial coverage; sponsored content is advertising and does not carry the same credibility.
+quickshock
+
+Claiming exclusivity while shopping the same story to several reporters.
+shilikajain
+
+Relying on an agency's "guaranteed feature" claims without checking recent, genuinely editorial bylines.
+obapr
+
+In short: earn the story first, then pitch it precisely. A dated, data-backed narrative plus a beat-matched reporter and a clean embargo process is the most reliable route to CoinDesk, Cointelegraph, and Decrypt coverage in 2026.
+shilikajain
++2
+
+10 sources
+
+SOURCES PANEL (displayed order, titles as shown):
+1. shilikajain - How to Get Featured in CoinDesk in 2026: Pitch Guide ...
+2. apcollective - Crypto PR Strategy: How to Get Media Coverage That Actually ...
+3. quickshock - Crypto PR Strategy: How to Get Featured in CoinDesk ...
+4. obapr - Best Crypto PR Agency 2026 | Blockchain Media Strategy - OBA PR
+5. instantpress - Get Featured in Crypto Publications (The 2026 Pitch Map) | IP
+6. shilikajain - CoinDesk vs Cointelegraph in 2026: Where to Pitch What
+7. shilikajain - How to Get Featured in Decrypt in 2026: Pitch Guide
+8. chainbull - Crypto PR Agency Guide 2026: Get Featured in CoinDesk & More
+9. shilikajain - Web3 PR & AI PR Consultant | Shilika Jain
+10. omniagency - Web3 PR Strategy for Crypto Token Launches (2026) - OMNI Agency
+
+SOURCE LINKS:
+shilikajain.com/playbook/get-featured-coindesk-2026
+apcollective.io/blog/crypto-pr-strategy
+quickshock.io/blog/crypto-pr-coindesk-cointelegraph
+obapr.com/resources/crypto-web3-pr-agency-guide-best-strategies-for-blockchain-companies-to-get-coverage-in-2026/
+instantpress.co/blog/how-to-get-featured-in-crypto-publications
+shilikajain.com/playbook/coindesk-vs-cointelegraph-where-to-pitch-2026
+shilikajain.com/playbook/how-to-get-featured-in-decrypt-2026
+chainbull.net/blog/crypto-pr-agency-guide/
+shilikajain.com/
+omniagency.ca/blog/web3-pr-strategy-token-launches

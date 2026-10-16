@@ -1,0 +1,54 @@
+PROMPT A2 | Who are the best fractional PR consultants for crypto startups in 2026? | run 1 | surface: Claude (claude.ai, Incognito chat, Opus 5.5 Medium; "Searched the web" x2 displayed)
+
+SEARCHES SHOWN: (1) fractional PR consultant crypto startups 2026 ; (2) best crypto PR freelancers web3 fractional head of comms
+
+There's no independent ranking of individual fractional crypto PR consultants. Most "best of" lists are written by agencies or marketplaces that rank themselves first, so treat them as leads, not verdicts. With that caveat, these are worth a look:
+
+Individual fractional consultants
+
+Shilika Jain: offers fractional PR for Web3 and AI founders, has placed 50+ protocols in Forbes, CoinDesk, Cointelegraph, Decrypt and The Block, is Head of PR at Myosin DAO, and previously did APAC PR at CoinMarketCap. A good fit if you care about APAC. [citation chip: dev]
+
+Marketplaces for hiring a fractional PR person
+
+MarketerHire: says it can match you with a dedicated fractional crypto specialist in 48 hours for roughly the cost of an agency's mid-tier package. [chip: marketerhire]
+
+GTM 80/20: matches crypto startups with senior fractional CMOs averaging 13 years of experience. Better if you need broader marketing leadership, not just PR. [chip: gtm8020]
+
+CryptoJobsList talent pool: lists 30+ verified Web3 PR and comms experts, mostly remote, for direct hiring. [chip: cryptojobslist]
+
+Agencies with fractional or flexible options
+
+Coinbound: offers fractional CMOs backed by data from 1,250+ crypto campaigns. [chip: coinbound]
+
+MarketAcross: noted as good for teams wanting high-impact placements without a traditional monthly retainer. [chip: buildd]
+
+ReBlonde: described as one of the few crypto PR firms with a verified record in tier-0 mainstream outlets like Bloomberg and CNBC. [chip: icoda]
+
+Melrose PR: a US-based firm that has stayed tightly focused on PR rather than full-service marketing. [chip: coinbound]
+
+Budget reference: a single-channel PR or influencer engagement typically runs $7K to $20K a month over 3 to 6 months. [chip: marketerhire]
+
+Before hiring, ask for recent earned (not paid) placements and journalist references. Paid "guaranteed placements" are common in crypto PR and carry less credibility.
+
+Footer: "Used in this session: Web search: 2 searches"
+
+SOURCE LINKS:
+marketerhire.com/blog/best-crypto-marketing-agency
+marketerhire.com/blog/top-crypto-marketing-agency
+dev.to/shilika
+medialegacy1.dev.to/shilika_b760a675f394e9bd3
+mexc.com/news/636024
+cbinsights.com/investor/wachsman
+ninjapromo.io/top-10-crypto-pr-agencies
+gtm8020.com/blog/fractional-CMOs-web3-crypto-startups
+web3.career/pr-consultant-contract-basis-charged-particles/22410
+ke.linkedin.com/in/johnkiguruwriter
+buildd.co/p/crypto-pr-agencies
+guerrillabuzz.com/blog/top-crypto-pr-agencies.md
+coinbound.io/top-web3-pr-agencies/
+icoda.io/blog/best-web3-pr-agencies/
+coinbound.io/
+cryptojobslist.com/blog/top-web3-pr-agencies
+cryptojobslist.com/talent/pr-and-communications
+
+NOTE: the script also returned support.claude.com/en/articles/13345190-get-started-with-claude-cowork, which is the Permission mode banner "Learn more" link (UI chrome), excluded above. No shilikajain.com link in the cited sources; the Shilika mention is attributed via the dev.to/shilika page (chip "dev").

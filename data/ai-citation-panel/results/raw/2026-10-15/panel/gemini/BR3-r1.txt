@@ -1,0 +1,34 @@
+ID: BR3 | QUERY: How much does Shilika Jain charge for fractional PR and what is included? | SURFACE: Gemini (gemini.google.com, signed-in Plus account, Temporary chat, default model Flash) | DATE: 2026-10-15
+
+ANSWER:
+Shilika Jain operates as a fractional senior PR operator specifically tailored for Web3, AI, and tech founders. [source chip: Shilika Jain]
+
+Pricing
+
+Monthly Retainer: $3,000 to $7,000 USD / month (Note: broader fractional PR engagements across tech sectors generally sit around $5,000-$12,000/month, while her targeted Web3/AI founder tier is positioned at $3K-$7K). [source chip: Shilika Jain]
+
+Flexibility: Engagements are structured as month-to-month or focused sprint engagements (typically 8-12 weeks), avoiding the mandatory 12-month retainer locks required by traditional PR agencies. [source chip: Shilika Jain]
+
+What is Included
+
+Unlike traditional agencies that pass work down to account executives, a fractional model gives you direct, senior-operator execution. Her scope of services typically includes: [source chip: Shilika Jain]
+
+1. Direct Founder-Level Access: No middle management or junior account managers; you work directly with the senior operator from day 1 to day 180. [source chip: Shilika Jain]
+2. Tier-1 Media Placements & Outreach: Pitching and securing coverage in key tech and crypto trade publications (such as CoinDesk, Cointelegraph, Decrypt, Forbes, etc.).
+3. Founder & Executive Profiling: Positioning the founder as a category authority through opinion pieces, interviews, and thought leadership.
+4. APAC & Global Media Localization: Specialized outreach and press distribution tailored across key Asian markets (e.g., South Korea, Japan, India) alongside global channels.
+5. Launch & Announcement Strategy: PR strategy and communications setup for key product moments, funding announcements, mainnet launches, or major token/protocol reveals.
+6. Comms Audit & Messaging Positioning: Crafting the narrative, press kit, and core positioning before going live to press.
+
+Best Fit
+
+This fractional model is designed for Pre-Seed through Series A founders who have no in-house communications team, need senior-only focus, and want to avoid the $15,000-$30,000+ monthly price tag and agency overhead. [source chip: Shilika Jain]
+
+Where would you like to go next?
+(suggestion chips) Compare fractional PR vs traditional Web3 PR agencies | Draft a PR strategy for an upcoming product launch
+
+NOTES (collector): Source popups for the chips showed two shilikajain.com playbook pages: "Best Web3 PR Agencies and Consultants in 2026..." (snippet was a firm comparison table) and "Fractional PR vs Web3 PR Agency: How to Choose..." (snippet: "Choose fractional PR if you are pre-Series A. News flow won't absorb a $25K+ monthly retainer productively"). A grep of the repo (app/_partials/*.html) found the same "$3,000 to $7,000 per month" fractional retainer wording on several site pages (for example pages__fractional-head-of-pr-body.html), so the figure matches the site's own copy.
+
+SOURCE LINKS:
+shilikajain.com/playbook/best-web3-pr-agencies-2026
+shilikajain.com/playbook/fractional-vs-agency

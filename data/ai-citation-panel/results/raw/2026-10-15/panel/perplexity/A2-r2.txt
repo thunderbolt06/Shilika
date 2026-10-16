@@ -1,0 +1,97 @@
+PROMPT A2 | Who are the best fractional PR consultants for crypto startups in 2026? | run 2 | surface: Perplexity (signed-in, Incognito on, Search mode, default model) | captured 2026-10-15
+
+NOTE: In the extracted text below, a bare lowercase word on its own line (shilikajain, linkedin, wolf) is an inline citation chip (source label), not answer prose. Em dashes in the original were replaced with hyphens when saving.
+
+ANSWER TEXT:
+Researched 2s
+
+The strongest fractional crypto PR options in 2026 are senior independent operators who can run positioning, journalist outreach, founder visibility, and launch communications directly - rather than large agencies that assign junior account teams. The best fit depends on whether you need Tier-1 crypto media, TGE/token-launch support, or broader Web3 GTM leadership. [chip: shilikajain +2]
+
+Strong candidates
+Consultant / studio | Best for | Why they stand out
+Shilika Jain | Crypto/Web3 startups needing a dedicated fractional PR lead, especially pre-Series A through TGE | Positions herself as a Web3/AI fractional PR manager; reports 50+ protocols placed in outlets including Forbes, CoinDesk, Cointelegraph, Decrypt, The Block, and Blockworks; prior CoinMarketCap and Myosin experience. [chip: shilikajain +1]
+
+Claire C. (PR3 Agency) | AI/Web3 startups that want PR combined with GTM and fundraising communications | UK-based fractional CMO and PR consultant with a decade focused on AI and Web3; formerly founder/CEO of Bottle PR, a Top-20 UK agency. [chip: linkedin]
+
+Sarah May / Web3 Wasabi | Crypto, AI, and tech companies seeking a boutique PR studio rather than a large agency | Founder/CEO of Web3 Wasabi, focused on public relations, media relations, and strategic communications for AI, Web3, and crypto companies. [chip: linkedin]
+
+Shagun Karki | Early-stage Web3, AI, and tech startups needing ongoing media visibility | Fractional Head of PR/Comms at makeraves, working with pre-seed and Series A startups on publication exposure. [chip: linkedin]
+
+Florian ter Voert | European crypto/fintech startups needing broad business-media plus crypto coverage | Fractional PR manager whose sector focus includes crypto, blockchain, Web3, fintech, banking, and investments. [chip: linkedin]
+
+Zehra Naz Hacisuleyman / Web3 Acrobat | Early Web3 teams needing fractional marketing plus communications support | Founder of Web3 Acrobat, offering fractional marketing support across 20+ Web3/crypto client engagements, including strategy, content, and operations. [chip: linkedin]
+
+My shortlist by use case
+
+Best overall crypto-native fractional PR hire: Shilika Jain - her offering is explicitly built around end-to-end Web3 PR, including positioning, embargo strategy, Tier-1 outreach, founder profiling, KOL waves, crisis comms, and launch support. [chip: shilikajain +1]
+
+Best for a founder-led narrative and fundraising-adjacent PR: Claire C., given her combined fractional CMO, GTM, fundraising, and PR background. [chip: linkedin]
+
+Best for a small boutique/studio relationship: Sarah May at Web3 Wasabi. [chip: linkedin]
+
+Best for early-stage visibility on a lean budget: Shagun Karki or Zehra Naz Hacisuleyman, depending on whether you prioritize pure PR or broader marketing operations. [chip: linkedin +1]
+
+What to expect to pay
+
+Typical fractional senior crypto PR retainers run roughly $3,000-$7,000 per month for strategy, journalist outreach, narrative work, and founder profiling; more intensive pre-TGE or launch sprints can reach $12,000-$20,000 per month. [chip: shilikajain +1]
+
+How to vet them
+
+Ask each candidate for:
+Three recent crypto clients with named coverage and dates.
+Their direct relationships with reporters at CoinDesk, The Block, Cointelegraph, Decrypt, Blockworks, and relevant business press.
+A sample 30/60/90-day plan covering narrative, announcements, founder media, and launch timing.
+Whether they personally pitch or delegate to juniors.
+Pricing structure: monthly retainer, deliverables, or placement-linked fees - avoid "guaranteed coverage" offers that blur paid promotion into earned media. [chip: wolf +1]
+
+If you want one pragmatic starting point: speak with Shilika Jain for pure crypto PR execution, and Claire C. if you need PR tightly integrated with go-to-market and fundraising. [chip: shilikajain +1]
+
+41 sources
+
+SOURCE CARDS (title shown in Sources panel, in order):
+shilikajain: Token Launch PR 2026: TGE Comms, Exchange & KOL Waves | shilikajain: Web3 PR Campaigns 2026: Tier-1 Placements, Senior Operator | shilikajain: FAQ: Fractional Web3 & AI PR - Scope, Cost, Regions | linkedin: Claire C. - Fractional CMO, GTM & Fundraising Expert for AI & Web3 | linkedin: Sarah May | LinkedIn | linkedin: Shagun Karki | LinkedIn | linkedin: Florian Ter Voert | LinkedIn | linkedin: Zehra Naz Hacisuleyman | LinkedIn | shilikajain: How Much Does Crypto PR Cost in 2026? Honest Pricing | shilikajain: Fractional PR for Web3 Startups: Cost, Scope, and When to ... | wolf: Crypto PR Firms Compared | guerrillabuzz: Web3 PR Agency | shilikajain: Fractional PR Consultant Web3 2026 | Crypto-Native Senior | shilikajain: Best Fractional PR Consultants for Tech Startups in 2026 | coinbound | cryptwerk | thekollab | marketerhire | victoriaolsina | badenbower | shilikajain: Service Pages: Web3, AI, Token Launch & APAC PR | shilikajain: Web3 PR & AI PR Consultant | Shilika Jain | crynet | linkedin: Richard Botley | geniuspr | linkedin: Alexandra Nicorici | linkedin: Samad M | linkedin: Serge Ovsyanik | rimo | linkedin: Anna Morgan | linkedin: Jalaj Jain | linkedin: Kyle Ankney | shilikajain: How to Build a Crypto Journalist CRM | shilikajain: Playbooks: Field Guides From Inside Web3, AI & Cyber PR | shilikajain: Web3 Crisis Communications Playbook | dev: Shilika - DEV Community | salientpr | financefeeds | luvkaizen | marketerhire | blockchain-ads
+
+Suggested follow-ups shown: How much do fractional crypto PR consultants cost / Fractional PR consultant vs crypto PR agency / What to look for when hiring a fractional crypto PR / How to prepare a crypto startup for a Tier-1 launch / List more fractional crypto PR consultants
+
+SOURCE LINKS:
+linkedin.com/in/claireweb3ai
+linkedin.com/in/web3whisperer
+linkedin.com/in/shagun-karki-chetri-pr-communications-technology
+linkedin.com/in/floriantervoert
+linkedin.com/in/zehranazh
+shilikajain.com/services/token-launch-pr
+shilikajain.com/services/web3-pr-campaigns
+shilikajain.com/faq
+shilikajain.com/playbook/crypto-pr-cost-2026
+shilikajain.com/blog/fractional-pr-web3-crypto-cost-scope-hire-vs-agency
+wolf.financial/blog/crypto-pr-firms-compared-digital-asset-companies
+guerrillabuzz.com/services/web3-pr
+shilikajain.com/pages/fractional-pr-consultant-web3
+shilikajain.com/playbook/best-fractional-pr-consultant-tech-2026
+coinbound.io/
+cryptwerk.com/post/top-crypto-marketing-agencies-for-early-stage-blockchain-startups-in-2026/
+thekollab.io/articles/top-crypto-pr-agencies/
+marketerhire.com/blog/best-web3-marketing-agencies
+victoriaolsina.com/blog/best-crypto-marketing-agencies-web3-founders/
+badenbower.com/top-crypto-pr-firms/
+shilikajain.com/pages
+shilikajain.com/
+crynet.io/blockchain-pr
+linkedin.com/in/richardbotley
+geniuspr.com/top/best-crypto-pr-agencies-in-2026-a-buyers-evaluation-guide
+linkedin.com/in/alexandranicorici
+linkedin.com/in/samad-m-267839168
+linkedin.com/in/ovsyanik
+rimo.digital/network
+linkedin.com/in/annamorgan83
+linkedin.com/in/jalaj719
+linkedin.com/in/kyleankney
+shilikajain.com/blog/crypto-journalist-crm-beats-sentiment-embargo-reliability
+shilikajain.com/playbook
+shilikajain.com/blog/web3-crisis-communications
+dev.to/shilika
+salientpr.com/blog/the-top-crypto-public-relations-firms
+financefeeds.com/7-crypto-pr-agencies-blockchain-startups/
+luvkaizen.com/solutions/best-web3-pr-agencies-2026
+marketerhire.com/blog/best-crypto-marketing-agency
+blockchain-ads.com/post/top-crypto-pr-agencies

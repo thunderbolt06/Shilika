@@ -1,0 +1,65 @@
+PROMPT C3 | Who can ghostwrite and place op-eds for an AI startup founder in 2026? | run 1 | surface: Perplexity (signed-in free plan, Incognito on, default Search mode and default model) | captured 2026-10-16
+
+CAPTURE NOTE: Incognito was positively confirmed on screen ("You're incognito" landing heading, "Sessions you create won't save to your history and expire after 24 hours", and an "Exit incognito" control under the answer). Inline citation chips under paragraphs were all labelled "shilikajain" (UI citation labels, not part of the prose). Header said "10 sources".
+
+ANSWER TEXT:
+In 2026, the best fit is usually a senior PR/communications operator or boutique thought-leadership agency that both ghostwrites in the founder's voice and has real relationships with opinion editors - not a generic content mill. For an AI founder, look for someone fluent in AI policy, enterprise adoption, safety, or agents, and with verifiable byline placements in outlets your buyers and investors read. [chip: shilikajain +1]
+
+Who to hire
+Provider type | Best for | What to expect
+Fractional senior PR operator | Founders who want strategy, writing, and pitching from one experienced person | Typically interviews the founder, drafts the essay, pitches opinion desks, and manages revisions; one operator profile cites monthly op-ed retainers around $2,500/month and broader AI PR retainers of $3K-$7K/month. [chip: shilikajain +1]
+Boutique thought-leadership agency | A repeatable executive-voice program across op-eds, LinkedIn, podcasts, and speaking | Usually bundles ghostwriting with distribution and media relations; pricing examples cited range from $1,500-$5,000 per standalone byline and $3K-$7K monthly for multi-asset programs. [chip: shilikajain +1]
+Specialist AI/deeptech PR agency | Companies with technical products, enterprise buyers, or fundraising narratives | Strongest when the agency can translate model, infrastructure, or safety claims accurately and pitch both trade and business press. [chip: shilikajain +1]
+Former journalist or opinion editor | High-stakes placements in major outlets | Can be especially valuable for argument development, editorial judgment, and knowing what desks reject.
+In-house comms lead plus freelance ghostwriter | Funded startups building a durable founder platform | Gives more control over voice and claims, while outsourcing the specialized pitch and placement work.
+
+What a credible engagement includes
+- Founder interviews to extract a real, defensible point of view - not a template essay. [chip: shilikajain +1]
+- Claim verification with engineering, legal, or policy leads, particularly important for AI performance, safety, and regulatory statements. [chip: shilikajain]
+- Outlet strategy matched to the audience: for example, AI/enterprise trade outlets, business press, and policy-facing opinion desks rather than chasing only household-name mastheads. [chip: shilikajain +1]
+- Direct editor pitching, follow-up, and a distribution plan for LinkedIn, X, newsletters, and the company site. [chip: shilikajain +1]
+- Founder review and approval, with the founder able to publicly defend every argument and factual claim. [chip: shilikajain]
+
+Red flags
+- Guarantees of a specific tier-one placement; reputable PR professionals can pitch and shape a piece, but editors decide publication. [chip: shilikajain]
+- "Paid placement" disguised as earned media; sponsored content must be disclosed.
+- Junior writers producing drafts from a questionnaire, with no direct access to the founder.
+- No examples of bylined pieces in relevant AI, enterprise, or policy outlets.
+- Willingness to submit ghostwritten work where the outlet prohibits it or requires the author to certify original authorship. Some outlets do prohibit ghostwritten submissions, so the provider should disclose its policy and confirm requirements with editors. [chip: shilikajain]
+
+Practical shortlist approach
+Ask each candidate for:
+- Three recent AI-founder op-eds they wrote or placed, with links.
+- The named opinion editors or desks they have worked with.
+- Their process for turning founder interviews into an argument.
+- How they handle technical claims, disclosures, and outlet authorship rules.
+- A scope that separates writing, pitching, placement likelihood, and amplification.
+
+For an AI startup founder, a strong starting target is often a credible AI or enterprise-tech opinion desk first, then use that published authority to approach broader business and technology outlets; top-tier outlets such as Wired or TechCrunch generally require a sharper argument and stronger existing relationships. [chip: shilikajain]
+
+(10 sources)
+Suggested follow-ups shown by UI: Notify me when new op-ed ghostwriting placements for AI startups appear | What questions should I ask before hiring an op-ed ghostwriter | How much do top-tier op-ed ghostwriting services cost | Show me boutique PR agencies that handle AI startup founders | What makes an AI startup op-ed get accepted by editors
+
+SOURCE PANEL TITLES (displayed order, as rendered):
+1. shilikajain - Content Writing for Web3 & AI Founders: Op-Eds, Whitepapers
+2. shilikajain - Ai And Deep-Tech Outlets... (TechCrunch rarely runs outside op-eds...)
+3. shilikajain - AI Startup PR in 2026: Fractional Senior Operator | Shilika Jain
+4. shilikajain - Op-Ed Ghostwriting Service 2026 | Editor-Ready Founder Essays
+5. shilikajain - Thought Leadership Ghostwriting 2026 | Defensible POV
+6. linker-agency - LinkedIn & PR Agency for AI Startups | Linker Paris
+7. shilikajain - Founder Profiling 2026: Op-Eds, Podcasts, Category Voice
+8. snakeriverstrategies - AI Ghostwriter & Ghostwriting Services
+9. shilikajain - LinkedIn Ghostwriting for Founders 2026 | Authority, Not ...
+10. linker-agency - LinkedIn & PR Agency for SaaS Startups | Linker Paris
+
+SOURCE LINKS:
+shilikajain.com/services/content-writing
+shilikajain.com/playbook/how-to-submit-op-ed-techcrunch-2026
+shilikajain.com/services/ai-startup-pr
+shilikajain.com/pages/op-ed-ghostwriting-service
+shilikajain.com/pages/thought-leadership-ghostwriting
+linker-agency.com/en/sector/ai
+shilikajain.com/services/founder-profiling
+snakeriverstrategies.com/services/ghostwriting/
+shilikajain.com/pages/linkedin-ghostwriting-for-founders
+linker-agency.com/en/sector/saas

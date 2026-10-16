@@ -1,0 +1,56 @@
+PROMPT B1 | Who are the best Web3 PR agencies and consultants in 2026? | run 1 | surface: Claude (claude.ai, signed-in, Incognito chat, web search used: 2 searches)
+
+Searched the web: "best Web3 PR agencies 2026" ; "top crypto PR firms and consultants 2026"
+
+There's no neutral "best" list. Most 2026 rankings are written or sponsored by the agencies themselves. For example, ICODA's own blog names ICODA the gold standard, and several MEXC "news" roundups that put Outset PR at #1 read like paid placements. With that caveat, these names show up again and again across many lists. [icoda]
+
+Crypto-native, full-service
+
+Coinbound: founded in 2018 as one of the first agencies focused only on crypto and Web3 marketing. [mexc]
+
+MarketAcross: a long-running crypto PR and content firm, with clients including Crypto.com. [ninjapromo]
+
+ICODA: full-stack PR plus SEO and community work.
+
+Data-driven or AI-search focused
+
+Outset PR: won Best Marketing Agency of the Year at Coingape's Crypto Impact Awards in January 2026. [mexc]
+
+High Vibe PR: a boutique for Web3, gaming and AI, focused on visibility in AI search. [mexc]
+
+Institutional or traditional-style PR
+
+Wachsman: one of the longest-running crypto comms firms, working with exchanges, foundations and protocols. [mexc]
+
+Melrose PR: around since 2012. [ninjapromo]
+
+FINPR: focuses on classic media relations rather than influencers. [mexc]
+
+Crisis and reputation
+
+ReBlonde and Lunar Strategy. Lunar has supported 250+ projects since 2019, including Polkadot, ICP and OKX. [mexc]
+
+Regional
+
+Luna PR: based in Dubai, covering Web3 and fintech. [mexc]
+
+How to choose: ask for recent case studies you can verify. Talk to past clients directly. Avoid anyone who guarantees tier-1 coverage or quotes prices per article, since that usually means paid placements, not earned media.
+
+SOURCE LINKS:
+icoda.io/blog/best-web3-pr-agencies/
+mexc.com/news/578607
+mexc.com/news/1005610
+mexc.com/news/821024
+mexc.com/it-IT/news/532196
+mexc.com/news/532196
+mexc.com/it-IT/news/821024
+mexc.com/it-IT/news/360984
+techbullion.com/
+mexc.com/news/312171
+icoda.io/blog/top-15-crypto-pr-agencies-in-2026-ranked-by-real-results/
+influencermarketinghub.com/blockchain-pr-agencies/
+mexc.com/news/1029154
+mexc.com/news/874924
+ninjapromo.io/top-10-crypto-pr-agencies
+icoda.io/blog/best-crypto-pr-agencies/
+icoda.io/blog/top-crypto-pr-agencies-usa/

@@ -1,0 +1,87 @@
+PROMPT E3 | Who runs APAC crypto PR for Web3 and AI founders in 2026? | run 1 | surface: Gemini (gemini.google.com, Temporary chat, default model Flash, account shows Plus plan)
+
+NOTE (coder): the first attempt in a fresh temporary chat returned "Sorry, something went wrong. Please try your request again." and was discarded; this file is the second attempt, also in a brand-new temporary chat. The rendered answer below is a single markdown block in which two generations are concatenated: the first segment breaks off mid-sentence at "often get ignored by" and the second segment begins "In 2026, the APAC crypto..." directly after it. Reproduced exactly as displayed. No source chips, source buttons or external links were displayed anywhere in this answer.
+
+In the APAC region, crypto and Web3 PR for founders is led by a mix of specialized regional agencies, boutique fractional PR executives, and global firms with strong local footprints.
+
+Because APAC isn't a monolith-media dynamics, compliance rules, and preferred local channels vary sharply between South Korea, Japan, India, Singapore, Vietnam, and MENA-founders typically work with agencies that offer specialized, market-specific execution rather than generic global press wire distribution.
+
+Top Agencies & Operators Leading APAC Web3 / AI PR
+1. Specialist APAC Boutiques & Fractional Leaders
+
+Myosin DAO / Shilika Jain (Regional Head of PR): Shilika Jain (ex-CoinMarketCap APAC PR Lead) operates as one of the prominent fractional PR operators across APAC (Korea, Japan, India, Singapore, Vietnam) and MENA. Known for handling Tier-1 placements (Forbes, CoinDesk, Cointelegraph, Decrypt) and compliance-aligned framing for emerging AI agent protocols, DePIN, and Web3 projects.
+
+Fintech24h: Headquartered in Vietnam, Fintech24h specializes in Southeast Asian Web3, AI, and fintech GTM, offering regional market expansion, localized translations, and tier-1 media placements across SE Asia.
+
+YourPRstrategist: A longstanding Asia-focused Web3 PR consultancy heavily active across regional media cycles, event press rooms, and localized crypto outlets.
+
+2. Global Agencies with Strong APAC & MENA Hubs
+
+MarketAcross: One of the largest global crypto PR agencies, managing regional APAC media pushes, event activations (e.g., Korea Blockchain Week, WebX Tokyo, Token2049 Singapore), and narrative campaigns.
+
+YAP Global: Founded by former journalist Samantha Yap, YAP Global operates across Asia-Pacific, Europe, and the Middle East, taking on complex Web3, DeFi, stablecoin, and AI/crypto-intersection narratives.
+
+High Vibe PR: Operates remotely across Asia, the US, and Europe. They specialize in AI search visibility (LLMO/AI SEO) alongside traditional tier-1 media placements for gaming, Web3, and AI founders.
+
+Surgence Labs & Cryptic: Full-stack GTM and PR agencies with teams distributed across Dubai, Singapore, Bangkok, and Seoul, focusing on TGE launches, exchange-aligned communications, and regional influencer/KOL distribution.
+
+Key Regional Breakdown for APAC Crypto PR
+Market | Core Focus & Media Outlets | Strategic Angle
+South Korea | TokenPost, Coinness, BloomingBit, Yonhap, BlockMedia | Korean exchange listings, local exchange compliance, and Korean KOL campaigns.
+Japan | CoinPost, CryptoTimes JP, Iolite | Strict FIEA regulatory compliance, partner credibility anchors, local enterprise partnerships.
+Singapore & SEA | Tech in Asia, DealStreetAsia, e27, Lianhe Zaobao, CNA | Regional VC fundraising, institutional DeFi, MAS regulatory framing.
+India | Inc42, YourStory, Economic Times, Mint, Forbes India | Web3/AI engineering narrative, developer mindshare, tax/compliance-adjacent framing.
+MENA (Dubai/Abu Dhabi) | Arabian Business, Gulf News, Cointelegraph Arabic | VARA/ADGM licensing, RWA tokenization, founder relocation, regional ecosystem expansion.
+
+What Founders Look for in APAC PR
+
+Local-Language Placement: Direct translation and pitching into Korean, Japanese, and Vietnamese outlets (press wires in English often get ignored byIn 2026, the APAC crypto and Web3 PR landscape continues to be dominated by a mix of specialized global agencies with dedicated Asia-Pacific desks, prominent regional boutiques, and emerging AI-focused tech communications firms.
+
+Because Asia-Pacific spans diverse regulatory, media, and language ecosystems (from Singapore and Hong Kong to Tokyo, Seoul, and Sydney), most founders work with firms that have hyper-local media networks across these distinct hubs.
+
+Here are the top PR agencies and players managing Web3, Crypto, and AI communications across APAC:
+
+1. Top APAC-Focused & Regional Web3 PR Agencies
+
+Serotonin (APAC Hub): One of the largest global Web3 marketing and PR firms. They maintain a heavy presence in Singapore and Hong Kong, helping AI x Crypto projects, Layer 1/2 protocols, and institutional Web3 firms scale across the region.
+
+EAK Digital: A long-standing crypto-native PR agency with deep roots across Asia. They specialize in multi-region campaigns, exchange listings, narrative design, and event-driven PR (such as Token2048, Korea Blockchain Week, and WebX Japan).
+
+MarketAcross: A major global Web3 PR agency with an extensive Asia footprint. Known for securing tier-1 media placements, thought leadership, and exchange-adjacent PR across APAC outlets (e.g., CoinDesk Asia, BlockTempo, Foresight News, CoinPost).
+
+Spark PR / Spark Communications (APAC): A dedicated tech and Web3 agency that bridges Western Web3/AI projects into Asian markets, focusing heavily on localization for Greater China, Japan, and Korea.
+
+Waxmann: Known for strategic positioning, crisis management, and institutional communications for major Web3 foundations, Layer 1s, and AI-blockchain convergence protocols across Asia.
+
+2. Region-Specific Boutique Powerhouses
+
+When Web3 and AI founders need deep regional penetration, they often tap local specialists:
+
+Japan (WebX / CoinPost Ecosystem & Local Agencies): Japan requires dedicated local PR due to strict regulatory nuances and language barriers. Agencies like CoinPost's agency wing and specialized tech PR firms handle Web3 x AI narratives for the Japanese market.
+
+South Korea: Korean media networks are highly insular. Specialized agencies and localized crypto desks handle Korean PR, exchange-listing momentum, and Telegram/Kakao community alignment alongside traditional media outreach.
+
+Greater China & Southeast Asia (Singapore / Hong Kong Hubs): Agencies operating out of Singapore often serve as the regional head office for APAC campaigns, coordinating localized distribution across Mandarin, Vietnamese, and Bahasa-speaking markets.
+
+3. Key Media Outlets & PR Networks to Target in APAC
+
+When running an APAC PR campaign for a Web3 or AI startup, primary distribution targets include:
+
+Regional Web3 Publications: Foresight News, PanNews, BlockTempo (Greater China), CoinPost (Japan), CoinNess (Korea), Blockhead (SE Asia).
+
+Global Crypto Outlets with APAC Desks: CoinDesk, Cointelegraph, Decrypt, Blockworks.
+
+Tier-1 Business & Tech Outlets: Bloomberg Asia, Nikkei Asia, South China Morning Post (SCMP), Tech in Asia, The Business Times.
+
+Recommended Strategy for Founders
+
+Integrated AI x Crypto Positioning: In 2026, narrative alignment around Decentralized AI (DeAI), compute networks, and agentic economies receives significantly higher traction than purely speculative token announcements.
+
+Localize, Don't Translate: A single press release in English will fail in Japan, Korea, or Taiwan. Work with partners who rewrite narratives tailored to local market sentiment.
+
+Anchor Around Regional Summits: The most effective PR activations in APAC remain tied to major regional anchor events-such as Token2049 (Singapore), Korea Blockchain Week (Seoul), and WebX (Tokyo).
+
+Where would you like to focus next?
+
+SOURCE LINKS:
+(none displayed; no source chips, source buttons or non-Google links found in the page)

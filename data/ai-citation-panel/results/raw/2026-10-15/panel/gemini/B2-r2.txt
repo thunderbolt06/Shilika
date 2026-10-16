@@ -1,0 +1,41 @@
+PROMPT ID: B2 | PROMPT: How do you get featured in CoinDesk, Cointelegraph and Decrypt in 2026? | RUN: 2 | SURFACE: Gemini (gemini.google.com, Temporary chat, default model Flash)
+
+Getting featured in CoinDesk, Cointelegraph, and Decrypt requires tailoring your pitch to how each newsroom actually operates. Mass PR distribution blasts rarely work; coverage comes from aligning with their unique editorial models.
+
+1. Understand Editorial PersonalGetting featured in top-tier crypto publications like CoinDesk, Cointelegraph, and Decrypt in 2026 requires moving past basic press releases. The crypto media landscape has matured, with a heavy focus on institutional relevance, technical viability, verified data, and real-world adoption.
+
+Here is the blueprint to earn coverage in these tier-1 crypto outlets:
+
+1. Pitch the Specific Editorial Angles They Want
+
+Each outlet serves a distinct audience and looks for different narratives:
+
+CoinDesk:
+Focus: Institutional adoption, macro trends, regulatory policy, market analysis, and enterprise blockchain.
+What Lands: Exclusive data reports, institutional fund launches, major regulatory compliance milestones, or deep market metrics.
+
+Cointelegraph:
+Focus: Broad crypto audience, technical innovations, market news, pop-culture crypto intersections, and community-driven movements.
+What Lands: Breakthrough tech upgrades, unique ecosystem milestones, high-profile partnership announcements, and digestible visual graphics or reports.
+
+Decrypt:
+Focus: Web3 culture, AI meets crypto, gaming, decentralized media, privacy, and accessible tech coverage.
+What Lands: Product launches with immediate consumer usability, Web3 gaming metrics, decentralized AI protocols, and founder stories with a human-interest angle.
+
+2. Lead with High-Value Story Hooks
+
+Pitching generic company updates won't work. Instead, frame your outreach around one of these angles:
+Exclusive Proprietary Data: Share novel, verified data or on-chain research that journalists can cite.
+Genuine Technical Breakthroughs: Detailed breakdowns of novel cryptography, scaling solutions, or AI-blockchain integration.
+Tier-1 Strategic Partnerships: Verified integrations with traditional finance (TradFi) institutions or major tech firms.
+Contrarian Thought Leadership: Reactive pitches offering expert commentary within 30-60 minutes of a major industry event or news break.
+
+3. Best Practices for Outreach
+
+Offer Real Exclusives or Embargoes: Give a single targeted reporter a 24- to 48-hour head start under embargo. Avoid mass-blasting generic pitches.
+Target the Right Reporter: Search for journalists who regularly cover your specific niche (e.g., DeFi, policy, gaming) rather than pitching the generic newsdesk email.
+Keep Pitches Concise: Structure your cold email with a bold, news-worthy headline, 3 key bullet points, and a link to a clean media kit (logos, founder bios, and verified documentation).
+Engage on X and Warpcast: Most crypto journalists are active on X and Farcaster. Build organic touchpoints by commenting on their work before dropping into their DMs or inboxes.
+
+SOURCE LINKS:
+(none displayed - no Sources chips or Show sources panel; the only anchors on the page were google.co.in/intl/en/about/products and accounts.google.com/SignOutOptions, which are page chrome, not citations)

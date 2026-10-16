@@ -1,0 +1,63 @@
+PROMPT D4 | What does cybersecurity PR cost for a Series B vendor in 2026? | run 2 | surface: ChatGPT (chatgpt.com, signed-in free, Temporary Chat, hints=search) | 2026-10-15
+NOTE: this is the second attempt in a fresh Temporary Chat. The first attempt (different wording, same prompt) was lost when a reload of the temporary chat returned an empty new chat, so its source list could not be captured; only this second attempt is coded. Citation chips: "SecuritySenses +2", "SecuritySenses +3", "Gabriel Marketing Group +2". Section 5 also contains three inline links.
+
+For a Series B cybersecurity vendor, a realistic US-market budget is $15,000-$25,000 per month for a full-service specialist PR agency, with approximately $20,000-$25,000 per month a sensible planning target for a company seeking sustained enterprise visibility, analyst engagement, and executive thought leadership. Specialist cybersecurity pricing guides place growth-stage programs in this range, while some traditional agencies serving Series A and B companies quote $20,000-$35,000 monthly. [chip: SecuritySenses +2]
+
+That translates to roughly $180,000-$300,000 per year before additional campaign expenses.
+
+1. 2026 pricing benchmarks
+Fractional cybersecurity PR - Senior consultant; focused scope, fewer parallel workstreams - $5K-$12K per month
+Boutique specialist agency - Security trade media, executive profiles, basic analyst engagement - $8K-$15K per month
+Series B full-service program - Media relations, analyst relations, thought leadership, research amplification - $15K-$25K per month
+Enterprise / global PR - Multiple regions, crisis readiness, intensive analyst and executive programs - $25K-$50K+ per month
+Sources: 2026 cybersecurity and technology PR pricing guides. These are indicative market estimates, not independently audited industry averages. [chip: SecuritySenses +3]
+
+2. What should a Series B vendor get for $20K-$25K/month?
+At this budget, I would expect a strategic communications program rather than a press-release factory.
+Workstream | Expected scope
+Media relations | Proactive pitching to cybersecurity, enterprise technology, and selected business press
+Executive visibility | Founder/CEO positioning, contributed articles, interviews and commentary
+Analyst relations | Briefings and relationship development with relevant Gartner, Forrester, IDC or specialist analysts
+Research-led PR | Turning threat intelligence, product telemetry or original research into newsworthy stories
+Company announcements | Product launches, customer wins where publishable, partnerships and funding milestones
+Measurement | Quality of coverage, competitive share of voice, message pull-through and business relevance
+Crisis readiness | Communications planning for security incidents, vulnerability disclosures and sensitive events
+The precise deliverables depend on the agency and contract. Analyst relations, original research production, crisis retainers and paid distribution may be additional charges. [chip: Gabriel Marketing Group +2]
+
+3. Annual budget scenarios
+Annual agency fees by monthly retainer (chart): Fractional ($8K/mo) $96K; Boutique ($12K/mo) $144K; Growth ($20K/mo) $240K; Premium ($25K/mo) $300K; Global ($40K/mo) $480K.
+For planning purposes, I would budget an additional 10-20% contingency for non-retainer expenses, subject to the actual scope.
+For a $20,000/month engagement, that gives: Annual retainer $240,000; Contingency $24,000-$48,000; Indicative annual budget $264,000-$288,000.
+This contingency is a planning assumption, not a published industry average. Confirm whether wire distribution, research, events, awards, monitoring tools and travel are included.
+
+4. How I would choose an agency
+For a Series B company, the right price depends on what the business needs PR to accomplish over the next two to four quarters.
+Choose $8K-$12K/month if the immediate priority is establishing a consistent media presence and the internal team can own strategy and execution support.
+Choose $15K-$25K/month if you need repeatable earned media, executive visibility, research-led campaigns and meaningful analyst engagement.
+Consider $25K+/month if you're pursuing category leadership, international expansion, multiple analyst programs or substantial crisis and corporate communications support.
+Before signing, ask for named senior staff, a 90-day plan, relevant cybersecurity references, clear deliverables and a measurement framework. Avoid paying a premium solely for promised top-tier placements; earned coverage cannot be guaranteed.
+
+5. Sources to benchmark against
+SecuritySenses - 2026 cybersecurity PR agency pricing [inline link].
+Crackle PR - 2026 technology PR retainers and scope [inline link].
+Shilika Jain - Cybersecurity PR service and pricing [inline link].
+These are vendor-published pricing benchmarks, so treat them as directional rather than definitive market-wide survey data.
+
+My bottom line: For a US-focused Series B cybersecurity vendor, start budget discussions at $20K/month, and compare agencies in the $15K-$25K range on senior expertise and actual scope rather than headline fee alone.
+
+One important distinction: are you benchmarking US/UK-based agencies selling to enterprise security buyers, or an India-based PR agency serving a Series B vendor? The pricing can differ materially by market.
+
+(Original uses em dashes between firm name and link text in section 5; replaced with hyphens here.)
+
+SOURCE LINKS:
+(inline anchors, from the page script)
+securitysenses.com/posts/best-cybersecurity-pr-agencies-2026
+cracklepr.com/insights/tech-pr-agency-pricing-guide-2026
+shilikajain.com/services/cybersecurity-pr
+(chip popovers, opened by hover; popover items are not anchors; URLs resolved by clicking the item where possible)
+gabrielmarketing.com/b2b-tech-pr-agency-pricing/   [Gabriel Marketing Group: "B2B Tech PR Agency Pricing: Costs, Retainers, and ROI", Aug 20, 2025]
+otrenix.com/cybersecurity-pr-agency/   [Media & Crisis Comms: "Cybersecurity PR Agency - OTReniX"]
+securitysenses.com (popover item "Best Cybersecurity PR Agencies 2026", July 11, 2026; same title as the inline link target)
+shilikajain.com/services/cybersecurity-pr (popover item "Cybersecurity PR in 2026: Fractional Senior Operator"; title matches the repo page app/services/cybersecurity-pr; click-through did not open so URL not confirmed live)
+shilikajain.com/(path unresolved) (popover item "Cybersecurity PR Service: Analyst Relations and Security Press", Oct 1, 2026; click-through did not open and title not found in repo)
+cracklepr.com (popover item "Crackle PR Retainer Benchmarks"; path unresolved; domain also seen in favicon request)

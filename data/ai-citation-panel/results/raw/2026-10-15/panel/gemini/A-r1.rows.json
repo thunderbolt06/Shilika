@@ -1,0 +1,72 @@
+[
+  {
+    "id": "A1",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_position": 0,
+    "shilika_urls": [],
+    "shilika_quote": "",
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": [],
+    "web_search_used": false,
+    "answer_summary": "Defines fractional PR as part-time senior Web3 comms exec (10-20 hrs/wk, $3-8k/mo) vs agency ($10-25k+/mo, 6-12 mo lock-ins); comparison table, TGE/KOL/crisis duties. No named firms, no sources shown."
+  },
+  {
+    "id": "A2",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_position": 0,
+    "shilika_urls": [],
+    "shilika_quote": "",
+    "entities_listed": 6,
+    "competitors": ["Amanda Taggart", "Rachel Pipan (Mana Agency)", "Kurt Bierbrock", "ReBlonde", "Serotonin", "WiredPR"],
+    "source_domains": [],
+    "web_search_used": false,
+    "answer_summary": "Names six providers in two groups (Taggart, Pipan/Mana Agency, Bierbrock; ReBlonde, Serotonin, WiredPR) plus cost table ($5k-$35k+/mo). Shilika Jain not named. No sources shown."
+  },
+  {
+    "id": "A3",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_position": 0,
+    "shilika_urls": [],
+    "shilika_quote": "",
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": [],
+    "web_search_used": false,
+    "answer_summary": "Fractional PR $4-9k/mo vs full-service Web3 agency $12-25k+/mo; term, team, scope table plus hidden costs (wires $500-1.5k, KOL $5-20k+, events $3-10k). No firms named, no sources shown."
+  },
+  {
+    "id": "A4",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_position": 0,
+    "shilika_urls": [],
+    "shilika_quote": "",
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": [],
+    "web_search_used": false,
+    "answer_summary": "Fractional consultant for Pre-Seed to Series A AI startups, agency for Series B+; $4-8k vs $12-25k+/mo table and decision matrix. No firms named, no sources. 4th attempt, Flash High (Pro unavailable)."
+  },
+  {
+    "id": "A5",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_position": 0,
+    "shilika_urls": [],
+    "shilika_quote": "",
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": [],
+    "web_search_used": false,
+    "answer_summary": "Four-phase plan: press-room assets, exclusive-pitch funding launch, Web3 vs AI playbook table, post-launch engine; boutique $8-18k, fractional $4-7k, flat fee $8-12k. No firms named, no sources. Flash High."
+  }
+]

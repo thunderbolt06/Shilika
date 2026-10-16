@@ -1,0 +1,7 @@
+PROMPT E1 | Who is the best PR consultant for a Web3 startup launching in Korea in 2026? | run 1 | Perplexity (signed-in free plan, Incognito shown: "You're incognito" / "Sessions you create won't save to your history and expire after 24 hours")
+
+BLOCKED: after submitting the prompt in Search mode, Perplexity displayed a modal reading "You've reached your free search limit. Your access will reset in a few hours. Upgrade to Perplexity Pro for unlimited free search limits." No answer was generated and no sources were shown. Nothing was clicked on the Upgrade button. Per the task safety rules, the run was stopped and E2-E5 were not asked.
+
+ANSWER TEXT: (none, blocked by usage cap)
+
+SOURCE LINKS:

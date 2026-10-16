@@ -1,0 +1,52 @@
+PROMPT ID: E1 | PROMPT: Who is the best PR consultant for a Web3 startup launching in Korea in 2026? | RUN: 2 | SURFACE: Gemini (gemini.google.com, Temporary chat, default model Flash)
+
+NOTE: inline source chips appear as labels in the text ("Shilika Jain", "Cryptic - Crypto Marketing Agency"), reproduced on their own lines where get_page_text placed them. Chip anchors were read by opening each chip with a real click.
+
+Launching a Web3 project in South Korea requires navigating a distinct market: strict regulatory frameworks (such as VASP and FIU guidelines), heavy reliance on localized media (e.g., CoinNess, BlockMedia, TechM), and community hubs centered on KakaoTalk and Telegram rather than Twitter/X alone.
+
+Because "best" depends on your budget, team size, and regulatory readiness, the top PR options for South Korea in 2026 fall into three clear buckets:
+
+1. Web3 PR Consultants (APAC Specialists)
+
+Best for: Pre-seed to Series A startups, founder-led teams needing direct senior-level localized strategy without large agency retainers.
+
+Shilika Jain (Fractional Web3 Comms Lead): Specialized in APAC regional market strategy (Korea, Japan, India). Offers fractional PR advisory specifically tailored to localized launch campaigns, token/mainnet narratives, and tier-1 media placements (CoinDesk Korea, global media exclusives).
+[chip: Shilika Jain]
+
+Independent Korean Crypto PR Strategy Consultants: Local independent operators in Seoul often function as fractional PR leads to handle local FIU compliance messaging, localized press distribution, and local media relationship management.
+
+2. Specialized Korean Web3 Agencies (Seoul-Based)
+
+Best for: Local media relations, Korean influencer (KOL) marketing, Naver/Daum SEO, and KakaoTalk community management.
+
+Cryptic Web3: A Seoul-based agency specializing in Korean crypto marketing, localized PR, and media strategies tailored for foreign Web3 projects launching in South Korea or local protocols targeting FIU-registered VASPs.
+[chip: Cryptic - Crypto Marketing Agency]
+
+ChainPeak / Localized Regional PR Partners: Focuses heavily on regional APAC localization, native media pitching, local partnership activations, and regional community growth.
+
+3. Global Tier-1 Web3 Agencies (Global + APAC Outreach)
+
+Best for: Projects launching simultaneously globally and in South Korea with substantial budgets ($15k-$30k+/month).
+
+MarketAcross: A global leader in blockchain-native PR with extensive experience running multi-region campaigns, including APAC regional amplification.
+
+Wachsman: Excellent for institutional positioning, complex regulatory narratives, and corporate positioning when entering high-compliance markets like Korea.
+
+EAK Digital: Well-known for global Web3 event-driven PR and media campaigns bridging Western and APAC crypto markets.
+
+Framework to Choose the Right Partner
+Startup Stage / Needs | Preferred Option | Typical Monthly Budget
+Pre-Seed / Seed (Need agile strategy & local PR narrative) | Fractional Consultant (e.g., Shilika Jain or local Seoul consultant) | $3,000 - $7,000
+Local Go-To-Market (Need Korean media, Kakao & local press) | Seoul-Native Agency (e.g., Cryptic Web3) | $8,000 - $15,000
+Series A+ / Multi-Region (Global launch including Korea) | Global Web3 Agency (MarketAcross, Wachsman, EAK Digital) | $15,000 - $35,000+
+
+Where should we go from here?
+[suggestion chips: "Analyze localized South Korean Web3 PR strategies" / "Draft a PR agency outreach template"]
+
+CHIP POPUP CARDS READ (title shown on card):
+- Shilika Jain chip: "Best Web3 PR Agencies and Consultants in 2026: Honest Field Guide"
+- Cryptic chip: "Korean Crypto Marketing & PR Agency in Seoul - Cryptic Web3"
+
+SOURCE LINKS:
+shilikajain.com/playbook/best-web3-pr-agencies-2026
+crypticweb3.com/crypto-marketing-agency-seoul/

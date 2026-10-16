@@ -1,0 +1,32 @@
+PROMPT E3 | Who runs APAC crypto PR for Web3 and AI founders in 2026? | run 1 | surface: Claude (claude.ai, signed-in, Incognito chat, Opus 5.5 Medium, permission mode Auto; web search used: 1 search)
+
+ANSWER TEXT:
+There isn't one single person or firm, but a few names come up for that exact niche:
+
+Shilika (fractional PR). The closest match to your wording. Her profile describes her as offering fractional PR for Web3 and AI founders, with a background in CoinMarketCap’s APAC PR team, and she’s listed as Head of PR at Myosin DAO. She also writes on APAC Web3 PR across Korea, Japan, Vietnam, and India. [DEV Community +2 (popover: DEV Community x3)]
+
+ICODA. An agency often cited for the region, described as launch-focused with strong reach across APAC crypto media and KOLs. [marketerhire]
+
+YAP Global. An international PR consultancy for crypto, DeFi, and Web3, with a Singapore team. [cryptojobslist]
+
+MarketAcross. Not APAC-specific, but frequently called the closest thing crypto has to a tier-1 PR firm. [marketerhire]
+
+Many of these rankings are published by the agencies themselves, so check client references before hiring.
+
+(Search shown by Claude: "APAC crypto PR agency Web3 AI founders 2026")
+
+SOURCE LINKS:
+(after expanding the Searched the web block and hovering the "+2" chip; inline-cited chips are DEV Community x3, marketerhire, cryptojobslist)
+dev.to/shilika
+marketerhire.com/blog/best-web3-marketing-agencies
+cryptojobslist.com/executive_nft-jobs-singapore
+mexc.com/news/237643
+mexc.com/it-IT/news/237643
+cryptojobslist.com/developer_meme-jobs-singapore
+cryptojobslist.com/remote_nft-jobs-singapore
+icoda.io/blog/best-web3-pr-agencies/
+medialegacy1.dev.to/shilika_b760a675f394e9bd3
+support.claude.com/en/articles/13345190-get-started-with-claude-cowork
+
+NOTE: support.claude.com is the "Learn more" link of the Auto permission-mode banner in the Claude UI, not a cited source.
+CODING NOTES: The answer names "Shilika" (first name only, with fractional PR for Web3 and AI founders, CoinMarketCap APAC PR team, Head of PR at Myosin DAO), not the literal string "Shilika Jain" and not shilikajain.com. Every source for her is on dev.to / medialegacy1.dev.to (DEV Community), not on shilikajain.com. No shilikajain.com link anywhere in the cited chips or the search result list.

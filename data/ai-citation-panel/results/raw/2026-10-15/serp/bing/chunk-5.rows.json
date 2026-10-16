@@ -1,0 +1,26 @@
+[
+  {
+    "idx": 66,
+    "ok": true,
+    "organic": ["shilikajain.com", "shilikajain.com/pages/crypto-pr-consultant", "youtube.com/@shilikajain", "youtube.com/watch", "x.com/Shilika_jain", "ae.linkedin.com/in/shilika", "hackernoon.com/about/shill", "x.com/Shilika_jain/status", "linkedin.com/posts", "me.sh/profile/shilika-jain"],
+    "shilika_rank": 1,
+    "shilika_url": "/",
+    "shilika_rank_page2": 0,
+    "ai_answer_present": false,
+    "shilika_in_ai_answer": false,
+    "via": "browser",
+    "notes": "Homepage #1 and /pages/crypto-pr-consultant #2 (a path that is not a known site route, unverified against the repo); a YouTube video carousel sits between #1 and #2; branded query so results are mostly the person's own profiles. No Copilot/AI answer block seen."
+  },
+  {
+    "idx": 67,
+    "ok": true,
+    "organic": ["shilikajain.com", "shilikajain.com/about", "youtube.com/@shilikajain", "x.com/Shilika_jain", "cryptodaily.co.uk/author/ShilikaJain", "whois.com/whois/shilikajain.com", "linkedin.com/posts/shilika_see-you-there-excited-activity...", "linkedin.com/posts", "shilikajain.com/services", "shilikajain.com/apac"],
+    "shilika_rank": 1,
+    "shilika_url": "/",
+    "shilika_rank_page2": 0,
+    "ai_answer_present": false,
+    "shilika_in_ai_answer": false,
+    "via": "browser",
+    "notes": "Four Shilika URLs in top 10 (/, /about, /services, /apac); #1 carries sitelinks to About, Services and APAC; one LinkedIn cite was truncated by Bing. No Copilot/AI answer block seen."
+  }
+]

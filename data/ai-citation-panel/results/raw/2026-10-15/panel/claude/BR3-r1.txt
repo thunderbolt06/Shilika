@@ -1,0 +1,43 @@
+id: BR3 | query: How much does Shilika Jain charge for fractional PR and what is included? | surface: claude.ai (signed-in, Incognito chat, model Opus 5.5 Medium, web search used: 2 searches) | captured: 2026-10-15
+(Note: dashes in captured page text normalised to hyphens. No connector was invoked.)
+
+ANSWER:
+Shilika Jain lists her fractional PR at about $5K to $12K per month. She positions this as an alternative to agencies that charge $15K to $45K a month and staff juniors on the account. [citation chip: shilikajain]
+
+Engagement options (from her cybersecurity PR page):
+- Fractional retainer: 3 to 12 months at $5K to $12K a month, for ongoing analyst relations, founder profiling, and AI-search visibility work. [shilikajain]
+- Analyst relations sprint: 8 to 12 weeks for $12K to $28K total, for things like a Gartner or Forrester briefing cycle or a category-entry push. [shilikajain]
+
+What’s included:
+- One senior operator who owns your category narrative and analyst relations directly [shilikajain]
+- Story architecture, founder profiling, and APAC plus global coverage [shilikajain]
+- Tier-1 press outreach and AI-search visibility (AEO) [shilikajain]
+
+She focuses on Web3, AI, and cybersecurity founders, and offers a 30-minute teardown call to start. Exact pricing depends on scope, so it’s worth confirming directly at shilikajain.com. [shilikajain]
+
+SEARCHES RUN (shown in "Searched the web" block):
+1. Shilika Jain fractional PR pricing -> results: prmoment.in (x2), upgrowth.in, belaroundtheworld.com, dev.studyabroadfoundation.org, the-ops-edge.beehiiv.com, reputationtoday.in, irpr.agency, hub.harvardae.org (generic pricing pages, none about Shilika)
+2. "Shilika Jain" PR -> results: linkedin.com post (Shilika Jain #cmc), x.com/shilika_jain, en.wikipedia.org Prateik Jain, en.wikipedia.org Sreenivasan Jain, shilikajain.com home (Fractional PR Manager), shilikajain.com Testimonials, shilikajain.com authors page (Web3 PR & AI PR Consultant), shilikajain.com Cybersecurity PR in 2026: Fractional Senior Operator, shilikajain.com B2B SaaS PR Agency 2026
+
+OBSERVATION: every inline citation chip in the answer is the shilikajain.com site (the answer's pricing and inclusions are sourced from the cybersecurity PR page, not from a pricing page).
+
+SOURCE LINKS:
+prmoment.in/podcasts/larger-pr-firms-must-resist-undercutting-prices-succession-planning-key-for-mid-size-firms-prmoment-podcast
+upgrowth.in/fractional-cmo-pricing-india-2026/
+belaroundtheworld.com/rate-card/
+dev.studyabroadfoundation.org/ProductPdf/B1415K/999625/The%20Strategy%20And%20Tactics%20Of%20Pricing%20A%20Guide%20To%20Pr.pdf
+the-ops-edge.beehiiv.com/p/the-hidden-cost-of-inconsistent-pricing
+reputationtoday.in/
+irpr.agency/affordable-pr-pricing
+prmoment.in/podcasts/equity-based-fee-models-can-offset-low-retainers-media-mantras-pooja-and-udit-pathak-on-the-prmoment-leadership-podcast
+hub.harvardae.org/e/pricing-strategies-for-entrepreneurs-april-20
+linkedin.com/posts/shilika_cmc-activity-6976415592929001472-XJdL
+x.com/shilika_jain
+en.wikipedia.org/wiki/Prateik_Jain
+en.wikipedia.org/wiki/Sreenivasan_Jain
+shilikajain.com/authors/shilika-jain
+shilikajain.com/testimonials
+shilikajain.com/
+shilikajain.com/services/cybersecurity-pr
+shilikajain.com/pages/b2b-saas-pr-agency
+support.claude.com/en/articles/13345190-get-started-with-claude-cowork   [UI banner link about permission mode, not a cited source]

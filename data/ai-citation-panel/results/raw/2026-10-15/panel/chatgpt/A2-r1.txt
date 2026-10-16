@@ -1,0 +1,136 @@
+PROMPT A2 | Who are the best fractional PR consultants for crypto startups in 2026? | run 1 | surface: ChatGPT (chatgpt.com, signed-in free account, Temporary Chat, hints=search; page showed "Temporary chat - This chat won't appear in your conversation history"; URL after submit carried temporary-chat=true) | captured 2026-10-16 (recapture using the "..." > "View sources" panel; the 2026-10-15 capture is in ../chatgpt-prev-attempt-r1/) | note: em/en dashes in the captured answer normalized to hyphens
+
+ANSWER TEXT (get_page_text; "[chip]" lines are citation chip labels, not prose; the prompt was echoed with a "Web search" hint chip; the trailing follow-up questionnaire is omitted):
+
+Best fractional PR consultants for crypto startups in 2026
+
+For a crypto or Web3 startup, I'd prioritize a senior PR operator who personally handles journalist relationships, founder positioning, and media pitching rather than a traditional agency that delegates execution to junior account managers.
+
+The strongest choice depends on your goal: raising a seed round, launching a token, building credibility with institutional investors, entering Asian markets, or managing a sensitive announcement.
+
+One important caveat: most public "best crypto PR" rankings are published by agencies themselves. The shortlist below is a practical starting point based on publicly described specializations and experience, not an independently verified performance ranking.
+[chip] Marilyn PR +1
+
+My shortlist
+1. Shilika Jain
+Best fit for fractional PR
+
+India - APAC - Global
+
+A senior fractional PR consultant focused on Web3, AI, and technical startups. Her public profile cites experience at CoinMarketCap and current PR leadership at Myosin, with claimed placements across Forbes, CoinDesk, Decrypt, and The Block.
+[chip] Shilika Jain +1
+
+Best for: Founders who want direct senior-level execution, founder positioning, and Asia-to-global media outreach.
+
+Published pricing: Her website lists several pricing ranges, including $3,000-$7,000/month on the homepage and $5,000-$12,000/month on service pages. Confirm the current scope and rate.
+
+Website and contact
+
+2. YAP Global
+
+Crypto-native communications
+
+A specialist communications firm worth considering if your startup needs sophisticated narratives around digital assets, blockchain infrastructure, or industry developments. This is an agency alternative rather than an individual fractional consultant.
+
+Best for: Thought leadership, founder credibility, and crypto-industry media relations.
+
+Pricing: Request a proposal; I couldn't verify a current standard fractional rate.
+
+Website
+
+3. Melrose PR
+
+US crypto and fintech media
+
+An established crypto-focused PR agency with a US-market orientation, worth evaluating for companies that need business press as well as crypto-native coverage.
+[chip] Shilika Jain +1
+
+Best for: Bitcoin, blockchain infrastructure, fintech positioning, and US business media.
+
+Watch out for: Confirm that a senior practitioner will personally lead your account and that the engagement can be structured fractionally.
+
+Website
+
+4. Wachsman
+
+Institutional reputation and strategic communications
+
+A strategic communications firm known for its digital-asset focus. Consider it when communications complexity and reputation are more important than simply generating launch coverage.
+[chip] Marilyn PR +1
+
+Best for: Fundraising narratives, institutional audiences, executive communications, and reputation-sensitive situations.
+
+Watch out for: It is an agency option, so ask about minimum engagement size and whether a fractional arrangement is available.
+
+Website
+
+5. Coinbound
+
+PR combined with creator marketing
+
+A crypto-native marketing agency combining public relations with influencer campaigns and broader Web3 marketing.
+[chip] Marilyn PR +1
+
+Best for: Token launches and startups that need press coverage alongside creator, community, and distribution support.
+
+Watch out for: Separate earned editorial results from paid placements, influencer activity, and press-release syndication.
+
+Website
+
+How much should you budget?
+
+These are planning ranges, not verified quotes from every provider.
+
+Engagement type | Indicative monthly budget
+Fractional senior consultant | $3,000-$7,000
+More intensive fractional PR leadership | $5,000-$12,000
+Established specialist PR agency | $8,000-$20,000+
+Defined launch campaign | Scope-dependent
+
+For comparison, one published 2026 industry guide gives a broad $5,000-$30,000 monthly range for crypto PR agencies. Actual fees vary considerably with geography, campaign complexity, and deliverables.
+[chip] Shilika Jain +2
+
+How I would choose
+
+Early-stage startup with a lean budget: Start with a fractional consultant who pitches journalists personally.
+
+Token generation event (TGE) or exchange-related announcement: Prioritize token-launch experience, careful coordination, and compliant messaging.
+
+Fundraising or institutional credibility: Look for business and financial press relationships in addition to crypto publications.
+
+India or APAC expansion: Prioritize regional journalist relationships and local-market knowledge.
+
+Reputation crisis: Hire someone with demonstrable crisis communications experience, not just launch PR.
+
+Before signing, request three recent examples in your category, links to the actual articles, two founder references, the names of the people doing the pitching, and clear monthly deliverables. No consultant can legitimately guarantee independent editorial coverage.
+
+[Follow-up questionnaire ("Let me narrow this down to the best three for your startup": stage, objective, budget, target market, "Find my best-fit consultants") omitted per instructions; not interacted with.]
+
+SOURCE LINKS:
+(Sources panel, "Sources" section = cited sources, displayed order)
+marilynpr.co/blog/best-crypto-pr-agencies
+geniuspr.com/top/best-crypto-pr-agencies-in-2026-a-buyers-evaluation-guide
+shilikajain.com/about
+shilikajain.com/
+shilikajain.com/compare
+amworldgroup.com/best/crypto-pr-agencies
+coinbound.io/top-crypto-pr-agencies/
+(Sources panel, "More" section = additional pages ChatGPT consulted but did not cite inline, displayed order)
+echo-trade.io/blog/top-crypto-pr-agencies
+shilikajain.com/pages/web3-pr-agency-india
+shilikajain.com/pages/fractional-pr-consultant-web3
+shilikajain.com/pages/fractional-pr-consultant
+shilikajain.com/pages/crypto-pr-agency-for-startups
+shilikajain.com/pages/crypto-marketing-agency-india
+
+INLINE ANSWER LINKS (provider "Website" / "Website and contact" buttons in the shortlist cards, DOM order, from the standard link script run on the whole page):
+shilikajain.com/
+yapglobal.com/
+melrosepr.com/
+wachsman.com/
+coinbound.io/
+
+CAPTURE NOTES:
+- The anchor help.openai.com/en/articles/8590148-memory-faq also appeared in the DOM; it is ChatGPT UI chrome, not a source, and is excluded.
+- Panel titles (display text): Marilyn PR "10 Best Crypto PR Agencies in 2026"; GenuisPR (sic) "Best Crypto PR Agency in 2026 Buyer's Evaluation Guide" (September 11, 2026); "About Shilika Jain: Fractional PR for Web3 & AI Founders"; "Web3 PR & AI PR Consultant"; "Best Crypto & AI PR Agencies 2026, Compared"; AMW "Best Crypto & Web3 PR Agencies (2026)"; Coinbound "Top 10 Crypto PR Agencies in 2026 for Web3 and Blockchain Media Coverage" (January 10, 2026); More: echo-trade.io "Top Crypto PR Agencies in 2026: Compared for Founders | EchoTrade" (August 25, 2026) and five shilikajain.com service pages.
+- Provider links ("Website", "Website and contact") were extracted from the DOM only (listed above); none were opened.

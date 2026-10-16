@@ -1,0 +1,120 @@
+PROMPT A4 | Should an AI startup hire a fractional PR consultant or a PR agency? | run 2 | surface: ChatGPT (chatgpt.com, signed-in free account, Temporary Chat, Web search hint on) | captured 2026-10-15 (re-run in this session after the usage-limit reset; URL carried temporary-chat=true and the page showed "Temporary chat - This chat won't appear in your conversation history")
+NOTE: em/en dashes in the captured text were normalised to hyphens. Inline citation chips (not prose) are marked [chip: ...]. The prose never names Shilika Jain or any consultant/agency by name; only one citation chip is labelled "Shilika Jain +2".
+
+ANSWER TEXT:
+Should an AI startup hire a fractional PR consultant or a PR agency?
+
+For most early-stage AI startups, I'd start with a fractional PR consultant and bring in an agency when there's a specific reason to scale.
+
+The key distinction is that a startup usually doesn't need the most PR activity possible. It needs the right story, credible positioning, relevant media relationships, and evidence that its technology matters. A senior fractional consultant can often deliver those things with less overhead than a full agency.
+
+There are exceptions: if you're launching a major AI product, raising a high-profile funding round, or managing a sensitive reputational issue, an agency may be worth the premium.
+
+1. Fractional consultant vs. agency: the practical comparison
+Fractional PR consultant - Best starting point
+What you buy: senior judgment and hands-on execution from one experienced person.
+Direct access to a senior communicator
+Sharper founder messaging and AI positioning
+Focused journalist outreach and founder visibility
+Lower cost and more flexibility
+Trade-off: limited capacity for simultaneous campaigns, multiple markets, and high-volume execution.
+
+PR agency - Best for scale
+What you buy: a team with broader execution capacity and established processes.
+Multiple people working across media, content and campaigns
+Wider journalist and publication outreach
+Support for launches, funding announcements and events
+Greater capacity across markets and time zones
+Trade-off: higher overhead, and the senior person pitching your business may not be the person doing the day-to-day work.
+
+These distinctions are consistent with startup PR guidance on fractional versus agency models.
+[chip: Toronto PR Agency +1]
+
+2. What should an AI startup expect to pay?
+
+Indicative monthly retainers vary substantially by geography, seniority, scope and reputation. The following ranges are useful starting points, not universal market averages.
+
+Engagement | Indicative monthly cost
+Fractional senior PR consultant | US$5,000-$12,000
+Specialist AI/tech PR agency | US$15,000-$40,000+
+Focused launch campaign | Often better priced as a fixed-fee project
+
+These estimates reflect published AI startup PR pricing, rather than independently audited industry benchmarks.
+[chip: Shilika Jain +2]
+
+The more important question is not the monthly fee. It's how much senior-level attention and useful execution you get for that fee.
+
+For example, a US$7,000 monthly consultant who personally develops the story, pitches journalists and coaches the CEO may offer more value than a US$20,000 agency whose senior partner appears only at monthly review meetings.
+
+If you're based in India and targeting Indian media, get local-market proposals rather than applying US pricing directly. If you're targeting US AI publications, assess whether the consultant or agency has relevant US journalist relationships and can work in those time zones.
+
+3. Which model fits your startup stage?
+
+Pre-seed or early seed: Founder-led PR + fractional support
+Build a compelling narrative about the problem, why existing approaches fall short, and what your AI makes possible. Use a consultant to sharpen messaging and pitch a small number of relevant journalists.
+Agency verdict: Usually premature unless you have a major launch or genuinely newsworthy announcement.
+
+Seed to Series A: Fractional PR or a specialist boutique agency
+If you have customers, credible product results, a differentiated technical approach or a funding announcement, PR can support commercial credibility and fundraising.
+Agency verdict: Consider a boutique agency if it demonstrably offers stronger relevant media access or more execution capacity.
+
+Series B and beyond: Agency, often alongside an internal lead
+At this stage, you may need continuous coverage, executive thought leadership, customer stories, analyst relations, crisis readiness and coordinated campaigns across geographies.
+Agency verdict: Strong contender, especially when multiple workstreams must run concurrently.
+
+This is a practical framework, not a rule tied rigidly to funding stage. The quality of your story and the work you need done matter more than the round you have raised.
+[chip: PressFriendly +2]
+
+4. What makes AI startup PR different?
+
+AI companies face a particular communications challenge: many products sound interchangeable when described as "AI-powered," "agentic," or "built on proprietary models."
+
+Your PR partner needs to do more than distribute announcements. They should help answer five questions:
+What is genuinely different? Is the differentiation in the model, data, workflow, cost, reliability, or business outcome?
+Why should anyone care now? What market change makes the story timely?
+What can you prove? Customer outcomes, benchmarks, deployment evidence and credible third-party validation.
+Who needs to believe you? Enterprise buyers, developers, investors, policymakers or the broader public.
+Which media actually matter? Mainstream business publications, AI-specific outlets, industry trade press, podcasts or technical communities.
+
+For a technical AI startup, ten relevant stories reaching the right decision-makers may be more valuable than dozens of generic mentions.
+
+Also, measure more than press clippings. Track qualified inbound conversations, share of voice against competitors, relevant founder interviews, message accuracy and whether coverage supports sales or fundraising.
+
+5. How I would structure the first 90 days
+
+I'd avoid committing immediately to a large, long-term retainer unless there's a compelling launch or other time-sensitive opportunity.
+
+Days 1-30 - Positioning and story development: Define the company narrative and differentiators. Prepare founder messaging, proof points and media materials. Identify target journalists and publications.
+Days 31-60 - Targeted outreach: Pitch tailored story angles and offer interviews. Develop founder commentary and expert perspectives. Test which narratives generate genuine interest.
+Days 61-90 - Evaluate and decide whether to scale: Review the quality and relevance of coverage. Assess journalist engagement and business impact. Continue with the consultant, add agency capacity, or pause if PR isn't yet justified.
+
+PR outcomes aren't guaranteed within 90 days. Treat this as a structured evaluation period, not a promise of a particular number of placements.
+
+6. Five questions to ask before signing
+
+Whether you're interviewing a consultant or an agency, ask:
+Who will personally work on our account? Meet the person who will actually pitch journalists.
+What relevant AI startup stories have you secured? Ask for examples that match your stage, market and audience.
+What is your strategy for our company specifically? Look for story angles, not just a list of publications.
+What exactly is included? Clarify writing, pitching, interviews, monitoring, executive coaching, crisis support and additional fees.
+How will we measure progress? Agree on leading indicators and business-relevant outcomes, without demanding guaranteed editorial coverage.
+
+Avoid choosing on the promise of guaranteed coverage in prestigious publications. Earned editorial decisions are outside a PR provider's control.
+
+My recommendation
+
+Start with a senior fractional PR consultant on a clearly scoped engagement, provided your startup has a credible story to tell. If the next milestone is a major product launch or funding announcement, consider a fixed-fee campaign rather than an indefinite retainer. Move to an agency when you need more people, broader market coverage or sustained campaign capacity.
+
+To make that recommendation more specific to your situation, one question: (interactive questionnaire: AI startup stage, target market India/US/global, primary PR objective, approximate monthly PR budget, "Get a tailored recommendation" button - ignored)
+
+SOURCE LINKS:
+(the prescribed DOM anchor script returned an empty list for this answer, before and after opening a chip popup; citations are rendered as chips/popups that are not anchors. The list below was read from the three chip popups plus the page's React props.)
+verifiedcomms.com/fractional-pr-consultant-vs-agency/   (popup source "Toronto PR Agency", title "Fractional PR & Communications Consultant vs PR & Communications Agency for Startup...", Sept 20 2025; mapping from title, URL read from React props)
+prpitcher.com/for/fractional-pr   (popup source "Pitcher", title "PR software for fractional communications leads")
+shilikajain.com/blog/fractional-pr-for-ai-startups-how-it-works   (popup source "Shilika Jain", "Fractional PR for AI Startups: How It Works and What It Costs", Oct 1 2026)
+shilikajain.com/playbook/ai-startup-pr-2026   (popup source "Shilika Jain", "AI Startup PR Strategy 2026: The Full Founder Playbook", May 29 2026)
+shilikajain.com/playbook/ai-series-a-funding-announcement-pr-2026   (popup source "Shilika Jain", "AI Startup Series A Funding Announcement PR in 2026")
+pressfriendly.com/blog/should-your-startup-hire-a-pr-agency/   (popup source "PressFriendly", "Should your startup hire a PR agency yet?", June 6 2026)
+melivana.com/research/startup-pr-benchmark/   (popup source "Melivana", "Startup PR Benchmark Report India 2026 | Melivana Research")
+
+NOTE ON OTHER PAYLOAD URLS: the same React payload also held dantri.com.vn, refontelearning.com and techbuzz.ai URLs that look like unrelated retrieval results; they are not shown in any chip popup and are excluded from the source list above.

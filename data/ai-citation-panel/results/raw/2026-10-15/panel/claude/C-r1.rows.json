@@ -1,0 +1,72 @@
+[
+  {
+    "id": "C1",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_position": 0,
+    "shilika_urls": [],
+    "shilika_quote": "",
+    "competitors": ["Inkhouse", "Highwire", "Bospar", "Outcast", "Treble PR", "Salient PR"],
+    "entities_listed": 6,
+    "source_domains": ["pearltrees.com", "everything-pr.com", "globenewswire.com", "designrush.com", "avenuez.com", "techbullion.com", "actual.agency", "starngage.pro", "onyamagazine.com", "odwyerpr.com", "silicon.co.uk", "inkhouse.com", "businesswire.com"],
+    "web_search_used": true,
+    "answer_summary": "No neutral ranking. Names Inkhouse, Highwire, Bospar, Outcast, Treble PR, Salient PR with budget range ($8k-$20k/mo Series A). Shilika not mentioned. 2 web searches."
+  },
+  {
+    "id": "C2",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_position": 0,
+    "shilika_urls": [],
+    "shilika_quote": "",
+    "competitors": [],
+    "entities_listed": 0,
+    "source_domains": [],
+    "web_search_used": false,
+    "answer_summary": "No firms named. AI PR fights hype skepticism, crypto PR fights legitimacy skepticism; contrasts audience, proof, pace, regulatory risk, crisis playbook, pitfalls. No web search, no sources."
+  },
+  {
+    "id": "C3",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_position": 0,
+    "shilika_urls": [],
+    "shilika_quote": "",
+    "competitors": ["Highwire PR", "Bospar", "Inkhouse", "SHIFT Communications", "Hotwire", "Zeno", "Influence Tech PR", "Understory Agency", "Windmill Growth", "Stop The Scroll", "Sculpt"],
+    "entities_listed": 11,
+    "source_domains": ["techbullion.com", "upwork.com", "adamdipinto.substack.com", "sproutworth.com", "ghostwritingllc.com", "understoryagency.com", "substack.com", "adeptghostwriting.com", "promiseclick.com", "pedowitzgroup.com", "starngage.pro", "influenceonline.co.uk", "designrush.com", "techcrunch.com", "markt-kom.com"],
+    "web_search_used": true,
+    "answer_summary": "No single go-to name; four routes: tech PR agencies, freelance ghostwriters, LinkedIn ghostwriting agencies, DIY pitching. Warns against guaranteed placement. Shilika not mentioned. 2 searches."
+  },
+  {
+    "id": "C4",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_position": 0,
+    "shilika_urls": [],
+    "shilika_quote": "",
+    "competitors": [],
+    "entities_listed": 0,
+    "source_domains": [],
+    "web_search_used": false,
+    "answer_summary": "Strategy advice only: technical proof over funding news, engineers as voice, 5-10 target outlets, one narrative, AI-search optimization, customer proof; skip retainer agencies. No firms named, no web search."
+  },
+  {
+    "id": "C5",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_position": 0,
+    "shilika_urls": [],
+    "shilika_quote": "",
+    "competitors": ["5W AI Communications", "Inkhouse", "Highwire PR", "Bospar", "Calysto Communications", "Engage PR", "Avenue Z", "Crackle PR", "SlicedBrand", "SHIFT Communications", "Firecracker PR", "CCgroup", "Intelligent Relations", "Red Lorry Yellow Lorry", "Racepoint Global", "V2 Communications", "SPM Communications"],
+    "entities_listed": 17,
+    "source_domains": ["globenewswire.com", "pearltrees.com", "techbullion.com", "syg.ma", "aigrowthagent.co", "authoritytech.io", "everything-pr.com", "coinbound.io", "designrush.com", "avenuez.com", "odwyerpr.com", "engagepr.com", "gregoryagency.com", "techeconomy.ng", "yespress.io"],
+    "web_search_used": true,
+    "answer_summary": "No single dominant firm; lists 5W, Inkhouse, Highwire, Bospar, Calysto, Engage PR, Avenue Z, Crackle PR, SHIFT and others, plus GEO trend. 3 searches. Shilika not mentioned."
+  }
+]

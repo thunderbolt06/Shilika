@@ -1,0 +1,98 @@
+PROMPT A3 | How much does fractional PR cost for a Web3 startup in 2026 versus a full-service agency? | run 1 | surface: ChatGPT (chatgpt.com, signed-in free account, Temporary Chat, hints=search; URL after submit carried temporary-chat=true; page showed "Temporary chat - This chat won't appear in your conversation history") | captured 2026-10-15 | note: em/en dashes in the captured answer normalized to hyphens
+
+ANSWER TEXT (get_page_text; "[chip]" lines are citation chip labels, not prose):
+
+Fractional PR vs. full-service agency for a Web3 startup in 2026
+
+Fractional PR typically costs $3,000-$7,000 per month, compared with $7,000-$15,000 for a boutique Web3 PR agency and $15,000-$60,000+ for larger specialist or global agencies. That makes fractional PR a potentially 40-60% cheaper option, especially for early-stage crypto startups. These are indicative USD market ranges, not fixed industry-wide rates.
+[chip] Shilika Jain +2
+
+1. Monthly cost comparison
+
+Fractional PR consultant | $3K-$7K/mo | One senior PR operator, part-time
+Best for pre-seed, seed and early-stage Web3 startups that need founder positioning, media outreach and consistent coverage without a full agency team.
+
+Boutique Web3 PR agency | $7K-$15K/mo | Small specialist agency
+Suitable for startups that need more execution capacity, ongoing crypto-media outreach and a team to coordinate campaigns.
+
+Mid-tier or global full-service agency | $15K-$60K+/mo | Larger account team and broader services
+Best for major token launches, multi-country campaigns, high-volume announcements, crisis communications and brands requiring several parallel workstreams.
+
+Pricing references: 2026 Web3 PR and fractional PR pricing guides.
+[chip] Shilika Jain +1
+
+2. What does that mean over 12 months?
+
+Assuming a constant monthly retainer, here's the annual budget comparison.
+
+Annual PR spend by engagement model (chart): Fractional ($5K/mo): Annual cost $60K | Boutique ($10K/mo): Annual cost $120K | Mid-tier ($22.5K/mo): Annual cost $270K | Global ($45K/mo): Annual cost $540K
+
+Engagement | Monthly | Annual
+Fractional PR | $3K-$7K | $36K-$84K
+Boutique agency | $7K-$15K | $84K-$180K
+Mid-tier specialist | $15K-$30K | $180K-$360K
+Global agency | $30K-$60K+ | $360K-$720K+
+
+These are calculated estimates based on published 2026 pricing ranges.
+[chip] Shilika Jain +2
+
+For example, a startup spending $5,000 monthly on fractional PR instead of a $20,000 agency retainer would save $180,000 per year, before additional campaign costs.
+
+3. What do you actually get for the money?
+
+Capability | Fractional PR | Full-service agency
+PR strategy and positioning | Yes | Yes
+Founder profiling and thought leadership | Usually | Usually
+Journalist outreach | Yes, scoped to capacity | Broader team capacity
+Dedicated account team | No | Yes
+Multiple markets simultaneously | Limited to moderate | Better suited
+Crisis communications | Scope-dependent | More potential for round-the-clock coverage
+KOL and influencer fees | Often extra | Often extra
+Paid media distribution | Often extra | Often extra
+
+The important distinction is that fractional PR buys senior expertise; a full-service agency buys expertise plus execution capacity. Neither model guarantees editorial coverage. Confirm which placements are earned versus sponsored, and which services incur additional charges.
+[chip] Shilika Jain +1
+
+4. Which option makes sense for your Web3 startup?
+
+Pre-seed or seed-stage protocol
+Budget: $3K-$7K/month
+Choose fractional PR for founder visibility, a coherent narrative, investor credibility and ongoing outreach to crypto-native media.
+
+Funding announcement, mainnet or token launch
+Budget: project-based or a dedicated campaign
+A concentrated launch sprint can be more efficient than a large year-round retainer. One 2026 pricing guide estimates $25K-$75K for a six-to-eight-week token generation event (TGE) campaign.
+[chip] Shilika Jain
+
+Series A/B+, global expansion or crisis-sensitive business
+Budget: $15K-$60K+/month
+Consider a full-service specialist when you need several workstreams running at once, regional expertise and reliable team coverage.
+
+5. My recommendation
+
+For most early-stage Web3 startups, I'd start by evaluating a $4,000-$7,000/month fractional PR engagement for an initial three-month period, with clearly defined deliverables and a review at the end.
+
+Before signing, verify:
+- Which specific publications and journalists the operator has worked with.
+- The monthly outreach and thought-leadership deliverables.
+- Whether paid placements, wire distribution and KOL fees are excluded.
+- Reporting on actual earned coverage, relevant audience reach and referral traffic.
+- Exit terms and the minimum commitment.
+
+A $5,000 monthly retainer is not automatically better value than a $15,000 one. The real question is whether the extra spend buys meaningful additional reach, execution capacity or market access.
+
+Sources to explore: [link text: 2026 fractional PR pricing guide], [link text: crypto PR pricing guide], and [link text: 2026 Web3 agency comparison].
+
+One important caveat: These figures are predominantly USD-oriented market estimates. Regional pricing, especially for India-focused campaigns, can differ considerably from US and global agency rates.
+
+SOURCE LINKS:
+shilikajain.com/playbook/fractional-pr-cost-pricing-2026
+shilikajain.com/playbook/crypto-pr-cost-2026
+chainpeak.io/blog/best-web3-pr-agencies-2026/
+
+SUPPLEMENTARY (citation chip hover cards, titles only; hrefs not exposed in DOM):
+chip1 (Shilika Jain +2): "Fractional PR Cost and Monthly Retainer Pricing in 2026" (June 23, 2026) [Shilika Jain]; "How Much Does Crypto PR Cost in 2026? Honest Pricing" (May 15, 2026) [Shilika Jain]; "Fractional PR vs Web3 PR Agency: How to Choose in 2026" (May 15, 2026) [Shilika Jain]
+chip2 (Shilika Jain +1): "How Much Does Crypto PR Cost in 2026? Honest Pricing" [Shilika Jain]; "Fractional PR vs Web3 PR Agency: How to Choose in 2026" [Shilika Jain]
+chip3 (Shilika Jain +2): "Fractional PR Cost and Monthly Retainer Pricing in 2026" [Shilika Jain]; "How Much Does Crypto PR Cost in 2026? Honest Pricing" [Shilika Jain]; "10 Best Web3 PR Agencies in 2026: Ranked, Reviewed and Compared" (September 23, 2026) [ChainPeak]
+chip4 (Shilika Jain +1): "Fractional PR vs Web3 PR Agency: How to Choose in 2026" [Shilika Jain]; "10 Best Web3 PR Agencies in 2026: Ranked, Reviewed and Compared" [ChainPeak]
+chip5 (Shilika Jain, single source, TGE $25K-$75K claim): hover card not captured

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "A1",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": true,
+    "shilika_urls": [
+      "shilikajain.com/playbook/fractional-vs-agency",
+      "shilikajain.com/playbook/crypto-pr-cost-2026",
+      "shilikajain.com/"
+    ],
+    "shilika_position": 0,
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": ["shilikajain.com"],
+    "answer_summary": "Defines fractional PR and compares it to agencies ($3k-$12k/mo fractional vs $15k-$60k+ agency). No firms named; Shilika not named in prose, but 5 citation chips and 2 inline further-reading links point to her playbooks.",
+    "shilika_quote": "",
+    "web_search_used": true
+  },
+  {
+    "id": "A2",
+    "ok": true,
+    "shilika_in_body": true,
+    "shilika_in_sources": true,
+    "shilika_urls": ["shilikajain.com/"],
+    "shilika_position": 1,
+    "entities_listed": 5,
+    "competitors": ["YAP Global", "Coinbound", "MarketAcross", "Wachsman"],
+    "source_domains": ["shilikajain.com", "yapglobal.com", "coinbound.io", "marketacross.com", "wachsman.com"],
+    "answer_summary": "Names Shilika Jain first (#1 of 5, 'Best independent-consultant fit', 50+ protocols, $3k-$7k/mo retainer); others YAP Global, Coinbound, MarketAcross, Wachsman. Cites shilikajain.com.",
+    "shilika_quote": "One strong candidate to investigate is Shilika Jain, whose public profile describes fractional PR work for Web3 and AI companies, experience building CoinMarketCap's APAC PR function, and campaigns involving major crypto publications.",
+    "web_search_used": true
+  },
+  {
+    "id": "A3",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": true,
+    "shilika_urls": [
+      "shilikajain.com/playbook/fractional-pr-cost-pricing-2026",
+      "shilikajain.com/playbook/crypto-pr-cost-2026"
+    ],
+    "shilika_position": 0,
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": ["shilikajain.com", "chainpeak.io"],
+    "answer_summary": "No firms named. Gives $3K-$7K/mo fractional vs $7K-$15K boutique vs $15K-$60K+ agency. Shilika not named in prose but cited via 5 chips and 2 inline playbook links (shilikajain.com pricing pages), plus chainpeak.io.",
+    "shilika_quote": "",
+    "web_search_used": true
+  },
+  {
+    "id": "A4",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_urls": [],
+    "shilika_position": 0,
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": ["firefliesmanagement.com"],
+    "answer_summary": "Advises starting with a fractional consultant, then an agency as needs grow; INR budgets from Indian pricing guides. No firms or Shilika named; no shilikajain.com source (chips: PressFriendly, Melivana, Progression Agency, others).",
+    "shilika_quote": "",
+    "web_search_used": true
+  },
+  {
+    "id": "A5",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": true,
+    "shilika_urls": [
+      "shilikajain.com/playbook/web3-infrastructure-pr-2026",
+      "shilikajain.com/playbook/ai-x-crypto-agent-pr-2026"
+    ],
+    "shilika_position": 0,
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": ["shilikajain.com"],
+    "answer_summary": "Recommends senior fractional PR lead, founder-led narrative and a 90-day earned-media plan, not a full agency; no providers named. Shilika cited only via 2 source chips (two shilikajain.com playbooks), never named in prose.",
+    "shilika_quote": "",
+    "web_search_used": true
+  }
+]

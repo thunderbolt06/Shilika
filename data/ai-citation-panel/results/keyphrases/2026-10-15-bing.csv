@@ -1,0 +1,43 @@
+keyphrase_id,keyphrase,cluster,engine,run_date_iso,shilika_in_top10,bing_rank_note,shilika_url,competitor_domains
+K01,fractional pr consultant,fractional-pr,bing,2026-10-15,true,"rank 2; AI answer present, cites shilikajain.com",/pages/fractional-pr-consultant,saltwaterinteractive.com;pangea.app;theprnet.com;fractionalpros.com;verifiedcomms.com;consultingsuccess.com;fractionalforce.io;linkedin.com
+K02,fractional head of pr,fractional-pr,bing,2026-10-15,true,"rank 1; AI answer present, cites shilikajain.com",/pages/fractional-head-of-pr,gravitatepr.com;chameleoncollective.com;linkedin.com;firstandlastpr.com;hansonsearch.com
+K03,fractional cmo web3,fractional-pr,bing,2026-10-15,true,rank 6,/pages/fractional-cmo-web3,coinbound.io;gtm8020.com;kolhq.com;luvkaizen.com;o-cmo.com;storymode.co;rankedcmo.com;bitcoinmarketingteam.com
+K04,crypto pr cost,cost-pricing,bing,2026-10-15,true,rank 10; AI answer present,/playbook/crypto-pr-cost-2026,analyticsinsight.net;geniuspr.com;newscoverage.agency;flexe.io;coinbound.io;kolhq.com;finpr.agency;cryptopromo.io
+K05,fractional pr cost,cost-pricing,bing,2026-10-15,true,"rank 1; AI answer present, cites shilikajain.com",/playbook/fractional-pr-cost-pricing-2026,gofractional.com;5wpr.com;fractionalpulse.com;theprnet.com;randywattilete.com;treetopgrowthstrategy.com
+K06,token launch pr cost,cost-pricing,bing,2026-10-15,true,"rank 1; AI answer present, cites shilikajain.com",/playbook/token-launch-pr-campaign-cost-2026,luvkaizen.com;linkedin.com;disence.com;echo-trade.io;blockchainappfactory.com;cryptotokenmaker.com
+K07,web3 pr agency,web3-pr,bing,2026-10-15,false,not in results read,,web3pr.com;finpr.agency;pr3.agency;prlab.co;marketacross.com;web3-pr-agency.com;lunapr.com;brandpr.io
+K08,crypto pr agency,web3-pr,bing,2026-10-15,false,not in results read; AI answer present,,coinbound.io;ninjapromo.io;proleo.io;marketacross.com;badenbower.com
+K09,best web3 pr agencies,web3-pr,bing,2026-10-15,false,not in results read,,coinbound.io;icoda.io;cryptototem.com;chainpeak.io;highvibepr.com;worldmetrics.org;thesiliconreview.com
+K10,token launch pr,token-launch,bing,2026-10-15,true,rank 7,/pages/token-launch-pr-agency,geniuspr.com;slicedbrand.com;everything-pr.com;goldengatepr.com;coingabbar.com;tokenpr.net;web3newswire.com
+K11,tge pr agency,token-launch,bing,2026-10-15,true,rank 1,/pages/tge-pr-agency,blockchair.com;thepragency.net;5wpr.com;pragency.mx;tagpr.com;instagram.com;coynepr.com;hoffman.com
+K12,token launch marketing,token-launch,bing,2026-10-15,false,not in results read,,blockchainappfactory.com;blockmm.ai;rankovate.com;coinbound.io;eakdigital.com;linkedin.com;luvkaizen.com
+K13,web3 kol marketing,kol,bing,2026-10-15,false,not in results read,,kolweb3.com;kolhq.com;thekollab.io;eakdigital.com;sajblockchain.com;sharkyweb3.com;3kool.io
+K14,crypto kol marketing agency,kol,bing,2026-10-15,false,not in results read,,kolhq.com;thekollab.io;flexe.io;blockchainappfactory.com;kolweb3.com;linkedin.com;luvkaizen.com
+K15,crypto influencer marketing agency,kol,bing,2026-10-15,false,not in results read; AI answer present,,ninjapromo.io;coinbound.io;influencermarketinghub.com;cryptototem.com;sociallypowerful.com;blockchainmarketingninja.com;blockchainx.tech
+K16,ai pr agency,ai-pr,bing,2026-10-15,false,not in results read,,awisee.com;salientpr.com;shiftcomm.com;mediagraphicspr.com;highvibepr.com;trizcom.com;prlab.co;everything-pr.com
+K17,ai startup pr,ai-pr,bing,2026-10-15,true,rank 2,/pages/ai-startup-pr-agency,pressvisibility.com;getmakerai.com;amworldgroup.com;smartmoneymedia.org;reblonde.com;geniuspr.com;savonpr.com;hashmeta.com
+K18,ai publicist,ai-pr,bing,2026-10-15,true,rank 7,/playbook/what-is-an-ai-publicist-2026,personalaipublicist.com;linkedin.com;pressrequest.io;saasbrowser.com;eliteai.tools;x.com;youraipublicist.com
+K19,cybersecurity pr agency,cyber-pr,bing,2026-10-15,false,not in results read,,salientpr.com;sonuspr.com;analyticsinsight.net;smartconnectionspr.com;ccgrouppr.com;eskenzipr.com;virgo-pr.com;wildfirepr.com
+K20,fractional cybersecurity pr,cyber-pr,bing,2026-10-15,true,rank 1,/services/cybersecurity-pr,findfractionalciso.com;cybernara.com;fractionalpulse.com;cybernestsec.com;corvus-cyber.com;powerscyber.com;aranst.com;pr.linkedin.com
+K21,cybersecurity marketing agency,cyber-pr,bing,2026-10-15,false,not in results read; AI answer present,,magnetudeconsulting.com;cybertheory.io;welcometobora.com;peertopeermarketing.co;bird.marketing;walkersands.com;cybersecuritymarketingagencies.com;aterous.com
+K22,korea web3 pr,regional-korea,bing,2026-10-15,true,rank 9,/korea,geniuspr.com;cryptobridgekorea.com;surgence.io;bridge34.com;crypticweb3.com;blockchainappfactory.com;linkedin.com
+K23,crypto marketing agency korea,regional-korea,bing,2026-10-15,false,not in results read,,cryptobridgekorea.com;blockchainappfactory.com;iumlabs.io;advertise.tokenpost.kr;linkedin.com;apcollective.io;surgence.io
+K24,japan web3 pr,regional-japan,bing,2026-10-15,true,rank 1,/japan,prtimes.jp;blockchainpress.media;lianpr.com;asiaweb3alliance.jp;ensun.io;webx-asia.com
+K25,crypto pr agency japan,regional-japan,bing,2026-10-15,true,rank 2,/pages/crypto-pr-agency-japan,japancryptoagency.com;slideshare.net;blockchainpress.media;icoda.io;blockchain-ads.com;awisee.com;bitget.com
+K26,singapore web3 pr,regional-singapore,bing,2026-10-15,true,rank 2,/singapore,edb.gov.sg;web3sg.co;onchainstate.sg;singaporefintech.org;f6s.com
+K27,crypto pr agency singapore,regional-singapore,bing,2026-10-15,true,rank 2,/pages/crypto-pr-agency-singapore,tanmaypatange.com;blueorangeasia.com;tanmaypatange.substack.com;awisee.com;crypticweb3.com;dify.sg;slideshare.net;marketingagency.sg
+K28,dubai web3 pr,regional-mena,bing,2026-10-15,true,rank 2,/dubai-mena,finpr.agency;elevateweb3.io;ainvest.com;lunapr.com;eakdigital.com;gate.com;lkiconsulting.io
+K29,crypto pr agency dubai,regional-mena,bing,2026-10-15,false,not in results read,,finpr.agency;clutch.co;coinbound.io;marilynpr.co;youyaa.com;lunapr.com;surgence.io
+K30,india web3 pr,regional-india,bing,2026-10-15,true,rank 2,/playbook/best-web3-pr-agency-india-2026,communicateindia.com;melivana.com;web3india.in;clutch.co;blockchainpress.media;askdaman.com;linkedin.com;web30india.com
+K31,crypto marketing agency india,regional-india,bing,2026-10-15,true,rank 3; AI answer present,/pages/crypto-marketing-agency-india,clutch.co;topcryptoagency.com;icoda.io;linkedin.com;brandstory.in;thebluemanakin.com
+K32,apac crypto pr,regional-apac,bing,2026-10-15,true,rank 1,/services/apac-pr,coinstats.app;prnewswire.com;cryptodaily.co.uk;bitzo.com;linkedin.com;cryptonews.com;crunchbase.com
+K33,apac pr agency,regional-apac,bing,2026-10-15,false,not in results read,,contentgrip.com;finnpartners.com;stratcom.academy;apacagencies.com;budcomms.com;provokemedia.com;mcgallen.com
+K34,how to pitch cointelegraph,how-to-media,bing,2026-10-15,true,"rank 1; AI answer present, cites shilikajain.com",/playbook/how-to-pitch-cointelegraph-2026,journalistdb.com;blockmm.ai;thecconnects.com;pitchbook.com;mintfunnel.co;goldengatepr.com
+K35,get featured in coindesk,how-to-media,bing,2026-10-15,true,"rank 2; AI answer present, cites shilikajain.com",/playbook/get-featured-coindesk-2026,blockmm.ai;pressiqa.com;thecconnects.com;unitedpress.uk;hexxen.com;viralspikeusa.com;metamoonshots.io;quickshock.io
+K36,get featured in decrypt,how-to-media,bing,2026-10-15,true,"rank 1; AI answer present, cites shilikajain.com",/playbook/how-to-get-featured-in-decrypt-2026,viralspikeusa.com;quorum-media.com;unitedpress.uk;prplacements.com;getfeatured.com;instantpress.co;nextenco.com;goldengatepr.com
+K37,fractional pr vs agency,comparison,bing,2026-10-15,true,"rank 1; AI answer present, cites shilikajain.com",/playbook/fractional-vs-agency,verifiedcomms.com;theprnet.com;linkedin.com;nomadcomms.io;obapr.com;bendergrouppr.com;pressfriendly.com;growtal.com
+K38,fractional pr vs in house,comparison,bing,2026-10-15,true,rank 1,/playbook/fractional-pr-vs-in-house-hire-2026,kohler-law.com;amworldgroup.com;activatedscale.com;peoplefirsthr.com;squad4.io;newmanhumanresources.com;reachrobin.com
+K39,crypto pr vs ai pr,comparison,bing,2026-10-15,true,"rank 1; AI answer present, cites shilikajain.com",/playbook/crypto-pr-vs-ai-pr,citeos.io;analyticsinsight.net;coinalertnews.com;ainvest.com;ninjapromo.io;blockmm.ai;victoriaolsina.com;icoda.io
+K40,shilika jain,brand,bing,2026-10-15,true,rank 1,/,x.com;hackernoon.com;youtube.com;muckrack.com;cryptodaily.co.uk;instagram.com
+K41,shilika jain pr,brand,bing,2026-10-15,true,rank 1,/,youtube.com;x.com;ae.linkedin.com;hackernoon.com;linkedin.com;me.sh
+K42,shilikajain.com,brand,bing,2026-10-15,true,rank 1,/,x.com;cryptodaily.co.uk;linkedin.com

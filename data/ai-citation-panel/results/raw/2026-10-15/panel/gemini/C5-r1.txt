@@ -1,0 +1,40 @@
+PROMPT ID: C5 | PROMPT: Who runs PR for AI agent startups and AI infrastructure companies in 2026? | RUN: 1 | SURFACE: Gemini (gemini.google.com, signed-in, Temporary chat, default Flash model, 2026-10-15)
+NOTE: Sources are inline chips (16 chips, no separate Sources panel); links read from each chip's citation popup. Text in [source chip: X -> url] marks where a chip appeared. The answer PROSE never names Shilika Jain or shilikajain.com and names no individual fractional operator; 4 chips labelled "Shilika Jain" are attached to the "fractional" paragraphs and the "category framing" bullet, pointing to shilikajain.com/services/ai-startup-pr (3 chips) and shilikajain.com/playbook/ai-startup-pr-agency-india-2026 (1 chip).
+
+ANSWER TEXT:
+In 2026, the PR ecosystem for AI agent startups and AI infrastructure / deep tech platforms has split into three distinct categories: boutique specialized tech PR firms, high-touch fractional senior operators, and traditional tech PR powerhouses that have carved out dedicated AI practices. [source chip: Shilika Jain -> shilikajain.com/services/ai-startup-pr]
+
+Because modern AI PR requires communicating both technical credibility to developers/analysts and strategic narratives to investors/enterprise buyers, startups generally rely on the following operators: [source chip: Business+AI -> businessplusai.com/blog/the-top-10-ai-pr-agencies-for-enterprise-ai-companies]
+
+1. Specialized AI-Native & Tech Boutique Agencies
+These firms specialize almost exclusively in generative AI, agentic workflows, data infrastructure, and developer tools.
+- High Vibe PR: Known for category-creation narratives around agentic platforms and AI infrastructure (e.g., funding raises, model launches). They pioneer Generative Engine Optimization (GEO)-ensuring startup narratives optimize not just for traditional tech press (TechCrunch, Wired), but also show up accurately in AI search/answer engines (ChatGPT, Gemini, Perplexity). [source chip: High Vibe PR +1 -> highvibepr.com/insights/best-ai-pr-agencies]
+- SlicedBrand: Founded by former tech journalists, specializing in enterprise AI, machine learning architectures, and agentic platforms. They focus heavily on deep-tech story translation for international and US tech outlets. [source chip: Business+AI]
+- Treble: A staple for VC-backed launches and Series A/B funding announcements, particularly strong in developer tools, B2B SaaS, and AI infrastructure. [source chip: Jamco PR -> jamcopr.com/best-pr-agencies-for-ai-startups]
+- Crackle PR: Senior-led B2B technology PR firm catering to Series A+ infrastructure and enterprise AI startups, combining tech media relations with GEO/LLM search visibility. [source chip: Jamco PR]
+- Actual Agency: San Francisco-based tech PR firm with specialized practice areas dedicated to AI systems, cloud data infrastructure, and B2B SaaS storytelling. [source chip: Jamco PR]
+
+2. Fractional Senior Operators
+Pre-Series B AI startups and early agent builders increasingly hire Fractional PR Leads / Operators rather than full agencies.
+The Model: Rather than paying $20K-$40K/month for a mid-sized agency account team, startups hire independent senior strategists (typically running $5K-$12K/month retainers or launch sprints). [source chip: Shilika Jain -> shilikajain.com/services/ai-startup-pr]
+What They Do: Direct founder-to-journalist positioning, ghostwriting technical op-eds, securing tech exclusives (e.g., TechCrunch, VentureBeat, The Information), and driving founder thought-leadership on platforms like X, LinkedIn, and podcasts. [source chip: Shilika Jain -> shilikajain.com/playbook/ai-startup-pr-agency-india-2026]
+
+3. Established Tech PR Firms & Large Networks
+For growth-stage (Series B and beyond) and scale-up AI companies requiring international reach, analyst relations (Gartner, Forrester), and crisis management, established tech agencies lead the market: [source chip: Jamco PR]
+- PAN Communications: Highly regarded for deep B2B technology, cloud data infrastructure, and enterprise AI share-of-voice campaigns.
+- 5W Public Relations: Features a dedicated AI & emerging tech practice handling media relations, investor relations, and AI visibility strategies at scale. [source chip: Jamco PR]
+- Diffusion (formerly LEWIS + Diffusion): Strong for global market expansions across the US, Europe, and APAC, with integrated media and analyst relations. [source chip: Business+AI]
+- Hotwire: Global communications firm equipped with internal AI lab tools to monitor brand visibility across LLM platforms alongside traditional media. [source chip: Jamco PR]
+
+Key Shifts in AI PR Strategy (2026)
+- Dual Optimization (Press + GEO): PR strategy is no longer just about landing headlines; it includes optimizing press releases and earned media so LLMs (ChatGPT, Gemini, Claude, Perplexity) cite the startup as the category leader when users prompt for solutions. [source chip: PRCoverage.AI -> prcoverage.ai/insights/ai-agents-for-pr]
+- Category Framing Over Feature Lists: Agent startups pitch the "autonomous workforce" or specific vertical automation frames (e.g., "The Stripe for AI Agents") to stand out against generalist models. [source chip: Shilika Jain -> shilikajain.com/services/ai-startup-pr]
+- Analyst & Technical Credibility: AI infrastructure startups prioritize technical depth, targeting developer-focused platforms (Hacker News, specialized newsletters) and analyst relations early in their growth curve. [source chip: Jamco PR]
+
+SOURCE LINKS:
+shilikajain.com/services/ai-startup-pr
+businessplusai.com/blog/the-top-10-ai-pr-agencies-for-enterprise-ai-companies
+highvibepr.com/insights/best-ai-pr-agencies
+jamcopr.com/best-pr-agencies-for-ai-startups
+shilikajain.com/playbook/ai-startup-pr-agency-india-2026
+prcoverage.ai/insights/ai-agents-for-pr

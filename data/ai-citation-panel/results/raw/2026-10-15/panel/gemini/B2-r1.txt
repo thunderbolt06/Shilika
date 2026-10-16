@@ -1,0 +1,52 @@
+PROMPT ID: B2 | RUN: 1 | SURFACE: Gemini (gemini.google.com, signed-in Plus account, Temporary chat, default model Flash) | DATE: 2026-10-16
+PROMPT: How do you get featured in CoinDesk, Cointelegraph and Decrypt in 2026?
+NOTE: First attempt in a fresh temporary chat returned "I seem to be encountering an error. Can I try something else for you?" (no answer). This file is the second attempt in a brand-new temporary chat. Temporary Chat label confirmed at top of conversation.
+
+ANSWER:
+Securing coverage in CoinDesk, CoinCointelegraph, and Decrypt requires tailoring your approach to each outlet's specific editorial mandate. Blanket press release distributions get marked as spam; successful PR relies on targeted narrative pitching.
+
+1. Tailor the Angle by Publication
+CoinDesk: The Institutional Narrative Lead
+CoinDesk focuses on systemic impacts, macroeconomic shifts, regulatory developments, and institutional adoption.
+- What works: Category-defining protocol upgrades, institutional funding rounds with tier-1 VCs (e.g., Paradigm, Andreessen Horowitz), novel compliance/regulatory frameworks, or macro market data.
+- The pitch style: Plain text email under 180 words. Lead with what your news means for the wider market, not just your product features. [citation chip: Shilika Jain]
+- Strategy: Offer an exclusive under a strict 48-72 hour embargo. Include access to named C-suite executives and a single-page fact sheet (charts, founder bios, customer quotes). [citation chips: Shilika Jain, +1]
+
+Cointelegraph: High-Frequency News & Markets
+Cointelegraph caters to a broad retail and trader audience, focusing on market movements, tech trends, and regional adoption.
+- What works: On-chain data spikes, protocol performance (e.g., cutting gas costs by 40% during congestion), founder opinion pieces (Op-Eds), or region-specific announcements (e.g., APAC/Europe licensing). [citation chip: Shilika Jain]
+- The pitch style: Keep it under 150 words with a clear "news peg" (why this matters today). [citation chip: Shilika Jain]
+Surfaces to pitch:
+- News Desk: Hard announcements, funding, upgrades. [citation chip: Shilika Jain]
+- Opinion Desk: Strongly argued, contrarian takes by founders on industry trends. [citation chip: Shilika Jain]
+- Cointelegraph Magazine: Long-form narrative features or deep-dive founder profiles. [citation chip: Shilika Jain]
+
+Decrypt: Web3 Culture, Tech & Consumer Crypto
+Decrypt focuses on consumer Web3, AI-crypto convergence, gaming, culture, policy, and human-interest stories.
+- What works: User-facing product launches, Web3 gaming milestones, AI agent integrations, open-source decentralization, and culture/governance drama.
+- The pitch style: Conversational, jargon-free narrative. Highlight the human angle, user experience, or cultural shift.
+- Strategy: Pitch stories that explain why a non-technical user or general crypto consumer should care.
+
+2. Core Execution Playbook
+Map Reporters by Beat (Not Mastheads):
+- Use targeted searches (e.g., site:coindesk.com "account abstraction") to find the 2-3 reporters routinely covering your niche.
+- Address them individually, referencing a recent article they published to demonstrate relevance. [citation chip: Shilika Jain]
+Master the Embargo Protocol:
+- Pitch 7-10 days ahead of the launch date. [citation chip: Shilika Jain]
+- Never offer the same exclusive to competing publications simultaneously. Breaking embargo or double-pitching exclusives damages media relationships. [citation chip: Shilika Jain]
+Provide a Clean Press Package:
+- Provide a concise, single-page summary doc with: Key launch facts and dates. / High-res founder headshots and brand logos. / Verified data charts or on-chain proof. [citation chip: Shilika Jain] / 2-3 pre-approved quotes.
+Alternative Pathways to Coverage:
+- Contributed Op-Eds: Submit thought leadership pieces directly to opinion editors.
+- Podcast/Event Appearances: Engage with reporters and editors at major industry events (e.g., Consensus) or pitch founders for guest appearances on outlet-hosted podcasts.
+
+Where would you like to focus next?
+[suggestion chips] Draft a 180-word pitch email template for a launch | Learn how to turn a product update into a narrative story
+
+(Footer: Flash | Gemini is AI and can make mistakes.)
+
+NOTES: The answer prose never names "Shilika Jain" or shilikajain.com. The only occurrences are inline citation-chip labels reading "Shilika Jain" (one chip also "+ 1"), i.e. the site name of the cited source. The View sources panel lists only shilikajain.com pages (titles: "How to Get Featured in CoinDesk in 2026: Pitch..." and "How to Pitch Cointelegraph in 2026 - Shilika Jain"), several snippets per page. No agencies or consultants are recommended.
+
+SOURCE LINKS:
+shilikajain.com/playbook/get-featured-coindesk-2026
+shilikajain.com/playbook/how-to-pitch-cointelegraph-2026

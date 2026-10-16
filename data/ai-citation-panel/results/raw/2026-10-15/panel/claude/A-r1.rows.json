@@ -1,0 +1,72 @@
+[
+  {
+    "id": "A1",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_position": 0,
+    "shilika_urls": [],
+    "shilika_quote": "",
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": [],
+    "web_search_used": false,
+    "answer_summary": "Defines fractional PR as part-time senior PR on a monthly retainer, with a comparison table vs traditional agencies. Names no providers. No web search, no sources shown."
+  },
+  {
+    "id": "A2",
+    "ok": true,
+    "shilika_in_body": true,
+    "shilika_in_sources": false,
+    "shilika_position": 1,
+    "shilika_urls": [],
+    "shilika_quote": "Shilika Jain: offers fractional PR for Web3 and AI founders, has placed 50+ protocols in Forbes, CoinDesk, Cointelegraph, Decrypt and The Block, is Head of PR at Myosin DAO, and previously did APAC PR at CoinMarketCap.",
+    "entities_listed": 8,
+    "competitors": ["MarketerHire", "GTM 80/20", "CryptoJobsList", "Coinbound", "MarketAcross", "ReBlonde", "Melrose PR"],
+    "source_domains": ["marketerhire.com", "dev.to", "medialegacy1.dev.to", "mexc.com", "cbinsights.com", "ninjapromo.io", "gtm8020.com", "web3.career", "ke.linkedin.com", "buildd.co", "guerrillabuzz.com", "coinbound.io", "icoda.io", "cryptojobslist.com"],
+    "web_search_used": true,
+    "answer_summary": "Says no independent ranking exists. Lists Shilika Jain first as the only individual consultant (APAC fit, via dev.to), then marketplaces (MarketerHire, GTM 80/20, CryptoJobsList) and agencies (Coinbound, MarketAcross, ReBlonde, Melrose)."
+  },
+  {
+    "id": "A3",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_position": 0,
+    "shilika_urls": [],
+    "shilika_quote": "",
+    "entities_listed": 1,
+    "competitors": ["MarketAcross"],
+    "source_domains": ["marketerhire.com", "pearltrees.com", "coinbound.io", "icoda.io", "kitemetric.com", "luminaclippers.com", "925studios.co", "webtonic.io", "pulserevops.com", "eyaldror.com", "eightx.co", "gtm8020.com", "cryptojobslist.com"],
+    "web_search_used": true,
+    "answer_summary": "Own estimate of $3K-$10K/month for fractional PR; crypto PR agencies $1K-$20K/month, top tier $20K-$50K+ (MarketAcross about $10K-$25K). Names no consultants. Shilika absent. 3 searches."
+  },
+  {
+    "id": "A4",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_position": 0,
+    "shilika_urls": [],
+    "shilika_quote": "",
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": [],
+    "web_search_used": false,
+    "answer_summary": "Advice by stage: fractional for pre-seed to Series A, agency for Series B or later or crisis scrutiny; start fractional, move to agency as news flow grows. Names no providers. No web search."
+  },
+  {
+    "id": "A5",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_position": 0,
+    "shilika_urls": [],
+    "shilika_quote": "",
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": [],
+    "web_search_used": false,
+    "answer_summary": "Six-step lean founder-led setup: fractional or boutique PR person, embargoed funding announcement, founder visibility, press kit, podcasts and guest articles, scrutiny prep. Names no providers. No web search."
+  }
+]

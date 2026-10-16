@@ -1,0 +1,45 @@
+id=BR3 | surface=ChatGPT (chatgpt.com, signed-in free account, Temporary Chat, web search hint on) | query=How much does Shilika Jain charge for fractional PR and what is included? | date=2026-10-15 | temporary-chat confirmed in URL (?temporary-chat=true)
+
+ANSWER:
+Shilika Jain's published website lists fractional PR pricing for Web3, AI and cybersecurity startups. The key distinction is between an ongoing monthly engagement and a one-off launch campaign.
+
+Pricing at a glance
+- Fractional PR retainer: $3,000-$7,000/month (Her general profile pricing)
+- Fractional PR / Head of PR: $5,000-$12,000/month (Her specialist service pages)
+- Launch sprint: $15,000-$40,000 (A defined campaign, typically 4-8 weeks)
+- Free introductory call: 30 minutes (An initial PR positioning teardown)
+
+The prices vary across her website according to service scope and engagement type. The general profile specifies approximately 4-8 hours of direct work per week for its $3,000-$7,000 monthly retainer.
+[citation chip: Shilika Jain +2]
+
+What's included in the fractional PR service?
+According to her Fractional Head of PR service page, the engagement typically covers:
+- PR strategy and positioning: Category positioning, core messaging, journalist mapping and a 90-day coverage calendar.
+- Media outreach: Direct pitching to publications such as Forbes, CoinDesk, Cointelegraph, The Block, Decrypt and Blockworks, where the story is a fit.
+- Launch and announcement support: Embargo strategy, announcement planning, spokesperson preparation and coordinated media outreach.
+- Founder profiling: Op-ed drafting and placement, founder positioning and opportunities to build executive visibility.
+- KOL and influencer coordination: Creator briefing and campaign-wave coordination, particularly for Web3 projects.
+- APAC market access: Localisation and regional media outreach across markets including India, Japan, Korea, China and Southeast Asia.
+- AI search visibility: Tracking whether the company appears in answers from ChatGPT and other AI search tools.
+
+The exact mix depends on the campaign and business goals. She states that coverage depends on credible news hooks; guaranteed media placements are not promised.
+[citation chip: Shilika Jain +1]
+
+How to enquire
+You can book a free 30-minute introductory call through her Calendly booking page, or review her official website and pricing details.
+
+One important clarification: Her website publishes both a $3,000-$7,000 monthly range and a $5,000-$12,000 monthly range for different descriptions of fractional PR. If you're budgeting for a project, ask which scope applies, how many hours are included, whether KOL fees and campaign expenses are extra, and whether the engagement has a minimum term. The public pricing pages don't establish that all those costs are included in the retainer.
+
+SOURCE CHIP POPOVER ITEMS (unique across the 2 chips):
+- Shilika Jain site: "About Shilika Jain: Fractional PR for Web3 & AI Founders" -> shilikajain.com/about
+- Shilika Jain site: "Fractional Head of PR 2026 | Senior Comms Leadership" -> shilikajain.com/pages/fractional-head-of-pr
+- Shilika Jain site: "Fractional PR Consultant 2026 | Senior, Embedded, Affordable" -> opened tab URL: shilikajain.com/pages/fractional-pr-consultant
+- Calendly booking link (inline anchor): calendly.com/shilikajain/30min/
+
+NOTE: pricing figures are ChatGPT's reading of the site; not re-verified against the live pages by this agent (unverified). ChatGPT itself flags that the site shows two different monthly ranges.
+
+SOURCE LINKS:
+shilikajain.com/pages/fractional-head-of-pr
+calendly.com/shilikajain/30min/
+shilikajain.com/about
+shilikajain.com/pages/fractional-pr-consultant

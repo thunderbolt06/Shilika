@@ -1,0 +1,72 @@
+[
+  {
+    "id": "C1",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_urls": [],
+    "shilika_position": 0,
+    "entities_listed": 9,
+    "competitors": ["Treble PR", "Corporate Ink", "Highwire PR", "Crackle PR", "5WPR", "SHIFT Communications", "RH Strategic", "Airfoil Group", "FTI Consulting"],
+    "source_domains": ["everything-pr.com", "corporateink.com", "salientpr.com", "beantownmv.com", "hashmeta.com", "techbullion.com", "boltpr.com", "the-square.co", "notablypr.com", "directiveconsulting.com"],
+    "shilika_quote": "",
+    "web_search_used": true,
+    "answer_summary": "Lists 9 firms: Treble PR (seed/Series A), Corporate Ink, Highwire PR, Crackle PR, 5WPR, SHIFT, RH Strategic, Airfoil, FTI. Shortlist is Treble, Corporate Ink, Highwire, Crackle. Cites GEO and $15-30k/mo retainers. No Shilika."
+  },
+  {
+    "id": "C2",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": true,
+    "shilika_urls": ["shilikajain.com/playbook/crypto-pr-vs-ai-pr", "shilikajain.com/playbook", "shilikajain.com/playbook/enterprise-ai-pr-2026", "shilikajain.com/playbook/crypto-pr-cost-2026", "shilikajain.com/playbook/ai-startup-pr-2026"],
+    "shilika_position": 0,
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": ["shilikajain.com", "smartmoneymedia.org", "geniuspr.com", "venturepr.com"],
+    "shilika_quote": "",
+    "web_search_used": true,
+    "answer_summary": "No firms recommended. Compares AI PR (credibility, slow news clock) vs crypto PR (speed, KOLs, on-chain proof). Prose never names Shilika; 8 inline cite chips and 5 of 10 sources are shilikajain.com. Position 0, not in body."
+  },
+  {
+    "id": "C3",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": true,
+    "shilika_urls": ["shilikajain.com/services/content-writing", "shilikajain.com/playbook/how-to-submit-op-ed-techcrunch-2026", "shilikajain.com/services/ai-startup-pr", "shilikajain.com/pages/op-ed-ghostwriting-service", "shilikajain.com/pages/thought-leadership-ghostwriting", "shilikajain.com/services/founder-profiling", "shilikajain.com/pages/linkedin-ghostwriting-for-founders"],
+    "shilika_position": 0,
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": ["shilikajain.com", "linker-agency.com", "snakeriverstrategies.com"],
+    "shilika_quote": "",
+    "web_search_used": true,
+    "answer_summary": "Names no firms; lists provider types (fractional PR operator, boutique agency, AI/deeptech agency, ex-editor, in-house plus freelancer). 7 of 10 sources are shilikajain.com but the prose never names Shilika. Position 0."
+  },
+  {
+    "id": "C4",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": true,
+    "shilika_urls": ["shilikajain.com/playbook/ai-series-a-funding-announcement-pr-2026", "shilikajain.com/playbook/ai-startup-pr-2026", "shilikajain.com/blog/ai-startup-pr-techcrunch-the-information-forbes-2026", "shilikajain.com/services/ai-startup-pr"],
+    "shilika_position": 0,
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": ["shilikajain.com", "smartmoneymedia.org", "panblastpr.com", "everything-pr.com", "hackernoon.com", "engagepr.com", "urbansplatter.com"],
+    "shilika_quote": "",
+    "web_search_used": true,
+    "answer_summary": "Strategy answer, no firms recommended: category-first 6-10 week arc, proof assets, AI-searchable content, metrics. 4 of 10 sources are shilikajain.com (cite chips) but the prose never names Shilika. Position 0."
+  },
+  {
+    "id": "C5",
+    "ok": true,
+    "shilika_in_body": true,
+    "shilika_in_sources": true,
+    "shilika_urls": ["shilikajain.com/pages/fintech-ai-pr-agency", "shilikajain.com/pages/ai-startup-pr-agency", "shilikajain.com/playbook/ai-startup-pr-2026"],
+    "shilika_position": 11,
+    "entities_listed": 11,
+    "competitors": ["Crackle PR", "Mission North", "Salient PR", "Kite Hill PR", "Brew Communications", "Highwire PR", "PAN Communications", "5W Public Relations", "RH Strategic", "Firebrand"],
+    "source_domains": ["cracklepr.com", "aikenhouse.com", "5wpr.com", "directiveconsulting.com", "shilikajain.com", "finance.yahoo.com", "blockonomi.com"],
+    "shilika_quote": "Shilika Jain is one example: she positions herself as a fractional AI publicist and says she led PR for Gaia AI's 'Stripe for AI agents' positioning in Forbes, with engagements advertised at roughly $5,000-$12,000 per month.",
+    "web_search_used": true,
+    "answer_summary": "Lists 10 firms (Crackle, Mission North, Salient, Kite Hill, Brew, Highwire, PAN, 5W, RH Strategic, Firebrand), then Shilika Jain 11th under 'Fractional operators' with the Gaia AI Forbes claim. 3 of 11 sources are shilikajain.com."
+  }
+]

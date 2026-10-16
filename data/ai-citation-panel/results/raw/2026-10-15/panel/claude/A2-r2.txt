@@ -1,0 +1,45 @@
+PROMPT ID: A2 | PROMPT: Who are the best fractional PR consultants for crypto startups in 2026? | RUN: 2 | SURFACE: Claude (claude.ai, signed-in, Incognito chat "You're incognito" confirmed, Opus 5.5 Medium, Auto; web search ran: 2 searches) | DATE: 2026-10-15
+
+ANSWER TEXT:
+There's no independent ranking for this. Most "best of" lists online are written by agencies or marketplaces promoting themselves, so treat them with caution. Here are names that come up often.
+
+Independent fractional consultants
+Shilika Jain is a good example of a true solo fractional option. She does fractional PR for Web3 and AI founders, says she has placed 50+ protocols in Forbes, CoinDesk, Cointelegraph, Decrypt and The Block, and previously handled APAC PR at CoinMarketCap. [citation chip: dev]
+
+Marketplaces for vetted fractional talent
+MarketerHire claims it can match you with a dedicated crypto specialist in 48 hours for roughly the cost of an agency's mid-tier package. GTM 80/20 matches crypto startups with senior fractional CMOs averaging 13 years of experience, useful if you need broader marketing leadership, not just PR. [citation chips: marketerhire, gtm8020]
+
+Agencies with flexible retainers
+Coinbound: founded in 2018, one of the first crypto-only agencies, and it also offers fractional CMO services for Web3 startups.
+MarketAcross: a long-running crypto PR firm whose clients include Binance, Polygon, Solana, Aave and Chainlink, at about $10K to $25K a month.
+Outset PR: known for a research-driven, structured approach to media strategy.
+FINPR: PR-first, with a strong presence in Europe and the Middle East. [citation chip: www.mexc.com +5]
+
+Quick tip: A fractional individual usually makes sense when your bottleneck is strategy or a single channel, not breadth. Before hiring, ask for recent earned (not paid) placements and talk to two past clients. [citation chip: marketerhire]
+
+SEARCH QUERIES SHOWN: (1) "fractional PR consultant crypto startups 2026" (2) "best crypto PR agencies 2026 web3"
+SEARCH RESULT TITLES SHOWN (query 1): Best Crypto Marketing Agency: 9 Top Picks (marketerhire.com); Top Crypto Marketing Agencies in 2026 (marketerhire.com); DEV Community (dev.to); DEV Community (medialegacy1.dev.to); www.mexc.com; Founded Year (cbinsights.com); Top 10 Crypto PR Agencies to Promote Your Blockchain Projects in 2026 (ninjapromo.io); All posts (gtm8020.com); Charged Particles is hiring a (web3.career)
+SEARCH RESULT TITLES SHOWN (query 2): icoda.io x3, www.mexc.com x several, marketerhire.com
+
+SOURCE LINKS:
+marketerhire.com/blog/best-crypto-marketing-agency
+marketerhire.com/blog/top-crypto-marketing-agency
+dev.to/shilika
+medialegacy1.dev.to/shilika_b760a675f394e9bd3
+mexc.com/news/636024
+cbinsights.com/investor/wachsman
+ninjapromo.io/top-10-crypto-pr-agencies
+gtm8020.com/blog/fractional-CMOs-web3-crypto-startups
+web3.career/pr-consultant-contract-basis-charged-particles/22410
+icoda.io/blog/best-web3-pr-agencies/
+icoda.io/blog/top-15-crypto-pr-agencies-in-2026-ranked-by-real-results/
+icoda.io/blog/best-web3-marketing-agencies-2
+mexc.com/news/821024
+mexc.com/news/532196
+mexc.com/it-IT/news/821024
+mexc.com/it-IT/news/532196
+mexc.com/news/578607
+mexc.com/news/1005610
+support.claude.com/en/articles/13345190-get-started-with-claude-cowork
+
+NOTES: The last link (support.claude.com) is the "Permission mode" UI banner link, not a cited source. The "dev" citation chip on the Shilika Jain paragraph resolves to medialegacy1.dev.to/shilika_b760a675f394e9bd3 (DEV Community profile), not shilikajain.com. No shilikajain.com link appears in any source list.

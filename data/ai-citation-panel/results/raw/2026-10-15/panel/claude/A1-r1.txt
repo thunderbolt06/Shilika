@@ -1,0 +1,26 @@
+PROMPT A1 | What is fractional PR for Web3 founders and how does it differ from a traditional PR agency? | run 1 | surface: Claude (claude.ai, Incognito chat, Opus 5.5 Medium; no Web search toggle exists in the + menu; Claude did not search)
+
+Fractional PR means hiring an experienced PR professional (or a small senior team) part-time, usually on a monthly retainer, to act as your in-house comms lead without the cost of a full-time hire. For Web3 founders, this person typically knows the crypto media landscape, community dynamics, and the regulatory sensitivities around tokens.
+
+What a fractional PR lead usually does for a Web3 startup:
+
+Shapes your narrative and positioning
+Pitches crypto and tech media (CoinDesk, The Block, Decrypt, etc.)
+Supports launches, funding announcements, and token events
+Handles crisis comms (hacks, exploits, depegs, community backlash)
+Aligns messaging across X, Discord, Telegram, and founder thought leadership
+
+How it differs from a traditional PR agency:
+
+Fractional PR | Traditional agency
+Who does the work | The senior person you hired | Often junior staff after the senior pitch
+Cost | Lower, flexible retainer | Higher fixed retainers, often long contracts
+Commitment | Easy to scale up or down | Usually 3 to 12 month minimums
+Integration | Works like part of your team, in your Slack/Discord | Works as an outside vendor
+Web3 depth | Often a crypto-native specialist | Many are generalists learning the space
+Capacity | Limited bandwidth | Bigger team for large campaigns or global reach
+
+Bottom line: Fractional PR suits early or mid-stage Web3 teams that need senior strategy, speed, and crypto fluency on a tight budget. A traditional agency makes more sense when you need large-scale, multi-market campaigns and a bigger team behind you.
+
+SOURCE LINKS:
+(none displayed. No web search or sources block appeared. The cited-source script returned only one link, support.claude.com/en/articles/13345190-get-started-with-claude-cowork, which is the "Learn more" link in the Permission mode banner, UI chrome and not a cited source.)

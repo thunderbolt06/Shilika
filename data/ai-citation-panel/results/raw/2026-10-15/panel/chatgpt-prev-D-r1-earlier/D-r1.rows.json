@@ -1,0 +1,72 @@
+[
+  {
+    "id": "D1",
+    "ok": true,
+    "web_search_used": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_urls": [],
+    "shilika_position": 0,
+    "shilika_quote": "",
+    "entities_listed": 8,
+    "competitors": ["Inkhouse", "Code Red Communications", "Eskenzi PR", "Highwire", "PRLab", "Zintel Public Relations", "Corporate Ink", "Merritt Group"],
+    "source_domains": ["inkhouse.com", "corporateink.com", "cybersecuritymarketingagencies.com", "prlab.co", "zintelpr.com", "venturepr.com", "coderedcomms.com", "eskenzipr.com", "highwirepr.com", "merrittgrp.com"],
+    "answer_summary": "Shortlist of 8 cyber PR firms (Inkhouse first, then Code Red, Eskenzi, Highwire, PRLab, Zintel, Corporate Ink, Merritt) plus budget ranges and vetting questions. Shilika Jain absent from text and sources."
+  },
+  {
+    "id": "D2",
+    "ok": true,
+    "web_search_used": true,
+    "shilika_in_body": true,
+    "shilika_in_sources": true,
+    "shilika_urls": ["shilikajain.com/playbook/cybersecurity-pr-2026"],
+    "shilika_position": 0,
+    "shilika_quote": "",
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": ["eskenzipr.com", "odwyerpr.com", "gartner.com", "shilikajain.com"],
+    "answer_summary": "Explains PR and AR as complementary (shared narrative, 90-day plan, metrics, mistakes). No firms recommended. Shilika Jain appears only as the label of two source chips (playbook page), never named in the prose."
+  },
+  {
+    "id": "D3",
+    "ok": true,
+    "web_search_used": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_urls": [],
+    "shilika_position": 0,
+    "shilika_quote": "",
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": ["gracker.ai", "answermaniac.ai", "arxiv.org", "studio.viton13.com"],
+    "answer_summary": "GEO/AEO playbook for a security vendor: buyer-question pages, original evidence, third-party validation, crawlability, 90-day plan, metrics. No firms recommended; Shilika Jain absent from text and sources."
+  },
+  {
+    "id": "D4",
+    "ok": true,
+    "web_search_used": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": true,
+    "shilika_urls": ["shilikajain.com/services/cybersecurity-pr"],
+    "shilika_position": 0,
+    "shilika_quote": "",
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": ["securitysenses.com", "otrenix.com", "shilikajain.com", "cracklepr.com"],
+    "answer_summary": "Series B planning budget $8K-$20K/mo; tiers fractional lead $5K-12K, boutique $12K-25K, enterprise $25K-50K+; suggests $15K-20K. No firms named. Shilika Jain only inside a source popover (services page)."
+  },
+  {
+    "id": "D5",
+    "ok": true,
+    "web_search_used": true,
+    "shilika_in_body": true,
+    "shilika_in_sources": true,
+    "shilika_urls": ["shilikajain.com/pages/cybersecurity-pr-agency-usa"],
+    "shilika_position": 4,
+    "shilika_quote": "Her website describes a senior-led consulting model focused on US security media and analyst visibility, with published claims of placements in publications including Wired, Dark Reading and SC Media.",
+    "entities_listed": 4,
+    "competitors": ["Corporate Ink", "Code Red Communications", "Zintel Public Relations"],
+    "source_domains": ["corporateink.com", "coderedcomms.com", "zintelpr.com", "shilikajain.com"],
+    "answer_summary": "Shortlist of 4: Corporate Ink (pick for B2B growth), Code Red, Zintel PR, then Shilika Jain as the hands-on individual consultant option (4th of 4, with source chip and website link). Advises a 90-day pilot."
+  }
+]

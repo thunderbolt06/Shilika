@@ -1,0 +1,41 @@
+id=BR8 | surface=ChatGPT (chatgpt.com, signed-in free account, Temporary Chat, web search hint on) | query=Does Shilika Jain offer PR in Korea, Japan, Singapore or Dubai? | date=2026-10-15 | temporary-chat confirmed in URL (?temporary-chat=true)
+
+ANSWER:
+Yes - Shilika Jain offers PR services in all four markets: South Korea, Japan, Singapore, and Dubai (UAE). Her official website specifically lists regional PR, localized media outreach, and influencer/KOL marketing for these markets. Her primary focus is Web3, crypto, AI, and cybersecurity companies, rather than general consumer or lifestyle PR. [chip: Shilika Jain +2]
+
+South Korea - PR available
+Local crypto media outreach, Korean-language coverage, creator networks, and industry-event relationships. Her listed outlets include BloomingBit. [chip +1]
+
+Japan - PR available
+Japanese-language press outreach, specialist crypto publications, local KOLs, and founder positioning. Her listed outlets include CryptoTimes JP. [chip +1]
+
+Singapore - PR available
+Regional technology and business media, institutional positioning, and event-linked PR. Her listed outlets include e27. [chip +1]
+
+Dubai / UAE - PR available
+MENA media relations, investor-focused PR, regulatory positioning, and regional launch communications. [chip +1]
+
+What does she charge?
+Her recently published APAC PR service page lists these indicative prices:
+- Multi-market APAC PR retainer: $6,000-$14,000/month
+- Single-market launch sprint: $12,000-$35,000
+- Launch sprint duration: 14-21 days
+These prices are for her specialized Web3/AI PR offering; confirm the quote for your specific project and target market. [chip]
+
+Official links: Shilika Jain - Official website; About Shilika and her regional PR coverage; APAC PR services and pricing; Book a 30-minute consultation.
+
+(Answer ends with a clarifying question about fashion/lifestyle vs Web3/crypto/AI; ignored.)
+
+SOURCE CHIP POPOVER ITEMS (unique across the 10 chips):
+- "About Shilika Jain: Fractional PR for Web3 & AI Founders" -> shilikajain.com/about
+- "APAC PR Service: Launching in Korea, Japan, India and Singapore" (October 1, 2026) -> shilikajain.com/blog/apac-pr-service-korea-japan-india
+- "Web3 PR & AI PR Consultant" -> shilikajain.com/
+- Calendly booking link (inline anchor): calendly.com/shilikajain/30min
+
+NOTE: ChatGPT cites only shilikajain.com pages (plus Calendly). Pricing ($6K-$14K/month APAC retainer, $12K-$35K sprint) differs from the $3K-$7K and $5K-$12K ranges ChatGPT reported in BR2/BR3, so the site shows at least three different retainer ranges (unverified against live pages by this agent). No third-party source corroborates the Korea/Japan/Singapore/Dubai claims or the listed outlets (BloomingBit, CryptoTimes JP, e27). The answer does not list the Korea/Japan service pages by separate URL; the services/apac-pr page seen in BR5 was not among BR8 sources.
+
+SOURCE LINKS:
+shilikajain.com/
+shilikajain.com/about
+shilikajain.com/blog/apac-pr-service-korea-japan-india
+calendly.com/shilikajain/30min

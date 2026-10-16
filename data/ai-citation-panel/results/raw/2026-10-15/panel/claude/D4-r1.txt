@@ -1,0 +1,40 @@
+PROMPT ID: D4 | PROMPT: What does cybersecurity PR cost for a Series B vendor in 2026? | RUN: 1 | SURFACE: Claude (claude.ai, signed-in, Incognito chat, model shown as Opus 5.5 Medium / Auto, web search used: searched "cybersecurity PR agency retainer cost 2026")
+
+ANSWER TEXT:
+For a Series B cybersecurity vendor, plan on roughly $15,000 to $30,000 per month for a specialist PR agency retainer, or about $180K to $360K a year.
+
+How that range is built:
+
+Earlier stage is cheaper. A Series A tech startup should expect to budget between $8,000 and $20,000 per month for a quality PR agency in 2026. [everything-pr]
+
+Series B usually means mid-market scope. Most mid-market companies engaging a national PR agency on a retainer basis spend between $15,000 and $40,000 per month, with project work and crisis engagements priced separately. [everything-pr]
+
+Top-tier firms cost more. $40,000 to $75,000+ per month buys senior partnership from a top-tier national agency. [everything-pr]
+
+Cheaper options exist. General benchmarks put freelance PR at $2,000 to $5,000 and boutique agencies at $5,000 to $15,000 monthly. [swydo]
+
+What pushes cost up:
+
+Cyber specialists (Merritt Group, Highwire, FischTank and similar) charge a premium for CISO-level media and analyst access.
+Adding content, analyst relations, awards, or events.
+Covering multiple regions.
+Big launches like RSAC or Black Hat, often billed as extra projects.
+
+Often billed separately: crisis/breach response, media monitoring tools, wire distribution, and award entry fees.
+
+These are market estimates, so get 2 to 3 agency quotes against a defined scope before deciding.
+
+(Search block text: "Settled on pricing ranges across different market segments.")
+
+SOURCE LINKS:
+marketerhire.com/blog/best-cybersecurity-marketing-agencies
+everything-pr.com/how-much-does-crisis-pr-cost
+blog.codercops.com/blog/what-a-security-incident-actually-costs-2026/
+swydo.com/blog/agency-pricing/
+swydo.com/
+everything-pr.com/how-much-does-a-pr-agency-cost-in-2026
+bridgeheadcommunications.com/insights-txt/2026/08/17/b2b-tech-pr-agency-costs-2026
+saashero.net/competitor/cybersecurity-marketing-agency-reviews-2026/
+everything-pr.com/best-pr-companies-for-startups-2026-pricing
+mydatapath.com/blog/average-cost-cybersecurity-provider-central-valley/
+(also returned by the script but a Claude UI help link, not a cited source: support.claude.com/en/articles/13345190-get-started-with-claude-cowork)

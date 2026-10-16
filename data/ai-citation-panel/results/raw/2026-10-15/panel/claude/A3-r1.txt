@@ -1,0 +1,49 @@
+PROMPT A3 | How much does fractional PR cost for a Web3 startup in 2026 versus a full-service agency? | run 1 | surface: Claude (claude.ai, Incognito chat, Opus 5.5 Medium; "Searched the web" x3 displayed)
+
+SEARCHES SHOWN: (1) Web3 crypto PR agency retainer cost 2026 ; (2) fractional PR cost per month startup 2026 ; (3) fractional PR consultant crypto Web3 monthly rate
+
+There's no official benchmark for "fractional PR" in Web3 specifically, but here's roughly how it breaks down in 2026.
+
+Fractional PR (one senior person, part-time)
+Expect roughly $3,000 to $10,000 a month, depending on hours and seniority. That figure is my estimate, based on adjacent data. Freelance Web3 PR specialists on CryptoJobsList list hourly rates of about $23 to $60, while senior fractional marketing leads cost more: a fractional CMO runs $5,000 to $25,000 a month, or $200 to $500 an hour for advisory work. [chips: cryptojobslist, webtonic]
+
+Crypto PR agency
+
+Smaller or specialist firms: retainers of roughly $1,000 to $20,000 a month, with most projects paying $5,000 to $15,000 for a full retainer. [chips: coinbound, pearltrees]
+
+Top-tier firms: $20,000 to $50,000 or more a month. For example, MarketAcross starts at about $10K to $25K a month. [chips: coinbound, marketerhire]
+
+Extra costs on top of either option
+Paid placements add up fast. A tier-1 crypto press release costs about $6,500 to $9,500, and agency retainers generally cover the team and strategy, not the media spend itself. [chips: luminaclippers x2]
+
+Which fits when
+Fractional PR usually makes sense for early-stage teams that need a steady narrative and some founder press. An agency is worth more around a token launch or major raise, when you need wide media relationships and more hands at once.
+
+Footer: "Used in this session: Web search: 3 searches"
+
+SOURCE LINKS:
+marketerhire.com/blog/top-crypto-marketing-agency
+marketerhire.com/blog/best-crypto-marketing-agency
+pearltrees.com/cryptopragencymarketing/item794160467
+marketerhire.com/blog/best-web3-marketing-agencies
+coinbound.io/crypto-pr-pricing/
+coinbound.io/
+icoda.io/blog/best-web3-marketing-agencies-2
+kitemetric.com/blogs/crypto-pr-pricing-a-comprehensive-guide-for-2024
+luminaclippers.com/blog/crypto-marketing-cost
+925studios.co/blog/web3-product-design-cost-2026
+webtonic.io/blog/fractional-cmo-what-it-costs-in-2026
+pulserevops.com/knowledge/tl19463
+pulserevops.com/knowledge/tl12327
+eyaldror.com/
+pulserevops.com/tools/tl10252
+pulserevops.com/tools/tl12327
+eightx.co/blog/fractional-cfo-cost-pricing-guide
+pulserevops.com/tools/tl11319
+pulserevops.com/tools/tl12627
+gtm8020.com/blog/fractional-CMOs-web3-crypto-startups.md
+cryptojobslist.com/executive_full-time
+cryptojobslist.com/talent/pr-consulting
+cryptojobslist.com/talent/pr/cape-town
+
+NOTE: the script output was truncated by the tool after the last cryptojobslist entry, at the Permission mode banner "Learn more" link (support.claude.com, UI chrome, excluded). No shilikajain.com link. Shilika Jain is not named in the answer.

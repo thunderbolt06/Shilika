@@ -1,0 +1,3 @@
+PROMPT C1 | Who are the best PR firms for AI startups in 2026? | run 1 | surface: Google AI Mode (udm=50, gl=us, hl=en)
+BLOCKED: Google returned a reCAPTCHA "unusual traffic" interstitial (google.com/sorry) instead of an AI Mode answer on 2026-10-16. The CAPTCHA was not solved or bypassed. No answer text was captured.
+SOURCE LINKS:

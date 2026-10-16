@@ -1,0 +1,72 @@
+[
+  {
+    "id": "D1",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_position": 0,
+    "shilika_urls": [],
+    "shilika_quote": "",
+    "entities_listed": 7,
+    "competitors": ["Merritt Group", "PANBlast (PAN Communications)", "Treble", "CyberTheory", "Matter Communications", "Eskenzi PR", "Bluetext"],
+    "source_domains": ["famehero.com", "jamcopr.com", "speargrowth.com"],
+    "web_search_used": true,
+    "answer_summary": "Table of 7 cyber PR agencies (Merritt, PANBlast, Treble, CyberTheory, Matter, Eskenzi, Bluetext), 5 detailed; cites FameHero, Jamco PR, Spear Growth. No independent consultants. Shilika not mentioned."
+  },
+  {
+    "id": "D2",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_position": 0,
+    "shilika_urls": [],
+    "shilika_quote": "",
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": [],
+    "web_search_used": false,
+    "answer_summary": "Explains PR and AR as one narrative engine (threat research, crisis response, category creation, GEO alignment). No agencies or consultants recommended, no sources shown. Two drafts rendered back to back. Shilika not mentioned."
+  },
+  {
+    "id": "D3",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_position": 0,
+    "shilika_urls": [],
+    "shilika_quote": "",
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": [],
+    "web_search_used": false,
+    "answer_summary": "GEO/AEO blueprint for cyber vendors: original threat research, ungated docs, schema, third-party consensus, crawler access. No providers recommended, no sources shown. Two drafts concatenated. Shilika not mentioned."
+  },
+  {
+    "id": "D4",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_position": 0,
+    "shilika_urls": [],
+    "shilika_quote": "",
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": [],
+    "web_search_used": false,
+    "answer_summary": "Series B cyber PR retainers: boutique $12k-18k, mid-tier $18k-30k, global $30k-50k+/mo; AR add-on $5k-10k; project $20k-40k. No named firms, no sources shown. Two drafts concatenated. Shilika not mentioned."
+  },
+  {
+    "id": "D5",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_position": 0,
+    "shilika_urls": [],
+    "shilika_quote": "",
+    "entities_listed": 6,
+    "competitors": ["Crackle PR (Parry Headrick)", "Highwire PR", "Lumina Communications", "10Fold Communications", "PRLab", "Ray George"],
+    "source_domains": ["famehero.com", "cracklepr.com", "prlab.co"],
+    "web_search_used": true,
+    "answer_summary": "Says no single best; lists Crackle PR, Highwire, Lumina, 10Fold, PRLab plus independents Parry Headrick and Ray George, with retainers. Cites FameHero, Crackle PR, PRLab. Shilika not mentioned."
+  }
+]

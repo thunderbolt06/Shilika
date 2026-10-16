@@ -1,0 +1,100 @@
+PROMPT D2 | How does cybersecurity PR work with analyst relations in 2026? | run 2 | surface: ChatGPT (chatgpt.com, signed-in free, Temporary Chat, hints=search) | 2026-10-15
+NOTE: citation chips in the answer are labelled "Shilika Jain +1" (3 chips: after "AI-powered search tools" sentence, after "does not buy an editorial ranking" sentence, and one more) and "Gartner +1" (after the AI security paragraph). The answer prose itself never names Shilika Jain as a provider or recommendation.
+
+How cybersecurity PR works with analyst relations in 2026
+
+In 2026, cybersecurity public relations (PR) and analyst relations (AR) work best as two connected parts of one credibility strategy: PR builds awareness and trust in the market, while AR helps technology analysts understand a company's capabilities, positioning, and relevance to enterprise buyers.
+
+The big shift is that cybersecurity communications is no longer just about securing press coverage for product launches or funding announcements. It is about establishing credible, evidence-backed expertise across journalists, industry analysts, CISOs, and increasingly AI-powered search tools. [chip: Shilika Jain +1]
+
+1. PR and AR have different jobs
+Cybersecurity PR - Build awareness and reputation
+PR works with journalists, editors, podcasters, event organizers, and other media to make a security company visible and credible.
+- Earn coverage in cybersecurity and business publications.
+- Pitch expert commentary on breaches, vulnerabilities, and emerging threats.
+- Develop founder and CISO profiles, bylines, and customer stories.
+- Manage product announcements, funding news, and crisis communications.
+
+Analyst relations (AR) - Build market understanding and evaluation credibility
+AR develops structured relationships with research analysts who study cybersecurity markets and advise technology buyers.
+- Brief analysts at Gartner, Forrester, IDC, and relevant specialist firms.
+- Explain product capabilities, differentiation, roadmap, and market fit.
+- Supply customer evidence, performance data, and research responses.
+- Prepare for relevant reports, market guides, and vendor evaluations.
+
+For example, a journalist might quote a threat intelligence company's researcher in a story about a new ransomware campaign. An analyst might separately evaluate the company's capabilities and market position in the context of an enterprise security category.
+
+PR helps the market hear about you; AR helps the market understand where you fit. Neither guarantees coverage, a favorable analyst assessment, or a sale.
+
+2. How PR and AR work together in practice
+The strongest approach is a shared communications program in which the same evidence informs analysts, journalists, company spokespeople, and sales teams.
+1. Agree on the market narrative: Define the category, target buyer, differentiation, and claims the company can substantiate.
+2. Build the evidence: Threat research, product benchmarks, technical expertise, customer outcomes, and roadmap evidence.
+3A. PR activation: Pitch journalists, publish research, secure expert commentary, and build executive visibility.
+3B. AR activation: Brief relevant analysts, provide evidence, answer questions, and track research opportunities.
+4. Measure and refine: Use media feedback, analyst questions, customer conversations, and business outcomes to improve positioning.
+
+A practical example
+Imagine a company selling cloud security software discovers a new attack technique affecting cloud environments.
+- Research team: validates the finding and prepares technical evidence.
+- AR team: briefs relevant cloud security analysts on the implications, the company's capabilities, and the limits of its solution.
+- PR team: offers the research to appropriate security journalists, arranges expert interviews, and develops commentary.
+- Marketing team: publishes a technical report and a clear explanation of the problem and solution.
+- Sales team: uses the resulting evidence and approved coverage in relevant buyer conversations.
+This creates several opportunities from one substantive story without sending every audience the same sales pitch.
+
+3. What changes in 2026?
+Three developments are particularly important.
+AI security is reshaping the conversation
+AI-agent security, identity and access management, AI-driven security operations, and governance are prominent 2026 themes. PR teams need credible expert commentary, while AR teams need to explain exactly what their products do in these emerging categories. [chip: Gartner +1]
+Original research matters more than generic announcements
+Vulnerability analysis, attack-pattern research, incident data, and defensible benchmarks can give journalists a story and analysts evidence to evaluate. Another routine feature launch may have little news value unless it demonstrates a meaningful change.
+AI search adds another visibility channel
+Buyers increasingly use AI assistants and AI-powered search to research vendors. Consistent expert bylines, independently reported coverage, clear product documentation, and accessible research can improve discoverability. However, AI citations are not guaranteed, and visibility should be measured rather than assumed.
+
+4. How analyst relations actually works
+AR is a long-term discipline, not a series of meetings arranged around product launches.
+A typical program involves:
+1. Analyst mapping: identify the analysts covering your specific category, relevant research reports, and the questions enterprise buyers ask.
+2. Initial briefings: introduce the company, its product, target market, differentiation, and supporting evidence.
+3. Ongoing engagement: provide meaningful updates on product development, customer deployments, market changes, and new research.
+4. Research participation: respond to relevant vendor questionnaires and evaluation requests, meet deadlines, and arrange approved customer references where requested.
+5. Feedback and preparation: use analyst questions to identify gaps in positioning, product evidence, or customer proof.
+Gartner's Magic Quadrant, Forrester's Wave, and IDC's MarketScape are examples of research products with their own methodologies and eligibility requirements. A briefing is not a guarantee of inclusion or favorable placement. Analyst research remains independent, and purchasing advisory services or sponsorship does not buy an editorial ranking. [chip: Shilika Jain +1]
+
+5. Who owns what? The operating model
+Activity | PR lead | AR lead
+Media relations and journalist pitches | Owns | Supports with evidence
+Analyst briefings and relationships | Supports narrative | Owns
+Threat research communications | Coordinates media rollout | Prepares analyst briefing
+Product positioning | Aligns external messaging | Tests against analyst frameworks
+Executive thought leadership | Owns media opportunities | Prepares analyst-facing messages
+Breach and crisis communications | Leads media response | Coordinates relevant analyst updates
+Measurement | Tracks earned media and awareness | Tracks briefings and research engagement
+The two teams should share a message framework, evidence library, launch calendar, and executive briefing preparation process. They should not necessarily share every tactic or success metric.
+
+6. What should a cybersecurity PR + AR program measure?
+Avoid judging the program purely on the number of press releases, media clips, or analyst meetings.
+PR performance: Relevant earned coverage, message accuracy, quality of expert quotes, share of voice against meaningful competitors, referral traffic, branded search, and qualified inbound interest.
+AR performance: Coverage of priority analysts, briefing quality, timely research responses, completeness of customer evidence, feedback incorporated into product positioning, and progress toward relevant evaluation opportunities.
+Combined business impact: Enterprise opportunities influenced by communications, sales-team use of research and coverage, competitive win/loss feedback, and visibility in relevant AI-search answers.
+Research placements can take many months or longer to materialize, depending on the category and evaluation cycle. Treat them as long-term outcomes, not monthly deliverables.
+
+7. A simple 90-day plan
+Illustrative starting plan for a growing cybersecurity vendor.
+Days 1-30 Positioning and preparation: Audit current messaging and competitors. Map journalists and analysts by cybersecurity category. Identify existing research, customer proof, and spokesperson expertise. Build a joint PR-AR calendar.
+Days 31-60 Activate the program: Conduct introductory analyst briefings where available. Pitch original research and relevant expert commentary. Prepare executive bylines and technical explainers. Build a consistent, approved library of product and customer evidence.
+Days 61-90 Learn and optimize: Review media quality and analyst feedback. Address recurring objections or evidence gaps. Publish follow-up insights and customer proof. Establish a quarterly briefing and measurement cadence.
+
+Bottom line
+In 2026, cybersecurity PR and analyst relations should operate as separate but tightly coordinated disciplines. PR earns attention and independent media credibility; AR builds sustained analyst understanding and supports rigorous market evaluation. Both should draw from the same technical evidence and consistent positioning.
+The most effective program does not promise headlines or analyst rankings. It builds a repeatable process for turning real cybersecurity expertise into credible market visibility and, over time, stronger enterprise buying consideration.
+
+For further reading: Gartner's 2026 cybersecurity trends and Forrester's 2026 cybersecurity threats analysis.
+
+SOURCE LINKS:
+(chip popovers have no anchor elements; Shilika URLs were resolved by opening each popover item and reading the tab URL; popover titles shown in brackets)
+shilikajain.com/playbook/cybersecurity-pr-2026   [Shilika Jain: "Cybersecurity PR in 2026: Analyst Relations + AI Citations", May 30, 2026]
+shilikajain.com/playbook/cybersecurity-analyst-relations-2026   [Shilika Jain: "Cybersecurity Analyst Relations in 2026: Gartner, Forrester and IDC", June 23, 2026]
+gartner.com/en/newsroom/press-releases/2026-02-05-gartner-identifies-the-top-cybersecurity-trends-for-2026
+forrester.com/blogs/announcing-forresters-top-cybersecurity-threats-for-2026/

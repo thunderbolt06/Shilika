@@ -1,0 +1,72 @@
+[
+  {
+    "id": "C1",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_position": 0,
+    "shilika_urls": [],
+    "shilika_quote": "",
+    "entities_listed": 6,
+    "competitors": ["High Vibe PR", "Crackle PR", "Sparkpr", "Treble", "Jamco PR", "The Colab"],
+    "source_domains": ["highvibepr.com", "jamcopr.com", "lister.ai", "colabcomms.co"],
+    "answer_summary": "Ranks 6 AI PR firms (High Vibe PR first, Crackle PR, Sparkpr, Treble, Jamco PR, The Colab) with pricing and GEO angles, cited to agency and listicle pages. No Shilika mention.",
+    "web_search_used": true
+  },
+  {
+    "id": "C2",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": true,
+    "shilika_position": 0,
+    "shilika_urls": ["shilikajain.com/playbook/crypto-pr-vs-ai-pr"],
+    "shilika_quote": "",
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": ["shilikajain.com", "smartmoneymedia.org", "everything-pr.com"],
+    "answer_summary": "Explains AI vs crypto PR (proof vs hype, media, KOLs, risk, GEO); no firms named. Prose never names Shilika, but 8 of 9 source chips are labelled Shilika Jain and link to her crypto-pr-vs-ai-pr playbook.",
+    "web_search_used": true
+  },
+  {
+    "id": "C3",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_position": 0,
+    "shilika_urls": [],
+    "shilika_quote": "",
+    "entities_listed": 12,
+    "competitors": ["CSuite Content", "BAM Communications", "Method Communications", "LaunchSquad", "Column", "Outcast", "Scribblers India", "Content/Co", "Storyarb", "RevenueZen", "Write With Light", "Lexicon PR"],
+    "source_domains": ["onfolio.com"],
+    "answer_summary": "Three avenues: tech PR agencies (CSuite Content, BAM, Method, LaunchSquad, Column, Outcast), ghostwriting studios, freelance ex-journalists. Only one source chip (Onfolio). No Shilika mention.",
+    "web_search_used": true
+  },
+  {
+    "id": "C4",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_position": 0,
+    "shilika_urls": [],
+    "shilika_quote": "",
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": ["ai-semantica.com", "panblastpr.com", "prlab.co"],
+    "answer_summary": "Strategy outline: GEO/LLM visibility, reproducible benchmarks, CTO as category authority, 4-step 3 month sequence. Recommends no PR firms or consultants. Cites Semantica AI, PANBlast, PRLab. No Shilika mention.",
+    "web_search_used": true
+  },
+  {
+    "id": "C5",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": true,
+    "shilika_position": 0,
+    "shilika_urls": ["shilikajain.com/services/ai-startup-pr", "shilikajain.com/playbook/ai-startup-pr-agency-india-2026"],
+    "shilika_quote": "",
+    "entities_listed": 9,
+    "competitors": ["High Vibe PR", "SlicedBrand", "Treble", "Crackle PR", "Actual Agency", "PAN Communications", "5W Public Relations", "Diffusion", "Hotwire"],
+    "source_domains": ["shilikajain.com", "businessplusai.com", "highvibepr.com", "jamcopr.com", "prcoverage.ai"],
+    "answer_summary": "Lists 9 named agencies in 3 tiers. The fractional operators section names no one, but 4 of 16 source chips labelled Shilika Jain (services/ai-startup-pr, playbook/ai-startup-pr-agency-india-2026) support it. Prose never names her.",
+    "web_search_used": true
+  }
+]

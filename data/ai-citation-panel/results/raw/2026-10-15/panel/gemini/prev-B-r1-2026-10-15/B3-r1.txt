@@ -1,0 +1,62 @@
+PROMPT ID: B3 | PROMPT: What is the typical PR strategy for a token launch (TGE) in 2026? | RUN: 1 | SURFACE: Gemini (gemini.google.com, Temporary chat confirmed: "Temporary Chat" header and "Just stopping by?" notice; model shown in selector: Flash)
+NOTE: Attempts 1 and 2 (each in a brand-new temporary chat, model Flash High) showed "Searching the web" and then ended with "I seem to be encountering an error. Can I try something else for you?" and no answer. Attempt 3, in a third brand-new temporary chat (model Flash), produced the answer below. The captured text shows a first draft that cuts off mid-sentence at "Shift from general presence to category" and then runs straight into a second, restructured draft ("A successful Token Generation Event (TGE) PR strategy..."). This is verbatim page text. No source chips or Sources control appeared in attempt 3.
+
+ANSWER TEXT:
+A token launch (TGE - Token Generation Event) PR strategy is executed as a tightly orchestrated 12-to-16 week integrated campaign rather than a single launch-day blast.
+
+Given stricter regulatory scrutiny (e.g., MiCA in Europe, SEC enforcement) and an increasingly noisy Web3 media ecosystem, modern TGE communications focus on utility, narrative authority, and strict compliance, completely avoiding speculative or price-driven claims.
+
+Strategic Phases & Timeline
+Pre-Launch Phase (Weeks 1-9) [Narrative & Compliance]: Pitch Tier-1 Exclusive; Founder Thought Leadership; KOL & Community Seeding
+TGE Day (Week 10) [Coordinated 24h Surge]: Single Tier-1 Anchor; Exchange Listing Announcements; KOL Wave 1 Activation
+Post-TGE Tail (Weeks 11-16+) [Retention & Utility Execution]: Token Lock & Unlock Comms; Ecosystem Growth Numbers; Product Updates & Governance
+
+Phase 1: Pre-Launch Foundation (Weeks 1-6)
+The objective here is establishing legitimacy before announcing token metrics.
+Compliance & Message Guardrails: Formulate messaging briefs cleared by legal counsel. All PR assets must frame the token explicitly around utility, governance, or network access - never investment returns, price targets, or speculative upside.
+Founder Thought Leadership: Rather than pitching company news early, position founders as subject matter experts. Secure bylines or expert commentary in outlets like CoinDesk, Blockworks, or mainstream business press (Forbes, Economic Times) on broader industry trends.
+Media Relationship Building: Brief Tier-1 journalists off-the-record (OTR). Offer background briefings without demanding immediate coverage to build editor trust.
+
+Phase 2: Pipeline & Narrative Build (Weeks 6-9)
+Shift from general presence to categoryA successful Token Generation Event (TGE) PR strategy operates in a starkly different landscape than prior cycles. High FDV (Fully Diluted Valuation) / low float models have faced heavy skepticism, narrative cycles move faster, and retail traders predominantly filter noise through specialized channels rather than mainstream crypto media.
+
+A modern TGE PR strategy relies on a integrated 3-Phase Playbook:
+PRE-TGE: Narrative & Teasers - Build high-signal PR
+TGE WEEK: Distribution Blitz - Exclusive + Wire
+POST-TGE: Retention & Milestones - Real utility updates
+
+Phase 1: Pre-TGE (T-minus 60 to 14 Days)
+Goal: Establish high-signal legitimacy, avoid hype fatigue, and align key distribution nodes.
+The Core Narrative Pitch: Lead with utility, revenue/traction, and user metrics rather than vague "future roadmap" promises. Outlines like actual protocol fees generated or active user retention carry significantly more weight with Tier-1 outlets (CoinDesk, Blockworks, Cointelegraph).
+Tier-1 Exclusive Pre-Briefs: Secure an embargoed exclusive with a top-tier journalist 2-3 weeks out covering your tokenomics, utility, and launch date.
+KOL & Ecosystem Alignment: Coordinate seed investors, foundation members, ecosystem projects, and tier-1 Key Opinion Leaders (KOLs) to synchronize narrative framing across X (formerly Twitter), Telegram, and Farcaster/Lens.
+Community Incentive Communications: Clear, unambiguous PR around points-to-token conversions, testnet rewards, and snapshot details to prevent community friction or scam impersonators.
+
+Phase 2: Launch Week (T-minus 1 Day to T+3 Days)
+Goal: Maximum reach, liquidity visibility, and immediate exchange integration.
+The "Wire + Exclusive" Drop:
+The pre-briefed Exclusive article drops simultaneously with your official TGE announcement on X.
+Issue a targeted Web3 wire distribution (via PR Newswire or specialized crypto services) for SEO saturation and exchange coverage.
+Exchange PR & Cross-Promotions: Coordinate joint press announcements and social amplification with listed exchanges (CEXs/DEXs), launchpads, and market makers.
+Direct Community Engagement:
+Host a multi-host X Space / Fireside Chat within 2-4 hours of the token going live.
+Keep technical lead and core founders available on community channels (Discord/Telegram) to manage launch-day DEX/bridge questions.
+
+Phase 3: Post-TGE (T+4 Days to Day 90)
+Goal: Combat post-launch sell pressure with fundamental progress and transparency.
+Focus Area | Core Action
+Governance & Staking | Roll out token utility features (staking, voting, fee splits) within 7-14 days of launch to incentivize holding.
+Transparency Reports | Publish clear, on-chain verifiable reports regarding circulating supply, unlocked buckets, and treasury health.
+Ecosystem Grants & Integrations | Phase 2 media pitches shifted from "The Token is Live" to product updates, mainnet milestones, and strategic ecosystem grants.
+
+3 Critical Rules for Modern TGE PR
+Anti-Sybil & Airdrop Transparency: If an airdrop is part of the launch, PR must strictly frame anti-sybil measures as protecting real users to preempt community backlash.
+Regulatory Hygiene: Avoid pricing spec, short-term ROI, or "investment opportunity" language in press releases or executive quotes. Frame the token exclusively around governance, network security, or utility/settlement.
+Unified Communications: Ensure market makers, listing exchanges, and your internal PR team are aligned on exact launch timestamps and contract address verification to protect against fake token scams.
+
+Where would you like to take your TGE preparation next?
+Draft a TGE press release template
+Outline a TGE KOL and influencer brief
+
+SOURCE LINKS:
+(none displayed. 0 source chips; the mandated script returned only two Gemini page-chrome links, which are not cited sources and are listed here for completeness: google.co.in/intl/en/about/products ; accounts.google.com/SignOutOptions)

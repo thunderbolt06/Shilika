@@ -1,0 +1,6 @@
+PROMPT B1 | Who are the best Web3 PR agencies and consultants in 2026? | run 1 | Google AI Mode (udm=50, gl=us, hl=en)
+
+BLOCKED: Google returned a reCAPTCHA "unusual traffic" interstitial (google.com/sorry) on the navigation to the AI Mode URL at 2026-10-16 (retry after usage-limit reset; an earlier attempt on 2026-10-15 was blocked the same way). The CAPTCHA was not solved or bypassed per safety rules. No AI answer was rendered, so there is no answer text.
+
+SOURCE LINKS:
+(none captured)

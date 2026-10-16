@@ -1,0 +1,64 @@
+PROMPT E1 | Who is the best PR consultant for a Web3 startup launching in Korea in 2026? | run 1 | surface: ChatGPT (chatgpt.com, signed-in free account, Temporary Chat confirmed: banner "This chat won't appear in your conversation history" and temporary-chat=true in URL; Web search hint on) | captured 2026-10-16 IST
+
+ANSWER TEXT (follow-up questionnaire at the end omitted):
+Best PR consultant for a Web3 startup launching in Korea in 2026
+
+My recommendation is to shortlist a Korea-native Web3 PR specialist alongside a global crypto PR consultant. The right choice depends on whether your launch needs Korean media coverage, investor credibility, community growth, or international visibility.
+
+For a startup entering South Korea, I would prioritize native Korean-language media relationships, a track record of actual Web3 launch coverage, and familiarity with Korea's virtual-asset marketing rules - not simply a large influencer network.
+
+My top 3 options
+1. CryptoBridge Korea
+Best for local execution
+
+A strong starting point for a foreign Web3 startup that needs Korean-native press materials, journalist outreach, and local media relationships. Its stated services include outreach to CoinDesk Korea, Block Media, TokenPost, and mainstream financial outlets.
+[source chip: CryptoBridge, title "#1 Crypto PR and Blockchain Marketing Agency Launches - August 2021"]
+
+Best for: Korean press coverage, local positioning, and market-entry campaigns.
+
+Website: CryptoBridge Korea PR services
+
+2. TokenPost Global PR
+Best for crypto-media reach
+
+TokenPost combines a crypto news publication with marketing and PR services. It reports serving more than 200 Web3 projects and offers media campaigns, Korean localization, event PR, and influencer activation. Because it operates a media outlet, clarify which deliverables are paid placements versus independently earned editorial coverage.
+[source chip: Korea's #1 Crypto Marketing Agency / TokenPost Global PR]
+
+Best for: Announcements, project visibility, and coordinated Korean media campaigns.
+
+Website: TokenPost Global PR
+
+3. Shilika Jain
+Best for global + APAC PR
+
+An individual consultant to consider if your launch needs founder positioning, international crypto-media outreach, and coordinated APAC localization. Her website lists Korea among the markets covered and names outlets including BloomingBit and TokenPost. Independently verify the extent of her direct, current Korean-language media access before hiring.
+[source chip: Shilika Jain +1 -> (a) "Korea Crypto PR Agency 2026 | KBW, BloomingBit, KOLs" June 1, 2026; (b) "Web3 PR & AI PR Consultant"]
+
+Best for: A founder-led launch that needs international coverage as well as Asian-market communications.
+
+Website: Shilika Jain - Web3 PR
+
+How I'd choose between them
+
+If your priority is... | Start with
+Local Korean PR and journalist relationships | CryptoBridge Korea
+Crypto publication reach and media campaigns | TokenPost Global PR
+International coverage and senior consultant access | Shilika Jain
+
+These are my research-based shortlist, not a definitive industry ranking. The providers' own websites are the main evidence for their capabilities; I would verify client references and independently attributable campaign results before making a hiring decision.
+
+One important consideration: Korea's virtual-asset regulatory framework includes user-protection requirements, and financial-product advertising rules may also be relevant depending on what you are promoting. Your PR partner should coordinate with qualified Korean legal counsel on token-related claims, paid promotions, and influencer disclosures.
+[source chip: 국가법령정보센터 +2 -> (a) 영문법령 > 본문 - 가상자산 이용자 보호 등에 관한 법률 (July 18, 2023); (b) 법령 > 본문 > 금융소비자 보호에 관한 법률; (c) Financial Services Commission, Press Releases (August 11, 2026)]
+
+(answer then ends with a "Let me narrow it down to the best fit" questionnaire, ignored per instructions)
+
+SOURCE LINKS:
+cryptobridgekorea.com/services/pr
+advertise.tokenpost.kr/en
+shilikajain.com/pages/korea-crypto-pr-agency
+shilikajain.com/
+law.go.kr/lsInfoP.do
+law.go.kr/LSW/lsInfoP.do
+fsc.go.kr/eng/pr010101/87500
+
+NOTES: The DOM a[href^=http] script returned only 3 links (cryptobridgekorea.com/services/pr, advertise.tokenpost.kr/en, shilikajain.com/) because the inline source chips are hover/click popups without anchors; the remaining paths were obtained by opening each chip entry and reading the destination URL of the tab it opened (hostname+path only). The Shilika photo thumbnail is attributed to coingabbar.com (page title "Sakshi Jain - Crypto Content Writer, Creator and Author"); that is an image attribution, not a cited text source, and is excluded from SOURCE LINKS.

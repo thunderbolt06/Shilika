@@ -1,0 +1,72 @@
+[
+  {
+    "id": "C1",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": true,
+    "shilika_urls": ["shilikajain.com/playbook/ai-startup-pr-agency-india-2026"],
+    "shilika_position": 0,
+    "shilika_quote": "",
+    "entities_listed": 7,
+    "competitors": ["High Vibe PR", "Crackle PR", "Treble", "Mission North", "5W Public Relations", "Hotwire", "Codeword"],
+    "source_domains": ["venturepr.com", "shadow.inc", "notablypr.com", "highvibepr.com", "cracklepr.com", "jamcopr.com", "beantownmv.com", "boltpr.com", "pikaseo.com", "poweredbysearch.com", "wsj.com", "properpropaganda.net", "shilikajain.com", "salientpr.com", "businessplusai.com", "medialyst.ai"],
+    "web_search_used": true,
+    "answer_summary": "Shortlists 7 US-focused firms (High Vibe PR, Crackle PR, Treble, Mission North, 5W, Hotwire, Codeword) plus budgets. Shilika not named; her India AI PR playbook page sits in the Sources panel under More."
+  },
+  {
+    "id": "C2",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": true,
+    "shilika_urls": ["shilikajain.com/playbook/crypto-exchange-pr-2026"],
+    "shilika_position": 0,
+    "shilika_quote": "",
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": ["panblastpr.com", "mediagraphicspr.com", "fracasdigital.com", "yapglobal.com", "coinbound.io", "everything-pr.com", "blockmm.ai", "shilikajain.com", "dev.to", "thesignal.directory", "mediaboost.press", "5wpr.com", "coinscribble.com", "slicedbrand.com", "cision.com", "muckrack.com", "axios.com", "chainwire.org"],
+    "web_search_used": true,
+    "answer_summary": "Conceptual AI vs crypto PR comparison with tables and two step-by-step playbooks; recommends no firms or consultants. Shilika not named; her crypto-exchange PR playbook page appears in Sources under More."
+  },
+  {
+    "id": "C3",
+    "ok": true,
+    "shilika_in_body": true,
+    "shilika_in_sources": true,
+    "shilika_urls": ["shilikajain.com/services/ai-startup-pr", "shilikajain.com/pages/ai-thought-leadership-agency", "shilikajain.com/blog/web3-founder-ghostwriting-bylined-op-ed-coindesk-decrypt-forbes", "shilikajain.com/pages/founder-pr-agency"],
+    "shilika_position": 1,
+    "shilika_quote": "Her published offering explicitly includes op-ed ghostwriting and placement, founder profiling and journalist outreach. Her site describes experience with AI and Web3 companies and cites Forbes and Decrypt coverage.",
+    "entities_listed": 5,
+    "competitors": ["After Comma", "Kyne", "Elegant Ink", "Total Emphasis"],
+    "source_domains": ["shilikajain.com", "aftercomma.agency", "kyne.agency", "elegantink.studio", "totalemphasis.com", "presspitchai.com", "i-midastouch.com", "nobsmarketplace.com", "cracklepr.com", "etaliahq.com", "shadow.inc"],
+    "web_search_used": true,
+    "answer_summary": "Five-provider shortlist with Shilika Jain first ('closest stated fit'), then After Comma, Kyne, Elegant Ink, Total Emphasis; publication targets, her published price table quoted, vetting tips. Four shilikajain.com pages cited."
+  },
+  {
+    "id": "C4",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_urls": [],
+    "shilika_position": 0,
+    "shilika_quote": "",
+    "entities_listed": 0,
+    "competitors": [],
+    "source_domains": ["venturebeat.com", "muckrack.com", "reuters.com", "ft.com", "theregister.com", "slicedbrand.com", "kpmg.com", "gartner.com", "prnewswire.com", "cracklepr.com"],
+    "web_search_used": true,
+    "answer_summary": "Generic strategy: five principles, five pillars, 90-day plan, channel mix, measurement; favors a fractional senior PR lead or specialist agency but names no firms. Shilika and her site absent from body and sources."
+  },
+  {
+    "id": "C5",
+    "ok": true,
+    "shilika_in_body": false,
+    "shilika_in_sources": false,
+    "shilika_urls": [],
+    "shilika_position": 0,
+    "shilika_quote": "",
+    "entities_listed": 6,
+    "competitors": ["VSC", "Mission North", "Ditto PR", "Codeword", "Crackle PR", "Notably PR"],
+    "source_domains": ["vsc.co", "missionnorth.com", "dittopr.pplx.app", "codewordagency.com", "cracklepr.com", "notablypr.com", "axios.com", "highvibepr.com", "businessinsider.com", "m.economictimes.com", "expresscomputer.in", "reuters.com", "salientpr.com"],
+    "web_search_used": true,
+    "answer_summary": "Names 6 firms (VSC, Mission North, Ditto PR, Codeword, Crackle PR, Notably PR) plus named staff and in-house comms leads. Shilika Jain and shilikajain.com absent from the body and all 35 cited links."
+  }
+]

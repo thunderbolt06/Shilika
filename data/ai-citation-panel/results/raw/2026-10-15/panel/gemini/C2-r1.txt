@@ -1,0 +1,40 @@
+PROMPT ID: C2 | PROMPT: How does AI startup PR differ from crypto PR, and what makes the playbooks different? | RUN: 1 | SURFACE: Gemini (gemini.google.com, signed-in, Temporary chat, default Flash model, 2026-10-15)
+NOTE: Sources are inline chips (no separate Sources panel); links below were read from citation popups opened via each chip. Text in [source chip: X] brackets marks where Gemini rendered a clickable source chip labelled X; the chip label is a source attribution, not prose. The answer PROSE never names Shilika Jain or shilikajain.com; 8 of the 9 chips include a citation labelled "Shilika Jain" (some chips bundle a second source: Smart Money Media or Everything-PR), and every Shilika Jain citation resolves to shilikajain.com/playbook/crypto-pr-vs-ai-pr.
+
+ANSWER TEXT:
+While both AI and crypto PR are high-velocity sectors, treating them as interchangeable "tech PR" is a common error. Running a crypto playbook on an AI startup (or vice versa) results in mismatched messaging, wasted launches, and alienating beat reporters. [source chip: Shilika Jain]
+
+The core divergence boils down to Speed & Community vs. Substance & Credibility. [source chip: Shilika Jain]
+
+Core Structural Differences (table)
+Dimension | AI Startup PR | Crypto / Web3 PR
+Primary Currency | Substance & Proof: Named enterprise customers, benchmarks, reproducible metrics. | Velocity & Hype: On-chain metrics, TVL (Total Value Locked), exchange listings, momentum.
+Target Media | TechCrunch, The Information, Bloomberg, Forbes, specialized AI sub-beat reporters. | CoinDesk, Decrypt, Cointelegraph, Blockworks, crypto-native newsletters, X / Telegram.
+Amplification Layer | Industry analysts (Gartner, Forrester), VC thought leadership, podcasts, Op-Eds. | Crypto Key Opinion Leaders (KOLs), Telegram groups, Discord communities, X (Twitter) spaces.
+Campaign Clock | Slow & Compounding: Quarters/months. Building category authority; rushing looks like "vaporware." | Fast & Concentrated: Days/weeks around fixed forcing events (token launches, mainnets, mints).
+Regulatory Risk | Capability claims, data privacy/copyright, hallucinations, safety/governance. | Price/token classification, legal liability, compliance, securities laws.
+Primary Audience | Enterprise buyers, B2B procurement, VCs, developers. | Token holders, retail liquidity, decentralized node operators, web3 developers.
+
+Key Playbook Differences
+1. The Validation Engine: Proof vs. Hype
+AI Playbook: Reporters in AI are skeptical of capability claims. The single fastest way to land coverage is providing a named customer willing to go on record with quantifiable ROI or workflow metrics. Without real customers, you need published system cards, reproducible benchmark data, or public safety evaluations. [source chip: Shilika Jain +1]
+Crypto Playbook: Proof in Web3 is public and on-chain. Success is driven by traction metrics like Total Value Locked (TVL), volume spikes, or validator count, combined with backing from tier-1 crypto VCs or ecosystem grants. [source chip: Shilika Jain]
+
+2. Communication Outlets & Distribution
+AI Playbook: Relies on top-tier mainstream tech press, tier-1 tech newsletters, and industry analyst briefings (e.g., Gartner). Additionally, GEO/AiPR (Optimizing off-site visibility so LLMs like Perplexity and ChatGPT cite your brand in answer engine queries) is a core component. [source chip: Shilika Jain]
+Crypto Playbook: Bypasses traditional media in favor of crypto-native outlets, Crypto Twitter (X), Telegram, and Discord. Coverage in specialized outlets (e.g., CoinDesk, The Block) validates the narrative to the community. [source chip: Shilika Jain +1]
+
+3. Founder Narrative & Executive Presence
+AI Playbook: The founder must act as a thought leader and researcher/practitioner. They need to publish deeply (Substack, Op-Eds, whitepapers) on technical architecture, category definition, or ethical AI stance. [source chip: Shilika Jain +1]
+Crypto Playbook: The founder acts as a community operator and evangelist. They must be visible, rapid on X/Telegram, engage in live audio spaces, and react quickly to market cycles or protocol updates. [source chip: Shilika Jain]
+
+4. Managing Category Risk
+AI Risk Management: Focuses on demystifying the product, clearing security audits (SOC 2, ISO 27001), addressing job displacement concerns, and being transparent about model limitations/hallucinations. [source chip: Everything-PR]
+Crypto Risk Management: Extremely tight discipline around financial language. Founders and PR teams must strictly avoid promising returns, speculating on token prices, or using language that could trigger securities regulations.
+
+Want me to break down how to optimize an AI startup's PR specifically for AI answer engines (GEO/AiPR)? [Yes button]
+
+SOURCE LINKS:
+shilikajain.com/playbook/crypto-pr-vs-ai-pr
+smartmoneymedia.org/guides/ai-startup-pr
+everything-pr.com/communicating-ai-technologies-has-never-been-easier-by-tapping-into-pr

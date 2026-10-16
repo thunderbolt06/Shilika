@@ -1,0 +1,162 @@
+PROMPT A4 | Should an AI startup hire a fractional PR consultant or a PR agency? | run 1 | surface: ChatGPT (chatgpt.com, signed-in free account, Temporary Chat, hints=search; page showed "Temporary chat - This chat won't appear in your conversation history"; URL after submit carried temporary-chat=true) | captured 2026-10-16 (recapture using the "..." > "View sources" panel; the 2026-10-15 capture in ../chatgpt-prev-attempt-r1/ missed the sources panel and wrongly recorded no shilikajain.com source) | note: em/en dashes in the captured answer normalized to hyphens
+
+ANSWER TEXT (get_page_text; "[chip]" lines are citation chip labels, not prose; the prompt was echoed with a "Web search" hint chip; tables re-flowed as pipe rows; the trailing follow-up questionnaire is omitted):
+
+Should an AI startup hire a fractional PR consultant or a PR agency?
+
+My recommendation: start with a senior fractional PR consultant if you're an early-stage AI startup, and move to an agency when you need more execution capacity, broader market coverage, or a sustained communications operation.
+
+For most pre-seed to Series A AI startups, the scarce resource isn't the number of people sending pitches. It's having someone who can turn a technically complex product into a compelling story, build trust with the right journalists, and help founders earn credible coverage.
+
+The choice changes if you're launching in multiple countries, managing a major funding announcement, or need PR, events, content, and executive communications running simultaneously. Industry guidance on AI startup PR draws a similar distinction between senior, hands-on expertise and the greater capacity of an agency.
+[chip] Shilika Jain +1
+
+1. Fractional consultant vs. PR agency
+Option A: Fractional PR consultant
+Best starting point for most early-stage startups
+
+A senior PR professional works with you part-time, typically providing strategic guidance and personally executing important communications work.
+
+Strengths
+- Direct access to an experienced communications operator.
+- Sharper positioning for a differentiated AI product.
+- Closer collaboration with the CEO and founding team.
+- Lower overhead and more flexible engagement terms.
+
+Trade-off: One person's time, network, and execution capacity are limited.
+
+Option B: PR agency
+Best when scale and execution matter
+
+A team coordinates media relations, press materials, campaign execution, and potentially multiple markets or communications channels.
+
+Strengths
+- More people to execute parallel campaigns.
+- Broader specialist capabilities and market coverage.
+- Better suited to sustained, high-volume communications.
+- Additional capacity for launches, events, and ongoing media engagement.
+
+Trade-off: You must verify who actually leads your account and does the pitching; a larger team doesn't automatically mean more senior attention.
+
+2. What should an AI startup expect to pay?
+
+Pricing depends heavily on geography, seniority, deliverables, and whether you want local or international media coverage.
+
+For a startup selling internationally, these are useful indicative monthly budget ranges, not standardized market rates.
+
+| Fractional consultant | PR agency
+US/global specialist PR | $3,000-$7,000+ | $7,500-$15,000+ for a boutique firm; larger firms can cost substantially more
+India-focused PR | INR 50,000-INR 1.5 lakh+ | INR 75,000-INR 3 lakh+
+Main advantage | Senior expertise per dollar | Team capacity and breadth
+Typical commitment | Flexible or scoped engagement | Often a multi-month retainer
+
+Published 2026 pricing guides report fractional AI PR engagements around $3,000-$7,000 per month and full-service specialist agency retainers around $15,000-$45,000, while Indian agency retainers vary widely by scope. Treat all figures as starting benchmarks and validate them against actual proposals.
+[chip] Shilika Jain +3
+
+Important: Don't compare prices alone. Compare the amount of work performed by the senior person, the markets covered, and the quality of media relationships you are actually buying.
+
+3. Which model fits your startup stage?
+
+Pre-seed: Founder-led PR, with occasional expert help
+You are still discovering your positioning and product-market fit. Start with founder-led storytelling, targeted journalist relationships, and selective consulting when you have a meaningful announcement.
+
+Seed to Series A: Fractional PR
+You have a credible product, initial customers or technical proof, and a clear story to tell. Hire a senior operator who can own the narrative, pitch journalists, prepare the founder for interviews, and build repeatable media momentum.
+
+Series A to B and beyond: Agency or hybrid model
+You have regular announcements, multiple audiences, expansion plans, or a sustained need for press coverage. Consider an agency, potentially paired with an internal communications owner or fractional strategic lead.
+
+This is a practical rule of thumb, not a rigid funding-stage rule. The real question is whether you have enough credible news and ongoing work to keep the engagement productive.
+[chip] Melivana +1
+
+4. What makes PR different for an AI startup?
+
+AI PR is not just conventional technology PR with an AI label. Reporters need to understand what your product actually does, how it performs, and why it matters beyond the current AI hype cycle.
+[chip] Clickstrike +1
+
+Whichever model you choose, your PR partner should be able to do five things:
+- Develop a differentiated narrative: Explain the problem you solve without relying on generic claims such as "AI-powered" or "revolutionary."
+- Understand technical proof: Translate benchmarks, research, customer outcomes, or open-source contributions into stories journalists can independently evaluate.
+- Build founder visibility: Create a credible point of view on where the industry is heading, not just promote product announcements.
+- Target the right publications: Choose between business press, AI and technology publications, specialist trade media, and regional outlets according to your buyers and investors.
+- Connect coverage to business outcomes: Track qualified inbound, relevant investor conversations, branded search, and useful third-party credibility - not just the number of articles published.
+
+An experienced fractional consultant who can deliver these things directly may be more valuable than a larger agency whose senior team appears only at the pitch meeting.
+
+5. How I would structure the engagement
+
+Rather than signing a long agency retainer immediately, start with a focused 90-day engagement.
+
+Weeks 1-2: Positioning and readiness
+Develop the company narrative, identify defensible claims, map relevant journalists, and gather customer or technical evidence.
+
+Weeks 3-6: Targeted outreach
+Pitch a small number of well-matched journalists, pursue relevant expert commentary, and prepare the founder for interviews.
+
+Weeks 7-12: Build momentum
+Develop follow-on stories, founder bylines, customer case studies, and a repeatable outreach process.
+
+At day 90: Evaluate and decide
+Review the quality of journalist engagement, resulting coverage, relevant inbound, narrative clarity, and execution capacity. Continue, change the approach, or expand to an agency if the workload warrants it.
+
+Do not judge the engagement solely by whether a particular article appeared within 90 days. Editorial timelines are uncertain, and good media relationships take time. Instead, evaluate the quality of the pipeline and the strategic progress alongside actual results.
+[chip] Stackmatix +1
+
+6. Questions to ask before hiring either
+
+Use these questions to evaluate both candidates on equal terms.
+
+Hiring checklist (0 of 7 reviewed)
+- Who will personally develop our narrative and pitch journalists?
+- Which journalists and publications have you worked with on comparable AI stories?
+- Can you show examples of relevant earned coverage, not just press-release distribution?
+- How will you handle our technical claims, customer proof, and founder positioning?
+- What exactly is included in the retainer, and what costs extra?
+- What will we review monthly, and what would cause you to change strategy?
+- Can we start with a 90-day engagement and agree on an exit clause?
+
+Avoid anyone who guarantees editorial placements in specific publications or relies on bulk press-release distribution as the main strategy.
+
+My final recommendation
+
+For an early-stage AI startup, I would hire a senior fractional PR consultant first, with a clearly scoped 90-day mandate. Keep the founder involved, prioritize a handful of high-value stories, and establish evidence that PR is helping your business before committing to a full-service agency.
+
+I would choose an agency sooner if you already have a major launch or funding round, need several markets covered at once, or require a team to execute multiple campaigns in parallel.
+
+[Follow-up questionnaire ("To make this recommendation more specific to your situation, one question": stage, market, objective, budget, "Get a tailored recommendation") omitted per instructions; not interacted with.]
+
+SOURCE LINKS:
+(Sources panel, "Sources" section = cited sources, displayed order; 11 items)
+shilikajain.com/blog/fractional-pr-for-ai-startups-how-it-works
+prpitcher.com/for/fractional-pr
+shilikajain.com/playbook/fractional-pr-cost-pricing-2026
+shilikajain.com/playbook/ai-pr-agency-pricing-packages-2026
+melivana.com/research/india-pr-pricing-report/
+bluebuzz.in/how-much-does-a-pr-agency-cost-in-india-2026-pricing-guide/
+melivana.com/research/startup-pr-benchmark/
+stackmatix.com/blog/startup-pr-strategy
+clickstrike.com/blog/pr-for-ai-companies/
+smartmoneymedia.org/guides/ai-startup-pr
+mediagraphicspr.com/blogs/the-earned-media-trap-why-tech-startups-need/
+(Sources panel, "More" section = additional pages ChatGPT consulted but did not cite inline, displayed order; 15 items)
+macrolingo.com/pr-for-ai-search-performance/
+dtsworld.in/blog/how-much-does-pr-cost-in-india-agency-pricing-retainer-guide
+womencanstartup.com/blogs/best-pr-agencies-for-startups-in-india
+zutsumedia.com/post/what-pr-agency-does-cost-india
+shilikajain.com/playbook/ai-startup-pr-agency-india-2026
+shilikajain.com/playbook/when-to-hire-fractional-pr-2026
+pressfriendly.com/blog/what-startup-pr-costs/
+beantownmv.com/how-much-does-startup-pr-cost/
+shilikajain.com/playbook/ai-startup-pr-2026
+smartmoneymedia.org/blog/startup-pr-founders-guide-building-authority
+mentionagent.ai/blog/startup-pr/
+verifiedcomms.com/fractional-pr-consultant-vs-agency/
+presspilot.io/academy/should-i-hire-a-pr-agency
+cracklepr.com/playbooks/ai-startup-pr-playbook
+aajconsult.com/playbooks/earned-media-playbook
+
+CAPTURE NOTES:
+- The answer body contained no inline "further reading" anchors; the whole-page link script returned only the Sources panel links plus the ChatGPT UI anchor help.openai.com/en/articles/8590148-memory-faq, which is excluded.
+- Panel display titles for the shilikajain.com entries: "Fractional PR for AI Startups: How It Works and What It Costs" (October 1, 2026), "Fractional PR Cost and Monthly Retainer Pricing in 2026" (June 23, 2026), "AI PR Agency Pricing and Packages in 2026" (June 23, 2026); More: "Best AI Startup PR Agencies in India in 2026 | Shilika Jain" (June 23, 2026), "When Should a Startup Hire Fractional PR in 2026? | Shilika Jain" (June 23, 2026), plus one more shilikajain.com page (ai-startup-pr-2026) in the expanded More list.
+- Cited sources include one tool vendor (Pitcher, "PR software for fractional communications leads") and several India pricing guides; none is a named recommendation in the prose.
+- "Shilika Jain" appears in the answer only as the label of a citation chip (source site name). The prose never names her or shilikajain.com as a provider and recommends no named firm.

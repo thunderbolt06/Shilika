@@ -1,0 +1,40 @@
+id: BR4 | query: Which Web3 and AI companies has Shilika Jain done PR for? | surface: claude.ai (signed-in, Incognito chat, model Opus 5.5 Medium, web search used: 2 searches) | captured: 2026-10-15
+(Note: dashes in captured page text normalised to hyphens. No connector was invoked.)
+
+ANSWER:
+Based on her public profiles, here’s what I found:
+
+Web3 projects she’s led PR for: At Myosin DAO, she has run PR and partnership efforts for names like NEAR, Chainbase, and Talent Protocol. [citation chip: icebreaker]
+
+Companies listed on her profile: web3auth.io, beyondnetwork.xyz, cloudless.dev, bloom360.io, momentum6.com, coinmarketcap.com, and reef.io. These look like a mix of clients and past employers. She was previously APAC Lead at CoinMarketCap. [icebreaker x2]
+
+AI companies: I couldn’t find any AI company named as a confirmed PR client. She says she works on PR across crypto, Web3, AI, and infra, and describes herself as doing fractional PR for Web3 and AI founders. She has also written about AI-related Web3 projects, like an interview with Gaia’s co-founder on building payments for AI agents, but that’s authorship, not necessarily client work. [citation chips: linkedin shilika +2]
+
+For a full client list, her LinkedIn or a direct ask would be the most reliable source.
+
+SEARCHES RUN (shown in "Searched the web" block):
+1. Shilika Jain PR Web3 AI -> results: app.icebreaker.xyz (linkedin shilika), dev.to, medialegacy1.dev.to, hello.cv (Nishil Jain), cryptodaily.co.uk, radicalxchange.org (shrey jain), theweek.in, anialexander.substack.com, hackernoon.com (x2 entries)
+2. Shilika Jain Myosin PR clients -> results: businessworld.in, tofler.in (x2), app.dealroom.co (Myosin Therapeutics, wrong entity), foley.com (Myosin-2 inhibitor, wrong entity), innovate.research.ufl.edu (Myosin Therapeutics, wrong entity), qorpiq.com, mbi.ucla.edu, tofler.in (SHILPI JAIN)
+
+OBSERVATION: shilikajain.com was NOT retrieved or cited for this query. The answer says it found no confirmed AI-company client and did not name Gaia AI, CoinMarketCap-led work or Polygon from the site (BR1 had cited the site for Gaia AI, CoinMarketCap and Polygon). Client names given (NEAR, Chainbase, Talent Protocol, web3auth.io etc.) came from the Icebreaker profile and are described by Claude as a possible mix of clients and past employers.
+
+SOURCE LINKS:
+app.icebreaker.xyz/profiles/linkedin-shilika
+dev.to/shilika
+medialegacy1.dev.to/shilika_b760a675f394e9bd3
+hello.cv/nishiljain
+cryptodaily.co.uk/author/ShilikaJain
+radicalxchange.org/speakers/shrey-jain
+theweek.in/news/biz-tech/2022/08/03/entrepreneur-lakshay-Jain-states-mevrex-will-be-launching-new-web3-brands-soon.amp.html
+anialexander.substack.com/p/at-the-crossroads-of-web3-and-ai
+hackernoon.com/about/annalooksup
+businessworld.in/article/business-leaders-and-their-pathbreaking-ideas-that-would-shape-2023-business-game-464379
+tofler.in/shilki-jain/director/06988014
+app.dealroom.co/companies/myosin_therapeutics/team
+foley.com/
+tofler.in/shilpa-jain/director/03095274
+innovate.research.ufl.edu/tag/mt-110
+qorpiq.com/director/silky-jain/07725613
+mbi.ucla.edu/
+tofler.in/shilpi-jain/director/09052552
+support.claude.com/en/articles/13345190-get-started-with-claude-cowork   [UI banner link about permission mode, not a cited source]
