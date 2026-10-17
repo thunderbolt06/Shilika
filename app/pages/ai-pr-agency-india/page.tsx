@@ -14,13 +14,25 @@ export const metadata: Metadata = {
     description: 'PR that earns both Indian and international tech coverage for a global-facing AI startup.',
     url: `${SITE_URL}/pages/ai-pr-agency-india`,
     type: 'website',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/india.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'India PR: own the home market first. Inc42, Economic Times and Forbes India. Photo: Shilika Jain at the Stablecoin Summit 2023 photo wall.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'AI PR Agency India 2026 | Global-From-Day-One',
     description: 'PR that earns both Indian and international tech coverage for a global-facing AI startup.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/india.jpg`,
+        alt: 'India PR: own the home market first. Inc42, Economic Times and Forbes India. Photo: Shilika Jain at the Stablecoin Summit 2023 photo wall.',
+      },
+    ],
   },
 };
 

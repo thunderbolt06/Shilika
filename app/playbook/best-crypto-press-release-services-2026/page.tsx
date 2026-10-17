@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'A criteria-led look at the main crypto PR-distribution services, what they really deliver, and the cheaper earned-media alternative.',
     url: `${SITE_URL}/playbook/best-crypto-press-release-services-2026`,
     type: 'article',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/content.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Content writing for founders: op-eds, whitepapers. For Web3 and AI teams. Photo: Shilika Jain in a pink dress by the Singapore River with the old bridge behind her.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Best Crypto Press Release Services Compared in 2026',
     description: 'A criteria-led look at the main crypto PR-distribution services, what they really deliver, and the cheaper earned-media alternative.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/content.jpg`,
+        alt: 'Content writing for founders: op-eds, whitepapers. For Web3 and AI teams. Photo: Shilika Jain in a pink dress by the Singapore River with the old bridge behind her.',
+      },
+    ],
   },
 };
 

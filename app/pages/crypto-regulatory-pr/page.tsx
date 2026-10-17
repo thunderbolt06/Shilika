@@ -14,13 +14,25 @@ export const metadata: Metadata = {
     description: 'Communications built around real regulatory constraints: what you can say, how to say it, and how to keep momentum without overreaching.',
     url: `${SITE_URL}/pages/crypto-regulatory-pr`,
     type: 'website',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/web3.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Web3 PR that lands Tier-1 headlines. Forbes, CoinDesk, Cointelegraph, Decrypt and The Block. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Crypto Regulatory PR 2026 | Compliance-Aware Communications',
     description: 'Communications built around real regulatory constraints: what you can say, how to say it, and how to keep momentum without overreaching.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/web3.jpg`,
+        alt: 'Web3 PR that lands Tier-1 headlines. Forbes, CoinDesk, Cointelegraph, Decrypt and The Block. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
 };
 

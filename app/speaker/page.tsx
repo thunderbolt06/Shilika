@@ -14,13 +14,25 @@ export const metadata: Metadata = {
     description: 'Fractional PR manager for Web3, AI and cybersecurity founders. Six speaker topics. APAC operator. 50+ protocols. Forbes, CoinDesk, Cointelegraph, Decrypt, Blockworks, AI Magazine placements.',
     url: 'https://www.shilikajain.com/speaker',
     type: 'profile',
-    images: [{ url: 'https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg', width: 1200, height: 628 }],
+    images: [
+      {
+        url: 'https://www.shilikajain.com/assets/media/og/speaker.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Keynotes on Web3, AI & cybersecurity PR. Binary Summit Bangkok, India Blockchain Week 2024, Web3 Conf Goa. Photo: Shilika Jain speaking on stage with a microphone in front of a presentation screen.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Speaker: Shilika Jain, Web3, AI & Cybersecurity PR Keynotes',
     description: 'Book Shilika Jain for keynotes, panels, fireside chats, workshops and podcasts on Web3 PR, AI startup comms and APAC press windows.',
-    images: ['https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg'],
+    images: [
+      {
+        url: 'https://www.shilikajain.com/assets/media/og/speaker.jpg',
+        alt: 'Keynotes on Web3, AI & cybersecurity PR. Binary Summit Bangkok, India Blockchain Week 2024, Web3 Conf Goa. Photo: Shilika Jain speaking on stage with a microphone in front of a presentation screen.',
+      },
+    ],
   },
 };
 

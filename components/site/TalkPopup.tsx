@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 import { usePathname } from 'next/navigation';
 import { splitLocalePath } from '@/lib/i18n/config';
 import { withEm } from '@/lib/i18n/rich';
+import { hashPick, regionOf } from './media-region';
 import EN from '@/lib/i18n/ui.en.json';
 
 /**
@@ -17,6 +18,30 @@ const ACTIVE_MS = 30_000;
 const SEEN_KEY = 'sj_talk_popup_seen';
 const TELEGRAM_URL = 'https://t.me/shilika3';
 const CALENDLY_URL = 'https://calendly.com/shilikajain/30min/';
+
+/**
+ * Round portrait at the top of the card: the square crop of a smiling photo from the media
+ * library (public/assets/media/photos). The popup can open on any page, so the photo follows the
+ * page (docs/media-system.md, rule 4): Singapore and Hong Kong pages get a photo from there, a page
+ * about any other place (or several) an event or neutral one, and a global page any of them.
+ * Plain strings instead of lib/media/manifest.json keep the whole manifest out of the client
+ * bundle. Decorative: the title and buttons carry the meaning.
+ */
+const avatar = (id: string) => ({
+  src: `/assets/media/photos/${id}-sq-320.webp`,
+  srcSet: `/assets/media/photos/${id}-sq-320.webp 320w, /assets/media/photos/${id}-sq-640.webp 640w`,
+});
+const NEUTRAL = ['lounge', 'stage-b', 'stablecoin-summit'].map(avatar); // place: neutral or event
+const SINGAPORE = ['sg-bridge-a', 'sg-marina-b', 'sg-marina-c'].map(avatar);
+const HONG_KONG = ['depin-day-hk'].map(avatar);
+
+function avatarFor(pathname: string) {
+  const path = splitLocalePath(pathname).path;
+  const region = regionOf(path);
+  const pool =
+    region === 'singapore' ? SINGAPORE : region === 'hong-kong' ? HONG_KONG : region === 'other' ? NEUTRAL : [...NEUTRAL, ...SINGAPORE, ...HONG_KONG];
+  return pool[hashPick(path, pool.length)];
+}
 
 function excluded(path: string) {
   return path.startsWith('/admin') || path.startsWith('/thank-you');
@@ -85,6 +110,8 @@ export default function TalkPopup({ strings }: { strings?: Record<string, string
 
   if (!open) return null;
 
+  const portrait = avatarFor(pathname);
+
   return (
     <div className="talk-pop" role="presentation" onClick={() => setOpen(false)}>
       <div
@@ -105,10 +132,14 @@ export default function TalkPopup({ strings }: { strings?: Record<string, string
         </button>
         <img
           className="talk-pop__photo"
-          src="/assets/shilika-portrait-1080.jpg"
-          alt="Shilika Jain"
+          src={portrait.src}
+          srcSet={portrait.srcSet}
+          sizes="72px"
+          alt=""
           width={72}
           height={72}
+          decoding="async"
+          style={{ background: 'var(--paper-2)' }}
         />
         <p className="talk-pop__eyebrow">{t('talk.eyebrow')}</p>
         <h2 id="talk-pop-title" className="talk-pop__title">

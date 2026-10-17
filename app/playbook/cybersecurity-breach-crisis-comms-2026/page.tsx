@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'When you are the breach, not the researcher. The first-hour playbook, the holding statement, and how to communicate through an incident.',
     url: `${SITE_URL}/playbook/cybersecurity-breach-crisis-comms-2026`,
     type: 'article',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/cyber.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Cybersecurity PR from a senior operator. Fractional, hands-on, built for security founders. Photo: Shilika Jain seated in a wood-panelled library lounge lined with leather-bound books.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Cybersecurity Breach and Crisis Communications in 2026',
     description: 'When you are the breach, not the researcher. The first-hour playbook, the holding statement, and how to communicate through an incident.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/cyber.jpg`,
+        alt: 'Cybersecurity PR from a senior operator. Fractional, hands-on, built for security founders. Photo: Shilika Jain seated in a wood-panelled library lounge lined with leather-bound books.',
+      },
+    ],
   },
 };
 

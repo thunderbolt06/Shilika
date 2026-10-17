@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'Korea PR for Web3 and AI founders. BloomingBit, TokenPost, BlockMedia, Coinness, CoinReaders, Yonhap, Chosun Biz, Maeil Business. FSC and DABA-aware framing, Korea Blockchain Week Walkerhill Sep 29 to Oct 1 2026, KRW-stablecoin frame.',
     url: `${SITE_URL}/korea`,
     type: 'website',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/korea.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Korea PR: the FSC frame is paragraph one. BloomingBit, TokenPost and KBW Seoul. Photo: Shilika Jain smiling mid-talk on stage, microphone in hand.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Korea Web3 & AI PR 2026: BloomingBit, TokenPost, KBW Seoul',
     description: 'Korea PR for Web3 and AI founders. FSC-aware framing, KBW 2026 calendar, KRW-stablecoin and DABA anchor.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/korea.jpg`,
+        alt: 'Korea PR: the FSC frame is paragraph one. BloomingBit, TokenPost and KBW Seoul. Photo: Shilika Jain smiling mid-talk on stage, microphone in hand.',
+      },
+    ],
   },
 };
 

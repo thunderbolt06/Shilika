@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'Asia does not read your news when you publish it. The three regional press windows, the translation lag, and how to time a launch across them.',
     url: `${SITE_URL}/playbook/apac-press-windows-2026`,
     type: 'article',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/apac.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'APAC PR that is not a translated press release. Korea, Japan, India, Singapore and MENA. Photo: Shilika Jain leaning on the Marina Bay railing with the Singapore skyline across the water.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'The Three APAC Press Windows: Timing Crypto News for Asia in 2026',
     description: 'Asia does not read your news when you publish it. The three regional press windows, the translation lag, and how to time a launch across them.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/apac.jpg`,
+        alt: 'APAC PR that is not a translated press release. Korea, Japan, India, Singapore and MENA. Photo: Shilika Jain leaning on the Marina Bay railing with the Singapore skyline across the water.',
+      },
+    ],
   },
 };
 

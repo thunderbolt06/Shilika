@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'Forbes, Decrypt, Benzinga, CryptoDaily, Binance Square. A 2025 AI PR campaign teardown by Shilika Jain, fractional PR manager.',
     url: 'https://www.shilikajain.com/work/gaia-ai',
     type: 'article',
-    images: [{ url: 'https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg', width: 1200, height: 628 }],
+    images: [
+      {
+        url: 'https://www.shilikajain.com/assets/media/og/work-gaia-ai.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'How we placed the Stripe for AI agents. Photo: Shilika Jain at the Marina Bay railing with the Singapore financial district skyline behind her.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Gaia AI Case Study: Placing the Stripe for AI Agents in Forbes',
     description: 'Forbes, Decrypt, Benzinga, CryptoDaily, Binance Square. A 2025 AI PR campaign teardown by Shilika Jain, fractional PR manager.',
-    images: ['https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg'],
+    images: [
+      {
+        url: 'https://www.shilikajain.com/assets/media/og/work-gaia-ai.jpg',
+        alt: 'How we placed the Stripe for AI agents. Photo: Shilika Jain at the Marina Bay railing with the Singapore financial district skyline behind her.',
+      },
+    ],
   },
 };
 

@@ -16,6 +16,14 @@ export const metadata: Metadata = {
     description: '122 long-form playbooks from inside Web3, AI & cybersecurity PR.',
     url: `${SITE_URL}/playbook`,
     type: 'website',
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/playbook.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'The PR playbook for Web3 & AI founders. Guides on Tier-1 pitching, launch PR, KOLs and AI-search citations. Photo: Shilika Jain in a floral dress on a Marina Bay footbridge with the Singapore skyline behind her.',
+      },
+    ],
   },
 };
 

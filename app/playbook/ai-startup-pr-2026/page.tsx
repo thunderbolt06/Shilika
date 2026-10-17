@@ -23,9 +23,10 @@ export const metadata: Metadata = {
     tags: ['AI startup PR', 'Generative engine optimization', 'AI Overviews', 'Founder profiling'],
     images: [
       {
-        url: 'https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg',
+        url: 'https://www.shilikajain.com/assets/media/og/ai.jpg',
         width: 1200,
-        height: 628,
+        height: 630,
+        alt: 'AI PR with analyst-grade credibility. Tier-1 AI coverage, plus the AI-search work that gets you cited. Photo: Shilika Jain speaking on stage with a microphone in front of a presentation screen.',
       },
     ],
   },
@@ -34,7 +35,12 @@ export const metadata: Metadata = {
     title: 'PR Strategy for AI Startups in 2026: The Playbook',
     description:
       'Positioning, narrative architecture, journalist mapping, AI Overviews citations and a Gaia AI worked example for AI founders in 2026.',
-    images: ['https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg'],
+    images: [
+      {
+        url: 'https://www.shilikajain.com/assets/media/og/ai.jpg',
+        alt: 'AI PR with analyst-grade credibility. Tier-1 AI coverage, plus the AI-search work that gets you cited. Photo: Shilika Jain speaking on stage with a microphone in front of a presentation screen.',
+      },
+    ],
   },
 };
 

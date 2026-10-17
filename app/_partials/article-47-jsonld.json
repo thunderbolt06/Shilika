@@ -14,9 +14,9 @@
       },
       "image": {
         "@type": "ImageObject",
-        "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+        "url": "https://www.shilikajain.com/assets/media/og/singapore.jpg",
         "width": 1200,
-        "height": 628
+        "height": 630
       },
       "wordCount": 2020,
       "timeRequired": "PT9M",
@@ -35,7 +35,7 @@
       ],
       "inLanguage": "en",
       "datePublished": "2026-06-23",
-      "dateModified": "2026-06-23",
+      "dateModified": "2026-10-17",
       "about": [
         { "@type": "Thing", "name": "Crypto PR" },
         { "@type": "Thing", "name": "Singapore crypto ecosystem" },
@@ -55,7 +55,7 @@
         { "@type": "Organization", "name": "CryptoTimes JP" },
         { "@type": "Organization", "name": "MANTRA Chain" },
         { "@type": "Organization", "name": "Fluence Network" },
-        { "@type": "Event", "name": "Token2049 Singapore" },
+        { "@type": "Event", "name": "Token2049 Singapore 2026", "startDate": "2026-10-07", "endDate": "2026-10-08", "eventStatus": "https://schema.org/EventScheduled", "location": { "@type": "Place", "name": "Marina Bay Sands", "address": "Singapore" } },
         { "@type": "Organization", "name": "Monetary Authority of Singapore" }
       ],
       "author": {
@@ -114,6 +114,14 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Start eight weeks out by identifying which reporters are attending and pitching them a specific story angle before the event. Secure any exclusives four weeks out so the reporter has time to do real editorial work. During the week, run structured thirty-minute media briefings, not sales presentations. The week after, send a targeted follow-up to every reporter you met with one piece of supporting material. The founders who miss Token2049 are the ones who only plan for the event week itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Token2049 Singapore 2026 has ended. What should a founder do for PR now?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send follow-ups to every reporter you met right away, because recap and trend pieces get written in the 7 to 10 days after the event. Then turn the theme you raised on-site into a bylined op-ed within 30 days. For the next Singapore news hook, plan around Singapore FinTech Festival on 18 to 20 November 2026. Token2049 Singapore 2027 dates are not published yet, so start the eight-week runway once the organiser announces them."
           }
         },
         {

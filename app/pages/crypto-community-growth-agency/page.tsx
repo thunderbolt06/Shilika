@@ -14,13 +14,25 @@ export const metadata: Metadata = {
     description: 'Build a community that converts, with KOL, content and PR working together rather than in silos.',
     url: `${SITE_URL}/pages/crypto-community-growth-agency`,
     type: 'website',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/kol.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Web3 KOL marketing with 200+ vetted creators. FTC-safe campaigns. Photo: Shilika Jain in a pink dress and sunglasses on the Singapore River at dusk.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Crypto Community Growth Agency 2026 | Real Audiences',
     description: 'Build a community that converts, with KOL, content and PR working together rather than in silos.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/kol.jpg`,
+        alt: 'Web3 KOL marketing with 200+ vetted creators. FTC-safe campaigns. Photo: Shilika Jain in a pink dress and sunglasses on the Singapore River at dusk.',
+      },
+    ],
   },
 };
 

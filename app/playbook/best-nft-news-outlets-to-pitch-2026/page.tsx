@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'A working media list for NFT coverage: which outlets run what, how their desks differ, and how to pitch each one without wasting the shot.',
     url: `${SITE_URL}/playbook/best-nft-news-outlets-to-pitch-2026`,
     type: 'article',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/web3.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Web3 PR that lands Tier-1 headlines. Forbes, CoinDesk, Cointelegraph, Decrypt and The Block. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Best NFT News Outlets to Pitch in 2026',
     description: 'A working media list for NFT coverage: which outlets run what, how their desks differ, and how to pitch each one without wasting the shot.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/web3.jpg`,
+        alt: 'Web3 PR that lands Tier-1 headlines. Forbes, CoinDesk, Cointelegraph, Decrypt and The Block. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
 };
 

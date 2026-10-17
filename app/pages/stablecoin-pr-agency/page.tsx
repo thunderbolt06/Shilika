@@ -14,13 +14,25 @@ export const metadata: Metadata = {
     description: 'A trust-first stablecoin narrative built on reserves, audits and regulation, not yield.',
     url: `${SITE_URL}/pages/stablecoin-pr-agency`,
     type: 'website',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/token-launch.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Token launch PR: TGE comms, exchange and KOL waves. Photo: Shilika Jain in a black blazer beside the TOKEN2049 Singapore sign in the conference hall.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Stablecoin PR Agency 2026 | Trust-First Comms',
     description: 'A trust-first stablecoin narrative built on reserves, audits and regulation, not yield.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/token-launch.jpg`,
+        alt: 'Token launch PR: TGE comms, exchange and KOL waves. Photo: Shilika Jain in a black blazer beside the TOKEN2049 Singapore sign in the conference hall.',
+      },
+    ],
   },
 };
 

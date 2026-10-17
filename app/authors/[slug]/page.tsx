@@ -6,6 +6,8 @@ import { BlogFooter, BlogHeader } from '@/components/blog/BlogChrome';
 import { getAuthor } from '@/lib/blog';
 import { getServerSupabase } from '@/lib/supabase/server';
 import type { BlogPost } from '@/lib/supabase/types';
+import { Photo } from '@/components/site/Media';
+import { ogImage } from '@/lib/i18n/og';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
@@ -19,6 +21,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   const author = await safeGetAuthor(slug);
   if (!author) return {};
   const url = `${SITE_URL}/authors/${author.slug}`;
+  const card = ogImage(`/authors/${author.slug}`, SITE_URL);
   return {
     title: `${author.name} - ${author.title}`,
     description: author.bio,
@@ -28,15 +31,13 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
       title: author.name,
       description: author.bio,
       url,
-      images: author.image_url
-        ? [{ url: author.image_url, width: 1080, height: 1080 }]
-        : undefined,
+      images: [card],
     },
     twitter: {
       card: 'summary_large_image',
       title: author.name,
       description: author.bio,
-      images: author.image_url ? [author.image_url] : undefined,
+      images: [{ url: card.url, alt: card.alt }],
     },
   };
 }
@@ -71,6 +72,9 @@ export default async function AuthorPage({ params }: { params: Params }) {
 
   const posts = await listPostsByAuthor(slug);
   const url = `${SITE_URL}/authors/${author.slug}`;
+  // Shilika's profile uses a close portrait from the media library; any other author keeps
+  // the image stored with their record.
+  const portraitId = /shilika/i.test(author.name) ? 'sg-bridge-a' : null;
 
   const ld = {
     '@context': 'https://schema.org',
@@ -118,15 +122,26 @@ export default async function AuthorPage({ params }: { params: Params }) {
 
         <header className="mx-auto max-w-3xl px-6 pt-16 pb-12">
           <div className="flex flex-col gap-6 md:flex-row md:items-start">
-            {author.image_url && (
-              // eslint-disable-next-line @next/next/no-img-element
-              <img
-                src={author.image_url}
-                alt={author.name}
-                width={160}
-                height={160}
+            {portraitId ? (
+              <Photo
+                id={portraitId}
+                crop="sq"
+                sizes="160px"
+                priority
+                pictureClassName="block shrink-0"
                 className="h-40 w-40 rounded-full object-cover"
               />
+            ) : (
+              author.image_url && (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img
+                  src={author.image_url}
+                  alt={author.name}
+                  width={160}
+                  height={160}
+                  className="h-40 w-40 rounded-full object-cover"
+                />
+              )
             )}
             <div>
               <p className="font-mono text-xs uppercase tracking-widest text-ink/60">

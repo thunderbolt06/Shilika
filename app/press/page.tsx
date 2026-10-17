@@ -17,7 +17,14 @@ export const metadata: Metadata = {
       'Selected tier-1 media placements across Forbes, CoinDesk, Cointelegraph, Decrypt, Blockworks and The Block.',
     url: `${SITE_URL}/press`,
     type: 'website',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/press.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Where the stories land. Forbes, CoinDesk, Cointelegraph, Decrypt, The Block and more. Photo: Shilika Jain in front of a red Press Lounge wall at the Consensus conference.',
+      },
+    ],
   },
 };
 

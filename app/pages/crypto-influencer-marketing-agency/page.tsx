@@ -14,13 +14,25 @@ export const metadata: Metadata = {
     description: 'Influencer campaigns measured on cost-per-wallet and on-chain attribution, not vanity reach.',
     url: `${SITE_URL}/pages/crypto-influencer-marketing-agency`,
     type: 'website',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/kol.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Web3 KOL marketing with 200+ vetted creators. FTC-safe campaigns. Photo: Shilika Jain in a pink dress and sunglasses on the Singapore River at dusk.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Crypto Influencer Marketing Agency 2026 | Cost-Per-Wallet',
     description: 'Influencer campaigns measured on cost-per-wallet and on-chain attribution, not vanity reach.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/kol.jpg`,
+        alt: 'Web3 KOL marketing with 200+ vetted creators. FTC-safe campaigns. Photo: Shilika Jain in a pink dress and sunglasses on the Singapore River at dusk.',
+      },
+    ],
   },
 };
 

@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'Consensus, Token2049, ETHDenver and the rest. How conference programming actually works and how founders earn a real slot, not a side stage.',
     url: `${SITE_URL}/playbook/how-to-get-speaking-slots-crypto-conferences-2026`,
     type: 'article',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/speaker.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Keynotes on Web3, AI & cybersecurity PR. Binary Summit Bangkok, India Blockchain Week 2024, Web3 Conf Goa. Photo: Shilika Jain speaking on stage with a microphone in front of a presentation screen.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'How to Get Speaking Slots at Crypto Conferences in 2026',
     description: 'Consensus, Token2049, ETHDenver and the rest. How conference programming actually works and how founders earn a real slot, not a side stage.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/speaker.jpg`,
+        alt: 'Keynotes on Web3, AI & cybersecurity PR. Binary Summit Bangkok, India Blockchain Week 2024, Web3 Conf Goa. Photo: Shilika Jain speaking on stage with a microphone in front of a presentation screen.',
+      },
+    ],
   },
 };
 

@@ -179,6 +179,31 @@ body { font-family: var(--font-body); background: var(--paper); color: var(--ink
   </div>
  </div>
 </header>
+<!--sjm:art-band-->
+<div class="sjm-band sjm-band--right" data-sjm="band"><picture class="sjm-band__pic"><source media="(max-width: 720px)" type="image/webp" srcset="/assets/media/photos/sg-bridge-b-port-480.webp 480w, /assets/media/photos/sg-bridge-b-port-800.webp 800w, /assets/media/photos/sg-bridge-b-port-1080.webp 1080w" sizes="100vw"><source type="image/webp" srcset="/assets/media/photos/sg-bridge-b-wide-800.webp 800w, /assets/media/photos/sg-bridge-b-wide-1440.webp 1440w, /assets/media/photos/sg-bridge-b-wide-2000.webp 2000w" sizes="100vw"><img src="/assets/media/photos/sg-bridge-b-wide-1440.webp" width="1440" height="600" alt="Shilika Jain in a floral dress on a Marina Bay footbridge with the Singapore skyline behind her" loading="lazy" decoding="async"></picture><div class="sjm-band__copy"><p class="sjm-eyebrow">Tier-1 access</p><p class="sjm-band__title">Know the desk before you <em>pitch</em>.</p><p class="sjm-band__sub">Forbes, CoinDesk, Cointelegraph, Decrypt and The Block.</p></div></div>
+<style>
+:is(.article-header, .case-header) ~ .sjm-band { max-height: 480px; }
+:is(.article-header, .case-header) ~ .sjm-band .sjm-band__sub { text-wrap: balance; }
+:is(.article-header, .case-header) ~ .sjm-band .sjm-band__pic img { object-position: 50% 50%; }
+:is(.article-header, .case-header) ~ .sjm-band .sjm-band__pic img[src*="/depin-day-hk-"] { object-position: 50% 85%; }
+.article-body .sjm-figure, .case-body .sjm-figure,
+.article-body .sjm-wall, .case-body .sjm-wall { max-width: none; padding: 0; margin: 2.4em 0; }
+.article-body .sjm-wall p, .case-body .sjm-wall p { margin: 0; }
+.article-body .sjm-wall__head, .case-body .sjm-wall__head { margin-bottom: 16px; }
+.article-body .sjm-video, .case-body .sjm-video { max-width: 320px; padding: 0; margin: 2.4em auto; }
+:is(.article-body-wrap, .case-body-wrap) .sjm-cta { padding: 0; margin: clamp(48px, 6vw, 80px) 0 0; }
+.sjm-cta__pic img[src*="/stage-a-"], .sjm-cta__pic img[src*="/stage-b-"] { object-position: 50% 0%; }
+.sjm-cta__pic img[src*="/sg-marina-b-"] { object-position: 50% 75%; }
+.sjm-cta__pic img[src*="/sg-marina-c-"] { object-position: 50% 65%; }
+.sjm-cta__pic img[src*="/sg-marina-d-"] { object-position: 50% 70%; }
+.sjm-cta__pic img[src*="/depin-day-hk-"] { object-position: 50% 60%; }
+.sjm-cta__pic img[src*="/token2049-hall-"] { object-position: 50% 55%; }
+@media (max-width: 720px) {
+  :is(.article-header, .case-header) ~ .sjm-band { max-height: 500px; }
+  :is(.article-header, .case-header) ~ .sjm-band:has(img[src*="/sg-marina-b-"], img[src*="/sg-marina-c-"], img[src*="/sg-marina-d-"]) .sjm-band__sub { display: none; }
+}
+</style>
+<!--/sjm:art-band-->
 
 <section class="article-body-wrap">
  <article class="article-body">
@@ -250,7 +275,10 @@ Happy to send the full release and arrange a 15-minute call if this fits your li
 
 <p><strong>Example two: AI-native token for autonomous agents.</strong> A founder building payment rails for AI agents had a raise to announce and a named exchange listing. The wrong pitch would have led with the raise number and the listing. The Decrypt pitch framed the story around a shift: for the first time, a software agent could earn and spend money without a human co-signing each transaction, and this protocol was the first live implementation on mainnet. The story ran in AI and Tech with a founder interview. The raise and listing were mentioned inside the piece, not as the lead. This is the same approach that produced the Gaia AI "Stripe for AI agents" framing that landed Forbes and Decrypt in the same campaign cycle.</p>
 
-<h2>Exclusives, timing and the follow-up</h2>
+
+<!--sjm:art-mid-->
+<div class="sjm-wall" data-sjm="wall" style="--sjm-cols:2"><div class="sjm-wall__head"><div><p class="sjm-eyebrow">Track record</p><p class="sjm-wall__title">Six years, <em>counted</em>.</p></div></div><div class="sjm-wall__grid" data-n="2"><figure class="sjm-wall__item"><picture><source type="image/webp" srcset="/assets/media/posters/web3-pr.webp" sizes="(min-width: 900px) 25vw, 46vw"><img src="/assets/media/posters/web3-pr.jpg" width="1080" height="1350" alt="Web3 PR &amp; AI PR that lands Tier-1 headlines. Coverage in Forbes, CoinDesk, Economic Times and Yahoo Finance. Photo: Shilika Jain wearing a conference badge on the Marina Bay promenade in Singapore." loading="lazy" decoding="async"></picture></figure><figure class="sjm-wall__item"><picture><source type="image/webp" srcset="/assets/media/posters/stat-countries.webp" sizes="(min-width: 900px) 25vw, 46vw"><img src="/assets/media/posters/stat-countries.jpg" width="1080" height="1350" alt="25+ Countries reached via earned media. Photo: Shilika Jain speaking on stage with a microphone in front of a presentation screen." loading="lazy" decoding="async"></picture></figure></div></div>
+<!--/sjm:art-mid--><h2>Exclusives, timing and the follow-up</h2>
 
 <p>Decrypt will occasionally take an exclusive on a story they consider genuinely significant. An exclusive means you are giving them first rights to publish before any other outlet. The upside is a longer piece, more editorial attention, and often a featured placement. The downside is that you cannot pitch the same story to CoinDesk or Cointelegraph simultaneously.</p>
 
@@ -324,6 +352,9 @@ Happy to send the full release and arrange a 15-minute call if this fits your li
   <p style="margin-top: 2.2em; padding: 22px 26px; background: var(--paper-2); border-left: 3px solid var(--lime); border-radius: 4px; font-size: 17px; line-height: 1.55;"><strong>Pitching other Tier-1 outlets?</strong> Read the <a href="/playbook/get-featured-coindesk-2026" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">CoinDesk pitch guide</a> and the <a href="/playbook/how-to-pitch-cointelegraph-2026" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">Cointelegraph pitch guide</a> for the same structured approach. The <a href="/playbook" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">full playbook library</a> covers narrative strategy, pricing, and the AI-search layer.</p>
 
  </article>
+<!--sjm:art-cta-->
+<div class="sjm-cta" data-sjm="cta"><div class="sjm-cta__inner"><div class="sjm-cta__pic"><img src="/assets/media/photos/press-lounge-port-800.webp" srcset="/assets/media/photos/press-lounge-port-480.webp 480w, /assets/media/photos/press-lounge-port-800.webp 800w, /assets/media/photos/press-lounge-port-1080.webp 1080w" sizes="(min-width: 760px) 40vw, 92vw" width="800" height="1000" alt="Shilika Jain in front of a red Press Lounge wall at the Consensus conference" loading="lazy" decoding="async"></div><div class="sjm-cta__copy"><p class="sjm-eyebrow">Work with Shilika</p><p class="sjm-cta__title">Book a 30-min <em>intro call</em>.</p><p class="sjm-cta__sub">I come prepped with a teardown of your current press footprint.</p><div class="sjm-cta__row"><a class="sjm-btn" href="https://calendly.com/shilikajain/30min/" target="_blank" rel="noopener">Book a call</a><a class="sjm-btn sjm-btn--ghost" href="https://t.me/shilika3" target="_blank" rel="noopener">Chat on Telegram</a></div></div></div></div>
+<!--/sjm:art-cta-->
 </section>
 
 <section class="cta-strip">

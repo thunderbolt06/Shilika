@@ -14,13 +14,25 @@ export const metadata: Metadata = {
     description: 'The high-leverage PR moves a lean team can run, and where to spend the first dollar.',
     url: `${SITE_URL}/pages/crypto-pr-agency-small-budget`,
     type: 'website',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/web3.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Web3 PR that lands Tier-1 headlines. Forbes, CoinDesk, Cointelegraph, Decrypt and The Block. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Crypto PR Agency Small Budget 2026 | High-Leverage Moves',
     description: 'The high-leverage PR moves a lean team can run, and where to spend the first dollar.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/web3.jpg`,
+        alt: 'Web3 PR that lands Tier-1 headlines. Forbes, CoinDesk, Cointelegraph, Decrypt and The Block. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
 };
 

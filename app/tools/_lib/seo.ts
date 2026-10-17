@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { ogImage } from '@/lib/i18n/og';
 
 export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
@@ -19,6 +20,7 @@ export function toolMetadata({
   ogTitle?: string;
 }): Metadata {
   const url = `${SITE_URL}${path}`;
+  const card = ogImage(path, SITE_URL);
   return {
     title,
     description,
@@ -28,6 +30,11 @@ export function toolMetadata({
       description,
       url,
       type: 'website',
+      images: [card],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      images: [{ url: card.url, alt: card.alt }],
     },
   };
 }

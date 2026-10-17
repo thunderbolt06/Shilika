@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+@import url('{{fontsCss}}');
+@import url('{{baseCss}}');
+:root { --W: {{W}}px; --H: {{H}}px; {{vars}} }
+
+/* Full-bleed photo, copy over a gradient scrim. `align` picks the text side. */
+.bg { object-position: {{pos}}; transform: scale({{scale}}); transform-origin: {{origin}}; }
+.scrim { position: absolute; inset: 0; pointer-events: none; }
+.scrim--left   { background: linear-gradient(90deg, rgba(22,20,15,.92) 0%, rgba(22,20,15,.78) 34%, rgba(22,20,15,.18) 66%, rgba(22,20,15,0) 100%); }
+.scrim--right  { background: linear-gradient(270deg, rgba(22,20,15,.92) 0%, rgba(22,20,15,.78) 34%, rgba(22,20,15,.18) 66%, rgba(22,20,15,0) 100%); }
+.scrim--bottom { background: linear-gradient(0deg, rgba(22,20,15,.94) 0%, rgba(22,20,15,.8) 30%, rgba(22,20,15,.12) 62%, rgba(22,20,15,0) 100%); }
+.scrim--top    { background: linear-gradient(180deg, rgba(22,20,15,.88) 0%, rgba(22,20,15,.55) 30%, rgba(22,20,15,0) 58%); }
+.scrim--none   { background: none; }
+.copy {
+  position: absolute; display: flex; flex-direction: column; gap: var(--gap, 22px);
+  padding: var(--pad, 56px); width: var(--copyW, 62%);
+}
+.copy--left   { left: 0; top: 0; bottom: 0; justify-content: var(--vj, flex-end); }
+.copy--right  { right: 0; top: 0; bottom: 0; justify-content: var(--vj, flex-end); align-items: flex-start; }
+.copy--bottom { left: 0; right: 0; bottom: 0; width: 100%; }
+.copy--top    { left: 0; right: 0; top: 0; width: 100%; }
+.foot { display: flex; align-items: center; gap: 22px; margin-top: var(--footGap, 8px); flex-wrap: wrap; }
+.mark--tl { top: var(--pad, 56px); left: var(--pad, 56px); }
+.mark--tr { top: var(--pad, 56px); right: var(--pad, 56px); }
+.mark--br { bottom: var(--pad, 56px); right: var(--pad, 56px); }
+.mark--bl { bottom: var(--pad, 56px); left: var(--pad, 56px); }
+{{extraCss}}
+</style>
+</head>
+<body>
+<div class="frame">
+  <img class="bg" src="{{photo}}" alt="">
+  <div class="scrim scrim--{{scrim}}"></div>
+  <div class="copy copy--{{align}}">
+    {{eyebrowHtml}}
+    <h1>{{headline}}</h1>
+    {{subHtml}}
+    {{footHtml}}
+  </div>
+  {{markHtml}}
+</div>
+</body>
+</html>

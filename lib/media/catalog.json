@@ -1,0 +1,651 @@
+{
+  "$comment": "Source of truth for the portrait media library. scripts/media/build-photos.mjs reads this and writes responsive WebP crops to public/assets/media/photos/<id>-<crop>-<width>.webp. Focus points are fractions (0-1) of the upright source image. `zoom` > 1 crops tighter than the largest rectangle of that aspect ratio that fits. `place` drives the region rules (singapore | hong-kong | event | neutral): pages about Korea, India, Japan, MENA and other places only use `event` and `neutral` photos. `frame` pulls a still from a video. Locations in `place` and `alt` come from what is visible in each photo (signage, badges, skyline); correct them here and re-run the build if a caption is wrong.",
+  "basePath": "/assets/media/photos",
+  "crops": {
+    "wide": {
+      "ratio": 2.4,
+      "widths": [
+        800,
+        1440,
+        2000
+      ],
+      "use": "hero and section bands (desktop)"
+    },
+    "land": {
+      "ratio": 1.6,
+      "widths": [
+        640,
+        1100
+      ],
+      "use": "in-content figures"
+    },
+    "sq": {
+      "ratio": 1,
+      "widths": [
+        320,
+        640
+      ],
+      "use": "avatars, cards, thumbnails"
+    },
+    "port": {
+      "ratio": 0.8,
+      "widths": [
+        480,
+        800,
+        1080
+      ],
+      "use": "portrait cards, mobile bands, CTA banners"
+    }
+  },
+  "photos": [
+    {
+      "id": "press-lounge",
+      "src": "IMG_9760 2",
+      "place": "event",
+      "tags": [
+        "event",
+        "press",
+        "conference",
+        "media"
+      ],
+      "alt": "Shilika Jain in front of a red Press Lounge wall at the Consensus conference",
+      "focus": {
+        "x": 0.44,
+        "y": 0.53
+      },
+      "crops": {
+        "land": {
+          "x": 0.5,
+          "y": 0.5,
+          "zoom": 1
+        },
+        "sq": {
+          "x": 0.44,
+          "y": 0.68,
+          "zoom": 2.2
+        },
+        "port": {
+          "x": 0.44,
+          "y": 0.7,
+          "zoom": 2
+        }
+      }
+    },
+    {
+      "id": "depin-day-hk",
+      "src": "IMG_1117",
+      "place": "hong-kong",
+      "tags": [
+        "event",
+        "hong-kong",
+        "depin",
+        "conference"
+      ],
+      "alt": "Shilika Jain in front of the DePIN Day Hong Kong sponsor wall",
+      "focus": {
+        "x": 0.47,
+        "y": 0.53
+      },
+      "crops": {
+        "wide": {
+          "x": 0.5,
+          "y": 0.52,
+          "zoom": 1
+        },
+        "land": {
+          "x": 0.5,
+          "y": 0.52,
+          "zoom": 1
+        },
+        "sq": {
+          "x": 0.47,
+          "y": 0.55,
+          "zoom": 1.6
+        },
+        "port": {
+          "x": 0.5,
+          "y": 0.55,
+          "zoom": 1
+        }
+      }
+    },
+    {
+      "id": "stablecoin-summit",
+      "src": "IMG_7619",
+      "place": "event",
+      "tags": [
+        "event",
+        "stablecoin",
+        "conference",
+        "full-body"
+      ],
+      "alt": "Shilika Jain at the Stablecoin Summit 2023 photo wall",
+      "focus": {
+        "x": 0.56,
+        "y": 0.44
+      },
+      "crops": {
+        "wide": {
+          "x": 0.5,
+          "y": 0.45,
+          "zoom": 1
+        },
+        "land": {
+          "x": 0.5,
+          "y": 0.55,
+          "zoom": 1
+        },
+        "sq": {
+          "x": 0.58,
+          "y": 0.47,
+          "zoom": 3.2
+        },
+        "port": {
+          "x": 0.5,
+          "y": 0.55,
+          "zoom": 1
+        }
+      }
+    },
+    {
+      "id": "token2049-hall",
+      "src": "IMG_7600",
+      "place": "singapore",
+      "tags": [
+        "singapore",
+        "event",
+        "token2049",
+        "conference"
+      ],
+      "alt": "Shilika Jain in a black blazer beside the TOKEN2049 Singapore sign in the conference hall",
+      "focus": {
+        "x": 0.5,
+        "y": 0.48
+      },
+      "crops": {
+        "land": {
+          "x": 0.5,
+          "y": 0.62,
+          "zoom": 1
+        },
+        "sq": {
+          "x": 0.5,
+          "y": 0.5,
+          "zoom": 1.8
+        },
+        "port": {
+          "x": 0.5,
+          "y": 0.55,
+          "zoom": 1
+        }
+      }
+    },
+    {
+      "id": "library",
+      "src": "IMG_1832",
+      "place": "neutral",
+      "tags": [
+        "neutral",
+        "library",
+        "research",
+        "seated"
+      ],
+      "alt": "Shilika Jain seated in a wood-panelled library lounge lined with leather-bound books",
+      "focus": {
+        "x": 0.48,
+        "y": 0.525
+      },
+      "crops": {
+        "wide": {
+          "x": 0.5,
+          "y": 0.5,
+          "zoom": 1
+        },
+        "land": {
+          "x": 0.5,
+          "y": 0.52,
+          "zoom": 1
+        },
+        "sq": {
+          "x": 0.5,
+          "y": 0.55,
+          "zoom": 1.4
+        },
+        "port": {
+          "x": 0.5,
+          "y": 0.55,
+          "zoom": 1
+        }
+      }
+    },
+    {
+      "id": "lounge",
+      "src": "IMG_8958",
+      "place": "neutral",
+      "tags": [
+        "neutral",
+        "lounge",
+        "warm",
+        "full-body"
+      ],
+      "alt": "Shilika Jain in a pink satin shirt standing in a wood-panelled lounge with framed posters",
+      "focus": {
+        "x": 0.62,
+        "y": 0.4
+      },
+      "crops": {
+        "wide": {
+          "x": 0.6,
+          "y": 0.42,
+          "zoom": 1
+        },
+        "land": {
+          "x": 0.55,
+          "y": 0.42,
+          "zoom": 1
+        },
+        "sq": {
+          "x": 0.65,
+          "y": 0.4,
+          "zoom": 1.8
+        },
+        "port": {
+          "x": 0.55,
+          "y": 0.45,
+          "zoom": 1
+        }
+      }
+    },
+    {
+      "id": "sg-marina-a",
+      "src": "IMG_7450",
+      "place": "singapore",
+      "tags": [
+        "singapore",
+        "marina-bay",
+        "conference-badge",
+        "full-body",
+        "daylight"
+      ],
+      "alt": "Shilika Jain wearing a conference badge on the Marina Bay promenade in Singapore",
+      "focus": {
+        "x": 0.46,
+        "y": 0.47
+      },
+      "crops": {
+        "wide": {
+          "x": 0.5,
+          "y": 0.52,
+          "zoom": 1
+        },
+        "land": {
+          "x": 0.5,
+          "y": 0.5,
+          "zoom": 1
+        },
+        "sq": {
+          "x": 0.46,
+          "y": 0.5,
+          "zoom": 1.5
+        },
+        "port": {
+          "x": 0.5,
+          "y": 0.5,
+          "zoom": 1
+        }
+      }
+    },
+    {
+      "id": "sg-marina-b",
+      "src": "IMG_7453",
+      "place": "singapore",
+      "tags": [
+        "singapore",
+        "marina-bay",
+        "skyline",
+        "conference-badge",
+        "daylight"
+      ],
+      "alt": "Shilika Jain at the Marina Bay railing with the Singapore financial district skyline behind her",
+      "focus": {
+        "x": 0.455,
+        "y": 0.58
+      },
+      "crops": {
+        "wide": {
+          "x": 0.5,
+          "y": 0.54,
+          "zoom": 1
+        },
+        "land": {
+          "x": 0.5,
+          "y": 0.58,
+          "zoom": 1
+        },
+        "sq": {
+          "x": 0.455,
+          "y": 0.6,
+          "zoom": 2.0
+        },
+        "port": {
+          "x": 0.5,
+          "y": 0.55,
+          "zoom": 1
+        }
+      }
+    },
+    {
+      "id": "sg-marina-c",
+      "src": "IMG_7454",
+      "place": "singapore",
+      "tags": [
+        "singapore",
+        "marina-bay",
+        "skyline",
+        "conference-badge",
+        "daylight"
+      ],
+      "alt": "Shilika Jain smiling at the Marina Bay railing against the Singapore skyline",
+      "focus": {
+        "x": 0.45,
+        "y": 0.58
+      },
+      "crops": {
+        "wide": {
+          "x": 0.5,
+          "y": 0.54,
+          "zoom": 1
+        },
+        "land": {
+          "x": 0.5,
+          "y": 0.58,
+          "zoom": 1
+        },
+        "sq": {
+          "x": 0.45,
+          "y": 0.6,
+          "zoom": 2.0
+        },
+        "port": {
+          "x": 0.5,
+          "y": 0.55,
+          "zoom": 1
+        }
+      }
+    },
+    {
+      "id": "sg-marina-d",
+      "src": "IMG_7455",
+      "place": "singapore",
+      "tags": [
+        "singapore",
+        "marina-bay",
+        "skyline",
+        "conference-badge",
+        "daylight"
+      ],
+      "alt": "Shilika Jain leaning on the Marina Bay railing with the Singapore skyline across the water",
+      "focus": {
+        "x": 0.43,
+        "y": 0.58
+      },
+      "crops": {
+        "wide": {
+          "x": 0.5,
+          "y": 0.54,
+          "zoom": 1
+        },
+        "land": {
+          "x": 0.5,
+          "y": 0.58,
+          "zoom": 1
+        },
+        "sq": {
+          "x": 0.43,
+          "y": 0.6,
+          "zoom": 2.0
+        },
+        "port": {
+          "x": 0.5,
+          "y": 0.55,
+          "zoom": 1
+        }
+      }
+    },
+    {
+      "id": "sg-bridge-a",
+      "src": "IMG_7568",
+      "place": "singapore",
+      "tags": [
+        "singapore",
+        "marina-bay",
+        "bridge",
+        "close",
+        "conference-badge"
+      ],
+      "alt": "Shilika Jain on a Marina Bay footbridge in Singapore, wearing a conference lanyard",
+      "focus": {
+        "x": 0.37,
+        "y": 0.52
+      },
+      "crops": {
+        "land": {
+          "x": 0.52,
+          "y": 0.5,
+          "zoom": 1.5
+        },
+        "sq": {
+          "x": 0.45,
+          "y": 0.52,
+          "zoom": 1.8
+        },
+        "port": {
+          "x": 0.55,
+          "y": 0.52,
+          "zoom": 1.4
+        }
+      }
+    },
+    {
+      "id": "sg-bridge-b",
+      "src": "IMG_7577",
+      "place": "singapore",
+      "tags": [
+        "singapore",
+        "marina-bay",
+        "bridge",
+        "full-body"
+      ],
+      "alt": "Shilika Jain in a floral dress on a Marina Bay footbridge with the Singapore skyline behind her",
+      "focus": {
+        "x": 0.31,
+        "y": 0.46
+      },
+      "crops": {
+        "wide": {
+          "x": 0.4,
+          "y": 0.46,
+          "zoom": 1
+        },
+        "land": {
+          "x": 0.4,
+          "y": 0.5,
+          "zoom": 1
+        },
+        "sq": {
+          "x": 0.31,
+          "y": 0.46,
+          "zoom": 1.8
+        },
+        "port": {
+          "x": 0.38,
+          "y": 0.52,
+          "zoom": 1
+        }
+      }
+    },
+    {
+      "id": "sg-river-a",
+      "src": "IMG_7732",
+      "place": "singapore",
+      "tags": [
+        "singapore",
+        "river",
+        "dusk",
+        "sunglasses"
+      ],
+      "alt": "Shilika Jain in a pink dress and sunglasses on the Singapore River at dusk",
+      "focus": {
+        "x": 0.58,
+        "y": 0.45
+      },
+      "crops": {
+        "wide": {
+          "x": 0.55,
+          "y": 0.5,
+          "zoom": 1
+        },
+        "land": {
+          "x": 0.55,
+          "y": 0.5,
+          "zoom": 1
+        },
+        "sq": {
+          "x": 0.58,
+          "y": 0.5,
+          "zoom": 1.8
+        },
+        "port": {
+          "x": 0.55,
+          "y": 0.5,
+          "zoom": 1
+        }
+      }
+    },
+    {
+      "id": "sg-river-b",
+      "src": "IMG_7738",
+      "place": "singapore",
+      "tags": [
+        "singapore",
+        "river",
+        "dusk",
+        "sunglasses"
+      ],
+      "alt": "Shilika Jain in a pink dress by the Singapore River with the old bridge behind her",
+      "focus": {
+        "x": 0.51,
+        "y": 0.48
+      },
+      "crops": {
+        "wide": {
+          "x": 0.55,
+          "y": 0.5,
+          "zoom": 1
+        },
+        "land": {
+          "x": 0.55,
+          "y": 0.5,
+          "zoom": 1
+        },
+        "sq": {
+          "x": 0.51,
+          "y": 0.5,
+          "zoom": 1.8
+        },
+        "port": {
+          "x": 0.55,
+          "y": 0.5,
+          "zoom": 1
+        }
+      }
+    },
+    {
+      "id": "stage-a",
+      "src": "",
+      "place": "event",
+      "tags": [
+        "event",
+        "speaking",
+        "stage",
+        "keynote",
+        "close"
+      ],
+      "alt": "Shilika Jain speaking on stage with a microphone in front of a presentation screen",
+      "focus": {
+        "x": 0.41,
+        "y": 0.24
+      },
+      "crops": {
+        "land": {
+          "x": 0.45,
+          "y": 0.3,
+          "zoom": 1
+        },
+        "sq": {
+          "x": 0.42,
+          "y": 0.3,
+          "zoom": 1.6
+        },
+        "port": {
+          "x": 0.45,
+          "y": 0.4,
+          "zoom": 1
+        }
+      },
+      "frame": {
+        "file": "IMG_9251.MOV",
+        "at": 3.0
+      }
+    },
+    {
+      "id": "stage-b",
+      "src": "",
+      "place": "event",
+      "tags": [
+        "event",
+        "speaking",
+        "stage",
+        "keynote",
+        "close",
+        "smiling"
+      ],
+      "alt": "Shilika Jain smiling mid-talk on stage, microphone in hand",
+      "focus": {
+        "x": 0.41,
+        "y": 0.24
+      },
+      "crops": {
+        "land": {
+          "x": 0.45,
+          "y": 0.3,
+          "zoom": 1
+        },
+        "sq": {
+          "x": 0.42,
+          "y": 0.3,
+          "zoom": 1.6
+        },
+        "port": {
+          "x": 0.45,
+          "y": 0.4,
+          "zoom": 1
+        }
+      },
+      "frame": {
+        "file": "IMG_9251.MOV",
+        "at": 2.0
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "src": "IMG_7600.JPG",
+      "reason": "kept, but only 885px wide: used for small crops, never for full-width bands"
+    },
+    {
+      "src": "IMG_9251.MOV",
+      "reason": "stage talk: two stills (stage-a, stage-b) plus public/assets/media/video/speaker-reel.mp4 (see scripts/media/build-loops.mjs)"
+    }
+  ]
+}

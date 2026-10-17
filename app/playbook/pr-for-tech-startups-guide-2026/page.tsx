@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'The whole PR picture for an early tech startup: when to start, what to spend, what to do yourself, and what actually earns coverage.',
     url: `${SITE_URL}/playbook/pr-for-tech-startups-guide-2026`,
     type: 'article',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/services.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Web3 & AI PR, founder profiling, KOL marketing. Fractional PR from a senior operator. Photo: Shilika Jain in a floral dress on a Marina Bay footbridge with the Singapore skyline behind her.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'PR for Tech Startups in 2026: A Founder\'s Guide',
     description: 'The whole PR picture for an early tech startup: when to start, what to spend, what to do yourself, and what actually earns coverage.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/services.jpg`,
+        alt: 'Web3 & AI PR, founder profiling, KOL marketing. Fractional PR from a senior operator. Photo: Shilika Jain in a floral dress on a Marina Bay footbridge with the Singapore skyline behind her.',
+      },
+    ],
   },
 };
 

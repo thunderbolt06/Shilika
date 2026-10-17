@@ -14,13 +14,25 @@ export const metadata: Metadata = {
     description: 'Native Japanese placement and a pitch approach built for how Japanese newsrooms actually work.',
     url: `${SITE_URL}/pages/crypto-pr-agency-japan`,
     type: 'website',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/japan.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Japan PR: the FSA frame is paragraph one. CoinPost, Nikkei and WebX Tokyo. Photo: Shilika Jain seated in a wood-panelled library lounge lined with leather-bound books.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Crypto PR Agency Japan 2026 | CryptoTimes JP, CoinPost',
     description: 'Native Japanese placement and a pitch approach built for how Japanese newsrooms actually work.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/japan.jpg`,
+        alt: 'Japan PR: the FSA frame is paragraph one. CoinPost, Nikkei and WebX Tokyo. Photo: Shilika Jain seated in a wood-panelled library lounge lined with leather-bound books.',
+      },
+    ],
   },
 };
 

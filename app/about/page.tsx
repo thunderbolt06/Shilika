@@ -16,13 +16,25 @@ export const metadata: Metadata = {
     description: 'Six years placing Web3, AI and cybersecurity founders into Forbes, CoinDesk, Cointelegraph, Decrypt, Blockworks and AI Magazine. APAC operator. Currently leading PR at Myosin.',
     url: 'https://www.shilikajain.com/about',
     type: 'profile',
-    images: [{ url: 'https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg', width: 1200, height: 628 }],
+    images: [
+      {
+        url: 'https://www.shilikajain.com/assets/media/og/about.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'The operator behind the Tier-1 placement. Six years of PR for Web3, crypto and AI startups. Photo: Shilika Jain in a pink satin shirt standing in a wood-panelled lounge with framed posters.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'About Shilika Jain: Fractional PR for Web3 & AI Founders',
     description: 'Six years placing Web3, AI and cybersecurity founders into Forbes, CoinDesk, Cointelegraph, Decrypt, Blockworks and AI Magazine. APAC operator. Currently leading PR at Myosin.',
-    images: ['https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg'],
+    images: [
+      {
+        url: 'https://www.shilikajain.com/assets/media/og/about.jpg',
+        alt: 'The operator behind the Tier-1 placement. Six years of PR for Web3, crypto and AI startups. Photo: Shilika Jain in a pink satin shirt standing in a wood-panelled lounge with framed posters.',
+      },
+    ],
   },
 };
 

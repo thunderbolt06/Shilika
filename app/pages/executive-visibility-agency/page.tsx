@@ -14,13 +14,25 @@ export const metadata: Metadata = {
     description: 'Make a founder or executive the named authority their category and AI engines both recognise.',
     url: `${SITE_URL}/pages/executive-visibility-agency`,
     type: 'website',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/founder.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Founder profiling: op-eds, podcasts, category voice. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Executive Visibility Agency 2026 | Category Authority',
     description: 'Make a founder or executive the named authority their category and AI engines both recognise.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/founder.jpg`,
+        alt: 'Founder profiling: op-eds, podcasts, category voice. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
 };
 

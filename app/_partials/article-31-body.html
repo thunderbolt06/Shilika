@@ -180,6 +180,31 @@ body { font-family: var(--font-body); background: var(--paper); color: var(--ink
     </div>
   </div>
 </header>
+<!--sjm:art-band-->
+<div class="sjm-band sjm-band--left" data-sjm="band"><picture class="sjm-band__pic"><source media="(max-width: 720px)" type="image/webp" srcset="/assets/media/photos/sg-marina-b-port-480.webp 480w, /assets/media/photos/sg-marina-b-port-800.webp 800w, /assets/media/photos/sg-marina-b-port-1080.webp 1080w" sizes="100vw"><source type="image/webp" srcset="/assets/media/photos/sg-marina-b-wide-800.webp 800w, /assets/media/photos/sg-marina-b-wide-1440.webp 1440w, /assets/media/photos/sg-marina-b-wide-2000.webp 2000w" sizes="100vw"><img src="/assets/media/photos/sg-marina-b-wide-1440.webp" width="1440" height="600" alt="Shilika Jain at the Marina Bay railing with the Singapore financial district skyline behind her" loading="lazy" decoding="async"></picture><div class="sjm-band__copy"><p class="sjm-eyebrow">Sector PR</p><p class="sjm-band__title">Explain the <em>category</em> before you sell the product.</p><p class="sjm-band__sub">Angles, outlets and proof points for your corner of Web3.</p></div></div>
+<style>
+:is(.article-header, .case-header) ~ .sjm-band { max-height: 480px; }
+:is(.article-header, .case-header) ~ .sjm-band .sjm-band__sub { text-wrap: balance; }
+:is(.article-header, .case-header) ~ .sjm-band .sjm-band__pic img { object-position: 50% 50%; }
+:is(.article-header, .case-header) ~ .sjm-band .sjm-band__pic img[src*="/depin-day-hk-"] { object-position: 50% 85%; }
+.article-body .sjm-figure, .case-body .sjm-figure,
+.article-body .sjm-wall, .case-body .sjm-wall { max-width: none; padding: 0; margin: 2.4em 0; }
+.article-body .sjm-wall p, .case-body .sjm-wall p { margin: 0; }
+.article-body .sjm-wall__head, .case-body .sjm-wall__head { margin-bottom: 16px; }
+.article-body .sjm-video, .case-body .sjm-video { max-width: 320px; padding: 0; margin: 2.4em auto; }
+:is(.article-body-wrap, .case-body-wrap) .sjm-cta { padding: 0; margin: clamp(48px, 6vw, 80px) 0 0; }
+.sjm-cta__pic img[src*="/stage-a-"], .sjm-cta__pic img[src*="/stage-b-"] { object-position: 50% 0%; }
+.sjm-cta__pic img[src*="/sg-marina-b-"] { object-position: 50% 75%; }
+.sjm-cta__pic img[src*="/sg-marina-c-"] { object-position: 50% 65%; }
+.sjm-cta__pic img[src*="/sg-marina-d-"] { object-position: 50% 70%; }
+.sjm-cta__pic img[src*="/depin-day-hk-"] { object-position: 50% 60%; }
+.sjm-cta__pic img[src*="/token2049-hall-"] { object-position: 50% 55%; }
+@media (max-width: 720px) {
+  :is(.article-header, .case-header) ~ .sjm-band { max-height: 500px; }
+  :is(.article-header, .case-header) ~ .sjm-band:has(img[src*="/sg-marina-b-"], img[src*="/sg-marina-c-"], img[src*="/sg-marina-d-"]) .sjm-band__sub { display: none; }
+}
+</style>
+<!--/sjm:art-band-->
 
 <section class="article-body-wrap">
   <article class="article-body">
@@ -285,7 +310,10 @@ body { font-family: var(--font-body); background: var(--paper); color: var(--ink
 
 <div class="fix-box"><strong class="fix-label">Disclosure is non-negotiable</strong>Any KOL relationship involving payment or tokens must be disclosed, clearly and upfront. The FTC rules apply, the crypto community actively calls out undisclosed promotions, and a single disclosure failure can torpedo editorial coverage you spent months building. If your KOL partner pushes back on disclosure language, that is your answer about whether to work with them.</div>
 
-<h2>The regional angle: Asia, the Middle East, and the markets that still have NFT appetite</h2>
+
+<!--sjm:art-mid-->
+<figure class="sjm-figure" data-sjm="figure"><div class="sjm-figure__frame"><picture><source type="image/webp" srcset="/assets/media/photos/library-land-640.webp 640w, /assets/media/photos/library-land-1100.webp 1100w" sizes="(min-width: 800px) 720px, 92vw"><img src="/assets/media/photos/library-land-1100.webp" width="1100" height="688" alt="Shilika Jain seated in a wood-panelled library lounge lined with leather-bound books" loading="lazy" decoding="async"></picture></div><figcaption><b>Shilika Jain</b><span>Fractional PR for Web3 and AI founders.</span></figcaption></figure>
+<!--/sjm:art-mid--><h2>The regional angle: Asia, the Middle East, and the markets that still have NFT appetite</h2>
 
 <p>One of the least-used levers in NFT PR is regional differentiation. While the English-language tier-1 press has moved on from speculative NFT coverage, several regional markets maintain genuine editorial appetite for NFT stories with local relevance. BloomingBit and TokenPost in Korea, CryptoTimes JP in Japan, CoinPost in Japan, and a range of Arabic-language outlets in the UAE and Saudi Arabia all cover NFT projects that connect to local brands, artists, or cultural institutions. If your project has a genuine regional angle, pitch it regionally first, build a coverage base, and use that to support the tier-1 English-language pitch with proof of traction.</p>
 
@@ -337,6 +365,9 @@ body { font-family: var(--font-body); background: var(--paper); color: var(--ink
     <p style="margin-top: 2.2em; padding: 22px 26px; background: var(--paper-2); border-left: 3px solid var(--lime); border-radius: 4px; font-size: 17px; line-height: 1.55;"><strong>Running an NFT project with a real story to tell?</strong> Start with <a href="/services/web3-pr-campaigns" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">Web3 PR campaigns</a> for the full narrative and outlet strategy. See what a successful NFT infrastructure launch looks like in the <a href="/work/rari-chain" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">RARI Chain case study</a>. The <a href="/playbook" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">full playbook library</a> covers pitching, pricing, and the tier-1 angles that work across the Web3 beat.</p>
 
   </article>
+<!--sjm:art-cta-->
+<div class="sjm-cta" data-sjm="cta"><div class="sjm-cta__inner"><div class="sjm-cta__pic"><img src="/assets/media/photos/sg-bridge-a-port-800.webp" srcset="/assets/media/photos/sg-bridge-a-port-480.webp 480w, /assets/media/photos/sg-bridge-a-port-800.webp 800w, /assets/media/photos/sg-bridge-a-port-1080.webp 1080w" sizes="(min-width: 760px) 40vw, 92vw" width="800" height="1000" alt="Shilika Jain on a Marina Bay footbridge in Singapore, wearing a conference lanyard" loading="lazy" decoding="async"></div><div class="sjm-cta__copy"><p class="sjm-eyebrow">Work with Shilika</p><p class="sjm-cta__title">Book a 30-min <em>intro call</em>.</p><p class="sjm-cta__sub">I come prepped with a teardown of your current press footprint.</p><div class="sjm-cta__row"><a class="sjm-btn" href="https://calendly.com/shilikajain/30min/" target="_blank" rel="noopener">Book a call</a><a class="sjm-btn sjm-btn--ghost" href="https://t.me/shilika3" target="_blank" rel="noopener">Chat on Telegram</a></div></div></div></div>
+<!--/sjm:art-cta-->
 </section>
 
 <section class="cta-strip">

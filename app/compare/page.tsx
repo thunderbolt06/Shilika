@@ -6,11 +6,14 @@ import MarketFinder from './_components/MarketFinder';
 import { AGENCIES, comparePath } from './_data/agencies';
 import { CALENDLY, CORE_REASONS, LAST_VERIFIED, LAST_VERIFIED_ISO, SHILIKA_PROOF } from './_data/shilika';
 import type { Agency } from './_data/types';
+import { PhotoBand } from '@/components/site/Media';
+import { ogImage } from '@/lib/i18n/og';
 import '../blog/blog.css';
 import './compare.css';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 const URL = `${SITE_URL}/compare`;
+const CARD = ogImage('/compare', SITE_URL);
 const TITLE = 'Best Crypto & AI PR Agencies 2026, Compared | Shilika Jain';
 const DESCRIPTION =
   'The top 5 crypto and Web3 PR agencies and the top 5 AI PR agencies in 2026, compared on who pitches, which markets they reach and what they cost, plus the senior fractional alternative.';
@@ -24,13 +27,13 @@ export const metadata: Metadata = {
     description: DESCRIPTION,
     url: URL,
     type: 'website',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [CARD],
   },
   twitter: {
     card: 'summary_large_image',
     title: TITLE,
     description: DESCRIPTION,
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [{ url: CARD.url, alt: CARD.alt }],
   },
 };
 
@@ -146,6 +149,18 @@ export default function CompareHub() {
                 </p>
               </div>
             </header>
+
+            <PhotoBand
+              id="lounge"
+              eyebrow="Compare"
+              title={
+                <>
+                  Ten agencies, <em>one honest read</em>.
+                </>
+              }
+              sub="Who pitches, which markets, what it costs."
+              sizes="(min-width: 1344px) 1280px, 100vw"
+            />
 
             <section className="cmp-section" id="crypto" aria-labelledby="crypto-h">
               <p className="cmp-label">Crypto &amp; Web3 · Updated {LAST_VERIFIED}</p>

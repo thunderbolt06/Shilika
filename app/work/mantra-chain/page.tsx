@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'CoinDesk exclusive, Decrypt, CryptoPotato, a standalone Cointelegraph CEO profile. A 2024 funding-announcement PR teardown by Shilika Jain, fractional PR manager.',
     url: 'https://www.shilikajain.com/work/mantra-chain',
     type: 'article',
-    images: [{ url: 'https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg', width: 1200, height: 628 }],
+    images: [
+      {
+        url: 'https://www.shilikajain.com/assets/media/og/work-mantra-chain.jpg',
+        width: 1200,
+        height: 630,
+        alt: '$11M RWA raise with a Middle East angle. Photo: Shilika Jain in a pink dress by the Singapore River with the old bridge behind her.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'MANTRA Chain: The $11M RWA Raise With a Middle East Angle',
     description: 'CoinDesk exclusive, Decrypt, CryptoPotato, a standalone Cointelegraph CEO profile. A 2024 funding-announcement PR teardown by Shilika Jain, fractional PR manager.',
-    images: ['https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg'],
+    images: [
+      {
+        url: 'https://www.shilikajain.com/assets/media/og/work-mantra-chain.jpg',
+        alt: '$11M RWA raise with a Middle East angle. Photo: Shilika Jain in a pink dress by the Singapore River with the old bridge behind her.',
+      },
+    ],
   },
 };
 

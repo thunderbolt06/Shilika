@@ -16,13 +16,25 @@ export const metadata: Metadata = {
     description: 'Why a Forbes mention can be worse than a niche placement, and how to read which publications actually move your roadmap.',
     url: 'https://www.shilikajain.com/playbook/tier-1-pr-trap',
     type: 'article',
-    images: [{ url: 'https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg', width: 1200, height: 628 }],
+    images: [
+      {
+        url: 'https://www.shilikajain.com/assets/media/og/playbook.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'The PR playbook for Web3 & AI founders. Guides on Tier-1 pitching, launch PR, KOLs and AI-search citations. Photo: Shilika Jain in a floral dress on a Marina Bay footbridge with the Singapore skyline behind her.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'The Tier-1 PR Trap: Why Web3 Founders Chase Wrong Outlets',
     description: 'Why a Forbes mention can be worse than a niche placement, and how to read which publications actually move your roadmap.',
-    images: ['https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg'],
+    images: [
+      {
+        url: 'https://www.shilikajain.com/assets/media/og/playbook.jpg',
+        alt: 'The PR playbook for Web3 & AI founders. Guides on Tier-1 pitching, launch PR, KOLs and AI-search citations. Photo: Shilika Jain in a floral dress on a Marina Bay footbridge with the Singapore skyline behind her.',
+      },
+    ],
   },
 };
 

@@ -17,13 +17,25 @@ export const metadata: Metadata = {
     description: 'Lunar, EAK, Coinbound, Outset, High Vibe and Shilika Jain compared on cost, Tier-1 access, regional reach, founder time. A senior operator\'s honest take.',
     url: 'https://www.shilikajain.com/playbook/best-web3-pr-agencies-2026',
     type: 'article',
-    images: [{ url: 'https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg', width: 1200, height: 628 }],
+    images: [
+      {
+        url: 'https://www.shilikajain.com/assets/media/og/compare.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Which PR agency to hire for crypto and AI. Side-by-side comparisons with the trade-offs spelled out. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Best Web3 PR Agencies and Consultants in 2026: Honest Field Guide',
     description: 'Lunar, EAK, Coinbound, Outset, High Vibe and Shilika Jain compared on cost, Tier-1 access, regional reach, founder time. A senior operator\'s honest take.',
-    images: ['https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg'],
+    images: [
+      {
+        url: 'https://www.shilikajain.com/assets/media/og/compare.jpg',
+        alt: 'Which PR agency to hire for crypto and AI. Side-by-side comparisons with the trade-offs spelled out. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
 };
 

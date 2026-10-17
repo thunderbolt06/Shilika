@@ -14,13 +14,25 @@ export const metadata: Metadata = {
     description: 'A dated comms sequence into and out of your token generation event: narrative, media, KOLs and crisis prep.',
     url: `${SITE_URL}/pages/tge-pr-agency`,
     type: 'website',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/token-launch.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Token launch PR: TGE comms, exchange and KOL waves. Photo: Shilika Jain in a black blazer beside the TOKEN2049 Singapore sign in the conference hall.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'TGE PR Agency 2026 | Token Generation Event Comms',
     description: 'A dated comms sequence into and out of your token generation event: narrative, media, KOLs and crisis prep.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/token-launch.jpg`,
+        alt: 'Token launch PR: TGE comms, exchange and KOL waves. Photo: Shilika Jain in a black blazer beside the TOKEN2049 Singapore sign in the conference hall.',
+      },
+    ],
   },
 };
 

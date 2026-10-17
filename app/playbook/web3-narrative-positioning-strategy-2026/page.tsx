@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'Positioning decides which category you compete in before a single pitch goes out. How to build a narrative that a reporter, an investor and a user all believe.',
     url: `${SITE_URL}/playbook/web3-narrative-positioning-strategy-2026`,
     type: 'article',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/playbook.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'The PR playbook for Web3 & AI founders. Guides on Tier-1 pitching, launch PR, KOLs and AI-search citations. Photo: Shilika Jain in a floral dress on a Marina Bay footbridge with the Singapore skyline behind her.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Web3 Narrative and Positioning Strategy in 2026',
     description: 'Positioning decides which category you compete in before a single pitch goes out. How to build a narrative that a reporter, an investor and a user all believe.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/playbook.jpg`,
+        alt: 'The PR playbook for Web3 & AI founders. Guides on Tier-1 pitching, launch PR, KOLs and AI-search citations. Photo: Shilika Jain in a floral dress on a Marina Bay footbridge with the Singapore skyline behind her.',
+      },
+    ],
   },
 };
 

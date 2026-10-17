@@ -14,13 +14,25 @@ export const metadata: Metadata = {
     description: 'UAE-based and UAE-targeted Web3 PR with regulatory tailwinds and event-led access.',
     url: `${SITE_URL}/pages/web3-pr-agency-uae`,
     type: 'website',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/mena.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Dubai and MENA PR: VARA is paragraph one. VARA, ADGM and RAK DAO. Photo: Shilika Jain in front of a red Press Lounge wall at the Consensus conference.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Web3 PR Agency UAE 2026 | Abu Dhabi & Dubai',
     description: 'UAE-based and UAE-targeted Web3 PR with regulatory tailwinds and event-led access.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/mena.jpg`,
+        alt: 'Dubai and MENA PR: VARA is paragraph one. VARA, ADGM and RAK DAO. Photo: Shilika Jain in front of a red Press Lounge wall at the Consensus conference.',
+      },
+    ],
   },
 };
 

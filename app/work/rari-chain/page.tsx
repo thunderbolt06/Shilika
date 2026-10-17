@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'CoinDesk exclusive, The Block, The Defiant, Cointelegraph, CryptoNews. A 2024 mainnet PR campaign teardown by Shilika Jain, fractional PR manager.',
     url: 'https://www.shilikajain.com/work/rari-chain',
     type: 'article',
-    images: [{ url: 'https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg', width: 1200, height: 628 }],
+    images: [
+      {
+        url: 'https://www.shilikajain.com/assets/media/og/work-rari-chain.jpg',
+        width: 1200,
+        height: 630,
+        alt: '11 Tier-1 placements in 24 hours. RARI Chain mainnet launch. Photo: Shilika Jain leaning on the Marina Bay railing with the Singapore skyline across the water.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'RARI Chain Mainnet Launch: 11 Tier-1 Placements in 24 Hours',
     description: 'CoinDesk exclusive, The Block, The Defiant, Cointelegraph, CryptoNews. A 2024 mainnet PR campaign teardown by Shilika Jain, fractional PR manager.',
-    images: ['https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg'],
+    images: [
+      {
+        url: 'https://www.shilikajain.com/assets/media/og/work-rari-chain.jpg',
+        alt: '11 Tier-1 placements in 24 hours. RARI Chain mainnet launch. Photo: Shilika Jain leaning on the Marina Bay railing with the Singapore skyline across the water.',
+      },
+    ],
   },
 };
 

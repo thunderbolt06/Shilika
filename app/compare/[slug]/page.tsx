@@ -14,11 +14,14 @@ import {
   SHILIKA_PROOF,
 } from '../_data/shilika';
 import { money } from '../_components/shared';
+import { COVER_IDS, CTA_IDS, CtaBand, PhotoBand, pickPhoto } from '@/components/site/Media';
+import { ogImage } from '@/lib/i18n/og';
 import '../../blog/blog.css';
 import '../compare.css';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 const PREFIX = 'shilika-jain-vs-';
+const CARD = ogImage('/compare', SITE_URL);
 
 export const dynamicParams = false;
 
@@ -46,13 +49,13 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       description,
       url,
       type: 'article',
-      images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+      images: [CARD],
     },
     twitter: {
       card: 'summary_large_image',
       title,
       description,
-      images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+      images: [{ url: CARD.url, alt: CARD.alt }],
     },
   };
 }
@@ -64,6 +67,11 @@ export default async function ComparePage({ params }: { params: Promise<{ slug: 
   const url = `${SITE_URL}${comparePath(a)}`;
   const others = AGENCIES.filter((x) => x.slug !== a.slug);
   const sameCategory = a.category === 'web3' ? 'crypto & Web3' : 'AI & tech';
+
+  // Portrait media: one band under the hero, one CTA band near the end. Seeded by the agency
+  // slug so neighbouring comparisons get different photos, and never the same photo twice.
+  const bandPhoto = pickPhoto({ seed: a.slug, crop: 'wide', from: COVER_IDS });
+  const ctaPhoto = pickPhoto({ seed: `${a.slug}:cta`, crop: 'port', exclude: [bandPhoto], from: CTA_IDS });
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -139,6 +147,18 @@ export default async function ComparePage({ params }: { params: Promise<{ slug: 
                 <p className="cmp-verdict-text">{a.verdict}</p>
               </div>
             </header>
+
+            <PhotoBand
+              id={bandPhoto}
+              eyebrow="Compare"
+              title={
+                <>
+                  Same relationships, <em>no agency margin</em>.
+                </>
+              }
+              sub="One senior operator on every pitch."
+              sizes="(min-width: 1344px) 1280px, 100vw"
+            />
 
             <section className="cmp-section" aria-labelledby="glance">
               <p className="cmp-label" id="glance">
@@ -357,6 +377,8 @@ export default async function ComparePage({ params }: { params: Promise<{ slug: 
                 </a>
               </nav>
             </section>
+
+            <CtaBand id={ctaPhoto} />
 
             <footer className="cmp-sources">
               <p>

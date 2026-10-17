@@ -16,13 +16,25 @@ export const metadata: Metadata = {
     description: 'Different outlets, different journalists, different proof. A side-by-side teardown of the crypto and AI PR playbooks by a senior operator who runs both.',
     url: 'https://www.shilikajain.com/playbook/crypto-pr-vs-ai-pr',
     type: 'article',
-    images: [{ url: 'https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg', width: 1200, height: 628 }],
+    images: [
+      {
+        url: 'https://www.shilikajain.com/assets/media/og/playbook.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'The PR playbook for Web3 & AI founders. Guides on Tier-1 pitching, launch PR, KOLs and AI-search citations. Photo: Shilika Jain in a floral dress on a Marina Bay footbridge with the Singapore skyline behind her.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Crypto PR vs AI PR in 2026: How the Playbooks Differ',
     description: 'Different outlets, different journalists, different proof. A side-by-side teardown of the crypto and AI PR playbooks by a senior operator who runs both.',
-    images: ['https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg'],
+    images: [
+      {
+        url: 'https://www.shilikajain.com/assets/media/og/playbook.jpg',
+        alt: 'The PR playbook for Web3 & AI founders. Guides on Tier-1 pitching, launch PR, KOLs and AI-search citations. Photo: Shilika Jain in a floral dress on a Marina Bay footbridge with the Singapore skyline behind her.',
+      },
+    ],
   },
 };
 

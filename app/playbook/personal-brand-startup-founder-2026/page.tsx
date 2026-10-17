@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'For AI and tech founders. The content cadence, the platform choices, and the line between useful authority and LinkedIn cringe.',
     url: `${SITE_URL}/playbook/personal-brand-startup-founder-2026`,
     type: 'article',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/founder.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Founder profiling: op-eds, podcasts, category voice. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'How to Build a Personal Brand as a Startup Founder in 2026',
     description: 'For AI and tech founders. The content cadence, the platform choices, and the line between useful authority and LinkedIn cringe.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/founder.jpg`,
+        alt: 'Founder profiling: op-eds, podcasts, category voice. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
 };
 

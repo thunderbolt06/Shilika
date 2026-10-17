@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'Op-eds, whitepapers, founder essays ghostwritten by a senior PR operator. Forbes-grade voice, technical accuracy, AI-search ready.',
     url: 'https://www.shilikajain.com/services/content-writing',
     type: 'website',
-    images: [{ url: 'https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg', width: 1200, height: 628 }],
+    images: [
+      {
+        url: 'https://www.shilikajain.com/assets/media/og/content.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Content writing for founders: op-eds, whitepapers. For Web3 and AI teams. Photo: Shilika Jain in a pink dress by the Singapore River with the old bridge behind her.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Content Writing for Web3 & AI Founders: Op-Eds, Whitepapers',
     description: 'Op-eds, whitepapers, founder essays ghostwritten by a senior PR operator. Forbes-grade voice, technical accuracy, AI-search ready.',
-    images: ['https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg'],
+    images: [
+      {
+        url: 'https://www.shilikajain.com/assets/media/og/content.jpg',
+        alt: 'Content writing for founders: op-eds, whitepapers. For Web3 and AI teams. Photo: Shilika Jain in a pink dress by the Singapore River with the old bridge behind her.',
+      },
+    ],
   },
 };
 

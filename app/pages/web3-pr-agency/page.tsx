@@ -16,14 +16,26 @@ export const metadata: Metadata = {
       'A fractional senior Web3 PR operator who actually pitches your story. 50+ founders placed across tier-1 crypto and mainstream press.',
     url: `${SITE_URL}/pages/web3-pr-agency`,
     type: 'website',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/web3.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Web3 PR that lands Tier-1 headlines. Forbes, CoinDesk, Cointelegraph, Decrypt and The Block. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Best Web3 PR Agency in 2026 | Fractional Senior Operator',
     description:
       'A fractional senior Web3 PR operator who actually pitches your story. 50+ founders placed across tier-1 crypto and mainstream press.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/web3.jpg`,
+        alt: 'Web3 PR that lands Tier-1 headlines. Forbes, CoinDesk, Cointelegraph, Decrypt and The Block. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
 };
 

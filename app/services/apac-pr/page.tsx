@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'APAC PR for Web3, AI and cybersecurity founders. Native-language placements across Korea, Japan, Vietnam, China, India, Singapore and MENA. Regional KOLs, on-ground events, local journalist databases. RARI, MANTRA, Bullieverse, Web3Auth proof.',
     url: 'https://www.shilikajain.com/services/apac-pr',
     type: 'website',
-    images: [{ url: 'https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg', width: 1200, height: 628 }],
+    images: [
+      {
+        url: 'https://www.shilikajain.com/assets/media/og/apac.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'APAC PR that is not a translated press release. Korea, Japan, India, Singapore and MENA. Photo: Shilika Jain leaning on the Marina Bay railing with the Singapore skyline across the water.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'APAC Crypto PR 2026: Korea, Japan, Vietnam, India, MENA',
     description: 'APAC PR for Web3, AI and cybersecurity founders. Native-language placements across Korea, Japan, Vietnam, China, India, Singapore and MENA. Regional KOLs, on-ground events, local journalist databases. RARI, MANTRA, Bullieverse, Web3Auth proof.',
-    images: ['https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg'],
+    images: [
+      {
+        url: 'https://www.shilikajain.com/assets/media/og/apac.jpg',
+        alt: 'APAC PR that is not a translated press release. Korea, Japan, India, Singapore and MENA. Photo: Shilika Jain leaning on the Marina Bay railing with the Singapore skyline across the water.',
+      },
+    ],
   },
 };
 

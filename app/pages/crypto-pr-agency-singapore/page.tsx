@@ -14,13 +14,25 @@ export const metadata: Metadata = {
     description: 'Singapore and SEA media plus Token2049 event leverage, from an operator with native APAC access.',
     url: `${SITE_URL}/pages/crypto-pr-agency-singapore`,
     type: 'website',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/singapore.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Singapore PR: the MAS frame is paragraph one. BT, DealStreetAsia and Token2049. Photo: Shilika Jain at the Marina Bay railing with the Singapore financial district skyline behind her.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Crypto PR Agency Singapore 2026 | Token2049 & SEA Access',
     description: 'Singapore and SEA media plus Token2049 event leverage, from an operator with native APAC access.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/singapore.jpg`,
+        alt: 'Singapore PR: the MAS frame is paragraph one. BT, DealStreetAsia and Token2049. Photo: Shilika Jain at the Marina Bay railing with the Singapore financial district skyline behind her.',
+      },
+    ],
   },
 };
 

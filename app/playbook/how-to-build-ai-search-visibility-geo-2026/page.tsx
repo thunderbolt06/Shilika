@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'When buyers ask ChatGPT instead of Google, getting cited is the win. The earned-media and content moves that make AI engines name your brand.',
     url: `${SITE_URL}/playbook/how-to-build-ai-search-visibility-geo-2026`,
     type: 'article',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/ai.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'AI PR with analyst-grade credibility. Tier-1 AI coverage, plus the AI-search work that gets you cited. Photo: Shilika Jain speaking on stage with a microphone in front of a presentation screen.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'How to Build AI Search Visibility (GEO) for a Startup in 2026',
     description: 'When buyers ask ChatGPT instead of Google, getting cited is the win. The earned-media and content moves that make AI engines name your brand.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/ai.jpg`,
+        alt: 'AI PR with analyst-grade credibility. Tier-1 AI coverage, plus the AI-search work that gets you cited. Photo: Shilika Jain speaking on stage with a microphone in front of a presentation screen.',
+      },
+    ],
   },
 };
 

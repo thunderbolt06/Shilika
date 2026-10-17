@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'Fractional Web3 PR consultant. Strategic campaigns from positioning thesis to Tier-1 placement. Forbes, CoinDesk, Cointelegraph, Decrypt. 50+ protocols shaped.',
     url: 'https://www.shilikajain.com/services/web3-pr-campaigns',
     type: 'website',
-    images: [{ url: 'https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg', width: 1200, height: 628 }],
+    images: [
+      {
+        url: 'https://www.shilikajain.com/assets/media/og/web3.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Web3 PR that lands Tier-1 headlines. Forbes, CoinDesk, Cointelegraph, Decrypt and The Block. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Web3 PR Campaigns 2026: Tier-1 Placements, Senior Operator',
     description: 'Fractional Web3 PR consultant. Strategic campaigns from positioning thesis to Tier-1 placement. Forbes, CoinDesk, Cointelegraph, Decrypt. 50+ protocols shaped.',
-    images: ['https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg'],
+    images: [
+      {
+        url: 'https://www.shilikajain.com/assets/media/og/web3.jpg',
+        alt: 'Web3 PR that lands Tier-1 headlines. Forbes, CoinDesk, Cointelegraph, Decrypt and The Block. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
 };
 

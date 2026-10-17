@@ -24,10 +24,10 @@ export const metadata: Metadata = {
     locale: 'en_US',
     images: [
       {
-        url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`,
+        url: `${SITE_URL}/assets/media/og/home.jpg`,
         width: 1200,
-        height: 628,
-        alt: 'Shilika Jain - fractional PR for Web3 and AI founders',
+        height: 630,
+        alt: 'Tier-1 PR for Web3 & AI founders. Coverage in Forbes, CoinDesk, Economic Times and Yahoo Finance. Photo: Shilika Jain wearing a conference badge on the Marina Bay promenade in Singapore.',
       },
     ],
   },
@@ -36,7 +36,12 @@ export const metadata: Metadata = {
     title: 'Web3 PR & AI PR Consultant | Shilika Jain',
     description:
       'Fractional Web3 PR and AI PR for crypto and AI startups. Coverage in Forbes, CoinDesk, Economic Times and Yahoo Finance.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/home.jpg`,
+        alt: 'Tier-1 PR for Web3 & AI founders. Coverage in Forbes, CoinDesk, Economic Times and Yahoo Finance. Photo: Shilika Jain wearing a conference badge on the Marina Bay promenade in Singapore.',
+      },
+    ],
   },
 };
 

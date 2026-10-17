@@ -8,6 +8,16 @@ import { readingTimeMinutes, renderMarkdown } from '@/lib/markdown';
 import { extractToc } from '@/lib/toc';
 import { TableOfContents } from '@/components/blog/TableOfContents';
 import { ReadingProgress } from '@/components/blog/ReadingProgress';
+import {
+  AVATAR_IDS,
+  COVER_IDS,
+  CTA_IDS,
+  CtaBand,
+  Photo,
+  pickPhoto,
+  regionOf,
+  topicShareCard,
+} from '@/components/site/Media';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
@@ -21,6 +31,9 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   const post = await getPostBySlug(slug);
   if (!post) return {};
   const url = `${SITE_URL}/blog/${post.slug}`;
+  // A post with its own cover keeps it as the share image; one without gets the share card
+  // that fits its topic (the single route-to-card mapping in scripts/media/og-map.mjs).
+  const card = post.image ? null : topicShareCard(post.slug, post.title, ...post.tags);
   return {
     title: post.title,
     description: post.description,
@@ -38,13 +51,13 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
       modifiedTime: post.updated_at,
       authors: [post.author],
       tags: post.tags,
-      images: post.image ? [{ url: post.image, width: 1200, height: 630 }] : undefined,
+      images: card ? [card] : [{ url: post.image!, width: 1200, height: 630 }],
     },
     twitter: {
       card: 'summary_large_image',
       title: post.title,
       description: post.description,
-      images: post.image ? [post.image] : undefined,
+      images: card ? [{ url: card.url, alt: card.alt }] : [post.image!],
     },
     other: {
       'article:author': post.author,
@@ -132,6 +145,21 @@ export default async function BlogPostPage({ params }: { params: Params }) {
   const ctaLabel = post.cta_label ?? 'Book a 30-min teardown';
   const ctaUrl = post.cta_url ?? 'https://calendly.com/shilikajain/30min/';
 
+  // Portrait media. Every photo on the page is different, and a post that is about one place
+  // (or several) only gets photos that cannot contradict it (see regionOf in media-region.ts).
+  const region = regionOf(post.slug, post.title, ...post.tags);
+  const used = new Set<string>();
+  const pick = (seed: string, crop: 'wide' | 'sq' | 'port', from: readonly string[]) => {
+    const id = pickPhoto({ seed: `${post.slug}:${seed}`, crop, region, exclude: used, from });
+    used.add(id);
+    return id;
+  };
+  const coverId = post.image ? null : pick('cover', 'wide', COVER_IDS); // only when the post has no cover art
+  const ctaId = pick('cta', 'port', CTA_IDS);
+  const byShilika = /shilika/i.test(author?.name ?? post.author);
+  const bylineId = byShilika ? pick('byline', 'sq', AVATAR_IDS) : null;
+  const cardId = byShilika ? pick('card', 'sq', AVATAR_IDS) : null;
+
   return (
     <article className="post-page">
       <Script
@@ -152,7 +180,9 @@ export default async function BlogPostPage({ params }: { params: Params }) {
 
         <div className="post-meta-row">
           <div className="post-meta-author">
-            {author?.image_url ? (
+            {bylineId ? (
+              <Photo id={bylineId} crop="sq" sizes="44px" alt="" />
+            ) : author?.image_url ? (
               // eslint-disable-next-line @next/next/no-img-element
               <img src={author.image_url} alt={author.name} />
             ) : (
@@ -186,11 +216,22 @@ export default async function BlogPostPage({ params }: { params: Params }) {
         </div>
       </header>
 
-      {post.image && (
+      {post.image ? (
         <div className="post-hero-image">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src={post.image} alt={post.title} width={1200} height={630} />
         </div>
+      ) : (
+        coverId && (
+          <div className="post-hero-image post-hero-image--photo">
+            <Photo
+              id={coverId}
+              crop="wide"
+              sizes="(min-width: 1344px) 1216px, 94vw"
+              mobile={{ crop: 'port', sizes: '94vw', max: 720 }}
+            />
+          </div>
+        )
       )}
 
       <div className="post-body-grid">
@@ -243,7 +284,9 @@ export default async function BlogPostPage({ params }: { params: Params }) {
 
           {author && (
             <aside className="post-author-card post-mobile-block">
-              {author.image_url ? (
+              {cardId ? (
+                <Photo id={cardId} crop="sq" sizes="64px" alt="" />
+              ) : author.image_url ? (
                 // eslint-disable-next-line @next/next/no-img-element
                 <img src={author.image_url} alt={author.name} />
               ) : (
@@ -306,7 +349,9 @@ export default async function BlogPostPage({ params }: { params: Params }) {
 
             {author && (
               <aside className="post-author-card">
-                {author.image_url ? (
+                {cardId ? (
+                  <Photo id={cardId} crop="sq" sizes="64px" alt="" />
+                ) : author.image_url ? (
                   // eslint-disable-next-line @next/next/no-img-element
                   <img src={author.image_url} alt={author.name} />
                 ) : (
@@ -336,6 +381,8 @@ export default async function BlogPostPage({ params }: { params: Params }) {
           </div>
         </div>
       </div>
+
+      <CtaBand id={ctaId} primary={{ label: ctaLabel, href: ctaUrl }} />
 
       {related.length > 0 && (
         <section className="post-related">

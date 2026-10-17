@@ -14,13 +14,25 @@ export const metadata: Metadata = {
     description: 'X-native KOL waves with credibility anchors and disclosure language built in.',
     url: `${SITE_URL}/pages/crypto-twitter-kol-marketing`,
     type: 'website',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/kol.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Web3 KOL marketing with 200+ vetted creators. FTC-safe campaigns. Photo: Shilika Jain in a pink dress and sunglasses on the Singapore River at dusk.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Crypto Twitter KOL Marketing 2026 | X Creator Waves',
     description: 'X-native KOL waves with credibility anchors and disclosure language built in.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/kol.jpg`,
+        alt: 'Web3 KOL marketing with 200+ vetted creators. FTC-safe campaigns. Photo: Shilika Jain in a pink dress and sunglasses on the Singapore River at dusk.',
+      },
+    ],
   },
 };
 

@@ -14,13 +14,25 @@ export const metadata: Metadata = {
     description: 'A repeatable listing-announcement playbook across Binance, OKX, Bybit and more, with the compliance lines built in.',
     url: `${SITE_URL}/pages/crypto-exchange-listing-pr`,
     type: 'website',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/token-launch.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Token launch PR: TGE comms, exchange and KOL waves. Photo: Shilika Jain in a black blazer beside the TOKEN2049 Singapore sign in the conference hall.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Crypto Exchange Listing PR 2026 | Binance, OKX, Bybit',
     description: 'A repeatable listing-announcement playbook across Binance, OKX, Bybit and more, with the compliance lines built in.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/token-launch.jpg`,
+        alt: 'Token launch PR: TGE comms, exchange and KOL waves. Photo: Shilika Jain in a black blazer beside the TOKEN2049 Singapore sign in the conference hall.',
+      },
+    ],
   },
 };
 

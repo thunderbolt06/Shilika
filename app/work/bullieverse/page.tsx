@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'Economic Times, Inc42, YourStory, Business Today and NewsBTC. How an Indian metaverse studio\'s seed round was run on two press tracks at once, by Shilika Jain, fractional PR manager.',
     url: 'https://www.shilikajain.com/work/bullieverse',
     type: 'article',
-    images: [{ url: 'https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg', width: 1200, height: 628 }],
+    images: [
+      {
+        url: 'https://www.shilikajain.com/assets/media/og/work-bullieverse.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'A $4M Web3 gaming raise in India. Photo: Shilika Jain in a pink satin shirt standing in a wood-panelled lounge with framed posters.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Bullieverse: A $4M Web3 Gaming Raise, Launched in India',
     description: 'Economic Times, Inc42, YourStory, Business Today and NewsBTC. How an Indian metaverse studio\'s seed round was run on two press tracks at once, by Shilika Jain, fractional PR manager.',
-    images: ['https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg'],
+    images: [
+      {
+        url: 'https://www.shilikajain.com/assets/media/og/work-bullieverse.jpg',
+        alt: 'A $4M Web3 gaming raise in India. Photo: Shilika Jain in a pink satin shirt standing in a wood-panelled lounge with framed posters.',
+      },
+    ],
   },
 };
 

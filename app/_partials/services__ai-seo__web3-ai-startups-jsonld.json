@@ -1,0 +1,108 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/services/ai-seo/web3-ai-startups#service",
+      "name": "AI SEO for Web3 and AI startups",
+      "serviceType": "AI SEO, GEO and AEO",
+      "description": "PR plus AI SEO for crypto, Web3 and AI startups: tier-1 placements in CoinDesk, Cointelegraph, The Block, Decrypt and Forbes, category answer pages, crawlable docs and schema, founder entity building, and a citation panel across ChatGPT, Perplexity, Gemini, Claude and Google AI Mode.",
+      "url": "https://www.shilikajain.com/services/ai-seo/web3-ai-startups",
+      "provider": [
+        {
+          "@id": "https://www.shilikajain.com/#person"
+        },
+        {
+          "@id": "https://www.shilikajain.com/services/ai-seo#rahil-jain"
+        }
+      ],
+      "isRelatedTo": {
+        "@id": "https://www.shilikajain.com/services/ai-seo#service"
+      },
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Crypto protocols, L2s, Web3 startups, AI startups, developer tools"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.shilikajain.com/services/ai-seo#rahil-jain",
+      "name": "Rahil Jain",
+      "jobTitle": "AI Engineer, Product and Growth Engineering",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Chalk Labs",
+        "url": "https://thechalklabs.com"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/rahilnjain/"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Shilika Jain",
+          "item": "https://www.shilikajain.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://www.shilikajain.com/services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "AI SEO",
+          "item": "https://www.shilikajain.com/services/ai-seo"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Web3 & AI startups",
+          "item": "https://www.shilikajain.com/services/ai-seo/web3-ai-startups"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can PR alone get a crypto project cited by ChatGPT?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sometimes, but slowly. Branded mentions are the strongest predictor of showing up in Google's AI Overviews (0.66 correlation in Ahrefs' 2026 study of about 75,000 brands). Mentions without matching pages on your own site tend to get competitors cited instead. PR plus answer pages is faster than either alone."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do AI engines read crypto docs sites?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Only if the HTML has the content in it. Many docs and landing pages render client-side, and most AI crawlers don't execute JavaScript. The fix is server-rendered versions of the pages that matter."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is AI SEO compliant for token projects?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Answer pages are written like press: no price talk, no return projections, no investment framing. They explain what the protocol does, how it compares and who uses it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does AI SEO cost for a Web3 or AI startup?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "$1,000 one-time for the audit and strategy, $3,000 per month for Strategic Execution (100 AI-feed pages and 25 branded placements), or $4,000 per month for Deep Execution (200 pages and 40 placements)."
+          }
+        }
+      ]
+    }
+  ]
+}

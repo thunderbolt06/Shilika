@@ -16,13 +16,25 @@ export const metadata: Metadata = {
     description: 'What CoinDesk editors filter for, pitch templates that work, and 3 worked examples from a senior Web3 PR operator.',
     url: 'https://www.shilikajain.com/playbook/get-featured-coindesk-2026',
     type: 'article',
-    images: [{ url: 'https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg', width: 1200, height: 628 }],
+    images: [
+      {
+        url: 'https://www.shilikajain.com/assets/media/og/playbook.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'The PR playbook for Web3 & AI founders. Guides on Tier-1 pitching, launch PR, KOLs and AI-search citations. Photo: Shilika Jain in a floral dress on a Marina Bay footbridge with the Singapore skyline behind her.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'How to Get Featured in CoinDesk in 2026: Pitch Guide',
     description: 'What CoinDesk editors filter for, pitch templates that work, and 3 worked examples from a senior Web3 PR operator.',
-    images: ['https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg'],
+    images: [
+      {
+        url: 'https://www.shilikajain.com/assets/media/og/playbook.jpg',
+        alt: 'The PR playbook for Web3 & AI founders. Guides on Tier-1 pitching, launch PR, KOLs and AI-search citations. Photo: Shilika Jain in a floral dress on a Marina Bay footbridge with the Singapore skyline behind her.',
+      },
+    ],
   },
 };
 

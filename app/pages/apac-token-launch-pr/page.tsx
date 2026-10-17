@@ -14,13 +14,25 @@ export const metadata: Metadata = {
     description: 'Time a TGE across the three APAC press windows with coordinated translation and regional KOLs.',
     url: `${SITE_URL}/pages/apac-token-launch-pr`,
     type: 'website',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/apac.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'APAC PR that is not a translated press release. Korea, Japan, India, Singapore and MENA. Photo: Shilika Jain leaning on the Marina Bay railing with the Singapore skyline across the water.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'APAC Token Launch PR 2026 | Korea, Japan, SEA Timing',
     description: 'Time a TGE across the three APAC press windows with coordinated translation and regional KOLs.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/apac.jpg`,
+        alt: 'APAC PR that is not a translated press release. Korea, Japan, India, Singapore and MENA. Photo: Shilika Jain leaning on the Marina Bay railing with the Singapore skyline across the water.',
+      },
+    ],
   },
 };
 

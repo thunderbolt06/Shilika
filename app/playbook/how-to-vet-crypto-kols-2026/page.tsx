@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'Most KOL spend is wasted on bought audiences. The independent-audit checklist that catches bots, fake reach and dead engagement before you sign.',
     url: `${SITE_URL}/playbook/how-to-vet-crypto-kols-2026`,
     type: 'article',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/kol.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Web3 KOL marketing with 200+ vetted creators. FTC-safe campaigns. Photo: Shilika Jain in a pink dress and sunglasses on the Singapore River at dusk.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'How to Vet Crypto KOLs in 2026 (and Spot Fake Engagement)',
     description: 'Most KOL spend is wasted on bought audiences. The independent-audit checklist that catches bots, fake reach and dead engagement before you sign.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/kol.jpg`,
+        alt: 'Web3 KOL marketing with 200+ vetted creators. FTC-safe campaigns. Photo: Shilika Jain in a pink dress and sunglasses on the Singapore River at dusk.',
+      },
+    ],
   },
 };
 

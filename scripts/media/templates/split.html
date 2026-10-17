@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+@import url('{{fontsCss}}');
+@import url('{{baseCss}}');
+:root { --W: {{W}}px; --H: {{H}}px; {{vars}} }
+
+/* Photo on one side, dark editorial panel on the other (same family as the
+   existing ad-display cards). `flip` puts the photo on the right. */
+.frame { display: flex; background: var(--panel); {{flipRow}} }
+.photo { position: relative; flex: none; width: {{photoW}}; height: 100%; overflow: hidden; }
+.photo .bg { object-position: {{pos}}; transform: scale({{scale}}); transform-origin: {{origin}}; }
+.panel {
+  flex: 1; display: flex; flex-direction: column; justify-content: var(--panelJ, space-between);
+  padding: var(--pad, 52px); background: var(--panel); min-width: 0;
+}
+.panel .top { display: flex; flex-direction: column; gap: var(--gap, 24px); }
+.rule { width: 56px; height: 2px; background: var(--paper); opacity: .85; margin: 4px 0; }
+.foot { display: flex; flex-direction: column; gap: 12px; align-items: flex-start; }
+.mark--tl { top: 24px; left: 24px; }
+{{extraCss}}
+</style>
+</head>
+<body>
+<div class="frame">
+  <div class="photo">
+    <img class="bg" src="{{photo}}" alt="">
+    {{markHtml}}
+  </div>
+  <div class="panel">
+    <div class="top">
+      {{eyebrowHtml}}
+      <h1>{{headline}}</h1>
+      {{subHtml}}
+    </div>
+    {{footHtml}}
+  </div>
+</div>
+</body>
+</html>

@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'Podcasts are the most underrated founder channel. How to build a target list, pitch hosts, and turn one tour into a quarter of authority.',
     url: `${SITE_URL}/playbook/how-to-get-podcast-interviews-founder-2026`,
     type: 'article',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/founder.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Founder profiling: op-eds, podcasts, category voice. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'How to Get Podcast Interviews as a Founder in 2026',
     description: 'Podcasts are the most underrated founder channel. How to build a target list, pitch hosts, and turn one tour into a quarter of authority.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/founder.jpg`,
+        alt: 'Founder profiling: op-eds, podcasts, category voice. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
 };
 

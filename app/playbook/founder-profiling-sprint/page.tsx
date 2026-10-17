@@ -16,13 +16,25 @@ export const metadata: Metadata = {
     description: 'How to turn a technical founder into a category-defining voice in 90 days. Cadence, calendar, hand-offs.',
     url: 'https://www.shilikajain.com/playbook/founder-profiling-sprint',
     type: 'article',
-    images: [{ url: 'https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg', width: 1200, height: 628 }],
+    images: [
+      {
+        url: 'https://www.shilikajain.com/assets/media/og/founder.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Founder profiling: op-eds, podcasts, category voice. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Founder Profiling Sprint: 90 Days to Category Voice',
     description: 'How to turn a technical founder into a category-defining voice in 90 days. Cadence, calendar, hand-offs.',
-    images: ['https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg'],
+    images: [
+      {
+        url: 'https://www.shilikajain.com/assets/media/og/founder.jpg',
+        alt: 'Founder profiling: op-eds, podcasts, category voice. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
 };
 

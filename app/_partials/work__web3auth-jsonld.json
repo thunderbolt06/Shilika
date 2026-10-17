@@ -7,7 +7,7 @@
       "headline": "Web3Auth Case Study: Google Cloud Meets Web3 Wallets",
       "alternativeHeadline": "Web3Auth x Google Cloud Firebase Extension PR Campaign Teardown",
       "description": "A first-person teardown of the Web3Auth PR campaign around the Google Cloud Firebase wallet extension. How a developer-infrastructure launch with no funding hook and no token was reframed as a Web2-meets-Web3 story, anchored to the Google Cloud brand, placed across Blockworks, CoinDesk, Yahoo Finance, Benzinga and Cointelegraph, and syndicated into French, Italian and Spanish markets.",
-      "image": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+      "image": "https://www.shilikajain.com/assets/media/og/work-web3auth.jpg",
       "datePublished": "2026-05-22T15:00:00+05:30",
       "dateModified": "2026-05-22T15:00:00+05:30",
       "inLanguage": "en",
@@ -32,7 +32,7 @@
         "url": "https://www.shilikajain.com/",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg"
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
         }
       },
       "about": [

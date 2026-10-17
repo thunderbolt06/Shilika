@@ -17,14 +17,26 @@ export const metadata: Metadata = {
       'The repeatable category-first launch method behind RARI Chain\'s 11 simultaneous tier-1 placements, rebuilt as a playbook for 2026.',
     url: `${SITE_URL}/playbook/how-rari-chain-landed-11-tier1-placements`,
     type: 'article',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/work-rari-chain.jpg`,
+        width: 1200,
+        height: 630,
+        alt: '11 Tier-1 placements in 24 hours. RARI Chain mainnet launch. Photo: Shilika Jain leaning on the Marina Bay railing with the Singapore skyline across the water.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'How to Land 11 Tier-1 Placements in 24 Hours: A Teardown',
     description:
       'The repeatable category-first launch method behind RARI Chain\'s 11 simultaneous tier-1 placements, rebuilt as a playbook for 2026.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/work-rari-chain.jpg`,
+        alt: '11 Tier-1 placements in 24 hours. RARI Chain mainnet launch. Photo: Shilika Jain leaning on the Marina Bay railing with the Singapore skyline across the water.',
+      },
+    ],
   },
 };
 

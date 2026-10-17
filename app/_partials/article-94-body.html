@@ -179,6 +179,31 @@ body { font-family: var(--font-body); background: var(--paper); color: var(--ink
     </div>
   </div>
 </header>
+<!--sjm:art-band-->
+<div class="sjm-band sjm-band--right" data-sjm="band"><picture class="sjm-band__pic"><source media="(max-width: 720px)" type="image/webp" srcset="/assets/media/photos/sg-marina-a-port-480.webp 480w, /assets/media/photos/sg-marina-a-port-800.webp 800w, /assets/media/photos/sg-marina-a-port-1080.webp 1080w" sizes="100vw"><source type="image/webp" srcset="/assets/media/photos/sg-marina-a-wide-800.webp 800w, /assets/media/photos/sg-marina-a-wide-1440.webp 1440w, /assets/media/photos/sg-marina-a-wide-2000.webp 2000w" sizes="100vw"><img src="/assets/media/photos/sg-marina-a-wide-1440.webp" width="1440" height="600" alt="Shilika Jain wearing a conference badge on the Marina Bay promenade in Singapore" loading="lazy" decoding="async"></picture><div class="sjm-band__copy"><p class="sjm-eyebrow">Cybersecurity PR</p><p class="sjm-band__title">Cybersecurity PR from a <em>senior operator</em>.</p><p class="sjm-band__sub">Get cited by analysts and AI engines.</p></div></div>
+<style>
+:is(.article-header, .case-header) ~ .sjm-band { max-height: 480px; }
+:is(.article-header, .case-header) ~ .sjm-band .sjm-band__sub { text-wrap: balance; }
+:is(.article-header, .case-header) ~ .sjm-band .sjm-band__pic img { object-position: 50% 50%; }
+:is(.article-header, .case-header) ~ .sjm-band .sjm-band__pic img[src*="/depin-day-hk-"] { object-position: 50% 85%; }
+.article-body .sjm-figure, .case-body .sjm-figure,
+.article-body .sjm-wall, .case-body .sjm-wall { max-width: none; padding: 0; margin: 2.4em 0; }
+.article-body .sjm-wall p, .case-body .sjm-wall p { margin: 0; }
+.article-body .sjm-wall__head, .case-body .sjm-wall__head { margin-bottom: 16px; }
+.article-body .sjm-video, .case-body .sjm-video { max-width: 320px; padding: 0; margin: 2.4em auto; }
+:is(.article-body-wrap, .case-body-wrap) .sjm-cta { padding: 0; margin: clamp(48px, 6vw, 80px) 0 0; }
+.sjm-cta__pic img[src*="/stage-a-"], .sjm-cta__pic img[src*="/stage-b-"] { object-position: 50% 0%; }
+.sjm-cta__pic img[src*="/sg-marina-b-"] { object-position: 50% 75%; }
+.sjm-cta__pic img[src*="/sg-marina-c-"] { object-position: 50% 65%; }
+.sjm-cta__pic img[src*="/sg-marina-d-"] { object-position: 50% 70%; }
+.sjm-cta__pic img[src*="/depin-day-hk-"] { object-position: 50% 60%; }
+.sjm-cta__pic img[src*="/token2049-hall-"] { object-position: 50% 55%; }
+@media (max-width: 720px) {
+  :is(.article-header, .case-header) ~ .sjm-band { max-height: 500px; }
+  :is(.article-header, .case-header) ~ .sjm-band:has(img[src*="/sg-marina-b-"], img[src*="/sg-marina-c-"], img[src*="/sg-marina-d-"]) .sjm-band__sub { display: none; }
+}
+</style>
+<!--/sjm:art-band-->
 
 <section class="article-body-wrap">
   <article class="article-body">
@@ -281,7 +306,10 @@ body { font-family: var(--font-body); background: var(--paper); color: var(--ink
 
 <p>The full <a href="/services/cybersecurity-pr">cybersecurity PR service</a> I run sits outside these tiers entirely: a fractional senior operator model rather than an agency. The difference is meaningful and covered in the next section.</p>
 
-<h2>The fractional alternative and when it wins</h2>
+
+<!--sjm:art-mid-->
+<figure class="sjm-figure" data-sjm="figure"><div class="sjm-figure__frame"><picture><source type="image/webp" srcset="/assets/media/photos/press-lounge-land-640.webp 640w, /assets/media/photos/press-lounge-land-1100.webp 1100w" sizes="(min-width: 800px) 720px, 92vw"><img src="/assets/media/photos/press-lounge-land-1100.webp" width="1100" height="688" alt="Shilika Jain in front of a red Press Lounge wall at the Consensus conference" loading="lazy" decoding="async"></picture></div><figcaption><b>Shilika Jain</b><span>Fractional PR for Web3 and AI founders.</span></figcaption></figure>
+<!--/sjm:art-mid--><h2>The fractional alternative and when it wins</h2>
 
 <p>The fractional model means a senior PR strategist with genuine cybersecurity vertical experience works directly on your account, without the overhead of an agency structure, junior account teams, or the incentive to bill hours on deliverables that do not move your needle. The rate range is $3,000 to $7,000 per month, typically with a defined scope covering strategy, media relations, content direction, and analyst-relations advisory. For a Series A or pre-Series B security company, this is almost always more capital-efficient than a full agency engagement at the same or higher spend.</p>
 
@@ -345,6 +373,9 @@ body { font-family: var(--font-body); background: var(--paper); color: var(--ink
     <p style="margin-top: 2.2em; padding: 22px 26px; background: var(--paper-2); border-left: 3px solid var(--lime); border-radius: 4px; font-size: 17px; line-height: 1.55;"><strong>Evaluating your cyber PR options?</strong> Start with the <a href="/services/cybersecurity-pr" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">cybersecurity PR service</a> for scope and current availability, then read <a href="/playbook/cybersecurity-pr-2026" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">cybersecurity PR in 2026</a> for the full narrative framework. The <a href="/playbook" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">full playbook library</a> covers pricing, analyst relations, and the AI-search layer across verticals.</p>
 
   </article>
+<!--sjm:art-cta-->
+<div class="sjm-cta" data-sjm="cta"><div class="sjm-cta__inner"><div class="sjm-cta__pic"><img src="/assets/media/photos/token2049-hall-port-800.webp" srcset="/assets/media/photos/token2049-hall-port-480.webp 480w, /assets/media/photos/token2049-hall-port-800.webp 800w, /assets/media/photos/token2049-hall-port-885.webp 885w" sizes="(min-width: 760px) 40vw, 92vw" width="800" height="1000" alt="Shilika Jain in a black blazer beside the TOKEN2049 Singapore sign in the conference hall" loading="lazy" decoding="async"></div><div class="sjm-cta__copy"><p class="sjm-eyebrow">Work with Shilika</p><p class="sjm-cta__title">Book a 30-min <em>intro call</em>.</p><p class="sjm-cta__sub">I come prepped with a teardown of your current press footprint.</p><div class="sjm-cta__row"><a class="sjm-btn" href="https://calendly.com/shilikajain/30min/" target="_blank" rel="noopener">Book a call</a><a class="sjm-btn sjm-btn--ghost" href="https://t.me/shilika3" target="_blank" rel="noopener">Chat on Telegram</a></div></div></div></div>
+<!--/sjm:art-cta-->
 </section>
 
 <section class="cta-strip">

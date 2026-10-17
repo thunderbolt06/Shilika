@@ -1142,3 +1142,47 @@ html { scroll-behavior: smooth; }
   padding-top: 1.2em;
   border-top: 1px solid var(--line);
 }
+
+
+/* ── Portrait media (components/site/Media.tsx, styled by app/media.css) ─────────
+   The .sjm-* blocks are written for full-bleed partials. Inside the editorial
+   containers below they sit in the 1280px column, so the container padding is not
+   doubled and the corners match the cards around them. */
+.blog-page-inner > .sjm-band {
+  margin: clamp(28px, 4vw, 48px) 0 0;
+  border-radius: 18px;
+  max-height: 460px;
+}
+.blog-page-inner > .sjm-wall,
+.blog-page-inner > .sjm-figure,
+.blog-page-inner > .sjm-cta {
+  max-width: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+.blog-page-inner > .sjm-cta { margin-top: clamp(40px, 6vw, 80px); }
+@media (max-width: 720px) {
+  .blog-page-inner > .sjm-band { max-height: 520px; }
+}
+
+/* Cover fallback: a library photo where a post has no cover art. */
+.blog-card-media picture { display: block; width: 100%; height: 100%; }
+.blog-card-media--photo { background: var(--paper-2); }
+.post-hero-image picture { display: block; }
+.post-hero-image--photo img { height: auto; aspect-ratio: 12 / 5; object-fit: cover; background: var(--paper-2); }
+@media (max-width: 720px) {
+  .post-hero-image--photo img { aspect-ratio: 1 / 1; }
+}
+
+/* CTA band after a post: sits below the 3-column grid, above "Keep reading". */
+.post-page > .sjm-cta { margin-top: 0; }
+.post-page > .sjm-cta + .post-related { margin-top: 72px; }
+
+/* Library avatars come wrapped in <picture>; keep the wrapper from adding a text-baseline gap. */
+.post-meta-author picture,
+.post-author-card picture { display: flex; flex: none; }
+.post-author-card picture { margin-bottom: 8px; }
+.post-author-card picture img { margin-bottom: 0; }
+@media (max-width: 720px) {
+  .post-hero-image--photo img { object-position: 50% 30%; }
+}

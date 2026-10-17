@@ -1,0 +1,1199 @@
+{
+  "press-lounge": {
+    "land": {
+      "ratio": 1.6,
+      "files": [
+        {
+          "url": "/assets/media/photos/press-lounge-land-640.webp",
+          "width": 640,
+          "height": 400,
+          "bytes": 10650
+        },
+        {
+          "url": "/assets/media/photos/press-lounge-land-1100.webp",
+          "width": 1100,
+          "height": 688,
+          "bytes": 22464
+        }
+      ]
+    },
+    "sq": {
+      "ratio": 1,
+      "files": [
+        {
+          "url": "/assets/media/photos/press-lounge-sq-320.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 6734
+        },
+        {
+          "url": "/assets/media/photos/press-lounge-sq-640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 19800
+        }
+      ]
+    },
+    "port": {
+      "ratio": 0.8,
+      "files": [
+        {
+          "url": "/assets/media/photos/press-lounge-port-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 11988
+        },
+        {
+          "url": "/assets/media/photos/press-lounge-port-800.webp",
+          "width": 800,
+          "height": 1000,
+          "bytes": 28196
+        },
+        {
+          "url": "/assets/media/photos/press-lounge-port-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 54024
+        }
+      ]
+    }
+  },
+  "depin-day-hk": {
+    "wide": {
+      "ratio": 2.4,
+      "files": [
+        {
+          "url": "/assets/media/photos/depin-day-hk-wide-800.webp",
+          "width": 800,
+          "height": 333,
+          "bytes": 24740
+        },
+        {
+          "url": "/assets/media/photos/depin-day-hk-wide-1440.webp",
+          "width": 1440,
+          "height": 600,
+          "bytes": 53870
+        },
+        {
+          "url": "/assets/media/photos/depin-day-hk-wide-2000.webp",
+          "width": 2000,
+          "height": 833,
+          "bytes": 90500
+        }
+      ]
+    },
+    "land": {
+      "ratio": 1.6,
+      "files": [
+        {
+          "url": "/assets/media/photos/depin-day-hk-land-640.webp",
+          "width": 640,
+          "height": 400,
+          "bytes": 27810
+        },
+        {
+          "url": "/assets/media/photos/depin-day-hk-land-1100.webp",
+          "width": 1100,
+          "height": 688,
+          "bytes": 56530
+        }
+      ]
+    },
+    "sq": {
+      "ratio": 1,
+      "files": [
+        {
+          "url": "/assets/media/photos/depin-day-hk-sq-320.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 14406
+        },
+        {
+          "url": "/assets/media/photos/depin-day-hk-sq-640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 37578
+        }
+      ]
+    },
+    "port": {
+      "ratio": 0.8,
+      "files": [
+        {
+          "url": "/assets/media/photos/depin-day-hk-port-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 30166
+        },
+        {
+          "url": "/assets/media/photos/depin-day-hk-port-800.webp",
+          "width": 800,
+          "height": 1000,
+          "bytes": 58636
+        },
+        {
+          "url": "/assets/media/photos/depin-day-hk-port-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 85932
+        }
+      ]
+    }
+  },
+  "stablecoin-summit": {
+    "wide": {
+      "ratio": 2.4,
+      "files": [
+        {
+          "url": "/assets/media/photos/stablecoin-summit-wide-800.webp",
+          "width": 800,
+          "height": 333,
+          "bytes": 17222
+        },
+        {
+          "url": "/assets/media/photos/stablecoin-summit-wide-1440.webp",
+          "width": 1440,
+          "height": 600,
+          "bytes": 45074
+        },
+        {
+          "url": "/assets/media/photos/stablecoin-summit-wide-2000.webp",
+          "width": 2000,
+          "height": 833,
+          "bytes": 89808
+        }
+      ]
+    },
+    "land": {
+      "ratio": 1.6,
+      "files": [
+        {
+          "url": "/assets/media/photos/stablecoin-summit-land-640.webp",
+          "width": 640,
+          "height": 400,
+          "bytes": 18242
+        },
+        {
+          "url": "/assets/media/photos/stablecoin-summit-land-1100.webp",
+          "width": 1100,
+          "height": 688,
+          "bytes": 40746
+        }
+      ]
+    },
+    "sq": {
+      "ratio": 1,
+      "files": [
+        {
+          "url": "/assets/media/photos/stablecoin-summit-sq-320.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 5276
+        },
+        {
+          "url": "/assets/media/photos/stablecoin-summit-sq-640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 19924
+        }
+      ]
+    },
+    "port": {
+      "ratio": 0.8,
+      "files": [
+        {
+          "url": "/assets/media/photos/stablecoin-summit-port-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 25602
+        },
+        {
+          "url": "/assets/media/photos/stablecoin-summit-port-800.webp",
+          "width": 800,
+          "height": 1000,
+          "bytes": 56830
+        },
+        {
+          "url": "/assets/media/photos/stablecoin-summit-port-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 88424
+        }
+      ]
+    }
+  },
+  "token2049-hall": {
+    "land": {
+      "ratio": 1.6,
+      "files": [
+        {
+          "url": "/assets/media/photos/token2049-hall-land-640.webp",
+          "width": 640,
+          "height": 400,
+          "bytes": 45714
+        },
+        {
+          "url": "/assets/media/photos/token2049-hall-land-885.webp",
+          "width": 885,
+          "height": 553,
+          "bytes": 89296
+        }
+      ]
+    },
+    "sq": {
+      "ratio": 1,
+      "files": [
+        {
+          "url": "/assets/media/photos/token2049-hall-sq-320.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 15590
+        },
+        {
+          "url": "/assets/media/photos/token2049-hall-sq-492.webp",
+          "width": 492,
+          "height": 492,
+          "bytes": 37300
+        }
+      ]
+    },
+    "port": {
+      "ratio": 0.8,
+      "files": [
+        {
+          "url": "/assets/media/photos/token2049-hall-port-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 45410
+        },
+        {
+          "url": "/assets/media/photos/token2049-hall-port-800.webp",
+          "width": 800,
+          "height": 1000,
+          "bytes": 121628
+        },
+        {
+          "url": "/assets/media/photos/token2049-hall-port-885.webp",
+          "width": 885,
+          "height": 1106,
+          "bytes": 159766
+        }
+      ]
+    }
+  },
+  "library": {
+    "wide": {
+      "ratio": 2.4,
+      "files": [
+        {
+          "url": "/assets/media/photos/library-wide-800.webp",
+          "width": 800,
+          "height": 333,
+          "bytes": 50458
+        },
+        {
+          "url": "/assets/media/photos/library-wide-1440.webp",
+          "width": 1440,
+          "height": 600,
+          "bytes": 134218
+        },
+        {
+          "url": "/assets/media/photos/library-wide-2000.webp",
+          "width": 2000,
+          "height": 833,
+          "bytes": 222032
+        }
+      ]
+    },
+    "land": {
+      "ratio": 1.6,
+      "files": [
+        {
+          "url": "/assets/media/photos/library-land-640.webp",
+          "width": 640,
+          "height": 400,
+          "bytes": 47058
+        },
+        {
+          "url": "/assets/media/photos/library-land-1100.webp",
+          "width": 1100,
+          "height": 688,
+          "bytes": 120128
+        }
+      ]
+    },
+    "sq": {
+      "ratio": 1,
+      "files": [
+        {
+          "url": "/assets/media/photos/library-sq-320.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 19516
+        },
+        {
+          "url": "/assets/media/photos/library-sq-640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 63150
+        }
+      ]
+    },
+    "port": {
+      "ratio": 0.8,
+      "files": [
+        {
+          "url": "/assets/media/photos/library-port-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 50212
+        },
+        {
+          "url": "/assets/media/photos/library-port-800.webp",
+          "width": 800,
+          "height": 1000,
+          "bytes": 119896
+        },
+        {
+          "url": "/assets/media/photos/library-port-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 201436
+        }
+      ]
+    }
+  },
+  "lounge": {
+    "wide": {
+      "ratio": 2.4,
+      "files": [
+        {
+          "url": "/assets/media/photos/lounge-wide-800.webp",
+          "width": 800,
+          "height": 333,
+          "bytes": 26086
+        },
+        {
+          "url": "/assets/media/photos/lounge-wide-1440.webp",
+          "width": 1440,
+          "height": 600,
+          "bytes": 52208
+        },
+        {
+          "url": "/assets/media/photos/lounge-wide-2000.webp",
+          "width": 2000,
+          "height": 833,
+          "bytes": 76280
+        }
+      ]
+    },
+    "land": {
+      "ratio": 1.6,
+      "files": [
+        {
+          "url": "/assets/media/photos/lounge-land-640.webp",
+          "width": 640,
+          "height": 400,
+          "bytes": 27768
+        },
+        {
+          "url": "/assets/media/photos/lounge-land-1100.webp",
+          "width": 1100,
+          "height": 688,
+          "bytes": 54130
+        }
+      ]
+    },
+    "sq": {
+      "ratio": 1,
+      "files": [
+        {
+          "url": "/assets/media/photos/lounge-sq-320.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 11352
+        },
+        {
+          "url": "/assets/media/photos/lounge-sq-640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 27572
+        }
+      ]
+    },
+    "port": {
+      "ratio": 0.8,
+      "files": [
+        {
+          "url": "/assets/media/photos/lounge-port-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 30570
+        },
+        {
+          "url": "/assets/media/photos/lounge-port-800.webp",
+          "width": 800,
+          "height": 1000,
+          "bytes": 61648
+        },
+        {
+          "url": "/assets/media/photos/lounge-port-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 89434
+        }
+      ]
+    }
+  },
+  "sg-marina-a": {
+    "wide": {
+      "ratio": 2.4,
+      "files": [
+        {
+          "url": "/assets/media/photos/sg-marina-a-wide-800.webp",
+          "width": 800,
+          "height": 333,
+          "bytes": 50744
+        },
+        {
+          "url": "/assets/media/photos/sg-marina-a-wide-1440.webp",
+          "width": 1440,
+          "height": 600,
+          "bytes": 138086
+        },
+        {
+          "url": "/assets/media/photos/sg-marina-a-wide-2000.webp",
+          "width": 2000,
+          "height": 833,
+          "bytes": 228352
+        }
+      ]
+    },
+    "land": {
+      "ratio": 1.6,
+      "files": [
+        {
+          "url": "/assets/media/photos/sg-marina-a-land-640.webp",
+          "width": 640,
+          "height": 400,
+          "bytes": 42640
+        },
+        {
+          "url": "/assets/media/photos/sg-marina-a-land-1100.webp",
+          "width": 1100,
+          "height": 688,
+          "bytes": 112210
+        }
+      ]
+    },
+    "sq": {
+      "ratio": 1,
+      "files": [
+        {
+          "url": "/assets/media/photos/sg-marina-a-sq-320.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 17096
+        },
+        {
+          "url": "/assets/media/photos/sg-marina-a-sq-640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 57080
+        }
+      ]
+    },
+    "port": {
+      "ratio": 0.8,
+      "files": [
+        {
+          "url": "/assets/media/photos/sg-marina-a-port-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 44376
+        },
+        {
+          "url": "/assets/media/photos/sg-marina-a-port-800.webp",
+          "width": 800,
+          "height": 1000,
+          "bytes": 112340
+        },
+        {
+          "url": "/assets/media/photos/sg-marina-a-port-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 188422
+        }
+      ]
+    }
+  },
+  "sg-marina-b": {
+    "wide": {
+      "ratio": 2.4,
+      "files": [
+        {
+          "url": "/assets/media/photos/sg-marina-b-wide-800.webp",
+          "width": 800,
+          "height": 333,
+          "bytes": 61082
+        },
+        {
+          "url": "/assets/media/photos/sg-marina-b-wide-1440.webp",
+          "width": 1440,
+          "height": 600,
+          "bytes": 182292
+        },
+        {
+          "url": "/assets/media/photos/sg-marina-b-wide-2000.webp",
+          "width": 2000,
+          "height": 833,
+          "bytes": 317988
+        }
+      ]
+    },
+    "land": {
+      "ratio": 1.6,
+      "files": [
+        {
+          "url": "/assets/media/photos/sg-marina-b-land-640.webp",
+          "width": 640,
+          "height": 400,
+          "bytes": 60044
+        },
+        {
+          "url": "/assets/media/photos/sg-marina-b-land-1100.webp",
+          "width": 1100,
+          "height": 688,
+          "bytes": 169784
+        }
+      ]
+    },
+    "sq": {
+      "ratio": 1,
+      "files": [
+        {
+          "url": "/assets/media/photos/sg-marina-b-sq-320.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 21334
+        },
+        {
+          "url": "/assets/media/photos/sg-marina-b-sq-640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 77340
+        }
+      ]
+    },
+    "port": {
+      "ratio": 0.8,
+      "files": [
+        {
+          "url": "/assets/media/photos/sg-marina-b-port-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 56184
+        },
+        {
+          "url": "/assets/media/photos/sg-marina-b-port-800.webp",
+          "width": 800,
+          "height": 1000,
+          "bytes": 150148
+        },
+        {
+          "url": "/assets/media/photos/sg-marina-b-port-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 258548
+        }
+      ]
+    }
+  },
+  "sg-marina-c": {
+    "wide": {
+      "ratio": 2.4,
+      "files": [
+        {
+          "url": "/assets/media/photos/sg-marina-c-wide-800.webp",
+          "width": 800,
+          "height": 333,
+          "bytes": 61484
+        },
+        {
+          "url": "/assets/media/photos/sg-marina-c-wide-1440.webp",
+          "width": 1440,
+          "height": 600,
+          "bytes": 184946
+        },
+        {
+          "url": "/assets/media/photos/sg-marina-c-wide-2000.webp",
+          "width": 2000,
+          "height": 833,
+          "bytes": 324888
+        }
+      ]
+    },
+    "land": {
+      "ratio": 1.6,
+      "files": [
+        {
+          "url": "/assets/media/photos/sg-marina-c-land-640.webp",
+          "width": 640,
+          "height": 400,
+          "bytes": 60008
+        },
+        {
+          "url": "/assets/media/photos/sg-marina-c-land-1100.webp",
+          "width": 1100,
+          "height": 688,
+          "bytes": 172178
+        }
+      ]
+    },
+    "sq": {
+      "ratio": 1,
+      "files": [
+        {
+          "url": "/assets/media/photos/sg-marina-c-sq-320.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 21396
+        },
+        {
+          "url": "/assets/media/photos/sg-marina-c-sq-640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 78196
+        }
+      ]
+    },
+    "port": {
+      "ratio": 0.8,
+      "files": [
+        {
+          "url": "/assets/media/photos/sg-marina-c-port-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 57150
+        },
+        {
+          "url": "/assets/media/photos/sg-marina-c-port-800.webp",
+          "width": 800,
+          "height": 1000,
+          "bytes": 151828
+        },
+        {
+          "url": "/assets/media/photos/sg-marina-c-port-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 263648
+        }
+      ]
+    }
+  },
+  "sg-marina-d": {
+    "wide": {
+      "ratio": 2.4,
+      "files": [
+        {
+          "url": "/assets/media/photos/sg-marina-d-wide-800.webp",
+          "width": 800,
+          "height": 333,
+          "bytes": 61706
+        },
+        {
+          "url": "/assets/media/photos/sg-marina-d-wide-1440.webp",
+          "width": 1440,
+          "height": 600,
+          "bytes": 182962
+        },
+        {
+          "url": "/assets/media/photos/sg-marina-d-wide-2000.webp",
+          "width": 2000,
+          "height": 833,
+          "bytes": 322740
+        }
+      ]
+    },
+    "land": {
+      "ratio": 1.6,
+      "files": [
+        {
+          "url": "/assets/media/photos/sg-marina-d-land-640.webp",
+          "width": 640,
+          "height": 400,
+          "bytes": 59688
+        },
+        {
+          "url": "/assets/media/photos/sg-marina-d-land-1100.webp",
+          "width": 1100,
+          "height": 688,
+          "bytes": 169980
+        }
+      ]
+    },
+    "sq": {
+      "ratio": 1,
+      "files": [
+        {
+          "url": "/assets/media/photos/sg-marina-d-sq-320.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 21402
+        },
+        {
+          "url": "/assets/media/photos/sg-marina-d-sq-640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 78948
+        }
+      ]
+    },
+    "port": {
+      "ratio": 0.8,
+      "files": [
+        {
+          "url": "/assets/media/photos/sg-marina-d-port-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 56742
+        },
+        {
+          "url": "/assets/media/photos/sg-marina-d-port-800.webp",
+          "width": 800,
+          "height": 1000,
+          "bytes": 150998
+        },
+        {
+          "url": "/assets/media/photos/sg-marina-d-port-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 260898
+        }
+      ]
+    }
+  },
+  "sg-bridge-a": {
+    "land": {
+      "ratio": 1.6,
+      "files": [
+        {
+          "url": "/assets/media/photos/sg-bridge-a-land-640.webp",
+          "width": 640,
+          "height": 400,
+          "bytes": 40668
+        },
+        {
+          "url": "/assets/media/photos/sg-bridge-a-land-1100.webp",
+          "width": 1100,
+          "height": 688,
+          "bytes": 77750
+        }
+      ]
+    },
+    "sq": {
+      "ratio": 1,
+      "files": [
+        {
+          "url": "/assets/media/photos/sg-bridge-a-sq-320.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 22042
+        },
+        {
+          "url": "/assets/media/photos/sg-bridge-a-sq-640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 60566
+        }
+      ]
+    },
+    "port": {
+      "ratio": 0.8,
+      "files": [
+        {
+          "url": "/assets/media/photos/sg-bridge-a-port-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 56550
+        },
+        {
+          "url": "/assets/media/photos/sg-bridge-a-port-800.webp",
+          "width": 800,
+          "height": 1000,
+          "bytes": 116200
+        },
+        {
+          "url": "/assets/media/photos/sg-bridge-a-port-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 168198
+        }
+      ]
+    }
+  },
+  "sg-bridge-b": {
+    "wide": {
+      "ratio": 2.4,
+      "files": [
+        {
+          "url": "/assets/media/photos/sg-bridge-b-wide-800.webp",
+          "width": 800,
+          "height": 333,
+          "bytes": 55344
+        },
+        {
+          "url": "/assets/media/photos/sg-bridge-b-wide-1440.webp",
+          "width": 1440,
+          "height": 600,
+          "bytes": 132826
+        },
+        {
+          "url": "/assets/media/photos/sg-bridge-b-wide-2000.webp",
+          "width": 2000,
+          "height": 833,
+          "bytes": 205700
+        }
+      ]
+    },
+    "land": {
+      "ratio": 1.6,
+      "files": [
+        {
+          "url": "/assets/media/photos/sg-bridge-b-land-640.webp",
+          "width": 640,
+          "height": 400,
+          "bytes": 54314
+        },
+        {
+          "url": "/assets/media/photos/sg-bridge-b-land-1100.webp",
+          "width": 1100,
+          "height": 688,
+          "bytes": 132608
+        }
+      ]
+    },
+    "sq": {
+      "ratio": 1,
+      "files": [
+        {
+          "url": "/assets/media/photos/sg-bridge-b-sq-320.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 25534
+        },
+        {
+          "url": "/assets/media/photos/sg-bridge-b-sq-640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 80048
+        }
+      ]
+    },
+    "port": {
+      "ratio": 0.8,
+      "files": [
+        {
+          "url": "/assets/media/photos/sg-bridge-b-port-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 57742
+        },
+        {
+          "url": "/assets/media/photos/sg-bridge-b-port-800.webp",
+          "width": 800,
+          "height": 1000,
+          "bytes": 142196
+        },
+        {
+          "url": "/assets/media/photos/sg-bridge-b-port-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 230442
+        }
+      ]
+    }
+  },
+  "sg-river-a": {
+    "wide": {
+      "ratio": 2.4,
+      "files": [
+        {
+          "url": "/assets/media/photos/sg-river-a-wide-800.webp",
+          "width": 800,
+          "height": 333,
+          "bytes": 45396
+        },
+        {
+          "url": "/assets/media/photos/sg-river-a-wide-1440.webp",
+          "width": 1440,
+          "height": 600,
+          "bytes": 119316
+        },
+        {
+          "url": "/assets/media/photos/sg-river-a-wide-2000.webp",
+          "width": 2000,
+          "height": 833,
+          "bytes": 198868
+        }
+      ]
+    },
+    "land": {
+      "ratio": 1.6,
+      "files": [
+        {
+          "url": "/assets/media/photos/sg-river-a-land-640.webp",
+          "width": 640,
+          "height": 400,
+          "bytes": 41404
+        },
+        {
+          "url": "/assets/media/photos/sg-river-a-land-1100.webp",
+          "width": 1100,
+          "height": 688,
+          "bytes": 108668
+        }
+      ]
+    },
+    "sq": {
+      "ratio": 1,
+      "files": [
+        {
+          "url": "/assets/media/photos/sg-river-a-sq-320.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 17928
+        },
+        {
+          "url": "/assets/media/photos/sg-river-a-sq-640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 60012
+        }
+      ]
+    },
+    "port": {
+      "ratio": 0.8,
+      "files": [
+        {
+          "url": "/assets/media/photos/sg-river-a-port-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 30762
+        },
+        {
+          "url": "/assets/media/photos/sg-river-a-port-800.webp",
+          "width": 800,
+          "height": 1000,
+          "bytes": 80286
+        },
+        {
+          "url": "/assets/media/photos/sg-river-a-port-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 134990
+        }
+      ]
+    }
+  },
+  "sg-river-b": {
+    "wide": {
+      "ratio": 2.4,
+      "files": [
+        {
+          "url": "/assets/media/photos/sg-river-b-wide-800.webp",
+          "width": 800,
+          "height": 333,
+          "bytes": 47286
+        },
+        {
+          "url": "/assets/media/photos/sg-river-b-wide-1440.webp",
+          "width": 1440,
+          "height": 600,
+          "bytes": 119222
+        },
+        {
+          "url": "/assets/media/photos/sg-river-b-wide-2000.webp",
+          "width": 2000,
+          "height": 833,
+          "bytes": 196360
+        }
+      ]
+    },
+    "land": {
+      "ratio": 1.6,
+      "files": [
+        {
+          "url": "/assets/media/photos/sg-river-b-land-640.webp",
+          "width": 640,
+          "height": 400,
+          "bytes": 34524
+        },
+        {
+          "url": "/assets/media/photos/sg-river-b-land-1100.webp",
+          "width": 1100,
+          "height": 688,
+          "bytes": 90072
+        }
+      ]
+    },
+    "sq": {
+      "ratio": 1,
+      "files": [
+        {
+          "url": "/assets/media/photos/sg-river-b-sq-320.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 14784
+        },
+        {
+          "url": "/assets/media/photos/sg-river-b-sq-640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 50874
+        }
+      ]
+    },
+    "port": {
+      "ratio": 0.8,
+      "files": [
+        {
+          "url": "/assets/media/photos/sg-river-b-port-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 25242
+        },
+        {
+          "url": "/assets/media/photos/sg-river-b-port-800.webp",
+          "width": 800,
+          "height": 1000,
+          "bytes": 63638
+        },
+        {
+          "url": "/assets/media/photos/sg-river-b-port-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 107936
+        }
+      ]
+    }
+  },
+  "stage-a": {
+    "land": {
+      "ratio": 1.6,
+      "files": [
+        {
+          "url": "/assets/media/photos/stage-a-land-640.webp",
+          "width": 640,
+          "height": 400,
+          "bytes": 18590
+        },
+        {
+          "url": "/assets/media/photos/stage-a-land-1100.webp",
+          "width": 1100,
+          "height": 688,
+          "bytes": 35360
+        }
+      ]
+    },
+    "sq": {
+      "ratio": 1,
+      "files": [
+        {
+          "url": "/assets/media/photos/stage-a-sq-320.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 10316
+        },
+        {
+          "url": "/assets/media/photos/stage-a-sq-640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 25158
+        }
+      ]
+    },
+    "port": {
+      "ratio": 0.8,
+      "files": [
+        {
+          "url": "/assets/media/photos/stage-a-port-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 22570
+        },
+        {
+          "url": "/assets/media/photos/stage-a-port-800.webp",
+          "width": 800,
+          "height": 1000,
+          "bytes": 42460
+        },
+        {
+          "url": "/assets/media/photos/stage-a-port-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 61410
+        }
+      ]
+    }
+  },
+  "stage-b": {
+    "land": {
+      "ratio": 1.6,
+      "files": [
+        {
+          "url": "/assets/media/photos/stage-b-land-640.webp",
+          "width": 640,
+          "height": 400,
+          "bytes": 17896
+        },
+        {
+          "url": "/assets/media/photos/stage-b-land-1100.webp",
+          "width": 1100,
+          "height": 688,
+          "bytes": 33550
+        }
+      ]
+    },
+    "sq": {
+      "ratio": 1,
+      "files": [
+        {
+          "url": "/assets/media/photos/stage-b-sq-320.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 10040
+        },
+        {
+          "url": "/assets/media/photos/stage-b-sq-640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 23432
+        }
+      ]
+    },
+    "port": {
+      "ratio": 0.8,
+      "files": [
+        {
+          "url": "/assets/media/photos/stage-b-port-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 21672
+        },
+        {
+          "url": "/assets/media/photos/stage-b-port-800.webp",
+          "width": 800,
+          "height": 1000,
+          "bytes": 39716
+        },
+        {
+          "url": "/assets/media/photos/stage-b-port-1080.webp",
+          "width": 1080,
+          "height": 1350,
+          "bytes": 57488
+        }
+      ]
+    }
+  }
+}

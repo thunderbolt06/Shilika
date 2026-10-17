@@ -14,13 +14,25 @@ export const metadata: Metadata = {
     description: 'Analyst relations, threat-research amplification and tier-1 security press from a fractional senior operator, for less than a Series B retainer.',
     url: `${SITE_URL}/pages/cybersecurity-pr-agency`,
     type: 'website',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/cyber.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Cybersecurity PR from a senior operator. Fractional, hands-on, built for security founders. Photo: Shilika Jain seated in a wood-panelled library lounge lined with leather-bound books.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Cybersecurity PR Agency 2026 | Analyst-First Comms',
     description: 'Analyst relations, threat-research amplification and tier-1 security press from a fractional senior operator, for less than a Series B retainer.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/cyber.jpg`,
+        alt: 'Cybersecurity PR from a senior operator. Fractional, hands-on, built for security founders. Photo: Shilika Jain seated in a wood-panelled library lounge lined with leather-bound books.',
+      },
+    ],
   },
 };
 

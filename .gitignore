@@ -17,3 +17,4 @@ coverage
 *.mov
 !public/assets/hero-reel.mp4
 supabase/.temp
+!public/assets/media/video/*.mp4

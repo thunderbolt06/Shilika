@@ -15,13 +15,27 @@ export const metadata: Metadata = {
     description: 'Singapore is APAC\'s crypto capital and a Token2049 anchor. The outlets, the event-led access, and how to choose an agency that has both.',
     url: `${SITE_URL}/playbook/best-crypto-pr-agency-singapore-2026`,
     type: 'article',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    publishedTime: '2026-06-23',
+    modifiedTime: '2026-10-17',
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/singapore.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Singapore PR: the MAS frame is paragraph one. BT, DealStreetAsia and Token2049. Photo: Shilika Jain at the Marina Bay railing with the Singapore financial district skyline behind her.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Best Crypto PR Agencies in Singapore in 2026',
     description: 'Singapore is APAC\'s crypto capital and a Token2049 anchor. The outlets, the event-led access, and how to choose an agency that has both.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/singapore.jpg`,
+        alt: 'Singapore PR: the MAS frame is paragraph one. BT, DealStreetAsia and Token2049. Photo: Shilika Jain at the Marina Bay railing with the Singapore financial district skyline behind her.',
+      },
+    ],
   },
 };
 

@@ -17,13 +17,25 @@ export const metadata: Metadata = {
     type: 'article',
     publishedTime: '2026-06-23',
     modifiedTime: '2026-10-12',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/ai.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'AI PR with analyst-grade credibility. Tier-1 AI coverage, plus the AI-search work that gets you cited. Photo: Shilika Jain speaking on stage with a microphone in front of a presentation screen.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'AI Startup Series A Funding Announcement PR in 2026',
     description: 'A raise is a commodity until you frame it. How to turn an AI Series A into a category story instead of another funding-round line item.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/ai.jpg`,
+        alt: 'AI PR with analyst-grade credibility. Tier-1 AI coverage, plus the AI-search work that gets you cited. Photo: Shilika Jain speaking on stage with a microphone in front of a presentation screen.',
+      },
+    ],
   },
 };
 

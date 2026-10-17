@@ -14,13 +14,25 @@ export const metadata: Metadata = {
     description: 'Coordinated native coverage across the two highest-value, highest-bar APAC crypto markets.',
     url: `${SITE_URL}/pages/korea-japan-crypto-pr`,
     type: 'website',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/press.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Where the stories land. Forbes, CoinDesk, Cointelegraph, Decrypt, The Block and more. Photo: Shilika Jain in front of a red Press Lounge wall at the Consensus conference.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Korea & Japan Crypto PR 2026 | Dual-Market Access',
     description: 'Coordinated native coverage across the two highest-value, highest-bar APAC crypto markets.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/press.jpg`,
+        alt: 'Where the stories land. Forbes, CoinDesk, Cointelegraph, Decrypt, The Block and more. Photo: Shilika Jain in front of a red Press Lounge wall at the Consensus conference.',
+      },
+    ],
   },
 };
 

@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'Founder profiling and thought leadership for Web3 and AI founders. Op-ed ghostwriting in CoinDesk and Forbes, podcast tour booking, LinkedIn/X strategy, speaker placement. Fluence DePIN, Gaia AI, MANTRA proof.',
     url: 'https://www.shilikajain.com/services/founder-profiling',
     type: 'website',
-    images: [{ url: 'https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg', width: 1200, height: 628 }],
+    images: [
+      {
+        url: 'https://www.shilikajain.com/assets/media/og/founder.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Founder profiling: op-eds, podcasts, category voice. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Founder Profiling 2026: Op-Eds, Podcasts, Category Voice',
     description: 'Founder profiling and thought leadership for Web3 and AI founders. Op-ed ghostwriting in CoinDesk and Forbes, podcast tour booking, LinkedIn/X strategy, speaker placement. Fluence DePIN, Gaia AI, MANTRA proof.',
-    images: ['https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg'],
+    images: [
+      {
+        url: 'https://www.shilikajain.com/assets/media/og/founder.jpg',
+        alt: 'Founder profiling: op-eds, podcasts, category voice. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
 };
 

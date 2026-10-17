@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'Before you can afford help, you can still earn coverage. The founder-run PR system: news hooks, a media list, pitching and a posting cadence.',
     url: `${SITE_URL}/playbook/founder-led-diy-pr-2026`,
     type: 'article',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/founder.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Founder profiling: op-eds, podcasts, category voice. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'DIY PR in 2026: How Founders Can Run Their Own Comms',
     description: 'Before you can afford help, you can still earn coverage. The founder-run PR system: news hooks, a media list, pitching and a posting cadence.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/founder.jpg`,
+        alt: 'Founder profiling: op-eds, podcasts, category voice. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
 };
 

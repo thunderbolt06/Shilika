@@ -18,7 +18,14 @@ export const metadata: Metadata = {
       "Have a launch on the horizon? Let's plot it. Book a 30-min intro call or send a note.",
     url: `${SITE_URL}/contact`,
     type: 'website',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/contact.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Book a 30-min Web3 & AI PR teardown. I come prepped with a teardown of your current press footprint. Photo: Shilika Jain in a pink satin shirt standing in a wood-panelled lounge with framed posters.',
+      },
+    ],
   },
 };
 

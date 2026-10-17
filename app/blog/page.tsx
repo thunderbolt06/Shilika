@@ -2,10 +2,17 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 import { listPublishedPosts } from '@/lib/blog';
 import type { BlogPost } from '@/lib/supabase/types';
+import { Photo, PhotoBand, pickPhoto, regionOf } from '@/components/site/Media';
+import { ogImage } from '@/lib/i18n/og';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const revalidate = 600;
+
+const CARD = ogImage('/blog', SITE_URL);
+// Photo for the header band. Cover fallbacks below never reuse it, so no photo appears twice
+// until the library (16 photos) runs out.
+const BAND_PHOTO = 'library';
 
 export const metadata: Metadata = {
   title: 'Blog - field notes on Web3 PR, AI PR, and embargo strategy',
@@ -17,6 +24,11 @@ export const metadata: Metadata = {
     description: 'Field notes from inside Web3 and AI PR.',
     url: `${SITE_URL}/blog`,
     type: 'website',
+    images: [CARD],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: [{ url: CARD.url, alt: CARD.alt }],
   },
 };
 
@@ -35,6 +47,22 @@ export default async function BlogIndexPage() {
     posts = await listPublishedPosts();
   } catch {
     posts = [];
+  }
+
+  // Posts without cover art get a photo from the media library instead of an empty frame. Seeded
+  // by slug, limited to photos that fit the post's place, and `taken` keeps cards from repeating.
+  const taken = new Set<string>([BAND_PHOTO]);
+  const fallback = new Map<string, string>();
+  for (const p of posts) {
+    if (p.image) continue;
+    const id = pickPhoto({
+      seed: p.slug,
+      crop: 'land',
+      region: regionOf(p.slug, p.title, ...(p.tags ?? [])),
+      exclude: taken,
+    });
+    taken.add(id);
+    fallback.set(p.id, id);
   }
 
   const blogJsonLd = {
@@ -97,6 +125,18 @@ export default async function BlogIndexPage() {
           </div>
         </section>
 
+        <PhotoBand
+          id={BAND_PHOTO}
+          eyebrow="Field notes"
+          title={
+            <>
+              Notes from <em>inside the launches</em>.
+            </>
+          }
+          sub="Six years, 50+ launches, six APAC markets."
+          sizes="(min-width: 1344px) 1280px, 100vw"
+        />
+
         {posts.length === 0 ? (
           <p className="blog-empty">New playbooks are being prepped. Check back soon.</p>
         ) : (
@@ -107,6 +147,10 @@ export default async function BlogIndexPage() {
                   <div className="blog-card-media">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img src={p.image} alt={p.title} loading="lazy" />
+                  </div>
+                ) : fallback.has(p.id) ? (
+                  <div className="blog-card-media blog-card-media--photo" aria-hidden>
+                    <Photo id={fallback.get(p.id)!} crop="land" sizes="(min-width: 1344px) 560px, (min-width: 900px) 42vw, 92vw" alt="" />
                   </div>
                 ) : (
                   <div className="blog-card-media" aria-hidden />

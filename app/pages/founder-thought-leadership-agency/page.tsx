@@ -14,13 +14,25 @@ export const metadata: Metadata = {
     description: 'The cadence, channels and author-entity build that turn a founder into a cited authority, not a LinkedIn poster.',
     url: `${SITE_URL}/pages/founder-thought-leadership-agency`,
     type: 'website',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/founder.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Founder profiling: op-eds, podcasts, category voice. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Founder Thought Leadership Agency 2026 | Earned Authority',
     description: 'The cadence, channels and author-entity build that turn a founder into a cited authority, not a LinkedIn poster.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/founder.jpg`,
+        alt: 'Founder profiling: op-eds, podcasts, category voice. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
 };
 

@@ -1,15 +1,41 @@
 import type { Metadata } from 'next';
 import { EditorialShell } from '@/components/site/EditorialChrome';
 import { EditorialScripts } from '@/components/site/EditorialScripts';
+import { Photo } from '@/components/site/Media';
+import { ogImage } from '@/lib/i18n/og';
 
 // Landing spot for every contact action (see public/assets/conversions.js).
 // Google Ads counts a visit here as the conversion, so it stays out of the
 // index and the sitemap.
+const CARD = ogImage('/thank-you', process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com');
+
 export const metadata: Metadata = {
   title: 'Thank you',
   description: 'What happens next after you reach out to Shilika Jain.',
   robots: { index: false, follow: false },
+  openGraph: { images: [CARD] },
+  twitter: { card: 'summary_large_image', images: [{ url: CARD.url, alt: CARD.alt }] },
 };
+
+// Warm, smiling portrait for the page. Visitors arrive from pages about any market, so it is a
+// neutral indoor photo and the caption names no place.
+const PORTRAIT = 'lounge';
+
+const PORTRAIT_CSS = `
+.ty-hello { display: grid; grid-template-columns: minmax(0, clamp(220px, 22vw, 300px)) minmax(0, 1fr); gap: clamp(28px, 5vw, 72px); align-items: start; }
+.ty-hello .ty-h2 { margin-top: 96px; }
+.ty-portrait { margin: 96px 0 0; }
+.ty-portrait-frame { aspect-ratio: 4 / 5; overflow: hidden; border-radius: 16px; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); }
+.ty-portrait-frame picture { display: block; width: 100%; height: 100%; }
+.ty-portrait-frame img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.ty-portrait figcaption { display: flex; flex-direction: column; gap: 4px; margin-top: 14px; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.55); }
+.ty-portrait figcaption b { font-weight: 500; color: var(--paper); }
+@media (max-width: 760px) {
+  .ty-hello { grid-template-columns: 1fr; gap: 0; }
+  .ty-portrait { margin-top: 56px; max-width: 280px; }
+  .ty-hello .ty-h2 { margin-top: 56px; }
+}
+`;
 
 const CALENDLY = 'https://calendly.com/shilikajain/30min/';
 const EMAIL = 'shilika498@gmail.com';
@@ -244,16 +270,30 @@ export default async function ThankYouPage({
               </a>
             )}
 
-            <h2 className="ty-h2">What happens next</h2>
-            <ol className="ty-steps">
-              {v.steps.map((s, i) => (
-                <li key={s.title} className="ty-step">
-                  <span className="ty-step-num mono">{String(i + 1).padStart(2, '0')}</span>
-                  <span className="ty-step-title">{s.title}</span>
-                  <p className="ty-step-body">{s.body}</p>
-                </li>
-              ))}
-            </ol>
+            <style dangerouslySetInnerHTML={{ __html: PORTRAIT_CSS }} />
+            <div className="ty-hello">
+              <figure className="ty-portrait">
+                <div className="ty-portrait-frame">
+                  <Photo id={PORTRAIT} crop="port" sizes="(min-width: 761px) 300px, 280px" />
+                </div>
+                <figcaption>
+                  <b>Shilika Jain</b>
+                  <span>Fractional PR, Web3 and AI</span>
+                </figcaption>
+              </figure>
+              <div>
+                <h2 className="ty-h2">What happens next</h2>
+                <ol className="ty-steps">
+                  {v.steps.map((s, i) => (
+                    <li key={s.title} className="ty-step">
+                      <span className="ty-step-num mono">{String(i + 1).padStart(2, '0')}</span>
+                      <span className="ty-step-title">{s.title}</span>
+                      <p className="ty-step-body">{s.body}</p>
+                    </li>
+                  ))}
+                </ol>
+              </div>
+            </div>
 
             <div className="ty-grid">
               <div className="ty-card">

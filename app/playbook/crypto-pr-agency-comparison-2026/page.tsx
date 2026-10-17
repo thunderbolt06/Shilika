@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'A practical framework for comparing crypto PR agencies side by side: access, seniority, model, reporting and price, with a scoring rubric.',
     url: `${SITE_URL}/playbook/crypto-pr-agency-comparison-2026`,
     type: 'article',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/compare.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Which PR agency to hire for crypto and AI. Side-by-side comparisons with the trade-offs spelled out. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'How to Compare Crypto PR Agencies in 2026',
     description: 'A practical framework for comparing crypto PR agencies side by side: access, seniority, model, reporting and price, with a scoring rubric.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/compare.jpg`,
+        alt: 'Which PR agency to hire for crypto and AI. Side-by-side comparisons with the trade-offs spelled out. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
 };
 

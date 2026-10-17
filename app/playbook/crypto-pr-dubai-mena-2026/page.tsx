@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'MENA pairs real capital with friendly regulation. How to use Token2049 Dubai, VARA clarity and regional outlets to build a credible story.',
     url: `${SITE_URL}/playbook/crypto-pr-dubai-mena-2026`,
     type: 'article',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/mena.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Dubai and MENA PR: VARA is paragraph one. VARA, ADGM and RAK DAO. Photo: Shilika Jain in front of a red Press Lounge wall at the Consensus conference.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Crypto PR in Dubai and MENA in 2026',
     description: 'MENA pairs real capital with friendly regulation. How to use Token2049 Dubai, VARA clarity and regional outlets to build a credible story.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/mena.jpg`,
+        alt: 'Dubai and MENA PR: VARA is paragraph one. VARA, ADGM and RAK DAO. Photo: Shilika Jain in front of a red Press Lounge wall at the Consensus conference.',
+      },
+    ],
   },
 };
 

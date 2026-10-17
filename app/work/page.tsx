@@ -17,7 +17,14 @@ export const metadata: Metadata = {
       "Stories I've put on the front page. RARI Chain, MANTRA, Gaia AI, Web3Auth, Fluence, Bullieverse - tier-1 Web3 & AI PR case studies.",
     url: `${SITE_URL}/work`,
     type: 'website',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/work.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Tier-1 Web3 & AI PR case studies. RARI Chain, Gaia AI, MANTRA, Web3Auth, Fluence and Bullieverse. Photo: Shilika Jain in front of a red Press Lounge wall at the Consensus conference.',
+      },
+    ],
   },
 };
 

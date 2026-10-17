@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'Japan rewards patience, precision and process. The native outlets, the regulatory migration, and why Western pitch habits fail here.',
     url: `${SITE_URL}/playbook/crypto-pr-japan-2026`,
     type: 'article',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/japan.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Japan PR: the FSA frame is paragraph one. CoinPost, Nikkei and WebX Tokyo. Photo: Shilika Jain seated in a wood-panelled library lounge lined with leather-bound books.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Crypto PR in Japan in 2026: Outlets and Approach',
     description: 'Japan rewards patience, precision and process. The native outlets, the regulatory migration, and why Western pitch habits fail here.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/japan.jpg`,
+        alt: 'Japan PR: the FSA frame is paragraph one. CoinPost, Nikkei and WebX Tokyo. Photo: Shilika Jain seated in a wood-panelled library lounge lined with leather-bound books.',
+      },
+    ],
   },
 };
 

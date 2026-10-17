@@ -17,14 +17,26 @@ export const metadata: Metadata = {
       'The frame, the timeline, the pitch structure and embargo etiquette behind an earned Forbes feature for a decentralized-AI protocol.',
     url: `${SITE_URL}/playbook/how-gaia-ai-got-into-forbes`,
     type: 'article',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/work-gaia-ai.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'How we placed the Stripe for AI agents. Photo: Shilika Jain at the Marina Bay railing with the Singapore financial district skyline behind her.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'How Gaia AI Got Into Forbes: A Teardown',
     description:
       'The frame, the timeline, the pitch structure and embargo etiquette behind an earned Forbes feature for a decentralized-AI protocol.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/work-gaia-ai.jpg`,
+        alt: 'How we placed the Stripe for AI agents. Photo: Shilika Jain at the Marina Bay railing with the Singapore financial district skyline behind her.',
+      },
+    ],
   },
 };
 

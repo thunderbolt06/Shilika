@@ -14,13 +14,25 @@ export const metadata: Metadata = {
     description: 'Marketing for security vendors that understands analysts, threat research and the trust game.',
     url: `${SITE_URL}/pages/cybersecurity-marketing-agency`,
     type: 'website',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/cyber.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Cybersecurity PR from a senior operator. Fractional, hands-on, built for security founders. Photo: Shilika Jain seated in a wood-panelled library lounge lined with leather-bound books.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Cybersecurity Marketing Agency 2026 | Analyst-Literate',
     description: 'Marketing for security vendors that understands analysts, threat research and the trust game.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/cyber.jpg`,
+        alt: 'Cybersecurity PR from a senior operator. Fractional, hands-on, built for security founders. Photo: Shilika Jain seated in a wood-panelled library lounge lined with leather-bound books.',
+      },
+    ],
   },
 };
 

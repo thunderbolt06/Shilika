@@ -14,13 +14,25 @@ export const metadata: Metadata = {
     description: 'Native Korean placement, KOL access and Korea Blockchain Week leverage in Asia\'s biggest crypto media market.',
     url: `${SITE_URL}/pages/korea-crypto-pr-agency`,
     type: 'website',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/korea.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Korea PR: the FSC frame is paragraph one. BloomingBit, TokenPost and KBW Seoul. Photo: Shilika Jain smiling mid-talk on stage, microphone in hand.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Korea Crypto PR Agency 2026 | KBW, BloomingBit, KOLs',
     description: 'Native Korean placement, KOL access and Korea Blockchain Week leverage in Asia\'s biggest crypto media market.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/korea.jpg`,
+        alt: 'Korea PR: the FSC frame is paragraph one. BloomingBit, TokenPost and KBW Seoul. Photo: Shilika Jain smiling mid-talk on stage, microphone in hand.',
+      },
+    ],
   },
 };
 

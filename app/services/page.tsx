@@ -16,7 +16,14 @@ export const metadata: Metadata = {
       'From zero press to flagship coverage - without the agency markup. Fractional Web3 & AI PR services from a senior operator.',
     url: `${SITE_URL}/services`,
     type: 'website',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/services.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Web3 & AI PR, founder profiling, KOL marketing. Fractional PR from a senior operator. Photo: Shilika Jain in a floral dress on a Marina Bay footbridge with the Singapore skyline behind her.',
+      },
+    ],
   },
 };
 

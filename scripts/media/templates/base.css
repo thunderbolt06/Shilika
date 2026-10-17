@@ -1,0 +1,57 @@
+/* Shared look for the baked graphics. Mirrors the site's editorial system:
+   ink / paper / lime, Instrument Serif italics, Inter Tight, Geist Mono labels. */
+:root {
+  --ink: #16140f;
+  --panel: #282520;
+  --paper: #f4f2ea;
+  --lime: #d4ff32;
+  --muted: #bdb9ae;
+  --serif: 'Instrument Serif', 'Times New Roman', serif;
+  --sans: 'Inter Tight', -apple-system, 'Helvetica Neue', Arial, sans-serif;
+  --mono: 'Geist Mono', 'SF Mono', ui-monospace, monospace;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: var(--W); height: var(--H); overflow: hidden; background: var(--ink); }
+body { font-family: var(--sans); color: var(--paper); -webkit-font-smoothing: antialiased; }
+.frame { position: relative; width: var(--W); height: var(--H); overflow: hidden; background: var(--ink); }
+.bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+
+.eyebrow {
+  display: inline-flex; align-items: center; gap: 0.7em;
+  font-family: var(--mono); font-weight: 500; font-size: var(--eyebrow, 15px);
+  letter-spacing: 0.14em; text-transform: uppercase; color: var(--paper);
+}
+.eyebrow .dot { width: 0.55em; height: 0.55em; border-radius: 50%; background: var(--lime); flex: none; }
+.eyebrow.is-muted { color: var(--muted); }
+
+h1 {
+  font-family: var(--serif); font-weight: 400; font-size: var(--h1, 64px);
+  line-height: 0.98; letter-spacing: -0.015em; text-wrap: balance;
+}
+h1 em { font-style: italic; position: relative; white-space: nowrap; }
+h1 em::after {
+  content: ''; position: absolute; left: -0.02em; right: -0.02em; bottom: -0.04em;
+  height: max(5px, 0.075em); background: var(--lime); border-radius: 2px;
+}
+h1 .soft { font-style: italic; color: rgba(244, 242, 234, 0.82); }
+
+.sub { font-size: var(--sub, 22px); line-height: 1.4; color: rgba(244, 242, 234, 0.86); text-wrap: pretty; }
+.sub strong { color: var(--paper); font-weight: 600; }
+
+.pill {
+  display: inline-flex; align-items: center; gap: 0.6em;
+  background: var(--lime); color: var(--ink); border-radius: 999px;
+  font-family: var(--mono); font-weight: 500; font-size: var(--pill, 14px);
+  letter-spacing: 0.1em; text-transform: uppercase; padding: 0.95em 1.5em; white-space: nowrap;
+}
+.url { font-family: var(--mono); font-size: var(--url, 14px); letter-spacing: 0.08em; color: var(--muted); }
+
+.mark {
+  position: absolute; width: var(--mark, 64px); height: var(--mark, 64px); border-radius: 22%;
+  background: var(--panel); display: grid; place-items: center;
+  font-family: var(--serif); font-style: italic; font-size: calc(var(--mark, 64px) * 0.6); color: var(--lime);
+}
+.mark::after {
+  content: ''; position: absolute; top: 20%; right: 14%;
+  width: 11%; height: 11%; border-radius: 50%; background: var(--lime);
+}

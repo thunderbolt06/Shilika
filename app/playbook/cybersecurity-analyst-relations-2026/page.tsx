@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'Analysts shape the shortlist before press ever runs. The briefing cadence, the Magic Quadrant and Wave reality, and how vendors earn inclusion.',
     url: `${SITE_URL}/playbook/cybersecurity-analyst-relations-2026`,
     type: 'article',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/cyber.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Cybersecurity PR from a senior operator. Fractional, hands-on, built for security founders. Photo: Shilika Jain seated in a wood-panelled library lounge lined with leather-bound books.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Cybersecurity Analyst Relations in 2026: Gartner, Forrester and IDC',
     description: 'Analysts shape the shortlist before press ever runs. The briefing cadence, the Magic Quadrant and Wave reality, and how vendors earn inclusion.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/cyber.jpg`,
+        alt: 'Cybersecurity PR from a senior operator. Fractional, hands-on, built for security founders. Photo: Shilika Jain seated in a wood-panelled library lounge lined with leather-bound books.',
+      },
+    ],
   },
 };
 

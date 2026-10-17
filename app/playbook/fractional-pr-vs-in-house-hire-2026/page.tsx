@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'The build-vs-rent decision for comms. Cost, speed, seniority and risk compared, with a decision tree for founders at each stage.',
     url: `${SITE_URL}/playbook/fractional-pr-vs-in-house-hire-2026`,
     type: 'article',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/compare.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Which PR agency to hire for crypto and AI. Side-by-side comparisons with the trade-offs spelled out. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Fractional PR vs Hiring an In-House PR Lead in 2026',
     description: 'The build-vs-rent decision for comms. Cost, speed, seniority and risk compared, with a decision tree for founders at each stage.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/compare.jpg`,
+        alt: 'Which PR agency to hire for crypto and AI. Side-by-side comparisons with the trade-offs spelled out. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
 };
 

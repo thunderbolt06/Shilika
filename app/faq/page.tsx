@@ -17,7 +17,14 @@ export const metadata: Metadata = {
       'Honest answers on scope, cost, regions, and how fractional PR differs from a Web3 PR agency.',
     url: `${SITE_URL}/faq`,
     type: 'website',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/faq.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Fractional Web3 & AI PR: scope, cost, regions. Photo: Shilika Jain seated in a wood-panelled library lounge lined with leather-bound books.',
+      },
+    ],
   },
 };
 

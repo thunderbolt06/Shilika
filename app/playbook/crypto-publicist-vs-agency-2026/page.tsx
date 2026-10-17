@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'A solo publicist gives you senior attention; an agency gives you bench. The honest trade-offs and which fits your stage and budget.',
     url: `${SITE_URL}/playbook/crypto-publicist-vs-agency-2026`,
     type: 'article',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/compare.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Which PR agency to hire for crypto and AI. Side-by-side comparisons with the trade-offs spelled out. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Crypto Publicist vs PR Agency in 2026: Which Do You Need?',
     description: 'A solo publicist gives you senior attention; an agency gives you bench. The honest trade-offs and which fits your stage and budget.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/compare.jpg`,
+        alt: 'Which PR agency to hire for crypto and AI. Side-by-side comparisons with the trade-offs spelled out. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
 };
 

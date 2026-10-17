@@ -14,13 +14,25 @@ export const metadata: Metadata = {
     description: 'A senior PR operator embedded part-time like a team member, for a fraction of an agency retainer.',
     url: `${SITE_URL}/pages/fractional-pr-consultant`,
     type: 'website',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/services.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Web3 & AI PR, founder profiling, KOL marketing. Fractional PR from a senior operator. Photo: Shilika Jain in a floral dress on a Marina Bay footbridge with the Singapore skyline behind her.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Fractional PR Consultant 2026 | Senior, Embedded, Affordable',
     description: 'A senior PR operator embedded part-time like a team member, for a fraction of an agency retainer.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/services.jpg`,
+        alt: 'Web3 & AI PR, founder profiling, KOL marketing. Fractional PR from a senior operator. Photo: Shilika Jain in a floral dress on a Marina Bay footbridge with the Singapore skyline behind her.',
+      },
+    ],
   },
 };
 

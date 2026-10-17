@@ -4,6 +4,7 @@ import { I18N_PAGES, LOCALES, languageAlternates, localizePath } from '@/lib/i18
 import { FREE_TOOLS } from './tools/_data/free';
 import { AGENCIES, comparePath } from './compare/_data/agencies';
 import { LAST_VERIFIED_ISO } from './compare/_data/shilika';
+import { cardFor, cardUrl } from '../scripts/media/og-map.mjs';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
@@ -70,6 +71,10 @@ const STATIC_PAGES: { path: string; priority: number; changeFrequency: MetadataR
   { path: '/services/cybersecurity-pr', priority: 0.9, changeFrequency: 'monthly', lastModified: '2026-09-28' },
   { path: '/services/founder-profiling', priority: 0.9, changeFrequency: 'monthly', lastModified: '2026-09-23' },
   { path: '/services/content-writing', priority: 0.9, changeFrequency: 'monthly', lastModified: '2026-09-22' },
+  { path: '/services/ai-seo', priority: 0.9, changeFrequency: 'monthly', lastModified: '2026-10-16' },
+  { path: '/services/ai-seo/case-studies', priority: 0.8, changeFrequency: 'monthly', lastModified: '2026-10-16' },
+  { path: '/services/ai-seo/web3-ai-startups', priority: 0.8, changeFrequency: 'monthly', lastModified: '2026-10-16' },
+  { path: '/services/ai-seo/industrial-inbound', priority: 0.8, changeFrequency: 'monthly', lastModified: '2026-10-16' },
   { path: '/work/bullieverse', priority: 0.7, changeFrequency: 'yearly' },
   { path: '/work/fluence', priority: 0.7, changeFrequency: 'yearly' },
   { path: '/work/gaia-ai', priority: 0.7, changeFrequency: 'yearly' },
@@ -131,7 +136,7 @@ const STATIC_PAGES: { path: string; priority: number; changeFrequency: MetadataR
   { path: '/playbook/ai-x-crypto-agent-pr-2026', priority: 0.7, changeFrequency: 'monthly' },
   { path: '/playbook/best-web3-pr-agency-india-2026', priority: 0.7, changeFrequency: 'monthly' },
   { path: '/playbook/best-web3-pr-agency-usa-2026', priority: 0.7, changeFrequency: 'monthly' },
-  { path: '/playbook/best-crypto-pr-agency-singapore-2026', priority: 0.7, changeFrequency: 'monthly' },
+  { path: '/playbook/best-crypto-pr-agency-singapore-2026', priority: 0.7, changeFrequency: 'monthly', lastModified: '2026-10-17' },
   { path: '/playbook/crypto-pr-korea-2026', priority: 0.7, changeFrequency: 'monthly' },
   { path: '/playbook/crypto-pr-japan-2026', priority: 0.7, changeFrequency: 'monthly' },
   { path: '/playbook/crypto-pr-dubai-mena-2026', priority: 0.7, changeFrequency: 'monthly' },
@@ -320,6 +325,14 @@ const STATIC_PAGES: { path: string; priority: number; changeFrequency: MetadataR
   { path: '/pages/token-launch-marketing-agency', priority: 0.8, changeFrequency: 'monthly' },
 ];
 
+// Image sitemap entries: the share card of each key page (home, hubs, services, work, markets).
+// Next 15 writes `images` as <image:image> tags. The long tail (playbooks, landing pages, glossary
+// terms, comparison and tool pages, blog posts, author pages) shares cluster cards and is left out.
+const LONG_TAIL = /^\/(playbook|pages|glossary|compare|tools|authors|blog)\//;
+function cardImages(path: string) {
+  return LONG_TAIL.test(path) ? {} : { images: [cardUrl(cardFor(path), SITE_URL)] };
+}
+
 // hreflang alternates for pages that have translations; nothing for English-only pages.
 function hreflang(path: string) {
   const languages = languageAlternates(path);
@@ -342,6 +355,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     // Attach video sitemap entries only to the homepage, the one page that embeds
     // the two videos described in HOMEPAGE_VIDEOS.
     ...(path === '/' ? { videos: HOMEPAGE_VIDEOS } : {}),
+    ...cardImages(path),
     ...hreflang(path),
   }));
 
@@ -352,6 +366,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       url: `${SITE_URL}${localizePath(locale, page.path)}`,
       priority: page.path === '/' ? 0.9 : 0.6,
       changeFrequency: 'monthly' as const,
+      ...cardImages(page.path),
       ...hreflang(page.path),
     })),
   );

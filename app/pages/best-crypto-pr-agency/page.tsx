@@ -14,13 +14,25 @@ export const metadata: Metadata = {
     description: 'What separates real access from a logo wall, and why a senior fractional operator beats most agencies.',
     url: `${SITE_URL}/pages/best-crypto-pr-agency`,
     type: 'website',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/compare.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Which PR agency to hire for crypto and AI. Side-by-side comparisons with the trade-offs spelled out. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Best Crypto PR Agency 2026 | Honest Criteria & Alternative',
     description: 'What separates real access from a logo wall, and why a senior fractional operator beats most agencies.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/compare.jpg`,
+        alt: 'Which PR agency to hire for crypto and AI. Side-by-side comparisons with the trade-offs spelled out. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
 };
 

@@ -1,16 +1,21 @@
 import type { ReactNode } from 'react';
 import Script from 'next/script';
 import type { Faq } from '../_lib/seo';
+import { Photo, PORTRAIT_IDS, pickPhoto } from '@/components/site/Media';
 
 export function ToolHero({
   kicker,
   title,
   children,
+  seed,
 }: {
   kicker: string;
   title: ReactNode;
   children: ReactNode;
+  /** Picks the portrait beside the intro; the tool slug keeps neighbouring tools different. */
+  seed?: string;
 }) {
+  const portrait = pickPhoto({ seed: seed ?? kicker, crop: 'port', from: PORTRAIT_IDS });
   return (
     <section className="blog-index-hero tool-hero">
       <div>
@@ -22,7 +27,12 @@ export function ToolHero({
         </p>
         <h1 className="blog-index-title tool-title">{title}</h1>
       </div>
-      <div className="blog-index-blurb">{children}</div>
+      <div className="blog-index-blurb tool-hero-blurb">
+        <figure className="tool-hero-photo no-print">
+          <Photo id={portrait} crop="port" sizes="120px" />
+        </figure>
+        <div className="tool-hero-copy">{children}</div>
+      </div>
     </section>
   );
 }

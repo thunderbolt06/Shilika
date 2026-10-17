@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'Japan PR for Web3 and AI founders. CoinPost, CoinDesk Japan, Cointelegraph Japan, CryptoTimes JP, Iolite, Nikkei, Asahi Shimbun. FSA-aware framing under the June 1 2026 Payment Services Act amendments, the FIEA reclassification track and the spot BTC/ETH ETF NISA pipeline. WebX 2026 The Prince Park Tower Tokyo, July 13 to 14.',
     url: `${SITE_URL}/japan`,
     type: 'website',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/japan.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Japan PR: the FSA frame is paragraph one. CoinPost, Nikkei and WebX Tokyo. Photo: Shilika Jain seated in a wood-panelled library lounge lined with leather-bound books.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Japan Web3 & AI PR 2026: CoinPost, Nikkei, WebX Tokyo',
     description: 'Japan PR for Web3 and AI founders. FSA-aware framing, WebX 2026 calendar, JPY-stablecoin and FIEA-reclassification anchor.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/japan.jpg`,
+        alt: 'Japan PR: the FSA frame is paragraph one. CoinPost, Nikkei and WebX Tokyo. Photo: Shilika Jain seated in a wood-panelled library lounge lined with leather-bound books.',
+      },
+    ],
   },
 };
 

@@ -74,6 +74,13 @@ const nextConfig: NextConfig = {
         headers: [{ key: 'Cache-Control', value: 'public, max-age=31536000, immutable' }],
       },
       {
+        // Portrait photos, posters and share cards are rebuilt from the originals
+        // (pnpm media:*) under the same file names, so they must not be pinned for a
+        // year like the rule above. Later matching rules override earlier ones.
+        source: '/assets/media/:path*',
+        headers: [{ key: 'Cache-Control', value: 'public, max-age=86400, stale-while-revalidate=604800' }],
+      },
+      {
         source: '/llms.txt',
         headers: [
           { key: 'Content-Type', value: 'text/markdown; charset=utf-8' },

@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'You do not need a $40K sprint to earn coverage. The high-leverage moves a lean team can run themselves, and where to spend the first dollar.',
     url: `${SITE_URL}/playbook/crypto-pr-small-budget-2026`,
     type: 'article',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/playbook.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'The PR playbook for Web3 & AI founders. Guides on Tier-1 pitching, launch PR, KOLs and AI-search citations. Photo: Shilika Jain in a floral dress on a Marina Bay footbridge with the Singapore skyline behind her.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Crypto PR on a Small Budget in 2026: What\'s Actually Possible',
     description: 'You do not need a $40K sprint to earn coverage. The high-leverage moves a lean team can run themselves, and where to spend the first dollar.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/playbook.jpg`,
+        alt: 'The PR playbook for Web3 & AI founders. Guides on Tier-1 pitching, launch PR, KOLs and AI-search citations. Photo: Shilika Jain in a floral dress on a Marina Bay footbridge with the Singapore skyline behind her.',
+      },
+    ],
   },
 };
 

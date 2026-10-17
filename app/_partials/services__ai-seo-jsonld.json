@@ -1,0 +1,101 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/services/ai-seo#service",
+      "name": "AI SEO",
+      "alternateName": ["GEO", "AEO", "Generative engine optimisation", "Answer engine optimisation", "AI search visibility"],
+      "serviceType": "Search engine optimisation for AI answer engines",
+      "description": "AI SEO that gets brands cited in ChatGPT, Perplexity, Gemini, Claude and Google AI Overviews. Demand research across 1,000+ buyer queries, answer-first AI-feed pages, technical SEO and schema, freshness, branded placements on the sources AI trusts, and a multi-engine citation panel. Run by Shilika Jain (PR and narrative) and Rahil Jain (product and growth engineering).",
+      "url": "https://www.shilikajain.com/services/ai-seo",
+      "provider": [
+        { "@id": "https://www.shilikajain.com/#person" },
+        { "@id": "https://www.shilikajain.com/services/ai-seo#rahil-jain" }
+      ],
+      "areaServed": { "@type": "Place", "name": "Global" },
+      "audience": { "@type": "Audience", "audienceType": "Startup founders, CMOs, Web3 and AI companies, manufacturers and distributors, local businesses" },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "AI SEO plans",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "Strategic Consulting",
+            "description": "Full brand and SEO audit, keyword and demand research, 100 real queries ranked by intent, 3-month AI SEO strategy, brand onboarding and knowledge base, AI author humanisation framework.",
+            "price": 1000,
+            "priceCurrency": "USD"
+          },
+          {
+            "@type": "Offer",
+            "name": "Strategic Execution",
+            "description": "Everything in Consulting plus technical SEO, AI-visibility audit across the models, 100 AI-feed pages, content refresh and optimisation, 25 branded content placements.",
+            "priceSpecification": { "@type": "UnitPriceSpecification", "price": 3000, "priceCurrency": "USD", "unitText": "MONTH" }
+          },
+          {
+            "@type": "Offer",
+            "name": "Deep Execution",
+            "description": "Everything in Execution plus advanced technical SEO, 200 AI-feed pages, continuous content expansion, 40 branded content placements.",
+            "priceSpecification": { "@type": "UnitPriceSpecification", "price": 4000, "priceCurrency": "USD", "unitText": "MONTH" }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.shilikajain.com/services/ai-seo#rahil-jain",
+      "name": "Rahil Jain",
+      "jobTitle": "AI Engineer, Product and Growth Engineering",
+      "worksFor": { "@type": "Organization", "name": "Chalk Labs", "url": "https://thechalklabs.com" },
+      "sameAs": ["https://www.linkedin.com/in/rahilnjain/"]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Shilika Jain", "item": "https://www.shilikajain.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.shilikajain.com/services" },
+        { "@type": "ListItem", "position": 3, "name": "AI SEO", "item": "https://www.shilikajain.com/services/ai-seo" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is AI SEO and how is it different from regular SEO?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Regular SEO tries to rank a page in Google's blue links. AI SEO tries to get your brand named and cited inside the answer itself, in ChatGPT, Perplexity, Gemini, Claude and Google's AI Overviews and AI Mode. The page work overlaps, but AI SEO puts far more weight on branded mentions across the web, answer-first formatting, structured data and pages that render without JavaScript." }
+        },
+        {
+          "@type": "Question",
+          "name": "Is AI SEO the same thing as GEO and AEO?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Close enough. GEO (generative engine optimisation) and AEO (answer engine optimisation) are two names for the same goal: being the source an AI answer pulls from." }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does AI SEO cost?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Strategic Consulting is $1,000 one-time for the audit, 100 ranked queries and a 3-month strategy. Strategic Execution is $3,000 per month and includes technical SEO, 100 AI-feed pages and 25 branded placements. Deep Execution is $4,000 per month with 200 pages and 40 placements." }
+        },
+        {
+          "@type": "Question",
+          "name": "How long until AI SEO shows results?",
+          "acceptedAnswer": { "@type": "Answer", "text": "First content goes live in month one. On shilikajain.com, a brand-new domain ranked #1 for 'fractional PR manager crypto' within a month of launch. Meru Trophy compounded to 27,300 Google clicks over 16 months. AI citations usually trail Google rankings by a few weeks." }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you measure AI visibility?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Three lenses: a fixed prompt panel across ChatGPT, Perplexity, Gemini, Claude and Google AI Mode; Google Search Console clicks, impressions and position; and AI referral traffic in analytics." }
+        },
+        {
+          "@type": "Question",
+          "name": "Who is Rahil Jain?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Rahil Jain is an AI engineer and former Goldman Sachs engineer who runs product and growth engineering at Chalk Labs. He builds the AI-feed pages, technical SEO, schema and citation measurement, while Shilika Jain runs PR, narrative and branded placements." }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a PR retainer to buy AI SEO?",
+          "acceptedAnswer": { "@type": "Answer", "text": "No. AI SEO is a standalone service and the Execution plans include branded content placements. Combined with a PR retainer, every tier-1 placement becomes a source the AI engines can cite." }
+        }
+      ]
+    }
+  ]
+}

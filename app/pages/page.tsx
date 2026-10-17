@@ -1,12 +1,16 @@
 import type { Metadata } from 'next';
 import Script from 'next/script';
 import PagesIndex from './PagesIndex';
+import { PhotoBand } from '@/components/site/Media';
+import { ogImage } from '@/lib/i18n/og';
 import pagesData from '@/data/landing-pages.json';
 import '../blog/blog.css';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 type LP = { slug: string; h1: string; title: string };
+
+const CARD = ogImage('/pages', SITE_URL);
 
 export const metadata: Metadata = {
   title: 'Service Pages: Web3, AI, Token Launch & APAC PR | Shilika Jain',
@@ -19,7 +23,11 @@ export const metadata: Metadata = {
       'Filterable directory of fractional PR service pages for Web3, AI and cybersecurity founders.',
     url: `${SITE_URL}/pages`,
     type: 'website',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [CARD],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: [{ url: CARD.url, alt: CARD.alt }],
   },
 };
 
@@ -73,7 +81,21 @@ export default function Page() {
         strategy="beforeInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <PagesIndex />
+      <PagesIndex
+        band={
+          <PhotoBand
+            id="depin-day-hk"
+            eyebrow="Service pages"
+            title={
+              <>
+                Find the page that <em>fits your launch</em>.
+              </>
+            }
+            sub="Filter by service, region or vertical, then send a brief."
+            sizes="(min-width: 1344px) 1280px, 100vw"
+          />
+        }
+      />
     </>
   );
 }

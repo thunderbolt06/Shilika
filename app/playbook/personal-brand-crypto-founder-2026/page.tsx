@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'The Twitter-and-LinkedIn playbook for crypto founders who would rather ship. What to post, what to never post, and how to sound like yourself.',
     url: `${SITE_URL}/playbook/personal-brand-crypto-founder-2026`,
     type: 'article',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/founder.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Founder profiling: op-eds, podcasts, category voice. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'How to Build a Personal Brand as a Crypto Founder in 2026',
     description: 'The Twitter-and-LinkedIn playbook for crypto founders who would rather ship. What to post, what to never post, and how to sound like yourself.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/founder.jpg`,
+        alt: 'Founder profiling: op-eds, podcasts, category voice. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
 };
 

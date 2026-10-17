@@ -16,13 +16,25 @@ export const metadata: Metadata = {
     description: 'An 11-minute regional APAC PR breakdown for Web3 and AI founders: how it works in Korea, Japan, Vietnam and India.',
     url: 'https://www.shilikajain.com/playbook/apac-pr-playbook-2026',
     type: 'article',
-    images: [{ url: 'https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg', width: 1200, height: 628 }],
+    images: [
+      {
+        url: 'https://www.shilikajain.com/assets/media/og/apac.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'APAC PR that is not a translated press release. Korea, Japan, India, Singapore and MENA. Photo: Shilika Jain leaning on the Marina Bay railing with the Singapore skyline across the water.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'APAC PR Playbook 2026: Korea, Japan, Vietnam, India',
     description: 'An 11-minute regional APAC PR breakdown for Web3 and AI founders: how it works in Korea, Japan, Vietnam and India.',
-    images: ['https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg'],
+    images: [
+      {
+        url: 'https://www.shilikajain.com/assets/media/og/apac.jpg',
+        alt: 'APAC PR that is not a translated press release. Korea, Japan, India, Singapore and MENA. Photo: Shilika Jain leaning on the Marina Bay railing with the Singapore skyline across the water.',
+      },
+    ],
   },
 };
 

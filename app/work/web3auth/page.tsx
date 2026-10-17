@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'Blockworks, CoinDesk, Yahoo Finance, Benzinga and Cointelegraph. How a developer-infrastructure launch became a Web2-meets-Web3 story by Shilika Jain, fractional PR manager.',
     url: 'https://www.shilikajain.com/work/web3auth',
     type: 'article',
-    images: [{ url: 'https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg', width: 1200, height: 628 }],
+    images: [
+      {
+        url: 'https://www.shilikajain.com/assets/media/og/work-web3auth.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Google Cloud meets Web3 wallets. Photo: Shilika Jain in a floral dress on a Marina Bay footbridge with the Singapore skyline behind her.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Web3Auth: Selling Wallet Infrastructure to Tier-1 Media',
     description: 'Blockworks, CoinDesk, Yahoo Finance, Benzinga and Cointelegraph. How a developer-infrastructure launch became a Web2-meets-Web3 story by Shilika Jain, fractional PR manager.',
-    images: ['https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg'],
+    images: [
+      {
+        url: 'https://www.shilikajain.com/assets/media/og/work-web3auth.jpg',
+        alt: 'Google Cloud meets Web3 wallets. Photo: Shilika Jain in a floral dress on a Marina Bay footbridge with the Singapore skyline behind her.',
+      },
+    ],
   },
 };
 

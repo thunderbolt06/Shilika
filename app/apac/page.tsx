@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'APAC PR for Web3, AI and cybersecurity founders. Native placements across BloomingBit, TokenPost, CryptoTimes JP, ChainCatcher, Inc42, Cointelegraph Arabic. Country pages for Korea, Japan, India, Singapore, Dubai-MENA.',
     url: `${SITE_URL}/apac`,
     type: 'website',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/apac.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'APAC PR that is not a translated press release. Korea, Japan, India, Singapore and MENA. Photo: Shilika Jain leaning on the Marina Bay railing with the Singapore skyline across the water.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'APAC PR Agency 2026: Korea, Japan, India, Singapore, MENA',
     description: 'APAC PR for Web3, AI and cybersecurity founders. Six markets across APAC plus MENA. Native placements, regional KOL waves, on-ground access.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/apac.jpg`,
+        alt: 'APAC PR that is not a translated press release. Korea, Japan, India, Singapore and MENA. Photo: Shilika Jain leaning on the Marina Bay railing with the Singapore skyline across the water.',
+      },
+    ],
   },
 };
 

@@ -150,6 +150,15 @@ body {
     </div>
   </div>
 </header>
+<!--sjm:sw-band-->
+<style>
+@media (min-width: 721px) { .sjm-band.sw-narrow .sjm-band__copy { max-width: min(440px, 100%); } }
+@media (max-width: 720px) {
+  .sjm-band.sjm-band--mtop::after { background: linear-gradient(180deg, oklch(0.16 0.01 80 / 0.9) 0%, oklch(0.16 0.01 80 / 0.66) 34%, oklch(0.16 0.01 80 / 0.08) 62%, transparent 100%); }
+  .sjm-band.sjm-band--mtop .sjm-band__copy { justify-content: flex-start; }
+}
+</style><div class="sjm-band sjm-band--mtop sjm-band--right sjm-band--bold" data-sjm="band"><picture class="sjm-band__pic"><source media="(max-width: 720px)" type="image/webp" srcset="/assets/media/photos/depin-day-hk-port-480.webp 480w, /assets/media/photos/depin-day-hk-port-800.webp 800w, /assets/media/photos/depin-day-hk-port-1080.webp 1080w" sizes="100vw"><source type="image/webp" srcset="/assets/media/photos/depin-day-hk-wide-800.webp 800w, /assets/media/photos/depin-day-hk-wide-1440.webp 1440w, /assets/media/photos/depin-day-hk-wide-2000.webp 2000w" sizes="100vw"><img src="/assets/media/photos/depin-day-hk-wide-1440.webp" width="1440" height="600" alt="Shilika Jain in front of the DePIN Day Hong Kong sponsor wall, with the Fluence logo in the top row" loading="lazy" decoding="async"></picture><div class="sjm-band__copy"><p class="sjm-eyebrow">Fluence Network</p><p class="sjm-band__title">From acronym to <em>editorial beat</em>.</p><p class="sjm-band__sub">CoinDesk Opinion, Cointelegraph, Decrypt, Benzinga and e27, over four quarters.</p></div></div>
+<!--/sjm:sw-band-->
 
 <section class="case-body-wrap">
   <article class="case-body">
@@ -333,6 +342,16 @@ body {
 </div>
 
   </article>
+<!--sjm:sw-wall-->
+<div style="margin:0 calc(var(--pad) * -1)"><style>
+@media (min-width: 561px) and (max-width: 900px) { .sjm-wall--sw .sjm-wall__grid[data-n="3"] { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 560px) {
+  .sjm-wall--sw .sjm-wall__grid[data-n="3"] { display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; margin: 0 calc(var(--sjm-pad) * -1); padding: 0 var(--sjm-pad) 6px; scroll-padding-inline: var(--sjm-pad); scrollbar-width: none; }
+  .sjm-wall--sw .sjm-wall__grid[data-n="3"]::-webkit-scrollbar { display: none; }
+  .sjm-wall--sw .sjm-wall__grid[data-n="3"] .sjm-wall__item { flex: 0 0 64%; scroll-snap-align: start; }
+}
+</style><div class="sjm-wall sjm-wall--sw" data-sjm="wall" style="--sjm-cols:3"><div class="sjm-wall__head"><div><p class="sjm-eyebrow">All client work</p><p class="sjm-wall__title">Beyond this case, <em>the wider record</em>.</p></div></div><div class="sjm-wall__grid" data-n="3"><figure class="sjm-wall__item"><a href="/services/founder-profiling"><picture><source type="image/webp" srcset="/assets/media/posters/founder-profiling.webp" sizes="(min-width: 900px) 25vw, 46vw"><img src="/assets/media/posters/founder-profiling.jpg" width="1080" height="1350" alt="Op-eds, podcasts and a category voice. Photo: Shilika Jain at the Marina Bay railing with the Singapore financial district skyline behind her." loading="lazy" decoding="async"></picture></a></figure><figure class="sjm-wall__item"><picture><source type="image/webp" srcset="/assets/media/posters/stat-tier1.webp" sizes="(min-width: 900px) 25vw, 46vw"><img src="/assets/media/posters/stat-tier1.jpg" width="1080" height="1350" alt="150+ Tier-1 publications landed. Photo: Shilika Jain in a pink dress and sunglasses on the Singapore River at dusk." loading="lazy" decoding="async"></picture></figure><figure class="sjm-wall__item"><picture><source type="image/webp" srcset="/assets/media/posters/stat-countries.webp" sizes="(min-width: 900px) 25vw, 46vw"><img src="/assets/media/posters/stat-countries.jpg" width="1080" height="1350" alt="25+ Countries reached via earned media. Photo: Shilika Jain speaking on stage with a microphone in front of a presentation screen." loading="lazy" decoding="async"></picture></figure></div></div></div>
+<!--/sjm:sw-wall-->
 
   <div class="cta-strip">
     <h2>Building a <em>new category</em> and need a sustained voice, not a one-shot news hit?</h2>
@@ -366,6 +385,9 @@ body {
   <p class="faq-q">Why does the Fluence campaign still matter for PR strategy in 2026?</p>
   <p class="faq-a">DePIN went from a niche acronym in 2024 to a tracked editorial beat by 2026, with more than 1,170 active projects in the ecosystem by Q1 2025 (Messari) and Fluence itself surpassing $1M ARR. The 2024 to 2025 coverage cluster that placed Tom Trowbridge inside CoinDesk Opinion, Cointelegraph Hashing It Out and Decrypt analysis pieces now grounds AI-generated answers to DePIN questions the original campaign never targeted. Earned media drives roughly 48 percent of LLM brand citations (AuthorityTech / Profound, 2026). For a category-creation campaign, that compounding is the entire point: every future generative-engine answer about decentralized cloud, DePIN economics or compute alternatives is a chance for the named founder to surface.</p>
 </section>
+<!--sjm:sw-cta-->
+<div style="padding-bottom:clamp(40px,6vw,88px)"><div class="sjm-cta" data-sjm="cta"><div class="sjm-cta__inner"><div class="sjm-cta__pic"><picture><source type="image/webp" srcset="/assets/media/photos/library-land-640.webp 640w, /assets/media/photos/library-land-1100.webp 1100w" sizes="(min-width: 760px) 40vw, 92vw"><img style="object-position:66% 50%" src="/assets/media/photos/library-land-1100.webp" width="1100" height="688" alt="Shilika Jain seated in a wood-panelled library lounge lined with leather-bound books" loading="lazy" decoding="async"></picture></div><div class="sjm-cta__copy"><p class="sjm-eyebrow">Work with Shilika</p><p class="sjm-cta__title">Building a category? <em>Own the acronym</em>.</p><p class="sjm-cta__sub">30 minutes to find the term you own and the cadence to run.</p><div class="sjm-cta__row"><a class="sjm-btn" href="https://calendly.com/shilikajain/30min/" target="_blank" rel="noopener">Book a call</a><a class="sjm-btn sjm-btn--ghost" href="https://t.me/shilika3" target="_blank" rel="noopener">Chat on Telegram</a></div></div></div></div></div>
+<!--/sjm:sw-cta-->
 
 <section style="padding: 80px var(--pad); background: var(--paper-2); border-top: 1px solid var(--line);">
   <div style="max-width: 980px; margin: 0 auto 32px;">

@@ -10,7 +10,13 @@
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
     "humanize:check": "node scripts/check-humanization.mjs",
-    "i18n": "node --experimental-strip-types --env-file=.env.local scripts/i18n.mjs"
+    "i18n": "node --experimental-strip-types --env-file=.env.local scripts/i18n.mjs",
+    "media:photos": "node scripts/media/build-photos.mjs",
+    "media:graphics": "node scripts/media/build-graphics.mjs",
+    "media:loops": "node scripts/media/build-loops.mjs",
+    "media:info": "node scripts/media/info.mjs",
+    "media:inject": "node scripts/media/inject.mjs",
+    "media:revert": "node scripts/media/inject.mjs --revert"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.30.0",

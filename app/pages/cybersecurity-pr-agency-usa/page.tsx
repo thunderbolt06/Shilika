@@ -14,13 +14,25 @@ export const metadata: Metadata = {
     description: 'US security press and analyst access from a senior operator, for less than a Series B agency retainer.',
     url: `${SITE_URL}/pages/cybersecurity-pr-agency-usa`,
     type: 'website',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/cyber.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Cybersecurity PR from a senior operator. Fractional, hands-on, built for security founders. Photo: Shilika Jain seated in a wood-panelled library lounge lined with leather-bound books.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Cybersecurity PR Agency USA 2026 | Security Press & Analysts',
     description: 'US security press and analyst access from a senior operator, for less than a Series B agency retainer.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/cyber.jpg`,
+        alt: 'Cybersecurity PR from a senior operator. Fractional, hands-on, built for security founders. Photo: Shilika Jain seated in a wood-panelled library lounge lined with leather-bound books.',
+      },
+    ],
   },
 };
 

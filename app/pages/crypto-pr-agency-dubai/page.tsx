@@ -14,13 +14,25 @@ export const metadata: Metadata = {
     description: 'MENA placement plus Token2049 Dubai leverage and a VARA-aware regulatory angle.',
     url: `${SITE_URL}/pages/crypto-pr-agency-dubai`,
     type: 'website',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/mena.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Dubai and MENA PR: VARA is paragraph one. VARA, ADGM and RAK DAO. Photo: Shilika Jain in front of a red Press Lounge wall at the Consensus conference.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Crypto PR Agency Dubai & MENA 2026 | VARA, Token2049',
     description: 'MENA placement plus Token2049 Dubai leverage and a VARA-aware regulatory angle.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/mena.jpg`,
+        alt: 'Dubai and MENA PR: VARA is paragraph one. VARA, ADGM and RAK DAO. Photo: Shilika Jain in front of a red Press Lounge wall at the Consensus conference.',
+      },
+    ],
   },
 };
 

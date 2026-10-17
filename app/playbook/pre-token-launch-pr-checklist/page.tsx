@@ -16,13 +16,25 @@ export const metadata: Metadata = {
     description: '25 steps across five phases over an eight-week run-up: foundation, narrative and assets, media and KOL outreach, launch week, and post-TGE follow-through. Free one-page PDF.',
     url: `${SITE_URL}/playbook/pre-token-launch-pr-checklist`,
     type: 'article',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/token-launch.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Token launch PR: TGE comms, exchange and KOL waves. Photo: Shilika Jain in a black blazer beside the TOKEN2049 Singapore sign in the conference hall.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'The Pre-Token Launch PR Checklist for 2026',
     description: '25 steps across five phases over an eight-week run-up to a TGE, from a fractional Web3 PR operator. Free one-page PDF.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/token-launch.jpg`,
+        alt: 'Token launch PR: TGE comms, exchange and KOL waves. Photo: Shilika Jain in a black blazer beside the TOKEN2049 Singapore sign in the conference hall.',
+      },
+    ],
   },
 };
 

@@ -14,13 +14,25 @@ export const metadata: Metadata = {
     description: 'Coordinate the announcement, embargo and KOL wave so a Binance listing actually lands in its 24-hour window.',
     url: `${SITE_URL}/pages/binance-listing-pr-agency`,
     type: 'website',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/token-launch.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Token launch PR: TGE comms, exchange and KOL waves. Photo: Shilika Jain in a black blazer beside the TOKEN2049 Singapore sign in the conference hall.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Binance Listing PR Agency 2026 | Exchange Announcement Comms',
     description: 'Coordinate the announcement, embargo and KOL wave so a Binance listing actually lands in its 24-hour window.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/token-launch.jpg`,
+        alt: 'Token launch PR: TGE comms, exchange and KOL waves. Photo: Shilika Jain in a black blazer beside the TOKEN2049 Singapore sign in the conference hall.',
+      },
+    ],
   },
 };
 

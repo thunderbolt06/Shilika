@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'Review sites are gameable. How to read Clutch, G2 and Trustpilot ratings for PR agencies without being misled by curated testimonials.',
     url: `${SITE_URL}/playbook/web3-pr-agency-reviews-clutch-2026`,
     type: 'article',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/compare.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Which PR agency to hire for crypto and AI. Side-by-side comparisons with the trade-offs spelled out. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Web3 PR Agency Reviews on Clutch in 2026: How to Read Them',
     description: 'Review sites are gameable. How to read Clutch, G2 and Trustpilot ratings for PR agencies without being misled by curated testimonials.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/compare.jpg`,
+        alt: 'Which PR agency to hire for crypto and AI. Side-by-side comparisons with the trade-offs spelled out. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
 };
 

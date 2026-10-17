@@ -1,0 +1,143 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/services/ai-seo/industrial-inbound#service",
+      "name": "Industrial inbound: AI SEO for manufacturers and distributors",
+      "serviceType": "AI SEO and lead generation",
+      "description": "Search and AI-answer leads for manufacturers and distributors. Catalog mapped to buyer searches, product, application and location pages for Google and AI engines, RFQ-ready pages with tracking, and pipeline capture into a CRM.",
+      "url": "https://www.shilikajain.com/services/ai-seo/industrial-inbound",
+      "provider": [
+        {
+          "@id": "https://www.shilikajain.com/#person"
+        },
+        {
+          "@id": "https://www.shilikajain.com/services/ai-seo#rahil-jain"
+        }
+      ],
+      "isRelatedTo": {
+        "@id": "https://www.shilikajain.com/services/ai-seo#service"
+      },
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Manufacturers, industrial distributors, contract manufacturers"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Industrial inbound plans",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "Strategic Consulting",
+            "price": 1000,
+            "priceCurrency": "USD",
+            "description": "Site, rankings and AI-visibility audit, catalog mapped to buyer searches, 100 real queries ranked by intent, 3-month build plan."
+          },
+          {
+            "@type": "Offer",
+            "name": "Strategic Execution",
+            "description": "Technical SEO, product and application pages, RFQ capture and lead tracking, monthly report by page.",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": 3000,
+              "priceCurrency": "USD",
+              "unitText": "MONTH"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Deep Execution",
+            "description": "Advanced technical SEO, twice the page volume, continuous catalog expansion.",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": 4000,
+              "priceCurrency": "USD",
+              "unitText": "MONTH"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.shilikajain.com/services/ai-seo#rahil-jain",
+      "name": "Rahil Jain",
+      "jobTitle": "AI Engineer, Product and Growth Engineering",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Chalk Labs",
+        "url": "https://thechalklabs.com"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/rahilnjain/"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Shilika Jain",
+          "item": "https://www.shilikajain.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://www.shilikajain.com/services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "AI SEO",
+          "item": "https://www.shilikajain.com/services/ai-seo"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Industrial inbound",
+          "item": "https://www.shilikajain.com/services/ai-seo/industrial-inbound"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do industrial buyers really use ChatGPT to find suppliers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "More every month. AI is still about 0.25% of total traffic in Ahrefs' 2026 data, but Google's lead over AI assistants fell from roughly 345x to 210x. Pages that rank in Google are also the pages AI engines read first, so the same build covers both."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "We sell through distributors. Does this still make sense?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, if buyers search for your product or application by name. Pages can route RFQs to the right distributor by region and make sure your brand is the one the AI answer names."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How fast do the first leads come in?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The first 20 pages go live in weeks 3 to 6. Published industrial cases from the wider market show first inbound leads in 12 to 75 days, depending on niche and catalog depth."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do we need to rebuild our website?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Usually not. New pages can be added to the current site or a subfolder, as long as they render as plain HTML."
+          }
+        }
+      ]
+    }
+  ]
+}

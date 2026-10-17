@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'Infra has no token hype and no consumer story. How to make wallets, RPCs, oracles and middleware newsworthy, with the Web3Auth playbook.',
     url: `${SITE_URL}/playbook/web3-infrastructure-pr-2026`,
     type: 'article',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/web3.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Web3 PR that lands Tier-1 headlines. Forbes, CoinDesk, Cointelegraph, Decrypt and The Block. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'PR for a Web3 Infrastructure Startup in 2026',
     description: 'Infra has no token hype and no consumer story. How to make wallets, RPCs, oracles and middleware newsworthy, with the Web3Auth playbook.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/web3.jpg`,
+        alt: 'Web3 PR that lands Tier-1 headlines. Forbes, CoinDesk, Cointelegraph, Decrypt and The Block. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
 };
 

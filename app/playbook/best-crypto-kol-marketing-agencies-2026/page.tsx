@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'A criteria-led look at KOL agencies, the fraud problem nobody audits, and how to choose one that vets creators before it bills you.',
     url: `${SITE_URL}/playbook/best-crypto-kol-marketing-agencies-2026`,
     type: 'article',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/kol.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Web3 KOL marketing with 200+ vetted creators. FTC-safe campaigns. Photo: Shilika Jain in a pink dress and sunglasses on the Singapore River at dusk.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Best Crypto KOL Marketing Agencies in 2026',
     description: 'A criteria-led look at KOL agencies, the fraud problem nobody audits, and how to choose one that vets creators before it bills you.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/kol.jpg`,
+        alt: 'Web3 KOL marketing with 200+ vetted creators. FTC-safe campaigns. Photo: Shilika Jain in a pink dress and sunglasses on the Singapore River at dusk.',
+      },
+    ],
   },
 };
 

@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'Stablecoins are a trust product. How to run comms that lead with reserves, audits and regulation instead of yield, and earn serious coverage.',
     url: `${SITE_URL}/playbook/stablecoin-launch-pr-2026`,
     type: 'article',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/token-launch.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Token launch PR: TGE comms, exchange and KOL waves. Photo: Shilika Jain in a black blazer beside the TOKEN2049 Singapore sign in the conference hall.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'PR for a Stablecoin Launch in 2026',
     description: 'Stablecoins are a trust product. How to run comms that lead with reserves, audits and regulation instead of yield, and earn serious coverage.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/token-launch.jpg`,
+        alt: 'Token launch PR: TGE comms, exchange and KOL waves. Photo: Shilika Jain in a black blazer beside the TOKEN2049 Singapore sign in the conference hall.',
+      },
+    ],
   },
 };
 

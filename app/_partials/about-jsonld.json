@@ -15,9 +15,16 @@
       "isPartOf": { "@id": "https://www.shilikajain.com/#website" },
       "primaryImageOfPage": {
         "@type": "ImageObject",
-        "url": "https://www.shilikajain.com/assets/shilika-portrait-1080.jpg",
+        "url": "https://www.shilikajain.com/assets/media/photos/sg-marina-c-port-1080.webp",
         "width": 1080,
         "height": 1350
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.shilikajain.com/assets/media/og/about.jpg",
+        "width": 1200,
+        "height": 630,
+        "caption": "About Shilika Jain: fractional PR for Web3, AI and cybersecurity founders"
       }
     },
     {
@@ -31,7 +38,7 @@
       "mainEntityOfPage": "https://www.shilikajain.com/about",
       "image": {
         "@type": "ImageObject",
-        "url": "https://www.shilikajain.com/assets/shilika-portrait-1080.jpg",
+        "url": "https://www.shilikajain.com/assets/media/photos/sg-marina-c-port-1080.webp",
         "width": 1080,
         "height": 1350,
         "caption": "Shilika Jain, fractional PR manager for Web3 and AI founders"

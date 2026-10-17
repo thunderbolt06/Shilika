@@ -10,7 +10,7 @@
       "url": "https://www.shilikajain.com/",
       "image": {
         "@type": "ImageObject",
-        "url": "https://www.shilikajain.com/assets/shilika-portrait-1080.jpg",
+        "url": "https://www.shilikajain.com/assets/media/photos/sg-marina-c-port-1080.webp",
         "width": 1080,
         "height": 1350
       },
@@ -61,7 +61,7 @@
         "width": 1200,
         "height": 1200
       },
-      "image": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+      "image": "https://www.shilikajain.com/assets/media/og/home.jpg",
       "description": "Fractional PR practice for Web3, AI, and cybersecurity founders. Tier-1 placements, APAC localisation, KOL waves, and TGE communications.",
       "founder": { "@id": "https://www.shilikajain.com/#person" },
       "foundingDate": "2019",
@@ -94,7 +94,7 @@
       "@id": "https://www.shilikajain.com/#service",
       "name": "Shilika Jain - Fractional PR for Web3 & AI Founders",
       "url": "https://www.shilikajain.com/",
-      "image": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+      "image": "https://www.shilikajain.com/assets/media/og/home.jpg",
       "priceRange": "$$$",
       "areaServed": ["Worldwide", "APAC", "United States", "India", "Singapore", "South Korea", "Japan", "United Arab Emirates"],
       "serviceType": "Public Relations for Web3, AI and cybersecurity companies",
@@ -209,6 +209,19 @@
               "url": "https://www.shilikajain.com/services/cybersecurity-pr",
               "provider": { "@id": "https://www.shilikajain.com/#person" }
             }
+          },
+          {
+            "@type": "Offer",
+            "url": "https://www.shilikajain.com/services/ai-seo",
+            "itemOffered": {
+              "@type": "Service",
+              "@id": "https://www.shilikajain.com/services/ai-seo#service",
+              "name": "AI SEO (GEO and AEO)",
+              "description": "AI SEO with AI engineer Rahil Jain that gets brands cited in ChatGPT, Perplexity, Gemini, Claude and Google AI Overviews: buyer-query research, answer-first AI-feed pages, technical SEO and schema, branded placements, and a multi-engine citation panel. From $1,000.",
+              "serviceType": "Search engine optimisation",
+              "url": "https://www.shilikajain.com/services/ai-seo",
+              "provider": { "@id": "https://www.shilikajain.com/#person" }
+            }
           }
         ]
       }
@@ -265,7 +278,7 @@
       "name": "Web3 PR & AI PR Consultant | Shilika Jain",
       "isPartOf": { "@id": "https://www.shilikajain.com/#website" },
       "about": { "@id": "https://www.shilikajain.com/#person" },
-      "primaryImageOfPage": "https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg",
+      "primaryImageOfPage": "https://www.shilikajain.com/assets/media/og/home.jpg",
       "datePublished": "2025-01-01",
       "dateModified": "2026-07-15",
       "inLanguage": "en",

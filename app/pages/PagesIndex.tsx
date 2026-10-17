@@ -1,6 +1,6 @@
 'use client';
 
-import { useMemo, useState } from 'react';
+import { useMemo, useState, type ReactNode } from 'react';
 import pagesData from '@/data/landing-pages.json';
 
 type LP = {
@@ -32,6 +32,9 @@ const CSS = `
 .lpx-h1 em { font-style:italic; position:relative; }
 .lpx-h1 em::after { content:''; position:absolute; left:0; right:0; bottom:.1em; height:.38em; background:#cdf23a; z-index:-1; }
 .lpx-sub { max-width:60ch; margin-top:22px; font-size:clamp(16px,1.5vw,20px); line-height:1.55; color:#4a4842; }
+.lpx-band { max-width:1280px; margin:0 auto; padding:12px 6vw 8px; }
+.lpx-band .sjm-band { border-radius:18px; max-height:440px; }
+@media (max-width:720px){ .lpx-band .sjm-band { max-height:520px; } }
 .lpx-controls { max-width:1280px; margin:0 auto; padding:8px 6vw 16px; position:sticky; top:64px; z-index:20; background:var(--paper,#f4f3ee); }
 .lpx-search { width:100%; max-width:420px; font-size:15px; padding:13px 16px; border:1px solid #d8d6cf; border-radius:100px; background:#fff; color:#26241f; margin-bottom:18px; }
 .lpx-search:focus { outline:none; border-color:#7aa800; }
@@ -65,7 +68,8 @@ const CSS = `
 .lpx-empty { text-align:center; padding:60px; color:#9a978f; grid-column:1/-1; }
 `;
 
-export default function PagesIndex() {
+/** `band` is a server-rendered photo band (app/pages/page.tsx), so the photo manifest stays out of this client bundle. */
+export default function PagesIndex({ band }: { band?: ReactNode }) {
   const [service, setService] = useState<string>('');
   const [region, setRegion] = useState<string>('');
   const [vertical, setVertical] = useState<string>('');
@@ -97,6 +101,8 @@ export default function PagesIndex() {
           one that matches what you are launching, then send a brief or book a call.
         </p>
       </section>
+
+      {band && <div className="lpx-band">{band}</div>}
 
       <div className="lpx-controls">
         <input

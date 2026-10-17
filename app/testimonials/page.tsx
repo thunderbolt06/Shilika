@@ -55,13 +55,25 @@ export const metadata: Metadata = {
     description: 'Unedited recommendations from founders, CMOs and journalists who have worked with Shilika Jain.',
     url: 'https://www.shilikajain.com/testimonials',
     type: 'website',
-    images: [{ url: 'https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg', width: 1200, height: 628 }],
+    images: [
+      {
+        url: 'https://www.shilikajain.com/assets/media/og/testimonials.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'What clients say about Shilika Jain. Photo: Shilika Jain in a pink dress and sunglasses on the Singapore River at dusk.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Testimonials - 19 LinkedIn recommendations for Shilika Jain',
     description: 'Unedited recommendations from founders, CMOs and journalists who have worked with Shilika Jain.',
-    images: ['https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg'],
+    images: [
+      {
+        url: 'https://www.shilikajain.com/assets/media/og/testimonials.jpg',
+        alt: 'What clients say about Shilika Jain. Photo: Shilika Jain in a pink dress and sunglasses on the Singapore River at dusk.',
+      },
+    ],
   },
 };
 

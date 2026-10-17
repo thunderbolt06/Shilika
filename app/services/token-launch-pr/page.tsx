@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'Fractional token launch and TGE communications. Pre-launch sequencing, embargoed tier-1 coverage, exchange comms (Binance, OKX, MEXC), KOL waves, post-TGE earned coverage. 50+ protocols.',
     url: 'https://www.shilikajain.com/services/token-launch-pr',
     type: 'website',
-    images: [{ url: 'https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg', width: 1200, height: 628 }],
+    images: [
+      {
+        url: 'https://www.shilikajain.com/assets/media/og/token-launch.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Token launch PR: TGE comms, exchange and KOL waves. Photo: Shilika Jain in a black blazer beside the TOKEN2049 Singapore sign in the conference hall.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Token Launch PR 2026: TGE Comms, Exchange & KOL Waves',
     description: 'Fractional token launch and TGE communications. Pre-launch sequencing, embargoed tier-1 coverage, exchange comms (Binance, OKX, MEXC), KOL waves, post-TGE earned coverage. 50+ protocols.',
-    images: ['https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg'],
+    images: [
+      {
+        url: 'https://www.shilikajain.com/assets/media/og/token-launch.jpg',
+        alt: 'Token launch PR: TGE comms, exchange and KOL waves. Photo: Shilika Jain in a black blazer beside the TOKEN2049 Singapore sign in the conference hall.',
+      },
+    ],
   },
 };
 

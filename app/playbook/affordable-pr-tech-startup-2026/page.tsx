@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'What \'affordable PR\' really buys, the models that fit a small budget, and how to avoid cheap services that quietly cost you credibility.',
     url: `${SITE_URL}/playbook/affordable-pr-tech-startup-2026`,
     type: 'article',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/services.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Web3 & AI PR, founder profiling, KOL marketing. Fractional PR from a senior operator. Photo: Shilika Jain in a floral dress on a Marina Bay footbridge with the Singapore skyline behind her.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Affordable PR for Tech Startups in 2026',
     description: 'What \'affordable PR\' really buys, the models that fit a small budget, and how to avoid cheap services that quietly cost you credibility.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/services.jpg`,
+        alt: 'Web3 & AI PR, founder profiling, KOL marketing. Fractional PR from a senior operator. Photo: Shilika Jain in a floral dress on a Marina Bay footbridge with the Singapore skyline behind her.',
+      },
+    ],
   },
 };
 

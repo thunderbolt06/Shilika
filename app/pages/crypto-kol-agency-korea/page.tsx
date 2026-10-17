@@ -14,13 +14,25 @@ export const metadata: Metadata = {
     description: 'Activate Korean creators credibly, by Korea\'s own rules, rates and platforms, with native briefs.',
     url: `${SITE_URL}/pages/crypto-kol-agency-korea`,
     type: 'website',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/korea.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Korea PR: the FSC frame is paragraph one. BloomingBit, TokenPost and KBW Seoul. Photo: Shilika Jain smiling mid-talk on stage, microphone in hand.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Crypto KOL Agency Korea 2026 | Native Creator Access',
     description: 'Activate Korean creators credibly, by Korea\'s own rules, rates and platforms, with native briefs.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/korea.jpg`,
+        alt: 'Korea PR: the FSC frame is paragraph one. BloomingBit, TokenPost and KBW Seoul. Photo: Shilika Jain smiling mid-talk on stage, microphone in hand.',
+      },
+    ],
   },
 };
 

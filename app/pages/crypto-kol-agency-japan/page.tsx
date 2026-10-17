@@ -14,13 +14,25 @@ export const metadata: Metadata = {
     description: 'Activate Japanese creators with native briefs and a culturally precise approach.',
     url: `${SITE_URL}/pages/crypto-kol-agency-japan`,
     type: 'website',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/japan.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Japan PR: the FSA frame is paragraph one. CoinPost, Nikkei and WebX Tokyo. Photo: Shilika Jain seated in a wood-panelled library lounge lined with leather-bound books.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Crypto KOL Agency Japan 2026 | Native Creator Access',
     description: 'Activate Japanese creators with native briefs and a culturally precise approach.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/japan.jpg`,
+        alt: 'Japan PR: the FSA frame is paragraph one. CoinPost, Nikkei and WebX Tokyo. Photo: Shilika Jain seated in a wood-panelled library lounge lined with leather-bound books.',
+      },
+    ],
   },
 };
 

@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'Marketing, PR, KOL and growth get lumped together and shouldn\'t be. A map of the field and how to choose by what you actually need.',
     url: `${SITE_URL}/playbook/top-crypto-marketing-agencies-2026`,
     type: 'article',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/compare.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Which PR agency to hire for crypto and AI. Side-by-side comparisons with the trade-offs spelled out. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Top Crypto Marketing Agencies in 2026: How to Compare Them',
     description: 'Marketing, PR, KOL and growth get lumped together and shouldn\'t be. A map of the field and how to choose by what you actually need.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/compare.jpg`,
+        alt: 'Which PR agency to hire for crypto and AI. Side-by-side comparisons with the trade-offs spelled out. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
 };
 

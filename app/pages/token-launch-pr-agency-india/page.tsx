@@ -14,13 +14,25 @@ export const metadata: Metadata = {
     description: 'Launch a token with an Indian base or audience: the compliance reality and a dual-track domestic plus crypto-native launch.',
     url: `${SITE_URL}/pages/token-launch-pr-agency-india`,
     type: 'website',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/india.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'India PR: own the home market first. Inc42, Economic Times and Forbes India. Photo: Shilika Jain at the Stablecoin Summit 2023 photo wall.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Token Launch PR Agency India 2026 | Compliant Dual-Track',
     description: 'Launch a token with an Indian base or audience: the compliance reality and a dual-track domestic plus crypto-native launch.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/india.jpg`,
+        alt: 'India PR: own the home market first. Inc42, Economic Times and Forbes India. Photo: Shilika Jain at the Stablecoin Summit 2023 photo wall.',
+      },
+    ],
   },
 };
 

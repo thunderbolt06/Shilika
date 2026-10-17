@@ -14,13 +14,25 @@ export const metadata: Metadata = {
     description: 'Full-funnel crypto marketing for Indian and India-targeting projects: PR, KOL and community.',
     url: `${SITE_URL}/pages/crypto-marketing-agency-india`,
     type: 'website',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/india.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'India PR: own the home market first. Inc42, Economic Times and Forbes India. Photo: Shilika Jain at the Stablecoin Summit 2023 photo wall.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Crypto Marketing Agency India 2026 | PR, KOL & Growth',
     description: 'Full-funnel crypto marketing for Indian and India-targeting projects: PR, KOL and community.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/india.jpg`,
+        alt: 'India PR: own the home market first. Inc42, Economic Times and Forbes India. Photo: Shilika Jain at the Stablecoin Summit 2023 photo wall.',
+      },
+    ],
   },
 };
 

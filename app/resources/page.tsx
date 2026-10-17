@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 import { EditorialScripts } from '@/components/site/EditorialScripts';
 import { EditorialShell } from '@/components/site/EditorialChrome';
+import { PhotoBand, PosterWall } from '@/components/site/Media';
+import { ogImage } from '@/lib/i18n/og';
 import '../blog/blog.css';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
@@ -162,6 +164,8 @@ const ENCODING: Record<Resource['format'], string> = {
   Excel: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
 };
 
+const CARD = ogImage('/resources', SITE_URL);
+
 export const metadata: Metadata = {
   title: 'Free Marketing & PR Resources for Startups: Templates and Checklists',
   description:
@@ -173,6 +177,11 @@ export const metadata: Metadata = {
       'Checklists, templates and worksheets written by a senior PR operator. Free PDF and Excel downloads.',
     url: `${SITE_URL}/resources`,
     type: 'website',
+    images: [CARD],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: [{ url: CARD.url, alt: CARD.alt }],
   },
 };
 
@@ -254,6 +263,18 @@ export default function ResourcesPage() {
               </div>
             </section>
 
+            <PhotoBand
+              id="sg-bridge-b"
+              eyebrow="Free downloads"
+              title={
+                <>
+                  PDF and Excel files, <em>no email gate</em>.
+                </>
+              }
+              sub="Written by a senior PR operator."
+              sizes="(min-width: 1344px) 1280px, 100vw"
+            />
+
             <div className="blog-list">
               {RESOURCES.map((r, i) => (
                 <a
@@ -291,6 +312,21 @@ export default function ResourcesPage() {
                 </a>
               ))}
             </div>
+
+            <PosterWall
+              eyebrow="By the numbers"
+              title={
+                <>
+                  The track record behind <em>the templates</em>.
+                </>
+              }
+              items={[
+                { id: 'poster-stat-launches' },
+                { id: 'poster-stat-placements' },
+                { id: 'poster-stat-tier1' },
+                { id: 'poster-stat-impressions' },
+              ]}
+            />
 
             <section
               className="blog-index-hero"

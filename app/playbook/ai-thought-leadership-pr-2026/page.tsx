@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'In AI, credibility is the whole game. How to position a technical founder as a category authority across op-eds, podcasts and analyst rooms.',
     url: `${SITE_URL}/playbook/ai-thought-leadership-pr-2026`,
     type: 'article',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/founder.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Founder profiling: op-eds, podcasts, category voice. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'AI Thought Leadership in 2026: Executive Positioning That Works',
     description: 'In AI, credibility is the whole game. How to position a technical founder as a category authority across op-eds, podcasts and analyst rooms.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/founder.jpg`,
+        alt: 'Founder profiling: op-eds, podcasts, category voice. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
 };
 

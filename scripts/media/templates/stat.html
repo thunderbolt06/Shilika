@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+@import url('{{fontsCss}}');
+@import url('{{baseCss}}');
+:root { --W: {{W}}px; --H: {{H}}px; {{vars}} }
+
+/* Stat poster: photo on top, the number sits on the seam over a dark base. */
+.frame { background: var(--panel); }
+.photo { position: absolute; left: 0; right: 0; top: 0; height: {{photoH}}; overflow: hidden; }
+.photo .bg { object-position: {{pos}}; transform: scale({{scale}}); transform-origin: {{origin}}; }
+.photo::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(22,20,15,.45) 0%, rgba(22,20,15,0) 28%, rgba(22,20,15,0) 58%, rgba(40,37,32,.96) 100%); }
+.eyebrow.tl { position: absolute; top: var(--pad, 56px); left: calc(var(--pad, 56px) + var(--mark, 64px) + 20px); height: var(--mark, 64px); }
+.mark--tl { top: var(--pad, 56px); left: var(--pad, 56px); }
+.body { position: absolute; left: var(--pad, 56px); right: var(--pad, 56px); bottom: var(--pad, 56px); display: flex; flex-direction: column; gap: 18px; }
+.num { font-family: var(--serif); font-size: var(--num, 260px); line-height: .82; letter-spacing: -0.03em; color: var(--lime); }
+.num sup { font-size: .5em; vertical-align: top; position: relative; top: .08em; margin-left: .04em; }
+.label { font-family: var(--serif); font-size: var(--label, 64px); line-height: 1; letter-spacing: -0.01em; text-wrap: balance; }
+.label em { font-style: italic; }
+.foot { display: flex; align-items: center; justify-content: space-between; gap: 22px; margin-top: 16px; padding-top: 26px; border-top: 1px solid rgba(244,242,234,.18); }
+{{extraCss}}
+</style>
+</head>
+<body>
+<div class="frame">
+  <div class="photo"><img class="bg" src="{{photo}}" alt=""></div>
+  {{markHtml}}
+  {{eyebrowHtml}}
+  <div class="body">
+    <div class="num">{{num}}</div>
+    <div class="label">{{headline}}</div>
+    {{subHtml}}
+    {{footHtml}}
+  </div>
+</div>
+</body>
+</html>

@@ -14,13 +14,25 @@ export const metadata: Metadata = {
     description: 'Tier-1 AI coverage and analyst-grade credibility from a senior operator, plus the AI-search work that gets you cited.',
     url: `${SITE_URL}/pages/ai-pr-agency`,
     type: 'website',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/ai.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'AI PR with analyst-grade credibility. Tier-1 AI coverage, plus the AI-search work that gets you cited. Photo: Shilika Jain speaking on stage with a microphone in front of a presentation screen.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'AI PR Agency 2026 | Forbes, TechCrunch, The Information',
     description: 'Tier-1 AI coverage and analyst-grade credibility from a senior operator, plus the AI-search work that gets you cited.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/ai.jpg`,
+        alt: 'AI PR with analyst-grade credibility. Tier-1 AI coverage, plus the AI-search work that gets you cited. Photo: Shilika Jain speaking on stage with a microphone in front of a presentation screen.',
+      },
+    ],
   },
 };
 

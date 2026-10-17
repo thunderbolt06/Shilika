@@ -150,6 +150,15 @@ body {
     </div>
   </div>
 </header>
+<!--sjm:sw-band-->
+<style>
+@media (min-width: 721px) { .sjm-band.sw-narrow .sjm-band__copy { max-width: min(440px, 100%); } }
+@media (max-width: 720px) {
+  .sjm-band.sjm-band--mtop::after { background: linear-gradient(180deg, oklch(0.16 0.01 80 / 0.9) 0%, oklch(0.16 0.01 80 / 0.66) 34%, oklch(0.16 0.01 80 / 0.08) 62%, transparent 100%); }
+  .sjm-band.sjm-band--mtop .sjm-band__copy { justify-content: flex-start; }
+}
+</style><div class="sjm-band sjm-band--mtop sjm-band--right" data-sjm="band"><picture class="sjm-band__pic"><source media="(max-width: 720px)" type="image/webp" srcset="/assets/media/photos/sg-marina-d-port-480.webp 480w, /assets/media/photos/sg-marina-d-port-800.webp 800w, /assets/media/photos/sg-marina-d-port-1080.webp 1080w" sizes="100vw"><source type="image/webp" srcset="/assets/media/photos/sg-marina-d-wide-800.webp 800w, /assets/media/photos/sg-marina-d-wide-1440.webp 1440w, /assets/media/photos/sg-marina-d-wide-2000.webp 2000w" sizes="100vw"><img src="/assets/media/photos/sg-marina-d-wide-1440.webp" width="1440" height="600" alt="Shilika Jain leaning on the Marina Bay railing with the Singapore skyline across the water" loading="lazy" decoding="async"></picture><div class="sjm-band__copy"><p class="sjm-eyebrow">RARI Chain mainnet</p><p class="sjm-band__title">A 9-day embargo, <em>one launch morning</em>.</p><p class="sjm-band__sub">A CoinDesk exclusive first, then The Block, The Defiant, Cointelegraph and more.</p></div></div>
+<!--/sjm:sw-band-->
 
 <section class="case-body-wrap">
   <article class="case-body">
@@ -345,6 +354,16 @@ body {
 </div>
 
   </article>
+<!--sjm:sw-wall-->
+<div style="margin:0 calc(var(--pad) * -1)"><style>
+@media (min-width: 561px) and (max-width: 900px) { .sjm-wall--sw .sjm-wall__grid[data-n="3"] { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 560px) {
+  .sjm-wall--sw .sjm-wall__grid[data-n="3"] { display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; margin: 0 calc(var(--sjm-pad) * -1); padding: 0 var(--sjm-pad) 6px; scroll-padding-inline: var(--sjm-pad); scrollbar-width: none; }
+  .sjm-wall--sw .sjm-wall__grid[data-n="3"]::-webkit-scrollbar { display: none; }
+  .sjm-wall--sw .sjm-wall__grid[data-n="3"] .sjm-wall__item { flex: 0 0 64%; scroll-snap-align: start; }
+}
+</style><div class="sjm-wall sjm-wall--sw" data-sjm="wall" style="--sjm-cols:3"><div class="sjm-wall__head"><div><p class="sjm-eyebrow">All client work</p><p class="sjm-wall__title">Beyond this case, <em>the wider record</em>.</p></div></div><div class="sjm-wall__grid" data-n="3"><figure class="sjm-wall__item"><picture><source type="image/webp" srcset="/assets/media/posters/stat-tier1.webp" sizes="(min-width: 900px) 25vw, 46vw"><img src="/assets/media/posters/stat-tier1.jpg" width="1080" height="1350" alt="150+ Tier-1 publications landed. Photo: Shilika Jain in a pink dress and sunglasses on the Singapore River at dusk." loading="lazy" decoding="async"></picture></figure><figure class="sjm-wall__item"><picture><source type="image/webp" srcset="/assets/media/posters/stat-launches.webp" sizes="(min-width: 900px) 25vw, 46vw"><img src="/assets/media/posters/stat-launches.jpg" width="1080" height="1350" alt="50+ Product launches supported. Photo: Shilika Jain in front of the DePIN Day Hong Kong sponsor wall." loading="lazy" decoding="async"></picture></figure><figure class="sjm-wall__item"><picture><source type="image/webp" srcset="/assets/media/posters/stat-countries.webp" sizes="(min-width: 900px) 25vw, 46vw"><img src="/assets/media/posters/stat-countries.jpg" width="1080" height="1350" alt="25+ Countries reached via earned media. Photo: Shilika Jain speaking on stage with a microphone in front of a presentation screen." loading="lazy" decoding="async"></picture></figure></div></div></div>
+<!--/sjm:sw-wall-->
 
   <div class="cta-strip">
     <h2>Have a mainnet launch that deserves the <em>category</em>, not the wire?</h2>
@@ -378,6 +397,9 @@ body {
   <p class="faq-q">What is the difference between a mainnet PR campaign and a generic crypto launch announcement?</p>
   <p class="faq-a">A generic crypto launch announcement gets re-published as a press release on 2 to 5 syndicated wire-style outlets and dies inside 48 hours. A mainnet PR campaign produces an embargoed Tier-1 exclusive on the category angle, 8 to 12 same-day re-reports across crypto-native outlets, regional APAC and EU translations sync'd to local time, founder commentary across 2 to 4 podcasts in the same week, and a follow-up wave 14 to 30 days later anchored on real on-chain usage data. The first plays for clicks. The second plays for citation in AI search, search rank, and the next year of buyer conversations. RARI Chain ran the second.</p>
 </section>
+<!--sjm:sw-cta-->
+<div style="padding-bottom:clamp(40px,6vw,88px)"><div class="sjm-cta" data-sjm="cta"><div class="sjm-cta__inner"><div class="sjm-cta__pic"><picture><source type="image/webp" srcset="/assets/media/photos/sg-bridge-a-land-640.webp 640w, /assets/media/photos/sg-bridge-a-land-1100.webp 1100w" sizes="(min-width: 760px) 40vw, 92vw"><img style="object-position:8% 50%" src="/assets/media/photos/sg-bridge-a-land-1100.webp" width="1100" height="688" alt="Shilika Jain on a Marina Bay footbridge in Singapore, wearing a conference lanyard" loading="lazy" decoding="async"></picture></div><div class="sjm-cta__copy"><p class="sjm-eyebrow">Work with Shilika</p><p class="sjm-cta__title">Launching a <em>mainnet</em>?</p><p class="sjm-cta__sub">30 minutes to test your category angle and your launch window.</p><div class="sjm-cta__row"><a class="sjm-btn" href="https://calendly.com/shilikajain/30min/" target="_blank" rel="noopener">Book a call</a><a class="sjm-btn sjm-btn--ghost" href="https://t.me/shilika3" target="_blank" rel="noopener">Chat on Telegram</a></div></div></div></div></div>
+<!--/sjm:sw-cta-->
 
 <section style="padding: 80px var(--pad); background: var(--paper-2); border-top: 1px solid var(--line);">
   <div style="max-width: 980px; margin: 0 auto 32px;">

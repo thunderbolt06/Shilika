@@ -220,6 +220,7 @@ export function EditorialFooter({ strings = EN }: { strings?: UiStrings }) {
           <a href={hrefFor(lang, '/services/content-writing')}>{t('footer.contentWriting')}</a>
           <a href={hrefFor(lang, '/services/apac-pr')}>{t('footer.apacPr')}</a>
           <a href={hrefFor(lang, '/services/cybersecurity-pr')}>{t('footer.cybersecurityPr')}</a>
+          <a href={hrefFor(lang, '/services/ai-seo')}>{t('footer.aiSeo')}</a>
         </div>
 
         <div className="footer-nav-col">

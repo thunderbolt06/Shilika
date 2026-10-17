@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'A fractional CMO owns the whole growth function, not just PR. When a Web3 startup needs one, when it needs fractional PR instead, and the overlap.',
     url: `${SITE_URL}/playbook/fractional-cmo-web3-2026`,
     type: 'article',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/services.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Web3 & AI PR, founder profiling, KOL marketing. Fractional PR from a senior operator. Photo: Shilika Jain in a floral dress on a Marina Bay footbridge with the Singapore skyline behind her.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Fractional CMO for a Web3 Startup in 2026: When It Makes Sense',
     description: 'A fractional CMO owns the whole growth function, not just PR. When a Web3 startup needs one, when it needs fractional PR instead, and the overlap.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/services.jpg`,
+        alt: 'Web3 & AI PR, founder profiling, KOL marketing. Fractional PR from a senior operator. Photo: Shilika Jain in a floral dress on a Marina Bay footbridge with the Singapore skyline behind her.',
+      },
+    ],
   },
 };
 

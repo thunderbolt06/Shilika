@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'India is a home market, not an afterthought. The outlets that matter (Inc42, YourStory, ET), the agencies that get it, and the fractional alternative.',
     url: `${SITE_URL}/playbook/best-web3-pr-agency-india-2026`,
     type: 'article',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/india.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'India PR: own the home market first. Inc42, Economic Times and Forbes India. Photo: Shilika Jain at the Stablecoin Summit 2023 photo wall.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Best Web3 PR Agencies in India in 2026',
     description: 'India is a home market, not an afterthought. The outlets that matter (Inc42, YourStory, ET), the agencies that get it, and the fractional alternative.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/india.jpg`,
+        alt: 'India PR: own the home market first. Inc42, Economic Times and Forbes India. Photo: Shilika Jain at the Stablecoin Summit 2023 photo wall.',
+      },
+    ],
   },
 };
 

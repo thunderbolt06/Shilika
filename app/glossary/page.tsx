@@ -3,9 +3,12 @@ import Script from 'next/script';
 import { EditorialScripts } from '@/components/site/EditorialScripts';
 import { EditorialShell } from '@/components/site/EditorialChrome';
 import { GLOSSARY } from '@/data/glossary';
+import { PhotoBand } from '@/components/site/Media';
+import { ogImage } from '@/lib/i18n/og';
 import '../blog/blog.css';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
+const CARD = ogImage('/glossary', SITE_URL);
 
 export const metadata: Metadata = {
   title: 'Web3 & AI PR Glossary: Plain-English Definitions (2026)',
@@ -17,6 +20,11 @@ export const metadata: Metadata = {
     description: 'Plain-English definitions of the PR terms Web3 and AI founders ask about.',
     url: `${SITE_URL}/glossary`,
     type: 'website',
+    images: [CARD],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: [{ url: CARD.url, alt: CARD.alt }],
   },
 };
 
@@ -86,6 +94,17 @@ export default function GlossaryIndexPage() {
                 </p>
               </div>
             </section>
+
+            <PhotoBand
+              id="sg-marina-b"
+              eyebrow="Plain answers"
+              title={
+                <>
+                  Definitions written by <em>a working operator</em>.
+                </>
+              }
+              sizes="(min-width: 1344px) 1280px, 100vw"
+            />
 
             <div className="blog-list">
               {GLOSSARY.map((t, i) => (

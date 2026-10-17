@@ -8,6 +8,7 @@ import { TableOfContents } from '@/components/blog/TableOfContents';
 import { ClientReBoot } from '@/components/site/ClientReBoot';
 import { EditorialShell } from '@/components/site/EditorialChrome';
 import { EditorialScripts } from '@/components/site/EditorialScripts';
+import { topicShareCard } from '@/components/site/Media';
 import { assetUrl } from '@/lib/asset-url';
 import {
   I18N_PAGES,
@@ -22,6 +23,7 @@ import {
   type Locale,
 } from '@/lib/i18n/config';
 import { getPublishedPost, loadCatalogue, loadUi, localizeHtml, type Catalogue } from '@/lib/i18n/load';
+import { ogImage } from '@/lib/i18n/og';
 import { withEm } from '@/lib/i18n/rich';
 import { LANG_TOGGLE_SLOT, languageToggleHtml } from '@/lib/i18n/toggle';
 import { stripLegacyChrome } from '@/lib/legacy-chrome';
@@ -45,8 +47,6 @@ export function generateStaticParams() {
   );
 }
 
-const OG_IMAGE = `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`;
-
 async function resolve(params: Params): Promise<{ locale: Locale; page: I18nPage; catalogue: Catalogue }> {
   const { locale, path: segments = [] } = await params;
   const page = findI18nPage(`/${segments.join('/')}`);
@@ -59,10 +59,31 @@ function pageMeta(page: I18nPage, catalogue: Catalogue) {
   return catalogue.meta ?? loadCatalogue('_source', page.key).meta ?? { title: 'Shilika Jain', description: '' };
 }
 
+/**
+ * Share image of a translated route: the same image its English route uses. Partial-backed pages take
+ * the card scripts/media/og-map.mjs picks for the English path. A blog post keeps its own cover when it
+ * has one and otherwise the topic card, exactly like the English /blog/<slug> page does.
+ */
+async function shareImage(page: I18nPage) {
+  if (page.kind === 'blog') {
+    try {
+      const post = await getPublishedPost(page.path.split('/').pop()!);
+      if (post) {
+        if (post.image) return { url: post.image, width: 1200, height: 630, alt: post.title };
+        return topicShareCard(post.slug, post.title, ...post.tags);
+      }
+    } catch {
+      // No database at build time: fall through to the blog card.
+    }
+  }
+  return ogImage(page.path, SITE_URL);
+}
+
 export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
   const { locale, page, catalogue } = await resolve(params);
   const { title, description } = pageMeta(page, catalogue);
   const url = `${SITE_URL}${localizePath(locale, page.path)}`;
+  const image = await shareImage(page);
   return {
     // Some titles already carry the brand; skip the layout's "%s | Shilika Jain" for those.
     title: /\|\s*Shilika Jain\s*$/.test(title) ? { absolute: title } : title,
@@ -75,13 +96,13 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
       description,
       url,
       locale: LANGUAGES[locale].og,
-      images: [{ url: OG_IMAGE, width: 1200, height: 628 }],
+      images: [image],
     },
-    twitter: { card: 'summary_large_image', title, description, images: [OG_IMAGE] },
+    twitter: { card: 'summary_large_image', title, description, images: [{ url: image.url, alt: image.alt }] },
   };
 }
 
-function jsonLd(page: I18nPage, locale: Locale, catalogue: Catalogue): string {
+function jsonLd(page: I18nPage, locale: Locale, catalogue: Catalogue, image: { url: string; width: number; height: number }): string {
   const { title, description } = pageMeta(page, catalogue);
   const url = `${SITE_URL}${localizePath(locale, page.path)}`;
   const english = `${SITE_URL}${page.path === '/' ? '' : page.path}`;
@@ -94,6 +115,8 @@ function jsonLd(page: I18nPage, locale: Locale, catalogue: Catalogue): string {
     [article ? 'headline' : 'name']: title,
     description,
     inLanguage: LANGUAGES[locale].hreflang,
+    // The same card the page shares as og:image, so the markup and the preview agree.
+    [article ? 'image' : 'primaryImageOfPage']: { '@type': 'ImageObject', url: image.url, width: image.width, height: image.height },
     isPartOf: { '@id': `${SITE_URL}/#website` },
     translationOfWork: { '@id': `${english}#${article ? 'article' : 'webpage'}`, url: english },
     ...(article
@@ -238,11 +261,12 @@ async function BlogPost({ page, locale, catalogue }: { page: I18nPage; locale: L
 
 export default async function LocalizedPage({ params }: { params: Params }) {
   const { locale, page, catalogue } = await resolve(params);
+  const image = await shareImage(page);
   const ld = (
     <Script
       id={`i18n-jsonld-${page.key}`}
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: jsonLd(page, locale, catalogue) }}
+      dangerouslySetInnerHTML={{ __html: jsonLd(page, locale, catalogue, image) }}
     />
   );
 

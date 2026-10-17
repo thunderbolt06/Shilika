@@ -5,7 +5,7 @@ Deterministic, runs after the generation workflow has written the
 article-N-body.html / article-N-jsonld.json partials. Creates each route
 page.tsx + JS asset and patches the four shared files. Idempotent via markers.
 """
-import json, os, re
+import json, os, subprocess, re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TOPICS = json.load(open(os.path.join(ROOT, "data", "playbook-topics.json")))
@@ -14,6 +14,22 @@ MARK = "AUTO-PLAYBOOKS-15-114"
 def jss(s: str) -> str:
     """Safe single-quoted JS/TS string literal."""
     return "'" + s.replace("\\", "\\\\").replace("'", "\\'") + "'"
+
+def og_for(route: str) -> dict:
+    """Share card for a route. The mapping lives in scripts/media/og-map.mjs (one source of truth);
+    this asks it instead of keeping a second keyword table. Falls back to the section card with a
+    warning if node is not available."""
+    try:
+        out = subprocess.run(
+            ["node", os.path.join(ROOT, "scripts", "media", "og-map.mjs"), "--card", route, "--json"],
+            check=True, capture_output=True, text=True, cwd=ROOT,
+        ).stdout
+        return json.loads(out)
+    except (OSError, subprocess.CalledProcessError, ValueError) as err:
+        card = "web3" if route.startswith("/pages") else "playbook"
+        print(f"warning: og-map.mjs unavailable ({err}); using the {card} card for {route}")
+        graphics = json.load(open(os.path.join(ROOT, "lib", "media", "graphics.json")))
+        return {"card": card, "alt": graphics[f"og-{card}"]["alt"]}
 
 # ---------- 1. per-route page.tsx + JS asset ----------
 PAGE_TPL = """import fs from 'node:fs';
@@ -32,13 +48,25 @@ export const metadata: Metadata = {{
     description: {desc},
     url: `${{SITE_URL}}/playbook/{slug}`,
     type: 'article',
-    images: [{{ url: `${{SITE_URL}}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }}],
+    images: [
+      {{
+        url: `${{SITE_URL}}/assets/media/og/{og_card}.jpg`,
+        width: 1200,
+        height: 630,
+        alt: {og_alt},
+      }},
+    ],
   }},
   twitter: {{
     card: 'summary_large_image',
     title: {title},
     description: {desc},
-    images: [`${{SITE_URL}}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {{
+        url: `${{SITE_URL}}/assets/media/og/{og_card}.jpg`,
+        alt: {og_alt},
+      }},
+    ],
   }},
 }};
 
@@ -81,7 +109,8 @@ for t in TOPICS:
     rdir = os.path.join(ROOT, "app", "playbook", slug)
     os.makedirs(rdir, exist_ok=True)
     with open(os.path.join(rdir, "page.tsx"), "w") as f:
-        f.write(PAGE_TPL.format(title=jss(t["title"]), desc=jss(t["deck"]), slug=slug, n=n))
+        og = og_for(f"/playbook/{slug}")
+        f.write(PAGE_TPL.format(title=jss(t["title"]), desc=jss(t["deck"]), slug=slug, n=n, og_card=og["card"], og_alt=jss(og["alt"])))
     with open(os.path.join(ROOT, "public", "assets", f"article-{n}.js"), "w") as f:
         f.write(JS_TPL.format(slug=slug))
     routes += 1

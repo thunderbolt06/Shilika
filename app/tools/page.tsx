@@ -5,6 +5,8 @@ import ToolIndex, { type IndexGroup } from './_components/free/ToolIndex';
 import { JsonLd } from './_components/ToolSections';
 import { FREE_TOOLS, GROUPS } from './_data/free';
 import { SITE_URL } from './_lib/seo';
+import { PhotoBand } from '@/components/site/Media';
+import { ogImage } from '@/lib/i18n/og';
 import '../blog/blog.css';
 import './tools.css';
 import './free-tools.css';
@@ -46,6 +48,7 @@ const INDEX: IndexGroup[] = [
   PLANNING,
 ];
 
+const CARD = ogImage('/tools', SITE_URL);
 const COUNT = INDEX.reduce((a, g) => a + g.tools.length, 0);
 const TITLE = 'Free Marketing Tools: SEO, PR, Social and Calculators';
 const DESCRIPTION = `${COUNT} free marketing tools with no signup: UTM builder, SERP preview, schema and llms.txt generators, ROAS and A/B test calculators, press release generator and more.`;
@@ -59,6 +62,11 @@ export const metadata: Metadata = {
     description: DESCRIPTION,
     url: `${SITE_URL}/tools`,
     type: 'website',
+    images: [CARD],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: [{ url: CARD.url, alt: CARD.alt }],
   },
 };
 
@@ -115,6 +123,18 @@ export default function ToolsIndexPage() {
                 <p>Marketing, SEO and PR tools that run in your browser. No signup.</p>
               </div>
             </section>
+
+            <PhotoBand
+              id="sg-river-b"
+              eyebrow="No signup"
+              title={
+                <>
+                  Tools built by a <em>working PR operator</em>.
+                </>
+              }
+              sub="Calculators, generators and checkers that run in your browser."
+              sizes="(min-width: 1344px) 1280px, 100vw"
+            />
 
             <ToolIndex groups={INDEX} />
 

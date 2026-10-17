@@ -14,13 +14,25 @@ export const metadata: Metadata = {
     description: 'Your name, your thinking, an editor-ready op-ed placed on a real opinion desk, in your voice.',
     url: `${SITE_URL}/pages/op-ed-ghostwriting-service`,
     type: 'website',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/content.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Content writing for founders: op-eds, whitepapers. For Web3 and AI teams. Photo: Shilika Jain in a pink dress by the Singapore River with the old bridge behind her.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Op-Ed Ghostwriting Service 2026 | Editor-Ready Founder Essays',
     description: 'Your name, your thinking, an editor-ready op-ed placed on a real opinion desk, in your voice.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/content.jpg`,
+        alt: 'Content writing for founders: op-eds, whitepapers. For Web3 and AI teams. Photo: Shilika Jain in a pink dress by the Singapore River with the old bridge behind her.',
+      },
+    ],
   },
 };
 

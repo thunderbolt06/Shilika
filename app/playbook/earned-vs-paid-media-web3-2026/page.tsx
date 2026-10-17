@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'Paid buys reach; earned builds belief. Where each fits in a Web3 budget, why credibility outlasts impressions, and how to blend them.',
     url: `${SITE_URL}/playbook/earned-vs-paid-media-web3-2026`,
     type: 'article',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/playbook.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'The PR playbook for Web3 & AI founders. Guides on Tier-1 pitching, launch PR, KOLs and AI-search citations. Photo: Shilika Jain in a floral dress on a Marina Bay footbridge with the Singapore skyline behind her.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Earned vs Paid Media in Web3 in 2026',
     description: 'Paid buys reach; earned builds belief. Where each fits in a Web3 budget, why credibility outlasts impressions, and how to blend them.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/playbook.jpg`,
+        alt: 'The PR playbook for Web3 & AI founders. Guides on Tier-1 pitching, launch PR, KOLs and AI-search citations. Photo: Shilika Jain in a floral dress on a Marina Bay footbridge with the Singapore skyline behind her.',
+      },
+    ],
   },
 };
 

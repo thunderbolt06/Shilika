@@ -4,11 +4,15 @@ import { notFound } from 'next/navigation';
 import { EditorialScripts } from '@/components/site/EditorialScripts';
 import { EditorialShell } from '@/components/site/EditorialChrome';
 import { GLOSSARY, getGlossaryTerm } from '@/data/glossary';
+import { AVATAR_IDS, Photo, pickPhoto, regionOf } from '@/components/site/Media';
+import { ogImage } from '@/lib/i18n/og';
 import '../../blog/blog.css';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const dynamicParams = false;
+
+const CARD = ogImage('/glossary', SITE_URL);
 
 type Params = Promise<{ term: string }>;
 
@@ -30,13 +34,13 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
       description: entry.metaDescription,
       url,
       type: 'article',
-      images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+      images: [CARD],
     },
     twitter: {
       card: 'summary_large_image',
       title: entry.metaTitle,
       description: entry.metaDescription,
-      images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+      images: [{ url: CARD.url, alt: CARD.alt }],
     },
   };
 }
@@ -116,6 +120,12 @@ export default async function GlossaryTermPage({ params }: { params: Params }) {
   if (!entry) notFound();
 
   const jsonLd = JSON.stringify(buildJsonLd(entry));
+  const avatarId = pickPhoto({
+    seed: entry.slug,
+    crop: 'sq',
+    region: regionOf(entry.slug, entry.title),
+    from: AVATAR_IDS,
+  });
   const modified = new Date(entry.dateModified).toLocaleDateString('en-US', {
     year: 'numeric',
     month: 'long',
@@ -142,6 +152,18 @@ export default async function GlossaryTermPage({ params }: { params: Params }) {
               </p>
               <h1 className="post-title">{entry.title}</h1>
               <p className="post-deck">{entry.deck}</p>
+
+              <div className="post-meta-row">
+                <div className="post-meta-author">
+                  <Photo id={avatarId} crop="sq" sizes="44px" alt="" />
+                  <div>
+                    <p className="post-meta-author-name">
+                      <a href="/about">Shilika Jain</a>
+                    </p>
+                    <p className="post-meta-author-meta">Reviewed {modified}</p>
+                  </div>
+                </div>
+              </div>
             </header>
 
             <div className="post-body-wrap">

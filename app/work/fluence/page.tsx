@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'CoinDesk Opinion, Cointelegraph \'Hashing It Out\', Decrypt, Benzinga and e27. A category-creation PR teardown by Shilika Jain, fractional PR manager.',
     url: 'https://www.shilikajain.com/work/fluence',
     type: 'article',
-    images: [{ url: 'https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg', width: 1200, height: 628 }],
+    images: [
+      {
+        url: 'https://www.shilikajain.com/assets/media/og/work-fluence.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Making DePIN a Tier-1 beat. Photo: Shilika Jain in front of the DePIN Day Hong Kong sponsor wall.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Fluence Network: Making DePIN a Tier-1 Beat',
     description: 'CoinDesk Opinion, Cointelegraph \'Hashing It Out\', Decrypt, Benzinga and e27. A category-creation PR teardown by Shilika Jain, fractional PR manager.',
-    images: ['https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg'],
+    images: [
+      {
+        url: 'https://www.shilikajain.com/assets/media/og/work-fluence.jpg',
+        alt: 'Making DePIN a Tier-1 beat. Photo: Shilika Jain in front of the DePIN Day Hong Kong sponsor wall.',
+      },
+    ],
   },
 };
 

@@ -14,13 +14,25 @@ export const metadata: Metadata = {
     description: 'Positioning, op-eds, a podcast tour and an author-entity build that turns a technical founder into the cited voice of their category.',
     url: `${SITE_URL}/pages/founder-personal-branding-agency`,
     type: 'website',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/founder.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Founder profiling: op-eds, podcasts, category voice. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Founder Personal Branding Agency 2026 | Shilika Jain',
     description: 'Positioning, op-eds, a podcast tour and an author-entity build that turns a technical founder into the cited voice of their category.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/founder.jpg`,
+        alt: 'Founder profiling: op-eds, podcasts, category voice. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
 };
 

@@ -17,13 +17,25 @@ export const metadata: Metadata = {
     description: 'Cost, speed, founder access, accountability: a decision guide for Web3 and AI founders by a senior PR operator.',
     url: 'https://www.shilikajain.com/playbook/fractional-vs-agency',
     type: 'article',
-    images: [{ url: 'https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg', width: 1200, height: 628 }],
+    images: [
+      {
+        url: 'https://www.shilikajain.com/assets/media/og/compare.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Which PR agency to hire for crypto and AI. Side-by-side comparisons with the trade-offs spelled out. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Fractional PR vs Web3 PR Agency: How to Choose in 2026',
     description: 'Cost, speed, founder access, accountability: a decision guide for Web3 and AI founders by a senior PR operator.',
-    images: ['https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg'],
+    images: [
+      {
+        url: 'https://www.shilikajain.com/assets/media/og/compare.jpg',
+        alt: 'Which PR agency to hire for crypto and AI. Side-by-side comparisons with the trade-offs spelled out. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline.',
+      },
+    ],
   },
 };
 

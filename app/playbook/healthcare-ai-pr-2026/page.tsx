@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'Healthcare AI carries a trust and regulatory burden no consumer app does. How to run comms that respects evidence, the FDA and skeptical reporters.',
     url: `${SITE_URL}/playbook/healthcare-ai-pr-2026`,
     type: 'article',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/ai.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'AI PR with analyst-grade credibility. Tier-1 AI coverage, plus the AI-search work that gets you cited. Photo: Shilika Jain speaking on stage with a microphone in front of a presentation screen.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'PR for a Healthcare AI Startup in 2026',
     description: 'Healthcare AI carries a trust and regulatory burden no consumer app does. How to run comms that respects evidence, the FDA and skeptical reporters.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/ai.jpg`,
+        alt: 'AI PR with analyst-grade credibility. Tier-1 AI coverage, plus the AI-search work that gets you cited. Photo: Shilika Jain speaking on stage with a microphone in front of a presentation screen.',
+      },
+    ],
   },
 };
 

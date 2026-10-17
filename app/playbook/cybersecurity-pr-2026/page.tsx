@@ -30,9 +30,10 @@ export const metadata: Metadata = {
     ],
     images: [
       {
-        url: 'https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg',
+        url: 'https://www.shilikajain.com/assets/media/og/cyber.jpg',
         width: 1200,
-        height: 628,
+        height: 630,
+        alt: 'Cybersecurity PR from a senior operator. Fractional, hands-on, built for security founders. Photo: Shilika Jain seated in a wood-panelled library lounge lined with leather-bound books.',
       },
     ],
   },
@@ -41,7 +42,12 @@ export const metadata: Metadata = {
     title: 'Cybersecurity PR in 2026: How Vendors Get Cited by Analysts and AI Engines',
     description:
       'A 12-minute playbook on analyst relations, threat-research amplification and AI Mode citations for cybersecurity vendors in 2026.',
-    images: ['https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg'],
+    images: [
+      {
+        url: 'https://www.shilikajain.com/assets/media/og/cyber.jpg',
+        alt: 'Cybersecurity PR from a senior operator. Fractional, hands-on, built for security founders. Photo: Shilika Jain seated in a wood-panelled library lounge lined with leather-bound books.',
+      },
+    ],
   },
 };
 

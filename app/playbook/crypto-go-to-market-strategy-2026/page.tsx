@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'A GTM plan that treats PR as an afterthought wastes its own launch. Where earned media sits in a token or protocol go-to-market, and in what order.',
     url: `${SITE_URL}/playbook/crypto-go-to-market-strategy-2026`,
     type: 'article',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/playbook.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'The PR playbook for Web3 & AI founders. Guides on Tier-1 pitching, launch PR, KOLs and AI-search citations. Photo: Shilika Jain in a floral dress on a Marina Bay footbridge with the Singapore skyline behind her.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Crypto Go-to-Market Strategy in 2026: Where PR Fits',
     description: 'A GTM plan that treats PR as an afterthought wastes its own launch. Where earned media sits in a token or protocol go-to-market, and in what order.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/playbook.jpg`,
+        alt: 'The PR playbook for Web3 & AI founders. Guides on Tier-1 pitching, launch PR, KOLs and AI-search citations. Photo: Shilika Jain in a floral dress on a Marina Bay footbridge with the Singapore skyline behind her.',
+      },
+    ],
   },
 };
 

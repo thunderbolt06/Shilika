@@ -53,6 +53,7 @@ export default async function FreeToolPage({ params }: { params: Promise<{ slug:
         <main className="blog-page tool-page ft-page">
           <div className="blog-page-inner">
             <ToolHero
+              seed={slug}
               kicker={`Free · ${group?.label ?? 'Tool'}`}
               title={
                 <>

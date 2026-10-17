@@ -19,14 +19,26 @@ export const metadata: Metadata = {
       'The dated news peg, the under-150-word pitch, the editorial firewall, and the multilingual editions, from a senior Web3 PR operator. The sister guide to the CoinDesk playbook.',
     url: `${SITE_URL}/playbook/how-to-pitch-cointelegraph-2026`,
     type: 'article',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/playbook.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'The PR playbook for Web3 & AI founders. Guides on Tier-1 pitching, launch PR, KOLs and AI-search citations. Photo: Shilika Jain in a floral dress on a Marina Bay footbridge with the Singapore skyline behind her.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'How to Pitch Cointelegraph in 2026: Pitch Guide',
     description:
       'The dated news peg, the under-150-word pitch, the editorial firewall, and the multilingual editions, from a senior Web3 PR operator.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/playbook.jpg`,
+        alt: 'The PR playbook for Web3 & AI founders. Guides on Tier-1 pitching, launch PR, KOLs and AI-search citations. Photo: Shilika Jain in a floral dress on a Marina Bay footbridge with the Singapore skyline behind her.',
+      },
+    ],
   },
 };
 

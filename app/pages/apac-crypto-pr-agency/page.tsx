@@ -14,13 +14,25 @@ export const metadata: Metadata = {
     description: 'Native placement across Korea, Japan, Vietnam, China, India and MENA, where half of crypto media traffic lives.',
     url: `${SITE_URL}/pages/apac-crypto-pr-agency`,
     type: 'website',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/apac.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'APAC PR that is not a translated press release. Korea, Japan, India, Singapore and MENA. Photo: Shilika Jain leaning on the Marina Bay railing with the Singapore skyline across the water.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'APAC Crypto PR Agency 2026 | Korea, Japan, India, MENA',
     description: 'Native placement across Korea, Japan, Vietnam, China, India and MENA, where half of crypto media traffic lives.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/apac.jpg`,
+        alt: 'APAC PR that is not a translated press release. Korea, Japan, India, Singapore and MENA. Photo: Shilika Jain leaning on the Marina Bay railing with the Singapore skyline across the water.',
+      },
+    ],
   },
 };
 

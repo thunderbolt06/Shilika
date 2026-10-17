@@ -15,13 +15,25 @@ export const metadata: Metadata = {
     description: 'Fractional PR for cybersecurity founders and CMOs. Analyst relations, tier-1 security press, coordinated disclosure, AEO. A senior operator, no agency markup.',
     url: 'https://www.shilikajain.com/services/cybersecurity-pr',
     type: 'website',
-    images: [{ url: 'https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg', width: 1200, height: 628 }],
+    images: [
+      {
+        url: 'https://www.shilikajain.com/assets/media/og/cyber.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Cybersecurity PR from a senior operator. Fractional, hands-on, built for security founders. Photo: Shilika Jain seated in a wood-panelled library lounge lined with leather-bound books.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Cybersecurity PR in 2026: Fractional Senior Operator',
     description: 'Fractional PR for cybersecurity founders and CMOs. Analyst relations, tier-1 security press, coordinated disclosure, AEO. A senior operator, no agency markup.',
-    images: ['https://www.shilikajain.com/assets/shilika-press-landscape-1200x628.jpg'],
+    images: [
+      {
+        url: 'https://www.shilikajain.com/assets/media/og/cyber.jpg',
+        alt: 'Cybersecurity PR from a senior operator. Fractional, hands-on, built for security founders. Photo: Shilika Jain seated in a wood-panelled library lounge lined with leather-bound books.',
+      },
+    ],
   },
 };
 

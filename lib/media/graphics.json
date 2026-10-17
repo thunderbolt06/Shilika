@@ -1,0 +1,490 @@
+{
+  "cover-linkedin": {
+    "out": "covers/linkedin-1584x396",
+    "width": 1584,
+    "height": 396,
+    "group": "cover",
+    "webp": false,
+    "alt": "Web3 PR & AI PR that lands Tier-1 headlines. Forbes, CoinDesk, Economic Times, Yahoo Finance. Photo: Shilika Jain wearing a conference badge on the Marina Bay promenade in Singapore."
+  },
+  "cover-newsletter": {
+    "out": "covers/newsletter-1200x400",
+    "width": 1200,
+    "height": 400,
+    "group": "cover",
+    "webp": false,
+    "alt": "Web3 & AI PR, field-tested. Photo: Shilika Jain in a pink satin shirt standing in a wood-panelled lounge with framed posters."
+  },
+  "cover-x": {
+    "out": "covers/x-1500x500",
+    "width": 1500,
+    "height": 500,
+    "group": "cover",
+    "webp": false,
+    "alt": "Web3 PR & AI PR that lands Tier-1 headlines. Forbes, CoinDesk, Economic Times, Yahoo Finance. Photo: Shilika Jain in a pink dress by the Singapore River with the old bridge behind her."
+  },
+  "cover-youtube": {
+    "out": "covers/youtube-2560x1440",
+    "width": 2560,
+    "height": 1440,
+    "group": "cover",
+    "webp": false,
+    "alt": "Web3 PR & AI PR that lands Tier-1 headlines. Fractional PR for Web3 and AI founders. Photo: Shilika Jain speaking on stage with a microphone in front of a presentation screen."
+  },
+  "og-about": {
+    "out": "og/about",
+    "width": 1200,
+    "height": 630,
+    "group": "og",
+    "webp": false,
+    "alt": "The operator behind the Tier-1 placement. Six years of PR for Web3, crypto and AI startups. Photo: Shilika Jain in a pink satin shirt standing in a wood-panelled lounge with framed posters."
+  },
+  "og-ai": {
+    "out": "og/ai",
+    "width": 1200,
+    "height": 630,
+    "group": "og",
+    "webp": false,
+    "alt": "AI PR with analyst-grade credibility. Tier-1 AI coverage, plus the AI-search work that gets you cited. Photo: Shilika Jain speaking on stage with a microphone in front of a presentation screen."
+  },
+  "og-apac": {
+    "out": "og/apac",
+    "width": 1200,
+    "height": 630,
+    "group": "og",
+    "webp": false,
+    "alt": "APAC PR that is not a translated press release. Korea, Japan, India, Singapore and MENA. Photo: Shilika Jain leaning on the Marina Bay railing with the Singapore skyline across the water."
+  },
+  "og-blog": {
+    "out": "og/blog",
+    "width": 1200,
+    "height": 630,
+    "group": "og",
+    "webp": false,
+    "alt": "Field notes on Web3 & AI PR. Photo: Shilika Jain in front of the DePIN Day Hong Kong sponsor wall."
+  },
+  "og-compare": {
+    "out": "og/compare",
+    "width": 1200,
+    "height": 630,
+    "group": "og",
+    "webp": false,
+    "alt": "Which PR agency to hire for crypto and AI. Side-by-side comparisons with the trade-offs spelled out. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline."
+  },
+  "og-contact": {
+    "out": "og/contact",
+    "width": 1200,
+    "height": 630,
+    "group": "og",
+    "webp": false,
+    "alt": "Book a 30-min Web3 & AI PR teardown. I come prepped with a teardown of your current press footprint. Photo: Shilika Jain in a pink satin shirt standing in a wood-panelled lounge with framed posters."
+  },
+  "og-content": {
+    "out": "og/content",
+    "width": 1200,
+    "height": 630,
+    "group": "og",
+    "webp": false,
+    "alt": "Content writing for founders: op-eds, whitepapers. For Web3 and AI teams. Photo: Shilika Jain in a pink dress by the Singapore River with the old bridge behind her."
+  },
+  "og-cyber": {
+    "out": "og/cyber",
+    "width": 1200,
+    "height": 630,
+    "group": "og",
+    "webp": false,
+    "alt": "Cybersecurity PR from a senior operator. Fractional, hands-on, built for security founders. Photo: Shilika Jain seated in a wood-panelled library lounge lined with leather-bound books."
+  },
+  "og-faq": {
+    "out": "og/faq",
+    "width": 1200,
+    "height": 630,
+    "group": "og",
+    "webp": false,
+    "alt": "Fractional Web3 & AI PR: scope, cost, regions. Photo: Shilika Jain seated in a wood-panelled library lounge lined with leather-bound books."
+  },
+  "og-founder": {
+    "out": "og/founder",
+    "width": 1200,
+    "height": 630,
+    "group": "og",
+    "webp": false,
+    "alt": "Founder profiling: op-eds, podcasts, category voice. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline."
+  },
+  "og-glossary": {
+    "out": "og/glossary",
+    "width": 1200,
+    "height": 630,
+    "group": "og",
+    "webp": false,
+    "alt": "The Web3 & AI PR glossary. Plain-English definitions for founders and comms leads. Photo: Shilika Jain in a pink satin shirt standing in a wood-panelled lounge with framed posters."
+  },
+  "og-home": {
+    "out": "og/home",
+    "width": 1200,
+    "height": 630,
+    "group": "og",
+    "webp": false,
+    "alt": "Tier-1 PR for Web3 & AI founders. Coverage in Forbes, CoinDesk, Economic Times and Yahoo Finance. Photo: Shilika Jain wearing a conference badge on the Marina Bay promenade in Singapore."
+  },
+  "og-india": {
+    "out": "og/india",
+    "width": 1200,
+    "height": 630,
+    "group": "og",
+    "webp": false,
+    "alt": "India PR: own the home market first. Inc42, Economic Times and Forbes India. Photo: Shilika Jain at the Stablecoin Summit 2023 photo wall."
+  },
+  "og-japan": {
+    "out": "og/japan",
+    "width": 1200,
+    "height": 630,
+    "group": "og",
+    "webp": false,
+    "alt": "Japan PR: the FSA frame is paragraph one. CoinPost, Nikkei and WebX Tokyo. Photo: Shilika Jain seated in a wood-panelled library lounge lined with leather-bound books."
+  },
+  "og-kol": {
+    "out": "og/kol",
+    "width": 1200,
+    "height": 630,
+    "group": "og",
+    "webp": false,
+    "alt": "Web3 KOL marketing with 200+ vetted creators. FTC-safe campaigns. Photo: Shilika Jain in a pink dress and sunglasses on the Singapore River at dusk."
+  },
+  "og-korea": {
+    "out": "og/korea",
+    "width": 1200,
+    "height": 630,
+    "group": "og",
+    "webp": false,
+    "alt": "Korea PR: the FSC frame is paragraph one. BloomingBit, TokenPost and KBW Seoul. Photo: Shilika Jain smiling mid-talk on stage, microphone in hand."
+  },
+  "og-mena": {
+    "out": "og/mena",
+    "width": 1200,
+    "height": 630,
+    "group": "og",
+    "webp": false,
+    "alt": "Dubai and MENA PR: VARA is paragraph one. VARA, ADGM and RAK DAO. Photo: Shilika Jain in front of a red Press Lounge wall at the Consensus conference."
+  },
+  "og-playbook": {
+    "out": "og/playbook",
+    "width": 1200,
+    "height": 630,
+    "group": "og",
+    "webp": false,
+    "alt": "The PR playbook for Web3 & AI founders. Guides on Tier-1 pitching, launch PR, KOLs and AI-search citations. Photo: Shilika Jain in a floral dress on a Marina Bay footbridge with the Singapore skyline behind her."
+  },
+  "og-press": {
+    "out": "og/press",
+    "width": 1200,
+    "height": 630,
+    "group": "og",
+    "webp": false,
+    "alt": "Where the stories land. Forbes, CoinDesk, Cointelegraph, Decrypt, The Block and more. Photo: Shilika Jain in front of a red Press Lounge wall at the Consensus conference."
+  },
+  "og-resources": {
+    "out": "og/resources",
+    "width": 1200,
+    "height": 630,
+    "group": "og",
+    "webp": false,
+    "alt": "Free PR templates, checklists and playbooks. Press kit, media list and journalist pitch templates. Photo: Shilika Jain at the Stablecoin Summit 2023 photo wall."
+  },
+  "og-services": {
+    "out": "og/services",
+    "width": 1200,
+    "height": 630,
+    "group": "og",
+    "webp": false,
+    "alt": "Web3 & AI PR, founder profiling, KOL marketing. Fractional PR from a senior operator. Photo: Shilika Jain in a floral dress on a Marina Bay footbridge with the Singapore skyline behind her."
+  },
+  "og-singapore": {
+    "out": "og/singapore",
+    "width": 1200,
+    "height": 630,
+    "group": "og",
+    "webp": false,
+    "alt": "Singapore PR: the MAS frame is paragraph one. BT, DealStreetAsia and Token2049. Photo: Shilika Jain at the Marina Bay railing with the Singapore financial district skyline behind her."
+  },
+  "og-speaker": {
+    "out": "og/speaker",
+    "width": 1200,
+    "height": 630,
+    "group": "og",
+    "webp": false,
+    "alt": "Keynotes on Web3, AI & cybersecurity PR. Binary Summit Bangkok, India Blockchain Week 2024, Web3 Conf Goa. Photo: Shilika Jain speaking on stage with a microphone in front of a presentation screen."
+  },
+  "og-testimonials": {
+    "out": "og/testimonials",
+    "width": 1200,
+    "height": 630,
+    "group": "og",
+    "webp": false,
+    "alt": "What clients say about Shilika Jain. Photo: Shilika Jain in a pink dress and sunglasses on the Singapore River at dusk."
+  },
+  "og-token-launch": {
+    "out": "og/token-launch",
+    "width": 1200,
+    "height": 630,
+    "group": "og",
+    "webp": false,
+    "alt": "Token launch PR: TGE comms, exchange and KOL waves. Photo: Shilika Jain in a black blazer beside the TOKEN2049 Singapore sign in the conference hall."
+  },
+  "og-tools": {
+    "out": "og/tools",
+    "width": 1200,
+    "height": 630,
+    "group": "og",
+    "webp": false,
+    "alt": "Free tools for founders: GTM planner, budget calculator. Plus a marketing checklist. Photo: Shilika Jain wearing a conference badge on the Marina Bay promenade in Singapore."
+  },
+  "og-web3": {
+    "out": "og/web3",
+    "width": 1200,
+    "height": 630,
+    "group": "og",
+    "webp": false,
+    "alt": "Web3 PR that lands Tier-1 headlines. Forbes, CoinDesk, Cointelegraph, Decrypt and The Block. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline."
+  },
+  "og-work": {
+    "out": "og/work",
+    "width": 1200,
+    "height": 630,
+    "group": "og",
+    "webp": false,
+    "alt": "Tier-1 Web3 & AI PR case studies. RARI Chain, Gaia AI, MANTRA, Web3Auth, Fluence and Bullieverse. Photo: Shilika Jain in front of a red Press Lounge wall at the Consensus conference."
+  },
+  "og-work-bullieverse": {
+    "out": "og/work-bullieverse",
+    "width": 1200,
+    "height": 630,
+    "group": "og",
+    "webp": false,
+    "alt": "A $4M Web3 gaming raise in India. Photo: Shilika Jain in a pink satin shirt standing in a wood-panelled lounge with framed posters."
+  },
+  "og-work-fluence": {
+    "out": "og/work-fluence",
+    "width": 1200,
+    "height": 630,
+    "group": "og",
+    "webp": false,
+    "alt": "Making DePIN a Tier-1 beat. Photo: Shilika Jain in front of the DePIN Day Hong Kong sponsor wall."
+  },
+  "og-work-gaia-ai": {
+    "out": "og/work-gaia-ai",
+    "width": 1200,
+    "height": 630,
+    "group": "og",
+    "webp": false,
+    "alt": "How we placed the Stripe for AI agents. Photo: Shilika Jain at the Marina Bay railing with the Singapore financial district skyline behind her."
+  },
+  "og-work-mantra-chain": {
+    "out": "og/work-mantra-chain",
+    "width": 1200,
+    "height": 630,
+    "group": "og",
+    "webp": false,
+    "alt": "$11M RWA raise with a Middle East angle. Photo: Shilika Jain in a pink dress by the Singapore River with the old bridge behind her."
+  },
+  "og-work-rari-chain": {
+    "out": "og/work-rari-chain",
+    "width": 1200,
+    "height": 630,
+    "group": "og",
+    "webp": false,
+    "alt": "11 Tier-1 placements in 24 hours. RARI Chain mainnet launch. Photo: Shilika Jain leaning on the Marina Bay railing with the Singapore skyline across the water."
+  },
+  "og-work-web3auth": {
+    "out": "og/work-web3auth",
+    "width": 1200,
+    "height": 630,
+    "group": "og",
+    "webp": false,
+    "alt": "Google Cloud meets Web3 wallets. Photo: Shilika Jain in a floral dress on a Marina Bay footbridge with the Singapore skyline behind her."
+  },
+  "poster-ai-pr": {
+    "out": "posters/ai-pr",
+    "width": 1080,
+    "height": 1350,
+    "group": "poster",
+    "webp": true,
+    "alt": "AI PR with analyst-grade credibility. Plus the AI-search work that gets you cited. Photo: Shilika Jain smiling at the Marina Bay railing against the Singapore skyline."
+  },
+  "poster-apac": {
+    "out": "posters/apac",
+    "width": 1080,
+    "height": 1350,
+    "group": "poster",
+    "webp": true,
+    "alt": "APAC PR for founders who refuse to ship a translated press release. Korea, Japan, India, Singapore and MENA. Photo: Shilika Jain wearing a conference badge on the Marina Bay promenade in Singapore."
+  },
+  "poster-cybersecurity": {
+    "out": "posters/cybersecurity",
+    "width": 1080,
+    "height": 1350,
+    "group": "poster",
+    "webp": true,
+    "alt": "Cybersecurity PR from a senior operator. Photo: Shilika Jain leaning on the Marina Bay railing with the Singapore skyline across the water."
+  },
+  "poster-founder-profiling": {
+    "out": "posters/founder-profiling",
+    "width": 1080,
+    "height": 1350,
+    "group": "poster",
+    "webp": true,
+    "alt": "Op-eds, podcasts and a category voice. Photo: Shilika Jain at the Marina Bay railing with the Singapore financial district skyline behind her."
+  },
+  "poster-india": {
+    "out": "posters/india",
+    "width": 1080,
+    "height": 1350,
+    "group": "poster",
+    "webp": true,
+    "alt": "India PR: win the home market before the re-report. Inc42, Economic Times and Forbes India. Photo: Shilika Jain in front of a red Press Lounge wall at the Consensus conference."
+  },
+  "poster-japan": {
+    "out": "posters/japan",
+    "width": 1080,
+    "height": 1350,
+    "group": "poster",
+    "webp": true,
+    "alt": "Japan PR: the FSA frame and the named partner come first. CoinPost, Nikkei and WebX Tokyo. Photo: Shilika Jain in a pink satin shirt standing in a wood-panelled lounge with framed posters."
+  },
+  "poster-kol": {
+    "out": "posters/kol",
+    "width": 1080,
+    "height": 1350,
+    "group": "poster",
+    "webp": true,
+    "alt": "Web3 KOL marketing with 200+ vetted creators. FTC-safe campaigns. Photo: Shilika Jain in a pink dress by the Singapore River with the old bridge behind her."
+  },
+  "poster-korea": {
+    "out": "posters/korea",
+    "width": 1080,
+    "height": 1350,
+    "group": "poster",
+    "webp": true,
+    "alt": "Korea PR: the FSC frame is paragraph one. BloomingBit, TokenPost and KBW Seoul. Photo: Shilika Jain speaking on stage with a microphone in front of a presentation screen."
+  },
+  "poster-mena": {
+    "out": "posters/mena",
+    "width": 1080,
+    "height": 1350,
+    "group": "poster",
+    "webp": true,
+    "alt": "Dubai and MENA PR: VARA is paragraph one. VARA, ADGM and RAK DAO. Photo: Shilika Jain at the Stablecoin Summit 2023 photo wall."
+  },
+  "poster-retainer": {
+    "out": "posters/retainer",
+    "width": 1080,
+    "height": 1350,
+    "group": "poster",
+    "webp": true,
+    "alt": "Retainers run $5k-10k a month. Senior-operator PR for Web3, crypto and AI startups. Photo: Shilika Jain in a pink dress and sunglasses on the Singapore River at dusk."
+  },
+  "poster-singapore": {
+    "out": "posters/singapore",
+    "width": 1080,
+    "height": 1350,
+    "group": "poster",
+    "webp": true,
+    "alt": "Singapore PR: the MAS frame is paragraph one. BT, DealStreetAsia and Token2049. Photo: Shilika Jain in a floral dress on a Marina Bay footbridge with the Singapore skyline behind her."
+  },
+  "poster-speaker": {
+    "out": "posters/speaker",
+    "width": 1080,
+    "height": 1350,
+    "group": "poster",
+    "webp": true,
+    "alt": "Keynotes on Web3, AI & cybersecurity PR. Binary Summit Bangkok, India Blockchain Week 2024, Web3 Conf Goa and EpicWeb3 Summit. Photo: Shilika Jain smiling mid-talk on stage, microphone in hand."
+  },
+  "poster-stat-countries": {
+    "out": "posters/stat-countries",
+    "width": 1080,
+    "height": 1350,
+    "group": "poster",
+    "webp": true,
+    "alt": "25+ Countries reached via earned media. Photo: Shilika Jain speaking on stage with a microphone in front of a presentation screen."
+  },
+  "poster-stat-impressions": {
+    "out": "posters/stat-impressions",
+    "width": 1080,
+    "height": 1350,
+    "group": "poster",
+    "webp": true,
+    "alt": "5B+ Estimated media impressions. Photo: Shilika Jain leaning on the Marina Bay railing with the Singapore skyline across the water."
+  },
+  "poster-stat-launches": {
+    "out": "posters/stat-launches",
+    "width": 1080,
+    "height": 1350,
+    "group": "poster",
+    "webp": true,
+    "alt": "50+ Product launches supported. Photo: Shilika Jain in front of the DePIN Day Hong Kong sponsor wall."
+  },
+  "poster-stat-placements": {
+    "out": "posters/stat-placements",
+    "width": 1080,
+    "height": 1350,
+    "group": "poster",
+    "webp": true,
+    "alt": "500+ Media placements secured. Photo: Shilika Jain at the Marina Bay railing with the Singapore financial district skyline behind her."
+  },
+  "poster-stat-tier1": {
+    "out": "posters/stat-tier1",
+    "width": 1080,
+    "height": 1350,
+    "group": "poster",
+    "webp": true,
+    "alt": "150+ Tier-1 publications landed. Photo: Shilika Jain in a pink dress and sunglasses on the Singapore River at dusk."
+  },
+  "poster-teardown": {
+    "out": "posters/teardown",
+    "width": 1080,
+    "height": 1350,
+    "group": "poster",
+    "webp": true,
+    "alt": "Book a 30-min PR teardown. I come prepped with a teardown of your current press footprint. Photo: Shilika Jain seated in a wood-panelled library lounge lined with leather-bound books."
+  },
+  "poster-token-launch": {
+    "out": "posters/token-launch",
+    "width": 1080,
+    "height": 1350,
+    "group": "poster",
+    "webp": true,
+    "alt": "TGE comms, exchange news and KOL waves. Photo: Shilika Jain in a black blazer beside the TOKEN2049 Singapore sign in the conference hall."
+  },
+  "poster-web3-pr": {
+    "out": "posters/web3-pr",
+    "width": 1080,
+    "height": 1350,
+    "group": "poster",
+    "webp": true,
+    "alt": "Web3 PR & AI PR that lands Tier-1 headlines. Coverage in Forbes, CoinDesk, Economic Times and Yahoo Finance. Photo: Shilika Jain wearing a conference badge on the Marina Bay promenade in Singapore."
+  },
+  "story-apac": {
+    "out": "posters/story-apac",
+    "width": 1080,
+    "height": 1920,
+    "group": "story",
+    "webp": true,
+    "alt": "APAC PR for founders who refuse to ship a translated press release. Korea, Japan, India, Singapore and MENA. Photo: Shilika Jain in a floral dress on a Marina Bay footbridge with the Singapore skyline behind her."
+  },
+  "story-teardown": {
+    "out": "posters/story-teardown",
+    "width": 1080,
+    "height": 1920,
+    "group": "story",
+    "webp": true,
+    "alt": "Book a 30-min PR teardown. I come prepped with a teardown of your current press footprint. Photo: Shilika Jain in a pink satin shirt standing in a wood-panelled lounge with framed posters."
+  },
+  "story-web3-pr": {
+    "out": "posters/story-web3-pr",
+    "width": 1080,
+    "height": 1920,
+    "group": "story",
+    "webp": true,
+    "alt": "Web3 PR & AI PR that lands Tier-1 headlines. Coverage in Forbes, CoinDesk, Economic Times and Yahoo Finance. Photo: Shilika Jain smiling mid-talk on stage, microphone in hand."
+  }
+}

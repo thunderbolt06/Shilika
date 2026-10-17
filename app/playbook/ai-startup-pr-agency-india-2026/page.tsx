@@ -16,13 +16,25 @@ export const metadata: Metadata = {
     description: 'India\'s AI startup scene is global-facing from day one. How to run PR that earns both Indian and international tech coverage.',
     url: `${SITE_URL}/playbook/ai-startup-pr-agency-india-2026`,
     type: 'article',
-    images: [{ url: `${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`, width: 1200, height: 628 }],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/india.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'India PR: own the home market first. Inc42, Economic Times and Forbes India. Photo: Shilika Jain at the Stablecoin Summit 2023 photo wall.',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Best AI Startup PR Agencies in India in 2026',
     description: 'India\'s AI startup scene is global-facing from day one. How to run PR that earns both Indian and international tech coverage.',
-    images: [`${SITE_URL}/assets/shilika-press-landscape-1200x628.jpg`],
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/india.jpg`,
+        alt: 'India PR: own the home market first. Inc42, Economic Times and Forbes India. Photo: Shilika Jain at the Stablecoin Summit 2023 photo wall.',
+      },
+    ],
   },
 };
 
