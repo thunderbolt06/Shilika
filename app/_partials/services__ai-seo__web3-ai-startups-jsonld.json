@@ -2,6 +2,24 @@
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "WebPage",
+      "@id": "https://www.shilikajain.com/services/ai-seo/web3-ai-startups#webpage",
+      "url": "https://www.shilikajain.com/services/ai-seo/web3-ai-startups",
+      "name": "AI SEO for Web3 & AI Startups: PR + GEO in One Team",
+      "datePublished": "2026-10-16",
+      "dateModified": "2026-10-17",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://www.shilikajain.com/#website"
+      },
+      "about": {
+        "@id": "https://www.shilikajain.com/services/ai-seo/web3-ai-startups#service"
+      },
+      "author": {
+        "@id": "https://www.shilikajain.com/#person"
+      }
+    },
+    {
       "@type": "Service",
       "@id": "https://www.shilikajain.com/services/ai-seo/web3-ai-startups#service",
       "name": "AI SEO for Web3 and AI startups",
@@ -22,7 +40,38 @@
       "audience": {
         "@type": "Audience",
         "audienceType": "Crypto protocols, L2s, Web3 startups, AI startups, developer tools"
-      }
+      },
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Strategic Consulting",
+          "price": 1000,
+          "priceCurrency": "USD",
+          "url": "https://www.shilikajain.com/services/ai-seo#pricing"
+        },
+        {
+          "@type": "Offer",
+          "name": "Strategic Execution",
+          "url": "https://www.shilikajain.com/services/ai-seo#pricing",
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": 3000,
+            "priceCurrency": "USD",
+            "unitText": "MONTH"
+          }
+        },
+        {
+          "@type": "Offer",
+          "name": "Deep Execution",
+          "url": "https://www.shilikajain.com/services/ai-seo#pricing",
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": 4000,
+            "priceCurrency": "USD",
+            "unitText": "MONTH"
+          }
+        }
+      ]
     },
     {
       "@type": "Person",
@@ -75,7 +124,7 @@
           "name": "Can PR alone get a crypto project cited by ChatGPT?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sometimes, but slowly. Branded mentions are the strongest predictor of showing up in Google's AI Overviews (0.66 correlation in Ahrefs' 2026 study of about 75,000 brands). Mentions without matching pages on your own site tend to get competitors cited instead. PR plus answer pages is faster than either alone."
+            "text": "Sometimes, but slowly. Branded mentions are the strongest predictor of showing up in Google's AI Overviews (0.664 correlation in Ahrefs' May 2025 study of about 75,000 brands). Mentions without matching pages on your own site tend to get competitors cited instead. PR plus answer pages is faster than either alone."
           }
         },
         {
