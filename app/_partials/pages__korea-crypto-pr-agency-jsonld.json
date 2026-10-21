@@ -7,7 +7,7 @@
       "name": "Korea Crypto PR Agency - Fractional Senior Operator",
       "serviceType": "APAC Localisation",
       "url": "https://www.shilikajain.com/pages/korea-crypto-pr-agency",
-      "description": "Native Korean placement, KOL access and Korea Blockchain Week leverage for crypto and Web3 projects targeting Asia's biggest crypto media market. Shilika Jain runs APAC localisation across Korea and Japan, with direct relationships at BloomingBit and TokenPost, for $3K–$7K/month versus $10K–$30K/month at Seoul-based agencies.",
+      "description": "Native Korean placement, KOL access and event-led PR (Korea Blockchain Week, Korea Fintech Week) for crypto and Web3 projects targeting Asia's biggest crypto media market. Shilika Jain runs APAC localisation across Korea and Japan, with placements in BloomingBit and TokenPost, for $3K to $7K/month versus $15K to $45K/month for a full agency retainer.",
       "provider": {
         "@type": "Person",
         "@id": "https://www.shilikajain.com/#person",
@@ -32,8 +32,8 @@
         "priceCurrency": "USD",
         "priceSpecification": {
           "@type": "PriceSpecification",
-          "minPrice": 5000,
-          "maxPrice": 12000,
+          "minPrice": 3000,
+          "maxPrice": 7000,
           "priceCurrency": "USD",
           "unitText": "MONTH"
         }
@@ -80,7 +80,7 @@
           "name": "How much does Korea crypto PR cost?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A fractional senior operator running Korea and Japan together typically costs $3K–$7K/month. A full agency with in-country staff will run $15K–$45K/month. KOL activations in Korea are priced separately: nano-tier Korean KOLs run $200–$1.5K per post, micro-tier $500–$5K, and mid-tier $10K–$30K. A Korea-specific launch sprint covering KBW plus two months of follow-on coverage runs $15K–$40K in total."
+            "text": "A fractional senior operator running Korea and Japan together typically costs $3K to $7K/month. A full agency with in-country staff will run $15K to $45K/month. KOL activations in Korea are priced separately: nano-tier Korean KOLs run $200 to $1.5K per post, micro-tier $500 to $5K, and mid-tier $10K to $30K. A Korea-specific launch sprint covering KBW plus two months of follow-on coverage runs $15K to $40K in total."
           }
         },
         {
@@ -101,13 +101,22 @@
         },
         {
           "@type": "Question",
+          "name": "Korea Blockchain Week 2026 is over. Is it too late to start Korea PR this year?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. KBW 2026 ran 29 September to 1 October in Seoul, and the next Korean anchor is Korea Fintech Week, 25 to 27 November 2026 at aT Center Seoul. A project that starts the Korean narrative audit in October can brief BloomingBit and TokenPost for a November story. Keep won-stablecoin claims conditional while the Digital Asset Basic Act is still pending, and RWA teams can prepare for the tokenized securities framework that takes effect on 4 February 2027."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "How do I get started with Korea crypto PR?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Send a short project brief using the form below and you will get a reply within 24 hours with a read on your current Korean press footprint and a suggested approach. Alternatively, book a 30-minute call and we map it live. No Korean-language materials required before the first conversation."
           }
         }
-      ]
+      ],
+      "dateModified": "2026-10-19"
     }
   ]
 }

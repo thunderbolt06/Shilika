@@ -43,7 +43,7 @@
       },
       "audience": {
         "@type": "Audience",
-        "audienceType": "Korea-headquartered Web3 and AI founders, recently funded Korean Web3 and AI startups, global Web3 founders preparing a Korea Blockchain Week 2026 launch, AI startup CMOs entering Korea from a global hub, FSC-tracked Virtual Asset Service Providers and KRW-stablecoin issuers, Upbit and Bithumb listing-pipeline teams, RWA and tokenisation teams targeting Korean institutional buyers, cybersecurity vendors targeting Korean enterprise and FSS-regulated buyers"
+        "audienceType": "Korea-headquartered Web3 and AI founders, recently funded Korean Web3 and AI startups, global Web3 founders preparing a Korea Fintech Week 2026 or Korea Blockchain Week 2027 launch, AI startup CMOs entering Korea from a global hub, FSC-tracked Virtual Asset Service Providers and KRW-stablecoin issuers, Upbit and Bithumb listing-pipeline teams, RWA and tokenisation teams targeting Korean institutional buyers, cybersecurity vendors targeting Korean enterprise and FSS-regulated buyers"
       },
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
@@ -87,7 +87,7 @@
       "@type": "FAQPage",
       "@id": "https://www.shilikajain.com/korea#faq",
       "datePublished": "2026-06-02",
-      "dateModified": "2026-09-04",
+      "dateModified": "2026-10-19",
       "mainEntity": [
         {
           "@type": "Question",
@@ -118,7 +118,15 @@
           "name": "How does Korea Blockchain Week change the press calendar for a Web3 founder?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Korea Blockchain Week 2026 runs September 29 to October 1, 2026 at Walkerhill Hotels and Resorts in Seoul, with Upbit as the Main Sponsor and FACTBLOCK as the producer. The three-day format starts with a private institutional forum for policymakers, financial institutions and senior industry leaders before the open conference begins. The press cycle starts five weeks out with embargo briefings to BloomingBit, TokenPost and BlockMedia, lifts on the Monday before the event with a Korean tier-1 trade exclusive, runs side-event coverage through the conference and closes with a post-event international re-report on the Friday. KBW press demand outstrips supply by 3 to 4x, which is why the briefings start in mid-August."
+            "text": "Korea Blockchain Week 2026 ran September 29 to October 1, 2026 at Walkerhill Hotels and Resorts in Seoul, presented with Upbit and produced by FactBlock, with 14,000+ expected attendees, 300+ speakers and 300+ side events across Seoul. The 2027 dates are not yet announced, so the next Korean anchor is Korea Fintech Week, 25 to 27 November 2026 at aT Center in Seoul. For KBW itself, the three-day format starts with a private institutional forum for policymakers, financial institutions and senior industry leaders before the open conference begins. The press cycle starts five weeks out with embargo briefings to BloomingBit, TokenPost and BlockMedia, lifts on the Monday before the event with a Korean tier-1 trade exclusive, runs side-event coverage through the conference and closes with a post-event international re-report on the Friday. KBW press demand outstrips supply by 3 to 4x, which is why the briefings start in mid-August."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Korea Blockchain Week 2026 is over. What should a Web3 or AI founder do in Korea before year end?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Use the next 60 days. Korea Fintech Week runs 25 to 27 November 2026 at aT Center in Seoul under the theme Beyond Finance, Into the Future, and it is the right cycle for KRW-stablecoin, payments, RWA and AI-finance announcements. Follow up with the BloomingBit, TokenPost or BlockMedia reporters met at KBW inside 30 days, start embargo briefings in late October for a Fintech Week lift, hold any won-stablecoin issuance claim until the Digital Asset Basic Act passes, and prepare the tokenized securities angle ahead of the framework taking effect on 4 February 2027."
           }
         },
         {
@@ -142,7 +150,7 @@
           "name": "How does the FSC versus Bank of Korea stablecoin debate change Korean press copy in 2026?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "It moves the regulator paragraph from a footnote to the lead. The FSC has indicated support for allowing non-bank tech companies to issue won-pegged stablecoins, while the Bank of Korea has argued only banks with 51 percent ownership should be permitted. The ruling party committed to introducing a bill in early 2026 in line with the manifesto from President Lee Jae-myung, and the bill requires 100 percent reserves in safe assets such as bank deposits or government bonds with full custody by banks. Toss filed 24 KRW stablecoin trademarks including TOSSKRW in June 2025 and confirmed an L1 mainnet build in April 2026. Any KRW-stablecoin, payments or RWA announcement in 2026 reads inside this debate, not next to it. Press copy that names a position vis-a-vis the FSC bill, the BOK objection, the Toss precedent and the Kakao Bank or Kookmin Bank application is treated as informed, and press copy that does not is treated as not."
+            "text": "It moves the regulator paragraph from a footnote to the lead. The FSC has indicated support for allowing non-bank tech companies to issue won-pegged stablecoins, while the Bank of Korea has argued only banks with 51 percent ownership should be permitted. As of October 2026 the Digital Asset Basic Act is still not law: FSC Chairman Lee Eok-won said on 8 October that talks are in the final stage, and the issuer design is still open. The FSC draft requires 100 percent reserves in safe assets such as bank deposits or government bonds with full custody by banks. Toss filed 24 KRW stablecoin trademarks including TOSSKRW in June 2025 and, as of April 2026, was still weighing its own L1 against an L2 on an existing chain. Any KRW-stablecoin, payments or RWA announcement in 2026 reads inside this debate, not next to it. Press copy that names a position vis-a-vis the FSC bill, the BOK objection, the Toss precedent and the Kakao Bank or Kookmin Bank application is treated as informed, and press copy that does not is treated as not."
           }
         }
       ]

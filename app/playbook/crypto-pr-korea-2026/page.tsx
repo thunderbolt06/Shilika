@@ -8,11 +8,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'Crypto PR in Korea in 2026: Outlets, KOLs and Access',
-  description: 'Korea is roughly half of Asia\'s crypto media traffic. The native outlets, the KOL culture, and the compliance shifts you cannot ignore.',
+  description: 'Crypto PR in Korea after KBW 2026: native outlets, KOL tiers, FSC rules, and the next window (Korea Fintech Week, Nov 2026). Updated Oct 2026.',
   alternates: { canonical: `${SITE_URL}/playbook/crypto-pr-korea-2026` },
   openGraph: {
     title: 'Crypto PR in Korea in 2026: Outlets, KOLs and Access',
-    description: 'Korea is roughly half of Asia\'s crypto media traffic. The native outlets, the KOL culture, and the compliance shifts you cannot ignore.',
+    description: 'Crypto PR in Korea after KBW 2026: native outlets, KOL tiers, FSC rules, and the next window (Korea Fintech Week, Nov 2026). Updated Oct 2026.',
     url: `${SITE_URL}/playbook/crypto-pr-korea-2026`,
     type: 'article',
     images: [
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Crypto PR in Korea in 2026: Outlets, KOLs and Access',
-    description: 'Korea is roughly half of Asia\'s crypto media traffic. The native outlets, the KOL culture, and the compliance shifts you cannot ignore.',
+    description: 'Crypto PR in Korea after KBW 2026: native outlets, KOL tiers, FSC rules, and the next window (Korea Fintech Week, Nov 2026). Updated Oct 2026.',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/korea.jpg`,

@@ -35,7 +35,7 @@
       ],
       "inLanguage": "en",
       "datePublished": "2026-06-23",
-      "dateModified": "2026-06-23",
+      "dateModified": "2026-10-20",
       "about": [
         { "@type": "Thing", "name": "Crypto public relations" },
         { "@type": "Thing", "name": "Korean crypto media" },
@@ -118,6 +118,14 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "A launch sprint covering localised PR materials, BloomingBit and TokenPost outreach, a mid-tier KOL activation, and community setup typically runs $15,000 to $40,000. An ongoing fractional senior operator engagement for sustained Korean media and KOL relations runs $3,000 to $7,000 per month. Full Korean PR agencies with established exchange relationships run $15,000 to $45,000 per month. For first-time Korea market entry, the fractional model is the right starting point."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "KBW 2026 is over. What is the next window for crypto PR in Korea?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Korea Fintech Week, 25 to 27 November 2026 at aT Center in Seoul, is the next big Korean press cycle. Follow up with reporters met at KBW inside 30 days, start embargo briefings in late October or early November, and lead with a Korean partner, listing or customer. Hold any won-stablecoin issuance claim until the Digital Asset Basic Act passes, and prepare tokenized-securities stories for the framework that starts on 4 February 2027."
           }
         },
         {

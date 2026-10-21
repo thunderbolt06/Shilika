@@ -7,11 +7,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'Korea Crypto PR Agency 2026 | KBW, BloomingBit, KOLs',
-  description: 'Native Korean placement, KOL access and Korea Blockchain Week leverage in Asia\'s biggest crypto media market.',
+  description: 'Korea crypto PR after KBW 2026: BloomingBit and TokenPost placement, Korean KOLs, and a Korea Fintech Week (25 to 27 Nov) plan for $3K to $7K a month.',
   alternates: { canonical: `${SITE_URL}/pages/korea-crypto-pr-agency` },
   openGraph: {
     title: 'Korea Crypto PR Agency 2026 | KBW, BloomingBit, KOLs',
-    description: 'Native Korean placement, KOL access and Korea Blockchain Week leverage in Asia\'s biggest crypto media market.',
+    description: 'Korea crypto PR after KBW 2026: BloomingBit and TokenPost placement, Korean KOLs, and a Korea Fintech Week (25 to 27 Nov) plan for $3K to $7K a month.',
     url: `${SITE_URL}/pages/korea-crypto-pr-agency`,
     type: 'website',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Korea Crypto PR Agency 2026 | KBW, BloomingBit, KOLs',
-    description: 'Native Korean placement, KOL access and Korea Blockchain Week leverage in Asia\'s biggest crypto media market.',
+    description: 'Korea crypto PR after KBW 2026: BloomingBit and TokenPost placement, Korean KOLs, and a Korea Fintech Week (25 to 27 Nov) plan for $3K to $7K a month.',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/korea.jpg`,
