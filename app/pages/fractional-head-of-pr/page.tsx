@@ -7,11 +7,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'Fractional Head of PR 2026 | Senior Comms Leadership',
-  description: 'Senior comms leadership without a full-time hire, embedded and accountable.',
+  description: 'Senior comms leadership without a full-time hire, embedded and accountable: narrative, media relations, launches and crisis readiness for your team.',
   alternates: { canonical: `${SITE_URL}/pages/fractional-head-of-pr` },
   openGraph: {
     title: 'Fractional Head of PR 2026 | Senior Comms Leadership',
-    description: 'Senior comms leadership without a full-time hire, embedded and accountable.',
+    description: 'Senior comms leadership without a full-time hire, embedded and accountable: narrative, media relations, launches and crisis readiness for your team.',
     url: `${SITE_URL}/pages/fractional-head-of-pr`,
     type: 'website',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Fractional Head of PR 2026 | Senior Comms Leadership',
-    description: 'Senior comms leadership without a full-time hire, embedded and accountable.',
+    description: 'Senior comms leadership without a full-time hire, embedded and accountable: narrative, media relations, launches and crisis readiness for your team.',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/services.jpg`,

@@ -7,11 +7,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'Crypto Telegram Marketing Agency 2026',
-  description: 'Community seeding, AMA scheduling and moderation that turns a channel into a real audience.',
+  description: 'Community seeding, AMA scheduling and moderation that turns a channel into a real audience, using Telegram-native tactics rather than inflated counts.',
   alternates: { canonical: `${SITE_URL}/pages/telegram-marketing-agency-crypto` },
   openGraph: {
     title: 'Crypto Telegram Marketing Agency 2026',
-    description: 'Community seeding, AMA scheduling and moderation that turns a channel into a real audience.',
+    description: 'Community seeding, AMA scheduling and moderation that turns a channel into a real audience, using Telegram-native tactics rather than inflated counts.',
     url: `${SITE_URL}/pages/telegram-marketing-agency-crypto`,
     type: 'website',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Crypto Telegram Marketing Agency 2026',
-    description: 'Community seeding, AMA scheduling and moderation that turns a channel into a real audience.',
+    description: 'Community seeding, AMA scheduling and moderation that turns a channel into a real audience, using Telegram-native tactics rather than inflated counts.',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/kol.jpg`,

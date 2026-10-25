@@ -7,11 +7,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'Crypto PR Agency UK 2026 | London Press',
-  description: 'UK and European crypto and fintech coverage from a senior operator with tier-1 relationships.',
+  description: 'UK and European crypto and fintech coverage from a senior operator with tier-1 relationships, reaching London\'s crypto, fintech and business press.',
   alternates: { canonical: `${SITE_URL}/pages/crypto-pr-agency-uk` },
   openGraph: {
     title: 'Crypto PR Agency UK 2026 | London Press',
-    description: 'UK and European crypto and fintech coverage from a senior operator with tier-1 relationships.',
+    description: 'UK and European crypto and fintech coverage from a senior operator with tier-1 relationships, reaching London\'s crypto, fintech and business press.',
     url: `${SITE_URL}/pages/crypto-pr-agency-uk`,
     type: 'website',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Crypto PR Agency UK 2026 | London Press',
-    description: 'UK and European crypto and fintech coverage from a senior operator with tier-1 relationships.',
+    description: 'UK and European crypto and fintech coverage from a senior operator with tier-1 relationships, reaching London\'s crypto, fintech and business press.',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/press.jpg`,

@@ -7,11 +7,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'Fractional PR Consultant Web3 2026',
-  description: 'Web3 moves too fast for agency layers. A senior fractional operator who runs your PR directly.',
+  description: 'Web3 moves too fast for agency layers. A senior fractional operator who runs your PR directly, from narrative and press to KOLs and launches.',
   alternates: { canonical: `${SITE_URL}/pages/fractional-pr-consultant-web3` },
   openGraph: {
     title: 'Fractional PR Consultant Web3 2026',
-    description: 'Web3 moves too fast for agency layers. A senior fractional operator who runs your PR directly.',
+    description: 'Web3 moves too fast for agency layers. A senior fractional operator who runs your PR directly, from narrative and press to KOLs and launches.',
     url: `${SITE_URL}/pages/fractional-pr-consultant-web3`,
     type: 'website',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Fractional PR Consultant Web3 2026',
-    description: 'Web3 moves too fast for agency layers. A senior fractional operator who runs your PR directly.',
+    description: 'Web3 moves too fast for agency layers. A senior fractional operator who runs your PR directly, from narrative and press to KOLs and launches.',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/services.jpg`,

@@ -7,11 +7,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'Crypto Founder Personal Branding 2026 | X + LinkedIn',
-  description: 'An X and LinkedIn system that builds authority and still sounds like you, not a content mill.',
+  description: 'An X and LinkedIn system that builds authority and still sounds like you, not a content mill, with a sustainable weekly cadence for busy founders.',
   alternates: { canonical: `${SITE_URL}/pages/crypto-founder-personal-branding` },
   openGraph: {
     title: 'Crypto Founder Personal Branding 2026 | X + LinkedIn',
-    description: 'An X and LinkedIn system that builds authority and still sounds like you, not a content mill.',
+    description: 'An X and LinkedIn system that builds authority and still sounds like you, not a content mill, with a sustainable weekly cadence for busy founders.',
     url: `${SITE_URL}/pages/crypto-founder-personal-branding`,
     type: 'website',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Crypto Founder Personal Branding 2026 | X + LinkedIn',
-    description: 'An X and LinkedIn system that builds authority and still sounds like you, not a content mill.',
+    description: 'An X and LinkedIn system that builds authority and still sounds like you, not a content mill, with a sustainable weekly cadence for busy founders.',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/founder.jpg`,

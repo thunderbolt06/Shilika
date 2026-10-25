@@ -7,11 +7,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'Top Crypto Marketing Agency 2026 | How to Compare',
-  description: 'A map of the field and how to choose between PR, growth and KOL specialists.',
+  description: 'A map of the field and how to choose between PR, growth and KOL specialists, with the criteria that separate real operators from resellers.',
   alternates: { canonical: `${SITE_URL}/pages/top-crypto-marketing-agency` },
   openGraph: {
     title: 'Top Crypto Marketing Agency 2026 | How to Compare',
-    description: 'A map of the field and how to choose between PR, growth and KOL specialists.',
+    description: 'A map of the field and how to choose between PR, growth and KOL specialists, with the criteria that separate real operators from resellers.',
     url: `${SITE_URL}/pages/top-crypto-marketing-agency`,
     type: 'website',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Top Crypto Marketing Agency 2026 | How to Compare',
-    description: 'A map of the field and how to choose between PR, growth and KOL specialists.',
+    description: 'A map of the field and how to choose between PR, growth and KOL specialists, with the criteria that separate real operators from resellers.',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/compare.jpg`,

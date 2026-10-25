@@ -7,11 +7,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'Thought Leadership Ghostwriting 2026 | Defensible POV',
-  description: 'Ghostwritten essays built on a genuine, defensible point of view, placed on real desks.',
+  description: 'Ghostwritten essays built on a genuine, defensible point of view, placed on real opinion desks and structured so AI engines can cite them.',
   alternates: { canonical: `${SITE_URL}/pages/thought-leadership-ghostwriting` },
   openGraph: {
     title: 'Thought Leadership Ghostwriting 2026 | Defensible POV',
-    description: 'Ghostwritten essays built on a genuine, defensible point of view, placed on real desks.',
+    description: 'Ghostwritten essays built on a genuine, defensible point of view, placed on real opinion desks and structured so AI engines can cite them.',
     url: `${SITE_URL}/pages/thought-leadership-ghostwriting`,
     type: 'website',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Thought Leadership Ghostwriting 2026 | Defensible POV',
-    description: 'Ghostwritten essays built on a genuine, defensible point of view, placed on real desks.',
+    description: 'Ghostwritten essays built on a genuine, defensible point of view, placed on real opinion desks and structured so AI engines can cite them.',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/content.jpg`,

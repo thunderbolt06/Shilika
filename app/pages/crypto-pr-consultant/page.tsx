@@ -7,11 +7,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'Crypto PR Consultant 2026 | Senior Operator, Direct',
-  description: 'A senior crypto PR consultant who builds the relationships and pitches the editors personally.',
+  description: 'A senior crypto PR consultant who builds the relationships and pitches the editors personally, with no account managers or junior handoffs.',
   alternates: { canonical: `${SITE_URL}/pages/crypto-pr-consultant` },
   openGraph: {
     title: 'Crypto PR Consultant 2026 | Senior Operator, Direct',
-    description: 'A senior crypto PR consultant who builds the relationships and pitches the editors personally.',
+    description: 'A senior crypto PR consultant who builds the relationships and pitches the editors personally, with no account managers or junior handoffs.',
     url: `${SITE_URL}/pages/crypto-pr-consultant`,
     type: 'website',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Crypto PR Consultant 2026 | Senior Operator, Direct',
-    description: 'A senior crypto PR consultant who builds the relationships and pitches the editors personally.',
+    description: 'A senior crypto PR consultant who builds the relationships and pitches the editors personally, with no account managers or junior handoffs.',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/web3.jpg`,

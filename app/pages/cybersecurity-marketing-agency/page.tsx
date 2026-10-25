@@ -7,11 +7,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'Cybersecurity Marketing Agency 2026 | Analyst-Literate',
-  description: 'Marketing for security vendors that understands analysts, threat research and the trust game.',
+  description: 'Marketing for security vendors that understands analysts, threat research and the trust game, from category narrative to credible press coverage.',
   alternates: { canonical: `${SITE_URL}/pages/cybersecurity-marketing-agency` },
   openGraph: {
     title: 'Cybersecurity Marketing Agency 2026 | Analyst-Literate',
-    description: 'Marketing for security vendors that understands analysts, threat research and the trust game.',
+    description: 'Marketing for security vendors that understands analysts, threat research and the trust game, from category narrative to credible press coverage.',
     url: `${SITE_URL}/pages/cybersecurity-marketing-agency`,
     type: 'website',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Cybersecurity Marketing Agency 2026 | Analyst-Literate',
-    description: 'Marketing for security vendors that understands analysts, threat research and the trust game.',
+    description: 'Marketing for security vendors that understands analysts, threat research and the trust game, from category narrative to credible press coverage.',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/cyber.jpg`,

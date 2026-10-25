@@ -7,11 +7,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'Crypto PR Agency for Startups 2026',
-  description: 'PR that fits an early startup: when to start, what to spend, and what actually earns coverage.',
+  description: 'PR that fits an early startup: when to start, what to spend, and what actually earns coverage, without agency retainers or wasted launch budget.',
   alternates: { canonical: `${SITE_URL}/pages/crypto-pr-agency-for-startups` },
   openGraph: {
     title: 'Crypto PR Agency for Startups 2026',
-    description: 'PR that fits an early startup: when to start, what to spend, and what actually earns coverage.',
+    description: 'PR that fits an early startup: when to start, what to spend, and what actually earns coverage, without agency retainers or wasted launch budget.',
     url: `${SITE_URL}/pages/crypto-pr-agency-for-startups`,
     type: 'website',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Crypto PR Agency for Startups 2026',
-    description: 'PR that fits an early startup: when to start, what to spend, and what actually earns coverage.',
+    description: 'PR that fits an early startup: when to start, what to spend, and what actually earns coverage, without agency retainers or wasted launch budget.',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/web3.jpg`,

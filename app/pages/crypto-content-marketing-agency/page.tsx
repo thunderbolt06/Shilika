@@ -7,11 +7,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'Crypto Content Marketing Agency 2026 | Earned + Owned',
-  description: 'Content built to earn coverage and get cited, not just fill a blog, integrated with PR.',
+  description: 'Content built to earn coverage and get cited, not just fill a blog, integrated with PR so every article supports press and AI-search visibility.',
   alternates: { canonical: `${SITE_URL}/pages/crypto-content-marketing-agency` },
   openGraph: {
     title: 'Crypto Content Marketing Agency 2026 | Earned + Owned',
-    description: 'Content built to earn coverage and get cited, not just fill a blog, integrated with PR.',
+    description: 'Content built to earn coverage and get cited, not just fill a blog, integrated with PR so every article supports press and AI-search visibility.',
     url: `${SITE_URL}/pages/crypto-content-marketing-agency`,
     type: 'website',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Crypto Content Marketing Agency 2026 | Earned + Owned',
-    description: 'Content built to earn coverage and get cited, not just fill a blog, integrated with PR.',
+    description: 'Content built to earn coverage and get cited, not just fill a blog, integrated with PR so every article supports press and AI-search visibility.',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/content.jpg`,

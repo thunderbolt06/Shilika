@@ -7,11 +7,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'Stablecoin PR Agency 2026 | Trust-First Comms',
-  description: 'A trust-first stablecoin narrative built on reserves, audits and regulation, not yield.',
+  description: 'A trust-first stablecoin narrative built on reserves, audits and regulation, not yield. Senior PR for issuers, payment rails and infrastructure teams.',
   alternates: { canonical: `${SITE_URL}/pages/stablecoin-pr-agency` },
   openGraph: {
     title: 'Stablecoin PR Agency 2026 | Trust-First Comms',
-    description: 'A trust-first stablecoin narrative built on reserves, audits and regulation, not yield.',
+    description: 'A trust-first stablecoin narrative built on reserves, audits and regulation, not yield. Senior PR for issuers, payment rails and infrastructure teams.',
     url: `${SITE_URL}/pages/stablecoin-pr-agency`,
     type: 'website',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Stablecoin PR Agency 2026 | Trust-First Comms',
-    description: 'A trust-first stablecoin narrative built on reserves, audits and regulation, not yield.',
+    description: 'A trust-first stablecoin narrative built on reserves, audits and regulation, not yield. Senior PR for issuers, payment rails and infrastructure teams.',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/token-launch.jpg`,

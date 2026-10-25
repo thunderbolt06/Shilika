@@ -7,11 +7,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'Crypto KOL Agency Japan 2026 | Native Creator Access',
-  description: 'Activate Japanese creators with native briefs and a culturally precise approach.',
+  description: 'Activate Japanese crypto creators with native briefs and a culturally precise approach, with disclosure handled the way Japanese audiences expect.',
   alternates: { canonical: `${SITE_URL}/pages/crypto-kol-agency-japan` },
   openGraph: {
     title: 'Crypto KOL Agency Japan 2026 | Native Creator Access',
-    description: 'Activate Japanese creators with native briefs and a culturally precise approach.',
+    description: 'Activate Japanese crypto creators with native briefs and a culturally precise approach, with disclosure handled the way Japanese audiences expect.',
     url: `${SITE_URL}/pages/crypto-kol-agency-japan`,
     type: 'website',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Crypto KOL Agency Japan 2026 | Native Creator Access',
-    description: 'Activate Japanese creators with native briefs and a culturally precise approach.',
+    description: 'Activate Japanese crypto creators with native briefs and a culturally precise approach, with disclosure handled the way Japanese audiences expect.',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/japan.jpg`,

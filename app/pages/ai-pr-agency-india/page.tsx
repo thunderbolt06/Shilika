@@ -7,11 +7,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'AI PR Agency India 2026 | Global-From-Day-One',
-  description: 'PR that earns both Indian and international tech coverage for a global-facing AI startup.',
+  description: 'PR that earns both Indian and international tech coverage for a global-facing AI startup, positioned for global buyers and press from day one.',
   alternates: { canonical: `${SITE_URL}/pages/ai-pr-agency-india` },
   openGraph: {
     title: 'AI PR Agency India 2026 | Global-From-Day-One',
-    description: 'PR that earns both Indian and international tech coverage for a global-facing AI startup.',
+    description: 'PR that earns both Indian and international tech coverage for a global-facing AI startup, positioned for global buyers and press from day one.',
     url: `${SITE_URL}/pages/ai-pr-agency-india`,
     type: 'website',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'AI PR Agency India 2026 | Global-From-Day-One',
-    description: 'PR that earns both Indian and international tech coverage for a global-facing AI startup.',
+    description: 'PR that earns both Indian and international tech coverage for a global-facing AI startup, positioned for global buyers and press from day one.',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/india.jpg`,

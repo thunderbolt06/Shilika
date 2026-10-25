@@ -7,11 +7,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'Crypto PR Agency Singapore 2026',
-  description: 'Singapore and SEA media plus Token2049 event leverage, from an operator with native APAC access.',
+  description: 'Singapore and SEA media plus Token2049 event leverage, from an operator with native APAC access and regional creator and community relationships.',
   alternates: { canonical: `${SITE_URL}/pages/crypto-pr-agency-singapore` },
   openGraph: {
     title: 'Crypto PR Agency Singapore 2026',
-    description: 'Singapore and SEA media plus Token2049 event leverage, from an operator with native APAC access.',
+    description: 'Singapore and SEA media plus Token2049 event leverage, from an operator with native APAC access and regional creator and community relationships.',
     url: `${SITE_URL}/pages/crypto-pr-agency-singapore`,
     type: 'website',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Crypto PR Agency Singapore 2026',
-    description: 'Singapore and SEA media plus Token2049 event leverage, from an operator with native APAC access.',
+    description: 'Singapore and SEA media plus Token2049 event leverage, from an operator with native APAC access and regional creator and community relationships.',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/singapore.jpg`,

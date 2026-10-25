@@ -7,11 +7,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'PR Agency for Tech Startups 2026 | A Founder\'s Guide',
-  description: 'The whole PR picture for an early tech startup, and the fractional alternative to a full agency.',
+  description: 'The whole PR picture for an early tech startup, and the fractional alternative to a full agency: what to do, when to do it and what it should cost.',
   alternates: { canonical: `${SITE_URL}/pages/pr-agency-for-tech-startups` },
   openGraph: {
     title: 'PR Agency for Tech Startups 2026 | A Founder\'s Guide',
-    description: 'The whole PR picture for an early tech startup, and the fractional alternative to a full agency.',
+    description: 'The whole PR picture for an early tech startup, and the fractional alternative to a full agency: what to do, when to do it and what it should cost.',
     url: `${SITE_URL}/pages/pr-agency-for-tech-startups`,
     type: 'website',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'PR Agency for Tech Startups 2026 | A Founder\'s Guide',
-    description: 'The whole PR picture for an early tech startup, and the fractional alternative to a full agency.',
+    description: 'The whole PR picture for an early tech startup, and the fractional alternative to a full agency: what to do, when to do it and what it should cost.',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/services.jpg`,

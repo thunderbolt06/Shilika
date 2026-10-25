@@ -7,11 +7,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'B2B SaaS PR Agency 2026 | Category & Customer Proof',
-  description: 'Category narrative, analyst relations and customer proof instead of consumer-style hype.',
+  description: 'Category narrative, analyst relations and customer proof instead of consumer-style hype, for B2B SaaS companies selling to buying committees.',
   alternates: { canonical: `${SITE_URL}/pages/b2b-saas-pr-agency` },
   openGraph: {
     title: 'B2B SaaS PR Agency 2026 | Category & Customer Proof',
-    description: 'Category narrative, analyst relations and customer proof instead of consumer-style hype.',
+    description: 'Category narrative, analyst relations and customer proof instead of consumer-style hype, for B2B SaaS companies selling to buying committees.',
     url: `${SITE_URL}/pages/b2b-saas-pr-agency`,
     type: 'website',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'B2B SaaS PR Agency 2026 | Category & Customer Proof',
-    description: 'Category narrative, analyst relations and customer proof instead of consumer-style hype.',
+    description: 'Category narrative, analyst relations and customer proof instead of consumer-style hype, for B2B SaaS companies selling to buying committees.',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/services.jpg`,

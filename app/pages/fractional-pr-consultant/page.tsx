@@ -7,11 +7,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'Fractional PR Consultant 2026 | Senior',
-  description: 'A senior PR operator embedded part-time like a team member, for a fraction of an agency retainer.',
+  description: 'A senior PR operator embedded part-time like a team member, for a fraction of an agency retainer: strategy, pitching and press handled directly.',
   alternates: { canonical: `${SITE_URL}/pages/fractional-pr-consultant` },
   openGraph: {
     title: 'Fractional PR Consultant 2026 | Senior',
-    description: 'A senior PR operator embedded part-time like a team member, for a fraction of an agency retainer.',
+    description: 'A senior PR operator embedded part-time like a team member, for a fraction of an agency retainer: strategy, pitching and press handled directly.',
     url: `${SITE_URL}/pages/fractional-pr-consultant`,
     type: 'website',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Fractional PR Consultant 2026 | Senior',
-    description: 'A senior PR operator embedded part-time like a team member, for a fraction of an agency retainer.',
+    description: 'A senior PR operator embedded part-time like a team member, for a fraction of an agency retainer: strategy, pitching and press handled directly.',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/services.jpg`,

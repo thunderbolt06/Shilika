@@ -7,11 +7,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'Threat Intelligence PR Agency 2026',
-  description: 'Package and place threat-intel findings for maximum credible reach, with coordinated disclosure.',
+  description: 'Package and place threat-intel findings for maximum credible reach, with coordinated disclosure, researcher credit and trade and mainstream press.',
   alternates: { canonical: `${SITE_URL}/pages/threat-intelligence-pr-agency` },
   openGraph: {
     title: 'Threat Intelligence PR Agency 2026',
-    description: 'Package and place threat-intel findings for maximum credible reach, with coordinated disclosure.',
+    description: 'Package and place threat-intel findings for maximum credible reach, with coordinated disclosure, researcher credit and trade and mainstream press.',
     url: `${SITE_URL}/pages/threat-intelligence-pr-agency`,
     type: 'website',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Threat Intelligence PR Agency 2026',
-    description: 'Package and place threat-intel findings for maximum credible reach, with coordinated disclosure.',
+    description: 'Package and place threat-intel findings for maximum credible reach, with coordinated disclosure, researcher credit and trade and mainstream press.',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/cyber.jpg`,

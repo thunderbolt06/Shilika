@@ -7,11 +7,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'India Crypto PR Agency 2026 | Inc42, ET, Dual-Track',
-  description: 'Home-market Indian coverage plus crypto-native reach, with a compliance-aware dual-track launch.',
+  description: 'Home-market Indian coverage plus crypto-native reach, with a compliance-aware dual-track launch built around Inc42, Economic Times and global crypto press.',
   alternates: { canonical: `${SITE_URL}/pages/india-crypto-pr-agency` },
   openGraph: {
     title: 'India Crypto PR Agency 2026 | Inc42, ET, Dual-Track',
-    description: 'Home-market Indian coverage plus crypto-native reach, with a compliance-aware dual-track launch.',
+    description: 'Home-market Indian coverage plus crypto-native reach, with a compliance-aware dual-track launch built around Inc42, Economic Times and global crypto press.',
     url: `${SITE_URL}/pages/india-crypto-pr-agency`,
     type: 'website',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'India Crypto PR Agency 2026 | Inc42, ET, Dual-Track',
-    description: 'Home-market Indian coverage plus crypto-native reach, with a compliance-aware dual-track launch.',
+    description: 'Home-market Indian coverage plus crypto-native reach, with a compliance-aware dual-track launch built around Inc42, Economic Times and global crypto press.',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/india.jpg`,

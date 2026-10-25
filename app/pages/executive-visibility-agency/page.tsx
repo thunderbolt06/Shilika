@@ -7,11 +7,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'Executive Visibility Agency 2026 | Category Authority',
-  description: 'Make a founder or executive the named authority their category and AI engines both recognise.',
+  description: 'Make a founder or executive the named authority their category and AI engines both recognise, through op-eds, press, speaking and citable content.',
   alternates: { canonical: `${SITE_URL}/pages/executive-visibility-agency` },
   openGraph: {
     title: 'Executive Visibility Agency 2026 | Category Authority',
-    description: 'Make a founder or executive the named authority their category and AI engines both recognise.',
+    description: 'Make a founder or executive the named authority their category and AI engines both recognise, through op-eds, press, speaking and citable content.',
     url: `${SITE_URL}/pages/executive-visibility-agency`,
     type: 'website',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Executive Visibility Agency 2026 | Category Authority',
-    description: 'Make a founder or executive the named authority their category and AI engines both recognise.',
+    description: 'Make a founder or executive the named authority their category and AI engines both recognise, through op-eds, press, speaking and citable content.',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/founder.jpg`,

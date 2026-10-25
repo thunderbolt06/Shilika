@@ -7,11 +7,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'Crypto Community Growth Agency 2026 | Real Audiences',
-  description: 'Build a community that converts, with KOL, content and PR working together rather than in silos.',
+  description: 'Build a community that converts, with KOL, content and PR working together rather than in silos, and real members instead of airdrop farmers.',
   alternates: { canonical: `${SITE_URL}/pages/crypto-community-growth-agency` },
   openGraph: {
     title: 'Crypto Community Growth Agency 2026 | Real Audiences',
-    description: 'Build a community that converts, with KOL, content and PR working together rather than in silos.',
+    description: 'Build a community that converts, with KOL, content and PR working together rather than in silos, and real members instead of airdrop farmers.',
     url: `${SITE_URL}/pages/crypto-community-growth-agency`,
     type: 'website',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Crypto Community Growth Agency 2026 | Real Audiences',
-    description: 'Build a community that converts, with KOL, content and PR working together rather than in silos.',
+    description: 'Build a community that converts, with KOL, content and PR working together rather than in silos, and real members instead of airdrop farmers.',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/kol.jpg`,

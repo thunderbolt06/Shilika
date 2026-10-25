@@ -7,11 +7,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'Crypto Twitter KOL Marketing 2026 | X Creator Waves',
-  description: 'X-native KOL waves with credibility anchors and disclosure language built in.',
+  description: 'X-native KOL waves with credibility anchors and disclosure language built in, sequenced around your launch and judged on real engagement.',
   alternates: { canonical: `${SITE_URL}/pages/crypto-twitter-kol-marketing` },
   openGraph: {
     title: 'Crypto Twitter KOL Marketing 2026 | X Creator Waves',
-    description: 'X-native KOL waves with credibility anchors and disclosure language built in.',
+    description: 'X-native KOL waves with credibility anchors and disclosure language built in, sequenced around your launch and judged on real engagement.',
     url: `${SITE_URL}/pages/crypto-twitter-kol-marketing`,
     type: 'website',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Crypto Twitter KOL Marketing 2026 | X Creator Waves',
-    description: 'X-native KOL waves with credibility anchors and disclosure language built in.',
+    description: 'X-native KOL waves with credibility anchors and disclosure language built in, sequenced around your launch and judged on real engagement.',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/kol.jpg`,

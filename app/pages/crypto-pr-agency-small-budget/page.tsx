@@ -7,11 +7,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'Crypto PR Agency Small Budget 2026',
-  description: 'The high-leverage PR moves a lean team can run, and where to spend the first dollar.',
+  description: 'The high-leverage PR moves a lean crypto team can run, and where to spend the first dollar when the budget is small and the launch date is not.',
   alternates: { canonical: `${SITE_URL}/pages/crypto-pr-agency-small-budget` },
   openGraph: {
     title: 'Crypto PR Agency Small Budget 2026',
-    description: 'The high-leverage PR moves a lean team can run, and where to spend the first dollar.',
+    description: 'The high-leverage PR moves a lean crypto team can run, and where to spend the first dollar when the budget is small and the launch date is not.',
     url: `${SITE_URL}/pages/crypto-pr-agency-small-budget`,
     type: 'website',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Crypto PR Agency Small Budget 2026',
-    description: 'The high-leverage PR moves a lean team can run, and where to spend the first dollar.',
+    description: 'The high-leverage PR moves a lean crypto team can run, and where to spend the first dollar when the budget is small and the launch date is not.',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/web3.jpg`,

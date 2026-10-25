@@ -7,11 +7,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'Founder Essay Ghostwriting 2026',
-  description: 'Founder essays written in your voice and structured for human readers and AI search.',
+  description: 'Founder essays written in your voice and structured for human readers and AI search, with an original argument and sources that hold up to scrutiny.',
   alternates: { canonical: `${SITE_URL}/pages/founder-essay-ghostwriting` },
   openGraph: {
     title: 'Founder Essay Ghostwriting 2026',
-    description: 'Founder essays written in your voice and structured for human readers and AI search.',
+    description: 'Founder essays written in your voice and structured for human readers and AI search, with an original argument and sources that hold up to scrutiny.',
     url: `${SITE_URL}/pages/founder-essay-ghostwriting`,
     type: 'website',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Founder Essay Ghostwriting 2026',
-    description: 'Founder essays written in your voice and structured for human readers and AI search.',
+    description: 'Founder essays written in your voice and structured for human readers and AI search, with an original argument and sources that hold up to scrutiny.',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/content.jpg`,

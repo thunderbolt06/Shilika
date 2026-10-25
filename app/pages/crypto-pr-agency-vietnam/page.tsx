@@ -7,11 +7,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'Crypto PR Agency Vietnam 2026',
-  description: 'Reach one of the highest crypto-adoption markets on earth with native media and community access.',
+  description: 'Reach one of the highest crypto-adoption markets on earth with native media and community access, using Vietnamese-language pitching and local creators.',
   alternates: { canonical: `${SITE_URL}/pages/crypto-pr-agency-vietnam` },
   openGraph: {
     title: 'Crypto PR Agency Vietnam 2026',
-    description: 'Reach one of the highest crypto-adoption markets on earth with native media and community access.',
+    description: 'Reach one of the highest crypto-adoption markets on earth with native media and community access, using Vietnamese-language pitching and local creators.',
     url: `${SITE_URL}/pages/crypto-pr-agency-vietnam`,
     type: 'website',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Crypto PR Agency Vietnam 2026',
-    description: 'Reach one of the highest crypto-adoption markets on earth with native media and community access.',
+    description: 'Reach one of the highest crypto-adoption markets on earth with native media and community access, using Vietnamese-language pitching and local creators.',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/press.jpg`,

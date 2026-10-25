@@ -7,11 +7,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'Best Web3 Marketing Agency 2026 | PR, KOL, Growth',
-  description: 'How to choose a Web3 marketing partner by what you actually need, with the red flags to avoid.',
+  description: 'How to choose a Web3 marketing partner by what you actually need, with the red flags to avoid and the questions that expose real depth.',
   alternates: { canonical: `${SITE_URL}/pages/best-web3-marketing-agency` },
   openGraph: {
     title: 'Best Web3 Marketing Agency 2026 | PR, KOL, Growth',
-    description: 'How to choose a Web3 marketing partner by what you actually need, with the red flags to avoid.',
+    description: 'How to choose a Web3 marketing partner by what you actually need, with the red flags to avoid and the questions that expose real depth.',
     url: `${SITE_URL}/pages/best-web3-marketing-agency`,
     type: 'website',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Best Web3 Marketing Agency 2026 | PR, KOL, Growth',
-    description: 'How to choose a Web3 marketing partner by what you actually need, with the red flags to avoid.',
+    description: 'How to choose a Web3 marketing partner by what you actually need, with the red flags to avoid and the questions that expose real depth.',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/compare.jpg`,

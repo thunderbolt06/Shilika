@@ -7,11 +7,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'Metaverse PR Agency 2026 | Worlds, IP & Communities',
-  description: 'Coverage for metaverse and immersive projects grounded in product and community, not 2021 hype.',
+  description: 'Coverage for metaverse and immersive projects grounded in product and community, not 2021 hype: worlds, IP, creators and real user traction.',
   alternates: { canonical: `${SITE_URL}/pages/metaverse-pr-agency` },
   openGraph: {
     title: 'Metaverse PR Agency 2026 | Worlds, IP & Communities',
-    description: 'Coverage for metaverse and immersive projects grounded in product and community, not 2021 hype.',
+    description: 'Coverage for metaverse and immersive projects grounded in product and community, not 2021 hype: worlds, IP, creators and real user traction.',
     url: `${SITE_URL}/pages/metaverse-pr-agency`,
     type: 'website',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Metaverse PR Agency 2026 | Worlds, IP & Communities',
-    description: 'Coverage for metaverse and immersive projects grounded in product and community, not 2021 hype.',
+    description: 'Coverage for metaverse and immersive projects grounded in product and community, not 2021 hype: worlds, IP, creators and real user traction.',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/web3.jpg`,

@@ -7,11 +7,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'Web3 PR Agency UAE 2026 | Abu Dhabi & Dubai',
-  description: 'UAE-based and UAE-targeted Web3 PR with regulatory tailwinds and event-led access.',
+  description: 'UAE-based and UAE-targeted Web3 PR with regulatory tailwinds and event-led access, covering both Abu Dhabi and Dubai press and conferences.',
   alternates: { canonical: `${SITE_URL}/pages/web3-pr-agency-uae` },
   openGraph: {
     title: 'Web3 PR Agency UAE 2026 | Abu Dhabi & Dubai',
-    description: 'UAE-based and UAE-targeted Web3 PR with regulatory tailwinds and event-led access.',
+    description: 'UAE-based and UAE-targeted Web3 PR with regulatory tailwinds and event-led access, covering both Abu Dhabi and Dubai press and conferences.',
     url: `${SITE_URL}/pages/web3-pr-agency-uae`,
     type: 'website',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Web3 PR Agency UAE 2026 | Abu Dhabi & Dubai',
-    description: 'UAE-based and UAE-targeted Web3 PR with regulatory tailwinds and event-led access.',
+    description: 'UAE-based and UAE-targeted Web3 PR with regulatory tailwinds and event-led access, covering both Abu Dhabi and Dubai press and conferences.',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/mena.jpg`,

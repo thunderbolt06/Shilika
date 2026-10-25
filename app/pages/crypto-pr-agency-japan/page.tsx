@@ -7,11 +7,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'Crypto PR Agency Japan 2026 | CryptoTimes JP, CoinPost',
-  description: 'Native Japanese placement and a pitch approach built for how Japanese newsrooms actually work.',
+  description: 'Native Japanese placement and a pitch approach built for how Japanese newsrooms actually work, with CoinPost, CryptoTimes JP and FSA-aware framing.',
   alternates: { canonical: `${SITE_URL}/pages/crypto-pr-agency-japan` },
   openGraph: {
     title: 'Crypto PR Agency Japan 2026 | CryptoTimes JP, CoinPost',
-    description: 'Native Japanese placement and a pitch approach built for how Japanese newsrooms actually work.',
+    description: 'Native Japanese placement and a pitch approach built for how Japanese newsrooms actually work, with CoinPost, CryptoTimes JP and FSA-aware framing.',
     url: `${SITE_URL}/pages/crypto-pr-agency-japan`,
     type: 'website',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Crypto PR Agency Japan 2026 | CryptoTimes JP, CoinPost',
-    description: 'Native Japanese placement and a pitch approach built for how Japanese newsrooms actually work.',
+    description: 'Native Japanese placement and a pitch approach built for how Japanese newsrooms actually work, with CoinPost, CryptoTimes JP and FSA-aware framing.',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/japan.jpg`,

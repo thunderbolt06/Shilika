@@ -7,11 +7,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'Web3 Marketing Agency 2026 | Red Flags',
-  description: 'The questions that expose real depth, the red flags, and how to match model to stage.',
+  description: 'The questions that expose real depth, the red flags, and how to match model to stage when you hire a Web3 marketing agency, from PR to KOL.',
   alternates: { canonical: `${SITE_URL}/pages/web3-marketing-agency` },
   openGraph: {
     title: 'Web3 Marketing Agency 2026 | Red Flags',
-    description: 'The questions that expose real depth, the red flags, and how to match model to stage.',
+    description: 'The questions that expose real depth, the red flags, and how to match model to stage when you hire a Web3 marketing agency, from PR to KOL.',
     url: `${SITE_URL}/pages/web3-marketing-agency`,
     type: 'website',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Web3 Marketing Agency 2026 | Red Flags',
-    description: 'The questions that expose real depth, the red flags, and how to match model to stage.',
+    description: 'The questions that expose real depth, the red flags, and how to match model to stage when you hire a Web3 marketing agency, from PR to KOL.',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/web3.jpg`,

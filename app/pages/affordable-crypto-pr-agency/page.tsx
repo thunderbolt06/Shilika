@@ -7,11 +7,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'Affordable Crypto PR Agency 2026',
-  description: 'What affordable PR really buys, the models that fit a small budget, and the cheap traps to avoid.',
+  description: 'What affordable PR really buys, the models that fit a small budget, and the cheap traps to avoid, from a senior crypto PR operator.',
   alternates: { canonical: `${SITE_URL}/pages/affordable-crypto-pr-agency` },
   openGraph: {
     title: 'Affordable Crypto PR Agency 2026',
-    description: 'What affordable PR really buys, the models that fit a small budget, and the cheap traps to avoid.',
+    description: 'What affordable PR really buys, the models that fit a small budget, and the cheap traps to avoid, from a senior crypto PR operator.',
     url: `${SITE_URL}/pages/affordable-crypto-pr-agency`,
     type: 'website',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Affordable Crypto PR Agency 2026',
-    description: 'What affordable PR really buys, the models that fit a small budget, and the cheap traps to avoid.',
+    description: 'What affordable PR really buys, the models that fit a small budget, and the cheap traps to avoid, from a senior crypto PR operator.',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/web3.jpg`,

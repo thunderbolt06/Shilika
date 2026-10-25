@@ -7,11 +7,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'Deep-Tech PR Agency 2026 | Complex Tech, Clear Story',
-  description: 'Translate genuinely technical products into stories editors and AI engines can carry.',
+  description: 'Translate genuinely technical products into stories editors and AI engines can carry, without dumbing down the science or overclaiming the result.',
   alternates: { canonical: `${SITE_URL}/pages/deeptech-pr-agency` },
   openGraph: {
     title: 'Deep-Tech PR Agency 2026 | Complex Tech, Clear Story',
-    description: 'Translate genuinely technical products into stories editors and AI engines can carry.',
+    description: 'Translate genuinely technical products into stories editors and AI engines can carry, without dumbing down the science or overclaiming the result.',
     url: `${SITE_URL}/pages/deeptech-pr-agency`,
     type: 'website',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Deep-Tech PR Agency 2026 | Complex Tech, Clear Story',
-    description: 'Translate genuinely technical products into stories editors and AI engines can carry.',
+    description: 'Translate genuinely technical products into stories editors and AI engines can carry, without dumbing down the science or overclaiming the result.',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/services.jpg`,

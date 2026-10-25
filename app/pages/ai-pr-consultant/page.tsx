@@ -7,11 +7,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'AI PR Consultant 2026 | Senior, Specialist, Fractional',
-  description: 'A senior AI PR consultant who runs your media strategy directly and gets the technical story right.',
+  description: 'A senior AI PR consultant who runs your media strategy directly and gets the technical story right, from product launch to analyst and press coverage.',
   alternates: { canonical: `${SITE_URL}/pages/ai-pr-consultant` },
   openGraph: {
     title: 'AI PR Consultant 2026 | Senior, Specialist, Fractional',
-    description: 'A senior AI PR consultant who runs your media strategy directly and gets the technical story right.',
+    description: 'A senior AI PR consultant who runs your media strategy directly and gets the technical story right, from product launch to analyst and press coverage.',
     url: `${SITE_URL}/pages/ai-pr-consultant`,
     type: 'website',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'AI PR Consultant 2026 | Senior, Specialist, Fractional',
-    description: 'A senior AI PR consultant who runs your media strategy directly and gets the technical story right.',
+    description: 'A senior AI PR consultant who runs your media strategy directly and gets the technical story right, from product launch to analyst and press coverage.',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/ai.jpg`,

@@ -7,11 +7,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'Crypto Marketing Agency India 2026 | PR, KOL & Growth',
-  description: 'Full-funnel crypto marketing for Indian and India-targeting projects: PR, KOL and community.',
+  description: 'Full-funnel crypto marketing for Indian and India-targeting projects: PR, KOL and community, planned around local media and compliance realities.',
   alternates: { canonical: `${SITE_URL}/pages/crypto-marketing-agency-india` },
   openGraph: {
     title: 'Crypto Marketing Agency India 2026 | PR, KOL & Growth',
-    description: 'Full-funnel crypto marketing for Indian and India-targeting projects: PR, KOL and community.',
+    description: 'Full-funnel crypto marketing for Indian and India-targeting projects: PR, KOL and community, planned around local media and compliance realities.',
     url: `${SITE_URL}/pages/crypto-marketing-agency-india`,
     type: 'website',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Crypto Marketing Agency India 2026 | PR, KOL & Growth',
-    description: 'Full-funnel crypto marketing for Indian and India-targeting projects: PR, KOL and community.',
+    description: 'Full-funnel crypto marketing for Indian and India-targeting projects: PR, KOL and community, planned around local media and compliance realities.',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/india.jpg`,

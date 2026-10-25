@@ -7,11 +7,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'Founder PR Agency 2026 | Profiles, Op-Eds, Speaking',
-  description: 'Profiles, op-eds, podcasts and speaking that make the founder a category voice.',
+  description: 'Profiles, op-eds, podcasts and speaking that make the founder a category voice, with a senior operator pitching and placing every piece personally.',
   alternates: { canonical: `${SITE_URL}/pages/founder-pr-agency` },
   openGraph: {
     title: 'Founder PR Agency 2026 | Profiles, Op-Eds, Speaking',
-    description: 'Profiles, op-eds, podcasts and speaking that make the founder a category voice.',
+    description: 'Profiles, op-eds, podcasts and speaking that make the founder a category voice, with a senior operator pitching and placing every piece personally.',
     url: `${SITE_URL}/pages/founder-pr-agency`,
     type: 'website',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Founder PR Agency 2026 | Profiles, Op-Eds, Speaking',
-    description: 'Profiles, op-eds, podcasts and speaking that make the founder a category voice.',
+    description: 'Profiles, op-eds, podcasts and speaking that make the founder a category voice, with a senior operator pitching and placing every piece personally.',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/founder.jpg`,

@@ -7,11 +7,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'Korea & Japan Crypto PR 2026 | Dual-Market Access',
-  description: 'Coordinated native coverage across the two highest-value, highest-bar APAC crypto markets.',
+  description: 'Coordinated native coverage across the two highest-value, highest-bar APAC crypto markets, Korea and Japan, with local-language pitching and timing.',
   alternates: { canonical: `${SITE_URL}/pages/korea-japan-crypto-pr` },
   openGraph: {
     title: 'Korea & Japan Crypto PR 2026 | Dual-Market Access',
-    description: 'Coordinated native coverage across the two highest-value, highest-bar APAC crypto markets.',
+    description: 'Coordinated native coverage across the two highest-value, highest-bar APAC crypto markets, Korea and Japan, with local-language pitching and timing.',
     url: `${SITE_URL}/pages/korea-japan-crypto-pr`,
     type: 'website',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Korea & Japan Crypto PR 2026 | Dual-Market Access',
-    description: 'Coordinated native coverage across the two highest-value, highest-bar APAC crypto markets.',
+    description: 'Coordinated native coverage across the two highest-value, highest-bar APAC crypto markets, Korea and Japan, with local-language pitching and timing.',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/press.jpg`,

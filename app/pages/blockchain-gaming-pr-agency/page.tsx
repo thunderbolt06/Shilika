@@ -7,11 +7,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'Blockchain Gaming PR Agency 2026 | Dual-Track Comms',
-  description: 'Dual-track PR for gamers and crypto media, with the Bullieverse India launch as the worked example.',
+  description: 'Dual-track PR for gamers and crypto media, with the Bullieverse India launch as the worked example. Built for Web3 studios and game launches.',
   alternates: { canonical: `${SITE_URL}/pages/blockchain-gaming-pr-agency` },
   openGraph: {
     title: 'Blockchain Gaming PR Agency 2026 | Dual-Track Comms',
-    description: 'Dual-track PR for gamers and crypto media, with the Bullieverse India launch as the worked example.',
+    description: 'Dual-track PR for gamers and crypto media, with the Bullieverse India launch as the worked example. Built for Web3 studios and game launches.',
     url: `${SITE_URL}/pages/blockchain-gaming-pr-agency`,
     type: 'website',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Blockchain Gaming PR Agency 2026 | Dual-Track Comms',
-    description: 'Dual-track PR for gamers and crypto media, with the Bullieverse India launch as the worked example.',
+    description: 'Dual-track PR for gamers and crypto media, with the Bullieverse India launch as the worked example. Built for Web3 studios and game launches.',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/web3.jpg`,

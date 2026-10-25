@@ -7,11 +7,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'Fintech AI PR Agency 2026 | Regulated, Credible Comms',
-  description: 'Credibility-led PR for fintech and AI products where trust and regulation shape every message.',
+  description: 'Credibility-led PR for fintech and AI products where trust and regulation shape every message, from careful claims to tier-1 media placement.',
   alternates: { canonical: `${SITE_URL}/pages/fintech-ai-pr-agency` },
   openGraph: {
     title: 'Fintech AI PR Agency 2026 | Regulated, Credible Comms',
-    description: 'Credibility-led PR for fintech and AI products where trust and regulation shape every message.',
+    description: 'Credibility-led PR for fintech and AI products where trust and regulation shape every message, from careful claims to tier-1 media placement.',
     url: `${SITE_URL}/pages/fintech-ai-pr-agency`,
     type: 'website',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Fintech AI PR Agency 2026 | Regulated, Credible Comms',
-    description: 'Credibility-led PR for fintech and AI products where trust and regulation shape every message.',
+    description: 'Credibility-led PR for fintech and AI products where trust and regulation shape every message, from careful claims to tier-1 media placement.',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/ai.jpg`,

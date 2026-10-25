@@ -7,11 +7,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'AI Search Visibility Agency 2026 | Be the Cited Answer',
-  description: 'Make your startup the brand AI engines name when a buyer asks who does what you do.',
+  description: 'Make your startup the brand AI engines name when a buyer asks who does what you do, through earned citations, structured content and clear entities.',
   alternates: { canonical: `${SITE_URL}/pages/ai-search-visibility-agency` },
   openGraph: {
     title: 'AI Search Visibility Agency 2026 | Be the Cited Answer',
-    description: 'Make your startup the brand AI engines name when a buyer asks who does what you do.',
+    description: 'Make your startup the brand AI engines name when a buyer asks who does what you do, through earned citations, structured content and clear entities.',
     url: `${SITE_URL}/pages/ai-search-visibility-agency`,
     type: 'website',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'AI Search Visibility Agency 2026 | Be the Cited Answer',
-    description: 'Make your startup the brand AI engines name when a buyer asks who does what you do.',
+    description: 'Make your startup the brand AI engines name when a buyer asks who does what you do, through earned citations, structured content and clear entities.',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/ai.jpg`,
