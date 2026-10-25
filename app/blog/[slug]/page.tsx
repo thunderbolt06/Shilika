@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Script from 'next/script';
 import { notFound } from 'next/navigation';
-import { getAuthor, getPostBySlug, getRelatedPosts } from '@/lib/blog';
+import { getAuthor, getPostBySlug, getRelatedPosts, listPublishedSlugsForBuild } from '@/lib/blog';
 import { blogSeoTitle } from '@/lib/blog-seo-titles';
 import { extractFaqEntries, faqPageNode, isFaqPost } from '@/lib/faq-schema';
 import { languageAlternates } from '@/lib/i18n/config';
@@ -25,6 +25,10 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const revalidate = 3600;
 export const dynamicParams = true;
+
+export async function generateStaticParams() {
+  return (await listPublishedSlugsForBuild()).map((slug) => ({ slug }));
+}
 
 type Params = Promise<{ slug: string }>;
 
