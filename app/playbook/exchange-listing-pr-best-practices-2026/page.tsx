@@ -7,11 +7,11 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Crypto Exchange Listing Announcement PR: Best Practices for 2026',
+  title: 'Exchange Listing PR Best Practices (2026)',
   description: 'Binance, OKX, Bybit, KuCoin and the rest. The repeatable listing-announcement playbook and the compliance lines you cannot cross.',
   alternates: { canonical: `${SITE_URL}/playbook/exchange-listing-pr-best-practices-2026` },
   openGraph: {
-    title: 'Crypto Exchange Listing Announcement PR: Best Practices for 2026',
+    title: 'Exchange Listing PR Best Practices (2026)',
     description: 'Binance, OKX, Bybit, KuCoin and the rest. The repeatable listing-announcement playbook and the compliance lines you cannot cross.',
     url: `${SITE_URL}/playbook/exchange-listing-pr-best-practices-2026`,
     type: 'article',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Crypto Exchange Listing Announcement PR: Best Practices for 2026',
+    title: 'Exchange Listing PR Best Practices (2026)',
     description: 'Binance, OKX, Bybit, KuCoin and the rest. The repeatable listing-announcement playbook and the compliance lines you cannot cross.',
     images: [
       {

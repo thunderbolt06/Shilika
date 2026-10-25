@@ -6,11 +6,11 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Web3 Infrastructure PR Agency 2026 | Wallets, Oracles, RPCs',
+  title: 'Web3 Infrastructure PR Agency 2026',
   description: 'Make wallets, oracles, RPCs and middleware newsworthy, with the Web3Auth Google Cloud story as the model.',
   alternates: { canonical: `${SITE_URL}/pages/web3-infrastructure-pr-agency` },
   openGraph: {
-    title: 'Web3 Infrastructure PR Agency 2026 | Wallets, Oracles, RPCs',
+    title: 'Web3 Infrastructure PR Agency 2026',
     description: 'Make wallets, oracles, RPCs and middleware newsworthy, with the Web3Auth Google Cloud story as the model.',
     url: `${SITE_URL}/pages/web3-infrastructure-pr-agency`,
     type: 'website',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Web3 Infrastructure PR Agency 2026 | Wallets, Oracles, RPCs',
+    title: 'Web3 Infrastructure PR Agency 2026',
     description: 'Make wallets, oracles, RPCs and middleware newsworthy, with the Web3Auth Google Cloud story as the model.',
     images: [
       {

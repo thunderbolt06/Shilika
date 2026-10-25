@@ -6,11 +6,11 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Crypto Whitepaper Writing Service 2026 | Clear, Credible',
+  title: 'Crypto Whitepaper Writing Service 2026',
   description: 'A whitepaper sprint that turns a technical thesis into a document investors and media actually read.',
   alternates: { canonical: `${SITE_URL}/pages/crypto-whitepaper-writing-service` },
   openGraph: {
-    title: 'Crypto Whitepaper Writing Service 2026 | Clear, Credible',
+    title: 'Crypto Whitepaper Writing Service 2026',
     description: 'A whitepaper sprint that turns a technical thesis into a document investors and media actually read.',
     url: `${SITE_URL}/pages/crypto-whitepaper-writing-service`,
     type: 'website',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Crypto Whitepaper Writing Service 2026 | Clear, Credible',
+    title: 'Crypto Whitepaper Writing Service 2026',
     description: 'A whitepaper sprint that turns a technical thesis into a document investors and media actually read.',
     images: [
       {

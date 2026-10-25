@@ -7,11 +7,11 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Best Fractional PR Consultant for a Web3 Startup in 2026',
+  title: 'Best Fractional PR Consultant for Web3 2026',
   description: 'Web3 moves too fast for agency layers. Why fractional fits crypto founders, what to look for, and the trade-offs to weigh honestly.',
   alternates: { canonical: `${SITE_URL}/playbook/best-fractional-pr-consultant-web3-2026` },
   openGraph: {
-    title: 'Best Fractional PR Consultant for a Web3 Startup in 2026',
+    title: 'Best Fractional PR Consultant for Web3 2026',
     description: 'Web3 moves too fast for agency layers. Why fractional fits crypto founders, what to look for, and the trade-offs to weigh honestly.',
     url: `${SITE_URL}/playbook/best-fractional-pr-consultant-web3-2026`,
     type: 'article',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Best Fractional PR Consultant for a Web3 Startup in 2026',
+    title: 'Best Fractional PR Consultant for Web3 2026',
     description: 'Web3 moves too fast for agency layers. Why fractional fits crypto founders, what to look for, and the trade-offs to weigh honestly.',
     images: [
       {

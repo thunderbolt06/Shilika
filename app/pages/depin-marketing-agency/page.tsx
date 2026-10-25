@@ -6,11 +6,11 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'DePIN Marketing Agency 2026 | Nodes, Network Effects, Press',
+  title: 'DePIN Marketing Agency 2026',
   description: 'A senior operator who turns network growth, node economics and infrastructure milestones into press and investor-grade narrative for DePIN projects.',
   alternates: { canonical: `${SITE_URL}/pages/depin-marketing-agency` },
   openGraph: {
-    title: 'DePIN Marketing Agency 2026 | Nodes, Network Effects, Press',
+    title: 'DePIN Marketing Agency 2026',
     description: 'A senior operator who turns network growth, node economics and infrastructure milestones into press and investor-grade narrative for DePIN projects.',
     url: `${SITE_URL}/pages/depin-marketing-agency`,
     type: 'website',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'DePIN Marketing Agency 2026 | Nodes, Network Effects, Press',
+    title: 'DePIN Marketing Agency 2026',
     description: 'A senior operator who turns network growth, node economics and infrastructure milestones into press and investor-grade narrative for DePIN projects.',
     images: [
       {

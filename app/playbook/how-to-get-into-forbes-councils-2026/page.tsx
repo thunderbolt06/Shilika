@@ -7,11 +7,11 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'How to Get Into a Forbes Council in 2026 (and Whether You Should)',
+  title: 'How to Join a Forbes Council in 2026',
   description: 'Forbes Councils are pay-to-publish, and that changes what they are worth. The honest cost-benefit, the credibility trap, and the alternatives.',
   alternates: { canonical: `${SITE_URL}/playbook/how-to-get-into-forbes-councils-2026` },
   openGraph: {
-    title: 'How to Get Into a Forbes Council in 2026 (and Whether You Should)',
+    title: 'How to Join a Forbes Council in 2026',
     description: 'Forbes Councils are pay-to-publish, and that changes what they are worth. The honest cost-benefit, the credibility trap, and the alternatives.',
     url: `${SITE_URL}/playbook/how-to-get-into-forbes-councils-2026`,
     type: 'article',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'How to Get Into a Forbes Council in 2026 (and Whether You Should)',
+    title: 'How to Join a Forbes Council in 2026',
     description: 'Forbes Councils are pay-to-publish, and that changes what they are worth. The honest cost-benefit, the credibility trap, and the alternatives.',
     images: [
       {

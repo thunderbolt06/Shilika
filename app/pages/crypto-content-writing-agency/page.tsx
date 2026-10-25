@@ -6,11 +6,11 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Crypto Content Writing Agency 2026 | Op-Eds & Whitepapers',
+  title: 'Crypto Content Writing Agency 2026',
   description: 'Founder essays, op-eds and whitepapers structured for human readers and AI search, in the founder\'s own voice.',
   alternates: { canonical: `${SITE_URL}/pages/crypto-content-writing-agency` },
   openGraph: {
-    title: 'Crypto Content Writing Agency 2026 | Op-Eds & Whitepapers',
+    title: 'Crypto Content Writing Agency 2026',
     description: 'Founder essays, op-eds and whitepapers structured for human readers and AI search, in the founder\'s own voice.',
     url: `${SITE_URL}/pages/crypto-content-writing-agency`,
     type: 'website',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Crypto Content Writing Agency 2026 | Op-Eds & Whitepapers',
+    title: 'Crypto Content Writing Agency 2026',
     description: 'Founder essays, op-eds and whitepapers structured for human readers and AI search, in the founder\'s own voice.',
     images: [
       {

@@ -7,12 +7,12 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'The Tier-1 PR Trap: Why Web3 Founders Chase Wrong Outlets',
+  title: 'The Tier-1 PR Trap for Web3 Founders',
   description: 'Why a Forbes mention can be worse than a niche placement, and how to read which publications actually move your roadmap. An 8-minute Web3 PR playbook.',
   
   alternates: { canonical: 'https://www.shilikajain.com/playbook/tier-1-pr-trap' },
   openGraph: {
-    title: 'The Tier-1 PR Trap: Why Web3 Founders Chase Wrong Outlets',
+    title: 'The Tier-1 PR Trap for Web3 Founders',
     description: 'Why a Forbes mention can be worse than a niche placement, and how to read which publications actually move your roadmap.',
     url: 'https://www.shilikajain.com/playbook/tier-1-pr-trap',
     type: 'article',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'The Tier-1 PR Trap: Why Web3 Founders Chase Wrong Outlets',
+    title: 'The Tier-1 PR Trap for Web3 Founders',
     description: 'Why a Forbes mention can be worse than a niche placement, and how to read which publications actually move your roadmap.',
     images: [
       {

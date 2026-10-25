@@ -167,7 +167,7 @@ const ENCODING: Record<Resource['format'], string> = {
 const CARD = ogImage('/resources', SITE_URL);
 
 export const metadata: Metadata = {
-  title: 'Free Marketing & PR Resources for Startups: Templates and Checklists',
+  title: 'Free Marketing & PR Resources for Startups',
   description:
     'Free downloads for Web3, AI and cybersecurity founders: startup marketing checklist, 20-channel playbook, GTM canvas, budget template, press kit, pitch templates and more.',
   alternates: { canonical: `${SITE_URL}/resources` },

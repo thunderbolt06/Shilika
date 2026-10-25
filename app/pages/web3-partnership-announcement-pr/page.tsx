@@ -6,11 +6,11 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Web3 Partnership Announcement PR 2026 | Integrations & Launches',
+  title: 'Web3 Partnership Announcement PR 2026',
   description: 'PR for partnership, integration and feature launches: the news hook, the joint narrative and the outreach that gets picked up.',
   alternates: { canonical: `${SITE_URL}/pages/web3-partnership-announcement-pr` },
   openGraph: {
-    title: 'Web3 Partnership Announcement PR 2026 | Integrations & Launches',
+    title: 'Web3 Partnership Announcement PR 2026',
     description: 'PR for partnership, integration and feature launches: the news hook, the joint narrative and the outreach that gets picked up.',
     url: `${SITE_URL}/pages/web3-partnership-announcement-pr`,
     type: 'website',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Web3 Partnership Announcement PR 2026 | Integrations & Launches',
+    title: 'Web3 Partnership Announcement PR 2026',
     description: 'PR for partnership, integration and feature launches: the news hook, the joint narrative and the outreach that gets picked up.',
     images: [
       {

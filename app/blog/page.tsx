@@ -15,7 +15,7 @@ const CARD = ogImage('/blog', SITE_URL);
 const BAND_PHOTO = 'library';
 
 export const metadata: Metadata = {
-  title: 'Blog - field notes on Web3 PR, AI PR, and embargo strategy',
+  title: 'Blog: Field Notes on Web3 PR and AI PR',
   description:
     'Field notes from inside Web3 and AI PR: embargo strategy, tier-1 placement, APAC localisation, crisis comms, and KOL waves.',
   alternates: { canonical: `${SITE_URL}/blog` },

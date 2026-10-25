@@ -5,7 +5,7 @@ import Script from 'next/script';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 const PAGE_URL = `${SITE_URL}/services/ai-seo/industrial-inbound`;
-const TITLE = 'AI SEO for Manufacturers & Distributors: Industrial Inbound';
+const TITLE = 'AI SEO for Manufacturers & Distributors';
 const OG_DESCRIPTION =
   'Search and AI-answer leads for manufacturers and distributors. Catalog mapped to buyer queries, product and application pages, RFQ capture and tracking.';
 

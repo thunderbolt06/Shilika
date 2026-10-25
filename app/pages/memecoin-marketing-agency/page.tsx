@@ -6,11 +6,11 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Memecoin Marketing Agency 2026 | Community-First, Compliance-Aware',
+  title: 'Memecoin Marketing Agency 2026',
   description: 'Community-first memecoin marketing that still respects disclosure and does not torch long-term credibility.',
   alternates: { canonical: `${SITE_URL}/pages/memecoin-marketing-agency` },
   openGraph: {
-    title: 'Memecoin Marketing Agency 2026 | Community-First, Compliance-Aware',
+    title: 'Memecoin Marketing Agency 2026',
     description: 'Community-first memecoin marketing that still respects disclosure and does not torch long-term credibility.',
     url: `${SITE_URL}/pages/memecoin-marketing-agency`,
     type: 'website',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Memecoin Marketing Agency 2026 | Community-First, Compliance-Aware',
+    title: 'Memecoin Marketing Agency 2026',
     description: 'Community-first memecoin marketing that still respects disclosure and does not torch long-term credibility.',
     images: [
       {

@@ -4,7 +4,7 @@
     {
       "@type": "BlogPosting",
       "@id": "https://www.shilikajain.com/playbook/crypto-crisis-communications-2026#article",
-      "headline": "Crypto Crisis Communications in 2026: Exploits, Hacks and Depegs",
+      "headline": "Crypto Crisis Communications in 2026",
       "alternativeHeadline": "A field guide to running comms through an exploit, hack or depeg, with holding-statement template and trust-rebuild sequence",
       "description": "When a crypto exploit or depeg hits, the first sixty minutes decide the narrative. This 2026 crisis comms playbook covers the holding-statement template, hour-by-hour response timeline, do-and-don't list, media briefing strategy, and the four-step trust-rebuild sequence most protocols skip.",
       "url": "https://www.shilikajain.com/playbook/crypto-crisis-communications-2026",
@@ -82,7 +82,7 @@
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
         { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
-        { "@type": "ListItem", "position": 3, "name": "Crypto Crisis Communications in 2026: Exploits, Hacks and Depegs", "item": "https://www.shilikajain.com/playbook/crypto-crisis-communications-2026" }
+        { "@type": "ListItem", "position": 3, "name": "Crypto Crisis Communications in 2026", "item": "https://www.shilikajain.com/playbook/crypto-crisis-communications-2026" }
       ]
     },
     {

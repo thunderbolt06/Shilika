@@ -13,7 +13,7 @@ const DESCRIPTION =
 
 export const metadata = toolMetadata({
   path: PATH,
-  title: 'AI Startup GTM Planner: Free 90-Day Go-to-Market Plan Tool',
+  title: 'Free AI Startup GTM Planner: 90-Day Plan',
   description: DESCRIPTION,
   ogTitle: NAME,
 });

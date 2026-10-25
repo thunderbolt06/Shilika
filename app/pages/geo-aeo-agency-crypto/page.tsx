@@ -6,11 +6,11 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'GEO & AEO Agency 2026 | Get Cited by ChatGPT & Perplexity',
+  title: 'GEO & AEO Agency 2026 | Get Cited by AI',
   description: 'Earned media, entity and content work so ChatGPT, Perplexity and Google AI Mode name your brand in the answer.',
   alternates: { canonical: `${SITE_URL}/pages/geo-aeo-agency-crypto` },
   openGraph: {
-    title: 'GEO & AEO Agency 2026 | Get Cited by ChatGPT & Perplexity',
+    title: 'GEO & AEO Agency 2026 | Get Cited by AI',
     description: 'Earned media, entity and content work so ChatGPT, Perplexity and Google AI Mode name your brand in the answer.',
     url: `${SITE_URL}/pages/geo-aeo-agency-crypto`,
     type: 'website',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'GEO & AEO Agency 2026 | Get Cited by ChatGPT & Perplexity',
+    title: 'GEO & AEO Agency 2026 | Get Cited by AI',
     description: 'Earned media, entity and content work so ChatGPT, Perplexity and Google AI Mode name your brand in the answer.',
     images: [
       {

@@ -7,11 +7,11 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Top Crypto Marketing Agencies in 2026: How to Compare Them',
+  title: 'Top Crypto Marketing Agencies in 2026',
   description: 'Marketing, PR, KOL and growth get lumped together and shouldn\'t be. A map of the field and how to choose by what you actually need.',
   alternates: { canonical: `${SITE_URL}/playbook/top-crypto-marketing-agencies-2026` },
   openGraph: {
-    title: 'Top Crypto Marketing Agencies in 2026: How to Compare Them',
+    title: 'Top Crypto Marketing Agencies in 2026',
     description: 'Marketing, PR, KOL and growth get lumped together and shouldn\'t be. A map of the field and how to choose by what you actually need.',
     url: `${SITE_URL}/playbook/top-crypto-marketing-agencies-2026`,
     type: 'article',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Top Crypto Marketing Agencies in 2026: How to Compare Them',
+    title: 'Top Crypto Marketing Agencies in 2026',
     description: 'Marketing, PR, KOL and growth get lumped together and shouldn\'t be. A map of the field and how to choose by what you actually need.',
     images: [
       {

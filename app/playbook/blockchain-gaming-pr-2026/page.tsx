@@ -7,11 +7,11 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Blockchain Gaming PR in 2026: How to Promote a Web3 Game',
+  title: 'Blockchain Gaming PR in 2026: A Playbook',
   description: 'Web3 games have two audiences who hate each other\'s language. How to run dual-track PR for gamers and crypto media without alienating either.',
   alternates: { canonical: `${SITE_URL}/playbook/blockchain-gaming-pr-2026` },
   openGraph: {
-    title: 'Blockchain Gaming PR in 2026: How to Promote a Web3 Game',
+    title: 'Blockchain Gaming PR in 2026: A Playbook',
     description: 'Web3 games have two audiences who hate each other\'s language. How to run dual-track PR for gamers and crypto media without alienating either.',
     url: `${SITE_URL}/playbook/blockchain-gaming-pr-2026`,
     type: 'article',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Blockchain Gaming PR in 2026: How to Promote a Web3 Game',
+    title: 'Blockchain Gaming PR in 2026: A Playbook',
     description: 'Web3 games have two audiences who hate each other\'s language. How to run dual-track PR for gamers and crypto media without alienating either.',
     images: [
       {

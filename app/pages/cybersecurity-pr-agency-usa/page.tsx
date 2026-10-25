@@ -6,11 +6,11 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Cybersecurity PR Agency USA 2026 | Security Press & Analysts',
+  title: 'Cybersecurity PR Agency USA 2026',
   description: 'US security press and analyst access from a senior operator, for less than a Series B agency retainer.',
   alternates: { canonical: `${SITE_URL}/pages/cybersecurity-pr-agency-usa` },
   openGraph: {
-    title: 'Cybersecurity PR Agency USA 2026 | Security Press & Analysts',
+    title: 'Cybersecurity PR Agency USA 2026',
     description: 'US security press and analyst access from a senior operator, for less than a Series B agency retainer.',
     url: `${SITE_URL}/pages/cybersecurity-pr-agency-usa`,
     type: 'website',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Cybersecurity PR Agency USA 2026 | Security Press & Analysts',
+    title: 'Cybersecurity PR Agency USA 2026',
     description: 'US security press and analyst access from a senior operator, for less than a Series B agency retainer.',
     images: [
       {

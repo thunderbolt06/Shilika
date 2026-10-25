@@ -4,7 +4,7 @@
     {
       "@type": "BlogPosting",
       "@id": "https://www.shilikajain.com/playbook/exchange-listing-pr-best-practices-2026#article",
-      "headline": "Crypto Exchange Listing Announcement PR: Best Practices for 2026",
+      "headline": "Exchange Listing PR Best Practices (2026)",
       "alternativeHeadline": "The multi-exchange listing comms framework, no-price-projection rules, and regional translation playbook for 2026",
       "description": "A repeatable crypto PR framework for exchange listing announcements covering Binance, OKX, Bybit and KuCoin. Includes the no-price-projection compliance rules, how to sequence a tier-1 exclusive with regional APAC and MENA distribution, KOL activation tiers, and the 72-hour window playbook.",
       "url": "https://www.shilikajain.com/playbook/exchange-listing-pr-best-practices-2026",
@@ -86,7 +86,7 @@
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
         { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
-        { "@type": "ListItem", "position": 3, "name": "Crypto Exchange Listing Announcement PR: Best Practices for 2026", "item": "https://www.shilikajain.com/playbook/exchange-listing-pr-best-practices-2026" }
+        { "@type": "ListItem", "position": 3, "name": "Exchange Listing PR Best Practices (2026)", "item": "https://www.shilikajain.com/playbook/exchange-listing-pr-best-practices-2026" }
       ]
     },
     {

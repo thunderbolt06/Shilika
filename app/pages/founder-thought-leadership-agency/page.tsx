@@ -6,11 +6,11 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Founder Thought Leadership Agency 2026 | Earned Authority',
+  title: 'Founder Thought Leadership Agency 2026',
   description: 'The cadence, channels and author-entity build that turn a founder into a cited authority, not a LinkedIn poster.',
   alternates: { canonical: `${SITE_URL}/pages/founder-thought-leadership-agency` },
   openGraph: {
-    title: 'Founder Thought Leadership Agency 2026 | Earned Authority',
+    title: 'Founder Thought Leadership Agency 2026',
     description: 'The cadence, channels and author-entity build that turn a founder into a cited authority, not a LinkedIn poster.',
     url: `${SITE_URL}/pages/founder-thought-leadership-agency`,
     type: 'website',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Founder Thought Leadership Agency 2026 | Earned Authority',
+    title: 'Founder Thought Leadership Agency 2026',
     description: 'The cadence, channels and author-entity build that turn a founder into a cited authority, not a LinkedIn poster.',
     images: [
       {

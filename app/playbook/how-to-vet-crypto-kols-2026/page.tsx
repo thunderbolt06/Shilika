@@ -7,11 +7,11 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'How to Vet Crypto KOLs in 2026 (and Spot Fake Engagement)',
+  title: 'How to Vet Crypto KOLs in 2026',
   description: 'Most KOL spend is wasted on bought audiences. The independent-audit checklist that catches bots, fake reach and dead engagement before you sign.',
   alternates: { canonical: `${SITE_URL}/playbook/how-to-vet-crypto-kols-2026` },
   openGraph: {
-    title: 'How to Vet Crypto KOLs in 2026 (and Spot Fake Engagement)',
+    title: 'How to Vet Crypto KOLs in 2026',
     description: 'Most KOL spend is wasted on bought audiences. The independent-audit checklist that catches bots, fake reach and dead engagement before you sign.',
     url: `${SITE_URL}/playbook/how-to-vet-crypto-kols-2026`,
     type: 'article',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'How to Vet Crypto KOLs in 2026 (and Spot Fake Engagement)',
+    title: 'How to Vet Crypto KOLs in 2026',
     description: 'Most KOL spend is wasted on bought audiences. The independent-audit checklist that catches bots, fake reach and dead engagement before you sign.',
     images: [
       {

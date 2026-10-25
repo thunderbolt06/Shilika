@@ -6,11 +6,11 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'RWA & Tokenization PR Agency 2026 | Institutional Credibility',
+  title: 'RWA & Tokenization PR Agency 2026',
   description: 'Coverage that institutions and crypto media both take seriously, with the MANTRA $11M Middle East RWA story behind it.',
   alternates: { canonical: `${SITE_URL}/pages/rwa-tokenization-pr-agency` },
   openGraph: {
-    title: 'RWA & Tokenization PR Agency 2026 | Institutional Credibility',
+    title: 'RWA & Tokenization PR Agency 2026',
     description: 'Coverage that institutions and crypto media both take seriously, with the MANTRA $11M Middle East RWA story behind it.',
     url: `${SITE_URL}/pages/rwa-tokenization-pr-agency`,
     type: 'website',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'RWA & Tokenization PR Agency 2026 | Institutional Credibility',
+    title: 'RWA & Tokenization PR Agency 2026',
     description: 'Coverage that institutions and crypto media both take seriously, with the MANTRA $11M Middle East RWA story behind it.',
     images: [
       {

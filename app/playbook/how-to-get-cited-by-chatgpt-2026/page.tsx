@@ -7,11 +7,11 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'How to Get Your Brand Cited by ChatGPT and Perplexity in 2026',
+  title: 'How to Get Cited by ChatGPT in 2026',
   description: 'Citations come from trust signals AI engines can extract. The concrete tactics that turn earned coverage into answer-engine mentions.',
   alternates: { canonical: `${SITE_URL}/playbook/how-to-get-cited-by-chatgpt-2026` },
   openGraph: {
-    title: 'How to Get Your Brand Cited by ChatGPT and Perplexity in 2026',
+    title: 'How to Get Cited by ChatGPT in 2026',
     description: 'Citations come from trust signals AI engines can extract. The concrete tactics that turn earned coverage into answer-engine mentions.',
     url: `${SITE_URL}/playbook/how-to-get-cited-by-chatgpt-2026`,
     type: 'article',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'How to Get Your Brand Cited by ChatGPT and Perplexity in 2026',
+    title: 'How to Get Cited by ChatGPT in 2026',
     description: 'Citations come from trust signals AI engines can extract. The concrete tactics that turn earned coverage into answer-engine mentions.',
     images: [
       {

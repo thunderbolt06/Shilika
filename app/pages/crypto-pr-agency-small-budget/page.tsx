@@ -6,11 +6,11 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Crypto PR Agency Small Budget 2026 | High-Leverage Moves',
+  title: 'Crypto PR Agency Small Budget 2026',
   description: 'The high-leverage PR moves a lean team can run, and where to spend the first dollar.',
   alternates: { canonical: `${SITE_URL}/pages/crypto-pr-agency-small-budget` },
   openGraph: {
-    title: 'Crypto PR Agency Small Budget 2026 | High-Leverage Moves',
+    title: 'Crypto PR Agency Small Budget 2026',
     description: 'The high-leverage PR moves a lean team can run, and where to spend the first dollar.',
     url: `${SITE_URL}/pages/crypto-pr-agency-small-budget`,
     type: 'website',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Crypto PR Agency Small Budget 2026 | High-Leverage Moves',
+    title: 'Crypto PR Agency Small Budget 2026',
     description: 'The high-leverage PR moves a lean team can run, and where to spend the first dollar.',
     images: [
       {

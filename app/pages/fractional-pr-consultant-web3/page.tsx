@@ -6,11 +6,11 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Fractional PR Consultant Web3 2026 | Crypto-Native Senior',
+  title: 'Fractional PR Consultant Web3 2026',
   description: 'Web3 moves too fast for agency layers. A senior fractional operator who runs your PR directly.',
   alternates: { canonical: `${SITE_URL}/pages/fractional-pr-consultant-web3` },
   openGraph: {
-    title: 'Fractional PR Consultant Web3 2026 | Crypto-Native Senior',
+    title: 'Fractional PR Consultant Web3 2026',
     description: 'Web3 moves too fast for agency layers. A senior fractional operator who runs your PR directly.',
     url: `${SITE_URL}/pages/fractional-pr-consultant-web3`,
     type: 'website',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Fractional PR Consultant Web3 2026 | Crypto-Native Senior',
+    title: 'Fractional PR Consultant Web3 2026',
     description: 'Web3 moves too fast for agency layers. A senior fractional operator who runs your PR directly.',
     images: [
       {

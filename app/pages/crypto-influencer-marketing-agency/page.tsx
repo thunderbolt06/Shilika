@@ -6,11 +6,11 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Crypto Influencer Marketing Agency 2026 | Cost-Per-Wallet',
+  title: 'Crypto Influencer Marketing Agency 2026',
   description: 'Influencer campaigns measured on cost-per-wallet and on-chain attribution, not vanity reach.',
   alternates: { canonical: `${SITE_URL}/pages/crypto-influencer-marketing-agency` },
   openGraph: {
-    title: 'Crypto Influencer Marketing Agency 2026 | Cost-Per-Wallet',
+    title: 'Crypto Influencer Marketing Agency 2026',
     description: 'Influencer campaigns measured on cost-per-wallet and on-chain attribution, not vanity reach.',
     url: `${SITE_URL}/pages/crypto-influencer-marketing-agency`,
     type: 'website',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Crypto Influencer Marketing Agency 2026 | Cost-Per-Wallet',
+    title: 'Crypto Influencer Marketing Agency 2026',
     description: 'Influencer campaigns measured on cost-per-wallet and on-chain attribution, not vanity reach.',
     images: [
       {

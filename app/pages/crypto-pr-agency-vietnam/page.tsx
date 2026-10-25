@@ -6,11 +6,11 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Crypto PR Agency Vietnam 2026 | High-Adoption SEA Market',
+  title: 'Crypto PR Agency Vietnam 2026',
   description: 'Reach one of the highest crypto-adoption markets on earth with native media and community access.',
   alternates: { canonical: `${SITE_URL}/pages/crypto-pr-agency-vietnam` },
   openGraph: {
-    title: 'Crypto PR Agency Vietnam 2026 | High-Adoption SEA Market',
+    title: 'Crypto PR Agency Vietnam 2026',
     description: 'Reach one of the highest crypto-adoption markets on earth with native media and community access.',
     url: `${SITE_URL}/pages/crypto-pr-agency-vietnam`,
     type: 'website',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Crypto PR Agency Vietnam 2026 | High-Adoption SEA Market',
+    title: 'Crypto PR Agency Vietnam 2026',
     description: 'Reach one of the highest crypto-adoption markets on earth with native media and community access.',
     images: [
       {

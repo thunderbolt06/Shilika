@@ -6,11 +6,11 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Crypto Telegram Marketing Agency 2026 | Community Seeding',
+  title: 'Crypto Telegram Marketing Agency 2026',
   description: 'Community seeding, AMA scheduling and moderation that turns a channel into a real audience.',
   alternates: { canonical: `${SITE_URL}/pages/telegram-marketing-agency-crypto` },
   openGraph: {
-    title: 'Crypto Telegram Marketing Agency 2026 | Community Seeding',
+    title: 'Crypto Telegram Marketing Agency 2026',
     description: 'Community seeding, AMA scheduling and moderation that turns a channel into a real audience.',
     url: `${SITE_URL}/pages/telegram-marketing-agency-crypto`,
     type: 'website',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Crypto Telegram Marketing Agency 2026 | Community Seeding',
+    title: 'Crypto Telegram Marketing Agency 2026',
     description: 'Community seeding, AMA scheduling and moderation that turns a channel into a real audience.',
     images: [
       {

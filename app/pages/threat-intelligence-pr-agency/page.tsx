@@ -6,11 +6,11 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Threat Intelligence PR Agency 2026 | Research Amplification',
+  title: 'Threat Intelligence PR Agency 2026',
   description: 'Package and place threat-intel findings for maximum credible reach, with coordinated disclosure.',
   alternates: { canonical: `${SITE_URL}/pages/threat-intelligence-pr-agency` },
   openGraph: {
-    title: 'Threat Intelligence PR Agency 2026 | Research Amplification',
+    title: 'Threat Intelligence PR Agency 2026',
     description: 'Package and place threat-intel findings for maximum credible reach, with coordinated disclosure.',
     url: `${SITE_URL}/pages/threat-intelligence-pr-agency`,
     type: 'website',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Threat Intelligence PR Agency 2026 | Research Amplification',
+    title: 'Threat Intelligence PR Agency 2026',
     description: 'Package and place threat-intel findings for maximum credible reach, with coordinated disclosure.',
     images: [
       {

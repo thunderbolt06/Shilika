@@ -6,11 +6,11 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Crypto PR Agency Singapore 2026 | Token2049 & SEA Access',
+  title: 'Crypto PR Agency Singapore 2026',
   description: 'Singapore and SEA media plus Token2049 event leverage, from an operator with native APAC access.',
   alternates: { canonical: `${SITE_URL}/pages/crypto-pr-agency-singapore` },
   openGraph: {
-    title: 'Crypto PR Agency Singapore 2026 | Token2049 & SEA Access',
+    title: 'Crypto PR Agency Singapore 2026',
     description: 'Singapore and SEA media plus Token2049 event leverage, from an operator with native APAC access.',
     url: `${SITE_URL}/pages/crypto-pr-agency-singapore`,
     type: 'website',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Crypto PR Agency Singapore 2026 | Token2049 & SEA Access',
+    title: 'Crypto PR Agency Singapore 2026',
     description: 'Singapore and SEA media plus Token2049 event leverage, from an operator with native APAC access.',
     images: [
       {

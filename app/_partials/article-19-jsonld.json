@@ -4,7 +4,7 @@
     {
       "@type": "BlogPosting",
       "@id": "https://www.shilikajain.com/playbook/crypto-press-release-distribution-2026#article",
-      "headline": "Crypto Press Release Distribution in 2026: What Actually Works",
+      "headline": "Crypto Press Release Distribution in 2026",
       "alternativeHeadline": "Wires, crypto-native PR networks, and direct pitching compared: where distribution earns real pickup and where it is theatre",
       "description": "A practical 2026 breakdown of crypto press release distribution channels: global wires, crypto-native networks, regional PR platforms, and direct pitching to named reporters. Covers when each channel earns genuine editorial coverage versus automated syndication, real cost ranges, and the sequencing strategy used on launches that produced tier-1 placements at CoinDesk, Cointelegraph, Forbes and Decrypt.",
       "url": "https://www.shilikajain.com/playbook/crypto-press-release-distribution-2026",
@@ -86,7 +86,7 @@
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
         { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
-        { "@type": "ListItem", "position": 3, "name": "Crypto Press Release Distribution in 2026: What Actually Works", "item": "https://www.shilikajain.com/playbook/crypto-press-release-distribution-2026" }
+        { "@type": "ListItem", "position": 3, "name": "Crypto Press Release Distribution in 2026", "item": "https://www.shilikajain.com/playbook/crypto-press-release-distribution-2026" }
       ]
     },
     {

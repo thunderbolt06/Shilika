@@ -7,11 +7,11 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Fractional CMO for a Web3 Startup in 2026: When It Makes Sense',
+  title: 'Fractional CMO for Web3 Startups in 2026',
   description: 'A fractional CMO owns the whole growth function, not just PR. When a Web3 startup needs one, when it needs fractional PR instead, and the overlap.',
   alternates: { canonical: `${SITE_URL}/playbook/fractional-cmo-web3-2026` },
   openGraph: {
-    title: 'Fractional CMO for a Web3 Startup in 2026: When It Makes Sense',
+    title: 'Fractional CMO for Web3 Startups in 2026',
     description: 'A fractional CMO owns the whole growth function, not just PR. When a Web3 startup needs one, when it needs fractional PR instead, and the overlap.',
     url: `${SITE_URL}/playbook/fractional-cmo-web3-2026`,
     type: 'article',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Fractional CMO for a Web3 Startup in 2026: When It Makes Sense',
+    title: 'Fractional CMO for Web3 Startups in 2026',
     description: 'A fractional CMO owns the whole growth function, not just PR. When a Web3 startup needs one, when it needs fractional PR instead, and the overlap.',
     images: [
       {

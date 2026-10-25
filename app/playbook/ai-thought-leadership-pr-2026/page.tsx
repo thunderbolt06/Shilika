@@ -7,11 +7,11 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'AI Thought Leadership in 2026: Executive Positioning That Works',
+  title: 'AI Thought Leadership PR in 2026',
   description: 'In AI, credibility is the whole game. How to position a technical founder as a category authority across op-eds, podcasts and analyst rooms.',
   alternates: { canonical: `${SITE_URL}/playbook/ai-thought-leadership-pr-2026` },
   openGraph: {
-    title: 'AI Thought Leadership in 2026: Executive Positioning That Works',
+    title: 'AI Thought Leadership PR in 2026',
     description: 'In AI, credibility is the whole game. How to position a technical founder as a category authority across op-eds, podcasts and analyst rooms.',
     url: `${SITE_URL}/playbook/ai-thought-leadership-pr-2026`,
     type: 'article',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'AI Thought Leadership in 2026: Executive Positioning That Works',
+    title: 'AI Thought Leadership PR in 2026',
     description: 'In AI, credibility is the whole game. How to position a technical founder as a category authority across op-eds, podcasts and analyst rooms.',
     images: [
       {

@@ -7,11 +7,11 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Crypto Publicist vs PR Agency in 2026: Which Do You Need?',
+  title: 'Crypto Publicist vs PR Agency in 2026',
   description: 'A solo publicist gives you senior attention; an agency gives you bench. The honest trade-offs and which fits your stage and budget.',
   alternates: { canonical: `${SITE_URL}/playbook/crypto-publicist-vs-agency-2026` },
   openGraph: {
-    title: 'Crypto Publicist vs PR Agency in 2026: Which Do You Need?',
+    title: 'Crypto Publicist vs PR Agency in 2026',
     description: 'A solo publicist gives you senior attention; an agency gives you bench. The honest trade-offs and which fits your stage and budget.',
     url: `${SITE_URL}/playbook/crypto-publicist-vs-agency-2026`,
     type: 'article',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Crypto Publicist vs PR Agency in 2026: Which Do You Need?',
+    title: 'Crypto Publicist vs PR Agency in 2026',
     description: 'A solo publicist gives you senior attention; an agency gives you bench. The honest trade-offs and which fits your stage and budget.',
     images: [
       {

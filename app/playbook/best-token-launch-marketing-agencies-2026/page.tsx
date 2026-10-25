@@ -8,11 +8,11 @@ import { languageAlternates } from '@/lib/i18n/config';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Best Token Launch Marketing Agencies in 2026: a Field Guide',
+  title: 'Best Token Launch Marketing Agencies 2026',
   description: 'A criteria-led look at token-launch and TGE agencies, the trade-offs of each model, and a fractional-operator alternative.',
   alternates: { canonical: `${SITE_URL}/playbook/best-token-launch-marketing-agencies-2026`, languages: languageAlternates('/playbook/best-token-launch-marketing-agencies-2026') },
   openGraph: {
-    title: 'Best Token Launch Marketing Agencies in 2026: a Field Guide',
+    title: 'Best Token Launch Marketing Agencies 2026',
     description: 'A criteria-led look at token-launch and TGE agencies, the trade-offs of each model, and a fractional-operator alternative.',
     url: `${SITE_URL}/playbook/best-token-launch-marketing-agencies-2026`,
     type: 'article',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Best Token Launch Marketing Agencies in 2026: a Field Guide',
+    title: 'Best Token Launch Marketing Agencies 2026',
     description: 'A criteria-led look at token-launch and TGE agencies, the trade-offs of each model, and a fractional-operator alternative.',
     images: [
       {

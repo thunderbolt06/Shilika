@@ -7,11 +7,11 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Crypto Media Relations in 2026: Building Real Journalist Relationships',
+  title: 'Crypto Media Relations Guide for 2026',
   description: 'Coverage is a relationship, not a transaction. How to build a real journalist network, what to never do, and how trust compounds.',
   alternates: { canonical: `${SITE_URL}/playbook/crypto-media-relations-guide-2026` },
   openGraph: {
-    title: 'Crypto Media Relations in 2026: Building Real Journalist Relationships',
+    title: 'Crypto Media Relations Guide for 2026',
     description: 'Coverage is a relationship, not a transaction. How to build a real journalist network, what to never do, and how trust compounds.',
     url: `${SITE_URL}/playbook/crypto-media-relations-guide-2026`,
     type: 'article',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Crypto Media Relations in 2026: Building Real Journalist Relationships',
+    title: 'Crypto Media Relations Guide for 2026',
     description: 'Coverage is a relationship, not a transaction. How to build a real journalist network, what to never do, and how trust compounds.',
     images: [
       {

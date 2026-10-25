@@ -6,7 +6,7 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'RARI Chain Mainnet Case Study: 11 Tier-1 Placements in 24h',
+  title: 'RARI Chain Case Study: 11 Tier-1 Placements',
   description: 'How Shilika Jain ran RARI Chain mainnet on Arbitrum: 11 Tier-1 placements, 9-day CoinDesk embargo, NFT royalty enforcement as the category angle.',
   
   alternates: { canonical: 'https://www.shilikajain.com/work/rari-chain' },

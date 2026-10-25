@@ -6,11 +6,11 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Crypto PR Agency for Startups 2026 | Lean, Senior, Effective',
+  title: 'Crypto PR Agency for Startups 2026',
   description: 'PR that fits an early startup: when to start, what to spend, and what actually earns coverage.',
   alternates: { canonical: `${SITE_URL}/pages/crypto-pr-agency-for-startups` },
   openGraph: {
-    title: 'Crypto PR Agency for Startups 2026 | Lean, Senior, Effective',
+    title: 'Crypto PR Agency for Startups 2026',
     description: 'PR that fits an early startup: when to start, what to spend, and what actually earns coverage.',
     url: `${SITE_URL}/pages/crypto-pr-agency-for-startups`,
     type: 'website',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Crypto PR Agency for Startups 2026 | Lean, Senior, Effective',
+    title: 'Crypto PR Agency for Startups 2026',
     description: 'PR that fits an early startup: when to start, what to spend, and what actually earns coverage.',
     images: [
       {

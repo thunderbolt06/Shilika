@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Cybersecurity PR in 2026: Analyst Relations + AI Citations',
+  title: 'Cybersecurity PR in 2026: Analyst Relations',
   description:
     'A 12-minute cybersecurity PR playbook. Gartner and Forrester cadence, threat-research news engines, named security desks, AI Mode citation tactics for vendors.',
   alternates: { canonical: `${SITE_URL}/playbook/cybersecurity-pr-2026` },

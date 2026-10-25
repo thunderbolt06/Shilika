@@ -6,11 +6,11 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Best Crypto PR Agency 2026 | Honest Criteria & Alternative',
+  title: 'Best Crypto PR Agency 2026 | Honest Criteria',
   description: 'What separates real access from a logo wall, and why a senior fractional operator beats most agencies.',
   alternates: { canonical: `${SITE_URL}/pages/best-crypto-pr-agency` },
   openGraph: {
-    title: 'Best Crypto PR Agency 2026 | Honest Criteria & Alternative',
+    title: 'Best Crypto PR Agency 2026 | Honest Criteria',
     description: 'What separates real access from a logo wall, and why a senior fractional operator beats most agencies.',
     url: `${SITE_URL}/pages/best-crypto-pr-agency`,
     type: 'website',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Best Crypto PR Agency 2026 | Honest Criteria & Alternative',
+    title: 'Best Crypto PR Agency 2026 | Honest Criteria',
     description: 'What separates real access from a logo wall, and why a senior fractional operator beats most agencies.',
     images: [
       {

@@ -7,11 +7,11 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Cybersecurity Analyst Relations in 2026: Gartner, Forrester and IDC',
+  title: 'Cybersecurity Analyst Relations in 2026',
   description: 'Analysts shape the shortlist before press ever runs. The briefing cadence, the Magic Quadrant and Wave reality, and how vendors earn inclusion.',
   alternates: { canonical: `${SITE_URL}/playbook/cybersecurity-analyst-relations-2026` },
   openGraph: {
-    title: 'Cybersecurity Analyst Relations in 2026: Gartner, Forrester and IDC',
+    title: 'Cybersecurity Analyst Relations in 2026',
     description: 'Analysts shape the shortlist before press ever runs. The briefing cadence, the Magic Quadrant and Wave reality, and how vendors earn inclusion.',
     url: `${SITE_URL}/playbook/cybersecurity-analyst-relations-2026`,
     type: 'article',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Cybersecurity Analyst Relations in 2026: Gartner, Forrester and IDC',
+    title: 'Cybersecurity Analyst Relations in 2026',
     description: 'Analysts shape the shortlist before press ever runs. The briefing cadence, the Magic Quadrant and Wave reality, and how vendors earn inclusion.',
     images: [
       {
