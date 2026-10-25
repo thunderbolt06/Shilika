@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { EditorialScripts } from '@/components/site/EditorialScripts';
 import { EditorialShell } from '@/components/site/EditorialChrome';
 import ToolIndex, { type IndexGroup } from './_components/free/ToolIndex';
-import { JsonLd } from './_components/ToolSections';
+import { JsonLdScript } from '@/components/site/JsonLdScript';
 import { FREE_TOOLS, GROUPS } from './_data/free';
 import { SITE_URL } from './_lib/seo';
 import { PhotoBand } from '@/components/site/Media';
@@ -82,15 +82,19 @@ function buildJsonLd() {
         name: TITLE,
         description: DESCRIPTION,
         inLanguage: 'en',
-        mainEntity: {
-          '@type': 'ItemList',
-          itemListElement: all.map((t, i) => ({
-            '@type': 'ListItem',
-            position: i + 1,
-            url: `${SITE_URL}${t.href}`,
-            name: t.name,
-          })),
-        },
+        mainEntity: { '@id': `${SITE_URL}/tools#list` },
+      },
+      {
+        '@type': 'ItemList',
+        '@id': `${SITE_URL}/tools#list`,
+        name: 'Free marketing tools',
+        numberOfItems: all.length,
+        itemListElement: all.map((t, i) => ({
+          '@type': 'ListItem',
+          position: i + 1,
+          url: `${SITE_URL}${t.href}`,
+          name: t.name,
+        })),
       },
       {
         '@type': 'BreadcrumbList',
@@ -106,7 +110,7 @@ function buildJsonLd() {
 export default function ToolsIndexPage() {
   return (
     <>
-      <JsonLd id="tools-collection-jsonld" data={buildJsonLd()} />
+      <JsonLdScript id="tools-collection-jsonld" data={buildJsonLd()} />
       <EditorialShell active="playbook">
         <main className="blog-page tool-page ft-page">
           <div className="blog-page-inner">

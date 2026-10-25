@@ -1,9 +1,9 @@
 import 'server-only';
-import { getAdminSupabase, getServerSupabase } from './supabase/server';
+import { getAdminSupabase, getPublicSupabase } from './supabase/server';
 import type { Author, BlogPost } from './supabase/types';
 
 export async function listPublishedPosts(): Promise<BlogPost[]> {
-  const supabase = await getServerSupabase();
+  const supabase = getPublicSupabase();
   const { data, error } = await supabase
     .from('blog_posts')
     .select('*')
@@ -14,7 +14,7 @@ export async function listPublishedPosts(): Promise<BlogPost[]> {
 }
 
 export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
-  const supabase = await getServerSupabase();
+  const supabase = getPublicSupabase();
   const { data, error } = await supabase
     .from('blog_posts')
     .select('*')
@@ -27,7 +27,7 @@ export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
 
 export async function getRelatedPosts(slugs: string[]): Promise<BlogPost[]> {
   if (!slugs.length) return [];
-  const supabase = await getServerSupabase();
+  const supabase = getPublicSupabase();
   const { data, error } = await supabase
     .from('blog_posts')
     .select('*')
@@ -39,7 +39,7 @@ export async function getRelatedPosts(slugs: string[]): Promise<BlogPost[]> {
 
 export async function getAuthor(slug: string | null): Promise<Author | null> {
   if (!slug) return null;
-  const supabase = await getServerSupabase();
+  const supabase = getPublicSupabase();
   const { data, error } = await supabase
     .from('authors')
     .select('*')
@@ -57,4 +57,14 @@ export async function listAllPublishedSlugs(): Promise<{ slug: string; updated_a
     .eq('published', true);
   if (error) throw error;
   return (data ?? []) as { slug: string; updated_at: string }[];
+}
+
+/** Slugs for build-time prerendering. Never throws: a Supabase hiccup at build must not fail the deploy. */
+export async function listPublishedSlugsForBuild(): Promise<string[]> {
+  try {
+    const { data } = await getPublicSupabase().from('blog_posts').select('slug').eq('published', true);
+    return (data ?? []).map((r: { slug: string }) => r.slug);
+  } catch {
+    return [];
+  }
 }

@@ -4,7 +4,7 @@ import Script from 'next/script';
 import { notFound } from 'next/navigation';
 import { BlogFooter, BlogHeader } from '@/components/blog/BlogChrome';
 import { getAuthor } from '@/lib/blog';
-import { getServerSupabase } from '@/lib/supabase/server';
+import { getPublicSupabase } from '@/lib/supabase/server';
 import type { BlogPost } from '@/lib/supabase/types';
 import { Photo } from '@/components/site/Media';
 import { ogImage } from '@/lib/i18n/og';
@@ -13,6 +13,10 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const revalidate = 3600;
 export const dynamicParams = true;
+
+export function generateStaticParams() {
+  return [{ slug: 'shilika-jain' }];
+}
 
 type Params = Promise<{ slug: string }>;
 
@@ -57,7 +61,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
 
 async function listPostsByAuthor(slug: string): Promise<BlogPost[]> {
   try {
-    const supabase = await getServerSupabase();
+    const supabase = getPublicSupabase();
     const { data } = await supabase
       .from('blog_posts')
       .select('*')

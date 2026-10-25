@@ -73,6 +73,8 @@ function splitBlocks(md: string): Block[] {
   return blocks;
 }
 
+const H1_BLOCK = /^#\s+\S[^\n]*$/;
+
 async function renderBlock(block: Block): Promise<string> {
   if (block.startsWith('```')) {
     const newline = block.indexOf('\n');
@@ -91,7 +93,8 @@ async function renderBlock(block: Block): Promise<string> {
 
   const headerMatch = block.match(/^(#{1,6})\s+(.*)$/);
   if (headerMatch && !block.includes('\n')) {
-    const level = headerMatch[1].length;
+    // The page template owns the one <h1> (the post title), so a body "# " heading is demoted to <h2>.
+    const level = Math.max(2, headerMatch[1].length);
     const id = headerMatch[2]
       .toLowerCase()
       .replace(/[^a-z0-9\s-]/g, '')
@@ -145,6 +148,8 @@ async function renderBlock(block: Block): Promise<string> {
 
 export async function renderMarkdown(markdown: string): Promise<string> {
   const blocks = splitBlocks(markdown);
+  // A leading "# Title" repeats the page's <h1> (post.title), so drop it rather than show the title twice.
+  if (blocks.length && H1_BLOCK.test(blocks[0])) blocks.shift();
   const html = await Promise.all(blocks.map(renderBlock));
   return html.join('\n');
 }
