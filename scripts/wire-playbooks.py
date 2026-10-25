@@ -106,7 +106,7 @@ if (bar) {{
 routes = 0
 for t in TOPICS:
     n, slug = t["n"], t["slug"]
-    rdir = os.path.join(ROOT, "app", "playbook", slug)
+    rdir = os.path.join(ROOT, "app", "(site)", "playbook", slug)
     os.makedirs(rdir, exist_ok=True)
     with open(os.path.join(rdir, "page.tsx"), "w") as f:
         og = og_for(f"/playbook/{slug}")
@@ -116,8 +116,8 @@ for t in TOPICS:
     routes += 1
 print(f"routes+assets written: {routes}")
 
-# ---------- 2. PLAYBOOKS array in app/playbook/page.tsx ----------
-pb_page = os.path.join(ROOT, "app", "playbook", "page.tsx")
+# ---------- 2. PLAYBOOKS array in app/(site)/playbook/page.tsx ----------
+pb_page = os.path.join(ROOT, "app", "(site)", "playbook", "page.tsx")
 src = open(pb_page).read()
 if MARK not in src:
     entries = [f"  // {MARK} - generated from data/playbook-topics.json"]

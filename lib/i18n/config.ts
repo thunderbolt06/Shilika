@@ -50,7 +50,7 @@ function partialPage(slug: string, extra: Partial<I18nPage> = {}): I18nPage {
     key: slug,
     kind: 'partial',
     partial: `${slug}-body.html`,
-    source: `app/${slug}/page.tsx`,
+    source: `app/(site)/${slug}/page.tsx`,
     ogType: 'website',
     ...extra,
   };
@@ -62,7 +62,7 @@ function playbookPage(slug: string, article: number): I18nPage {
     key: `playbook__${slug}`,
     kind: 'playbook',
     partial: `article-${article}-body.html`,
-    source: `app/playbook/${slug}/page.tsx`,
+    source: `app/(site)/playbook/${slug}/page.tsx`,
     script: `/assets/article-${article}.js`,
     active: 'playbook',
     ogType: 'article',
@@ -74,7 +74,7 @@ function blogPage(slug: string): I18nPage {
 }
 
 export const I18N_PAGES: I18nPage[] = [
-  { path: '/', key: 'home', kind: 'home', partial: 'homepage-body.html', source: 'app/page.tsx', ogType: 'website' },
+  { path: '/', key: 'home', kind: 'home', partial: 'homepage-body.html', source: 'app/(site)/page.tsx', ogType: 'website' },
   partialPage('about', { active: 'about', ogType: 'profile' }),
   partialPage('services'),
   partialPage('contact'),
