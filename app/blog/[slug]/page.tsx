@@ -4,6 +4,7 @@ import Script from 'next/script';
 import { notFound } from 'next/navigation';
 import { getAuthor, getPostBySlug, getRelatedPosts } from '@/lib/blog';
 import { blogSeoTitle } from '@/lib/blog-seo-titles';
+import { extractFaqEntries, faqPageNode, isFaqPost } from '@/lib/faq-schema';
 import { languageAlternates } from '@/lib/i18n/config';
 import { readingTimeMinutes, renderMarkdown } from '@/lib/markdown';
 import { extractToc } from '@/lib/toc';
@@ -96,6 +97,7 @@ export default async function BlogPostPage({ params }: { params: Params }) {
 
   const url = `${SITE_URL}/blog/${post.slug}`;
   const articleType = isTechnical(post.tags) ? 'TechArticle' : 'Article';
+  const faqEntries = isFaqPost(post.slug, post.tags) ? extractFaqEntries(post.body) : [];
   const ld = {
     '@context': 'https://schema.org',
     '@graph': [
@@ -140,6 +142,7 @@ export default async function BlogPostPage({ params }: { params: Params }) {
           { '@type': 'ListItem', position: 3, name: post.title, item: url },
         ],
       },
+      ...(faqEntries.length ? [faqPageNode(url, faqEntries)] : []),
     ],
   };
 
