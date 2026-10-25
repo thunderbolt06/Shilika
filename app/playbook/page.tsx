@@ -1,7 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import type { Metadata } from 'next';
-import Script from 'next/script';
 import '../blog/blog.css';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
@@ -1032,10 +1031,9 @@ export default function PlaybookIndexPage() {
   const jsonLd = loadJsonLd();
   return (
     <>
-      <Script
+      <script
         id="playbook-collection-jsonld"
         type="application/ld+json"
-        strategy="beforeInteractive"
         dangerouslySetInnerHTML={{ __html: jsonLd }}
       />
       <main className="blog-page">

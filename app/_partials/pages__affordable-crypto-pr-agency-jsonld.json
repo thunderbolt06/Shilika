@@ -86,6 +86,45 @@
           }
         }
       ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://www.shilikajain.com/pages/affordable-crypto-pr-agency#article",
+      "headline": "Affordable Crypto PR Agency 2026",
+      "description": "What affordable PR really buys, the models that fit a small budget, and the cheap traps to avoid, from a senior crypto PR operator.",
+      "url": "https://www.shilikajain.com/pages/affordable-crypto-pr-agency",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/pages/affordable-crypto-pr-agency"
+      },
+      "inLanguage": "en",
+      "datePublished": "2026-06-24",
+      "dateModified": "2026-10-25",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain - Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      },
+      "about": {
+        "@id": "https://www.shilikajain.com/pages/affordable-crypto-pr-agency#service"
+      },
+      "alternativeHeadline": "Affordable crypto PR that still earns coverage."
     }
   ]
 }

@@ -86,6 +86,45 @@
           }
         }
       ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://www.shilikajain.com/pages/cybersecurity-analyst-relations-agency#article",
+      "headline": "Cybersecurity Analyst Relations Agency 2026 | MQ & Wave",
+      "description": "Briefing cadence and positioning that earns Magic Quadrant and Wave consideration before press even runs.",
+      "url": "https://www.shilikajain.com/pages/cybersecurity-analyst-relations-agency",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/pages/cybersecurity-analyst-relations-agency"
+      },
+      "inLanguage": "en",
+      "datePublished": "2026-06-24",
+      "dateModified": "2026-10-25",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain - Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      },
+      "about": {
+        "@id": "https://www.shilikajain.com/pages/cybersecurity-analyst-relations-agency#service"
+      },
+      "alternativeHeadline": "Analyst relations for Gartner, Forrester and IDC that moves the needle."
     }
   ]
 }

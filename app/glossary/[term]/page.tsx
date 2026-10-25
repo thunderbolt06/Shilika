@@ -1,10 +1,10 @@
 import type { Metadata } from 'next';
-import Script from 'next/script';
 import { notFound } from 'next/navigation';
 import { EditorialScripts } from '@/components/site/EditorialScripts';
 import { EditorialShell } from '@/components/site/EditorialChrome';
 import { GLOSSARY, getGlossaryTerm } from '@/data/glossary';
 import { AVATAR_IDS, Photo, pickPhoto, regionOf } from '@/components/site/Media';
+import { articleNode } from '@/lib/article-schema';
 import { ogImage } from '@/lib/i18n/og';
 import '../../blog/blog.css';
 
@@ -93,6 +93,14 @@ function buildJsonLd(entry: NonNullable<ReturnType<typeof getGlossaryTerm>>) {
           logo: { '@type': 'ImageObject', url: `${SITE_URL}/assets/shilika-press-square-1200.jpg` },
         },
       },
+      articleNode({
+        url,
+        headline: entry.title,
+        description: entry.metaDescription,
+        datePublished: entry.datePublished,
+        dateModified: entry.dateModified,
+        about: `${url}#term`,
+      }),
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
@@ -134,10 +142,9 @@ export default async function GlossaryTermPage({ params }: { params: Params }) {
 
   return (
     <>
-      <Script
+      <script
         id={`glossary-${entry.slug}-jsonld`}
         type="application/ld+json"
-        strategy="beforeInteractive"
         dangerouslySetInnerHTML={{ __html: jsonLd }}
       />
       <EditorialShell active="playbook">

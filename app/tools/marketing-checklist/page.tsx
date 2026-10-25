@@ -41,7 +41,16 @@ const FAQS: Faq[] = [
 export default function MarketingChecklistPage() {
   return (
     <>
-      <JsonLd id="marketing-checklist-jsonld" data={toolJsonLd({ path: PATH, name: NAME, description: DESCRIPTION, faqs: FAQS })} />
+      <JsonLd
+        id="marketing-checklist-jsonld"
+        data={toolJsonLd({
+          path: PATH,
+          name: NAME,
+          description: DESCRIPTION,
+          faqs: FAQS,
+          article: { datePublished: '2026-10-01', dateModified: '2026-10-25' },
+        })}
+      />
       <EditorialShell active="playbook">
         <main className="blog-page tool-page">
           <div className="blog-page-inner">

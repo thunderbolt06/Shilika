@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import Script from 'next/script';
 import { EditorialScripts } from '@/components/site/EditorialScripts';
 import { EditorialShell } from '@/components/site/EditorialChrome';
 import ComparisonTable from '../_components/ComparisonTable';
@@ -10,11 +9,13 @@ import {
   CALENDLY,
   LAST_VERIFIED,
   LAST_VERIFIED_ISO,
+  PUBLISHED_ISO,
   SHILIKA_COVERAGE,
   SHILIKA_PROOF,
 } from '../_data/shilika';
 import { money } from '../_components/shared';
 import { COVER_IDS, CTA_IDS, CtaBand, PhotoBand, pickPhoto } from '@/components/site/Media';
+import { articleNode } from '@/lib/article-schema';
 import { ogImage } from '@/lib/i18n/og';
 import '../../blog/blog.css';
 import '../compare.css';
@@ -91,6 +92,14 @@ export default async function ComparePage({ params }: { params: Promise<{ slug: 
         ],
         author: { '@type': 'Person', '@id': `${SITE_URL}/#person`, name: 'Shilika Jain' },
       },
+      articleNode({
+        url,
+        headline: `Shilika Jain vs ${a.name}: ${a.hook}`,
+        description: a.intro,
+        datePublished: PUBLISHED_ISO,
+        dateModified: LAST_VERIFIED_ISO,
+        about: `${url}#webpage`,
+      }),
       {
         '@type': 'FAQPage',
         '@id': `${url}#faq`,
@@ -113,10 +122,9 @@ export default async function ComparePage({ params }: { params: Promise<{ slug: 
 
   return (
     <>
-      <Script
+      <script
         id={`compare-${a.slug}-jsonld`}
         type="application/ld+json"
-        strategy="beforeInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <EditorialShell>

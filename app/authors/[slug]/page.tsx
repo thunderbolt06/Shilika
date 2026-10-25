@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import Script from 'next/script';
 import { notFound } from 'next/navigation';
 import { BlogFooter, BlogHeader } from '@/components/blog/BlogChrome';
 import { getAuthor } from '@/lib/blog';
@@ -8,6 +7,7 @@ import { getServerSupabase } from '@/lib/supabase/server';
 import type { BlogPost } from '@/lib/supabase/types';
 import { Photo } from '@/components/site/Media';
 import { ogImage } from '@/lib/i18n/og';
+import { jsonLdString } from '@/lib/json-ld';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
@@ -126,11 +126,10 @@ export default async function AuthorPage({ params }: { params: Params }) {
     <div className="bg-paper text-ink">
       <BlogHeader />
       <main>
-        <Script
+        <script
           id={`author-jsonld-${author.slug}`}
           type="application/ld+json"
-          strategy="beforeInteractive"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }}
+          dangerouslySetInnerHTML={{ __html: jsonLdString(ld) }}
         />
 
         <header className="mx-auto max-w-3xl px-6 pt-16 pb-12">

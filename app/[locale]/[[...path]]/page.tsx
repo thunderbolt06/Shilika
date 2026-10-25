@@ -9,6 +9,7 @@ import { ClientReBoot } from '@/components/site/ClientReBoot';
 import { EditorialShell } from '@/components/site/EditorialChrome';
 import { EditorialScripts } from '@/components/site/EditorialScripts';
 import { topicShareCard } from '@/components/site/Media';
+import { SITE_AUTHOR, SITE_PUBLISHER } from '@/lib/article-schema';
 import { assetUrl } from '@/lib/asset-url';
 import {
   I18N_PAGES,
@@ -24,6 +25,7 @@ import {
 } from '@/lib/i18n/config';
 import { getPublishedPost, loadCatalogue, loadUi, localizeHtml, type Catalogue } from '@/lib/i18n/load';
 import { ogImage } from '@/lib/i18n/og';
+import { jsonLdString } from '@/lib/json-ld';
 import { withEm } from '@/lib/i18n/rich';
 import { LANG_TOGGLE_SLOT, languageToggleHtml } from '@/lib/i18n/toggle';
 import { stripLegacyChrome } from '@/lib/legacy-chrome';
@@ -102,11 +104,49 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   };
 }
 
-function jsonLd(page: I18nPage, locale: Locale, catalogue: Catalogue, image: { url: string; width: number; height: number }): string {
+const ARTICLE_TYPES = new Set(['Article', 'BlogPosting', 'NewsArticle', 'TechArticle']);
+
+type ArticleDates = { datePublished?: string; dateModified?: string };
+
+/**
+ * Dates of the English page's Article node, which its translations repeat. Null when the English page
+ * carries no Article markup, so the translation stays a plain WebPage like the original.
+ */
+async function articleDates(page: I18nPage): Promise<ArticleDates | null> {
+  if (page.kind === 'blog') {
+    try {
+      const post = await getPublishedPost(page.path.split('/').pop()!);
+      if (post) return { datePublished: post.published_at ?? undefined, dateModified: post.updated_at };
+    } catch {
+      // No database at build time: still an Article, just without dates.
+    }
+    return {};
+  }
+  if (!page.partial) return null;
+  try {
+    const file = path.join(process.cwd(), 'app/_partials', page.partial.replace(/-body\.html$/, '-jsonld.json'));
+    const data = JSON.parse(fs.readFileSync(file, 'utf8')) as { '@graph'?: Record<string, unknown>[] };
+    const node = (data['@graph'] ?? [data as Record<string, unknown>]).find((n) =>
+      [n['@type']].flat().some((t) => ARTICLE_TYPES.has(String(t))),
+    );
+    if (!node) return null;
+    return { datePublished: node.datePublished as string, dateModified: node.dateModified as string };
+  } catch {
+    return null;
+  }
+}
+
+function jsonLd(
+  page: I18nPage,
+  locale: Locale,
+  catalogue: Catalogue,
+  image: { url: string; width: number; height: number },
+  dates: ArticleDates | null,
+): string {
   const { title, description } = pageMeta(page, catalogue);
   const url = `${SITE_URL}${localizePath(locale, page.path)}`;
   const english = `${SITE_URL}${page.path === '/' ? '' : page.path}`;
-  const article = page.ogType === 'article';
+  const article = page.ogType === 'article' || dates !== null;
   return JSON.stringify({
     '@context': 'https://schema.org',
     '@type': article ? 'Article' : 'WebPage',
@@ -121,8 +161,11 @@ function jsonLd(page: I18nPage, locale: Locale, catalogue: Catalogue, image: { u
     translationOfWork: { '@id': `${english}#${article ? 'article' : 'webpage'}`, url: english },
     ...(article
       ? {
-          author: { '@id': `${SITE_URL}/#person` },
-          publisher: { '@id': `${SITE_URL}/#organization` },
+          datePublished: dates?.datePublished,
+          dateModified: dates?.dateModified,
+          // Spelled out rather than linked by @id: nothing else in this document defines them.
+          author: SITE_AUTHOR,
+          publisher: SITE_PUBLISHER,
           mainEntityOfPage: url,
         }
       : { about: { '@id': `${SITE_URL}/#person` } }),
@@ -262,11 +305,12 @@ async function BlogPost({ page, locale, catalogue }: { page: I18nPage; locale: L
 export default async function LocalizedPage({ params }: { params: Params }) {
   const { locale, page, catalogue } = await resolve(params);
   const image = await shareImage(page);
+  const dates = await articleDates(page);
   const ld = (
-    <Script
+    <script
       id={`i18n-jsonld-${page.key}`}
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: jsonLd(page, locale, catalogue, image) }}
+      dangerouslySetInnerHTML={{ __html: jsonLdString(jsonLd(page, locale, catalogue, image, dates)) }}
     />
   );
 

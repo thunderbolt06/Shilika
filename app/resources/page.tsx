@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Script from 'next/script';
 import { EditorialScripts } from '@/components/site/EditorialScripts';
 import { EditorialShell } from '@/components/site/EditorialChrome';
 import { PhotoBand, PosterWall } from '@/components/site/Media';
@@ -233,10 +232,9 @@ export default function ResourcesPage() {
   const jsonLd = JSON.stringify(buildJsonLd());
   return (
     <>
-      <Script
+      <script
         id="resources-collection-jsonld"
         type="application/ld+json"
-        strategy="beforeInteractive"
         dangerouslySetInnerHTML={{ __html: jsonLd }}
       />
       <EditorialShell active="playbook">

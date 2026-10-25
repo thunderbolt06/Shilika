@@ -1,5 +1,4 @@
 import type { ReactNode } from 'react';
-import Script from 'next/script';
 import type { Faq } from '../_lib/seo';
 import { Photo, PORTRAIT_IDS, pickPhoto } from '@/components/site/Media';
 
@@ -95,10 +94,9 @@ export function ToolCta() {
 
 export function JsonLd({ id, data }: { id: string; data: unknown }) {
   return (
-    <Script
+    <script
       id={id}
       type="application/ld+json"
-      strategy="beforeInteractive"
       dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
     />
   );

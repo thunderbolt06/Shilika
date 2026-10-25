@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Script from 'next/script';
 import PagesIndex from './PagesIndex';
 import { PhotoBand } from '@/components/site/Media';
 import { ogImage } from '@/lib/i18n/og';
@@ -75,10 +74,9 @@ export default function Page() {
 
   return (
     <>
-      <Script
+      <script
         id="pages-collection-jsonld"
         type="application/ld+json"
-        strategy="beforeInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <PagesIndex

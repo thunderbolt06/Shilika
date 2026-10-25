@@ -62,7 +62,7 @@ export default function HomePage() {
   const jsonLd = loadHomepageJsonLd();
   return (
     <>
-      <Script
+      <script
         id="homepage-jsonld"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: jsonLd }}

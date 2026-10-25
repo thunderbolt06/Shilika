@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import Script from 'next/script';
 import { notFound } from 'next/navigation';
 import { getAuthor, getPostBySlug, getRelatedPosts } from '@/lib/blog';
 import { blogSeoTitle } from '@/lib/blog-seo-titles';
@@ -9,6 +8,7 @@ import { readingTimeMinutes, renderMarkdown } from '@/lib/markdown';
 import { extractToc } from '@/lib/toc';
 import { TableOfContents } from '@/components/blog/TableOfContents';
 import { ReadingProgress } from '@/components/blog/ReadingProgress';
+import { jsonLdString } from '@/lib/json-ld';
 import {
   AVATAR_IDS,
   COVER_IDS,
@@ -163,10 +163,10 @@ export default async function BlogPostPage({ params }: { params: Params }) {
 
   return (
     <article className="post-page">
-      <Script
+      <script
         id={`post-jsonld-${post.slug}`}
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdString(ld) }}
       />
 
       <ReadingProgress />

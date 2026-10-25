@@ -1,9 +1,9 @@
 import type { Metadata } from 'next';
-import Script from 'next/script';
 import { listPublishedPosts } from '@/lib/blog';
 import type { BlogPost } from '@/lib/supabase/types';
 import { Photo, PhotoBand, pickPhoto, regionOf } from '@/components/site/Media';
 import { ogImage } from '@/lib/i18n/og';
+import { jsonLdString } from '@/lib/json-ld';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
@@ -101,11 +101,10 @@ export default async function BlogIndexPage() {
 
   return (
     <main className="blog-page">
-      <Script
+      <script
         id="blog-index-jsonld"
         type="application/ld+json"
-        strategy="beforeInteractive"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdString(blogJsonLd) }}
       />
       <div className="blog-page-inner">
         <section className="blog-index-hero">

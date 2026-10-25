@@ -2,6 +2,7 @@ import type { Coverage, RegionKey, RowKey } from './types';
 
 export const LAST_VERIFIED = 'October 2026';
 export const LAST_VERIFIED_ISO = '2026-10-15';
+export const PUBLISHED_ISO = '2026-10-15';
 
 export const REGIONS: { key: RegionKey; label: string; cluster: string }[] = [
   { key: 'us', label: 'United States', cluster: 'West' },

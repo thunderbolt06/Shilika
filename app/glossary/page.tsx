@@ -1,9 +1,9 @@
 import type { Metadata } from 'next';
-import Script from 'next/script';
 import { EditorialScripts } from '@/components/site/EditorialScripts';
 import { EditorialShell } from '@/components/site/EditorialChrome';
 import { GLOSSARY } from '@/data/glossary';
 import { PhotoBand } from '@/components/site/Media';
+import { articleNode } from '@/lib/article-schema';
 import { ogImage } from '@/lib/i18n/og';
 import '../blog/blog.css';
 
@@ -42,6 +42,16 @@ function buildJsonLd() {
         inLanguage: 'en',
         isPartOf: { '@id': `${SITE_URL}/glossary#set` },
       },
+      articleNode({
+        url: `${SITE_URL}/glossary`,
+        headline: 'Web3 & AI PR Glossary: Plain-English Definitions',
+        description:
+          'Plain-English definitions of the Web3, AI and cybersecurity PR terms founders ask about, written by a senior PR operator.',
+        // ISO dates sort lexically, so min/max of the strings is the earliest/latest entry.
+        datePublished: GLOSSARY.map((t) => t.datePublished).sort()[0],
+        dateModified: GLOSSARY.map((t) => t.dateModified).sort().at(-1)!,
+        about: `${SITE_URL}/glossary#set`,
+      }),
       {
         '@type': 'DefinedTermSet',
         '@id': `${SITE_URL}/glossary#set`,
@@ -69,10 +79,9 @@ export default function GlossaryIndexPage() {
   const jsonLd = JSON.stringify(buildJsonLd());
   return (
     <>
-      <Script
+      <script
         id="glossary-collection-jsonld"
         type="application/ld+json"
-        strategy="beforeInteractive"
         dangerouslySetInnerHTML={{ __html: jsonLd }}
       />
       <EditorialShell active="playbook">

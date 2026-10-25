@@ -86,6 +86,45 @@
           "item": "https://www.shilikajain.com/services/ai-seo/case-studies"
         }
       ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://www.shilikajain.com/services/ai-seo/case-studies#article",
+      "headline": "AI SEO & PR Case Studies: Receipts, Not Adjectives",
+      "description": "Seven campaigns across AI search and tier-1 press: Meru Trophy 27,300 Google clicks, shilikajain.com #1 in a month, Gaia in Forbes, MANTRA in CoinDesk.",
+      "url": "https://www.shilikajain.com/services/ai-seo/case-studies",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/services/ai-seo/case-studies"
+      },
+      "inLanguage": "en",
+      "datePublished": "2026-10-17",
+      "dateModified": "2026-10-17",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain - Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      },
+      "about": {
+        "@id": "https://www.shilikajain.com/services/ai-seo/case-studies#page"
+      },
+      "alternativeHeadline": "Receipts, not adjectives."
     }
   ]
 }

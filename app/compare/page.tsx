@@ -1,12 +1,12 @@
 import type { Metadata } from 'next';
-import Script from 'next/script';
 import { EditorialScripts } from '@/components/site/EditorialScripts';
 import { EditorialShell } from '@/components/site/EditorialChrome';
 import MarketFinder from './_components/MarketFinder';
 import { AGENCIES, comparePath } from './_data/agencies';
-import { CALENDLY, CORE_REASONS, LAST_VERIFIED, LAST_VERIFIED_ISO, SHILIKA_PROOF } from './_data/shilika';
+import { CALENDLY, CORE_REASONS, LAST_VERIFIED, LAST_VERIFIED_ISO, PUBLISHED_ISO, SHILIKA_PROOF } from './_data/shilika';
 import type { Agency } from './_data/types';
 import { PhotoBand } from '@/components/site/Media';
+import { articleNode } from '@/lib/article-schema';
 import { ogImage } from '@/lib/i18n/og';
 import '../blog/blog.css';
 import './compare.css';
@@ -91,6 +91,14 @@ export default function CompareHub() {
         author: { '@type': 'Person', '@id': `${SITE_URL}/#person`, name: 'Shilika Jain', url: `${SITE_URL}/about` },
         hasPart: [itemList('Top crypto and Web3 PR agencies 2026', web3), itemList('Top AI PR agencies 2026', ai)],
       },
+      articleNode({
+        url: URL,
+        headline: 'Best crypto and AI PR agencies 2026, compared',
+        description: DESCRIPTION,
+        datePublished: PUBLISHED_ISO,
+        dateModified: LAST_VERIFIED_ISO,
+        about: `${URL}#collection`,
+      }),
       {
         '@type': 'FAQPage',
         '@id': `${URL}#faq`,
@@ -108,7 +116,7 @@ export default function CompareHub() {
 
   return (
     <>
-      <Script id="compare-hub-jsonld" type="application/ld+json" strategy="beforeInteractive" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script id="compare-hub-jsonld" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <EditorialShell>
         <main className="blog-page cmp-page">
           <div className="blog-page-inner">

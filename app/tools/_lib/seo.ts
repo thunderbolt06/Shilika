@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { articleNode } from '@/lib/article-schema';
 import { ogImage } from '@/lib/i18n/og';
 
 export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
@@ -45,12 +46,15 @@ export function toolJsonLd({
   description,
   faqs,
   category = 'BusinessApplication',
+  article,
 }: {
   path: string;
   name: string;
   description: string;
   faqs: Faq[];
   category?: string;
+  /** Adds an Article node for tool pages that also carry long-form guidance. */
+  article?: { datePublished: string; dateModified: string };
 }) {
   const url = `${SITE_URL}${path}`;
   return {
@@ -70,6 +74,9 @@ export function toolJsonLd({
         offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
         creator: { '@type': 'Person', name: 'Shilika Jain', url: `${SITE_URL}/about` },
       },
+      ...(article
+        ? [articleNode({ url, headline: name, description, ...article, about: `${url}#app` })]
+        : []),
       {
         '@type': 'FAQPage',
         '@id': `${url}#faq`,

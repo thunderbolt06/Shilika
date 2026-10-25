@@ -1,7 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import type { Metadata } from 'next';
-import Script from 'next/script';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 const PAGE_URL = `${SITE_URL}/services/ai-seo/web3-ai-startups`;
@@ -36,7 +35,7 @@ function loadPartial(file: string): string {
 export default function Page() {
   return (
     <>
-      <Script id="services-ai-seo-web3-ai-jsonld" type="application/ld+json" strategy="beforeInteractive" dangerouslySetInnerHTML={{ __html: loadPartial('services__ai-seo__web3-ai-startups-jsonld.json') }} />
+      <script id="services-ai-seo-web3-ai-jsonld" type="application/ld+json" dangerouslySetInnerHTML={{ __html: loadPartial('services__ai-seo__web3-ai-startups-jsonld.json') }} />
       <div dangerouslySetInnerHTML={{ __html: loadPartial('services__ai-seo__web3-ai-startups-body.html') }} />
     </>
   );
