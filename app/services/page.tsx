@@ -8,7 +8,7 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 export const metadata: Metadata = {
   title: 'Services: Web3 & AI PR, Founder Profiling, KOL Marketing',
   description:
-    'From zero press to flagship coverage - without the agency markup. Fractional Web3 & AI PR: campaigns, founder profiling, KOL marketing, token launch, cybersecurity PR, content and APAC.',
+    'From zero press to flagship coverage, without the agency markup. Fractional Web3 & AI PR: campaigns, founder profiling, KOLs, token launch, cyber PR and APAC.',
   alternates: { canonical: `${SITE_URL}/services`, languages: languageAlternates('/services') },
   openGraph: {
     title: 'Services: Web3 & AI PR, Founder Profiling, KOL Marketing',

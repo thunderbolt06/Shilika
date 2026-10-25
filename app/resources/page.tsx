@@ -169,7 +169,7 @@ const CARD = ogImage('/resources', SITE_URL);
 export const metadata: Metadata = {
   title: 'Free Marketing & PR Resources for Startups: Templates and Checklists',
   description:
-    'Free downloads for Web3, AI and cybersecurity founders: startup marketing checklist, 20-channel playbook, GTM canvas, budget template, press kit, pitch templates and more.',
+    'Free downloads for Web3, AI and cybersecurity founders: marketing checklist, 20-channel playbook, GTM canvas, budget template, press kit and pitch templates.',
   alternates: { canonical: `${SITE_URL}/resources` },
   openGraph: {
     title: 'Free Marketing & PR Resources for Startups',

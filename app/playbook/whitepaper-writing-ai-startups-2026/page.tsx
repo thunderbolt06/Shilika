@@ -9,7 +9,7 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 export const metadata: Metadata = {
   title: 'Whitepaper Writing for AI Startups in 2026',
   description:
-    'An AI startup whitepaper is not a crypto whitepaper, a pitch deck or a blog post. A fractional operator on what goes in it, the four audiences it serves, how to make it citable by AI search, ghostwriting cost, and the honest limits.',
+    'An AI startup whitepaper is not a crypto whitepaper or a pitch deck. What goes in it, who reads it, how to make it citable by AI search, and ghostwriting cost.',
   alternates: { canonical: `${SITE_URL}/playbook/whitepaper-writing-ai-startups-2026` },
   openGraph: {
     title: 'Whitepaper Writing for AI Startups in 2026',

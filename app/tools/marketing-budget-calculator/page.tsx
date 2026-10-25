@@ -9,7 +9,7 @@ import '../tools.css';
 const PATH = '/tools/marketing-budget-calculator';
 const NAME = 'Startup Marketing Budget Calculator';
 const DESCRIPTION =
-  'Free startup marketing budget calculator. Set your budget from burn or directly, split it across people, programs and tools, allocate it to 20 channels, and estimate leads, CAC, LTV:CAC and payback.';
+  'Free startup marketing budget calculator. Set a budget from burn, split it across people, programs and tools, allocate 20 channels, estimate CAC and payback.';
 
 export const metadata = toolMetadata({
   path: PATH,

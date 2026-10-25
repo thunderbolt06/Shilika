@@ -16,7 +16,7 @@ const URL = `${SITE_URL}/compare`;
 const CARD = ogImage('/compare', SITE_URL);
 const TITLE = 'Best Crypto & AI PR Agencies 2026, Compared | Shilika Jain';
 const DESCRIPTION =
-  'The top 5 crypto and Web3 PR agencies and the top 5 AI PR agencies in 2026, compared on who pitches, which markets they reach and what they cost, plus the senior fractional alternative.';
+  'The top 5 crypto PR agencies and top 5 AI PR agencies in 2026, compared on who pitches, markets reached and cost, plus the senior fractional alternative.';
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },

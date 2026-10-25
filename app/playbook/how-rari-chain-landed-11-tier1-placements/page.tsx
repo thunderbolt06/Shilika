@@ -9,7 +9,7 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 export const metadata: Metadata = {
   title: 'How to Land 11 Tier-1 Placements in 24 Hours (2026)',
   description:
-    'A step-by-step teardown of the launch-day PR method behind RARI Chain\'s 11-placement mainnet: sell a category not an announcement, give one outlet a real exclusive, pre-build and pre-brief the rest, hold a hard launch moment.',
+    'A step-by-step teardown of the launch-day PR behind RARI Chain\'s 11-placement mainnet: sell a category, give one outlet an exclusive, pre-brief the rest.',
   alternates: { canonical: `${SITE_URL}/playbook/how-rari-chain-landed-11-tier1-placements` },
   openGraph: {
     title: 'How to Land 11 Tier-1 Placements in 24 Hours: A Teardown',

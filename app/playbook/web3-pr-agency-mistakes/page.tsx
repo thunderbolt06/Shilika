@@ -8,7 +8,7 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: '7 Mistakes Web3 Founders Make With PR Agencies in 2026',
-  description: 'The seven most expensive PR mistakes Web3 founders make in 2026 - and the fix for each - from a fractional operator who has placed 50+ protocols across Forbes, CoinDesk and Cointelegraph.',
+  description: 'The seven most expensive PR mistakes Web3 founders make in 2026, and the fix for each, from a fractional operator who has placed 50+ protocols.',
 
   alternates: { canonical: `${SITE_URL}/playbook/web3-pr-agency-mistakes` },
   openGraph: {

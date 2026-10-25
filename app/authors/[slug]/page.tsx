@@ -16,27 +16,39 @@ export const dynamicParams = true;
 
 type Params = Promise<{ slug: string }>;
 
+const META_DESCRIPTION_MAX = 160;
+
+/** Keep the snippet inside Google's display length: end on a sentence, else a word. */
+function clipDescription(text: string): string {
+  if (text.length <= META_DESCRIPTION_MAX) return text;
+  const window = text.slice(0, META_DESCRIPTION_MAX);
+  const sentence = window.lastIndexOf('. ');
+  if (sentence >= 80) return window.slice(0, sentence + 1);
+  return `${window.slice(0, window.lastIndexOf(' ', META_DESCRIPTION_MAX - 1))}…`;
+}
+
 export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
   const { slug } = await params;
   const author = await safeGetAuthor(slug);
   if (!author) return {};
   const url = `${SITE_URL}/authors/${author.slug}`;
   const card = ogImage(`/authors/${author.slug}`, SITE_URL);
+  const description = clipDescription(author.bio);
   return {
     title: `${author.name} - ${author.title}`,
-    description: author.bio,
+    description,
     alternates: { canonical: url },
     openGraph: {
       type: 'profile',
       title: author.name,
-      description: author.bio,
+      description,
       url,
       images: [card],
     },
     twitter: {
       card: 'summary_large_image',
       title: author.name,
-      description: author.bio,
+      description,
       images: [{ url: card.url, alt: card.alt }],
     },
   };

@@ -9,7 +9,7 @@ import '../tools.css';
 const PATH = '/tools/gtm-planner';
 const NAME = 'AI Startup GTM Planner';
 const DESCRIPTION =
-  'Free GTM planner for AI and Web3 startups. Pick your category, stage, buyer, motion and budget to get a positioning prompt, a ranked channel mix, a 90-day plan, metrics and risks.';
+  'Free GTM planner for AI and Web3 startups. Pick category, stage, buyer, motion and budget to get a positioning prompt, channel mix, 90-day plan and risks.';
 
 export const metadata = toolMetadata({
   path: PATH,

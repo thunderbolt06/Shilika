@@ -7,11 +7,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'Web3 Investor Relations Agency 2026 | Fundraising & VC Comms',
-  description: 'Fundraising PR and investor-facing communications for token and equity raises: embargoed announcements, VC positioning and the narrative that gets a round covered.',
+  description: 'Fundraising PR and investor communications for token and equity raises: embargoed announcements, VC positioning and the narrative that gets a round covered.',
   alternates: { canonical: `${SITE_URL}/pages/web3-investor-relations-agency` },
   openGraph: {
     title: 'Web3 Investor Relations Agency 2026 | Fundraising & VC Comms',
-    description: 'Fundraising PR and investor-facing communications for token and equity raises: embargoed announcements, VC positioning and the narrative that gets a round covered.',
+    description: 'Fundraising PR and investor communications for token and equity raises: embargoed announcements, VC positioning and the narrative that gets a round covered.',
     url: `${SITE_URL}/pages/web3-investor-relations-agency`,
     type: 'website',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Web3 Investor Relations Agency 2026 | Fundraising & VC Comms',
-    description: 'Fundraising PR and investor-facing communications for token and equity raises: embargoed announcements, VC positioning and the narrative that gets a round covered.',
+    description: 'Fundraising PR and investor communications for token and equity raises: embargoed announcements, VC positioning and the narrative that gets a round covered.',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/web3.jpg`,

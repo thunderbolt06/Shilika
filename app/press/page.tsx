@@ -9,7 +9,7 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 export const metadata: Metadata = {
   title: 'Press & Coverage: Where the Stories Land',
   description:
-    'Selected media placements across Forbes, CoinDesk, Cointelegraph, Decrypt, Blockworks, The Block, Benzinga and more - the front-page coverage behind Web3 & AI founders.',
+    'Selected placements across Forbes, CoinDesk, Cointelegraph, Decrypt, Blockworks, The Block and more: the front-page coverage behind Web3 and AI founders.',
   alternates: { canonical: `${SITE_URL}/press` },
   openGraph: {
     title: 'Press & Coverage: Where the Stories Land',

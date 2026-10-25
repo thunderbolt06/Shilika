@@ -10,7 +10,7 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 export const metadata: Metadata = {
   title: 'How to Pitch Cointelegraph in 2026: Pitch Guide',
   description:
-    'How to pitch Cointelegraph and earn editorial coverage in 2026: how the newsroom is structured, the dated news peg, the under-150-word pitch, the editorial firewall, and the multilingual APAC editions.',
+    'How to pitch Cointelegraph in 2026: newsroom structure, the dated news peg, the under-150-word pitch, the editorial firewall and the APAC editions.',
 
   alternates: { canonical: `${SITE_URL}/playbook/how-to-pitch-cointelegraph-2026`, languages: languageAlternates('/playbook/how-to-pitch-cointelegraph-2026') },
   openGraph: {

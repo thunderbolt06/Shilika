@@ -15,7 +15,7 @@ const CARD = ogImage('/pages', SITE_URL);
 export const metadata: Metadata = {
   title: 'Service Pages: Web3, AI, Token Launch & APAC PR | Shilika Jain',
   description:
-    '100 service pages on Web3 PR, token launch, AI startup PR, KOL marketing, cybersecurity PR, founder profiling and APAC, filterable by service, region and vertical. Send a brief or book a call.',
+    '100 service pages on Web3 PR, token launch, AI startup PR, KOL marketing, cybersecurity PR and APAC, filterable by service, region and vertical.',
   alternates: { canonical: `${SITE_URL}/pages` },
   openGraph: {
     title: 'Service Pages - Shilika Jain Fractional PR',

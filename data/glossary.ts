@@ -30,7 +30,7 @@ export const GLOSSARY: GlossaryTerm[] = [
     title: 'What is fractional PR?',
     metaTitle: 'What Is Fractional PR? Definition & Cost (2026)',
     metaDescription:
-      'Fractional PR explained: a senior PR operator who runs your media strategy part-time, embedded like a team member, for a fraction of an agency retainer. Cost, fit, and when to use it in 2026.',
+      'Fractional PR explained: a senior operator who runs your media strategy part-time, embedded like a team member, for a fraction of an agency retainer.',
     deck: 'A senior operator on your team part-time, not a junior account at an agency.',
     answer:
       'Fractional PR is a senior public relations operator who runs your media and communications strategy on a part-time, embedded basis, for a fraction of a full agency retainer. You get one experienced person doing the work directly, instead of a layered agency team or a full-time in-house hire.',
@@ -90,7 +90,7 @@ export const GLOSSARY: GlossaryTerm[] = [
     title: 'What is GEO (Generative Engine Optimization)?',
     metaTitle: 'What Is GEO? Generative Engine Optimization (2026)',
     metaDescription:
-      'GEO, or generative engine optimization, is structuring content and earned media so AI engines like ChatGPT, Perplexity, Gemini and AI Overviews cite your brand by name. How it works for Web3 and AI brands in 2026.',
+      'GEO, or generative engine optimization, is structuring content and earned media so ChatGPT and AI Overviews cite your brand. For Web3 and AI in 2026.',
     deck: 'Getting cited by AI engines, not just ranked by search engines.',
     answer:
       'GEO, or generative engine optimization, is the practice of structuring your content and earned media so AI engines such as ChatGPT, Perplexity, Gemini, Claude and Google AI Overviews cite your brand by name when buyers ask questions. It is the AI-search counterpart to SEO, focused on being the cited source rather than the blue link.',
@@ -151,7 +151,7 @@ export const GLOSSARY: GlossaryTerm[] = [
     title: 'What is a TGE comms plan?',
     metaTitle: 'What Is a TGE Comms Plan? Token Launch PR (2026)',
     metaDescription:
-      'A TGE comms plan is the dated communications sequence around a token generation event: narrative, media, KOLs, exchange comms and crisis prep across the weeks before and after listing. Explained for 2026.',
+      'A TGE comms plan is the communications sequence around a token generation event: narrative, media, KOLs, exchange comms and crisis prep. Explained for 2026.',
     deck: 'The dated communications sequence that surrounds a token launch.',
     answer:
       'A TGE comms plan is the dated communications sequence built around a token generation event (TGE). It maps the narrative, media outreach, KOL waves, exchange and community comms, and crisis preparation across the weeks before and after a token goes live, so the launch lands as a story rather than a scramble.',
@@ -210,7 +210,7 @@ export const GLOSSARY: GlossaryTerm[] = [
     title: 'What is AEO (Answer Engine Optimization)?',
     metaTitle: 'What Is AEO? Answer Engine Optimization (2026)',
     metaDescription:
-      'AEO, or answer engine optimization, is structuring content so AI answer engines like ChatGPT, Perplexity, Gemini and Google AI Overviews use it as the direct answer to a question. How it works for Web3 and AI brands in 2026.',
+      'AEO, or answer engine optimization, is structuring content so ChatGPT, Perplexity and Google AI Overviews use it as the direct answer. For Web3 and AI in 2026.',
     deck: 'Being the answer an AI gives, not just a link it might show.',
     answer:
       'AEO, or answer engine optimization, is the practice of structuring content so AI answer engines such as ChatGPT, Perplexity, Gemini and Google AI Overviews pull it directly into the answer they give a user. It focuses on question-form queries and front-loaded, verifiable answers, so your brand becomes the response rather than one of ten blue links.',
@@ -271,7 +271,7 @@ export const GLOSSARY: GlossaryTerm[] = [
     title: 'What is a KOL wave?',
     metaTitle: 'What Is a KOL Wave? Crypto Launch Marketing (2026)',
     metaDescription:
-      'A KOL wave is a timed, sequenced activation of vetted key opinion leaders around a launch, released in coordinated phases rather than all at once. How it works for Web3 and AI token launches in 2026.',
+      'A KOL wave is a timed, sequenced activation of vetted key opinion leaders around a launch, in coordinated phases. How it works for Web3 and AI in 2026.',
     deck: 'A sequenced rollout of vetted creators, not a one-day spray of paid posts.',
     answer:
       'A KOL wave is a timed, sequenced activation of vetted key opinion leaders (influential creators) around a launch, released in coordinated phases rather than all at once. A typical structure runs credibility anchors before the event, broad activation on launch day, and sustained deep-dive content after, so attention compounds instead of spiking and vanishing.',

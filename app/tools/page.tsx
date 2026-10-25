@@ -51,7 +51,7 @@ const INDEX: IndexGroup[] = [
 const CARD = ogImage('/tools', SITE_URL);
 const COUNT = INDEX.reduce((a, g) => a + g.tools.length, 0);
 const TITLE = 'Free Marketing Tools: SEO, PR, Social and Calculators';
-const DESCRIPTION = `${COUNT} free marketing tools with no signup: UTM builder, SERP preview, schema and llms.txt generators, ROAS and A/B test calculators, press release generator and more.`;
+const DESCRIPTION = `${COUNT} free marketing tools, no signup: UTM builder, SERP preview, schema and llms.txt generators, ROAS and A/B calculators, press release generator and more.`;
 
 export const metadata: Metadata = {
   title: TITLE,

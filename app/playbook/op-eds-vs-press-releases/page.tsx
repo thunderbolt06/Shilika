@@ -9,7 +9,7 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 export const metadata: Metadata = {
   title: 'Op-Eds vs Press Releases for Web3 Founders in 2026',
   description:
-    'When to announce a fact and when to argue a position. A fractional operator on which earns coverage, why op-eds get cited by AI engines while releases do not, ghostwriting cost, and how to sequence both around a launch.',
+    'When to announce a fact and when to argue a position: which earns coverage, why AI engines cite op-eds over releases, ghostwriting cost and sequencing.',
   alternates: { canonical: `${SITE_URL}/playbook/op-eds-vs-press-releases` },
   openGraph: {
     title: 'Op-Eds vs Press Releases for Web3 Founders in 2026',

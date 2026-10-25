@@ -8,7 +8,7 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'Pre-Token Launch PR Checklist 2026: 25 Steps Before TGE',
-  description: 'The 25-item, five-phase pre-token-launch PR checklist for 2026: positioning, press kit, embargo, KOL waves, launch week and post-TGE, from a fractional operator. Free PDF.',
+  description: 'The 25-item, five-phase pre-token-launch PR checklist for 2026: positioning, press kit, embargo, KOL waves, launch week and post-TGE. Free PDF.',
 
   alternates: { canonical: `${SITE_URL}/playbook/pre-token-launch-pr-checklist` },
   openGraph: {

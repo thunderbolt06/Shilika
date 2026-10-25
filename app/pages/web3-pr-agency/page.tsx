@@ -8,7 +8,7 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 export const metadata: Metadata = {
   title: 'Best Web3 PR Agency in 2026 | Fractional Senior Operator',
   description:
-    'Hire a fractional senior Web3 PR operator instead of a $15K–$45K/mo agency. 50+ founders placed in Forbes, CoinDesk, Cointelegraph, Decrypt, The Block. Send a brief or book a call.',
+    'Hire a fractional senior Web3 PR operator instead of a $15K–$45K/mo agency. 50+ founders placed in Forbes, CoinDesk, Cointelegraph and Decrypt. Book a call.',
   alternates: { canonical: `${SITE_URL}/pages/web3-pr-agency` },
   openGraph: {
     title: 'Best Web3 PR Agency in 2026 | Fractional Senior Operator',

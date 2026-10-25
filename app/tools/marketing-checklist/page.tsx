@@ -10,7 +10,7 @@ import '../tools.css';
 const PATH = '/tools/marketing-checklist';
 const NAME = 'Startup Marketing Checklist';
 const ITEM_COUNT = ALL_SECTIONS.reduce((a, s) => a + s.items.length, 0);
-const DESCRIPTION = `Free interactive startup marketing checklist with ${ITEM_COUNT} items across foundations, pre-launch, launch week, the first 90 days, always-on habits and 20 channels. Progress saves in your browser.`;
+const DESCRIPTION = `Free interactive startup marketing checklist: ${ITEM_COUNT} items across foundations, pre-launch, launch week, the first 90 days and 20 channels. Saves in your browser.`;
 
 export const metadata = toolMetadata({
   path: PATH,

@@ -9,7 +9,7 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 export const metadata: Metadata = {
   title: 'How Gaia AI Got Into Forbes: A Teardown (2026)',
   description:
-    'A first-hand teardown of the campaign that put Gaia AI in Forbes: the Stripe-for-AI-agents frame, the reporter-beat match, the timeline, how the pitch was built, embargo etiquette, and what the placement produced.',
+    'A first-hand teardown of the campaign that put Gaia AI in Forbes: the Stripe-for-AI-agents frame, reporter-beat match, timeline, pitch and embargo etiquette.',
   alternates: { canonical: `${SITE_URL}/playbook/how-gaia-ai-got-into-forbes` },
   openGraph: {
     title: 'How Gaia AI Got Into Forbes: A Teardown',
