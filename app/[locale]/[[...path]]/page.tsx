@@ -31,7 +31,7 @@ import { jsonLdString, withOrganization } from '@/lib/json-ld';
 import { stripLegacyChrome } from '@/lib/legacy-chrome';
 import { readingTimeMinutes, renderMarkdown } from '@/lib/markdown';
 import { extractToc } from '@/lib/toc';
-import '../../blog/blog.css';
+import '../../(site)/blog/blog.css';
 
 /**
  * Translated versions of the pages registered in lib/i18n/config.ts. The

@@ -1,7 +1,12 @@
 import { notFound } from 'next/navigation';
+import '../globals.css';
+import '../media.css';
+import RootShell from '@/components/site/RootShell';
 import TalkPopup from '@/components/site/TalkPopup';
 import { LANGUAGES, LOCALES, isLocale, type Locale } from '@/lib/i18n/config';
 import { loadUi } from '@/lib/i18n/load';
+
+export { metadata, viewport } from '@/lib/site-metadata';
 
 export const dynamicParams = false;
 
@@ -18,10 +23,10 @@ const DISPLAY_FONT: Partial<Record<Locale, string>> = {
 };
 
 /**
- * Wrapper for the translated pages (/zh, /ko, /ja, /es, /ru). The root layout
- * owns <html lang="en"> and cannot see the locale segment without opting the
- * whole site into dynamic rendering, so the language is declared on a wrapper
- * element and mirrored onto <html> before first paint.
+ * Root layout of the translated pages (/zh, /ko, /ja, /es, /ru). It is its own root
+ * layout, separate from app/(site)/layout.tsx, so <html lang> is the page's language
+ * in the static HTML. Crawlers that don't run JavaScript read that attribute and
+ * compare it with the hreflang annotation (zh-Hans for /zh, etc.).
  */
 export default async function LocaleLayout({
   children,
@@ -36,17 +41,18 @@ export default async function LocaleLayout({
   const font = DISPLAY_FONT[locale];
 
   return (
-    <div lang={hreflang} className={`i18n i18n-${locale}`}>
-      <script dangerouslySetInnerHTML={{ __html: `document.documentElement.lang=${JSON.stringify(hreflang)}` }} />
-      {font && (
-        <link
-          rel="stylesheet"
-          href={`https://fonts.googleapis.com/css2?family=${font}&display=swap`}
-          precedence="default"
-        />
-      )}
-      {children}
-      <TalkPopup strings={loadUi(locale)} />
-    </div>
+    <RootShell lang={hreflang}>
+      <div lang={hreflang} className={`i18n i18n-${locale}`}>
+        {font && (
+          <link
+            rel="stylesheet"
+            href={`https://fonts.googleapis.com/css2?family=${font}&display=swap`}
+            precedence="default"
+          />
+        )}
+        {children}
+        <TalkPopup strings={loadUi(locale)} />
+      </div>
+    </RootShell>
   );
 }

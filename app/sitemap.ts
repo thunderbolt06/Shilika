@@ -1,9 +1,9 @@
 import type { MetadataRoute } from 'next';
 import { listPublishedPosts } from '@/lib/blog';
 import { I18N_PAGES, LOCALES, languageAlternates, localizePath } from '@/lib/i18n/config';
-import { FREE_TOOLS } from './tools/_data/free';
-import { AGENCIES, comparePath } from './compare/_data/agencies';
-import { LAST_VERIFIED_ISO } from './compare/_data/shilika';
+import { FREE_TOOLS } from './(site)/tools/_data/free';
+import { AGENCIES, comparePath } from './(site)/compare/_data/agencies';
+import { LAST_VERIFIED_ISO } from './(site)/compare/_data/shilika';
 import { cardFor, cardUrl } from '../scripts/media/og-map.mjs';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
