@@ -6,11 +6,11 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Founder Media Training 2026 | Interview & Spokesperson Prep',
+  title: 'Founder Media Training 2026',
   description: 'Interview prep, message discipline and on-camera coaching for founders who are about to become their company\'s spokesperson.',
   alternates: { canonical: `${SITE_URL}/pages/founder-media-training` },
   openGraph: {
-    title: 'Founder Media Training 2026 | Interview & Spokesperson Prep',
+    title: 'Founder Media Training 2026',
     description: 'Interview prep, message discipline and on-camera coaching for founders who are about to become their company\'s spokesperson.',
     url: `${SITE_URL}/pages/founder-media-training`,
     type: 'website',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Founder Media Training 2026 | Interview & Spokesperson Prep',
+    title: 'Founder Media Training 2026',
     description: 'Interview prep, message discipline and on-camera coaching for founders who are about to become their company\'s spokesperson.',
     images: [
       {

@@ -6,11 +6,11 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Token Launch PR Agency India 2026 | Compliant Dual-Track',
+  title: 'Token Launch PR Agency India 2026',
   description: 'Launch a token with an Indian base or audience: the compliance reality and a dual-track domestic plus crypto-native launch.',
   alternates: { canonical: `${SITE_URL}/pages/token-launch-pr-agency-india` },
   openGraph: {
-    title: 'Token Launch PR Agency India 2026 | Compliant Dual-Track',
+    title: 'Token Launch PR Agency India 2026',
     description: 'Launch a token with an Indian base or audience: the compliance reality and a dual-track domestic plus crypto-native launch.',
     url: `${SITE_URL}/pages/token-launch-pr-agency-india`,
     type: 'website',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Token Launch PR Agency India 2026 | Compliant Dual-Track',
+    title: 'Token Launch PR Agency India 2026',
     description: 'Launch a token with an Indian base or audience: the compliance reality and a dual-track domestic plus crypto-native launch.',
     images: [
       {

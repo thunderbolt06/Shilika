@@ -6,11 +6,11 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Crypto Press Release Service 2026 | Written to Get Picked Up',
+  title: 'Crypto Press Release Service 2026',
   description: 'Press releases written around a dated news peg and pitched to the reporters who actually cover your beat.',
   alternates: { canonical: `${SITE_URL}/pages/crypto-press-release-service` },
   openGraph: {
-    title: 'Crypto Press Release Service 2026 | Written to Get Picked Up',
+    title: 'Crypto Press Release Service 2026',
     description: 'Press releases written around a dated news peg and pitched to the reporters who actually cover your beat.',
     url: `${SITE_URL}/pages/crypto-press-release-service`,
     type: 'website',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Crypto Press Release Service 2026 | Written to Get Picked Up',
+    title: 'Crypto Press Release Service 2026',
     description: 'Press releases written around a dated news peg and pitched to the reporters who actually cover your beat.',
     images: [
       {

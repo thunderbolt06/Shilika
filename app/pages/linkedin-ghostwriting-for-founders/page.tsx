@@ -6,11 +6,11 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'LinkedIn Ghostwriting for Founders 2026 | Authority, Not Cringe',
+  title: 'LinkedIn Ghostwriting for Founders 2026',
   description: 'A LinkedIn content system tuned to the 2026 algorithm that builds authority without the motivational-account vibe.',
   alternates: { canonical: `${SITE_URL}/pages/linkedin-ghostwriting-for-founders` },
   openGraph: {
-    title: 'LinkedIn Ghostwriting for Founders 2026 | Authority, Not Cringe',
+    title: 'LinkedIn Ghostwriting for Founders 2026',
     description: 'A LinkedIn content system tuned to the 2026 algorithm that builds authority without the motivational-account vibe.',
     url: `${SITE_URL}/pages/linkedin-ghostwriting-for-founders`,
     type: 'website',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'LinkedIn Ghostwriting for Founders 2026 | Authority, Not Cringe',
+    title: 'LinkedIn Ghostwriting for Founders 2026',
     description: 'A LinkedIn content system tuned to the 2026 algorithm that builds authority without the motivational-account vibe.',
     images: [
       {

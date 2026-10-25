@@ -13,7 +13,7 @@ const DESCRIPTION =
 
 export const metadata = toolMetadata({
   path: PATH,
-  title: 'Startup Marketing Budget Calculator: Channels, CAC and Payback',
+  title: 'Startup Marketing Budget Calculator',
   description: DESCRIPTION,
   ogTitle: NAME,
 });

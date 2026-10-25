@@ -6,11 +6,11 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Crypto PR Agency UK 2026 | London Crypto & Fintech Press',
+  title: 'Crypto PR Agency UK 2026 | London Press',
   description: 'UK and European crypto and fintech coverage from a senior operator with tier-1 relationships.',
   alternates: { canonical: `${SITE_URL}/pages/crypto-pr-agency-uk` },
   openGraph: {
-    title: 'Crypto PR Agency UK 2026 | London Crypto & Fintech Press',
+    title: 'Crypto PR Agency UK 2026 | London Press',
     description: 'UK and European crypto and fintech coverage from a senior operator with tier-1 relationships.',
     url: `${SITE_URL}/pages/crypto-pr-agency-uk`,
     type: 'website',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Crypto PR Agency UK 2026 | London Crypto & Fintech Press',
+    title: 'Crypto PR Agency UK 2026 | London Press',
     description: 'UK and European crypto and fintech coverage from a senior operator with tier-1 relationships.',
     images: [
       {

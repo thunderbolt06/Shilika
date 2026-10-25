@@ -7,11 +7,11 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Web3 PR Agency Reviews on Clutch in 2026: How to Read Them',
+  title: 'Reading Web3 PR Agency Reviews on Clutch',
   description: 'Review sites are gameable. How to read Clutch, G2 and Trustpilot ratings for PR agencies without being misled by curated testimonials.',
   alternates: { canonical: `${SITE_URL}/playbook/web3-pr-agency-reviews-clutch-2026` },
   openGraph: {
-    title: 'Web3 PR Agency Reviews on Clutch in 2026: How to Read Them',
+    title: 'Reading Web3 PR Agency Reviews on Clutch',
     description: 'Review sites are gameable. How to read Clutch, G2 and Trustpilot ratings for PR agencies without being misled by curated testimonials.',
     url: `${SITE_URL}/playbook/web3-pr-agency-reviews-clutch-2026`,
     type: 'article',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Web3 PR Agency Reviews on Clutch in 2026: How to Read Them',
+    title: 'Reading Web3 PR Agency Reviews on Clutch',
     description: 'Review sites are gameable. How to read Clutch, G2 and Trustpilot ratings for PR agencies without being misled by curated testimonials.',
     images: [
       {

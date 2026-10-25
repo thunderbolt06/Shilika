@@ -6,11 +6,11 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'DePIN PR Agency 2026 | Decentralized Infrastructure Comms',
+  title: 'DePIN PR Agency 2026 | Infrastructure Comms',
   description: 'Turn decentralized-infrastructure into a publishable category, with the Fluence playbook that anchored DePIN as a tier-1 beat.',
   alternates: { canonical: `${SITE_URL}/pages/depin-pr-agency` },
   openGraph: {
-    title: 'DePIN PR Agency 2026 | Decentralized Infrastructure Comms',
+    title: 'DePIN PR Agency 2026 | Infrastructure Comms',
     description: 'Turn decentralized-infrastructure into a publishable category, with the Fluence playbook that anchored DePIN as a tier-1 beat.',
     url: `${SITE_URL}/pages/depin-pr-agency`,
     type: 'website',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'DePIN PR Agency 2026 | Decentralized Infrastructure Comms',
+    title: 'DePIN PR Agency 2026 | Infrastructure Comms',
     description: 'Turn decentralized-infrastructure into a publishable category, with the Fluence playbook that anchored DePIN as a tier-1 beat.',
     images: [
       {

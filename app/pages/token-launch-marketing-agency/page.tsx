@@ -6,11 +6,11 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Token Launch Marketing Agency 2026 | Criteria & Alternative',
+  title: 'Token Launch Marketing Agency 2026',
   description: 'Criteria for picking a token-launch partner, the trade-offs of each model, and a fractional alternative.',
   alternates: { canonical: `${SITE_URL}/pages/token-launch-marketing-agency` },
   openGraph: {
-    title: 'Token Launch Marketing Agency 2026 | Criteria & Alternative',
+    title: 'Token Launch Marketing Agency 2026',
     description: 'Criteria for picking a token-launch partner, the trade-offs of each model, and a fractional alternative.',
     url: `${SITE_URL}/pages/token-launch-marketing-agency`,
     type: 'website',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Token Launch Marketing Agency 2026 | Criteria & Alternative',
+    title: 'Token Launch Marketing Agency 2026',
     description: 'Criteria for picking a token-launch partner, the trade-offs of each model, and a fractional alternative.',
     images: [
       {

@@ -7,11 +7,11 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Best Fractional PR Consultants for Tech Startups in 2026',
+  title: 'Best Fractional PR Consultants for Tech 2026',
   description: 'What a fractional PR consultant is, how to evaluate one, and why a senior operator part-time often beats a junior-staffed agency full-time.',
   alternates: { canonical: `${SITE_URL}/playbook/best-fractional-pr-consultant-tech-2026` },
   openGraph: {
-    title: 'Best Fractional PR Consultants for Tech Startups in 2026',
+    title: 'Best Fractional PR Consultants for Tech 2026',
     description: 'What a fractional PR consultant is, how to evaluate one, and why a senior operator part-time often beats a junior-staffed agency full-time.',
     url: `${SITE_URL}/playbook/best-fractional-pr-consultant-tech-2026`,
     type: 'article',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Best Fractional PR Consultants for Tech Startups in 2026',
+    title: 'Best Fractional PR Consultants for Tech 2026',
     description: 'What a fractional PR consultant is, how to evaluate one, and why a senior operator part-time often beats a junior-staffed agency full-time.',
     images: [
       {

@@ -6,7 +6,7 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Bullieverse Case Study: A $4M Web3 Gaming Raise in India',
+  title: 'Bullieverse Case Study: $4M Gaming Raise',
   description: 'How Shilika Jain launched Bullieverse $4M metaverse gaming raise: an Economic Times exclusive plus Indian business press and crypto-native outlets in parallel.',
   
   alternates: { canonical: 'https://www.shilikajain.com/work/bullieverse' },

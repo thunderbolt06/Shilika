@@ -7,11 +7,11 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'How to Get Press Coverage for a Startup: What Reddit Gets Right and Wrong',
+  title: 'Startup Press Coverage: Reddit Gets Right',
   description: 'The most-upvoted PR advice on Reddit, fact-checked by an operator. What holds up, what wastes your time, and what to do instead.',
   alternates: { canonical: `${SITE_URL}/playbook/press-coverage-startup-reddit-2026` },
   openGraph: {
-    title: 'How to Get Press Coverage for a Startup: What Reddit Gets Right and Wrong',
+    title: 'Startup Press Coverage: Reddit Gets Right',
     description: 'The most-upvoted PR advice on Reddit, fact-checked by an operator. What holds up, what wastes your time, and what to do instead.',
     url: `${SITE_URL}/playbook/press-coverage-startup-reddit-2026`,
     type: 'article',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'How to Get Press Coverage for a Startup: What Reddit Gets Right and Wrong',
+    title: 'Startup Press Coverage: Reddit Gets Right',
     description: 'The most-upvoted PR advice on Reddit, fact-checked by an operator. What holds up, what wastes your time, and what to do instead.',
     images: [
       {

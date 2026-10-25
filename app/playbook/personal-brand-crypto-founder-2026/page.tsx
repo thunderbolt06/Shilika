@@ -7,11 +7,11 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'How to Build a Personal Brand as a Crypto Founder in 2026',
+  title: 'Crypto Founder Personal Brand Guide (2026)',
   description: 'The Twitter-and-LinkedIn playbook for crypto founders who would rather ship. What to post, what to never post, and how to sound like yourself.',
   alternates: { canonical: `${SITE_URL}/playbook/personal-brand-crypto-founder-2026` },
   openGraph: {
-    title: 'How to Build a Personal Brand as a Crypto Founder in 2026',
+    title: 'Crypto Founder Personal Brand Guide (2026)',
     description: 'The Twitter-and-LinkedIn playbook for crypto founders who would rather ship. What to post, what to never post, and how to sound like yourself.',
     url: `${SITE_URL}/playbook/personal-brand-crypto-founder-2026`,
     type: 'article',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'How to Build a Personal Brand as a Crypto Founder in 2026',
+    title: 'Crypto Founder Personal Brand Guide (2026)',
     description: 'The Twitter-and-LinkedIn playbook for crypto founders who would rather ship. What to post, what to never post, and how to sound like yourself.',
     images: [
       {

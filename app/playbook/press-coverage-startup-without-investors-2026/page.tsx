@@ -7,11 +7,11 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'How to Get Press Coverage for a Startup Without Investors',
+  title: 'Startup Press Coverage Without Investors',
   description: 'No raise, no logo, no problem. The angles that earn coverage when you cannot lead with funding, drawn from real launches.',
   alternates: { canonical: `${SITE_URL}/playbook/press-coverage-startup-without-investors-2026` },
   openGraph: {
-    title: 'How to Get Press Coverage for a Startup Without Investors',
+    title: 'Startup Press Coverage Without Investors',
     description: 'No raise, no logo, no problem. The angles that earn coverage when you cannot lead with funding, drawn from real launches.',
     url: `${SITE_URL}/playbook/press-coverage-startup-without-investors-2026`,
     type: 'article',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'How to Get Press Coverage for a Startup Without Investors',
+    title: 'Startup Press Coverage Without Investors',
     description: 'No raise, no logo, no problem. The angles that earn coverage when you cannot lead with funding, drawn from real launches.',
     images: [
       {

@@ -6,11 +6,11 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Binance Listing PR Agency 2026 | Exchange Announcement Comms',
+  title: 'Binance Listing PR Agency 2026',
   description: 'Coordinate the announcement, embargo and KOL wave so a Binance listing actually lands in its 24-hour window.',
   alternates: { canonical: `${SITE_URL}/pages/binance-listing-pr-agency` },
   openGraph: {
-    title: 'Binance Listing PR Agency 2026 | Exchange Announcement Comms',
+    title: 'Binance Listing PR Agency 2026',
     description: 'Coordinate the announcement, embargo and KOL wave so a Binance listing actually lands in its 24-hour window.',
     url: `${SITE_URL}/pages/binance-listing-pr-agency`,
     type: 'website',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Binance Listing PR Agency 2026 | Exchange Announcement Comms',
+    title: 'Binance Listing PR Agency 2026',
     description: 'Coordinate the announcement, embargo and KOL wave so a Binance listing actually lands in its 24-hour window.',
     images: [
       {

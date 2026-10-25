@@ -7,11 +7,11 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Crypto Crisis Communications in 2026: Exploits, Hacks and Depegs',
+  title: 'Crypto Crisis Communications in 2026',
   description: 'The first hour decides the story. A field guide to running comms through an exploit, hack or depeg, with the holding-statement template.',
   alternates: { canonical: `${SITE_URL}/playbook/crypto-crisis-communications-2026` },
   openGraph: {
-    title: 'Crypto Crisis Communications in 2026: Exploits, Hacks and Depegs',
+    title: 'Crypto Crisis Communications in 2026',
     description: 'The first hour decides the story. A field guide to running comms through an exploit, hack or depeg, with the holding-statement template.',
     url: `${SITE_URL}/playbook/crypto-crisis-communications-2026`,
     type: 'article',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Crypto Crisis Communications in 2026: Exploits, Hacks and Depegs',
+    title: 'Crypto Crisis Communications in 2026',
     description: 'The first hour decides the story. A field guide to running comms through an exploit, hack or depeg, with the holding-statement template.',
     images: [
       {

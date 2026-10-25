@@ -6,11 +6,11 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Crypto Regulatory PR 2026 | Compliance-Aware Communications',
+  title: 'Crypto Regulatory PR 2026 | Compliance-Aware',
   description: 'Communications built around real regulatory constraints: what you can say, how to say it, and how to keep momentum without overreaching.',
   alternates: { canonical: `${SITE_URL}/pages/crypto-regulatory-pr` },
   openGraph: {
-    title: 'Crypto Regulatory PR 2026 | Compliance-Aware Communications',
+    title: 'Crypto Regulatory PR 2026 | Compliance-Aware',
     description: 'Communications built around real regulatory constraints: what you can say, how to say it, and how to keep momentum without overreaching.',
     url: `${SITE_URL}/pages/crypto-regulatory-pr`,
     type: 'website',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Crypto Regulatory PR 2026 | Compliance-Aware Communications',
+    title: 'Crypto Regulatory PR 2026 | Compliance-Aware',
     description: 'Communications built around real regulatory constraints: what you can say, how to say it, and how to keep momentum without overreaching.',
     images: [
       {

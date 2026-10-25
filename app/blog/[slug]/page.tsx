@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Script from 'next/script';
 import { notFound } from 'next/navigation';
 import { getAuthor, getPostBySlug, getRelatedPosts } from '@/lib/blog';
+import { blogSeoTitle } from '@/lib/blog-seo-titles';
 import { languageAlternates } from '@/lib/i18n/config';
 import { readingTimeMinutes, renderMarkdown } from '@/lib/markdown';
 import { extractToc } from '@/lib/toc';
@@ -35,7 +36,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   // that fits its topic (the single route-to-card mapping in scripts/media/og-map.mjs).
   const card = post.image ? null : topicShareCard(post.slug, post.title, ...post.tags);
   return {
-    title: post.title,
+    title: blogSeoTitle(post.slug, post.title),
     description: post.description,
     alternates: {
       canonical: url,

@@ -7,11 +7,11 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'The Three APAC Press Windows: Timing Crypto News for Asia in 2026',
+  title: 'The Three APAC Press Windows (2026)',
   description: 'Asia does not read your news when you publish it. The three regional press windows, the translation lag, and how to time a launch across them.',
   alternates: { canonical: `${SITE_URL}/playbook/apac-press-windows-2026` },
   openGraph: {
-    title: 'The Three APAC Press Windows: Timing Crypto News for Asia in 2026',
+    title: 'The Three APAC Press Windows (2026)',
     description: 'Asia does not read your news when you publish it. The three regional press windows, the translation lag, and how to time a launch across them.',
     url: `${SITE_URL}/playbook/apac-press-windows-2026`,
     type: 'article',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'The Three APAC Press Windows: Timing Crypto News for Asia in 2026',
+    title: 'The Three APAC Press Windows (2026)',
     description: 'Asia does not read your news when you publish it. The three regional press windows, the translation lag, and how to time a launch across them.',
     images: [
       {

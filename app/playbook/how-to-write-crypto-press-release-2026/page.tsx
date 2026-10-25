@@ -7,11 +7,11 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'How to Write a Crypto Press Release That Gets Picked Up in 2026',
+  title: 'How to Write a Crypto Press Release (2026)',
   description: 'Most releases die in the inbox. The structure, the dated news peg, and the compliance lines that make a release pickup-ready.',
   alternates: { canonical: `${SITE_URL}/playbook/how-to-write-crypto-press-release-2026` },
   openGraph: {
-    title: 'How to Write a Crypto Press Release That Gets Picked Up in 2026',
+    title: 'How to Write a Crypto Press Release (2026)',
     description: 'Most releases die in the inbox. The structure, the dated news peg, and the compliance lines that make a release pickup-ready.',
     url: `${SITE_URL}/playbook/how-to-write-crypto-press-release-2026`,
     type: 'article',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'How to Write a Crypto Press Release That Gets Picked Up in 2026',
+    title: 'How to Write a Crypto Press Release (2026)',
     description: 'Most releases die in the inbox. The structure, the dated news peg, and the compliance lines that make a release pickup-ready.',
     images: [
       {

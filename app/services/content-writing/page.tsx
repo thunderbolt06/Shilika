@@ -6,12 +6,12 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Content Writing for Web3 & AI Founders: Op-Eds, Whitepapers',
+  title: 'Web3 & AI Content Writing: Op-Eds & Papers',
   description: 'Ghostwritten op-eds, whitepapers, founder essays for Web3 and AI startups. Forbes-grade voice, technical accuracy, AI-search ready. From a senior PR operator.',
   
   alternates: { canonical: 'https://www.shilikajain.com/services/content-writing' },
   openGraph: {
-    title: 'Content Writing for Web3 & AI Founders: Op-Eds, Whitepapers',
+    title: 'Web3 & AI Content Writing: Op-Eds & Papers',
     description: 'Op-eds, whitepapers, founder essays ghostwritten by a senior PR operator. Forbes-grade voice, technical accuracy, AI-search ready.',
     url: 'https://www.shilikajain.com/services/content-writing',
     type: 'website',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Content Writing for Web3 & AI Founders: Op-Eds, Whitepapers',
+    title: 'Web3 & AI Content Writing: Op-Eds & Papers',
     description: 'Op-eds, whitepapers, founder essays ghostwritten by a senior PR operator. Forbes-grade voice, technical accuracy, AI-search ready.',
     images: [
       {

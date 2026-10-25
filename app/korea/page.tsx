@@ -7,11 +7,11 @@ import { languageAlternates } from '@/lib/i18n/config';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Korea Web3 & AI PR 2026: BloomingBit, TokenPost, KBW Seoul',
+  title: 'Korea Web3 & AI PR 2026: BloomingBit, KBW',
   description: 'Korea PR for Web3 and AI founders. BloomingBit, TokenPost, BlockMedia, Yonhap. FSC and DABA-aware framing, Korea Fintech Week Nov 2026, Upbit listings.',
   alternates: { canonical: `${SITE_URL}/korea`, languages: languageAlternates('/korea') },
   openGraph: {
-    title: 'Korea Web3 & AI PR 2026: BloomingBit, TokenPost, KBW Seoul',
+    title: 'Korea Web3 & AI PR 2026: BloomingBit, KBW',
     description: 'Korea PR for Web3 and AI founders. BloomingBit, TokenPost, BlockMedia, Coinness, CoinReaders, Yonhap, Chosun Biz, Maeil Business. FSC and DABA-aware framing, post-KBW 2026 follow-up, Korea Fintech Week 25 to 27 Nov 2026, KRW-stablecoin frame.',
     url: `${SITE_URL}/korea`,
     type: 'website',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Korea Web3 & AI PR 2026: BloomingBit, TokenPost, KBW Seoul',
+    title: 'Korea Web3 & AI PR 2026: BloomingBit, KBW',
     description: 'Korea PR for Web3 and AI founders. FSC-aware framing, Korea Fintech Week Nov 2026, KRW-stablecoin and DABA anchor.',
     images: [
       {

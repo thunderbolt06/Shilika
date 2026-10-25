@@ -6,11 +6,11 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Crypto Exchange PR Agency 2026 | Listings, Security, Access',
+  title: 'Crypto Exchange PR Agency 2026',
   description: 'Comms across listings, security, regulation and regional access, with crisis readiness so one breach does not erase it all.',
   alternates: { canonical: `${SITE_URL}/pages/crypto-exchange-pr-agency` },
   openGraph: {
-    title: 'Crypto Exchange PR Agency 2026 | Listings, Security, Access',
+    title: 'Crypto Exchange PR Agency 2026',
     description: 'Comms across listings, security, regulation and regional access, with crisis readiness so one breach does not erase it all.',
     url: `${SITE_URL}/pages/crypto-exchange-pr-agency`,
     type: 'website',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Crypto Exchange PR Agency 2026 | Listings, Security, Access',
+    title: 'Crypto Exchange PR Agency 2026',
     description: 'Comms across listings, security, regulation and regional access, with crisis readiness so one breach does not erase it all.',
     images: [
       {

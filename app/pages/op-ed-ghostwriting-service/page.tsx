@@ -6,11 +6,11 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Op-Ed Ghostwriting Service 2026 | Editor-Ready Founder Essays',
+  title: 'Op-Ed Ghostwriting Service 2026',
   description: 'Your name, your thinking, an editor-ready op-ed placed on a real opinion desk, in your voice.',
   alternates: { canonical: `${SITE_URL}/pages/op-ed-ghostwriting-service` },
   openGraph: {
-    title: 'Op-Ed Ghostwriting Service 2026 | Editor-Ready Founder Essays',
+    title: 'Op-Ed Ghostwriting Service 2026',
     description: 'Your name, your thinking, an editor-ready op-ed placed on a real opinion desk, in your voice.',
     url: `${SITE_URL}/pages/op-ed-ghostwriting-service`,
     type: 'website',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Op-Ed Ghostwriting Service 2026 | Editor-Ready Founder Essays',
+    title: 'Op-Ed Ghostwriting Service 2026',
     description: 'Your name, your thinking, an editor-ready op-ed placed on a real opinion desk, in your voice.',
     images: [
       {

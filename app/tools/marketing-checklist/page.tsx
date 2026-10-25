@@ -14,7 +14,7 @@ const DESCRIPTION = `Free interactive startup marketing checklist: ${ITEM_COUNT}
 
 export const metadata = toolMetadata({
   path: PATH,
-  title: 'Startup Marketing Checklist: Launch Phases and 20 Channels',
+  title: 'Startup Marketing Checklist: 20 Channels',
   description: DESCRIPTION,
   ogTitle: NAME,
 });

@@ -7,12 +7,12 @@ import { languageAlternates } from '@/lib/i18n/config';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'About Shilika Jain: Fractional PR for Web3 & AI Founders',
+  title: 'About Shilika Jain: Fractional Web3 & AI PR',
   description: 'Senior fractional PR for Web3, AI and cybersecurity founders. 6 years, 50+ protocols, 200+ KOLs. Forbes, CoinDesk, Decrypt placements. Book a teardown.',
   
   alternates: { canonical: 'https://www.shilikajain.com/about', languages: languageAlternates('/about') },
   openGraph: {
-    title: 'About Shilika Jain: Fractional PR for Web3 & AI Founders',
+    title: 'About Shilika Jain: Fractional Web3 & AI PR',
     description: 'Six years placing Web3, AI and cybersecurity founders into Forbes, CoinDesk, Cointelegraph, Decrypt, Blockworks and AI Magazine. APAC operator. Currently leading PR at Myosin.',
     url: 'https://www.shilikajain.com/about',
     type: 'profile',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'About Shilika Jain: Fractional PR for Web3 & AI Founders',
+    title: 'About Shilika Jain: Fractional Web3 & AI PR',
     description: 'Six years placing Web3, AI and cybersecurity founders into Forbes, CoinDesk, Cointelegraph, Decrypt, Blockworks and AI Magazine. APAC operator. Currently leading PR at Myosin.',
     images: [
       {

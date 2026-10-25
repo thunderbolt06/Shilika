@@ -7,11 +7,11 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Free Token Listing and Press Release Sites: Worth It in 2026?',
+  title: 'Free Token Listing Press Sites: Worth It?',
   description: 'The honest read on free listing and PR sites: what they do for visibility, where they hurt credibility, and what to use instead.',
   alternates: { canonical: `${SITE_URL}/playbook/free-token-listing-press-sites-2026` },
   openGraph: {
-    title: 'Free Token Listing and Press Release Sites: Worth It in 2026?',
+    title: 'Free Token Listing Press Sites: Worth It?',
     description: 'The honest read on free listing and PR sites: what they do for visibility, where they hurt credibility, and what to use instead.',
     url: `${SITE_URL}/playbook/free-token-listing-press-sites-2026`,
     type: 'article',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Free Token Listing and Press Release Sites: Worth It in 2026?',
+    title: 'Free Token Listing Press Sites: Worth It?',
     description: 'The honest read on free listing and PR sites: what they do for visibility, where they hurt credibility, and what to use instead.',
     images: [
       {

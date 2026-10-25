@@ -6,11 +6,11 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Crypto Publicist 2026 | Senior Attention vs Agency Bench',
+  title: 'Crypto Publicist 2026 | Senior Attention',
   description: 'What a solo publicist gives you that an agency cannot, and which fits your stage and budget.',
   alternates: { canonical: `${SITE_URL}/pages/crypto-publicist` },
   openGraph: {
-    title: 'Crypto Publicist 2026 | Senior Attention vs Agency Bench',
+    title: 'Crypto Publicist 2026 | Senior Attention',
     description: 'What a solo publicist gives you that an agency cannot, and which fits your stage and budget.',
     url: `${SITE_URL}/pages/crypto-publicist`,
     type: 'website',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Crypto Publicist 2026 | Senior Attention vs Agency Bench',
+    title: 'Crypto Publicist 2026 | Senior Attention',
     description: 'What a solo publicist gives you that an agency cannot, and which fits your stage and budget.',
     images: [
       {

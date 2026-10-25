@@ -7,11 +7,11 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Crypto Presale and Launchpad Marketing Playbook for 2026',
+  title: 'Crypto Presale & Launchpad Marketing 2026',
   description: 'Launchpads bring liquidity, not narrative. How to build demand and credibility around a presale without the usual hype-cycle damage.',
   alternates: { canonical: `${SITE_URL}/playbook/crypto-presale-launchpad-marketing-2026` },
   openGraph: {
-    title: 'Crypto Presale and Launchpad Marketing Playbook for 2026',
+    title: 'Crypto Presale & Launchpad Marketing 2026',
     description: 'Launchpads bring liquidity, not narrative. How to build demand and credibility around a presale without the usual hype-cycle damage.',
     url: `${SITE_URL}/playbook/crypto-presale-launchpad-marketing-2026`,
     type: 'article',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Crypto Presale and Launchpad Marketing Playbook for 2026',
+    title: 'Crypto Presale & Launchpad Marketing 2026',
     description: 'Launchpads bring liquidity, not narrative. How to build demand and credibility around a presale without the usual hype-cycle damage.',
     images: [
       {

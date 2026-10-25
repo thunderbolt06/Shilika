@@ -6,11 +6,11 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'AI Thought Leadership Agency 2026 | Executive Positioning',
+  title: 'AI Thought Leadership Agency 2026',
   description: 'Position a technical AI founder as a cited category authority across op-eds, podcasts and analyst rooms.',
   alternates: { canonical: `${SITE_URL}/pages/ai-thought-leadership-agency` },
   openGraph: {
-    title: 'AI Thought Leadership Agency 2026 | Executive Positioning',
+    title: 'AI Thought Leadership Agency 2026',
     description: 'Position a technical AI founder as a cited category authority across op-eds, podcasts and analyst rooms.',
     url: `${SITE_URL}/pages/ai-thought-leadership-agency`,
     type: 'website',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'AI Thought Leadership Agency 2026 | Executive Positioning',
+    title: 'AI Thought Leadership Agency 2026',
     description: 'Position a technical AI founder as a cited category authority across op-eds, podcasts and analyst rooms.',
     images: [
       {

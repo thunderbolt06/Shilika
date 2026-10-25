@@ -7,11 +7,11 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Crypto Press Release Distribution in 2026: What Actually Works',
+  title: 'Crypto Press Release Distribution in 2026',
   description: 'Wires, crypto-native PR networks, and direct pitching compared. Where distribution helps, where it is theatre, and what editors actually read.',
   alternates: { canonical: `${SITE_URL}/playbook/crypto-press-release-distribution-2026` },
   openGraph: {
-    title: 'Crypto Press Release Distribution in 2026: What Actually Works',
+    title: 'Crypto Press Release Distribution in 2026',
     description: 'Wires, crypto-native PR networks, and direct pitching compared. Where distribution helps, where it is theatre, and what editors actually read.',
     url: `${SITE_URL}/playbook/crypto-press-release-distribution-2026`,
     type: 'article',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Crypto Press Release Distribution in 2026: What Actually Works',
+    title: 'Crypto Press Release Distribution in 2026',
     description: 'Wires, crypto-native PR networks, and direct pitching compared. Where distribution helps, where it is theatre, and what editors actually read.',
     images: [
       {

@@ -6,11 +6,11 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Crypto PR Agency Korea 2026 | BloomingBit, TokenPost, KOLs',
+  title: 'Crypto PR Agency Korea 2026 | BloomingBit',
   description: 'Native Korean placement and KOL access in the market that drives roughly half of Asia\'s crypto media traffic.',
   alternates: { canonical: `${SITE_URL}/pages/crypto-pr-agency-korea` },
   openGraph: {
-    title: 'Crypto PR Agency Korea 2026 | BloomingBit, TokenPost, KOLs',
+    title: 'Crypto PR Agency Korea 2026 | BloomingBit',
     description: 'Native Korean placement and KOL access in the market that drives roughly half of Asia\'s crypto media traffic.',
     url: `${SITE_URL}/pages/crypto-pr-agency-korea`,
     type: 'website',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Crypto PR Agency Korea 2026 | BloomingBit, TokenPost, KOLs',
+    title: 'Crypto PR Agency Korea 2026 | BloomingBit',
     description: 'Native Korean placement and KOL access in the market that drives roughly half of Asia\'s crypto media traffic.',
     images: [
       {

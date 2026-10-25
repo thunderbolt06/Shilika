@@ -35,7 +35,8 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   const card = ogImage(`/authors/${author.slug}`, SITE_URL);
   const description = clipDescription(author.bio);
   return {
-    title: `${author.name} - ${author.title}`,
+    // Name and role already identify the site, so skip the layout's "| Shilika Jain" suffix.
+    title: { absolute: `${author.name} - ${author.title}` },
     description,
     alternates: { canonical: url },
     openGraph: {

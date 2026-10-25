@@ -4,7 +4,7 @@
     {
       "@type": "BlogPosting",
       "@id": "https://www.shilikajain.com/playbook/cybersecurity-analyst-relations-2026#article",
-      "headline": "Cybersecurity Analyst Relations in 2026: Gartner, Forrester and IDC",
+      "headline": "Cybersecurity Analyst Relations in 2026",
       "alternativeHeadline": "How cybersecurity vendors earn Magic Quadrant and Wave inclusion: briefing cadence, AR vs PR, and the twelve-month roadmap",
       "description": "Analysts shape the enterprise shortlist before press ever runs. This 2026 playbook covers how cybersecurity vendors build Gartner, Forrester and IDC relationships, what Magic Quadrant and Wave inclusion actually requires, the right briefing cadence, and how AR and PR must stay in sync.",
       "url": "https://www.shilikajain.com/playbook/cybersecurity-analyst-relations-2026",
@@ -79,7 +79,7 @@
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
         { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
-        { "@type": "ListItem", "position": 3, "name": "Cybersecurity Analyst Relations in 2026: Gartner, Forrester and IDC", "item": "https://www.shilikajain.com/playbook/cybersecurity-analyst-relations-2026" }
+        { "@type": "ListItem", "position": 3, "name": "Cybersecurity Analyst Relations in 2026", "item": "https://www.shilikajain.com/playbook/cybersecurity-analyst-relations-2026" }
       ]
     },
     {

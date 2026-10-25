@@ -6,12 +6,12 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Best Web3 PR Agency in 2026 | Fractional Senior Operator',
+  title: 'Best Web3 PR Agency in 2026 | Fractional',
   description:
     'Hire a fractional senior Web3 PR operator instead of a $15K–$45K/mo agency. 50+ founders placed in Forbes, CoinDesk, Cointelegraph and Decrypt. Book a call.',
   alternates: { canonical: `${SITE_URL}/pages/web3-pr-agency` },
   openGraph: {
-    title: 'Best Web3 PR Agency in 2026 | Fractional Senior Operator',
+    title: 'Best Web3 PR Agency in 2026 | Fractional',
     description:
       'A fractional senior Web3 PR operator who actually pitches your story. 50+ founders placed across tier-1 crypto and mainstream press.',
     url: `${SITE_URL}/pages/web3-pr-agency`,
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Best Web3 PR Agency in 2026 | Fractional Senior Operator',
+    title: 'Best Web3 PR Agency in 2026 | Fractional',
     description:
       'A fractional senior Web3 PR operator who actually pitches your story. 50+ founders placed across tier-1 crypto and mainstream press.',
     images: [

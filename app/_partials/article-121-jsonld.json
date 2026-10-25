@@ -4,7 +4,7 @@
     {
       "@type": "BlogPosting",
       "@id": "https://www.shilikajain.com/playbook/zk-proof-pr-2026#article",
-      "headline": "Zero-Knowledge Proof PR in 2026: Explaining ZK Without Losing the Reader",
+      "headline": "Zero-Knowledge Proof PR in 2026",
       "alternativeHeadline": "The translation layer that turns proof systems into a story a mainstream reporter can run",
       "description": "ZK is the hardest infrastructure story in Web3 to explain to a reporter with ninety seconds to spare. This 2026 playbook covers the three ZK stories that actually get covered, the jargon audit, outlet-by-outlet fit for The Block, Blockworks, Decrypt, CoinDesk and Forbes, and how to sequence a ZK launch around a translation-first explainer.",
       "url": "https://www.shilikajain.com/playbook/zk-proof-pr-2026",
@@ -66,7 +66,7 @@
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
         { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
-        { "@type": "ListItem", "position": 3, "name": "Zero-Knowledge Proof PR in 2026: Explaining ZK Without Losing the Reader", "item": "https://www.shilikajain.com/playbook/zk-proof-pr-2026" }
+        { "@type": "ListItem", "position": 3, "name": "Zero-Knowledge Proof PR in 2026", "item": "https://www.shilikajain.com/playbook/zk-proof-pr-2026" }
       ]
     },
     {

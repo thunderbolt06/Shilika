@@ -6,11 +6,11 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Enterprise AI PR Agency 2026 | Analyst Relations + Trade Press',
+  title: 'Enterprise AI PR Agency 2026',
   description: 'Analyst relations, customer proof and trade press that land in the rooms an enterprise buyer actually reads.',
   alternates: { canonical: `${SITE_URL}/pages/enterprise-ai-pr-agency` },
   openGraph: {
-    title: 'Enterprise AI PR Agency 2026 | Analyst Relations + Trade Press',
+    title: 'Enterprise AI PR Agency 2026',
     description: 'Analyst relations, customer proof and trade press that land in the rooms an enterprise buyer actually reads.',
     url: `${SITE_URL}/pages/enterprise-ai-pr-agency`,
     type: 'website',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Enterprise AI PR Agency 2026 | Analyst Relations + Trade Press',
+    title: 'Enterprise AI PR Agency 2026',
     description: 'Analyst relations, customer proof and trade press that land in the rooms an enterprise buyer actually reads.',
     images: [
       {

@@ -6,11 +6,11 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Web3 Marketing Agency 2026 | Vetting Questions & Red Flags',
+  title: 'Web3 Marketing Agency 2026 | Red Flags',
   description: 'The questions that expose real depth, the red flags, and how to match model to stage.',
   alternates: { canonical: `${SITE_URL}/pages/web3-marketing-agency` },
   openGraph: {
-    title: 'Web3 Marketing Agency 2026 | Vetting Questions & Red Flags',
+    title: 'Web3 Marketing Agency 2026 | Red Flags',
     description: 'The questions that expose real depth, the red flags, and how to match model to stage.',
     url: `${SITE_URL}/pages/web3-marketing-agency`,
     type: 'website',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Web3 Marketing Agency 2026 | Vetting Questions & Red Flags',
+    title: 'Web3 Marketing Agency 2026 | Red Flags',
     description: 'The questions that expose real depth, the red flags, and how to match model to stage.',
     images: [
       {

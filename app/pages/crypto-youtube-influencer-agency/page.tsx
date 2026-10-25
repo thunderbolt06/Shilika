@@ -6,11 +6,11 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Crypto YouTube Influencer Agency 2026 | Deep-Dive Creators',
+  title: 'Crypto YouTube Influencer Agency 2026',
   description: 'Long-form YouTube creator partnerships for projects that reward a real explanation, vetted for genuine audiences.',
   alternates: { canonical: `${SITE_URL}/pages/crypto-youtube-influencer-agency` },
   openGraph: {
-    title: 'Crypto YouTube Influencer Agency 2026 | Deep-Dive Creators',
+    title: 'Crypto YouTube Influencer Agency 2026',
     description: 'Long-form YouTube creator partnerships for projects that reward a real explanation, vetted for genuine audiences.',
     url: `${SITE_URL}/pages/crypto-youtube-influencer-agency`,
     type: 'website',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Crypto YouTube Influencer Agency 2026 | Deep-Dive Creators',
+    title: 'Crypto YouTube Influencer Agency 2026',
     description: 'Long-form YouTube creator partnerships for projects that reward a real explanation, vetted for genuine audiences.',
     images: [
       {
