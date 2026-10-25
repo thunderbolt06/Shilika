@@ -5,6 +5,7 @@ import Script from 'next/script';
 import { ClientReBoot } from '@/components/site/ClientReBoot';
 import { assetUrl } from '@/lib/asset-url';
 import { languageAlternates } from '@/lib/i18n/config';
+import { jsonLdString } from '@/lib/json-ld';
 import { LANG_TOGGLE_SLOT, languageToggleHtml } from '@/lib/i18n/toggle';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
@@ -65,7 +66,7 @@ export default function HomePage() {
       <script
         id="homepage-jsonld"
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: jsonLd }}
+        dangerouslySetInnerHTML={{ __html: jsonLdString(jsonLd) }}
       />
       <div dangerouslySetInnerHTML={{ __html: body }} />
       {/* Blocking on purpose: binds the intro deck as soon as its markup is

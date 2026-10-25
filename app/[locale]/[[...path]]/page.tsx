@@ -25,9 +25,9 @@ import {
 } from '@/lib/i18n/config';
 import { getPublishedPost, loadCatalogue, loadUi, localizeHtml, type Catalogue } from '@/lib/i18n/load';
 import { ogImage } from '@/lib/i18n/og';
-import { jsonLdString } from '@/lib/json-ld';
 import { withEm } from '@/lib/i18n/rich';
 import { LANG_TOGGLE_SLOT, languageToggleHtml } from '@/lib/i18n/toggle';
+import { jsonLdString, withOrganization } from '@/lib/json-ld';
 import { stripLegacyChrome } from '@/lib/legacy-chrome';
 import { readingTimeMinutes, renderMarkdown } from '@/lib/markdown';
 import { extractToc } from '@/lib/toc';
@@ -306,11 +306,14 @@ export default async function LocalizedPage({ params }: { params: Params }) {
   const { locale, page, catalogue } = await resolve(params);
   const image = await shareImage(page);
   const dates = await articleDates(page);
+  // Plain <script>, not next/script: it must be in the served HTML for crawlers that skip JS.
+  // The translated homepages carry the site's Organization item (with sameAs) like the English one.
+  const doc = jsonLd(page, locale, catalogue, image, dates);
   const ld = (
     <script
       id={`i18n-jsonld-${page.key}`}
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: jsonLdString(jsonLd(page, locale, catalogue, image, dates)) }}
+      dangerouslySetInnerHTML={{ __html: jsonLdString(page.kind === 'home' ? withOrganization(doc) : doc) }}
     />
   );
 
