@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import type { Metadata } from 'next';
-import Script from 'next/script';
+import { JsonLdScript } from '@/components/site/JsonLdScript';
 import '../blog/blog.css';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
@@ -1024,20 +1024,38 @@ const PLAYBOOKS = [
   },
 ];
 
-function loadJsonLd(): string {
-  return fs.readFileSync(path.join(process.cwd(), 'app/_partials/playbook-jsonld.json'), 'utf8');
+// The partial carries the CollectionPage/Breadcrumb nodes; the ItemList is built from
+// PLAYBOOKS so the markup always matches the cards on the page.
+function buildJsonLd() {
+  const raw = JSON.parse(
+    fs.readFileSync(path.join(process.cwd(), 'app/_partials/playbook-jsonld.json'), 'utf8'),
+  ) as { '@context': string; '@graph': Record<string, unknown>[] };
+  const listId = `${SITE_URL}/playbook#list`;
+  const graph = raw['@graph'].map((node) =>
+    node['@type'] === 'CollectionPage' ? { ...node, mainEntity: { '@id': listId } } : node,
+  );
+  const list = (raw['@graph'].find((n) => n['@type'] === 'CollectionPage')?.mainEntity ??
+    {}) as Record<string, unknown>;
+  const { itemListElement: _stale, ...listMeta } = list;
+  graph.splice(1, 0, {
+    ...listMeta,
+    '@type': 'ItemList',
+    '@id': listId,
+    numberOfItems: PLAYBOOKS.length,
+    itemListElement: PLAYBOOKS.map((p, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      url: `${SITE_URL}/playbook/${p.slug}`,
+      name: p.title,
+    })),
+  });
+  return { ...raw, '@graph': graph };
 }
 
 export default function PlaybookIndexPage() {
-  const jsonLd = loadJsonLd();
   return (
     <>
-      <Script
-        id="playbook-collection-jsonld"
-        type="application/ld+json"
-        strategy="beforeInteractive"
-        dangerouslySetInnerHTML={{ __html: jsonLd }}
-      />
+      <JsonLdScript id="playbook-collection-jsonld" data={buildJsonLd()} />
       <main className="blog-page">
         <div className="blog-page-inner">
           <section className="blog-index-hero">

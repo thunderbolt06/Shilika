@@ -1,8 +1,8 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import type { Metadata } from 'next';
-import Script from 'next/script';
 import { languageAlternates } from '@/lib/i18n/config';
+import { jsonLdString, withOrganization } from '@/lib/json-ld';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
@@ -42,7 +42,7 @@ function loadBody(): string {
 }
 
 function loadJsonLd(): string {
-  return fs.readFileSync(path.join(process.cwd(), 'app/_partials/india-jsonld.json'), 'utf8');
+  return jsonLdString(withOrganization(fs.readFileSync(path.join(process.cwd(), 'app/_partials/india-jsonld.json'), 'utf8')));
 }
 
 export default function Page() {
@@ -50,7 +50,7 @@ export default function Page() {
   const jsonLd = loadJsonLd();
   return (
     <>
-      <Script id="india-jsonld" type="application/ld+json" strategy="beforeInteractive" dangerouslySetInnerHTML={{ __html: jsonLd }} />
+      <script id="india-jsonld" type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd }} />
       <div dangerouslySetInnerHTML={{ __html: body }} />
     </>
   );

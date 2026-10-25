@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import Script from 'next/script';
+import { JsonLdScript } from '@/components/site/JsonLdScript';
 import { EditorialScripts } from '@/components/site/EditorialScripts';
 import { EditorialShell } from '@/components/site/EditorialChrome';
 import { PhotoBand, PosterWall } from '@/components/site/Media';
@@ -230,15 +230,9 @@ function buildJsonLd() {
 }
 
 export default function ResourcesPage() {
-  const jsonLd = JSON.stringify(buildJsonLd());
   return (
     <>
-      <Script
-        id="resources-collection-jsonld"
-        type="application/ld+json"
-        strategy="beforeInteractive"
-        dangerouslySetInnerHTML={{ __html: jsonLd }}
-      />
+      <JsonLdScript id="resources-collection-jsonld" data={buildJsonLd()} />
       <EditorialShell active="playbook">
         <main className="blog-page">
           <div className="blog-page-inner">
