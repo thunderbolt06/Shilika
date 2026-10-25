@@ -27,6 +27,19 @@ export async function getServerSupabase() {
 }
 
 /**
+ * Cookie-less anon client for public, visitor-independent reads (blog, authors).
+ * getServerSupabase() calls cookies(), which opts every page that uses it into
+ * dynamic rendering and makes `export const revalidate` a no-op - each request
+ * then waits on Supabase (3-4 s TTFB). This client never touches request
+ * state, so pages stay ISR-cached. RLS applies (anon role).
+ */
+export function getPublicSupabase() {
+  return createClient(SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY, {
+    auth: { persistSession: false, autoRefreshToken: false },
+  });
+}
+
+/**
  * Service-role client. Bypasses RLS. Use only in trusted server contexts:
  * admin API routes, cron jobs, server actions guarded by admin session.
  * Never expose to the client.
