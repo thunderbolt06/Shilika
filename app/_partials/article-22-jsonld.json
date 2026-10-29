@@ -4,7 +4,7 @@
     {
       "@type": "BlogPosting",
       "@id": "https://www.shilikajain.com/playbook/press-coverage-startup-without-investors-2026#article",
-      "headline": "How to Get Press Coverage for a Startup Without Investors",
+      "headline": "Startup Press Coverage Without Investors",
       "alternativeHeadline": "Non-funding news hooks, product and data angles, and the bootstrapped-startup pitch that earns editorial coverage",
       "description": "Funding is one of six news hooks editors act on, not the only one. This 2026 playbook covers the five non-funding angles that earn genuine media coverage for Web3 and AI startups: product milestones with real metrics, proprietary data, founder op-eds, verifiable community traction, and category-defining counter-narratives. Includes pitch structure, outlet selection, and what bootstrapped founders can say that funded peers cannot.",
       "url": "https://www.shilikajain.com/playbook/press-coverage-startup-without-investors-2026",
@@ -85,7 +85,7 @@
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
         { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
-        { "@type": "ListItem", "position": 3, "name": "How to Get Press Coverage for a Startup Without Investors", "item": "https://www.shilikajain.com/playbook/press-coverage-startup-without-investors-2026" }
+        { "@type": "ListItem", "position": 3, "name": "Startup Press Coverage Without Investors", "item": "https://www.shilikajain.com/playbook/press-coverage-startup-without-investors-2026" }
       ]
     },
     {

@@ -27,7 +27,7 @@ BLOCK_RE = re.compile(r'\n?<aside class="x-notes".*?</aside>\n?', re.S)
 
 
 def partial_for(route: str) -> str:
-    page = open(os.path.join(ROOT, "app", route.strip("/"), "page.tsx"), encoding="utf-8").read()
+    page = open(os.path.join(ROOT, "app", "(site)", route.strip("/"), "page.tsx"), encoding="utf-8").read()
     m = re.search(r"app/_partials/(article-\d+-body\.html)", page)
     if not m:
         raise SystemExit(f"no body partial referenced by {route}")

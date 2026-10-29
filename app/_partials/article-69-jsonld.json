@@ -4,7 +4,7 @@
     {
       "@type": "BlogPosting",
       "@id": "https://www.shilikajain.com/playbook/how-to-submit-op-ed-techcrunch-2026#article",
-      "headline": "How to Submit an Op-Ed to TechCrunch (and Where Else) in 2026",
+      "headline": "How to Submit an Op-Ed to TechCrunch (2026)",
       "alternativeHeadline": "The real opinion-desk map for tech and Web3 founders, and the submission approach that actually works",
       "description": "TechCrunch rarely runs outside op-eds, so where do founder essays actually land? This 2026 playbook maps 12-20 tier-1 opinion desks across crypto, mainstream tech, AI and regional outlets, explains what each editor screens for, covers the ghostwriting question, and gives the pitch anatomy that separates the 5% that land from the rest.",
       "url": "https://www.shilikajain.com/playbook/how-to-submit-op-ed-techcrunch-2026",
@@ -85,7 +85,7 @@
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
         { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
-        { "@type": "ListItem", "position": 3, "name": "How to Submit an Op-Ed to TechCrunch (and Where Else) in 2026", "item": "https://www.shilikajain.com/playbook/how-to-submit-op-ed-techcrunch-2026" }
+        { "@type": "ListItem", "position": 3, "name": "How to Submit an Op-Ed to TechCrunch (2026)", "item": "https://www.shilikajain.com/playbook/how-to-submit-op-ed-techcrunch-2026" }
       ]
     },
     {

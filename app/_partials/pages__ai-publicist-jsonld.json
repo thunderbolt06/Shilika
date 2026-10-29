@@ -86,6 +86,45 @@
           }
         }
       ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://www.shilikajain.com/pages/ai-publicist#article",
+      "headline": "AI Publicist 2026 | Specialist AI Founder PR",
+      "description": "What an AI publicist should actually deliver, and the senior fractional model that delivers it: the technical story, tier-1 press and AI-search visibility.",
+      "url": "https://www.shilikajain.com/pages/ai-publicist",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/pages/ai-publicist"
+      },
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-10-25",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain - Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      },
+      "about": {
+        "@id": "https://www.shilikajain.com/pages/ai-publicist#service"
+      },
+      "alternativeHeadline": "An AI publicist who is a specialist, not a rebadge."
     }
   ]
 }

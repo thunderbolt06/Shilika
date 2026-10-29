@@ -4,7 +4,7 @@
     {
       "@type": "BlogPosting",
       "@id": "https://www.shilikajain.com/playbook/crypto-presale-launchpad-marketing-2026#article",
-      "headline": "Crypto Presale and Launchpad Marketing Playbook for 2026",
+      "headline": "Crypto Presale & Launchpad Marketing 2026",
       "alternativeHeadline": "How to build demand and credibility around a presale without the usual hype-cycle damage",
       "description": "Launchpads bring liquidity, not narrative. This 2026 playbook covers the 8-to-12-week pre-token narrative runway, KOL tier sequencing, tier-1 media placements that move presale buyer conviction, tokenomics communication, and the budget ranges for fractional PR operators versus full agencies on a token launch.",
       "url": "https://www.shilikajain.com/playbook/crypto-presale-launchpad-marketing-2026",
@@ -70,11 +70,55 @@
       }
     },
     {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/playbook/crypto-presale-launchpad-marketing-2026#service",
+      "name": "Crypto Presale and Launchpad PR",
+      "serviceType": "Token Launch PR",
+      "url": "https://www.shilikajain.com/playbook/crypto-presale-launchpad-marketing-2026",
+      "description": "Fractional senior PR for crypto presales and launchpad listings: a credible narrative built 8 to 12 weeks before token day, a sequenced KOL program, and tier-1 media placements buyers can cite.",
+      "provider": { "@id": "https://www.shilikajain.com/#person" },
+      "areaServed": "Global",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Crypto founders and token teams preparing a presale or launchpad sale"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Crypto presale PR offerings",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Fractional senior PR retainer (8 to 12 week presale runway)" },
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "USD",
+              "minPrice": 3000,
+              "maxPrice": 7000,
+              "unitText": "MONTH",
+              "description": "KOL and media placement budget is additional"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Presale launch sprint (6 weeks pre-TGE to 2 weeks post-TGE)" },
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "priceCurrency": "USD",
+              "minPrice": 15000,
+              "maxPrice": 40000,
+              "description": "Total for a packaged launch sprint, depending on scope and number of tier-1 placements"
+            }
+          }
+        ]
+      },
+      "inLanguage": "en"
+    },
+    {
       "@type": "BreadcrumbList",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
         { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
-        { "@type": "ListItem", "position": 3, "name": "Crypto Presale and Launchpad Marketing Playbook for 2026", "item": "https://www.shilikajain.com/playbook/crypto-presale-launchpad-marketing-2026" }
+        { "@type": "ListItem", "position": 3, "name": "Crypto Presale & Launchpad Marketing 2026", "item": "https://www.shilikajain.com/playbook/crypto-presale-launchpad-marketing-2026" }
       ]
     },
     {

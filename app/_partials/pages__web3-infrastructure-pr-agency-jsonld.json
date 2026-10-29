@@ -86,6 +86,45 @@
           }
         }
       ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://www.shilikajain.com/pages/web3-infrastructure-pr-agency#article",
+      "headline": "Web3 Infrastructure PR Agency 2026",
+      "description": "Make wallets, oracles, RPCs and middleware newsworthy, with the Web3Auth Google Cloud story as the model.",
+      "url": "https://www.shilikajain.com/pages/web3-infrastructure-pr-agency",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/pages/web3-infrastructure-pr-agency"
+      },
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-10-25",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain - Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      },
+      "about": {
+        "@id": "https://www.shilikajain.com/pages/web3-infrastructure-pr-agency#service"
+      },
+      "alternativeHeadline": "Infra PR that borrows the partner's credibility."
     }
   ]
 }

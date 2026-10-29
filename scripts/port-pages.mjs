@@ -20,6 +20,7 @@ import process from 'node:process';
 const ROOT = process.cwd();
 const PUBLIC_DIR = path.join(ROOT, 'public');
 const APP_DIR = path.join(ROOT, 'app');
+const SITE_DIR = path.join(APP_DIR, '(site)'); // English route group
 const PARTIALS_DIR = path.join(APP_DIR, '_partials');
 
 const SOURCES = [
@@ -306,7 +307,7 @@ async function portOne({ html: rel, route, noindex }) {
     );
   }
 
-  const pageDir = path.join(APP_DIR, ...route.split('/'));
+  const pageDir = path.join(SITE_DIR, ...route.split('/'));
   await ensureDir(pageDir);
   const page = pageTemplate({ route, slug, head, hasJsonLd, externalScripts, hasSiteJs });
   await fs.writeFile(path.join(pageDir, 'page.tsx'), page, 'utf8');

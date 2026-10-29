@@ -82,6 +82,49 @@
       }
     },
     {
+      "@type": "Service",
+      "@id": "https://www.shilikajain.com/playbook/ai-series-a-funding-announcement-pr-2026#service",
+      "name": "AI Series A Funding Announcement PR",
+      "serviceType": "AI Startup PR",
+      "url": "https://www.shilikajain.com/playbook/ai-series-a-funding-announcement-pr-2026",
+      "description": "Fractional senior PR for AI startups announcing a Series A: a category story built around the raise, tier-1 outlet targeting, investor quote briefs, and AI-search assets that outlast the 72-hour news cycle.",
+      "provider": { "@id": "https://www.shilikajain.com/#person" },
+      "areaServed": "Global",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "AI founders and AI startup CMOs preparing a Series A announcement"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "AI Series A PR offerings",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Fractional senior PR retainer" },
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "USD",
+              "minPrice": 3000,
+              "maxPrice": 7000,
+              "unitText": "MONTH"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Series A launch sprint" },
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "priceCurrency": "USD",
+              "minPrice": 15000,
+              "maxPrice": 40000,
+              "description": "Total for a fixed-scope launch sprint, depending on scope and number of markets"
+            }
+          }
+        ]
+      },
+      "inLanguage": "en"
+    },
+    {
       "@type": "BreadcrumbList",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },

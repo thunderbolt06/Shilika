@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { NextResponse } from 'next/server';
 import { listPublishedPosts } from '@/lib/blog';
-import { FREE_TOOLS } from '../tools/_data/free';
+import { FREE_TOOLS } from '../(site)/tools/_data/free';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 

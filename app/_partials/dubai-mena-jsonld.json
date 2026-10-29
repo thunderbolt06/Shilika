@@ -149,6 +149,45 @@
           }
         }
       ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://www.shilikajain.com/dubai-mena#article",
+      "headline": "Dubai & MENA Web3 / AI PR 2026: VARA, ADGM, RAK DAO",
+      "description": "Dubai and MENA PR for Web3, AI and RWA founders. Arabian Business, Gulf News, The National, AGBI, Cointelegraph Arabic. VARA, ADGM, RAK DAO-aware framing.",
+      "url": "https://www.shilikajain.com/dubai-mena",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/dubai-mena"
+      },
+      "inLanguage": "en",
+      "datePublished": "2026-06-04",
+      "dateModified": "2026-10-17",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain - Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      },
+      "about": {
+        "@id": "https://www.shilikajain.com/dubai-mena#service"
+      },
+      "alternativeHeadline": "Dubai and MENA PR for Web3, AI and RWA founders who treat VARA as paragraph one."
     }
   ]
 }

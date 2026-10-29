@@ -86,6 +86,45 @@
           }
         }
       ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://www.shilikajain.com/pages/ai-search-visibility-agency#article",
+      "headline": "AI Search Visibility Agency 2026 | Be the Cited Answer",
+      "description": "Make your startup the brand AI engines name when a buyer asks who does what you do, through earned citations, structured content and clear entities.",
+      "url": "https://www.shilikajain.com/pages/ai-search-visibility-agency",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/pages/ai-search-visibility-agency"
+      },
+      "inLanguage": "en",
+      "datePublished": "2026-06-24",
+      "dateModified": "2026-10-25",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain - Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      },
+      "about": {
+        "@id": "https://www.shilikajain.com/pages/ai-search-visibility-agency#service"
+      },
+      "alternativeHeadline": "Make your startup the cited answer in AI search."
     }
   ]
 }

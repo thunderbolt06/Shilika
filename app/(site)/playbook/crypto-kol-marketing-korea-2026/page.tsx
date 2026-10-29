@@ -1,0 +1,59 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import type { Metadata } from 'next';
+import Script from 'next/script';
+import { stripLegacyChrome } from '@/lib/legacy-chrome';
+
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
+
+export const metadata: Metadata = {
+  title: 'Crypto KOL Marketing in Korea in 2026',
+  description: 'Korean crypto KOL rates, platforms and disclosure rules for 2026, updated after KBW with the finfluencer bill and the Korea Fintech Week window.',
+  alternates: { canonical: `${SITE_URL}/playbook/crypto-kol-marketing-korea-2026` },
+  openGraph: {
+    title: 'Crypto KOL Marketing in Korea in 2026',
+    description: 'Korean crypto KOL rates, platforms and disclosure rules for 2026, updated after KBW with the finfluencer bill and the Korea Fintech Week window.',
+    url: `${SITE_URL}/playbook/crypto-kol-marketing-korea-2026`,
+    type: 'article',
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/korea.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Korea PR: the FSC frame is paragraph one. BloomingBit, TokenPost and KBW Seoul. Photo: Shilika Jain smiling mid-talk on stage, microphone in hand.',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Crypto KOL Marketing in Korea in 2026',
+    description: 'Korean crypto KOL rates, platforms and disclosure rules for 2026, updated after KBW with the finfluencer bill and the Korea Fintech Week window.',
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/korea.jpg`,
+        alt: 'Korea PR: the FSC frame is paragraph one. BloomingBit, TokenPost and KBW Seoul. Photo: Shilika Jain smiling mid-talk on stage, microphone in hand.',
+      },
+    ],
+  },
+};
+
+function loadBody(): string {
+  return stripLegacyChrome(fs.readFileSync(path.join(process.cwd(), 'app/_partials/article-84-body.html'), 'utf8'));
+}
+
+function loadJsonLd(): string {
+  return fs.readFileSync(path.join(process.cwd(), 'app/_partials/article-84-jsonld.json'), 'utf8');
+}
+
+export default function Page() {
+  const body = loadBody();
+  const jsonLd = loadJsonLd();
+  return (
+    <>
+      <script id="playbook-84-jsonld" type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd }} />
+      <div dangerouslySetInnerHTML={{ __html: body }} />
+
+      <Script src="/assets/article-84.js" strategy="afterInteractive" />
+    </>
+  );
+}

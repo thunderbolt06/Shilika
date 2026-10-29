@@ -86,6 +86,45 @@
           }
         }
       ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://www.shilikajain.com/pages/crypto-youtube-influencer-agency#article",
+      "headline": "Crypto YouTube Influencer Agency 2026",
+      "description": "Long-form YouTube creator partnerships for projects that reward a real explanation, vetted for genuine audiences.",
+      "url": "https://www.shilikajain.com/pages/crypto-youtube-influencer-agency",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/pages/crypto-youtube-influencer-agency"
+      },
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-10-17",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain - Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      },
+      "about": {
+        "@id": "https://www.shilikajain.com/pages/crypto-youtube-influencer-agency#service"
+      },
+      "alternativeHeadline": "Crypto YouTube partnerships built for real explanation."
     }
   ]
 }

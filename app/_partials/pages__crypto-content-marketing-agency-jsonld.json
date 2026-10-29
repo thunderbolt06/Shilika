@@ -86,6 +86,45 @@
           }
         }
       ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://www.shilikajain.com/pages/crypto-content-marketing-agency#article",
+      "headline": "Crypto Content Marketing Agency 2026 | Earned + Owned",
+      "description": "Content built to earn coverage and get cited, not just fill a blog, integrated with PR so every article supports press and AI-search visibility.",
+      "url": "https://www.shilikajain.com/pages/crypto-content-marketing-agency",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/pages/crypto-content-marketing-agency"
+      },
+      "inLanguage": "en",
+      "datePublished": "2026-06-24",
+      "dateModified": "2026-10-25",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain - Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      },
+      "about": {
+        "@id": "https://www.shilikajain.com/pages/crypto-content-marketing-agency#service"
+      },
+      "alternativeHeadline": "Crypto content marketing that compounds."
     }
   ]
 }

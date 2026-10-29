@@ -1,0 +1,84 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import type { Metadata } from 'next';
+import Script from 'next/script';
+import { ClientReBoot } from '@/components/site/ClientReBoot';
+import { assetUrl } from '@/lib/asset-url';
+import { languageAlternates } from '@/lib/i18n/config';
+import { jsonLdString } from '@/lib/json-ld';
+import { LANG_TOGGLE_SLOT, languageToggleHtml } from '@/lib/i18n/toggle';
+
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
+
+export const metadata: Metadata = {
+  title: 'Web3 PR & AI PR Consultant | Shilika Jain',
+  description:
+    'Fractional Web3 PR and AI PR for crypto and AI startups. Coverage in Forbes, CoinDesk, Economic Times and Yahoo Finance. $5k-10k/month. Book a call.',
+  alternates: { canonical: SITE_URL, languages: languageAlternates('/') },
+  openGraph: {
+    type: 'website',
+    siteName: 'Shilika Jain',
+    title: 'Web3 PR & AI PR Consultant | Shilika Jain',
+    description:
+      'Fractional Web3 PR and AI PR for crypto and AI startups. Coverage in Forbes, CoinDesk, Economic Times and Yahoo Finance. $5k-10k/month. Book a call.',
+    url: SITE_URL,
+    locale: 'en_US',
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/home.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Tier-1 PR for Web3 & AI founders. Coverage in Forbes, CoinDesk, Economic Times and Yahoo Finance. Photo: Shilika Jain wearing a conference badge on the Marina Bay promenade in Singapore.',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Web3 PR & AI PR Consultant | Shilika Jain',
+    description:
+      'Fractional Web3 PR and AI PR for crypto and AI startups. Coverage in Forbes, CoinDesk, Economic Times and Yahoo Finance.',
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/home.jpg`,
+        alt: 'Tier-1 PR for Web3 & AI founders. Coverage in Forbes, CoinDesk, Economic Times and Yahoo Finance. Photo: Shilika Jain wearing a conference badge on the Marina Bay promenade in Singapore.',
+      },
+    ],
+  },
+};
+
+// Phase 1: source-of-truth body markup ported from the legacy index.html.
+// Phase 2 will replace this with idiomatic JSX server components.
+function loadHomepageBody(): string {
+  const file = path.join(process.cwd(), 'app/_partials/homepage-body.html');
+  return fs.readFileSync(file, 'utf8');
+}
+
+function loadHomepageJsonLd(): string {
+  const file = path.join(process.cwd(), 'app/_partials/homepage-jsonld.json');
+  return fs.readFileSync(file, 'utf8');
+}
+
+export default function HomePage() {
+  const body = loadHomepageBody().replace(LANG_TOGGLE_SLOT, languageToggleHtml('en', '/'));
+  const jsonLd = loadHomepageJsonLd();
+  return (
+    <>
+      <script
+        id="homepage-jsonld"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: jsonLdString(jsonLd) }}
+      />
+      <div dangerouslySetInnerHTML={{ __html: body }} />
+      {/* Blocking on purpose: binds the intro deck as soon as its markup is
+          parsed, so clicks/keys work before hydration and site.js load. */}
+      {/* eslint-disable-next-line @next/next/no-sync-scripts */}
+      <script src={assetUrl('assets/intro-cards.js')} />
+      <Script src={assetUrl('assets/site.js')} strategy="afterInteractive" />
+      <Script
+        src="https://assets.calendly.com/assets/external/widget.js"
+        strategy="lazyOnload"
+      />
+      <ClientReBoot />
+    </>
+  );
+}

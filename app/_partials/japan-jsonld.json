@@ -148,6 +148,44 @@
           }
         }
       ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://www.shilikajain.com/japan#article",
+      "headline": "Japan Web3 & AI PR 2026: CoinPost, Nikkei, WebX Tokyo",
+      "description": "Japan PR for Web3 and AI founders. CoinPost, CoinDesk Japan, CryptoTimes JP, Nikkei, Asahi. FSA-aware framing, WebX Tokyo July 2026, NISA ETF channel.",
+      "url": "https://www.shilikajain.com/japan",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/japan"
+      },
+      "inLanguage": "en",
+      "datePublished": "2026-06-04",
+      "dateModified": "2026-10-17",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain - Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      },
+      "about": {
+        "@id": "https://www.shilikajain.com/japan#service"
+      }
     }
   ]
 }

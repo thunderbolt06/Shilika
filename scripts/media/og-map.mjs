@@ -47,7 +47,7 @@ export const PORTRAIT_IMAGE = '/assets/media/photos/sg-marina-c-port-1080.webp';
 /** Portrait files an earlier attempt wrote that are gone from the library. Built from parts so audit.mjs does not flag the literal. */
 const STALE_PORTRAITS = [`/assets/media/photos/${'sg-river-e-port-1080'}.webp`];
 /** Another workstream owns these pages (AI SEO). The mapping still answers for them; the CLI leaves the files alone. */
-export const EXCLUDED = ['app/services/ai-seo/'];
+export const EXCLUDED = ['app/(site)/services/ai-seo/'];
 export const SITE = 'https://www.shilikajain.com';
 
 /** Every card in public/assets/media/og (without .jpg). */
@@ -86,7 +86,7 @@ const ROUTES = {
   '/resources': ['resources', 'Resources index'],
   '/pages': ['services', 'Landing page hub, shared as the services overview'],
   '/ads': ['home', 'Paid landing page, shared as the homepage'],
-  '/thank-you': ['contact', 'Post-booking page, shared as the contact card (what app/thank-you/page.tsx uses)'],
+  '/thank-you': ['contact', 'Post-booking page, shared as the contact card (what app/(site)/thank-you/page.tsx uses)'],
   '/pitch/ai-pr': ['ai', 'AI PR pitch page'],
   '/pitch/web3-pr': ['web3', 'Web3 PR pitch page'],
 };
@@ -362,8 +362,9 @@ function listPageFiles(ROOT) {
 }
 
 function routeOf(file) {
-  const dir = path.dirname(file).replace(/^app\/?/, '');
-  return dir ? `/${dir.split(path.sep).join('/')}` : '/';
+  // Route groups such as (site) are not part of the URL.
+  const segments = path.dirname(file).split(path.sep).slice(1).filter((s) => !/^\(.*\)$/.test(s));
+  return segments.length ? `/${segments.join('/')}` : '/';
 }
 
 // ---- planning --------------------------------------------------------------------------------
@@ -677,7 +678,7 @@ async function check(ROOT, plans, altFor, held = []) {
       problems.push(`${f}: invalid JSON (${e.message})`);
       continue;
     }
-    if (EXCLUDED.some((x) => f.startsWith(x.replace(/^app\//, '').replace(/\/$/, '').replace(/\//g, '__')))) continue;
+    if (EXCLUDED.some((x) => f.startsWith(x.replace(/^app\/(\(site\)\/)?/, '').replace(/\/$/, '').replace(/\//g, '__')))) continue;
     for (const m of text.matchAll(/https:\/\/www\.shilikajain\.com(\/assets\/[^"\s]+\.(?:jpg|jpeg|png|webp|svg))/g)) {
       if (!fs.existsSync(path.join(ROOT, 'public', m[1]))) problems.push(`${f}: image ${m[1]} does not exist in public/`);
     }

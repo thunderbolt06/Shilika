@@ -86,6 +86,45 @@
           }
         }
       ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://www.shilikajain.com/pages/web3-partnership-announcement-pr#article",
+      "headline": "Web3 Partnership Announcement PR 2026",
+      "description": "PR for partnership, integration and feature launches: the news hook, the joint narrative and the outreach that gets picked up.",
+      "url": "https://www.shilikajain.com/pages/web3-partnership-announcement-pr",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/pages/web3-partnership-announcement-pr"
+      },
+      "inLanguage": "en",
+      "datePublished": "2026-07-13",
+      "dateModified": "2026-10-17",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain - Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      },
+      "about": {
+        "@id": "https://www.shilikajain.com/pages/web3-partnership-announcement-pr#service"
+      },
+      "alternativeHeadline": "Partnership announcements that read like news, not a press release."
     }
   ]
 }

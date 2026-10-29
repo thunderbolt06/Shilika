@@ -1,0 +1,59 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import type { Metadata } from 'next';
+import Script from 'next/script';
+import { stripLegacyChrome } from '@/lib/legacy-chrome';
+
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
+
+export const metadata: Metadata = {
+  title: 'PR for an Enterprise AI Company in 2026',
+  description: 'Enterprise buyers trust analysts and peers, not hype. How to run AI PR that lands in the rooms a CIO actually reads, including analyst relations.',
+  alternates: { canonical: `${SITE_URL}/playbook/enterprise-ai-pr-2026` },
+  openGraph: {
+    title: 'PR for an Enterprise AI Company in 2026',
+    description: 'Enterprise buyers trust analysts and peers, not hype. How to run AI PR that lands in the rooms a CIO actually reads, including analyst relations.',
+    url: `${SITE_URL}/playbook/enterprise-ai-pr-2026`,
+    type: 'article',
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/ai.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'AI PR with analyst-grade credibility. Tier-1 AI coverage, plus the AI-search work that gets you cited. Photo: Shilika Jain speaking on stage with a microphone in front of a presentation screen.',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'PR for an Enterprise AI Company in 2026',
+    description: 'Enterprise buyers trust analysts and peers, not hype. How to run AI PR that lands in the rooms a CIO actually reads, including analyst relations.',
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/ai.jpg`,
+        alt: 'AI PR with analyst-grade credibility. Tier-1 AI coverage, plus the AI-search work that gets you cited. Photo: Shilika Jain speaking on stage with a microphone in front of a presentation screen.',
+      },
+    ],
+  },
+};
+
+function loadBody(): string {
+  return stripLegacyChrome(fs.readFileSync(path.join(process.cwd(), 'app/_partials/article-58-body.html'), 'utf8'));
+}
+
+function loadJsonLd(): string {
+  return fs.readFileSync(path.join(process.cwd(), 'app/_partials/article-58-jsonld.json'), 'utf8');
+}
+
+export default function Page() {
+  const body = loadBody();
+  const jsonLd = loadJsonLd();
+  return (
+    <>
+      <script id="playbook-58-jsonld" type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd }} />
+      <div dangerouslySetInnerHTML={{ __html: body }} />
+
+      <Script src="/assets/article-58.js" strategy="afterInteractive" />
+    </>
+  );
+}

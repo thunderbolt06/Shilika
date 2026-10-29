@@ -86,6 +86,45 @@
           }
         }
       ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://www.shilikajain.com/pages/layer2-pr-agency#article",
+      "headline": "Layer-2 PR Agency 2026 | Rollups, Appchains, Scaling",
+      "description": "Position an L2, rollup or appchain around a category it can own, with the RARI Chain framing lesson.",
+      "url": "https://www.shilikajain.com/pages/layer2-pr-agency",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/pages/layer2-pr-agency"
+      },
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-10-25",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain - Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      },
+      "about": {
+        "@id": "https://www.shilikajain.com/pages/layer2-pr-agency#service"
+      },
+      "alternativeHeadline": "Layer-2 and rollup PR that owns a category word."
     }
   ]
 }

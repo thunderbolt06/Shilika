@@ -1,5 +1,5 @@
 // Family "articles": the 122 playbook articles (app/_partials/article-N-body.html, served at
-// /playbook/<slug> through app/playbook/<slug>/page.tsx and stripLegacyChrome()).
+// /playbook/<slug> through app/(site)/playbook/<slug>/page.tsx and stripLegacyChrome()).
 //
 // Every article gets, in this order down the page:
 //
@@ -43,7 +43,7 @@ import { GRAPHICS } from '../graphics.config.mjs';
 // Article number to slug (from the route files) and the photo library
 // ---------------------------------------------------------------------------------------------
 
-const PLAYBOOK_DIR = path.join(ROOT, 'app', 'playbook');
+const PLAYBOOK_DIR = path.join(ROOT, 'app', '(site)', 'playbook');
 const SLUG_OF = new Map();
 for (const entry of fs.readdirSync(PLAYBOOK_DIR, { withFileTypes: true })) {
   if (!entry.isDirectory()) continue;
@@ -362,7 +362,7 @@ function buildPlan() {
   const rows = FILES.map((file) => {
     const n = articleNumber(file);
     const slug = SLUG_OF.get(n);
-    if (!slug) throw new Error(`${file}: no app/playbook/<slug>/page.tsx loads this partial`);
+    if (!slug) throw new Error(`${file}: no app/(site)/playbook/<slug>/page.tsx loads this partial`);
     const base = stripMedia(readPartial(file));
     const h1 = (/<h1[^>]*>([\s\S]*?)<\/h1>/i.exec(base)?.[1] ?? '').replace(/<[^>]+>/g, ' ');
     return { file, n, slug, ...classify(slug, h1), hasMid: Boolean(midAnchor(base)) };

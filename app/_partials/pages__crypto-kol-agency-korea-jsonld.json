@@ -86,6 +86,45 @@
           }
         }
       ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://www.shilikajain.com/pages/crypto-kol-agency-korea#article",
+      "headline": "Crypto KOL Agency Korea 2026 | Native Creator Access",
+      "description": "Activate Korean creators credibly, by Korea's own rules, rates and platforms, with native briefs and disclosure handled the way local audiences expect.",
+      "url": "https://www.shilikajain.com/pages/crypto-kol-agency-korea",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/pages/crypto-kol-agency-korea"
+      },
+      "inLanguage": "en",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-10-17",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain - Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      },
+      "about": {
+        "@id": "https://www.shilikajain.com/pages/crypto-kol-agency-korea#service"
+      },
+      "alternativeHeadline": "Crypto KOL agency for Korea, by native rules."
     }
   ]
 }

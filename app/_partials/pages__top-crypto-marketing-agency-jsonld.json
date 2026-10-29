@@ -86,6 +86,45 @@
           }
         }
       ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://www.shilikajain.com/pages/top-crypto-marketing-agency#article",
+      "headline": "Top Crypto Marketing Agency 2026 | How to Compare",
+      "description": "A map of the field and how to choose between PR, growth and KOL specialists, with the criteria that separate real operators from resellers.",
+      "url": "https://www.shilikajain.com/pages/top-crypto-marketing-agency",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/pages/top-crypto-marketing-agency"
+      },
+      "inLanguage": "en",
+      "datePublished": "2026-06-24",
+      "dateModified": "2026-10-17",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain - Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      },
+      "about": {
+        "@id": "https://www.shilikajain.com/pages/top-crypto-marketing-agency#service"
+      },
+      "alternativeHeadline": "Top crypto marketing agencies, compared."
     }
   ]
 }

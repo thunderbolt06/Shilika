@@ -1,0 +1,62 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import type { Metadata } from 'next';
+import Script from 'next/script';
+import { stripLegacyChrome } from '@/lib/legacy-chrome';
+
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
+
+export const metadata: Metadata = {
+  title: 'How Gaia AI Got Into Forbes: A Teardown (2026)',
+  description:
+    'A first-hand teardown of the campaign that put Gaia AI in Forbes: the Stripe-for-AI-agents frame, reporter-beat match, timeline, pitch and embargo etiquette.',
+  alternates: { canonical: `${SITE_URL}/playbook/how-gaia-ai-got-into-forbes` },
+  openGraph: {
+    title: 'How Gaia AI Got Into Forbes: A Teardown',
+    description:
+      'The frame, the timeline, the pitch structure and embargo etiquette behind an earned Forbes feature for a decentralized-AI protocol.',
+    url: `${SITE_URL}/playbook/how-gaia-ai-got-into-forbes`,
+    type: 'article',
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/work-gaia-ai.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'How we placed the Stripe for AI agents. Photo: Shilika Jain at the Marina Bay railing with the Singapore financial district skyline behind her.',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'How Gaia AI Got Into Forbes: A Teardown',
+    description:
+      'The frame, the timeline, the pitch structure and embargo etiquette behind an earned Forbes feature for a decentralized-AI protocol.',
+    images: [
+      {
+        url: `${SITE_URL}/assets/media/og/work-gaia-ai.jpg`,
+        alt: 'How we placed the Stripe for AI agents. Photo: Shilika Jain at the Marina Bay railing with the Singapore financial district skyline behind her.',
+      },
+    ],
+  },
+};
+
+function loadBody(): string {
+  return stripLegacyChrome(fs.readFileSync(path.join(process.cwd(), 'app/_partials/article-116-body.html'), 'utf8'));
+}
+
+function loadJsonLd(): string {
+  return fs.readFileSync(path.join(process.cwd(), 'app/_partials/article-116-jsonld.json'), 'utf8');
+}
+
+export default function Page() {
+  const body = loadBody();
+  const jsonLd = loadJsonLd();
+  return (
+    <>
+      <script id="playbook-116-jsonld" type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd }} />
+      <div dangerouslySetInnerHTML={{ __html: body }} />
+
+      <Script src="/assets/article-116.js" strategy="afterInteractive" />
+    </>
+  );
+}

@@ -95,7 +95,7 @@ for t in TOPICS:
     slug = t["slug"]
     if slug in HANDBUILT:
         continue
-    rdir = os.path.join(ROOT, "app", "pages", slug)
+    rdir = os.path.join(ROOT, "app", "(site)", "pages", slug)
     os.makedirs(rdir, exist_ok=True)
     with open(os.path.join(rdir, "page.tsx"), "w") as f:
         og = og_for(f"/pages/{slug}")

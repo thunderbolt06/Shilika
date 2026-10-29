@@ -56,8 +56,8 @@ function markSeen() {
 }
 
 /**
- * The root layout mounts the English popup; app/[locale]/layout.tsx mounts a
- * translated one (with `strings`) and the English instance stands down there.
+ * app/(site)/layout.tsx mounts the English popup and app/[locale]/layout.tsx a
+ * translated one (with `strings`); each is its own root layout, so only one is ever mounted.
  */
 export default function TalkPopup({ strings }: { strings?: Record<string, string> }) {
   const pathname = usePathname() ?? '/';

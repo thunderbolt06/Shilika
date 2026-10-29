@@ -86,6 +86,45 @@
           }
         }
       ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://www.shilikajain.com/pages/pr-agency-for-tech-startups#article",
+      "headline": "PR Agency for Tech Startups 2026 | A Founder's Guide",
+      "description": "The whole PR picture for an early tech startup, and the fractional alternative to a full agency: what to do, when to do it and what it should cost.",
+      "url": "https://www.shilikajain.com/pages/pr-agency-for-tech-startups",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.shilikajain.com/pages/pr-agency-for-tech-startups"
+      },
+      "inLanguage": "en",
+      "datePublished": "2026-06-24",
+      "dateModified": "2026-10-17",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.shilikajain.com/#person",
+        "name": "Shilika Jain",
+        "url": "https://www.shilikajain.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/shilika/",
+          "https://x.com/Shilika_jain",
+          "https://cryptodaily.co.uk/author/ShilikaJain"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.shilikajain.com/#organization",
+        "name": "Shilika Jain - Fractional PR",
+        "url": "https://www.shilikajain.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.shilikajain.com/assets/shilika-press-square-1200.jpg"
+        }
+      },
+      "about": {
+        "@id": "https://www.shilikajain.com/pages/pr-agency-for-tech-startups#service"
+      },
+      "alternativeHeadline": "PR agency for tech startups, demystified."
     }
   ]
 }
