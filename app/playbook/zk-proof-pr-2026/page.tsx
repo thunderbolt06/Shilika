@@ -15,6 +15,8 @@ export const metadata: Metadata = {
     description: 'ZK tech is genuinely hard to explain. The translation layer that turns proof systems into a story a mainstream reporter can run.',
     url: `${SITE_URL}/playbook/zk-proof-pr-2026`,
     type: 'article',
+    publishedTime: '2026-06-23',
+    modifiedTime: '2026-10-24',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/web3.jpg`,

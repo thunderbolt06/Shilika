@@ -8,13 +8,15 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'How to Get Covered by The Block and Blockworks in 2026',
-  description: 'The two outlets that move institutional crypto. What their reporters cover, why data and primary sourcing win, and how to pitch each.',
+  description: 'The Block still runs a scoop-and-data newsroom. Blockworks closed its news desk in 2025. How to pitch The Block and get onto Blockworks shows in 2026.',
   alternates: { canonical: `${SITE_URL}/playbook/how-to-get-covered-the-block-blockworks-2026` },
   openGraph: {
     title: 'How to Get Covered by The Block and Blockworks in 2026',
-    description: 'The two outlets that move institutional crypto. What their reporters cover, why data and primary sourcing win, and how to pitch each.',
+    description: 'The Block still runs a scoop-and-data newsroom. Blockworks closed its news desk in 2025. How to pitch The Block and get onto Blockworks shows in 2026.',
     url: `${SITE_URL}/playbook/how-to-get-covered-the-block-blockworks-2026`,
     type: 'article',
+    publishedTime: '2026-06-23',
+    modifiedTime: '2026-10-24',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/playbook.jpg`,
@@ -27,7 +29,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'How to Get Covered by The Block and Blockworks in 2026',
-    description: 'The two outlets that move institutional crypto. What their reporters cover, why data and primary sourcing win, and how to pitch each.',
+    description: 'The Block still runs a scoop-and-data newsroom. Blockworks closed its news desk in 2025. How to pitch The Block and get onto Blockworks shows in 2026.',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/playbook.jpg`,

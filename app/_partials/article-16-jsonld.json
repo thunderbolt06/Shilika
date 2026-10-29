@@ -6,7 +6,7 @@
       "@id": "https://www.shilikajain.com/playbook/how-to-get-covered-the-block-blockworks-2026#article",
       "headline": "How to Get Covered by The Block and Blockworks in 2026",
       "alternativeHeadline": "Reporter mapping, pitch structure, and data requirements for institutional crypto's two most important outlets",
-      "description": "The Block runs on scoops and verifiable data; Blockworks runs on market consequences and institutional sources. This 2026 pitch guide covers how both newsrooms assign stories, who covers which beat, what gets passed immediately, and how to sequence a campaign across both outlets.",
+      "description": "The Block still runs on scoops and verifiable data. Blockworks closed its news division in October 2025 and now reaches institutional crypto through podcasts, newsletters, events and data. This 2026 guide covers how to pitch The Block, how to get onto Blockworks shows and stages, what gets passed, and how to sequence both.",
       "url": "https://www.shilikajain.com/playbook/how-to-get-covered-the-block-blockworks-2026",
       "mainEntityOfPage": {
         "@type": "WebPage",
@@ -35,23 +35,70 @@
       ],
       "inLanguage": "en",
       "datePublished": "2026-06-23",
-      "dateModified": "2026-06-23",
+      "dateModified": "2026-10-24",
       "about": [
-        { "@type": "Thing", "name": "The Block" },
-        { "@type": "Thing", "name": "Blockworks" },
-        { "@type": "Thing", "name": "Institutional crypto media" },
-        { "@type": "Thing", "name": "Crypto PR pitch strategy" },
-        { "@type": "Thing", "name": "Tier-1 media placement" }
+        {
+          "@type": "Thing",
+          "name": "The Block"
+        },
+        {
+          "@type": "Thing",
+          "name": "Blockworks"
+        },
+        {
+          "@type": "Thing",
+          "name": "Institutional crypto media"
+        },
+        {
+          "@type": "Thing",
+          "name": "Crypto PR pitch strategy"
+        },
+        {
+          "@type": "Thing",
+          "name": "Tier-1 media placement"
+        }
       ],
       "mentions": [
-        { "@type": "Organization", "name": "The Block" },
-        { "@type": "Organization", "name": "Blockworks" },
-        { "@type": "Organization", "name": "CoinDesk" },
-        { "@type": "Organization", "name": "Cointelegraph" },
-        { "@type": "Organization", "name": "Decrypt" },
-        { "@type": "Organization", "name": "RARI Chain" },
-        { "@type": "Organization", "name": "DeFiLlama" },
-        { "@type": "Organization", "name": "Messari" }
+        {
+          "@type": "Organization",
+          "name": "The Block"
+        },
+        {
+          "@type": "Organization",
+          "name": "Blockworks"
+        },
+        {
+          "@type": "Organization",
+          "name": "CoinDesk"
+        },
+        {
+          "@type": "Organization",
+          "name": "Cointelegraph"
+        },
+        {
+          "@type": "Organization",
+          "name": "Decrypt"
+        },
+        {
+          "@type": "Organization",
+          "name": "RARI Chain"
+        },
+        {
+          "@type": "Organization",
+          "name": "DeFiLlama"
+        },
+        {
+          "@type": "Organization",
+          "name": "Messari"
+        },
+        {
+          "@type": "Thing",
+          "name": "Permissionless"
+        },
+        {
+          "@type": "Thing",
+          "name": "Digital Asset Summit"
+        }
       ],
       "author": {
         "@type": "Person",
@@ -78,9 +125,24 @@
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
-        { "@type": "ListItem", "position": 3, "name": "How to Get Covered by The Block and Blockworks in 2026", "item": "https://www.shilikajain.com/playbook/how-to-get-covered-the-block-blockworks-2026" }
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.shilikajain.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Playbooks",
+          "item": "https://www.shilikajain.com/playbook"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "How to Get Covered by The Block and Blockworks in 2026",
+          "item": "https://www.shilikajain.com/playbook/how-to-get-covered-the-block-blockworks-2026"
+        }
       ]
     },
     {
@@ -92,7 +154,7 @@
           "name": "How do I get featured in crypto media outlets like The Block or Blockworks?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "To get featured in institutional crypto media, you need a hard data point, a named primary source willing to go on record, and a news angle that matters to traders and allocators. The Block responds to scoops and verifiable on-chain data. Blockworks responds to market consequences and named institutional sources. Both outlets filter out press release language immediately. Pitch the right reporter on the right beat with the data up front, and keep the total pitch under 180 words."
+            "text": "To get featured in institutional crypto media, you need a hard data point, a named primary source willing to go on record, and an angle that matters to traders and allocators. The Block responds to scoops and verifiable on-chain data. Blockworks closed its news desk in October 2025, so the route there is a podcast booking, a newsletter mention or an event stage, earned with a sharp market view. Both filter out press release language immediately. Put the data up front and keep any pitch under 180 words."
           }
         },
         {
@@ -100,7 +162,7 @@
           "name": "What is the difference between pitching The Block vs Blockworks?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The Block runs on a scoop-and-data model: reporters want to be first and want independently verifiable metrics. Blockworks runs on a markets-and-macro model: reporters want to understand what a development means for capital flows, yield, and institutional allocation. The same story pitched without changes to both outlets will likely fail at both. Identify which angle you actually have before you write anything, then pitch only the outlet whose culture matches it."
+            "text": "The Block still runs a scoop-and-data newsroom: reporters want to be first and want independently verifiable metrics. Blockworks shut its news division in October 2025, so there is no written-story pitch to make. Today you reach Blockworks through its podcasts, newsletters and events, where producers want a founder with a clear market view backed by data. Pitch The Block with the news fact. Pitch Blockworks shows with the market argument."
           }
         },
         {
@@ -108,7 +170,7 @@
           "name": "How long does it take to get a response from The Block or Blockworks?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "If a pitch is strong and lands with the right reporter, a response typically comes within 48 to 72 hours. No response within a week usually means the pitch was not compelling or went to the wrong person. Do not follow up more than once. Instead, revisit the pitch angle: either the data layer is thin, the news peg has passed, or the wrong outlet was targeted. A stronger pitch sent to the right reporter beats a good pitch followed up repeatedly to the wrong one."
+            "text": "If a pitch is strong and lands with the right reporter at The Block, a response typically comes within 48 to 72 hours. Blockworks podcast producers book further ahead, often weeks, so pitch a show well before the moment you want to talk about. No response within a week usually means the pitch was not compelling or went to the wrong person. Do not follow up more than once. Revisit the angle instead: the data layer is thin, the news peg has passed, or the wrong outlet was targeted."
           }
         },
         {
@@ -124,7 +186,7 @@
           "name": "What makes a pitch get passed at The Block or Blockworks?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "At The Block: opening with company background instead of the hard fact, no verifiable data, offering an exclusive that has already been sent elsewhere, or pitching a reporter who does not cover your beat. At Blockworks: no market angle, no institutional source, pitching retail-oriented news to a market-focused outlet, or opening with 'we are excited to announce.' Both outlets also pass on stories where the primary claim cannot be independently verified. Fix the data layer first, then rewrite the pitch with the news fact in sentence one."
+            "text": "At The Block: opening with company background instead of the hard fact, no verifiable data, offering an exclusive that has already been sent elsewhere, or pitching a reporter who does not cover your beat. At Blockworks: pitching a news story to a newsroom that closed in October 2025, a guest who wants to talk product instead of markets, no data the audience has not seen, or opening with \"we are excited to announce.\" Both also pass on claims that cannot be independently verified. Fix the data layer first, then put the news fact or the market argument in sentence one."
           }
         }
       ]

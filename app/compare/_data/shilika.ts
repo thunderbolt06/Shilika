@@ -3,6 +3,10 @@ import type { Coverage, RegionKey, RowKey } from './types';
 export const LAST_VERIFIED = 'October 2026';
 export const LAST_VERIFIED_ISO = '2026-10-15';
 
+// Conflict-of-interest line shown on /compare and every /compare/[slug] page.
+export const DISCLOSURE =
+  'Disclosure: this comparison is published by Shilika Jain, who is one of the two options compared. It is not a neutral review. Check the linked sources and talk to both sides before you decide.';
+
 export const REGIONS: { key: RegionKey; label: string; cluster: string }[] = [
   { key: 'us', label: 'United States', cluster: 'West' },
   { key: 'eu', label: 'UK & Europe', cluster: 'West' },
@@ -98,8 +102,8 @@ export const CORE_REASONS = [
     body: '400+ journalists across the US, China, Korea, Japan, the Middle East and Southeast Asia. Most agencies are strong in one or two of those, so founders end up hiring a second agency and refereeing between them.',
   },
   {
-    title: 'The person agencies call for hard markets',
-    body: 'When agencies lack access to Korean, Japanese, Chinese or Gulf media, they often subcontract that work. Shilika is regularly that subcontractor. Hiring her directly removes a layer of margin and a layer of telephone.',
+    title: 'Direct access to hard markets',
+    body: 'When agencies lack access to Korean, Japanese, Chinese or Gulf media, they often subcontract that work to a regional specialist. Hiring the specialist directly removes a layer of margin and a layer of telephone.',
   },
   {
     title: 'Top-tier work without the stacked fee',

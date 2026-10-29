@@ -6,7 +6,7 @@
       "@id": "https://www.shilikajain.com/playbook/crypto-kol-marketing-korea-2026#article",
       "headline": "Crypto KOL Marketing in Korea in 2026",
       "alternativeHeadline": "Korean creator platforms, rate tiers, disclosure norms and native-brief discipline for foreign crypto projects",
-      "description": "Korea's crypto KOL ecosystem runs on its own platforms, rates and community norms. This 2026 operator playbook covers Korean creator tiers from nano to macro, KakaoTalk and YouTube as primary channels, disclosure requirements, why translated Western briefs fail, and how to build a native-brief campaign that credibly activates Korean retail.",
+      "description": "Korea's crypto KOL ecosystem runs on its own platforms, rates and community norms. This 2026 operator playbook covers Korean creator tiers from nano to macro, KakaoTalk and YouTube as primary channels, disclosure requirements, why translated Western briefs fail, and how to build a native-brief campaign that credibly activates Korean retail. Updated October 2026 with the post-KBW calendar, the pending finfluencer disclosure bill and KFTC paid-content rules.",
       "url": "https://www.shilikajain.com/playbook/crypto-kol-marketing-korea-2026",
       "mainEntityOfPage": {
         "@type": "WebPage",
@@ -18,7 +18,7 @@
         "width": 1200,
         "height": 630
       },
-      "wordCount": 1980,
+      "wordCount": 3243,
       "timeRequired": "PT8M",
       "articleSection": "KOL",
       "keywords": [
@@ -31,25 +31,70 @@
         "APAC crypto PR",
         "Korean crypto YouTube KOL",
         "crypto influencer Korea disclosure",
-        "native brief Korea crypto"
+        "native brief Korea crypto",
+        "Korea finfluencer disclosure bill",
+        "Korea Fintech Week 2026 KOL"
       ],
       "inLanguage": "en",
       "datePublished": "2026-06-23",
-      "dateModified": "2026-06-23",
+      "dateModified": "2026-10-22",
       "about": [
-        { "@type": "Thing", "name": "Key Opinion Leader marketing" },
-        { "@type": "Thing", "name": "Korean crypto market" },
-        { "@type": "Thing", "name": "KakaoTalk communities" },
-        { "@type": "Thing", "name": "Influencer disclosure" },
-        { "@type": "Thing", "name": "APAC crypto PR" }
+        {
+          "@type": "Thing",
+          "name": "Key Opinion Leader marketing"
+        },
+        {
+          "@type": "Thing",
+          "name": "Korean crypto market"
+        },
+        {
+          "@type": "Thing",
+          "name": "KakaoTalk communities"
+        },
+        {
+          "@type": "Thing",
+          "name": "Influencer disclosure"
+        },
+        {
+          "@type": "Thing",
+          "name": "APAC crypto PR"
+        }
       ],
       "mentions": [
-        { "@type": "Organization", "name": "Upbit" },
-        { "@type": "Organization", "name": "Bithumb" },
-        { "@type": "Organization", "name": "BloomingBit" },
-        { "@type": "Organization", "name": "TokenPost" },
-        { "@type": "Organization", "name": "CoinDesk" },
-        { "@type": "Organization", "name": "Korea Financial Services Commission" }
+        {
+          "@type": "Organization",
+          "name": "Upbit"
+        },
+        {
+          "@type": "Organization",
+          "name": "Bithumb"
+        },
+        {
+          "@type": "Organization",
+          "name": "BloomingBit"
+        },
+        {
+          "@type": "Organization",
+          "name": "TokenPost"
+        },
+        {
+          "@type": "Organization",
+          "name": "CoinDesk"
+        },
+        {
+          "@type": "Organization",
+          "name": "Korea Financial Services Commission"
+        },
+        {
+          "@type": "Organization",
+          "name": "Korea Fair Trade Commission"
+        },
+        {
+          "@type": "Event",
+          "name": "Korea Fintech Week 2026",
+          "startDate": "2026-11-25",
+          "endDate": "2026-11-27"
+        }
       ],
       "author": {
         "@type": "Person",
@@ -76,9 +121,24 @@
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
-        { "@type": "ListItem", "position": 3, "name": "Crypto KOL Marketing in Korea in 2026", "item": "https://www.shilikajain.com/playbook/crypto-kol-marketing-korea-2026" }
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.shilikajain.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Playbooks",
+          "item": "https://www.shilikajain.com/playbook"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Crypto KOL Marketing in Korea in 2026",
+          "item": "https://www.shilikajain.com/playbook/crypto-kol-marketing-korea-2026"
+        }
       ]
     },
     {
@@ -98,7 +158,7 @@
           "name": "Which platforms do Korean crypto KOLs use?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "YouTube is the most important platform for long-form Korean crypto content, with top creators producing 20-40 minute project deep-dives that carry significant purchase-intent weight. KakaoTalk is Korea's dominant messaging platform and hosts closed crypto investment communities that are often more influential than public social channels. X (Twitter) functions as an amplification layer. NaverBlog and NaverCafe matter for domestic Korean search visibility and older retail segments. A complete Korean KOL campaign covers YouTube, KakaoTalk, and X at minimum."
+            "text": "YouTube is the most important platform for long-form Korean crypto content, with top creators producing 20 to 40 minute project deep-dives that carry significant purchase-intent weight. KakaoTalk is Korea's dominant messaging platform and hosts closed crypto investment communities that are often more influential than public social channels. X (Twitter) functions as an amplification layer. NaverBlog and NaverCafe matter for domestic Korean search visibility and older retail segments. A complete Korean KOL campaign covers YouTube, KakaoTalk, and X at minimum."
           }
         },
         {
@@ -106,7 +166,15 @@
           "name": "Do Korean crypto KOLs require paid content disclosure?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, increasingly and for good reason. Korea's Financial Services Commission has moved toward formal crypto asset disclosure requirements, and top Korean creators are disclosing paid arrangements as both a regulatory and community-trust practice. Korean retail communities actively watch for undisclosed paid promotions, and a creator caught pushing a project without disclosure loses community trust fast. The right approach is to structure genuinely credible content under a disclosed commercial arrangement, not to try to hide the commercial relationship."
+            "text": "Yes. The Korea Fair Trade Commission's endorsement guidelines have required clear disclosure of paid recommendations since September 2020, and a 2026 bill would add fee and token-holding disclosure for paid crypto promoters. Top Korean creators already disclose paid arrangements as both a legal and community-trust practice. Korean retail communities actively watch for undisclosed paid promotions, and a creator caught pushing a project without disclosure loses community trust fast. The right approach is to structure genuinely credible content under a disclosed commercial arrangement, not to try to hide the commercial relationship."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will Korean crypto KOLs have to disclose their token holdings?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Probably soon. A bill from Democratic Party lawmaker Kim Seung-won would amend the Virtual Asset User Protection Act so that anyone paid to promote a token must disclose the fee and the type and amount of crypto they hold. The National Assembly's Political Affairs Committee took it up on 26 August 2026. It is not law yet, so write KOL contracts that already require fee disclosure and a holdings statement."
           }
         },
         {

@@ -8,6 +8,7 @@ import CoverageCost from '../_components/CoverageCost';
 import { AGENCIES, agencyBySlug, comparePath } from '../_data/agencies';
 import {
   CALENDLY,
+  DISCLOSURE,
   LAST_VERIFIED,
   LAST_VERIFIED_ISO,
   SHILIKA_COVERAGE,
@@ -220,12 +221,12 @@ export default async function ComparePage({ params }: { params: Promise<{ slug: 
             </section>
 
             <section className="cmp-callout" aria-labelledby="subcontract">
-              <h2 id="subcontract">Agencies already hire Shilika. You can skip the middle.</h2>
+              <h2 id="subcontract">Need hard markets? You can skip the middle.</h2>
               <p>
                 When an agency wins a client that needs Korean, Japanese, Chinese or Gulf coverage and it has no desk
-                there, it subcontracts the work. Shilika is regularly that subcontractor. Hiring her directly means
-                the same relationships and the same pitches, without an agency margin on top or a strategy that gets
-                relayed second-hand.
+                there, it often subcontracts the work to a regional specialist. Hiring a specialist directly means
+                the person with the relationships pitches for you, without an agency margin on top or a strategy that
+                gets relayed second-hand.
               </p>
             </section>
 
@@ -387,6 +388,7 @@ export default async function ComparePage({ params }: { params: Promise<{ slug: 
                 out of date, email <a href="mailto:shilika498@gmail.com">shilika498@gmail.com</a> and it will be
                 corrected.
               </p>
+              <p>{DISCLOSURE}</p>
               <ul>
                 {a.sources.map((s) => (
                   <li key={s.url}>

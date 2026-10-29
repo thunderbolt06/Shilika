@@ -9,6 +9,7 @@ import {
   type AgentContext,
 } from './context';
 import { checkHumanization } from './humanize-loop';
+import { stripEmDashes } from './punctuation';
 import type { AnthropicBatchRequest } from './anthropic-batch';
 
 const WRITER_MODEL = process.env.ANTHROPIC_WRITER_MODEL || 'claude-sonnet-4-6';
@@ -34,13 +35,38 @@ function trimToBoundary(v: unknown, max: number, minBoundary: number): unknown {
   return (lastSpace > minBoundary ? cut.slice(0, lastSpace) : cut).trimEnd();
 }
 
-// Title cap is 80 chars; if the model overshoots, trim on the last word
-// boundary rather than rejecting the entire draft.
-const titleSchema = z.preprocess((v) => trimToBoundary(v, 80, 40), z.string().min(8).max(80));
+// Words a headline must never end on. A plain word-boundary trim left 17
+// published headlines ending in "and", "to", "in", "The" or a comma
+// (Run 99, 2026-10-25), which then leaked into the H1, og:title and
+// Article JSON-LD headline.
+const DANGLING_END = /(?:[\s,:;\-]+|\s+(?:a|an|the|and|or|nor|of|to|for|in|into|with|vs|on|at|by|from|is|are|your|how|what|why|that|which|who|their|its|our|both))+$/i;
+
+// Trim an over-long headline so it still reads as a complete headline:
+// word-boundary cut, then drop dangling words and punctuation. If the cut
+// lands inside the part after a colon and leaves only a short stub, keep
+// just the part before the colon.
+export function trimHeadline(v: unknown, max: number, minBoundary: number): unknown {
+  if (typeof v !== 'string') return v;
+  const t = v.trim();
+  if (t.length <= max) return t;
+  let out = String(trimToBoundary(t, max, minBoundary));
+  let prev = '';
+  while (prev !== out) {
+    prev = out;
+    out = out.replace(DANGLING_END, '').trimEnd();
+  }
+  const colon = out.lastIndexOf(':');
+  if (colon >= 20 && out.length - colon - 1 < 15) out = out.slice(0, colon).trimEnd();
+  return out;
+}
+
+// Title cap is 80 chars; if the model overshoots, trim to a clean headline
+// rather than rejecting the entire draft.
+const titleSchema = z.preprocess((v) => trimHeadline(stripEmDashes(v), 80, 40), z.string().min(8).max(80));
 
 // Same trick for the meta description. Model is told 220, we accept up to 220
 // and trim anything longer.
-const descriptionSchema = z.preprocess((v) => trimToBoundary(v, 220, 140), z.string().min(80).max(220));
+const descriptionSchema = z.preprocess((v) => trimToBoundary(stripEmDashes(v), 220, 140), z.string().min(80).max(220));
 
 // Claude occasionally returns array fields as comma-separated strings or as
 // a JSON-encoded string. Normalize to a string[] before validating.
@@ -67,7 +93,7 @@ const DraftSchema = z.object({
   slug: z.string().regex(/^[a-z0-9-]+$/),
   title: titleSchema,
   description: descriptionSchema,
-  body: z.string().min(800),
+  body: z.preprocess(stripEmDashes, z.string().min(800)),
   tags: z.preprocess(coerceStringArray, z.array(z.string()).min(1).max(8)),
   related_posts: z.preprocess(coerceStringArray, z.array(z.string()).max(5)).default([]),
   cta_label: ctaLabelSchema,
@@ -94,7 +120,7 @@ const SUBMIT_DRAFT_TOOL = {
     type: 'object',
     properties: {
       slug: { type: 'string', pattern: '^[a-z0-9-]+$', description: 'URL slug, lowercase kebab-case' },
-      title: { type: 'string', description: 'Headline, 8-80 chars.' },
+      title: { type: 'string', description: 'Headline, 8-80 chars. Hard cap 80. Must be a complete headline that fits the cap; anything longer is cut.' },
       description: { type: 'string', description: 'Meta description / dek, 80-220 chars. Hard cap 220.' },
       body: { type: 'string', description: 'Markdown body, 1,500–2,500 words.' },
       tags: {

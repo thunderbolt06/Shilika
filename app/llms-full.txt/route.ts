@@ -51,10 +51,6 @@ export async function GET() {
     '## Full playbooks (verbatim markdown)',
     '',
     ...sections,
-    '## Last updated',
-    '',
-    new Date().toISOString().slice(0, 10),
-    '',
   ].join('\n');
 
   return new NextResponse(body, {

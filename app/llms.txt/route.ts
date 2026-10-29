@@ -50,7 +50,9 @@ export async function GET() {
     '',
   ].join('\n');
 
-  const body = `${intro.trim()}\n${dynamicSection}${toolsSection}\n## Last updated\n\n${new Date().toISOString().slice(0, 10)}\n`;
+  // No "Last updated" line: the old one printed the request date, so it changed
+  // daily with no edit (audit 2026-10-15, action 9).
+  const body = `${intro.trim()}\n${dynamicSection}${toolsSection}`;
 
   return new NextResponse(body, {
     status: 200,

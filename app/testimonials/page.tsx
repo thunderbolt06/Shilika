@@ -85,8 +85,38 @@ function loadBody(): string {
   );
 }
 
+const MONTHS: Record<string, string> = {
+  January: '01', February: '02', March: '03', April: '04', May: '05', June: '06',
+  July: '07', August: '08', September: '09', October: '10', November: '11', December: '12',
+};
+
+/** "April 16, 2025" -> "2025-04-16". Returns undefined if the shape is unexpected. */
+function isoDate(d: string): string | undefined {
+  const m = d.match(/^([A-Za-z]+) (\d{1,2}), (\d{4})$/);
+  if (!m || !MONTHS[m[1]]) return undefined;
+  return `${m[3]}-${MONTHS[m[1]]}-${m[2].padStart(2, '0')}`;
+}
+
+/**
+ * Review nodes are built from data/testimonials.json, the same source the
+ * visible list renders from, so markup and page text cannot drift apart.
+ * LinkedIn recommendations carry no star rating, so no reviewRating or
+ * aggregateRating is emitted (audit 2026-10-15, action 4).
+ */
 function loadJsonLd(): string {
-  return fs.readFileSync(path.join(process.cwd(), 'app/_partials/testimonials-jsonld.json'), 'utf8');
+  const raw = fs.readFileSync(path.join(process.cwd(), 'app/_partials/testimonials-jsonld.json'), 'utf8');
+  const data = JSON.parse(raw) as { '@graph': Array<Record<string, unknown>> };
+  const person = data['@graph'].find((n) => n['@type'] === 'Person');
+  if (person) {
+    person.review = testimonials.map((t) => ({
+      '@type': 'Review',
+      author: { '@type': 'Person', name: t.name, url: `https://www.linkedin.com/in/${t.vanity}` },
+      ...(isoDate(t.date) ? { datePublished: isoDate(t.date) } : {}),
+      reviewBody: t.quote,
+      publisher: { '@type': 'Organization', name: 'LinkedIn' },
+    }));
+  }
+  return JSON.stringify(data).replace(/</g, '\\u003c');
 }
 
 export default function Page() {

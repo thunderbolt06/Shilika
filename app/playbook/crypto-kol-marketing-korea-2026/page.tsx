@@ -8,11 +8,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   title: 'Crypto KOL Marketing in Korea in 2026',
-  description: 'Korea\'s KOL scene runs by its own rules, rates and platforms. How to activate Korean creators credibly without importing Western playbooks.',
+  description: 'Korean crypto KOL rates, platforms and disclosure rules for 2026, updated after KBW with the finfluencer bill and the Korea Fintech Week window.',
   alternates: { canonical: `${SITE_URL}/playbook/crypto-kol-marketing-korea-2026` },
   openGraph: {
     title: 'Crypto KOL Marketing in Korea in 2026',
-    description: 'Korea\'s KOL scene runs by its own rules, rates and platforms. How to activate Korean creators credibly without importing Western playbooks.',
+    description: 'Korean crypto KOL rates, platforms and disclosure rules for 2026, updated after KBW with the finfluencer bill and the Korea Fintech Week window.',
     url: `${SITE_URL}/playbook/crypto-kol-marketing-korea-2026`,
     type: 'article',
     images: [
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Crypto KOL Marketing in Korea in 2026',
-    description: 'Korea\'s KOL scene runs by its own rules, rates and platforms. How to activate Korean creators credibly without importing Western playbooks.',
+    description: 'Korean crypto KOL rates, platforms and disclosure rules for 2026, updated after KBW with the finfluencer bill and the Korea Fintech Week window.',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/korea.jpg`,

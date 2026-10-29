@@ -6,7 +6,7 @@
       "@id": "https://www.shilikajain.com/playbook/zk-proof-pr-2026#article",
       "headline": "Zero-Knowledge Proof PR in 2026: Explaining ZK Without Losing the Reader",
       "alternativeHeadline": "The translation layer that turns proof systems into a story a mainstream reporter can run",
-      "description": "ZK is the hardest infrastructure story in Web3 to explain to a reporter with ninety seconds to spare. This 2026 playbook covers the three ZK stories that actually get covered, the jargon audit, outlet-by-outlet fit for The Block, Blockworks, Decrypt, CoinDesk and Forbes, and how to sequence a ZK launch around a translation-first explainer.",
+      "description": "ZK is the hardest infrastructure story in Web3 to explain to a reporter with ninety seconds to spare. This 2026 playbook covers the three ZK stories that actually get covered, the jargon audit, outlet-by-outlet fit for The Block, Decrypt, CoinDesk and Forbes, where Blockworks fits now that its news desk is closed, and how to sequence a ZK launch around a translation-first explainer.",
       "url": "https://www.shilikajain.com/playbook/zk-proof-pr-2026",
       "mainEntityOfPage": {
         "@type": "WebPage",
@@ -21,10 +21,10 @@
       "wordCount": 2404,
       "timeRequired": "PT8M",
       "articleSection": "Strategy",
-      "keywords": ["Web3 infrastructure PR", "zero-knowledge proof PR", "ZK PR strategy", "explaining ZK to press", "Web3 infrastructure PR agency", "crypto press pitch jargon", "ZK narrative translation", "The Block Blockworks Decrypt pitch", "Web3 PR campaigns", "generative engine optimization Web3"],
+      "keywords": ["Web3 infrastructure PR", "zero-knowledge proof PR", "ZK PR strategy", "explaining ZK to press", "Web3 infrastructure PR agency", "crypto press pitch jargon", "ZK narrative translation", "The Block CoinDesk Decrypt pitch", "Web3 PR campaigns", "generative engine optimization Web3"],
       "inLanguage": "en",
       "datePublished": "2026-06-23",
-      "dateModified": "2026-06-23",
+      "dateModified": "2026-10-24",
       "about": [
         { "@type": "Thing", "name": "Zero-knowledge proofs" },
         { "@type": "Thing", "name": "Web3 infrastructure PR" },
@@ -94,7 +94,7 @@
           "name": "Which outlets cover zero-knowledge infrastructure and what do they each want?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The Block wants data and benchmarks, Blockworks wants the infrastructure and institutional-adoption narrative, Decrypt wants the plain-English consumer angle, CoinDesk wants a hard news peg with named partners, and Forbes wants the compliance and enterprise-verification framing with almost no crypto vocabulary. Sending the wrong depth to the wrong desk is the most common reason ZK pitches get ignored. The full Web3 infrastructure PR approach matches angle to outlet before a pitch goes out."
+            "text": "The Block wants data and benchmarks, Decrypt wants the plain-English consumer angle, CoinDesk wants a hard news peg with named partners, and Forbes wants the compliance and enterprise-verification framing with almost no crypto vocabulary. Blockworks closed its news desk in October 2025, so treat it as a podcast, newsletter and events channel for the founder, not a newsroom to pitch. Sending the wrong depth to the wrong desk is the most common reason ZK pitches get ignored. The full Web3 infrastructure PR approach matches angle to outlet before a pitch goes out."
           }
         },
         {

@@ -207,7 +207,7 @@ const PLAYBOOKS = [
     n: 16,
     slug: 'how-to-get-covered-the-block-blockworks-2026',
     title: 'How to Get Covered by The Block and Blockworks in 2026',
-    description: 'The two outlets that move institutional crypto. What their reporters cover, why data and primary sourcing win, and how to pitch each.',
+    description: 'The Block still runs a scoop-and-data newsroom. Blockworks closed its news desk in 2025. How to pitch The Block and get onto Blockworks shows in 2026.',
     tag: 'Tier-1',
     time: 9,
   },

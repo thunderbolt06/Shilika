@@ -4,7 +4,7 @@ import { EditorialScripts } from '@/components/site/EditorialScripts';
 import { EditorialShell } from '@/components/site/EditorialChrome';
 import MarketFinder from './_components/MarketFinder';
 import { AGENCIES, comparePath } from './_data/agencies';
-import { CALENDLY, CORE_REASONS, LAST_VERIFIED, LAST_VERIFIED_ISO, SHILIKA_PROOF } from './_data/shilika';
+import { CALENDLY, CORE_REASONS, DISCLOSURE, LAST_VERIFIED, LAST_VERIFIED_ISO, SHILIKA_PROOF } from './_data/shilika';
 import type { Agency } from './_data/types';
 import { PhotoBand } from '@/components/site/Media';
 import { ogImage } from '@/lib/i18n/og';
@@ -56,7 +56,7 @@ const FAQS = [
   },
   {
     q: 'Do agencies really subcontract freelancers?',
-    a: 'Yes. Agencies routinely subcontract specialists for markets or beats they cannot cover in-house, especially Korean, Japanese, Chinese and Gulf media. Shilika is regularly brought in this way. Hiring her directly removes the agency margin and the extra hand-off.',
+    a: 'Yes. Agencies routinely subcontract specialists for markets or beats they cannot cover in-house, especially Korean, Japanese, Chinese and Gulf media. Hiring a specialist directly removes the agency margin and the extra hand-off.',
   },
 ];
 
@@ -272,6 +272,7 @@ export default function CompareHub() {
                 and public rankings, not a paid placement. Spot something out of date? Email{' '}
                 <a href="mailto:shilika498@gmail.com">shilika498@gmail.com</a>.
               </p>
+              <p>{DISCLOSURE}</p>
             </footer>
           </div>
         </main>
