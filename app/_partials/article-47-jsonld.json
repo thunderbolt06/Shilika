@@ -55,7 +55,7 @@
         { "@type": "Organization", "name": "CryptoTimes JP" },
         { "@type": "Organization", "name": "MANTRA Chain" },
         { "@type": "Organization", "name": "Fluence Network" },
-        { "@type": "Event", "name": "Token2049 Singapore 2026", "startDate": "2026-10-07", "endDate": "2026-10-08", "eventStatus": "https://schema.org/EventScheduled", "location": { "@type": "Place", "name": "Marina Bay Sands", "address": "Singapore" } },
+        { "@type": "Thing", "name": "Token2049 Singapore 2026" },
         { "@type": "Organization", "name": "Monetary Authority of Singapore" }
       ],
       "author": {

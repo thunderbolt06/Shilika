@@ -44,10 +44,10 @@
         { "@type": "Thing", "name": "Event-led PR" }
       ],
       "mentions": [
-        { "@type": "Event", "name": "Consensus" },
-        { "@type": "Event", "name": "Token2049" },
-        { "@type": "Event", "name": "ETHDenver" },
-        { "@type": "Event", "name": "Permissionless" },
+        { "@type": "Thing", "name": "Consensus" },
+        { "@type": "Thing", "name": "Token2049" },
+        { "@type": "Thing", "name": "ETHDenver" },
+        { "@type": "Thing", "name": "Permissionless" },
         { "@type": "Organization", "name": "CoinDesk" },
         { "@type": "Organization", "name": "Cointelegraph" },
         { "@type": "Organization", "name": "Blockworks" },

@@ -38,7 +38,7 @@
         { "@type": "Organization", "name": "Decrypt" },
         { "@type": "Organization", "name": "Benzinga" },
         { "@type": "Person", "name": "Shashank Sripada" },
-        { "@type": "Event", "name": "Consensus Hong Kong 2025" }
+        { "@type": "Thing", "name": "Consensus Hong Kong 2025" }
       ],
       "citation": [
         { "@type": "CreativeWork", "name": "AI Agents 101: The Future of Agentic Web and Onchain AI (Forbes, Cloris Chen)", "url": "https://www.forbes.com/sites/clorischen/2024/12/23/ai-agents-101-the-future-of-agentic-web-and-onchain-ai/" }

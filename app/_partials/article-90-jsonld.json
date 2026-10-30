@@ -47,9 +47,9 @@
         { "@type": "Organization", "name": "Dark Reading" },
         { "@type": "Organization", "name": "Forbes" },
         { "@type": "Organization", "name": "Decrypt" },
-        { "@type": "Event", "name": "Black Hat" },
-        { "@type": "Event", "name": "RSA Conference" },
-        { "@type": "Event", "name": "DEF CON" }
+        { "@type": "Thing", "name": "Black Hat" },
+        { "@type": "Thing", "name": "RSA Conference" },
+        { "@type": "Thing", "name": "DEF CON" }
       ],
       "author": {
         "@type": "Person",

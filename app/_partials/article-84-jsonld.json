@@ -90,10 +90,8 @@
           "name": "Korea Fair Trade Commission"
         },
         {
-          "@type": "Event",
-          "name": "Korea Fintech Week 2026",
-          "startDate": "2026-11-25",
-          "endDate": "2026-11-27"
+          "@type": "Thing",
+          "name": "Korea Fintech Week 2026"
         }
       ],
       "author": {
