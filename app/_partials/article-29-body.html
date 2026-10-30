@@ -115,6 +115,14 @@ body { font-family: var(--font-body); background: var(--paper); color: var(--ink
 .hb-l { font-family:var(--font-mono); font-size:10px; letter-spacing:0.08em; text-transform:uppercase; color:rgba(255,255,255,0.55); margin-top:6px; }
 .hb-stats > div.is-key .hb-l { color:rgba(40,37,32,0.7); }
 @media (max-width:720px){ .hero-brief-grid{ grid-template-columns:1fr; position:static; inset:auto; padding:28px; } .article-hero-visual.hero-brief{ aspect-ratio:auto; } }
+
+.x-notes { margin: 36px 0 0; padding: 28px 30px; border: 1px solid var(--line); border-left: 3px solid var(--lime); border-radius: 14px; background: var(--paper); max-width: 64ch; }
+.x-notes-eyebrow { font-family: var(--font-mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin: 0 0 18px; }
+.x-note { margin: 0; padding: 0; }
+.x-note + .x-note { margin-top: 22px; padding-top: 22px; border-top: 1px solid var(--line); }
+.x-note blockquote { margin: 0; padding: 0; border: 0; font-family: var(--font-display); font-style: italic; font-size: clamp(19px, 2vw, 24px); line-height: 1.38; color: var(--ink); }
+.x-note figcaption { margin-top: 10px; font-family: var(--font-mono); font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.x-note figcaption a { color: inherit; text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px; }
 </style>
 
 
@@ -384,7 +392,19 @@ body { font-family: var(--font-body); background: var(--paper); color: var(--ink
 <p>PR is not an announcement business. It is a credibility business. Credibility compounds harder than customer acquisition cost, and it is almost impossible to manufacture retroactively once the token is trading. The presale window is the only moment you have to build it from scratch on a clean slate. The founders who use that window well do not just have a better launch: they have a more defensible company afterwards.</p>
 
 
-    <div class="author-block">
+    
+
+<div class="recrawl-notes" data-recrawl="v1">
+<h2>The retention problem behind presale marketing</h2>
+<p>In October 2023 I wrote that education, onboarding, engagement and retention are badly broken in web3, and that value often accrues by users hopping chains to chase rewards. A presale or launchpad campaign faces that problem directly: the people most excited at launch are often the first to leave.</p>
+<p>In January 2026 I asked whether a TGE in a weak market is a good idea. My answer is that timing matters less than readiness. See <a href="/playbook/post-tge-pr-first-90-days-2026">the first 90 days after TGE</a> and <a href="/pages/crypto-presale-marketing-agency">presale marketing</a> for planning.</p>
+<aside class="x-notes" aria-label="Field notes from X">
+  <p class="x-notes-eyebrow">Field notes from my X feed</p>
+  <figure class="x-note"><blockquote>Is TGE in this market a good idea or bad idea?</blockquote><figcaption><a href="https://x.com/Shilika_jain/status/2014687376166281613" target="_blank" rel="noopener">Shilika Jain on X, 23 Jan 2026</a></figcaption></figure>
+</aside>
+</div><!--/recrawl-->
+
+<div class="author-block">
       <div class="author-avatar">SJ</div>
       <div>
         <div class="author-name">Shilika Jain</div>
@@ -409,6 +429,9 @@ body { font-family: var(--font-body); background: var(--paper); color: var(--ink
 
       <div class="faq-q">What media outlets actually move presale buyer conviction?</div>
       <div class="faq-a">For editorial credibility, CoinDesk, The Block, Blockworks and Cointelegraph carry the most weight with serious crypto buyers and institutional due-diligence processes. For regional markets, BloomingBit and TokenPost in Korea, CryptoTimes JP in Japan and Inc42 in India are high-ROI channels. Podcast appearances on Unchained, Bankless or Empire deliver deep narrative to qualified audiences. Wire press releases support the paper trail but do not substitute for reporter-driven coverage or placed founder op-eds.</div>
+
+   <div class="faq-q">Is launching a token in a weak market a bad idea?</div>
+   <div class="faq-a">Not necessarily. A weak market gives quieter competition and cheaper attention, but it demands a stronger story and a user base that holds. If the product has no clear audience yet, waiting is cheaper than a failed launch.</div>
     </div>
 
     <p style="margin-top: 2.2em; padding: 22px 26px; background: var(--paper-2); border-left: 3px solid var(--lime); border-radius: 4px; font-size: 17px; line-height: 1.55;"><strong>Running a presale or planning a token launch?</strong> Start with the <a href="/services/token-launch-pr" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">token launch PR service</a> for the full campaign scope, or the <a href="/playbook/pre-token-launch-pr-checklist" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">pre-token launch PR checklist</a> to audit your current readiness. The <a href="/playbook" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">full playbook library</a> covers pricing, KOL strategy and everything between narrative and TGE.</p>

@@ -116,6 +116,14 @@ body { font-family: var(--font-body); background: var(--paper); color: var(--ink
 .hb-l { font-family:var(--font-mono); font-size:10px; letter-spacing:0.08em; text-transform:uppercase; color:rgba(255,255,255,0.55); margin-top:6px; }
 .hb-stats > div.is-key .hb-l { color:rgba(40,37,32,0.7); }
 @media (max-width:720px){ .hero-brief-grid{ grid-template-columns:1fr; position:static; inset:auto; padding:28px; } .article-hero-visual.hero-brief{ aspect-ratio:auto; } }
+
+.x-notes { margin: 36px 0 0; padding: 28px 30px; border: 1px solid var(--line); border-left: 3px solid var(--lime); border-radius: 14px; background: var(--paper); max-width: 64ch; }
+.x-notes-eyebrow { font-family: var(--font-mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin: 0 0 18px; }
+.x-note { margin: 0; padding: 0; }
+.x-note + .x-note { margin-top: 22px; padding-top: 22px; border-top: 1px solid var(--line); }
+.x-note blockquote { margin: 0; padding: 0; border: 0; font-family: var(--font-display); font-style: italic; font-size: clamp(19px, 2vw, 24px); line-height: 1.38; color: var(--ink); }
+.x-note figcaption { margin-top: 10px; font-family: var(--font-mono); font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.x-note figcaption a { color: inherit; text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px; }
 </style>
 
 
@@ -383,7 +391,20 @@ body { font-family: var(--font-body); background: var(--paper); color: var(--ink
 <p>For most early-stage founders, that is the right tradeoff. Authority compounds harder than volume, and one CoinDesk feature written by a reporter who understands and respects your work is worth more than fifty wire pickups that no editor ever noticed. Start there, then scale when the budget follows.</p>
 
 
-    <div class="author-block">
+    
+
+<div class="recrawl-notes" data-recrawl="v1">
+<h2>Where a small PR budget should and should not go</h2>
+<p>In October 2022 I wrote that one of the most common early-stage mistakes is trying to do everything alone and not delegating to the right talent. On a small budget the opposite error is just as common: paying for activity instead of outcomes. The answer is to buy a few specific things, such as a story, a target list and a first-pitch cycle, rather than a retainer that covers everything thinly.</p>
+<p>In May 2023 I also wrote that PR professionals are communication experts, not magicians. That is the right expectation for a lean budget. See <a href="/pages/pr-agency-for-tech-startups">PR agency for tech startups</a> and <a href="/playbook/founder-led-diy-pr-2026">founder-led DIY PR</a> for the two ends of the spectrum.</p>
+<aside class="x-notes" aria-label="Field notes from X">
+  <p class="x-notes-eyebrow">Field notes from my X feed</p>
+  <figure class="x-note"><blockquote>one of the stupidest things early stage founders do is trying to do everything on their own. <br><br>you can provide solution + servicing in the best way if you don’t bring the right talent &amp; learn to delegate.</blockquote><figcaption><a href="https://x.com/Shilika_jain/status/1586415550887997440" target="_blank" rel="noopener">Shilika Jain on X, 29 Oct 2022</a></figcaption></figure>
+  <figure class="x-note"><blockquote>PR professionals are not magicians, they are just communication experts:)</blockquote><figcaption><a href="https://x.com/Shilika_jain/status/1655630226586767360" target="_blank" rel="noopener">Shilika Jain on X, 8 May 2023</a></figcaption></figure>
+</aside>
+</div><!--/recrawl-->
+
+<div class="author-block">
       <div class="author-avatar">SJ</div>
       <div>
         <div class="author-name">Shilika Jain</div>
@@ -408,6 +429,9 @@ body { font-family: var(--font-body); background: var(--paper); color: var(--ink
 
       <div class="faq-q">What should a startup expect from a $5,000 to $8,000 a month fractional PR engagement?</div>
       <div class="faq-a">Realistically: one to two earned editorial placements per month in relevant tier-1 or strong tier-2 outlets, one founder op-ed or contributed piece placed per quarter, and consistent relationship-building with three to five beat journalists in your category. See <a href="/playbook/crypto-pr-small-budget-2026">crypto PR on a small budget</a> for more on managing expectations at this tier. What you should not expect is a guaranteed placement every week or simultaneous coverage across ten outlets: that requires a larger sprint budget or full agency.</div>
+
+   <div class="faq-q">What is the smallest PR spend that still produces results?</div>
+   <div class="faq-a">A scoped sprint for one story, with a defined target list and a limited number of pitches, usually works better than a thin monthly retainer. Spend on the narrative and the first cycle, then decide whether to continue based on what reporters actually said.</div>
     </div>
 
     <p style="margin-top: 2.2em; padding: 22px 26px; background: var(--paper-2); border-left: 3px solid var(--lime); border-radius: 4px; font-size: 17px; line-height: 1.55;"><strong>Working out which model fits your stage and budget?</strong> The <a href="/playbook/crypto-pr-cost-2026" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">full crypto PR cost breakdown</a> covers every tier and what each one produces. For the structural choice between hiring versus fractional, read <a href="/playbook/fractional-vs-agency" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">fractional vs agency</a>. The <a href="/playbook" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">full playbook library</a> covers pricing, pitch guides, and launch strategy.</p>

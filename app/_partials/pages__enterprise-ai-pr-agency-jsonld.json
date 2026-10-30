@@ -84,8 +84,9 @@
             "@type": "Answer",
             "text": "Send a short project brief through the intent form and you will receive a reply within 24 hours with a quick read on your current press footprint and where the leverage is. Or book a 30-minute call and we will plot the narrative live. No deck required, no account-team intro call."
           }
-        }
-      ]
+        },
+      {"@type": "Question", "name": "What makes enterprise AI PR different from consumer AI PR?", "acceptedAnswer": {"@type": "Answer", "text": "The audience is a buying committee that reads trade and analyst content, not a launch-day crowd. Stories need a named deployment, a measured outcome and security and governance answers ready. Reach matters less than whether the right twenty people trust the claim."}}
+    ]
     },
     {
       "@type": "Article",

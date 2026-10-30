@@ -35,7 +35,7 @@
       ],
       "inLanguage": "en",
       "datePublished": "2026-06-23",
-      "dateModified": "2026-06-23",
+      "dateModified": "2026-10-30",
       "about": [
         { "@type": "Thing", "name": "Crypto exchange listing" },
         { "@type": "Thing", "name": "Press release" },
@@ -132,8 +132,9 @@
             "@type": "Answer",
             "text": "A fractional senior PR operator running a listing campaign costs $3,000-$7,000 per month on retainer, or a listing sprint can run $15,000-$40,000 as a standalone engagement covering the full 72-hour window. Full agency retainers range from $15,000-$45,000 per month. KOL activation sits on top: nano KOLs $200-$1,500 per post, micro $500-$5,000, mid-tier $10,000-$30,000. Wire distribution for global plus APAC regional reach typically adds $2,000-$5,000 per release cycle."
           }
-        }
-      ]
+        },
+      {"@type": "Question", "name": "What should a token listing announcement include?", "acceptedAnswer": {"@type": "Answer", "text": "The exchange name, trading pair and start time, supported regions, deposit and withdrawal availability, and what users should know about risks. Add one line on why the listing matters for access, not a price prediction."}}
+    ]
     }
   ]
 }

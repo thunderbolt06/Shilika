@@ -35,7 +35,7 @@
       ],
       "inLanguage": "en",
       "datePublished": "2026-06-23",
-      "dateModified": "2026-06-23",
+      "dateModified": "2026-10-30",
       "about": [
         { "@type": "Thing", "name": "Public relations pricing" },
         { "@type": "Thing", "name": "Fractional PR" },
@@ -129,8 +129,9 @@
             "@type": "Answer",
             "text": "Realistically: one to two earned editorial placements per month in relevant tier-1 or strong tier-2 outlets, one founder op-ed or contributed piece placed per quarter, and consistent relationship-building with three to five beat journalists in your category. What you should not expect is a guaranteed placement every week or simultaneous coverage across ten outlets: that requires a larger sprint budget or full agency."
           }
-        }
-      ]
+        },
+      {"@type": "Question", "name": "What is the smallest PR spend that still produces results?", "acceptedAnswer": {"@type": "Answer", "text": "A scoped sprint for one story, with a defined target list and a limited number of pitches, usually works better than a thin monthly retainer. Spend on the narrative and the first cycle, then decide whether to continue based on what reporters actually said."}}
+    ]
     }
   ]
 }

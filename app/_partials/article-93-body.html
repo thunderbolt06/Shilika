@@ -115,6 +115,14 @@ body { font-family: var(--font-body); background: var(--paper); color: var(--ink
 .hb-l { font-family:var(--font-mono); font-size:10px; letter-spacing:0.08em; text-transform:uppercase; color:rgba(255,255,255,0.55); margin-top:6px; }
 .hb-stats > div.is-key .hb-l { color:rgba(40,37,32,0.7); }
 @media (max-width:720px){ .hero-brief-grid{ grid-template-columns:1fr; position:static; inset:auto; padding:28px; } .article-hero-visual.hero-brief{ aspect-ratio:auto; } }
+
+.x-notes { margin: 36px 0 0; padding: 28px 30px; border: 1px solid var(--line); border-left: 3px solid var(--lime); border-radius: 14px; background: var(--paper); max-width: 64ch; }
+.x-notes-eyebrow { font-family: var(--font-mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin: 0 0 18px; }
+.x-note { margin: 0; padding: 0; }
+.x-note + .x-note { margin-top: 22px; padding-top: 22px; border-top: 1px solid var(--line); }
+.x-note blockquote { margin: 0; padding: 0; border: 0; font-family: var(--font-display); font-style: italic; font-size: clamp(19px, 2vw, 24px); line-height: 1.38; color: var(--ink); }
+.x-note figcaption { margin-top: 10px; font-family: var(--font-mono); font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.x-note figcaption a { color: inherit; text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px; }
 </style>
 
 
@@ -378,7 +386,19 @@ body { font-family: var(--font-body); background: var(--paper); color: var(--ink
 <p>The investment in preparation is the investment in recovery speed. Every hour of delay in the first 24 has a disproportionate cost to the narrative, which then has a disproportionate cost to user trust, which then has a disproportionate cost to protocol TVL, customer retention, or enterprise sales, depending on your product. The comms response is not separate from the business outcome: it is one of the primary levers on it.</p>
 
 
-    <div class="author-block">
+    
+
+<div class="recrawl-notes" data-recrawl="v1">
+<h2>Two rules I keep returning to in a crisis</h2>
+<p>In February 2023 I wrote that it is very important to control your story and actively shape it before it is lost. In November 2025, watching a public dispute unfold, I wrote that when an investigative journalist reaches out several times with specific questions, it makes sense to answer sooner rather than later. After a breach both rules apply twice as hard: the first account sets the frame, and silence reads as evasion.</p>
+<p>Pair this playbook with <a href="/playbook/crypto-crisis-communications-2026">crypto crisis communications</a> for the general sequence and <a href="/pages/cybersecurity-pr-agency-usa">US cybersecurity PR</a> if the incident involves American customers or regulators.</p>
+<aside class="x-notes" aria-label="Field notes from X">
+  <p class="x-notes-eyebrow">Field notes from my X feed</p>
+  <figure class="x-note"><blockquote>It’s very important to control your story and actively shape it before it’s lost!</blockquote><figcaption><a href="https://x.com/Shilika_jain/status/1623987776730574848" target="_blank" rel="noopener">Shilika Jain on X, 10 Feb 2023</a></figcaption></figure>
+</aside>
+</div><!--/recrawl-->
+
+<div class="author-block">
       <div class="author-avatar">SJ</div>
       <div>
         <div class="author-name">Shilika Jain</div>
@@ -403,6 +423,9 @@ body { font-family: var(--font-body); background: var(--paper); color: var(--ink
 
       <div class="faq-q">What does crisis PR cost for a cybersecurity incident?</div>
       <div class="faq-a">A fractional senior PR operator on retainer costs $3,000 to $7,000 per month, and that retainer buys you immediate activation capability, pre-written templates, and an operator who already knows your product. A crisis PR firm engaged with no prior relationship typically costs $20,000 to $50,000 for the first week, with slower activation because they are onboarding in real time. The strongest argument for retaining <a href="/services/cybersecurity-pr">cybersecurity PR support</a> before an incident happens is that you cannot build those relationships and materials fast enough once something goes wrong.</div>
+
+   <div class="faq-q">Should a company respond to a journalist who keeps asking about a breach?</div>
+   <div class="faq-a">Yes, with a short, accurate, on-the-record statement that corrects what is wrong and confirms what is known. Repeated questions from an investigative reporter signal the story will run regardless. Replying early keeps your version in the first draft.</div>
     </div>
 
     <p style="margin-top: 2.2em; padding: 22px 26px; background: var(--paper-2); border-left: 3px solid var(--lime); border-radius: 4px; font-size: 17px; line-height: 1.55;"><strong>Navigating a security incident or building breach-readiness?</strong> Start with <a href="/services/cybersecurity-pr" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">cybersecurity PR</a> for retainer and crisis support, or read the <a href="/playbook/crypto-crisis-communications-2026" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">crypto crisis communications</a> playbook for the protocol-specific layer. The full <a href="/playbook" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">playbook library</a> covers every stage of security PR from threat research through incident response.</p>

@@ -1,0 +1,138 @@
+{
+ "tweets": {
+  "1677619369239789570": {
+   "date": "8 Jul 2023",
+   "text": "when you’re a part of a DAO you learn so many things:\n\n• collective decision v/s individual POV\n• collective growth v/s self-centered approach\n• contributing to a greater impact/cause together\n• bringing revolution at the forefront\n• ability to grow/scale at a massive speed",
+   "url": "https://x.com/Shilika_jain/status/1677619369239789570"
+  },
+  "1630273600132644864": {
+   "date": "27 Feb 2023",
+   "text": "founders are naturally born FUD-fighters.",
+   "url": "https://x.com/Shilika_jain/status/1630273600132644864"
+  },
+  "1717231321024811173": {
+   "date": "25 Oct 2023",
+   "text": "what should PR managers do when publications only want exclusives?",
+   "url": "https://x.com/Shilika_jain/status/1717231321024811173"
+  },
+  "1842193742721335427": {
+   "date": "4 Oct 2024",
+   "text": "what are PR folks supposed to do if reporters ghost after saying yes?",
+   "url": "https://x.com/Shilika_jain/status/1842193742721335427"
+  },
+  "1858743631361749502": {
+   "date": "19 Nov 2024",
+   "text": "easiest way to raise funds in a web2/web3 market:\n\n- build a solid product in a saturated niche\n- provide 2x value by building coolest features, intuitive experience, low fees etc\n- show adoption in the first 6 months of initial launch\n- voila, you get some great eyeballs + 🤑🤑",
+   "url": "https://x.com/Shilika_jain/status/1858743631361749502"
+  },
+  "1866139605634027962": {
+   "date": "9 Dec 2024",
+   "text": "- recorded a podcast w @duniyaxyz",
+   "url": "https://x.com/Shilika_jain/status/1866139605634027962"
+  },
+  "1814216829633462350": {
+   "date": "19 Jul 2024",
+   "text": "- Got Invited for a Hindi podcast to talk about my journey!",
+   "url": "https://x.com/Shilika_jain/status/1814216829633462350"
+  },
+  "1748363827664564311": {
+   "date": "19 Jan 2024",
+   "text": "glad to help break this story! \n\nCongrats @0xRootLabs on the successful funding rounds!",
+   "url": "https://x.com/Shilika_jain/status/1748363827664564311"
+  },
+  "1813943988002689319": {
+   "date": "18 Jul 2024",
+   "text": "always a happy girlie seeing good coverage! Thanks @Liqquidity @JamieCrawleyCD 🙏🏻",
+   "url": "https://x.com/Shilika_jain/status/1813943988002689319"
+  }
+ },
+ "posts": {
+  "dao-governance-crisis-communications-playbook": {
+   "quotes": [
+    "1677619369239789570",
+    "1630273600132644864"
+   ],
+   "h2": "What working inside DAOs taught me about crises",
+   "paras": [
+    "In July 2023 I listed what DAO membership teaches: collective decisions against individual opinions, shared growth against self-interest, and the ability to scale fast. Those same traits make a DAO crisis hard to handle, because no single person owns the message and everyone with a token feels entitled to speak.",
+    "When I joined Myosin in January 2023 I was skeptical, because I assumed DAOs were chaotic. A year later I wrote that the structure was working. The lesson I carry into crisis work is that clarity of ownership matters more than speed. Decide who speaks before you need them. Related reading: <a href=\"/blog/rug-pull-allegation-crisis-comms-72-hour-playbook\">the 72-hour rug pull allegation playbook</a>, <a href=\"/blog/web3-crisis-communications\">Web3 crisis communications</a> and <a href=\"/playbook/crypto-crisis-communications-2026\">the crypto crisis communications playbook</a>."
+   ]
+  },
+  "geo-ai-search-visibility-web3-founders": {
+   "quotes": [],
+   "h2": "Why I keep testing this on my own pages",
+   "paras": [
+    "I wrote in August 2026 that crypto projects doubling down on generative engine optimization now are the ones likely to see strong organic traffic in the months ahead, and that it gets too little attention. I back that by running the same checks on my own site that I run for clients: a direct answer under each headline, a visible author with dated evidence, and structured data that matches the visible page.",
+    "For the full method, read <a href=\"/playbook/how-to-build-ai-search-visibility-geo-2026\">how to build AI search visibility</a> and <a href=\"/playbook/aeo-vs-seo-startups-2026\">AEO versus SEO</a>. If you want it run for you, see <a href=\"/services/ai-seo\">AI SEO</a> and the <a href=\"/pages/geo-aeo-agency-crypto\">GEO and AEO agency page</a>."
+   ]
+  },
+  "token-launch-embargo-management-multiple-outlets": {
+   "quotes": [
+    "1717231321024811173"
+   ],
+   "h2": "The exclusivity problem I asked about in public",
+   "paras": [
+    "Exclusivity is the recurring friction in embargo work. In October 2023 I put the question to my own followers because it comes up on nearly every launch: what should a PR manager do when publications only want exclusives?",
+    "My working answer is to choose the outlet that reaches the audience you need first, offer it a real head start, and tell every other reporter plainly when their window opens. Reporters forgive a sequence they were told about and rarely forgive one they discovered. The mechanics are in <a href=\"/blog/web3-pr-embargo-operations-playbook\">the embargo operations playbook</a>, and the wider relationship picture is in the <a href=\"/playbook/crypto-media-relations-guide-2026\">media relations guide</a>."
+   ]
+  },
+  "web3-pr-embargo-operations-playbook": {
+   "quotes": [
+    "1842193742721335427"
+   ],
+   "h2": "When a reporter says yes and then goes quiet",
+   "paras": [
+    "In October 2024 I asked a question I still get from clients: what are PR folks supposed to do if reporters ghost after saying yes? An embargo makes it worse, because the clock is running and the other outlets are waiting.",
+    "My approach is to wait two working days, send one follow-up that adds a new fact or document, and keep a second outlet ready in case the first does not return. Never lift an embargo early to rescue a stalled pitch. For the multi-outlet version of this problem, read <a href=\"/blog/token-launch-embargo-management-multiple-outlets\">embargo management across several outlets</a>, and for pitching craft see <a href=\"/playbook/how-to-get-covered-the-block-blockworks-2026\">how to get covered by The Block and Blockworks</a>."
+   ]
+  },
+  "token-launch-pr-timeline-90-day-pre-tge-plan": {
+   "quotes": [
+    "1858743631361749502"
+   ],
+   "h2": "Plan the 90 days before TGE around the 90 days after",
+   "paras": [
+    "In November 2024 I wrote that one of the simplest ways to attract attention and funding is to show adoption in the first six months after launch. A token launch follows the same logic: whatever you have not built by TGE, you cannot show afterwards, and the press window closes quickly.",
+    "So I work the timeline backwards from the proof you want in the first month, such as active users, integrations or revenue, and schedule the pre-launch stories to set that up. See <a href=\"/playbook/post-tge-pr-first-90-days-2026\">the first 90 days after TGE</a>, <a href=\"/playbook/token-launch-pr-mistakes-2026\">common token launch PR mistakes</a> and the <a href=\"/services/token-launch-pr\">token launch PR service</a>."
+   ]
+  },
+  "web3-gaming-pr-pitch-decrypt-polygon-blog-gaming-outlets": {
+   "quotes": [],
+   "h2": "Gaming pitches are an editorial-fit problem",
+   "paras": [
+    "Gaming and crypto desks read the same pitch for different reasons, which is why one generic announcement rarely works across all of them. I treat each outlet as its own reader: what does this editor need to justify the story to a skeptical audience?",
+    "I have worked with NFT teams including Rarible and the Rari Foundation, and the pattern is consistent: the story that travels is about players or collectors and what changed for them, not about the mechanics. For related reading see <a href=\"/blog/gamefi-nft-pr-earned-media-strategy-2026\">GameFi and NFT earned media strategy</a>, <a href=\"/blog/how-to-pitch-coindesk-the-block-blockworks-decrypt-2026\">how to pitch CoinDesk, The Block, Blockworks and Decrypt</a> and the <a href=\"/pages/nft-pr-agency\">NFT PR page</a>."
+   ]
+  },
+  "vulnerability-disclosure-pr-web3-crypto-cve-communications-playbook": {
+   "quotes": [],
+   "h2": "Disclosure timing is also a user-safety decision in Web3",
+   "paras": [
+    "In traditional software a late disclosure is an embarrassment. In Web3 it can mean funds at risk, so the communications plan has to follow the technical fix and the disclosure agreement, never lead them. That ordering decides what you can say, to whom and when.",
+    "If the story is research you are about to publish, see the <a href=\"/pages/infosec-pr-agency\">InfoSec PR page</a>. For the general security service, read <a href=\"/pages/cybersecurity-pr-agency\">cybersecurity PR</a>, and for an incident that is already public, the <a href=\"/playbook/cybersecurity-breach-crisis-comms-2026\">breach and crisis communications playbook</a>."
+   ]
+  },
+  "web3-founder-podcast-tour-playbook": {
+   "quotes": [
+    "1814216829633462350",
+    "1866139605634027962"
+   ],
+   "h2": "I have been on both sides of the microphone",
+   "paras": [
+    "In July 2024 I was invited onto a Hindi podcast to talk about my own journey, and in December 2024 I recorded another episode. Hosting and guesting taught me what a host values: a guest who answers the question asked, offers one concrete story and makes the episode easy to promote.",
+    "That is why the pitch advice here centers on what the host can use, not on what you want to say. My own launch sequence puts one or two podcasts about a month before an announcement, which you can see in the <a href=\"/playbook/ai-product-launch-pr-2026\">AI product launch PR playbook</a>. For the press side, see <a href=\"/blog/web3-pr-embargo-operations-playbook\">embargo operations</a>."
+   ]
+  },
+  "web3-funding-announcement-30-day-earned-media-campaign": {
+   "quotes": [
+    "1748363827664564311",
+    "1813943988002689319"
+   ],
+   "h2": "Funding stories I have helped place",
+   "paras": [
+    "Funding is the announcement type with the clearest path to earned coverage, because reporters can verify the round and readers care who backed it. In January 2024 I helped break the Root Labs funding story, and in July 2024 I shared coverage for Liqquidity.",
+    "The 30-day plan here is built on that experience: brief one reporter first, with documents they can verify, then widen the story once it is public. For related reading see <a href=\"/playbook/ai-series-a-funding-announcement-pr-2026\">funding announcement PR for AI companies</a> and <a href=\"/playbook/get-featured-coindesk-2026\">how to get featured on CoinDesk</a>."
+   ]
+  }
+ }
+}

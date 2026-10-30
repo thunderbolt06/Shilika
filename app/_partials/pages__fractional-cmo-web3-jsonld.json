@@ -84,8 +84,9 @@
             "@type": "Answer",
             "text": "Send a short project brief through the intent form and you will get a reply within 24 hours, including a quick read on your current press footprint and where the gaps are. Or book a 30-minute call directly and we plot it live, no deck required, no account-team intro call."
           }
-        }
-      ]
+        },
+      {"@type": "Question", "name": "When is fractional PR enough and a fractional CMO not needed?", "acceptedAnswer": {"@type": "Answer", "text": "If the problem is visibility, press relationships and narrative, fractional PR is usually enough and costs less. A fractional CMO fits when you also need channel strategy, budget allocation and a plan across paid, content and community."}}
+    ]
     },
     {
       "@type": "Article",

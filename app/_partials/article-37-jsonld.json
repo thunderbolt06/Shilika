@@ -35,7 +35,7 @@
       ],
       "inLanguage": "en",
       "datePublished": "2026-06-23",
-      "dateModified": "2026-06-23",
+      "dateModified": "2026-10-30",
       "about": [
         { "@type": "Thing", "name": "DePIN" },
         { "@type": "Thing", "name": "Decentralised Physical Infrastructure Networks" },
@@ -127,8 +127,9 @@
             "@type": "Answer",
             "text": "On-chain, verifiable data beats company claims every time. Node count growth over time, geographic distribution of node operators, uptime statistics, compute jobs served, token distribution metrics, and cost-versus-centralised-alternative comparisons are all citable and independently verifiable. Pair that data with a macro trend the editor already covers, such as AI compute demand, satellite connectivity, or energy grid resilience, and you have the raw material of a story rather than a promotional pitch. Third-party data is what moves a pitch from an interesting company announcement to a story worth writing."
           }
-        }
-      ]
+        },
+      {"@type": "Question", "name": "What should a DePIN press story lead with?", "acceptedAnswer": {"@type": "Answer", "text": "Measurable network facts: active devices, locations, usage and revenue if available, plus the customer or community that depends on it. Token mechanics belong lower in the story."}}
+    ]
     }
   ]
 }

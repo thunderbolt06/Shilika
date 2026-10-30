@@ -84,8 +84,9 @@
             "@type": "Answer",
             "text": "Send a short project brief through the intent form with a one-paragraph description of your research or product and your approximate timeline. You will get a reply within 24 hours with a read on where your story fits in the current security news cycle, or book a 30-minute call to map it live."
           }
-        }
-      ]
+        },
+      {"@type": "Question", "name": "What should be settled before pitching a vulnerability story?", "acceptedAnswer": {"@type": "Answer", "text": "Three things: the fix status, the embargo terms agreed with the affected vendor, and a headline that the evidence fully supports. If any of these is open, hold the pitch. A security editor who spots an overstated claim will discount everything else you send."}}
+    ]
     }
   ]
 }

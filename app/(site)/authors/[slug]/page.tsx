@@ -8,6 +8,7 @@ import type { BlogPost } from '@/lib/supabase/types';
 import { Photo } from '@/components/site/Media';
 import { ogImage } from '@/lib/i18n/og';
 import { jsonLdString } from '@/lib/json-ld';
+import authorEvidence from '@/data/author-evidence.json';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
@@ -19,6 +20,24 @@ export function generateStaticParams() {
 }
 
 type Params = Promise<{ slug: string }>;
+
+type EvidenceGroup = { title: string; items: { date: string; text: string; url: string }[] };
+
+/** Dated, linked track record for Shilika's profile (data/author-evidence.json); other authors get none. */
+function loadEvidence(slug: string): EvidenceGroup[] {
+  return slug === 'shilika-jain' ? (authorEvidence.groups as EvidenceGroup[]) : [];
+}
+
+const SHILIKA_KNOWS_ABOUT = [
+  'Web3 public relations',
+  'Crypto media relations',
+  'Token launch communications',
+  'Earned media strategy',
+  'Crisis communications',
+  'Generative engine optimization',
+  'Founder thought leadership',
+  'Asia-Pacific crypto markets',
+];
 
 const META_DESCRIPTION_MAX = 160;
 
@@ -88,6 +107,7 @@ export default async function AuthorPage({ params }: { params: Params }) {
   if (!author) notFound();
 
   const posts = await listPostsByAuthor(slug);
+  const evidence = loadEvidence(slug);
   const url = `${SITE_URL}/authors/${author.slug}`;
   // Shilika's profile uses a close portrait from the media library; any other author keeps
   // the image stored with their record.
@@ -112,6 +132,7 @@ export default async function AuthorPage({ params }: { params: Params }) {
           jobTitle: author.title,
           description: author.bio,
           sameAs: author.same_as,
+          ...(evidence.length ? { knowsAbout: SHILIKA_KNOWS_ABOUT } : {}),
         },
       },
       {
@@ -190,6 +211,45 @@ export default async function AuthorPage({ params }: { params: Params }) {
             </div>
           </div>
         </header>
+
+        {evidence.length > 0 && (
+          <section className="mx-auto max-w-3xl px-6 pb-16" aria-labelledby="track-record">
+            <h2
+              id="track-record"
+              className="border-b border-ink/10 pb-3 font-mono text-xs uppercase tracking-widest text-ink/60"
+            >
+              Track record, dated and linked
+            </h2>
+            <p className="mt-4 max-w-prose text-ink/70">
+              Every line below paraphrases a public post on X and links to it, so each claim can be checked at the source.
+            </p>
+            {evidence.map((group) => (
+              <div key={group.title} className="mt-8">
+                <h3 className="font-serif text-2xl leading-tight tracking-tight">{group.title}</h3>
+                <ul className="mt-3">
+                  {group.items.map((item) => (
+                    <li key={item.url} className="flex flex-col gap-1 border-b border-ink/10 py-3 sm:flex-row sm:gap-6">
+                      <time className="w-24 shrink-0 font-mono text-xs uppercase tracking-widest text-ink/50">
+                        {item.date}
+                      </time>
+                      <span className="text-ink/80">
+                        {item.text}{' '}
+                        <a
+                          href={item.url}
+                          target="_blank"
+                          rel="noopener"
+                          className="font-mono text-xs uppercase tracking-widest text-ink/60 underline decoration-ink/30 underline-offset-4 hover:text-rust"
+                        >
+                          Source
+                        </a>
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </section>
+        )}
 
         <section className="mx-auto max-w-3xl px-6 pb-20">
           <h2 className="border-b border-ink/10 pb-3 font-mono text-xs uppercase tracking-widest text-ink/60">

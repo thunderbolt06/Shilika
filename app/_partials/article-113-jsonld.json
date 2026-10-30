@@ -35,7 +35,7 @@
       ],
       "inLanguage": "en",
       "datePublished": "2026-06-23",
-      "dateModified": "2026-06-23",
+      "dateModified": "2026-10-30",
       "about": [
         { "@type": "Thing", "name": "Token launch PR" },
         { "@type": "Thing", "name": "TGE communications" },
@@ -130,8 +130,9 @@
             "@type": "Answer",
             "text": "Narrative infrastructure should start three to six months before the TGE. By six weeks out, you should already have at least three pieces of media coverage on record, a founder op-ed placed or in progress, warm relationships with journalists on your media list, and a clear one-sentence narrative every team member says consistently. Projects that start two weeks before TGE are not doing launch PR, they are doing damage limitation."
           }
-        }
-      ]
+        },
+      {"@type": "Question", "name": "Can paying for PR guarantee tier-1 coverage at a token launch?", "acceptedAnswer": {"@type": "Answer", "text": "No. Reputable outlets do not sell editorial coverage. You can pay for strategy, preparation and relationships, but coverage depends on whether the news is strong enough for that outlet's readers."}}
+    ]
     }
   ]
 }

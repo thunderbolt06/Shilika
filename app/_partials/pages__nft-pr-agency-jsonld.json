@@ -84,8 +84,9 @@
             "@type": "Answer",
             "text": "Send a short project brief through the intent form and you will get a reply within 24 hours with a quick read on your press footprint and the story angle that will earn coverage. Or book a 30-minute call and we will map it live. No deck required, no agency intro call."
           }
-        }
-      ]
+        },
+      {"@type": "Question", "name": "What makes an NFT project newsworthy?", "acceptedAnswer": {"@type": "Answer", "text": "A real partnership, a measurable community milestone, a new use of the IP or a change in how holders benefit. Floor price and mint sell-outs are market data, not news. Reporters need an angle that stands without the price."}}
+    ]
     }
   ]
 }

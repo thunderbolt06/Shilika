@@ -35,7 +35,7 @@
       ],
       "inLanguage": "en",
       "datePublished": "2026-06-23",
-      "dateModified": "2026-06-23",
+      "dateModified": "2026-10-30",
       "about": [
         { "@type": "Thing", "name": "The Information" },
         { "@type": "Thing", "name": "Technology journalism" },
@@ -129,8 +129,9 @@
             "@type": "Answer",
             "text": "Engage immediately. Provide a named spokesperson, correct factual errors with documentation, and give a clear on-record statement. Silence is not protection: the story runs either way, and non-engagement reads as evasion to an audience of institutional readers. The right-of-reply call is an opportunity to shape the record, not a threat to avoid. Treating it as the former is the strategically correct move and the honest one."
           }
-        }
-      ]
+        },
+      {"@type": "Question", "name": "Can a startup realistically get covered by The Information?", "acceptedAnswer": {"@type": "Answer", "text": "Sometimes, if it has a genuine scoop with named sources, such as a funding round, a leadership change or hard data. Announcements and product updates rarely qualify, so pitch only when the story would matter to a paying subscriber."}}
+    ]
     }
   ]
 }

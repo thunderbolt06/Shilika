@@ -84,8 +84,9 @@
             "@type": "Answer",
             "text": "Send a short project brief through the intent form and you will get a reply within 24 hours, including an honest read on your current community health and a suggested KOL tier mix. Or book a 30-minute call and we will map the campaign live. No deck required, no agency intro process."
           }
-        }
-      ]
+        },
+      {"@type": "Question", "name": "Can a memecoin get legitimate press coverage?", "acceptedAnswer": {"@type": "Answer", "text": "Sometimes, when there is a verifiable story such as a notable community, a real integration or a market event. Coverage depends on transparency about the team, supply and risks. Without that, reporters treat the project as promotion and decline."}}
+    ]
     }
   ]
 }

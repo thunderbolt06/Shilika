@@ -84,8 +84,9 @@
             "@type": "Answer",
             "text": "Send a short project brief through the intent form with your announcement, target outlets and timeline. You will get a reply within 24 hours with a read on whether the news hook is strong enough, which reporters are the right fit and what the process looks like. Or book a 30-minute call to map it out live. No deck, no agency intake form."
           }
-        }
-      ]
+        },
+      {"@type": "Question", "name": "Is a press release enough to get crypto coverage?", "acceptedAnswer": {"@type": "Answer", "text": "No. A release is a record and a source document. Coverage comes from a pitch to a specific reporter with a reason to care, usually sent before or alongside the release. Treat the release as support for that pitch, not a substitute for it."}}
+    ]
     }
   ]
 }

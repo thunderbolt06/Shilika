@@ -35,7 +35,7 @@
       ],
       "inLanguage": "en",
       "datePublished": "2026-06-23",
-      "dateModified": "2026-06-23",
+      "dateModified": "2026-10-30",
       "about": [
         { "@type": "Thing", "name": "Generative engine optimization" },
         { "@type": "Thing", "name": "AI search visibility" },
@@ -128,8 +128,9 @@
             "@type": "Answer",
             "text": "Answer engine optimization and generative engine optimization are closely related but not identical. AEO focuses on appearing in answer boxes and featured snippets in traditional search, which requires structured, directly-answering content. GEO is broader: it includes AEO but also covers the AI synthesis layer where engines like ChatGPT, Perplexity and Google's AI Mode assemble answers from multiple sources. For a startup, the program that works for GEO almost always also improves AEO, because both reward the same content properties: clear structure, direct answers, named expertise, cited evidence."
           }
-        }
-      ]
+        },
+      {"@type": "Question", "name": "Why would a page be crawled but not indexed?", "acceptedAnswer": {"@type": "Answer", "text": "Google fetched it and chose not to store it, usually because the page adds little that other pages do not already provide, or because the site overall lacks trust signals. Adding first-hand experience, unique data and a clear author usually helps."}}
+    ]
     }
   ]
 }

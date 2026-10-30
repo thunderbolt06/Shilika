@@ -10,6 +10,7 @@ import { extractToc } from '@/lib/toc';
 import { TableOfContents } from '@/components/blog/TableOfContents';
 import { ReadingProgress } from '@/components/blog/ReadingProgress';
 import { jsonLdString } from '@/lib/json-ld';
+import blogFieldNotes from '@/data/blog-field-notes.json';
 import {
   AVATAR_IDS,
   COVER_IDS,
@@ -83,6 +84,45 @@ function formatDate(iso: string | null): string {
     month: 'long',
     day: 'numeric',
   });
+}
+
+type FieldNotes = { h2: string; paras: string[]; quotes: string[] };
+
+/** First-hand "from the field" block for a post (data/blog-field-notes.json); posts without an entry render none. */
+function FieldNotesBlock({ slug }: { slug: string }) {
+  const notes = (blogFieldNotes.posts as Record<string, FieldNotes>)[slug];
+  if (!notes) return null;
+  const tweets = blogFieldNotes.tweets as Record<string, { date: string; text: string; url: string }>;
+  return (
+    <section className="prose-shilika blog-field-notes" data-recrawl="v1">
+      <h2>{notes.h2}</h2>
+      {notes.paras.map((p, i) => (
+        <p key={i} dangerouslySetInnerHTML={{ __html: p }} />
+      ))}
+      {notes.quotes.length > 0 && (
+        <aside className="x-notes" aria-label="Field notes from X">
+          <p className="x-notes-eyebrow">Field notes from my X feed</p>
+          {notes.quotes.map((id) => (
+            <figure key={id} className="x-note">
+              <blockquote>
+                {tweets[id].text.split('\n').map((line, i, arr) => (
+                  <span key={i}>
+                    {line}
+                    {i < arr.length - 1 && <br />}
+                  </span>
+                ))}
+              </blockquote>
+              <figcaption>
+                <a href={tweets[id].url} target="_blank" rel="noopener">
+                  Shilika Jain on X, {tweets[id].date}
+                </a>
+              </figcaption>
+            </figure>
+          ))}
+        </aside>
+      )}
+    </section>
+  );
 }
 
 export default async function BlogPostPage({ params }: { params: Params }) {
@@ -271,6 +311,8 @@ export default async function BlogPostPage({ params }: { params: Params }) {
             className="prose-shilika"
             dangerouslySetInnerHTML={{ __html: html }}
           />
+
+          <FieldNotesBlock slug={post.slug} />
 
           <aside className="post-cta post-cta-sticky post-mobile-block">
             <p className="post-cta-kicker">

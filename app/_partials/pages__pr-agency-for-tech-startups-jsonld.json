@@ -84,8 +84,9 @@
             "@type": "Answer",
             "text": "Send a short project brief through the intent form and you will get a reply within 24 hours with a quick read on your current press footprint and what a realistic first campaign looks like. Or book a 30-minute call and we will map it live. No deck required, no account-team intro call."
           }
-        }
-      ]
+        },
+      {"@type": "Question", "name": "What should a tech startup ask a PR agency before hiring?", "acceptedAnswer": {"@type": "Answer", "text": "Ask who will do the pitching, which three outlets they expect to target and why, how success is measured in the first 90 days, and what happens if a launch window slips. Vague answers on any of these usually mean junior staff will do the work you thought a senior would."}}
+    ]
     },
     {
       "@type": "Article",

@@ -115,6 +115,14 @@ body { font-family: var(--font-body); background: var(--paper); color: var(--ink
 .hb-l { font-family:var(--font-mono); font-size:10px; letter-spacing:0.08em; text-transform:uppercase; color:rgba(255,255,255,0.55); margin-top:6px; }
 .hb-stats > div.is-key .hb-l { color:rgba(40,37,32,0.7); }
 @media (max-width:720px){ .hero-brief-grid{ grid-template-columns:1fr; position:static; inset:auto; padding:28px; } .article-hero-visual.hero-brief{ aspect-ratio:auto; } }
+
+.x-notes { margin: 36px 0 0; padding: 28px 30px; border: 1px solid var(--line); border-left: 3px solid var(--lime); border-radius: 14px; background: var(--paper); max-width: 64ch; }
+.x-notes-eyebrow { font-family: var(--font-mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin: 0 0 18px; }
+.x-note { margin: 0; padding: 0; }
+.x-note + .x-note { margin-top: 22px; padding-top: 22px; border-top: 1px solid var(--line); }
+.x-note blockquote { margin: 0; padding: 0; border: 0; font-family: var(--font-display); font-style: italic; font-size: clamp(19px, 2vw, 24px); line-height: 1.38; color: var(--ink); }
+.x-note figcaption { margin-top: 10px; font-family: var(--font-mono); font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.x-note figcaption a { color: inherit; text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px; }
 </style>
 
 
@@ -323,7 +331,20 @@ body { font-family: var(--font-body); background: var(--paper); color: var(--ink
 <p>The mistakes in this playbook are correctable. Most of them require decisions, not budget. The decision to build narrative infrastructure before the announcement rather than scrambling during it. The decision to vet KOLs instead of buying reach. The decision to keep publishing after the TGE instead of going quiet. None of it is complicated. It just has to happen before the launch, not after.</p>
 
 
-    <div class="author-block">
+    
+
+<div class="recrawl-notes" data-recrawl="v1">
+<h2>The mistake I see first</h2>
+<p>In December 2023 I wrote that early-stage projects that think they can pay for PR and get top-tier coverage without strong news are not going to make it. In April 2024 I added that anyone promising top-tier coverage on day one of a Web3 PR activation is naive. Both describe the same error: treating coverage as something purchased rather than earned from news.</p>
+<p>The mistakes below follow from that. For the corrective sequence, see the <a href="/playbook/tier-1-pr-trap">tier-1 PR trap</a> and <a href="/pages/token-launch-pr-agency">token launch PR</a>.</p>
+<aside class="x-notes" aria-label="Field notes from X">
+  <p class="x-notes-eyebrow">Field notes from my X feed</p>
+  <figure class="x-note"><blockquote>noobs will say that you can secure top tier coverage on day1 of your Web3 PR activations!</blockquote><figcaption><a href="https://x.com/Shilika_jain/status/1783022374167953908" target="_blank" rel="noopener">Shilika Jain on X, 24 Apr 2024</a></figcaption></figure>
+  <figure class="x-note"><blockquote>early stage project who think they can pay for PR and get top tier coverage without any strong news are NGMI</blockquote><figcaption><a href="https://x.com/Shilika_jain/status/1730970021894258726" target="_blank" rel="noopener">Shilika Jain on X, 2 Dec 2023</a></figcaption></figure>
+</aside>
+</div><!--/recrawl-->
+
+<div class="author-block">
       <div class="author-avatar">SJ</div>
       <div>
         <div class="author-name">Shilika Jain</div>
@@ -348,6 +369,9 @@ body { font-family: var(--font-body); background: var(--paper); color: var(--ink
 
       <div class="faq-q">How early should token launch PR start?</div>
       <div class="faq-a">Narrative infrastructure should start three to six months before the TGE. By six weeks out, you should already have at least three pieces of media coverage on record, a founder op-ed placed or in progress, warm relationships with journalists on your media list, and a clear one-sentence narrative every team member says consistently. The <a href="/playbook/pre-token-launch-pr-checklist">pre-token launch PR checklist</a> has the full timeline. Projects that start two weeks before TGE are not doing launch PR, they are doing damage limitation.</div>
+
+   <div class="faq-q">Can paying for PR guarantee tier-1 coverage at a token launch?</div>
+   <div class="faq-a">No. Reputable outlets do not sell editorial coverage. You can pay for strategy, preparation and relationships, but coverage depends on whether the news is strong enough for that outlet's readers.</div>
     </div>
 
     <p style="margin-top: 2.2em; padding: 22px 26px; background: var(--paper-2); border-left: 3px solid var(--lime); border-radius: 4px; font-size: 17px; line-height: 1.55;"><strong>Planning a token launch?</strong> Start with the <a href="/playbook/pre-token-launch-pr-checklist" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">pre-token launch PR checklist</a> for the full infrastructure timeline, then <a href="/playbook/post-tge-pr-first-90-days-2026" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">post-TGE PR: first 90 days</a> for the follow-through cadence. The <a href="/playbook" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">full playbook library</a> covers pricing, pitch guides and the agency mistakes to avoid.</p>

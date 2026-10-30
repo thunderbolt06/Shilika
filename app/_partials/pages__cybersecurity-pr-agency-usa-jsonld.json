@@ -84,8 +84,9 @@
             "@type": "Answer",
             "text": "Send a short project brief using the intent form at shilikajain.com/pages/cybersecurity-pr-agency-usa and you will receive a reply within 24 hours with a quick read on your current press footprint and where the gaps are. Alternatively, book a 30-minute call directly and we will map the opportunity live, no slide deck required."
           }
-        }
-      ]
+        },
+      {"@type": "Question", "name": "Do I need a US-based agency for US security press?", "acceptedAnswer": {"@type": "Answer", "text": "No. US trade desks respond to a clear technical claim, a verifiable source and sensible timing around the major conference calendar, not to an agency postcode. What matters is that the person pitching can explain the claim well enough to defend it with a reporter."}}
+    ]
     }
   ]
 }

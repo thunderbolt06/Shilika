@@ -115,6 +115,14 @@ body { font-family: var(--font-body); background: var(--paper); color: var(--ink
 .hb-l { font-family:var(--font-mono); font-size:10px; letter-spacing:0.08em; text-transform:uppercase; color:rgba(255,255,255,0.55); margin-top:6px; }
 .hb-stats > div.is-key .hb-l { color:rgba(40,37,32,0.7); }
 @media (max-width:720px){ .hero-brief-grid{ grid-template-columns:1fr; position:static; inset:auto; padding:28px; } .article-hero-visual.hero-brief{ aspect-ratio:auto; } }
+
+.x-notes { margin: 36px 0 0; padding: 28px 30px; border: 1px solid var(--line); border-left: 3px solid var(--lime); border-radius: 14px; background: var(--paper); max-width: 64ch; }
+.x-notes-eyebrow { font-family: var(--font-mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin: 0 0 18px; }
+.x-note { margin: 0; padding: 0; }
+.x-note + .x-note { margin-top: 22px; padding-top: 22px; border-top: 1px solid var(--line); }
+.x-note blockquote { margin: 0; padding: 0; border: 0; font-family: var(--font-display); font-style: italic; font-size: clamp(19px, 2vw, 24px); line-height: 1.38; color: var(--ink); }
+.x-note figcaption { margin-top: 10px; font-family: var(--font-mono); font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.x-note figcaption a { color: inherit; text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px; }
 </style>
 
 
@@ -322,7 +330,21 @@ body { font-family: var(--font-body); background: var(--paper); color: var(--ink
   <li><strong>Skipping the founder voice entirely.</strong> Category-creation without a named, credible expert is fragile. The moment a competitor founder makes a stronger public case for the same category, you have lost the narrative authority you never built. The founder's voice is not optional infrastructure in DePIN. It is the load-bearing structure.</li>
 </ul>
 
-    <div class="author-block">
+    
+
+<div class="recrawl-notes" data-recrawl="v1">
+<h2>Why DePIN stories suit earned coverage</h2>
+<p>In April 2025 I wrote that many DePIN and Bitcoin projects were running paid press releases when good earned coverage was available. The reason is straightforward: DePIN has physical devices, real locations and measurable usage, which are the facts reporters want. In December 2023 I wrote about being a proponent of projects building things normal people can use. I began supporting Powerloom, a decentralized data project, on PR and comms in November 2023.</p>
+<p>Lead with the number of active devices, the real-world service and the customer, not the token. See <a href="/pages/depin-pr-agency">DePIN PR</a>, <a href="/pages/depin-marketing-agency">DePIN marketing</a> and <a href="/playbook/web3-infrastructure-pr-2026">Web3 infrastructure PR</a>.</p>
+<aside class="x-notes" aria-label="Field notes from X">
+  <p class="x-notes-eyebrow">Field notes from my X feed</p>
+  <figure class="x-note"><blockquote>i see so many DePIN &amp; Bitcoin focused projects doing paid press releases even though there’s opportunity for some good earned coverage!!<br><br>it’s honestly stupid, let’s chat!</blockquote><figcaption><a href="https://x.com/Shilika_jain/status/1908499569916125588" target="_blank" rel="noopener">Shilika Jain on X, 5 Apr 2025</a></figcaption></figure>
+  <figure class="x-note"><blockquote>Since the time I started working in the crypto/web3 space, I’ve always been a huge proponent of projects that are building stuff that normies can use!<br><br>stuff that’s tangible, in-real real world application!</blockquote><figcaption><a href="https://x.com/Shilika_jain/status/1741558180780634455" target="_blank" rel="noopener">Shilika Jain on X, 31 Dec 2023</a></figcaption></figure>
+  <figure class="x-note"><blockquote>Glad to share that I’d be supporting @PowerloomHQ on everything PR + Comms. <br><br>Excited to build the future of decentralized data with them.</blockquote><figcaption><a href="https://x.com/Shilika_jain/status/1729571063846363359" target="_blank" rel="noopener">Shilika Jain on X, 28 Nov 2023</a></figcaption></figure>
+</aside>
+</div><!--/recrawl-->
+
+<div class="author-block">
       <div class="author-avatar">SJ</div>
       <div>
         <div class="author-name">Shilika Jain</div>
@@ -347,6 +369,9 @@ body { font-family: var(--font-body); background: var(--paper); color: var(--ink
 
       <div class="faq-q">What data should a DePIN project include in a media pitch?</div>
       <div class="faq-a">On-chain, verifiable data beats company claims every time. Node count growth over time, geographic distribution of node operators, uptime statistics, compute jobs served, token distribution metrics, and cost-versus-centralised-alternative comparisons are all citable and independently verifiable. Pair that data with a macro trend the editor already covers, such as AI compute demand, satellite connectivity, or energy grid resilience, and you have the raw material of a story rather than a promotional pitch. Third-party data is what moves a pitch from "interesting company announcement" to "story I want to write."</div>
+
+   <div class="faq-q">What should a DePIN press story lead with?</div>
+   <div class="faq-a">Measurable network facts: active devices, locations, usage and revenue if available, plus the customer or community that depends on it. Token mechanics belong lower in the story.</div>
     </div>
 
     <p style="margin-top: 2.2em; padding: 22px 26px; background: var(--paper-2); border-left: 3px solid var(--lime); border-radius: 4px; font-size: 17px; line-height: 1.55;"><strong>Building narrative for a DePIN or Web3 infrastructure project?</strong> The <a href="/services/web3-pr-campaigns" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">Web3 PR campaigns</a> program covers sustained category-creation work. <a href="/services/founder-profiling" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">Founder profiling</a> builds the expert footprint that makes every pitch land harder. Before you book a placement sprint, read <a href="/playbook/tier-1-pr-trap" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">the tier-1 PR trap</a> and the <a href="/playbook" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">full playbook library</a>.</p>

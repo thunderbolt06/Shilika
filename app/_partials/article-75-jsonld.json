@@ -35,7 +35,7 @@
       ],
       "inLanguage": "en",
       "datePublished": "2026-06-23",
-      "dateModified": "2026-06-23",
+      "dateModified": "2026-10-30",
       "about": [
         { "@type": "Thing", "name": "Fractional PR" },
         { "@type": "Thing", "name": "Public relations consulting" },
@@ -128,8 +128,9 @@
             "@type": "Answer",
             "text": "By the end of week four you should have a narrative framework, a targeted media list and at least two live pitches. By the end of month three you should have at least one placed, earned story at a tier-1 or tier-2 outlet in your category. If neither is true by month three, that is the evaluation moment. Volume metrics such as releases issued or journalists contacted are lagging indicators of activity, not of strategic value."
           }
-        }
-      ]
+        },
+      {"@type": "Question", "name": "How do I compare fractional PR consultants fairly?", "acceptedAnswer": {"@type": "Answer", "text": "Ask each for the same three things: a sample target list, the first 90-day plan and one reference you can call. Judge on specificity, not on brand names."}}
+    ]
     }
   ]
 }

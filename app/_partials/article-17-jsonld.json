@@ -35,7 +35,7 @@
       ],
       "inLanguage": "en",
       "datePublished": "2026-06-23",
-      "dateModified": "2026-06-23",
+      "dateModified": "2026-10-30",
       "about": [
         { "@type": "Thing", "name": "Bloomberg crypto coverage" },
         { "@type": "Thing", "name": "Institutional crypto PR" },
@@ -125,8 +125,9 @@
             "@type": "Answer",
             "text": "Plan for six to twelve weeks minimum before a cold pitch has a reasonable chance of being read. That means your founder is visible in the outlets Bloomberg reporters read, has been quoted accurately on a relevant beat, and ideally has met the reporter at an event with no ask attached. The relationship is not about being liked. It is about being a known, credible quantity when the pitch lands. Rushing this window is the most common mistake in tier-1 campaign strategy."
           }
-        }
-      ]
+        },
+      {"@type": "Question", "name": "How long does it take to earn Bloomberg crypto coverage?", "acceptedAnswer": {"@type": "Answer", "text": "There is no fixed timeline, and a one-month target is unrealistic for most companies. Coverage follows a sourced, verifiable development such as a regulated product, a significant raise with named backers or measurable adoption, plus a relationship built over months."}}
+    ]
     }
   ]
 }

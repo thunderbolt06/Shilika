@@ -35,7 +35,7 @@
       ],
       "inLanguage": "en",
       "datePublished": "2026-06-23",
-      "dateModified": "2026-10-24",
+      "dateModified": "2026-10-30",
       "about": [
         {
           "@type": "Thing",
@@ -188,8 +188,9 @@
             "@type": "Answer",
             "text": "At The Block: opening with company background instead of the hard fact, no verifiable data, offering an exclusive that has already been sent elsewhere, or pitching a reporter who does not cover your beat. At Blockworks: pitching a news story to a newsroom that closed in October 2025, a guest who wants to talk product instead of markets, no data the audience has not seen, or opening with \"we are excited to announce.\" Both also pass on claims that cannot be independently verified. Fix the data layer first, then put the news fact or the market argument in sentence one."
           }
-        }
-      ]
+        },
+      {"@type": "Question", "name": "What should I do if a crypto reporter ghosts me after saying yes?", "acceptedAnswer": {"@type": "Answer", "text": "Wait two working days, then send one short follow-up with the new fact or document that makes the story stronger. If there is still no reply, move on and keep the relationship warm. Chasing daily usually ends the conversation."}}
+    ]
     }
   ]
 }

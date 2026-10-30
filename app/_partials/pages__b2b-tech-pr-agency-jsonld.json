@@ -84,8 +84,9 @@
             "@type": "Answer",
             "text": "Send a short project brief through the intent form and you will get a reply within 24 hours with a quick read on your current press footprint and where the category angle is. Or book a 30-minute call directly and we plot it live. No agency deck, no intro call with three account managers before you speak to the person doing the work."
           }
-        }
-      ]
+        },
+      {"@type": "Question", "name": "At what stage should a B2B tech company invest in earned media?", "acceptedAnswer": {"@type": "Answer", "text": "Once you have at least one named customer outcome and a category you can describe in a sentence. Before that, partnerships, founder content and community usually return more per dollar. After that, earned coverage turns those assets into third-party validation that sales can reuse."}}
+    ]
     },
     {
       "@type": "Article",

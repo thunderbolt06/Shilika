@@ -1,0 +1,48 @@
+{
+  "updated": "2026-10-30",
+  "note": "Each entry paraphrases a public post on @Shilika_jain and links to it. Source: Notion 'X tweets' archive, captured 13 Oct 2026.",
+  "groups": [
+    {
+      "title": "Career",
+      "items": [
+        { "date": "Sep 2022", "text": "Completed one year at CoinMarketCap, the first crypto site she looked at before entering the industry.", "url": "https://x.com/Shilika_jain/status/1565608970332426240" },
+        { "date": "Jan 2024", "text": "Marked a year of independent practice, started in January 2023 after leaving CoinMarketCap.", "url": "https://x.com/Shilika_jain/status/1741685706106564901" },
+        { "date": "Jan 2024", "text": "Marked a year working with Myosin, the Web3 marketing network.", "url": "https://x.com/Shilika_jain/status/1742034744895041623" },
+        { "date": "Jul 2025", "text": "Wrote out her path: Toastmasters public speaking, a CISI investments course in London, CoinMarketCap, and running PR at Myosin.", "url": "https://x.com/Shilika_jain/status/1943204364069540041" }
+      ]
+    },
+    {
+      "title": "Client work",
+      "items": [
+        { "date": "Nov 2023", "text": "Announced she would support Powerloom on PR and communications.", "url": "https://x.com/Shilika_jain/status/1729571063846363359" },
+        { "date": "Mar 2024", "text": "Named NEAR Foundation, Rari Foundation, Elastos and Web3Auth among the teams she worked with that quarter.", "url": "https://x.com/Shilika_jain/status/1764721238646091787" },
+        { "date": "Jan 2024", "text": "Helped break the Root Labs funding story, credited to two CoinDesk reporters.", "url": "https://x.com/Shilika_jain/status/1748363827664564311" },
+        { "date": "Mar 2025", "text": "Supported Fluence at DePIN Day Hong Kong.", "url": "https://x.com/Shilika_jain/status/1896967356167188776" }
+      ]
+    },
+    {
+      "title": "Speaking and workshops",
+      "items": [
+        { "date": "Jul 2022", "text": "Panelist at the Poloniex India launch event on the future of blockchain and crypto.", "url": "https://x.com/Shilika_jain/status/1548977532384342016" },
+        { "date": "Dec 2023", "text": "Speaker at India Blockchain Week.", "url": "https://x.com/Shilika_jain/status/1732117777211851187" },
+        { "date": "Jul 2024", "text": "Presented a PR workshop in the Myosin Learns series.", "url": "https://x.com/Shilika_jain/status/1814216829633462350" },
+        { "date": "Dec 2024", "text": "Moderated the PR panel at India Blockchain Week.", "url": "https://x.com/Shilika_jain/status/1866139605634027962" },
+        { "date": "Jan 2025", "text": "Invited to speak at an IIT event.", "url": "https://x.com/Shilika_jain/status/1876893339724763399" },
+        { "date": "Jul 2025", "text": "Ran a PR workshop for the XRPL Labs Accelerator with Tenity.", "url": "https://x.com/Shilika_jain/status/1943244949035847987" },
+        { "date": "May 2026", "text": "Judged a Stellar cohort run by Myosin and advised founders on PR strategy.", "url": "https://x.com/Shilika_jain/status/2056635001123508384" },
+        { "date": "Aug 2026", "text": "Spoke at SJCC in Bengaluru about Web3 and blockchain.", "url": "https://x.com/Shilika_jain/status/2089950553740816776" }
+      ]
+    },
+    {
+      "title": "Reporting and interviews",
+      "items": [
+        { "date": "Nov 2022", "text": "Wrote a short piece on Chainsaw.", "url": "https://x.com/Shilika_jain/status/1589901643247939586" },
+        { "date": "Aug 2024", "text": "Attended TOKEN2049 and Solana Breakpoint to conduct interviews for Crypto Daily.", "url": "https://x.com/Shilika_jain/status/1828436310408692042" },
+        { "date": "Oct 2024", "text": "Interviewed zkPass about its work and published the interview.", "url": "https://x.com/Shilika_jain/status/1844797083947024571" },
+        { "date": "Mar 2025", "text": "Published a Crypto Daily piece after meeting an AI agents founder in Hong Kong.", "url": "https://x.com/Shilika_jain/status/1899936858026443031" },
+        { "date": "May 2025", "text": "Published an interview with Reown on making onchain UX invisible.", "url": "https://x.com/Shilika_jain/status/1927454258233815117" },
+        { "date": "Jul 2025", "text": "Secured op-eds for Myosin's portfolio companies.", "url": "https://x.com/Shilika_jain/status/1943567538568446212" }
+      ]
+    }
+  ]
+}

@@ -84,8 +84,9 @@
             "@type": "Answer",
             "text": "Send a short brief through the intent form describing your project, launch date and target audience. You will get a reply within 24 hours with an initial read on your community gaps and a proposed KOL tier mix, or book a 30-minute call to map it live. No agency pitch deck, no account-team intro call."
           }
-        }
-      ]
+        },
+      {"@type": "Question", "name": "How should a project measure crypto influencer results?", "acceptedAnswer": {"@type": "Answer", "text": "Agree the metric before the first post: tracked sign-ups, wallet connections or first transactions from a unique link, not impressions. If a creator cannot support tracked links or will not share audience data, treat the spend as awareness only and size it accordingly."}}
+    ]
     }
   ]
 }

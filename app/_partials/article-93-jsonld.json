@@ -24,7 +24,7 @@
       "keywords": ["security PR", "cybersecurity breach communications", "crisis comms playbook", "holding statement template", "breach notification GDPR", "incident response PR", "crypto crisis communications", "trust rebuild after breach", "cybersecurity PR 2026", "data breach response"],
       "inLanguage": "en",
       "datePublished": "2026-06-23",
-      "dateModified": "2026-06-23",
+      "dateModified": "2026-10-30",
       "about": [
         { "@type": "Thing", "name": "Cybersecurity breach communications" },
         { "@type": "Thing", "name": "Crisis PR" },
@@ -114,8 +114,9 @@
             "@type": "Answer",
             "text": "A fractional senior PR operator on retainer costs $3,000 to $7,000 per month, and that retainer buys immediate activation capability, pre-written templates, and an operator who already knows your product. A crisis PR firm engaged with no prior relationship typically costs $20,000 to $50,000 for the first week, with slower activation because they are onboarding in real time. The strongest argument for retaining cybersecurity PR support before an incident happens is that you cannot build those relationships and materials fast enough once something goes wrong."
           }
-        }
-      ]
+        },
+      {"@type": "Question", "name": "Should a company respond to a journalist who keeps asking about a breach?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, with a short, accurate, on-the-record statement that corrects what is wrong and confirms what is known. Repeated questions from an investigative reporter signal the story will run regardless. Replying early keeps your version in the first draft."}}
+    ]
     }
   ]
 }

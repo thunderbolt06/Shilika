@@ -35,7 +35,7 @@
       ],
       "inLanguage": "en",
       "datePublished": "2026-06-23",
-      "dateModified": "2026-06-23",
+      "dateModified": "2026-10-30",
       "about": [
         { "@type": "Thing", "name": "AI product launch" },
         { "@type": "Thing", "name": "Public relations strategy" },
@@ -128,8 +128,9 @@
             "@type": "Answer",
             "text": "Before. A founder who arrives at launch day with two or three bylined pieces already published on the category arrives with an established point of view journalists already know. It makes the launch pitch easier to write and the journalist more confident writing a feature, because the founder is on record with a position. The thought leadership layer also builds the AI-search presence that keeps generating inbound after the news cycle ends."
           }
-        }
-      ]
+        },
+      {"@type": "Question", "name": "How far ahead should an AI product launch PR plan start?", "acceptedAnswer": {"@type": "Answer", "text": "About two months. Build founder thought leadership first, secure one or two podcast or interview slots a month before, run a community Q&A around fifteen days before, and brief press under embargo in the final week."}}
+    ]
     }
   ]
 }

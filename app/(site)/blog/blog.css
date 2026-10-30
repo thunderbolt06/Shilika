@@ -1186,3 +1186,12 @@ html { scroll-behavior: smooth; }
 @media (max-width: 720px) {
   .post-hero-image--photo img { object-position: 50% 30%; }
 }
+
+/* Field notes block under posts (data/blog-field-notes.json) */
+.blog-field-notes .x-notes { margin: 32px 0 0; padding: 28px 30px; border: 1px solid var(--line); border-left: 3px solid var(--lime); border-radius: 14px; background: var(--paper); }
+.blog-field-notes .x-notes-eyebrow { font-family: var(--font-mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin: 0 0 18px; }
+.blog-field-notes .x-note { margin: 0; padding: 0; }
+.blog-field-notes .x-note + .x-note { margin-top: 22px; padding-top: 22px; border-top: 1px solid var(--line); }
+.blog-field-notes .x-note blockquote { margin: 0; padding: 0; border: 0; font-family: var(--font-display); font-style: italic; font-size: clamp(19px, 2vw, 24px); line-height: 1.38; color: var(--ink); }
+.blog-field-notes .x-note figcaption { margin-top: 10px; font-family: var(--font-mono); font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.blog-field-notes .x-note figcaption a { color: inherit; text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px; }

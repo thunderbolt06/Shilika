@@ -84,8 +84,9 @@
             "@type": "Answer",
             "text": "Send a short brief through the intent form: what you are building, what you are announcing and when. You will get a reply within 24 hours with a read on your current content footprint and where the fastest citation opportunities are. Alternatively, book a 30-minute call and we will map the content and PR calendar together live. No deck required, no introductory account team call."
           }
-        }
-      ]
+        },
+      {"@type": "Question", "name": "What does crypto content marketing need to include to be cited by AI engines?", "acceptedAnswer": {"@type": "Answer", "text": "A direct answer in the first paragraph, specific named entities and numbers, a visible author with a track record, and clear headings that match real questions. Structure and sourcing matter more than volume."}}
+    ]
     },
     {
       "@type": "Article",

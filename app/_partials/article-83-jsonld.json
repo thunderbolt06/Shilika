@@ -35,7 +35,7 @@
       ],
       "inLanguage": "en",
       "datePublished": "2026-06-23",
-      "dateModified": "2026-06-23",
+      "dateModified": "2026-10-30",
       "about": [
         { "@type": "Thing", "name": "Crypto influencer marketing" },
         { "@type": "Thing", "name": "KOL pricing" },
@@ -128,8 +128,9 @@
             "@type": "Answer",
             "text": "Direct booking saves the 15 to 30 percent agency margin but requires you to do your own creator vetting, contract management, and performance tracking. Agencies add real value on multi-creator, multi-region campaigns where their existing relationships speed up negotiation and their performance history provides a vetting baseline. If you know exactly which 3 to 5 creators you want, book directly. If you are running a 10 to 20 creator campaign across 3 regions, an agency's operational overhead earns its cost."
           }
-        }
-      ]
+        },
+      {"@type": "Question", "name": "Should KOL fees be paid in tokens or cash?", "acceptedAnswer": {"@type": "Answer", "text": "Prefer cash or a vesting structure tied to delivery. Large token allocations to promoters create sell pressure and weak alignment, so agree vesting and disclosure rules before any post goes out."}}
+    ]
     }
   ]
 }

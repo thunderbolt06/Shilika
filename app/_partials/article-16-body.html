@@ -115,6 +115,14 @@ body { font-family: var(--font-body); background: var(--paper); color: var(--ink
 .hb-l { font-family:var(--font-mono); font-size:10px; letter-spacing:0.08em; text-transform:uppercase; color:rgba(255,255,255,0.55); margin-top:6px; }
 .hb-stats > div.is-key .hb-l { color:rgba(40,37,32,0.7); }
 @media (max-width:720px){ .hero-brief-grid{ grid-template-columns:1fr; position:static; inset:auto; padding:28px; } .article-hero-visual.hero-brief{ aspect-ratio:auto; } }
+
+.x-notes { margin: 36px 0 0; padding: 28px 30px; border: 1px solid var(--line); border-left: 3px solid var(--lime); border-radius: 14px; background: var(--paper); max-width: 64ch; }
+.x-notes-eyebrow { font-family: var(--font-mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin: 0 0 18px; }
+.x-note { margin: 0; padding: 0; }
+.x-note + .x-note { margin-top: 22px; padding-top: 22px; border-top: 1px solid var(--line); }
+.x-note blockquote { margin: 0; padding: 0; border: 0; font-family: var(--font-display); font-style: italic; font-size: clamp(19px, 2vw, 24px); line-height: 1.38; color: var(--ink); }
+.x-note figcaption { margin-top: 10px; font-family: var(--font-mono); font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.x-note figcaption a { color: inherit; text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px; }
 </style>
 
 
@@ -366,7 +374,21 @@ body { font-family: var(--font-body); background: var(--paper); color: var(--ink
 
 <p>The full framework for that earlier-stage work is in the <a href="/playbook/get-featured-coindesk-2026">CoinDesk placement guide</a>, which covers how to build the story architecture that eventually makes a tier-1 pitch viable.</p>
 
-    <div class="author-block">
+    
+
+<div class="recrawl-notes" data-recrawl="v1">
+<h2>What pitching crypto reporters feels like from the sender&#x27;s side</h2>
+<p>In November 2023 I wrote that journalists get tons of pitches every day, sometimes more than an average investor does. In August 2023 I wrote that PR makes you used to rejection and ghosting. Both explain why most outreach fails: the reporter has seconds, and the pitch does not make the case for their audience.</p>
+<p>The fix I use is the one in October 2023: answering a journalist's query is PR 101. Reply fast, give the number or document they asked for, and do not pitch the same story to a second desk in the same hour. For the wider relationship picture, see the <a href="/playbook/crypto-media-relations-guide-2026">crypto media relations guide</a>.</p>
+<aside class="x-notes" aria-label="Field notes from X">
+  <p class="x-notes-eyebrow">Field notes from my X feed</p>
+  <figure class="x-note"><blockquote>journalists get tons of pitches everyday!<br><br>sometimes it’s more that what an average investors get!!</blockquote><figcaption><a href="https://x.com/Shilika_jain/status/1723024943313494112" target="_blank" rel="noopener">Shilika Jain on X, 10 Nov 2023</a></figcaption></figure>
+  <figure class="x-note"><blockquote>being in PR just makes you used to rejections &amp; ghosting🥲</blockquote><figcaption><a href="https://x.com/Shilika_jain/status/1692190607714685026" target="_blank" rel="noopener">Shilika Jain on X, 17 Aug 2023</a></figcaption></figure>
+  <figure class="x-note"><blockquote>responding and answering journalists’ query is PR 101!</blockquote><figcaption><a href="https://x.com/Shilika_jain/status/1717132399086280886" target="_blank" rel="noopener">Shilika Jain on X, 25 Oct 2023</a></figcaption></figure>
+</aside>
+</div><!--/recrawl-->
+
+<div class="author-block">
       <div class="author-avatar">SJ</div>
       <div>
         <div class="author-name">Shilika Jain</div>
@@ -391,6 +413,9 @@ body { font-family: var(--font-body); background: var(--paper); color: var(--ink
 
       <div class="faq-q">What makes a pitch get passed at The Block or Blockworks?</div>
       <div class="faq-a">At The Block: opening with company background instead of the hard fact, no verifiable data, offering an exclusive that has already been sent elsewhere, or pitching a reporter who does not cover your beat. At Blockworks: pitching a news story to a newsroom that closed in October 2025, a guest who wants to talk product instead of markets, no data the audience has not seen, or opening with &quot;we are excited to announce.&quot; Both also pass on claims that cannot be independently verified. Fix the data layer first, then put the news fact or the market argument in sentence one.</div>
+
+   <div class="faq-q">What should I do if a crypto reporter ghosts me after saying yes?</div>
+   <div class="faq-a">Wait two working days, then send one short follow-up with the new fact or document that makes the story stronger. If there is still no reply, move on and keep the relationship warm. Chasing daily usually ends the conversation.</div>
     </div>
 
     <p style="margin-top: 2.2em; padding: 22px 26px; background: var(--paper-2); border-left: 3px solid var(--lime); border-radius: 4px; font-size: 17px; line-height: 1.55;"><strong>Ready to pitch institutional crypto media?</strong> Start with <a href="/services/web3-pr-campaigns" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">Web3 PR campaigns</a> for how a retainer engagement is structured, then read <a href="/playbook/get-featured-coindesk-2026" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">how to get featured in CoinDesk</a> for the pitch framework that transfers to every tier-1 outlet. The full library of placement guides and PR strategy playbooks is at <a href="/playbook" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 3px;">the playbook index</a>.</p>

@@ -35,7 +35,7 @@
       ],
       "inLanguage": "en",
       "datePublished": "2026-06-23",
-      "dateModified": "2026-06-23",
+      "dateModified": "2026-10-30",
       "about": [
         { "@type": "Thing", "name": "APAC crypto PR" },
         { "@type": "Thing", "name": "Press release timing" },
@@ -128,8 +128,9 @@
             "@type": "Answer",
             "text": "Set the embargo at 07:00 SGT (UTC+8). That is 08:00 KST and JST, 07:00 CST, 01:00 CET, and 20:00 ET the night before. All three APAC windows open within the same two-hour span, Europe gets morning coverage, and US desks get a pre-market hit when they open at 06:00 ET. Setting the embargo at ET or PT office hours is the single most common APAC timing mistake, and it typically costs you the entire Korea-Japan morning cycle."
           }
-        }
-      ]
+        },
+      {"@type": "Question", "name": "Should an APAC announcement be translated or rewritten?", "acceptedAnswer": {"@type": "Answer", "text": "Rewritten. Translate the facts, but change the angle, the quotes and the proof points to match what local readers care about, and send it inside the local press window."}}
+    ]
     }
   ]
 }

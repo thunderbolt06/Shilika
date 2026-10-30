@@ -84,8 +84,9 @@
             "@type": "Answer",
             "text": "Send a short project brief through the intent form and you will get a reply within 24 hours with a quick read on your current press footprint and category position. Or book a 30-minute call and we will map it live. No intro deck, no three-week agency scoping process."
           }
-        }
-      ]
+        },
+      {"@type": "Question", "name": "When does a B2B SaaS company need PR rather than more demand generation?", "acceptedAnswer": {"@type": "Answer", "text": "When pipeline is leaking at the trust stage: prospects reach the demo but ask for proof, or competitors with weaker products win on reputation. Earned coverage and analyst presence are cheapest to build before a funding round or a category-defining launch, not after."}}
+    ]
     }
   ]
 }

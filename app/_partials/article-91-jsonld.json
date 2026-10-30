@@ -35,7 +35,7 @@
       ],
       "inLanguage": "en",
       "datePublished": "2026-06-23",
-      "dateModified": "2026-06-23",
+      "dateModified": "2026-10-30",
       "about": [
         { "@type": "Thing", "name": "Analyst relations" },
         { "@type": "Thing", "name": "Magic Quadrant" },
@@ -125,8 +125,9 @@
             "@type": "Answer",
             "text": "At Series A, or immediately after, if the relevant Magic Quadrant or Wave is on a twelve to eighteen month cycle. The analyst who first briefs on your category forms a model of the market that takes sustained effort to update. Vendors who brief early, even with an early-stage product, build an eighteen-month head start over competitors who wait until the product is more polished. See the cybersecurity PR agency pricing guide for how AR fits into a lean communications budget at this stage."
           }
-        }
-      ]
+        },
+      {"@type": "Question", "name": "Should a security startup do analyst relations or press first?", "acceptedAnswer": {"@type": "Answer", "text": "Press first for most early-stage companies, because it is faster and cheaper and builds the proof analysts later ask for. Add analyst briefings once you have named customers and a defined category."}}
+    ]
     }
   ]
 }

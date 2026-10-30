@@ -84,8 +84,9 @@
             "@type": "Answer",
             "text": "Send a short brief through the intent form, including your expected snapshot or TGE date and the story you want the distribution to tell. You will get a reply within 24 hours with an honest read on your current narrative position and what needs to change before you go public. Or book a 30-minute call at https://calendly.com/shilikajain/30min/ and we will work through it live."
           }
-        }
-      ]
+        },
+      {"@type": "Question", "name": "How do you keep an airdrop from attracting only farmers?", "acceptedAnswer": {"@type": "Answer", "text": "Tie eligibility to behaviour that only real users do, announce the logic publicly, and brief press on the user story before the claim window opens. Pair the airdrop with a retention plan for the weeks after, because that is when farmers leave."}}
+    ]
     },
     {
       "@type": "Article",

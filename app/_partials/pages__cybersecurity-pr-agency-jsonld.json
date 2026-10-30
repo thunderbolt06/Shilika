@@ -84,8 +84,9 @@
             "@type": "Answer",
             "text": "Send a short project brief through the intent form and you will get a reply within 24 hours with a quick read on your current press footprint and analyst coverage, or book a 30-minute call to map it live. No deck required, no account-team intro call."
           }
-        }
-      ]
+        },
+      {"@type": "Question", "name": "Which cybersecurity PR page should I read first?", "acceptedAnswer": {"@type": "Answer", "text": "Start here for scope, pricing and how an engagement runs. Go to the InfoSec page when the story comes from vulnerability research and disclosure timing, to the US page when your buyers and press are American, and to the threat intelligence page when the product is intel. Analyst relations (Gartner, Forrester, IDC) is a separate audience with its own playbook."}}
+    ]
     }
   ]
 }

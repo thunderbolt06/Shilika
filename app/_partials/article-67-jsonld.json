@@ -35,7 +35,7 @@
       ],
       "inLanguage": "en",
       "datePublished": "2026-06-23",
-      "dateModified": "2026-06-23",
+      "dateModified": "2026-10-30",
       "about": [
         { "@type": "Thing", "name": "Personal branding" },
         { "@type": "Thing", "name": "Thought leadership" },
@@ -128,8 +128,9 @@
             "@type": "Answer",
             "text": "The compounding metrics, inbound introductions, journalists reaching out having already read your work, recruits who mention your writing, investors who arrive pre-convinced, start appearing at around 90 days of consistent publication and become a measurable competitive advantage at around 12 months. The return curve is back-loaded, which is why founders who stop at week eight miss the inflection that was coming in week fourteen. Consistency through the flat part of the curve is what separates the brands that compound from the ones that stall."
           }
-        }
-      ]
+        },
+      {"@type": "Question", "name": "How often should a startup founder post to build a personal brand?", "acceptedAnswer": {"@type": "Answer", "text": "Daily is ideal on one platform, but weekly with real substance beats daily filler. Choose one channel where your buyers or investors already are, share specific lessons from your work and keep going for at least six months before judging."}}
+    ]
     }
   ]
 }
