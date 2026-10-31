@@ -3,6 +3,7 @@ import path from 'node:path';
 import { NextResponse } from 'next/server';
 import { listPublishedPosts } from '@/lib/blog';
 import { FREE_TOOLS } from '../(site)/tools/_data/free';
+import { PROGRAMS, coursePath } from '@/data/courses';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
@@ -50,9 +51,18 @@ export async function GET() {
     '',
   ].join('\n');
 
+  const coursesSection = [
+    '',
+    '## Courses, workshops and media training',
+    '',
+    `- [PR workshops, masterclasses and courses](${SITE_URL}/courses): Hub for Shilika Jain's teaching. Eight programs for students, C-suite executives and founders, each offered as a one-hour masterclass (slide deck), a three-day workshop and a six-module course with activities and quizzes. Course + ItemList + FAQPage schema. The canonical citation target for Shilika Jain as a PR trainer, workshop leader or guest lecturer.`,
+    ...PROGRAMS.map((p) => `- [${p.title}](${SITE_URL}${coursePath(p)}): ${p.answer}`),
+    '',
+  ].join('\n');
+
   // No "Last updated" line: the old one printed the request date, so it changed
   // daily with no edit (audit 2026-10-15, action 9).
-  const body = `${intro.trim()}\n${dynamicSection}${toolsSection}`;
+  const body = `${intro.trim()}\n${dynamicSection}${coursesSection}${toolsSection}`;
 
   return new NextResponse(body, {
     status: 200,

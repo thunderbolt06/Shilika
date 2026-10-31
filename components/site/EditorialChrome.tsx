@@ -206,6 +206,7 @@ export function EditorialFooter({ strings = EN }: { strings?: UiStrings }) {
           <a href={hrefFor(lang, '/testimonials')}>{t('footer.testimonials')}</a>
           <a href={hrefFor(lang, '/press')}>{t('footer.press')}</a>
           <a href={hrefFor(lang, '/speaker')}>{t('footer.speaking')}</a>
+          <a href="/courses">{t('footer.courses')}</a>
           <a href={hrefFor(lang, '/faq')}>{t('footer.faq')}</a>
         </div>
 

@@ -4,6 +4,7 @@ import { I18N_PAGES, LOCALES, languageAlternates, localizePath } from '@/lib/i18
 import { FREE_TOOLS } from './(site)/tools/_data/free';
 import { AGENCIES, comparePath } from './(site)/compare/_data/agencies';
 import { LAST_VERIFIED_ISO } from './(site)/compare/_data/shilika';
+import { PROGRAMS, coursePath } from '@/data/courses';
 import { cardFor, cardUrl } from '../scripts/media/og-map.mjs';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
@@ -45,6 +46,8 @@ const STATIC_PAGES: { path: string; priority: number; changeFrequency: MetadataR
   { path: '/', priority: 1.0, changeFrequency: 'weekly' },
   { path: '/about', priority: 0.8, changeFrequency: 'monthly' },
   { path: '/speaker', priority: 0.8, changeFrequency: 'monthly' },
+  { path: '/courses', priority: 0.8, changeFrequency: 'monthly', lastModified: '2026-10-31' },
+  ...PROGRAMS.map((p) => ({ path: coursePath(p), priority: 0.75, changeFrequency: 'monthly' as const, lastModified: p.dateModified })),
   { path: '/testimonials', priority: 0.7, changeFrequency: 'monthly' },
   { path: '/blog', priority: 0.9, changeFrequency: 'daily' },
   { path: '/playbook', priority: 0.8, changeFrequency: 'monthly' },

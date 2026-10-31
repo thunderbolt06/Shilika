@@ -1,0 +1,190 @@
+/* Courses hub and program pages. Builds on blog.css (post-page, prose-shilika). */
+
+.course-jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 1.4em 0 0.4em;
+  padding: 0;
+  list-style: none;
+}
+.course-jump li { margin: 0 !important; padding: 0 !important; }
+.course-jump li::before { display: none !important; }
+.course-jump a {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 7px 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  text-decoration: none !important;
+  color: var(--ink);
+  background: var(--paper);
+}
+.course-jump a:hover { background: var(--lime); border-color: var(--lime); }
+
+.course-format-label {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 2.4em 0 -0.6em !important;
+}
+
+.course-slides { counter-reset: slide; padding-left: 0 !important; list-style: none; }
+.course-slides li {
+  counter-increment: slide;
+  position: relative;
+  padding: 0.9em 0 0.9em 3.2em !important;
+  border-bottom: 1px solid var(--line);
+  margin: 0 !important;
+}
+.course-slides li::before {
+  content: counter(slide, decimal-leading-zero);
+  position: absolute;
+  left: 0;
+  top: 0.95em;
+  font-family: var(--font-mono);
+  font-size: 0.8em;
+  color: var(--muted);
+}
+.course-slides li strong { display: block; }
+.course-slides .course-min {
+  font-family: var(--font-mono);
+  font-size: 0.75em;
+  color: var(--muted);
+  margin-left: 0.4em;
+}
+
+.course-deliverable,
+.course-capstone {
+  background: var(--cream);
+  border-left: 3px solid var(--lime);
+  border-radius: 10px;
+  padding: 14px 18px;
+  margin: 0.8em 0 0;
+}
+
+.course-module {
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 4px 22px 18px;
+  margin: 1.4em 0;
+}
+.course-module h3 { margin-top: 0.9em; }
+.course-module-deck {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  margin-top: -0.4em !important;
+}
+.course-quiz { margin-top: 1em; }
+.course-quiz-q {
+  margin: 0.9em 0 0 !important;
+  font-weight: 600;
+}
+.course-quiz ul.course-options {
+  list-style: none !important;
+  margin: 0.3em 0 0 !important;
+  padding: 0 !important;
+}
+.course-quiz ul.course-options li { margin: 0.15em 0 !important; padding-left: 1.6em !important; text-indent: -1.6em; }
+.course-quiz ul.course-options li::before,
+.course-quiz ul.course-options li::marker { display: none !important; content: none !important; }
+.course-opt { display: inline-block; width: 1.6em; text-indent: 0; font-family: var(--font-mono); font-size: 0.85em; color: var(--muted); }
+.course-quiz details { margin: 0.4em 0 0; }
+.course-quiz summary {
+  cursor: pointer;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.course-quiz details p { margin: 0.4em 0 0 !important; }
+
+.course-tailor {
+  display: grid;
+  gap: 14px;
+  margin-top: 1em;
+}
+.course-tailor > div {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 14px 18px;
+}
+.course-tailor h3 { margin: 0 0 0.3em !important; font-size: 1.05em; }
+.course-tailor p { margin: 0 !important; }
+
+/* Hub */
+.course-hub-section { margin: 72px 0 0; }
+.course-hub-section > h2 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(32px, 4vw, 52px);
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+  margin: 0 0 12px;
+}
+.course-hub-section > p.course-hub-lede { max-width: 760px; color: var(--muted); margin: 0 0 24px; line-height: 1.55; }
+
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+}
+.course-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--paper);
+  color: var(--ink);
+  text-decoration: none;
+  transition: border-color 0.2s, transform 0.2s var(--ease-out-quart);
+}
+.course-card:hover { border-color: var(--ink); transform: translateY(-2px); }
+.course-card-kind {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.course-card-title {
+  font-family: var(--font-display);
+  font-size: 28px;
+  line-height: 1.05;
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+.course-card-blurb { margin: 0; line-height: 1.5; font-size: 15px; }
+.course-card-cta { margin-top: auto; font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; }
+
+.course-hub-prose { max-width: 860px; }
+.course-record { list-style: none; padding: 0; margin: 0; }
+.course-record li {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--line);
+}
+.course-record time { font-family: var(--font-mono); font-size: 12px; color: var(--muted); padding-top: 3px; }
+
+@media (max-width: 640px) {
+  .course-module { padding: 2px 16px 14px; }
+  .course-record li { grid-template-columns: 1fr; gap: 2px; }
+}
+
+/* prose-shilika sets list-style on every li; these lists draw their own markers. */
+.prose-shilika .course-slides li,
+.prose-shilika .course-jump li,
+.prose-shilika .course-record li,
+.prose-shilika .course-options li { list-style: none; }
