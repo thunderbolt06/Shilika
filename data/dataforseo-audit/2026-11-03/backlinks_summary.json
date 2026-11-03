@@ -1,0 +1,107 @@
+{
+ "version": "0.1.20261022",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.1445 sec.",
+ "cost": 0.024036,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "11030753-3025-0265-0000-245f8ab4a3cb",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.1353 sec.",
+   "cost": 0.024036,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "backlinks",
+    "summary",
+    "live"
+   ],
+   "data": {
+    "api": "backlinks",
+    "function": "summary",
+    "target": "shilikajain.com",
+    "include_subdomains": true,
+    "internal_list_limit": 10,
+    "backlinks_status_type": "live"
+   },
+   "result": [
+    {
+     "target": "shilikajain.com",
+     "first_seen": "2025-11-20 01:07:19 +00:00",
+     "lost_date": null,
+     "rank": 27,
+     "backlinks": 90,
+     "backlinks_spam_score": 51,
+     "crawled_pages": 0,
+     "info": {
+      "server": null,
+      "cms": null,
+      "platform_type": null,
+      "ip_address": null,
+      "country": null,
+      "is_ip": false,
+      "target_spam_score": 0
+     },
+     "internal_links_count": 0,
+     "external_links_count": 0,
+     "broken_backlinks": 0,
+     "broken_pages": 0,
+     "referring_domains": 72,
+     "referring_domains_nofollow": 18,
+     "referring_main_domains": 69,
+     "referring_main_domains_nofollow": 18,
+     "referring_ips": 58,
+     "referring_subnets": 53,
+     "referring_pages": 80,
+     "referring_pages_nofollow": 25,
+     "referring_links_tld": {
+      "com": 35,
+      "shop": 20,
+      "online": 5,
+      "eu": 3,
+      "site": 2,
+      "ai": 2,
+      "co.uk": 2,
+      "world": 2,
+      "us.com": 1,
+      "io": 1
+     },
+     "referring_links_types": {
+      "anchor": 80
+     },
+     "referring_links_attributes": {
+      "noopener": 61,
+      "nofollow": 25,
+      "noreferrer": 7
+     },
+     "referring_links_platform_types": {
+      "unknown": 59,
+      "organization": 12,
+      "blogs": 9,
+      "cms": 9,
+      "news": 2
+     },
+     "referring_links_semantic_locations": {
+      "": 35,
+      "main": 35,
+      "article": 7,
+      "section": 2,
+      "details": 1
+     },
+     "referring_links_countries": {
+      "": 70,
+      "US": 3,
+      "GB": 2,
+      "DE": 2,
+      "AI": 2,
+      "IO": 1
+     }
+    }
+   ]
+  }
+ ]
+}
