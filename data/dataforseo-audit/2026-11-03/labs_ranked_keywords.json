@@ -1,0 +1,2008 @@
+{
+ "version": "0.1.20261022",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.3814 sec.",
+ "cost": 0.0132,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "11030753-3025-0381-0000-a66b2804322b",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.3389 sec.",
+   "cost": 0.0132,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "dataforseo_labs",
+    "google",
+    "ranked_keywords",
+    "live"
+   ],
+   "data": {
+    "api": "dataforseo_labs",
+    "function": "ranked_keywords",
+    "se_type": "google",
+    "target": "www.shilikajain.com",
+    "location_code": 2840,
+    "language_code": "en",
+    "limit": 300,
+    "order_by": [
+     "keyword_data.keyword_info.search_volume,desc"
+    ]
+   },
+   "result": [
+    {
+     "se_type": "google",
+     "target": "www.shilikajain.com",
+     "location_code": 2840,
+     "language_code": "en",
+     "total_count": 10,
+     "items_count": 10,
+     "metrics": {
+      "organic": {
+       "pos_1": 0,
+       "pos_2_3": 1,
+       "pos_4_10": 0,
+       "pos_11_20": 0,
+       "pos_21_30": 2,
+       "pos_31_40": 0,
+       "pos_41_50": 2,
+       "pos_51_60": 1,
+       "pos_61_70": 1,
+       "pos_71_80": 1,
+       "pos_81_90": 1,
+       "pos_91_100": 1,
+       "etv": 1.470118697732687,
+       "count": 10,
+       "estimated_paid_traffic_cost": 2.315424084663391,
+       "is_new": 9,
+       "is_up": 1,
+       "is_down": 0,
+       "is_lost": 0,
+       "clickstream_etv": null,
+       "clickstream_gender_distribution": null,
+       "clickstream_age_distribution": null
+      },
+      "paid": {
+       "pos_1": 0,
+       "pos_2_3": 0,
+       "pos_4_10": 0,
+       "pos_11_20": 0,
+       "pos_21_30": 0,
+       "pos_31_40": 0,
+       "pos_41_50": 0,
+       "pos_51_60": 0,
+       "pos_61_70": 0,
+       "pos_71_80": 0,
+       "pos_81_90": 0,
+       "pos_91_100": 0,
+       "etv": 0,
+       "count": 0,
+       "estimated_paid_traffic_cost": 0,
+       "is_new": 0,
+       "is_up": 0,
+       "is_down": 0,
+       "is_lost": 0,
+       "clickstream_etv": null,
+       "clickstream_gender_distribution": null,
+       "clickstream_age_distribution": null
+      },
+      "featured_snippet": null,
+      "local_pack": null,
+      "ai_overview_reference": null
+     },
+     "metrics_absolute": null,
+     "items": [
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "ai professional bio generator",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-17 23:34:05 +00:00",
+         "competition": 0.46000000834465027,
+         "competition_level": "MEDIUM",
+         "cpc": 5.650000095367432,
+         "search_volume": 40,
+         "low_top_of_page_bid": 1.5099999904632568,
+         "high_top_of_page_bid": 4.159999847412109,
+         "categories": [
+          10011,
+          10088,
+          11048
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 40
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 30
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 20
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 20
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 20
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 40
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 50
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 40
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 50
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 30
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 30
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 50
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 33,
+          "quarterly": 100,
+          "yearly": 0
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 0,
+         "detected_language": "en",
+         "is_another_language": false
+        },
+        "serp_info": {
+         "se_type": "google",
+         "check_url": "https://www.google.com/search?q=ai%20professional%20bio%20generator&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+         "serp_item_types": [
+          "organic",
+          "ai_overview",
+          "people_also_ask",
+          "images"
+         ],
+         "se_results_count": 88600,
+         "last_updated_time": "2026-10-05 04:59:21 +00:00",
+         "previous_updated_time": "2026-08-17 21:19:12 +00:00"
+        },
+        "avg_backlinks_info": null,
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "transactional",
+         "foreign_intent": null,
+         "last_updated_time": "2026-04-29 07:10:22 +00:00"
+        }
+       },
+       "ranked_serp_element": {
+        "se_type": "google",
+        "serp_item": {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 23,
+         "rank_absolute": 25,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+         "domain": "www.shilikajain.com",
+         "title": "Free Professional Bio Generator for Founders | Shilika Jain",
+         "url": "https://www.shilikajain.com/tools/personal-brand-bio-writer",
+         "breadcrumb": "https://www.shilikajain.com \u203a Tools",
+         "website_name": "shilikajain.com",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "Free professional bio generator. Write a one-liner, short, medium and long bio plus a speaker intro, in first or third person, with correct pronouns.",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "Free professional bio generator"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "shilikajain.com",
+         "relative_url": "/tools/personal-brand-bio-writer",
+         "etv": 0.09610068053007126,
+         "estimated_paid_traffic_cost": 0.5429688692092896,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": null,
+         "rank_info": {
+          "page_rank": 0,
+          "main_domain_rank": 27
+         }
+        },
+        "check_url": "https://www.google.com/search?q=ai%20professional%20bio%20generator&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "serp_item_types": [
+         "organic",
+         "ai_overview",
+         "people_also_ask",
+         "images"
+        ],
+        "se_results_count": 88600,
+        "keyword_difficulty": 0,
+        "is_lost": false,
+        "last_updated_time": "2026-10-05 04:59:21 +00:00",
+        "previous_updated_time": "2026-08-17 21:19:12 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "ami headline analyzer",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-17 22:38:42 +00:00",
+         "competition": 0.05000000074505806,
+         "competition_level": "LOW",
+         "cpc": null,
+         "search_volume": 40,
+         "low_top_of_page_bid": null,
+         "high_top_of_page_bid": null,
+         "categories": [
+          10108,
+          13647
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 20
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 30
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 20
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 10
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 40
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 40
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 70
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 30
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 40
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 50
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 30
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 70
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": -33,
+          "quarterly": 0,
+          "yearly": -50
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": null,
+         "keyword_difficulty": 0,
+         "detected_language": "en",
+         "is_another_language": false
+        },
+        "serp_info": {
+         "se_type": "google",
+         "check_url": "https://www.google.com/search?q=ami%20headline%20analyzer&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+         "serp_item_types": [
+          "organic",
+          "ai_overview",
+          "people_also_ask",
+          "related_searches"
+         ],
+         "se_results_count": 103,
+         "last_updated_time": "2026-10-05 03:41:55 +00:00",
+         "previous_updated_time": "2026-08-13 14:38:19 +00:00"
+        },
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 1.7000000476837158,
+         "dofollow": 1.600000023841858,
+         "referring_pages": 1.7000000476837158,
+         "referring_domains": 0.5,
+         "referring_main_domains": 0.5,
+         "rank": 10.699999809265137,
+         "main_domain_rank": 456.70001220703125,
+         "last_updated_time": "2026-10-05 03:41:55 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": [
+          "commercial"
+         ],
+         "last_updated_time": "2026-04-29 04:41:14 +00:00"
+        }
+       },
+       "ranked_serp_element": {
+        "se_type": "google",
+        "serp_item": {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 93,
+         "rank_absolute": 104,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+         "domain": "www.shilikajain.com",
+         "title": "Headline Analyzer - Shilika Jain",
+         "url": "https://www.shilikajain.com/tools/headline-analyzer",
+         "breadcrumb": "https://www.shilikajain.com \u203a Tools",
+         "website_name": "shilikajain.com",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "Free headline analyzer. Score blog titles, email subjects and social hooks for length, power words, emotion and clarity, then compare versions. No signup.",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "headline analyzer"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "shilikajain.com",
+         "relative_url": "/tools/headline-analyzer",
+         "etv": 0.008921006694436073,
+         "estimated_paid_traffic_cost": null,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": null,
+         "rank_info": {
+          "page_rank": 0,
+          "main_domain_rank": 27
+         }
+        },
+        "check_url": "https://www.google.com/search?q=ami%20headline%20analyzer&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "serp_item_types": [
+         "organic",
+         "ai_overview",
+         "people_also_ask",
+         "related_searches"
+        ],
+        "se_results_count": 103,
+        "keyword_difficulty": 0,
+        "is_lost": false,
+        "last_updated_time": "2026-10-05 03:41:55 +00:00",
+        "previous_updated_time": "2026-08-13 14:38:19 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "cpm cpc ctr",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-19 22:02:41 +00:00",
+         "competition": 0.1599999964237213,
+         "competition_level": "LOW",
+         "cpc": 8.859999656677246,
+         "search_volume": 40,
+         "low_top_of_page_bid": 6.340000152587891,
+         "high_top_of_page_bid": 80.41000366210938,
+         "categories": [
+          10008
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 40
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 40
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 40
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 40
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 50
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 40
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 50
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 50
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 40
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 20
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 40
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 30
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 0,
+          "quarterly": 0,
+          "yearly": -20
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "cpm ctr cpc",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 0,
+         "detected_language": "en",
+         "is_another_language": false
+        },
+        "serp_info": {
+         "se_type": "google",
+         "check_url": "https://www.google.com/search?q=cpm%20cpc%20ctr&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+         "serp_item_types": [
+          "ai_overview",
+          "organic",
+          "people_also_ask",
+          "images",
+          "related_searches"
+         ],
+         "se_results_count": 70900,
+         "last_updated_time": "2026-10-04 10:04:17 +00:00",
+         "previous_updated_time": "2026-08-17 00:55:23 +00:00"
+        },
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 0.20000000298023224,
+         "dofollow": 0.10000000149011612,
+         "referring_pages": 0.10000000149011612,
+         "referring_domains": 0.10000000149011612,
+         "referring_main_domains": 0.10000000149011612,
+         "rank": 4.300000190734863,
+         "main_domain_rank": 450.70001220703125,
+         "last_updated_time": "2026-10-04 10:04:18 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-04-25 22:49:22 +00:00"
+        }
+       },
+       "ranked_serp_element": {
+        "se_type": "google",
+        "serp_item": {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 24,
+         "rank_absolute": 30,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+         "domain": "www.shilikajain.com",
+         "title": "Free CPM, CPC and CTR Calculator (2026) | Shilika Jain",
+         "url": "https://www.shilikajain.com/tools/cpm-cpc-ctr-calculator",
+         "breadcrumb": "https://www.shilikajain.com \u203a Tools",
+         "website_name": "shilikajain.com",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "Turn spend, impressions and clicks into CPM, CPC, CTR, CPA and ROAS, solve for a missing figure, or plan what a budget will buy. Read more",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "CPM",
+          "CPC",
+          "CTR"
+         ],
+         "links": [
+          {
+           "type": "link_element",
+           "title": "Read more",
+           "description": null,
+           "url": "https://www.shilikajain.com/tools/cpm-cpc-ctr-calculator#:~:text=Turn%20spend%2C%20impressions%20and%20clicks,what%20a%20budget%20will%20buy."
+          }
+         ],
+         "about_this_result": null,
+         "main_domain": "shilikajain.com",
+         "relative_url": "/tools/cpm-cpc-ctr-calculator",
+         "etv": 0.07001399248838425,
+         "estimated_paid_traffic_cost": 0.6203239560127258,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": null,
+         "rank_info": {
+          "page_rank": 0,
+          "main_domain_rank": 27
+         }
+        },
+        "check_url": "https://www.google.com/search?q=cpm%20cpc%20ctr&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "serp_item_types": [
+         "ai_overview",
+         "organic",
+         "people_also_ask",
+         "images",
+         "related_searches"
+        ],
+        "se_results_count": 70900,
+        "keyword_difficulty": 0,
+        "is_lost": false,
+        "last_updated_time": "2026-10-04 10:04:17 +00:00",
+        "previous_updated_time": "2026-08-17 00:55:23 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "free esim qr code generator",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-09-17 11:22:55 +00:00",
+         "competition": 0.27000001072883606,
+         "competition_level": "LOW",
+         "cpc": 8.40999984741211,
+         "search_volume": 40,
+         "low_top_of_page_bid": 1.600000023841858,
+         "high_top_of_page_bid": 5.5,
+         "categories": [
+          10004,
+          10290,
+          11208
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 20
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 40
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 30
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 40
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 50
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 30
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 30
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 40
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 50
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 20
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 10
+          },
+          {
+           "year": 2025,
+           "month": 9,
+           "search_volume": 40
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": -50,
+          "quarterly": -33,
+          "yearly": -60
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "esim qr code generator free",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 19,
+         "detected_language": "tr",
+         "is_another_language": true
+        },
+        "serp_info": {
+         "se_type": "google",
+         "check_url": "https://www.google.com/search?q=free%20esim%20qr%20code%20generator&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+         "serp_item_types": [
+          "organic",
+          "ai_overview",
+          "related_searches"
+         ],
+         "se_results_count": 102,
+         "last_updated_time": "2026-10-03 21:35:15 +00:00",
+         "previous_updated_time": "2026-08-16 10:31:06 +00:00"
+        },
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 768.9000244140625,
+         "dofollow": 651.2000122070312,
+         "referring_pages": 731.5999755859375,
+         "referring_domains": 288.79998779296875,
+         "referring_main_domains": 269.29998779296875,
+         "rank": 139.5,
+         "main_domain_rank": 528.9000244140625,
+         "last_updated_time": "2026-10-03 21:35:15 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "transactional",
+         "foreign_intent": [
+          "informational"
+         ],
+         "last_updated_time": "2026-04-29 07:42:10 +00:00"
+        }
+       },
+       "ranked_serp_element": {
+        "se_type": "google",
+        "serp_item": {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 86,
+         "rank_absolute": 95,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+         "domain": "www.shilikajain.com",
+         "title": "Free QR Code Generator: PNG and SVG, No Expiry",
+         "url": "https://www.shilikajain.com/tools/qr-code-generator",
+         "breadcrumb": "https://www.shilikajain.com \u203a Tools",
+         "website_name": "shilikajain.com",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "Free QR code generator for URLs, WiFi, vCards, email, SMS and text. Custom colours, high-res PNG and SVG downloads, and codes that never expire. No signup.",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "Free QR code generator"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "shilikajain.com",
+         "relative_url": "/tools/qr-code-generator",
+         "etv": 0.0374913364648819,
+         "estimated_paid_traffic_cost": 0.31530213356018066,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": null,
+         "rank_info": {
+          "page_rank": 0,
+          "main_domain_rank": 27
+         }
+        },
+        "check_url": "https://www.google.com/search?q=free%20esim%20qr%20code%20generator&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "serp_item_types": [
+         "organic",
+         "ai_overview",
+         "related_searches"
+        ],
+        "se_results_count": 102,
+        "keyword_difficulty": 19,
+        "is_lost": false,
+        "last_updated_time": "2026-10-03 21:35:15 +00:00",
+        "previous_updated_time": "2026-08-16 10:31:06 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "mem protocol",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-20 05:28:57 +00:00",
+         "competition": 0,
+         "competition_level": "LOW",
+         "cpc": null,
+         "search_volume": 40,
+         "low_top_of_page_bid": null,
+         "high_top_of_page_bid": null,
+         "categories": [
+          10019,
+          10168,
+          10883,
+          12188,
+          13071,
+          13312
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 20
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 30
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 30
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 40
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 50
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 70
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 70
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 20
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 30
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 30
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 30
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 30
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": -33,
+          "quarterly": -33,
+          "yearly": -33
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": null,
+         "keyword_difficulty": 0,
+         "detected_language": "eo",
+         "is_another_language": true
+        },
+        "serp_info": {
+         "se_type": "google",
+         "check_url": "https://www.google.com/search?q=mem%20protocol&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+         "serp_item_types": [
+          "ai_overview",
+          "organic",
+          "images"
+         ],
+         "se_results_count": 1620000,
+         "last_updated_time": "2026-10-02 19:50:26 +00:00",
+         "previous_updated_time": "2026-07-18 23:29:01 +00:00"
+        },
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 0.30000001192092896,
+         "dofollow": 0.30000001192092896,
+         "referring_pages": 0.30000001192092896,
+         "referring_domains": 0.30000001192092896,
+         "referring_main_domains": 0.30000001192092896,
+         "rank": 3.5999999046325684,
+         "main_domain_rank": 446.3999938964844,
+         "last_updated_time": "2026-10-02 19:50:26 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-04-29 17:03:04 +00:00"
+        }
+       },
+       "ranked_serp_element": {
+        "se_type": "google",
+        "serp_item": {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 47,
+         "rank_absolute": 49,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]",
+         "domain": "www.shilikajain.com",
+         "title": "Blog \u2014 field notes on Web3 PR, AI PR, and embargo strategy",
+         "url": "https://www.shilikajain.com/blog",
+         "breadcrumb": "https://www.shilikajain.com \u203a blog",
+         "website_name": "shilikajain.com",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "Web3 Protocol Post-Hack Trust Recovery: The 90-Day Communications Playbook ... Crisis communications management for crypto companies. Rug pull allegation\u00a0... Read more",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "Protocol"
+         ],
+         "links": [
+          {
+           "type": "link_element",
+           "title": "Read more",
+           "description": null,
+           "url": "https://www.shilikajain.com/blog#:~:text=Web3%20Protocol%20Post-Hack%20Trust%20Recovery%3A,The%2090-Day%20Communications%20Playbook&text=Crisis%20communications%20management%20for%20crypto,rebuilding%20after%20a%20Web3%20crisis."
+          }
+         ],
+         "about_this_result": null,
+         "main_domain": "shilikajain.com",
+         "relative_url": "/blog",
+         "etv": 0.06968536972999573,
+         "estimated_paid_traffic_cost": null,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": null,
+         "rank_info": {
+          "page_rank": 0,
+          "main_domain_rank": 27
+         }
+        },
+        "check_url": "https://www.google.com/search?q=mem%20protocol&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "serp_item_types": [
+         "ai_overview",
+         "organic",
+         "images"
+        ],
+        "se_results_count": 1620000,
+        "keyword_difficulty": 0,
+        "is_lost": false,
+        "last_updated_time": "2026-10-02 19:50:26 +00:00",
+        "previous_updated_time": "2026-07-18 23:29:01 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "groom lake crypto",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-16 11:11:34 +00:00",
+         "competition": 0,
+         "competition_level": "LOW",
+         "cpc": null,
+         "search_volume": 30,
+         "low_top_of_page_bid": null,
+         "high_top_of_page_bid": null,
+         "categories": [
+          10008
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 20
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 20
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 30
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 20
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 30
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 30
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 30
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 40
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 30
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 20
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 20
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 20
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 0,
+          "quarterly": -33,
+          "yearly": -33
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": null,
+         "keyword_difficulty": 0,
+         "detected_language": "en",
+         "is_another_language": false
+        },
+        "serp_info": {
+         "se_type": "google",
+         "check_url": "https://www.google.com/search?q=groom%20lake%20crypto&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+         "serp_item_types": [
+          "organic",
+          "ai_overview",
+          "related_searches"
+         ],
+         "se_results_count": 112,
+         "last_updated_time": "2026-08-29 19:46:13 +00:00",
+         "previous_updated_time": "2026-05-12 07:20:46 +00:00"
+        },
+        "avg_backlinks_info": null,
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": [
+          "navigational",
+          "commercial"
+         ],
+         "last_updated_time": "2026-04-27 19:43:19 +00:00"
+        }
+       },
+       "ranked_serp_element": {
+        "se_type": "google",
+        "serp_item": {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 79,
+         "rank_absolute": 87,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+         "domain": "www.shilikajain.com",
+         "title": "Blog \u2014 field notes on Web3 PR, AI PR, and embargo strategy",
+         "url": "https://www.shilikajain.com/blog",
+         "breadcrumb": "https://www.shilikajain.com \u203a blog",
+         "website_name": "shilikajain.com",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "A founder's operational guide to identifying crypto and Web3 reporters with a track record of honouring embargoes \u2014 plus the consent-first pitch sequence that\u00a0... Read more",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "crypto"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "shilikajain.com",
+         "relative_url": "/blog",
+         "etv": 0.03832351788878441,
+         "estimated_paid_traffic_cost": null,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": null,
+         "rank_info": {
+          "page_rank": 0,
+          "main_domain_rank": 5
+         }
+        },
+        "check_url": "https://www.google.com/search?q=groom%20lake%20crypto&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "serp_item_types": [
+         "organic",
+         "ai_overview",
+         "related_searches"
+        ],
+        "se_results_count": 112,
+        "keyword_difficulty": 0,
+        "is_lost": false,
+        "last_updated_time": "2026-08-29 19:46:13 +00:00",
+        "previous_updated_time": "2026-05-12 07:20:46 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "ltv to cac calculation",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-17 16:14:06 +00:00",
+         "competition": 0.05000000074505806,
+         "competition_level": "LOW",
+         "cpc": null,
+         "search_volume": 30,
+         "low_top_of_page_bid": null,
+         "high_top_of_page_bid": null,
+         "categories": [
+          10004,
+          10300,
+          11328
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 10
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 20
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 20
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 20
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 20
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 20
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 50
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 40
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 20
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 20
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 20
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 70
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": -50,
+          "quarterly": -50,
+          "yearly": -75
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": "ltv cac calculation",
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 0,
+         "detected_language": "en",
+         "is_another_language": false
+        },
+        "serp_info": {
+         "se_type": "google",
+         "check_url": "https://www.google.com/search?q=ltv%20to%20cac%20calculation&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+         "serp_item_types": [
+          "ai_overview",
+          "organic",
+          "people_also_ask"
+         ],
+         "se_results_count": 97,
+         "last_updated_time": "2026-10-08 01:17:25 +00:00",
+         "previous_updated_time": "2026-08-15 11:51:16 +00:00"
+        },
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 0.30000001192092896,
+         "dofollow": 0.30000001192092896,
+         "referring_pages": 0.30000001192092896,
+         "referring_domains": 0.30000001192092896,
+         "referring_main_domains": 0.30000001192092896,
+         "rank": 9.600000381469727,
+         "main_domain_rank": 303.3999938964844,
+         "last_updated_time": "2026-10-08 01:17:25 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-04-29 14:40:00 +00:00"
+        }
+       },
+       "ranked_serp_element": {
+        "se_type": "google",
+        "serp_item": {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 70,
+         "rank_absolute": 72,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+         "domain": "www.shilikajain.com",
+         "title": "Free LTV to CAC Ratio Calculator for SaaS | Shilika Jain",
+         "url": "https://www.shilikajain.com/tools/ltv-cac-calculator",
+         "breadcrumb": "https://www.shilikajain.com \u203a Tools",
+         "website_name": "shilikajain.com",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "A simple SaaS formula is average revenue per account per month, times gross margin, divided by monthly churn. At $400 a month, 75% margin and 3% churn, LTV is\u00a0... Read more",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "formula",
+          "LTV"
+         ],
+         "links": [
+          {
+           "type": "link_element",
+           "title": "Read more",
+           "description": null,
+           "url": "https://www.shilikajain.com/tools/ltv-cac-calculator#:~:text=A%20simple%20SaaS%20formula%20is,0.75%20%2F%200.03%2C%20or%20%2410%2C000."
+          }
+         ],
+         "about_this_result": null,
+         "main_domain": "shilikajain.com",
+         "relative_url": "/tools/ltv-cac-calculator",
+         "etv": 0.006473135203123093,
+         "estimated_paid_traffic_cost": null,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": null,
+         "rank_info": {
+          "page_rank": 0,
+          "main_domain_rank": 27
+         }
+        },
+        "check_url": "https://www.google.com/search?q=ltv%20to%20cac%20calculation&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "serp_item_types": [
+         "ai_overview",
+         "organic",
+         "people_also_ask"
+        ],
+        "se_results_count": 97,
+        "keyword_difficulty": 0,
+        "is_lost": false,
+        "last_updated_time": "2026-10-08 01:17:25 +00:00",
+        "previous_updated_time": "2026-08-15 11:51:16 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "spam test email subject line",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-19 22:18:43 +00:00",
+         "competition": 0.17000000178813934,
+         "competition_level": "LOW",
+         "cpc": 0.7799999713897705,
+         "search_volume": 20,
+         "low_top_of_page_bid": 0.6000000238418579,
+         "high_top_of_page_bid": 5.5,
+         "categories": [
+          10019,
+          10168,
+          10885,
+          12204,
+          13092,
+          13313
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 20
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 20
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 40
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 20
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 20
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 20
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 40
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 10
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 10
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 10
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 10
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 30
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 0,
+          "quarterly": -50,
+          "yearly": -82
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 0,
+         "detected_language": "en",
+         "is_another_language": false
+        },
+        "serp_info": {
+         "se_type": "google",
+         "check_url": "https://www.google.com/search?q=spam%20test%20email%20subject%20line&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+         "serp_item_types": [
+          "organic",
+          "ai_overview",
+          "people_also_ask"
+         ],
+         "se_results_count": 149000,
+         "last_updated_time": "2026-10-06 20:44:56 +00:00",
+         "previous_updated_time": "2026-07-26 19:56:42 +00:00"
+        },
+        "avg_backlinks_info": null,
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-04-28 22:44:36 +00:00"
+        }
+       },
+       "ranked_serp_element": {
+        "se_type": "google",
+        "serp_item": {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 3,
+         "rank_absolute": 4,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[5]/div[1]/div[1]",
+         "domain": "www.shilikajain.com",
+         "title": "Free Email Subject Line Tester and Spam Word Checker",
+         "url": "https://www.shilikajain.com/tools/email-subject-line-tester",
+         "breadcrumb": "https://www.shilikajain.com \u203a Tools",
+         "website_name": "shilikajain.com",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "Free email subject line tester. Score length, mobile cut-off and tone, and scan your subject and body for 200+ spam trigger words. No signup needed.",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "Free email subject line tester"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "shilikajain.com",
+         "relative_url": "/tools/email-subject-line-tester",
+         "etv": 1.0728578567504883,
+         "estimated_paid_traffic_cost": 0.8368291258811951,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": null,
+         "rank_info": {
+          "page_rank": 0,
+          "main_domain_rank": 27
+         }
+        },
+        "check_url": "https://www.google.com/search?q=spam%20test%20email%20subject%20line&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "serp_item_types": [
+         "organic",
+         "ai_overview",
+         "people_also_ask"
+        ],
+        "se_results_count": 149000,
+        "keyword_difficulty": 0,
+        "is_lost": false,
+        "last_updated_time": "2026-10-06 20:44:56 +00:00",
+        "previous_updated_time": "2026-07-26 19:56:42 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "web3firewall",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-15 22:31:36 +00:00",
+         "competition": 0,
+         "competition_level": "LOW",
+         "cpc": null,
+         "search_volume": 20,
+         "low_top_of_page_bid": null,
+         "high_top_of_page_bid": null,
+         "categories": [
+          10007,
+          11504,
+          13418
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 10
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 10
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 10
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 10
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 30
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 30
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 40
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 30
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 30
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 20
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 20
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 30
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": 0,
+          "quarterly": 0,
+          "yearly": -80
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": "text_processing",
+         "keyword_difficulty": 0,
+         "detected_language": "cs",
+         "is_another_language": true
+        },
+        "serp_info": {
+         "se_type": "google",
+         "check_url": "https://www.google.com/search?q=web3firewall&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+         "serp_item_types": [
+          "organic",
+          "ai_overview"
+         ],
+         "se_results_count": 162,
+         "last_updated_time": "2026-10-06 00:08:41 +00:00",
+         "previous_updated_time": "2026-08-25 20:58:41 +00:00"
+        },
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 37.79999923706055,
+         "dofollow": 10.899999618530273,
+         "referring_pages": 21.100000381469727,
+         "referring_domains": 12,
+         "referring_main_domains": 10.100000381469727,
+         "rank": 44.5,
+         "main_domain_rank": 497.29998779296875,
+         "last_updated_time": "2026-10-06 00:08:42 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": [
+          "navigational",
+          "commercial"
+         ],
+         "last_updated_time": "2026-04-30 13:48:17 +00:00"
+        }
+       },
+       "ranked_serp_element": {
+        "se_type": "google",
+        "serp_item": {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 60,
+         "rank_absolute": 61,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+         "domain": "www.shilikajain.com",
+         "title": "Blog \u2014 field notes on Web3 PR, AI PR, and embargo strategy",
+         "url": "https://www.shilikajain.com/blog",
+         "breadcrumb": "https://www.shilikajain.com \u203a blog",
+         "website_name": "shilikajain.com",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "Playbooks in public. Embargo strategy, tier-1 placement, APAC localisation, crisis communications, and KOL wave design. Drawn from six years and 50+ launches. Read more",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": null,
+         "links": [
+          {
+           "type": "link_element",
+           "title": "Read more",
+           "description": null,
+           "url": "https://www.shilikajain.com/blog#:~:text=Playbooks%20in%20public.,six%20years%20and%2050%2B%20launches."
+          }
+         ],
+         "about_this_result": null,
+         "main_domain": "shilikajain.com",
+         "relative_url": "/blog",
+         "etv": 0.0305729229003191,
+         "estimated_paid_traffic_cost": null,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": 66,
+          "is_new": false,
+          "is_up": true,
+          "is_down": false
+         },
+         "backlinks_info": null,
+         "rank_info": {
+          "page_rank": 0,
+          "main_domain_rank": 27
+         }
+        },
+        "check_url": "https://www.google.com/search?q=web3firewall&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "serp_item_types": [
+         "organic",
+         "ai_overview"
+        ],
+        "se_results_count": 162,
+        "keyword_difficulty": 0,
+        "is_lost": false,
+        "last_updated_time": "2026-10-06 00:08:41 +00:00",
+        "previous_updated_time": "2026-08-25 20:58:41 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword_data": {
+        "se_type": "google",
+        "keyword": "yogita the block",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword_info": {
+         "se_type": "google",
+         "last_updated_time": "2026-10-19 16:55:45 +00:00",
+         "competition": 0,
+         "competition_level": "LOW",
+         "cpc": null,
+         "search_volume": 20,
+         "low_top_of_page_bid": null,
+         "high_top_of_page_bid": null,
+         "categories": [
+          10013,
+          10103,
+          10556
+         ],
+         "monthly_searches": [
+          {
+           "year": 2026,
+           "month": 9,
+           "search_volume": 20
+          },
+          {
+           "year": 2026,
+           "month": 8,
+           "search_volume": 30
+          },
+          {
+           "year": 2026,
+           "month": 7,
+           "search_volume": 20
+          },
+          {
+           "year": 2026,
+           "month": 6,
+           "search_volume": 30
+          },
+          {
+           "year": 2026,
+           "month": 5,
+           "search_volume": 10
+          },
+          {
+           "year": 2026,
+           "month": 4,
+           "search_volume": 10
+          },
+          {
+           "year": 2026,
+           "month": 3,
+           "search_volume": 20
+          },
+          {
+           "year": 2026,
+           "month": 2,
+           "search_volume": 20
+          },
+          {
+           "year": 2026,
+           "month": 1,
+           "search_volume": 20
+          },
+          {
+           "year": 2025,
+           "month": 12,
+           "search_volume": 20
+          },
+          {
+           "year": 2025,
+           "month": 11,
+           "search_volume": 10
+          },
+          {
+           "year": 2025,
+           "month": 10,
+           "search_volume": 10
+          }
+         ],
+         "search_volume_trend": {
+          "monthly": -33,
+          "quarterly": 0,
+          "yearly": 0
+         }
+        },
+        "keyword_info_normalized_with_bing": null,
+        "keyword_info_normalized_with_clickstream": null,
+        "clickstream_keyword_info": null,
+        "keyword_properties": {
+         "se_type": "google",
+         "core_keyword": null,
+         "synonym_clustering_algorithm": null,
+         "keyword_difficulty": 0,
+         "detected_language": "en",
+         "is_another_language": false
+        },
+        "serp_info": {
+         "se_type": "google",
+         "check_url": "https://www.google.com/search?q=yogita%20the%20block&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+         "serp_item_types": [
+          "organic",
+          "related_searches"
+         ],
+         "se_results_count": 108,
+         "last_updated_time": "2026-09-01 15:21:30 +00:00",
+         "previous_updated_time": null
+        },
+        "avg_backlinks_info": {
+         "se_type": "google",
+         "backlinks": 32.900001525878906,
+         "dofollow": 13.5,
+         "referring_pages": 32.599998474121094,
+         "referring_domains": 20.799999237060547,
+         "referring_main_domains": 20.700000762939453,
+         "rank": 47.099998474121094,
+         "main_domain_rank": 586.0999755859375,
+         "last_updated_time": "2026-09-01 15:21:32 +00:00"
+        },
+        "search_intent_info": {
+         "se_type": "google",
+         "main_intent": "informational",
+         "foreign_intent": null,
+         "last_updated_time": "2026-05-02 21:38:10 +00:00"
+        }
+       },
+       "ranked_serp_element": {
+        "se_type": "google",
+        "serp_item": {
+         "se_type": "google",
+         "type": "organic",
+         "rank_group": 48,
+         "rank_absolute": 52,
+         "position": "left",
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+         "domain": "www.shilikajain.com",
+         "title": "Blog \u2014 field notes on Web3 PR, AI PR, and embargo strategy",
+         "url": "https://www.shilikajain.com/blog",
+         "breadcrumb": "https://www.shilikajain.com \u203a blog",
+         "website_name": "shilikajain.com",
+         "is_image": false,
+         "is_video": false,
+         "is_featured_snippet": false,
+         "is_malicious": false,
+         "checks": null,
+         "description": "Here's how to earn coverage in Naavik, Blockworks Research, and The Block\u2014without buying it. Read playbook \u2192. Web3 Gaming PR: How to Pitch Decrypt, Polygon\u00a0... Read more",
+         "pre_snippet": null,
+         "extended_snippet": null,
+         "amp_version": false,
+         "rating": null,
+         "highlighted": [
+          "Block"
+         ],
+         "links": null,
+         "about_this_result": null,
+         "main_domain": "shilikajain.com",
+         "relative_url": "/blog",
+         "etv": 0.03967887908220291,
+         "estimated_paid_traffic_cost": null,
+         "clickstream_etv": null,
+         "rank_changes": {
+          "previous_rank_absolute": null,
+          "is_new": true,
+          "is_up": false,
+          "is_down": false
+         },
+         "backlinks_info": null,
+         "rank_info": {
+          "page_rank": 0,
+          "main_domain_rank": 5
+         }
+        },
+        "check_url": "https://www.google.com/search?q=yogita%20the%20block&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+        "serp_item_types": [
+         "organic",
+         "related_searches"
+        ],
+        "se_results_count": 108,
+        "keyword_difficulty": 0,
+        "is_lost": false,
+        "last_updated_time": "2026-09-01 15:21:30 +00:00",
+        "previous_updated_time": null
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
