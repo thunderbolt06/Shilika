@@ -7,6 +7,7 @@ import { assetUrl } from '@/lib/asset-url';
 import { languageAlternates } from '@/lib/i18n/config';
 import { jsonLdString } from '@/lib/json-ld';
 import { LANG_TOGGLE_SLOT, languageToggleHtml } from '@/lib/i18n/toggle';
+import CalendlyLazy from '@/components/site/CalendlyLazy';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
@@ -74,10 +75,7 @@ export default function HomePage() {
       {/* eslint-disable-next-line @next/next/no-sync-scripts */}
       <script src={assetUrl('assets/intro-cards.js')} />
       <Script src={assetUrl('assets/site.js')} strategy="afterInteractive" />
-      <Script
-        src="https://assets.calendly.com/assets/external/widget.js"
-        strategy="lazyOnload"
-      />
+      <CalendlyLazy />
       <ClientReBoot />
     </>
   );
