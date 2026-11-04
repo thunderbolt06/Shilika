@@ -32,6 +32,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 import { readingTimeMinutes, renderMarkdown } from '@/lib/markdown';
 import { extractToc } from '@/lib/toc';
 import '../../(site)/blog/blog.css';
+import CalendlyLazy from '@/components/site/CalendlyLazy';
 
 /**
  * Translated versions of the pages registered in lib/i18n/config.ts. The
@@ -330,7 +331,7 @@ export default async function LocalizedPage({ params }: { params: Params }) {
         {/* eslint-disable-next-line @next/next/no-sync-scripts */}
         <script src={assetUrl('assets/intro-cards.js')} />
         <Script src={assetUrl('assets/site.js')} strategy="afterInteractive" />
-        <Script src="https://assets.calendly.com/assets/external/widget.js" strategy="lazyOnload" />
+        <CalendlyLazy />
         <ClientReBoot />
       </>
     );

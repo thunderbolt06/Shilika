@@ -16,7 +16,7 @@ export default function RootShell({ lang, children }: { lang: string; children: 
         {/* OpenAI Pixel: one setup script per page, near the top of <head>. */}
         <script
           dangerouslySetInnerHTML={{
-            __html: `!function(w,d,s,u){if(w.oaiq)return;var q=function(){q.q.push(arguments)};q.q=[];w.oaiq=q;var j=d.createElement(s);j.async=1;j.src=u;var f=d.getElementsByTagName(s)[0];f.parentNode.insertBefore(j,f)}(window,document,"script","https://bzrcdn.openai.com/sdk/oaiq.min.js");oaiq("init",{pixelId:"AAo66s2GKSrGUa2ZWkwBkT",debug:true});oaiq("measure","page_viewed",{type:"contents"});`,
+            __html: `!function(w,d,s,u){if(w.oaiq)return;var q=function(){q.q.push(arguments)};q.q=[];w.oaiq=q;var j=d.createElement(s);j.async=1;j.src=u;var f=d.getElementsByTagName(s)[0];f.parentNode.insertBefore(j,f)}(window,document,"script","https://bzrcdn.openai.com/sdk/oaiq.min.js");oaiq("init",{pixelId:"AAo66s2GKSrGUa2ZWkwBkT",debug:false});oaiq("measure","page_viewed",{type:"contents"});`,
           }}
         />
         <link rel="preconnect" href="https://fonts.googleapis.com" />

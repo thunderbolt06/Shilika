@@ -1,0 +1,441 @@
+{
+ "version": "0.1.20261022",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.0795 sec.",
+ "cost": 0.02436,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "11030753-3025-0272-0000-266b2505cb46",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.0696 sec.",
+   "cost": 0.02436,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "backlinks",
+    "anchors",
+    "live"
+   ],
+   "data": {
+    "api": "backlinks",
+    "function": "anchors",
+    "target": "shilikajain.com",
+    "limit": 50,
+    "order_by": [
+     "backlinks,desc"
+    ]
+   },
+   "result": [
+    {
+     "target": "shilikajain.com",
+     "total_count": 10,
+     "items_count": 10,
+     "items": [
+      {
+       "type": "backlinks_anchor",
+       "anchor": "High Quality Dofollow Backlinks DA 50 PA 40 Premium PBN Network Service shilikajain.com Rank First Page Google Fast SEO Link Building Buy Backlinks Online Cheap",
+       "rank": 0,
+       "backlinks": 25,
+       "first_seen": "2026-08-03 06:43:15 +00:00",
+       "lost_date": null,
+       "backlinks_spam_score": 62,
+       "broken_backlinks": 0,
+       "broken_pages": 0,
+       "referring_domains": 25,
+       "referring_domains_nofollow": 0,
+       "referring_main_domains": 23,
+       "referring_main_domains_nofollow": 0,
+       "referring_ips": 23,
+       "referring_subnets": 22,
+       "referring_pages": 25,
+       "referring_pages_nofollow": 0,
+       "referring_links_tld": {
+        "com": 24,
+        "us.com": 1
+       },
+       "referring_links_types": {
+        "anchor": 25
+       },
+       "referring_links_attributes": {
+        "noopener": 25
+       },
+       "referring_links_platform_types": {
+        "unknown": 25
+       },
+       "referring_links_semantic_locations": {
+        "": 25
+       },
+       "referring_links_countries": {
+        "": 23,
+        "US": 2
+       }
+      },
+      {
+       "type": "backlinks_anchor",
+       "anchor": "Advanced Manual Outreach Backlinks for shilikajain.com to Improve Citation Flow. Secure First Page Positions, for Long Term SEO Results.",
+       "rank": 0,
+       "backlinks": 23,
+       "first_seen": "2026-09-10 16:12:41 +00:00",
+       "lost_date": null,
+       "backlinks_spam_score": 63,
+       "broken_backlinks": 0,
+       "broken_pages": 0,
+       "referring_domains": 23,
+       "referring_domains_nofollow": 0,
+       "referring_main_domains": 23,
+       "referring_main_domains_nofollow": 0,
+       "referring_ips": 22,
+       "referring_subnets": 20,
+       "referring_pages": 23,
+       "referring_pages_nofollow": 0,
+       "referring_links_tld": {
+        "shop": 13,
+        "online": 5,
+        "com": 3,
+        "site": 2
+       },
+       "referring_links_types": {
+        "anchor": 23
+       },
+       "referring_links_attributes": {
+        "noopener": 23
+       },
+       "referring_links_platform_types": {
+        "unknown": 23
+       },
+       "referring_links_semantic_locations": {
+        "main": 23
+       },
+       "referring_links_countries": {
+        "": 23
+       }
+      },
+      {
+       "type": "backlinks_anchor",
+       "anchor": "shilikajain.com",
+       "rank": 0,
+       "backlinks": 19,
+       "first_seen": "2025-11-20 01:07:19 +00:00",
+       "lost_date": null,
+       "backlinks_spam_score": 55,
+       "broken_backlinks": 0,
+       "broken_pages": 0,
+       "referring_domains": 15,
+       "referring_domains_nofollow": 15,
+       "referring_main_domains": 15,
+       "referring_main_domains_nofollow": 15,
+       "referring_ips": 6,
+       "referring_subnets": 6,
+       "referring_pages": 17,
+       "referring_pages_nofollow": 17,
+       "referring_links_tld": {
+        "shop": 6,
+        "eu": 3,
+        "world": 2,
+        "agency": 1,
+        "cloud": 1,
+        "org": 1,
+        "party": 1,
+        "pro": 1,
+        "website": 1
+       },
+       "referring_links_types": {
+        "anchor": 17
+       },
+       "referring_links_attributes": {
+        "nofollow": 17,
+        "noopener": 2
+       },
+       "referring_links_platform_types": {
+        "unknown": 9,
+        "blogs": 8,
+        "cms": 8
+       },
+       "referring_links_semantic_locations": {
+        "": 9,
+        "main": 6,
+        "article": 2
+       },
+       "referring_links_countries": {
+        "": 15,
+        "DE": 2
+       }
+      },
+      {
+       "type": "backlinks_anchor",
+       "anchor": "Best B2B SaaS PR Agencies Ranked in 2026 - Shilika Jain",
+       "rank": 0,
+       "backlinks": 12,
+       "first_seen": "2026-08-01 13:51:06 +00:00",
+       "lost_date": null,
+       "backlinks_spam_score": 0,
+       "broken_backlinks": 0,
+       "broken_pages": 0,
+       "referring_domains": 1,
+       "referring_domains_nofollow": 1,
+       "referring_main_domains": 1,
+       "referring_main_domains_nofollow": 1,
+       "referring_ips": 1,
+       "referring_subnets": 1,
+       "referring_pages": 6,
+       "referring_pages_nofollow": 6,
+       "referring_links_tld": {
+        "com": 6
+       },
+       "referring_links_types": {
+        "anchor": 6
+       },
+       "referring_links_attributes": {
+        "nofollow": 6,
+        "noopener": 6,
+        "noreferrer": 6
+       },
+       "referring_links_platform_types": {
+        "organization": 6
+       },
+       "referring_links_semantic_locations": {
+        "main": 6
+       },
+       "referring_links_countries": {
+        "": 6
+       }
+      },
+      {
+       "type": "backlinks_anchor",
+       "anchor": "How to Get Into a Forbes Council in 2026 (and Whether You Should)",
+       "rank": 0,
+       "backlinks": 3,
+       "first_seen": "2026-09-22 02:29:12 +00:00",
+       "lost_date": null,
+       "backlinks_spam_score": 0,
+       "broken_backlinks": 0,
+       "broken_pages": 0,
+       "referring_domains": 1,
+       "referring_domains_nofollow": 0,
+       "referring_main_domains": 1,
+       "referring_main_domains_nofollow": 0,
+       "referring_ips": 1,
+       "referring_subnets": 1,
+       "referring_pages": 1,
+       "referring_pages_nofollow": 0,
+       "referring_links_tld": {
+        "com": 1
+       },
+       "referring_links_types": {
+        "anchor": 1
+       },
+       "referring_links_attributes": null,
+       "referring_links_platform_types": {
+        "blogs": 1,
+        "cms": 1
+       },
+       "referring_links_semantic_locations": {
+        "article": 1
+       },
+       "referring_links_countries": {
+        "": 1
+       }
+      },
+      {
+       "type": "backlinks_anchor",
+       "anchor": "As those trends",
+       "rank": 4,
+       "backlinks": 3,
+       "first_seen": "2026-07-08 13:35:30 +00:00",
+       "lost_date": null,
+       "backlinks_spam_score": 10,
+       "broken_backlinks": 0,
+       "broken_pages": 0,
+       "referring_domains": 3,
+       "referring_domains_nofollow": 0,
+       "referring_main_domains": 2,
+       "referring_main_domains_nofollow": 0,
+       "referring_ips": 2,
+       "referring_subnets": 2,
+       "referring_pages": 3,
+       "referring_pages_nofollow": 0,
+       "referring_links_tld": {
+        "ai": 2,
+        "co.uk": 1
+       },
+       "referring_links_types": {
+        "anchor": 3
+       },
+       "referring_links_attributes": {
+        "noopener": 1
+       },
+       "referring_links_platform_types": {
+        "organization": 3,
+        "news": 1
+       },
+       "referring_links_semantic_locations": {
+        "section": 2,
+        "article": 1
+       },
+       "referring_links_countries": {
+        "AI": 2,
+        "GB": 1
+       }
+      },
+      {
+       "type": "backlinks_anchor",
+       "anchor": "The announcement",
+       "rank": 0,
+       "backlinks": 2,
+       "first_seen": "2026-07-01 18:37:44 +00:00",
+       "lost_date": null,
+       "backlinks_spam_score": 7,
+       "broken_backlinks": 0,
+       "broken_pages": 0,
+       "referring_domains": 2,
+       "referring_domains_nofollow": 1,
+       "referring_main_domains": 2,
+       "referring_main_domains_nofollow": 1,
+       "referring_ips": 2,
+       "referring_subnets": 2,
+       "referring_pages": 2,
+       "referring_pages_nofollow": 1,
+       "referring_links_tld": {
+        "co.uk": 1,
+        "com": 1
+       },
+       "referring_links_types": {
+        "anchor": 2
+       },
+       "referring_links_attributes": {
+        "noopener": 2,
+        "nofollow": 1,
+        "noreferrer": 1
+       },
+       "referring_links_platform_types": {
+        "organization": 2,
+        "news": 1
+       },
+       "referring_links_semantic_locations": {
+        "article": 2
+       },
+       "referring_links_countries": {
+        "GB": 1,
+        "US": 1
+       }
+      },
+      {
+       "type": "backlinks_anchor",
+       "anchor": "Best Pinterest Tool SiteToSocial.com to Grow Your Website Traffic Fully Automated",
+       "rank": 0,
+       "backlinks": 1,
+       "first_seen": "2026-11-01 14:29:08 +00:00",
+       "lost_date": null,
+       "backlinks_spam_score": 80,
+       "broken_backlinks": 0,
+       "broken_pages": 0,
+       "referring_domains": 1,
+       "referring_domains_nofollow": 0,
+       "referring_main_domains": 1,
+       "referring_main_domains_nofollow": 0,
+       "referring_ips": 1,
+       "referring_subnets": 1,
+       "referring_pages": 1,
+       "referring_pages_nofollow": 0,
+       "referring_links_tld": {
+        "shop": 1
+       },
+       "referring_links_types": {
+        "anchor": 1
+       },
+       "referring_links_attributes": {
+        "noopener": 1
+       },
+       "referring_links_platform_types": {
+        "unknown": 1
+       },
+       "referring_links_semantic_locations": {
+        "": 1
+       },
+       "referring_links_countries": {
+        "": 1
+       }
+      },
+      {
+       "type": "backlinks_anchor",
+       "anchor": "Expert shilikajain.com Link Building for Higher Rankings and Better SEO Authority",
+       "rank": 0,
+       "backlinks": 1,
+       "first_seen": "2026-10-17 10:06:05 +00:00",
+       "lost_date": null,
+       "backlinks_spam_score": 55,
+       "broken_backlinks": 0,
+       "broken_pages": 0,
+       "referring_domains": 1,
+       "referring_domains_nofollow": 0,
+       "referring_main_domains": 1,
+       "referring_main_domains_nofollow": 0,
+       "referring_ips": 1,
+       "referring_subnets": 1,
+       "referring_pages": 1,
+       "referring_pages_nofollow": 0,
+       "referring_links_tld": {
+        "link": 1
+       },
+       "referring_links_types": {
+        "anchor": 1
+       },
+       "referring_links_attributes": null,
+       "referring_links_platform_types": {
+        "unknown": 1
+       },
+       "referring_links_semantic_locations": {
+        "details": 1
+       },
+       "referring_links_countries": {
+        "": 1
+       }
+      },
+      {
+       "type": "backlinks_anchor",
+       "anchor": "four-week Product Hunt checklist",
+       "rank": 0,
+       "backlinks": 1,
+       "first_seen": "2026-10-07 18:17:33 +00:00",
+       "lost_date": null,
+       "backlinks_spam_score": 10,
+       "broken_backlinks": 0,
+       "broken_pages": 0,
+       "referring_domains": 1,
+       "referring_domains_nofollow": 1,
+       "referring_main_domains": 1,
+       "referring_main_domains_nofollow": 1,
+       "referring_ips": 1,
+       "referring_subnets": 1,
+       "referring_pages": 1,
+       "referring_pages_nofollow": 1,
+       "referring_links_tld": {
+        "io": 1
+       },
+       "referring_links_types": {
+        "anchor": 1
+       },
+       "referring_links_attributes": {
+        "nofollow": 1,
+        "noopener": 1
+       },
+       "referring_links_platform_types": {
+        "organization": 1
+       },
+       "referring_links_semantic_locations": {
+        "article": 1
+       },
+       "referring_links_countries": {
+        "IO": 1
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
