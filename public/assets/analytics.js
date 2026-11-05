@@ -26,14 +26,35 @@
     }, e.__SV = 1);
   }(document, window.posthog || []);
 
+  // Pageview capture stays on. Session recorder and surveys load only after
+  // first interaction or 5 s idle, to keep the main thread free for LCP/INP.
   posthog.init(POSTHOG_KEY, {
     api_host: POSTHOG_HOST,
     person_profiles: 'identified_only',
     capture_pageview: true,
     capture_pageleave: true,
     autocapture: true,
+    disable_session_recording: true,
+    disable_surveys: true,
     defaults: '2025-05-24'
   });
+
+  var heavyStarted = false;
+  function startHeavy() {
+    if (heavyStarted) return;
+    heavyStarted = true;
+    ['pointerdown', 'keydown', 'scroll', 'touchstart'].forEach(function (ev) {
+      window.removeEventListener(ev, startHeavy, true);
+    });
+    try {
+      posthog.set_config({ disable_session_recording: false, disable_surveys: false });
+      if (posthog.startSessionRecording) posthog.startSessionRecording();
+    } catch (e) {}
+  }
+  ['pointerdown', 'keydown', 'scroll', 'touchstart'].forEach(function (ev) {
+    window.addEventListener(ev, startHeavy, { capture: true, passive: true });
+  });
+  setTimeout(startHeavy, 5000);
 
   // Lightweight named events on key CTAs so funnels are easy to build.
   window.addEventListener('DOMContentLoaded', function () {
