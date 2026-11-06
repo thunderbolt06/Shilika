@@ -59,7 +59,15 @@ export function ExcelClient() {
     try {
       const form = new FormData();
       form.append('file', file);
-      const res = await fetch('/api/admin/blog/excel/commit', { method: 'POST', body: form });
+      let res = await fetch('/api/admin/blog/excel/commit', { method: 'POST', body: form });
+      if (res.status === 409) {
+        // Bulk freeze guard: more than 10 rows needs a second, explicit yes.
+        const info = await res.json().catch(() => null);
+        if (info?.error !== 'confirm_required') throw new Error('commit failed');
+        if (!confirm(`${info.message} Commit anyway?`)) return;
+        form.append('confirm', 'true');
+        res = await fetch('/api/admin/blog/excel/commit', { method: 'POST', body: form });
+      }
       if (!res.ok) throw new Error('commit failed');
       setCommit(await res.json());
     } catch (e) {
