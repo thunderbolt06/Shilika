@@ -1,22 +1,24 @@
 query,clicks,impressions,ctr,position
-shilika jain,32,80,0.4,1.89
-crypto pr pricing,1,41,0.02439,10.98
+shilika jain,34,85,0.4,1.84
+crypto pr pricing,1,46,0.02174,10.87
 idc vendor briefing,1,1,1,1
-shilika,1,88,0.01136,5.02
+shilika,1,104,0.00962,4.86
 what is a request for comment,1,11,0.09091,7.64
 yes,1,1,1,5
 """black hat"" ""conference""",0,9,0,4.44
+"""clouddepin.com"" or ""clouddepin"" or ""cloud depin"" funding or raise or token or acquisition",0,3,0,7
 """conference portfolio"" ""founder"" ""author""",0,1,0,5
 """how do analyst firms (gartner",0,1,0,10
 """looking for sources"" ai or automation or startup founder 2026",0,1,0,10
 """saas checklist"" ""digital magazine""",0,1,0,20
+"""sponsored post"" crypto",0,1,0,35
 """tokenx.finance"" -site:tokenx.finance -site:facebook.com -site:instagram.com -site:threads.com -site:threads.net -site:linkedin.com -site:x.com -site:twitter.com -site:tiktok.com -site:youtube.com -site:youtu.be -site:reddit.com -site:t.me -site:telegram.me -site:telegram.org -site:pinterest.com -site:vimeo.com",0,1,0,10
 """web3 kol"" resume ""@gmail.com"" -site:linkedin.com",0,2,0,6
 $30k いくら,0,1,0,9
 "(""$5m arr"") site:linkedin.com/posts",0,3,0,33.67
 "(""boca marketing agency"" or ""bombilla creative"" or ""bonner communications"" or ""bospar"" or ""boundary"" or ""brady public relations"") (raises or raised or funding or ""series a"" or ""series b"" or ""seed round"" or ""emerges from stealth"" or ""emerged from stealth"" or launches) (""ai startup"" or ""ai company"" or ""artificial intelligence"" or ""generative ai"" or ""machine learning"")",0,5,0,75
-"(""global fintech fest"" or ""gff"")",0,1,0,107
 "(""mica"" or ""genius"" or ""prudential"" or ""prudential framework"") and (""regulation"" or ""regulatory"" or ""compliance"" or ""licensing"" or ""authorization"" or ""supervision"" or ""capital requirements"")",0,3,0,1.33
+- roi goal 300-500% return on ad spend,0,1,0,40
 0xppl,0,1,0,73
 90 day marketing plan startup,0,1,0,11
 "<brand>marketacross (marketacross.com)</brand> is criticised for <objection>opaque pricing</objection>, which puts some potential customers off. what are the reasons for this perception? respond in english.",0,1,0,1
@@ -25,11 +27,12 @@ a b testing calculator,0,1,0,86
 a/b test calculator,0,1,0,29
 a/b test significance calculator,0,4,0,40.25
 a/b testing calculator,0,1,0,58
-a/b testing significance calculator,0,3,0,52
-ab engagement test statistical significance calculator,0,1,0,28
+a/b testing significance calculator,0,4,0,50.25
+ab engagement test statistical significance calculator,0,3,0,17
+ab significance calculator,0,1,0,52
 ab significance test,0,1,0,80
-ab test calculator,0,6,0,74.5
-ab test confidence calculator,0,2,0,24.5
+ab test calculator,0,15,0,62.33
+ab test confidence calculator,0,3,0,19.33
 ab test conversion rate,0,2,0,68
 ab test conversion rate calculator,0,1,0,24
 ab test result calculator,0,1,0,26
@@ -41,10 +44,12 @@ ab test statistical significance calculator,0,3,0,80.67
 ab testing calculator,0,2,0,80.5
 ab testing significance calculator,0,2,0,55.5
 activating content for startup,0,1,0,33
-ad budget calculator,0,3,0,48.33
-ad calculator,0,4,0,76.75
-ad spend calculator for squarespace,0,4,0,28.25
+ad budget calculator,0,6,0,37.5
+ad calculator,0,5,0,70.4
+ad spend calculator for squarespace,0,13,0,27.62
+ads calculator,0,1,0,54
 agency for founder personal branding,0,3,0,9
+agency with stronger cybersecurity thought leadership than incumbent.,0,2,0,5.5
 ai 34m seriesdavistechcrunch,0,117,0,5.06
 ai agent launch,0,1,0,8
 ai agent market,0,2,0,5.5
@@ -55,21 +60,23 @@ ai model launch after:2026-10-15,0,16,0,6.25
 ai model release announcement,0,4,0,8
 ai model release news,0,1,0,10
 ai pr,0,2,0,30.5
-ai press release generator,0,4,0,53.5
+ai press release generator,0,13,0,49.46
+ai press release generator free,0,1,0,50
 ai professional bio generator,0,5,0,23.6
 ai schema markup generator,0,1,0,7
 ai startup pr agency,0,7,0,55.57
 ai startup pr services,0,2,0,78.5
-ai+startup+pr,0,8,0,59.75
-ai-native pr agency for fintech,0,7,0,5.71
-ai-powered pr agency in india,0,15,0,24.53
+ai+startup+pr,0,8,0,53.5
+ai-native pr agency for fintech,0,10,0,5.8
+ai-powered pr agency in india,0,8,0,33
+airdrop marketing strategy,0,1,0,46
 aiseo headline analyzer,0,2,0,25
 aiseo.com headline analyzer,0,4,0,8.75
 alibaba cloud magazine writer,0,7,0,57.29
 alternative to current agency for technical cybersecurity storytelling.,0,10,0,9.1
+alternative to traditional pr agencies with more transparency.,0,1,0,1
 american banker alternatives,0,1,0,1
 ami headline analyzer,0,1,0,94
-analyst relations firms,0,1,0,25
 analyst relations for startups,0,2,0,13.5
 analyst relations tools vs traditional pr agencies,0,1,0,6
 analyst wave/marketscape regional placements,0,10,0,3.3
@@ -85,55 +92,58 @@ ap style press release format,0,1,0,20
 ap style press release template,0,9,0,8.22
 apac and mena,0,1,0,10
 apac blockchain fintech market,0,1,0,94
-apac crypto,0,5,0,45.6
+apac calendar,0,2,0,5
+apac crypto,0,4,0,45.75
 apac geofencing market,0,10,0,70.2
 apac startup news today,0,1,0,25
-apac web3 in retail market,0,144,0,30.72
-apac web3 marketing market,0,191,0,46.23
+apac web3 in retail market,0,137,0,27.84
+apac web3 marketing market,0,197,0,42.5
 apac インド,0,2,0,10
 arabianchain technology,0,1,0,84
+author bio generator,0,5,0,29
 b2b case study template,0,8,0,6.38
 b2b magazines list,0,1,0,20
 b2b saas,0,1,0,17
-b2b saas pr,0,33,0,27.82
-b2b saas pr agency,0,13,0,38.31
-b2b saas pr firms,0,5,0,35.4
+b2b saas pr,0,33,0,27.3
+b2b saas pr agency,0,16,0,32.94
+b2b saas pr firms,0,8,0,28.38
 b2b saas pr services,0,1,0,35
-b2b saas public relations services,0,2,0,33.5
+b2b saas public relations services,0,3,0,25.33
 b2b tech analysts,0,1,0,13
 b2c referral program examples,0,5,0,8.4
 b2c referral software companies,0,3,0,3.33
 best agencies for b2b tech companies needing analyst relations,0,1,0,10
 best ai marketing web3 agency near me,0,13,0,10.08
 best analyst relations agencies for a vendor trying to get more value from an existing gartner investment,0,4,0,4.75
-best analyst relations agencies for b2b saas startups 2026,0,37,0,2.03
+best analyst relations agencies for b2b saas startups 2026,0,45,0,1.84
 best atlanta pr firms for b2b saas and enterprise technology clients in 2026 atlanta,0,1,0,10
 best b2b pr agencies with senior teams and former journalists,0,3,0,4
-best b2b tech pr agencies in 2026,0,1,0,1
+best b2b tech pr agencies in 2026,0,3,0,6.67
 best company to work,0,1,0,11
-best crypto marketing agency for token launch,0,21,0,11.19
+best crypto marketing agency for token launch,0,36,0,10.67
 best crypto press release distribution services 2026,0,5,0,1.8
 best cyber security marketing agencies?,0,1,0,12
 best dashboards for tracking pr turnaround time.,0,1,0,10
-best digital pr agencies for b2b saas,0,3,0,21.33
-best editorial-first pr consultancies for b2b saas launches,0,16,0,7.88
-best firms for financial pr during m&a 2026,0,2,0,65
-best firms for financial pr during m&a? in 2026,0,5,0,70.2
-best free headline analyzer,0,1,0,41
+best digital pr agencies for b2b saas,0,4,0,19.75
+best editorial-first pr consultancies for b2b saas launches,0,39,0,8.46
+best firms for financial pr during m&a? in 2026,0,3,0,67.33
+best free headline analyzer,0,2,0,38.5
 best journalist-led pr shops with op-ed placement track records,0,1,0,10
 best kol,0,1,0,6
 best kol agency for crypto projects,0,2,0,15
 best kol marketing agency,0,21,0,21.76
 best linkedin editorial firms for ai founder thought leadership,0,2,0,3
 best market research providers for saas companies,0,1,0,6
+best media provider for brand-safe adjacency in 2026.,0,1,0,9
 best media training agencies for ai startup founders facing scrutiny,0,1,0,7
 best media training agencies for tech founders preparing for analyst briefings,0,2,0,8
 best media training for tech founders preparing for fundraise press,0,2,0,1.5
-best narrative consultancies for b2b saas launches in 2026,0,17,0,5.59
+best narrative consultancies for b2b saas launches in 2026,0,32,0,5.44
 best narrative firms for saas founders ahead of analyst briefings,0,3,0,2.67
 best narrative firms for tech founders preparing for tier-1 editorial coverage,0,3,0,7.33
 best personal branding agency for founders,0,1,0,23
-best pr agencies for saas founders preparing for series b,0,22,0,4.82
+best pr agencies for b2b saas companies,0,2,0,1
+best pr agencies for saas founders preparing for series b,0,62,0,5.08
 best pr agencies for submitting founders to fast company most innovative,0,1,0,7
 best pr agencies for tech founders building reporter trust over time,0,1,0,2
 best pr agencies for tech founders building thought leadership,0,4,0,7.25
@@ -142,44 +152,56 @@ best pr agency for a token launch,0,8,0,1
 best pr consultancies for tech founders building real journalist relationships,0,4,0,5.25
 best pr consultancies for vc firms targeting tier-1 tech press,0,1,0,10
 best pr firms for b2b saas companies 2025,0,1,0,9
-best pr firms for b2b saas press launches in 2026,0,31,0,7.97
-best pr firms for b2b saas press tours and editor briefings,0,17,0,10.06
-best pr firms for saas companies preparing for ipo,0,8,0,12
+best pr firms for b2b saas press launches in 2026,0,57,0,7.58
+best pr firms for b2b saas press tours and editor briefings,0,22,0,9.5
+best pr firms for founder branding,0,4,0,6.75
+best pr firms for saas companies preparing for ipo,0,10,0,11
 best pr firms for tech founders learning to pitch tier-1 tech press,0,1,0,10
-best practices for analyst relations with gartner and forrester,0,10,0,8.8
+best practices for analyst relations with gartner and forrester,0,14,0,8.86
+best practices for briefing forrester analysts before wave evaluations?,0,1,0,9
 best saas pr agency,0,1,0,1
 best strategic communications agency for launching alt funds and investment strategies,0,1,0,12
+best strategic launchpads for ai governance startups aiming to enter the asian corporate market.,0,1,0,9
 best subject line testers,0,2,0,9.5
 best tech pr agencies for analyst relations programs,0,1,0,6
-best tech pr firms with strong relationships at techcrunch,0,19,0,8
+best tech pr firms with strong relationships at techcrunch,0,37,0,8.22
 best tools for tracking key-message pull-through across earned media coverage,0,1,0,1
 best tools to measure key-message pull-through in media coverage,0,3,0,8.33
-"best us fintech pr firms with proven analyst-relations track records (gartner, forrester, aite-novarica) in 2026",0,1,0,10
+"best us fintech pr firms with proven analyst-relations track records (gartner, forrester, aite-novarica) in 2026",0,7,0,8
 best web3 kol agencies,0,17,0,13.65
-better cybersecurity content partner than traditional pr agencies.,0,1,0,1
+better cybersecurity content partner than traditional pr agencies.,0,2,0,1
 bindu reddy x twitter ai agents tweets 2026,0,3,0,5.67
-bio writer service,0,1,0,94
-bitcoin xai in india,0,3,0,48.67
+bio copywriting service,0,1,0,20
+bio writer,0,3,0,15.33
+bio writer service,0,3,0,50.67
+bio writing services,0,1,0,19
+bitcoin xai in india,0,2,0,45
 bitcoin xai in japan,0,2,0,50
-bitcoin xai in singapore,0,5,0,40.6
-bitcoin xai india,0,3,0,55.33
+bitcoin xai in singapore,0,6,0,44.33
+bitcoin xai india,0,4,0,59.25
 bitcoin xai japan,0,2,0,91
 bitcoin xai singapore,0,2,0,53
 bitdegree,0,1,0,41
-blockchain rfp template,0,3,0,19
+blockbeats alternatives,0,2,0,1
+blockchain infrastructure rfp template,0,1,0,1
+blockchain rfp template,0,7,0,13.86
 blog headline analyzer,0,1,0,9
-blog title analyzer,0,6,0,21.33
-blog title checker,0,1,0,4
-bloomingbit alternatives,0,1,0,7
+blog seo apac,0,2,0,11.5
+blog title analyzer,0,8,0,23.62
+blog title checker,0,6,0,28.33
+bloomingbit alternatives,0,8,0,5
 booth sponsor,0,1,0,23
 booth sponsorship,0,2,0,4.5
 "bot chain ""ecosystem leaderboard"" ""depin networks""",0,4,0,73
 boutique pr agencies for series a and b tech startups that focus on ai citation not vanity metrics,0,3,0,11
-break even calculator,0,12,0,56.33
+break even calculator,0,17,0,42.47
+break even point calculator,0,3,0,7.67
+break-even point calculator,0,1,0,5
 breakeven calculator,0,1,0,42
 briefing deck,0,1,0,2
+briefing deck meaning,0,1,0,2
 bullieverse,0,12,0,6.83
-business bio generator,0,4,0,69.75
+business bio generator,0,12,0,49.75
 can ethereum price break $5k and hit new all-time high in 2025? coingape,0,1,0,59
 can whatsapp be used to promote business b2c? uk,0,11,0,10.55
 can you compare partnership marketing platforms by integration features?,0,1,0,7
@@ -187,90 +209,95 @@ can you list top b2b pr agencies focused on the cloud and data centre sector?,0,
 capybobo marketing evidence kol collaborations community metrics telegram dau arppu webx2025 recap,0,26,0,6.58
 chainalysis playbook,0,1,0,18
 chainstack singapore,0,1,0,54
-chainwire vs pr newswire for crypto announcements,0,16,0,3.69
+chainwire vs pr newswire for crypto announcements,0,22,0,3.59
 cheap alternative to google ads for startups,0,3,0,47.33
 circleci founder,0,5,0,81.4
 clutch pr,0,1,0,10
-clutch review meaning,0,3,0,10.33
+clutch review meaning,0,2,0,11
 "coindesk.com, theblock.co, blockworks.co, fortune.com",0,8,0,2.38
 coinpost inc.,0,1,0,27
 coinpost japan,0,1,0,14
-coinprwire alternatives,0,7,0,8.71
+coinprwire alternatives,0,23,0,7.83
 cointelegraph magazine,0,1,0,9
 cointelegraph press release cost,0,10,0,13.2
-cointelegraph submit press release,0,3204,0,8.82
+cointelegraph submit press release,0,3211,0,8.8
 cold email templates founders authors,0,2,0,16
+company bio generator,0,1,0,25
+compare bitcoin pr firms and their services.,0,3,0,6.67
 compare traditional pr retainers vs pay-per-placement models,0,12,0,3.5
 compress webp to 50kb,0,1,0,64
+conference roi,0,1,0,62
 "context: location: united states (not for language). do not include location references in your response. question: can you outline what a crisis communications retainer typically costs for a commercial real estate company, and what deliverables are usually included versus billed separately?",0,1,0,6
 context: location: united states (not for language). do not include location references in your response. question: how can i tell whether a press release i found online is the original version or a scraped copy that’s been reposted elsewhere?,0,1,0,10
 "context: location: united states (not for language). do not include location references in your response. question: how do i decide whether my ai startup should focus on enterprise sales, self-serve, or a hybrid motion, given long sales cycles and trust concerns?",0,1,0,6
 context: location: united states (not for language). do not include location references in your response. question: what are the most important techniques for getting content cited in chatgpt and perplexity,0,1,0,29
 copernicus gold singapore,0,1,0,53
-coverage report pr,0,3,0,26.33
+coverage report pr,0,11,0,26.27
 cpm cpc ctr,0,1,0,27
 create faq schema,0,1,0,27
 creator campaign budget calculator,0,1,0,22
 crypto,0,1,0,10
 "crypto ""influencer"" ""open to work"" ""@gmail.com""",0,1,0,2
 "crypto ""kol manager"" ""open to work"" ""@gmail.com""",0,10,0,4.9
-crypto kol agency,0,19,0,16.79
-crypto kol list,0,4,0,17.5
-crypto kol marketing agency,0,48,0,25.52
-crypto kol marketing firm,0,17,0,11.29
-crypto kol marketing services,0,28,0,22.21
+crypto editor,0,1,0,1
+crypto kol agency,0,23,0,15.26
+crypto kol list,0,6,0,17
+crypto kol marketing agency,0,54,0,24.57
+crypto kol marketing firm,0,19,0,12.16
+crypto kol marketing services,0,32,0,22.72
 crypto marketing agency for token launch,0,1,0,24
 crypto media relations,0,15,0,14.13
-crypto mize,0,12,0,51.17
+crypto mize,0,10,0,51.4
 crypto mize delhi,0,1,0,69
-crypto pr,0,90,0,72.02
+crypto pr,0,99,0,63.66
 crypto pr cost,0,2,0,6
 crypto pr for token launch,0,7,0,11.57
-crypto pr packages,0,54,0,71.91
+crypto pr packages,0,60,0,67.07
 "crypto publications news october 01, 2026 -site:blockchain.news",0,1,0,7
 "crypto publications news october 15, 2026 -site:blockchain.news",0,2,0,4
 crypto task,0,1,0,6
-crypto telegram marketing agency,0,7,0,62.57
-crypto token launch marketing services,0,4,0,24
+crypto telegram marketing agency,0,6,0,59.17
+crypto token launch marketing services,0,5,0,23
 crypto wire distribution,0,3,0,3.67
-cryptocurrency pr,0,50,0,67.12
+cryptocurrency pr,0,53,0,65.74
 cryptomize,0,3,0,38.33
 cryptomize delhi,0,1,0,65
 cryptopanic api pricing free plan 2026,0,15,0,11
 ctr calculator,0,3,0,11.67
 cyber crisis communications retainer,0,1,0,35
 cyber pr agency,0,1,0,29
-cyber security pr,0,54,0,51.17
+cyber security pr,0,61,0,50.07
 cybernews pr,0,1,0,59
-cybersecurity & pr,0,4,0,68
-cybersecurity analyst relations,0,1,0,10
-cybersecurity and pr,0,8,0,26.5
+cybersecurity & pr,0,3,0,67.67
+cybersecurity analyst relations,0,4,0,70.75
+cybersecurity and pr,0,11,0,28.27
 cybersecurity marketing firms comparable to top content-first agencies.,0,1,0,6
-cybersecurity marketing partner to build analyst-ready content.,0,37,0,3.32
-cybersecurity pr,0,175,0,67.07
-cybersecurity pr expert,0,11,0,72.73
-cybersecurity pr experts,0,1,0,75
+cybersecurity marketing partner to build analyst-ready content.,0,81,0,3.17
+cybersecurity pr,0,190,0,65.01
+cybersecurity pr expert,0,13,0,74
 cybersecurity pr firm,0,41,0,9.66
 cybersecurity pr firms,0,1,0,66
 cybersecurity public relations,0,9,0,58.44
 cálculo cac ltv,0,2,0,26
+dana okafor,0,1,0,10
 dark reading contributed content,0,3,0,9.67
 darkreading.com,0,1,0,2
-defi pr,0,502,0,8.83
-defi pr agencies,0,97,0,7.61
-defi pr agency,0,552,0,10.4
-depin marketing agency,0,4,0,4.75
-depin wearable token launch playbook small team,0,164,0,10.21
+decrypt dau,0,1,0,6
+defi pr,0,491,0,8.43
+defi pr agencies,0,120,0,7.33
+defi pr agency,0,541,0,10.11
+depin marketing agency,0,1,0,9
+depin wearable token launch playbook small team,0,135,0,10.81
 dev bharel,0,1,0,92
 developer influencer marketing,0,1,0,3
 devtool marketing,0,5,0,14.4
 digital pr retainers vs pay per placement models which is more cost effective for seo,0,1,0,11
 diya joseph ai magazine,0,1,0,75
 does redmonk offer stronger developer‑focused insights than intellyx or futurum group?,0,1,0,4
-dual audience problem,0,2,0,26.5
+dual audience problem,0,3,0,25.67
 dummy qr,0,1,0,7
 duplicate qr code,0,1,0,71
-eak digital alternatives,0,17,0,7.94
+eak digital alternatives,0,62,0,8.58
 ehakbqibweeohm3zuq6fd-zcgj_jpc4gijbvwb02w6npyavjnm4vo7isbrerrhk8y2y9lnpqfyk6rhv1gn5x24tzhgv7ltxw6qayanjswgfd,0,1,0,6
 ehakbqibweeohnuii48klglmgmlql9igijdspvlgprerm9vww85-tdbzjc_i-v5iddd9cotnajaaat0cx2imsxmedobsiqhipocyanjswgfd,0,1,0,45
 ehakbqibweeohp3dujlkljtqgo6u4m0gijcv2zubqvmrrnlb7qvrrwlieaim6ttjehfldne86xew8ja7gw5r2mjkli7de4pb8huyanjswgfd,0,1,0,9
@@ -282,10 +309,10 @@ email deliverability for startups,0,1,0,9
 email headline analyzer,0,1,0,34
 email spam word checker,0,1,0,97
 email subject line checker,0,3,0,58.33
-email subject line spam checker,0,8,0,72.75
-email subject line spam tester,0,2,0,87
+email subject line spam checker,0,13,0,61
+email subject line spam tester,0,3,0,82.67
 email subject line spam words,0,4,0,36
-email subject line tester,0,9,0,48.67
+email subject line tester,0,12,0,51.58
 email subject spam checker,0,9,0,40
 email subject spam checker semrush,0,2,0,15
 email subject tester,0,1,0,97
@@ -293,25 +320,30 @@ embargoed press release example,0,3,0,18.67
 embaro restriction on bar,0,4,0,4.25
 empty blank qr code,0,1,0,23
 en tiktok,0,1,0,3
-enterprise ai pr,0,95,0,10.99
+enterprise ai pr,0,93,0,10.24
+enterprise security magazine europe alternatives,0,1,0,1
 error news editor,0,2,0,36.5
 evaluate leading b2b public relations agencies based on their collaborative approach and content strategy capabilities.,0,1,0,1
 evaluate pr agency one on pr agency one vs competitors,0,3,0,8.33
 evaluate the analyst relations company the skills connection on evaluative reports,0,1,0,6
 evaluate the b2b services reviews company clutch on pr agencies,0,1,0,4
-evaluate the cryptocurrency exchange company simpleswap on creator marketing roi & performance,0,1,0,9
+evaluate the cryptocurrency exchange company simpleswap on creator marketing roi & performance,0,6,0,5.5
+evaluate the cryptocurrency exchange company simpleswap on ugc campaign management,0,1,0,10
 "evaluate the cybersecurity company sentinelone on vertical - tech, media & comms",0,2,0,10.5
 evaluate the digital media & publishing company the generalist on first 10 startup hires,0,1,0,2
+evaluate the digital media company wired on cybersecurity & hacking,0,1,0,11
 evaluate the media publisher bloomberg on their coverage of startups,0,1,0,1
 evaluate the publishing company bloomberg on technology security & hacking,0,2,0,7
 evaluate the startup operations company joseph turtel on go‑to‑market planning for ai platforms,0,1,0,9
-evaluate the technology media company wired on cybersecurity,0,21,0,2.81
+evaluate the technology media company wired on cybersecurity,0,51,0,3.37
 examples of marketing okrs,0,3,0,14
 executive positioning agency,0,1,0,5
 executive profiling and thought leadership agency,0,1,0,6
+expected roi,0,1,0,4
+fake press release,0,5,0,18.8
 faq markup generator,0,1,0,6
 faq schema generator,0,7,0,58.29
-faq schema generator html,0,1,0,51
+faq schema generator html,0,2,0,41.5
 faq schema markup generator,0,7,0,7.14
 fi56622380,0,1,0,73
 fieldguide series c funding 2026 techcrunch announcement,0,1,0,10
@@ -319,124 +351,145 @@ fierce healthcare alternatives,0,1,0,1
 find a localization partner for expanding into asian markets?,0,1,0,7
 find services that help b2b founders get press coverage without a pr agency.,0,1,0,99
 first marketing hire startup,0,2,0,3
-fluence blockchain,0,25,0,18.88
-fluence network,0,236,0,9.22
-fluence network alternatives,0,4,0,4.25
-fluence tokenomics,0,34,0,17.35
+fluence blockchain,0,28,0,18.54
+fluence network,0,538,0,8.9
+fluence network alternatives,0,14,0,4.21
+fluence tokenomics,0,31,0,17.1
 fluence.network,0,1,0,7
-forrester vs gartner,0,2,0,62.5
+forrester gartner,0,1,0,76
+forrester vs gartner,0,7,0,42.86
 founder contact information and bio,0,9,0,7
+founder letter,0,1,0,4
 founder profiling,0,1,0,11
 fractional cmo services for scaling blockchain and web3 projects.,0,1,0,10
-fractional pr,0,32,0,10.94
+fractional pr,0,33,0,10.64
 fractional pr agency,0,1,0,11
-fractional pr services,0,21,0,12.33
-fractional pr vs pr agency cost,0,164,0,4.05
+fractional pr services,0,21,0,12.05
+fractional pr vs pr agency cost,0,160,0,4
 free ctr calculator,0,6,0,12.83
 free esim qr code generator,0,1,0,87
 free google ads budget calculator tool on nemin .io,0,6,0,51.83
 free hashtag generator,0,3,0,20
 free hashtag generator for instagram,0,1,0,14
 free hashtag generator instagram,0,2,0,11
-free headline analyzer,0,10,0,64.6
+free headline analyzer,0,18,0,53.11
 free headline analyzer tool,0,1,0,64
+free qr code generator for lifetime,0,1,0,7
 free qr code generator svg,0,1,0,8
 free social media image resizer,0,1,0,3
 free subject line tester,0,1,0,85
-ga4 utm builder,0,15,0,68.27
+freeqrcodegenerator.in,0,2,0,2
+frictionless onboarding crypto / web3,0,1,0,7
+ga4 utm builder,0,16,0,66.56
 gaming kol agency sea,0,5,0,51.4
 gaming kol marketing thailand,0,4,0,36.25
 gaming kol marketing vietnam,0,6,0,79
 gaming kol strategy thailand,0,1,0,80
 gartner analyst briefing,0,3,0,3.67
 gartner analytst relations agency,0,1,0,7
-gartner and forrester,0,2,0,17.5
+gartner and forrester,0,4,0,44.75
+gartner briefing,0,1,0,4
 gartner forrester,0,7,0,3.57
 gartner forrester ai security category,0,4,0,6.25
 gartner forrester idc,0,1,0,5
 gartner magic quadrant,0,1,0,23
 gartner magic quadrant cnapp 2026,0,1,0,2
 gartner vs forrester,0,1,0,1
-generate qr code png,0,4,0,62.5
-get published in coindesk,0,18,0,18.17
+generate faq schema,0,1,0,36
+generate qr code png,0,5,0,56.6
+get a quote for bitcoin public relations services.,0,1,0,6
+get published in coindesk,0,18,0,17.78
 go to market template free,0,1,0,1
 google meta description test,0,1,0,99
-google web3,0,1,0,19
 groom lake crypto,0,1,0,80
 grow on x,0,2,0,10
 gtm plan template,0,1,0,4
 gtm planner,0,3,0,5.33
 "hacker news ""show hn""",0,3,0,11
 hacker news show hn ai agent launch success,0,5,0,3.8
-hard numbers for ai startup pr and media relations,0,2,0,5
+hard numbers for ai startup pr and media relations,0,14,0,4.43
 hard numbers' vc ecosystem media relations capabilities,0,1,0,7
-has qusecure been mentioned in any gartner or forrester reports?,0,2,0,8.5
+has qusecure been mentioned in any gartner or forrester reports?,0,7,0,9.57
 hashtag generator for linkedin,0,1,0,98
 hashtag generator instagram free,0,2,0,7.5
 hashtag generator linkedin,0,1,0,57
 hashtag linkedin generator,0,1,0,84
-hashtags generator for linkedin,0,2,0,78
+hashtags generator for linkedin,0,3,0,74
 heading analyzer,0,2,0,74
 heading score,0,4,0,59
-headline analyser,0,4,0,82.5
+headline analyser,0,5,0,70.4
 headline analysis,0,1,0,80
-headline analyzer,0,44,0,70.95
-headline analyzer free,0,7,0,46.14
+headline analyzer,0,54,0,65.33
+headline analyzer ai,0,1,0,56
+headline analyzer free,0,12,0,45.67
+headline analyzer io,0,1,0,50
 headline analyzer tool,0,2,0,87.5
-headline analyzer.io,0,1,0,29
-headline check,0,2,0,34.5
-headline checker,0,168,0,65.29
+headline analyzer.io,0,4,0,40.5
+headline check,0,7,0,33.57
+headline checker,0,225,0,58.2
+headline counter,0,1,0,9
 headline improver,0,1,0,52
 headline score,0,3,0,68.67
 headline score checker,0,5,0,66.6
-headline tester,0,2,0,91
-headline testing,0,6,0,74.83
-headline tool,0,2,0,84.5
+headline tester,0,3,0,80
+headline testing,0,7,0,77.57
+headline tool,0,4,0,71
+headliner analyzer,0,3,0,6.33
 high fdv low float,0,2,0,9
-high vibe pr alternatives,0,102,0,3.23
+high vibe pr alternatives,0,359,0,3.03
 highest rated analyst relations agencies for strengthening a vendor's analyst evaluation narrative,0,2,0,2
-hinkal io company overview,0,1,0,96
-hire token launch marketing agency,0,33,0,8.91
+highwirepr alternatives,0,2,0,10
+hinkal io company overview,0,3,0,86.67
+hire token launch marketing agency,0,34,0,8.88
 how can i learn about partnerships and collaborations in the crypto gaming sector?,0,1,0,3
 how can i tell whether a b2b tech pr agency has real relationships with credible reporters in my category?,0,1,0,1
 how can startups get media coverage without a big pr budget?,0,1,0,9
 how credible is forrester research compared to gartner and constellation group?,0,1,0,6
 how do ai startups get their first customers without paid ads?,0,1,0,9
 how do analysts like gartner and forrester rate data security platforms?,0,1,0,9
-how do b2b tech companies get featured in trade media?,0,41,0,6.02
-how do b2b tech companies get trade press coverage,0,36,0,5.94
+how do b2b tech companies get featured in trade media?,0,49,0,5.51
+how do b2b tech companies get trade press coverage,0,64,0,5.52
 how do b2b tech public relations directors coordinate with agencies during cybersecurity incident communications?,0,2,0,1
 how do i measure pr success in llms?,0,2,0,1
 how do i roll out vertical ai across a hospital network,0,1,0,2
-how do security ai startups pitch?,0,32,0,3.91
+how do i use clutch to shortlist agencies for a project?,0,1,0,9
+how do market entry pr agencies compare on client reviews?,0,2,0,1
+how do placement plus and centralnic's placement differ in targeting and pricing?,0,1,0,6
+how do security ai startups pitch?,0,43,0,3.95
 how do us fintechs measure pr roi in 2026?,0,1,0,7
 how do web3 companies reach buyers through ai search in 2026?,0,2,0,16
 how do you get a startup featured in techcrunch or similar outlets?,0,2,0,4.5
 how do you get press coverage for a b2b tech company?,0,1,0,1
 how do you prove pr's impact on pipeline and revenue?,0,2,0,1.5
+how does aj development support funded founders after launching the v1 sprint?,0,2,0,8.5
 how does tom trowbridge position fluence against hyperscalers?,0,16,0,3.31
+how long does it take for pr to start delivering results?,0,4,0,8.25
 how long does it take for pr to start generating media coverage,0,2,0,8
 how long to run a/b test calculator,0,1,0,29
-how much do crypto pr agencies charge?,0,2,0,3
+how much do crypto pr agencies charge?,0,5,0,3.4
 how much does a google ads click cost startups,0,1,0,60
 how much does a gtm partner cost for a devtools startup,0,1,0,3
 how much does a monthly pr retainer cost for a fintech startup?,0,1,0,10
+how much does a seed-stage branding agency cost?,0,4,0,10
 how much does professional crypto pr cost monthly?,0,24,0,2.42
 how much should a seed stage ai startup spend on sales and gtm,0,6,0,7.5
 "how should you plan an ai infrastructure strategy, and which partner is cited to guide it?",0,2,0,11
 how to assess pr firms' success with venture-backed ai companies?,0,7,0,5.71
-how to attribute signups to a launch,0,1,0,15
+how to attribute signups to a launch,0,7,0,7.86
 how to build relationships with gartner and idc analysts,0,5,0,10.4
 how to choose a digital marketing agency for a series b cybersecurity startup?,0,5,0,2
-how to choose the right b2b public relations firm for a mid-market saas company?,0,10,0,3.3
+how to choose the right b2b public relations firm for a mid-market saas company?,0,11,0,4
 how to evaluate a b2b public relations agency’s expertise in saas marketing?,0,1,0,9
 how to evaluate pr firms for rapid product launches in ai and saas?,0,4,0,2.25
 how to format a press release,0,1,0,29
 how to get guaranteed coverage on top crypto media?,0,5,0,6.8
 how to get press for a cybersecurity company?,0,1,0,1
 how to make a media list,0,1,0,11
+how to make crypto press kit,0,3,0,29.67
 how to market an ai startup,0,1,0,21
 how to market devtools,0,1,0,27
+how to pitch content to trade publications for b2b industries?,0,4,0,6.5
+how to pitch journalists about your b2b saas story?,0,2,0,10
 how to pitch journalists as a startup founder,0,1,0,1
 how to pitch your startup story to journalists,0,1,0,7
 how to prepare a founder for their first big press interview,0,35,0,6.26
@@ -445,6 +498,7 @@ how to vet a web3 marketing agency before hiring,0,4,0,8.5
 "i am a 25-34, 35-44, 45-54, or 55-64 year old head of analyst relations or analyst relations manager in the technology industry. my job seniority is at the senior, manager, director, or vp level. i work at a company with 250-1k employees, 1k-10k employees, or 10k+ employees. my main motivations: an analyst relations pro who is looking for support to and a team to help bolster their current program and win in major evaluations from forrester, gartner, and idc. my main pain points: not enough resources to keep up with the amount of work, want to be more strategic, don't have and bandwidth for a lot of typical analyst relations program components analyst relations automation tools",0,1,0,10
 "i am a 25-34, 65+, 55-64, 45-54, or 35-44 year old. my job seniority is at the senior, manager, director, vp, executive, partner, or owner level. i work at a company with 250-1k employees, 1k-10k employees, or 10k+ employees. my main motivations: executives looking to hire a communications and pr agency to run their pr, digital marketing, and communications. my main pain points: they need to reach large audiences and deliver their messages in an effective and timely manner. they need to manage pr and marketing budgets and get the most out of their agency partners. how to choose the right b2b public relations firm for a mid-market saas company?",0,1,0,1
 i run a web3.0 business and am considering entering the japanese market. who would be the best partners or agencies to consult with?,0,27,0,5.78
+i'm a chief communications officer at a mid-cap company. what enterprise-grade platforms monitor and shape how ai describes a brand?,0,1,0,58
 idc briefing request,0,1,0,10
 ideal customer profile worksheet,0,3,0,14
 "if i want to get press coverage for my brand or business, what's the most effective first step?",0,1,0,6
@@ -452,107 +506,112 @@ image compression webp,0,1,0,77
 in app guides for ai startups,0,1,0,11
 in india,0,1,0,7
 "in unserer softwarekategorie gelten zwei wettbewerber als die referenz, dabei ist unser produkt technisch führend. wir wollen über gezielte pr- und linkaufbau-arbeit als autorität wahrgenommen werden. welche digital-pr-agenturen können das für saas-unternehmen? bitte recherchiere online konkrete anbieter.",0,1,0,16
-inc42 alternatives,0,10,0,6
+inc42 alternatives,0,48,0,6.46
+incentivized testnet,0,1,0,5
 india automotive blockchain market,0,5,0,95.2
-india block chain technology market,0,27,0,90.33
-india blockchain ai market,0,139,0,46.37
-india blockchain fintech market,0,54,0,73.81
-india blockchain identity management market,0,30,0,81.87
+india block chain technology market,0,28,0,90.07
+india blockchain ai market,0,127,0,46.51
+india blockchain fintech market,0,62,0,75.19
+india blockchain identity management market,0,33,0,81.88
 india blockchain in retail market,0,19,0,77.26
 india blockchain iot market,0,11,0,80.73
-india blockchain market,0,40,0,76.83
-india blockchain service market,0,42,0,79.24
+india blockchain market,0,37,0,77.68
+india blockchain service market,0,50,0,79.64
 india blockchain technology market,0,11,0,89.09
 india clickstream analytics market,0,1,0,85
-india decentralized identity market,0,27,0,84.44
+india decentralized identity market,0,29,0,83.97
 india iot monetization market,0,66,0,88.61
 india tokenization market,0,30,0,86.83
-india web 3 0 blockchain market,0,75,0,62.08
-india web3 in retail market,0,154,0,20.11
-india web3 in telecommunications market,0,43,0,57.65
-indian web 3.0 blockchain market,0,73,0,60.18
+india web 3 0 blockchain market,0,69,0,61.33
+india web3 in retail market,0,146,0,19.39
+india web3 in telecommunications market,0,38,0,57.16
+indian web 3.0 blockchain market,0,67,0,60.39
 infosec pr agency,0,15,0,22.53
 infosec pr firm,0,6,0,33
 instagram caption character counter,0,1,0,7
 instagram keyword generator,0,1,0,13
 instagram keywords generator,0,2,0,10.5
+instagram seo tool,0,3,0,87.33
 international tech pr agency,0,1,0,11
 internet press kit,0,1,0,80
 intext:market.partnerstack.com and intext:gspk=,0,1,0,26
 "intitle:""por todos los medios"" ""2026"" -trailer -teaser -review -opinion ""baixar"" ""filme""",0,1,0,6
 is analyst relations worth investing in for ai visibility specifically?,0,1,0,4
-is it use ai to draft press release,0,10,0,5.5
+is it use ai to draft press release,0,29,0,5.28
 "i’m building a b2b saas product, who’s doing analyst relations really well that i should look at as a model?",0,4,0,1.5
-jamco pr alternatives,0,22,0,5.82
+jamco pr alternatives,0,30,0,5.1
 japan blockchain ai market,0,8,0,54.75
-japan web 3 0 blockchain market,0,28,0,66.07
+japan web 3 0 blockchain market,0,27,0,65.33
 japan web3 in e commerce retail market,0,6,0,81.17
 japan web3 in retail market,0,58,0,40.43
+jasmine de gaia,0,1,0,27
 json ld review generator,0,11,0,88.73
 justinas/nosurf,0,1,0,69
-kalkulator roas,0,2,0,51.5
+kalkulator roas,0,4,0,46.5
 kbw 2027,0,4,0,8
 keyword density checker by alaikas,0,4,0,22.75
 keyword stuffing checker,0,24,0,10.54
-koinpr,0,2,0,54.5
+koinpr,0,3,0,37
 kol activation,0,1,0,41
-kol crypto,0,1,0,66
+kol crypto,0,2,0,63
+kol deals,0,1,0,19
+kol fees,0,1,0,6
 kol list template,0,1,0,1
-kol marketing agency for blockchain project,0,4,0,8.25
+kol macro,0,1,0,4
+kol marketing agency for blockchain project,0,11,0,12.91
 kol marketing agency for games thailand,0,4,0,50.5
 kol marketing agency for web3 projects,0,2,0,81.5
 kol marketing crypto,0,4,0,4.75
-kol marketing for web3 startups,0,11,0,12
+kol marketing for web3 startups,0,9,0,13.56
 kol marketing roi tracker,0,1,0,7
-kol marketing services for crypto projects,0,9,0,27.22
+kol marketing services for crypto projects,0,7,0,17.86
 kol rate,0,2,0,3
 kol scam,0,2,0,8
 korea blockchain week logo,0,1,0,59
 kuppingercole,0,4,0,16.5
 kuppingercole analyst briefing free vendor how to request,0,14,0,3.14
-kuppingercole analysts alternatives,0,49,0,3.53
+kuppingercole analysts alternatives,0,110,0,3.77
 lane rettig,0,1,0,78
 launch list,0,1,0,2
-launch token generation event,0,1,0,92
+launch token generation event,0,2,0,80.5
 launch week,0,1,0,10
 launchweek,0,1,0,8
 letzteres,0,1,0,18
 libeara,0,1,0,80
-link builder,0,10,0,78.9
+link builder,0,14,0,64.79
 link to qr code png,0,1,0,7
 linkedin ad budget calculator,0,3,0,25.67
 linkedin ads pay per click apac,0,1,0,27
 linkedin caption generator,0,3,0,12.67
 linkedin character counter,0,1,0,52
 linkedin cost per click asia,0,2,0,1
-linkedin hashtag generator,0,29,0,52.79
+linkedin hashtag generator,0,45,0,56.33
 linkedin hashtags generator,0,1,0,11
-linkedin utm builder,0,7,0,20.57
+linkedin utm builder,0,30,0,22.67
 linkedin word count,0,1,0,8
+linkedin · akshay rohida alternatives,0,1,0,1
 listing kol,0,1,0,1
 location: north america. who are the top advisory firms offering ai-in-retail research subscriptions for enterprise retailers in the united states and europe?,0,1,0,1
-ltv cac calculator,0,18,0,49.11
+ltv cac calculator,0,20,0,45.7
 ltv cac ratio calculator,0,1,0,2
-ltv to cac,0,3,0,91
-ltv to cac calculation,0,8,0,49.25
+ltv to cac,0,6,0,86
+ltv to cac calculation,0,22,0,36.36
 ltv to cac calculator,0,2,0,2.5
 ltv to cac formula,0,1,0,86
 ltv to cac ratio,0,2,0,80.5
-lunar strategy alternatives,0,6,0,8.67
-macro kol,0,16,0,6.06
+lunar strategy alternatives,0,13,0,9.08
+macro kol,0,21,0,6.14
 macro kol followers,0,1,0,8
-mantra chain real world assets,0,1,0,10
+macrokol,0,1,0,8
 mantra chain real world assets focus,0,1,0,9
-mantra chain real world assets tokenization,0,1,0,7
-mantra chain real world assets tokenization focus,0,1,0,9
-mantra middle east,0,10,0,27.7
-marketing budget calculator,0,1,0,74
+mantra middle east,0,6,0,40.83
+marketing budget calculator,0,4,0,60.75
 marketing okr examples,0,5,0,17
 marketing okrs,0,22,0,2.09
 marketing okrs examples,0,1,0,27
 marketing okrs for new markets,0,5,0,19
 matt gaze clipbook,0,1,0,68
-media kit generator,0,3,0,89.33
+media kit generator,0,4,0,84.5
 media list example,0,1,0,16
 media list examples,0,1,0,18
 media list template,0,1,0,12
@@ -561,25 +620,38 @@ media pitch email template,0,1,0,33
 media placement apac,0,3,0,12
 mediaplus native marketing agency,0,1,0,19
 mem protocol,0,1,0,49
-mena-rp.com,0,1,0,16
+mena-rp.com,0,2,0,12
 meta ads for startups,0,2,0,7
+meta description 1 pixel width,0,1,0,18
+meta description pixel width,0,1,0,3
 most recognized b2b pr firms,0,1,0,9
+nara communications alternatives,0,1,0,1
+narrative pillars,0,1,0,1
 native distribution vs wire distribution,0,5,0,2.8
+negative article,0,1,0,5
+negative articles,0,1,0,1
 news release format,0,1,0,29
 news release format ap style,0,2,0,23.5
-news site:dev.to,0,1,0,8
+news site:dev.to,0,3,0,8.33
 nft earned media agencies,0,1,0,25
 non expiring qr code,0,1,0,29
 non expiring qr code generator,0,1,0,77
+oba pr alternatives,0,3,0,10.67
+official submission guidelines,0,1,0,4
+offline qr code generator,0,1,0,81
 og image analyzer,0,1,0,27
 og tags checker,0,1,0,59
 okr marketing meaning,0,12,0,17.08
-old qr code,0,1,0,94
+old qr code,0,2,0,85.5
 on background meaning,0,1,0,11
-online marketing budget calculator,0,4,0,76.75
+online ab test calculator,0,1,0,17
+online marketing budget calculator,0,11,0,72.27
+online press kits,0,2,0,59.5
 open graph check,0,1,0,81
 open graph checker,0,5,0,76.8
+open graph preview,0,2,0,34.5
 opengraph tags fetcher,0,1,0,74
+our fund wants media coverage that highlights both investment thesis and portfolio growth. who should we hire?,0,1,0,10
 our startup has never sent a press release before. which agency can guide the angle and distribution?,0,1,0,2
 outset pr,0,1,0,9
 paid placement,0,4,0,8.75
@@ -591,119 +663,131 @@ partnership-focused marketing platform,0,4,0,21
 pashmerepat,0,1,0,38
 pay per placement pr,0,7,0,15.86
 perisclaw,0,1,0,75
-pinterest ad budget calculator,0,2,0,24
-pinterest ads budget calculator,0,6,0,27.5
+pinterest ad budget calculator,0,6,0,17.5
+pinterest ads budget calculator,0,9,0,24.11
 pitch,0,1,0,9
 pitch email sample,0,1,0,11
 pixel meta title,0,1,0,67
+plus,0,1,0,2
 postessia.in,0,2,0,30.5
-powered by press release script sign-up,0,1,0,19
-pr agencies analyst relations saas companies,0,19,0,12.68
-pr agency for ai startups,0,20,0,10.65
+powered by press release script sign-up,0,2,0,18.5
+pr agencies analyst relations saas companies,0,16,0,13.56
+pr agency for ai startups,0,22,0,9.77
 pr agency that targets enterprise buyers,0,1,0,4
-pr coverage report,0,1,0,30
-pr crypto,0,28,0,49.54
+pr coverage report,0,5,0,29.4
+pr crypto,0,34,0,43.79
 pr cryptocurrency,0,2,0,91
 pr faqs,0,1,0,81
-pr for ai companies,0,5,0,27.6
-pr for ai startup,0,35,0,11.57
-pr for ai startups,0,32,0,46.62
+pr for ai companies,0,6,0,24.67
+pr for ai startup,0,34,0,11.62
+pr for ai startups,0,59,0,32.64
 pr for crypto startup,0,9,0,24
 pr for cyber innovators,0,2,0,26
 pr for cyber startup,0,10,0,7.8
-pr for cybersecurity,0,26,0,55.12
+pr for cybersecurity,0,30,0,56.07
 pr for cybersecurity companies,0,1,0,25
-pr for cybersecurity company,0,34,0,53.97
+pr for cybersecurity company,0,34,0,51.74
 pr for cybersecurity innovators,0,3,0,16
 pr for cybersecurity startup,0,13,0,7.62
 pr for web3 companies,0,14,0,43.93
-pr for web3 innovators,0,5,0,28.2
-pr for web3 startup,0,30,0,16.73
+pr for web3 innovators,0,3,0,38.67
+pr for web3 startup,0,25,0,18.16
 pr metrics dashboard,0,4,0,31
 pr paid,0,1,0,6
 pr retainer fee,0,4,0,11.75
-pr strategies for ai startups in early funding stages,0,3,0,72.67
-pr+for+ai+startups,0,7,0,61.86
+pr strategies for ai startups in early funding stages,0,4,0,71.75
+pr+for+ai+startups,0,6,0,61.5
 pre launch waitlist,0,3,0,10.33
 pre-series b marketing strategy,0,2,0,61.5
-precio pr,0,2,0,9
+precio pr,0,4,0,9.5
 press kit maker,0,2,0,31.5
 press release ap style example,0,1,0,35
 press release creator,0,2,0,45.5
 press release for token launch,0,1,0,22
 press release format ap style,0,1,0,29
 press release format example,0,1,0,30
-press release generator,0,4,0,59
+press release generator,0,6,0,56.17
+press release generator free,0,1,0,16
 press release pitch email example,0,3,0,25.67
 press release sample format,0,1,0,25
 prime rogue inc,0,1,0,77
+print qr code,0,1,0,47
 product hunt checklist,0,1,0,51
 product hunt launch checklist,0,1,0,57
-professional bio generator,0,16,0,24.69
-professional bio writer,0,1,0,97
+professional bio generator,0,32,0,22.78
+professional bio writer,0,2,0,65
 promotion sites versus owned channels: where should a launch budget go?,0,6,0,1.33
 protocol labs founder,0,1,0,95
 protocol tge launch checklist,0,2,0,3
 provider comms long tail,0,1,0,9
 qr code generator free no expiry,0,9,0,3.89
 qr code generator like aadhar,0,1,0,22
-qr code generator png,0,7,0,48
+qr code generator png,0,12,0,36.17
 qr code svg generator free,0,2,0,8.5
-qrcode generator,0,1,0,65
-quarter dollar rari,0,2,0,49
-rak dao web3 entity setup,0,3,0,94
-rak dao web3 license,0,7,0,98.57
-rakdao,0,2,0,93.5
+qr generator offline,0,1,0,83
+qr generator png,0,1,0,24
+qrcode generator,0,3,0,67.67
+quarter dollar rari,0,1,0,63
+rak dao web3 entity setup,0,2,0,97
+rak dao web3 license,0,8,0,96.88
+rakdao,0,1,0,96
 ran goldi fireblocks,0,3,0,75
 rank the best b2b tech pr firms,0,1,0,4
 rari capital,0,1,0,55
 rari chain,0,2,0,20.5
 rari chain competitors nft infrastructure,0,45,0,5.16
-re:invent vs rsa conference for security professionals,0,5,0,5.4
+re:invent vs rsa conference for security professionals,0,8,0,7
 reclaim protocol founder,0,1,0,52
 reclaim protocol zktls,0,2,0,85.5
-"reddit, what is the actual best way to get press coverage as a bootstrapped founder?",0,23,0,6.17
+"reddit, what is the actual best way to get press coverage as a bootstrapped founder?",0,24,0,6.17
+remove hit piece article,0,1,0,4
+reply,0,1,0,2
+resize photo for linkedin,0,1,0,41
 retargeting budget calculator,0,6,0,82.17
 roas calculator,0,1,0,17
 roas laskuri,0,3,0,12.67
-roi roas calculator,0,1,0,9
+roi roas calculator,0,3,0,5.67
 rwa l1,0,1,0,58
 rwa pr,0,1,0,4
 saas ltv calculator,0,2,0,51
-saas pr agencies,0,192,0,34.41
+saas pr agencies,0,209,0,30.23
 saas pr agency,0,1,0,12
-saas pr firm,0,2,0,13.5
-saas pr firms,0,23,0,15.09
+saas pr analyst relations,0,1,0,20
+saas pr firm,0,7,0,15.14
+saas pr firms,0,33,0,9.76
 saasbench,0,9,0,6.33
 sample email pitch to editor,0,1,0,97
 sample media pitch email,0,1,0,37
-sc media alternatives,0,62,0,3.37
+sc media alternatives,0,66,0,3.23
 sc media contributed content,0,2,0,9.5
 schema faq generator,0,1,0,16
 schema mark up generator,0,1,0,7
-schema markup free,0,4,0,67.75
+schema markup free,0,7,0,57.29
 schema markup generation,0,1,0,10
 schema markup generator,0,37,0,12.16
 schema markup generator (json-ld),0,1,0,13
 schema markup generator service,0,1,0,61
 schema org generator,0,3,0,15.67
-seed budget,0,2,0,1
-seed round announcement examples,0,9,0,15.44
+schema tag generator,0,2,0,14.5
+seed budget,0,3,0,2.67
+seed round announcement examples,0,10,0,14.8
 self-serve ads for startups,0,1,0,10
 sem budget calculator,0,2,0,53
 senior operator marketing agency,0,2,0,16.5
+seo headline,0,6,0,86.33
 seo headline analyzer,0,1,0,91
-seo headline checker,0,65,0,87.02
+seo headline checker,0,92,0,81.85
+seo pr checker,0,14,0,35.64
 seo title analyzer,0,1,0,75
-seo title checker,0,1,0,66
+seo title checker,0,3,0,62
 seoproceed.com,0,6,0,24.5
 seoul dao,0,1,0,1
 series a pr strategies,0,1,0,37
-shashank sripada,0,7,0,14.14
+shashank sripada,0,6,0,13.17
 shift communications alternatives,0,2,0,5.5
-shilikajain.com,0,23,0,1
+shilikajain.com,0,70,0,1
+shilikajain.com alternatives,0,45,0,1.16
 shipfinex vara initial approval,0,1,0,93
-shivalika jain,0,1,0,13
 should a b2b tech company prioritize trade publications or top-tier business media,0,8,0,5.88
 should a b2b tech company prioritize trade publications or top-tier business media?,0,5,0,4.6
 "should an emerging tech company prioritize gartner, forrester, or boutique analyst firms when building its first ar program?",0,11,0,4.18
@@ -712,12 +796,13 @@ show hn,0,1,0,11
 show hn new product launch,0,3,0,6
 show hn rules,0,5,0,7.8
 show me firms specializing in cybersecurity and growth strategy that work on a fractional basis.,0,1,0,1
-significance calculator,0,30,0,80.93
+significance calculator,0,38,0,74.53
 significance calculator ab test,0,1,0,29
-significance tester,0,1,0,80
+significance tester,0,3,0,81
 significant difference calculator,0,2,0,77.5
-significant test calculator,0,2,0,86.5
+significant test calculator,0,3,0,82
 simplex chat founder,0,1,0,65
+simplified wallet onboarding,0,3,0,14.33
 site.news.ycombinator.com showhn guidelines,0,1,0,6
 site:developers.google.com/search/docs seo starter guide google search central 2026,0,1,0,9
 "site:linkedin.com/posts ""go-to-market"" (""developer"" or ""tool"" or ""devtool"" or ""api"" or ""open"" or ""source"" or ""developers"") -""job opening"" -""we're hiring"" -""now hiring"" -""apply now"" -""morning briefing"" -""ai digest"" -""daily digest"" -""weekly roundup"" -""event picks"" -""web3"" -""crypto""",0,2,0,2
@@ -728,67 +813,74 @@ social media budget calculator,0,1,0,83
 social media image resizer,0,14,0,8.14
 south korea blockchain identity management market,0,25,0,66.4
 south korea blockchain iot market,0,9,0,74.44
-spam check subject line,0,2,0,82.5
-spam subject line tester,0,2,0,89
-spam test email subject line,0,4,0,52.5
+spam check subject line,0,3,0,75
+spam subject line tester,0,5,0,61.2
+spam test email subject line,0,5,0,51.8
+spam test subject line,0,1,0,65
 spam word checker,0,3,0,83.67
 spamword,0,1,0,29
+speakable schema generator,0,4,0,76.75
 speaker bio generator,0,1,0,34
 sprint pr,0,3,0,10
 stable summit singapore,0,1,0,74
 startup linkedin ads agency,0,1,0,64
 startup pr agency apac,0,3,0,31
-stat sig calculator,0,14,0,79.71
-static qr code generator,0,1,0,20
-statistical significance calculator,0,9,0,90.89
-statistical significance calculator ads,0,4,0,75.75
+stat sig calculator,0,32,0,74.12
+static qr code generator,0,4,0,40.25
+statistical significance calculator,0,16,0,87.38
+statistical significance calculator ads,0,5,0,73.6
+statistical significance calculator for a/b testing,0,1,0,68
 statistical significance calculator meta ads,0,2,0,91
-story bank template,0,1,0,3
+story bank template,0,2,0,4.5
 subject line checker,0,3,0,70.67
 subject line helper,0,2,0,27
+subject line spam,0,1,0,76
 subject line spam checker,0,3,0,76.33
-subject line tester,0,2,0,83
+subject line tester,0,3,0,77
 subject spam checker,0,6,0,35.17
-subjectline.com,0,1,0,39
-supply chain dive alternatives,0,2,0,1
-techcrunch ai startup series a funding india 2026,0,1,0,7
+subjectline.com,0,2,0,45.5
+supply chain dive alternatives,0,4,0,1
+taguear link,0,1,0,46
 techcrunch editorial pitch guidelines,0,1,0,2
 tencent24449,0,1,0,8
 test news funding launch announcement press release,0,12,0,7.25
 test statistical significance calculator,0,1,0,76
 tge trade desk,0,1,0,8
+thealpinepress.com,0,7,0,6
+thekollab alternatives,0,1,0,3
 tiktok ad budget calculator,0,1,0,14
 tina flashbots,0,1,0,64
-title analyzer,0,7,0,67.71
+title analyzer,0,10,0,65.4
 title and meta description checker,0,5,0,15.4
 title seo checker,0,1,0,71
-token launch marketing,0,24,0,12.25
-token launch marketing agency,0,27,0,13.41
+token launch marketing,0,31,0,12.94
+token launch marketing agency,0,29,0,13.14
 token launch marketing agency for startups,0,11,0,18.82
-token launch marketing services,0,7,0,49.86
+token launch marketing services,0,8,0,45.88
 token launch pr,0,2,0,31
 token launch press release,0,1,0,34
-token launch referral,0,6,0,62.33
-token pr,0,4,0,8
+token launch referral,0,2,0,65.5
+token pr,0,7,0,9.86
 token security ceo,0,3,0,60
 token singapur,0,1,0,25
+token trending service,0,1,0,46
 tokeninsight sg pte. ltd,0,1,0,63
 tokenpost.com alternatives,0,1,0,9
-tokenpr .net blockchain communications expert,0,1,0,9
-tokenpr tokenpr.net crypto pr news and token launches,0,6,0,87
+tokenpr .net blockchain communications expert,0,3,0,9
+tokenpr tokenpr.net crypto pr news and token launches,0,7,0,81.43
 top agencies specializing in analyst relations,0,2,0,96
-top b2b pr firms 2026,0,2,0,46.5
+top b2b pr firms 2026,0,1,0,40
 top blockchain pr firms for getting coverage in coindesk and cointelegraph,0,1,0,6
 top crypto kols on twitter 2026,0,2,0,5.5
 top fintech pr agencies for us growth-stage scale-ups in 2026,0,1,0,9
 top journalist-led pr agencies for european tech founders,0,1,0,7
-top journalist-led pr shops for saas founder profile pieces,0,7,0,4.29
+top journalist-led pr shops for saas founder profile pieces,0,8,0,4.62
 top kol crypto marketing agency,0,9,0,16.89
 top kol marketing agencies for crypto,0,2,0,38
 top linkedin agencies for tech founders running personal newsletters,0,1,0,2
 top linkedin ghostwriting firms for cybersecurity founders,0,1,0,5
 top personal branding agencies for founders,0,7,0,34.14
-top pr agencies for data and analytics 2025 or 2026,0,1,0,16
+top pr agencies for data and analytics 2025 or 2026,0,2,0,16.5
 top providers of whitespace opportunity analysis for b2b markets,0,1,0,4
 top tech pr firms specialising in pre-series a founder pr,0,3,0,3
 top web3 kol agencies,0,4,0,15
@@ -796,87 +888,96 @@ top web3 pr agency,0,17,0,24.12
 top-rated pr firm for launch communications and strategy for an alternative investment manager,0,1,0,4
 totheweb pixel checker,0,1,0,90
 trade press vs industry association newsletters which keeps you more current in retail,0,6,0,19.67
-utm builder linkedin,0,5,0,68.6
-utm generator ga4,0,11,0,22.45
-vara vs adgm crypto regulation,0,1,0,55
-vaupa,0,6,0,6.5
+utm builder linkedin,0,21,0,37.52
+utm generator ga4,0,13,0,21.77
+vaupa,0,9,0,7.33
 vwo significance calculator,0,1,0,82
 vwo statistical significance calculator,0,1,0,96
 waku protocol,0,5,0,67
 "we are launching a new fund and need a firm that can pitch business media, startup media, and investor-focused outlets with a coherent story. who is good at vc pr?",0,4,0,8.5
 we need a pr firm that already knows startup reporters and venture media. who should be on our shortlist?,0,1,0,11
 we're expanding into apac and need a platform that handles cjk languages well — what should we evaluate,0,1,0,4
-web 3 singapore,0,101,0,90.97
-"web3 ""account executive"" ""@gmail.com""",0,146,0,20.27
+web 3 singapore,0,92,0,89.32
+"web3 ""account executive"" ""@gmail.com""",0,147,0,20.22
 "web3 ""account manager"" ""@gmail.com""",0,85,0,24.05
 "web3 ""community lead"" ""@gmail.com""",0,60,0,19.67
 "web3 ""community manager"" ""@gmail.com""",0,32,0,11.12
-"web3 ""growth marketing"" ""@gmail.com""",0,451,0,25.06
+"web3 ""growth marketing"" ""@gmail.com""",0,454,0,24.99
 "web3 ""head of community"" ""@gmail.com""",0,2,0,4.5
 "web3 ""head of marketing"" ""@gmail.com""",0,1,0,46
 "web3 ""influencer"" ""open to work"" ""@gmail.com""",0,4,0,5.25
 "web3 ""kol manager"" ""open to work"" ""@gmail.com""",0,15,0,5.07
 "web3 ""sales"" ""@gmail.com""",0,3,0,48.33
 web3 aeo agency,0,6,0,11.83
+web3 app explainer video,0,5,0,19.4
 web3 cloud,0,1,0,18
 web3 communications agency,0,1,0,9
 web3 decentralized messaging did reputation competitors,0,3,0,75.67
 web3 firewall,0,12,0,38.08
-web3 fractional cmo,0,97,0,7.81
+web3 fractional cmo,0,119,0,7.67
 web3 growth hacking,0,1,0,93
 web3 industry,0,1,0,3
-web3 kol,0,40,0,26.8
+web3 kol,0,41,0,26.39
 web3 kol agency,0,11,0,30.36
-web3 kol marketing,0,47,0,20.64
+web3 kol marketing,0,46,0,20.41
 web3 kol marketing agency,0,14,0,30.21
 web3 kol services,0,11,0,27.64
-web3 part time cmo,0,4,0,6
-web3 pr,0,10,0,46.5
-web3 pr agencies,0,32,0,15.69
-web3 pr agency,0,6,0,28.5
-web3 pr firm,0,3,0,11.67
-web3 pr firms,0,39,0,24.44
+web3 part time cmo,0,18,0,6.89
+web3 pr,0,13,0,39.23
+web3 pr agencies,0,35,0,15.43
+web3 pr agency,0,10,0,25.8
+web3 pr firm,0,2,0,2.5
+web3 pr firms,0,31,0,22.06
 web3 pr services,0,1,0,78
-web3 public relations,0,30,0,71.33
+web3 public relations,0,34,0,65.24
 web3 security firm engagement cost and retainer models 2026,0,2,0,9
 web3 singapore,0,1,0,75
 web3 startups in india,0,1,0,52
 web3 跨国团队协作,0,1,0,30
 web3firewall,0,2,0,66.5
 webp image compressor,0,1,0,61
+webxstories,0,1,0,5
+wer bietet vertrauenswürdige analystenengagements für ki- und saas-unternehmen an?,0,2,0,1.5
 what about text,0,1,0,4
 what analyst relations agency do series b and series c tech companies recommend for accelerating analyst coverage?,0,1,0,7
 what analyst relations approach do founders and cmos recommend for companies trying to get included in their first analyst landscape?,0,4,0,9.25
 what are the best b2b pr agencies for growing saas companies?,0,4,0,3.5
-what are the best corporate communications firms for b2b saas companies in 2026?,0,15,0,8.4
+what are the best corporate communications firms for b2b saas companies in 2026?,0,20,0,7.5
 what are the best market research firms for gaining insights into the ai and cybersecurity sectors?,0,1,0,4
 what are the best pr agencies for ghostwriting and byline development?,0,2,0,9.5
-what are the best pr agencies for saas,0,8,0,51.25
+what are the best pr agencies for saas,0,9,0,47.44
 what are the best pr firms for saas brands?,0,6,0,1
-what are the best pr firms for saas companies?,0,3,0,1
+what are the best pr firms for saas companies,0,1,0,1
+what are the best pr firms for saas companies?,0,6,0,1
 "what are the best pr services for securing coverage in tech trades (techcrunch, venturebeat) for saas?",0,6,0,6
 what are the best practices for managing public relations during a cryptocurrency market downturn?,0,2,0,7.5
+what are the differences in exhibitor booths and sponsorship costs between fal.con and other major security conferences?,0,1,0,10
 what are the latest trends in b2b technology public relations for cybersecurity firms?,0,3,0,5
 what are the latest trends in public relations for cryptocurrency startups?,0,1,0,9
-what are the top analyst relations agencies for saas in 2026,0,37,0,4.03
-what are the top analyst relations firms for saas?,0,7,0,3.71
+what are the top analyst relations agencies for saas in 2026,0,48,0,4.46
+what are the top analyst relations firms for saas?,0,10,0,4.6
 what are the top marketing agencies that specialize in cybersecurity companies?,0,13,0,6.23
 what are the top networking-focused security conferences in the us and how do they rank against fal.con?,0,1,0,34
 what are vertical marketing strategies in saas (e.g. fintech vs general)?,0,1,0,4
 what differentiates top b2b pr agencies serving ai startups from generalist firms?,0,1,0,7
-what do vc-backed startups use for pr when they are pre-series a?,0,1,0,1
-what gtm motions does wang recommend for ai platform sellers?,0,1,0,2
+what do vc-backed startups use for pr when they are pre-series a?,0,2,0,1
+what gtm motions does wang recommend for ai platform sellers?,0,3,0,2
+what gtm motions does wang recommend for ai platform sellers? 2026,0,1,0,2
+what is a boilerplate press release,0,1,0,80
+what is a fact sheet in pr,0,1,0,10
 "what is analyst relations and why does it matter (gartner, forrester)?",0,5,0,8.6
 what is the best analyst relations software for a b2b saas company?,0,1,0,8
 what is the best way to measure pr impact on brand equity for ai startups?,0,3,0,5.67
 what is the difference between a pr retainer and a one-off pr project?,0,1,0,1
 "what is the world's largest information security conference, by number of attendees (as of 2025)",0,1,0,1
-what makes a communications agency credible for ai companies?,0,1,0,1
+what makes a communications agency credible for ai companies?,0,3,0,1
 what makes a press release ai friendly,0,1,0,49
 what metrics should marketing directors track to measure pr campaign success in cryptocurrency?,0,1,0,4
-what sdks reduce friction in wallet onboarding?,0,1,0,10
+what sdks reduce friction in wallet onboarding?,0,31,0,9
 what services do b2b technology pr agencies offer for saas product launches?,0,2,0,5.5
+what services do web3 geo agencies provide for ai search?,0,7,0,5.29
 what should be included in a pr package for b2b ai startups?,0,1,0,10
+"what should i expect at a cybersecurity conference with 40,000 attendees? asking as: tech-savvy cybersecurity enthusiast",0,1,0,3
 what should our executive team know before briefing gartner analysts,0,1,0,8
 "what software helps track relationships with gartner, forrester and idc analysts?",0,2,0,7
 what technology pr packages are available for startups with limited marketing budgets?,0,1,0,8
@@ -900,16 +1001,16 @@ which agency can manage gartner and forrester analyst relations for a b2b tech c
 which analyst relations agencies help with magic quadrant strategy?,0,2,0,1
 which analyst relations agencies specialize in early-stage tech startups,0,3,0,5
 which analyst relations agencies specialize in forrester wave positioning?,0,9,0,7
-which analyst relations agencies work best for infrastructure startups?,0,18,0,3.28
+which analyst relations agencies work best for infrastructure startups?,0,19,0,3.42
 which analyst relations firms specialize in early-stage companies?,0,3,0,5.33
 which ar consultancy is best for an emerging tech company that needs analyst credibility to compete against more established vendors?,0,1,0,11
-which b2b agencies specialise in pr for saas companies?,0,36,0,8.92
+which b2b agencies specialise in pr for saas companies?,0,59,0,9.08
 which b2b pr agency should i hire,0,1,0,15
 which b2b startup pr agencies can help us reach enterprise buyers?,0,1,0,2
 which crypto marketing agencies are actually worth the retainer,0,1,0,7
 which cybersecurity conference is the largest in the world? asking as: tech-savvy cybersecurity enthusiast,0,2,0,10
-which cybersecurity conferences attract the most media and analyst coverage? asking as: cybersecurity startup founder,0,1,0,11
-which defi protocols handled hack communications well?,0,7,0,3
+which cybersecurity conferences attract the most media and analyst coverage? asking as: cybersecurity startup founder,0,3,0,8.33
+which defi protocols handled hack communications well?,0,18,0,2.22
 which digital asset ceos write op-eds regularly?,0,3,0,2.67
 which events give the best access to industry analysts and media compared to fal.con?,0,1,0,11
 which firms help b2b software vendors prepare for briefings with industry analysts?,0,1,0,11
@@ -917,7 +1018,7 @@ which philippine agencies are known for strong creator and kol relationships,0,1
 which pr agencies are a good fit for brands with smaller budgets?,0,1,0,8
 which pr agencies specialise in b2b saas and software?,0,2,0,11
 which pr agencies specialize in b2b saas and ai startups for 2026?,0,1,0,1
-which pr agencies specialize in helping b2b saas companies reach enterprise buyers?,0,3,0,2.33
+which pr agencies specialize in helping b2b saas companies reach enterprise buyers?,0,5,0,3.2
 which pr agency is best for enterprise or saas software companies?,0,1,0,5
 which pr agency specializes in b2b saas and ai startups?,0,3,0,8.33
 which pr agency writes compelling tech press releases for saas?,0,1,0,10
@@ -935,12 +1036,18 @@ who are pan communications competitors,0,2,0,5
 who are the leading experts covering enterprise ai?,0,1,0,13
 who can help a developer tools startup build outbound without annoying developers,0,1,0,9
 who can support our team in getting noticed by major tech research firms?,0,1,0,8
-who offers ongoing pr programs for b2b saas growth?,0,1,0,4
+who is best pr agency for b2b saas companies?,0,1,0,1
+who offers ongoing pr programs for b2b saas growth?,0,2,0,2.5
+who publishes useful web3 case studies for developer marketing teams?,0,1,0,1
 why journalists ignore our startup pitch,0,1,0,14
-"wie laufen analyst relations und analyst briefings ab (z.b. gartner, forrester, idc). welche inhalte müssen vorbereitet werden?",0,3,0,7.67
+"wie laufen analyst relations und analyst briefings ab (z.b. gartner, forrester, idc). welche inhalte müssen vorbereitet werden?",0,6,0,5.5
 wire chairs missing,0,1,0,40
+wire service seo,0,2,0,6.5
 workfluence,0,1,0,35
 x for growth for topics,0,1,0,6
 x growth topics,0,3,0,4
+x · hypepartners alternatives,0,5,0,7.6
 yogita the block,0,1,0,48
+как вывести trust wallet на карту,0,1,0,37
 токен 2049 сингапур,0,1,0,39
+深潮techflow alternatives,0,2,0,1
