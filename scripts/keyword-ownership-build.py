@@ -22,7 +22,7 @@ FAMILIES = [
   owner='/playbook/best-web3-pr-agencies-2026',
   owner_note=("No URL earns impressions for 'crypto pr agency' itself (0 matched rows in 90 days; DataForSEO 3 Nov: not in US top 30), so this owner is chosen on intent, "
               "not on a GSC win. The US SERP is listicles ('Top 11 Web3 & Crypto PR Agencies', 'Best Crypto PR Agencies') plus agency homepages. "
-              "best-web3-pr-agencies-2026 is the strongest commercial-listicle URL on the site (573 impr, #17, 37 real inlinks, named firms) and already wins the "
+              "best-web3-pr-agencies-2026 is the strongest commercial-listicle URL on the site (843 impr at #12.4 in the 10 Aug to 7 Nov window, 37 real inlinks, named firms) and already wins the "
               "web3 twin of this term, so crypto and web3 PR agency share ONE owner. Required change is additive only (top-page rule): add 'and Crypto' to title/H1 "
               "(e.g. 'Best Web3 & Crypto PR Agencies in 2026') and a 'Crypto PR agencies' H2 section. If S rejects any title edit on this top page, fallback owner = "
               "/services/web3-pr-campaigns (the transactional page; sitewide nav already points to it)."),
