@@ -7,12 +7,12 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Best DeFi PR Agencies in 2026: an Honest Comparison',
-  description: 'A criteria-led look at agencies that actually understand DeFi, the trade-offs of each, and when a fractional operator beats all of them.',
+  title: 'Best DeFi PR Agencies in 2026: 5 Options Compared',
+  description: 'Big crypto agencies, DeFi boutiques, Web3 generalists, launch sprints or a fractional lead: fees from $3K to $45K a month, fit and conflicts compared.',
   alternates: { canonical: `${SITE_URL}/playbook/best-defi-pr-agency-2026` },
   openGraph: {
-    title: 'Best DeFi PR Agencies in 2026: an Honest Comparison',
-    description: 'A criteria-led look at agencies that actually understand DeFi, the trade-offs of each, and when a fractional operator beats all of them.',
+    title: 'Best DeFi PR Agencies in 2026: 5 Options Compared',
+    description: 'Big crypto agencies, DeFi boutiques, Web3 generalists, launch sprints or a fractional lead: fees from $3K to $45K a month, fit and conflicts compared.',
     url: `${SITE_URL}/playbook/best-defi-pr-agency-2026`,
     type: 'article',
     images: [
@@ -26,8 +26,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Best DeFi PR Agencies in 2026: an Honest Comparison',
-    description: 'A criteria-led look at agencies that actually understand DeFi, the trade-offs of each, and when a fractional operator beats all of them.',
+    title: 'Best DeFi PR Agencies in 2026: 5 Options Compared',
+    description: 'Big crypto agencies, DeFi boutiques, Web3 generalists, launch sprints or a fractional lead: fees from $3K to $45K a month, fit and conflicts compared.',
     images: [
       {
         url: `${SITE_URL}/assets/media/og/web3.jpg`,
