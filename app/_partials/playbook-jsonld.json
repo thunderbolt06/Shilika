@@ -47,7 +47,7 @@
         "@type": "ItemList",
         "name": "Shilika Jain Playbooks",
         "itemListOrder": "https://schema.org/ItemListOrderAscending",
-        "numberOfItems": 120,
+        "numberOfItems": 118,
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -574,198 +574,186 @@
           {
             "@type": "ListItem",
             "position": 88,
-            "url": "https://www.shilikajain.com/playbook/web3-marketing-agency-guide-2026",
-            "name": "How to Choose a Web3 Marketing Agency in 2026"
-          },
-          {
-            "@type": "ListItem",
-            "position": 89,
             "url": "https://www.shilikajain.com/playbook/cybersecurity-pr-agency-pricing-2026",
             "name": "Cybersecurity PR Agency Retainer Pricing in 2026"
           },
           {
             "@type": "ListItem",
-            "position": 90,
+            "position": 89,
             "url": "https://www.shilikajain.com/playbook/how-to-get-covered-dark-reading-2026",
             "name": "How to Get Covered by Dark Reading in 2026"
           },
           {
             "@type": "ListItem",
-            "position": 91,
+            "position": 90,
             "url": "https://www.shilikajain.com/playbook/cybersecurity-analyst-relations-2026",
             "name": "Cybersecurity Analyst Relations in 2026: Gartner, Forrester and IDC"
           },
           {
             "@type": "ListItem",
-            "position": 92,
+            "position": 91,
             "url": "https://www.shilikajain.com/playbook/cybersecurity-threat-research-pr-2026",
             "name": "Turning Threat Research Into Coverage in 2026"
           },
           {
             "@type": "ListItem",
-            "position": 93,
+            "position": 92,
             "url": "https://www.shilikajain.com/playbook/cybersecurity-breach-crisis-comms-2026",
             "name": "Cybersecurity Breach and Crisis Communications in 2026"
           },
           {
             "@type": "ListItem",
-            "position": 94,
+            "position": 93,
             "url": "https://www.shilikajain.com/playbook/best-cybersecurity-marketing-agencies-2026",
             "name": "Best Marketing Agencies for Cybersecurity Firms in 2026"
           },
           {
             "@type": "ListItem",
-            "position": 95,
+            "position": 94,
             "url": "https://www.shilikajain.com/playbook/how-to-build-ai-search-visibility-geo-2026",
             "name": "How to Build AI Search Visibility (GEO) for a Startup in 2026"
           },
           {
             "@type": "ListItem",
-            "position": 96,
+            "position": 95,
             "url": "https://www.shilikajain.com/playbook/how-to-get-cited-by-chatgpt-2026",
             "name": "How to Get Your Brand Cited by ChatGPT and Perplexity in 2026"
           },
           {
             "@type": "ListItem",
-            "position": 97,
+            "position": 96,
             "url": "https://www.shilikajain.com/playbook/aeo-vs-seo-startups-2026",
             "name": "AEO vs SEO: What Startups Actually Need in 2026"
           },
           {
             "@type": "ListItem",
-            "position": 98,
+            "position": 97,
             "url": "https://www.shilikajain.com/playbook/how-to-measure-pr-roi-2026",
             "name": "How to Measure PR ROI and Share of Voice in 2026"
           },
           {
             "@type": "ListItem",
-            "position": 99,
+            "position": 98,
             "url": "https://www.shilikajain.com/playbook/share-of-voice-crypto-2026",
             "name": "Share of Voice in Crypto: How to Track It in 2026"
           },
           {
             "@type": "ListItem",
-            "position": 100,
-            "url": "https://www.shilikajain.com/playbook/how-to-choose-web3-pr-agency-checklist-2026",
-            "name": "How to Choose a Web3 PR Agency in 2026: The Checklist"
-          },
-          {
-            "@type": "ListItem",
-            "position": 101,
+            "position": 99,
             "url": "https://www.shilikajain.com/playbook/web3-pr-agency-reviews-clutch-2026",
             "name": "Web3 PR Agency Reviews on Clutch in 2026: How to Read Them"
           },
           {
             "@type": "ListItem",
-            "position": 102,
+            "position": 100,
             "url": "https://www.shilikajain.com/playbook/pr-for-tech-startups-guide-2026",
             "name": "PR for Tech Startups in 2026: A Founder's Guide"
           },
           {
             "@type": "ListItem",
-            "position": 103,
+            "position": 101,
             "url": "https://www.shilikajain.com/playbook/b2b-tech-pr-guide-2026",
             "name": "B2B Tech PR in 2026: What's Different"
           },
           {
             "@type": "ListItem",
-            "position": 104,
+            "position": 102,
             "url": "https://www.shilikajain.com/playbook/earned-vs-paid-media-web3-2026",
             "name": "Earned vs Paid Media in Web3 in 2026"
           },
           {
             "@type": "ListItem",
-            "position": 105,
+            "position": 103,
             "url": "https://www.shilikajain.com/playbook/crypto-pr-small-budget-2026",
             "name": "Crypto PR on a Small Budget in 2026: What's Actually Possible"
           },
           {
             "@type": "ListItem",
-            "position": 106,
+            "position": 104,
             "url": "https://www.shilikajain.com/playbook/affordable-pr-tech-startup-2026",
             "name": "Affordable PR for Tech Startups in 2026"
           },
           {
             "@type": "ListItem",
-            "position": 107,
+            "position": 105,
             "url": "https://www.shilikajain.com/playbook/crypto-publicist-vs-agency-2026",
             "name": "Crypto Publicist vs PR Agency in 2026: Which Do You Need?"
           },
           {
             "@type": "ListItem",
-            "position": 108,
+            "position": 106,
             "url": "https://www.shilikajain.com/playbook/how-to-write-crypto-press-release-2026",
             "name": "How to Write a Crypto Press Release That Gets Picked Up in 2026"
           },
           {
             "@type": "ListItem",
-            "position": 109,
+            "position": 107,
             "url": "https://www.shilikajain.com/playbook/crypto-pr-agency-comparison-2026",
             "name": "How to Compare Crypto PR Agencies in 2026"
           },
           {
             "@type": "ListItem",
-            "position": 110,
+            "position": 108,
             "url": "https://www.shilikajain.com/playbook/web3-pr-bear-market-2026",
             "name": "Web3 PR in a Bear Market in 2026"
           },
           {
             "@type": "ListItem",
-            "position": 111,
+            "position": 109,
             "url": "https://www.shilikajain.com/playbook/crypto-newsjacking-2026",
             "name": "Newsjacking for Crypto Brands in 2026"
           },
           {
             "@type": "ListItem",
-            "position": 112,
+            "position": 110,
             "url": "https://www.shilikajain.com/playbook/founder-led-diy-pr-2026",
             "name": "DIY PR in 2026: How Founders Can Run Their Own Comms"
           },
           {
             "@type": "ListItem",
-            "position": 113,
+            "position": 111,
             "url": "https://www.shilikajain.com/playbook/token-launch-pr-mistakes-2026",
             "name": "The Most Common Token Launch PR Mistakes in 2026"
           },
           {
             "@type": "ListItem",
-            "position": 114,
+            "position": 112,
             "url": "https://www.shilikajain.com/playbook/coindesk-vs-cointelegraph-where-to-pitch-2026",
             "name": "CoinDesk vs Cointelegraph in 2026: Where to Pitch What"
           },
           {
             "@type": "ListItem",
-            "position": 115,
+            "position": 113,
             "url": "https://www.shilikajain.com/playbook/whitepaper-writing-ai-startups-2026",
             "name": "Whitepaper Writing for AI Startups in 2026"
           },
           {
             "@type": "ListItem",
-            "position": 116,
+            "position": 114,
             "url": "https://www.shilikajain.com/playbook/best-nft-news-outlets-to-pitch-2026",
             "name": "Best NFT News Outlets to Pitch in 2026"
           },
           {
             "@type": "ListItem",
-            "position": 117,
+            "position": 115,
             "url": "https://www.shilikajain.com/playbook/zk-proof-pr-2026",
             "name": "Zero-Knowledge Proof PR in 2026: Explaining ZK Without Losing the Reader"
           },
           {
             "@type": "ListItem",
-            "position": 118,
+            "position": 116,
             "url": "https://www.shilikajain.com/playbook/crypto-sustainability-esg-pr-2026",
             "name": "Crypto Sustainability and ESG PR in 2026"
           },
           {
             "@type": "ListItem",
-            "position": 119,
+            "position": 117,
             "url": "https://www.shilikajain.com/playbook/web3-narrative-positioning-strategy-2026",
             "name": "Web3 Narrative and Positioning Strategy in 2026"
           },
           {
             "@type": "ListItem",
-            "position": 120,
+            "position": 118,
             "url": "https://www.shilikajain.com/playbook/crypto-go-to-market-strategy-2026",
             "name": "Crypto Go-to-Market Strategy in 2026: Where PR Fits"
           }

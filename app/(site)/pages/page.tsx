@@ -3,6 +3,7 @@ import PagesIndex from './PagesIndex';
 import { PhotoBand } from '@/components/site/Media';
 import { ogImage } from '@/lib/i18n/og';
 import pagesData from '@/data/landing-pages.json';
+import { isRedirectedPath } from '@/lib/seo-redirects';
 import '../blog/blog.css';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
@@ -31,7 +32,7 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
-  const items = pagesData as LP[];
+  const items = (pagesData as LP[]).filter((p) => !isRedirectedPath(`/pages/${p.slug}`));
   const jsonLd = {
     '@context': 'https://schema.org',
     '@graph': [

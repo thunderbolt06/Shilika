@@ -3,14 +3,14 @@
   "@graph": [
     {
       "@type": "BlogPosting",
-      "@id": "https://www.shilikajain.com/playbook/how-to-choose-web3-pr-agency-checklist-2026#article",
+      "@id": "https://www.shilikajain.com/playbook/crypto-pr-agency-comparison-2026#article",
       "headline": "How to Choose a Web3 PR Agency in 2026: The Checklist",
       "alternativeHeadline": "The questions that expose real journalist access, the red flags, and the model-fit test for evaluating Web3 PR agencies",
       "description": "A founder-ready checklist for evaluating Web3 PR agencies in 2026: six questions that expose real journalist access versus noise, four red flags that predict a wasted retainer, the model-fit test between agency and fractional, and what to put in the contract before you sign.",
-      "url": "https://www.shilikajain.com/playbook/how-to-choose-web3-pr-agency-checklist-2026",
+      "url": "https://www.shilikajain.com/playbook/crypto-pr-agency-comparison-2026",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://www.shilikajain.com/playbook/how-to-choose-web3-pr-agency-checklist-2026"
+        "@id": "https://www.shilikajain.com/playbook/crypto-pr-agency-comparison-2026"
       },
       "image": {
         "@type": "ImageObject",
@@ -80,12 +80,12 @@
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.shilikajain.com/" },
         { "@type": "ListItem", "position": 2, "name": "Playbooks", "item": "https://www.shilikajain.com/playbook" },
-        { "@type": "ListItem", "position": 3, "name": "How to Choose a Web3 PR Agency in 2026: The Checklist", "item": "https://www.shilikajain.com/playbook/how-to-choose-web3-pr-agency-checklist-2026" }
+        { "@type": "ListItem", "position": 3, "name": "How to Choose a Web3 PR Agency in 2026: The Checklist", "item": "https://www.shilikajain.com/playbook/crypto-pr-agency-comparison-2026" }
       ]
     },
     {
       "@type": "ItemList",
-      "@id": "https://www.shilikajain.com/playbook/how-to-choose-web3-pr-agency-checklist-2026#checklist",
+      "@id": "https://www.shilikajain.com/playbook/crypto-pr-agency-comparison-2026#checklist",
       "name": "The six questions that expose what a Web3 PR agency actually does",
       "description": "Six evaluation questions to ask any Web3 PR agency before you sign, each designed to expose real journalist access, earned-versus-paid coverage, conflicts of interest, narrative process, honest timelines, and verifiable references.",
       "numberOfItems": 6,
@@ -131,7 +131,7 @@
     },
     {
       "@type": "FAQPage",
-      "@id": "https://www.shilikajain.com/playbook/how-to-choose-web3-pr-agency-checklist-2026#faq",
+      "@id": "https://www.shilikajain.com/playbook/crypto-pr-agency-comparison-2026#faq",
       "mainEntity": [
         {
           "@type": "Question",
