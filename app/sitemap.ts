@@ -6,6 +6,7 @@ import { AGENCIES, comparePath } from './(site)/compare/_data/agencies';
 import { LAST_VERIFIED_ISO } from './(site)/compare/_data/shilika';
 import { PROGRAMS, coursePath } from '@/data/courses';
 import { cardFor, cardUrl } from '../scripts/media/og-map.mjs';
+import { isRedirectedPath } from '@/lib/seo-redirects';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
@@ -348,7 +349,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // every single day. That's a known anti-pattern: it makes the lastmod signal
   // useless and can cause Google to discount it entirely. We omit lastModified for
   // static pages that don't have a real tracked edit date instead of faking one.
-  const staticEntries = STATIC_PAGES.map(({ path, priority, changeFrequency, lastModified }) => ({
+  // URLs that now 301 (lib/seo-redirects.ts) are not listed.
+  const staticEntries = STATIC_PAGES.filter(({ path }) => !isRedirectedPath(path)).map(({ path, priority, changeFrequency, lastModified }) => ({
     url: `${SITE_URL}${path}`,
     priority,
     changeFrequency,

@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import { revalidatePath } from 'next/cache';
 import { parseXlsx } from '@/lib/blog-excel';
+import { checkBulkCommit } from '@/lib/blog-excel-guard';
 import { getAdminSupabase } from '@/lib/supabase/server';
 import type { BlogPost } from '@/lib/supabase/types';
 
@@ -21,6 +22,12 @@ export async function POST(request: Request) {
   }
   const buffer = await file.arrayBuffer();
   const { rows } = parseXlsx(buffer);
+
+  // Refuse bulk imports over the limit unless the caller confirms.
+  const guard = checkBulkCommit(rows.length, formData.get('confirm'));
+  if (!guard.ok) {
+    return NextResponse.json(guard.body, { status: guard.status });
+  }
 
   const supabase = getAdminSupabase();
   const result: CommitResult = { applied: 0, skipped: 0, errors: [] };

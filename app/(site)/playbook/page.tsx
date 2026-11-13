@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import type { Metadata } from 'next';
 import { JsonLdScript } from '@/components/site/JsonLdScript';
+import { isRedirectedPath } from '@/lib/seo-redirects';
 import '../blog/blog.css';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
@@ -27,7 +28,7 @@ export const metadata: Metadata = {
   },
 };
 
-const PLAYBOOKS = [
+const ALL_PLAYBOOKS = [
   {
     n: 1,
     slug: 'tier-1-pr-trap',
@@ -1023,6 +1024,9 @@ const PLAYBOOKS = [
     time: 9,
   },
 ];
+
+// Playbooks that now 301 (lib/seo-redirects.ts) get no card.
+const PLAYBOOKS = ALL_PLAYBOOKS.filter((p) => !isRedirectedPath(`/playbook/${p.slug}`));
 
 // The partial carries the CollectionPage/Breadcrumb nodes; the ItemList is built from
 // PLAYBOOKS so the markup always matches the cards on the page.

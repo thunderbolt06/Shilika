@@ -1,4 +1,5 @@
 import 'server-only';
+import { isRedirectedPath } from './seo-redirects';
 import { getAdminSupabase, getPublicSupabase } from './supabase/server';
 import type { Author, BlogPost } from './supabase/types';
 
@@ -10,7 +11,8 @@ export async function listPublishedPosts(): Promise<BlogPost[]> {
     .eq('published', true)
     .order('published_at', { ascending: false });
   if (error) throw error;
-  return (data ?? []) as BlogPost[];
+  // Posts whose URL now 301s (lib/seo-redirects.ts) are left out of every list.
+  return ((data ?? []) as BlogPost[]).filter((p) => !isRedirectedPath(`/blog/${p.slug}`));
 }
 
 export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
@@ -34,7 +36,7 @@ export async function getRelatedPosts(slugs: string[]): Promise<BlogPost[]> {
     .in('slug', slugs)
     .eq('published', true);
   if (error) throw error;
-  return (data ?? []) as BlogPost[];
+  return ((data ?? []) as BlogPost[]).filter((p) => !isRedirectedPath(`/blog/${p.slug}`));
 }
 
 export async function getAuthor(slug: string | null): Promise<Author | null> {

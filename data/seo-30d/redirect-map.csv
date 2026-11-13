@@ -1,0 +1,57 @@
+tier,source,target,impressions_90d,clicks_90d,family,index_status,note,reason
+WAIT,/pages/defi-pr-agency,/playbook/best-defi-pr-agency-2026,116,0,defi-pr,Submitted and indexed,Wait until /playbook/best-defi-pr-agency-2026 names firms and holds its unique copy.,"EXCEPTION (110 impr): ranks for the SAME queries ('defi pr agency', 'defi pr agencies') at the SAME #11 as the owner, so the two split one SERP slot; plan week 2 names this exact pair. Merge its unique copy into the owner first, then 301. S approves."
+NEEDS APPROVAL,/pages/fractional-cmo-web3,/playbook/fractional-cmo-web3-2026,45,0,fractional,Submitted and indexed,,EXCEPTION (20 impr): same query 'web3 fractional cmo' at #16 vs playbook #7; plan names this pair.
+NEEDS APPROVAL,/pages/top-crypto-marketing-agency,/playbook/top-crypto-marketing-agencies-2026,34,0,web3-marketing-agency,Submitted and indexed,,0 impr; identical title intent to owner.
+NEEDS APPROVAL,/pages/token-launch-marketing-agency,/playbook/best-token-launch-marketing-agencies-2026,26,0,token-launch,Submitted and indexed,,EXCEPTION (24 impr): exact owner intent ('token launch marketing agency for startups') at #16-63 vs owner #9-14; its biggest query is junk ('token launch referral' #63).
+NEEDS APPROVAL,/pages/generative-ai-pr-agency,/services/ai-startup-pr,23,0,ai-pr,Submitted and indexed,,"18 impr, near-duplicate; generative-AI PR = AI startup PR intent."
+NEEDS APPROVAL,/pages/ai-pr-agency,/services/ai-startup-pr,21,0,ai-pr,Crawled - currently not indexed,,"EXCEPTION (21 impr): same commercial intent as the owner, and Google already dropped it (Crawled - currently not indexed on 30 Oct), so the 21 impressions are historical."
+REVIEW,/pages/crypto-kol-marketing-agency,/services/kol-marketing,16,0,kol,Submitted and indexed,,15 impr; hire-an-agency intent identical to the service page.
+REVIEW,/pages/web3-pr-agency-india,/playbook/best-web3-pr-agency-india-2026,14,0,geo-india,Submitted and indexed,,16 impr; same India agency intent.
+REVIEW,/pages/korea-crypto-pr-agency,/pages/crypto-pr-agency-korea,13,0,geo-korea,Submitted and indexed,,"14 impr; twin of the owner (same title intent), worse position (#7.4)."
+REVIEW,/pages/crypto-pr-agency-for-startups,/services/web3-pr-campaigns,12,0,crypto-pr-agency,Submitted and indexed,,"12 impr, near-duplicate. Its only query 'pr for crypto startup' (9@24) is the twin of 'pr for web3 startup' which the service page already holds at #13."
+REVIEW,/pages/ai-startup-pr-agency,/services/ai-startup-pr,11,0,ai-pr,Submitted and indexed,,"11 impr, near-duplicate; identical intent to owner."
+REVIEW,/pages/ai-publicist,/playbook/what-is-an-ai-publicist-2026,10,0,ai-pr,Submitted and indexed,,"10 impr, near-duplicate; publicist intent = the AI publicist playbook (40 impr)."
+REVIEW,/pages/crypto-influencer-marketing-agency,/services/kol-marketing,9,0,kol,Crawled - currently not indexed,,"9 impr, not indexed; influencer = KOL intent."
+REVIEW,/pages/crypto-twitter-kol-marketing,/services/kol-marketing,9,0,kol,Crawled - currently not indexed,,"9 impr, not indexed; X/Twitter KOL is part of the service."
+REVIEW,/pages/crypto-kol-agency-korea,/pages/korea-kol-marketing-agency,8,0,kol,Submitted and indexed,,8 impr; twin of the Korea KOL page (9 impr).
+REVIEW,/pages/korea-japan-crypto-pr,/services/apac-pr,8,0,geo-korea,Submitted and indexed,,8 impr; multi-market intent = APAC service.
+REVIEW,/blog/mena-crypto-pr-playbook-uae-saudi-token2049-dubai,/playbook/crypto-pr-dubai-mena-2026,7,0,geo-dubai-mena,Submitted and indexed,,"6 impr, near-duplicate of the owner playbook."
+REVIEW,/pages/crypto-pr-agency-japan,/playbook/crypto-pr-japan-2026,7,0,geo-japan,Submitted and indexed,,7 impr; same intent.
+REVIEW,/pages/ai-pr-consultant,/services/ai-startup-pr,6,1,ai-pr,Submitted and indexed,,"6 impr (1 click), near-duplicate; hire-a-consultant intent = service page."
+REVIEW,/pages/crypto-press-release-distribution-service,/playbook/crypto-press-release-distribution-2026,6,0,crypto-press-release,Submitted and indexed,,6 impr; 'crypto wire distribution' intent = distribution playbook.
+REVIEW,/pages/op-ed-ghostwriting-service,/playbook/op-ed-ghostwriting-executives-2026,6,0,other-near-dups,Submitted and indexed,,"7 impr, near-duplicate; op-ed ghostwriting playbook has 15 impr, 13 inlinks."
+REVIEW,/pages/web3-marketing-agency,/playbook/top-crypto-marketing-agencies-2026,6,0,web3-marketing-agency,Submitted and indexed,,"4 impr, near-duplicate; same agency-shopping intent."
+SAFE,/pages/ai-pr-agency-india,/playbook/ai-startup-pr-agency-india-2026,5,0,ai-pr,Submitted and indexed,,5 impr; same India AI PR intent as the India playbook.
+SAFE,/pages/b2b-tech-pr-agency,/playbook/b2b-tech-pr-guide-2026,5,0,other-near-dups,Submitted and indexed,,"6 impr, near-duplicate; B2B tech PR guide has 25 impr at #5.6."
+SAFE,/pages/web3-pr-agency-usa,/playbook/best-web3-pr-agency-usa-2026,5,0,geo-usa,Submitted and indexed,,5 impr; same intent.
+SAFE,/blog/fractional-pr-vs-crypto-pr-agency-cost-benefit,/playbook/fractional-vs-agency,4,0,fractional,Submitted and indexed,,"4 impr, near-duplicate; same 'fractional vs agency cost' intent as owner."
+SAFE,/pages/crypto-pr-agency-singapore,/playbook/best-crypto-pr-agency-singapore-2026,4,0,geo-singapore,Submitted and indexed,,4 impr; same intent.
+SAFE,/pages/crypto-pr-agency-vietnam,/playbook/crypto-pr-vietnam-2026,4,0,geo-vietnam,Submitted and indexed,,5 impr; same intent.
+SAFE,/pages/affordable-crypto-pr-agency,/playbook/crypto-pr-small-budget-2026,3,0,crypto-pr-agency,Submitted and indexed,,"4 impr; budget intent = small-budget playbook (not dup-flagged, 10 inlinks)."
+SAFE,/pages/apac-crypto-pr-agency,/services/apac-pr,3,0,geo-apac,Submitted and indexed,,3 impr; same intent.
+SAFE,/pages/crypto-presale-marketing-agency,/playbook/crypto-presale-launchpad-marketing-2026,3,0,token-launch,Submitted and indexed,,3 impr; presale marketing intent = presale playbook (22 impr).
+SAFE,/pages/enterprise-ai-pr-agency,/playbook/enterprise-ai-pr-2026,3,0,ai-pr,Crawled - currently not indexed,,"3 impr, near-duplicate, not indexed; enterprise AI PR intent."
+SAFE,/pages/fractional-pr-consultant-web3,/playbook/best-fractional-pr-consultant-web3-2026,3,0,fractional,Submitted and indexed,,"3 impr, near-duplicate; same 'fractional PR consultant web3' intent."
+SAFE,/pages/japan-crypto-pr-agency,/playbook/crypto-pr-japan-2026,3,0,geo-japan,Submitted and indexed,,3 impr; twin page.
+SAFE,/pages/tge-pr-agency,/services/token-launch-pr,3,0,token-launch,Submitted and indexed,,3 impr; TGE PR = service page.
+SAFE,/pages/token-launch-pr-agency,/services/token-launch-pr,3,0,token-launch,Submitted and indexed,,3 impr; token launch PR = service page.
+SAFE,/pages/web3-pr-agency-uae,/playbook/crypto-pr-dubai-mena-2026,3,0,geo-dubai-mena,Submitted and indexed,,3 impr; same intent.
+SAFE,/playbook/how-to-choose-web3-pr-agency-checklist-2026,/playbook/crypto-pr-agency-comparison-2026,3,0,crypto-pr-agency,Submitted and indexed,,"3 impr, near-duplicate flag; same 'how to choose/compare an agency' intent as the comparison playbook."
+SAFE,/playbook/web3-marketing-agency-guide-2026,/playbook/top-crypto-marketing-agencies-2026,3,0,web3-marketing-agency,Submitted and indexed,,"2 impr, near-duplicate; same agency-choice intent."
+SAFE,/pages/crypto-pr-agency-dubai,/playbook/crypto-pr-dubai-mena-2026,2,0,geo-dubai-mena,Submitted and indexed,,"2 impr, near-duplicate."
+SAFE,/pages/crypto-pr-consultant,/services/web3-pr-campaigns,2,0,crypto-pr-agency,Submitted and indexed,,"2 impr, near-duplicate; 'hire a senior crypto PR consultant' = the service page (title already 'Senior Operator')."
+SAFE,/pages/cybersecurity-pr-agency,/services/cybersecurity-pr,2,0,cybersecurity-pr,Crawled - currently not indexed,,"2 impr, near-duplicate; identical intent."
+SAFE,/pages/india-crypto-pr-agency,/playbook/best-web3-pr-agency-india-2026,2,0,geo-india,Submitted and indexed,,2 impr; same intent.
+SAFE,/pages/layer2-pr-agency,/blog/l1-l2-blockchain-pr-narrative-differentiation-playbook,2,0,blockchain-pr,Submitted and indexed,,"2 impr, near-duplicate; L2 PR intent = the L1/L2 PR playbook post."
+SAFE,/pages/mena-crypto-pr-agency,/playbook/crypto-pr-dubai-mena-2026,2,0,geo-dubai-mena,Submitted and indexed,,2 impr; same intent.
+SAFE,/pages/apac-token-launch-pr,/services/token-launch-pr,1,0,token-launch,Submitted and indexed,,1 impr; token launch PR intent.
+SAFE,/pages/best-crypto-pr-agency,/playbook/best-web3-pr-agencies-2026,1,0,crypto-pr-agency,Submitted and indexed,,"1 impr, near-duplicate; identical 'best crypto PR agency' intent as owner."
+SAFE,/pages/crypto-pr-agency-small-budget,/playbook/crypto-pr-small-budget-2026,1,0,crypto-pr-agency,Submitted and indexed,,1 impr; same budget intent.
+SAFE,/pages/crypto-publicist,/playbook/crypto-publicist-vs-agency-2026,1,0,crypto-pr-agency,Submitted and indexed,,"1 impr, near-duplicate; same publicist intent as the publicist-vs-agency playbook (indexed, not dup)."
+SAFE,/pages/crypto-token-launch-marketing-agency,/playbook/best-token-launch-marketing-agencies-2026,1,0,token-launch,Submitted and indexed,,1 impr; identical intent.
+SAFE,/pages/cybersecurity-pr-agency-usa,/services/cybersecurity-pr,1,0,cybersecurity-pr,Crawled - currently not indexed,,1 impr at #62; US is the default market for the owner.
+SAFE,/pages/healthcare-ai-pr-agency,/services/ai-startup-pr,1,0,ai-pr,Submitted and indexed,,"1 impr, near-duplicate; no healthcare-AI page with impressions."
+SAFE,/pages/b2b-saas-pr-agency,/playbook/best-b2b-saas-pr-agencies-2026,0,0,other-near-dups,Crawled - currently not indexed,,"0 impr, near-duplicate; listicle has 1,128 impr."
+SAFE,/pages/blockchain-gaming-pr-agency,/playbook/blockchain-gaming-pr-2026,0,0,blockchain-pr,Submitted and indexed,,"0 impr, near-duplicate; gaming PR intent = blockchain-gaming playbook."
+SAFE,/pages/crypto-press-release-service,/playbook/best-crypto-press-release-services-2026,0,0,crypto-press-release,Crawled - currently not indexed,,"0 impr, not indexed; same services intent."
+SAFE,/pages/pr-agency-for-tech-startups,/playbook/pr-for-tech-startups-guide-2026,0,0,other-near-dups,Crawled - currently not indexed,,"0 impr, near-duplicate; same intent."

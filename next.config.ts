@@ -1,4 +1,5 @@
 import type { NextConfig } from 'next';
+import { SEO_REDIRECTS } from './lib/seo-redirects';
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
@@ -16,6 +17,7 @@ const nextConfig: NextConfig = {
     // Legacy /article-N URLs were renamed to /playbook/N in Phase 8.
     // 301s preserve any inbound link equity from before the move.
     return [
+      ...SEO_REDIRECTS.map((r) => ({ ...r, permanent: true })),
       { source: '/article-1', destination: '/playbook/tier-1-pr-trap', permanent: true },
       { source: '/article-2', destination: '/playbook/apac-pr-playbook-2026', permanent: true },
       { source: '/article-3', destination: '/playbook/founder-profiling-sprint', permanent: true },

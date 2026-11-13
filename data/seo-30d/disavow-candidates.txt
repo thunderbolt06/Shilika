@@ -1,0 +1,71 @@
+# Disavow candidates for sc-domain:shilikajain.com
+# Built 7 Nov 2026 (30d D04) from data/dataforseo-audit/2026-11-03/backlinks_referring_domains.json
+# Source: DataForSEO backlinks API, 69 referring domains, 8 kept as real links.
+# Kept (not listed): cryptodaily.co.uk, bitmart.com, cryptotoday.ai, kernelpanicpodcast.com,
+#   saascity.io, oppalerts.com, latesttechnologytrends.com, thedocmag.com
+# Listed: throwaway .shop/.site SEO farms, casino/betting sites, URL shorteners and link lists.
+# Nearly all have rank 0 and a DataForSEO spam score of 50 to 80.
+# DO NOT UPLOAD. Google ignores most spam links on its own. Use this file only if
+# GSC shows a manual action for unnatural links (calendar item H2).
+# Domains listed: 61
+domain:789taya.online
+domain:anchorurl.cloud
+domain:archive-hu.com
+domain:bestnz-poker-casinoslot.com
+domain:bestonlinecasinomexico.online
+domain:betulcrime.com
+domain:betwinnermirror.com
+domain:bomcaminho.com
+domain:bramo.shop
+domain:brinto.shop
+domain:browardmac.shop
+domain:bureatag.com
+domain:burpio.shop
+domain:buzzshrink.website
+domain:casinosthatpayrealcash.online
+domain:clifflisting.com
+domain:clinto.shop
+domain:cralto.shop
+domain:cvillico.com
+domain:dbike-us.com
+domain:drjack.world
+domain:dupurgeniefr.com
+domain:elitesmm.shop
+domain:extremeseotools.link
+domain:fashionclothingnews.com
+domain:ggmap.us.com
+domain:growyoursitetraffic.shop
+domain:homesforsaleoldgreenwichct.com
+domain:jake.eu
+domain:juvex.shop
+domain:leonlinks.org
+domain:mediaboooster.com
+domain:mertio.shop
+domain:minvio.shop
+domain:murvi.shop
+domain:ninko.shop
+domain:onvaxs.com
+domain:poker-manila.com
+domain:quero.party
+domain:quotesblom.com
+domain:rank-seo-now.shop
+domain:ready.pro
+domain:realwinningonlinecasino.online
+domain:sahammurah.com
+domain:seo-growth-authority-boost-hub.shop
+domain:seo-growth-optimization-hub.shop
+domain:seocodeminty.site
+domain:seonix.agency
+domain:seopxl-organic-boost-lab.shop
+domain:seopxl-ranking-boost-lab.shop
+domain:seopxl-traffic-growth-lab.shop
+domain:seorankkeywordly.site
+domain:sisusan88ax.shop
+domain:techbumppy.com
+domain:thcradar.com
+domain:theforbestimes.com
+domain:top5casino.online
+domain:totoonepick.com
+domain:uncledspizza.com
+domain:urls-shortener.eu
+domain:websquemolan.com

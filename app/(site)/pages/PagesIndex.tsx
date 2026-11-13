@@ -2,6 +2,7 @@
 
 import { useMemo, useState, type ReactNode } from 'react';
 import pagesData from '@/data/landing-pages.json';
+import { isRedirectedPath } from '@/lib/seo-redirects';
 
 type LP = {
   n: number;
@@ -16,7 +17,8 @@ type LP = {
   intent: string;
 };
 
-const PAGES = pagesData as LP[];
+// Pages that now 301 (lib/seo-redirects.ts) get no card.
+const PAGES = (pagesData as LP[]).filter((p) => !isRedirectedPath(`/pages/${p.slug}`));
 
 const SERVICES = Array.from(new Set(PAGES.map((p) => p.service)));
 const REGIONS = Array.from(new Set(PAGES.map((p) => p.region)));
