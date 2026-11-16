@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'How to Get Featured in CoinDesk in 2026: Pitch Guide',
+  title: { absolute: 'How to Get Featured in CoinDesk in 2026: Pitch Guide' },
   description: 'What CoinDesk editors filter for, pitch templates that land, embargo etiquette and three worked examples from a senior Web3 PR operator\'s 2026 playbook.',
   
   alternates: { canonical: 'https://www.shilikajain.com/playbook/get-featured-coindesk-2026' },

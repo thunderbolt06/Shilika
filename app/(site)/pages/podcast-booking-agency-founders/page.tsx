@@ -6,7 +6,7 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Founder Podcast Booking Agency 2026 | Curated Tours',
+  title: { absolute: 'Founder Podcast Booking Agency 2026 | Curated Tours' },
   description: 'A curated podcast tour that turns one quarter into lasting authority, with the Gaia AI six-show tour as the model.',
   alternates: { canonical: `${SITE_URL}/pages/podcast-booking-agency-founders` },
   openGraph: {

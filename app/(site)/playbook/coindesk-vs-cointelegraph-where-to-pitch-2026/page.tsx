@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'CoinDesk vs Cointelegraph in 2026: Where to Pitch What',
+  title: { absolute: 'CoinDesk vs Cointelegraph in 2026: Where to Pitch What' },
   description: 'Two flagship outlets, two different newsrooms. Which story belongs where, how their desks differ, and how to sequence a pitch across both.',
   alternates: { canonical: `${SITE_URL}/playbook/coindesk-vs-cointelegraph-where-to-pitch-2026` },
   openGraph: {

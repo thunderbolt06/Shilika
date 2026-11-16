@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Crypto PR in Korea in 2026: Outlets, KOLs and Access',
+  title: { absolute: 'Crypto PR in Korea in 2026: Outlets, KOLs and Access' },
   description: 'Crypto PR in Korea after KBW 2026: native outlets, KOL tiers, FSC rules, and the next window (Korea Fintech Week, Nov 2026). Updated Oct 2026.',
   alternates: { canonical: `${SITE_URL}/playbook/crypto-pr-korea-2026` },
   openGraph: {

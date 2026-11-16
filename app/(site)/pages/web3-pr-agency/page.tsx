@@ -6,7 +6,7 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Web3 PR Firm Alternative: Fractional Senior Lead',
+  title: { absolute: 'Web3 PR Firm Alternative: Fractional Senior Lead' },
   description:
     'Hire a fractional senior Web3 PR operator instead of a $15K–$45K/mo agency. 50+ founders placed in Forbes, CoinDesk, Cointelegraph and Decrypt. Book a call.',
   alternates: { canonical: `${SITE_URL}/pages/web3-pr-agency` },

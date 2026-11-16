@@ -5,7 +5,7 @@ import type { Metadata } from 'next';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Fluence Network Case Study: Making DePIN a Tier-1 Beat',
+  title: { absolute: 'Fluence Network Case Study: Making DePIN a Tier-1 Beat' },
   description: 'How Shilika Jain made DePIN a tier-1 beat and anchored Tom Trowbridge as the category voice across CoinDesk, Cointelegraph, Decrypt and Benzinga.',
   
   alternates: { canonical: 'https://www.shilikajain.com/work/fluence' },

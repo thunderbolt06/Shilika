@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Best DeFi PR Agencies in 2026: 5 Options Compared',
+  title: { absolute: 'Best DeFi PR Agencies in 2026: 5 Options Compared' },
   description: 'Big crypto agencies, DeFi boutiques, Web3 generalists, launch sprints or a fractional lead: fees from $3K to $45K a month, fit and conflicts compared.',
   alternates: { canonical: `${SITE_URL}/playbook/best-defi-pr-agency-2026` },
   openGraph: {

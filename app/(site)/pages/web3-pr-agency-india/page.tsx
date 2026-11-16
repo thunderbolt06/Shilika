@@ -6,7 +6,7 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Web3 PR Agency in India 2026 | Inc42, YourStory, ET',
+  title: { absolute: 'Web3 PR Agency in India 2026 | Inc42, YourStory, ET' },
   description: 'Indian home-market PR plus crypto-native reach, with the Bullieverse dual-track launch as the model.',
   alternates: { canonical: `${SITE_URL}/pages/web3-pr-agency-india` },
   openGraph: {

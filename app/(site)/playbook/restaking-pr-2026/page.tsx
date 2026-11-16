@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'PR for a Restaking and Intents Project in 2026',
+  title: { absolute: 'PR for a Restaking and Intents Project in 2026' },
   description: 'The hardest narratives in crypto are the most technical. How to make restaking, intents and shared security legible to editors and AI engines.',
   alternates: { canonical: `${SITE_URL}/playbook/restaking-pr-2026` },
   openGraph: {

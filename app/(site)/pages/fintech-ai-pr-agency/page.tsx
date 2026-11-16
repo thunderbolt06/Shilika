@@ -6,7 +6,7 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Fintech AI PR Agency 2026 | Regulated, Credible Comms',
+  title: { absolute: 'Fintech AI PR Agency 2026 | Regulated, Credible Comms' },
   description: 'Credibility-led PR for fintech and AI products where trust and regulation shape every message, from careful claims to tier-1 media placement.',
   alternates: { canonical: `${SITE_URL}/pages/fintech-ai-pr-agency` },
   openGraph: {

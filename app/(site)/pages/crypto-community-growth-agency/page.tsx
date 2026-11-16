@@ -6,7 +6,7 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Crypto Community Growth Agency 2026 | Real Audiences',
+  title: { absolute: 'Crypto Community Growth Agency 2026 | Real Audiences' },
   description: 'Build a community that converts, with KOL, content and PR working together rather than in silos, and real members instead of airdrop farmers.',
   alternates: { canonical: `${SITE_URL}/pages/crypto-community-growth-agency` },
   openGraph: {

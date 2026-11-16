@@ -6,7 +6,7 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Blockchain Gaming PR Agency 2026 | Dual-Track Comms',
+  title: { absolute: 'Blockchain Gaming PR Agency 2026 | Dual-Track Comms' },
   description: 'Dual-track PR for gamers and crypto media, with the Bullieverse India launch as the worked example. Built for Web3 studios and game launches.',
   alternates: { canonical: `${SITE_URL}/pages/blockchain-gaming-pr-agency` },
   openGraph: {

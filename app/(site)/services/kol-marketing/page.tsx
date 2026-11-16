@@ -5,7 +5,7 @@ import type { Metadata } from 'next';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Web3 KOL Marketing 2026: 200+ Vetted Creators, FTC-Safe',
+  title: { absolute: 'Web3 KOL Marketing 2026: 200+ Vetted Creators, FTC-Safe' },
   description: 'Web3 KOL marketing for crypto, AI and cybersecurity launches. 200+ vetted creators across X, YouTube, Telegram. Region-segmented waves, FTC-safe disclosures.',
   
   alternates: { canonical: 'https://www.shilikajain.com/services/kol-marketing' },

@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'AI Startup Series A Funding Announcement PR in 2026',
+  title: { absolute: 'AI Startup Series A Funding Announcement PR in 2026' },
   description: 'A raise is a commodity until you frame it. How to turn an AI Series A into a category story instead of another funding-round line item.',
   alternates: { canonical: `${SITE_URL}/playbook/ai-series-a-funding-announcement-pr-2026` },
   openGraph: {

@@ -46,7 +46,7 @@ function renderTestimonials(): string {
 }
 
 export const metadata: Metadata = {
-  title: 'Testimonials - What clients say about Shilika Jain',
+  title: { absolute: 'Testimonials - What clients say about Shilika Jain' },
   description: '19 LinkedIn recommendations from Web3 founders, marketers and journalists who have worked with Shilika Jain - a senior PR strategist for Web3 and AI.',
   
   alternates: { canonical: 'https://www.shilikajain.com/testimonials' },

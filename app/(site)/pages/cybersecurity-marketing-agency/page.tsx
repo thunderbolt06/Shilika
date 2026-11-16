@@ -6,7 +6,7 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Cybersecurity Marketing Agency 2026 | Analyst-Literate',
+  title: { absolute: 'Cybersecurity Marketing Agency 2026 | Analyst-Literate' },
   description: 'Marketing for security vendors that understands analysts, threat research and the trust game, from category narrative to credible press coverage.',
   alternates: { canonical: `${SITE_URL}/pages/cybersecurity-marketing-agency` },
   openGraph: {

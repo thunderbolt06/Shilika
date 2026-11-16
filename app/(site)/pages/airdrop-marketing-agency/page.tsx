@@ -6,7 +6,7 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Airdrop Marketing Agency 2026 | Comms Beyond Farming',
+  title: { absolute: 'Airdrop Marketing Agency 2026 | Comms Beyond Farming' },
   description: 'Message eligibility, avoid a farming-only narrative and turn an airdrop into an actual press moment.',
   alternates: { canonical: `${SITE_URL}/pages/airdrop-marketing-agency` },
   openGraph: {

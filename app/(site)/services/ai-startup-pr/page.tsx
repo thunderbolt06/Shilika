@@ -5,7 +5,7 @@ import type { Metadata } from 'next';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'AI Startup PR in 2026: Fractional Senior Operator',
+  title: { absolute: 'AI Startup PR in 2026: Fractional Senior Operator' },
   description: 'Fractional PR for AI founders and CMOs. Forbes, AI Magazine, Decrypt placements. Category narrative, op-eds, podcast tour. Book a 30-min teardown.',
   
   alternates: { canonical: 'https://www.shilikajain.com/services/ai-startup-pr' },

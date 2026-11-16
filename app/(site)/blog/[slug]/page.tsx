@@ -21,6 +21,7 @@ import {
   regionOf,
   topicShareCard,
 } from '@/components/site/Media';
+import { fitTitle } from '@/lib/site-metadata';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
@@ -42,7 +43,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   // that fits its topic (the single route-to-card mapping in scripts/media/og-map.mjs).
   const card = post.image ? null : topicShareCard(post.slug, post.title, ...post.tags);
   return {
-    title: blogSeoTitle(post.slug, post.title),
+    title: fitTitle(blogSeoTitle(post.slug, post.title)),
     description: post.description,
     alternates: {
       canonical: url,

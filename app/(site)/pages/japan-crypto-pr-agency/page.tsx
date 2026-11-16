@@ -6,7 +6,7 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Japan Crypto PR Agency 2026 | Native Outlets & Norms',
+  title: { absolute: 'Japan Crypto PR Agency 2026 | Native Outlets & Norms' },
   description: 'Native Japanese placement and a pitch approach built for how Japanese newsrooms and regulators work.',
   alternates: { canonical: `${SITE_URL}/pages/japan-crypto-pr-agency` },
   openGraph: {

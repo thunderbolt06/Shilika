@@ -11,7 +11,7 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 const CARD = ogImage('/glossary', SITE_URL);
 
 export const metadata: Metadata = {
-  title: 'Web3 & AI PR Glossary: Plain-English Definitions (2026)',
+  title: { absolute: 'Web3 & AI PR Glossary: Plain-English Definitions (2026)' },
   description:
     'Plain-English definitions of the Web3, AI and cybersecurity PR terms founders actually ask about: fractional PR, GEO and AEO, KOL waves, and the TGE comms plan.',
   alternates: { canonical: `${SITE_URL}/glossary` },

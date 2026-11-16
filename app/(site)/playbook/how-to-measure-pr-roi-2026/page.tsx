@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'How to Measure PR ROI and Share of Voice in 2026',
+  title: { absolute: 'How to Measure PR ROI and Share of Voice in 2026' },
   description: 'Impressions are vanity. The metrics that actually map PR to pipeline, the share-of-voice method, and what to report to a board.',
   alternates: { canonical: `${SITE_URL}/playbook/how-to-measure-pr-roi-2026` },
   openGraph: {

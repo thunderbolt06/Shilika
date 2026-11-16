@@ -6,7 +6,7 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Metaverse PR Agency 2026 | Worlds, IP & Communities',
+  title: { absolute: 'Metaverse PR Agency 2026 | Worlds, IP & Communities' },
   description: 'Coverage for metaverse and immersive projects grounded in product and community, not 2021 hype: worlds, IP, creators and real user traction.',
   alternates: { canonical: `${SITE_URL}/pages/metaverse-pr-agency` },
   openGraph: {

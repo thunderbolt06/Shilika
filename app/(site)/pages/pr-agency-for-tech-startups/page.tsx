@@ -6,7 +6,7 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'PR Agency for Tech Startups 2026 | A Founder\'s Guide',
+  title: { absolute: 'PR Agency for Tech Startups 2026 | A Founder\'s Guide' },
   description: 'The whole PR picture for an early tech startup, and the fractional alternative to a full agency: what to do, when to do it and what it should cost.',
   alternates: { canonical: `${SITE_URL}/pages/pr-agency-for-tech-startups` },
   openGraph: {

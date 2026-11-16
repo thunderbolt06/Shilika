@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'How to Get Podcast Interviews as a Founder in 2026',
+  title: { absolute: 'How to Get Podcast Interviews as a Founder in 2026' },
   description: 'Podcasts are the most underrated founder channel. How to build a target list, pitch hosts, and turn one tour into a quarter of authority.',
   alternates: { canonical: `${SITE_URL}/playbook/how-to-get-podcast-interviews-founder-2026` },
   openGraph: {

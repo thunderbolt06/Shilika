@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Fractional PR Cost and Monthly Retainer Pricing in 2026',
+  title: { absolute: 'Fractional PR Cost and Monthly Retainer Pricing in 2026' },
   description: 'What fractional PR really costs, what a retainer should include, and how to tell a fair price from an underqualified one.',
   alternates: { canonical: `${SITE_URL}/playbook/fractional-pr-cost-pricing-2026` },
   openGraph: {

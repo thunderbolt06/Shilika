@@ -7,6 +7,7 @@ import { AVATAR_IDS, Photo, pickPhoto, regionOf } from '@/components/site/Media'
 import { articleNode } from '@/lib/article-schema';
 import { ogImage } from '@/lib/i18n/og';
 import '../../blog/blog.css';
+import { fitTitle } from '@/lib/site-metadata';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
@@ -26,7 +27,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   if (!entry) return {};
   const url = `${SITE_URL}/glossary/${entry.slug}`;
   return {
-    title: entry.metaTitle,
+    title: fitTitle(entry.metaTitle),
     description: entry.metaDescription,
     alternates: { canonical: url },
     openGraph: {

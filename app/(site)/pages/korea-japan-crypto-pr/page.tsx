@@ -6,7 +6,7 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Korea & Japan Crypto PR 2026 | Dual-Market Access',
+  title: { absolute: 'Korea & Japan Crypto PR 2026 | Dual-Market Access' },
   description: 'Coordinated native coverage across the two highest-value, highest-bar APAC crypto markets, Korea and Japan, with local-language pitching and timing.',
   alternates: { canonical: `${SITE_URL}/pages/korea-japan-crypto-pr` },
   openGraph: {

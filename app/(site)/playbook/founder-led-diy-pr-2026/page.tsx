@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'DIY PR in 2026: How Founders Can Run Their Own Comms',
+  title: { absolute: 'DIY PR in 2026: How Founders Can Run Their Own Comms' },
   description: 'Before you can afford help, you can still earn coverage. The founder-run PR system: news hooks, a media list, pitching and a posting cadence.',
   alternates: { canonical: `${SITE_URL}/playbook/founder-led-diy-pr-2026` },
   openGraph: {

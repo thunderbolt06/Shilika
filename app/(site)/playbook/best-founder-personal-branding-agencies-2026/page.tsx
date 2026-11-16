@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Best Founder Personal Branding Agencies in 2026',
+  title: { absolute: 'Best Founder Personal Branding Agencies in 2026' },
   description: 'A criteria-led look at the founder-branding field, what separates real positioning from ghostwritten LinkedIn spam, and the fractional model.',
   alternates: { canonical: `${SITE_URL}/playbook/best-founder-personal-branding-agencies-2026` },
   openGraph: {

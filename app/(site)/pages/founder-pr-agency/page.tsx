@@ -6,7 +6,7 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Founder PR Agency 2026 | Profiles, Op-Eds, Speaking',
+  title: { absolute: 'Founder PR Agency 2026 | Profiles, Op-Eds, Speaking' },
   description: 'Profiles, op-eds, podcasts and speaking that make the founder a category voice, with a senior operator pitching and placing every piece personally.',
   alternates: { canonical: `${SITE_URL}/pages/founder-pr-agency` },
   openGraph: {

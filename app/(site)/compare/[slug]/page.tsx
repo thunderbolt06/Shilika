@@ -40,7 +40,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const a = load((await params).slug);
   if (!a) return {};
   const url = `${SITE_URL}${comparePath(a)}`;
-  const title = `Shilika Jain vs ${a.name} (2026): Cost, Team & Market Reach`;
+  const full = `Shilika Jain vs ${a.name} (2026): Cost, Team & Market Reach`;
+  const title = full.length <= 60 ? full : `Shilika Jain vs ${a.name} (2026): Cost & Team`;
   const description = `${a.name} or a senior fractional PR operator? Who pitches, markets reached, cost. ${a.pricing.label} vs $3K–$7K a month.`;
   return {
     title: { absolute: title },
