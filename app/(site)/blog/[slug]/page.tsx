@@ -13,6 +13,7 @@ import { jsonLdString } from '@/lib/json-ld';
 import blogFieldNotes from '@/data/blog-field-notes.json';
 import {
   AVATAR_IDS,
+  authorAlt,
   COVER_IDS,
   CTA_IDS,
   CtaBand,
@@ -210,6 +211,7 @@ export default async function BlogPostPage({ params }: { params: Params }) {
   const cardId = byShilika ? pick('card', 'sq', AVATAR_IDS) : null;
 
   return (
+    <main id="main">
     <article className="post-page">
       <script
         id={`post-jsonld-${post.slug}`}
@@ -230,7 +232,7 @@ export default async function BlogPostPage({ params }: { params: Params }) {
         <div className="post-meta-row">
           <div className="post-meta-author">
             {bylineId ? (
-              <Photo id={bylineId} crop="sq" sizes="44px" alt="" />
+              <Photo id={bylineId} crop="sq" sizes="44px" alt={authorAlt(bylineId)} />
             ) : author?.image_url ? (
               // eslint-disable-next-line @next/next/no-img-element
               <img src={author.image_url} alt={author.name} />
@@ -336,7 +338,7 @@ export default async function BlogPostPage({ params }: { params: Params }) {
           {author && (
             <aside className="post-author-card post-mobile-block">
               {cardId ? (
-                <Photo id={cardId} crop="sq" sizes="64px" alt="" />
+                <Photo id={cardId} crop="sq" sizes="64px" alt={authorAlt(cardId)} />
               ) : author.image_url ? (
                 // eslint-disable-next-line @next/next/no-img-element
                 <img src={author.image_url} alt={author.name} />
@@ -401,7 +403,7 @@ export default async function BlogPostPage({ params }: { params: Params }) {
             {author && (
               <aside className="post-author-card">
                 {cardId ? (
-                  <Photo id={cardId} crop="sq" sizes="64px" alt="" />
+                  <Photo id={cardId} crop="sq" sizes="64px" alt={authorAlt(cardId)} />
                 ) : author.image_url ? (
                   // eslint-disable-next-line @next/next/no-img-element
                   <img src={author.image_url} alt={author.name} />
@@ -464,5 +466,6 @@ export default async function BlogPostPage({ params }: { params: Params }) {
         <a href="/blog">All playbooks</a>
       </div>
     </article>
+    </main>
   );
 }
