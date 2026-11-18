@@ -2839,3 +2839,33 @@ a.press-item { text-decoration: none; }
   .ai-seo-home-stat, .ai-seo-home-stat + .ai-seo-home-stat { padding: 24px 0; border-left: 0; border-top: 0; }
   .ai-seo-home-stat:first-child { border-top: 1px solid var(--line-dark); }
 }
+
+/* Hub page intros (SEO 30d D15). Copy lives in lib/hub-intros.ts. */
+.hub-intro {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px 48px;
+  margin: 48px 0 0;
+  padding-top: 32px;
+  border-top: 1px solid var(--line);
+}
+.hub-intro p {
+  font-size: clamp(15px, 1.15vw, 17px);
+  line-height: 1.6;
+  color: var(--ink-2);
+  max-width: 62ch;
+}
+.hub-intro a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.hub-intro--section {
+  max-width: var(--max);
+  margin: -20px auto 56px;
+  padding: 32px var(--pad) 0;
+  border-top: 0;
+}
+@media (max-width: 900px) {
+  .hub-intro { grid-template-columns: 1fr; margin-top: 32px; }
+}

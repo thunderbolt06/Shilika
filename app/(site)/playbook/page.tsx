@@ -4,6 +4,7 @@ import type { Metadata } from 'next';
 import { JsonLdScript } from '@/components/site/JsonLdScript';
 import { isRedirectedPath } from '@/lib/seo-redirects';
 import '../blog/blog.css';
+import { HubIntro } from '@/components/site/HubIntro';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
@@ -1080,6 +1081,8 @@ export default function PlaybookIndexPage() {
               </p>
             </div>
           </section>
+
+          <HubIntro hub="playbook" />
 
           <div className="blog-list">
             {PLAYBOOKS.map((p) => (

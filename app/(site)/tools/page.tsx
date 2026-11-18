@@ -11,6 +11,7 @@ import '../blog/blog.css';
 import './tools.css';
 import './free-tools.css';
 import { fitTitle } from '@/lib/site-metadata';
+import { HubIntro } from '@/components/site/HubIntro';
 
 const PLANNING: IndexGroup = {
   id: 'planning',
@@ -128,6 +129,8 @@ export default function ToolsIndexPage() {
                 <p>Marketing, SEO and PR tools that run in your browser. No signup.</p>
               </div>
             </section>
+
+            <HubIntro hub="tools" />
 
             <PhotoBand
               id="sg-river-b"

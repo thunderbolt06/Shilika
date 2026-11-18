@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import type { Metadata } from 'next';
+import { withHubIntro } from '@/lib/hub-intros';
 import { EditorialShell } from '@/components/site/EditorialChrome';
 import { EditorialScripts } from '@/components/site/EditorialScripts';
 
@@ -37,7 +38,7 @@ export default function Page() {
   return (
     <>
       <EditorialShell>
-        <div dangerouslySetInnerHTML={{ __html: loadBody() }} />
+        <div dangerouslySetInnerHTML={{ __html: withHubIntro(loadBody(), 'press') }} />
       </EditorialShell>
       <EditorialScripts />
     </>

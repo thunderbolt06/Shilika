@@ -4,6 +4,7 @@ import type { BlogPost } from '@/lib/supabase/types';
 import { Photo, PhotoBand, pickPhoto, regionOf } from '@/components/site/Media';
 import { ogImage } from '@/lib/i18n/og';
 import { jsonLdString } from '@/lib/json-ld';
+import { HubIntro } from '@/components/site/HubIntro';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
@@ -123,6 +124,8 @@ export default async function BlogIndexPage() {
             </p>
           </div>
         </section>
+
+        <HubIntro hub="blog" />
 
         <PhotoBand
           id={BAND_PHOTO}

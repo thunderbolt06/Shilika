@@ -6,6 +6,7 @@ import { PhotoBand } from '@/components/site/Media';
 import { articleNode } from '@/lib/article-schema';
 import { ogImage } from '@/lib/i18n/og';
 import '../blog/blog.css';
+import { HubIntro } from '@/components/site/HubIntro';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 const CARD = ogImage('/glossary', SITE_URL);
@@ -103,6 +104,8 @@ export default function GlossaryIndexPage() {
                 </p>
               </div>
             </section>
+
+            <HubIntro hub="glossary" />
 
             <PhotoBand
               id="sg-marina-b"
