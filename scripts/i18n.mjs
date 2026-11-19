@@ -108,6 +108,8 @@ function sourceKeys() {
   return fs.readdirSync(SOURCE_DIR).filter((f) => f.endsWith('.json')).map((f) => f.slice(0, -5));
 }
 
+const CJK_LOCALES = ['ja', 'zh'];
+
 function audit({ prune }) {
   let problems = 0;
   for (const locale of LOCALES) {
@@ -126,6 +128,10 @@ function audit({ prune }) {
         ([id, text]) => id in source.segments && !placeholdersMatch(source.segments[id], text),
       );
       const noMeta = source.meta && !(target.meta?.title && target.meta?.description);
+      // CJK descriptions: one char is about two Latin columns, so cap at 120 and end on a sentence.
+      const desc = target.meta?.description ?? '';
+      const badDesc =
+        CJK_LOCALES.includes(locale) && desc && (desc.length > 120 || !/[。！？.!?」）)]$/.test(desc.trim()));
 
       if (prune && stale.length) {
         for (const id of stale) delete target.segments[id];
@@ -133,10 +139,11 @@ function audit({ prune }) {
         console.log(`${locale}/${key}: pruned ${stale.length} stale`);
         stale.length = 0;
       }
-      if (!missing.length && !stale.length && !broken.length && !noMeta) continue;
+      if (!missing.length && !stale.length && !broken.length && !noMeta && !badDesc) continue;
       problems++;
       const parts = [];
       if (noMeta) parts.push('meta missing');
+      if (badDesc) parts.push(`description ${desc.length} chars or no sentence end (max 120 for ja/zh)`);
       if (missing.length) parts.push(`${missing.length} missing [${missing.join(' ')}]`);
       if (stale.length) parts.push(`${stale.length} stale`);
       if (broken.length) parts.push(`${broken.length} broken placeholders [${broken.map(([id]) => id).join(' ')}]`);
