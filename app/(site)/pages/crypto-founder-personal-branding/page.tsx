@@ -6,7 +6,7 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Crypto Founder Personal Branding 2026 | X + LinkedIn',
+  title: { absolute: 'Crypto Founder Personal Branding 2026 | X + LinkedIn' },
   description: 'An X and LinkedIn system that builds authority and still sounds like you, not a content mill, with a sustainable weekly cadence for busy founders.',
   alternates: { canonical: `${SITE_URL}/pages/crypto-founder-personal-branding` },
   openGraph: {

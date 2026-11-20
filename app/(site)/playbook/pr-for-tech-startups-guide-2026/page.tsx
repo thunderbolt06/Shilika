@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'PR for Tech Startups in 2026: A Founder\'s Guide',
+  title: { absolute: 'PR for Tech Startups in 2026: A Founder\'s Guide' },
   description: 'The whole PR picture for an early tech startup: when to start, what to spend, what to do yourself, and what actually earns coverage.',
   alternates: { canonical: `${SITE_URL}/playbook/pr-for-tech-startups-guide-2026` },
   openGraph: {

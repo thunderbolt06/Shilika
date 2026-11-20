@@ -6,7 +6,7 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Fractional Head of PR 2026 | Senior Comms Leadership',
+  title: { absolute: 'Fractional Head of PR 2026 | Senior Comms Leadership' },
   description: 'Senior comms leadership without a full-time hire, embedded and accountable: narrative, media relations, launches and crisis readiness for your team.',
   alternates: { canonical: `${SITE_URL}/pages/fractional-head-of-pr` },
   openGraph: {

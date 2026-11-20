@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Op-Ed Ghostwriting for Executives in 2026: How It Works',
+  title: { absolute: 'Op-Ed Ghostwriting for Executives in 2026: How It Works' },
   description: 'The founder\'s name, the founder\'s thinking, an editor-ready piece. What ghostwriting actually involves, what it costs, and how to keep it authentic.',
   alternates: { canonical: `${SITE_URL}/playbook/op-ed-ghostwriting-executives-2026` },
   openGraph: {

@@ -6,7 +6,7 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Crypto Press Release Distribution 2026 | Wire vs Earned',
+  title: { absolute: 'Crypto Press Release Distribution 2026 | Wire vs Earned' },
   description: 'Distribution that drives real pickup, not just syndication, paired with direct pitching to the right desks.',
   alternates: { canonical: `${SITE_URL}/pages/crypto-press-release-distribution-service` },
   openGraph: {

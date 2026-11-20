@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'How to Get Media Coverage for a DeFi Protocol in 2026',
+  title: { absolute: 'How to Get Media Coverage for a DeFi Protocol in 2026' },
   description: 'DeFi coverage rewards mechanism clarity and real TVL. How to pitch a protocol without sounding like every other yield story.',
   alternates: { canonical: `${SITE_URL}/playbook/defi-protocol-pr-strategy-2026` },
   openGraph: {

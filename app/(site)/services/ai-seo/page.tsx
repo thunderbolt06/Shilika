@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import type { Metadata } from 'next';
+import { fitTitle } from '@/lib/site-metadata';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 const PAGE_URL = `${SITE_URL}/services/ai-seo`;
@@ -9,7 +10,7 @@ const OG_DESCRIPTION =
   'AI SEO (GEO and AEO) that gets your brand cited in ChatGPT, Perplexity, Gemini and Google AI Overviews. PR-led mentions plus engineered answer pages. Plans from $1,000.';
 
 export const metadata: Metadata = {
-  title: TITLE,
+  title: fitTitle(TITLE),
   description:
     'AI SEO (GEO and AEO) from Shilika Jain and AI engineer Rahil Jain. 100 AI-feed pages, technical SEO, branded placements and a citation panel. From $1,000.',
   alternates: { canonical: PAGE_URL },

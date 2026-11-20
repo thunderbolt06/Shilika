@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Token Launch Marketing Agencies in India in 2026',
+  title: { absolute: 'Token Launch Marketing Agencies in India in 2026' },
   description: 'Launching a token with an Indian home base or audience. The agencies, the compliance reality, and the dual-track launch that works here.',
   alternates: { canonical: `${SITE_URL}/playbook/token-launch-marketing-agency-india-2026` },
   openGraph: {

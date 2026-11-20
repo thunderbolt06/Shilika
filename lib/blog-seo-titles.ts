@@ -1,5 +1,5 @@
 // SEO <title> overrides for blog posts whose headline is too long for a search result.
-// The layout adds " | Shilika Jain" (15 chars), so each value stays at 45 chars or fewer.
+// The layout adds " | Shilika Jain" (15 chars), so each value stays at 45 chars or fewer (fitTitle drops the suffix for longer ones, up to 60).
 // The on-page H1, Open Graph and Twitter titles keep the full headline from the database.
 export const BLOG_SEO_TITLES: Record<string, string> = {
   'how-to-pitch-journalists-email-templates': 'How to Pitch Journalists: Email Templates',
@@ -208,6 +208,44 @@ export const BLOG_SEO_TITLES: Record<string, string> = {
   'airdrop-backlash-pr-response-playbook': 'Airdrop Backlash PR Response Playbook',
   'podcast-pr-for-ai-founders': 'Podcast PR for AI Founders',
   'vertical-ai-marketing-healthcare-legal-fintech': 'Vertical AI Marketing: Health, Legal, Fintech',
+  'ai-generated-press-release-risks-accuracy': 'Risks of AI-Written Press Releases: A Review Checklist',
+  'announcement-fatigue-crypto-community': 'Announcement Fatigue: Signs Your Crypto Community Left',
+  'behind-the-scenes-content-building-in-web3': 'Behind-the-Scenes Content Ideas for Web3 Startups',
+  'can-founders-review-article-before-publication': 'Can a Founder Review an Article Before It Runs?',
+  'conference-content-capture-plan': 'Conference Content Plan: Capture Once, Publish for Weeks',
+  'conference-follow-up-system-48-hours': 'Conference Follow-Up Emails: A 48-Hour System',
+  'crypto-conference-budget-template-startup': 'Conference Budget Template for Startups: Hidden Lines',
+  'crypto-journalist-follow-up-etiquette-how-many-times': 'How Many Times to Follow Up With a Crypto Journalist',
+  'crypto-quest-campaigns-what-they-buy': 'Are Crypto Quest Campaigns Worth It? What You Buy',
+  'earned-media-attribution-user-growth': 'How to Attribute Signups to PR Coverage Honestly',
+  'emerging-market-crypto-adoption-story-angles': 'Emerging Market Crypto Stories Reporters Actually Run',
+  'entry-level-pr-jobs-ai-future-juniors': 'Will AI Replace Entry-Level PR Jobs? What Juniors Do',
+  'founder-letter-quarterly-update-community': 'Founder Letter to Your Community: A Quarterly Structure',
+  'founder-pitch-vs-user-pitch-two-audiences': 'Investor Pitch vs Customer Pitch for Web3 Founders',
+  'getting-hired-in-web3-through-x': 'How to Get a Web3 Job Through X: Show Work, Then Ask',
+  'global-announcement-timing-across-apac-time-zones': 'Best Time to Send a Press Release Globally',
+  'human-judgment-crisis-communications-ai-limits': 'Can AI Handle Crisis Communications? Limits and Uses',
+  'incentivized-testnet-communications-plan': 'Incentivized Testnet Marketing: A Comms Plan',
+  'media-coverage-employer-brand-hiring-web3': 'PR for Startup Recruiting: How Candidates Read Coverage',
+  'post-airdrop-retention-metrics-reporting': 'Airdrop Retention Metrics: What to Track and Report',
+  'posting-consistency-x-compounding-years': 'How Long Does It Take to Grow on X? What Compounds',
+  'pr-and-sales-pipeline-realistic-expectations': 'Does PR Generate B2B Leads? Where Coverage Shows Up',
+  'pr-cannot-fix-bad-product-or-tokenomics': 'Can PR Fix a Bad Product? A Readiness Audit First',
+  'pr-cannot-kill-negative-story-what-to-do': 'Remove a Negative Article? What Works Instead',
+  'pr-generalist-to-ai-comms-specialist-skills': 'From General PR to AI Communications Specialist',
+  'quarterly-narrative-arc-comms-plan-web3': 'Quarterly Comms Plan Template: One Story, Three Acts',
+  'real-user-stories-crypto-pr-case-studies': 'Find User Stories for PR and Vet Them Before Pitching',
+  'repurpose-x-posts-into-blog-linkedin-content': 'Repurpose X Posts Into Blog and LinkedIn Content',
+  'small-pr-team-structure-ai-assisted-2026': 'Small PR Team Structure in 2026: Senior Lead Plus AI',
+  'story-bank-template-collect-team-stories': 'Story Bank Template: Collect Stories for PR and Content',
+  'wallet-onboarding-copy-reduce-crypto-friction': 'Crypto Wallet Onboarding Copy: Four Friction Points',
+  'warm-intro-to-journalist-how-to-ask': 'Warm Intro to a Journalist: How to Ask Without Burning It',
+  'web3-category-naming-create-or-join': 'Create a New Category or Join One? A Web3 Decision Guide',
+  'what-media-coverage-does-for-fundraising': 'Does Media Coverage Help Fundraising? What Investors Do',
+  'who-to-send-to-crypto-conference-team': 'Who Should Attend Conferences From Your Startup?',
+  'why-ai-companies-invest-in-communications': 'Why AI Companies Need PR: Five Unique Pressures',
+  'x-for-web3-marketers-comms-professionals-career': 'X for Marketing Professionals: A Career Your CV Hides',
+  'x-threads-vs-single-posts-crypto': 'X Threads vs Single Posts: When Each Wins in Crypto',
 };
 
 export function blogSeoTitle(slug: string, title: string): string {

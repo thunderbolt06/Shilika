@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'How to Get Speaking Slots at Crypto Conferences in 2026',
+  title: { absolute: 'How to Get Speaking Slots at Crypto Conferences in 2026' },
   description: 'Consensus, Token2049, ETHDenver and the rest. How conference programming actually works and how founders earn a real slot, not a side stage.',
   alternates: { canonical: `${SITE_URL}/playbook/how-to-get-speaking-slots-crypto-conferences-2026` },
   openGraph: {

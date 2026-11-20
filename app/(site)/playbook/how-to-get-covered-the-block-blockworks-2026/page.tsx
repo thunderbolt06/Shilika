@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'How to Get Covered by The Block and Blockworks in 2026',
+  title: { absolute: 'How to Get Covered by The Block and Blockworks in 2026' },
   description: 'The Block still runs a scoop-and-data newsroom. Blockworks closed its news desk in 2025. How to pitch The Block and get onto Blockworks shows in 2026.',
   alternates: { canonical: `${SITE_URL}/playbook/how-to-get-covered-the-block-blockworks-2026` },
   openGraph: {

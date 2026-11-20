@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'PR for AI x Crypto and Agentic Projects in 2026',
+  title: { absolute: 'PR for AI x Crypto and Agentic Projects in 2026' },
   description: 'Projects at the AI-and-crypto seam need both playbooks at once. How to run credibility-led AI PR and speed-led crypto PR in parallel.',
   alternates: { canonical: `${SITE_URL}/playbook/ai-x-crypto-agent-pr-2026` },
   openGraph: {

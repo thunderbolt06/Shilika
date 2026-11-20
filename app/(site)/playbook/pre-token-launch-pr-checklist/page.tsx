@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Pre-Token Launch PR Checklist 2026: 25 Steps Before TGE',
+  title: { absolute: 'Pre-Token Launch PR Checklist 2026: 25 Steps Before TGE' },
   description: 'The 25-item, five-phase pre-token-launch PR checklist for 2026: positioning, press kit, embargo, KOL waves, launch week and post-TGE. Free PDF.',
 
   alternates: { canonical: `${SITE_URL}/playbook/pre-token-launch-pr-checklist` },

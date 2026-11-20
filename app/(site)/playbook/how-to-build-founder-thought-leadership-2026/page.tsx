@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'How to Build Founder Thought Leadership in 2026',
+  title: { absolute: 'How to Build Founder Thought Leadership in 2026' },
   description: 'Thought leadership is earned, not posted. The cadence, the channels and the author-entity build that turns a founder into a cited authority.',
   alternates: { canonical: `${SITE_URL}/playbook/how-to-build-founder-thought-leadership-2026` },
   openGraph: {

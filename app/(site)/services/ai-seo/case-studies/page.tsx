@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import type { Metadata } from 'next';
+import { fitTitle } from '@/lib/site-metadata';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 const PAGE_URL = `${SITE_URL}/services/ai-seo/case-studies`;
@@ -9,7 +10,7 @@ const OG_DESCRIPTION =
   'Seven campaigns across AI search and tier-1 press, every one linked to its source. Meru Trophy, shilikajain.com, Gaia, Bullieverse, MANTRA, RARI and Web3Auth.';
 
 export const metadata: Metadata = {
-  title: TITLE,
+  title: fitTitle(TITLE),
   description:
     'Seven campaigns across AI search and tier-1 press: Meru Trophy 27,300 Google clicks, shilikajain.com #1 in a month, Gaia in Forbes, MANTRA in CoinDesk.',
   alternates: { canonical: PAGE_URL },

@@ -6,7 +6,7 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Crypto Ghostwriting Agency 2026 | Founder-Voice Content',
+  title: { absolute: 'Crypto Ghostwriting Agency 2026 | Founder-Voice Content' },
   description: 'Op-eds, threads and long-form essays written in a founder\'s actual voice, not template copy with the name swapped in.',
   alternates: { canonical: `${SITE_URL}/pages/crypto-ghostwriting-agency` },
   openGraph: {

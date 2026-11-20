@@ -8,7 +8,7 @@ import { languageAlternates } from '@/lib/i18n/config';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'How Much Does Crypto PR Cost in 2026? Honest Pricing',
+  title: { absolute: 'How Much Does Crypto PR Cost in 2026? Honest Pricing' },
   description: 'What crypto PR actually costs in 2026: agency retainers, fractional models, single-launch sprints, KOL waves and the hidden line items most contracts bury.',
   
   alternates: { canonical: 'https://www.shilikajain.com/playbook/crypto-pr-cost-2026', languages: languageAlternates('/playbook/crypto-pr-cost-2026') },

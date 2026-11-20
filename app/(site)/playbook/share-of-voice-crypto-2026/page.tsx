@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Share of Voice in Crypto: How to Track It in 2026',
+  title: { absolute: 'Share of Voice in Crypto: How to Track It in 2026' },
   description: 'Share of voice is the one metric that survives a bear market. How to define your set, measure it, and use it to steer a comms program.',
   alternates: { canonical: `${SITE_URL}/playbook/share-of-voice-crypto-2026` },
   openGraph: {

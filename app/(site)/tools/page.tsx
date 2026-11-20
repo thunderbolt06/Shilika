@@ -10,6 +10,8 @@ import { ogImage } from '@/lib/i18n/og';
 import '../blog/blog.css';
 import './tools.css';
 import './free-tools.css';
+import { fitTitle } from '@/lib/site-metadata';
+import { HubIntro } from '@/components/site/HubIntro';
 
 const PLANNING: IndexGroup = {
   id: 'planning',
@@ -54,7 +56,7 @@ const TITLE = 'Free Marketing Tools: SEO, PR, Social and Calculators';
 const DESCRIPTION = `${COUNT} free marketing tools, no signup: UTM builder, SERP preview, schema and llms.txt generators, ROAS and A/B calculators, press release generator and more.`;
 
 export const metadata: Metadata = {
-  title: TITLE,
+  title: fitTitle(TITLE),
   description: DESCRIPTION,
   alternates: { canonical: `${SITE_URL}/tools` },
   openGraph: {
@@ -127,6 +129,8 @@ export default function ToolsIndexPage() {
                 <p>Marketing, SEO and PR tools that run in your browser. No signup.</p>
               </div>
             </section>
+
+            <HubIntro hub="tools" />
 
             <PhotoBand
               id="sg-river-b"

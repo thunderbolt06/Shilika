@@ -6,7 +6,7 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'India Crypto PR Agency 2026 | Inc42, ET, Dual-Track',
+  title: { absolute: 'India Crypto PR Agency 2026 | Inc42, ET, Dual-Track' },
   description: 'Home-market Indian coverage plus crypto-native reach, with a compliance-aware dual-track launch built around Inc42, Economic Times and global crypto press.',
   alternates: { canonical: `${SITE_URL}/pages/india-crypto-pr-agency` },
   openGraph: {

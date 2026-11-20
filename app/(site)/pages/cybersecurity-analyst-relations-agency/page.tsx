@@ -6,7 +6,7 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Cybersecurity Analyst Relations Agency 2026 | MQ & Wave',
+  title: { absolute: 'Cybersecurity Analyst Relations Agency 2026 | MQ & Wave' },
   description: 'Briefing cadence and positioning that earns Magic Quadrant and Wave consideration before press even runs.',
   alternates: { canonical: `${SITE_URL}/pages/cybersecurity-analyst-relations-agency` },
   openGraph: {

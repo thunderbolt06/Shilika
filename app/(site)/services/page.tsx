@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import type { Metadata } from 'next';
+import { withHubIntro } from '@/lib/hub-intros';
 import { languageAlternates } from '@/lib/i18n/config';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
@@ -34,5 +35,5 @@ function loadBody(): string {
 }
 
 export default function Page() {
-  return <div dangerouslySetInnerHTML={{ __html: loadBody() }} />;
+  return <div dangerouslySetInnerHTML={{ __html: withHubIntro(loadBody(), 'services') }} />;
 }

@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'The TGE Communications Timeline for 2026: Week by Week',
+  title: { absolute: 'The TGE Communications Timeline for 2026: Week by Week' },
   description: 'An eight-week, dated comms timeline into and out of a token generation event, mapping narrative, media, KOLs and crisis prep to the calendar.',
   alternates: { canonical: `${SITE_URL}/playbook/tge-communications-timeline-2026` },
   openGraph: {

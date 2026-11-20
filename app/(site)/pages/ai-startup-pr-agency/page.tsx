@@ -6,7 +6,7 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'AI Startup PR Agency 2026 | Fractional AI Publicist',
+  title: { absolute: 'AI Startup PR Agency 2026 | Fractional AI Publicist' },
   description: 'Tier-1 AI PR from a senior operator: Forbes, TechCrunch, The Information and AI Magazine, plus the AI-search work that gets you cited.',
   alternates: { canonical: `${SITE_URL}/pages/ai-startup-pr-agency` },
   openGraph: {

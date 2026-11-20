@@ -18,7 +18,7 @@
   --cream: oklch(0.93 0.04 85);
   --lime: oklch(0.92 0.18 115);
   --lime-2: oklch(0.85 0.2 115);
-  --muted: oklch(0.55 0.01 80);
+  --muted: oklch(0.52 0.01 80);
   --line: oklch(0.85 0.01 80);
   --line-dark: oklch(0.30 0.01 80);
 
@@ -276,6 +276,7 @@ ul { list-style: none; }
 }
 .nav-links a {
   position: relative;
+  display: inline-block; /* 26px tall: clears the 24px tap-target minimum */
   padding: 4px 0;
 }
 .nav-links a::after {
@@ -929,7 +930,7 @@ ul { list-style: none; }
   color: var(--lime);
   padding-top: 4px;
 }
-.intro-reasons h4 {
+.intro-reasons h3 {
   font-family: var(--font-display);
   font-weight: 400;
   font-size: clamp(17px, 1.4vw, 22px);
@@ -2460,7 +2461,7 @@ a.press-item { text-decoration: none; }
   color: rgba(255,255,255,0.55);
   text-decoration: none;
   line-height: 1;
-  padding: 5px 0;
+  padding: 6px 0; /* 25px tall: clears the 24px tap-target minimum */
   transition: color 0.18s;
 }
 .footer-nav-col a:hover { color: #fff; }
@@ -2837,4 +2838,34 @@ a.press-item { text-decoration: none; }
   .ai-seo-home-grid, .ai-seo-home-links { grid-template-columns: 1fr; }
   .ai-seo-home-stat, .ai-seo-home-stat + .ai-seo-home-stat { padding: 24px 0; border-left: 0; border-top: 0; }
   .ai-seo-home-stat:first-child { border-top: 1px solid var(--line-dark); }
+}
+
+/* Hub page intros (SEO 30d D15). Copy lives in lib/hub-intros.ts. */
+.hub-intro {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px 48px;
+  margin: 48px 0 0;
+  padding-top: 32px;
+  border-top: 1px solid var(--line);
+}
+.hub-intro p {
+  font-size: clamp(15px, 1.15vw, 17px);
+  line-height: 1.6;
+  color: var(--ink-2);
+  max-width: 62ch;
+}
+.hub-intro a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.hub-intro--section {
+  max-width: var(--max);
+  margin: -20px auto 56px;
+  padding: 32px var(--pad) 0;
+  border-top: 0;
+}
+@media (max-width: 900px) {
+  .hub-intro { grid-template-columns: 1fr; margin-top: 32px; }
 }

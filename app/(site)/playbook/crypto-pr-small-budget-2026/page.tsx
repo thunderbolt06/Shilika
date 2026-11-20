@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Crypto PR on a Small Budget in 2026: What\'s Actually Possible',
+  title: 'Crypto PR on a Small Budget in 2026',
   description: 'You do not need a $40K sprint to earn coverage. The high-leverage moves a lean team can run themselves, and where to spend the first dollar.',
   alternates: { canonical: `${SITE_URL}/playbook/crypto-pr-small-budget-2026` },
   openGraph: {

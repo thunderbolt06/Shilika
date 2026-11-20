@@ -5,7 +5,7 @@ import type { Metadata } from 'next';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Token Launch PR 2026: TGE Comms, Exchange & KOL Waves',
+  title: { absolute: 'Token Launch PR 2026: TGE Comms, Exchange & KOL Waves' },
   description: 'Token launch and TGE PR run by one senior operator. Pre-launch sequencing, embargo strategy, exchange comms, KOL waves, post-TGE coverage. Book a teardown.',
   
   alternates: { canonical: 'https://www.shilikajain.com/services/token-launch-pr' },

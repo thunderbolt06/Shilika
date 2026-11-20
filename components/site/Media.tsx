@@ -48,6 +48,16 @@ export function photoMeta(id: string): PhotoMeta {
   return p;
 }
 
+/**
+ * Alt text for an author photo next to a byline or author card: who she is, then the scene.
+ * "Shilika Jain at the X wall" becomes "Shilika Jain, Web3 and AI PR consultant, at the X wall".
+ */
+export function authorAlt(id: string): string {
+  const alt = photoMeta(id).alt;
+  const scene = alt.replace(/^Shilika Jain\s*/, '');
+  return scene ? `Shilika Jain, Web3 and AI PR consultant, ${scene}` : alt;
+}
+
 export function hasCrop(id: string, crop: Crop): boolean {
   return Boolean(MANIFEST[id]?.[crop]);
 }

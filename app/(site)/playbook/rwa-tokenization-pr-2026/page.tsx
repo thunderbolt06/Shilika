@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'PR for an RWA and Tokenization Project in 2026',
+  title: { absolute: 'PR for an RWA and Tokenization Project in 2026' },
   description: 'Real-world assets is where TradFi credibility meets crypto distribution. How to earn coverage that institutions and crypto media both take seriously.',
   alternates: { canonical: `${SITE_URL}/playbook/rwa-tokenization-pr-2026` },
   openGraph: {

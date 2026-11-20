@@ -6,7 +6,7 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'ICO & IDO Marketing Agency 2026 | Credible Launch Comms',
+  title: { absolute: 'ICO & IDO Marketing Agency 2026 | Credible Launch Comms' },
   description: 'Build demand and credibility around a public sale without the hype-cycle damage that kills long-term trust.',
   alternates: { canonical: `${SITE_URL}/pages/ico-ido-marketing-agency` },
   openGraph: {

@@ -7,7 +7,7 @@ import { EditorialScripts } from '@/components/site/EditorialScripts';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'FAQ: Fractional Web3 & AI PR - Scope, Cost, Regions',
+  title: { absolute: 'FAQ: Fractional Web3 & AI PR - Scope, Cost, Regions' },
   description:
     'Short, honest answers on scope, cost, regions, and how fractional PR differs from a Web3 PR agency. Questions founders ask before booking.',
   alternates: { canonical: `${SITE_URL}/faq` },

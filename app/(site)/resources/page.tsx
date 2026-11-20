@@ -5,6 +5,7 @@ import { EditorialShell } from '@/components/site/EditorialChrome';
 import { PhotoBand, PosterWall } from '@/components/site/Media';
 import { ogImage } from '@/lib/i18n/og';
 import '../blog/blog.css';
+import { HubIntro } from '@/components/site/HubIntro';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
@@ -256,6 +257,8 @@ export default function ResourcesPage() {
                 </p>
               </div>
             </section>
+
+            <HubIntro hub="resources" />
 
             <PhotoBand
               id="sg-bridge-b"

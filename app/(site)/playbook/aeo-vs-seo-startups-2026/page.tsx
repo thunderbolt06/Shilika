@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'AEO vs SEO: What Startups Actually Need in 2026',
+  title: { absolute: 'AEO vs SEO: What Startups Actually Need in 2026' },
   description: 'Answer-engine optimization is not a replacement for SEO, it\'s a layer on top. What\'s different, what overlaps, and where to spend first.',
   alternates: { canonical: `${SITE_URL}/playbook/aeo-vs-seo-startups-2026` },
   openGraph: {

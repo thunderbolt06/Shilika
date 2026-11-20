@@ -6,7 +6,7 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Crypto Exchange Listing PR 2026 | Binance, OKX, Bybit',
+  title: { absolute: 'Crypto Exchange Listing PR 2026 | Binance, OKX, Bybit' },
   description: 'A repeatable listing-announcement playbook across Binance, OKX, Bybit and more, with the compliance lines built in.',
   alternates: { canonical: `${SITE_URL}/pages/crypto-exchange-listing-pr` },
   openGraph: {

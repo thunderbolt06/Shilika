@@ -6,7 +6,7 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Crypto PR Consultant 2026 | Senior Operator, Direct',
+  title: { absolute: 'Crypto PR Consultant 2026 | Senior Operator, Direct' },
   description: 'A senior crypto PR consultant who builds the relationships and pitches the editors personally, with no account managers or junior handoffs.',
   alternates: { canonical: `${SITE_URL}/pages/crypto-pr-consultant` },
   openGraph: {

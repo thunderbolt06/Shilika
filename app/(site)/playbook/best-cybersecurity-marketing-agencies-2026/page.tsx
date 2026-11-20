@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Best Marketing Agencies for Cybersecurity Firms in 2026',
+  title: { absolute: 'Best Marketing Agencies for Cybersecurity Firms in 2026' },
   description: 'Cybersecurity marketing is a credibility game most agencies misread. A criteria-led field guide and the analyst-aware alternative.',
   alternates: { canonical: `${SITE_URL}/playbook/best-cybersecurity-marketing-agencies-2026` },
   openGraph: {

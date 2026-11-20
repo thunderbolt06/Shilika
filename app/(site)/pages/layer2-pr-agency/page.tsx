@@ -6,7 +6,7 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Layer-2 PR Agency 2026 | Rollups, Appchains, Scaling',
+  title: { absolute: 'Layer-2 PR Agency 2026 | Rollups, Appchains, Scaling' },
   description: 'Position an L2, rollup or appchain around a category it can own, with the RARI Chain framing lesson.',
   alternates: { canonical: `${SITE_URL}/pages/layer2-pr-agency` },
   openGraph: {

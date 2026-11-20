@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'How to Get Your Crypto Project Into Forbes in 2026',
+  title: { absolute: 'How to Get Your Crypto Project Into Forbes in 2026' },
   description: 'Forbes staff vs Forbes Councils vs contributors, what each is worth, and how to earn a real editorial feature instead of a pay-to-play byline.',
   alternates: { canonical: `${SITE_URL}/playbook/how-to-get-crypto-project-into-forbes-2026` },
   openGraph: {
