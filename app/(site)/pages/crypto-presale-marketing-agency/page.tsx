@@ -6,7 +6,7 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Crypto Presale Marketing Agency 2026 | Launchpad Comms',
+  title: { absolute: 'Crypto Presale Marketing Agency 2026 | Launchpad Comms' },
   description: 'Demand and credibility around a presale, with KOL and community sequencing that survives the launch.',
   alternates: { canonical: `${SITE_URL}/pages/crypto-presale-marketing-agency` },
   openGraph: {

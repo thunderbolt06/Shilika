@@ -6,7 +6,7 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Korea Crypto PR Agency 2026 | KBW, BloomingBit, KOLs',
+  title: { absolute: 'Korea Crypto PR Agency 2026 | KBW, BloomingBit, KOLs' },
   description: 'Korea crypto PR after KBW 2026: BloomingBit and TokenPost placement, Korean KOLs, and a Korea Fintech Week (25 to 27 Nov) plan for $3K to $7K a month.',
   alternates: { canonical: `${SITE_URL}/pages/korea-crypto-pr-agency` },
   openGraph: {

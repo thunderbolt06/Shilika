@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Best Crypto Press Release Services Compared in 2026',
+  title: { absolute: 'Best Crypto Press Release Services Compared in 2026' },
   description: 'A criteria-led look at the main crypto PR-distribution services, what they really deliver, and the cheaper earned-media alternative.',
   alternates: { canonical: `${SITE_URL}/playbook/best-crypto-press-release-services-2026` },
   openGraph: {

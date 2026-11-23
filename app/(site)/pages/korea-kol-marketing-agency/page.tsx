@@ -6,7 +6,7 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Korea KOL Marketing Agency 2026 | Native Creator Waves',
+  title: { absolute: 'Korea KOL Marketing Agency 2026 | Native Creator Waves' },
   description: 'Korean creator activation by Korea\'s own rules, rates and platforms, with native briefs and disclosure.',
   alternates: { canonical: `${SITE_URL}/pages/korea-kol-marketing-agency` },
   openGraph: {

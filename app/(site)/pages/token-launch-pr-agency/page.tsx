@@ -6,7 +6,7 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Token Launch & TGE PR Agency 2026 | Shilika Jain',
+  title: { absolute: 'Token Launch & TGE PR Agency 2026 | Shilika Jain' },
   description: 'A senior operator who runs your TGE comms end to end: embargo, tier-1 outreach, exchange coordination and a three-wave KOL launch.',
   alternates: { canonical: `${SITE_URL}/pages/token-launch-pr-agency` },
   openGraph: {

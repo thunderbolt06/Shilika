@@ -5,7 +5,7 @@ import type { Metadata } from 'next';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'APAC Crypto PR 2026: Korea, Japan, Vietnam, India, MENA',
+  title: { absolute: 'APAC Crypto PR 2026: Korea, Japan, Vietnam, India, MENA' },
   description: 'APAC PR for Web3, AI and cybersecurity founders. Native placements in BloomingBit, TokenPost, CryptoTimes JP, ChainCatcher, Jinse, Inc42. Regional KOLs.',
   
   alternates: { canonical: 'https://www.shilikajain.com/services/apac-pr' },

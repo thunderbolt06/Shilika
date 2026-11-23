@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import type { Metadata } from 'next';
+import { fitTitle } from '@/lib/site-metadata';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 const PAGE_URL = `${SITE_URL}/services/ai-seo/web3-ai-startups`;
@@ -9,7 +10,7 @@ const OG_DESCRIPTION =
   'AI SEO for crypto, Web3 and AI startups. Tier-1 press mentions plus answer pages, schema and a citation panel, run by Shilika Jain and Rahil Jain.';
 
 export const metadata: Metadata = {
-  title: TITLE,
+  title: fitTitle(TITLE),
   description:
     'Get your protocol or AI startup cited when founders, investors and developers ask ChatGPT and Perplexity about your category. Tier-1 PR plus AI SEO.',
   alternates: { canonical: PAGE_URL },

@@ -6,7 +6,7 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'B2B Tech PR Agency 2026 | Category, Analysts, Proof',
+  title: { absolute: 'B2B Tech PR Agency 2026 | Category, Analysts, Proof' },
   description: 'B2B PR that sells to a committee, not a crowd, with category narrative, analyst relations and customer proof that help enterprise deals along.',
   alternates: { canonical: `${SITE_URL}/pages/b2b-tech-pr-agency` },
   openGraph: {

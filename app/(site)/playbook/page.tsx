@@ -4,11 +4,12 @@ import type { Metadata } from 'next';
 import { JsonLdScript } from '@/components/site/JsonLdScript';
 import { isRedirectedPath } from '@/lib/seo-redirects';
 import '../blog/blog.css';
+import { HubIntro } from '@/components/site/HubIntro';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Playbooks: Field Guides From Inside Web3, AI & Cyber PR',
+  title: { absolute: 'Playbooks: Field Guides From Inside Web3, AI & Cyber PR' },
   description:
     '122 long-form playbooks on Web3 PR, AI startup comms and cybersecurity PR: pricing, pitch guides, launch checklists, agency mistakes and named teardowns.',
   alternates: { canonical: `${SITE_URL}/playbook` },
@@ -1080,6 +1081,8 @@ export default function PlaybookIndexPage() {
               </p>
             </div>
           </section>
+
+          <HubIntro hub="playbook" />
 
           <div className="blog-list">
             {PLAYBOOKS.map((p) => (

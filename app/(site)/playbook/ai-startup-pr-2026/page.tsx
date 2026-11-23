@@ -6,7 +6,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'AI Startup PR Strategy 2026: The Full Founder Playbook',
+  title: { absolute: 'AI Startup PR Strategy 2026: The Full Founder Playbook' },
   description:
     'A 14-minute PR playbook for AI startups in 2026. Positioning, narrative, journalist mapping, AI Overviews citations and a Gaia AI worked example.',
   alternates: { canonical: `${SITE_URL}/playbook/ai-startup-pr-2026` },

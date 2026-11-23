@@ -6,7 +6,7 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Top Crypto Marketing Agency 2026 | How to Compare',
+  title: { absolute: 'Top Crypto Marketing Agency 2026 | How to Compare' },
   description: 'A map of the field and how to choose between PR, growth and KOL specialists, with the criteria that separate real operators from resellers.',
   alternates: { canonical: `${SITE_URL}/pages/top-crypto-marketing-agency` },
   openGraph: {

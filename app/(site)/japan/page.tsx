@@ -6,7 +6,7 @@ import { languageAlternates } from '@/lib/i18n/config';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Japan Web3 & AI PR 2026: CoinPost, Nikkei, WebX Tokyo',
+  title: { absolute: 'Japan Web3 & AI PR 2026: CoinPost, Nikkei, WebX Tokyo' },
   description: 'Japan PR for Web3 and AI founders. CoinPost, CoinDesk Japan, CryptoTimes JP, Nikkei, Asahi. FSA-aware framing, WebX Tokyo July 2026, NISA ETF channel.',
   alternates: { canonical: `${SITE_URL}/japan`, languages: languageAlternates('/japan') },
   openGraph: {

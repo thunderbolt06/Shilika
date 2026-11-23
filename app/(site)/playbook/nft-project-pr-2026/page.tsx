@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'PR for an NFT Project in 2026: Beyond the Hype Cycle',
+  title: { absolute: 'PR for an NFT Project in 2026: Beyond the Hype Cycle' },
   description: 'NFTs grew up. How to earn coverage for utility, IP and culture now that the speculative wave is over, with named outlets and angles.',
   alternates: { canonical: `${SITE_URL}/playbook/nft-project-pr-2026` },
   openGraph: {

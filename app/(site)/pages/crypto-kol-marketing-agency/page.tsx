@@ -6,7 +6,7 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Crypto KOL Marketing Agency 2026 | 200+ Vetted Creators',
+  title: { absolute: 'Crypto KOL Marketing Agency 2026 | 200+ Vetted Creators' },
   description: 'Three-wave KOL launches across 200+ vetted creators, with an independent fraud audit before any creator is booked.',
   alternates: { canonical: `${SITE_URL}/pages/crypto-kol-marketing-agency` },
   openGraph: {

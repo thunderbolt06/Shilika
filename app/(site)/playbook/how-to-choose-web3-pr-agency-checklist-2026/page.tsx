@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'How to Choose a Web3 PR Agency in 2026: The Checklist',
+  title: { absolute: 'How to Choose a Web3 PR Agency in 2026: The Checklist' },
   description: 'A founder-ready checklist for evaluating Web3 PR agencies: the questions that expose real access, the red flags, and the model-fit test.',
   alternates: { canonical: `${SITE_URL}/playbook/how-to-choose-web3-pr-agency-checklist-2026` },
   openGraph: {

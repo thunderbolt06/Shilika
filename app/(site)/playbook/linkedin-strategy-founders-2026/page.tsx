@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'LinkedIn Strategy for Web3 and AI Founders in 2026',
+  title: { absolute: 'LinkedIn Strategy for Web3 and AI Founders in 2026' },
   description: 'LinkedIn\'s 2026 algorithm rewards substance and consistency. The posting system that builds authority without turning into a motivational account.',
   alternates: { canonical: `${SITE_URL}/playbook/linkedin-strategy-founders-2026` },
   openGraph: {

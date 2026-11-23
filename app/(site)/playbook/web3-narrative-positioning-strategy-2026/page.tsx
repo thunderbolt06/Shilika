@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Web3 Narrative and Positioning Strategy in 2026',
+  title: { absolute: 'Web3 Narrative and Positioning Strategy in 2026' },
   description: 'Positioning decides which category you compete in before a single pitch goes out. How to build a narrative that a reporter, an investor and a user all believe.',
   alternates: { canonical: `${SITE_URL}/playbook/web3-narrative-positioning-strategy-2026` },
   openGraph: {

@@ -6,7 +6,7 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'APAC Token Launch PR 2026 | Korea, Japan, SEA Timing',
+  title: { absolute: 'APAC Token Launch PR 2026 | Korea, Japan, SEA Timing' },
   description: 'Time a TGE across the three APAC press windows with coordinated translation and regional KOLs, covering Korea, Japan and Southeast Asia.',
   alternates: { canonical: `${SITE_URL}/pages/apac-token-launch-pr` },
   openGraph: {

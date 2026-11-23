@@ -52,3 +52,17 @@ export const metadata: Metadata = {
     ],
   },
 };
+
+/** The layout template appends this to every page title. */
+const BRAND_SUFFIX = ' | Shilika Jain';
+const MAX_TITLE = 60;
+
+/**
+ * Title with the brand suffix only when it fits in 60 characters. A long title drops the
+ * suffix (absolute) so search results do not cut it off. Titles that already end in the
+ * brand are left alone.
+ */
+export function fitTitle(title: string): string | { absolute: string } {
+  if (/\|\s*Shilika Jain\s*$/.test(title)) return { absolute: title };
+  return title.length + BRAND_SUFFIX.length <= MAX_TITLE ? title : { absolute: title };
+}

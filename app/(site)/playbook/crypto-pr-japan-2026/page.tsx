@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Crypto PR in Japan in 2026: Outlets and Approach',
+  title: { absolute: 'Crypto PR in Japan in 2026: Outlets and Approach' },
   description: 'Japan rewards patience, precision and process. The native outlets, the regulatory migration, and why Western pitch habits fail here.',
   alternates: { canonical: `${SITE_URL}/playbook/crypto-pr-japan-2026` },
   openGraph: {

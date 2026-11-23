@@ -6,7 +6,7 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Web3 PR Agency USA 2026 | Tier-1 Crypto & Mainstream',
+  title: { absolute: 'Web3 PR Agency USA 2026 | Tier-1 Crypto & Mainstream' },
   description: 'Cut through the most crowded crypto press market in the world with a senior operator who pitches, not an account team.',
   alternates: { canonical: `${SITE_URL}/pages/web3-pr-agency-usa` },
   openGraph: {

@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'How to Get Featured in Decrypt in 2026: Pitch Guide',
+  title: { absolute: 'How to Get Featured in Decrypt in 2026: Pitch Guide' },
   description: 'What Decrypt\'s editors filter for, the explainer-friendly angle that lands, and a pitch template from a senior Web3 operator\'s playbook.',
   alternates: { canonical: `${SITE_URL}/playbook/how-to-get-featured-in-decrypt-2026` },
   openGraph: {

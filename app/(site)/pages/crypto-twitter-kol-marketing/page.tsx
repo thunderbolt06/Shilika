@@ -6,7 +6,7 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Crypto Twitter KOL Marketing 2026 | X Creator Waves',
+  title: { absolute: 'Crypto Twitter KOL Marketing 2026 | X Creator Waves' },
   description: 'X-native KOL waves with credibility anchors and disclosure language built in, sequenced around your launch and judged on real engagement.',
   alternates: { canonical: `${SITE_URL}/pages/crypto-twitter-kol-marketing` },
   openGraph: {

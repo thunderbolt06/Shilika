@@ -5,7 +5,7 @@ import type { Metadata } from 'next';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Web3Auth Case Study: Google Cloud Meets Web3 Wallets',
+  title: { absolute: 'Web3Auth Case Study: Google Cloud Meets Web3 Wallets' },
   description: 'How Shilika Jain turned the Web3Auth and Google Cloud Firebase launch into tier-1 coverage: Blockworks, CoinDesk, Yahoo Finance, Benzinga, syndicated EU.',
   
   alternates: { canonical: 'https://www.shilikajain.com/work/web3auth' },

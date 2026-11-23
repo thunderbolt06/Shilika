@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Fractional PR vs Hiring an In-House PR Lead in 2026',
+  title: { absolute: 'Fractional PR vs Hiring an In-House PR Lead in 2026' },
   description: 'The build-vs-rent decision for comms. Cost, speed, seniority and risk compared, with a decision tree for founders at each stage.',
   alternates: { canonical: `${SITE_URL}/playbook/fractional-pr-vs-in-house-hire-2026` },
   openGraph: {

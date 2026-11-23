@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Founder Profiling Sprint: 90 Days to Category Voice',
+  title: { absolute: 'Founder Profiling Sprint: 90 Days to Category Voice' },
   description: 'A 6-minute founder profiling playbook: how to turn a technical founder into a category-defining voice in 90 days. Cadence, calendar and the four hand-offs.',
   
   alternates: { canonical: 'https://www.shilikajain.com/playbook/founder-profiling-sprint' },

@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'When Should a Startup Hire Fractional PR in 2026?',
+  title: { absolute: 'When Should a Startup Hire Fractional PR in 2026?' },
   description: 'Too early wastes money; too late wastes momentum. The signals that say it is time, and the milestones that should trigger a comms hire.',
   alternates: { canonical: `${SITE_URL}/playbook/when-to-hire-fractional-pr-2026` },
   openGraph: {

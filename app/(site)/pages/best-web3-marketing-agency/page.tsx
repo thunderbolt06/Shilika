@@ -6,7 +6,7 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Best Web3 Marketing Agency 2026 | PR, KOL, Growth',
+  title: { absolute: 'Best Web3 Marketing Agency 2026 | PR, KOL, Growth' },
   description: 'How to choose a Web3 marketing partner by what you actually need, with the red flags to avoid and the questions that expose real depth.',
   alternates: { canonical: `${SITE_URL}/pages/best-web3-marketing-agency` },
   openGraph: {

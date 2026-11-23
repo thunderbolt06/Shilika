@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { articleNode } from '@/lib/article-schema';
 import { ogImage } from '@/lib/i18n/og';
+import { fitTitle } from '@/lib/site-metadata';
 
 export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
@@ -23,7 +24,7 @@ export function toolMetadata({
   const url = `${SITE_URL}${path}`;
   const card = ogImage(path, SITE_URL);
   return {
-    title,
+    title: fitTitle(title),
     description,
     alternates: { canonical: url },
     openGraph: {

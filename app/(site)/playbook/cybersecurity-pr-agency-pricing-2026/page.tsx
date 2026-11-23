@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Cybersecurity PR Agency Retainer Pricing in 2026',
+  title: { absolute: 'Cybersecurity PR Agency Retainer Pricing in 2026' },
   description: 'What cybersecurity PR costs, why analyst relations changes the math, and how a fractional model compares to a median Series B retainer.',
   alternates: { canonical: `${SITE_URL}/playbook/cybersecurity-pr-agency-pricing-2026` },
   openGraph: {

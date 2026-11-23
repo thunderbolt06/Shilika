@@ -6,7 +6,7 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'DeFi PR Agency 2026 | Protocol & Governance Comms',
+  title: { absolute: 'DeFi PR Agency 2026 | Protocol & Governance Comms' },
   description: 'Earn coverage for a DeFi protocol on The Defiant, DL News and tier-1 crypto desks without sounding like every other yield story.',
   alternates: { canonical: `${SITE_URL}/pages/defi-pr-agency` },
   openGraph: {

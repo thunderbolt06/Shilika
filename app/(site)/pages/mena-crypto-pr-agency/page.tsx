@@ -6,7 +6,7 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'MENA Crypto PR Agency 2026 | Dubai, Abu Dhabi, VARA',
+  title: { absolute: 'MENA Crypto PR Agency 2026 | Dubai, Abu Dhabi, VARA' },
   description: 'MENA placement, VARA-aware framing and Token2049 Dubai leverage, with the MANTRA RWA story behind it.',
   alternates: { canonical: `${SITE_URL}/pages/mena-crypto-pr-agency` },
   openGraph: {

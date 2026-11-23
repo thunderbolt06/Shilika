@@ -7,7 +7,7 @@ import { EditorialScripts } from '@/components/site/EditorialScripts';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Selected Work: Tier-1 Web3 & AI PR Case Studies',
+  title: { absolute: 'Selected Work: Tier-1 Web3 & AI PR Case Studies' },
   description:
     "Stories I've put on the front page: RARI Chain, MANTRA, Gaia AI, Web3Auth, Fluence and Bullieverse. Tier-1 placements in Forbes, CoinDesk and The Block.",
   alternates: { canonical: `${SITE_URL}/work` },

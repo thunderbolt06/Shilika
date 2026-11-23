@@ -6,7 +6,7 @@ import { languageAlternates } from '@/lib/i18n/config';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Dubai & MENA Web3 / AI PR 2026: VARA, ADGM, RAK DAO',
+  title: { absolute: 'Dubai & MENA Web3 / AI PR 2026: VARA, ADGM, RAK DAO' },
   description: 'Dubai and MENA PR for Web3, AI and RWA founders. Arabian Business, Gulf News, The National, AGBI, Cointelegraph Arabic. VARA, ADGM, RAK DAO-aware framing.',
   alternates: { canonical: `${SITE_URL}/dubai-mena`, languages: languageAlternates('/dubai-mena') },
   openGraph: {

@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'How Gaia AI Got Into Forbes: A Teardown (2026)',
+  title: { absolute: 'How Gaia AI Got Into Forbes: A Teardown (2026)' },
   description:
     'A first-hand teardown of the campaign that put Gaia AI in Forbes: the Stripe-for-AI-agents frame, reporter-beat match, timeline, pitch and embargo etiquette.',
   alternates: { canonical: `${SITE_URL}/playbook/how-gaia-ai-got-into-forbes` },

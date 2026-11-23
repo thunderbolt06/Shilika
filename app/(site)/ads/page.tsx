@@ -7,7 +7,7 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.co
 
 export const metadata: Metadata = {
   robots: { index: false, follow: true },
-  title: 'Shilika Jain - Fractional PR for Web3 & AI Founders',
+  title: { absolute: 'Shilika Jain - Fractional PR for Web3 & AI Founders' },
   description: 'Embedded fractional PR for newly-funded Web3 and AI founders. Forbes, CoinDesk, Decrypt placements. 50+ protocols. Book a 30-min teardown call.',
   
   alternates: { canonical: `${SITE_URL}/ads` },

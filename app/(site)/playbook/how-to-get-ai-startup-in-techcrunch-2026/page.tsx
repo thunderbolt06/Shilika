@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'How to Get Your AI Startup Into TechCrunch in 2026',
+  title: { absolute: 'How to Get Your AI Startup Into TechCrunch in 2026' },
   description: 'TechCrunch still sets the startup agenda. What its reporters cover, the exclusive-vs-embargo call, and a pitch that does not get deleted.',
   alternates: { canonical: `${SITE_URL}/playbook/how-to-get-ai-startup-in-techcrunch-2026` },
   openGraph: {

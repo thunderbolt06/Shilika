@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'APAC PR Playbook 2026: Korea, Japan, Vietnam, India',
+  title: { absolute: 'APAC PR Playbook 2026: Korea, Japan, Vietnam, India' },
   description: 'An 11-minute APAC PR breakdown for Korea, Japan, Vietnam and India: which outlets matter, how to pitch them, and what most agencies get wrong.',
   
   alternates: { canonical: 'https://www.shilikajain.com/playbook/apac-pr-playbook-2026' },

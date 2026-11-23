@@ -6,7 +6,7 @@ import Script from 'next/script';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'DAO PR Agency 2026 | Governance & Community Comms',
+  title: { absolute: 'DAO PR Agency 2026 | Governance & Community Comms' },
   description: 'Make governance, treasuries and on-chain decision-making legible to editors and the wider community.',
   alternates: { canonical: `${SITE_URL}/pages/dao-pr-agency` },
   openGraph: {

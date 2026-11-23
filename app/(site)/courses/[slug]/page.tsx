@@ -18,6 +18,7 @@ import { SITE_AUTHOR, SITE_PUBLISHER, articleNode } from '@/lib/article-schema';
 import { ogImage } from '@/lib/i18n/og';
 import '../../blog/blog.css';
 import '../courses.css';
+import { fitTitle } from '@/lib/site-metadata';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 const CARD = ogImage('/speaker', SITE_URL);
@@ -37,7 +38,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   if (!p) return {};
   const url = `${SITE_URL}${coursePath(p)}`;
   return {
-    title: p.metaTitle,
+    title: fitTitle(p.metaTitle),
     description: p.metaDescription,
     keywords: p.keywords,
     alternates: { canonical: url },

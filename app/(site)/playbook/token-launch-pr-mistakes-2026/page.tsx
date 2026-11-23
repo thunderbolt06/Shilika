@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'The Most Common Token Launch PR Mistakes in 2026',
+  title: { absolute: 'The Most Common Token Launch PR Mistakes in 2026' },
   description: 'The avoidable errors that quietly sink a TGE: no news hook, hype with no proof, ignoring APAC, KOL fraud, and going silent after launch.',
   alternates: { canonical: `${SITE_URL}/playbook/token-launch-pr-mistakes-2026` },
   openGraph: {

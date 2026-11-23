@@ -8,7 +8,7 @@ import { languageAlternates } from '@/lib/i18n/config';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Fractional PR vs Web3 PR Agency: How to Choose in 2026',
+  title: { absolute: 'Fractional PR vs Web3 PR Agency: How to Choose in 2026' },
   description: 'Fractional PR vs Web3 PR agency in 2026: cost, speed, founder access, bandwidth and accountability. A decision tree that tells you which model fits your stage.',
   
   alternates: { canonical: 'https://www.shilikajain.com/playbook/fractional-vs-agency', languages: languageAlternates('/playbook/fractional-vs-agency') },

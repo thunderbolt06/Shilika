@@ -33,6 +33,7 @@ import { readingTimeMinutes, renderMarkdown } from '@/lib/markdown';
 import { extractToc } from '@/lib/toc';
 import '../../(site)/blog/blog.css';
 import CalendlyLazy from '@/components/site/CalendlyLazy';
+import { fitTitle } from '@/lib/site-metadata';
 
 /**
  * Translated versions of the pages registered in lib/i18n/config.ts. The
@@ -88,8 +89,8 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   const url = `${SITE_URL}${localizePath(locale, page.path)}`;
   const image = await shareImage(page);
   return {
-    // Some titles already carry the brand; skip the layout's "%s | Shilika Jain" for those.
-    title: /\|\s*Shilika Jain\s*$/.test(title) ? { absolute: title } : title,
+    // fitTitle skips the layout's "%s | Shilika Jain" when the title is long or already carries the brand.
+    title: fitTitle(title),
     description,
     alternates: { canonical: url, languages: languageAlternates(page.path) },
     openGraph: {

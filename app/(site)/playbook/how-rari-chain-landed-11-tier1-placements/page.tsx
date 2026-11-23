@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'How to Land 11 Tier-1 Placements in 24 Hours (2026)',
+  title: { absolute: 'How to Land 11 Tier-1 Placements in 24 Hours (2026)' },
   description:
     'A step-by-step teardown of the launch-day PR behind RARI Chain\'s 11-placement mainnet: sell a category, give one outlet an exclusive, pre-brief the rest.',
   alternates: { canonical: `${SITE_URL}/playbook/how-rari-chain-landed-11-tier1-placements` },

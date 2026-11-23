@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'How to Announce a Binance Listing: PR Strategy for 2026',
+  title: { absolute: 'How to Announce a Binance Listing: PR Strategy for 2026' },
   description: 'An exchange listing is a 24-hour window. How to coordinate the announcement, the embargo, and the KOL wave so the listing actually lands.',
   alternates: { canonical: `${SITE_URL}/playbook/binance-listing-announcement-pr-2026` },
   openGraph: {

@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'How to Run a KOL Campaign for a Token Launch in 2026',
+  title: { absolute: 'How to Run a KOL Campaign for a Token Launch in 2026' },
   description: 'The three-wave KOL sequence that actually moves a launch: credibility anchors, broad activation, sustained deep-dives, with timing and briefs.',
   alternates: { canonical: `${SITE_URL}/playbook/kol-campaign-token-launch-2026` },
   openGraph: {

@@ -7,7 +7,7 @@ import { stripLegacyChrome } from '@/lib/legacy-chrome';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: 'Cybersecurity Breach and Crisis Communications in 2026',
+  title: { absolute: 'Cybersecurity Breach and Crisis Communications in 2026' },
   description: 'When you are the breach, not the researcher. The first-hour playbook, the holding statement, and how to communicate through an incident.',
   alternates: { canonical: `${SITE_URL}/playbook/cybersecurity-breach-crisis-comms-2026` },
   openGraph: {
