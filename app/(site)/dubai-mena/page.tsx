@@ -6,11 +6,11 @@ import { languageAlternates } from '@/lib/i18n/config';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: { absolute: 'Dubai & MENA Web3 / AI PR 2026: VARA, ADGM, RAK DAO' },
+  title: { absolute: 'Web3 and AI PR in Dubai and MENA 2026: VARA, ADGM' },
   description: 'Dubai and MENA PR for Web3, AI and RWA founders. Arabian Business, Gulf News, The National, AGBI, Cointelegraph Arabic. VARA, ADGM, RAK DAO-aware framing.',
   alternates: { canonical: `${SITE_URL}/dubai-mena`, languages: languageAlternates('/dubai-mena') },
   openGraph: {
-    title: 'Dubai & MENA Web3 / AI PR 2026: VARA, ADGM, RAK DAO',
+    title: 'Web3 and AI PR in Dubai and MENA 2026: VARA, ADGM',
     description: 'Dubai and MENA PR for Web3, AI and RWA founders. Arabian Business, Gulf News, The National, AGBI, Wamda, Cointelegraph Arabic. VARA Travel Rule + Token Issuance + Derivatives Rulebooks, ADGM Product Intervention Powers, RAK DAO DLT Foundations framing.',
     url: `${SITE_URL}/dubai-mena`,
     type: 'website',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Dubai & MENA Web3 / AI PR 2026: VARA, ADGM, RAK DAO',
+    title: 'Web3 and AI PR in Dubai and MENA 2026: VARA, ADGM',
     description: 'Dubai and MENA PR for Web3, AI and RWA founders. VARA, ADGM, RAK DAO-aware framing. Post-Token2049 calendar reshape.',
     images: [
       {
