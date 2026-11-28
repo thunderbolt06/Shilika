@@ -6,11 +6,11 @@ import { languageAlternates } from '@/lib/i18n/config';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.shilikajain.com';
 
 export const metadata: Metadata = {
-  title: { absolute: 'Japan Web3 & AI PR 2026: CoinPost, Nikkei, WebX Tokyo' },
+  title: { absolute: 'Web3 and AI PR in Japan 2026: CoinPost, Nikkei, FSA' },
   description: 'Japan PR for Web3 and AI founders. CoinPost, CoinDesk Japan, CryptoTimes JP, Nikkei, Asahi. FSA-aware framing, WebX Tokyo July 2026, NISA ETF channel.',
   alternates: { canonical: `${SITE_URL}/japan`, languages: languageAlternates('/japan') },
   openGraph: {
-    title: 'Japan Web3 & AI PR 2026: CoinPost, Nikkei, WebX Tokyo',
+    title: 'Web3 and AI PR in Japan 2026: CoinPost, Nikkei, FSA',
     description: 'Japan PR for Web3 and AI founders. CoinPost, CoinDesk Japan, Cointelegraph Japan, CryptoTimes JP, Iolite, Nikkei, Asahi Shimbun. FSA-aware framing under the June 1 2026 Payment Services Act amendments, the FIEA reclassification track and the spot BTC/ETH ETF NISA pipeline. WebX 2026 The Prince Park Tower Tokyo, July 13 to 14.',
     url: `${SITE_URL}/japan`,
     type: 'website',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Japan Web3 & AI PR 2026: CoinPost, Nikkei, WebX Tokyo',
+    title: 'Web3 and AI PR in Japan 2026: CoinPost, Nikkei, FSA',
     description: 'Japan PR for Web3 and AI founders. FSA-aware framing, WebX 2026 calendar, JPY-stablecoin and FIEA-reclassification anchor.',
     images: [
       {
